@@ -1,119 +1,50 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website phanngoquocbao.id.vn</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        body {
-            background-color: #f4f6f9;
-            color: #333;
-            padding: 30px 20px;
-        }
-        .container {
-            background: #ffffff;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-            max-width: 900px;
-            margin: 0 auto;
-            text-align: left;
-        }
-        h1 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-            font-size: 26px;
-            text-align: left;
-        }
-        .header-desc {
-            color: #666;
-            line-height: 1.6;
-            margin-bottom: 15px;
-            text-align: left;
-        }
-        .status-badge {
-            display: inline-block;
-            background-color: #e8f5e9;
-            color: #2e7d32;
-            padding: 6px 16px;
-            border-radius: 20px;
-            font-size: 14px;
-            font-weight: 600;
-        }
-        .status-wrapper {
-            text-align: left;
-            margin-bottom: 25px;
-        }
-        .content-box {
-            background: #fafafa;
-            border: 1px solid #eee;
-            border-radius: 8px;
-            padding: 25px;
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            font-size: 15px;
-            line-height: 1.8;
-            color: #444;
-            text-align: left;
-        }
-        /* Thông báo sau khi sao chép */
-        .toast-message {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
+<script>
+    // Tự động tạo nút Copy cho mỗi bài làm
+    document.querySelectorAll('.bai-lam').forEach((el, index) => {
+        // Tạo container bọc ngoài
+        const wrapper = document.createElement('div');
+        wrapper.style.position = 'relative';
+        wrapper.style.marginTop = '10px';
+        
+        // Tạo nút bấm
+        const btn = document.createElement('button');
+        btn.innerText = '📋 Sao chép bài làm';
+        btn.style.cssText = `
+            margin-top: 8px;
+            padding: 6px 14px;
             background-color: #2e7d32;
-            color: #fff;
-            padding: 12px 24px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
             font-weight: 600;
-            display: none;
-            z-index: 1000;
+            font-size: 13px;
+        `;
+
+        // Sự kiện click để copy
+        btn.addEventListener('click', () => {
+            navigator.clipboard.writeText(el.innerText).then(() => {
+                showToast('Đã sao chép bài làm vào bộ nhớ tạm!');
+            });
+        });
+
+        // Chèn nút vào sau nội dung bài làm
+        el.parentNode.insertBefore(wrapper, el.nextSibling);
+        wrapper.appendChild(btn);
+    });
+
+    // Hàm hiển thị thông báo toast
+    function showToast(message) {
+        let toast = document.querySelector('.toast-message');
+        if (!toast) {
+            toast = document.createElement('div');
+            toast.className = 'toast-message';
+            document.body.appendChild(toast);
         }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Chào mừng đến với Website</h1>
-        <p class="header-desc">Trang web của <strong>phanngoquocbao.id.vn</strong> đã khởi tạo thành công!</p>
-        <div class="status-wrapper">
-            <div class="status-badge">Website đang hoạt động</div>
-        </div>
-
-        <div class="content-box">
-PHẦN 1: TASK 1 - VIẾT THƯ / EMAIL (120 TỪ)
-
-Bài mẫu 1: Email gửi bạn thân kể về ngày yêu thích trong tuần
-Đề bài: Your friend Jane has written you a letter asking: “What’s your favorite day of the week? I’d love to hear all about it.” Write an email (about 120 words) to tell your friend about your favorite day.
-
-Bài làm:
-<span class="bai-lam">Dear Jane,
-It’s amazing to get your letter. How are things? I hope they are all fine. I am going to tell you my favorite day of the week. I like Sunday most because I don’t have to go to school and I can do a lot of things I like. In the morning, I get up at about 6 o’clock and then I go to the park near my house to do some exercise. I usually play badminton with my friends. It’s relaxing and good for my health. Then I go home and have a bath. I have breakfast with bread and a cup of coffee. Sometimes I go out and have pho, a traditional Vietnamese dish. After breakfast I often go shopping with my best friend, Phuong. We buy things and eat at a shopping center. In the afternoon, I go swimming - this is my favorite sport. I really like being in water. In the evening, I go to the cinema with my family. Sometimes we go to a restaurant and eat there. Later in the evening, I do my homework and go to bed. That is my favorite day of the week. Tell me about your favorite day in your next letter. I look forward to hearing from you.
-Love,
-(no name)</span>
-
-
-Bài mẫu 2: Thư xin việc vị trí Quản lý kinh doanh
-Đề bài: You are going to apply for the Sales Manager position at a company. Write a letter (at least 120 words) to express your interest in this job, describe your work experience and skills, and express your wish to attend an interview.
-
-Bài làm:
-<span class="bai-lam">Dear Sir/Madam,
-I am writing to express my interest in the Sales Manager position at BetTok Company, as advertised on your website. I have over three years of experience in sales and customer service, and I also have good communication and negotiation skills. I have successfully increased sales in my current role by 15% over the past year. I think my ability to understand customer needs and build relationships makes me a suitable candidate for this job. I am confident that my skills and experience will fit well with the requirements of your team. I hope to discuss my application further in an interview at your earliest convenience. Thank you for considering my application.
-Sincerely,
-Taylor Brown</span>
-
-
-PHẦN 2: TASK 2 - BÀI LUẬN / ESSAY (250 TỪ)
-
-Bài mẫu 3: Bài luận về lợi ích và tác hại của mua sắm trực tuyến
-Đề bài: “Nowadays online shopping becomes more popular than in-store shopping. Is it a positive or a negative development?” Write an essay of about 250 words discussing the advantages and disadvantages of online shopping, giving reasons and examples to support your opinion.
-
-Bài làm:
-<span class="bai-lam">We cannot deny that more and more people are becoming interested in online shopping. However, there are both good and bad things about shopping on the internet.
-On the one hand, online shopping has some advantages. First, it is convenient because we do not have to go to physical stores to buy things. We can stay at home and purchase many items easily. We just need to turn on the computer, look for products online, place an order
+        toast.innerText = message;
+        toast.style.display = 'block';
+        setTimeout(() => {
+            toast.style.display = 'none';
+        }, 2000);
+    }
+</script>
