@@ -1,50 +1,39 @@
-<script>
-    // Tự động tạo nút Copy cho mỗi bài làm
-    document.querySelectorAll('.bai-lam').forEach((el, index) => {
-        // Tạo container bọc ngoài
-        const wrapper = document.createElement('div');
-        wrapper.style.position = 'relative';
-        wrapper.style.marginTop = '10px';
-        
-        // Tạo nút bấm
-        const btn = document.createElement('button');
-        btn.innerText = '📋 Sao chép bài làm';
-        btn.style.cssText = `
-            margin-top: 8px;
-            padding: 6px 14px;
-            background-color: #2e7d32;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-weight: 600;
-            font-size: 13px;
-        `;
+<!-- Dán đoạn này ngay trước thẻ </body> -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Tự động tìm tất cả các bài làm
+            document.querySelectorAll('.bai-lam').forEach(el => {
+                // Tạo nút "Sao chép" bên dưới mỗi bài
+                const btn = document.createElement('button');
+                btn.innerText = '📋 Sao chép bài làm';
+                btn.style.cssText = 'display: block; margin-top: 10px; padding: 8px 16px; background-color: #2e7d32; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 13px;';
 
-        // Sự kiện click để copy
-        btn.addEventListener('click', () => {
-            navigator.clipboard.writeText(el.innerText).then(() => {
-                showToast('Đã sao chép bài làm vào bộ nhớ tạm!');
+                // Bấm nút để copy nội dung
+                btn.addEventListener('click', () => {
+                    navigator.clipboard.writeText(el.innerText).then(() => {
+                        showToast('Đã sao chép bài làm vào bộ nhớ tạm!');
+                    });
+                });
+
+                // Chèn nút vào ngay sau bài làm
+                el.after(btn);
             });
+
+            // Hàm hiện thông báo xanh ở góc dưới
+            function showToast(message) {
+                let toast = document.querySelector('.toast-message');
+                if (!toast) {
+                    toast = document.createElement('div');
+                    toast.className = 'toast-message';
+                    document.body.appendChild(toast);
+                }
+                toast.innerText = message;
+                toast.style.display = 'block';
+                setTimeout(() => {
+                    toast.style.display = 'none';
+                }, 2000);
+            }
         });
-
-        // Chèn nút vào sau nội dung bài làm
-        el.parentNode.insertBefore(wrapper, el.nextSibling);
-        wrapper.appendChild(btn);
-    });
-
-    // Hàm hiển thị thông báo toast
-    function showToast(message) {
-        let toast = document.querySelector('.toast-message');
-        if (!toast) {
-            toast = document.createElement('div');
-            toast.className = 'toast-message';
-            document.body.appendChild(toast);
-        }
-        toast.innerText = message;
-        toast.style.display = 'block';
-        setTimeout(() => {
-            toast.style.display = 'none';
-        }, 2000);
-    }
-</script>
+    </script>
+</body>
+</html>
