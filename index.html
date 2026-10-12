@@ -93,7 +93,7 @@
       transition: 0.2s;
     }
     .btn-unlock:hover { opacity: 0.9; }
-    .error-msg { color: var(--danger); font-size: 0.82rem; margin-top: 8px; display: none; }
+    .error-msg { color: var(--danger); font-size: 0.82rem; margin-top: 10px; display: none; font-weight: 600; }
 
     /* NỘI DUNG CHÍNH */
     .container { max-width: 960px; margin: 0 auto; display: none; }
@@ -111,7 +111,7 @@
     h1 { font-size: 2rem; font-weight: 800; margin-bottom: 6px; }
     header p { color: var(--text-muted); font-size: 0.92rem; }
 
-    /* LƯỚI DANH MỤC NÚT (TELEGRAM STYLE) */
+    /* LƯỚI DANH MỤC */
     .app-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
@@ -185,7 +185,6 @@
     }
     .btn-buy:hover { opacity: 0.9; }
 
-    /* NÚT ĐĂNG XUẤT */
     .btn-lock-again {
       display: block;
       margin: 24px auto 0;
@@ -201,7 +200,7 @@
 </head>
 <body>
 
-  <!-- 1. MÀN HÌNH KHÓA MẬT MÃ -->
+  <!-- MÀN HÌNH KHÓA -->
   <div class="lock-overlay" id="lockScreen">
     <div class="lock-box">
       <div class="lock-icon">
@@ -212,15 +211,15 @@
       <h2 class="lock-title">Trang Web Bảo Mật</h2>
       <p class="lock-desc">Vui lòng nhập mật mã được cấp để xem bảng giá dịch vụ.</p>
       
-      <form onsubmit="handleUnlock(event)">
-        <input type="password" id="passInput" class="pass-input" placeholder="Nhập mật khẩu..." autofocus required>
+      <form id="unlockForm">
+        <input type="password" id="passInput" class="pass-input" placeholder="Nhập mật khẩu..." autofocus required autocomplete="off">
         <button type="submit" class="btn-unlock">Mở Bảng Giá</button>
         <div id="errorMsg" class="error-msg">Mật mã không chính xác. Vui lòng thử lại!</div>
       </form>
     </div>
   </div>
 
-  <!-- 2. NỘI DUNG BẢNG GIÁ DỊCH VỤ -->
+  <!-- NỘI DUNG CHÍNH -->
   <div class="container" id="mainApp">
     <header>
       <div class="badge">Bảng Giá Dịch Vụ Số Chính Chủ</div>
@@ -228,10 +227,8 @@
       <p>Bảo hành full thời hạn • Kích hoạt nhanh 5–10 phút</p>
     </header>
 
-    <!-- Danh sách ứng dụng bấm chọn -->
     <div class="app-grid" id="appGrid"></div>
 
-    <!-- Chi tiết bảng giá của ứng dụng đang chọn -->
     <div class="pricing-container">
       <div class="pricing-header">
         <div class="pricing-title" id="selectedAppName">YouTube Premium</div>
@@ -245,15 +242,9 @@
   </div>
 
   <script>
-    // ==========================================
-    // CẤU HÌNH CỦA BẠN
-    // ==========================================
-    const ACCESS_PASSWORD = "010203";       // MẬT MÃ BẠN CẤP CHO KHÁCH (Thay đổi theo ý bạn)
-    const ZALO_PHONE = "0373996379";      // Số điện thoại Zalo nhận đơn của bạn
+    const ACCESS_PASSWORD = "010203";
+    const ZALO_PHONE = "0373996379";
 
-    // ==========================================
-    // DỮ LIỆU BẢNG GIÁ CÁC ỨNG DỤNG
-    // ==========================================
     const services = {
       youtube: {
         name: "YouTube Premium",
@@ -304,39 +295,17 @@
       }
     };
 
-    // ==========================================
-    // LOGIC XỬ LÝ KHÓA TRUY CẬP & GIAO DIỆN
-    // ==========================================
+    let currentKey = 'youtube';
+
     function checkAccess() {
       if (sessionStorage.getItem('site_unlocked') === 'true') {
-        document.getElementById('lockScreen').style.display = 'none';
-        document.getElementById('mainApp').style.display = 'block';
+        const lockScreen = document.getElementById('lockScreen');
+        const mainApp = document.getElementById('mainApp');
+        if (lockScreen) lockScreen.style.display = 'none';
+        if (mainApp) mainApp.style.display = 'block';
         initApp();
       }
     }
-
-    function handleUnlock(e) {
-      e.preventDefault();
-      const enteredPass = document.getElementById('passInput').value.trim();
-      const errorMsg = document.getElementById('errorMsg');
-
-      if (enteredPass === ACCESS_PASSWORD) {
-        sessionStorage.setItem('site_unlocked', 'true');
-        document.getElementById('lockScreen').style.display = 'none';
-        document.getElementById('mainApp').style.display = 'block';
-        initApp();
-      } else {
-        errorMsg.style.display = 'block';
-        document.getElementById('passInput').value = '';
-      }
-    }
-
-    function lockPage() {
-      sessionStorage.removeItem('site_unlocked');
-      location.reload();
-    }
-
-    let currentKey = 'youtube';
 
     function initApp() {
       renderAppGrid();
@@ -345,11 +314,12 @@
 
     function renderAppGrid() {
       const grid = document.getElementById('appGrid');
+      if (!grid) return;
       grid.innerHTML = Object.keys(services).map(key => {
         const item = services[key];
         const isActive = key === currentKey ? 'active' : '';
         return `
-          <button class="app-btn ${isActive}" onclick="selectApp('${key}')">
+          <button type="button" class="app-btn ${isActive}" onclick="selectApp('${key}')">
             <span class="app-icon">${item.icon}</span>
             <span class="app-name">${item.name}</span>
           </button>
@@ -365,10 +335,12 @@
 
     function renderPricing(key) {
       const current = services[key];
-      document.getElementById('selectedAppName').innerText = current.name;
-      const list = document.getElementById('pricingList');
+      const titleEl = document.getElementById('selectedAppName');
+      const listEl = document.getElementById('pricingList');
+      if (titleEl) titleEl.innerText = current.name;
+      if (!listEl) return;
 
-      list.innerHTML = current.plans.map(p => {
+      listEl.innerHTML = current.plans.map(p => {
         const orderMsg = encodeURIComponent(`Chào bạn, mình cần mua gói: ${p.name} (${p.price}). Hướng dẫn mình nhé!`);
         return `
           <div class="price-item">
@@ -385,8 +357,45 @@
       }).join('');
     }
 
-    // Kiểm tra phiên đăng nhập ngay khi mở trang
-    checkAccess();
+    function lockPage() {
+      sessionStorage.removeItem('site_unlocked');
+      window.location.reload();
+    }
+
+    // Gắn sự kiện submit form an toàn
+    document.addEventListener('DOMContentLoaded', () => {
+      checkAccess();
+
+      const form = document.getElementById('unlockForm');
+      const passInput = document.getElementById('passInput');
+      const errorMsg = document.getElementById('errorMsg');
+
+      if (passInput) {
+        passInput.addEventListener('input', () => {
+          if (errorMsg) errorMsg.style.display = 'none';
+        });
+      }
+
+      if (form) {
+        form.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const enteredPass = passInput.value.trim();
+
+          if (enteredPass === ACCESS_PASSWORD) {
+            sessionStorage.setItem('site_unlocked', 'true');
+            const lockScreen = document.getElementById('lockScreen');
+            const mainApp = document.getElementById('mainApp');
+            if (lockScreen) lockScreen.style.display = 'none';
+            if (mainApp) mainApp.style.display = 'block';
+            initApp();
+          } else {
+            if (errorMsg) errorMsg.style.display = 'block';
+            passInput.value = '';
+            passInput.focus();
+          }
+        });
+      }
+    });
   </script>
 </body>
 </html>
