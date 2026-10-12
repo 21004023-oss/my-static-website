@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quản trị sản phẩm (riêng tư)</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    body { min-height: 100vh; background: #0f172a; color: #e2e8f0; padding: 24px 16px; }
+    .wrap { max-width: 1000px; margin: 0 auto; }
+    .card { background: #111827; border: 1px solid #334155; border-radius: 16px; padding: 20px; margin-bottom: 16px; }
+    h1 { font-size: 1.4rem; margin-bottom: 6px; }
+    .muted { color: #94a3b8; font-size: 0.9rem; }
+    input, select, button { padding: 10px 12px; border-radius: 10px; border: 1px solid #334155; font-size: 0.95rem; }
+    input, select { background: #0b1220; color: #fff; width: 100%; margin-top: 8px; }
+    button { background: #38bdf8; border: none; font-weight: 700; cursor: pointer; margin-top: 10px; }
+    button.ghost { background: transparent; border: 1px solid #334155; color: #e2e8f0; }
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 0.9rem; }
+    th, td { text-align: left; padding: 10px; border-bottom: 1px solid #334155; vertical-align: top; }
+    th { color: #94a3b8; font-size: 0.75rem; text-transform: uppercase; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    @media (max-width: 700px) { .row { grid-template-columns: 1fr; } }
+    .warn { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.4); border-radius: 12px; padding: 12px 14px; margin-bottom: 16px; font-size: 0.9rem; }
+    #adminArea { display: none; }
+    textarea { width: 100%; min-height: 220px; background: #0b1220; color: #fff; border: 1px solid #334155; border-radius: 10px; padding: 12px; margin-top: 8px; font-family: Consolas, monospace; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card" id="gateCard">
+      <h1>Khu vực riêng của chủ shop</h1>
+      <p class="muted">Trang này không liên kết từ trang khách. Nhập mật khẩu quản trị để mở công cụ sửa sản phẩm.</p>
+      <input id="adminPass" type="password" placeholder="Mật khẩu quản trị" autocomplete="off" />
+      <button id="unlockBtn">Mở công cụ sửa</button>
+      <p class="muted" id="gateErr" style="display:none;color:#fca5a5;margin-top:8px;">Sai mật khẩu.</p>
+    </div>
+
+    <div id="adminArea">
+      <div class="warn">Chỉ bạn mới đăng được thay đổi lên web, vì bước cuối cùng phải đăng nhập GitHub của bạn mới lưu được file. Người khác dù đoán ra địa chỉ trang này cũng không đăng nhập GitHub của bạn để lưu.</div>
+
+      <div class="card">
+        <h1>Sửa sản phẩm / giá</h1>
+        <p class="muted">Sửa trực tiếp bên dưới, rồi bấm “Tạo file JSON mới”. Sau đó bạn đăng file đó lên GitHub (có nút mở sẵn trang đăng file).</p>
+        <div class="row">
+          <div>
+            <label>Ứng dụng</label>
+            <select id="pAppKey"></select>
+          </div>
+          <div>
+            <label>Tên gói</label>
+            <input id="pName" maxlength="120" placeholder="Ví dụ: YouTube Premium 1 Tháng" />
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <label>Giá bán (VNĐ)</label>
+            <input id="pPrice" type="number" min="0" max="1000000000" placeholder="35000" />
+          </div>
+          <div>
+            <label>Tồn kho</label>
+            <input id="pStock" type="number" min="0" max="1000000" placeholder="50" />
+          </div>
+        </div>
+        <label>Mô tả</label>
+        <input id="pDesc" maxlength="200" placeholder="Bảo hành full thời hạn" />
+        <button id="savePlanBtn">Lưu gói vào danh sách bên dưới</button>
+        <button class="ghost" id="cancelEditBtn" style="display:none;">Hủy sửa</button>
+      </div>
+
+      <div class="card">
+        <h1>Danh sách hiện tại</h1>
+        <div style="overflow-x:auto;">
+          <table>
+            <thead><tr><th>Ứng dụng</th><th>Gói</th><th>Giá bán</th><th>Kho</th><th>Thao tác</th></tr></thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+        <div class="row">
+          <div><button class="ghost" id="addAppBtn">+ Thêm ứng dụng mới</button></div>
+          <div><button class="ghost" id="loadBtn">Tải lại dữ liệu đang chạy trên web</button></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h1>Đăng thay đổi lên web</h1>
+        <p class="muted">Bấm nút 1 để tải file mới về máy, bấm nút 2 để mở trang GitHub, kéo file vào rồi bấm Commit. Web tự cập nhật sau vài phút.</p>
+        <button id="exportBtn">1. Tải file services.json mới</button>
+        <button class="ghost" id="openGithubBtn">2. Mở trang đăng file lên GitHub</button>
+        <label style="display:block;margin-top:12px;">Xem trước nội dung file sẽ đăng:</label>
+        <textarea id="preview" readonly></textarea>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ===== CHỈNH 2 DÒNG NÀY TRƯỚC KHI ĐĂNG =====
+    var ADMIN_PASSWORD = 'doi-mat-khau-rieng-cua-ban'; // đổi thành mật khẩu chỉ bạn biết
+    var GITHUB_UPLOAD_URL = 'https://github.com/21004023-oss/my-static-website/upload/main/data'; // trang upload file data
+    // ===========================================
+
+    var data = {};
+    var editAppKey = '';
+    var editIndex = -1;
+
+    document.getElementById('unlockBtn').addEventListener('click', function () {
+      var v = document.getElementById('adminPass').value;
+      if (v === ADMIN_PASSWORD) {
+        document.getElementById('gateCard').style.display = 'none';
+        document.getElementById('adminArea').style.display = 'block';
+        loadData();
+      } else {
+        document.getElementById('gateErr').style.display = 'block';
+      }
+    });
+    document.getElementById('adminPass').addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') document.getElementById('unlockBtn').click();
+    });
+
+    function loadData() {
+      fetch('./data/services.json', { cache: 'no-store' })
+        .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(function (j) { data = j; render(); })
+        .catch(function () { data = {}; render(); });
+    }
+    document.getElementById('loadBtn').addEventListener('click', loadData);
+
+    function fmt(n) { return Number(n || 0).toLocaleString('vi-VN'); }
+
+    function render() {
+      var sel = document.getElementById('pAppKey');
+      var keys = Object.keys(data);
+      sel.innerHTML = keys.length
+        ? keys.map(function (k) { return '<option value="' + k + '">' + data[k].name + '</option>'; }).join('')
+        : '<option value="">Chưa có app nào</option>';
+      var rows = '';
+      keys.forEach(function (appKey) {
+        (data[appKey].plans || []).forEach(function (plan, idx) {
+          rows += '<tr><td><strong>' + escapeHtml(data[appKey].name) + '</strong></td>'
+            + '<td>' + escapeHtml(plan.name) + '</td>'
+            + '<td>' + fmt(plan.price) + ' đ</td>'
+            + '<td>' + escapeHtml(String(plan.stock)) + '</td>'
+            + '<td><button data-a="' + appKey + '" data-i="' + idx + '" data-act="edit">Sửa</button> '
+            + '<button data-a="' + appKey + '" data-i="' + idx + '" data-act="del">Xóa</button></td></tr>';
+        });
+      });
+      document.getElementById('tableBody').innerHTML = rows || '<tr><td colspan="5" style="color:#94a3b8;">Chưa có gói nào.</td></tr>';
+      document.getElementById('preview').value = JSON.stringify(data, null, 2);
+    }
+
+    function escapeHtml(s) {
+      return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    document.getElementById('tableBody').addEventListener('click', function (e) {
+      var b = e.target.closest('button[data-act]');
+      if (!b) return;
+      var appKey = b.getAttribute('data-a');
+      var idx = Number(b.getAttribute('data-i'));
+      if (b.getAttribute('data-act') === 'edit') {
+        var plan = data[appKey].plans[idx];
+        editAppKey = appKey; editIndex = idx;
+        document.getElementById('pAppKey').value = appKey;
+        document.getElementById('pAppKey').disabled = true;
+        document.getElementById('pName').value = plan.name || '';
+        document.getElementById('pPrice').value = plan.price || 0;
+        document.getElementById('pStock').value = plan.stock || 0;
+        document.getElementById('pDesc').value = plan.desc || '';
+        document.getElementById('savePlanBtn').textContent = 'Cập nhật gói';
+        document.getElementById('cancelEditBtn').style.display = 'inline-block';
+      } else {
+        if (!confirm('Xóa gói này?')) return;
+        data[appKey].plans.splice(idx, 1);
+        render();
+      }
+    });
+
+    document.getElementById('cancelEditBtn').addEventListener('click', function () {
+      editAppKey = ''; editIndex = -1;
+      document.getElementById('pAppKey').disabled = false;
+      document.getElementById('savePlanBtn').textContent = 'Lưu gói vào danh sách bên dưới';
+      this.style.display = 'none';
+    });
+
+    document.getElementById('savePlanBtn').addEventListener('click', function () {
+      var appKey = document.getElementById('pAppKey').value;
+      var name = document.getElementById('pName').value.trim();
+      var price = Number(document.getElementById('pPrice').value || 0);
+      var stock = Number(document.getElementById('pStock').value || 0);
+      var desc = document.getElementById('pDesc').value.trim() || 'Bảo hành full thời hạn';
+      if (!appKey || !name) { alert('Chọn ứng dụng và nhập tên gói.'); return; }
+      if (editIndex >= 0 && editAppKey) {
+        var old = data[editAppKey].plans[editIndex] || {};
+        data[editAppKey].plans[editIndex] = { id: old.id || String(Date.now()), name: name, desc: desc, price: price, stock: stock };
+        editAppKey = ''; editIndex = -1;
+        document.getElementById('pAppKey').disabled = false;
+        document.getElementById('savePlanBtn').textContent = 'Lưu gói vào danh sách bên dưới';
+        document.getElementById('cancelEditBtn').style.display = 'none';
+      } else {
+        data[appKey].plans.push({ id: String(Date.now()), name: name, desc: desc, price: price, stock: stock });
+      }
+      document.getElementById('pName').value = '';
+      render();
+    });
+
+    document.getElementById('addAppBtn').addEventListener('click', function () {
+      var key = (prompt('Mã app viết liền (vd: netflix):') || '').trim().toLowerCase().replace(/[^a-z0-9_-]/g, '');
+      if (!key) return;
+      var name = (prompt('Tên hiển thị (vd: Netflix Premium):') || '').trim().slice(0, 80);
+      if (!name) return;
+      var icon = (prompt('Emoji (vd: 🎬):', '📦') || '📦').slice(0, 8);
+      if (data[key]) { alert('Mã app đã tồn tại.'); return; }
+      data[key] = { name: name, icon: icon, plans: [] };
+      render();
+    });
+
+    document.getElementById('exportBtn').addEventListener('click', function () {
+      var blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      var a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'services.json';
+      a.click();
+      URL.revokeObjectURL(a.href);
+      alert('Đã tải file mới. Giờ bấm nút 2 để mở GitHub và kéo file này vào.');
+    });
+
+    document.getElementById('openGithubBtn').addEventListener('click', function () {
+      window.open(GITHUB_UPLOAD_URL, '_blank');
+    });
+  </script>
+</body>
+</html>

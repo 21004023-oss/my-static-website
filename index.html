@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bảng Giá Dịch Vụ Số - phanngoquocbao.id.vn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root { --bg:#070d17; --line:rgba(148,163,184,0.18); --text:#f8fafc; --muted:#94a3b8; --primary:#38bdf8; --primary-2:#0ea5e9; --accent:#34d399; --danger:#fb7185; }
+    * { box-sizing:border-box; margin:0; padding:0; font-family:'Plus Jakarta Sans',sans-serif; }
+    body { min-height:100vh; background:radial-gradient(circle at top left,rgba(56,189,248,0.18),transparent 28%),radial-gradient(circle at bottom right,rgba(52,211,153,0.14),transparent 22%),linear-gradient(135deg,var(--bg) 0%,#0b1220 100%); color:var(--text); padding:28px 16px; }
+    .container { max-width:1100px; margin:0 auto; }
+    header { text-align:center; margin-bottom:28px; }
+    .badge { display:inline-block; padding:6px 12px; border-radius:99px; background:rgba(52,211,153,0.15); color:var(--accent); font-size:0.75rem; font-weight:800; letter-spacing:0.05em; margin-bottom:10px; }
+    h1 { font-size:clamp(2rem,3vw,2.7rem); font-weight:800; margin-bottom:8px; }
+    header p { color:var(--muted); font-size:0.96rem; }
+    .app-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-bottom:24px; }
+    .app-btn { background:rgba(15,23,42,0.72); border:1px solid var(--line); border-radius:18px; padding:16px 12px; color:var(--text); cursor:pointer; display:flex; flex-direction:column; align-items:center; gap:10px; }
+    .app-btn.active { background:rgba(56,189,248,0.08); border-color:rgba(56,189,248,0.5); }
+    .app-icon { font-size:1.8rem; }
+    .app-name { font-size:0.85rem; font-weight:700; text-align:center; }
+    .pricing-container { background:rgba(15,23,42,0.9); border:1px solid var(--line); border-radius:24px; padding:24px; }
+    .pricing-header { display:flex; justify-content:space-between; align-items:center; gap:12px; border-bottom:1px solid var(--line); padding-bottom:14px; margin-bottom:18px; flex-wrap:wrap; }
+    .pricing-title { font-size:clamp(1.1rem,2vw,1.4rem); font-weight:800; }
+    .pricing-list { display:flex; flex-direction:column; gap:12px; }
+    .price-item { display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; padding:16px 18px; border-radius:16px; background:rgba(15,23,42,0.7); border:1px solid var(--line); }
+    .item-info h4 { font-size:1rem; font-weight:800; margin-bottom:4px; }
+    .item-info p { color:var(--muted); font-size:0.82rem; }
+    .item-right { display:flex; align-items:center; flex-wrap:wrap; gap:12px; }
+    .stock-badge { padding:5px 9px; border-radius:8px; background:rgba(148,163,184,0.12); color:var(--muted); font-size:0.72rem; font-weight:700; }
+    .item-price { font-size:1.15rem; font-weight:800; color:var(--accent); }
+    .btn-buy { display:inline-flex; align-items:center; padding:9px 14px; border-radius:12px; background:linear-gradient(135deg,var(--primary),var(--accent)); color:#04121e; font-weight:800; text-decoration:none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">Bảng Giá Dịch Vụ Số Chính Chủ</div>
+      <h1>Bảng Giá Dịch Vụ &amp; Tài Khoản</h1>
+      <p>Bảo hành full thời hạn • Kích hoạt nhanh 5–10 phút</p>
+    </header>
+    <div class="app-grid" id="appGrid"></div>
+    <div class="pricing-container">
+      <div class="pricing-header">
+        <div class="pricing-title" id="selectedAppName">Đang tải...</div>
+        <span style="font-size:0.85rem;color:var(--muted);">Bảo hành 1 đổi 1</span>
+      </div>
+      <div class="pricing-list" id="pricingList"></div>
+    </div>
+  </div>
+  <script>
+    var ZALO_PHONE = '0373996379';
+    var services = {};
+    var currentKey = '';
+    function loadData() {
+      fetch('./data/services.json', { cache: 'no-store' })
+        .then(function (res) { if (!res.ok) throw new Error('HTTP ' + res.status); return res.json(); })
+        .then(function (json) {
+          services = json;
+          var keys = Object.keys(services);
+          if (!keys.length) throw new Error('Dữ liệu đang trống.');
+          currentKey = keys[0];
+          renderAppGrid();
+          renderPricing(currentKey);
+        })
+        .catch(function (err) {
+          document.getElementById('pricingList').innerHTML = '';
+          var p = document.createElement('p');
+          p.style.cssText = 'color:var(--danger);padding:20px;';
+          p.textContent = 'Lỗi tải dữ liệu: ' + err.message;
+          document.getElementById('pricingList').appendChild(p);
+        });
+    }
+    function renderAppGrid() {
+      var grid = document.getElementById('appGrid');
+      grid.innerHTML = '';
+      Object.keys(services).forEach(function (key) {
+        var item = services[key];
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'app-btn' + (key === currentKey ? ' active' : '');
+        var icon = document.createElement('span');
+        icon.className = 'app-icon';
+        icon.textContent = item.icon || '📦';
+        var nm = document.createElement('span');
+        nm.className = 'app-name';
+        nm.textContent = item.name;
+        b.appendChild(icon); b.appendChild(nm);
+        b.addEventListener('click', function () { currentKey = key; renderAppGrid(); renderPricing(key); });
+        grid.appendChild(b);
+      });
+    }
+    function renderPricing(key) {
+      var app = services[key];
+      if (!app) return;
+      document.getElementById('selectedAppName').textContent = app.name;
+      var listEl = document.getElementById('pricingList');
+      listEl.innerHTML = '';
+      (app.plans || []).forEach(function (plan) {
+        var row = document.createElement('div'); row.className = 'price-item';
+        var info = document.createElement('div'); info.className = 'item-info';
+        var h = document.createElement('h4'); h.textContent = plan.name;
+        var p = document.createElement('p'); p.textContent = plan.desc || 'Bảo hành full thời hạn';
+        info.appendChild(h); info.appendChild(p);
+        var right = document.createElement('div'); right.className = 'item-right';
+        var stock = document.createElement('span'); stock.className = 'stock-badge'; stock.textContent = 'Còn: ' + plan.stock;
+        var price = document.createElement('span'); price.className = 'item-price';
+        price.textContent = Number(plan.price || 0).toLocaleString('vi-VN') + ' đ';
+        var a = document.createElement('a'); a.className = 'btn-buy'; a.target = '_blank'; a.rel = 'noreferrer';
+        a.href = 'https://zalo.me/' + ZALO_PHONE + '?text=' + encodeURIComponent('Chào shop, mình cần mua gói: ' + plan.name + ' (' + Number(plan.price || 0).toLocaleString('vi-VN') + ' đ). Hướng dẫn mình nhé!');
+        a.textContent = 'Đặt Mua';
+        right.appendChild(stock); right.appendChild(price); right.appendChild(a);
+        row.appendChild(info); row.appendChild(right);
+        listEl.appendChild(row);
+      });
+    }
+    document.addEventListener('DOMContentLoaded', loadData);
+  </script>
+</body>
+</html>

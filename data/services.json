@@ -1,0 +1,35 @@
+{
+  "youtube": {
+    "name": "YouTube Premium",
+    "icon": "📺",
+    "plans": [
+      {
+        "id": "yt-1",
+        "name": "YouTube Premium 1 Tháng",
+        "desc": "Bảo hành full thời hạn",
+        "price": 80000,
+        "stock": 18
+      },
+      {
+        "id": "yt-6",
+        "name": "YouTube Premium 6 Tháng",
+        "desc": "Bảo hành full thời hạn",
+        "price": 380000,
+        "stock": 10
+      }
+    ]
+  },
+  "spotify": {
+    "name": "Spotify Premium",
+    "icon": "🎵",
+    "plans": [
+      {
+        "id": "sp-1",
+        "name": "Spotify Premium 1 Tháng",
+        "desc": "Bảo hành full thời hạn",
+        "price": 35000,
+        "stock": 50
+      }
+    ]
+  }
+}
