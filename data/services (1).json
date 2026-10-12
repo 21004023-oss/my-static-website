@@ -1,34 +1,241 @@
 {
   "youtube": {
-    "name": "YouTube Premium",
-    "icon": "📺",
-    "plans": [
-      {
-        "id": "yt-1",
-        "name": "YouTube Premium 1 Tháng",
-        "desc": "Bảo hành full thời hạn",
-        "price": 80000,
-        "stock": 18
-      },
-      {
-        "id": "yt-6",
-        "name": "YouTube Premium 6 Tháng",
-        "desc": "Bảo hành full thời hạn",
-        "price": 380000,
-        "stock": 10
-      }
-    ]
+    "name": "Youtube",
+    "short": "YT",
+    "plans": []
+  },
+  "chatgpt": {
+    "name": "Chat GPT",
+    "short": "GPT",
+    "plans": []
+  },
+  "google-ultra": {
+    "name": "Google Ultra",
+    "short": "GU",
+    "plans": []
+  },
+  "app-lam-dep": {
+    "name": "App Làm Đẹp",
+    "short": "LĐ",
+    "plans": []
+  },
+  "app-vpn": {
+    "name": "App VPN",
+    "short": "VPN",
+    "plans": []
+  },
+  "microsoft-365": {
+    "name": "Microsoft 365",
+    "short": "M365",
+    "plans": []
+  },
+  "adobe": {
+    "name": "Adobe",
+    "short": "AD",
+    "plans": []
+  },
+  "canva": {
+    "name": "Canva",
+    "short": "CV",
+    "plans": []
+  },
+  "capcut": {
+    "name": "Capcut",
+    "short": "CC",
+    "plans": []
+  },
+  "api-claude": {
+    "name": "API Claude",
+    "short": "CL",
+    "plans": []
+  },
+  "duolingo": {
+    "name": "Duolingo",
+    "short": "DU",
+    "plans": []
+  },
+  "seedance": {
+    "name": "Seedance",
+    "short": "SE",
+    "plans": []
+  },
+  "outlook": {
+    "name": "Outlook",
+    "short": "OL",
+    "plans": []
+  },
+  "gmail": {
+    "name": "Gmail",
+    "short": "GM",
+    "plans": []
+  },
+  "google-one": {
+    "name": "Google One",
+    "short": "G1",
+    "plans": []
+  },
+  "grok": {
+    "name": "Grok",
+    "short": "GR",
+    "plans": []
+  },
+  "kling": {
+    "name": "Kling",
+    "short": "KL",
+    "plans": []
+  },
+  "mbbank": {
+    "name": "MB Bank",
+    "short": "MB",
+    "plans": []
+  },
+  "apple": {
+    "name": "Apple",
+    "short": "AP",
+    "plans": []
+  },
+  "netflix": {
+    "name": "Netflix",
+    "short": "NF",
+    "plans": []
+  },
+  "notion": {
+    "name": "Notion",
+    "short": "NO",
+    "plans": []
+  },
+  "perplexity": {
+    "name": "Perplexity",
+    "short": "PP",
+    "plans": []
+  },
+  "quizlet": {
+    "name": "Quizlet",
+    "short": "QZ",
+    "plans": []
+  },
+  "reddit": {
+    "name": "Reddit",
+    "short": "RD",
+    "plans": []
   },
   "spotify": {
-    "name": "Spotify Premium",
-    "icon": "🎵",
+    "name": "Spotify",
+    "short": "SP",
+    "plans": []
+  },
+  "app-phim": {
+    "name": "App Phim",
+    "short": "PH",
+    "plans": []
+  },
+  "autodesk": {
+    "name": "Autodesk",
+    "short": "AU",
+    "plans": []
+  },
+  "minimax": {
+    "name": "Minimax",
+    "short": "MM",
+    "plans": []
+  },
+  "locket": {
+    "name": "Locket",
+    "short": "LO",
+    "plans": []
+  },
+  "coursera": {
+    "name": "Coursera",
+    "short": "CO",
+    "plans": []
+  },
+  "elevenlabs": {
+    "name": "Elevenlabs",
+    "short": "EL",
+    "plans": []
+  },
+  "higgsfield": {
+    "name": "Higgfield",
+    "short": "HG",
+    "plans": []
+  },
+  "leonardo": {
+    "name": "Leonardo AI",
+    "short": "LE",
+    "plans": []
+  },
+  "suno": {
+    "name": "Suno",
+    "short": "SU",
+    "plans": []
+  },
+  "amazon-prime": {
+    "name": "Amazon Prime",
+    "short": "AM",
+    "plans": []
+  },
+  "deepseek": {
+    "name": "Deepseek",
+    "short": "DS",
+    "plans": []
+  },
+  "icloud": {
+    "name": "Icloud",
+    "short": "IC",
+    "plans": []
+  },
+  "linkedin": {
+    "name": "Linkedin",
+    "short": "LI",
+    "plans": []
+  },
+  "zoom": {
+    "name": "Zoom",
+    "short": "ZO",
+    "plans": []
+  },
+  "muse-ai": {
+    "name": "Muse AI",
+    "short": "MU",
+    "plans": []
+  },
+  "openart": {
+    "name": "OpenArt",
+    "short": "OA",
+    "plans": []
+  },
+  "akool": {
+    "name": "Akool",
+    "short": "AK",
+    "plans": []
+  },
+  "lovable": {
+    "name": "Lovable",
+    "short": "LV",
+    "plans": []
+  },
+  "heygen": {
+    "name": "HeyGen",
+    "short": "HY",
+    "plans": []
+  },
+  "veo3": {
+    "name": "Slot Veo3 Ultra",
+    "short": "V3",
+    "plans": []
+  },
+  "khac": {
+    "name": "Khác",
+    "short": "＋",
     "plans": [
       {
-        "id": "sp-1",
-        "name": "Spotify Premium 1 Tháng",
-        "desc": "Bảo hành full thời hạn",
-        "price": 10000,
-        "stock": 50
+        "id": "kh-1",
+        "name": "Sản phẩm theo yêu cầu",
+        "detail": "Nhắn Zalo tên sản phẩm cần mua, shop báo giá.",
+        "source": "Liên hệ shop",
+        "duration": "Theo gói",
+        "price": 0,
+        "stock": 99
       }
     ]
   }
