@@ -38,7 +38,7 @@
       min-height: 100vh;
     }
 
-    /* Topbar mở rộng tối đa */
+    /* Topbar */
     .topbar {
       background: #0f172a;
       color: #fff;
@@ -103,13 +103,13 @@
       pointer-events: none;
     }
 
-    /* Layout 3 cột bung rộng, cân đối */
+    /* Layout 3 cột bung rộng */
     .layout {
       max-width: 1600px;
       margin: 24px auto;
       padding: 0 24px 60px;
       display: grid;
-      grid-template-columns: 260px minmax(0, 1fr) 420px;
+      grid-template-columns: 260px minmax(0, 1fr) 440px;
       gap: 24px;
       align-items: start;
     }
@@ -187,10 +187,8 @@
       color: #fff;
     }
 
-    /* CỘT 2: Danh sách sản phẩm rộng rãi */
-    .col-products {
-      min-width: 0;
-    }
+    /* CỘT 2: Danh sách sản phẩm */
+    .col-products { min-width: 0; }
     .section-header {
       display: flex;
       justify-content: space-between;
@@ -287,11 +285,9 @@
       justify-content: flex-end;
       gap: 4px;
     }
-    .plan-card.selected .view-btn {
-      color: var(--primary-dark);
-    }
+    .plan-card.selected .view-btn { color: var(--primary-dark); }
 
-    /* CỘT 3: Chi tiết mô tả rộng rãi, căn lề chuẩn */
+    /* CỘT 3: Chi tiết mô tả có link bấm được */
     .col-detail {
       background: var(--card-bg);
       border-radius: var(--radius);
@@ -339,16 +335,14 @@
       border: 1px solid #fecaca;
     }
 
-    /* Khung Mô Tả Sản Phẩm */
-    .desc-wrapper {
-      margin-bottom: 20px;
-    }
+    /* Hộp Mô Tả Chi Tiết */
+    .desc-wrapper { margin-bottom: 20px; }
     .desc-label {
       font-size: 12.5px;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      color: #3b82f6;
+      color: #2563eb;
       margin-bottom: 10px;
       display: flex;
       align-items: center;
@@ -360,12 +354,25 @@
       border-radius: 10px;
       padding: 16px 18px;
       font-size: 13.5px;
-      line-height: 1.75;
+      line-height: 1.8;
       color: #334155;
       white-space: pre-line;
       word-break: break-word;
       max-height: 420px;
       overflow-y: auto;
+    }
+
+    /* Định dạng cho đường link bấm được trong mô tả */
+    .desc-box a.desc-link {
+      color: #0284c7;
+      font-weight: 700;
+      text-decoration: underline;
+      word-break: break-all;
+      transition: color 0.15s ease;
+    }
+    .desc-box a.desc-link:hover {
+      color: #0369a1;
+      text-decoration: none;
     }
 
     .spec-list {
@@ -403,17 +410,11 @@
       box-shadow: 0 6px 20px rgba(5, 150, 105, 0.35);
     }
 
-    /* Responsive cho màn hình nhỏ */
+    /* Responsive */
     @media(max-width: 1200px) {
-      .layout {
-        grid-template-columns: 240px 1fr;
-      }
-      .col-detail {
-        grid-column: 1 / -1;
-        position: static;
-      }
+      .layout { grid-template-columns: 240px 1fr; }
+      .col-detail { grid-column: 1 / -1; position: static; }
     }
-
     @media(max-width: 768px) {
       .topbar { padding: 14px 16px; }
       .layout {
@@ -449,7 +450,7 @@
   <div class="topbar-content">
     <div class="brand">
       <h1>⚡ BẢNG GIÁ DỊCH VỤ SỐ</h1>
-     
+      <p>Đặt mua qua Zalo: <b>0373 996 379</b> · Hỗ trợ 8:00 – 23:00</p>
     </div>
     <div class="search-box">
       <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
@@ -518,6 +519,25 @@ function getStockInfo(p) {
     return { tag: 'Còn ' + num, isOut: false, badgeText: '✓ Còn ' + num + ' tài khoản' };
   }
   return { tag: 'Tạm hết', isOut: true, badgeText: '⚠ Tạm hết hàng' };
+}
+
+// Hàm chuyển URL thành link bấm được và giữ nguyên xuống dòng
+function formatDetail(text) {
+  if (!text) return 'Sản phẩm đang được cập nhật thông tin mô tả chi tiết.';
+  
+  // 1. Escape HTML an toàn
+  var safe = text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+
+  // 2. Tìm và bọc thẻ <a> cho các đường link http:// và https://
+  var urlPattern = /(https?:\/\/[^\s]+)/g;
+  return safe.replace(urlPattern, function(url) {
+    var cleanUrl = url.replace(/[.,;:)\]]+$/, '');
+    var trailing = url.slice(cleanUrl.length);
+    return `<a href="${cleanUrl}" target="_blank" rel="noopener noreferrer" class="desc-link">${cleanUrl}</a>${trailing}`;
+  });
 }
 
 function loadData() {
@@ -680,7 +700,7 @@ function renderDetail(catName) {
         <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
         Mô tả chi tiết sản phẩm
       </div>
-      <div class="desc-box">${p.detail || 'Sản phẩm đang được cập nhật thông tin mô tả chi tiết.'}</div>
+      <div class="desc-box">${formatDetail(p.detail)}</div>
     </div>
 
     <div class="spec-list">
