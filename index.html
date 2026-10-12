@@ -18,6 +18,7 @@
       --primary: #38bdf8;
       --accent: #10b981;
       --danger: #ef4444;
+      --warning: #f59e0b;
       --btn-bg: #1e293b;
     }
 
@@ -32,7 +33,7 @@
       padding: 30px 16px;
     }
 
-    /* MÀN HÌNH KHÓA TRUY CẬP */
+    /* MÀN HÌNH KHÓA */
     .lock-overlay {
       position: fixed;
       inset: 0;
@@ -97,7 +98,7 @@
 
     /* NỘI DUNG CHÍNH */
     .container { max-width: 960px; margin: 0 auto; display: none; }
-    header { text-align: center; margin-bottom: 30px; }
+    header { text-align: center; margin-bottom: 30px; position: relative; }
     .badge {
       display: inline-block;
       padding: 4px 12px;
@@ -108,8 +109,43 @@
       font-weight: 700;
       margin-bottom: 10px;
     }
+    .admin-indicator {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      background: rgba(245, 158, 11, 0.2);
+      color: var(--warning);
+      font-size: 0.8rem;
+      font-weight: 800;
+      margin-left: 8px;
+    }
     h1 { font-size: 2rem; font-weight: 800; margin-bottom: 6px; }
     header p { color: var(--text-muted); font-size: 0.92rem; }
+
+    /* THANH CÔNG CỤ ADMIN */
+    .admin-bar {
+      display: none;
+      background: rgba(30, 41, 59, 0.9);
+      border: 1px dashed var(--warning);
+      border-radius: 14px;
+      padding: 12px 18px;
+      margin-bottom: 24px;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .admin-btn {
+      background: var(--primary);
+      color: #04121e;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.82rem;
+      cursor: pointer;
+    }
+    .admin-btn.danger { background: var(--danger); color: #fff; }
 
     /* LƯỚI DANH MỤC */
     .app-grid {
@@ -139,7 +175,7 @@
     .app-icon { font-size: 1.5rem; }
     .app-name { font-size: 0.88rem; font-weight: 700; }
 
-    /* BẢNG GIÁ DỊCH VỤ */
+    /* BẢNG GIÁ */
     .pricing-container {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
@@ -170,7 +206,7 @@
     }
     .item-info h4 { font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
     .item-info p { font-size: 0.82rem; color: var(--text-muted); }
-    .item-right { display: flex; align-items: center; gap: 16px; }
+    .item-right { display: flex; align-items: center; gap: 12px; }
     .item-price { font-size: 1.2rem; font-weight: 800; color: var(--accent); }
     .btn-buy {
       background: var(--primary);
@@ -183,7 +219,16 @@
       cursor: pointer;
       text-decoration: none;
     }
-    .btn-buy:hover { opacity: 0.9; }
+    .btn-del {
+      background: rgba(239, 68, 68, 0.2);
+      color: var(--danger);
+      border: 1px solid rgba(239, 68, 68, 0.4);
+      padding: 8px 10px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.8rem;
+      cursor: pointer;
+    }
 
     .btn-lock-again {
       display: block;
@@ -195,6 +240,39 @@
       border-radius: 8px;
       font-size: 0.82rem;
       cursor: pointer;
+    }
+
+    /* MODAL FORM THÊM GÓI / THÊM APP */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(6px);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .modal-card {
+      background: #111827;
+      border: 1px solid var(--card-border);
+      padding: 24px;
+      border-radius: 16px;
+      width: 100%;
+      max-width: 420px;
+    }
+    .form-group { margin-bottom: 14px; }
+    .form-group label { display: block; font-size: 0.85rem; margin-bottom: 6px; color: var(--text-muted); font-weight: 600; }
+    .modal-input {
+      width: 100%;
+      padding: 10px 12px;
+      background: #1e293b;
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      color: #fff;
+      font-size: 0.9rem;
+      outline: none;
     }
   </style>
 </head>
@@ -209,7 +287,7 @@
         </svg>
       </div>
       <h2 class="lock-title">Trang Web Bảo Mật</h2>
-      <p class="lock-desc">Vui lòng nhập mật mã được cấp để xem bảng giá dịch vụ.</p>
+      <p class="lock-desc">Nhập mật mã để xem bảng giá dịch vụ.</p>
       
       <form id="unlockForm">
         <input type="password" id="passInput" class="pass-input" placeholder="Nhập mật khẩu..." autofocus required autocomplete="off">
@@ -223,12 +301,26 @@
   <div class="container" id="mainApp">
     <header>
       <div class="badge">Bảng Giá Dịch Vụ Số Chính Chủ</div>
+      <span id="adminBadge" class="admin-indicator" style="display: none;">👑 CHẾ ĐỘ ADMIN</span>
       <h1>Bảng Giá Dịch Vụ & Tài Khoản</h1>
       <p>Bảo hành full thời hạn • Kích hoạt nhanh 5–10 phút</p>
     </header>
 
+    <!-- THANH QUẢN TRỊ VIÊN DÀNH RIÊNG CHO BẠN -->
+    <div class="admin-bar" id="adminBar">
+      <span style="font-size: 0.85rem; font-weight: 700; color: var(--warning);">⚡ Thao Tác Quản Trị:</span>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+        <button class="admin-btn" onclick="openAddPlanModal()">➕ Thêm Gói Cho App Này</button>
+        <button class="admin-btn" onclick="openAddAppModal()">📱 Thêm App Mới</button>
+        <button class="admin-btn danger" onclick="deleteCurrentApp()">🗑️ Xóa Cả App Này</button>
+        <button class="admin-btn" style="background: #334155; color: #fff;" onclick="resetDefaultData()">↺ Khôi Phục Gốc</button>
+      </div>
+    </div>
+
+    <!-- Danh mục ứng dụng -->
     <div class="app-grid" id="appGrid"></div>
 
+    <!-- Bảng giá ứng dụng -->
     <div class="pricing-container">
       <div class="pricing-header">
         <div class="pricing-title" id="selectedAppName">YouTube Premium</div>
@@ -241,11 +333,62 @@
     <button class="btn-lock-again" onclick="lockPage()">🔒 Khóa lại trang web</button>
   </div>
 
+  <!-- MODAL: THÊM GÓI MỚI -->
+  <div class="modal-overlay" id="addPlanModal">
+    <div class="modal-card">
+      <h3 style="margin-bottom: 16px;">Thêm Gói Mới Cho App</h3>
+      <div class="form-group">
+        <label>Tên gói dịch vụ:</label>
+        <input type="text" id="newPlanName" class="modal-input" placeholder="Ví dụ: YouTube Premium 6 Tháng">
+      </div>
+      <div class="form-group">
+        <label>Mô tả chi tiết:</label>
+        <input type="text" id="newPlanDesc" class="modal-input" placeholder="Ví dụ: Add thẳng vào Gmail, bảo hành full">
+      </div>
+      <div class="form-group">
+        <label>Giá bán niêm yết:</label>
+        <input type="text" id="newPlanPrice" class="modal-input" placeholder="Ví dụ: 190.000 đ">
+      </div>
+      <div style="display: flex; gap: 10px; margin-top: 20px;">
+        <button class="admin-btn" style="flex: 1;" onclick="submitAddPlan()">Lưu Gói</button>
+        <button class="admin-btn danger" onclick="closeModal('addPlanModal')">Hủy</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: THÊM APP MỚI -->
+  <div class="modal-overlay" id="addAppModal">
+    <div class="modal-card">
+      <h3 style="margin-bottom: 16px;">Thêm Ứng Dụng Mới</h3>
+      <div class="form-group">
+        <label>Mã định danh (viết liền, không dấu):</label>
+        <input type="text" id="newAppKey" class="modal-input" placeholder="Ví dụ: claude">
+      </div>
+      <div class="form-group">
+        <label>Tên ứng dụng hiển thị:</label>
+        <input type="text" id="newAppName" class="modal-input" placeholder="Ví dụ: Claude AI Pro">
+      </div>
+      <div class="form-group">
+        <label>Icon / Biểu tượng Emoji:</label>
+        <input type="text" id="newAppIcon" class="modal-input" placeholder="Ví dụ: 🧠 hoặc 🚀">
+      </div>
+      <div style="display: flex; gap: 10px; margin-top: 20px;">
+        <button class="admin-btn" style="flex: 1;" onclick="submitAddApp()">Tạo App</button>
+        <button class="admin-btn danger" onclick="closeModal('addAppModal')">Hủy</button>
+      </div>
+    </div>
+  </div>
+
   <script>
-    const ACCESS_PASSWORD = "010203";
+    // ==========================================
+    // CẤU HÌNH PHÂN QUYỀN MẬT KHẨU
+    // ==========================================
+    const PASS_GUEST = "010203";  // Khách nhập pass này: CHỈ XEM GIÁ
+    const PASS_ADMIN = "888888";  // BẠN nhập pass này: ĐƯỢC THÊM / XÓA / SỬA TÙY Ý
     const ZALO_PHONE = "0373996379";
 
-    const services = {
+    // Dữ liệu gốc dự phòng
+    const defaultServices = {
       youtube: {
         name: "YouTube Premium",
         icon: "▶️",
@@ -295,14 +438,27 @@
       }
     };
 
-    let currentKey = 'youtube';
+    // Đọc dữ liệu từ bộ nhớ LocalStorage (nếu đã từng sửa)
+    let services = JSON.parse(localStorage.getItem('my_custom_services')) || defaultServices;
+    let currentKey = Object.keys(services)[0] || 'youtube';
+    let isAdmin = false;
+
+    function saveServices() {
+      localStorage.setItem('my_custom_services', JSON.stringify(services));
+    }
 
     function checkAccess() {
-      if (sessionStorage.getItem('site_unlocked') === 'true') {
-        const lockScreen = document.getElementById('lockScreen');
-        const mainApp = document.getElementById('mainApp');
-        if (lockScreen) lockScreen.style.display = 'none';
-        if (mainApp) mainApp.style.display = 'block';
+      const role = sessionStorage.getItem('user_role');
+      if (role === 'admin' || role === 'guest') {
+        isAdmin = (role === 'admin');
+        document.getElementById('lockScreen').style.display = 'none';
+        document.getElementById('mainApp').style.display = 'block';
+
+        if (isAdmin) {
+          document.getElementById('adminBar').style.display = 'flex';
+          document.getElementById('adminBadge').style.display = 'inline-block';
+        }
+
         initApp();
       }
     }
@@ -337,10 +493,20 @@
       const current = services[key];
       const titleEl = document.getElementById('selectedAppName');
       const listEl = document.getElementById('pricingList');
+      if (!current) {
+        listEl.innerHTML = '<p style="color: var(--text-muted); padding: 20px;">Chưa có dữ liệu.</p>';
+        return;
+      }
+
       if (titleEl) titleEl.innerText = current.name;
       if (!listEl) return;
 
-      listEl.innerHTML = current.plans.map(p => {
+      if (!current.plans || current.plans.length === 0) {
+        listEl.innerHTML = '<p style="color: var(--text-muted); padding: 20px;">Chưa có gói nào trong dịch vụ này. ' + (isAdmin ? 'Hãy bấm "Thêm Gói" phía trên để tạo.' : '') + '</p>';
+        return;
+      }
+
+      listEl.innerHTML = current.plans.map((p, idx) => {
         const orderMsg = encodeURIComponent(`Chào bạn, mình cần mua gói: ${p.name} (${p.price}). Hướng dẫn mình nhé!`);
         return `
           <div class="price-item">
@@ -351,18 +517,111 @@
             <div class="item-right">
               <span class="item-price">${p.price}</span>
               <a href="https://zalo.me/${ZALO_PHONE}?text=${orderMsg}" target="_blank" class="btn-buy">Đặt Mua</a>
+              ${isAdmin ? `<button class="btn-del" onclick="deletePlan(${idx})">Xóa Gói</button>` : ''}
             </div>
           </div>
         `;
       }).join('');
     }
 
+    // ==========================================
+    // CÁC HÀM QUẢN TRỊ ADMIN (THÊM / XÓA)
+    // ==========================================
+    function deletePlan(idx) {
+      if (!confirm(`Bạn có chắc muốn xóa gói: "${services[currentKey].plans[idx].name}"?`)) return;
+      services[currentKey].plans.splice(idx, 1);
+      saveServices();
+      renderPricing(currentKey);
+    }
+
+    function openAddPlanModal() {
+      document.getElementById('newPlanName').value = '';
+      document.getElementById('newPlanDesc').value = '';
+      document.getElementById('newPlanPrice').value = '';
+      document.getElementById('addPlanModal').style.display = 'flex';
+    }
+
+    function submitAddPlan() {
+      const name = document.getElementById('newPlanName').value.trim();
+      const desc = document.getElementById('newPlanDesc').value.trim();
+      const price = document.getElementById('newPlanPrice').value.trim();
+
+      if (!name || !price) {
+        alert("Vui lòng nhập tên gói và giá bán!");
+        return;
+      }
+
+      if (!services[currentKey].plans) services[currentKey].plans = [];
+      services[currentKey].plans.push({ name, desc: desc || "Kích hoạt chính chủ, bảo hành full hạn", price });
+      saveServices();
+      closeModal('addPlanModal');
+      renderPricing(currentKey);
+    }
+
+    function openAddAppModal() {
+      document.getElementById('newAppKey').value = '';
+      document.getElementById('newAppName').value = '';
+      document.getElementById('newAppIcon').value = '';
+      document.getElementById('addAppModal').style.display = 'flex';
+    }
+
+    function submitAddApp() {
+      const key = document.getElementById('newAppKey').value.trim().toLowerCase();
+      const name = document.getElementById('newAppName').value.trim();
+      const icon = document.getElementById('newAppIcon').value.trim() || '📦';
+
+      if (!key || !name) {
+        alert("Vui lòng nhập mã và tên ứng dụng!");
+        return;
+      }
+      if (services[key]) {
+        alert("Mã ứng dụng này đã tồn tại!");
+        return;
+      }
+
+      services[key] = { name, icon, plans: [] };
+      currentKey = key;
+      saveServices();
+      closeModal('addAppModal');
+      renderAppGrid();
+      renderPricing(key);
+    }
+
+    function deleteCurrentApp() {
+      if (Object.keys(services).length <= 1) {
+        alert("Phải giữ lại ít nhất 1 ứng dụng trong hệ thống!");
+        return;
+      }
+      if (!confirm(`Bạn có chắc chắn muốn XÓA TOÀN BỘ ứng dụng "${services[currentKey].name}"?`)) return;
+
+      delete services[currentKey];
+      currentKey = Object.keys(services)[0];
+      saveServices();
+      renderAppGrid();
+      renderPricing(currentKey);
+    }
+
+    function resetDefaultData() {
+      if (confirm("Bạn có muốn khôi phục lại toàn bộ bảng giá về mặc định ban đầu không?")) {
+        localStorage.removeItem('my_custom_services');
+        services = JSON.parse(JSON.stringify(defaultServices));
+        currentKey = 'youtube';
+        initApp();
+      }
+    }
+
+    function closeModal(modalId) {
+      document.getElementById(modalId).style.display = 'none';
+    }
+
     function lockPage() {
-      sessionStorage.removeItem('site_unlocked');
+      sessionStorage.removeItem('user_role');
       window.location.reload();
     }
 
-    // Gắn sự kiện submit form an toàn
+    // ==========================================
+    // XỬ LÝ ĐĂNG NHẬP
+    // ==========================================
     document.addEventListener('DOMContentLoaded', () => {
       checkAccess();
 
@@ -381,12 +640,21 @@
           e.preventDefault();
           const enteredPass = passInput.value.trim();
 
-          if (enteredPass === ACCESS_PASSWORD) {
-            sessionStorage.setItem('site_unlocked', 'true');
-            const lockScreen = document.getElementById('lockScreen');
-            const mainApp = document.getElementById('mainApp');
-            if (lockScreen) lockScreen.style.display = 'none';
-            if (mainApp) mainApp.style.display = 'block';
+          if (enteredPass === PASS_ADMIN) {
+            sessionStorage.setItem('user_role', 'admin');
+            isAdmin = true;
+            document.getElementById('lockScreen').style.display = 'none';
+            document.getElementById('mainApp').style.display = 'block';
+            document.getElementById('adminBar').style.display = 'flex';
+            document.getElementById('adminBadge').style.display = 'inline-block';
+            initApp();
+          } else if (enteredPass === PASS_GUEST) {
+            sessionStorage.setItem('user_role', 'guest');
+            isAdmin = false;
+            document.getElementById('lockScreen').style.display = 'none';
+            document.getElementById('mainApp').style.display = 'block';
+            document.getElementById('adminBar').style.display = 'none';
+            document.getElementById('adminBadge').style.display = 'none';
             initApp();
           } else {
             if (errorMsg) errorMsg.style.display = 'block';
