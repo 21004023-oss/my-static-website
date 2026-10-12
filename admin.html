@@ -3,492 +3,412 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bảng Giá Dịch Vụ Số - Bản Quyền Chính Hãng</title>
+  <title>Bảng Quản Trị Dịch Vụ - Admin Panel</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg-page: #0b0f17;
-      --card-bg: #111827;
-      --card-hover: #1f2937;
-      --border-color: #1f2937;
-      --border-light: #374151;
-      --text-main: #f9fafb;
-      --text-muted: #9ca3af;
-      --primary: #3b82f6;
-      --primary-hover: #2563eb;
+      --bg: #0b0f17;
+      --card: #111827;
+      --card-border: #1f2937;
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
       --green: #10b981;
-      --green-bg: #064e3b;
-      --yellow: #f59e0b;
+      --red: #ef4444;
+      --text: #f9fafb;
+      --text-muted: #9ca3af;
     }
-
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      background-color: var(--bg-page);
-      color: var(--text-main);
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-
-    /* Header */
-    header {
-      background: #0f172a;
-      border-bottom: 1px solid var(--border-color);
-      padding: 18px 24px;
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', sans-serif; }
+    body { background: var(--bg); color: var(--text); padding: 24px; min-height: 100vh; }
+    
+    .admin-header {
+      max-width: 1400px;
+      margin: 0 auto 24px auto;
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
       gap: 16px;
-      position: sticky;
-      top: 0;
-      z-index: 50;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--card-border);
     }
-
-    .brand h1 {
-      font-size: 20px;
-      font-weight: 800;
-      display: flex;
+    .admin-title h1 { font-size: 22px; font-weight: 800; display: flex; align-items: center; gap: 8px; }
+    .admin-title p { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
+    
+    .header-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn {
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: 13.5px;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
       align-items: center;
-      gap: 8px;
-      color: #fff;
+      gap: 6px;
+      transition: all 0.2s;
     }
+    .btn-primary { background: var(--primary); color: #fff; }
+    .btn-primary:hover { background: var(--primary-hover); }
+    .btn-success { background: #059669; color: #fff; }
+    .btn-success:hover { background: #047857; }
+    .btn-danger { background: #dc2626; color: #fff; }
+    .btn-danger:hover { background: #b91c1c; }
+    .btn-outline { background: #1e293b; color: #cbd5e1; border: 1px solid #334155; }
+    .btn-outline:hover { background: #334155; color: #fff; }
 
-    .brand p {
-      font-size: 13px;
-      color: var(--text-muted);
-      margin-top: 4px;
+    .main-wrap { max-width: 1400px; margin: 0 auto; display: grid; grid-template-columns: 280px 1fr; gap: 24px; }
+    @media(max-width: 900px){ .main-wrap { grid-template-columns: 1fr; } }
+
+    /* Category sidebar */
+    .sidebar { background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 16px; height: fit-content; }
+    .cat-item {
+      padding: 12px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+      font-size: 14px;
+      color: #cbd5e1;
+      transition: 0.2s;
     }
+    .cat-item:hover { background: #1e293b; }
+    .cat-item.active { background: var(--primary); color: #fff; font-weight: 600; }
+    .badge { font-size: 11px; padding: 2px 8px; border-radius: 12px; background: rgba(255,255,255,0.15); }
 
-    .brand p b { color: var(--green); }
+    /* Content */
+    .content-area { display: flex; flex-direction: column; gap: 16px; }
+    .content-top { display: flex; justify-content: space-between; align-items: center; padding: 0 4px; }
+    .content-top h2 { font-size: 18px; font-weight: 700; }
 
-    .search-box {
-      position: relative;
+    .plan-table-card {
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    table { width: 100%; border-collapse: collapse; text-align: left; font-size: 13.5px; }
+    th { background: #0f172a; padding: 14px 16px; color: var(--text-muted); font-size: 12.5px; text-transform: uppercase; font-weight: 700; border-bottom: 1px solid var(--card-border); }
+    td { padding: 14px 16px; border-bottom: 1px solid var(--card-border); vertical-align: middle; }
+    tr:hover td { background: #182234; }
+    .plan-title { font-weight: 600; color: #fff; margin-bottom: 4px; }
+    .plan-sub { font-size: 12px; color: var(--text-muted); max-width: 320px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+    /* Modal Form */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.7);
+      backdrop-filter: blur(4px);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      padding: 16px;
+    }
+    .modal-box {
+      background: #111827;
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
       width: 100%;
-      max-width: 360px;
+      max-width: 600px;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
     }
-
-    .search-box input {
-      width: 100%;
-      background: #1e293b;
-      border: 1px solid var(--border-color);
+    .modal-box h3 { font-size: 18px; font-weight: 700; padding-bottom: 12px; border-bottom: 1px solid var(--card-border); }
+    .form-group { display: flex; flex-direction: column; gap: 6px; }
+    .form-group label { font-size: 13px; font-weight: 600; color: #cbd5e1; }
+    .form-group input, .form-group textarea, .form-group select {
+      background: #0b0f17;
+      border: 1px solid #334155;
       color: #fff;
-      padding: 10px 14px 10px 38px;
+      padding: 10px 12px;
       border-radius: 8px;
       font-size: 13.5px;
       font-family: inherit;
       outline: none;
-      transition: border 0.2s;
     }
-
-    .search-box input:focus { border-color: var(--primary); }
-    .search-box svg {
-      position: absolute;
-      left: 12px;
-      top: 50%;
-      transform: translateY(-50%);
-      color: #64748b;
-    }
-
-    /* Main Container: 3 Cột */
-    .container {
-      display: grid;
-      grid-template-columns: 260px 1fr 380px;
-      gap: 20px;
-      padding: 24px;
-      max-width: 1600px;
-      margin: 0 auto;
-      width: 100%;
-      flex: 1;
-    }
-
-    @media (max-width: 1200px) {
-      .container { grid-template-columns: 240px 1fr; }
-      .col-detail { grid-column: span 2; }
-    }
-    @media (max-width: 768px) {
-      .container { display: flex; flex-direction: column; }
-    }
-
-    /* Cột 1: Danh mục */
-    .col-categories {
-      background: var(--card-bg);
-      border: 1px solid var(--border-color);
-      border-radius: 12px;
-      padding: 16px;
-      height: fit-content;
-    }
-
-    .section-title {
-      font-size: 13px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      color: #64748b;
-      margin-bottom: 12px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid var(--border-color);
-    }
-
-    .category-list { list-style: none; display: flex; flex-direction: column; gap: 4px; }
-    .category-item {
-      padding: 10px 14px;
-      border-radius: 8px;
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 14px;
-      font-weight: 500;
-      color: #cbd5e1;
-      transition: all 0.2s;
-    }
-
-    .category-item:hover { background: #1e293b; color: #fff; }
-    .category-item.active { background: #2563eb; color: #fff; font-weight: 600; }
-    .badge-count {
-      font-size: 11px;
-      padding: 2px 6px;
-      border-radius: 20px;
-      background: rgba(255,255,255,0.15);
-    }
-
-    /* Cột 2: Danh sách gói */
-    .col-plans {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-
-    .plans-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 4px;
-    }
-
-    .plans-header h2 { font-size: 18px; font-weight: 700; }
-    .plans-header span { font-size: 13px; color: var(--text-muted); }
-
-    .plans-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 12px;
-    }
-
-    .plan-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border-color);
-      border-radius: 10px;
-      padding: 16px;
-      cursor: pointer;
-      transition: all 0.2s;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      gap: 12px;
-    }
-
-    .plan-card:hover {
-      border-color: var(--primary);
-      transform: translateY(-2px);
-      background: var(--card-hover);
-    }
-
-    .plan-card.selected {
-      border-color: #60a5fa;
-      box-shadow: 0 0 0 1px #60a5fa;
-      background: #1e293b;
-    }
-
-    .plan-card h4 {
-      font-size: 14.5px;
-      font-weight: 600;
-      line-height: 1.4;
-      color: #f1f5f9;
-    }
-
-    .plan-meta {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-top: 1px solid #1e293b;
-      padding-top: 10px;
-    }
-
-    .plan-price { font-size: 16px; font-weight: 700; color: #34d399; }
-    .plan-stock {
-      font-size: 12px;
-      padding: 2px 8px;
-      border-radius: 4px;
-      background: #1e293b;
-      border: 1px solid #334155;
-      color: #94a3b8;
-    }
-
-    /* Cột 3: Chi tiết mô tả */
-    .col-detail {
-      position: sticky;
-      top: 96px;
-      height: fit-content;
-    }
-
-    .detail-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border-color);
-      border-radius: 12px;
-      padding: 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 18px;
-    }
-
-    .detail-empty {
-      background: var(--card-bg);
-      border: 1px dashed var(--border-color);
-      border-radius: 12px;
-      padding: 48px 20px;
-      text-align: center;
-      color: var(--text-muted);
-      font-size: 14px;
-    }
-
-    .detail-name { font-size: 18px; font-weight: 700; line-height: 1.4; }
-
-    .detail-badges {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .badge-tag {
-      font-size: 13px;
-      font-weight: 600;
-      padding: 6px 12px;
-      border-radius: 6px;
-    }
-    .badge-tag.price { background: var(--green-bg); color: #34d399; }
-    .badge-tag.stock { background: #1e293b; color: #94a3b8; border: 1px solid #334155; }
-
-    .desc-wrapper {
-      border-top: 1px solid var(--border-color);
-      padding-top: 16px;
-    }
-
-    .desc-title {
-      font-size: 13px;
-      font-weight: 700;
-      text-transform: uppercase;
-      color: #60a5fa;
-      letter-spacing: 0.5px;
-      margin-bottom: 10px;
-    }
-
-    .desc-box {
-      background: #0b0f17;
-      border: 1px solid var(--border-color);
-      border-radius: 8px;
-      padding: 16px;
-      font-size: 13.5px;
-      line-height: 1.75;
-      color: #cbd5e1;
-      white-space: pre-line;
-      max-height: 380px;
-      overflow-y: auto;
-    }
-
-    .btn-zalo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 8px;
-      background: #0284c7;
-      color: #fff;
-      text-decoration: none;
-      padding: 14px;
-      border-radius: 8px;
-      font-size: 14.5px;
-      font-weight: 700;
-      transition: background 0.2s;
-    }
-    .btn-zalo:hover { background: #0369a1; }
+    .form-group input:focus, .form-group textarea:focus { border-color: var(--primary); }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .modal-footer { display: flex; justify-content: flex-end; gap: 10px; margin-top: 10px; }
   </style>
 </head>
 <body>
 
-  <header>
-    <div class="brand">
-      <h1>⚡ BẢNG GIÁ DỊCH VỤ SỐ</h1>
-      <p>Đặt mua qua Zalo: <b>0373 996 379</b> • Hỗ trợ 8:00 – 23:00</p>
+  <div class="admin-header">
+    <div class="admin-title">
+      <h1>⚙️ BẢNG QUẢN TRỊ DỊCH VỤ SỐ</h1>
+      <p>Quản lý bảng giá, tồn kho và mô tả dịch vụ cho website</p>
     </div>
-    <div class="search-box">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-      <input type="text" id="searchInput" placeholder="Tìm gói dịch vụ (ChatGPT, YouTube, API...)" oninput="handleSearch()">
+    <div class="header-actions">
+      <button class="btn btn-outline" onclick="copyJSON()">📋 Sao chép JSON</button>
+      <button class="btn btn-success" onclick="downloadJSON()">💾 Tải file services.json</button>
+      <a href="index.html" class="btn btn-outline">👁️ Xem trang bán hàng</a>
     </div>
-  </header>
+  </div>
 
-  <div class="container">
-    <!-- Cột 1: Danh mục -->
-    <div class="col-categories">
-      <div class="section-title">Danh mục</div>
-      <ul class="category-list" id="categoryList">
-        <li style="padding: 10px; color: var(--text-muted); font-size: 13px;">Đang tải danh mục...</li>
-      </ul>
-    </div>
-
-    <!-- Cột 2: Danh sách gói -->
-    <div class="col-plans">
-      <div class="plans-header">
-        <h2 id="currentCatName">Danh sách sản phẩm</h2>
-        <span id="plansCount">0 gói</span>
+  <div class="main-wrap">
+    <!-- Cột danh mục -->
+    <div class="sidebar">
+      <div style="font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 12px;">
+        Danh mục dịch vụ
       </div>
-      <div class="plans-grid" id="plansGrid">
-        <div style="color: var(--text-muted); font-size: 14px; padding: 20px;">Đang tải danh sách gói dịch vụ...</div>
-      </div>
+      <div id="catList"></div>
     </div>
 
-    <!-- Cột 3: Mô tả chi tiết -->
-    <div class="col-detail">
-      <div id="planDetailContainer">
-        <div class="detail-empty">
-          <p>Chọn một sản phẩm để xem mô tả chi tiết & đặt mua</p>
+    <!-- Cột bảng sản phẩm -->
+    <div class="content-area">
+      <div class="content-top">
+        <h2 id="currentCategoryTitle">Danh sách sản phẩm</h2>
+        <button class="btn btn-primary" onclick="openAddModal()">➕ Thêm gói mới</button>
+      </div>
+
+      <div class="plan-table-card">
+        <table>
+          <thead>
+            <tr>
+              <th>Tên gói sản phẩm</th>
+              <th>Giá bán</th>
+              <th>Tồn kho</th>
+              <th>Thời hạn</th>
+              <th style="text-align: right;">Thao tác</th>
+            </tr>
+          </thead>
+          <tbody id="plansTableBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Chỉnh sửa / Thêm gói -->
+  <div class="modal-overlay" id="planModal">
+    <div class="modal-box">
+      <h3 id="modalTitle">Chỉnh sửa gói dịch vụ</h3>
+      
+      <div class="form-group">
+        <label>Tên gói dịch vụ:</label>
+        <input type="text" id="inpName" placeholder="Ví dụ: Slot YouTube Premium 6 Tháng BHF">
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Giá bán (VNĐ):</label>
+          <input type="number" id="inpPrice" placeholder="180000">
         </div>
+        <div class="form-group">
+          <label>Thời hạn:</label>
+          <input type="text" id="inpDuration" placeholder="6 Tháng / 1 Năm / Vĩnh viễn">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Loại tồn kho:</label>
+          <select id="inpStockType" onchange="toggleStockInput()">
+            <option value="-1">Vô cực (∞) - Luôn sẵn hàng</option>
+            <option value="num">Số lượng cụ thể</option>
+            <option value="0">Tạm hết hàng</option>
+          </select>
+        </div>
+        <div class="form-group" id="stockNumberWrap" style="display: none;">
+          <label>Nhập số lượng kho:</label>
+          <input type="number" id="inpStockNumber" value="10">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Mô tả chi tiết (tự động căn lề từng dòng):</label>
+        <textarea id="inpDetail" rows="6" placeholder="• Nhập từng gạch đầu dòng mô tả...&#10;• Quy tắc bảo hành..."></textarea>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-outline" onclick="closeModal()">Hủy</button>
+        <button class="btn btn-primary" onclick="savePlan()">Lưu thay đổi</button>
       </div>
     </div>
   </div>
 
   <script>
     let servicesData = {};
-    let activeCategory = '';
-    let selectedPlanId = '';
+    let activeCat = '';
+    let editingPlanIndex = -1;
 
-    async function loadServices() {
+    async function init() {
       try {
         const res = await fetch(`data/services.json?t=${new Date().getTime()}`);
-        if (!res.ok) throw new Error("Không thể tải file services.json");
+        if (!res.ok) throw new Error("Chưa tải được file services.json");
         servicesData = await res.json();
-        
-        const categories = Object.keys(servicesData);
-        if (categories.length > 0) {
-          activeCategory = categories[0];
+        const cats = Object.keys(servicesData);
+        if (cats.length > 0) {
+          activeCat = cats[0];
           renderCategories();
-          renderPlans();
+          renderTable();
         }
-      } catch (err) {
-        document.getElementById('plansGrid').innerHTML = `
-          <div style="color: #ef4444; font-size: 14px; padding: 20px;">
-            ⚠️ Chưa tải được dữ liệu: ${err.message}. Hãy kiểm tra lại file data/services.json!
-          </div>`;
+      } catch (e) {
+        alert("Lưu ý: " + e.message);
       }
     }
 
     function renderCategories() {
-      const list = document.getElementById('categoryList');
-      list.innerHTML = Object.entries(servicesData).map(([key, cat]) => `
-        <li class="category-item ${key === activeCategory ? 'active' : ''}" onclick="selectCategory('${key}')">
+      const el = document.getElementById('catList');
+      el.innerHTML = Object.entries(servicesData).map(([k, cat]) => `
+        <div class="cat-item ${k === activeCat ? 'active' : ''}" onclick="changeCat('${k}')">
           <span>${cat.name}</span>
-          <span class="badge-count">${cat.plans.length}</span>
-        </li>
+          <span class="badge">${cat.plans.length}</span>
+        </div>
       `).join('');
     }
 
-    function selectCategory(catKey) {
-      activeCategory = catKey;
-      document.getElementById('searchInput').value = '';
+    function changeCat(k) {
+      activeCat = k;
       renderCategories();
-      renderPlans();
+      renderTable();
     }
 
-    function renderPlans(filteredPlans = null) {
-      const grid = document.getElementById('plansGrid');
-      const countEl = document.getElementById('plansCount');
-      const catNameEl = document.getElementById('currentCatName');
-
-      const plans = filteredPlans !== null ? filteredPlans : (servicesData[activeCategory]?.plans || []);
+    function renderTable() {
+      const currentCat = servicesData[activeCat];
+      document.getElementById('currentCategoryTitle').innerText = `${currentCat.name} (${currentCat.plans.length} gói)`;
       
-      catNameEl.innerText = filteredPlans !== null ? 'Kết quả tìm kiếm' : servicesData[activeCategory].name;
-      countEl.innerText = `${plans.length} gói`;
-
-      if (plans.length === 0) {
-        grid.innerHTML = `<div style="color: var(--text-muted); font-size: 14px; padding: 20px;">Không có sản phẩm nào.</div>`;
+      const tbody = document.getElementById('plansTableBody');
+      if (currentCat.plans.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="5" style="text-align: center; color: var(--text-muted); padding: 24px;">Chưa có sản phẩm nào.</td></tr>`;
         return;
       }
 
-      grid.innerHTML = plans.map(p => {
-        const stockText = p.stock_text || (p.stock === -1 ? 'Sẵn hàng (∞)' : (p.stock === 0 ? 'Tạm hết hàng' : `Còn ${p.stock}`));
+      tbody.innerHTML = currentCat.plans.map((p, idx) => {
+        const stockDisplay = p.stock === -1 ? '<span style="color:#60a5fa;">Vô cực (∞)</span>' : (p.stock === 0 ? '<span style="color:#ef4444;">Hết hàng</span>' : `Còn ${p.stock}`);
         return `
-          <div class="plan-card ${p.id === selectedPlanId ? 'selected' : ''}" onclick="selectPlan('${p.id}')">
-            <h4>${p.name}</h4>
-            <div class="plan-meta">
-              <span class="plan-price">${Number(p.price).toLocaleString('vi-VN')}đ</span>
-              <span class="plan-stock">${stockText}</span>
-            </div>
-          </div>
+          <tr>
+            <td>
+              <div class="plan-title">${p.name}</div>
+              <div class="plan-sub">${p.detail || 'Không có mô tả'}</div>
+            </td>
+            <td style="color:#34d399; font-weight:700;">${Number(p.price).toLocaleString('vi-VN')}đ</td>
+            <td>${stockDisplay}</td>
+            <td>${p.duration || 'N/A'}</td>
+            <td style="text-align: right;">
+              <button class="btn btn-outline" style="padding: 6px 10px; font-size:12px;" onclick="openEditModal(${idx})">✏️ Sửa</button>
+              <button class="btn btn-danger" style="padding: 6px 10px; font-size:12px;" onclick="deletePlan(${idx})">🗑️</button>
+            </td>
+          </tr>
         `;
       }).join('');
     }
 
-    function selectPlan(planId) {
-      selectedPlanId = planId;
-      renderPlans();
-
-      let targetPlan = null;
-      for (const cat of Object.values(servicesData)) {
-        const found = cat.plans.find(p => p.id === planId);
-        if (found) { targetPlan = found; break; }
-      }
-
-      if (!targetPlan) return;
-
-      const container = document.getElementById('planDetailContainer');
-      const stockText = targetPlan.stock_text || (targetPlan.stock === -1 ? 'Sẵn hàng (∞)' : (targetPlan.stock === 0 ? 'Tạm hết hàng' : `Còn ${targetPlan.stock}`));
-
-      container.innerHTML = `
-        <div class="detail-card">
-          <div class="detail-name">${targetPlan.name}</div>
-
-          <div class="detail-badges">
-            <span class="badge-tag price">💰 ${Number(targetPlan.price).toLocaleString('vi-VN')}đ / ${targetPlan.duration || 'Gói'}</span>
-            <span class="badge-tag stock">📦 ${stockText}</span>
-          </div>
-
-          <div class="desc-wrapper">
-            <div class="desc-title">📄 Mô tả chi tiết</div>
-            <div class="desc-box">${targetPlan.detail || 'Sản phẩm đang được cập nhật mô tả.'}</div>
-          </div>
-
-          <a href="https://zalo.me/0373996379?text=Chào bạn, mình muốn mua gói: ${encodeURIComponent(targetPlan.name)}" 
-             target="_blank" 
-             class="btn-zalo">
-            💬 Nhắn Zalo Đặt Mua Ngay
-          </a>
-        </div>
-      `;
+    function toggleStockInput() {
+      const type = document.getElementById('inpStockType').value;
+      document.getElementById('stockNumberWrap').style.display = type === 'num' ? 'flex' : 'none';
     }
 
-    function handleSearch() {
-      const query = document.getElementById('searchInput').value.trim().toLowerCase();
-      if (!query) {
-        renderPlans();
-        return;
+    function openAddModal() {
+      editingPlanIndex = -1;
+      document.getElementById('modalTitle').innerText = `Thêm gói mới vào ${servicesData[activeCat].name}`;
+      document.getElementById('inpName').value = '';
+      document.getElementById('inpPrice').value = '';
+      document.getElementById('inpDuration').value = '1 Tháng';
+      document.getElementById('inpStockType').value = '-1';
+      document.getElementById('inpDetail').value = '• Mô tả gói dịch vụ...\n• Quy định bảo hành...';
+      toggleStockInput();
+      document.getElementById('planModal').style.display = 'flex';
+    }
+
+    function openEditModal(idx) {
+      editingPlanIndex = idx;
+      const p = servicesData[activeCat].plans[idx];
+      document.getElementById('modalTitle').innerText = `Chỉnh sửa gói: ${p.name}`;
+      document.getElementById('inpName').value = p.name;
+      document.getElementById('inpPrice').value = p.price;
+      document.getElementById('inpDuration').value = p.duration || '1 Tháng';
+      
+      if (p.stock === -1) {
+        document.getElementById('inpStockType').value = '-1';
+      } else if (p.stock === 0) {
+        document.getElementById('inpStockType').value = '0';
+      } else {
+        document.getElementById('inpStockType').value = 'num';
+        document.getElementById('inpStockNumber').value = p.stock;
       }
 
-      const matched = [];
-      Object.values(servicesData).forEach(cat => {
-        cat.plans.forEach(p => {
-          if (p.name.toLowerCase().includes(query) || (p.detail && p.detail.toLowerCase().includes(query))) {
-            matched.push(p);
-          }
-        });
+      document.getElementById('inpDetail').value = p.detail || '';
+      toggleStockInput();
+      document.getElementById('planModal').style.display = 'flex';
+    }
+
+    function closeModal() {
+      document.getElementById('planModal').style.display = 'none';
+    }
+
+    function savePlan() {
+      const name = document.getElementById('inpName').value.trim();
+      const price = Number(document.getElementById('inpPrice').value) || 0;
+      const duration = document.getElementById('inpDuration').value.trim();
+      const detail = document.getElementById('inpDetail').value.trim();
+      const stockType = document.getElementById('inpStockType').value;
+
+      if (!name) { alert("Vui lòng nhập tên gói!"); return; }
+
+      let stock = -1;
+      let stock_text = "Vô cực (∞)";
+      if (stockType === '0') {
+        stock = 0;
+        stock_text = "Tạm hết hàng";
+      } else if (stockType === 'num') {
+        stock = Number(document.getElementById('inpStockNumber').value) || 0;
+        stock_text = `Còn ${stock}`;
+      }
+
+      const planObj = {
+        id: editingPlanIndex >= 0 ? servicesData[activeCat].plans[editingPlanIndex].id : 'p-' + Date.now(),
+        name,
+        price,
+        stock,
+        stock_text,
+        duration,
+        detail
+      };
+
+      if (editingPlanIndex >= 0) {
+        servicesData[activeCat].plans[editingPlanIndex] = planObj;
+      } else {
+        servicesData[activeCat].plans.push(planObj);
+      }
+
+      closeModal();
+      renderCategories();
+      renderTable();
+    }
+
+    function deletePlan(idx) {
+      if (confirm(`Bạn chắc chắn muốn xóa gói "${servicesData[activeCat].plans[idx].name}"?`)) {
+        servicesData[activeCat].plans.splice(idx, 1);
+        renderCategories();
+        renderTable();
+      }
+    }
+
+    function copyJSON() {
+      const str = JSON.stringify(servicesData, null, 2);
+      navigator.clipboard.writeText(str).then(() => {
+        alert("✅ Đã sao chép toàn bộ JSON vào Clipboard! Giờ bạn chỉ cần mở file services.json trên GitHub và dán đè vào là xong.");
       });
-
-      renderPlans(matched);
     }
 
-    document.addEventListener('DOMContentLoaded', loadServices);
+    function downloadJSON() {
+      const blob = new Blob([JSON.stringify(servicesData, null, 2)], { type: "application/json" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "services.json";
+      a.click();
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
   </script>
 </body>
 </html>
