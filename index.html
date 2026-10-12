@@ -1,440 +1,447 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Bảng Giá Dịch Vụ Số - Bản Quyền Chính Hãng</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<style>
-:root {
-  --primary: #10b981;
-  --primary-dark: #059669;
-  --primary-light: #ecfdf5;
-  --accent: #6366f1;
-  --bg-page: #f8fafc;
-  --card-bg: #ffffff;
-  --text-main: #0f172a;
-  --text-muted: #64748b;
-  --border: #e2e8f0;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
-  --shadow-md: 0 8px 24px -4px rgba(16, 185, 129, 0.12), 0 4px 12px -2px rgba(0,0,0,0.05);
-  --radius: 12px;
-}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bảng Giá Dịch Vụ Số - Bản Quyền Chính Hãng</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: #10b981;
+      --primary-dark: #059669;
+      --primary-light: #ecfdf5;
+      --bg-page: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
+      --shadow-md: 0 4px 14px rgba(0,0,0,0.06);
+      --radius: 12px;
+    }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
-  -webkit-tap-highlight-color: transparent;
-}
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
 
-body {
-  background: var(--bg-page);
-  color: var(--text-main);
-  font-size: 14px;
-  line-height: 1.5;
-}
+    body {
+      background: var(--bg-page);
+      color: var(--text-main);
+      font-size: 14px;
+      line-height: 1.5;
+      min-height: 100vh;
+    }
 
-/* Header */
-.topbar {
-  background: #0f172a;
-  color: #fff;
-  padding: 24px 20px 20px;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-}
-.topbar-content {
-  max-width: 1280px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 16px;
-}
-.brand h1 {
-  font-size: 19px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-.brand p {
-  color: #94a3b8;
-  font-size: 13px;
-  margin-top: 3px;
-}
-.brand p b { color: #34d399; }
+    /* Topbar mở rộng tối đa */
+    .topbar {
+      background: #0f172a;
+      color: #fff;
+      padding: 18px 32px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .topbar-content {
+      max-width: 1600px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+    .brand h1 {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .brand p {
+      color: #94a3b8;
+      font-size: 13px;
+      margin-top: 3px;
+    }
+    .brand p b { color: #34d399; }
 
-.search-box {
-  flex: 1;
-  max-width: 420px;
-  min-width: 260px;
-  position: relative;
-}
-.search-box input {
-  width: 100%;
-  padding: 10px 16px 10px 38px;
-  border-radius: 99px;
-  border: 1px solid rgba(255,255,255,0.15);
-  background: rgba(255,255,255,0.07);
-  color: #fff;
-  font-size: 13px;
-  outline: none;
-  transition: all 0.25s ease;
-}
-.search-box input:focus {
-  background: #fff;
-  color: #0f172a;
-  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.3);
-}
-.search-box svg {
-  position: absolute;
-  left: 13px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #94a3b8;
-  pointer-events: none;
-}
+    .search-box {
+      flex: 1;
+      max-width: 460px;
+      min-width: 280px;
+      position: relative;
+    }
+    .search-box input {
+      width: 100%;
+      padding: 11px 16px 11px 40px;
+      border-radius: 99px;
+      border: 1px solid rgba(255,255,255,0.15);
+      background: rgba(255,255,255,0.07);
+      color: #fff;
+      font-size: 13.5px;
+      outline: none;
+      transition: all 0.25s ease;
+    }
+    .search-box input:focus {
+      background: #fff;
+      color: #0f172a;
+      box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.3);
+    }
+    .search-box svg {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #94a3b8;
+      pointer-events: none;
+    }
 
-/* 3-Column Layout */
-.layout {
-  max-width: 1280px;
-  margin: 20px auto;
-  padding: 0 16px 60px;
-  display: grid;
-  grid-template-columns: 240px minmax(0, 1fr) 340px;
-  gap: 18px;
-  align-items: start;
-}
+    /* Layout 3 cột bung rộng, cân đối */
+    .layout {
+      max-width: 1600px;
+      margin: 24px auto;
+      padding: 0 24px 60px;
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr) 420px;
+      gap: 24px;
+      align-items: start;
+    }
 
-/* Column 1: Categories Sidebar */
-.col-cats {
-  background: var(--card-bg);
-  border-radius: var(--radius);
-  border: 1px solid var(--border);
-  padding: 14px 10px;
-  box-shadow: var(--shadow-sm);
-  position: sticky;
-  top: 16px;
-  max-height: calc(100vh - 36px);
-  overflow-y: auto;
-  scrollbar-width: thin;
-}
-.col-cats h2 {
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-muted);
-  padding: 0 8px 10px;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 8px;
-}
-.cat-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: 8px 10px;
-  border-radius: 8px;
-  border: none;
-  background: transparent;
-  color: var(--text-main);
-  font-size: 13px;
-  font-weight: 600;
-  cursor: pointer;
-  margin-bottom: 3px;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  text-align: left;
-}
-.cat-item:hover {
-  background: #f1f5f9;
-  transform: translateX(3px);
-}
-.cat-item.active {
-  background: #0f172a;
-  color: #fff;
-}
-.cat-item .left {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  min-width: 0;
-}
-.cat-item img {
-  width: 20px;
-  height: 20px;
-  border-radius: 5px;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-.cat-item .badge-count {
-  font-size: 11px;
-  background: #f1f5f9;
-  color: var(--text-muted);
-  padding: 2px 6px;
-  border-radius: 99px;
-}
-.cat-item.active .badge-count {
-  background: rgba(255,255,255,0.2);
-  color: #fff;
-}
+    /* CỘT 1: Danh mục */
+    .col-cats {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      padding: 16px 12px;
+      box-shadow: var(--shadow-sm);
+      position: sticky;
+      top: 92px;
+      max-height: calc(100vh - 120px);
+      overflow-y: auto;
+      scrollbar-width: thin;
+    }
+    .col-cats h2 {
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      padding: 0 8px 12px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    .cat-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 8px;
+      border: none;
+      background: transparent;
+      color: var(--text-main);
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-bottom: 4px;
+      transition: all 0.2s ease;
+      text-align: left;
+    }
+    .cat-item:hover {
+      background: #f1f5f9;
+      transform: translateX(3px);
+    }
+    .cat-item.active {
+      background: #0f172a;
+      color: #fff;
+    }
+    .cat-item .left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+    .cat-item img {
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .cat-item .badge-count {
+      font-size: 11px;
+      background: #f1f5f9;
+      color: var(--text-muted);
+      padding: 2px 7px;
+      border-radius: 99px;
+    }
+    .cat-item.active .badge-count {
+      background: rgba(255,255,255,0.2);
+      color: #fff;
+    }
 
-/* Column 2: Products List */
-.col-products {
-  min-width: 0;
-}
-.section-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 12px;
-  padding: 0 4px;
-}
-.section-header h2 {
-  font-size: 16px;
-  font-weight: 800;
-  color: var(--text-main);
-}
-.section-header span {
-  font-size: 12.5px;
-  color: var(--text-muted);
-  font-weight: 600;
-}
+    /* CỘT 2: Danh sách sản phẩm rộng rãi */
+    .col-products {
+      min-width: 0;
+    }
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      padding: 0 4px;
+    }
+    .section-header h2 {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--text-main);
+    }
+    .section-header span {
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
 
-.plan-card {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 14px 16px;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 14px;
-  cursor: pointer;
-  box-shadow: var(--shadow-sm);
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  animation: fadeIn 0.3s ease-out;
-}
-.plan-card:hover {
-  border-color: #94a3b8;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
-}
-.plan-card.selected {
-  border-color: var(--primary);
-  background: #fafdfb;
-  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.25);
-}
-.plan-card .p-left {
-  flex: 1;
-  min-width: 0;
-}
-.plan-title {
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--text-main);
-}
-.plan-sub {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 6px;
-}
-.tag {
-  font-size: 11px;
-  font-weight: 600;
-  padding: 2px 7px;
-  border-radius: 5px;
-  background: #f1f5f9;
-  color: #475569;
-}
-.tag.in-stock {
-  background: var(--primary-light);
-  color: var(--primary-dark);
-}
-.tag.out-stock {
-  background: #fee2e2;
-  color: #b91c1c;
-}
+    .plan-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.2s ease;
+    }
+    .plan-card:hover {
+      border-color: #94a3b8;
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+    .plan-card.selected {
+      border-color: var(--primary);
+      background: #fcfdfd;
+      box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.25);
+    }
+    .plan-card .p-left {
+      flex: 1;
+      min-width: 0;
+    }
+    .plan-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.4;
+    }
+    .plan-sub {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+    .tag {
+      font-size: 12px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: #f1f5f9;
+      color: #475569;
+    }
+    .tag.in-stock {
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      border: 1px solid #a7f3d0;
+    }
+    .tag.out-stock {
+      background: #fee2e2;
+      color: #b91c1c;
+      border: 1px solid #fecaca;
+    }
 
-.plan-card .p-right {
-  text-align: right;
-  flex-shrink: 0;
-}
-.plan-price {
-  font-size: 16px;
-  font-weight: 800;
-  color: var(--primary-dark);
-}
-.view-btn {
-  margin-top: 5px;
-  font-size: 11.5px;
-  font-weight: 700;
-  color: var(--text-muted);
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 3px;
-}
-.plan-card.selected .view-btn {
-  color: var(--primary-dark);
-}
+    .plan-card .p-right {
+      text-align: right;
+      flex-shrink: 0;
+    }
+    .plan-price {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--primary-dark);
+    }
+    .view-btn {
+      margin-top: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 4px;
+    }
+    .plan-card.selected .view-btn {
+      color: var(--primary-dark);
+    }
 
-/* Column 3: Details & Important Notices */
-.col-detail {
-  background: var(--card-bg);
-  border-radius: var(--radius);
-  border: 1px solid var(--border);
-  padding: 18px;
-  box-shadow: var(--shadow-sm);
-  position: sticky;
-  top: 16px;
-  animation: fadeIn 0.3s ease;
-}
-.detail-title {
-  font-size: 16px;
-  font-weight: 800;
-  color: var(--text-main);
-  line-height: 1.35;
-}
-.detail-price-box {
-  margin: 12px 0 16px;
-  padding: 12px 14px;
-  background: #f8fafc;
-  border-radius: 10px;
-  border: 1px dashed var(--border);
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-}
-.detail-price-val {
-  font-size: 20px;
-  font-weight: 800;
-  color: var(--primary-dark);
-}
-.detail-stock-val {
-  font-size: 12px;
-  color: var(--text-muted);
-}
+    /* CỘT 3: Chi tiết mô tả rộng rãi, căn lề chuẩn */
+    .col-detail {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      padding: 24px;
+      box-shadow: var(--shadow-sm);
+      position: sticky;
+      top: 92px;
+    }
+    .detail-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--text-main);
+      line-height: 1.4;
+    }
+    .detail-price-box {
+      margin: 14px 0 18px;
+      padding: 14px 18px;
+      background: #f8fafc;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .detail-price-val {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--primary-dark);
+    }
+    .detail-stock-badge {
+      font-size: 12.5px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+    .detail-stock-badge.in-stock {
+      background: #ecfdf5;
+      color: #059669;
+      border: 1px solid #a7f3d0;
+    }
+    .detail-stock-badge.out-stock {
+      background: #fef2f2;
+      color: #dc2626;
+      border: 1px solid #fecaca;
+    }
 
-/* Notice Box */
-.notice-box {
-  background: #fffbeb;
-  border: 1px solid #fef3c7;
-  border-radius: 10px;
-  padding: 12px;
-  margin-bottom: 14px;
-}
-.notice-header {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 12px;
-  font-weight: 800;
-  color: #b45309;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  margin-bottom: 8px;
-}
-.notice-list {
-  list-style: none;
-  font-size: 12.5px;
-  color: #78350f;
-  line-height: 1.55;
-}
-.notice-list li {
-  position: relative;
-  padding-left: 15px;
-  margin-bottom: 6px;
-}
-.notice-list li:last-child { margin-bottom: 0; }
-.notice-list li::before {
-  content: "•";
-  position: absolute;
-  left: 4px;
-  font-weight: bold;
-}
+    /* Khung Mô Tả Sản Phẩm */
+    .desc-wrapper {
+      margin-bottom: 20px;
+    }
+    .desc-label {
+      font-size: 12.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #3b82f6;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .desc-box {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 18px;
+      font-size: 13.5px;
+      line-height: 1.75;
+      color: #334155;
+      white-space: pre-line;
+      word-break: break-word;
+      max-height: 420px;
+      overflow-y: auto;
+    }
 
-.spec-list {
-  margin-bottom: 18px;
-  font-size: 12.5px;
-}
-.spec-row {
-  display: flex;
-  justify-content: space-between;
-  padding: 6px 0;
-  border-bottom: 1px solid #f1f5f9;
-}
-.spec-row span:first-child { color: var(--text-muted); }
-.spec-row span:last-child { font-weight: 600; color: var(--text-main); text-align: right; }
+    .spec-list {
+      margin-bottom: 22px;
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
+    }
+    .spec-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    .spec-row span:first-child { color: var(--text-muted); }
+    .spec-row span:last-child { font-weight: 600; color: var(--text-main); }
 
-.btn-buy-zalo {
-  display: block;
-  width: 100%;
-  background: var(--primary-dark);
-  color: #fff;
-  text-decoration: none;
-  text-align: center;
-  font-weight: 700;
-  font-size: 14px;
-  padding: 12px;
-  border-radius: 10px;
-  box-shadow: 0 4px 14px rgba(5, 150, 105, 0.3);
-  transition: all 0.2s ease;
-}
-.btn-buy-zalo:hover {
-  background: #047857;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(5, 150, 105, 0.4);
-}
+    .btn-buy-zalo {
+      display: block;
+      width: 100%;
+      background: var(--primary-dark);
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 700;
+      font-size: 15px;
+      padding: 14px;
+      border-radius: 10px;
+      box-shadow: 0 4px 14px rgba(5, 150, 105, 0.25);
+      transition: all 0.2s ease;
+    }
+    .btn-buy-zalo:hover {
+      background: #047857;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(5, 150, 105, 0.35);
+    }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(6px); }
-  to { opacity: 1; transform: translateY(0); }
-}
+    /* Responsive cho màn hình nhỏ */
+    @media(max-width: 1200px) {
+      .layout {
+        grid-template-columns: 240px 1fr;
+      }
+      .col-detail {
+        grid-column: 1 / -1;
+        position: static;
+      }
+    }
 
-/* Responsive */
-@media(max-width: 1024px) {
-  .layout {
-    grid-template-columns: 210px 1fr;
-  }
-  .col-detail {
-    grid-column: 1 / -1;
-    position: static;
-  }
-}
-
-@media(max-width: 768px) {
-  .layout {
-    grid-template-columns: 1fr;
-    margin-top: 10px;
-  }
-  .col-cats {
-    position: static;
-    max-height: none;
-    display: flex;
-    overflow-x: auto;
-    padding: 8px;
-    gap: 6px;
-    border-radius: 10px;
-  }
-  .col-cats h2 { display: none; }
-  .cat-item {
-    white-space: nowrap;
-    width: auto;
-    padding: 6px 12px;
-    border-radius: 99px;
-    background: #f1f5f9;
-  }
-  .cat-item:hover { transform: none; }
-  .cat-item .badge-count { display: none; }
-}
-</style>
+    @media(max-width: 768px) {
+      .topbar { padding: 14px 16px; }
+      .layout {
+        grid-template-columns: 1fr;
+        padding: 0 14px 40px;
+        margin: 14px auto;
+        gap: 16px;
+      }
+      .col-cats {
+        position: static;
+        max-height: none;
+        display: flex;
+        overflow-x: auto;
+        padding: 8px;
+        gap: 8px;
+      }
+      .col-cats h2 { display: none; }
+      .cat-item {
+        white-space: nowrap;
+        width: auto;
+        padding: 8px 14px;
+        border-radius: 99px;
+        background: #f1f5f9;
+      }
+      .cat-item:hover { transform: none; }
+      .cat-item .badge-count { display: none; }
+    }
+  </style>
 </head>
 <body>
 
@@ -446,7 +453,7 @@ body {
     </div>
     <div class="search-box">
       <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-      <input id="searchInp" placeholder="Tìm nhanh dịch vụ (Youtube, Netflix, Claude...)" autocomplete="off" />
+      <input id="searchInp" placeholder="Tìm nhanh dịch vụ (YouTube, ChatGPT, Canva, Veo...)" autocomplete="off" />
     </div>
   </div>
 </header>
@@ -454,7 +461,7 @@ body {
 <main class="layout">
   <!-- CỘT 1: DANH MỤC -->
   <aside class="col-cats">
-    <h2>Danh mục</h2>
+    <h2>Danh mục dịch vụ</h2>
     <div id="catsContainer"></div>
   </aside>
 
@@ -467,11 +474,11 @@ body {
     <div id="plansContainer"></div>
   </section>
 
-  <!-- CỘT 3: CHI TIẾT & QUY ĐỊNH -->
+  <!-- CỘT 3: MÔ TẢ CHI TIẾT SẢN PHẨM -->
   <aside class="col-detail" id="detailPanel">
     <div id="detailContent">
-      <div style="color:var(--text-muted);text-align:center;padding:40px 0">
-        Chọn một sản phẩm để xem quy định & đặt mua
+      <div style="color:var(--text-muted); text-align:center; padding:50px 0; font-size:14px;">
+        Chọn một sản phẩm để xem mô tả chi tiết & đặt mua
       </div>
     </div>
   </aside>
@@ -482,17 +489,18 @@ var ZALO = '0373996379';
 var D = {}, curCat = '', selPlan = null, kw = '';
 
 var LOGO = {
-  'youtube':'https://www.google.com/s2/favicons?domain=youtube.com&sz=64',
-  'chatgpt':'https://www.google.com/s2/favicons?domain=openai.com&sz=64',
-  'google-ultra':'https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64',
-  'microsoft-365':'https://www.google.com/s2/favicons?domain=microsoft.com&sz=64',
-  'adobe':'https://www.google.com/s2/favicons?domain=adobe.com&sz=64',
-  'canva':'https://www.google.com/s2/favicons?domain=canva.com&sz=64',
-  'capcut':'https://www.google.com/s2/favicons?domain=capcut.com&sz=64',
-  'api-claude':'https://www.google.com/s2/favicons?domain=anthropic.com&sz=64',
-  'duolingo':'https://www.google.com/s2/favicons?domain=duolingo.com&sz=64',
-  'netflix':'https://www.google.com/s2/favicons?domain=netflix.com&sz=64',
-  'spotify':'https://www.google.com/s2/favicons?domain=spotify.com&sz=64'
+  'youtube': 'https://www.google.com/s2/favicons?domain=youtube.com&sz=64',
+  'chatgpt': 'https://www.google.com/s2/favicons?domain=openai.com&sz=64',
+  'google-veo': 'https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64',
+  'canva': 'https://www.google.com/s2/favicons?domain=canva.com&sz=64',
+  'capcut': 'https://www.google.com/s2/favicons?domain=capcut.com&sz=64',
+  'api-claude-codex': 'https://www.google.com/s2/favicons?domain=anthropic.com&sz=64',
+  'api-cursor-deepseek': 'https://www.google.com/s2/favicons?domain=deepseek.com&sz=64',
+  'grok': 'https://www.google.com/s2/favicons?domain=x.ai&sz=64',
+  'spotify': 'https://www.google.com/s2/favicons?domain=spotify.com&sz=64',
+  'notion': 'https://www.google.com/s2/favicons?domain=notion.so&sz=64',
+  'kling': 'https://www.google.com/s2/favicons?domain=klingai.com&sz=64',
+  'gmail': 'https://www.google.com/s2/favicons?domain=gmail.com&sz=64'
 };
 
 function money(n) {
@@ -500,8 +508,20 @@ function money(n) {
   return n === 0 ? 'Liên hệ' : n.toLocaleString('vi-VN') + 'đ';
 }
 
+function getStockInfo(p) {
+  var s = p.stock;
+  if (s === -1 || s === '∞' || s === '-1') {
+    return { tag: 'Còn hàng (∞)', isOut: false, badgeText: '✓ Sẵn hàng kích hoạt (∞)' };
+  }
+  var num = Number(s || 0);
+  if (num > 0) {
+    return { tag: 'Còn ' + num, isOut: false, badgeText: '✓ Còn ' + num + ' tài khoản' };
+  }
+  return { tag: 'Tạm hết', isOut: true, badgeText: '⚠ Tạm hết hàng' };
+}
+
 function loadData() {
-  fetch('./data/services.json', { cache: 'no-store' })
+  fetch('./data/services.json?t=' + new Date().getTime(), { cache: 'no-store' })
     .then(r => r.json())
     .then(data => {
       D = data || {};
@@ -515,7 +535,7 @@ function loadData() {
       render();
     })
     .catch(() => {
-      document.getElementById('plansContainer').innerHTML = '<div style="padding:30px;text-align:center;color:#888;">Chưa tải được dữ liệu.</div>';
+      document.getElementById('plansContainer').innerHTML = '<div style="padding:40px;text-align:center;color:#ef4444;font-size:14px;">Chưa tải được dữ liệu data/services.json. Vui lòng kiểm tra lại file!</div>';
     });
 }
 
@@ -603,10 +623,8 @@ function createPlanCard(catName, p) {
   var isSelected = selPlan && selPlan.id === p.id;
   card.className = 'plan-card' + (isSelected ? ' selected' : '');
 
-  var stock = Number(p.stock || 0);
-  var stockHtml = stock > 0 
-    ? `<span class="tag in-stock">Còn hàng (${stock})</span>` 
-    : `<span class="tag out-stock">Tạm hết</span>`;
+  var stock = getStockInfo(p);
+  var stockHtml = `<span class="tag ${stock.isOut ? 'out-stock' : 'in-stock'}">${stock.tag}</span>`;
 
   card.innerHTML = `
     <div class="p-left">
@@ -629,8 +647,7 @@ function createPlanCard(catName, p) {
     card.classList.add('selected');
     renderDetail(catName);
     
-    // Auto scroll view on mobile
-    if (window.innerWidth <= 1024) {
+    if (window.innerWidth <= 1200) {
       document.getElementById('detailPanel').scrollIntoView({ behavior: 'smooth' });
     }
   };
@@ -644,7 +661,7 @@ function renderDetail(catName) {
 
   catName = catName || (D[curCat] ? D[curCat].name : '');
   var p = selPlan;
-  var stock = Number(p.stock || 0);
+  var stock = getStockInfo(p);
   var zaloMsg = encodeURIComponent(`Chào shop, mình muốn mua gói [${catName}] ${p.name} giá ${money(p.price)}. Còn hàng không shop?`);
 
   panel.innerHTML = `
@@ -652,27 +669,24 @@ function renderDetail(catName) {
     
     <div class="detail-price-box">
       <div>
-        <span style="font-size:12px;color:var(--text-muted);display:block">Giá trọn gói</span>
+        <span style="font-size:12px;color:var(--text-muted);display:block">Giá dịch vụ</span>
         <div class="detail-price-val">${money(p.price)}</div>
       </div>
-      <div class="detail-stock-val">${stock > 0 ? '✓ Sẵn sàng kích hoạt' : '⚠ Vui lòng liên hệ'}</div>
+      <div class="detail-stock-badge ${stock.isOut ? 'out-stock' : 'in-stock'}">${stock.badgeText}</div>
     </div>
 
-    <div class="notice-box">
-      <div class="notice-header">
-        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-        Lưu ý & Quy định quan trọng
+    <div class="desc-wrapper">
+      <div class="desc-label">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+        Mô tả chi tiết sản phẩm
       </div>
-      <ul class="notice-list">
-        
-      </ul>
+      <div class="desc-box">${p.detail || 'Sản phẩm đang được cập nhật thông tin mô tả chi tiết.'}</div>
     </div>
 
     <div class="spec-list">
       <div class="spec-row"><span>Danh mục:</span><span>${catName}</span></div>
       <div class="spec-row"><span>Thời hạn:</span><span>${p.duration || 'Theo gói'}</span></div>
-      <div class="spec-row"><span>Hình thức:</span><span>${p.source || 'Trực tiếp'}</span></div>
-      ${p.detail ? `<div class="spec-row"><span>Mô tả gói:</span><span>${p.detail}</span></div>` : ''}
+      <div class="spec-row"><span>Hình thức:</span><span>${p.source || 'Chính chủ'}</span></div>
     </div>
 
     <a href="https://zalo.me/${ZALO}?text=${zaloMsg}" target="_blank" rel="noreferrer" class="btn-buy-zalo">
