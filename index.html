@@ -7,191 +7,127 @@
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 <style>
 *{box-sizing:border-box;margin:0;padding:0;font-family:'Be Vietnam Pro',system-ui,sans-serif}
-body{background:#dfe7d8;color:#1d2b20;min-height:100vh;font-size:14px;line-height:1.5}
-.wrap{max-width:720px;margin:0 auto;padding:0 10px 70px}
+body{background:#e8eee3;color:#22301f;font-size:14px;line-height:1.5}
+.wrap{max-width:760px;margin:0 auto;padding:0 12px 80px}
 /* header */
-.head{background:#435f46;color:#fff;text-align:center;padding:18px 14px 14px;border-radius:0 0 16px 16px}
-.head h1{font-size:17px;font-weight:800;letter-spacing:.04em}
-.head p{font-size:12.5px;opacity:.9;margin-top:3px}
-.head p b{color:#ffe08a}
-.search{margin:12px auto 0;max-width:480px;display:flex;background:#fff;border-radius:10px;overflow:hidden}
-.search input{flex:1;border:none;outline:none;padding:10px 14px;font-size:13.5px;min-width:0}
-.search button{border:none;background:#2e4632;color:#fff;font-weight:700;font-size:13px;padding:0 18px;cursor:pointer}
-/* category grid like screenshot */
-.cats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin:14px 0 6px}
-.cat{border:none;cursor:pointer;background:#7ba47b;color:#fff;border-radius:9px;padding:8px 6px;font-size:12.5px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:6px;min-height:48px;line-height:1.25}
-.cat img{width:22px;height:22px;border-radius:6px;object-fit:cover;background:#fff;flex-shrink:0}
-.cat .t{width:22px;height:22px;border-radius:6px;background:rgba(255,255,255,.22);display:inline-grid;place-items:center;font-size:11px;font-weight:800;flex-shrink:0}
-.cat.on{background:#435f46;box-shadow:0 3px 0 rgba(0,0,0,.18)}
-@media(max-width:480px){.cats{grid-template-columns:1fr 1fr 1fr}.cat{font-size:11px;min-height:44px}}
-/* section title */
-.sec{background:#435f46;color:#fff;border-radius:9px;padding:9px 14px;font-size:13px;font-weight:800;margin:10px 0 8px;display:flex;justify-content:space-between;align-items:center}
-.sec span{font-weight:500;font-size:12px;opacity:.9}
-/* product cards */
-.card{background:#fff;border-radius:10px;padding:12px 13px;margin-bottom:8px;border:1px solid #cbd6c2}
-.card h3{font-size:13.5px;font-weight:800}
-.card .detail{font-size:12.5px;color:#4a5a4e;margin-top:2px}
-.meta{display:grid;grid-template-columns:1fr 1fr;gap:3px 10px;margin-top:8px;font-size:12.5px}
-.meta div{color:#4a5a4e}
-.meta b{color:#1d2b20;font-weight:700}
-.bot{display:flex;justify-content:space-between;align-items:center;margin-top:9px;padding-top:9px;border-top:1px dashed #d5dccf;gap:8px}
-.price{font-size:15px;font-weight:800;color:#2e7d32}
-.price small{font-size:11.5px;font-weight:600;color:#777}
-.stock{font-size:12px;font-weight:700;color:#555}
-.stock.low{color:#c62828}
-.buy{text-decoration:none;background:#2e7d32;color:#fff;font-size:12.5px;font-weight:700;padding:9px 16px;border-radius:8px;white-space:nowrap}
-.empty{background:#fff;border-radius:10px;padding:26px;text-align:center;color:#777;font-size:13px}
-.foot{text-align:center;color:#5a6b5e;font-size:12px;margin-top:16px}
-.foot a{color:#2e4632;font-weight:800}
+.top{background:#334e37;color:#fff;border-radius:0 0 18px 18px;padding:20px 16px 16px;text-align:center}
+.top h1{font-size:17px;font-weight:800;letter-spacing:.05em}
+.top .hl{margin-top:6px;font-size:13px;opacity:.95}
+.top .hl b{color:#ffd97a;font-size:13.5px}
+.search{margin:12px auto 0;max-width:520px;display:flex;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12)}
+.search input{flex:1;border:none;outline:none;padding:11px 14px;font-size:13.5px;min-width:0}
+.search button{border:none;background:#223a26;color:#fff;font-weight:700;font-size:13px;padding:0 20px;cursor:pointer}
+/* cats */
+.cats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0 4px}
+.cat{border:none;cursor:pointer;background:#fff;border-radius:12px;padding:9px 8px;display:flex;align-items:center;gap:8px;min-height:50px;box-shadow:0 1px 3px rgba(0,0,0,.08);border:2px solid transparent;text-align:left}
+.cat img{width:30px;height:30px;border-radius:8px;object-fit:cover;background:#eef2e9;flex-shrink:0}
+.cat .t{width:30px;height:30px;border-radius:8px;background:#334e37;color:#fff;display:inline-grid;place-items:center;font-size:11px;font-weight:800;flex-shrink:0}
+.cat span.nm{font-size:12px;font-weight:700;color:#2c3e2e;line-height:1.3}
+.cat.on{border-color:#334e37;background:#f2f7ef}
+@media(max-width:480px){.cats{grid-template-columns:repeat(3,1fr)}.cat span.nm{font-size:10.5px}}
+/* section */
+.bar{display:flex;justify-content:space-between;align-items:center;margin:12px 2px 8px;font-size:13px;font-weight:800;color:#334e37}
+.bar span:last-child{font-weight:600;color:#6b7d6b;font-size:12px}
+/* card */
+.card{background:#fff;border-radius:14px;padding:14px;margin-bottom:10px;box-shadow:0 1px 4px rgba(0,0,0,.07)}
+.card h3{font-size:14px;font-weight:800}
+.card .d{font-size:12.5px;color:#5b6d5b;margin-top:3px}
+.info{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:9px;font-size:12.5px;color:#5b6d5b}
+.info b{color:#22301f;font-weight:700}
+.foot{display:flex;justify-content:space-between;align-items:center;margin-top:10px;padding-top:10px;border-top:1px dashed #d8e0d3;gap:10px}
+.price{font-size:16px;font-weight:800;color:#1e7a2e}
+.stock{font-size:12px;font-weight:600;color:#6b7d6b;margin-top:1px}
+.stock.low{color:#c62828;font-weight:700}
+.buy{background:#2e7d32;color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:10px 18px;border-radius:10px;white-space:nowrap}
+.buy:active{transform:scale(.97)}
+.empty{background:#fff;border-radius:12px;padding:28px;text-align:center;color:#888;font-size:13px}
+.bot{text-align:center;color:#6b7d6b;font-size:12px;margin-top:18px}
+.bot a{color:#2e4b32;font-weight:800;text-decoration:none}
 </style>
 </head>
 <body>
 <div class="wrap">
-<div class="head">
+<div class="top">
 <h1>BẢNG GIÁ DỊCH VỤ SỐ</h1>
-<p>Nhắn Zalo <b>0373 996 379</b> để đặt mua — hoạt động 8:00 → 23:00</p>
-<label class="search"><input id="q" placeholder="Tìm: youtube, api, veo3..." autocomplete="off" /><button id="qbtn" type="button">Tìm</button></label>
+<div class="hl">Đặt mua qua Zalo <b>0373 996 379</b> · 8:00 – 23:00</div>
+<div class="search"><input id="q" placeholder="Tìm: youtube, api, veo3, netflix..." autocomplete="off" /><button id="qb" type="button">Tìm</button></div>
 </div>
-
 <div class="cats" id="cats"></div>
-<div class="sec"><span id="secName">...</span><span id="secCount"></span></div>
+<div class="bar"><span id="secName">...</span><span id="secCount"></span></div>
 <div id="list"></div>
-<div class="foot">Giá là giá chốt · Có bảo hành theo từng gói · Liên hệ Zalo <a href="https://zalo.me/0373996379" target="_blank" rel="noreferrer">0373 996 379</a></div>
+<div class="bot">Giá chốt · Có bảo hành theo từng gói · Zalo <a href="https://zalo.me/0373996379" target="_blank" rel="noreferrer">0373 996 379</a></div>
 </div>
-
 <script>
 var ZALO='0373996379',D={},cur='',kw='';
-/* Logo mac dinh: neu danh muc chua co logo rieng thi lay theo ten mien hang.
-   Logo lay tu CDN simpleicons + google s2 (mien phi). Co mang moi hien, mat mang tu ve chu viet tat. */
-var LOGO_CDN={
-'youtube':'https://cdn.simpleicons.org/youtube/FF0000',
-'chatgpt':'https://cdn.simpleicons.org/openai/10A37F',
-'google-ultra':'https://cdn.simpleicons.org/google/4285F4',
-'app-lam-dep':'https://cdn.simpleicons.org/beauty/DB2777',
-'app-vpn':'https://cdn.simpleicons.org/wireguard/88171A',
-'microsoft-365':'https://cdn.simpleicons.org/microsoft365/D83B01',
-'adobe':'https://cdn.simpleicons.org/adobe/FF0000',
-'canva':'https://cdn.simpleicons.org/canva/00C4CC',
-'capcut':'https://cdn.simpleicons.org/capcut/000000',
-'api-claude':'https://cdn.simpleicons.org/anthropic/D97757',
-'duolingo':'https://cdn.simpleicons.org/duolingo/58CC02',
-'seedance':'https://cdn.simpleicons.org/tiktok/000000',
-'outlook':'https://cdn.simpleicons.org/microsoftoutlook/0078D4',
-'gmail':'https://cdn.simpleicons.org/gmail/EA4335',
-'google-one':'https://cdn.simpleicons.org/google/4285F4',
-'grok':'https://cdn.simpleicons.org/x/000000',
-'kling':'https://cdn.simpleicons.org/kling/000000',
-'mbbank':'https://cdn.simpleicons.org/banking/1D4ED8',
-'apple':'https://cdn.simpleicons.org/apple/000000',
-'netflix':'https://cdn.simpleicons.org/netflix/E50914',
-'notion':'https://cdn.simpleicons.org/notion/000000',
-'perplexity':'https://cdn.simpleicons.org/perplexity/20808C',
-'quizlet':'https://cdn.simpleicons.org/quizlet/4255FF',
-'reddit':'https://cdn.simpleicons.org/reddit/FF4500',
-'spotify':'https://cdn.simpleicons.org/spotify/1DB954',
-'app-phim':'https://cdn.simpleicons.org/youtube/FF0000',
-'autodesk':'https://cdn.simpleicons.org/autodesk/0696D7',
-'minimax':'https://cdn.simpleicons.org/minimax/000000',
-'locket':'https://cdn.simpleicons.org/locket/FFB300',
-'coursera':'https://cdn.simpleicons.org/coursera/0056D2',
-'elevenlabs':'https://cdn.simpleicons.org/elevenlabs/000000',
-'higgsfield':'https://cdn.simpleicons.org/googlegemini/4285F4',
-'leonardo':'https://cdn.simpleicons.org/leonardo/000000',
-'suno':'https://cdn.simpleicons.org/suno/000000',
-'amazon-prime':'https://cdn.simpleicons.org/amazonprime/00A8E1',
-'':'https://cdn.simpleicons.org//4D6BFE',
-'icloud':'https://cdn.simpleicons.org/icloud/3693F3',
-'linkedin':'https://cdn.simpleicons.org/linkedin/0A66C2',
-'zoom':'https://cdn.simpleicons.org/zoom/2D8CFF',
-'muse-ai':'https://cdn.simpleicons.org/anthropic/D97757',
-'openart':'https://cdn.simpleicons.org/openai/10A37F',
-'akool':'https://cdn.simpleicons.org/googlegemini/4285F4',
-'lovable':'https://cdn.simpleicons.org/lovable/FF5C5C',
-'heygen':'https://cdn.simpleicons.org/heygen/000000',
-'veo3':'https://cdn.simpleicons.org/google/4285F4',
-'khac':''
-};
-function logoSrc(key,it){
-if(it&&it.logo)return it.logo;
-return LOGO_CDN[key]||'';
-}
-function load(){
-fetch('./data/services.json',{cache:'no-store'})
-.then(function(r){if(!r.ok)throw 0;return r.json();})
-.then(function(j){D=j||{};var k=Object.keys(D);if(!k.length)throw 0;cur=k[0];render();})
-.catch(function(){document.getElementById('list').innerHTML='<div class="empty">Chưa tải được dữ liệu.</div>';});
-}
-function match(p){
-if(!kw)return true;
-var h=((p.name||'')+' '+(p.detail||p.desc||'')+' '+(p.source||'')).toLowerCase();
-return h.indexOf(kw)!==-1;
-}
-function renderCats(){
-var g=document.getElementById('cats');g.innerHTML='';
-Object.keys(D).forEach(function(k){
-var it=D[k];
-var b=document.createElement('button');b.type='button';b.className='cat'+(k===cur?' on':'');
-var src=logoSrc(k,it);
-if(src){
-var im=document.createElement('img');im.src=src;im.alt='';im.loading='lazy';
-im.onerror=function(){var s=document.createElement('span');s.className='t';s.textContent=it.short||it.name.slice(0,2).toUpperCase();this.replaceWith(s);};
-b.appendChild(im);
-}else{
-var t=document.createElement('span');t.className='t';t.textContent=it.short||it.name.slice(0,2).toUpperCase();
-b.appendChild(t);
-}
-var n=document.createElement('span');n.textContent=it.name.toUpperCase();
-b.appendChild(n);
-b.onclick=function(){
-if(kw){kw='';document.getElementById('q').value='';}
-cur=k;render();};
-g.appendChild(b);});
-}
+var LOGO={
+'youtube':'https://cdn.simpleicons.org/youtube/FF0000','chatgpt':'https://cdn.simpleicons.org/openai/10A37F',
+'google-ultra':'https://cdn.simpleicons.org/google/4285F4','app-lam-dep':'https://cdn.simpleicons.org/beauty/DB2777',
+'app-vpn':'https://cdn.simpleicons.org/wireguard/88171A','microsoft-365':'https://cdn.simpleicons.org/microsoft365/D83B01',
+'adobe':'https://cdn.simpleicons.org/adobe/FF0000','canva':'https://cdn.simpleicons.org/canva/00C4CC',
+'capcut':'https://cdn.simpleicons.org/capcut/000000','api-claude':'https://cdn.simpleicons.org/anthropic/D97757',
+'duolingo':'https://cdn.simpleicons.org/duolingo/58CC02','seedance':'https://cdn.simpleicons.org/tiktok/000000',
+'outlook':'https://cdn.simpleicons.org/microsoftoutlook/0078D4','gmail':'https://cdn.simpleicons.org/gmail/EA4335',
+'google-one':'https://cdn.simpleicons.org/google/4285F4','grok':'https://cdn.simpleicons.org/x/000000',
+'kling':'https://cdn.simpleicons.org/googlegemini/4285F4','mbbank':'https://cdn.simpleicons.org/banking/1D4ED8',
+'apple':'https://cdn.simpleicons.org/apple/000000','netflix':'https://cdn.simpleicons.org/netflix/E50914',
+'notion':'https://cdn.simpleicons.org/notion/000000','perplexity':'https://cdn.simpleicons.org/perplexity/20808C',
+'quizlet':'https://cdn.simpleicons.org/quizlet/4255FF','reddit':'https://cdn.simpleicons.org/reddit/FF4500',
+'spotify':'https://cdn.simpleicons.org/spotify/1DB954','app-phim':'https://cdn.simpleicons.org/youtube/FF0000',
+'autodesk':'https://cdn.simpleicons.org/autodesk/0696D7','minimax':'https://cdn.simpleicons.org/googlegemini/7C3AED',
+'locket':'https://cdn.simpleicons.org/locket/FFB300','coursera':'https://cdn.simpleicons.org/coursera/0056D2',
+'elevenlabs':'https://cdn.simpleicons.org/elevenlabs/000000','higgsfield':'https://cdn.simpleicons.org/googlegemini/4285F4',
+'leonardo':'https://cdn.simpleicons.org/leonardo/000000','suno':'https://cdn.simpleicons.org/suno/000000',
+'amazon-prime':'https://cdn.simpleicons.org/amazonprime/00A8E1','deepseek':'https://cdn.simpleicons.org//4D6BFE',
+'icloud':'https://cdn.simpleicons.org/icloud/3693F3','linkedin':'https://cdn.simpleicons.org/linkedin/0A66C2',
+'zoom':'https://cdn.simpleicons.org/zoom/2D8CFF','muse-ai':'https://cdn.simpleicons.org/anthropic/D97757',
+'openart':'https://cdn.simpleicons.org/openai/10A37F','akool':'https://cdn.simpleicons.org/googlegemini/4285F4',
+'lovable':'https://cdn.simpleicons.org/lovable/FF5C5C','heygen':'https://cdn.simpleicons.org/heygen/000000',
+'veo3':'https://cdn.simpleicons.org/google/4285F4','khac':''};
+function logoOf(k,it){if(it&&it.logo)return it.logo;return LOGO[k]||'';}
+function load(){fetch('./data/services.json',{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(j){D=j||{};var k=Object.keys(D);if(!k.length)throw 0;cur=k[0];render();}).catch(function(){document.getElementById('list').innerHTML='<div class="empty">Chưa tải được dữ liệu.</div>';});}
+function match(p){if(!kw)return true;return ((p.name||'')+' '+(p.detail||p.desc||'')+' '+(p.source||'')).toLowerCase().indexOf(kw)!==-1;}
 function money(n){n=Number(n||0);return n===0?'Liên hệ':n.toLocaleString('vi-VN')+'đ';}
 function render(){
-renderCats();
-var app=D[cur],list=document.getElementById('list');list.innerHTML='';
-if(!app)return;
-var plans=(app.plans||[]).filter(match);
-document.getElementById('secName').textContent='▸ '+app.name.toUpperCase();
-document.getElementById('secCount').textContent=plans.length+' gói';
+var g=document.getElementById('cats');g.innerHTML='';
+Object.keys(D).forEach(function(k){var it=D[k];
+var b=document.createElement('button');b.type='button';b.className='cat'+(k===cur?' on':'');
+var s=logoOf(k,it);
+if(s){var im=document.createElement('img');im.src=s;im.alt='';im.loading='lazy';im.onerror=function(){var x=document.createElement('span');x.className='t';x.textContent=it.short||it.name.slice(0,2).toUpperCase();this.replaceWith(x);};b.appendChild(im);}
+else{var t=document.createElement('span');t.className='t';t.textContent=it.short||it.name.slice(0,2).toUpperCase();b.appendChild(t);}
+var nm=document.createElement('span');nm.className='nm';nm.textContent=it.name;b.appendChild(nm);
+b.onclick=function(){if(kw){kw='';document.getElementById('q').value='';}cur=k;render();};g.appendChild(b);});
+var app=D[cur],list=document.getElementById('list');list.innerHTML='';if(!app)return;
 if(kw){
 var all=[];Object.keys(D).forEach(function(k){(D[k].plans||[]).forEach(function(p){if(match(p))all.push({c:D[k].name,p:p});});});
-document.getElementById('secName').textContent='▸ KẾT QUẢ "'+kw.toUpperCase()+'"';
-document.getElementById('secCount').textContent=all.length+' gói';
+document.getElementById('secName').textContent='Kết quả "'+kw+'"';document.getElementById('secCount').textContent=all.length+' gói';
 if(!all.length){list.innerHTML='<div class="empty">Không thấy gói nào. Nhắn Zalo để hỏi thêm.</div>';return;}
-all.forEach(function(x){list.appendChild(card(x.c,x.p));});
-return;
+all.forEach(function(x){list.appendChild(card(x.c,x.p));});return;
 }
+var plans=(app.plans||[]).filter(match);
+document.getElementById('secName').textContent=app.name;document.getElementById('secCount').textContent=plans.length+' gói';
 if(!plans.length){list.innerHTML='<div class="empty">Danh mục này chưa có gói nào.</div>';return;}
 plans.forEach(function(p){list.appendChild(card(app.name,p));});
 }
-function card(catName,p){
-var w=p.detail||p.desc||p.warranty||'';
-var src=p.source||'',dur=p.duration||'',st=Number(p.stock||0);
+function card(cn,p){
+var w=p.detail||p.desc||p.warranty||'',src=p.source||'',dur=p.duration||'',st=Number(p.stock||0);
 var d=document.createElement('div');d.className='card';
 var h=document.createElement('h3');h.textContent=p.name;d.appendChild(h);
-if(w){var dt=document.createElement('div');dt.className='detail';dt.textContent=w;d.appendChild(dt);}
-var m=document.createElement('div');m.className='meta';
-function cell(label,val){var x=document.createElement('div');var a=document.createElement('span');a.textContent=label+': ';var b=document.createElement('b');b.textContent=val;x.appendChild(a);x.appendChild(b);return x;}
-if(src)m.appendChild(cell('Nguồn',src));
-if(dur)m.appendChild(cell('Hạn dùng',dur));
+if(w){var x=document.createElement('div');x.className='d';x.textContent=w;d.appendChild(x);}
+var m=document.createElement('div');m.className='info';
+if(src)m.appendChild(mi('Nguồn',src));
+if(dur)m.appendChild(mi('Hạn dùng',dur));
 d.appendChild(m);
-var bot=document.createElement('div');bot.className='bot';
-var left=document.createElement('div');
-var pr=document.createElement('div');pr.className='price';pr.textContent=money(p.price);
-left.appendChild(pr);
-var sk=document.createElement('div');sk.className='stock'+(st<=5?' low':'');sk.textContent='Còn: '+(st>0?st:'hết');
-left.appendChild(sk);
+var f=document.createElement('div');f.className='foot';
+var l=document.createElement('div');
+var pr=document.createElement('div');pr.className='price';pr.textContent=money(p.price);l.appendChild(pr);
+var sk=document.createElement('div');sk.className='stock'+(st<=5?' low':'');sk.textContent=st>0?('Còn: '+st):'Hết hàng';l.appendChild(sk);
 var a=document.createElement('a');a.className='buy';a.target='_blank';a.rel='noreferrer';a.textContent='Nhắn Zalo mua';
-a.href='https://zalo.me/'+ZALO+'?text='+encodeURIComponent('Shop ơi, mình muốn mua ['+catName+'] '+p.name+' ('+money(p.price)+'). Còn hàng không?');
-bot.appendChild(left);bot.appendChild(a);
-d.appendChild(bot);
-return d;
+a.href='https://zalo.me/'+ZALO+'?text='+encodeURIComponent('Mình muốn mua ['+cn+'] '+p.name+' ('+money(p.price)+'). Còn hàng không shop?');
+f.appendChild(l);f.appendChild(a);d.appendChild(f);return d;
 }
-function doQ(v){kw=v.trim().toLowerCase();render();}
-document.getElementById('q').addEventListener('input',function(e){doQ(e.target.value);});
-document.getElementById('qbtn').addEventListener('click',function(){doQ(document.getElementById('q').value);});
+function mi(k,v){var s=document.createElement('span');var a=document.createElement('span');a.textContent=k+': ';var b=document.createElement('b');b.textContent=v;s.appendChild(a);s.appendChild(b);return s;}
+document.getElementById('q').addEventListener('input',function(e){kw=e.target.value.trim().toLowerCase();render();});
+document.getElementById('qb').addEventListener('click',function(){kw=document.getElementById('q').value.trim().toLowerCase();render();});
 document.addEventListener('DOMContentLoaded',load);
 </script>
 </body>

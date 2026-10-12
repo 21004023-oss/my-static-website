@@ -7,75 +7,71 @@
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 <style>
 *{box-sizing:border-box;margin:0;padding:0;font-family:'Be Vietnam Pro',system-ui,sans-serif}
-body{background:#dfe7d8;color:#1d2b20;min-height:100vh;font-size:14px}
-.wrap{max-width:720px;margin:0 auto;padding:0 10px 60px}
-.gate{max-width:340px;margin:90px auto;text-align:center;background:#fff;border-radius:14px;padding:30px 24px}
+body{background:#e8eee3;color:#22301f;font-size:14px}
+.wrap{max-width:760px;margin:0 auto;padding:0 12px 60px}
+.gate{max-width:340px;margin:90px auto;text-align:center;background:#fff;border-radius:16px;padding:30px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08)}
 .gate h1{font-size:15px;margin-bottom:12px}
-.gate input{width:100%;padding:11px;border:1px solid #cbd6c2;border-radius:9px;font-size:13.5px;text-align:center;outline:none}
-.gate button{width:100%;margin-top:10px;background:#435f46;color:#fff;border:none;border-radius:9px;padding:11px;font-weight:700;cursor:pointer;font-size:13.5px}
+.gate input{width:100%;padding:11px;border:1px solid #cfd8cb;border-radius:10px;font-size:13.5px;text-align:center;outline:none}
+.gate button{width:100%;margin-top:10px;background:#334e37;color:#fff;border:none;border-radius:10px;padding:11px;font-weight:700;cursor:pointer;font-size:13.5px}
 #gateErr{display:none;color:#c62828;font-size:12.5px;margin-top:8px}
 #admin{display:none}
-.head{background:#435f46;color:#fff;text-align:center;padding:16px;border-radius:0 0 14px 14px;margin-bottom:12px}
-.head h1{font-size:15px}
+.head{background:#334e37;color:#fff;text-align:center;padding:16px;border-radius:0 0 16px 16px;margin-bottom:12px}
+.head h1{font-size:15px;letter-spacing:.04em}
 .head p{font-size:12.5px;opacity:.9;margin-top:2px}
-.nums{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:12px}
-.num{background:#fff;border-radius:10px;padding:10px;text-align:center;border:1px solid #cbd6c2}
-.num b{display:block;font-size:17px}
-.num span{font-size:11.5px;color:#5a6b5e}
-.box{background:#fff;border-radius:10px;border:1px solid #cbd6c2;padding:13px;margin-bottom:10px}
+.nums{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
+.num{background:#fff;border-radius:12px;padding:11px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.num b{display:block;font-size:18px}
+.num span{font-size:11.5px;color:#6b7d6b}
+.box{background:#fff;border-radius:14px;padding:14px;margin-bottom:10px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
 .box h2{font-size:13.5px;margin-bottom:8px}
-label{font-size:11.5px;font-weight:700;color:#5a6b5e}
-input,select,textarea{width:100%;padding:9px 11px;border:1px solid #cbd6c2;border-radius:8px;font-size:13px;margin:4px 0 8px;outline:none;background:#fbfdfb;color:#1d2b20}
-input:focus,select:focus{border-color:#435f46}
-textarea{font-family:monospace;font-size:12px;min-height:90px}
-textarea.prev{background:#1d2b20;color:#cfe3cf;min-height:130px}
+label{font-size:11.5px;font-weight:700;color:#6b7d6b}
+input,select,textarea{width:100%;padding:9px 11px;border:1px solid #cfd8cb;border-radius:9px;font-size:13px;margin:4px 0 8px;outline:none;background:#fbfdfb;color:#22301f}
+input:focus{border-color:#334e37}
+textarea{font-family:monospace;font-size:12px;min-height:86px}
+textarea.prev{background:#22301f;color:#cfe3cf;min-height:120px}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:0 10px}
-.btn{border:none;border-radius:8px;padding:10px 16px;font-size:13px;font-weight:700;cursor:pointer;background:#435f46;color:#fff}
-.btn.ghost{background:#eef2e9;color:#2e4632;margin-left:8px}
+.btn{border:none;border-radius:9px;padding:10px 16px;font-size:13px;font-weight:700;cursor:pointer;background:#334e37;color:#fff}
+.btn.ghost{background:#edf1e9;color:#2e4632;margin-left:8px}
 .btn.gold{background:#c8930a}
 .row{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:9px 0;border-bottom:1px solid #edf1e9;font-size:13px}
 .row:last-child{border:none}
 .row small{color:#777;font-size:11.5px}
-.l{color:#435f46;font-size:12.5px;font-weight:700;background:none;border:none;cursor:pointer;padding:0;margin-right:10px}
+.l{color:#2e5a32;font-size:12.5px;font-weight:700;background:none;border:none;cursor:pointer;padding:0;margin-left:10px}
 .l.del{color:#c62828}
-.hint{font-size:12.5px;color:#5a6b5e;line-height:1.7}
-.hint b{color:#1d2b20}
-#cancelBtn{display:none}
-.catrow{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #edf1e9;font-size:13px}
+.catrow{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #edf1e9;font-size:13px;gap:8px}
 .catrow:last-child{border:none}
+.catrow img{width:24px;height:24px;border-radius:6px;object-fit:cover;background:#eef2e9}
+.hint{font-size:12.5px;color:#6b7d6b;line-height:1.7}
+.hint b{color:#22301f}
+#cancelBtn{display:none}
 </style>
 </head>
 <body>
 <div class="wrap">
-
 <div class="gate" id="gate">
 <h1>🔒 Quản trị</h1>
 <input id="pw" type="password" placeholder="Mật khẩu" />
 <button id="open">Mở</button>
 <div id="gateErr">Sai mật khẩu.</div>
 </div>
-
 <div id="admin">
-<div class="head"><h1>QUẢN TRỊ SẢN PHẨM</h1><p id="stat">...</p></div>
-
+<div class="head"><h1>QUẢN TRỊ</h1><p id="stat">...</p></div>
 <div class="nums">
 <div class="num"><b id="nCat">0</b><span>Danh mục</span></div>
 <div class="num"><b id="nPro">0</b><span>Sản phẩm</span></div>
 <div class="num"><b id="nStock">0</b><span>Còn lại</span></div>
 </div>
-
 <div class="box">
 <h2>Danh mục</h2>
 <div id="catList"></div>
 <div class="grid2">
-<div><label>Tên danh mục mới</label><input id="newCat" placeholder="VD: Netflix" /></div>
-<div><label>Logo (link ảnh, có thể bỏ trống)</label><input id="newLogo" placeholder="VD: logos/netflix.png" /></div>
+<div><label>Tên mới</label><input id="newCat" placeholder="VD: Netflix" /></div>
+<div><label>Logo (link ảnh)</label><input id="newLogo" placeholder="logos/netflix.png" /></div>
 </div>
-<button class="btn" id="addCat" style="margin-top:8px">+ Thêm</button>
+<button class="btn" id="addCat">+ Thêm danh mục</button>
 </div>
-
 <div class="box">
-<h2>Sản phẩm <span style="color:#888;font-weight:500" id="formHint"></span></h2>
+<h2 id="formTitle">Sản phẩm</h2>
 <label>Danh mục</label><select id="fCat"></select>
 <label>Tên sản phẩm</label><input id="fName" placeholder="VD: Netflix 1 tháng 4K" />
 <div class="grid2">
@@ -89,158 +85,102 @@ textarea.prev{background:#1d2b20;color:#cfe3cf;min-height:130px}
 <label>Chi tiết</label><input id="fDetail" placeholder="VD: Profile riêng, 4K, bảo hành full" />
 <button class="btn" id="save">Lưu</button><button class="btn ghost" id="cancelBtn">Hủy</button>
 </div>
-
 <div class="box">
 <h2>Thêm nhanh nhiều sản phẩm</h2>
-<p class="hint">Mỗi dòng 1 sản phẩm, cách nhau bằng dấu |<br />Mẫu: <b>Tên | Giá | Còn | Hạn dùng | Nguồn | Chi tiết</b></p>
+<p class="hint">Mỗi dòng 1 sản phẩm: <b>Tên | Giá | Còn | Hạn dùng | Nguồn | Chi tiết</b></p>
 <label>Danh mục nhận</label><select id="bCat"></select>
-<textarea id="bulk" placeholder="Netflix 1 tháng 4K | 89000 | 20 | 30 ngày | Cấp profile | Profile riêng, bảo hành full"></textarea>
-<button class="btn" id="bulkAdd">Thêm các dòng trên</button>
+<textarea id="bulk" placeholder="Netflix 1 tháng | 89000 | 20 | 30 ngày | Cấp profile | Riêng tư 4K"></textarea>
+<button class="btn" id="bulkAdd">Thêm</button>
 </div>
-
 <div class="box">
 <h2>Danh sách</h2>
-<label>Lọc theo danh mục</label><select id="filter"></select>
+<label>Lọc</label><select id="filter"></select>
 <div id="list"></div>
 </div>
-
 <div class="box">
 <h2>Đăng lên web</h2>
-<p class="hint"><b>1.</b> Bấm “Tải file” → <b>2.</b> Mở GitHub → kéo file vào thư mục <b>data</b> → Commit.</p>
+<p class="hint"><b>1.</b> Tải file → <b>2.</b> Mở GitHub → kéo vào thư mục <b>data</b> → Commit.</p>
 <button class="btn gold" id="exp">Tải file</button><button class="btn ghost" id="git">Mở GitHub</button>
-<label style="display:block;margin-top:10px">Xem trước:</label>
-<textarea class="prev" id="prev" readonly></textarea>
-</div>
-
+<textarea class="prev" id="prev" readonly style="margin-top:10px"></textarea>
 </div>
 </div>
-
+</div>
 <script>
 var PASS='doi-mat-khau-rieng-cua-ban';
 var GIT='https://github.com/21004023-oss/my-static-website/upload/main/data';
 var D={},ek='',ei=-1,filter='';
 function slug(s){return (s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,40)||('cat-'+Date.now());}
-function shortOf(name){var w=(name||'').trim().split(/\s+/);if(w.length>1)return (w[0][0]+w[1][0]).toUpperCase();return (name||'??').slice(0,2).toUpperCase();}
+function shortOf(n){var w=(n||'').trim().split(/\s+/);return w.length>1?(w[0][0]+w[1][0]).toUpperCase():(n||'??').slice(0,2).toUpperCase();}
 function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function money(n){return Number(n||0).toLocaleString('vi-VN')+'đ';}
-
-document.getElementById('open').onclick=function(){
-if(document.getElementById('pw').value===PASS){document.getElementById('gate').style.display='none';document.getElementById('admin').style.display='block';load();}
-else document.getElementById('gateErr').style.display='block';};
+document.getElementById('open').onclick=function(){if(document.getElementById('pw').value===PASS){document.getElementById('gate').style.display='none';document.getElementById('admin').style.display='block';load();}else document.getElementById('gateErr').style.display='block';};
 document.getElementById('pw').onkeydown=function(e){if(e.key==='Enter')document.getElementById('open').click();};
-
 function load(){fetch('./data/services.json',{cache:'no-store'}).then(function(r){return r.json();}).then(function(j){D=j||{};var k=Object.keys(D);filter=k[0]||'';render();}).catch(function(){D={};render();});}
-
 function render(){
-var keys=Object.keys(D),np=0,nst=0;
-keys.forEach(function(k){(D[k].plans||[]).forEach(function(p){np++;nst+=Number(p.stock||0);});});
-document.getElementById('nCat').textContent=keys.length;
+var ks=Object.keys(D),np=0,nst=0;
+ks.forEach(function(k){(D[k].plans||[]).forEach(function(p){np++;nst+=Number(p.stock||0);});});
+document.getElementById('nCat').textContent=ks.length;
 document.getElementById('nPro').textContent=np;
 document.getElementById('nStock').textContent=nst;
-document.getElementById('stat').textContent=keys.length+' danh mục · '+np+' sản phẩm';
-/* selects */
-var opts=keys.map(function(k){return '<option value="'+k+'">'+esc(D[k].name)+'</option>';}).join('')||'<option value="">—</option>';
+document.getElementById('stat').textContent=ks.length+' danh mục · '+np+' sản phẩm';
+var opts=ks.map(function(k){return '<option value="'+k+'">'+esc(D[k].name)+'</option>';}).join('')||'<option value="">—</option>';
 document.getElementById('fCat').innerHTML=opts;
 document.getElementById('bCat').innerHTML=opts;
 document.getElementById('filter').innerHTML='<option value="">Tất cả</option>'+opts;
-if(keys.indexOf(filter)===-1)filter='';
+if(ks.indexOf(filter)===-1)filter='';
 document.getElementById('filter').value=filter;
-/* cat list */
 var ch='';
-keys.forEach(function(k){
-var c=(D[k].plans||[]).length;
-var logo=D[k].logo?(' · <span style="color:#2e7d32">có logo</span>'):(' · <span style="color:#999">chưa logo</span>');
-ch+='<div class="catrow"><div><b>'+esc(D[k].name)+'</b> <small style="color:#888">· '+c+' sp'+logo+'</small></div><div style="white-space:nowrap"><button class="l" data-c="'+k+'" data-t="logo">Logo</button><button class="l" data-c="'+k+'" data-t="ren">Đổi tên</button><button class="l del" data-c="'+k+'" data-t="delc">Xóa</button></div></div>';});
+ks.forEach(function(k){var c=(D[k].plans||[]).length;
+var lg=D[k].logo?'<img src="'+esc(D[k].logo)+'" onerror="this.style.display=\'none\'" />':'';
+ch+='<div class="catrow"><div style="display:flex;align-items:center;gap:8px">'+lg+'<div><b>'+esc(D[k].name)+'</b> <small style="color:#888">· '+c+' sp</small></div></div><div style="white-space:nowrap"><button class="l" data-c="'+k+'" data-t="logo">Logo</button><button class="l" data-c="'+k+'" data-t="ren">Sửa</button><button class="l del" data-c="'+k+'" data-t="delc">Xóa</button></div></div>';});
 document.getElementById('catList').innerHTML=ch||'<div style="color:#999;font-size:12.5px">Chưa có danh mục.</div>';
-/* product list */
-var lh='',shown=keys.filter(function(k){return !filter||k===filter;});
-shown.forEach(function(k){(D[k].plans||[]).forEach(function(p,i){
+var lh='';
+ks.filter(function(k){return !filter||k===filter;}).forEach(function(k){(D[k].plans||[]).forEach(function(p,i){
 lh+='<div class="row"><div><b>'+esc(p.name)+'</b><br /><small>'+esc(D[k].name)+' · '+money(p.price)+' · còn '+esc(String(p.stock))+'</small></div><div style="white-space:nowrap"><button class="l" data-c="'+k+'" data-i="'+i+'" data-t="e">Sửa</button><button class="l del" data-c="'+k+'" data-i="'+i+'" data-t="d">Xóa</button></div></div>';});});
 document.getElementById('list').innerHTML=lh||'<div style="color:#999;font-size:12.5px">Chưa có sản phẩm.</div>';
 document.getElementById('prev').value=JSON.stringify(D,null,2);
 }
-
-/* category buttons */
 document.getElementById('catList').onclick=function(e){
-var b=e.target.closest('button[data-t]');if(!b)return;
-var k=b.dataset.c;
-if(b.dataset.t==='delc'){
-if(!confirm('Xóa cả danh mục "'+D[k].name+'" ('+(D[k].plans||[]).length+' sản phẩm)?'))return;
-delete D[k];if(filter===k)filter='';render();
-}else if(b.dataset.t==='logo'){
-var cur=D[k].logo||'';
-var v=prompt('Link logo cho "'+D[k].name+'" (vd: logos/netflix.png). Để trống để gỡ logo:',cur);
-if(v===null)return;
-v=v.trim();
-if(v)D[k].logo=v;else delete D[k].logo;
-render();
-}else{
-var n=prompt('Tên mới:',D[k].name);if(!n||!(n=n.trim()))return;
-D[k].name=n;D[k].short=shortOf(n);render();}};
+var b=e.target.closest('button[data-t]');if(!b)return;var k=b.dataset.c;
+if(b.dataset.t==='delc'){if(!confirm('Xóa "'+D[k].name+'" ('+(D[k].plans||[]).length+' sp)?'))return;delete D[k];if(filter===k)filter='';render();}
+else if(b.dataset.t==='logo'){var v=prompt('Link logo ('+D[k].name+'):',D[k].logo||'');if(v===null)return;v=v.trim();if(v)D[k].logo=v;else delete D[k].logo;render();}
+else{var n=prompt('Tên mới:',D[k].name);if(!n||!(n=n.trim()))return;D[k].name=n;D[k].short=shortOf(n);render();}};
 document.getElementById('addCat').onclick=function(){
-var n=document.getElementById('newCat').value.trim();if(!n){alert('Nhập tên danh mục.');return;}
-var k=slug(n);if(D[k]){alert('Danh mục đã có.');return;}
+var n=document.getElementById('newCat').value.trim();if(!n){alert('Nhập tên.');return;}
+var k=slug(n);if(D[k]){alert('Đã có.');return;}
 var lg=document.getElementById('newLogo').value.trim();
-D[k]={name:n,short:shortOf(n),plans:[]};
-if(lg)D[k].logo=lg;
+D[k]={name:n,short:shortOf(n),plans:[]};if(lg)D[k].logo=lg;
 document.getElementById('newCat').value='';document.getElementById('newLogo').value='';filter=k;render();};
 document.getElementById('filter').onchange=function(e){filter=e.target.value;render();};
-
-/* product form */
 document.getElementById('save').onclick=function(){
-var k=document.getElementById('fCat').value;
-var n=document.getElementById('fName').value.trim();
-var pr=Number(document.getElementById('fPrice').value||0);
-var st=Number(document.getElementById('fStock').value||0);
-var dur=document.getElementById('fDur').value.trim();
-var src=document.getElementById('fSrc').value.trim();
-var det=document.getElementById('fDetail').value.trim();
+var k=document.getElementById('fCat').value,n=document.getElementById('fName').value.trim();
+var pr=Number(document.getElementById('fPrice').value||0),st=Number(document.getElementById('fStock').value||0);
+var dur=document.getElementById('fDur').value.trim(),src=document.getElementById('fSrc').value.trim(),det=document.getElementById('fDetail').value.trim();
 if(!k||!n){alert('Chọn danh mục + nhập tên.');return;}
-var obj={id:'',name:n,detail:det,source:src,duration:dur,price:pr,stock:st};
-if(ei>=0&&ek&&D[ek]){obj.id=(D[ek].plans[ei]||{}).id||String(Date.now());D[ek].plans[ei]=obj;reset();}
-else{obj.id=String(Date.now());D[k].plans.push(obj);}
+var o={id:'',name:n,detail:det,source:src,duration:dur,price:pr,stock:st};
+if(ei>=0&&ek&&D[ek]){o.id=(D[ek].plans[ei]||{}).id||String(Date.now());D[ek].plans[ei]=o;reset();}
+else{o.id=String(Date.now());D[k].plans.push(o);}
 document.getElementById('fName').value='';render();};
-function reset(){ek='';ei=-1;document.getElementById('fCat').disabled=false;
-document.getElementById('save').textContent='Lưu';
-document.getElementById('cancelBtn').style.display='none';
-document.getElementById('formHint').textContent='';}
+function reset(){ek='';ei=-1;document.getElementById('fCat').disabled=false;document.getElementById('save').textContent='Lưu';document.getElementById('cancelBtn').style.display='none';document.getElementById('formTitle').textContent='Sản phẩm';}
 document.getElementById('cancelBtn').onclick=reset;
 document.getElementById('list').onclick=function(e){
-var b=e.target.closest('button[data-t]');if(!b)return;
-var k=b.dataset.c,i=+b.dataset.i;
+var b=e.target.closest('button[data-t]');if(!b)return;var k=b.dataset.c,i=+b.dataset.i;
 if(b.dataset.t==='e'){var p=D[k].plans[i];ek=k;ei=i;
 document.getElementById('fCat').value=k;document.getElementById('fCat').disabled=true;
-document.getElementById('fName').value=p.name||'';
-document.getElementById('fPrice').value=p.price||0;
-document.getElementById('fStock').value=p.stock||0;
-document.getElementById('fDur').value=p.duration||'';
-document.getElementById('fSrc').value=p.source||'';
-document.getElementById('fDetail').value=p.detail||p.desc||p.warranty||'';
-document.getElementById('save').textContent='Cập nhật';
-document.getElementById('cancelBtn').style.display='inline-block';
-document.getElementById('formHint').textContent='· đang sửa';
-window.scrollTo({top:0,behavior:'smooth'});
-}else{if(confirm('Xóa "'+p_name(D,k,i)+'"?')){D[k].plans.splice(i,1);render();}}};
-function p_name(D,k,i){return ((D[k].plans[i]||{}).name||'');}
-
-/* bulk add: Tên | Giá | Còn | Hạn | Nguồn | Chi tiết */
+document.getElementById('fName').value=p.name||'';document.getElementById('fPrice').value=p.price||0;
+document.getElementById('fStock').value=p.stock||0;document.getElementById('fDur').value=p.duration||'';
+document.getElementById('fSrc').value=p.source||'';document.getElementById('fDetail').value=p.detail||p.desc||p.warranty||'';
+document.getElementById('save').textContent='Cập nhật';document.getElementById('cancelBtn').style.display='inline-block';
+document.getElementById('formTitle').textContent='Sửa sản phẩm';window.scrollTo({top:0,behavior:'smooth'});}
+else{var nm=((D[k].plans[i]||{}).name||'');if(confirm('Xóa "'+nm+'"?')){D[k].plans.splice(i,1);render();}}};
 document.getElementById('bulkAdd').onclick=function(){
-var k=document.getElementById('bCat').value;
-if(!k){alert('Chọn danh mục nhận.');return;}
-var lines=document.getElementById('bulk').value.split('\n'),added=0;
-lines.forEach(function(line){
-line=line.trim();if(!line)return;
-var c=line.split('|').map(function(x){return x.trim();});
-if(!c[0])return;
-D[k].plans.push({id:String(Date.now())+added,name:c[0],price:Number((c[1]||'0').replace(/[^0-9]/g,''))||0,stock:Number((c[2]||'0').replace(/[^0-9]/g,''))||0,duration:c[3]||'',source:c[4]||'',detail:c[5]||''});
-added++;});
-document.getElementById('bulk').value='';
-alert(added?('Đã thêm '+added+' sản phẩm vào '+D[k].name+'.'):'Chưa thêm dòng nào.');
-render();};
-
-document.getElementById('exp').onclick=function(){
-var b=new Blob([JSON.stringify(D,null,2)],{type:'application/json'});var a=document.createElement('a');
-a.href=URL.createObjectURL(b);a.download='services.json';a.click();URL.revokeObjectURL(a.href);};
+var k=document.getElementById('bCat').value;if(!k){alert('Chọn danh mục.');return;}
+var added=0;
+document.getElementById('bulk').value.split('\n').forEach(function(line){
+line=line.trim();if(!line)return;var c=line.split('|').map(function(x){return x.trim();});if(!c[0])return;
+D[k].plans.push({id:String(Date.now())+added,name:c[0],price:Number((c[1]||'0').replace(/[^0-9]/g,''))||0,stock:Number((c[2]||'0').replace(/[^0-9]/g,''))||0,duration:c[3]||'',source:c[4]||'',detail:c[5]||''});added++;});
+document.getElementById('bulk').value='';alert(added?('Đã thêm '+added+' vào '+D[k].name+'.'):'Chưa thêm dòng nào.');render();};
+document.getElementById('exp').onclick=function(){var b=new Blob([JSON.stringify(D,null,2)],{type:'application/json'});var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='services.json';a.click();URL.revokeObjectURL(a.href);};
 document.getElementById('git').onclick=function(){window.open(GIT,'_blank');};
 </script>
 </body>
