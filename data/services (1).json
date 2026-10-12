@@ -1,241 +1,817 @@
 {
   "youtube": {
-    "name": "Youtube",
+    "name": "YouTube Premium",
     "short": "YT",
-    "plans": []
-  },
-  "chatgpt": {
-    "name": "Chat GPT",
-    "short": "GPT",
-    "plans": []
-  },
-  "google-ultra": {
-    "name": "Google Ultra",
-    "short": "GU",
-    "plans": []
-  },
-  "app-lam-dep": {
-    "name": "App Làm Đẹp",
-    "short": "LĐ",
-    "plans": []
-  },
-  "app-vpn": {
-    "name": "App VPN",
-    "short": "VPN",
-    "plans": []
-  },
-  "microsoft-365": {
-    "name": "Microsoft 365",
-    "short": "M365",
-    "plans": []
-  },
-  "adobe": {
-    "name": "Adobe",
-    "short": "AD",
-    "plans": []
-  },
-  "canva": {
-    "name": "Canva",
-    "short": "CV",
-    "plans": []
-  },
-  "capcut": {
-    "name": "Capcut",
-    "short": "CC",
-    "plans": []
-  },
-  "api-claude": {
-    "name": "API Claude",
-    "short": "CL",
-    "plans": []
-  },
-  "duolingo": {
-    "name": "Duolingo",
-    "short": "DU",
-    "plans": []
-  },
-  "seedance": {
-    "name": "Seedance",
-    "short": "SE",
-    "plans": []
-  },
-  "outlook": {
-    "name": "Outlook",
-    "short": "OL",
-    "plans": []
-  },
-  "gmail": {
-    "name": "Gmail",
-    "short": "GM",
-    "plans": []
-  },
-  "google-one": {
-    "name": "Google One",
-    "short": "G1",
-    "plans": []
-  },
-  "grok": {
-    "name": "Grok",
-    "short": "GR",
-    "plans": []
-  },
-  "kling": {
-    "name": "Kling",
-    "short": "KL",
-    "plans": []
-  },
-  "mbbank": {
-    "name": "MB Bank",
-    "short": "MB",
-    "plans": []
-  },
-  "apple": {
-    "name": "Apple",
-    "short": "AP",
-    "plans": []
-  },
-  "netflix": {
-    "name": "Netflix",
-    "short": "NF",
-    "plans": []
-  },
-  "notion": {
-    "name": "Notion",
-    "short": "NO",
-    "plans": []
-  },
-  "perplexity": {
-    "name": "Perplexity",
-    "short": "PP",
-    "plans": []
-  },
-  "quizlet": {
-    "name": "Quizlet",
-    "short": "QZ",
-    "plans": []
-  },
-  "reddit": {
-    "name": "Reddit",
-    "short": "RD",
-    "plans": []
-  },
-  "spotify": {
-    "name": "Spotify",
-    "short": "SP",
-    "plans": []
-  },
-  "app-phim": {
-    "name": "App Phim",
-    "short": "PH",
-    "plans": []
-  },
-  "autodesk": {
-    "name": "Autodesk",
-    "short": "AU",
-    "plans": []
-  },
-  "minimax": {
-    "name": "Minimax",
-    "short": "MM",
-    "plans": []
-  },
-  "locket": {
-    "name": "Locket",
-    "short": "LO",
-    "plans": []
-  },
-  "coursera": {
-    "name": "Coursera",
-    "short": "CO",
-    "plans": []
-  },
-  "elevenlabs": {
-    "name": "Elevenlabs",
-    "short": "EL",
-    "plans": []
-  },
-  "higgsfield": {
-    "name": "Higgfield",
-    "short": "HG",
-    "plans": []
-  },
-  "leonardo": {
-    "name": "Leonardo AI",
-    "short": "LE",
-    "plans": []
-  },
-  "suno": {
-    "name": "Suno",
-    "short": "SU",
-    "plans": []
-  },
-  "amazon-prime": {
-    "name": "Amazon Prime",
-    "short": "AM",
-    "plans": []
-  },
-  "deepseek": {
-    "name": "Deepseek",
-    "short": "DS",
-    "plans": []
-  },
-  "icloud": {
-    "name": "Icloud",
-    "short": "IC",
-    "plans": []
-  },
-  "linkedin": {
-    "name": "Linkedin",
-    "short": "LI",
-    "plans": []
-  },
-  "zoom": {
-    "name": "Zoom",
-    "short": "ZO",
-    "plans": []
-  },
-  "muse-ai": {
-    "name": "Muse AI",
-    "short": "MU",
-    "plans": []
-  },
-  "openart": {
-    "name": "OpenArt",
-    "short": "OA",
-    "plans": []
-  },
-  "akool": {
-    "name": "Akool",
-    "short": "AK",
-    "plans": []
-  },
-  "lovable": {
-    "name": "Lovable",
-    "short": "LV",
-    "plans": []
-  },
-  "heygen": {
-    "name": "HeyGen",
-    "short": "HY",
-    "plans": []
-  },
-  "veo3": {
-    "name": "Slot Veo3 Ultra",
-    "short": "V3",
-    "plans": []
-  },
-  "khac": {
-    "name": "Khác",
-    "short": "＋",
     "plans": [
       {
-        "id": "kh-1",
-        "name": "Sản phẩm theo yêu cầu",
-        "detail": "Nhắn Zalo tên sản phẩm cần mua, shop báo giá.",
-        "source": "Liên hệ shop",
-        "duration": "Theo gói",
-        "price": 0,
-        "stock": 99
+        "id": "yt-slot-1m",
+        "name": "Slot YouTube Premium 1 Tháng BHF",
+        "price": 15000,
+        "stock": "∞",
+        "duration": "1 Tháng",
+        "source": "Gia đình chính chủ",
+        "detail": "• Nâng qua email trong 15 phút sau khi gửi mail vào bot.\n• Không tự ý rời nhóm gia đình (rời sẽ không được bảo hành).\n• Hàng không gia hạn được."
+      },
+      {
+        "id": "yt-slot-3m",
+        "name": "Slot YouTube Premium 3 Tháng BHF",
+        "price": 90000,
+        "stock": "∞",
+        "duration": "3 Tháng",
+        "source": "Gia đình chính chủ",
+        "detail": "• Hàng KHÔNG đổi Family hàng tháng.\n• Không tự ý rời Family khi chưa có thông báo từ Admin.\n• Hỗ trợ đổi mail trong 24h sau khi mua.\n• Đóng hồ sơ thanh toán tại: payments.google.com\n• Kiểm tra tình trạng Family tại: g.co/yourfamily"
+      },
+      {
+        "id": "yt-slot-6m",
+        "name": "Slot YouTube Premium 6 Tháng BHF",
+        "price": 180000,
+        "stock": "∞",
+        "duration": "6 Tháng",
+        "source": "Gia đình chính chủ",
+        "detail": "• Hàng KHÔNG đổi Family hàng tháng.\n• Không tự ý rời Family khi chưa có thông báo từ Admin.\n• Hỗ trợ đổi mail trong 24h sau khi mua.\n• Đóng hồ sơ thanh toán tại: payments.google.com\n• Kiểm tra tình trạng Family tại: g.co/yourfamily"
+      },
+      {
+        "id": "yt-slot-12m",
+        "name": "Slot YouTube Premium 12 Tháng BHF",
+        "price": 360000,
+        "stock": "∞",
+        "duration": "12 Tháng",
+        "source": "Gia đình chính chủ",
+        "detail": "• Hàng KHÔNG đổi Family hàng tháng.\n• Không tự ý rời Family khi chưa có thông báo từ Admin.\n• Hỗ trợ đổi mail trong 24h sau khi mua.\n• Đóng hồ sơ thanh toán tại: payments.google.com\n• Kiểm tra tình trạng Family tại: g.co/yourfamily"
+      },
+      {
+        "id": "yt-admin-1m",
+        "name": "Admin YTB Premium 5 Slot 1 Tháng BHF",
+        "price": 45000,
+        "stock": 108,
+        "duration": "1 Tháng",
+        "source": "Tài khoản Admin",
+        "detail": "• Định dạng: Mail | Pass | 2FA.\n• Tự add tối đa 5 slot thành viên, phù hợp seller.\n• Bảo hành full gói trong quá trình sử dụng."
+      },
+      {
+        "id": "yt-admin-3m",
+        "name": "Admin YTB Premium 5 Slot 3 Tháng BHF",
+        "price": 390000,
+        "stock": 110,
+        "duration": "3 Tháng",
+        "source": "Tài khoản Admin",
+        "detail": "• Định dạng: Mail | Pass | 2FA.\n• Add được 5 slot thành viên.\n• Bảo hành full gói, không đổi info tài khoản để renew."
+      },
+      {
+        "id": "yt-admin-6m",
+        "name": "Admin YTB Premium 5 Slot 6 Tháng BHF",
+        "price": 780000,
+        "stock": 112,
+        "duration": "6 Tháng",
+        "source": "Tài khoản Admin",
+        "detail": "• Định dạng: Mail | Pass | 2FA.\n• Add được 5 slot thành viên.\n• Bảo hành full gói, không đổi info tài khoản để renew."
+      },
+      {
+        "id": "yt-admin-12m",
+        "name": "Admin YTB Premium 5 Slot 12 Tháng BHF",
+        "price": 1560000,
+        "stock": 112,
+        "duration": "12 Tháng",
+        "source": "Tài khoản Admin",
+        "detail": "• Định dạng: Mail | Pass | 2FA.\n• Add được 5 slot thành viên trong quá trình sử dụng.\n• Bảo hành full gói 1 năm."
+      }
+    ]
+  },
+  "chatgpt": {
+    "name": "ChatGPT / OpenAI",
+    "short": "GPT",
+    "plans": [
+      {
+        "id": "gpt-json-free",
+        "name": "JSON ChatGPT Free Ver Codex 1 Tháng (BH Login)",
+        "price": 7000,
+        "stock": 161,
+        "duration": "1 Tháng",
+        "source": "JSON Token",
+        "detail": "• Tài khoản Free đã Verify Phone Codex 100%.\n• Chạy mượt model Terra 5.6 & Luna 5.6.\n• Định dạng JSON Codex (chứa email, pass, 2FA).\n• Hỗ trợ vấn đề trong 1 giờ đầu khi nhận hàng."
+      },
+      {
+        "id": "gpt-free-phone",
+        "name": "ChatGPT Free Đã Ver Phone Codex 1 Tháng",
+        "price": 10000,
+        "stock": 10,
+        "duration": "1 Tháng",
+        "source": "Cấp sẵn TK/MK",
+        "detail": "• TK Free đã Verify Phone sẵn 100%, sống dai.\n• Chạy mượt mà Terra 5.6 & Luna 5.6.\n• Định dạng: TK | PASS | 2FA | Phone | JSON."
+      },
+      {
+        "id": "gpt-json-plus-token",
+        "name": "JSON ChatGPT Plus Token CodeX (BH 1H)",
+        "price": 49000,
+        "stock": 5,
+        "duration": "1 Giờ BH",
+        "source": "File JSON Codex",
+        "detail": "• Gói Plus đã Verify Phone, dạng JSON nạp cho Codex / 9Router / IDE.\n• Không phải email/pass để đăng nhập web.\n• Hàng random quota, vui lòng kiểm tra và dùng ngay trong 1h."
+      },
+      {
+        "id": "gpt-go-3d",
+        "name": "ChatGPT Go 1 Tháng (Bảo Hành 3 Ngày)",
+        "price": 80000,
+        "stock": 20,
+        "duration": "1 Tháng",
+        "source": "Cấp sẵn",
+        "detail": "• Định dạng: Email | Mật khẩu | 2FA.\n• Lấy OTP 2FA tại 2fa.live.\n• Không bảo hành ver số Codex (tự thuê số ver tại viotp.com).\n• Nghiêm cấm gắn tool 9Router bào Codex."
+      },
+      {
+        "id": "gpt-go-10d",
+        "name": "ChatGPT Go 1 Tháng (Bảo Hành 10 Ngày)",
+        "price": 95000,
+        "stock": 13,
+        "duration": "1 Tháng",
+        "source": "Cấp sẵn",
+        "detail": "• Định dạng: Email | Mật khẩu | 2FA.\n• Bảo hành 10 ngày sử dụng.\n• Không bảo hành gắn tool 9Router bào limit."
+      },
+      {
+        "id": "gpt-k12-edu-2y",
+        "name": "ChatGPT Plus K12 Edu 2 Năm (BH 24H)",
+        "price": 95000,
+        "stock": 16,
+        "duration": "2 Năm",
+        "source": "Gói Giáo Viên",
+        "detail": "• Quota Codex ngon ngang Plus cá nhân.\n• Format: TK | MK | 2FA.\n• Phù hợp cho anh em bào Codex với chi phí rẻ."
+      },
+      {
+        "id": "gpt-biz-shared",
+        "name": "Slot ChatGPT Business Dùng Chung 1 Tháng BHF",
+        "price": 119000,
+        "stock": 9,
+        "duration": "1 Tháng",
+        "source": "Business Shared",
+        "detail": "• Dùng ổn định, gia hạn được, không đổi team.\n• Cố định 1 thiết bị, không đổi mật khẩu/2FA.\n• Có model ChatGPT Pro, hạn mức usage cao hơn Plus.\n• Bảo hành Full-time trong suốt 1 tháng."
+      },
+      {
+        "id": "gpt-plus-15d",
+        "name": "ChatGPT Plus 1 Tháng (Bảo Hành 15 Ngày)",
+        "price": 240000,
+        "stock": 6,
+        "duration": "1 Tháng",
+        "source": "Cấp sẵn",
+        "detail": "• Format: Email | Password | 2FA.\n• Bảo hành 15 ngày kể từ ngày mua."
+      },
+      {
+        "id": "gpt-plus-20d",
+        "name": "ChatGPT Plus 1 Tháng (Bảo Hành 20 Ngày)",
+        "price": 260000,
+        "stock": 4,
+        "duration": "1 Tháng",
+        "source": "Cấp sẵn",
+        "detail": "• Hàng Gpay thanh toán tại VN sạch, mỗi acc 1 thẻ riêng.\n• Định dạng: Mail | Pass | 2FA.\n• Hoàn tiền theo số ngày chưa dùng nếu lỗi không khắc phục được."
+      },
+      {
+        "id": "gpt-plus-bhf",
+        "name": "ChatGPT Plus 1 Tháng BHF (Chính Chủ Riêng Tư)",
+        "price": 295000,
+        "stock": 14,
+        "duration": "1 Tháng",
+        "source": "Acc riêng tư",
+        "detail": "• Được đổi Pass & 2FA thoải mái.\n• Bào Codex thoải mái (khách tự ver số sim).\n• Bảo hành full trọn tháng."
+      },
+      {
+        "id": "gpt-biz-slot-24h",
+        "name": "Slot ChatGPT Business 1 Tháng (BH 24H)",
+        "price": 300000,
+        "stock": "∞",
+        "duration": "1 Tháng",
+        "source": "Mời vào Workspace",
+        "detail": "• Nâng cấp qua email, thêm hoàn thành trong 2h.\n• Bảo hành nếu bị kick khỏi Workspace."
+      },
+      {
+        "id": "gpt-biz-slot-15d",
+        "name": "Slot ChatGPT Business 1 Tháng (BH 15 Ngày)",
+        "price": 355000,
+        "stock": "∞",
+        "duration": "1 Tháng",
+        "source": "Mời vào Workspace",
+        "detail": "• Thêm thủ công trong 2h.\n• Bảo hành 15 ngày, không tự ý rời workspace."
+      },
+      {
+        "id": "gpt-plus-4m",
+        "name": "ChatGPT Plus 4 Tháng (BH 24H)",
+        "price": 500000,
+        "stock": 6,
+        "duration": "4 Tháng",
+        "source": "Cấp sẵn dài hạn",
+        "detail": "• Yêu cầu đổi mật khẩu và lưu 2FA ngay khi nhận acc.\n• Bảo hành đăng nhập trong 24 giờ đầu."
+      },
+      {
+        "id": "gpt-biz-premium",
+        "name": "Slot ChatGPT Business Plan Premium 1 Tháng (BH 24H)",
+        "price": 1000000,
+        "stock": "∞",
+        "duration": "1 Tháng",
+        "source": "Workspace Premium",
+        "detail": "• Gói Business Premium quota gấp 5 lần bản Standard/Plus.\n• Hàng thêm thủ công qua email."
+      },
+      {
+        "id": "gpt-pro-x5",
+        "name": "ChatGPT Pro (Limit x5) 1 Tháng (BH 7 Ngày)",
+        "price": 1600000,
+        "stock": 5,
+        "duration": "1 Tháng",
+        "source": "Cấp sẵn Pro",
+        "detail": "• Truy cập GPT-5 / GPT-5.5, GPT-5 Pro reasoning.\n• Giới hạn message x5 so với Plus, 250 Deep Research runs/tháng.\n• Hỗ trợ tạo video Sora, Advanced Voice, context window 1M token.\n• Có thể gia hạn sau khi hết tháng."
+      },
+      {
+        "id": "gpt-pro-x20",
+        "name": "ChatGPT Pro $200 (Limit x20) 1 Tháng (BH Login)",
+        "price": 2200000,
+        "stock": 6,
+        "duration": "1 Tháng",
+        "source": "Gói $200/tháng",
+        "detail": "• Gói cao cấp nhất dành cho researcher/developer.\n• Limit tin nhắn x20 lần so với Plus, Deep Research tối đa.\n• Context 1 triệu token, mở rộng Codex coding agent."
+      }
+    ]
+  },
+  "google-veo": {
+    "name": "Google / Gemini / Veo Ultra",
+    "short": "GG",
+    "plans": [
+      {
+        "id": "gemini-link-18m",
+        "name": "Link Get Gemini AI Pro 18 Tháng (BH 24H)",
+        "price": 25000,
+        "stock": 119,
+        "duration": "18 Tháng",
+        "source": "Link kích hoạt",
+        "detail": "• Nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ thanh toán, không cần bật VPN.\n• Mua về login Gmail -> dán link -> nhận gói ngay trong 24h."
+      },
+      {
+        "id": "gemini-slot-5tb-18m",
+        "name": "Slot Gemini Pro + 5TB Cloud 18 Tháng (BH Active)",
+        "price": 30000,
+        "stock": "∞",
+        "duration": "18 Tháng",
+        "source": "Chính chủ",
+        "detail": "• Nâng cấp chính chủ trên mail của khách.\n• Tặng kèm 5TB dung lượng Google One."
+      },
+      {
+        "id": "veo3-slot-1m",
+        "name": "Slot Veo 3 Ultra x20 Random Credits 1 Tháng",
+        "price": 450000,
+        "stock": "∞",
+        "duration": "1 Tháng",
+        "source": "Family chính chủ",
+        "detail": "• Có Random Flow Credit (0 -> 25k Cre).\n• Lưu trữ 30TB dùng chung cho Photos, Drive và Gmail.\n• Mời vào Family, kích hoạt trong ngày.\n• Đóng HSTT tại: payments.google.com và kiểm tra tại: g.co/yourfamily"
+      },
+      {
+        "id": "veo4-slot-3m",
+        "name": "Slot Veo 4 Ultra x5 Random Credits 3 Tháng BHF",
+        "price": 1000000,
+        "stock": "∞",
+        "duration": "3 Tháng",
+        "source": "Family Veo 4",
+        "detail": "• Nâng cấp model Veo 4 Ultra, kèm Flow Credit.\n• Khách gửi mail để mời vào nhóm Family."
+      },
+      {
+        "id": "veo3-slot-x5-3m",
+        "name": "Slot Veo 3 Ultra x5 Random Credits 3 Tháng",
+        "price": 1250000,
+        "stock": "∞",
+        "duration": "3 Tháng",
+        "source": "Family chính chủ",
+        "detail": "• Random Flow Credit (0 -> 10k Cre), dùng Antigravity.\n• Mời qua Family, bảo hành trọn 3 tháng."
+      },
+      {
+        "id": "veo3-slot-x20-3m",
+        "name": "Slot Veo 3 Ultra x20 Random Credits 3 Tháng",
+        "price": 1500000,
+        "stock": "∞",
+        "duration": "3 Tháng",
+        "source": "Family chính chủ",
+        "detail": "• Nâng ngay lập tức sau khi gửi email.\n• Lưu trữ 30TB dùng chung, bảo hành trọn 3 tháng."
+      },
+      {
+        "id": "veo3-slot-25k-rieng",
+        "name": "Slot Veo 3 Ultra x20 25K Credits Dùng Riêng 1 Tháng BHF",
+        "price": 1700000,
+        "stock": "∞",
+        "duration": "1 Tháng",
+        "source": "Credit riêng",
+        "detail": "• Có 25k credit dùng Flow riêng trong 1 tháng.\n• Kiểm tra số dư credit tại one.google.com.\n• Kèm lưu trữ 30TB dùng chung."
+      },
+      {
+        "id": "veo3-slot-1y-0cre",
+        "name": "Slot Veo 3 Ultra x20 (0 Credit) 1 Năm BHF",
+        "price": 2500000,
+        "stock": "∞",
+        "duration": "1 Năm",
+        "source": "Bản quyền 1 Năm",
+        "detail": "• Dùng được Gemini Ultra tại gemini.google.com với Usage x20 lần Pro.\n• Tạo video gen Veo 3, bảo hành trọn gói 1 năm."
+      },
+      {
+        "id": "veo4-slot-1y",
+        "name": "Slot Veo 4 Ultra x5 Random Credits 1 Năm BHF",
+        "price": 2500000,
+        "stock": "∞",
+        "duration": "1 Năm",
+        "source": "Family Veo 4 1 Năm",
+        "detail": "• Nâng ngay lập tức vào Family, bảo hành full 1 năm."
+      },
+      {
+        "id": "veo4-slot-750k-cre",
+        "name": "Slot Veo 4 Ultra x20 750K Credits 1 Tháng BHF",
+        "price": 5000000,
+        "stock": "∞",
+        "duration": "1 Tháng",
+        "source": "Gói Studio khủng",
+        "detail": "• Dùng chung 750k credits/tháng cho cả Family.\n• Mỗi ngày được bơm 25k credit vào tài khoản."
+      },
+      {
+        "id": "veo3-admin-fam-3m",
+        "name": "Admin Family GG Veo 3 Ultra x20 3 Tháng BHF",
+        "price": 6500000,
+        "stock": 4,
+        "duration": "3 Tháng",
+        "source": "Cấp Admin Family",
+        "detail": "• Dùng mail chính chủ của bạn làm Admin Family.\n• 30TB dung lượng cá nhân (hoặc share cho 4 người khác).\n• 25.000 Flow Credit renew hàng tháng, bảo hành 3 tháng."
+      }
+    ]
+  },
+  "canva": {
+    "name": "Canva Pro",
+    "short": "CNV",
+    "plans": [
+      {
+        "id": "canva-link-1m",
+        "name": "Link Join Canva Pro 1 Tháng BHF",
+        "price": 5000,
+        "stock": 97,
+        "duration": "1 Tháng",
+        "source": "Link mời",
+        "detail": "• Dán link trên trình duyệt để tự join vào nhóm Pro.\n• Mỗi link dùng kích hoạt 1 lần."
+      },
+      {
+        "id": "canva-slot-edu-1y",
+        "name": "Slot Canva Edu Add Family 1 Năm",
+        "price": 10000,
+        "stock": "∞",
+        "duration": "1 Năm",
+        "source": "Chính chủ",
+        "detail": "• Canva Edu thêm vào email chính chủ, bảo hành fulltime.\n• Xử lý hoàn tất trong 15 phút sau khi gửi mail."
+      },
+      {
+        "id": "canva-slot-pro-1y",
+        "name": "Slot Canva Pro Add Family 1 Năm",
+        "price": 59000,
+        "stock": "∞",
+        "duration": "1 Năm",
+        "source": "Chính chủ",
+        "detail": "• Canva Pro chính chủ add theo email của bạn.\n• Bảo hành fulltime 1 năm."
+      },
+      {
+        "id": "canva-admin-50slot",
+        "name": "Admin Canva Pro 1 Năm 50 Slot BHF",
+        "price": 2500000,
+        "stock": 5,
+        "duration": "1 Năm",
+        "source": "Tài khoản Admin",
+        "detail": "• Cấp quyền Admin tự add tối đa 50 slot thành viên Canva Pro.\n• Thích hợp cho trường học hoặc doanh nghiệp bán lẻ."
+      }
+    ]
+  },
+  "capcut": {
+    "name": "CapCut Pro",
+    "short": "CPC",
+    "plans": [
+      {
+        "id": "capcut-1m",
+        "name": "CapCut Pro 1 Tháng BHF",
+        "price": 38000,
+        "stock": 18,
+        "duration": "1 Tháng",
+        "source": "Cấp TK/MK",
+        "detail": "• Tài khoản cá nhân 30 ngày, bảo hành full.\n• Đăng nhập tối đa 2 thiết bị (1 Điện thoại + 1 PC)."
+      },
+      {
+        "id": "capcut-12m",
+        "name": "CapCut Pro 12 Tháng BHF",
+        "price": 650000,
+        "stock": 4,
+        "duration": "12 Tháng",
+        "source": "Cấp TK/MK",
+        "detail": "• Tài khoản cá nhân 1 năm.\n• Đăng nhập 1 Mobile + 1 PC, bảo hành 1 đổi 1 suốt 12 tháng."
+      }
+    ]
+  },
+  "api-claude-codex": {
+    "name": "API Claude & Codex",
+    "short": "API",
+    "plans": [
+      {
+        "id": "api-sim-us",
+        "name": "Số Điện Thoại US + API Dùng Verify Codex",
+        "price": 3000,
+        "stock": 89,
+        "duration": "1 Lần",
+        "source": "Sim US / API",
+        "detail": "• Dùng để nhận code OTP xác thực tài khoản Codex."
+      },
+      {
+        "id": "api-claude-10m-1d",
+        "name": "API 10M Token Claude 1 Ngày BHF",
+        "price": 35000,
+        "stock": 181,
+        "duration": "1 Ngày",
+        "source": "Token Gateway",
+        "detail": "• Full model Claude Opus, Sonnet, Haiku.\n• Hoàn tiền theo số lượng token chưa sử dụng nếu xảy ra lỗi."
+      },
+      {
+        "id": "api-codex-10m-2d",
+        "name": "10M Credit API Codex 2 Ngày BHF",
+        "price": 35000,
+        "stock": 202,
+        "duration": "2 Ngày",
+        "source": "Teamsoclo Gateway",
+        "detail": "• Model: GPT-5.6 Sol, GPT-6 Luna, GPT-6.1 Sol.\n• Hướng dẫn kết nối: docs.teamsoclo.site"
+      },
+      {
+        "id": "api-codex-20m-2d",
+        "name": "20M Credit API Codex 2 Ngày BHF",
+        "price": 50000,
+        "stock": 206,
+        "duration": "2 Ngày",
+        "source": "Teamsoclo Gateway",
+        "detail": "• Model: GPT-5.6 Sol, GPT-6 Luna, GPT-6.1 Sol.\n• Bảo hành hoàn tiền theo số lượng credit chưa sử dụng."
+      },
+      {
+        "id": "api-codex-50m-1d",
+        "name": "50M Credits API Codex 1 Ngày BHF",
+        "price": 50000,
+        "stock": 186,
+        "duration": "1 Ngày",
+        "source": "Teamsoclo Gateway",
+        "detail": "• Thời hạn 24 giờ, hỗ trợ model Sol & Luna."
+      },
+      {
+        "id": "api-codex-50m-2d",
+        "name": "50M Credit API Codex 2 Ngày BHF",
+        "price": 60000,
+        "stock": 198,
+        "duration": "2 Ngày",
+        "source": "Teamsoclo Gateway",
+        "detail": "• Thời hạn 48 giờ, hỗ trợ model Sol & Luna."
+      },
+      {
+        "id": "api-codex-100m-5d",
+        "name": "100M Credit API Codex 5 Ngày BHF",
+        "price": 95000,
+        "stock": 183,
+        "duration": "5 Ngày",
+        "source": "Teamsoclo Gateway",
+        "detail": "• Thời hạn 5 ngày sử dụng, nạp key tại redeem.teamsoclo.site."
+      },
+      {
+        "id": "api-claude-50m-1d",
+        "name": "API 50M Token Claude 1 Ngày BHF",
+        "price": 100000,
+        "stock": 71,
+        "duration": "1 Ngày",
+        "source": "Token Gateway",
+        "detail": "• Full model Claude Opus, Sonnet, Haiku trong 24 giờ."
+      },
+      {
+        "id": "api-claude-vip-40m",
+        "name": "API Claude VIP High Stable 40M Token 1 Ngày BHF",
+        "price": 100000,
+        "stock": 33,
+        "duration": "1 Ngày",
+        "source": "Cursor Ultra Trích Xuất",
+        "detail": "• Trích xuất từ Cursor Ultra, độ ổn định cực cao.\n• Hỗ trợ Fable tốc độ cao, Opus-5.5, Sonnet 5, Kimi K3, GLM 5.2."
+      },
+      {
+        "id": "api-claude-100m-3d",
+        "name": "API 100M Token Claude 3 Ngày BHF",
+        "price": 140000,
+        "stock": 21,
+        "duration": "3 Ngày",
+        "source": "Token Gateway",
+        "detail": "• Hạn dùng 3 ngày, full model Opus/Sonnet/Haiku."
+      },
+      {
+        "id": "api-claude-200m-1d",
+        "name": "API 200M Token Claude 1 Ngày BHF",
+        "price": 189000,
+        "stock": 34,
+        "duration": "1 Ngày",
+        "source": "Token Gateway",
+        "detail": "• Hạn dùng 24 giờ, dung lượng lớn 200M token."
+      },
+      {
+        "id": "api-claude-100m-1m",
+        "name": "API Claude 100M Token 1 Tháng BHF",
+        "price": 249000,
+        "stock": 39,
+        "duration": "1 Tháng",
+        "source": "Teamsoclo Gateway",
+        "detail": "• Hạn dùng 30 ngày, đổi CDK thành key dùng dần."
+      },
+      {
+        "id": "api-claude-200m-7d",
+        "name": "API Claude 200M Token 7 Ngày BHF",
+        "price": 249000,
+        "stock": 45,
+        "duration": "7 Ngày",
+        "source": "Teamsoclo Gateway",
+        "detail": "• Hạn dùng 7 ngày, full model Fable/Sonnet/Opus."
+      },
+      {
+        "id": "api-claude-200m-1m",
+        "name": "API Claude 200M Token 1 Tháng BHF",
+        "price": 309000,
+        "stock": 45,
+        "duration": "1 Tháng",
+        "source": "Teamsoclo Gateway",
+        "detail": "• Hạn dùng 30 ngày qua gateway Teamsoclo."
+      },
+      {
+        "id": "api-claude-500m-1m",
+        "name": "API Claude 500M Token 1 Tháng BHAF",
+        "price": 439000,
+        "stock": 46,
+        "duration": "1 Tháng",
+        "source": "Teamsoclo Gateway",
+        "detail": "• Hạn dùng 30 ngày, dung lượng khủng 500M token cho team."
+      }
+    ]
+  },
+  "api-cursor-deepseek": {
+    "name": "API Cursor & DeepSeek",
+    "short": "CUR",
+    "plans": [
+      {
+        "id": "api-deepseek-50",
+        "name": "API DeepSeek $50 1 Tháng BHF",
+        "price": 109000,
+        "stock": 61,
+        "duration": "1 Tháng",
+        "source": "Vibi.top",
+        "detail": "• Tương đương khoảng 50 - 100 triệu token.\n• Kích hoạt tại vibi.top, hỗ trợ thêm Claude và GPT."
+      },
+      {
+        "id": "api-deepseek-100",
+        "name": "API DeepSeek $100 1 Tháng BHF",
+        "price": 159000,
+        "stock": 26,
+        "duration": "1 Tháng",
+        "source": "Vibi.top",
+        "detail": "• Kích hoạt tại vibi.top, hỗ trợ model DeepSeek V4.1 Flash."
+      },
+      {
+        "id": "api-cursor-400cre",
+        "name": "API Cursor Pro 400 Credits/Ngày 1 Tháng BHF",
+        "price": 309000,
+        "stock": 1,
+        "duration": "1 Tháng",
+        "source": "Key Cursor API",
+        "detail": "• 400 credit/ngày (tổng 12.000 credit/tháng).\n• Bảo hành 30 ngày kể từ lúc kích hoạt key."
+      },
+      {
+        "id": "api-cursor-6500cre",
+        "name": "API Cursor Pro 6500 Credits 1 Tháng BHF",
+        "price": 309000,
+        "stock": 1,
+        "duration": "1 Tháng",
+        "source": "Key Cursor API",
+        "detail": "• Gói cố định 6500 credit dùng trong 1 tháng.\n• Bảo hành 30 ngày."
+      }
+    ]
+  },
+  "grok": {
+    "name": "Grok AI",
+    "short": "GRK",
+    "plans": [
+      {
+        "id": "grok-api-10m",
+        "name": "Grok API 10M Credits 3 Ngày BHF",
+        "price": 35000,
+        "stock": 127,
+        "duration": "3 Ngày",
+        "source": "API Teamsoclo",
+        "detail": "• Model: grok-4.5, grok-4.6, grok-4.7.\n• Đổi CDK thành key tại redeem.teamsoclo.site."
+      },
+      {
+        "id": "grok-api-30m",
+        "name": "Grok API 30M Credits 3 Ngày BHF",
+        "price": 49000,
+        "stock": 44,
+        "duration": "3 Ngày",
+        "source": "API Teamsoclo",
+        "detail": "• Model grok-4.5 đến grok-4.7 qua base URL Teamsoclo."
+      },
+      {
+        "id": "grok-api-50m",
+        "name": "Grok API 50M Credits 3 Ngày BHF",
+        "price": 85000,
+        "stock": 49,
+        "duration": "3 Ngày",
+        "source": "API Teamsoclo",
+        "detail": "• Hạn dùng 3 ngày, bảo hành theo credit dư."
+      },
+      {
+        "id": "grok-super-7d",
+        "name": "Grok Super 7 Ngày BHF",
+        "price": 100000,
+        "stock": 10,
+        "duration": "7 Ngày",
+        "source": "Tài khoản cấp sẵn",
+        "detail": "• Hàng Hotmail ổn định, khỏe. Định dạng: Email | Pass.\n• Trải nghiệm full tính năng Grok Super không giới hạn trong 7 ngày."
+      },
+      {
+        "id": "grok-api-100m",
+        "name": "Grok API 100M Credits 5 Ngày BHF",
+        "price": 149000,
+        "stock": 48,
+        "duration": "5 Ngày",
+        "source": "API Teamsoclo",
+        "detail": "• Hạn dùng 5 ngày, dung lượng 100M credit."
+      },
+      {
+        "id": "grok-api-200m",
+        "name": "Grok API 200M Credits 5 Ngày BHF",
+        "price": 349000,
+        "stock": 50,
+        "duration": "5 Ngày",
+        "source": "API Teamsoclo",
+        "detail": "• Hạn dùng 5 ngày, dung lượng khủng 200M credit."
+      },
+      {
+        "id": "grok-cdk-super-3m",
+        "name": "CDK Nâng Cấp Grok Super 3 Tháng BHF",
+        "price": 1350000,
+        "stock": 8,
+        "duration": "3 Tháng",
+        "source": "Mã CDK nâng cấp",
+        "detail": "• Nâng trên tài khoản Grok cá nhân (đang ở gói Free).\n• Kích hoạt tại quickplus.vip/public/grok qua userid session.\n• Bảo hành fulltime 3 tháng."
+      }
+    ]
+  },
+  "spotify": {
+    "name": "Spotify Premium",
+    "short": "SPF",
+    "plans": [
+      {
+        "id": "spotify-link-3m",
+        "name": "Link Kích Hoạt Spotify Premium 3 Tháng (BH Active)",
+        "price": 39000,
+        "stock": 6,
+        "duration": "3 Tháng",
+        "source": "Link kích hoạt",
+        "detail": "• Kích hoạt trên tài khoản mới / đủ điều kiện.\n• Bật VPN Ấn Độ trước khi click link để kích hoạt."
+      },
+      {
+        "id": "spotify-slot-6m",
+        "name": "Slot Spotify 6 Tháng BHF",
+        "price": 190000,
+        "stock": "∞",
+        "duration": "6 Tháng",
+        "source": "Chính chủ",
+        "detail": "• Nâng cấp trực tiếp trên tài khoản Spotify cá nhân.\n• Giữ nguyên playlist và bài hát đã lưu, bảo hành 6 tháng."
+      },
+      {
+        "id": "spotify-slot-12m",
+        "name": "Slot Spotify Premium 12 Tháng BHF",
+        "price": 350000,
+        "stock": "∞",
+        "duration": "12 Tháng",
+        "source": "Chính chủ",
+        "detail": "• Nâng cấp trên tài khoản chính chủ.\n• Bảo hành full suốt 1 năm sử dụng."
+      }
+    ]
+  },
+  "notion": {
+    "name": "Notion AI & Plus",
+    "short": "NTN",
+    "plans": [
+      {
+        "id": "notion-biz-ai-1m",
+        "name": "Slot Notion Business AI 1 Tháng BHF",
+        "price": 30000,
+        "stock": "∞",
+        "duration": "1 Tháng",
+        "source": "Mời vào Workspace",
+        "detail": "• Cung cấp email để shop mời vào Workspace Business.\n• Dùng được tính năng Notion AI, quota AI dùng chung workspace."
+      },
+      {
+        "id": "notion-plus-edu-2y",
+        "name": "Notion Plus Edu 2 Năm (BH 3 Tháng)",
+        "price": 130000,
+        "stock": 4,
+        "duration": "2 Năm",
+        "source": "Edu Plus",
+        "detail": "• Tính năng như gói Notion Plus (upload không giới hạn, lịch sử 30 ngày).\n• Không tự ý đổi thông tin tài khoản."
+      }
+    ]
+  },
+  "kling": {
+    "name": "Kling AI",
+    "short": "KLG",
+    "plans": [
+      {
+        "id": "kling-65cre",
+        "name": "Kling 65 Cre 1 Tháng BHF",
+        "price": 3000,
+        "stock": 115,
+        "duration": "1 Tháng",
+        "source": "Cấp TK/MK",
+        "detail": "• Định dạng: TK | MK.\n• Nên sử dụng ngay vì credit có thể reset sau một thời gian.\n• Dùng tab ẩn danh hoặc proxy."
+      },
+      {
+        "id": "kling-700cre",
+        "name": "Kling 700 - 900 Credits 1 Tháng (BH 24H)",
+        "price": 150000,
+        "stock": 4,
+        "duration": "1 Tháng",
+        "source": "Cấp TK/MK",
+        "detail": "• Acc Standard ngẫu nhiên 700 - 750 credit."
+      },
+      {
+        "id": "kling-1k-cre",
+        "name": "Kling Standard Random Credits 1k - 1k3 1 Tháng BHF",
+        "price": 205000,
+        "stock": 3,
+        "duration": "1 Tháng",
+        "source": "Email login",
+        "detail": "• Đăng nhập bằng Email, bảo hành 1 tháng."
+      },
+      {
+        "id": "kling-70k-cre",
+        "name": "Kling 70K Credits 1 Tháng BHF",
+        "price": 15000000,
+        "stock": 2,
+        "duration": "1 Tháng",
+        "source": "Gói Studio",
+        "detail": "• Bảo hành 1 tháng trọn gói, không mất gói hay mất credit."
+      }
+    ]
+  },
+  "gmail": {
+    "name": "Gmail Cổ & Tài Khoản Mail",
+    "short": "GML",
+    "plans": [
+      {
+        "id": "gmail-new-ytb",
+        "name": "Gmail New Login All Có Trial YTB",
+        "price": 18000,
+        "stock": 131,
+        "duration": "Vĩnh viễn",
+        "source": "Mail New",
+        "detail": "• Định dạng: Mail | Pass.\n• Có trial YouTube, tỉ lệ có ưu đãi 0đ Gemini Pro.\n• Hỗ trợ đăng nhập trong 1h đầu."
+      },
+      {
+        "id": "gmail-co-201x",
+        "name": "Gmail Cổ Date 201x - 2022",
+        "price": 35000,
+        "stock": 117,
+        "duration": "Vĩnh viễn",
+        "source": "Mail cổ",
+        "detail": "• Định dạng: Mail | Pass | Mail khôi phục | 2FA.\n• Bảo hành login trong 24h."
+      },
+      {
+        "id": "gmail-us-trial",
+        "name": "Gmail US Cổ Date 201x - 202x Trial Có 2FA",
+        "price": 45000,
+        "stock": 130,
+        "duration": "Vĩnh viễn",
+        "source": "Mail US",
+        "detail": "• Định dạng: Mail | Pass | Mail khôi phục | 2FA.\n• Mail cổ IP US có 2FA, bảo hành login trong 24h."
+      }
+    ]
+  },
+  "khac": {
+    "name": "Dịch Vụ Khác",
+    "short": "KHC",
+    "plans": [
+      {
+        "id": "vidiq-boost-1m",
+        "name": "VidIQ Boost YouTube Advanced Tools 1M",
+        "price": 145000,
+        "stock": 0,
+        "duration": "1 Tháng",
+        "source": "Email & Pass cá nhân",
+        "detail": "• VidIQ 1 channel Boost hỗ trợ làm YouTube.\n• Cung cấp Email & Mật khẩu tài khoản cá nhân, bảo hành 1 tháng."
+      },
+      {
+        "id": "muse-ai-1b",
+        "name": "Muse AI 1B Token 1 Tháng (BH 24H)",
+        "price": 50000,
+        "stock": 62,
+        "duration": "1 Tháng",
+        "source": "Email",
+        "detail": "• Nhận OTP tại mail-loli.pages.dev.\n• Định dạng: Email, bảo hành 24h."
+      },
+      {
+        "id": "voucher-mbbank-25tr",
+        "name": "Voucher Mở TK Số Đẹp MB Bank 25 Triệu",
+        "price": 50000,
+        "stock": "∞",
+        "duration": "1 Lần",
+        "source": "Voucher số điện thoại",
+        "detail": "• Voucher giảm 100% khi mở tài khoản số đẹp MB Bank trị giá 25 triệu.\n• Gửi SĐT đăng ký MB Bank để nhận voucher chuyển thẳng vào app."
       }
     ]
   }
