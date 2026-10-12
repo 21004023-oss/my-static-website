@@ -3,124 +3,390 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cửa Hàng Dịch Vụ & Tài Khoản Số - phanngoquocbao.id.vn</title>
+  <title>Bảng Giá Dịch Vụ Số - phanngoquocbao.id.vn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <style>
     :root {
-      --bg: #090d16;
-      --card-bg: rgba(18, 24, 38, 0.85);
-      --border: rgba(255, 255, 255, 0.08);
-      --text: #f8fafc;
-      --text-muted: #94a3b8;
+      --bg: #0b0f19;
+      --card-bg: rgba(17, 24, 39, 0.85);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
       --primary: #38bdf8;
-      --accent: #22c55e;
+      --accent: #10b981;
       --danger: #ef4444;
+      --btn-bg: #1e293b;
     }
+
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', sans-serif; }
-    body { background-color: var(--bg); color: var(--text); min-height: 100vh; padding: 30px 16px; }
-    .container { max-width: 1100px; margin: 0 auto; }
+    body {
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(56, 189, 248, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(16, 185, 129, 0.06) 0px, transparent 50%);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 30px 16px;
+    }
+
+    /* MÀN HÌNH KHÓA TRUY CẬP */
+    .lock-overlay {
+      position: fixed;
+      inset: 0;
+      background: #090d16;
+      backdrop-filter: blur(12px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+      padding: 20px;
+    }
+    .lock-box {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      padding: 36px 28px;
+      border-radius: 20px;
+      max-width: 380px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    }
+    .lock-icon {
+      width: 54px;
+      height: 54px;
+      background: rgba(56, 189, 248, 0.12);
+      color: var(--primary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 16px;
+    }
+    .lock-title { font-size: 1.35rem; font-weight: 800; margin-bottom: 8px; }
+    .lock-desc { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 20px; }
+    .pass-input {
+      width: 100%;
+      padding: 12px 16px;
+      background: #1e293b;
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      color: #fff;
+      font-size: 1rem;
+      outline: none;
+      text-align: center;
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+    }
+    .pass-input:focus { border-color: var(--primary); }
+    .btn-unlock {
+      width: 100%;
+      padding: 12px;
+      background: var(--primary);
+      color: #04121e;
+      font-weight: 700;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    .btn-unlock:hover { opacity: 0.9; }
+    .error-msg { color: var(--danger); font-size: 0.82rem; margin-top: 8px; display: none; }
+
+    /* NỘI DUNG CHÍNH */
+    .container { max-width: 960px; margin: 0 auto; display: none; }
     header { text-align: center; margin-bottom: 30px; }
-    header h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 8px; color: #fff; }
-    header p { color: var(--text-muted); font-size: 1rem; }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      background: rgba(16, 185, 129, 0.15);
+      color: #34d399;
+      font-size: 0.8rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    h1 { font-size: 2rem; font-weight: 800; margin-bottom: 6px; }
+    header p { color: var(--text-muted); font-size: 0.92rem; }
 
-    /* Bộ lọc phân loại */
-    .filter-bar { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin-bottom: 28px; }
-    .filter-btn { background: rgba(30, 41, 59, 0.7); border: 1px solid var(--border); color: var(--text-muted); padding: 8px 16px; border-radius: 9999px; font-weight: 600; cursor: pointer; transition: 0.2s; }
-    .filter-btn.active, .filter-btn:hover { background: var(--primary); color: #000; border-color: var(--primary); }
+    /* LƯỚI DANH MỤC NÚT (TELEGRAM STYLE) */
+    .app-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+      gap: 12px;
+      margin-bottom: 30px;
+    }
+    .app-btn {
+      background: var(--btn-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 14px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      color: var(--text);
+    }
+    .app-btn:hover, .app-btn.active {
+      background: rgba(56, 189, 248, 0.15);
+      border-color: var(--primary);
+      transform: translateY(-2px);
+    }
+    .app-icon { font-size: 1.5rem; }
+    .app-name { font-size: 0.88rem; font-weight: 700; }
 
-    /* Lưới sản phẩm */
-    .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 18px; }
-    .product-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s; position: relative; }
-    .product-card:hover { transform: translateY(-4px); border-color: rgba(56, 189, 248, 0.4); }
-    .tag-category { font-size: 0.75rem; font-weight: 700; color: var(--primary); text-transform: uppercase; margin-bottom: 6px; }
-    .product-name { font-size: 1.15rem; font-weight: 700; margin-bottom: 8px; color: #fff; }
-    .product-desc { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px; min-height: 38px; }
-    .product-meta { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px; border-top: 1px dashed var(--border); padding-top: 12px; }
-    .product-price { font-size: 1.35rem; font-weight: 800; color: var(--accent); }
-    .product-stock { font-size: 0.8rem; color: var(--text-muted); background: rgba(255,255,255,0.05); padding: 2px 8px; border-radius: 6px; }
-    .btn-buy { width: 100%; background: var(--primary); color: #000; font-weight: 700; padding: 10px; border-radius: 10px; border: none; cursor: pointer; transition: 0.2s; }
+    /* BẢNG GIÁ DỊCH VỤ */
+    .pricing-container {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 24px;
+    }
+    .pricing-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 14px;
+    }
+    .pricing-title { font-size: 1.25rem; font-weight: 800; color: #fff; }
+    
+    .pricing-list { display: flex; flex-direction: column; gap: 12px; }
+    .price-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--card-border);
+      padding: 16px 20px;
+      border-radius: 12px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .item-info h4 { font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
+    .item-info p { font-size: 0.82rem; color: var(--text-muted); }
+    .item-right { display: flex; align-items: center; gap: 16px; }
+    .item-price { font-size: 1.2rem; font-weight: 800; color: var(--accent); }
+    .btn-buy {
+      background: var(--primary);
+      color: #04121e;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.85rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
     .btn-buy:hover { opacity: 0.9; }
+
+    /* NÚT ĐĂNG XUẤT */
+    .btn-lock-again {
+      display: block;
+      margin: 24px auto 0;
+      background: none;
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Cửa Hàng Dịch Vụ & Tài Khoản Số</h1>
-      <p>Nâng cấp chính chủ • Kích hoạt nhanh 5–10 phút • Bảo hành Full hạn</p>
-    </header>
 
-    <div class="filter-bar">
-      <button class="filter-btn active" onclick="filterCategory('all', this)">Tất Cả</button>
-      <button class="filter-btn" onclick="filterCategory('AI', this)">AI & Code</button>
-      <button class="filter-btn" onclick="filterCategory('Entertainment', this)">Giải Trí</button>
-      <button class="filter-btn" onclick="filterCategory('Design', this)">Đồ Họa & Học Tập</button>
-    </div>
-
-    <div class="product-grid" id="productGrid">
-      <!-- Dữ liệu sản phẩm hiển thị tự động -->
+  <!-- 1. MÀN HÌNH KHÓA MẬT MÃ -->
+  <div class="lock-overlay" id="lockScreen">
+    <div class="lock-box">
+      <div class="lock-icon">
+        <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+        </svg>
+      </div>
+      <h2 class="lock-title">Trang Web Bảo Mật</h2>
+      <p class="lock-desc">Vui lòng nhập mật mã được cấp để xem bảng giá dịch vụ.</p>
+      
+      <form onsubmit="handleUnlock(event)">
+        <input type="password" id="passInput" class="pass-input" placeholder="Nhập mật khẩu..." autofocus required>
+        <button type="submit" class="btn-unlock">Mở Bảng Giá</button>
+        <div id="errorMsg" class="error-msg">Mật mã không chính xác. Vui lòng thử lại!</div>
+      </form>
     </div>
   </div>
 
+  <!-- 2. NỘI DUNG BẢNG GIÁ DỊCH VỤ -->
+  <div class="container" id="mainApp">
+    <header>
+      <div class="badge">Bảng Giá Dịch Vụ Số Chính Chủ</div>
+      <h1>Bảng Giá Dịch Vụ & Tài Khoản</h1>
+      <p>Bảo hành full thời hạn • Kích hoạt nhanh 5–10 phút</p>
+    </header>
+
+    <!-- Danh sách ứng dụng bấm chọn -->
+    <div class="app-grid" id="appGrid"></div>
+
+    <!-- Chi tiết bảng giá của ứng dụng đang chọn -->
+    <div class="pricing-container">
+      <div class="pricing-header">
+        <div class="pricing-title" id="selectedAppName">YouTube Premium</div>
+        <span style="font-size: 0.85rem; color: var(--text-muted);">Bảo hành 1 đổi 1</span>
+      </div>
+
+      <div class="pricing-list" id="pricingList"></div>
+    </div>
+
+    <button class="btn-lock-again" onclick="lockPage()">🔒 Khóa lại trang web</button>
+  </div>
+
   <script>
-    const CONTACT = {
-      zalo: "0900000000",       // Số Zalo của bạn
-      tele: "your_username"      // Username Telegram của bạn
+    // ==========================================
+    // CẤU HÌNH CỦA BẠN
+    // ==========================================
+    const ACCESS_PASSWORD = "6868";       // MẬT MÃ BẠN CẤP CHO KHÁCH (Thay đổi theo ý bạn)
+    const ZALO_PHONE = "0900000000";      // Số điện thoại Zalo nhận đơn của bạn
+
+    // ==========================================
+    // DỮ LIỆU BẢNG GIÁ CÁC ỨNG DỤNG
+    // ==========================================
+    const services = {
+      youtube: {
+        name: "YouTube Premium",
+        icon: "▶️",
+        plans: [
+          { name: "YouTube Premium 1 Tháng", desc: "Nâng cấp qua lời mời Gmail cá nhân, nghe nhạc tắt màn hình", price: "35.000 đ" },
+          { name: "YouTube Premium 3 Tháng", desc: "Kích hoạt ổn định, bảo hành trọn thời hạn", price: "99.000 đ" },
+          { name: "YouTube Premium 1 Năm", desc: "Gói 12 tháng tiết kiệm nhất, dùng lâu dài", price: "360.000 đ" }
+        ]
+      },
+      grok: {
+        name: "Grok AI",
+        icon: "⚡",
+        plans: [
+          { name: "Grok 30M Credit API", desc: "API tốc độ cao chạy Cursor, Cline, Roo Code", price: "120.000 đ" },
+          { name: "Grok 60M Credit API", desc: "Hạn mức lớn dành cho lập trình viên & team", price: "220.000 đ" }
+        ]
+      },
+      chatgpt: {
+        name: "ChatGPT",
+        icon: "🤖",
+        plans: [
+          { name: "ChatGPT Go 1 Tháng", desc: "Tài khoản cấp sẵn, bảo hành 10 ngày", price: "75.000 đ" },
+          { name: "ChatGPT Plus 1 Tháng", desc: "Full GPT-4o, DALL-E, Canvas chính chủ", price: "120.000 đ" }
+        ]
+      },
+      capcut: {
+        name: "CapCut Pro",
+        icon: "✂️",
+        plans: [
+          { name: "CapCut Pro Cá Nhân 30 Ngày", desc: "Tài khoản riêng, bảo hành full hạn, mở khóa mọi tính năng Pro", price: "45.000 đ" }
+        ]
+      },
+      canva: {
+        name: "Canva Pro",
+        icon: "🎨",
+        plans: [
+          { name: "Canva Pro Giáo Dục 1 Năm", desc: "Mở full tài nguyên Pro, không giới hạn tải ảnh", price: "120.000 đ" },
+          { name: "Canva Pro Bản Quyền Vĩnh Viễn", desc: "Gói bảo hành dài hạn 3 năm", price: "250.000 đ" }
+        ]
+      },
+      netflix: {
+        name: "Netflix",
+        icon: "🍿",
+        plans: [
+          { name: "Netflix 1 Slot 1 Tháng", desc: "Xem 4K Ultra HD, profile riêng có mã PIN", price: "65.000 đ" }
+        ]
+      }
     };
 
-    // Dữ liệu mẫu (sẽ tự động đọc từ Admin nếu bạn sửa)
-    const defaultProducts = [
-      { id: 1, name: "YouTube Premium 1 Tháng", cat: "Entertainment", price: 35000, stock: 45, desc: "Chính chủ trên Gmail, chặn quảng cáo, YouTube Music." },
-      { id: 2, name: "YouTube Premium 1 Năm", cat: "Entertainment", price: 360000, stock: 20, desc: "Gói 12 tháng ổn định, bảo hành trọn thời gian." },
-      { id: 3, name: "ChatGPT Plus 1 Tháng", cat: "AI", price: 120000, stock: 15, desc: "Mô hình GPT-4o, Canvas, tạo ảnh DALL-E không giới hạn." },
-      { id: 4, name: "Grok 30M Credit API", cat: "AI", price: 120000, stock: 30, desc: "API tốc độ cao, hỗ trợ chạy Cursor, Cline, Roo Code." },
-      { id: 5, name: "CapCut Pro Cá Nhân 30 Ngày", cat: "Design", price: 45000, stock: 18, desc: "Mở full hiệu ứng Pro, xóa phông, xuất 4K mượt mà." },
-      { id: 6, name: "Canva Pro 1 Năm", cat: "Design", price: 150000, stock: 50, desc: "Mở khóa toàn bộ tài nguyên thiết kế bản quyền." }
-    ];
-
-    let products = JSON.parse(localStorage.getItem('shop_products')) || defaultProducts;
-    let currentCategory = 'all';
-
-    function renderProducts(cat = 'all') {
-      const grid = document.getElementById('productGrid');
-      const filtered = cat === 'all' ? products : products.filter(p => p.cat === cat);
-
-      if (filtered.length === 0) {
-        grid.innerHTML = `<p style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 40px;">Hiện chưa có sản phẩm trong danh mục này.</p>`;
-        return;
+    // ==========================================
+    // LOGIC XỬ LÝ KHÓA TRUY CẬP & GIAO DIỆN
+    // ==========================================
+    function checkAccess() {
+      if (sessionStorage.getItem('site_unlocked') === 'true') {
+        document.getElementById('lockScreen').style.display = 'none';
+        document.getElementById('mainApp').style.display = 'block';
+        initApp();
       }
+    }
 
-      grid.innerHTML = filtered.map(p => `
-        <div class="product-card">
-          <div>
-            <div class="tag-category">${p.cat}</div>
-            <div class="product-name">${p.name}</div>
-            <div class="product-desc">${p.desc}</div>
-          </div>
-          <div>
-            <div class="product-meta">
-              <span class="product-price">${p.price.toLocaleString('vi-VN')} đ</span>
-              <span class="product-stock">Sẵn: ${p.stock}</span>
+    function handleUnlock(e) {
+      e.preventDefault();
+      const enteredPass = document.getElementById('passInput').value.trim();
+      const errorMsg = document.getElementById('errorMsg');
+
+      if (enteredPass === ACCESS_PASSWORD) {
+        sessionStorage.setItem('site_unlocked', 'true');
+        document.getElementById('lockScreen').style.display = 'none';
+        document.getElementById('mainApp').style.display = 'block';
+        initApp();
+      } else {
+        errorMsg.style.display = 'block';
+        document.getElementById('passInput').value = '';
+      }
+    }
+
+    function lockPage() {
+      sessionStorage.removeItem('site_unlocked');
+      location.reload();
+    }
+
+    let currentKey = 'youtube';
+
+    function initApp() {
+      renderAppGrid();
+      renderPricing(currentKey);
+    }
+
+    function renderAppGrid() {
+      const grid = document.getElementById('appGrid');
+      grid.innerHTML = Object.keys(services).map(key => {
+        const item = services[key];
+        const isActive = key === currentKey ? 'active' : '';
+        return `
+          <button class="app-btn ${isActive}" onclick="selectApp('${key}')">
+            <span class="app-icon">${item.icon}</span>
+            <span class="app-name">${item.name}</span>
+          </button>
+        `;
+      }).join('');
+    }
+
+    function selectApp(key) {
+      currentKey = key;
+      renderAppGrid();
+      renderPricing(key);
+    }
+
+    function renderPricing(key) {
+      const current = services[key];
+      document.getElementById('selectedAppName').innerText = current.name;
+      const list = document.getElementById('pricingList');
+
+      list.innerHTML = current.plans.map(p => {
+        const orderMsg = encodeURIComponent(`Chào bạn, mình cần mua gói: ${p.name} (${p.price}). Hướng dẫn mình nhé!`);
+        return `
+          <div class="price-item">
+            <div class="item-info">
+              <h4>${p.name}</h4>
+              <p>${p.desc}</p>
             </div>
-            <button class="btn-buy" onclick="buyItem('${p.name}', ${p.price})">Đặt Mua Ngay</button>
+            <div class="item-right">
+              <span class="item-price">${p.price}</span>
+              <a href="https://zalo.me/${ZALO_PHONE}?text=${orderMsg}" target="_blank" class="btn-buy">Đặt Mua</a>
+            </div>
           </div>
-        </div>
-      `).join('');
+        `;
+      }).join('');
     }
 
-    function filterCategory(cat, btn) {
-      currentCategory = cat;
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      renderProducts(cat);
-    }
-
-    function buyItem(name, price) {
-      const msg = `Chào bạn, mình muốn mua: ${name} (${price.toLocaleString('vi-VN')} đ). Hướng dẫn mình thanh toán nhé!`;
-      const url = `https://zalo.me/${CONTACT.zalo}?text=${encodeURIComponent(msg)}`;
-      window.open(url, '_blank');
-    }
-
-    renderProducts();
+    // Kiểm tra phiên đăng nhập ngay khi mở trang
+    checkAccess();
   </script>
 </body>
 </html>
