@@ -1,202 +1,126 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website phanngoquocbao.id.vn</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        body {
-            background-color: #f4f6f9;
-            color: #333;
-            padding: 30px 20px;
-        }
-        .container {
-            background: #ffffff;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-            max-width: 900px;
-            margin: 0 auto;
-            text-align: left;
-        }
-        h1 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-            font-size: 26px;
-            text-align: left;
-        }
-        .header-desc {
-            color: #666;
-            line-height: 1.6;
-            margin-bottom: 15px;
-            text-align: left;
-        }
-        .status-badge {
-            display: inline-block;
-            background-color: #e8f5e9;
-            color: #2e7d32;
-            padding: 6px 16px;
-            border-radius: 20px;
-            font-size: 14px;
-            font-weight: 600;
-        }
-        .status-wrapper {
-            text-align: left;
-            margin-bottom: 25px;
-        }
-        /* Nút Sao chép full nội dung */
-        .copy-all-btn {
-            display: inline-block;
-            margin-bottom: 15px;
-            padding: 10px 20px;
-            background-color: #2e7d32;
-            color: #ffffff;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: 600;
-            font-size: 14px;
-            transition: background-color 0.2s ease;
-        }
-        .copy-all-btn:hover {
-            background-color: #1b5e20;
-        }
-        .content-box {
-            background: #fafafa;
-            border: 1px solid #eee;
-            border-radius: 8px;
-            padding: 25px;
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            font-size: 15px;
-            line-height: 1.8;
-            color: #444;
-            text-align: left;
-        }
-        /* Thông báo sau khi sao chép */
-        .toast-message {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #2e7d32;
-            color: #fff;
-            padding: 12px 24px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            font-weight: 600;
-            display: none;
-            z-index: 1000;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cửa Hàng Dịch Vụ & Tài Khoản Số - phanngoquocbao.id.vn</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: rgba(18, 24, 38, 0.85);
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --primary: #38bdf8;
+      --accent: #22c55e;
+      --danger: #ef4444;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', sans-serif; }
+    body { background-color: var(--bg); color: var(--text); min-height: 100vh; padding: 30px 16px; }
+    .container { max-width: 1100px; margin: 0 auto; }
+    header { text-align: center; margin-bottom: 30px; }
+    header h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 8px; color: #fff; }
+    header p { color: var(--text-muted); font-size: 1rem; }
+
+    /* Bộ lọc phân loại */
+    .filter-bar { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin-bottom: 28px; }
+    .filter-btn { background: rgba(30, 41, 59, 0.7); border: 1px solid var(--border); color: var(--text-muted); padding: 8px 16px; border-radius: 9999px; font-weight: 600; cursor: pointer; transition: 0.2s; }
+    .filter-btn.active, .filter-btn:hover { background: var(--primary); color: #000; border-color: var(--primary); }
+
+    /* Lưới sản phẩm */
+    .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 18px; }
+    .product-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s; position: relative; }
+    .product-card:hover { transform: translateY(-4px); border-color: rgba(56, 189, 248, 0.4); }
+    .tag-category { font-size: 0.75rem; font-weight: 700; color: var(--primary); text-transform: uppercase; margin-bottom: 6px; }
+    .product-name { font-size: 1.15rem; font-weight: 700; margin-bottom: 8px; color: #fff; }
+    .product-desc { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px; min-height: 38px; }
+    .product-meta { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px; border-top: 1px dashed var(--border); padding-top: 12px; }
+    .product-price { font-size: 1.35rem; font-weight: 800; color: var(--accent); }
+    .product-stock { font-size: 0.8rem; color: var(--text-muted); background: rgba(255,255,255,0.05); padding: 2px 8px; border-radius: 6px; }
+    .btn-buy { width: 100%; background: var(--primary); color: #000; font-weight: 700; padding: 10px; border-radius: 10px; border: none; cursor: pointer; transition: 0.2s; }
+    .btn-buy:hover { opacity: 0.9; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Chào mừng đến với Website</h1>
-        <p class="header-desc">Trang web của <strong>phanngoquocbao.id.vn</strong> đã khởi tạo thành công!</p>
-        <div class="status-wrapper">
-            <div class="status-badge">Website đang hoạt động</div>
-        </div>
+  <div class="container">
+    <header>
+      <h1>Cửa Hàng Dịch Vụ & Tài Khoản Số</h1>
+      <p>Nâng cấp chính chủ • Kích hoạt nhanh 5–10 phút • Bảo hành Full hạn</p>
+    </header>
 
-        <!-- Nút bấm sao chép toàn bộ -->
-        <button id="btnCopyFull" class="copy-all-btn" type="button">📋 Sao chép toàn bộ nội dung</button>
-
-        <div class="content-box" id="fullContent">
-PHẦN 1: TASK 1 - VIẾT THƯ / EMAIL (120 TỪ)
-
-Bài mẫu 1: Email gửi bạn thân kể về ngày yêu thích trong tuần
-Đề bài: Your friend Jane has written you a letter asking: “What’s your favorite day of the week? I’d love to hear all about it.” Write an email (about 120 words) to tell your friend about your favorite day.
-
-Bài làm:
-Dear Jane,
-It’s amazing to get your letter. How are things? I hope they are all fine. I am going to tell you my favorite day of the week. I like Sunday most because I don’t have to go to school and I can do a lot of things I like. In the morning, I get up at about 6 o’clock and then I go to the park near my house to do some exercise. I usually play badminton with my friends. It’s relaxing and good for my health. Then I go home and have a bath. I have breakfast with bread and a cup of coffee. Sometimes I go out and have pho, a traditional Vietnamese dish. After breakfast I often go shopping with my best friend, Phuong. We buy things and eat at a shopping center. In the afternoon, I go swimming - this is my favorite sport. I really like being in water. In the evening, I go to the cinema with my family. Sometimes we go to a restaurant and eat there. Later in the evening, I do my homework and go to bed. That is my favorite day of the week. Tell me about your favorite day in your next letter. I look forward to hearing from you.
-Love,
-(no name)
-
-
-Bài mẫu 2: Thư xin việc vị trí Quản lý kinh doanh
-Đề bài: You are going to apply for the Sales Manager position at a company. Write a letter (at least 120 words) to express your interest in this job, describe your work experience and skills, and express your wish to attend an interview.
-
-Bài làm:
-Dear Sir/Madam,
-I am writing to express my interest in the Sales Manager position at BetTok Company, as advertised on your website. I have over three years of experience in sales and customer service, and I also have good communication and negotiation skills. I have successfully increased sales in my current role by 15% over the past year. I think my ability to understand customer needs and build relationships makes me a suitable candidate for this job. I am confident that my skills and experience will fit well with the requirements of your team. I hope to discuss my application further in an interview at your earliest convenience. Thank you for considering my application.
-Sincerely,
-Taylor Brown
-
-
-PHẦN 2: TASK 2 - BÀI LUẬN / ESSAY (250 TỪ)
-
-Bài mẫu 3: Bài luận về lợi ích và tác hại của mua sắm trực tuyến
-Đề bài: “Nowadays online shopping becomes more popular than in-store shopping. Is it a positive or a negative development?” Write an essay of about 250 words discussing the advantages and disadvantages of online shopping, giving reasons and examples to support your opinion.
-
-Bài làm:
-We cannot deny that more and more people are becoming interested in online shopping. However, there are both good and bad things about shopping on the internet.
-On the one hand, online shopping has some advantages. First, it is convenient because we do not have to go to physical stores to buy things. We can stay at home and purchase many items easily. We just need to turn on the computer, look for products online, place an order, and then wait. After that, someone will deliver the items to our house. This process can help us save a lot of time and money on traveling. Second, we can find many cheap products online because we can compare prices very easily. For example, you can quickly check prices on different websites within a few minutes.
-On the other hand, however, online shopping also has some disadvantages. Firstly, we may buy bad-quality things online. The products might not be as good as we expect. For example, an item might look nice in the picture, but it could be low quality in reality. Moreover, we may lose money because we have to give someone our account information when we buy online. If we are not careful, hackers or scammers might steal our details. In addition, if we buy too many things online, we can waste a lot of money.
-To sum up, online shopping has both good and bad sides. Personally, I think that we can shop on the internet for convenience, but we should be careful and smart about it. I believe online shopping is a great convenience of modern life, but people must use it wisely and safely.
-
-
-Bài mẫu 4: Bài luận về thất nghiệp ở người trẻ - Ảnh hưởng và giải pháp
-Đề bài: Discuss the effects and solutions of unemployment among young people. Write an essay of at least 250 words, stating the main effects and suggesting solutions for youth unemployment.
-
-Bài làm:
-Nowadays, many young people cannot find a job after they finish school or university. This unemployment causes several serious problems for them and for society, but there are also some solutions.
-When a young person is unemployed, they may face a lot of difficulties. Firstly, being jobless can make young people feel very sad and stressed. They have no income, so they cannot support themselves or help their families. This often leads to frustration in their life. Secondly, if they cannot find a job related to what they studied, they might forget the important knowledge and skills they learned in school. Some of them may have to take any work just to earn money, and over time they lose their professional skills. Finally, high unemployment among young people can lead to social problems. For example, a few unemployed youths might start stealing or doing other crimes to get money.
-However, there are some solutions to help reduce youth unemployment. On one hand, each young person should try to improve their abilities to meet the needs of employers. They can learn new skills or even continue their education so that they become more qualified for jobs. On the other hand, the government should also create more jobs for young people. For instance, the authorities can encourage companies to hire fresh graduates or support programs for young people to start their own businesses. Additionally, the government can offer training courses or workshops so that young workers can gain practical skills for the jobs available.
-In conclusion, unemployment causes young people to suffer from stress, loss of skills, and even crime. It is important for both individuals and the government to work together to create more job opportunities and help young people prepare for their careers.
-
-
-Bài mẫu 5: Trách nhiệm giảm ô nhiễm không khí - Cá nhân hay Chính phủ?
-Đề bài: “Deforestation causes air pollution, and humans are facing this problem. Some people say that individuals are not responsible for solving air pollution, only the government is. Do you agree or disagree with this statement?” Write an essay presenting your opinion with reasons and examples.
-
-Bài làm:
-Air pollution is becoming a big problem in many countries. Some people think that normal individuals cannot do anything to solve this problem and only the government is responsible for it. I do not agree with this opinion, because I believe that both the government and ordinary people should work together to reduce air pollution.
-On the one hand, the government plays the most important role in fighting air pollution. The authorities can make strict laws to control pollution from factories and vehicles. For example, they can limit the number of cars in city centers or require factories to install filters on chimneys. The government also has the money to invest in public transport or green energy projects, which can greatly cut down air pollution in the long term.
-On the other hand, each individual person should also try their best to help reduce pollution. Small actions in daily life can make a difference. Firstly, people can use public transportation, bicycles or electric vehicles instead of driving gasoline cars all the time. This will decrease the amount of smoke and gas released into the air. Secondly, citizens can plant more trees in their neighborhood and avoid burning trash, which can improve air quality. Finally, raising awareness is also important. If everyone understands how serious air pollution is, they will be more willing to change their habits to protect the environment.
-In conclusion, I strongly disagree that individuals have no responsibility for solving air pollution. The government should enforce laws and invest in green projects, but people also need to change their daily habits. Only by working together can we make the air cleaner and healthier for everyone.
-        </div>
+    <div class="filter-bar">
+      <button class="filter-btn active" onclick="filterCategory('all', this)">Tất Cả</button>
+      <button class="filter-btn" onclick="filterCategory('AI', this)">AI & Code</button>
+      <button class="filter-btn" onclick="filterCategory('Entertainment', this)">Giải Trí</button>
+      <button class="filter-btn" onclick="filterCategory('Design', this)">Đồ Họa & Học Tập</button>
     </div>
 
-    <div class="toast-message">Đã sao chép toàn bộ nội dung!</div>
+    <div class="product-grid" id="productGrid">
+      <!-- Dữ liệu sản phẩm hiển thị tự động -->
+    </div>
+  </div>
 
-    <script>
-        document.getElementById('btnCopyFull').addEventListener('click', function () {
-            const content = document.getElementById('fullContent').innerText.trim();
+  <script>
+    const CONTACT = {
+      zalo: "0900000000",       // Số Zalo của bạn
+      tele: "your_username"      // Username Telegram của bạn
+    };
 
-            // Kỹ thuật sao chép tương thích 100% mọi môi trường (HTTP/HTTPS/Mobile)
-            const textArea = document.createElement("textarea");
-            textArea.value = content;
-            textArea.style.position = "fixed";
-            textArea.style.left = "-999999px";
-            textArea.style.top = "-999999px";
-            document.body.appendChild(textArea);
-            textArea.focus();
-            textArea.select();
+    // Dữ liệu mẫu (sẽ tự động đọc từ Admin nếu bạn sửa)
+    const defaultProducts = [
+      { id: 1, name: "YouTube Premium 1 Tháng", cat: "Entertainment", price: 35000, stock: 45, desc: "Chính chủ trên Gmail, chặn quảng cáo, YouTube Music." },
+      { id: 2, name: "YouTube Premium 1 Năm", cat: "Entertainment", price: 360000, stock: 20, desc: "Gói 12 tháng ổn định, bảo hành trọn thời gian." },
+      { id: 3, name: "ChatGPT Plus 1 Tháng", cat: "AI", price: 120000, stock: 15, desc: "Mô hình GPT-4o, Canvas, tạo ảnh DALL-E không giới hạn." },
+      { id: 4, name: "Grok 30M Credit API", cat: "AI", price: 120000, stock: 30, desc: "API tốc độ cao, hỗ trợ chạy Cursor, Cline, Roo Code." },
+      { id: 5, name: "CapCut Pro Cá Nhân 30 Ngày", cat: "Design", price: 45000, stock: 18, desc: "Mở full hiệu ứng Pro, xóa phông, xuất 4K mượt mà." },
+      { id: 6, name: "Canva Pro 1 Năm", cat: "Design", price: 150000, stock: 50, desc: "Mở khóa toàn bộ tài nguyên thiết kế bản quyền." }
+    ];
 
-            try {
-                document.execCommand('copy');
-                showToast();
-            } catch (err) {
-                alert('Lỗi sao chép, vui lòng thử lại!');
-            }
+    let products = JSON.parse(localStorage.getItem('shop_products')) || defaultProducts;
+    let currentCategory = 'all';
 
-            document.body.removeChild(textArea);
-        });
+    function renderProducts(cat = 'all') {
+      const grid = document.getElementById('productGrid');
+      const filtered = cat === 'all' ? products : products.filter(p => p.cat === cat);
 
-        function showToast() {
-            const toast = document.querySelector('.toast-message');
-            if (toast) {
-                toast.style.display = 'block';
-                setTimeout(() => {
-                    toast.style.display = 'none';
-                }, 2000);
-            }
-        }
-    </script>
+      if (filtered.length === 0) {
+        grid.innerHTML = `<p style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 40px;">Hiện chưa có sản phẩm trong danh mục này.</p>`;
+        return;
+      }
+
+      grid.innerHTML = filtered.map(p => `
+        <div class="product-card">
+          <div>
+            <div class="tag-category">${p.cat}</div>
+            <div class="product-name">${p.name}</div>
+            <div class="product-desc">${p.desc}</div>
+          </div>
+          <div>
+            <div class="product-meta">
+              <span class="product-price">${p.price.toLocaleString('vi-VN')} đ</span>
+              <span class="product-stock">Sẵn: ${p.stock}</span>
+            </div>
+            <button class="btn-buy" onclick="buyItem('${p.name}', ${p.price})">Đặt Mua Ngay</button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function filterCategory(cat, btn) {
+      currentCategory = cat;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderProducts(cat);
+    }
+
+    function buyItem(name, price) {
+      const msg = `Chào bạn, mình muốn mua: ${name} (${price.toLocaleString('vi-VN')} đ). Hướng dẫn mình thanh toán nhé!`;
+      const url = `https://zalo.me/${CONTACT.zalo}?text=${encodeURIComponent(msg)}`;
+      window.open(url, '_blank');
+    }
+
+    renderProducts();
+  </script>
 </body>
 </html>
