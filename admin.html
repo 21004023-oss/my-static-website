@@ -3,185 +3,357 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Quản trị</title>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<title>Bảng Quản Trị Dịch Vụ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 <style>
-*{box-sizing:border-box;margin:0;padding:0;font-family:'Be Vietnam Pro',system-ui,sans-serif}
-body{background:#e8eee3;color:#22301f;font-size:14px}
-.wrap{max-width:760px;margin:0 auto;padding:0 12px 60px}
-.gate{max-width:340px;margin:90px auto;text-align:center;background:#fff;border-radius:16px;padding:30px 24px;box-shadow:0 2px 10px rgba(0,0,0,.08)}
-.gate h1{font-size:15px;margin-bottom:12px}
-.gate input{width:100%;padding:11px;border:1px solid #cfd8cb;border-radius:10px;font-size:13.5px;text-align:center;outline:none}
-.gate button{width:100%;margin-top:10px;background:#334e37;color:#fff;border:none;border-radius:10px;padding:11px;font-weight:700;cursor:pointer;font-size:13.5px}
-#gateErr{display:none;color:#c62828;font-size:12.5px;margin-top:8px}
-#admin{display:none}
-.head{background:#334e37;color:#fff;text-align:center;padding:16px;border-radius:0 0 16px 16px;margin-bottom:12px}
-.head h1{font-size:15px;letter-spacing:.04em}
-.head p{font-size:12.5px;opacity:.9;margin-top:2px}
-.nums{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
-.num{background:#fff;border-radius:12px;padding:11px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.07)}
-.num b{display:block;font-size:18px}
-.num span{font-size:11.5px;color:#6b7d6b}
-.box{background:#fff;border-radius:14px;padding:14px;margin-bottom:10px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
-.box h2{font-size:13.5px;margin-bottom:8px}
-label{font-size:11.5px;font-weight:700;color:#6b7d6b}
-input,select,textarea{width:100%;padding:9px 11px;border:1px solid #cfd8cb;border-radius:9px;font-size:13px;margin:4px 0 8px;outline:none;background:#fbfdfb;color:#22301f}
-input:focus{border-color:#334e37}
-textarea{font-family:monospace;font-size:12px;min-height:86px}
-textarea.prev{background:#22301f;color:#cfe3cf;min-height:120px}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:0 10px}
-.btn{border:none;border-radius:9px;padding:10px 16px;font-size:13px;font-weight:700;cursor:pointer;background:#334e37;color:#fff}
-.btn.ghost{background:#edf1e9;color:#2e4632;margin-left:8px}
-.btn.gold{background:#c8930a}
-.row{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:9px 0;border-bottom:1px solid #edf1e9;font-size:13px}
-.row:last-child{border:none}
-.row small{color:#777;font-size:11.5px}
-.l{color:#2e5a32;font-size:12.5px;font-weight:700;background:none;border:none;cursor:pointer;padding:0;margin-left:10px}
-.l.del{color:#c62828}
-.catrow{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #edf1e9;font-size:13px;gap:8px}
-.catrow:last-child{border:none}
-.catrow img{width:24px;height:24px;border-radius:6px;object-fit:cover;background:#eef2e9}
-.hint{font-size:12.5px;color:#6b7d6b;line-height:1.7}
-.hint b{color:#22301f}
-#cancelBtn{display:none}
+:root {
+  --primary: #10b981;
+  --primary-dark: #059669;
+  --bg-page: #f1f5f9;
+  --surface: #ffffff;
+  --text-main: #0f172a;
+  --text-sub: #64748b;
+  --border: #e2e8f0;
+  --radius: 12px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+body { background: var(--bg-page); color: var(--text-main); font-size: 13.5px; padding-bottom: 80px; }
+
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+
+/* Màn hình khóa PIN */
+.gate { max-width: 360px; margin: 100px auto; background: var(--surface); border-radius: var(--radius); padding: 32px 24px; text-align: center; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1); }
+.gate h1 { font-size: 18px; margin-bottom: 14px; }
+.gate input { width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 14px; text-align: center; outline: none; margin-bottom: 12px; }
+.gate button { width: 100%; background: #0f172a; color: #fff; padding: 12px; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; }
+#gateErr { display: none; color: #ef4444; font-size: 12.5px; margin-top: 10px; }
+
+/* Dashboard */
+#adminPanel { display: none; margin-top: 20px; }
+.header-box { background: #0f172a; color: #fff; border-radius: var(--radius); padding: 20px 24px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; }
+.header-box h1 { font-size: 18px; font-weight: 800; }
+.header-box p { color: #94a3b8; font-size: 12.5px; margin-top: 2px; }
+
+.stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 16px; }
+.stat-card { background: var(--surface); border-radius: var(--radius); padding: 14px; text-align: center; border: 1px solid var(--border); }
+.stat-card b { font-size: 20px; font-weight: 800; color: #0f172a; display: block; }
+.stat-card span { font-size: 12px; color: var(--text-sub); }
+
+.card { background: var(--surface); border-radius: var(--radius); padding: 18px; border: 1px solid var(--border); margin-bottom: 16px; }
+.card h2 { font-size: 15px; font-weight: 700; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; }
+
+/* Fast Edit Table */
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; text-align: left; }
+th { padding: 10px; background: #f8fafc; font-size: 12px; font-weight: 700; color: var(--text-sub); border-bottom: 1px solid var(--border); }
+td { padding: 10px; border-bottom: 1px solid #f1f5f9; vertical-align: middle; }
+tr:hover td { background: #fafafa; }
+
+/* Input trực tiếp trên bảng để đổi giá siêu nhanh */
+.quick-input { width: 110px; padding: 6px 8px; border: 1px solid var(--border); border-radius: 6px; font-weight: 700; color: #059669; font-size: 13px; outline: none; }
+.quick-input:focus { border-color: #059669; background: #ecfdf5; }
+.quick-stock { width: 70px; padding: 6px 8px; border: 1px solid var(--border); border-radius: 6px; font-size: 13px; outline: none; }
+
+.btn { border: none; border-radius: 8px; padding: 9px 16px; font-size: 13px; font-weight: 700; cursor: pointer; transition: all 0.2s; }
+.btn-dark { background: #0f172a; color: #fff; }
+.btn-green { background: var(--primary-dark); color: #fff; }
+.btn-gold { background: #d97706; color: #fff; }
+.btn-ghost { background: #f1f5f9; color: var(--text-main); }
+.btn-del { color: #ef4444; background: none; border: none; cursor: pointer; font-weight: 700; font-size: 12px; padding: 4px 8px; }
+
+/* Form inputs */
+label { font-size: 11.5px; font-weight: 700; color: var(--text-sub); display: block; margin-top: 8px; }
+input, select, textarea { width: 100%; padding: 8px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 13px; outline: none; margin-top: 4px; background: #fafafa; }
+input:focus, select:focus, textarea:focus { border-color: #0f172a; background: #fff; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+/* Notification toast */
+#toast { display: none; position: fixed; bottom: 20px; right: 20px; background: #0f172a; color: #fff; padding: 12px 20px; border-radius: 8px; font-weight: 600; box-shadow: 0 10px 20px rgba(0,0,0,0.15); z-index: 999; }
 </style>
 </head>
 <body>
+
 <div class="wrap">
-<div class="gate" id="gate">
-<h1>🔒 Quản trị</h1>
-<input id="pw" type="password" placeholder="Mật khẩu" />
-<button id="open">Mở</button>
-<div id="gateErr">Sai mật khẩu.</div>
+  <!-- KHÓA MẬT KHẨU -->
+  <div class="gate" id="gate">
+    <h1>🔒 Quản Trị Viên</h1>
+    <input id="pw" type="password" placeholder="Mật khẩu truy cập" />
+    <button id="openBtn">Đăng nhập</button>
+    <div id="gateErr">Mật khẩu chưa chính xác.</div>
+  </div>
+
+  <!-- BẢNG ĐIỀU KHIỂN CHÍNH -->
+  <div id="adminPanel">
+    <div class="header-box">
+      <div>
+        <h1>QUẢN LÝ DỊCH VỤ & GIÁ BÁN</h1>
+        <p id="statText">Đang tải...</p>
+      </div>
+      <div>
+        <button class="btn btn-green" id="exportBtn">📥 Tải services.json mới</button>
+        <button class="btn btn-ghost" id="openGitBtn" style="margin-left:6px">Mở GitHub</button>
+      </div>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-card"><b id="nCat">0</b><span>Danh mục</span></div>
+      <div class="stat-card"><b id="nPro">0</b><span>Tổng sản phẩm</span></div>
+      <div class="stat-card"><b id="nStock">0</b><span>Tổng kho</span></div>
+    </div>
+
+    <!-- BẢNG SỬA GIÁ SIÊU TỐC HÀNG NGÀY -->
+    <div class="card">
+      <h2>
+        <span>⚡ Cập nhật giá & kho trực tiếp</span>
+        <div style="display:flex;gap:8px;align-items:center">
+          <span style="font-size:12px;color:var(--text-sub);font-weight:normal">Lọc:</span>
+          <select id="filterCat" style="width:160px;margin:0"></select>
+        </div>
+      </h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Tên sản phẩm</th>
+              <th>Danh mục</th>
+              <th>Giá bán (đ) - Sửa tại đây</th>
+              <th>Kho</th>
+              <th>Thao tác</th>
+            </tr>
+          </thead>
+          <tbody id="quickTable"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- FORM THÊM MỚI SẢN PHẨM -->
+    <div class="card">
+      <h2 id="formTitle">Thêm sản phẩm đơn lẻ</h2>
+      <label>Danh mục</label><select id="fCat"></select>
+      <label>Tên sản phẩm</label><input id="fName" placeholder="VD: Youtube Premium 1 tháng" />
+      <div class="grid2">
+        <div><label>Giá (VNĐ)</label><input id="fPrice" type="number" placeholder="80000" /></div>
+        <div><label>Còn lại (Kho)</label><input id="fStock" type="number" placeholder="20" /></div>
+      </div>
+      <div class="grid2">
+        <div><label>Thời hạn</label><input id="fDur" placeholder="30 ngày" /></div>
+        <div><label>Nguồn / Hình thức</label><input id="fSrc" placeholder="Nâng trên mail khách" /></div>
+      </div>
+      <label>Chi tiết / Ghi chú</label><input id="fDetail" placeholder="Bảo hành full thời hạn..." />
+      <div style="margin-top:14px">
+        <button class="btn btn-dark" id="saveSingle">Lưu sản phẩm</button>
+        <button class="btn btn-ghost" id="cancelEdit" style="display:none">Hủy sửa</button>
+      </div>
+    </div>
+
+    <!-- THÊM NHIỀU SẢN PHẨM CÙNG LÚC -->
+    <div class="card">
+      <h2>Thêm hàng loạt (Copy từ Excel/Ghi chú)</h2>
+      <p style="font-size:12px;color:var(--text-sub);margin-bottom:8px">
+        Cấu trúc mỗi dòng: <b>Tên gói | Giá | Kho | Thời hạn | Nguồn | Chi tiết</b>
+      </p>
+      <label>Danh mục nhận:</label><select id="bCat"></select>
+      <textarea id="bulkText" rows="4" placeholder="Youtube 1 tháng | 80000 | 20 | 30 ngày | Mail khách | Full bảo hành"></textarea>
+      <button class="btn btn-dark" id="bulkAddBtn" style="margin-top:10px">Thêm tất cả dòng</button>
+    </div>
+  </div>
 </div>
-<div id="admin">
-<div class="head"><h1>QUẢN TRỊ</h1><p id="stat">...</p></div>
-<div class="nums">
-<div class="num"><b id="nCat">0</b><span>Danh mục</span></div>
-<div class="num"><b id="nPro">0</b><span>Sản phẩm</span></div>
-<div class="num"><b id="nStock">0</b><span>Còn lại</span></div>
-</div>
-<div class="box">
-<h2>Danh mục</h2>
-<div id="catList"></div>
-<div class="grid2">
-<div><label>Tên mới</label><input id="newCat" placeholder="VD: Netflix" /></div>
-<div><label>Logo (link ảnh)</label><input id="newLogo" placeholder="logos/netflix.png" /></div>
-</div>
-<button class="btn" id="addCat">+ Thêm danh mục</button>
-</div>
-<div class="box">
-<h2 id="formTitle">Sản phẩm</h2>
-<label>Danh mục</label><select id="fCat"></select>
-<label>Tên sản phẩm</label><input id="fName" placeholder="VD: Netflix 1 tháng 4K" />
-<div class="grid2">
-<div><label>Giá (đ)</label><input id="fPrice" type="number" min="0" placeholder="89000" /></div>
-<div><label>Còn lại</label><input id="fStock" type="number" min="0" placeholder="20" /></div>
-</div>
-<div class="grid2">
-<div><label>Hạn dùng</label><input id="fDur" placeholder="VD: 30 ngày" /></div>
-<div><label>Nguồn</label><input id="fSrc" placeholder="VD: Nâng trên mail khách" /></div>
-</div>
-<label>Chi tiết</label><input id="fDetail" placeholder="VD: Profile riêng, 4K, bảo hành full" />
-<button class="btn" id="save">Lưu</button><button class="btn ghost" id="cancelBtn">Hủy</button>
-</div>
-<div class="box">
-<h2>Thêm nhanh nhiều sản phẩm</h2>
-<p class="hint">Mỗi dòng 1 sản phẩm: <b>Tên | Giá | Còn | Hạn dùng | Nguồn | Chi tiết</b></p>
-<label>Danh mục nhận</label><select id="bCat"></select>
-<textarea id="bulk" placeholder="Netflix 1 tháng | 89000 | 20 | 30 ngày | Cấp profile | Riêng tư 4K"></textarea>
-<button class="btn" id="bulkAdd">Thêm</button>
-</div>
-<div class="box">
-<h2>Danh sách</h2>
-<label>Lọc</label><select id="filter"></select>
-<div id="list"></div>
-</div>
-<div class="box">
-<h2>Đăng lên web</h2>
-<p class="hint"><b>1.</b> Tải file → <b>2.</b> Mở GitHub → kéo vào thư mục <b>data</b> → Commit.</p>
-<button class="btn gold" id="exp">Tải file</button><button class="btn ghost" id="git">Mở GitHub</button>
-<textarea class="prev" id="prev" readonly style="margin-top:10px"></textarea>
-</div>
-</div>
-</div>
+
+<div id="toast">Đã lưu thay đổi!</div>
+
 <script>
-var PASS='071003';
-var GIT='https://github.com/21004023-oss/my-static-website/upload/main/data';
-var D={},ek='',ei=-1,filter='';
-function slug(s){return (s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,40)||('cat-'+Date.now());}
-function shortOf(n){var w=(n||'').trim().split(/\s+/);return w.length>1?(w[0][0]+w[1][0]).toUpperCase():(n||'??').slice(0,2).toUpperCase();}
-function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
-function money(n){return Number(n||0).toLocaleString('vi-VN')+'đ';}
-document.getElementById('open').onclick=function(){if(document.getElementById('pw').value===PASS){document.getElementById('gate').style.display='none';document.getElementById('admin').style.display='block';load();}else document.getElementById('gateErr').style.display='block';};
-document.getElementById('pw').onkeydown=function(e){if(e.key==='Enter')document.getElementById('open').click();};
-function load(){fetch('./data/services.json',{cache:'no-store'}).then(function(r){return r.json();}).then(function(j){D=j||{};var k=Object.keys(D);filter=k[0]||'';render();}).catch(function(){D={};render();});}
-function render(){
-var ks=Object.keys(D),np=0,nst=0;
-ks.forEach(function(k){(D[k].plans||[]).forEach(function(p){np++;nst+=Number(p.stock||0);});});
-document.getElementById('nCat').textContent=ks.length;
-document.getElementById('nPro').textContent=np;
-document.getElementById('nStock').textContent=nst;
-document.getElementById('stat').textContent=ks.length+' danh mục · '+np+' sản phẩm';
-var opts=ks.map(function(k){return '<option value="'+k+'">'+esc(D[k].name)+'</option>';}).join('')||'<option value="">—</option>';
-document.getElementById('fCat').innerHTML=opts;
-document.getElementById('bCat').innerHTML=opts;
-document.getElementById('filter').innerHTML='<option value="">Tất cả</option>'+opts;
-if(ks.indexOf(filter)===-1)filter='';
-document.getElementById('filter').value=filter;
-var ch='';
-ks.forEach(function(k){var c=(D[k].plans||[]).length;
-var lg=D[k].logo?'<img src="'+esc(D[k].logo)+'" onerror="this.style.display=\'none\'" />':'';
-ch+='<div class="catrow"><div style="display:flex;align-items:center;gap:8px">'+lg+'<div><b>'+esc(D[k].name)+'</b> <small style="color:#888">· '+c+' sp</small></div></div><div style="white-space:nowrap"><button class="l" data-c="'+k+'" data-t="logo">Logo</button><button class="l" data-c="'+k+'" data-t="ren">Sửa</button><button class="l del" data-c="'+k+'" data-t="delc">Xóa</button></div></div>';});
-document.getElementById('catList').innerHTML=ch||'<div style="color:#999;font-size:12.5px">Chưa có danh mục.</div>';
-var lh='';
-ks.filter(function(k){return !filter||k===filter;}).forEach(function(k){(D[k].plans||[]).forEach(function(p,i){
-lh+='<div class="row"><div><b>'+esc(p.name)+'</b><br /><small>'+esc(D[k].name)+' · '+money(p.price)+' · còn '+esc(String(p.stock))+'</small></div><div style="white-space:nowrap"><button class="l" data-c="'+k+'" data-i="'+i+'" data-t="e">Sửa</button><button class="l del" data-c="'+k+'" data-i="'+i+'" data-t="d">Xóa</button></div></div>';});});
-document.getElementById('list').innerHTML=lh||'<div style="color:#999;font-size:12.5px">Chưa có sản phẩm.</div>';
-document.getElementById('prev').value=JSON.stringify(D,null,2);
+var PASS = 'doi-mat-khau-rieng-cua-ban';
+var GIT_URL = 'https://github.com/21004023-oss/my-static-website/upload/main/data';
+var D = {}, editCat = '', editIdx = -1, curFilter = '';
+
+function showToast(msg) {
+  var t = document.getElementById('toast');
+  t.textContent = msg || 'Đã lưu thay đổi!';
+  t.style.display = 'block';
+  setTimeout(() => { t.style.display = 'none'; }, 2000);
 }
-document.getElementById('catList').onclick=function(e){
-var b=e.target.closest('button[data-t]');if(!b)return;var k=b.dataset.c;
-if(b.dataset.t==='delc'){if(!confirm('Xóa "'+D[k].name+'" ('+(D[k].plans||[]).length+' sp)?'))return;delete D[k];if(filter===k)filter='';render();}
-else if(b.dataset.t==='logo'){var v=prompt('Link logo ('+D[k].name+'):',D[k].logo||'');if(v===null)return;v=v.trim();if(v)D[k].logo=v;else delete D[k].logo;render();}
-else{var n=prompt('Tên mới:',D[k].name);if(!n||!(n=n.trim()))return;D[k].name=n;D[k].short=shortOf(n);render();}};
-document.getElementById('addCat').onclick=function(){
-var n=document.getElementById('newCat').value.trim();if(!n){alert('Nhập tên.');return;}
-var k=slug(n);if(D[k]){alert('Đã có.');return;}
-var lg=document.getElementById('newLogo').value.trim();
-D[k]={name:n,short:shortOf(n),plans:[]};if(lg)D[k].logo=lg;
-document.getElementById('newCat').value='';document.getElementById('newLogo').value='';filter=k;render();};
-document.getElementById('filter').onchange=function(e){filter=e.target.value;render();};
-document.getElementById('save').onclick=function(){
-var k=document.getElementById('fCat').value,n=document.getElementById('fName').value.trim();
-var pr=Number(document.getElementById('fPrice').value||0),st=Number(document.getElementById('fStock').value||0);
-var dur=document.getElementById('fDur').value.trim(),src=document.getElementById('fSrc').value.trim(),det=document.getElementById('fDetail').value.trim();
-if(!k||!n){alert('Chọn danh mục + nhập tên.');return;}
-var o={id:'',name:n,detail:det,source:src,duration:dur,price:pr,stock:st};
-if(ei>=0&&ek&&D[ek]){o.id=(D[ek].plans[ei]||{}).id||String(Date.now());D[ek].plans[ei]=o;reset();}
-else{o.id=String(Date.now());D[k].plans.push(o);}
-document.getElementById('fName').value='';render();};
-function reset(){ek='';ei=-1;document.getElementById('fCat').disabled=false;document.getElementById('save').textContent='Lưu';document.getElementById('cancelBtn').style.display='none';document.getElementById('formTitle').textContent='Sản phẩm';}
-document.getElementById('cancelBtn').onclick=reset;
-document.getElementById('list').onclick=function(e){
-var b=e.target.closest('button[data-t]');if(!b)return;var k=b.dataset.c,i=+b.dataset.i;
-if(b.dataset.t==='e'){var p=D[k].plans[i];ek=k;ei=i;
-document.getElementById('fCat').value=k;document.getElementById('fCat').disabled=true;
-document.getElementById('fName').value=p.name||'';document.getElementById('fPrice').value=p.price||0;
-document.getElementById('fStock').value=p.stock||0;document.getElementById('fDur').value=p.duration||'';
-document.getElementById('fSrc').value=p.source||'';document.getElementById('fDetail').value=p.detail||p.desc||p.warranty||'';
-document.getElementById('save').textContent='Cập nhật';document.getElementById('cancelBtn').style.display='inline-block';
-document.getElementById('formTitle').textContent='Sửa sản phẩm';window.scrollTo({top:0,behavior:'smooth'});}
-else{var nm=((D[k].plans[i]||{}).name||'');if(confirm('Xóa "'+nm+'"?')){D[k].plans.splice(i,1);render();}}};
-document.getElementById('bulkAdd').onclick=function(){
-var k=document.getElementById('bCat').value;if(!k){alert('Chọn danh mục.');return;}
-var added=0;
-document.getElementById('bulk').value.split('\n').forEach(function(line){
-line=line.trim();if(!line)return;var c=line.split('|').map(function(x){return x.trim();});if(!c[0])return;
-D[k].plans.push({id:String(Date.now())+added,name:c[0],price:Number((c[1]||'0').replace(/[^0-9]/g,''))||0,stock:Number((c[2]||'0').replace(/[^0-9]/g,''))||0,duration:c[3]||'',source:c[4]||'',detail:c[5]||''});added++;});
-document.getElementById('bulk').value='';alert(added?('Đã thêm '+added+' vào '+D[k].name+'.'):'Chưa thêm dòng nào.');render();};
-document.getElementById('exp').onclick=function(){var b=new Blob([JSON.stringify(D,null,2)],{type:'application/json'});var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='services.json';a.click();URL.revokeObjectURL(a.href);};
-document.getElementById('git').onclick=function(){window.open(GIT,'_blank');};
+
+document.getElementById('openBtn').onclick = function() {
+  if (document.getElementById('pw').value === PASS) {
+    document.getElementById('gate').style.display = 'none';
+    document.getElementById('adminPanel').style.display = 'block';
+    load();
+  } else {
+    document.getElementById('gateErr').style.display = 'block';
+  }
+};
+document.getElementById('pw').onkeydown = e => { if (e.key === 'Enter') document.getElementById('openBtn').click(); };
+
+function load() {
+  fetch('./data/services.json', { cache: 'no-store' })
+    .then(r => r.json())
+    .then(j => {
+      D = j || {};
+      render();
+    })
+    .catch(() => { D = {}; render(); });
+}
+
+function render() {
+  var keys = Object.keys(D), totalPro = 0, totalStock = 0;
+  keys.forEach(k => {
+    (D[k].plans || []).forEach(p => {
+      totalPro++;
+      totalStock += Number(p.stock || 0);
+    });
+  });
+
+  document.getElementById('nCat').textContent = keys.length;
+  document.getElementById('nPro').textContent = totalPro;
+  document.getElementById('nStock').textContent = totalStock;
+  document.getElementById('statText').textContent = `${keys.length} danh mục · ${totalPro} gói dịch vụ`;
+
+  // Select options
+  var opts = keys.map(k => `<option value="${k}">${D[k].name}</option>`).join('');
+  document.getElementById('fCat').innerHTML = opts;
+  document.getElementById('bCat').innerHTML = opts;
+  document.getElementById('filterCat').innerHTML = '<option value="">Tất cả</option>' + opts;
+  document.getElementById('filterCat').value = curFilter;
+
+  // Render Fast Table
+  var tbody = document.getElementById('quickTable');
+  tbody.innerHTML = '';
+
+  keys.filter(k => !curFilter || k === curFilter).forEach(k => {
+    (D[k].plans || []).forEach((p, idx) => {
+      var tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td><b>${p.name}</b><br><small style="color:#64748b">${p.duration || ''}</small></td>
+        <td><span style="font-size:12px;background:#f1f5f9;padding:2px 6px;border-radius:4px">${D[k].name}</span></td>
+        <td>
+          <input type="number" class="quick-input" value="${p.price || 0}" data-cat="${k}" data-idx="${idx}" data-field="price" /> đ
+        </td>
+        <td>
+          <input type="number" class="quick-stock" value="${p.stock || 0}" data-cat="${k}" data-idx="${idx}" data-field="stock" />
+        </td>
+        <td>
+          <button class="btn btn-ghost" style="padding:4px 8px;font-size:11px" onclick="editProduct('${k}', ${idx})">Chi tiết</button>
+          <button class="btn-del" onclick="deleteProduct('${k}', ${idx})">Xóa</button>
+        </td>
+      `;
+      tbody.appendChild(tr);
+    });
+  });
+
+  // Tự động bắt sự kiện khi sửa giá hoặc kho trực tiếp trên ô
+  document.querySelectorAll('.quick-input, .quick-stock').forEach(inp => {
+    inp.onchange = function() {
+      var cat = this.dataset.cat;
+      var i = this.dataset.idx;
+      var field = this.dataset.field;
+      D[cat].plans[i][field] = Number(this.value || 0);
+      showToast('Đã đổi ' + (field === 'price' ? 'giá' : 'kho') + ' thành công!');
+    };
+  });
+}
+
+document.getElementById('filterCat').onchange = function(e) {
+  curFilter = e.target.value;
+  render();
+};
+
+function editProduct(k, i) {
+  var p = D[k].plans[i];
+  editCat = k; editIdx = i;
+  document.getElementById('fCat').value = k;
+  document.getElementById('fCat').disabled = true;
+  document.getElementById('fName').value = p.name || '';
+  document.getElementById('fPrice').value = p.price || 0;
+  document.getElementById('fStock').value = p.stock || 0;
+  document.getElementById('fDur').value = p.duration || '';
+  document.getElementById('fSrc').value = p.source || '';
+  document.getElementById('fDetail').value = p.detail || '';
+  document.getElementById('saveSingle').textContent = 'Cập nhật thay đổi';
+  document.getElementById('cancelEdit').style.display = 'inline-block';
+  window.scrollTo({ top: 400, behavior: 'smooth' });
+}
+
+document.getElementById('cancelEdit').onclick = resetForm;
+function resetForm() {
+  editCat = ''; editIdx = -1;
+  document.getElementById('fCat').disabled = false;
+  document.getElementById('fName').value = '';
+  document.getElementById('saveSingle').textContent = 'Lưu sản phẩm';
+  document.getElementById('cancelEdit').style.display = 'none';
+}
+
+function deleteProduct(k, i) {
+  if (confirm(`Xác nhận xóa gói "${D[k].plans[i].name}"?`)) {
+    D[k].plans.splice(i, 1);
+    render();
+    showToast('Đã xóa sản phẩm');
+  }
+}
+
+document.getElementById('saveSingle').onclick = function() {
+  var k = document.getElementById('fCat').value;
+  var name = document.getElementById('fName').value.trim();
+  if (!name) return alert('Vui lòng nhập tên sản phẩm.');
+
+  var obj = {
+    id: String(Date.now()),
+    name: name,
+    price: Number(document.getElementById('fPrice').value || 0),
+    stock: Number(document.getElementById('fStock').value || 0),
+    duration: document.getElementById('fDur').value.trim(),
+    source: document.getElementById('fSrc').value.trim(),
+    detail: document.getElementById('fDetail').value.trim()
+  };
+
+  if (editIdx >= 0 && editCat) {
+    obj.id = D[editCat].plans[editIdx].id || obj.id;
+    D[editCat].plans[editIdx] = obj;
+    resetForm();
+  } else {
+    D[k].plans.push(obj);
+  }
+  document.getElementById('fName').value = '';
+  render();
+  showToast('Đã lưu gói mới thành công!');
+};
+
+// Thêm hàng loạt
+document.getElementById('bulkAddBtn').onclick = function() {
+  var k = document.getElementById('bCat').value;
+  var text = document.getElementById('bulkText').value.trim();
+  if (!text) return;
+  var count = 0;
+  text.split('\n').forEach(line => {
+    var p = line.split('|').map(s => s.trim());
+    if (p[0]) {
+      D[k].plans.push({
+        id: String(Date.now() + count),
+        name: p[0],
+        price: Number((p[1] || '0').replace(/[^0-9]/g, '')) || 0,
+        stock: Number((p[2] || '0').replace(/[^0-9]/g, '')) || 0,
+        duration: p[3] || '',
+        source: p[4] || '',
+        detail: p[5] || ''
+      });
+      count++;
+    }
+  });
+  document.getElementById('bulkText').value = '';
+  render();
+  showToast(`Đã thêm ${count} sản phẩm!`);
+};
+
+// Xuất file và đẩy GitHub
+document.getElementById('exportBtn').onclick = function() {
+  var blob = new Blob([JSON.stringify(D, null, 2)], { type: 'application/json' });
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'services.json';
+  a.click();
+};
+document.getElementById('openGitBtn').onclick = () => window.open(GIT_URL, '_blank');
 </script>
 </body>
 </html>
