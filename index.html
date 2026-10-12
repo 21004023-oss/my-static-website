@@ -19,7 +19,8 @@ body{background:#dfe7d8;color:#1d2b20;min-height:100vh;font-size:14px;line-heigh
 .search button{border:none;background:#2e4632;color:#fff;font-weight:700;font-size:13px;padding:0 18px;cursor:pointer}
 /* category grid like screenshot */
 .cats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin:14px 0 6px}
-.cat{border:none;cursor:pointer;background:#7ba47b;color:#fff;border-radius:9px;padding:10px 6px;font-size:12.5px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:6px;min-height:46px;line-height:1.25}
+.cat{border:none;cursor:pointer;background:#7ba47b;color:#fff;border-radius:9px;padding:8px 6px;font-size:12.5px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:6px;min-height:48px;line-height:1.25}
+.cat img{width:22px;height:22px;border-radius:6px;object-fit:cover;background:#fff;flex-shrink:0}
 .cat .t{width:22px;height:22px;border-radius:6px;background:rgba(255,255,255,.22);display:inline-grid;place-items:center;font-size:11px;font-weight:800;flex-shrink:0}
 .cat.on{background:#435f46;box-shadow:0 3px 0 rgba(0,0,0,.18)}
 @media(max-width:480px){.cats{grid-template-columns:1fr 1fr 1fr}.cat{font-size:11px;min-height:44px}}
@@ -60,6 +61,60 @@ body{background:#dfe7d8;color:#1d2b20;min-height:100vh;font-size:14px;line-heigh
 
 <script>
 var ZALO='0373996379',D={},cur='',kw='';
+/* Logo mac dinh: neu danh muc chua co logo rieng thi lay theo ten mien hang.
+   Logo lay tu CDN simpleicons + google s2 (mien phi). Co mang moi hien, mat mang tu ve chu viet tat. */
+var LOGO_CDN={
+'youtube':'https://cdn.simpleicons.org/youtube/FF0000',
+'chatgpt':'https://cdn.simpleicons.org/openai/10A37F',
+'google-ultra':'https://cdn.simpleicons.org/google/4285F4',
+'app-lam-dep':'https://cdn.simpleicons.org/beauty/DB2777',
+'app-vpn':'https://cdn.simpleicons.org/wireguard/88171A',
+'microsoft-365':'https://cdn.simpleicons.org/microsoft365/D83B01',
+'adobe':'https://cdn.simpleicons.org/adobe/FF0000',
+'canva':'https://cdn.simpleicons.org/canva/00C4CC',
+'capcut':'https://cdn.simpleicons.org/capcut/000000',
+'api-claude':'https://cdn.simpleicons.org/anthropic/D97757',
+'duolingo':'https://cdn.simpleicons.org/duolingo/58CC02',
+'seedance':'https://cdn.simpleicons.org/tiktok/000000',
+'outlook':'https://cdn.simpleicons.org/microsoftoutlook/0078D4',
+'gmail':'https://cdn.simpleicons.org/gmail/EA4335',
+'google-one':'https://cdn.simpleicons.org/google/4285F4',
+'grok':'https://cdn.simpleicons.org/x/000000',
+'kling':'https://cdn.simpleicons.org/kling/000000',
+'mbbank':'https://cdn.simpleicons.org/banking/1D4ED8',
+'apple':'https://cdn.simpleicons.org/apple/000000',
+'netflix':'https://cdn.simpleicons.org/netflix/E50914',
+'notion':'https://cdn.simpleicons.org/notion/000000',
+'perplexity':'https://cdn.simpleicons.org/perplexity/20808C',
+'quizlet':'https://cdn.simpleicons.org/quizlet/4255FF',
+'reddit':'https://cdn.simpleicons.org/reddit/FF4500',
+'spotify':'https://cdn.simpleicons.org/spotify/1DB954',
+'app-phim':'https://cdn.simpleicons.org/youtube/FF0000',
+'autodesk':'https://cdn.simpleicons.org/autodesk/0696D7',
+'minimax':'https://cdn.simpleicons.org/minimax/000000',
+'locket':'https://cdn.simpleicons.org/locket/FFB300',
+'coursera':'https://cdn.simpleicons.org/coursera/0056D2',
+'elevenlabs':'https://cdn.simpleicons.org/elevenlabs/000000',
+'higgsfield':'https://cdn.simpleicons.org/googlegemini/4285F4',
+'leonardo':'https://cdn.simpleicons.org/leonardo/000000',
+'suno':'https://cdn.simpleicons.org/suno/000000',
+'amazon-prime':'https://cdn.simpleicons.org/amazonprime/00A8E1',
+'':'https://cdn.simpleicons.org//4D6BFE',
+'icloud':'https://cdn.simpleicons.org/icloud/3693F3',
+'linkedin':'https://cdn.simpleicons.org/linkedin/0A66C2',
+'zoom':'https://cdn.simpleicons.org/zoom/2D8CFF',
+'muse-ai':'https://cdn.simpleicons.org/anthropic/D97757',
+'openart':'https://cdn.simpleicons.org/openai/10A37F',
+'akool':'https://cdn.simpleicons.org/googlegemini/4285F4',
+'lovable':'https://cdn.simpleicons.org/lovable/FF5C5C',
+'heygen':'https://cdn.simpleicons.org/heygen/000000',
+'veo3':'https://cdn.simpleicons.org/google/4285F4',
+'khac':''
+};
+function logoSrc(key,it){
+if(it&&it.logo)return it.logo;
+return LOGO_CDN[key]||'';
+}
 function load(){
 fetch('./data/services.json',{cache:'no-store'})
 .then(function(r){if(!r.ok)throw 0;return r.json();})
@@ -76,9 +131,17 @@ var g=document.getElementById('cats');g.innerHTML='';
 Object.keys(D).forEach(function(k){
 var it=D[k];
 var b=document.createElement('button');b.type='button';b.className='cat'+(k===cur?' on':'');
+var src=logoSrc(k,it);
+if(src){
+var im=document.createElement('img');im.src=src;im.alt='';im.loading='lazy';
+im.onerror=function(){var s=document.createElement('span');s.className='t';s.textContent=it.short||it.name.slice(0,2).toUpperCase();this.replaceWith(s);};
+b.appendChild(im);
+}else{
 var t=document.createElement('span');t.className='t';t.textContent=it.short||it.name.slice(0,2).toUpperCase();
+b.appendChild(t);
+}
 var n=document.createElement('span');n.textContent=it.name.toUpperCase();
-b.appendChild(t);b.appendChild(n);
+b.appendChild(n);
 b.onclick=function(){
 if(kw){kw='';document.getElementById('q').value='';}
 cur=k;render();};

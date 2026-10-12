@@ -69,8 +69,9 @@ textarea.prev{background:#1d2b20;color:#cfe3cf;min-height:130px}
 <div id="catList"></div>
 <div class="grid2">
 <div><label>Tên danh mục mới</label><input id="newCat" placeholder="VD: Netflix" /></div>
-<div><label>&nbsp;</label><div><button class="btn" id="addCat">+ Thêm</button></div></div>
+<div><label>Logo (link ảnh, có thể bỏ trống)</label><input id="newLogo" placeholder="VD: logos/netflix.png" /></div>
 </div>
+<button class="btn" id="addCat" style="margin-top:8px">+ Thêm</button>
 </div>
 
 <div class="box">
@@ -148,7 +149,8 @@ document.getElementById('filter').value=filter;
 var ch='';
 keys.forEach(function(k){
 var c=(D[k].plans||[]).length;
-ch+='<div class="catrow"><div><b>'+esc(D[k].name)+'</b> <small style="color:#888">· '+c+' sp</small></div><div><button class="l" data-c="'+k+'" data-t="ren">Đổi tên</button><button class="l del" data-c="'+k+'" data-t="delc">Xóa</button></div></div>';});
+var logo=D[k].logo?(' · <span style="color:#2e7d32">có logo</span>'):(' · <span style="color:#999">chưa logo</span>');
+ch+='<div class="catrow"><div><b>'+esc(D[k].name)+'</b> <small style="color:#888">· '+c+' sp'+logo+'</small></div><div style="white-space:nowrap"><button class="l" data-c="'+k+'" data-t="logo">Logo</button><button class="l" data-c="'+k+'" data-t="ren">Đổi tên</button><button class="l del" data-c="'+k+'" data-t="delc">Xóa</button></div></div>';});
 document.getElementById('catList').innerHTML=ch||'<div style="color:#999;font-size:12.5px">Chưa có danh mục.</div>';
 /* product list */
 var lh='',shown=keys.filter(function(k){return !filter||k===filter;});
@@ -165,14 +167,23 @@ var k=b.dataset.c;
 if(b.dataset.t==='delc'){
 if(!confirm('Xóa cả danh mục "'+D[k].name+'" ('+(D[k].plans||[]).length+' sản phẩm)?'))return;
 delete D[k];if(filter===k)filter='';render();
+}else if(b.dataset.t==='logo'){
+var cur=D[k].logo||'';
+var v=prompt('Link logo cho "'+D[k].name+'" (vd: logos/netflix.png). Để trống để gỡ logo:',cur);
+if(v===null)return;
+v=v.trim();
+if(v)D[k].logo=v;else delete D[k].logo;
+render();
 }else{
 var n=prompt('Tên mới:',D[k].name);if(!n||!(n=n.trim()))return;
 D[k].name=n;D[k].short=shortOf(n);render();}};
 document.getElementById('addCat').onclick=function(){
 var n=document.getElementById('newCat').value.trim();if(!n){alert('Nhập tên danh mục.');return;}
 var k=slug(n);if(D[k]){alert('Danh mục đã có.');return;}
+var lg=document.getElementById('newLogo').value.trim();
 D[k]={name:n,short:shortOf(n),plans:[]};
-document.getElementById('newCat').value='';filter=k;render();};
+if(lg)D[k].logo=lg;
+document.getElementById('newCat').value='';document.getElementById('newLogo').value='';filter=k;render();};
 document.getElementById('filter').onchange=function(e){filter=e.target.value;render();};
 
 /* product form */
