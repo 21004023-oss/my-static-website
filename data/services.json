@@ -1,27 +1,737 @@
 {
   "youtube": {
-    "name": "YouTube Premium",
-    "icon": "📺",
+    "name": "Youtube",
+    "short": "YT",
     "plans": [
       {
         "id": "yt-1",
-        "name": "YouTube Premium 1 Tháng",
-        "desc": "Bảo hành full thời hạn",
+        "name": "Youtube Premium 1 tháng",
+        "detail": "Mail khách, không quảng cáo, nghe nền, tải offline.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
         "price": 80000,
         "stock": 18
       },
       {
-        "id": "yt-6",
-        "name": "YouTube Premium 6 Tháng",
-        "desc": "Bảo hành full thời hạn",
-        "price": 380000,
+        "id": "yt-12",
+        "name": "Youtube Premium 12 tháng",
+        "detail": "Gói năm, bảo hành suốt thời hạn.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "365 ngày",
+        "price": 750000,
+        "stock": 6
+      }
+    ]
+  },
+  "chatgpt": {
+    "name": "Chat GPT",
+    "short": "GPT",
+    "plans": [
+      {
+        "id": "gpt-1",
+        "name": "ChatGPT Plus 1 tháng",
+        "detail": "GPT-4, dùng riêng, bảo hành full.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 350000,
+        "stock": 25
+      }
+    ]
+  },
+  "google-ultra": {
+    "name": "Google Ultra",
+    "short": "GU",
+    "plans": [
+      {
+        "id": "gu-1",
+        "name": "Google Ultra 1 tháng",
+        "detail": "Gói AI cao cấp của Google, dùng các model mới nhất.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 250000,
+        "stock": 12
+      }
+    ]
+  },
+  "app-lam-dep": {
+    "name": "App Làm Đẹp",
+    "short": "LĐ",
+    "plans": [
+      {
+        "id": "ld-1",
+        "name": "App làm đẹp Premium 1 tháng",
+        "detail": "Mở full filter, xóa watermark.",
+        "source": "Tài khoản cấp sẵn",
+        "duration": "30 ngày",
+        "price": 99000,
+        "stock": 30
+      }
+    ]
+  },
+  "app-vpn": {
+    "name": "App VPN",
+    "short": "VPN",
+    "plans": [
+      {
+        "id": "vpn-1",
+        "name": "VPN Premium 1 tháng",
+        "detail": "Tốc độ cao, nhiều server, không giới hạn data.",
+        "source": "Tài khoản cấp sẵn",
+        "duration": "30 ngày",
+        "price": 79000,
+        "stock": 40
+      }
+    ]
+  },
+  "microsoft-365": {
+    "name": "Microsoft 365",
+    "short": "M365",
+    "plans": [
+      {
+        "id": "m365-12",
+        "name": "Microsoft 365 12 tháng",
+        "detail": "Word, Excel, PowerPoint bản quyền + 1TB OneDrive.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "365 ngày",
+        "price": 450000,
+        "stock": 15
+      }
+    ]
+  },
+  "adobe": {
+    "name": "Adobe",
+    "short": "AD",
+    "plans": [
+      {
+        "id": "adobe-1",
+        "name": "Adobe full app 1 tháng",
+        "detail": "Photoshop, Premiere, Lightroom, Illustrator...",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 220000,
         "stock": 10
       }
     ]
   },
+  "canva": {
+    "name": "Canva",
+    "short": "CV",
+    "plans": [
+      {
+        "id": "canva-12",
+        "name": "Canva Pro 12 tháng",
+        "detail": "Full template, xóa nền, brand kit.",
+        "source": "Mời vào team Pro",
+        "duration": "365 ngày",
+        "price": 199000,
+        "stock": 50
+      }
+    ]
+  },
+  "capcut": {
+    "name": "Capcut",
+    "short": "CC",
+    "plans": [
+      {
+        "id": "cc-1",
+        "name": "Capcut Pro 1 tháng",
+        "detail": "Xóa watermark, full hiệu ứng Pro.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 99000,
+        "stock": 22
+      }
+    ]
+  },
+  "api-claude": {
+    "name": "API Claude",
+    "short": "CL",
+    "plans": [
+      {
+        "id": "claude-api-1",
+        "name": "API Claude 5$",
+        "detail": "Key API riêng, dùng cho app/web của khách. Có hướng dẫn nạp và kiểm tra số dư.",
+        "source": "Web console.anthropic.com",
+        "duration": "Dùng đến hết credit",
+        "price": 149000,
+        "stock": 20
+      },
+      {
+        "id": "claude-api-2",
+        "name": "API Claude 25$",
+        "detail": "Key API riêng, phù hợp chạy tool số lượng lớn.",
+        "source": "Web console.anthropic.com",
+        "duration": "Dùng đến hết credit",
+        "price": 649000,
+        "stock": 8
+      }
+    ]
+  },
+  "duolingo": {
+    "name": "Duolingo",
+    "short": "DU",
+    "plans": [
+      {
+        "id": "duo-12",
+        "name": "Duolingo Super 12 tháng",
+        "detail": "Học không quảng cáo, không giới hạn tim.",
+        "source": "Mời vào family",
+        "duration": "365 ngày",
+        "price": 249000,
+        "stock": 18
+      }
+    ]
+  },
+  "seedance": {
+    "name": "Seedance",
+    "short": "SE",
+    "plans": [
+      {
+        "id": "se-1",
+        "name": "Seedance 1 tháng",
+        "detail": "Gói tạo video AI, credit theo gói.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 189000,
+        "stock": 9
+      }
+    ]
+  },
+  "outlook": {
+    "name": "Outlook",
+    "short": "OL",
+    "plans": [
+      {
+        "id": "ol-1",
+        "name": "Outlook Premium 1 năm",
+        "detail": "Mail sạch, không quảng cáo, bảo mật cao.",
+        "source": "Tài khoản cấp sẵn",
+        "duration": "365 ngày",
+        "price": 199000,
+        "stock": 14
+      }
+    ]
+  },
+  "gmail": {
+    "name": "Gmail",
+    "short": "GM",
+    "plans": [
+      {
+        "id": "gm-1",
+        "name": "Gmail cổ + Google One",
+        "detail": "Mail trust cao, dùng reg acc, chạy ads.",
+        "source": "Tài khoản cấp sẵn",
+        "duration": "Vĩnh viễn",
+        "price": 49000,
+        "stock": 100
+      }
+    ]
+  },
+  "google-one": {
+    "name": "Google One",
+    "short": "G1",
+    "plans": [
+      {
+        "id": "g1-100",
+        "name": "Google One 100GB 12 tháng",
+        "detail": "Mở rộng dung lượng Drive, Gmail, Photos.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "365 ngày",
+        "price": 299000,
+        "stock": 16
+      }
+    ]
+  },
+  "grok": {
+    "name": "Grok",
+    "short": "GR",
+    "plans": [
+      {
+        "id": "grok-1",
+        "name": "Grok / X Premium 1 tháng",
+        "detail": "Dùng Grok AI + tick xanh X.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 199000,
+        "stock": 11
+      }
+    ]
+  },
+  "kling": {
+    "name": "Kling",
+    "short": "KL",
+    "plans": [
+      {
+        "id": "kling-1",
+        "name": "Kling 1 tháng",
+        "detail": "Tạo video AI, credit theo gói.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 209000,
+        "stock": 10
+      }
+    ]
+  },
+  "mbbank": {
+    "name": "MB Bank",
+    "short": "MB",
+    "plans": [
+      {
+        "id": "mb-1",
+        "name": "Tài khoản MB số đẹp",
+        "detail": "Số dễ nhớ, hỗ trợ định danh.",
+        "source": "Mở trực tiếp tại MB",
+        "duration": "Vĩnh viễn",
+        "price": 99000,
+        "stock": 30
+      }
+    ]
+  },
+  "apple": {
+    "name": "Apple",
+    "short": "AP",
+    "plans": [
+      {
+        "id": "ap-1",
+        "name": "Apple Music 3 tháng",
+        "detail": "Nghe nhạc lossless, dùng riêng.",
+        "source": "Nâng trực tiếp trên ID khách",
+        "duration": "90 ngày",
+        "price": 129000,
+        "stock": 20
+      }
+    ]
+  },
+  "netflix": {
+    "name": "Netflix",
+    "short": "NF",
+    "plans": [
+      {
+        "id": "nf-1",
+        "name": "Netflix 1 tháng",
+        "detail": "Profile riêng, 4K, bảo hành suốt hạn.",
+        "source": "Cấp profile trên acc shop",
+        "duration": "30 ngày",
+        "price": 89000,
+        "stock": 35
+      }
+    ]
+  },
+  "notion": {
+    "name": "Notion",
+    "short": "NO",
+    "plans": [
+      {
+        "id": "no-1",
+        "name": "Notion Plus 1 năm",
+        "detail": "Ghi chú, quản lý công việc cho team.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "365 ngày",
+        "price": 249000,
+        "stock": 13
+      }
+    ]
+  },
+  "perplexity": {
+    "name": "Perplexity",
+    "short": "PP",
+    "plans": [
+      {
+        "id": "pp-12",
+        "name": "Perplexity Pro 12 tháng",
+        "detail": "Tìm kiếm AI, trả lời có nguồn, dùng model mạnh.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "365 ngày",
+        "price": 299000,
+        "stock": 17
+      }
+    ]
+  },
+  "quizlet": {
+    "name": "Quizlet",
+    "short": "QZ",
+    "plans": [
+      {
+        "id": "qz-12",
+        "name": "Quizlet Plus 12 tháng",
+        "detail": "Học từ vựng, không giới hạn bộ đề.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "365 ngày",
+        "price": 189000,
+        "stock": 12
+      }
+    ]
+  },
+  "reddit": {
+    "name": "Reddit",
+    "short": "RD",
+    "plans": [
+      {
+        "id": "rd-1",
+        "name": "Acc Reddit cổ",
+        "detail": "Acc trust, đủ tuổi, dùng nuôi hoặc seeding.",
+        "source": "Tài khoản cấp sẵn",
+        "duration": "Vĩnh viễn",
+        "price": 79000,
+        "stock": 45
+      }
+    ]
+  },
   "spotify": {
-    "name": "Spotify Premium",
-    "icon": "🎵",
-    "plans": []
+    "name": "Spotify",
+    "short": "SP",
+    "plans": [
+      {
+        "id": "sp-1",
+        "name": "Spotify Premium 1 tháng",
+        "detail": "Nghe nhạc không quảng cáo, tải offline.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 35000,
+        "stock": 50
+      }
+    ]
+  },
+  "app-phim": {
+    "name": "App Phim",
+    "short": "PH",
+    "plans": [
+      {
+        "id": "ph-1",
+        "name": "App phim VIP 1 tháng",
+        "detail": "Xem phim chiếu rạp, phụ đề nhanh.",
+        "source": "Tài khoản cấp sẵn",
+        "duration": "30 ngày",
+        "price": 49000,
+        "stock": 28
+      }
+    ]
+  },
+  "autodesk": {
+    "name": "Autodesk",
+    "short": "AU",
+    "plans": [
+      {
+        "id": "au-12",
+        "name": "Autodesk 12 tháng",
+        "detail": "AutoCAD, Revit... bản quyền cho kỹ sư.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "365 ngày",
+        "price": 499000,
+        "stock": 7
+      }
+    ]
+  },
+  "minimax": {
+    "name": "Minimax",
+    "short": "MM",
+    "plans": [
+      {
+        "id": "mm-1",
+        "name": "Minimax 1 tháng",
+        "detail": "Tạo nhạc, giọng đọc AI.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 159000,
+        "stock": 10
+      }
+    ]
+  },
+  "locket": {
+    "name": "Locket",
+    "short": "LO",
+    "plans": [
+      {
+        "id": "lo-1",
+        "name": "Locket Gold 1 tháng",
+        "detail": "Mở full tính năng Gold.",
+        "source": "Nâng trực tiếp trên ID khách",
+        "duration": "30 ngày",
+        "price": 69000,
+        "stock": 21
+      }
+    ]
+  },
+  "coursera": {
+    "name": "Coursera",
+    "short": "CO",
+    "plans": [
+      {
+        "id": "co-1",
+        "name": "Coursera Plus 1 tháng",
+        "detail": "Học không giới hạn, có chứng chỉ.",
+        "source": "Mời vào team",
+        "duration": "30 ngày",
+        "price": 149000,
+        "stock": 9
+      }
+    ]
+  },
+  "elevenlabs": {
+    "name": "Elevenlabs",
+    "short": "EL",
+    "plans": [
+      {
+        "id": "el-1",
+        "name": "Elevenlabs Starter 1 tháng",
+        "detail": "Giọng đọc AI tự nhiên, làm video, podcast.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 179000,
+        "stock": 11
+      }
+    ]
+  },
+  "higgsfield": {
+    "name": "Higgfield",
+    "short": "HG",
+    "plans": [
+      {
+        "id": "hg-1",
+        "name": "Higgfield 1 tháng",
+        "detail": "Tạo video AI điện ảnh.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 199000,
+        "stock": 8
+      }
+    ]
+  },
+  "leonardo": {
+    "name": "Leonardo AI",
+    "short": "LE",
+    "plans": [
+      {
+        "id": "le-1",
+        "name": "Leonardo 1 tháng",
+        "detail": "Vẽ ảnh AI, credit theo gói.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 169000,
+        "stock": 10
+      }
+    ]
+  },
+  "suno": {
+    "name": "Suno",
+    "short": "SU",
+    "plans": [
+      {
+        "id": "su-1",
+        "name": "Suno Premier 1 tháng",
+        "detail": "Sáng tác nhạc AI, credit theo gói.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 189000,
+        "stock": 12
+      }
+    ]
+  },
+  "amazon-prime": {
+    "name": "Amazon Prime",
+    "short": "AM",
+    "plans": [
+      {
+        "id": "am-1",
+        "name": "Amazon Prime 6 tháng",
+        "detail": "Xem phim Prime Video, freeship Amazon.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "180 ngày",
+        "price": 249000,
+        "stock": 9
+      }
+    ]
+  },
+  "deepseek": {
+    "name": "Deepseek",
+    "short": "DS",
+    "plans": [
+      {
+        "id": "ds-1",
+        "name": "API  5$",
+        "detail": "Key API riêng, giá rẻ, chạy tool tốt.",
+        "source": "Web platform..com",
+        "duration": "Dùng đến hết credit",
+        "price": 129000,
+        "stock": 22
+      }
+    ]
+  },
+  "icloud": {
+    "name": "Icloud",
+    "short": "IC",
+    "plans": [
+      {
+        "id": "ic-200",
+        "name": "iCloud+ 200GB 12 tháng",
+        "detail": "Mở rộng dung lượng iPhone, iPad.",
+        "source": "Nâng trực tiếp trên ID khách",
+        "duration": "365 ngày",
+        "price": 499000,
+        "stock": 8
+      }
+    ]
+  },
+  "linkedin": {
+    "name": "Linkedin",
+    "short": "LI",
+    "plans": [
+      {
+        "id": "li-1",
+        "name": "Linkedin Premium 1 tháng",
+        "detail": "Tìm việc, connect, InMail.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 249000,
+        "stock": 7
+      }
+    ]
+  },
+  "zoom": {
+    "name": "Zoom",
+    "short": "ZO",
+    "plans": [
+      {
+        "id": "zo-1",
+        "name": "Zoom Pro 1 tháng",
+        "detail": "Họp không giới hạn 40 phút, 100 người.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 219000,
+        "stock": 10
+      }
+    ]
+  },
+  "muse-ai": {
+    "name": "Muse AI",
+    "short": "MU",
+    "plans": [
+      {
+        "id": "mu-1",
+        "name": "Muse AI 1 tháng",
+        "detail": "Trợ lý AI viết lách, học tập.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 159000,
+        "stock": 12
+      }
+    ]
+  },
+  "openart": {
+    "name": "OpenArt",
+    "short": "OA",
+    "plans": [
+      {
+        "id": "oa-1",
+        "name": "OpenArt 1 tháng",
+        "detail": "Vẽ ảnh AI, credit theo gói.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 149000,
+        "stock": 9
+      }
+    ]
+  },
+  "akool": {
+    "name": "Akool",
+    "short": "AK",
+    "plans": [
+      {
+        "id": "ak-1",
+        "name": "Akool 1 tháng",
+        "detail": "Đổi mặt, làm video AI.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 179000,
+        "stock": 8
+      }
+    ]
+  },
+  "lovable": {
+    "name": "Lovable",
+    "short": "LV",
+    "plans": [
+      {
+        "id": "lv-1",
+        "name": "Lovable 1 tháng",
+        "detail": "Tạo web bằng AI, credit theo gói.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 249000,
+        "stock": 10
+      }
+    ]
+  },
+  "heygen": {
+    "name": "HeyGen",
+    "short": "HY",
+    "plans": [
+      {
+        "id": "hy-1",
+        "name": "HeyGen 1 tháng",
+        "detail": "MC ảo, video AI nói tiếng Việt.",
+        "source": "Nâng trực tiếp trên mail khách",
+        "duration": "30 ngày",
+        "price": 229000,
+        "stock": 9
+      }
+    ]
+  },
+  "veo3": {
+    "name": "Slot Veo3 Ultra",
+    "short": "V3",
+    "plans": [
+      {
+        "id": "v3-x5-1",
+        "name": "Slot Veo3 Ultra x5 random credits 1 tháng",
+        "detail": "Slot random credits, tạo video Veo3.",
+        "source": "Slot trên acc shop",
+        "duration": "30 ngày",
+        "price": 360000,
+        "stock": 15
+      },
+      {
+        "id": "v3-x20-1",
+        "name": "Slot Veo3 Ultra x20 random credits 1 tháng",
+        "detail": "Slot random credits, tạo video Veo3.",
+        "source": "Slot trên acc shop",
+        "duration": "30 ngày",
+        "price": 450000,
+        "stock": 12
+      },
+      {
+        "id": "v3-x5-3",
+        "name": "Slot Veo3 Ultra x5 random credits 3 tháng",
+        "detail": "Slot random credits, tạo video Veo3.",
+        "source": "Slot trên acc shop",
+        "duration": "90 ngày",
+        "price": 1250000,
+        "stock": 8
+      },
+      {
+        "id": "v3-x20-3",
+        "name": "Slot Veo3 Ultra x20 random credits 3 tháng",
+        "detail": "Slot random credits, tạo video Veo3.",
+        "source": "Slot trên acc shop",
+        "duration": "90 ngày",
+        "price": 1500000,
+        "stock": 6
+      }
+    ]
+  },
+  "khac": {
+    "name": "Khác",
+    "short": "＋",
+    "plans": [
+      {
+        "id": "kh-1",
+        "name": "Sản phẩm theo yêu cầu",
+        "detail": "Nhắn Zalo tên sản phẩm cần mua, shop báo giá.",
+        "source": "Liên hệ shop",
+        "duration": "Theo gói",
+        "price": 0,
+        "stock": 99
+      }
+    ]
   }
 }

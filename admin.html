@@ -1,231 +1,236 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quản trị sản phẩm (riêng tư)</title>
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
-    body { min-height: 100vh; background: #0f172a; color: #e2e8f0; padding: 24px 16px; }
-    .wrap { max-width: 1000px; margin: 0 auto; }
-    .card { background: #111827; border: 1px solid #334155; border-radius: 16px; padding: 20px; margin-bottom: 16px; }
-    h1 { font-size: 1.4rem; margin-bottom: 6px; }
-    .muted { color: #94a3b8; font-size: 0.9rem; }
-    input, select, button { padding: 10px 12px; border-radius: 10px; border: 1px solid #334155; font-size: 0.95rem; }
-    input, select { background: #0b1220; color: #fff; width: 100%; margin-top: 8px; }
-    button { background: #38bdf8; border: none; font-weight: 700; cursor: pointer; margin-top: 10px; }
-    button.ghost { background: transparent; border: 1px solid #334155; color: #e2e8f0; }
-    table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 0.9rem; }
-    th, td { text-align: left; padding: 10px; border-bottom: 1px solid #334155; vertical-align: top; }
-    th { color: #94a3b8; font-size: 0.75rem; text-transform: uppercase; }
-    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-    @media (max-width: 700px) { .row { grid-template-columns: 1fr; } }
-    .warn { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.4); border-radius: 12px; padding: 12px 14px; margin-bottom: 16px; font-size: 0.9rem; }
-    #adminArea { display: none; }
-    textarea { width: 100%; min-height: 220px; background: #0b1220; color: #fff; border: 1px solid #334155; border-radius: 10px; padding: 12px; margin-top: 8px; font-family: Consolas, monospace; font-size: 0.85rem; }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Quản trị</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Be Vietnam Pro',system-ui,sans-serif}
+body{background:#dfe7d8;color:#1d2b20;min-height:100vh;font-size:14px}
+.wrap{max-width:720px;margin:0 auto;padding:0 10px 60px}
+.gate{max-width:340px;margin:90px auto;text-align:center;background:#fff;border-radius:14px;padding:30px 24px}
+.gate h1{font-size:15px;margin-bottom:12px}
+.gate input{width:100%;padding:11px;border:1px solid #cbd6c2;border-radius:9px;font-size:13.5px;text-align:center;outline:none}
+.gate button{width:100%;margin-top:10px;background:#435f46;color:#fff;border:none;border-radius:9px;padding:11px;font-weight:700;cursor:pointer;font-size:13.5px}
+#gateErr{display:none;color:#c62828;font-size:12.5px;margin-top:8px}
+#admin{display:none}
+.head{background:#435f46;color:#fff;text-align:center;padding:16px;border-radius:0 0 14px 14px;margin-bottom:12px}
+.head h1{font-size:15px}
+.head p{font-size:12.5px;opacity:.9;margin-top:2px}
+.nums{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:12px}
+.num{background:#fff;border-radius:10px;padding:10px;text-align:center;border:1px solid #cbd6c2}
+.num b{display:block;font-size:17px}
+.num span{font-size:11.5px;color:#5a6b5e}
+.box{background:#fff;border-radius:10px;border:1px solid #cbd6c2;padding:13px;margin-bottom:10px}
+.box h2{font-size:13.5px;margin-bottom:8px}
+label{font-size:11.5px;font-weight:700;color:#5a6b5e}
+input,select,textarea{width:100%;padding:9px 11px;border:1px solid #cbd6c2;border-radius:8px;font-size:13px;margin:4px 0 8px;outline:none;background:#fbfdfb;color:#1d2b20}
+input:focus,select:focus{border-color:#435f46}
+textarea{font-family:monospace;font-size:12px;min-height:90px}
+textarea.prev{background:#1d2b20;color:#cfe3cf;min-height:130px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:0 10px}
+.btn{border:none;border-radius:8px;padding:10px 16px;font-size:13px;font-weight:700;cursor:pointer;background:#435f46;color:#fff}
+.btn.ghost{background:#eef2e9;color:#2e4632;margin-left:8px}
+.btn.gold{background:#c8930a}
+.row{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:9px 0;border-bottom:1px solid #edf1e9;font-size:13px}
+.row:last-child{border:none}
+.row small{color:#777;font-size:11.5px}
+.l{color:#435f46;font-size:12.5px;font-weight:700;background:none;border:none;cursor:pointer;padding:0;margin-right:10px}
+.l.del{color:#c62828}
+.hint{font-size:12.5px;color:#5a6b5e;line-height:1.7}
+.hint b{color:#1d2b20}
+#cancelBtn{display:none}
+.catrow{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #edf1e9;font-size:13px}
+.catrow:last-child{border:none}
+</style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="card" id="gateCard">
-      <h1>Khu vực riêng của chủ shop</h1>
-      <p class="muted">Trang này không liên kết từ trang khách. Nhập mật khẩu quản trị để mở công cụ sửa sản phẩm.</p>
-      <input id="adminPass" type="password" placeholder="Mật khẩu quản trị" autocomplete="off" />
-      <button id="unlockBtn">Mở công cụ sửa</button>
-      <p class="muted" id="gateErr" style="display:none;color:#fca5a5;margin-top:8px;">Sai mật khẩu.</p>
-    </div>
+<div class="wrap">
 
-    <div id="adminArea">
-      <div class="warn">Chỉ bạn mới đăng được thay đổi lên web, vì bước cuối cùng phải đăng nhập GitHub của bạn mới lưu được file. Người khác dù đoán ra địa chỉ trang này cũng không đăng nhập GitHub của bạn để lưu.</div>
+<div class="gate" id="gate">
+<h1>🔒 Quản trị</h1>
+<input id="pw" type="password" placeholder="Mật khẩu" />
+<button id="open">Mở</button>
+<div id="gateErr">Sai mật khẩu.</div>
+</div>
 
-      <div class="card">
-        <h1>Sửa sản phẩm / giá</h1>
-        <p class="muted">Sửa trực tiếp bên dưới, rồi bấm “Tạo file JSON mới”. Sau đó bạn đăng file đó lên GitHub (có nút mở sẵn trang đăng file).</p>
-        <div class="row">
-          <div>
-            <label>Ứng dụng</label>
-            <select id="pAppKey"></select>
-          </div>
-          <div>
-            <label>Tên gói</label>
-            <input id="pName" maxlength="120" placeholder="Ví dụ: YouTube Premium 1 Tháng" />
-          </div>
-        </div>
-        <div class="row">
-          <div>
-            <label>Giá bán (VNĐ)</label>
-            <input id="pPrice" type="number" min="0" max="1000000000" placeholder="35000" />
-          </div>
-          <div>
-            <label>Tồn kho</label>
-            <input id="pStock" type="number" min="0" max="1000000" placeholder="50" />
-          </div>
-        </div>
-        <label>Mô tả</label>
-        <input id="pDesc" maxlength="200" placeholder="Bảo hành full thời hạn" />
-        <button id="savePlanBtn">Lưu gói vào danh sách bên dưới</button>
-        <button class="ghost" id="cancelEditBtn" style="display:none;">Hủy sửa</button>
-      </div>
+<div id="admin">
+<div class="head"><h1>QUẢN TRỊ SẢN PHẨM</h1><p id="stat">...</p></div>
 
-      <div class="card">
-        <h1>Danh sách hiện tại</h1>
-        <div style="overflow-x:auto;">
-          <table>
-            <thead><tr><th>Ứng dụng</th><th>Gói</th><th>Giá bán</th><th>Kho</th><th>Thao tác</th></tr></thead>
-            <tbody id="tableBody"></tbody>
-          </table>
-        </div>
-        <div class="row">
-          <div><button class="ghost" id="addAppBtn">+ Thêm ứng dụng mới</button></div>
-          <div><button class="ghost" id="loadBtn">Tải lại dữ liệu đang chạy trên web</button></div>
-        </div>
-      </div>
+<div class="nums">
+<div class="num"><b id="nCat">0</b><span>Danh mục</span></div>
+<div class="num"><b id="nPro">0</b><span>Sản phẩm</span></div>
+<div class="num"><b id="nStock">0</b><span>Còn lại</span></div>
+</div>
 
-      <div class="card">
-        <h1>Đăng thay đổi lên web</h1>
-        <p class="muted">Bấm nút 1 để tải file mới về máy, bấm nút 2 để mở trang GitHub, kéo file vào rồi bấm Commit. Web tự cập nhật sau vài phút.</p>
-        <button id="exportBtn">1. Tải file services.json mới</button>
-        <button class="ghost" id="openGithubBtn">2. Mở trang đăng file lên GitHub</button>
-        <label style="display:block;margin-top:12px;">Xem trước nội dung file sẽ đăng:</label>
-        <textarea id="preview" readonly></textarea>
-      </div>
-    </div>
-  </div>
+<div class="box">
+<h2>Danh mục</h2>
+<div id="catList"></div>
+<div class="grid2">
+<div><label>Tên danh mục mới</label><input id="newCat" placeholder="VD: Netflix" /></div>
+<div><label>&nbsp;</label><div><button class="btn" id="addCat">+ Thêm</button></div></div>
+</div>
+</div>
 
-  <script>
-    // ===== CHỈNH 2 DÒNG NÀY TRƯỚC KHI ĐĂNG =====
-    var ADMIN_PASSWORD = '123'; // đổi thành mật khẩu chỉ bạn biết
-    var GITHUB_UPLOAD_URL = 'https://github.com/21004023-oss/my-static-website/upload/main/data'; // trang upload file data
-    // ===========================================
+<div class="box">
+<h2>Sản phẩm <span style="color:#888;font-weight:500" id="formHint"></span></h2>
+<label>Danh mục</label><select id="fCat"></select>
+<label>Tên sản phẩm</label><input id="fName" placeholder="VD: Netflix 1 tháng 4K" />
+<div class="grid2">
+<div><label>Giá (đ)</label><input id="fPrice" type="number" min="0" placeholder="89000" /></div>
+<div><label>Còn lại</label><input id="fStock" type="number" min="0" placeholder="20" /></div>
+</div>
+<div class="grid2">
+<div><label>Hạn dùng</label><input id="fDur" placeholder="VD: 30 ngày" /></div>
+<div><label>Nguồn</label><input id="fSrc" placeholder="VD: Nâng trên mail khách" /></div>
+</div>
+<label>Chi tiết</label><input id="fDetail" placeholder="VD: Profile riêng, 4K, bảo hành full" />
+<button class="btn" id="save">Lưu</button><button class="btn ghost" id="cancelBtn">Hủy</button>
+</div>
 
-    var data = {};
-    var editAppKey = '';
-    var editIndex = -1;
+<div class="box">
+<h2>Thêm nhanh nhiều sản phẩm</h2>
+<p class="hint">Mỗi dòng 1 sản phẩm, cách nhau bằng dấu |<br />Mẫu: <b>Tên | Giá | Còn | Hạn dùng | Nguồn | Chi tiết</b></p>
+<label>Danh mục nhận</label><select id="bCat"></select>
+<textarea id="bulk" placeholder="Netflix 1 tháng 4K | 89000 | 20 | 30 ngày | Cấp profile | Profile riêng, bảo hành full"></textarea>
+<button class="btn" id="bulkAdd">Thêm các dòng trên</button>
+</div>
 
-    document.getElementById('unlockBtn').addEventListener('click', function () {
-      var v = document.getElementById('adminPass').value;
-      if (v === ADMIN_PASSWORD) {
-        document.getElementById('gateCard').style.display = 'none';
-        document.getElementById('adminArea').style.display = 'block';
-        loadData();
-      } else {
-        document.getElementById('gateErr').style.display = 'block';
-      }
-    });
-    document.getElementById('adminPass').addEventListener('keydown', function (e) {
-      if (e.key === 'Enter') document.getElementById('unlockBtn').click();
-    });
+<div class="box">
+<h2>Danh sách</h2>
+<label>Lọc theo danh mục</label><select id="filter"></select>
+<div id="list"></div>
+</div>
 
-    function loadData() {
-      fetch('./data/services.json', { cache: 'no-store' })
-        .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-        .then(function (j) { data = j; render(); })
-        .catch(function () { data = {}; render(); });
-    }
-    document.getElementById('loadBtn').addEventListener('click', loadData);
+<div class="box">
+<h2>Đăng lên web</h2>
+<p class="hint"><b>1.</b> Bấm “Tải file” → <b>2.</b> Mở GitHub → kéo file vào thư mục <b>data</b> → Commit.</p>
+<button class="btn gold" id="exp">Tải file</button><button class="btn ghost" id="git">Mở GitHub</button>
+<label style="display:block;margin-top:10px">Xem trước:</label>
+<textarea class="prev" id="prev" readonly></textarea>
+</div>
 
-    function fmt(n) { return Number(n || 0).toLocaleString('vi-VN'); }
+</div>
+</div>
 
-    function render() {
-      var sel = document.getElementById('pAppKey');
-      var keys = Object.keys(data);
-      sel.innerHTML = keys.length
-        ? keys.map(function (k) { return '<option value="' + k + '">' + data[k].name + '</option>'; }).join('')
-        : '<option value="">Chưa có app nào</option>';
-      var rows = '';
-      keys.forEach(function (appKey) {
-        (data[appKey].plans || []).forEach(function (plan, idx) {
-          rows += '<tr><td><strong>' + escapeHtml(data[appKey].name) + '</strong></td>'
-            + '<td>' + escapeHtml(plan.name) + '</td>'
-            + '<td>' + fmt(plan.price) + ' đ</td>'
-            + '<td>' + escapeHtml(String(plan.stock)) + '</td>'
-            + '<td><button data-a="' + appKey + '" data-i="' + idx + '" data-act="edit">Sửa</button> '
-            + '<button data-a="' + appKey + '" data-i="' + idx + '" data-act="del">Xóa</button></td></tr>';
-        });
-      });
-      document.getElementById('tableBody').innerHTML = rows || '<tr><td colspan="5" style="color:#94a3b8;">Chưa có gói nào.</td></tr>';
-      document.getElementById('preview').value = JSON.stringify(data, null, 2);
-    }
+<script>
+var PASS='doi-mat-khau-rieng-cua-ban';
+var GIT='https://github.com/21004023-oss/my-static-website/upload/main/data';
+var D={},ek='',ei=-1,filter='';
+function slug(s){return (s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,40)||('cat-'+Date.now());}
+function shortOf(name){var w=(name||'').trim().split(/\s+/);if(w.length>1)return (w[0][0]+w[1][0]).toUpperCase();return (name||'??').slice(0,2).toUpperCase();}
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function money(n){return Number(n||0).toLocaleString('vi-VN')+'đ';}
 
-    function escapeHtml(s) {
-      return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-    }
+document.getElementById('open').onclick=function(){
+if(document.getElementById('pw').value===PASS){document.getElementById('gate').style.display='none';document.getElementById('admin').style.display='block';load();}
+else document.getElementById('gateErr').style.display='block';};
+document.getElementById('pw').onkeydown=function(e){if(e.key==='Enter')document.getElementById('open').click();};
 
-    document.getElementById('tableBody').addEventListener('click', function (e) {
-      var b = e.target.closest('button[data-act]');
-      if (!b) return;
-      var appKey = b.getAttribute('data-a');
-      var idx = Number(b.getAttribute('data-i'));
-      if (b.getAttribute('data-act') === 'edit') {
-        var plan = data[appKey].plans[idx];
-        editAppKey = appKey; editIndex = idx;
-        document.getElementById('pAppKey').value = appKey;
-        document.getElementById('pAppKey').disabled = true;
-        document.getElementById('pName').value = plan.name || '';
-        document.getElementById('pPrice').value = plan.price || 0;
-        document.getElementById('pStock').value = plan.stock || 0;
-        document.getElementById('pDesc').value = plan.desc || '';
-        document.getElementById('savePlanBtn').textContent = 'Cập nhật gói';
-        document.getElementById('cancelEditBtn').style.display = 'inline-block';
-      } else {
-        if (!confirm('Xóa gói này?')) return;
-        data[appKey].plans.splice(idx, 1);
-        render();
-      }
-    });
+function load(){fetch('./data/services.json',{cache:'no-store'}).then(function(r){return r.json();}).then(function(j){D=j||{};var k=Object.keys(D);filter=k[0]||'';render();}).catch(function(){D={};render();});}
 
-    document.getElementById('cancelEditBtn').addEventListener('click', function () {
-      editAppKey = ''; editIndex = -1;
-      document.getElementById('pAppKey').disabled = false;
-      document.getElementById('savePlanBtn').textContent = 'Lưu gói vào danh sách bên dưới';
-      this.style.display = 'none';
-    });
+function render(){
+var keys=Object.keys(D),np=0,nst=0;
+keys.forEach(function(k){(D[k].plans||[]).forEach(function(p){np++;nst+=Number(p.stock||0);});});
+document.getElementById('nCat').textContent=keys.length;
+document.getElementById('nPro').textContent=np;
+document.getElementById('nStock').textContent=nst;
+document.getElementById('stat').textContent=keys.length+' danh mục · '+np+' sản phẩm';
+/* selects */
+var opts=keys.map(function(k){return '<option value="'+k+'">'+esc(D[k].name)+'</option>';}).join('')||'<option value="">—</option>';
+document.getElementById('fCat').innerHTML=opts;
+document.getElementById('bCat').innerHTML=opts;
+document.getElementById('filter').innerHTML='<option value="">Tất cả</option>'+opts;
+if(keys.indexOf(filter)===-1)filter='';
+document.getElementById('filter').value=filter;
+/* cat list */
+var ch='';
+keys.forEach(function(k){
+var c=(D[k].plans||[]).length;
+ch+='<div class="catrow"><div><b>'+esc(D[k].name)+'</b> <small style="color:#888">· '+c+' sp</small></div><div><button class="l" data-c="'+k+'" data-t="ren">Đổi tên</button><button class="l del" data-c="'+k+'" data-t="delc">Xóa</button></div></div>';});
+document.getElementById('catList').innerHTML=ch||'<div style="color:#999;font-size:12.5px">Chưa có danh mục.</div>';
+/* product list */
+var lh='',shown=keys.filter(function(k){return !filter||k===filter;});
+shown.forEach(function(k){(D[k].plans||[]).forEach(function(p,i){
+lh+='<div class="row"><div><b>'+esc(p.name)+'</b><br /><small>'+esc(D[k].name)+' · '+money(p.price)+' · còn '+esc(String(p.stock))+'</small></div><div style="white-space:nowrap"><button class="l" data-c="'+k+'" data-i="'+i+'" data-t="e">Sửa</button><button class="l del" data-c="'+k+'" data-i="'+i+'" data-t="d">Xóa</button></div></div>';});});
+document.getElementById('list').innerHTML=lh||'<div style="color:#999;font-size:12.5px">Chưa có sản phẩm.</div>';
+document.getElementById('prev').value=JSON.stringify(D,null,2);
+}
 
-    document.getElementById('savePlanBtn').addEventListener('click', function () {
-      var appKey = document.getElementById('pAppKey').value;
-      var name = document.getElementById('pName').value.trim();
-      var price = Number(document.getElementById('pPrice').value || 0);
-      var stock = Number(document.getElementById('pStock').value || 0);
-      var desc = document.getElementById('pDesc').value.trim() || 'Bảo hành full thời hạn';
-      if (!appKey || !name) { alert('Chọn ứng dụng và nhập tên gói.'); return; }
-      if (editIndex >= 0 && editAppKey) {
-        var old = data[editAppKey].plans[editIndex] || {};
-        data[editAppKey].plans[editIndex] = { id: old.id || String(Date.now()), name: name, desc: desc, price: price, stock: stock };
-        editAppKey = ''; editIndex = -1;
-        document.getElementById('pAppKey').disabled = false;
-        document.getElementById('savePlanBtn').textContent = 'Lưu gói vào danh sách bên dưới';
-        document.getElementById('cancelEditBtn').style.display = 'none';
-      } else {
-        data[appKey].plans.push({ id: String(Date.now()), name: name, desc: desc, price: price, stock: stock });
-      }
-      document.getElementById('pName').value = '';
-      render();
-    });
+/* category buttons */
+document.getElementById('catList').onclick=function(e){
+var b=e.target.closest('button[data-t]');if(!b)return;
+var k=b.dataset.c;
+if(b.dataset.t==='delc'){
+if(!confirm('Xóa cả danh mục "'+D[k].name+'" ('+(D[k].plans||[]).length+' sản phẩm)?'))return;
+delete D[k];if(filter===k)filter='';render();
+}else{
+var n=prompt('Tên mới:',D[k].name);if(!n||!(n=n.trim()))return;
+D[k].name=n;D[k].short=shortOf(n);render();}};
+document.getElementById('addCat').onclick=function(){
+var n=document.getElementById('newCat').value.trim();if(!n){alert('Nhập tên danh mục.');return;}
+var k=slug(n);if(D[k]){alert('Danh mục đã có.');return;}
+D[k]={name:n,short:shortOf(n),plans:[]};
+document.getElementById('newCat').value='';filter=k;render();};
+document.getElementById('filter').onchange=function(e){filter=e.target.value;render();};
 
-    document.getElementById('addAppBtn').addEventListener('click', function () {
-      var key = (prompt('Mã app viết liền (vd: netflix):') || '').trim().toLowerCase().replace(/[^a-z0-9_-]/g, '');
-      if (!key) return;
-      var name = (prompt('Tên hiển thị (vd: Netflix Premium):') || '').trim().slice(0, 80);
-      if (!name) return;
-      var icon = (prompt('Emoji (vd: 🎬):', '📦') || '📦').slice(0, 8);
-      if (data[key]) { alert('Mã app đã tồn tại.'); return; }
-      data[key] = { name: name, icon: icon, plans: [] };
-      render();
-    });
+/* product form */
+document.getElementById('save').onclick=function(){
+var k=document.getElementById('fCat').value;
+var n=document.getElementById('fName').value.trim();
+var pr=Number(document.getElementById('fPrice').value||0);
+var st=Number(document.getElementById('fStock').value||0);
+var dur=document.getElementById('fDur').value.trim();
+var src=document.getElementById('fSrc').value.trim();
+var det=document.getElementById('fDetail').value.trim();
+if(!k||!n){alert('Chọn danh mục + nhập tên.');return;}
+var obj={id:'',name:n,detail:det,source:src,duration:dur,price:pr,stock:st};
+if(ei>=0&&ek&&D[ek]){obj.id=(D[ek].plans[ei]||{}).id||String(Date.now());D[ek].plans[ei]=obj;reset();}
+else{obj.id=String(Date.now());D[k].plans.push(obj);}
+document.getElementById('fName').value='';render();};
+function reset(){ek='';ei=-1;document.getElementById('fCat').disabled=false;
+document.getElementById('save').textContent='Lưu';
+document.getElementById('cancelBtn').style.display='none';
+document.getElementById('formHint').textContent='';}
+document.getElementById('cancelBtn').onclick=reset;
+document.getElementById('list').onclick=function(e){
+var b=e.target.closest('button[data-t]');if(!b)return;
+var k=b.dataset.c,i=+b.dataset.i;
+if(b.dataset.t==='e'){var p=D[k].plans[i];ek=k;ei=i;
+document.getElementById('fCat').value=k;document.getElementById('fCat').disabled=true;
+document.getElementById('fName').value=p.name||'';
+document.getElementById('fPrice').value=p.price||0;
+document.getElementById('fStock').value=p.stock||0;
+document.getElementById('fDur').value=p.duration||'';
+document.getElementById('fSrc').value=p.source||'';
+document.getElementById('fDetail').value=p.detail||p.desc||p.warranty||'';
+document.getElementById('save').textContent='Cập nhật';
+document.getElementById('cancelBtn').style.display='inline-block';
+document.getElementById('formHint').textContent='· đang sửa';
+window.scrollTo({top:0,behavior:'smooth'});
+}else{if(confirm('Xóa "'+p_name(D,k,i)+'"?')){D[k].plans.splice(i,1);render();}}};
+function p_name(D,k,i){return ((D[k].plans[i]||{}).name||'');}
 
-    document.getElementById('exportBtn').addEventListener('click', function () {
-      var blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-      var a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = 'services.json';
-      a.click();
-      URL.revokeObjectURL(a.href);
-      alert('Đã tải file mới. Giờ bấm nút 2 để mở GitHub và kéo file này vào.');
-    });
+/* bulk add: Tên | Giá | Còn | Hạn | Nguồn | Chi tiết */
+document.getElementById('bulkAdd').onclick=function(){
+var k=document.getElementById('bCat').value;
+if(!k){alert('Chọn danh mục nhận.');return;}
+var lines=document.getElementById('bulk').value.split('\n'),added=0;
+lines.forEach(function(line){
+line=line.trim();if(!line)return;
+var c=line.split('|').map(function(x){return x.trim();});
+if(!c[0])return;
+D[k].plans.push({id:String(Date.now())+added,name:c[0],price:Number((c[1]||'0').replace(/[^0-9]/g,''))||0,stock:Number((c[2]||'0').replace(/[^0-9]/g,''))||0,duration:c[3]||'',source:c[4]||'',detail:c[5]||''});
+added++;});
+document.getElementById('bulk').value='';
+alert(added?('Đã thêm '+added+' sản phẩm vào '+D[k].name+'.'):'Chưa thêm dòng nào.');
+render();};
 
-    document.getElementById('openGithubBtn').addEventListener('click', function () {
-      window.open(GITHUB_UPLOAD_URL, '_blank');
-    });
-  </script>
+document.getElementById('exp').onclick=function(){
+var b=new Blob([JSON.stringify(D,null,2)],{type:'application/json'});var a=document.createElement('a');
+a.href=URL.createObjectURL(b);a.download='services.json';a.click();URL.revokeObjectURL(a.href);};
+document.getElementById('git').onclick=function(){window.open(GIT,'_blank');};
+</script>
 </body>
 </html>

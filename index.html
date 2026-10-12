@@ -1,122 +1,135 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bảng Giá Dịch Vụ Số - phanngoquocbao.id.vn</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <style>
-    :root { --bg:#070d17; --line:rgba(148,163,184,0.18); --text:#f8fafc; --muted:#94a3b8; --primary:#38bdf8; --primary-2:#0ea5e9; --accent:#34d399; --danger:#fb7185; }
-    * { box-sizing:border-box; margin:0; padding:0; font-family:'Plus Jakarta Sans',sans-serif; }
-    body { min-height:100vh; background:radial-gradient(circle at top left,rgba(56,189,248,0.18),transparent 28%),radial-gradient(circle at bottom right,rgba(52,211,153,0.14),transparent 22%),linear-gradient(135deg,var(--bg) 0%,#0b1220 100%); color:var(--text); padding:28px 16px; }
-    .container { max-width:1100px; margin:0 auto; }
-    header { text-align:center; margin-bottom:28px; }
-    .badge { display:inline-block; padding:6px 12px; border-radius:99px; background:rgba(52,211,153,0.15); color:var(--accent); font-size:0.75rem; font-weight:800; letter-spacing:0.05em; margin-bottom:10px; }
-    h1 { font-size:clamp(2rem,3vw,2.7rem); font-weight:800; margin-bottom:8px; }
-    header p { color:var(--muted); font-size:0.96rem; }
-    .app-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-bottom:24px; }
-    .app-btn { background:rgba(15,23,42,0.72); border:1px solid var(--line); border-radius:18px; padding:16px 12px; color:var(--text); cursor:pointer; display:flex; flex-direction:column; align-items:center; gap:10px; }
-    .app-btn.active { background:rgba(56,189,248,0.08); border-color:rgba(56,189,248,0.5); }
-    .app-icon { font-size:1.8rem; }
-    .app-name { font-size:0.85rem; font-weight:700; text-align:center; }
-    .pricing-container { background:rgba(15,23,42,0.9); border:1px solid var(--line); border-radius:24px; padding:24px; }
-    .pricing-header { display:flex; justify-content:space-between; align-items:center; gap:12px; border-bottom:1px solid var(--line); padding-bottom:14px; margin-bottom:18px; flex-wrap:wrap; }
-    .pricing-title { font-size:clamp(1.1rem,2vw,1.4rem); font-weight:800; }
-    .pricing-list { display:flex; flex-direction:column; gap:12px; }
-    .price-item { display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; padding:16px 18px; border-radius:16px; background:rgba(15,23,42,0.7); border:1px solid var(--line); }
-    .item-info h4 { font-size:1rem; font-weight:800; margin-bottom:4px; }
-    .item-info p { color:var(--muted); font-size:0.82rem; }
-    .item-right { display:flex; align-items:center; flex-wrap:wrap; gap:12px; }
-    .stock-badge { padding:5px 9px; border-radius:8px; background:rgba(148,163,184,0.12); color:var(--muted); font-size:0.72rem; font-weight:700; }
-    .item-price { font-size:1.15rem; font-weight:800; color:var(--accent); }
-    .btn-buy { display:inline-flex; align-items:center; padding:9px 14px; border-radius:12px; background:linear-gradient(135deg,var(--primary),var(--accent)); color:#04121e; font-weight:800; text-decoration:none; }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bảng giá dịch vụ số</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Be Vietnam Pro',system-ui,sans-serif}
+body{background:#dfe7d8;color:#1d2b20;min-height:100vh;font-size:14px;line-height:1.5}
+.wrap{max-width:720px;margin:0 auto;padding:0 10px 70px}
+/* header */
+.head{background:#435f46;color:#fff;text-align:center;padding:18px 14px 14px;border-radius:0 0 16px 16px}
+.head h1{font-size:17px;font-weight:800;letter-spacing:.04em}
+.head p{font-size:12.5px;opacity:.9;margin-top:3px}
+.head p b{color:#ffe08a}
+.search{margin:12px auto 0;max-width:480px;display:flex;background:#fff;border-radius:10px;overflow:hidden}
+.search input{flex:1;border:none;outline:none;padding:10px 14px;font-size:13.5px;min-width:0}
+.search button{border:none;background:#2e4632;color:#fff;font-weight:700;font-size:13px;padding:0 18px;cursor:pointer}
+/* category grid like screenshot */
+.cats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin:14px 0 6px}
+.cat{border:none;cursor:pointer;background:#7ba47b;color:#fff;border-radius:9px;padding:10px 6px;font-size:12.5px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:6px;min-height:46px;line-height:1.25}
+.cat .t{width:22px;height:22px;border-radius:6px;background:rgba(255,255,255,.22);display:inline-grid;place-items:center;font-size:11px;font-weight:800;flex-shrink:0}
+.cat.on{background:#435f46;box-shadow:0 3px 0 rgba(0,0,0,.18)}
+@media(max-width:480px){.cats{grid-template-columns:1fr 1fr 1fr}.cat{font-size:11px;min-height:44px}}
+/* section title */
+.sec{background:#435f46;color:#fff;border-radius:9px;padding:9px 14px;font-size:13px;font-weight:800;margin:10px 0 8px;display:flex;justify-content:space-between;align-items:center}
+.sec span{font-weight:500;font-size:12px;opacity:.9}
+/* product cards */
+.card{background:#fff;border-radius:10px;padding:12px 13px;margin-bottom:8px;border:1px solid #cbd6c2}
+.card h3{font-size:13.5px;font-weight:800}
+.card .detail{font-size:12.5px;color:#4a5a4e;margin-top:2px}
+.meta{display:grid;grid-template-columns:1fr 1fr;gap:3px 10px;margin-top:8px;font-size:12.5px}
+.meta div{color:#4a5a4e}
+.meta b{color:#1d2b20;font-weight:700}
+.bot{display:flex;justify-content:space-between;align-items:center;margin-top:9px;padding-top:9px;border-top:1px dashed #d5dccf;gap:8px}
+.price{font-size:15px;font-weight:800;color:#2e7d32}
+.price small{font-size:11.5px;font-weight:600;color:#777}
+.stock{font-size:12px;font-weight:700;color:#555}
+.stock.low{color:#c62828}
+.buy{text-decoration:none;background:#2e7d32;color:#fff;font-size:12.5px;font-weight:700;padding:9px 16px;border-radius:8px;white-space:nowrap}
+.empty{background:#fff;border-radius:10px;padding:26px;text-align:center;color:#777;font-size:13px}
+.foot{text-align:center;color:#5a6b5e;font-size:12px;margin-top:16px}
+.foot a{color:#2e4632;font-weight:800}
+</style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <div class="badge">Bảng Giá Dịch Vụ Số Chính Chủ</div>
-      <h1>Bảng Giá Dịch Vụ &amp; Tài Khoản</h1>
-      <p>Bảo hành full thời hạn • Kích hoạt nhanh 5–10 phút</p>
-    </header>
-    <div class="app-grid" id="appGrid"></div>
-    <div class="pricing-container">
-      <div class="pricing-header">
-        <div class="pricing-title" id="selectedAppName">Đang tải...</div>
-        <span style="font-size:0.85rem;color:var(--muted);">Bảo hành 1 đổi 1</span>
-      </div>
-      <div class="pricing-list" id="pricingList"></div>
-    </div>
-  </div>
-  <script>
-    var ZALO_PHONE = '0373996379';
-    var services = {};
-    var currentKey = '';
-    function loadData() {
-      fetch('./data/services.json', { cache: 'no-store' })
-        .then(function (res) { if (!res.ok) throw new Error('HTTP ' + res.status); return res.json(); })
-        .then(function (json) {
-          services = json;
-          var keys = Object.keys(services);
-          if (!keys.length) throw new Error('Dữ liệu đang trống.');
-          currentKey = keys[0];
-          renderAppGrid();
-          renderPricing(currentKey);
-        })
-        .catch(function (err) {
-          document.getElementById('pricingList').innerHTML = '';
-          var p = document.createElement('p');
-          p.style.cssText = 'color:var(--danger);padding:20px;';
-          p.textContent = 'Lỗi tải dữ liệu: ' + err.message;
-          document.getElementById('pricingList').appendChild(p);
-        });
-    }
-    function renderAppGrid() {
-      var grid = document.getElementById('appGrid');
-      grid.innerHTML = '';
-      Object.keys(services).forEach(function (key) {
-        var item = services[key];
-        var b = document.createElement('button');
-        b.type = 'button';
-        b.className = 'app-btn' + (key === currentKey ? ' active' : '');
-        var icon = document.createElement('span');
-        icon.className = 'app-icon';
-        icon.textContent = item.icon || '📦';
-        var nm = document.createElement('span');
-        nm.className = 'app-name';
-        nm.textContent = item.name;
-        b.appendChild(icon); b.appendChild(nm);
-        b.addEventListener('click', function () { currentKey = key; renderAppGrid(); renderPricing(key); });
-        grid.appendChild(b);
-      });
-    }
-    function renderPricing(key) {
-      var app = services[key];
-      if (!app) return;
-      document.getElementById('selectedAppName').textContent = app.name;
-      var listEl = document.getElementById('pricingList');
-      listEl.innerHTML = '';
-      (app.plans || []).forEach(function (plan) {
-        var row = document.createElement('div'); row.className = 'price-item';
-        var info = document.createElement('div'); info.className = 'item-info';
-        var h = document.createElement('h4'); h.textContent = plan.name;
-        var p = document.createElement('p'); p.textContent = plan.desc || 'Bảo hành full thời hạn';
-        info.appendChild(h); info.appendChild(p);
-        var right = document.createElement('div'); right.className = 'item-right';
-        var stock = document.createElement('span'); stock.className = 'stock-badge'; stock.textContent = 'Còn: ' + plan.stock;
-        var price = document.createElement('span'); price.className = 'item-price';
-        price.textContent = Number(plan.price || 0).toLocaleString('vi-VN') + ' đ';
-        var a = document.createElement('a'); a.className = 'btn-buy'; a.target = '_blank'; a.rel = 'noreferrer';
-        a.href = 'https://zalo.me/' + ZALO_PHONE + '?text=' + encodeURIComponent('Chào shop, mình cần mua gói: ' + plan.name + ' (' + Number(plan.price || 0).toLocaleString('vi-VN') + ' đ). Hướng dẫn mình nhé!');
-        a.textContent = 'Đặt Mua';
-        right.appendChild(stock); right.appendChild(price); right.appendChild(a);
-        row.appendChild(info); row.appendChild(right);
-        listEl.appendChild(row);
-      });
-    }
-    document.addEventListener('DOMContentLoaded', loadData);
-  </script>
+<div class="wrap">
+<div class="head">
+<h1>BẢNG GIÁ DỊCH VỤ SỐ</h1>
+<p>Nhắn Zalo <b>0373 996 379</b> để đặt mua — hoạt động 8:00 → 23:00</p>
+<label class="search"><input id="q" placeholder="Tìm: youtube, api, veo3..." autocomplete="off" /><button id="qbtn" type="button">Tìm</button></label>
+</div>
+
+<div class="cats" id="cats"></div>
+<div class="sec"><span id="secName">...</span><span id="secCount"></span></div>
+<div id="list"></div>
+<div class="foot">Giá là giá chốt · Có bảo hành theo từng gói · Liên hệ Zalo <a href="https://zalo.me/0373996379" target="_blank" rel="noreferrer">0373 996 379</a></div>
+</div>
+
+<script>
+var ZALO='0373996379',D={},cur='',kw='';
+function load(){
+fetch('./data/services.json',{cache:'no-store'})
+.then(function(r){if(!r.ok)throw 0;return r.json();})
+.then(function(j){D=j||{};var k=Object.keys(D);if(!k.length)throw 0;cur=k[0];render();})
+.catch(function(){document.getElementById('list').innerHTML='<div class="empty">Chưa tải được dữ liệu.</div>';});
+}
+function match(p){
+if(!kw)return true;
+var h=((p.name||'')+' '+(p.detail||p.desc||'')+' '+(p.source||'')).toLowerCase();
+return h.indexOf(kw)!==-1;
+}
+function renderCats(){
+var g=document.getElementById('cats');g.innerHTML='';
+Object.keys(D).forEach(function(k){
+var it=D[k];
+var b=document.createElement('button');b.type='button';b.className='cat'+(k===cur?' on':'');
+var t=document.createElement('span');t.className='t';t.textContent=it.short||it.name.slice(0,2).toUpperCase();
+var n=document.createElement('span');n.textContent=it.name.toUpperCase();
+b.appendChild(t);b.appendChild(n);
+b.onclick=function(){
+if(kw){kw='';document.getElementById('q').value='';}
+cur=k;render();};
+g.appendChild(b);});
+}
+function money(n){n=Number(n||0);return n===0?'Liên hệ':n.toLocaleString('vi-VN')+'đ';}
+function render(){
+renderCats();
+var app=D[cur],list=document.getElementById('list');list.innerHTML='';
+if(!app)return;
+var plans=(app.plans||[]).filter(match);
+document.getElementById('secName').textContent='▸ '+app.name.toUpperCase();
+document.getElementById('secCount').textContent=plans.length+' gói';
+if(kw){
+var all=[];Object.keys(D).forEach(function(k){(D[k].plans||[]).forEach(function(p){if(match(p))all.push({c:D[k].name,p:p});});});
+document.getElementById('secName').textContent='▸ KẾT QUẢ "'+kw.toUpperCase()+'"';
+document.getElementById('secCount').textContent=all.length+' gói';
+if(!all.length){list.innerHTML='<div class="empty">Không thấy gói nào. Nhắn Zalo để hỏi thêm.</div>';return;}
+all.forEach(function(x){list.appendChild(card(x.c,x.p));});
+return;
+}
+if(!plans.length){list.innerHTML='<div class="empty">Danh mục này chưa có gói nào.</div>';return;}
+plans.forEach(function(p){list.appendChild(card(app.name,p));});
+}
+function card(catName,p){
+var w=p.detail||p.desc||p.warranty||'';
+var src=p.source||'',dur=p.duration||'',st=Number(p.stock||0);
+var d=document.createElement('div');d.className='card';
+var h=document.createElement('h3');h.textContent=p.name;d.appendChild(h);
+if(w){var dt=document.createElement('div');dt.className='detail';dt.textContent=w;d.appendChild(dt);}
+var m=document.createElement('div');m.className='meta';
+function cell(label,val){var x=document.createElement('div');var a=document.createElement('span');a.textContent=label+': ';var b=document.createElement('b');b.textContent=val;x.appendChild(a);x.appendChild(b);return x;}
+if(src)m.appendChild(cell('Nguồn',src));
+if(dur)m.appendChild(cell('Hạn dùng',dur));
+d.appendChild(m);
+var bot=document.createElement('div');bot.className='bot';
+var left=document.createElement('div');
+var pr=document.createElement('div');pr.className='price';pr.textContent=money(p.price);
+left.appendChild(pr);
+var sk=document.createElement('div');sk.className='stock'+(st<=5?' low':'');sk.textContent='Còn: '+(st>0?st:'hết');
+left.appendChild(sk);
+var a=document.createElement('a');a.className='buy';a.target='_blank';a.rel='noreferrer';a.textContent='Nhắn Zalo mua';
+a.href='https://zalo.me/'+ZALO+'?text='+encodeURIComponent('Shop ơi, mình muốn mua ['+catName+'] '+p.name+' ('+money(p.price)+'). Còn hàng không?');
+bot.appendChild(left);bot.appendChild(a);
+d.appendChild(bot);
+return d;
+}
+function doQ(v){kw=v.trim().toLowerCase();render();}
+document.getElementById('q').addEventListener('input',function(e){doQ(e.target.value);});
+document.getElementById('qbtn').addEventListener('click',function(){doQ(document.getElementById('q').value);});
+document.addEventListener('DOMContentLoaded',load);
+</script>
 </body>
 </html>
