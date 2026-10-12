@@ -3,412 +3,724 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bảng Quản Trị Dịch Vụ - Admin Panel</title>
+  <title>Bảng Giá Dịch Vụ Số - Bản Quyền Chính Hãng</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --bg: #0b0f17;
-      --card: #111827;
-      --card-border: #1f2937;
-      --primary: #2563eb;
-      --primary-hover: #1d4ed8;
-      --green: #10b981;
-      --red: #ef4444;
-      --text: #f9fafb;
-      --text-muted: #9ca3af;
+      --primary: #10b981;
+      --primary-dark: #059669;
+      --primary-light: #ecfdf5;
+      --bg-page: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
+      --shadow-md: 0 4px 14px rgba(0,0,0,0.06);
+      --radius: 12px;
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', sans-serif; }
-    body { background: var(--bg); color: var(--text); padding: 24px; min-height: 100vh; }
-    
-    .admin-header {
-      max-width: 1400px;
-      margin: 0 auto 24px auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 16px;
-      padding-bottom: 20px;
-      border-bottom: 1px solid var(--card-border);
-    }
-    .admin-title h1 { font-size: 22px; font-weight: 800; display: flex; align-items: center; gap: 8px; }
-    .admin-title p { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
-    
-    .header-actions { display: flex; gap: 10px; flex-wrap: wrap; }
-    .btn {
-      padding: 10px 16px;
-      border-radius: 8px;
-      font-size: 13.5px;
-      font-weight: 600;
-      border: none;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      transition: all 0.2s;
-    }
-    .btn-primary { background: var(--primary); color: #fff; }
-    .btn-primary:hover { background: var(--primary-hover); }
-    .btn-success { background: #059669; color: #fff; }
-    .btn-success:hover { background: #047857; }
-    .btn-danger { background: #dc2626; color: #fff; }
-    .btn-danger:hover { background: #b91c1c; }
-    .btn-outline { background: #1e293b; color: #cbd5e1; border: 1px solid #334155; }
-    .btn-outline:hover { background: #334155; color: #fff; }
 
-    .main-wrap { max-width: 1400px; margin: 0 auto; display: grid; grid-template-columns: 280px 1fr; gap: 24px; }
-    @media(max-width: 900px){ .main-wrap { grid-template-columns: 1fr; } }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
 
-    /* Category sidebar */
-    .sidebar { background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 16px; height: fit-content; }
-    .cat-item {
-      padding: 12px 14px;
-      border-radius: 8px;
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 6px;
+    body {
+      background: var(--bg-page);
+      color: var(--text-main);
       font-size: 14px;
-      color: #cbd5e1;
-      transition: 0.2s;
+      line-height: 1.5;
+      min-height: 100vh;
     }
-    .cat-item:hover { background: #1e293b; }
-    .cat-item.active { background: var(--primary); color: #fff; font-weight: 600; }
-    .badge { font-size: 11px; padding: 2px 8px; border-radius: 12px; background: rgba(255,255,255,0.15); }
 
-    /* Content */
-    .content-area { display: flex; flex-direction: column; gap: 16px; }
-    .content-top { display: flex; justify-content: space-between; align-items: center; padding: 0 4px; }
-    .content-top h2 { font-size: 18px; font-weight: 700; }
-
-    .plan-table-card {
-      background: var(--card);
-      border: 1px solid var(--card-border);
-      border-radius: 12px;
-      overflow: hidden;
-    }
-    table { width: 100%; border-collapse: collapse; text-align: left; font-size: 13.5px; }
-    th { background: #0f172a; padding: 14px 16px; color: var(--text-muted); font-size: 12.5px; text-transform: uppercase; font-weight: 700; border-bottom: 1px solid var(--card-border); }
-    td { padding: 14px 16px; border-bottom: 1px solid var(--card-border); vertical-align: middle; }
-    tr:hover td { background: #182234; }
-    .plan-title { font-weight: 600; color: #fff; margin-bottom: 4px; }
-    .plan-sub { font-size: 12px; color: var(--text-muted); max-width: 320px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-
-    /* Modal Form */
-    .modal-overlay {
-      display: none;
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,0.7);
-      backdrop-filter: blur(4px);
-      justify-content: center;
-      align-items: center;
-      z-index: 1000;
-      padding: 16px;
-    }
-    .modal-box {
-      background: #111827;
-      border: 1px solid var(--card-border);
-      border-radius: 14px;
-      width: 100%;
-      max-width: 600px;
-      max-height: 90vh;
-      overflow-y: auto;
-      padding: 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-    .modal-box h3 { font-size: 18px; font-weight: 700; padding-bottom: 12px; border-bottom: 1px solid var(--card-border); }
-    .form-group { display: flex; flex-direction: column; gap: 6px; }
-    .form-group label { font-size: 13px; font-weight: 600; color: #cbd5e1; }
-    .form-group input, .form-group textarea, .form-group select {
-      background: #0b0f17;
-      border: 1px solid #334155;
+    /* Topbar */
+    .topbar {
+      background: #0f172a;
       color: #fff;
+      padding: 18px 32px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .topbar-content {
+      max-width: 1600px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+    .brand h1 {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .brand p {
+      color: #94a3b8;
+      font-size: 13px;
+      margin-top: 3px;
+    }
+    .brand p b { color: #34d399; }
+
+    .search-box {
+      flex: 1;
+      max-width: 460px;
+      min-width: 280px;
+      position: relative;
+    }
+    .search-box input {
+      width: 100%;
+      padding: 11px 16px 11px 40px;
+      border-radius: 99px;
+      border: 1px solid rgba(255,255,255,0.15);
+      background: rgba(255,255,255,0.07);
+      color: #fff;
+      font-size: 13.5px;
+      outline: none;
+      transition: all 0.25s ease;
+    }
+    .search-box input:focus {
+      background: #fff;
+      color: #0f172a;
+      box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.3);
+    }
+    .search-box svg {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #94a3b8;
+      pointer-events: none;
+    }
+
+    /* Layout 3 cột bung rộng */
+    .layout {
+      max-width: 1600px;
+      margin: 24px auto;
+      padding: 0 24px 60px;
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr) 440px;
+      gap: 24px;
+      align-items: start;
+    }
+
+    /* CỘT 1: Danh mục */
+    .col-cats {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      padding: 16px 12px;
+      box-shadow: var(--shadow-sm);
+      position: sticky;
+      top: 92px;
+      max-height: calc(100vh - 120px);
+      overflow-y: auto;
+      scrollbar-width: thin;
+    }
+    .col-cats h2 {
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      padding: 0 8px 12px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    .cat-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
       padding: 10px 12px;
       border-radius: 8px;
+      border: none;
+      background: transparent;
+      color: var(--text-main);
       font-size: 13.5px;
-      font-family: inherit;
-      outline: none;
+      font-weight: 600;
+      cursor: pointer;
+      margin-bottom: 4px;
+      transition: all 0.2s ease;
+      text-align: left;
     }
-    .form-group input:focus, .form-group textarea:focus { border-color: var(--primary); }
-    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-    .modal-footer { display: flex; justify-content: flex-end; gap: 10px; margin-top: 10px; }
+    .cat-item:hover {
+      background: #f1f5f9;
+      transform: translateX(3px);
+    }
+    .cat-item.active {
+      background: #0f172a;
+      color: #fff;
+    }
+    .cat-item .left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+    .cat-item img {
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .cat-item .badge-count {
+      font-size: 11px;
+      background: #f1f5f9;
+      color: var(--text-muted);
+      padding: 2px 7px;
+      border-radius: 99px;
+    }
+    .cat-item.active .badge-count {
+      background: rgba(255,255,255,0.2);
+      color: #fff;
+    }
+
+    /* CỘT 2: Danh sách sản phẩm */
+    .col-products { min-width: 0; }
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      padding: 0 4px;
+    }
+    .section-header h2 {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--text-main);
+    }
+    .section-header span {
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .plan-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.2s ease;
+    }
+    .plan-card:hover {
+      border-color: #94a3b8;
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+    .plan-card.selected {
+      border-color: var(--primary);
+      background: #fcfdfd;
+      box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.25);
+    }
+    .plan-card .p-left {
+      flex: 1;
+      min-width: 0;
+    }
+    .plan-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.4;
+    }
+    .plan-sub {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+    .tag {
+      font-size: 12px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: #f1f5f9;
+      color: #475569;
+    }
+    .tag.in-stock {
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      border: 1px solid #a7f3d0;
+    }
+    .tag.out-stock {
+      background: #fee2e2;
+      color: #b91c1c;
+      border: 1px solid #fecaca;
+    }
+
+    .plan-card .p-right {
+      text-align: right;
+      flex-shrink: 0;
+    }
+    .plan-price {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--primary-dark);
+    }
+    .view-btn {
+      margin-top: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 4px;
+    }
+    .plan-card.selected .view-btn { color: var(--primary-dark); }
+
+    /* CỘT 3: Chi tiết mô tả có link bấm được */
+    .col-detail {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      padding: 24px;
+      box-shadow: var(--shadow-sm);
+      position: sticky;
+      top: 92px;
+    }
+    .detail-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--text-main);
+      line-height: 1.4;
+    }
+    .detail-price-box {
+      margin: 14px 0 18px;
+      padding: 14px 18px;
+      background: #f8fafc;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .detail-price-val {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--primary-dark);
+    }
+    .detail-stock-badge {
+      font-size: 12.5px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+    .detail-stock-badge.in-stock {
+      background: #ecfdf5;
+      color: #059669;
+      border: 1px solid #a7f3d0;
+    }
+    .detail-stock-badge.out-stock {
+      background: #fef2f2;
+      color: #dc2626;
+      border: 1px solid #fecaca;
+    }
+
+    /* Hộp Mô Tả Chi Tiết */
+    .desc-wrapper { margin-bottom: 20px; }
+    .desc-label {
+      font-size: 12.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #2563eb;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .desc-box {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 18px;
+      font-size: 13.5px;
+      line-height: 1.8;
+      color: #334155;
+      white-space: pre-line;
+      word-break: break-word;
+      max-height: 420px;
+      overflow-y: auto;
+    }
+
+    /* Định dạng cho đường link bấm được trong mô tả */
+    .desc-box a.desc-link {
+      color: #0284c7;
+      font-weight: 700;
+      text-decoration: underline;
+      word-break: break-all;
+      transition: color 0.15s ease;
+    }
+    .desc-box a.desc-link:hover {
+      color: #0369a1;
+      text-decoration: none;
+    }
+
+    .spec-list {
+      margin-bottom: 22px;
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
+    }
+    .spec-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    .spec-row span:first-child { color: var(--text-muted); }
+    .spec-row span:last-child { font-weight: 600; color: var(--text-main); }
+
+    .btn-buy-zalo {
+      display: block;
+      width: 100%;
+      background: var(--primary-dark);
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 700;
+      font-size: 15px;
+      padding: 14px;
+      border-radius: 10px;
+      box-shadow: 0 4px 14px rgba(5, 150, 105, 0.25);
+      transition: all 0.2s ease;
+    }
+    .btn-buy-zalo:hover {
+      background: #047857;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(5, 150, 105, 0.35);
+    }
+
+    /* Responsive */
+    @media(max-width: 1200px) {
+      .layout { grid-template-columns: 240px 1fr; }
+      .col-detail { grid-column: 1 / -1; position: static; }
+    }
+    @media(max-width: 768px) {
+      .topbar { padding: 14px 16px; }
+      .layout {
+        grid-template-columns: 1fr;
+        padding: 0 14px 40px;
+        margin: 14px auto;
+        gap: 16px;
+      }
+      .col-cats {
+        position: static;
+        max-height: none;
+        display: flex;
+        overflow-x: auto;
+        padding: 8px;
+        gap: 8px;
+      }
+      .col-cats h2 { display: none; }
+      .cat-item {
+        white-space: nowrap;
+        width: auto;
+        padding: 8px 14px;
+        border-radius: 99px;
+        background: #f1f5f9;
+      }
+      .cat-item:hover { transform: none; }
+      .cat-item .badge-count { display: none; }
+    }
   </style>
 </head>
 <body>
 
-  <div class="admin-header">
-    <div class="admin-title">
-      <h1>⚙️ BẢNG QUẢN TRỊ DỊCH VỤ SỐ</h1>
-      <p>Quản lý bảng giá, tồn kho và mô tả dịch vụ cho website</p>
+<header class="topbar">
+  <div class="topbar-content">
+    <div class="brand">
+      <h1>⚡ BẢNG GIÁ DỊCH VỤ SỐ</h1>
+      <p>Đặt mua qua Zalo: <b>0373 996 379</b> · Hỗ trợ 8:00 – 23:00</p>
     </div>
-    <div class="header-actions">
-      <button class="btn btn-outline" onclick="copyJSON()">📋 Sao chép JSON</button>
-      <button class="btn btn-success" onclick="downloadJSON()">💾 Tải file services.json</button>
-      <a href="index.html" class="btn btn-outline">👁️ Xem trang bán hàng</a>
-    </div>
-  </div>
-
-  <div class="main-wrap">
-    <!-- Cột danh mục -->
-    <div class="sidebar">
-      <div style="font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 12px;">
-        Danh mục dịch vụ
-      </div>
-      <div id="catList"></div>
-    </div>
-
-    <!-- Cột bảng sản phẩm -->
-    <div class="content-area">
-      <div class="content-top">
-        <h2 id="currentCategoryTitle">Danh sách sản phẩm</h2>
-        <button class="btn btn-primary" onclick="openAddModal()">➕ Thêm gói mới</button>
-      </div>
-
-      <div class="plan-table-card">
-        <table>
-          <thead>
-            <tr>
-              <th>Tên gói sản phẩm</th>
-              <th>Giá bán</th>
-              <th>Tồn kho</th>
-              <th>Thời hạn</th>
-              <th style="text-align: right;">Thao tác</th>
-            </tr>
-          </thead>
-          <tbody id="plansTableBody"></tbody>
-        </table>
-      </div>
+    <div class="search-box">
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      <input id="searchInp" placeholder="Tìm nhanh dịch vụ (YouTube, ChatGPT, Canva, Veo...)" autocomplete="off" />
     </div>
   </div>
+</header>
 
-  <!-- Modal Chỉnh sửa / Thêm gói -->
-  <div class="modal-overlay" id="planModal">
-    <div class="modal-box">
-      <h3 id="modalTitle">Chỉnh sửa gói dịch vụ</h3>
-      
-      <div class="form-group">
-        <label>Tên gói dịch vụ:</label>
-        <input type="text" id="inpName" placeholder="Ví dụ: Slot YouTube Premium 6 Tháng BHF">
-      </div>
+<main class="layout">
+  <!-- CỘT 1: DANH MỤC -->
+  <aside class="col-cats">
+    <h2>Danh mục dịch vụ</h2>
+    <div id="catsContainer"></div>
+  </aside>
 
-      <div class="form-row">
-        <div class="form-group">
-          <label>Giá bán (VNĐ):</label>
-          <input type="number" id="inpPrice" placeholder="180000">
-        </div>
-        <div class="form-group">
-          <label>Thời hạn:</label>
-          <input type="text" id="inpDuration" placeholder="6 Tháng / 1 Năm / Vĩnh viễn">
-        </div>
-      </div>
+  <!-- CỘT 2: DANH SÁCH SẢN PHẨM -->
+  <section class="col-products">
+    <div class="section-header">
+      <h2 id="currentCatTitle">...</h2>
+      <span id="currentCatCount">0 gói</span>
+    </div>
+    <div id="plansContainer"></div>
+  </section>
 
-      <div class="form-row">
-        <div class="form-group">
-          <label>Loại tồn kho:</label>
-          <select id="inpStockType" onchange="toggleStockInput()">
-            <option value="-1">Vô cực (∞) - Luôn sẵn hàng</option>
-            <option value="num">Số lượng cụ thể</option>
-            <option value="0">Tạm hết hàng</option>
-          </select>
-        </div>
-        <div class="form-group" id="stockNumberWrap" style="display: none;">
-          <label>Nhập số lượng kho:</label>
-          <input type="number" id="inpStockNumber" value="10">
-        </div>
-      </div>
-
-      <div class="form-group">
-        <label>Mô tả chi tiết (tự động căn lề từng dòng):</label>
-        <textarea id="inpDetail" rows="6" placeholder="• Nhập từng gạch đầu dòng mô tả...&#10;• Quy tắc bảo hành..."></textarea>
-      </div>
-
-      <div class="modal-footer">
-        <button class="btn btn-outline" onclick="closeModal()">Hủy</button>
-        <button class="btn btn-primary" onclick="savePlan()">Lưu thay đổi</button>
+  <!-- CỘT 3: MÔ TẢ CHI TIẾT SẢN PHẨM -->
+  <aside class="col-detail" id="detailPanel">
+    <div id="detailContent">
+      <div style="color:var(--text-muted); text-align:center; padding:50px 0; font-size:14px;">
+        Chọn một sản phẩm để xem mô tả chi tiết & đặt mua
       </div>
     </div>
-  </div>
+  </aside>
+</main>
 
-  <script>
-    let servicesData = {};
-    let activeCat = '';
-    let editingPlanIndex = -1;
+<script>
+var ZALO = '0373996379';
+var D = {}, curCat = '', selPlan = null, kw = '';
 
-    async function init() {
-      try {
-        const res = await fetch(`data/services.json?t=${new Date().getTime()}`);
-        if (!res.ok) throw new Error("Chưa tải được file services.json");
-        servicesData = await res.json();
-        const cats = Object.keys(servicesData);
-        if (cats.length > 0) {
-          activeCat = cats[0];
-          renderCategories();
-          renderTable();
+var LOGO = {
+  'youtube': 'https://www.google.com/s2/favicons?domain=youtube.com&sz=64',
+  'chatgpt': 'https://www.google.com/s2/favicons?domain=openai.com&sz=64',
+  'google-veo': 'https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64',
+  'canva': 'https://www.google.com/s2/favicons?domain=canva.com&sz=64',
+  'capcut': 'https://www.google.com/s2/favicons?domain=capcut.com&sz=64',
+  'api-claude-codex': 'https://www.google.com/s2/favicons?domain=anthropic.com&sz=64',
+  'api-cursor-deepseek': 'https://www.google.com/s2/favicons?domain=deepseek.com&sz=64',
+  'grok': 'https://www.google.com/s2/favicons?domain=x.ai&sz=64',
+  'spotify': 'https://www.google.com/s2/favicons?domain=spotify.com&sz=64',
+  'notion': 'https://www.google.com/s2/favicons?domain=notion.so&sz=64',
+  'kling': 'https://www.google.com/s2/favicons?domain=klingai.com&sz=64',
+  'gmail': 'https://www.google.com/s2/favicons?domain=gmail.com&sz=64'
+};
+
+function money(n) {
+  n = Number(n || 0);
+  return n === 0 ? 'Liên hệ' : n.toLocaleString('vi-VN') + 'đ';
+}
+
+function getStockInfo(p) {
+  var s = p.stock;
+  if (s === -1 || s === '∞' || s === '-1') {
+    return { tag: 'Còn hàng (∞)', isOut: false, badgeText: '✓ Sẵn hàng kích hoạt (∞)' };
+  }
+  var num = Number(s || 0);
+  if (num > 0) {
+    return { tag: 'Còn ' + num, isOut: false, badgeText: '✓ Còn ' + num + ' tài khoản' };
+  }
+  return { tag: 'Tạm hết', isOut: true, badgeText: '⚠ Tạm hết hàng' };
+}
+
+// Hàm chuyển URL thành link bấm được và giữ nguyên xuống dòng
+function formatDetail(text) {
+  if (!text) return 'Sản phẩm đang được cập nhật thông tin mô tả chi tiết.';
+  
+  // 1. Escape HTML an toàn
+  var safe = text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+
+  // 2. Tìm và bọc thẻ <a> cho các đường link http:// và https://
+  var urlPattern = /(https?:\/\/[^\s]+)/g;
+  return safe.replace(urlPattern, function(url) {
+    var cleanUrl = url.replace(/[.,;:)\]]+$/, '');
+    var trailing = url.slice(cleanUrl.length);
+    return `<a href="${cleanUrl}" target="_blank" rel="noopener noreferrer" class="desc-link">${cleanUrl}</a>${trailing}`;
+  });
+}
+
+function loadData() {
+  fetch('./data/services.json?t=' + new Date().getTime(), { cache: 'no-store' })
+    .then(r => r.json())
+    .then(data => {
+      D = data || {};
+      var keys = Object.keys(D);
+      if (keys.length) {
+        curCat = keys[0];
+        if (D[curCat].plans && D[curCat].plans.length) {
+          selPlan = D[curCat].plans[0];
         }
-      } catch (e) {
-        alert("Lưu ý: " + e.message);
       }
-    }
+      render();
+    })
+    .catch(() => {
+      document.getElementById('plansContainer').innerHTML = '<div style="padding:40px;text-align:center;color:#ef4444;font-size:14px;">Chưa tải được dữ liệu data/services.json. Vui lòng kiểm tra lại file!</div>';
+    });
+}
 
-    function renderCategories() {
-      const el = document.getElementById('catList');
-      el.innerHTML = Object.entries(servicesData).map(([k, cat]) => `
-        <div class="cat-item ${k === activeCat ? 'active' : ''}" onclick="changeCat('${k}')">
-          <span>${cat.name}</span>
-          <span class="badge">${cat.plans.length}</span>
-        </div>
-      `).join('');
-    }
+function render() {
+  renderCategories();
+  renderPlans();
+  renderDetail();
+}
 
-    function changeCat(k) {
-      activeCat = k;
-      renderCategories();
-      renderTable();
-    }
+function renderCategories() {
+  var c = document.getElementById('catsContainer');
+  c.innerHTML = '';
+  Object.keys(D).forEach(k => {
+    var it = D[k];
+    var btn = document.createElement('button');
+    btn.className = 'cat-item' + (k === curCat && !kw ? ' active' : '');
+    var logoUrl = it.logo || LOGO[k] || '';
+    
+    var imgHtml = logoUrl 
+      ? `<img src="${logoUrl}" onerror="this.style.display='none'" />` 
+      : `<span style="font-size:12px;width:20px;text-align:center">❖</span>`;
 
-    function renderTable() {
-      const currentCat = servicesData[activeCat];
-      document.getElementById('currentCategoryTitle').innerText = `${currentCat.name} (${currentCat.plans.length} gói)`;
-      
-      const tbody = document.getElementById('plansTableBody');
-      if (currentCat.plans.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="5" style="text-align: center; color: var(--text-muted); padding: 24px;">Chưa có sản phẩm nào.</td></tr>`;
-        return;
-      }
+    btn.innerHTML = `
+      <div class="left">${imgHtml}<span>${it.name}</span></div>
+      <span class="badge-count">${(it.plans || []).length}</span>
+    `;
 
-      tbody.innerHTML = currentCat.plans.map((p, idx) => {
-        const stockDisplay = p.stock === -1 ? '<span style="color:#60a5fa;">Vô cực (∞)</span>' : (p.stock === 0 ? '<span style="color:#ef4444;">Hết hàng</span>' : `Còn ${p.stock}`);
-        return `
-          <tr>
-            <td>
-              <div class="plan-title">${p.name}</div>
-              <div class="plan-sub">${p.detail || 'Không có mô tả'}</div>
-            </td>
-            <td style="color:#34d399; font-weight:700;">${Number(p.price).toLocaleString('vi-VN')}đ</td>
-            <td>${stockDisplay}</td>
-            <td>${p.duration || 'N/A'}</td>
-            <td style="text-align: right;">
-              <button class="btn btn-outline" style="padding: 6px 10px; font-size:12px;" onclick="openEditModal(${idx})">✏️ Sửa</button>
-              <button class="btn btn-danger" style="padding: 6px 10px; font-size:12px;" onclick="deletePlan(${idx})">🗑️</button>
-            </td>
-          </tr>
-        `;
-      }).join('');
-    }
+    btn.onclick = () => {
+      kw = '';
+      document.getElementById('searchInp').value = '';
+      curCat = k;
+      if (D[k].plans && D[k].plans.length) selPlan = D[k].plans[0];
+      render();
+    };
+    c.appendChild(btn);
+  });
+}
 
-    function toggleStockInput() {
-      const type = document.getElementById('inpStockType').value;
-      document.getElementById('stockNumberWrap').style.display = type === 'num' ? 'flex' : 'none';
-    }
+function renderPlans() {
+  var container = document.getElementById('plansContainer');
+  container.innerHTML = '';
 
-    function openAddModal() {
-      editingPlanIndex = -1;
-      document.getElementById('modalTitle').innerText = `Thêm gói mới vào ${servicesData[activeCat].name}`;
-      document.getElementById('inpName').value = '';
-      document.getElementById('inpPrice').value = '';
-      document.getElementById('inpDuration').value = '1 Tháng';
-      document.getElementById('inpStockType').value = '-1';
-      document.getElementById('inpDetail').value = '• Mô tả gói dịch vụ...\n• Quy định bảo hành...';
-      toggleStockInput();
-      document.getElementById('planModal').style.display = 'flex';
-    }
-
-    function openEditModal(idx) {
-      editingPlanIndex = idx;
-      const p = servicesData[activeCat].plans[idx];
-      document.getElementById('modalTitle').innerText = `Chỉnh sửa gói: ${p.name}`;
-      document.getElementById('inpName').value = p.name;
-      document.getElementById('inpPrice').value = p.price;
-      document.getElementById('inpDuration').value = p.duration || '1 Tháng';
-      
-      if (p.stock === -1) {
-        document.getElementById('inpStockType').value = '-1';
-      } else if (p.stock === 0) {
-        document.getElementById('inpStockType').value = '0';
-      } else {
-        document.getElementById('inpStockType').value = 'num';
-        document.getElementById('inpStockNumber').value = p.stock;
-      }
-
-      document.getElementById('inpDetail').value = p.detail || '';
-      toggleStockInput();
-      document.getElementById('planModal').style.display = 'flex';
-    }
-
-    function closeModal() {
-      document.getElementById('planModal').style.display = 'none';
-    }
-
-    function savePlan() {
-      const name = document.getElementById('inpName').value.trim();
-      const price = Number(document.getElementById('inpPrice').value) || 0;
-      const duration = document.getElementById('inpDuration').value.trim();
-      const detail = document.getElementById('inpDetail').value.trim();
-      const stockType = document.getElementById('inpStockType').value;
-
-      if (!name) { alert("Vui lòng nhập tên gói!"); return; }
-
-      let stock = -1;
-      let stock_text = "Vô cực (∞)";
-      if (stockType === '0') {
-        stock = 0;
-        stock_text = "Tạm hết hàng";
-      } else if (stockType === 'num') {
-        stock = Number(document.getElementById('inpStockNumber').value) || 0;
-        stock_text = `Còn ${stock}`;
-      }
-
-      const planObj = {
-        id: editingPlanIndex >= 0 ? servicesData[activeCat].plans[editingPlanIndex].id : 'p-' + Date.now(),
-        name,
-        price,
-        stock,
-        stock_text,
-        duration,
-        detail
-      };
-
-      if (editingPlanIndex >= 0) {
-        servicesData[activeCat].plans[editingPlanIndex] = planObj;
-      } else {
-        servicesData[activeCat].plans.push(planObj);
-      }
-
-      closeModal();
-      renderCategories();
-      renderTable();
-    }
-
-    function deletePlan(idx) {
-      if (confirm(`Bạn chắc chắn muốn xóa gói "${servicesData[activeCat].plans[idx].name}"?`)) {
-        servicesData[activeCat].plans.splice(idx, 1);
-        renderCategories();
-        renderTable();
-      }
-    }
-
-    function copyJSON() {
-      const str = JSON.stringify(servicesData, null, 2);
-      navigator.clipboard.writeText(str).then(() => {
-        alert("✅ Đã sao chép toàn bộ JSON vào Clipboard! Giờ bạn chỉ cần mở file services.json trên GitHub và dán đè vào là xong.");
+  if (kw) {
+    var found = [];
+    Object.keys(D).forEach(k => {
+      (D[k].plans || []).forEach(p => {
+        var str = ((p.name || '') + ' ' + (p.detail || '') + ' ' + (p.source || '')).toLowerCase();
+        if (str.indexOf(kw) !== -1) found.push({ catName: D[k].name, plan: p });
       });
+    });
+
+    document.getElementById('currentCatTitle').textContent = `Kết quả tìm kiếm: "${kw}"`;
+    document.getElementById('currentCatCount').textContent = `${found.length} gói`;
+
+    if (!found.length) {
+      container.innerHTML = '<div style="padding:40px;text-align:center;color:#64748b">Không tìm thấy gói nào phù hợp.</div>';
+      return;
     }
 
-    function downloadJSON() {
-      const blob = new Blob([JSON.stringify(servicesData, null, 2)], { type: "application/json" });
-      const a = document.createElement("a");
-      a.href = URL.createObjectURL(blob);
-      a.download = "services.json";
-      a.click();
-    }
+    found.forEach(item => {
+      container.appendChild(createPlanCard(item.catName, item.plan));
+    });
+    return;
+  }
 
-    document.addEventListener('DOMContentLoaded', init);
-  </script>
+  var cat = D[curCat];
+  if (!cat) return;
+
+  document.getElementById('currentCatTitle').textContent = cat.name;
+  var plans = cat.plans || [];
+  document.getElementById('currentCatCount').textContent = `${plans.length} gói`;
+
+  if (!plans.length) {
+    container.innerHTML = '<div style="padding:40px;text-align:center;color:#64748b">Danh mục này hiện chưa có gói nào.</div>';
+    return;
+  }
+
+  plans.forEach(p => {
+    container.appendChild(createPlanCard(cat.name, p));
+  });
+}
+
+function createPlanCard(catName, p) {
+  var card = document.createElement('div');
+  var isSelected = selPlan && selPlan.id === p.id;
+  card.className = 'plan-card' + (isSelected ? ' selected' : '');
+
+  var stock = getStockInfo(p);
+  var stockHtml = `<span class="tag ${stock.isOut ? 'out-stock' : 'in-stock'}">${stock.tag}</span>`;
+
+  card.innerHTML = `
+    <div class="p-left">
+      <div class="plan-title">${p.name}</div>
+      <div class="plan-sub">
+        ${p.duration ? `<span class="tag">${p.duration}</span>` : ''}
+        ${p.source ? `<span class="tag">${p.source}</span>` : ''}
+        ${stockHtml}
+      </div>
+    </div>
+    <div class="p-right">
+      <div class="plan-price">${money(p.price)}</div>
+      <div class="view-btn">Chi tiết ➔</div>
+    </div>
+  `;
+
+  card.onclick = () => {
+    selPlan = p;
+    document.querySelectorAll('.plan-card').forEach(el => el.classList.remove('selected'));
+    card.classList.add('selected');
+    renderDetail(catName);
+    
+    if (window.innerWidth <= 1200) {
+      document.getElementById('detailPanel').scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  return card;
+}
+
+function renderDetail(catName) {
+  var panel = document.getElementById('detailContent');
+  if (!selPlan) return;
+
+  catName = catName || (D[curCat] ? D[curCat].name : '');
+  var p = selPlan;
+  var stock = getStockInfo(p);
+  var zaloMsg = encodeURIComponent(`Chào shop, mình muốn mua gói [${catName}] ${p.name} giá ${money(p.price)}. Còn hàng không shop?`);
+
+  panel.innerHTML = `
+    <div class="detail-title">${p.name}</div>
+    
+    <div class="detail-price-box">
+      <div>
+        <span style="font-size:12px;color:var(--text-muted);display:block">Giá dịch vụ</span>
+        <div class="detail-price-val">${money(p.price)}</div>
+      </div>
+      <div class="detail-stock-badge ${stock.isOut ? 'out-stock' : 'in-stock'}">${stock.badgeText}</div>
+    </div>
+
+    <div class="desc-wrapper">
+      <div class="desc-label">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+        Mô tả chi tiết sản phẩm
+      </div>
+      <div class="desc-box">${formatDetail(p.detail)}</div>
+    </div>
+
+    <div class="spec-list">
+      <div class="spec-row"><span>Danh mục:</span><span>${catName}</span></div>
+      <div class="spec-row"><span>Thời hạn:</span><span>${p.duration || 'Theo gói'}</span></div>
+      <div class="spec-row"><span>Hình thức:</span><span>${p.source || 'Chính chủ'}</span></div>
+    </div>
+
+    <a href="https://zalo.me/${ZALO}?text=${zaloMsg}" target="_blank" rel="noreferrer" class="btn-buy-zalo">
+      Đặt Mua Qua Zalo (${money(p.price)})
+    </a>
+  `;
+}
+
+document.getElementById('searchInp').addEventListener('input', function(e) {
+  kw = e.target.value.trim().toLowerCase();
+  renderPlans();
+});
+
+document.addEventListener('DOMContentLoaded', loadData);
+</script>
 </body>
 </html>
