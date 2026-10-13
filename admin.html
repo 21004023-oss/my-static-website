@@ -199,7 +199,7 @@
     .stock-available { background: #f0fdf4; color: #16a34a; border: 1px solid #bbf7d0; }
     .stock-empty { background: var(--red-light); color: var(--red); border: 1px solid #fecaca; }
 
-    /* MODAL CHUNG */
+    /* MODAL */
     .modal-overlay {
       display: none;
       position: fixed;
@@ -227,7 +227,6 @@
     }
     .modal-box h3 { font-size: 18px; font-weight: 800; padding-bottom: 10px; border-bottom: 1px solid var(--card-border); color: var(--text); }
 
-    /* BADGE SỐ LƯỢNG THÊM (+10, +20) */
     .qty-add-badge {
       background: #dcfce7;
       color: #15803d;
@@ -335,17 +334,13 @@
     <div class="modal-box" style="max-width: 900px;">
       <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--card-border); padding-bottom:10px;">
         <h3>📋 Danh Sách Nhập Kho & Thêm Sản Phẩm</h3>
-        <div style="display:flex; gap:8px;">
-          <button class="btn btn-outline" style="padding:4px 8px; font-size:12px; color:var(--red);" onclick="clearAllHistory()">🗑️ Xóa lịch sử</button>
-        </div>
+        <button class="btn btn-outline" style="padding:4px 8px; font-size:12px; color:var(--red);" onclick="clearAllHistory()">🗑️ Xóa lịch sử</button>
       </div>
 
-      <!-- Ô TÌM KIẾM TRONG DANH SÁCH THÊM -->
       <div style="display:flex; justify-content:space-between; align-items:center; gap:10px; margin-top:4px;">
         <input type="text" id="inpHistorySearch" class="search-filter" style="width:100%;" placeholder="🔍 Tìm tên sản phẩm trong lịch sử thêm..." oninput="renderHistoryTable()" />
       </div>
 
-      <!-- BẢNG DANH SÁCH THÊM -->
       <div class="table-container" style="max-height: 480px; overflow-y:auto;">
         <table>
           <thead>
@@ -427,16 +422,16 @@
     <div class="modal-box" style="max-width: 480px;">
       <h3 id="catModalTitle">Thêm danh mục mới</h3>
       <div class="form-group" id="catKeyGroup">
-        <label>Mã danh mục (ID không dấu):</label>
-        <input type="text" id="inpCatKey">
+        <label>Mã danh mục (ID viết liền không dấu, vd: duolingo, netflix):</label>
+        <input type="text" id="inpCatKey" placeholder="duolingo">
       </div>
       <div class="form-group">
         <label>Tên hiển thị danh mục:</label>
-        <input type="text" id="inpCatName">
+        <input type="text" id="inpCatName" placeholder="Ví dụ: Duolingo Super">
       </div>
       <div class="form-group">
         <label>Link icon / logo (tùy chọn):</label>
-        <input type="text" id="inpCatLogo">
+        <input type="text" id="inpCatLogo" placeholder="https://... hoặc bỏ trống">
       </div>
       <div class="modal-footer">
         <button class="btn btn-outline" onclick="closeCatModal()">Hủy</button>
@@ -455,13 +450,34 @@
     let editingPlanIndex = -1;
     let isEditingCat = false;
 
+    // BỘ TỪ KHÓA NHẬN DIỆN DANH MỤC
+    const KNOWN_RULES = {
+      'bot-tele': { regex: /bot.*tele|tele.*bot|telegram/i, name: 'Bot Telegram' },
+      'notion': { regex: /notion/i, name: 'Notion AI & Plus' },
+      'microsoft': { regex: /microsoft|office|365|onedrive/i, name: 'Microsoft 365' },
+      'capcut': { regex: /capcut/i, name: 'CapCut Pro' },
+      'youtube': { regex: /youtube|ytb/i, name: 'YouTube Premium' },
+      'chatgpt': { regex: /chatgpt|gpt|openai/i, name: 'ChatGPT / OpenAI' },
+      'canva': { regex: /canva/i, name: 'Canva Pro' },
+      'spotify': { regex: /spotify/i, name: 'Spotify Premium' },
+      'gmail': { regex: /gmail|mail\s*cổ/i, name: 'Gmail Cổ & Tài Khoản Mail' },
+      'google-veo': { regex: /gemini|google.*veo|veo\s*ultra/i, name: 'Google / Gemini / Veo Ultra' },
+      'api-claude-codex': { regex: /claude|codex/i, name: 'API Claude & Codex' },
+      'api-cursor-deepseek': { regex: /cursor|deepseek/i, name: 'API Cursor & DeepSeek' },
+      'grok': { regex: /grok/i, name: 'Grok AI' },
+      'kling': { regex: /kling/i, name: 'Kling AI' },
+      'duolingo': { regex: /duolingo/i, name: 'Duolingo Super' },
+      'netflix': { regex: /netflix/i, name: 'Netflix Premium' },
+      'adobe': { regex: /adobe|photoshop|illustrator/i, name: 'Adobe Full App' },
+      'zoom': { regex: /zoom/i, name: 'Zoom Pro' }
+    };
+
     async function init() {
       try {
         const res = await fetch(`data/services.json?t=${Date.now()}`);
         if (!res.ok) throw new Error("Chưa tìm thấy file data/services.json");
         servicesData = await res.json();
         
-        // Đảm bảo luôn có mảng _history
         if (!servicesData._history) servicesData._history = [];
         updateHistoryCount();
 
@@ -481,7 +497,74 @@
       if (countEl) countEl.innerText = (servicesData._history || []).length;
     }
 
-    // --- XỬ LÝ MODAL DANH SÁCH THÊM (_history) ---
+    // --- CÁC HÀM XỬ LÝ DANH MỤC ---
+    function openAddCatModal() {
+      isEditingCat = false;
+      document.getElementById('catModalTitle').innerText = 'Thêm danh mục mới';
+      document.getElementById('catKeyGroup').style.display = 'flex';
+      document.getElementById('inpCatKey').value = '';
+      document.getElementById('inpCatName').value = '';
+      document.getElementById('inpCatLogo').value = '';
+      document.getElementById('catModal').style.display = 'flex';
+    }
+
+    function openEditCatModal() {
+      if (!activeCat || !servicesData[activeCat]) {
+        alert("Vui lòng chọn danh mục để sửa!");
+        return;
+      }
+      isEditingCat = true;
+      document.getElementById('catModalTitle').innerText = `Sửa danh mục: ${servicesData[activeCat].name}`;
+      document.getElementById('catKeyGroup').style.display = 'none';
+      document.getElementById('inpCatName').value = servicesData[activeCat].name || '';
+      document.getElementById('inpCatLogo').value = servicesData[activeCat].logo || '';
+      document.getElementById('catModal').style.display = 'flex';
+    }
+
+    function closeCatModal() {
+      document.getElementById('catModal').style.display = 'none';
+    }
+
+    function saveCategory() {
+      const name = document.getElementById('inpCatName').value.trim();
+      const logo = document.getElementById('inpCatLogo').value.trim();
+      if (!name) { 
+        alert("Vui lòng nhập tên danh mục!"); 
+        return; 
+      }
+
+      if (isEditingCat) {
+        servicesData[activeCat].name = name;
+        servicesData[activeCat].logo = logo;
+      } else {
+        let key = document.getElementById('inpCatKey').value.trim().toLowerCase().replace(/[^a-z0-9_-]/g, '-');
+        if (!key) key = 'cat-' + Date.now();
+        if (servicesData[key]) { 
+          alert("Mã danh mục này đã tồn tại!"); 
+          return; 
+        }
+        servicesData[key] = { name, logo, plans: [] };
+        activeCat = key;
+      }
+      closeCatModal();
+      renderCategories();
+      renderTable();
+      saveDirectToGitHub(true);
+    }
+
+    function deleteCurrentCat() {
+      if (!activeCat || !servicesData[activeCat]) return;
+      if (confirm(`Xóa toàn bộ danh mục "${servicesData[activeCat].name}"?`)) {
+        delete servicesData[activeCat];
+        const remaining = Object.keys(servicesData).filter(k => k !== '_history');
+        activeCat = remaining.length > 0 ? remaining[0] : '';
+        renderCategories();
+        renderTable();
+        saveDirectToGitHub(true);
+      }
+    }
+
+    // --- CÁC HÀM XỬ LÝ LỊCH SỬ THÊM (_history) ---
     function openAddHistoryModal() {
       document.getElementById('addHistoryModal').style.display = 'flex';
       document.getElementById('inpHistorySearch').value = '';
@@ -548,7 +631,7 @@
       }
     }
 
-    // --- CÁC HÀM HIỂN THỊ DANH MỤC & SẢN PHẨM ---
+    // --- HIỂN THỊ DANH MỤC & VÙNG THẢ ---
     function renderCategories() {
       const el = document.getElementById('catList');
       const validCats = Object.entries(servicesData).filter(([k]) => k !== '_history');
@@ -572,6 +655,7 @@
       renderTable();
     }
 
+    // --- KÉO THẢ SẢN PHẨM ---
     let draggedIndex = null;
     function handleRowDragStart(e, idx) {
       draggedIndex = idx;
@@ -617,6 +701,7 @@
       saveDirectToGitHub(true);
     }
 
+    // --- HIỂN THỊ BẢNG SẢN PHẨM ---
     function renderTable() {
       const currentCat = servicesData[activeCat];
       const tbody = document.getElementById('plansTableBody');
@@ -665,6 +750,90 @@
       }).join('');
     }
 
+    // --- TỰ ĐỘNG NHẬN DIỆN DANH MỤC ---
+    function detectCategoryByName(name) {
+      if (!name) return null;
+      const lower = name.toLowerCase();
+
+      for (const [key, cat] of Object.entries(servicesData)) {
+        if (key === '_history') continue;
+        if (lower.includes(cat.name.toLowerCase()) || lower.includes(key.toLowerCase())) {
+          return { key, name: cat.name, isNew: false };
+        }
+      }
+
+      for (const [key, item] of Object.entries(KNOWN_RULES)) {
+        if (item.regex.test(lower)) {
+          if (servicesData[key]) {
+            return { key, name: servicesData[key].name, isNew: false };
+          } else {
+            return { key, name: item.name, isNew: true };
+          }
+        }
+      }
+      return null;
+    }
+
+    function parseAndFillText(raw) {
+      if (!raw || !raw.trim()) return;
+      const lines = raw.trim().split('\n').map(l => l.trim()).filter(Boolean);
+
+      let pName = '';
+      if (lines.length > 0) {
+        pName = lines[0].replace(/^[^\w\s\u00C0-\u1EF9]+/i, '').trim();
+        document.getElementById('inpName').value = pName;
+      }
+
+      const detected = detectCategoryByName(pName);
+      if (detected) {
+        if (detected.isNew && !servicesData[detected.key]) {
+          servicesData[detected.key] = { name: detected.name, logo: '', plans: [] };
+          renderCategories();
+          populateCategorySelect(detected.key);
+        } else {
+          populateCategorySelect(detected.key);
+        }
+      }
+
+      const priceMatch = raw.match(/Giá[:\s]*([0-9.,]+)\s*([kK]?)/i);
+      if (priceMatch) {
+        let pVal = parseFloat(priceMatch[1].replace(/[,.]/g, ''));
+        if (priceMatch[2] && priceMatch[2].toLowerCase() === 'k') pVal *= 1000;
+        document.getElementById('inpPrice').value = pVal;
+      }
+
+      const durMatch = raw.match(/(\d+\s*(?:Tháng|tháng|Năm|năm|Ngày|ngày|Giờ|giờ|H|h))/i);
+      if (durMatch) {
+        document.getElementById('inpDuration').value = durMatch[1].trim();
+      }
+
+      const stockMatch = raw.match(/(?:Tồn kho|Thêm)[:\s]*(.*)/i);
+      if (stockMatch) {
+        const sText = stockMatch[1];
+        if (sText.includes('∞') || sText.toLowerCase().includes('vô cực')) {
+          document.getElementById('inpStockType').value = '-1';
+        } else {
+          const num = parseInt(sText.replace(/\D/g, ''), 10);
+          if (!isNaN(num)) {
+            if (num === 0) {
+              document.getElementById('inpStockType').value = '0';
+            } else {
+              document.getElementById('inpStockType').value = 'num';
+              document.getElementById('inpStockNumber').value = num;
+            }
+          }
+        }
+        toggleStockInput();
+      }
+
+      const descIndex = raw.search(/Mô tả\s*:/i);
+      if (descIndex !== -1) {
+        document.getElementById('inpDetail').value = raw.substring(descIndex).replace(/^Mô tả\s*:\s*/i, '').trim();
+      } else {
+        document.getElementById('inpDetail').value = lines.slice(1).filter(l => !/^(💰|📦|📊|Giá|Tồn kho|Đã bán|Thêm)/i.test(l)).join('\n');
+      }
+    }
+
     function toggleStockInput() {
       const type = document.getElementById('inpStockType').value;
       document.getElementById('stockNumberWrap').style.display = type === 'num' ? 'flex' : 'none';
@@ -709,7 +878,7 @@
 
     function closeModal() { document.getElementById('planModal').style.display = 'none'; }
 
-    // 👉 HÀM LƯU: GHI NHẬN VÀO DANH SÁCH THÊM KHI ADMIN THAO TÁC
+    // --- LƯU SẢN PHẨM & GHI VÀO LỊCH SỬ THÊM ---
     async function savePlan() {
       const name = document.getElementById('inpName').value.trim();
       const price = Number(document.getElementById('inpPrice').value) || 0;
@@ -723,20 +892,38 @@
       let stock = stockType === '0' ? 0 : (stockType === 'num' ? (Number(document.getElementById('inpStockNumber').value) || 0) : -1);
       let stock_text = stock === -1 ? "Vô cực (∞)" : (stock === 0 ? "Tạm hết hàng" : `Còn ${stock}`);
 
+      if (!servicesData[targetKey]) {
+        servicesData[targetKey] = { name: targetKey.toUpperCase(), logo: '', plans: [] };
+      }
       if (!servicesData[targetKey].plans) servicesData[targetKey].plans = [];
       const plans = servicesData[targetKey].plans;
 
       let addedQty = stock > 0 ? stock : 1;
 
+      if (editingPlanIndex !== -1 && activeCat !== targetKey) {
+        servicesData[activeCat].plans.splice(editingPlanIndex, 1);
+        editingPlanIndex = -1;
+      }
+
       if (editingPlanIndex === -1) {
-        // Thêm mới
-        plans.push({ id: 'p-' + Date.now(), name, price, stock, stock_text, duration, detail });
+        const existIdx = plans.findIndex(p => p.name.trim().toLowerCase() === name.toLowerCase());
+        if (existIdx !== -1) {
+          const oldPlan = plans[existIdx];
+          if (oldPlan.stock !== -1 && oldPlan.stock !== '∞' && stockType === 'num') {
+            oldPlan.stock = (Number(oldPlan.stock) || 0) + addedQty;
+            oldPlan.stock_text = `Còn ${oldPlan.stock}`;
+            stock = oldPlan.stock;
+          }
+          oldPlan.price = price > 0 ? price : oldPlan.price;
+          if (detail) oldPlan.detail = detail;
+          alert(`⚡ Gói trùng tên! Đã cộng dồn +${addedQty} vào kho (Hiện có: ${oldPlan.stock}).`);
+        } else {
+          plans.push({ id: 'p-' + Date.now(), name, price, stock, stock_text, duration, detail });
+        }
       } else {
-        // Sửa
         plans[editingPlanIndex] = { id: plans[editingPlanIndex].id, name, price, stock, stock_text, duration, detail };
       }
 
-      // Ghi nhận 1 dòng vào danh sách thêm (_history)
       if (!servicesData._history) servicesData._history = [];
       const nowStr = new Date().toLocaleString('vi-VN', {
         hour: '2-digit', minute: '2-digit',
@@ -771,6 +958,45 @@
       }
     }
 
+    // --- QUÉT & TỰ PHÂN LOẠI DANH MỤC ---
+    function autoCategorizeCurrentList() {
+      const currentCat = servicesData[activeCat];
+      if (!currentCat || !currentCat.plans || currentCat.plans.length === 0) {
+        alert("Danh mục này không có sản phẩm nào để phân loại!");
+        return;
+      }
+
+      if (!confirm(`Tự động quét ${currentCat.plans.length} sản phẩm trong [${currentCat.name}] để đưa về đúng danh mục theo từ khóa?`)) return;
+
+      let movedCount = 0;
+      let newCatCount = 0;
+      const remainingPlans = [];
+
+      currentCat.plans.forEach(plan => {
+        const detected = detectCategoryByName(plan.name);
+
+        if (detected && detected.key !== activeCat) {
+          if (detected.isNew && !servicesData[detected.key]) {
+            servicesData[detected.key] = { name: detected.name, logo: '', plans: [] };
+            newCatCount++;
+          }
+
+          if (!servicesData[detected.key].plans) servicesData[detected.key].plans = [];
+          servicesData[detected.key].plans.push(plan);
+          movedCount++;
+        } else {
+          remainingPlans.push(plan);
+        }
+      });
+
+      servicesData[activeCat].plans = remainingPlans;
+      renderCategories();
+      renderTable();
+      saveDirectToGitHub(true);
+
+      alert(`🎉 Hoàn tất phân loại!\n• Đã chuyển: ${movedCount} sản phẩm về đúng danh mục.\n• Đã tạo mới: ${newCatCount} danh mục mới.`);
+    }
+
     function copyJSON() {
       navigator.clipboard.writeText(JSON.stringify(servicesData, null, 2)).then(() => alert("✅ Đã chép JSON!"));
     }
@@ -801,7 +1027,7 @@
       reader.readAsText(file);
     }
 
-    // ĐỒNG BỘ GITHUB
+    // --- ĐỒNG BỘ GITHUB ---
     async function saveDirectToGitHub(isAuto = false) {
       let token = (localStorage.getItem('gh_token') || '').trim();
       if (!token) {
@@ -847,7 +1073,24 @@
       }
     }
 
-    document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('DOMContentLoaded', () => {
+      init();
+      const qp = document.getElementById('inpQuickPaste');
+      if (qp) {
+        qp.addEventListener('input', function(e) {
+          parseAndFillText(e.target.value);
+        });
+      }
+      const nameInp = document.getElementById('inpName');
+      if (nameInp) {
+        nameInp.addEventListener('input', function(e) {
+          const detected = detectCategoryByName(e.target.value);
+          if (detected && !detected.isNew) {
+            document.getElementById('inpTargetCategory').value = detected.key;
+          }
+        });
+      }
+    });
   </script>
 </body>
 </html>
