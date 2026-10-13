@@ -2,755 +2,943 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bảng Quản Trị Dịch Vụ - Admin Panel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Bảng Giá Dịch Vụ Số - Bản Quyền Chính Hãng</title>
+  
+  <meta name="theme-color" content="#0f172a" />
+  <meta property="og:title" content="Bảng Giá Dịch Vụ Số - Bản Quyền Chính Hãng" />
+  <meta property="og:description" content="Cung cấp YouTube Premium, ChatGPT Plus, Canva Pro, CapCut Pro, API AI giá tốt, kích hoạt nhanh và bảo hành uy tín." />
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  
   <style>
     :root {
-      --bg: #f8fafc;
-      --card: #ffffff;
-      --card-border: #e2e8f0;
-      --primary: #2563eb;
-      --primary-hover: #1d4ed8;
-      --primary-light: #eff6ff;
-      --green: #059669;
-      --green-hover: #047857;
-      --green-light: #ecfdf5;
-      --red: #dc2626;
-      --red-hover: #b91c1c;
-      --red-light: #fef2f2;
-      --text: #0f172a;
+      --primary: #10b981;
+      --primary-dark: #059669;
+      --primary-light: #ecfdf5;
+      --bg-page: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
       --text-muted: #64748b;
-      --radius: 10px;
+      --border: #e2e8f0;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
+      --shadow-md: 0 4px 14px rgba(0,0,0,0.06);
+      --radius: 12px;
     }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; }
-    body { background: var(--bg); color: var(--text); padding: 24px; min-height: 100vh; }
-
-    /* Header Dashboard */
-    .admin-header {
-      max-width: 1600px;
-      margin: 0 auto 24px auto;
-      background: var(--card);
-      border: 1px solid var(--card-border);
-      border-radius: var(--radius);
-      padding: 18px 24px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 16px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      -webkit-tap-highlight-color: transparent;
     }
-    .admin-title h1 { font-size: 20px; font-weight: 800; display: flex; align-items: center; gap: 8px; color: var(--text); }
-    .admin-title p { font-size: 13px; color: var(--text-muted); margin-top: 3px; }
 
-    .header-actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
-    .btn {
-      padding: 9px 15px;
-      border-radius: 8px;
-      font-size: 13.5px;
-      font-weight: 600;
-      border: 1px solid transparent;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      transition: all 0.2s ease;
-      text-decoration: none;
+    body {
+      background: var(--bg-page);
+      color: var(--text-main);
+      font-size: 14px;
+      line-height: 1.5;
+      min-height: 100vh;
     }
-    .btn-primary { background: var(--primary); color: #fff; }
-    .btn-primary:hover { background: var(--primary-hover); }
-    .btn-success { background: var(--green); color: #fff; }
-    .btn-success:hover { background: var(--green-hover); }
-    .btn-outline { background: #fff; color: #334155; border-color: #cbd5e1; }
-    .btn-outline:hover { background: #f1f5f9; color: var(--text); }
-    .btn-danger { background: var(--red); color: #fff; }
-    .btn-danger:hover { background: var(--red-hover); }
 
-    /* Layout 2 cột */
-    .main-wrap {
+    /* ============================================================ */
+    /* 1. GIAO DIỆN MÁY TÍNH (DESKTOP) - GIỮ NGUYÊN HOÀN TOÀN      */
+    /* ============================================================ */
+    .topbar {
+      background: #0f172a;
+      color: #fff;
+      padding: 18px 32px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .topbar-content {
       max-width: 1600px;
       margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+    .brand h1 {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .brand p {
+      color: #94a3b8;
+      font-size: 13px;
+      margin-top: 3px;
+    }
+    .brand p b { color: #34d399; }
+
+    .search-box {
+      flex: 1;
+      max-width: 460px;
+      min-width: 280px;
+      position: relative;
+    }
+    .search-box input {
+      width: 100%;
+      padding: 11px 16px 11px 40px;
+      border-radius: 99px;
+      border: 1px solid rgba(255,255,255,0.15);
+      background: rgba(255,255,255,0.08);
+      color: #fff;
+      font-size: 13.5px;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+    .search-box input:focus {
+      background: #fff;
+      color: #0f172a;
+      box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.3);
+    }
+    .search-box svg {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #94a3b8;
+      pointer-events: none;
+    }
+
+    .layout {
+      max-width: 1600px;
+      margin: 24px auto;
+      padding: 0 24px 60px;
       display: grid;
-      grid-template-columns: 320px 1fr;
+      grid-template-columns: 260px minmax(0, 1fr) 430px;
       gap: 24px;
       align-items: start;
     }
-    @media(max-width: 1024px) { .main-wrap { grid-template-columns: 1fr; } }
 
-    /* Cột danh mục */
-    .sidebar {
-      background: var(--card);
-      border: 1px solid var(--card-border);
+    /* CỘT 1: Danh mục trên Desktop */
+    .col-cats {
+      background: var(--card-bg);
       border-radius: var(--radius);
-      padding: 16px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+      border: 1px solid var(--border);
+      padding: 16px 12px;
+      box-shadow: var(--shadow-sm);
+      position: sticky;
+      top: 96px;
+      max-height: calc(100vh - 120px);
+      overflow-y: auto;
+      scrollbar-width: thin;
     }
-    .sidebar-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 12px;
-      padding-bottom: 10px;
-      border-bottom: 1px solid var(--card-border);
-    }
-    .sidebar-title {
-      font-size: 12px;
-      font-weight: 800;
-      color: var(--text-muted);
+    .desktop-cat-title {
+      font-size: 11.5px;
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      padding: 0 8px 12px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 10px;
+      font-weight: 700;
+      display: block;
     }
+    .mobile-cat-toggle {
+      display: none;
+    }
+
     .cat-item {
-      padding: 11px 13px;
-      border-radius: 8px;
-      cursor: pointer;
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      margin-bottom: 4px;
+      justify-content: space-between;
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 8px;
+      border: none;
+      background: transparent;
+      color: var(--text-main);
       font-size: 13.5px;
-      color: #334155;
       font-weight: 600;
-      transition: 0.2s;
+      cursor: pointer;
+      margin-bottom: 4px;
+      transition: all 0.15s ease;
+      text-align: left;
     }
-    .cat-item:hover { background: #f1f5f9; color: var(--text); }
-    .cat-item.active { background: var(--primary); color: #fff; }
-    .badge-count {
+    .cat-item:hover { background: #f1f5f9; transform: translateX(2px); }
+    .cat-item.active { background: #0f172a; color: #fff; }
+    .cat-item .left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+    .cat-item img {
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .cat-item .badge-count {
       font-size: 11px;
+      background: #f1f5f9;
+      color: var(--text-muted);
       padding: 2px 7px;
-      border-radius: 12px;
-      background: #e2e8f0;
-      color: #475569;
+      border-radius: 99px;
     }
     .cat-item.active .badge-count {
-      background: rgba(255,255,255,0.25);
+      background: rgba(255,255,255,0.2);
       color: #fff;
     }
 
-    /* Bảng sản phẩm */
-    .content-area { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
-    .content-top {
-      background: var(--card);
-      border: 1px solid var(--card-border);
-      border-radius: var(--radius);
-      padding: 14px 18px;
+    /* CỘT 2: Danh sách sản phẩm Desktop */
+    .col-products { min-width: 0; }
+    .section-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      flex-wrap: wrap;
-      gap: 12px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+      margin-bottom: 14px;
+      padding: 0 4px;
     }
-    .content-top-left { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-    .content-top h2 { font-size: 17px; font-weight: 800; color: var(--text); }
+    .section-header h2 { font-size: 18px; font-weight: 800; color: var(--text-main); }
+    .section-header span { font-size: 13px; color: var(--text-muted); font-weight: 600; }
 
-    .search-filter {
-      background: #fff;
-      border: 1px solid #cbd5e1;
-      padding: 8px 14px;
-      border-radius: 8px;
-      color: var(--text);
-      font-size: 13px;
-      width: 240px;
-      outline: none;
-    }
-    .search-filter:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12); }
-
-    .table-container {
-      background: var(--card);
-      border: 1px solid var(--card-border);
+    .plan-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
       border-radius: var(--radius);
-      overflow-x: auto;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-    }
-    table { width: 100%; border-collapse: collapse; text-align: left; font-size: 13.5px; }
-    th {
-      background: #f8fafc;
-      padding: 14px 18px;
-      color: var(--text-muted);
-      font-size: 12px;
-      text-transform: uppercase;
-      font-weight: 700;
-      letter-spacing: 0.05em;
-      border-bottom: 1px solid var(--card-border);
-    }
-    td { padding: 14px 18px; border-bottom: 1px solid #f1f5f9; vertical-align: middle; }
-    tr:hover td { background: #f8fafc; }
-
-    .plan-name { font-weight: 700; color: var(--text); font-size: 14px; margin-bottom: 3px; }
-    .plan-desc-preview {
-      font-size: 12.5px;
-      color: var(--text-muted);
-      max-width: 450px;
-      white-space: nowrap;
+      margin-bottom: 12px;
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.2s ease;
       overflow: hidden;
-      text-overflow: ellipsis;
+    }
+    .plan-card:hover {
+      border-color: #94a3b8;
+      box-shadow: var(--shadow-md);
+    }
+    .plan-card.selected {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.25);
     }
 
-    .badge-stock {
-      display: inline-block;
-      font-size: 11.5px;
+    .plan-card-body {
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+    .plan-card .p-left { flex: 1; min-width: 0; }
+    .plan-title {
+      font-size: 15px;
       font-weight: 700;
-      padding: 3px 8px;
+      color: var(--text-main);
+      line-height: 1.4;
+    }
+    .plan-sub {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 8px;
+    }
+    .tag {
+      font-size: 11.5px;
+      font-weight: 600;
+      padding: 2.5px 8px;
+      border-radius: 6px;
+      background: #f1f5f9;
+      color: #475569;
+    }
+    .tag.in-stock {
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      border: 1px solid #a7f3d0;
+    }
+    .tag.out-stock {
+      background: #fee2e2;
+      color: #b91c1c;
+      border: 1px solid #fecaca;
+    }
+
+    .plan-card .p-right { text-align: right; flex-shrink: 0; }
+    .plan-price { font-size: 18px; font-weight: 800; color: var(--primary-dark); }
+    .view-btn {
+      margin-top: 5px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 4px;
+    }
+    .plan-card.selected .view-btn { color: var(--primary-dark); }
+
+    .plan-accordion { display: none; }
+
+    /* CỘT 3: Chi tiết mô tả Desktop */
+    .col-detail {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      padding: 24px;
+      box-shadow: var(--shadow-sm);
+      position: sticky;
+      top: 96px;
+    }
+    .detail-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--text-main);
+      line-height: 1.4;
+    }
+    .detail-price-box {
+      margin: 14px 0 18px;
+      padding: 14px 18px;
+      background: #f8fafc;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .detail-price-val { font-size: 22px; font-weight: 800; color: var(--primary-dark); }
+    .detail-stock-badge {
+      font-size: 12.5px;
+      font-weight: 700;
+      padding: 4px 10px;
       border-radius: 6px;
     }
-    .stock-unlimited { background: var(--green-light); color: var(--green); border: 1px solid #a7f3d0; }
-    .stock-available { background: #f0fdf4; color: #16a34a; border: 1px solid #bbf7d0; }
-    .stock-empty { background: var(--red-light); color: var(--red); border: 1px solid #fecaca; }
+    .detail-stock-badge.in-stock { background: #ecfdf5; color: #059669; border: 1px solid #a7f3d0; }
+    .detail-stock-badge.out-stock { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
 
-    /* Modal Form */
-    .modal-overlay {
-      display: none;
-      position: fixed;
-      inset: 0;
-      background: rgba(15, 23, 42, 0.45);
-      backdrop-filter: blur(4px);
-      justify-content: center;
-      align-items: center;
-      z-index: 1000;
-      padding: 20px;
-    }
-    .modal-box {
-      background: #ffffff;
-      border: 1px solid var(--card-border);
-      border-radius: 12px;
-      width: 100%;
-      max-width: 620px;
-      max-height: 90vh;
-      overflow-y: auto;
-      padding: 24px;
+    .desc-wrapper { margin-bottom: 20px; }
+    .desc-label {
+      font-size: 12.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #2563eb;
+      margin-bottom: 10px;
       display: flex;
-      flex-direction: column;
-      gap: 16px;
-      box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1);
+      align-items: center;
+      gap: 6px;
     }
-    .modal-box h3 { font-size: 18px; font-weight: 800; padding-bottom: 12px; border-bottom: 1px solid var(--card-border); color: var(--text); }
-    .form-group { display: flex; flex-direction: column; gap: 6px; }
-    .form-group label { font-size: 13px; font-weight: 700; color: #334155; }
-    .form-group input, .form-group textarea, .form-group select {
-      background: #ffffff;
-      border: 1px solid #cbd5e1;
-      color: var(--text);
-      padding: 10px 13px;
-      border-radius: 8px;
+    .desc-box {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 18px;
       font-size: 13.5px;
-      outline: none;
-      font-family: inherit;
+      line-height: 1.8;
+      color: #334155;
+      white-space: pre-line;
+      word-break: break-word;
+      max-height: 420px;
+      overflow-y: auto;
     }
-    .form-group input:focus, .form-group textarea:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12); }
-    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-    .modal-footer { display: flex; justify-content: flex-end; gap: 10px; margin-top: 10px; }
+    .desc-box a.desc-link {
+      color: #0284c7;
+      font-weight: 700;
+      text-decoration: underline;
+      word-break: break-all;
+    }
+
+    .spec-list {
+      margin-bottom: 22px;
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
+    }
+    .spec-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    .spec-row span:first-child { color: var(--text-muted); }
+    .spec-row span:last-child { font-weight: 600; color: var(--text-main); }
+
+    .btn-buy-zalo {
+      display: block;
+      width: 100%;
+      background: var(--primary-dark);
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 700;
+      font-size: 15px;
+      padding: 14px;
+      border-radius: 10px;
+      box-shadow: 0 4px 14px rgba(5, 150, 105, 0.25);
+      transition: all 0.2s ease;
+    }
+    .btn-buy-zalo:hover { background: #047857; }
+
+    /* ============================================================ */
+    /* 2. GIAO DIỆN RIÊNG CHO ĐIỆN THOẠI (THU / MỞ DANH MỤC MOBILE) */
+    /* ============================================================ */
+    @media(max-width: 768px) {
+      .topbar {
+        padding: 8px 12px;
+        position: sticky;
+        top: 0;
+      }
+      .topbar-content {
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+      }
+      .brand { flex: 1; min-width: 0; }
+      .brand h1 {
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .brand p { display: none; }
+
+      .search-box {
+        max-width: 150px;
+        min-width: 130px;
+      }
+      .search-box input {
+        padding: 6px 10px 6px 28px;
+        font-size: 12px;
+        border-radius: 6px;
+      }
+      .search-box svg { left: 8px; width: 12px; height: 12px; }
+
+      .layout {
+        grid-template-columns: 1fr;
+        padding: 0 10px 30px;
+        margin: 8px auto;
+        gap: 8px;
+      }
+
+      /* Khung danh mục trên Mobile */
+      .col-cats {
+        position: sticky;
+        top: 48px;
+        z-index: 40;
+        max-height: none;
+        overflow: visible;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+      }
+      .desktop-cat-title { display: none !important; }
+
+      .mobile-cat-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #ffffff;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 8px 12px;
+        cursor: pointer;
+        font-size: 13px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+      }
+      .m-cat-left {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .m-cat-left strong {
+        color: var(--primary-dark);
+        font-weight: 800;
+        font-size: 13.5px;
+      }
+      .m-toggle-icon {
+        font-size: 11px;
+        font-weight: 700;
+        color: var(--text-muted);
+        background: #f1f5f9;
+        padding: 3px 8px;
+        border-radius: 6px;
+      }
+
+      #catsContainer {
+        display: none;
+        margin-top: 6px;
+        background: #ffffff;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 8px;
+        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+        max-height: 240px;
+        overflow-y: auto;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+      #catsContainer.show-mobile {
+        display: flex !important;
+        animation: dropDown 0.2s ease;
+      }
+
+      @keyframes dropDown {
+        from { opacity: 0; transform: translateY(-4px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      .cat-item {
+        width: auto;
+        padding: 5px 11px;
+        border-radius: 6px;
+        background: #f8fafc;
+        border: 1px solid var(--border);
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 0;
+      }
+      .cat-item.active {
+        background: #0f172a;
+        color: #fff;
+        border-color: #0f172a;
+      }
+      .cat-item img { display: inline-block; width: 14px; height: 14px; }
+      .cat-item .badge-count { display: none; }
+
+      .section-header {
+        margin-bottom: 6px;
+        padding: 0 2px;
+      }
+      .section-header h2 { font-size: 14px; font-weight: 700; }
+      .section-header span { font-size: 11.5px; }
+
+      .plan-card {
+        margin-bottom: 6px;
+        border-radius: 8px;
+      }
+      .plan-card-body {
+        padding: 9px 12px;
+        gap: 10px;
+        align-items: center;
+      }
+      .plan-title {
+        font-size: 13.5px;
+        line-height: 1.35;
+        font-weight: 600;
+      }
+      .plan-sub { display: flex; gap: 5px; margin-top: 4px; }
+      .tag { font-size: 10px; padding: 1.5px 5px; border-radius: 4px; }
+
+      .plan-card .p-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+      }
+      .plan-price { font-size: 14.5px; font-weight: 800; }
+      .view-btn {
+        margin-top: 2px;
+        font-size: 10.5px;
+        color: var(--primary-dark);
+      }
+
+      .col-detail { display: none !important; }
+
+      .plan-accordion {
+        display: none;
+        border-top: 1px dashed var(--border);
+        padding: 12px 14px;
+        background: #fbfcfe;
+      }
+      .plan-card.active-mobile .plan-accordion { display: block; }
+      .plan-accordion .desc-wrapper { margin-bottom: 10px; }
+      .plan-accordion .desc-label { font-size: 11px; margin-bottom: 6px; }
+      .plan-accordion .desc-box {
+        padding: 10px 12px;
+        font-size: 12.5px;
+        line-height: 1.6;
+        max-height: none;
+      }
+      .plan-accordion .spec-list {
+        margin-bottom: 12px;
+        font-size: 12px;
+        padding-top: 8px;
+      }
+      .plan-accordion .spec-row { padding: 4px 0; }
+      .plan-accordion .btn-buy-zalo {
+        padding: 10px;
+        font-size: 13.5px;
+        border-radius: 8px;
+      }
+    }
   </style>
 </head>
 <body>
 
-  <!-- Input file ẩn để nạp JSON -->
-  <input type="file" id="jsonFileInput" accept=".json" style="display:none;" onchange="handleFileImport(event)" />
-
-  <header class="admin-header">
-    <div class="admin-title">
-      <h1>⚙️ BẢNG QUẢN TRỊ DỊCH VỤ SỐ</h1>
-      <p>Quản lý danh mục, bảng giá và mô tả gói dịch vụ cho website</p>
+<header class="topbar">
+  <div class="topbar-content">
+    <div class="brand">
+      <h1>⚡ BẢNG GIÁ DỊCH VỤ SỐ</h1>
+      <p>Đặt mua qua Zalo: <b>0373 996 379</b> · Hỗ trợ 8:00 – 23:00</p>
     </div>
-    <div class="header-actions">
-      <button class="btn btn-outline" onclick="triggerImportFile()">📁 Nạp file JSON mới</button>
-      <button class="btn btn-outline" onclick="copyJSON()">📋 Sao chép JSON</button>
-      <button class="btn btn-success" onclick="downloadJSON()">💾 Tải services.json</button>
-      <button class="btn btn-primary" onclick="saveDirectToGitHub()">🚀 Lưu lên GitHub</button>
-      <a href="index.html" target="_blank" class="btn btn-outline">👁️ Xem trang bán</a>
-    </div>
-  </header>
-
-  <main class="main-wrap">
-    <!-- CỘT 1: DANH MỤC -->
-    <aside class="sidebar">
-      <div class="sidebar-header">
-        <span class="sidebar-title">Danh mục dịch vụ</span>
-        <button class="btn btn-primary" style="padding: 4px 10px; font-size: 12px;" onclick="openAddCatModal()">➕ Thêm mục</button>
-      </div>
-      <div id="catList">
-        <div style="color:var(--text-muted); font-size:13px; padding:10px;">Đang tải danh mục...</div>
-      </div>
-    </aside>
-
-    <!-- CỘT 2: BẢNG SẢN PHẨM -->
-    <section class="content-area">
-      <div class="content-top">
-        <div class="content-top-left">
-          <h2 id="currentCategoryTitle">Danh sách sản phẩm</h2>
-          <button class="btn btn-outline" style="padding: 4px 8px; font-size: 12px;" onclick="openEditCatModal()">✏️ Sửa mục này</button>
-          <button class="btn btn-outline" style="padding: 4px 8px; font-size: 12px; color: var(--red); border-color:#fca5a5;" onclick="deleteCurrentCat()">🗑️ Xóa mục</button>
-        </div>
-
-        <!-- CỤM TÌM KIẾM VÀ NÚT THÊM SẢN PHẨM PHÍA TRÊN -->
-        <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
-          <input type="text" id="filterInp" class="search-filter" placeholder="Tìm kiếm gói cước..." oninput="renderTable()" />
-          <button class="btn btn-outline" style="padding: 8px 12px;" onclick="renderTable()">🔍 Tìm</button>
-          <button class="btn btn-primary" onclick="openAddModal()">➕ Thêm sản phẩm</button>
-        </div>
-      </div>
-
-      <div class="table-container">
-        <table>
-          <thead>
-            <tr>
-              <th>Tên gói & Mô tả</th>
-              <th>Giá bán</th>
-              <th>Tồn kho</th>
-              <th>Thời hạn</th>
-              <th style="text-align: right; min-width: 200px;">Hành động</th>
-            </tr>
-          </thead>
-          <tbody id="plansTableBody">
-            <tr><td colspan="5" style="text-align:center; padding:30px; color:var(--text-muted);">Đang tải dữ liệu...</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-  </main>
-
-  <!-- MODAL 1: THÊM / SỬA GÓI SẢN PHẨM -->
-  <div class="modal-overlay" id="planModal">
-    <div class="modal-box">
-      <h3 id="modalTitle">Chỉnh sửa gói dịch vụ</h3>
-
-      <div class="form-group">
-        <label>Tên gói dịch vụ:</label>
-        <input type="text" id="inpName" placeholder="Ví dụ: Slot YouTube Premium 6 Tháng BHF">
-      </div>
-
-      <div class="form-row">
-        <div class="form-group">
-          <label>Giá bán (VNĐ):</label>
-          <input type="number" id="inpPrice" placeholder="180000">
-        </div>
-        <div class="form-group">
-          <label>Thời hạn hiển thị:</label>
-          <input type="text" id="inpDuration" placeholder="1 Tháng / 6 Tháng / 1 Năm">
-        </div>
-      </div>
-
-      <div class="form-row">
-        <div class="form-group">
-          <label>Trạng thái tồn kho:</label>
-          <select id="inpStockType" onchange="toggleStockInput()">
-            <option value="-1">Vô cực (∞) - Luôn sẵn hàng</option>
-            <option value="num">Số lượng cụ thể</option>
-            <option value="0">Tạm hết hàng</option>
-          </select>
-        </div>
-        <div class="form-group" id="stockNumberWrap" style="display: none;">
-          <label>Số lượng kho:</label>
-          <input type="number" id="inpStockNumber" value="10">
-        </div>
-      </div>
-
-      <div class="form-group">
-        <label>Mô tả chi tiết (tự động nhận link và xuống dòng):</label>
-        <textarea id="inpDetail" rows="7" placeholder="• Nhập thông tin gói...&#10;• Hướng dẫn kích hoạt & bảo hành..."></textarea>
-      </div>
-
-      <div class="modal-footer">
-        <button class="btn btn-outline" onclick="closeModal()">Hủy</button>
-        <button class="btn btn-primary" onclick="savePlan()">Lưu thay đổi</button>
-      </div>
+    <div class="search-box">
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      <input id="searchInp" placeholder="Tìm nhanh dịch vụ..." autocomplete="off" />
     </div>
   </div>
+</header>
 
-  <!-- MODAL 2: THÊM / SỬA DANH MỤC -->
-  <div class="modal-overlay" id="catModal">
-    <div class="modal-box" style="max-width: 480px;">
-      <h3 id="catModalTitle">Thêm danh mục mới</h3>
+<main class="layout">
+  <!-- CỘT 1: DANH MỤC -->
+  <aside class="col-cats">
+    <h2 class="desktop-cat-title">Danh mục dịch vụ</h2>
 
-      <div class="form-group" id="catKeyGroup">
-        <label>Mã danh mục (ID không dấu, ví dụ: netflix, adobe):</label>
-        <input type="text" id="inpCatKey" placeholder="netflix">
+    <div class="mobile-cat-toggle" onclick="toggleMobileCats()">
+      <div class="m-cat-left">
+        <span>📂 Mục:</span>
+        <strong id="mActiveCatName">Đang tải...</strong>
       </div>
+      <span class="m-toggle-icon" id="mToggleIcon">Đổi mục ▾</span>
+    </div>
 
-      <div class="form-group">
-        <label>Tên hiển thị danh mục:</label>
-        <input type="text" id="inpCatName" placeholder="Ví dụ: Netflix Premium">
-      </div>
+    <div id="catsContainer"></div>
+  </aside>
 
-      <div class="form-group">
-        <label>Link icon / logo (tùy chọn):</label>
-        <input type="text" id="inpCatLogo" placeholder="https://... hoặc bỏ trống">
-      </div>
+  <!-- CỘT 2: DANH SÁCH SẢN PHẨM -->
+  <section class="col-products">
+    <div class="section-header">
+      <h2 id="currentCatTitle">...</h2>
+      <span id="currentCatCount">0 gói</span>
+    </div>
+    <div id="plansContainer"></div>
+  </section>
 
-      <div class="modal-footer">
-        <button class="btn btn-outline" onclick="closeCatModal()">Hủy</button>
-        <button class="btn btn-primary" onclick="saveCategory()">Lưu danh mục</button>
+  <!-- CỘT 3: CHI TIẾT SẢN PHẨM (MÁY TÍNH) -->
+  <aside class="col-detail" id="detailPanel">
+    <div id="detailContent">
+      <div style="color:var(--text-muted); text-align:center; padding:45px 0; font-size:14px;">
+        Chọn một sản phẩm để xem mô tả chi tiết & đặt mua
       </div>
     </div>
-  </div>
+  </aside>
+</main>
 
-  <script>
-    let servicesData = {};
-    let activeCat = '';
-    let editingPlanIndex = -1;
-    let isEditingCat = false;
+<script>
+var ZALO = '0373996379';
+var D = {}, curCat = '', selPlan = null, kw = '';
 
-    // Load dữ liệu
-    async function init() {
-      try {
-        const res = await fetch(`data/services.json?t=${new Date().getTime()}`);
-        if (!res.ok) throw new Error("Chưa tìm thấy file data/services.json");
-        servicesData = await res.json();
-        const cats = Object.keys(servicesData);
-        if (cats.length > 0) {
-          activeCat = cats[0];
-          renderCategories();
-          renderTable();
+var LOGO = {
+  'youtube': 'https://www.google.com/s2/favicons?domain=youtube.com&sz=64',
+  'chatgpt': 'https://www.google.com/s2/favicons?domain=openai.com&sz=64',
+  'google-veo': 'https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64',
+  'canva': 'https://www.google.com/s2/favicons?domain=canva.com&sz=64',
+  'capcut': 'https://www.google.com/s2/favicons?domain=capcut.com&sz=64',
+  'api-claude-codex': 'https://www.google.com/s2/favicons?domain=anthropic.com&sz=64',
+  'api-cursor-deepseek': 'https://www.google.com/s2/favicons?domain=deepseek.com&sz=64',
+  'grok': 'https://www.google.com/s2/favicons?domain=x.ai&sz=64',
+  'spotify': 'https://www.google.com/s2/favicons?domain=spotify.com&sz=64',
+  'notion': 'https://www.google.com/s2/favicons?domain=notion.so&sz=64',
+  'kling': 'https://www.google.com/s2/favicons?domain=klingai.com&sz=64',
+  'gmail': 'https://www.google.com/s2/favicons?domain=gmail.com&sz=64'
+};
+
+function money(n) {
+  n = Number(n || 0);
+  return n === 0 ? 'Liên hệ' : n.toLocaleString('vi-VN') + 'đ';
+}
+
+function getStockInfo(p) {
+  var s = p.stock;
+  if (s === -1 || s === '∞' || s === '-1') {
+    return { tag: 'Còn hàng (∞)', isOut: false, badgeText: '✓ Sẵn hàng kích hoạt (∞)' };
+  }
+  var num = Number(s || 0);
+  if (num > 0) {
+    return { tag: 'Còn ' + num, isOut: false, badgeText: '✓ Còn ' + num + ' tài khoản' };
+  }
+  return { tag: 'Tạm hết', isOut: true, badgeText: '⚠ Tạm hết hàng' };
+}
+
+function formatDetail(text) {
+  if (!text) return 'Sản phẩm đang được cập nhật thông tin mô tả chi tiết.';
+  var safe = text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+
+  var urlRegex = /((?:https?:\/\/|www\.)[^\s]+|(?:[a-zA-Z0-9-]+\.)+(?:com|net|org|site|xyz|top|vip|buzz|dev|live|me|be|co|io|vn|app|edu)(?:\/[^\s]*)?)/gi;
+
+  return safe.replace(urlRegex, function(url) {
+    var cleanUrl = url.replace(/[.,;:)\]]+$/, '');
+    var trailing = url.slice(cleanUrl.length);
+    var href = cleanUrl;
+    if (!/^https?:\/\//i.test(href)) {
+      href = 'https://' + href;
+    }
+    return `<a href="${href}" target="_blank" rel="noopener noreferrer" class="desc-link">${cleanUrl}</a>${trailing}`;
+  });
+}
+
+function toggleMobileCats() {
+  var box = document.getElementById('catsContainer');
+  var icon = document.getElementById('mToggleIcon');
+  if (!box) return;
+  var isOpen = box.classList.toggle('show-mobile');
+  if (icon) {
+    icon.textContent = isOpen ? 'Đóng ▴' : 'Đổi mục ▾';
+  }
+}
+
+function closeMobileCats() {
+  var box = document.getElementById('catsContainer');
+  var icon = document.getElementById('mToggleIcon');
+  if (box) box.classList.remove('show-mobile');
+  if (icon) icon.textContent = 'Đổi mục ▾';
+}
+
+function loadData() {
+  fetch('./data/services.json?t=' + new Date().getTime(), { cache: 'no-store' })
+    .then(r => r.json())
+    .then(data => {
+      D = data || {};
+      var keys = Object.keys(D);
+      if (keys.length) {
+        curCat = keys[0];
+        if (D[curCat].plans && D[curCat].plans.length) {
+          // Lấy danh sách đã sắp xếp tên để chọn gói đầu tiên
+          var sortedFirst = D[curCat].plans.slice().sort((a,b) => (a.name||'').localeCompare(b.name||'', 'vi', { numeric: true }));
+          selPlan = sortedFirst[0];
         }
-      } catch (e) {
-        alert("Lưu ý: " + e.message);
       }
-    }
+      render();
+    })
+    .catch(() => {
+      document.getElementById('plansContainer').innerHTML = '<div style="padding:40px;text-align:center;color:#ef4444;font-size:14px;">Chưa tải được dữ liệu data/services.json. Vui lòng kiểm tra lại file!</div>';
+    });
+}
 
-    // Nạp file JSON từ máy tính
-    function triggerImportFile() {
-      document.getElementById('jsonFileInput').click();
-    }
+function render() {
+  renderCategories();
+  renderPlans();
+  renderDetail();
+}
 
-    function handleFileImport(e) {
-      const file = e.target.files[0];
-      if (!file) return;
+function renderCategories() {
+  var c = document.getElementById('catsContainer');
+  c.innerHTML = '';
 
-      const reader = new FileReader();
-      reader.onload = function(evt) {
-        try {
-          const parsed = JSON.parse(evt.target.result);
-          if (typeof parsed !== 'object' || parsed === null) {
-            throw new Error("File không đúng cấu trúc dịch vụ số!");
-          }
-          servicesData = parsed;
-          const cats = Object.keys(servicesData);
-          if (cats.length > 0) activeCat = cats[0];
-          
-          renderCategories();
-          renderTable();
-          alert("✅ Nạp file JSON mới thành công! Bạn có thể xem và chỉnh sửa ngay trên bảng.");
-        } catch (err) {
-          alert("❌ Không thể đọc file: " + err.message);
-        }
-      };
-      reader.readAsText(file);
-      e.target.value = '';
-    }
+  var mName = document.getElementById('mActiveCatName');
+  if (mName && D[curCat]) {
+    mName.textContent = D[curCat].name;
+  }
 
-    // Render danh mục
-    function renderCategories() {
-      const el = document.getElementById('catList');
-      el.innerHTML = Object.entries(servicesData).map(([k, cat]) => `
-        <div class="cat-item ${k === activeCat ? 'active' : ''}" onclick="changeCat('${k}')">
-          <span>${cat.name}</span>
-          <span class="badge-count">${(cat.plans || []).length}</span>
-        </div>
-      `).join('');
-    }
+  Object.keys(D).forEach(k => {
+    var it = D[k];
+    var btn = document.createElement('button');
+    btn.className = 'cat-item' + (k === curCat && !kw ? ' active' : '');
+    var logoUrl = it.logo || LOGO[k] || '';
+    
+    var imgHtml = logoUrl 
+      ? `<img src="${logoUrl}" onerror="this.style.display='none'" />` 
+      : `<span style="font-size:12px;width:16px;text-align:center">❖</span>`;
 
-    function changeCat(k) {
-      activeCat = k;
-      document.getElementById('filterInp').value = '';
-      renderCategories();
-      renderTable();
-    }
+    btn.innerHTML = `
+      <div class="left">${imgHtml}<span>${it.name}</span></div>
+      <span class="badge-count">${(it.plans || []).length}</span>
+    `;
 
-    // QUẢN LÝ DANH MỤC (THÊM / SỬA / XÓA)
-    function openAddCatModal() {
-      isEditingCat = false;
-      document.getElementById('catModalTitle').innerText = 'Thêm danh mục mới';
-      document.getElementById('catKeyGroup').style.display = 'flex';
-      document.getElementById('inpCatKey').value = '';
-      document.getElementById('inpCatName').value = '';
-      document.getElementById('inpCatLogo').value = '';
-      document.getElementById('catModal').style.display = 'flex';
-    }
-
-    function openEditCatModal() {
-      if (!activeCat || !servicesData[activeCat]) return;
-      isEditingCat = true;
-      document.getElementById('catModalTitle').innerText = `Sửa danh mục: ${servicesData[activeCat].name}`;
-      document.getElementById('catKeyGroup').style.display = 'none';
-      document.getElementById('inpCatName').value = servicesData[activeCat].name || '';
-      document.getElementById('inpCatLogo').value = servicesData[activeCat].logo || '';
-      document.getElementById('catModal').style.display = 'flex';
-    }
-
-    function closeCatModal() {
-      document.getElementById('catModal').style.display = 'none';
-    }
-
-    function saveCategory() {
-      const name = document.getElementById('inpCatName').value.trim();
-      const logo = document.getElementById('inpCatLogo').value.trim();
-
-      if (!name) { alert("Vui lòng nhập tên danh mục!"); return; }
-
-      if (isEditingCat) {
-        servicesData[activeCat].name = name;
-        servicesData[activeCat].logo = logo;
-      } else {
-        let key = document.getElementById('inpCatKey').value.trim().toLowerCase().replace(/[^a-z0-9_-]/g, '-');
-        if (!key) key = 'cat-' + Date.now();
-        if (servicesData[key]) {
-          alert("Mã danh mục này đã tồn tại, vui lòng chọn mã khác!");
-          return;
-        }
-        servicesData[key] = {
-          name: name,
-          logo: logo,
-          plans: []
-        };
-        activeCat = key;
+    btn.onclick = () => {
+      kw = '';
+      document.getElementById('searchInp').value = '';
+      curCat = k;
+      if (D[k].plans && D[k].plans.length) {
+        var sorted = D[k].plans.slice().sort((a,b) => (a.name||'').localeCompare(b.name||'', 'vi', { numeric: true }));
+        selPlan = sorted[0];
       }
+      closeMobileCats();
+      render();
+    };
+    c.appendChild(btn);
+  });
+}
 
-      closeCatModal();
-      renderCategories();
-      renderTable();
-    }
+function renderPlans() {
+  var container = document.getElementById('plansContainer');
+  container.innerHTML = '';
 
-    function deleteCurrentCat() {
-      if (!activeCat || !servicesData[activeCat]) return;
-      const catName = servicesData[activeCat].name;
-      const count = (servicesData[activeCat].plans || []).length;
-
-      if (confirm(`Bạn có chắc chắn muốn xóa danh mục "${catName}" cùng toàn bộ ${count} gói bên trong?`)) {
-        delete servicesData[activeCat];
-        const remaining = Object.keys(servicesData);
-        activeCat = remaining.length > 0 ? remaining[0] : '';
-        renderCategories();
-        renderTable();
-      }
-    }
-
-    // Render bảng gói sản phẩm
-    function renderTable() {
-      const currentCat = servicesData[activeCat];
-      const tbody = document.getElementById('plansTableBody');
-
-      if (!currentCat) {
-        document.getElementById('currentCategoryTitle').innerText = 'Chưa chọn danh mục';
-        tbody.innerHTML = `<tr><td colspan="5" style="text-align:center; padding:30px; color:var(--text-muted);">Hãy chọn hoặc thêm danh mục mới.</td></tr>`;
-        return;
-      }
-
-      const filterKw = (document.getElementById('filterInp').value || '').trim().toLowerCase();
-      document.getElementById('currentCategoryTitle').innerText = `${currentCat.name} (${(currentCat.plans || []).length} gói)`;
-
-      let plans = currentCat.plans || [];
-      if (filterKw) {
-        plans = plans.filter(p => p.name.toLowerCase().includes(filterKw) || (p.detail && p.detail.toLowerCase().includes(filterKw)));
-      }
-
-      if (plans.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="5" style="text-align:center; padding:30px; color:var(--text-muted);">Không có sản phẩm nào.</td></tr>`;
-        return;
-      }
-
-      tbody.innerHTML = plans.map((p, idx) => {
-        let stockHtml = '';
-        if (p.stock === -1 || p.stock === '∞') {
-          stockHtml = '<span class="badge-stock stock-unlimited">Vô cực (∞)</span>';
-        } else if (p.stock === 0) {
-          stockHtml = '<span class="badge-stock stock-empty">Hết hàng</span>';
-        } else {
-          stockHtml = `<span class="badge-stock stock-available">Còn ${p.stock}</span>`;
-        }
-
-        return `
-          <tr>
-            <td>
-              <div class="plan-name">${p.name}</div>
-              <div class="plan-desc-preview">${p.detail || 'Không có mô tả chi tiết'}</div>
-            </td>
-            <td style="color:#059669; font-weight:700; font-size:15px;">${Number(p.price).toLocaleString('vi-VN')}đ</td>
-            <td>${stockHtml}</td>
-            <td>${p.duration || 'N/A'}</td>
-            <!-- NÚT THÊM KẾ BÊN NÚT SỬA VÀ XÓA -->
-            <td style="text-align: right; white-space: nowrap;">
-              <button class="btn btn-primary" style="padding:6px 11px; font-size:12px;" onclick="openAddModal()" title="Thêm gói mới">➕ Thêm</button>
-              <button class="btn btn-outline" style="padding:6px 11px; font-size:12px;" onclick="openEditModal(${idx})" title="Chỉnh sửa gói">✏️ Sửa</button>
-              <button class="btn btn-danger" style="padding:6px 9px; font-size:12px;" onclick="deletePlan(${idx})" title="Xóa gói">🗑️</button>
-            </td>
-          </tr>
-        `;
-      }).join('');
-    }
-
-    function toggleStockInput() {
-      const type = document.getElementById('inpStockType').value;
-      document.getElementById('stockNumberWrap').style.display = type === 'num' ? 'flex' : 'none';
-    }
-
-    function openAddModal() {
-      if (!activeCat) { alert("Vui lòng tạo ít nhất 1 danh mục trước!"); return; }
-      editingPlanIndex = -1;
-      document.getElementById('modalTitle').innerText = `Thêm gói vào ${servicesData[activeCat].name}`;
-      document.getElementById('inpName').value = '';
-      document.getElementById('inpPrice').value = '';
-      document.getElementById('inpDuration').value = '1 Tháng';
-      document.getElementById('inpStockType').value = '-1';
-      document.getElementById('inpDetail').value = '• Mô tả gói dịch vụ...\n• Quy định bảo hành...';
-      toggleStockInput();
-      document.getElementById('planModal').style.display = 'flex';
-    }
-
-    function openEditModal(idx) {
-      editingPlanIndex = idx;
-      const p = servicesData[activeCat].plans[idx];
-      document.getElementById('modalTitle').innerText = `Chỉnh sửa: ${p.name}`;
-      document.getElementById('inpName').value = p.name;
-      document.getElementById('inpPrice').value = p.price;
-      document.getElementById('inpDuration').value = p.duration || '1 Tháng';
-
-      if (p.stock === -1 || p.stock === '∞') {
-        document.getElementById('inpStockType').value = '-1';
-      } else if (p.stock === 0) {
-        document.getElementById('inpStockType').value = '0';
-      } else {
-        document.getElementById('inpStockType').value = 'num';
-        document.getElementById('inpStockNumber').value = p.stock;
-      }
-
-      document.getElementById('inpDetail').value = p.detail || '';
-      toggleStockInput();
-      document.getElementById('planModal').style.display = 'flex';
-    }
-
-    function closeModal() {
-      document.getElementById('planModal').style.display = 'none';
-    }
-
-    function savePlan() {
-      const name = document.getElementById('inpName').value.trim();
-      const price = Number(document.getElementById('inpPrice').value) || 0;
-      const duration = document.getElementById('inpDuration').value.trim();
-      const detail = document.getElementById('inpDetail').value.trim();
-      const stockType = document.getElementById('inpStockType').value;
-
-      if (!name) { alert("Vui lòng nhập tên gói!"); return; }
-
-      let stock = -1;
-      let stock_text = "Vô cực (∞)";
-      if (stockType === '0') {
-        stock = 0;
-        stock_text = "Tạm hết hàng";
-      } else if (stockType === 'num') {
-        stock = Number(document.getElementById('inpStockNumber').value) || 0;
-        stock_text = `Còn ${stock}`;
-      }
-
-      const planObj = {
-        id: editingPlanIndex >= 0 ? servicesData[activeCat].plans[editingPlanIndex].id : 'p-' + Date.now(),
-        name,
-        price,
-        stock,
-        stock_text,
-        duration,
-        detail
-      };
-
-      if (editingPlanIndex >= 0) {
-        servicesData[activeCat].plans[editingPlanIndex] = planObj;
-      } else {
-        servicesData[activeCat].plans.push(planObj);
-      }
-
-      closeModal();
-      renderCategories();
-      renderTable();
-    }
-
-    function deletePlan(idx) {
-      if (confirm(`Bạn chắc chắn muốn xóa gói "${servicesData[activeCat].plans[idx].name}"?`)) {
-        servicesData[activeCat].plans.splice(idx, 1);
-        renderCategories();
-        renderTable();
-      }
-    }
-
-    // Sao chép JSON
-    function copyJSON() {
-      const str = JSON.stringify(servicesData, null, 2);
-      navigator.clipboard.writeText(str).then(() => {
-        alert("✅ Đã sao chép toàn bộ JSON vào Clipboard! Giờ bạn có thể dán thẳng vào GitHub.");
+  if (kw) {
+    var found = [];
+    Object.keys(D).forEach(k => {
+      (D[k].plans || []).forEach(p => {
+        var str = ((p.name || '') + ' ' + (p.detail || '') + ' ' + (p.source || '')).toLowerCase();
+        if (str.indexOf(kw) !== -1) found.push({ catName: D[k].name, plan: p });
       });
+    });
+
+    // Sắp xếp kết quả tìm kiếm theo tên A-Z
+    found.sort((a, b) => (a.plan.name || '').localeCompare(b.plan.name || '', 'vi', { numeric: true }));
+
+    document.getElementById('currentCatTitle').textContent = `Kết quả: "${kw}"`;
+    document.getElementById('currentCatCount').textContent = `${found.length} gói`;
+
+    if (!found.length) {
+      container.innerHTML = '<div style="padding:40px;text-align:center;color:#64748b">Không tìm thấy gói nào phù hợp.</div>';
+      return;
     }
 
-    // Tải file về máy
-    function downloadJSON() {
-      const blob = new Blob([JSON.stringify(servicesData, null, 2)], { type: "application/json" });
-      const a = document.createElement("a");
-      a.href = URL.createObjectURL(blob);
-      a.download = "services.json";
-      a.click();
-    }
+    found.forEach(item => {
+      container.appendChild(createPlanCard(item.catName, item.plan));
+    });
+    return;
+  }
 
-    // GIỮ NGUYÊN TUYỆT ĐỐI HÀM LƯU LÊN GITHUB
-    async function saveDirectToGitHub() {
-      const GITHUB_USERNAME = '21004023-oss';
-      const REPO_NAME = 'my-static-website';
-      const FILE_PATH = 'data/services.json';
+  var cat = D[curCat];
+  if (!cat) return;
 
-      let token = localStorage.getItem('gh_token');
-      if (!token) {
-        token = prompt("Nhập GitHub Personal Access Token của bạn (chỉ cần nhập 1 lần duy nhất):");
-        if (!token) return;
-        localStorage.setItem('gh_token', token.trim());
+  document.getElementById('currentCatTitle').textContent = cat.name;
+
+  // SẮP XẾP SẢN PHẨM THEO TÊN (A -> Z)
+  var plans = (cat.plans || []).slice();
+  plans.sort(function(a, b) {
+    return (a.name || '').localeCompare(b.name || '', 'vi', { sensitivity: 'base', numeric: true });
+  });
+
+  document.getElementById('currentCatCount').textContent = `${plans.length} gói`;
+
+  if (!plans.length) {
+    container.innerHTML = '<div style="padding:40px;text-align:center;color:#64748b">Danh mục này hiện chưa có gói nào.</div>';
+    return;
+  }
+
+  plans.forEach(p => {
+    container.appendChild(createPlanCard(cat.name, p));
+  });
+}
+
+function createPlanCard(catName, p) {
+  var card = document.createElement('div');
+  var isSelected = selPlan && selPlan.id === p.id;
+  card.className = 'plan-card' + (isSelected ? ' selected' : '');
+  card.id = 'card-' + p.id;
+
+  var stock = getStockInfo(p);
+  var stockHtml = `<span class="tag ${stock.isOut ? 'out-stock' : 'in-stock'}">${stock.tag}</span>`;
+  var zaloMsg = encodeURIComponent(`Chào shop, mình muốn mua gói [${catName}] ${p.name} giá ${money(p.price)}. Còn hàng không shop?`);
+
+  card.innerHTML = `
+    <div class="plan-card-body">
+      <div class="p-left">
+        <div class="plan-title">${p.name}</div>
+        <div class="plan-sub">
+          ${p.duration ? `<span class="tag">${p.duration}</span>` : ''}
+          ${p.source ? `<span class="tag">${p.source}</span>` : ''}
+          ${stockHtml}
+        </div>
+      </div>
+      <div class="p-right">
+        <div class="plan-price">${money(p.price)}</div>
+        <div class="view-btn">Chi tiết ▾</div>
+      </div>
+    </div>
+
+    <!-- KHUNG MÔ TẢ BUNG TẠI CHỖ KHI BẤM (MOBILE) -->
+    <div class="plan-accordion">
+      <div class="desc-wrapper">
+        <div class="desc-label">
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+          Mô tả gói dịch vụ
+        </div>
+        <div class="desc-box">${formatDetail(p.detail)}</div>
+      </div>
+
+      <div class="spec-list">
+        <div class="spec-row"><span>Thời hạn:</span><span>${p.duration || 'Theo gói'}</span></div>
+        <div class="spec-row"><span>Hình thức:</span><span>${p.source || 'Chính chủ'}</span></div>
+      </div>
+
+      <a href="https://zalo.me/${ZALO}?text=${zaloMsg}" target="_blank" rel="noreferrer" class="btn-buy-zalo">
+        Đặt Mua Qua Zalo (${money(p.price)})
+      </a>
+    </div>
+  `;
+
+  card.onclick = (e) => {
+    if (e.target.closest('a')) return;
+
+    selPlan = p;
+
+    // Desktop: cập nhật cột 3 bên phải
+    if (window.innerWidth > 768) {
+      document.querySelectorAll('.plan-card').forEach(el => el.classList.remove('selected'));
+      card.classList.add('selected');
+      renderDetail(catName);
+    } 
+    // Mobile: bung accordion ngay tại chỗ
+    else {
+      var isAlreadyActive = card.classList.contains('active-mobile');
+      document.querySelectorAll('.plan-card').forEach(el => {
+        el.classList.remove('active-mobile');
+        var btn = el.querySelector('.view-btn');
+        if (btn) btn.textContent = 'Chi tiết ▾';
+      });
+
+      if (!isAlreadyActive) {
+        card.classList.add('active-mobile');
+        var btn = card.querySelector('.view-btn');
+        if (btn) btn.textContent = 'Thu gọn ▴';
       }
-
-      const btn = event.target;
-      const originalText = btn.innerText;
-      btn.innerText = "⏳ Đang lưu...";
-      btn.disabled = true;
-
-      try {
-        const getRes = await fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/${FILE_PATH}`, {
-          headers: {
-            'Authorization': `token ${token}`,
-            'Accept': 'application/vnd.github.v3+json'
-          }
-        });
-
-        if (!getRes.ok) throw new Error("Không thể xác thực Token hoặc tìm thấy file trên GitHub.");
-        const fileData = await getRes.json();
-        const sha = fileData.sha;
-
-        const newContent = btoa(unescape(encodeURIComponent(JSON.stringify(servicesData, null, 2))));
-
-        const putRes = await fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/${FILE_PATH}`, {
-          method: 'PUT',
-          headers: {
-            'Authorization': `token ${token}`,
-            'Accept': 'application/vnd.github.v3+json',
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            message: 'Admin: Cap nhat bang gia qua Admin Dashboard',
-            content: newContent,
-            sha: sha
-          })
-        });
-
-        if (!putRes.ok) throw new Error("Ghi file thất bại!");
-        alert("✅ Đã lưu trực tiếp lên GitHub thành công! Web sẽ cập nhật sau khoảng 30 giây.");
-      } catch (err) {
-        alert("❌ Lỗi: " + err.message);
-        if (confirm("Bạn có muốn đổi lại Token GitHub không?")) {
-          localStorage.removeItem('gh_token');
-        }
-      } finally {
-        btn.innerText = originalText;
-        btn.disabled = false;
-      }
     }
+  };
 
-    document.addEventListener('DOMContentLoaded', init);
-  </script>
+  return card;
+}
+
+function renderDetail(catName) {
+  var panel = document.getElementById('detailContent');
+  if (!selPlan) return;
+
+  catName = catName || (D[curCat] ? D[curCat].name : '');
+  var p = selPlan;
+  var stock = getStockInfo(p);
+  var zaloMsg = encodeURIComponent(`Chào shop, mình muốn mua gói [${catName}] ${p.name} giá ${money(p.price)}. Còn hàng không shop?`);
+
+  panel.innerHTML = `
+    <div class="detail-title">${p.name}</div>
+    
+    <div class="detail-price-box">
+      <div>
+        <span style="font-size:12px;color:var(--text-muted);display:block">Giá dịch vụ</span>
+        <div class="detail-price-val">${money(p.price)}</div>
+      </div>
+      <div class="detail-stock-badge ${stock.isOut ? 'out-stock' : 'in-stock'}">${stock.badgeText}</div>
+    </div>
+
+    <div class="desc-wrapper">
+      <div class="desc-label">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+        Mô tả chi tiết sản phẩm
+      </div>
+      <div class="desc-box">${formatDetail(p.detail)}</div>
+    </div>
+
+    <div class="spec-list">
+      <div class="spec-row"><span>Danh mục:</span><span>${catName}</span></div>
+      <div class="spec-row"><span>Thời hạn:</span><span>${p.duration || 'Theo gói'}</span></div>
+      <div class="spec-row"><span>Hình thức:</span><span>${p.source || 'Chính chủ'}</span></div>
+    </div>
+
+    <a href="https://zalo.me/${ZALO}?text=${zaloMsg}" target="_blank" rel="noreferrer" class="btn-buy-zalo">
+      Đặt Mua Qua Zalo (${money(p.price)})
+    </a>
+  `;
+}
+
+document.getElementById('searchInp').addEventListener('input', function(e) {
+  kw = e.target.value.trim().toLowerCase();
+  renderPlans();
+});
+
+document.addEventListener('DOMContentLoaded', loadData);
+</script>
 </body>
 </html>
