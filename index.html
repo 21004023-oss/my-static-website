@@ -44,12 +44,17 @@
       min-height: 100vh;
     }
 
-    /* Topbar Header */
+    /* ============================================================ */
+    /* 1. GIAO DIỆN MÁY TÍNH (DESKTOP) - GIỮ NGUYÊN HOÀN TOÀN      */
+    /* ============================================================ */
     .topbar {
       background: #0f172a;
       color: #fff;
-      padding: 16px 24px;
+      padding: 18px 32px;
       border-bottom: 1px solid rgba(255,255,255,0.08);
+      position: sticky;
+      top: 0;
+      z-index: 50;
     }
     .topbar-content {
       max-width: 1600px;
@@ -58,10 +63,10 @@
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
-      gap: 16px;
+      gap: 20px;
     }
     .brand h1 {
-      font-size: 19px;
+      font-size: 20px;
       font-weight: 800;
       letter-spacing: -0.02em;
       display: flex;
@@ -71,19 +76,19 @@
     .brand p {
       color: #94a3b8;
       font-size: 13px;
-      margin-top: 2px;
+      margin-top: 3px;
     }
     .brand p b { color: #34d399; }
 
     .search-box {
       flex: 1;
-      max-width: 440px;
-      min-width: 260px;
+      max-width: 460px;
+      min-width: 280px;
       position: relative;
     }
     .search-box input {
       width: 100%;
-      padding: 10px 16px 10px 38px;
+      padding: 11px 16px 11px 40px;
       border-radius: 99px;
       border: 1px solid rgba(255,255,255,0.15);
       background: rgba(255,255,255,0.08);
@@ -99,25 +104,24 @@
     }
     .search-box svg {
       position: absolute;
-      left: 13px;
+      left: 14px;
       top: 50%;
       transform: translateY(-50%);
       color: #94a3b8;
       pointer-events: none;
     }
 
-    /* Layout Desktop */
     .layout {
       max-width: 1600px;
-      margin: 20px auto;
-      padding: 0 20px 60px;
+      margin: 24px auto;
+      padding: 0 24px 60px;
       display: grid;
       grid-template-columns: 260px minmax(0, 1fr) 430px;
-      gap: 20px;
+      gap: 24px;
       align-items: start;
     }
 
-    /* CỘT 1: Danh mục Desktop */
+    /* CỘT 1: Danh mục trên Desktop */
     .col-cats {
       background: var(--card-bg);
       border-radius: var(--radius);
@@ -125,12 +129,12 @@
       padding: 16px 12px;
       box-shadow: var(--shadow-sm);
       position: sticky;
-      top: 20px;
-      max-height: calc(100vh - 40px);
+      top: 96px;
+      max-height: calc(100vh - 120px);
       overflow-y: auto;
       scrollbar-width: thin;
     }
-    .col-cats h2 {
+    .desktop-cat-title {
       font-size: 11.5px;
       text-transform: uppercase;
       letter-spacing: 0.08em;
@@ -139,7 +143,12 @@
       border-bottom: 1px solid var(--border);
       margin-bottom: 10px;
       font-weight: 700;
+      display: block;
     }
+    .mobile-cat-toggle {
+      display: none; /* Ẩn trên máy tính */
+    }
+
     .cat-item {
       display: flex;
       align-items: center;
@@ -184,16 +193,16 @@
       color: #fff;
     }
 
-    /* CỘT 2: Danh sách sản phẩm */
+    /* CỘT 2: Danh sách sản phẩm Desktop */
     .col-products { min-width: 0; }
     .section-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
       padding: 0 4px;
     }
-    .section-header h2 { font-size: 17px; font-weight: 800; color: var(--text-main); }
+    .section-header h2 { font-size: 18px; font-weight: 800; color: var(--text-main); }
     .section-header span { font-size: 13px; color: var(--text-muted); font-weight: 600; }
 
     .plan-card {
@@ -215,7 +224,6 @@
       box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.25);
     }
 
-    /* Thẻ hiển thị trên Desktop */
     .plan-card-body {
       padding: 16px 20px;
       display: flex;
@@ -256,7 +264,7 @@
     }
 
     .plan-card .p-right { text-align: right; flex-shrink: 0; }
-    .plan-price { font-size: 17px; font-weight: 800; color: var(--primary-dark); }
+    .plan-price { font-size: 18px; font-weight: 800; color: var(--primary-dark); }
     .view-btn {
       margin-top: 5px;
       font-size: 12px;
@@ -269,30 +277,27 @@
     }
     .plan-card.selected .view-btn { color: var(--primary-dark); }
 
-    /* Accordion bung tại chỗ (mặc định ẩn trên Desktop) */
-    .plan-accordion {
-      display: none;
-    }
+    .plan-accordion { display: none; }
 
     /* CỘT 3: Chi tiết mô tả Desktop */
     .col-detail {
       background: var(--card-bg);
       border-radius: var(--radius);
       border: 1px solid var(--border);
-      padding: 22px;
+      padding: 24px;
       box-shadow: var(--shadow-sm);
       position: sticky;
-      top: 20px;
+      top: 96px;
     }
     .detail-title {
-      font-size: 17.5px;
+      font-size: 18px;
       font-weight: 800;
       color: var(--text-main);
       line-height: 1.4;
     }
     .detail-price-box {
-      margin: 14px 0 16px;
-      padding: 13px 16px;
+      margin: 14px 0 18px;
+      padding: 14px 18px;
       background: #f8fafc;
       border-radius: 10px;
       border: 1px solid var(--border);
@@ -300,24 +305,24 @@
       align-items: center;
       justify-content: space-between;
     }
-    .detail-price-val { font-size: 21px; font-weight: 800; color: var(--primary-dark); }
+    .detail-price-val { font-size: 22px; font-weight: 800; color: var(--primary-dark); }
     .detail-stock-badge {
-      font-size: 12px;
+      font-size: 12.5px;
       font-weight: 700;
-      padding: 4px 9px;
+      padding: 4px 10px;
       border-radius: 6px;
     }
     .detail-stock-badge.in-stock { background: #ecfdf5; color: #059669; border: 1px solid #a7f3d0; }
     .detail-stock-badge.out-stock { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
 
-    .desc-wrapper { margin-bottom: 18px; }
+    .desc-wrapper { margin-bottom: 20px; }
     .desc-label {
-      font-size: 12px;
+      font-size: 12.5px;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.05em;
       color: #2563eb;
-      margin-bottom: 8px;
+      margin-bottom: 10px;
       display: flex;
       align-items: center;
       gap: 6px;
@@ -326,13 +331,13 @@
       background: #f8fafc;
       border: 1px solid var(--border);
       border-radius: 10px;
-      padding: 14px 16px;
+      padding: 16px 18px;
       font-size: 13.5px;
-      line-height: 1.75;
+      line-height: 1.8;
       color: #334155;
       white-space: pre-line;
       word-break: break-word;
-      max-height: 380px;
+      max-height: 420px;
       overflow-y: auto;
     }
     .desc-box a.desc-link {
@@ -343,7 +348,7 @@
     }
 
     .spec-list {
-      margin-bottom: 20px;
+      margin-bottom: 22px;
       font-size: 13px;
       border-top: 1px solid var(--border);
       padding-top: 12px;
@@ -351,7 +356,7 @@
     .spec-row {
       display: flex;
       justify-content: space-between;
-      padding: 7px 0;
+      padding: 8px 0;
       border-bottom: 1px solid #f1f5f9;
     }
     .spec-row span:first-child { color: var(--text-muted); }
@@ -365,8 +370,8 @@
       text-decoration: none;
       text-align: center;
       font-weight: 700;
-      font-size: 14.5px;
-      padding: 13px;
+      font-size: 15px;
+      padding: 14px;
       border-radius: 10px;
       box-shadow: 0 4px 14px rgba(5, 150, 105, 0.25);
       transition: all 0.2s ease;
@@ -374,150 +379,202 @@
     .btn-buy-zalo:hover { background: #047857; }
 
     /* ============================================================ */
-    /* GIAO DIỆN DI ĐỘNG (MOBILE) - BUNG TẠI CHỖ, CỰC KỲ DỄ NHÌN   */
+    /* 2. GIAO DIỆN RIÊNG CHO ĐIỆN THOẠI (THU / MỞ DANH MỤC MOBILE) */
     /* ============================================================ */
     @media(max-width: 768px) {
       .topbar {
-        padding: 12px 14px;
+        padding: 8px 12px;
+        position: sticky;
+        top: 0;
       }
       .topbar-content {
-        flex-direction: column;
-        align-items: stretch;
+        flex-direction: row;
+        align-items: center;
         gap: 8px;
       }
-      .brand h1 { font-size: 16px; }
-      .brand p { font-size: 12px; }
-      
+      .brand { flex: 1; min-width: 0; }
+      .brand h1 {
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .brand p { display: none; }
+
       .search-box {
-        max-width: 100%;
-        min-width: 100%;
+        max-width: 150px;
+        min-width: 130px;
       }
       .search-box input {
-        padding: 8px 14px 8px 34px;
-        font-size: 13px;
+        padding: 6px 10px 6px 28px;
+        font-size: 12px;
+        border-radius: 6px;
       }
+      .search-box svg { left: 8px; width: 12px; height: 12px; }
 
       .layout {
         grid-template-columns: 1fr;
-        padding: 0 12px 40px;
-        margin: 10px auto;
-        gap: 12px;
+        padding: 0 10px 30px;
+        margin: 8px auto;
+        gap: 8px;
       }
 
-      /* Thanh danh mục cuộn ngang nhẹ nhàng */
+      /* Khung danh mục trên Mobile */
       .col-cats {
         position: sticky;
-        top: 0;
-        z-index: 30;
+        top: 48px;
+        z-index: 40;
         max-height: none;
-        display: flex;
-        overflow-x: auto;
-        padding: 8px 4px;
-        gap: 8px;
-        background: #f8fafc;
+        overflow: visible;
+        background: transparent;
         border: none;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.03);
-        scrollbar-width: none;
-        -webkit-overflow-scrolling: touch;
+        box-shadow: none;
+        padding: 0;
       }
-      .col-cats::-webkit-scrollbar { display: none; }
-      .col-cats h2 { display: none; }
-      .cat-item {
-        white-space: nowrap;
-        width: auto;
-        padding: 7px 13px;
-        border-radius: 99px;
+      .desktop-cat-title { display: none !important; }
+
+      /* NÚT BẤM THU / MỞ DANH MỤC TRÊN ĐIỆN THOẠI */
+      .mobile-cat-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         background: #ffffff;
         border: 1px solid var(--border);
-        box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+        border-radius: 8px;
+        padding: 8px 12px;
+        cursor: pointer;
         font-size: 13px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+      }
+      .m-cat-left {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .m-cat-left strong {
+        color: var(--primary-dark);
+        font-weight: 800;
+        font-size: 13.5px;
+      }
+      .m-toggle-icon {
+        font-size: 11px;
+        font-weight: 700;
+        color: var(--text-muted);
+        background: #f1f5f9;
+        padding: 3px 8px;
+        border-radius: 6px;
+      }
+
+      /* KHUNG DANH MỤC MẶC ĐỊNH THU VÀO TRÊN MOBILE */
+      #catsContainer {
+        display: none; /* MẶC ĐỊNH THU GỌN VÀO */
+        margin-top: 6px;
+        background: #ffffff;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 8px;
+        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+        max-height: 240px;
+        overflow-y: auto;
+        display: none;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+      #catsContainer.show-mobile {
+        display: flex !important; /* KHI BẤM THÌ BUNG RA */
+        animation: dropDown 0.2s ease;
+      }
+
+      @keyframes dropDown {
+        from { opacity: 0; transform: translateY(-4px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      .cat-item {
+        width: auto;
+        padding: 5px 11px;
+        border-radius: 6px;
+        background: #f8fafc;
+        border: 1px solid var(--border);
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 0;
       }
       .cat-item.active {
         background: #0f172a;
         color: #fff;
         border-color: #0f172a;
       }
-      .cat-item:hover { transform: none; }
+      .cat-item img { display: inline-block; width: 14px; height: 14px; }
       .cat-item .badge-count { display: none; }
 
-      /* Bố cục thẻ trên điện thoại */
-      .plan-card-body {
-        padding: 14px 15px;
-        flex-direction: column;
-        align-items: stretch;
-        gap: 10px;
+      .section-header {
+        margin-bottom: 6px;
+        padding: 0 2px;
       }
-      .mobile-header-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 12px;
+      .section-header h2 { font-size: 14px; font-weight: 700; }
+      .section-header span { font-size: 11.5px; }
+
+      /* Thẻ sản phẩm siêu gọn */
+      .plan-card {
+        margin-bottom: 6px;
+        border-radius: 8px;
+      }
+      .plan-card-body {
+        padding: 9px 12px;
+        gap: 10px;
+        align-items: center;
       }
       .plan-title {
-        font-size: 14.5px;
-        flex: 1;
+        font-size: 13.5px;
+        line-height: 1.35;
+        font-weight: 600;
       }
-      .mobile-price {
-        font-size: 16.5px;
-        font-weight: 800;
-        color: var(--primary-dark);
-        white-space: nowrap;
-      }
-      
-      .mobile-footer-row {
+      .plan-sub { display: flex; gap: 5px; margin-top: 4px; }
+      .tag { font-size: 10px; padding: 1.5px 5px; border-radius: 4px; }
+
+      .plan-card .p-right {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 8px;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
       }
-      .plan-card .p-right { display: none; } /* Ẩn cột phải của desktop */
-
-      .mobile-expand-btn {
-        font-size: 12px;
-        font-weight: 700;
+      .plan-price { font-size: 14.5px; font-weight: 800; }
+      .view-btn {
+        margin-top: 2px;
+        font-size: 10.5px;
         color: var(--primary-dark);
-        background: var(--primary-light);
-        padding: 4px 10px;
-        border-radius: 6px;
-        white-space: nowrap;
       }
 
-      /* Ẩn hẳn Cột 3 riêng biệt trên mobile */
-      .col-detail {
-        display: none !important;
-      }
+      .col-detail { display: none !important; }
 
-      /* Khung mô tả bung ngay bên dưới gói */
+      /* Accordion bung mô tả tại chỗ */
       .plan-accordion {
         display: none;
         border-top: 1px dashed var(--border);
-        padding: 14px 15px;
+        padding: 12px 14px;
         background: #fbfcfe;
       }
-      .plan-card.active-mobile .plan-accordion {
-        display: block;
-        animation: fadeIn 0.25s ease;
-      }
-      .plan-card.active-mobile .mobile-expand-btn {
-        background: #0f172a;
-        color: #fff;
-      }
-
+      .plan-card.active-mobile .plan-accordion { display: block; }
+      .plan-accordion .desc-wrapper { margin-bottom: 10px; }
+      .plan-accordion .desc-label { font-size: 11px; margin-bottom: 6px; }
       .plan-accordion .desc-box {
+        padding: 10px 12px;
+        font-size: 12.5px;
+        line-height: 1.6;
         max-height: none;
-        font-size: 13px;
-        padding: 12px 14px;
-        margin-bottom: 12px;
       }
       .plan-accordion .spec-list {
-        margin-bottom: 14px;
-        font-size: 12.5px;
+        margin-bottom: 12px;
+        font-size: 12px;
+        padding-top: 8px;
       }
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(-4px); }
-      to { opacity: 1; transform: translateY(0); }
+      .plan-accordion .spec-row { padding: 4px 0; }
+      .plan-accordion .btn-buy-zalo {
+        padding: 10px;
+        font-size: 13.5px;
+        border-radius: 8px;
+      }
     }
   </style>
 </head>
@@ -527,11 +584,11 @@
   <div class="topbar-content">
     <div class="brand">
       <h1>⚡ BẢNG GIÁ DỊCH VỤ SỐ</h1>
-    
+      <p>Đặt mua qua Zalo: <b>0373 996 379</b> · Hỗ trợ 8:00 – 23:00</p>
     </div>
     <div class="search-box">
       <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-      <input id="searchInp" placeholder="Tìm nhanh dịch vụ (YouTube, ChatGPT, Canva...)" autocomplete="off" />
+      <input id="searchInp" placeholder="Tìm nhanh dịch vụ..." autocomplete="off" />
     </div>
   </div>
 </header>
@@ -539,7 +596,19 @@
 <main class="layout">
   <!-- CỘT 1: DANH MỤC -->
   <aside class="col-cats">
-    <h2>Danh mục dịch vụ</h2>
+    <!-- Tiêu đề cố định trên Máy tính -->
+    <h2 class="desktop-cat-title">Danh mục dịch vụ</h2>
+
+    <!-- Nút bấm thu ra/thu vào CHỈ TRÊN ĐIỆN THOẠI -->
+    <div class="mobile-cat-toggle" onclick="toggleMobileCats()">
+      <div class="m-cat-left">
+        <span>📂 Mục:</span>
+        <strong id="mActiveCatName">Đang tải...</strong>
+      </div>
+      <span class="m-toggle-icon" id="mToggleIcon">Đổi mục ▾</span>
+    </div>
+
+    <!-- Danh sách nút danh mục -->
     <div id="catsContainer"></div>
   </aside>
 
@@ -552,7 +621,7 @@
     <div id="plansContainer"></div>
   </section>
 
-  <!-- CỘT 3: CHI TIẾT SẢN PHẨM (DÀNH RIÊNG CHO MÁY TÍNH) -->
+  <!-- CỘT 3: CHI TIẾT SẢN PHẨM (MÁY TÍNH) -->
   <aside class="col-detail" id="detailPanel">
     <div id="detailContent">
       <div style="color:var(--text-muted); text-align:center; padding:45px 0; font-size:14px;">
@@ -598,7 +667,7 @@ function getStockInfo(p) {
   return { tag: 'Tạm hết', isOut: true, badgeText: '⚠ Tạm hết hàng' };
 }
 
-// Bộ lọc link tự động nhận diện URL có hoặc không có https://
+// BỘ LỌC LINK TỰ ĐỘNG BẤM ĐƯỢC
 function formatDetail(text) {
   if (!text) return 'Sản phẩm đang được cập nhật thông tin mô tả chi tiết.';
   var safe = text
@@ -617,6 +686,24 @@ function formatDetail(text) {
     }
     return `<a href="${href}" target="_blank" rel="noopener noreferrer" class="desc-link">${cleanUrl}</a>${trailing}`;
   });
+}
+
+// THU / MỞ KHUNG DANH MỤC TRÊN ĐIỆN THOẠI
+function toggleMobileCats() {
+  var box = document.getElementById('catsContainer');
+  var icon = document.getElementById('mToggleIcon');
+  if (!box) return;
+  var isOpen = box.classList.toggle('show-mobile');
+  if (icon) {
+    icon.textContent = isOpen ? 'Đóng ▴' : 'Đổi mục ▾';
+  }
+}
+
+function closeMobileCats() {
+  var box = document.getElementById('catsContainer');
+  var icon = document.getElementById('mToggleIcon');
+  if (box) box.classList.remove('show-mobile');
+  if (icon) icon.textContent = 'Đổi mục ▾';
 }
 
 function loadData() {
@@ -647,6 +734,13 @@ function render() {
 function renderCategories() {
   var c = document.getElementById('catsContainer');
   c.innerHTML = '';
+
+  // Cập nhật tên danh mục hiện tại lên nút bấm mobile
+  var mName = document.getElementById('mActiveCatName');
+  if (mName && D[curCat]) {
+    mName.textContent = D[curCat].name;
+  }
+
   Object.keys(D).forEach(k => {
     var it = D[k];
     var btn = document.createElement('button');
@@ -655,7 +749,7 @@ function renderCategories() {
     
     var imgHtml = logoUrl 
       ? `<img src="${logoUrl}" onerror="this.style.display='none'" />` 
-      : `<span style="font-size:12px;width:20px;text-align:center">❖</span>`;
+      : `<span style="font-size:12px;width:16px;text-align:center">❖</span>`;
 
     btn.innerHTML = `
       <div class="left">${imgHtml}<span>${it.name}</span></div>
@@ -667,6 +761,7 @@ function renderCategories() {
       document.getElementById('searchInp').value = '';
       curCat = k;
       if (D[k].plans && D[k].plans.length) selPlan = D[k].plans[0];
+      closeMobileCats(); // TỰ ĐỘNG THU GỌN LẠI KHI ĐÃ CHỌN XONG!
       render();
     };
     c.appendChild(btn);
@@ -686,7 +781,7 @@ function renderPlans() {
       });
     });
 
-    document.getElementById('currentCatTitle').textContent = `Kết quả tìm kiếm: "${kw}"`;
+    document.getElementById('currentCatTitle').textContent = `Kết quả: "${kw}"`;
     document.getElementById('currentCatCount').textContent = `${found.length} gói`;
 
     if (!found.length) {
@@ -729,34 +824,25 @@ function createPlanCard(catName, p) {
 
   card.innerHTML = `
     <div class="plan-card-body">
-      <!-- Dòng tiêu đề và giá cho mobile -->
-      <div class="mobile-header-row">
+      <div class="p-left">
         <div class="plan-title">${p.name}</div>
-        <div class="mobile-price">${money(p.price)}</div>
-      </div>
-
-      <!-- Dòng tag và nút chi tiết cho mobile -->
-      <div class="mobile-footer-row">
         <div class="plan-sub">
           ${p.duration ? `<span class="tag">${p.duration}</span>` : ''}
           ${p.source ? `<span class="tag">${p.source}</span>` : ''}
           ${stockHtml}
         </div>
-        <div class="mobile-expand-btn">Chi tiết ▾</div>
       </div>
-
-      <!-- Cột phải hiển thị riêng trên Desktop -->
       <div class="p-right">
         <div class="plan-price">${money(p.price)}</div>
-        <div class="view-btn">Chi tiết ➔</div>
+        <div class="view-btn">Chi tiết ▾</div>
       </div>
     </div>
 
-    <!-- KHUNG MÔ TẢ BUNG TẠI CHỖ (ACCORDION CHO MOBILE) -->
+    <!-- KHUNG MÔ TẢ BUNG TẠI CHỖ KHI BẤM (MOBILE) -->
     <div class="plan-accordion">
       <div class="desc-wrapper">
         <div class="desc-label">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
           Mô tả gói dịch vụ
         </div>
         <div class="desc-box">${formatDetail(p.detail)}</div>
@@ -774,29 +860,28 @@ function createPlanCard(catName, p) {
   `;
 
   card.onclick = (e) => {
-    // Nếu bấm thẳng vào link trong mô tả hoặc nút Zalo thì không toggle card
     if (e.target.closest('a')) return;
 
     selPlan = p;
 
-    // Trên Desktop: cập nhật cột 3 bên phải
+    // Desktop: cập nhật cột 3 bên phải
     if (window.innerWidth > 768) {
       document.querySelectorAll('.plan-card').forEach(el => el.classList.remove('selected'));
       card.classList.add('selected');
       renderDetail(catName);
     } 
-    // Trên Mobile: đóng mở accordion trực tiếp tại chỗ
+    // Mobile: bung accordion ngay tại chỗ
     else {
       var isAlreadyActive = card.classList.contains('active-mobile');
       document.querySelectorAll('.plan-card').forEach(el => {
         el.classList.remove('active-mobile');
-        var btn = el.querySelector('.mobile-expand-btn');
+        var btn = el.querySelector('.view-btn');
         if (btn) btn.textContent = 'Chi tiết ▾';
       });
 
       if (!isAlreadyActive) {
         card.classList.add('active-mobile');
-        var btn = card.querySelector('.mobile-expand-btn');
+        var btn = card.querySelector('.view-btn');
         if (btn) btn.textContent = 'Thu gọn ▴';
       }
     }
