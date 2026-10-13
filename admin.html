@@ -29,7 +29,6 @@
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; }
     body { background: var(--bg); color: var(--text); padding: 24px; min-height: 100vh; }
 
-    /* Header Dashboard */
     .admin-header {
       max-width: 1600px;
       margin: 0 auto 24px auto;
@@ -70,7 +69,6 @@
     .btn-danger { background: var(--red); color: #fff; }
     .btn-danger:hover { background: var(--red-hover); }
 
-    /* Layout 2 cột */
     .main-wrap {
       max-width: 1600px;
       margin: 0 auto;
@@ -81,7 +79,6 @@
     }
     @media(max-width: 1024px) { .main-wrap { grid-template-columns: 1fr; } }
 
-    /* Cột danh mục */
     .sidebar {
       background: var(--card);
       border: 1px solid var(--card-border);
@@ -131,7 +128,6 @@
       color: #fff;
     }
 
-    /* Bảng sản phẩm */
     .content-area { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
     .content-top {
       background: var(--card);
@@ -202,7 +198,6 @@
     .stock-available { background: #f0fdf4; color: #16a34a; border: 1px solid #bbf7d0; }
     .stock-empty { background: var(--red-light); color: var(--red); border: 1px solid #fecaca; }
 
-    /* Modal Form */
     .modal-overlay {
       display: none;
       position: fixed;
@@ -225,10 +220,41 @@
       padding: 24px;
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 14px;
       box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1);
     }
-    .modal-box h3 { font-size: 18px; font-weight: 800; padding-bottom: 12px; border-bottom: 1px solid var(--card-border); color: var(--text); }
+    .modal-box h3 { font-size: 18px; font-weight: 800; padding-bottom: 10px; border-bottom: 1px solid var(--card-border); color: var(--text); }
+
+    /* Ô dán nhanh */
+    .quick-paste-box {
+      background: #f8fafc;
+      border: 1.5px dashed #8b5cf6;
+      border-radius: 8px;
+      padding: 10px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .quick-paste-box label {
+      font-size: 12.5px;
+      font-weight: 800;
+      color: #6d28d9;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .quick-paste-box textarea {
+      width: 100%;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      padding: 8px 10px;
+      font-size: 12.5px;
+      outline: none;
+      resize: vertical;
+      font-family: inherit;
+    }
+    .quick-paste-box textarea:focus { border-color: #8b5cf6; box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.15); }
+
     .form-group { display: flex; flex-direction: column; gap: 6px; }
     .form-group label { font-size: 13px; font-weight: 700; color: #334155; }
     .form-group input, .form-group textarea, .form-group select {
@@ -248,7 +274,6 @@
 </head>
 <body>
 
-  <!-- Input file ẩn để nạp JSON -->
   <input type="file" id="jsonFileInput" accept=".json" style="display:none;" onchange="handleFileImport(event)" />
 
   <header class="admin-header">
@@ -266,7 +291,6 @@
   </header>
 
   <main class="main-wrap">
-    <!-- CỘT 1: DANH MỤC -->
     <aside class="sidebar">
       <div class="sidebar-header">
         <span class="sidebar-title">Danh mục dịch vụ</span>
@@ -277,7 +301,6 @@
       </div>
     </aside>
 
-    <!-- CỘT 2: BẢNG SẢN PHẨM -->
     <section class="content-area">
       <div class="content-top">
         <div class="content-top-left">
@@ -286,7 +309,6 @@
           <button class="btn btn-outline" style="padding: 4px 8px; font-size: 12px; color: var(--red); border-color:#fca5a5;" onclick="deleteCurrentCat()">🗑️ Xóa mục</button>
         </div>
 
-        <!-- CỤM TÌM KIẾM VÀ NÚT THÊM SẢN PHẨM PHÍA TRÊN -->
         <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
           <input type="text" id="filterInp" class="search-filter" placeholder="Tìm kiếm gói cước..." oninput="renderTable()" />
           <button class="btn btn-outline" style="padding: 8px 12px;" onclick="renderTable()">🔍 Tìm</button>
@@ -313,10 +335,16 @@
     </section>
   </main>
 
-  <!-- MODAL 1: THÊM / SỬA GÓI SẢN PHẨM -->
+  <!-- MODAL: THÊM / SỬA GÓI SẢN PHẨM -->
   <div class="modal-overlay" id="planModal">
     <div class="modal-box">
       <h3 id="modalTitle">Chỉnh sửa gói dịch vụ</h3>
+
+      <!-- Ô DÁN NHANH TRỰC TIẾP -->
+      <div class="quick-paste-box">
+        <label>⚡ Dán nhanh văn bản (Tự động điền tất cả các ô):</label>
+        <textarea id="inpQuickPaste" rows="2" placeholder="Dán đoạn tin nhắn (Giá, Kho, Mô tả...) vào đây rồi bấm chuột ra ngoài..."></textarea>
+      </div>
 
       <div class="form-group">
         <label>Tên gói dịch vụ:</label>
@@ -361,7 +389,7 @@
     </div>
   </div>
 
-  <!-- MODAL 2: THÊM / SỬA DANH MỤC -->
+  <!-- MODAL: THÊM / SỬA DANH MỤC -->
   <div class="modal-overlay" id="catModal">
     <div class="modal-box" style="max-width: 480px;">
       <h3 id="catModalTitle">Thêm danh mục mới</h3>
@@ -394,7 +422,6 @@
     let editingPlanIndex = -1;
     let isEditingCat = false;
 
-    // Load dữ liệu
     async function init() {
       try {
         const res = await fetch(`data/services.json?t=${new Date().getTime()}`);
@@ -411,29 +438,22 @@
       }
     }
 
-    // Nạp file JSON từ máy tính
-    function triggerImportFile() {
-      document.getElementById('jsonFileInput').click();
-    }
+    function triggerImportFile() { document.getElementById('jsonFileInput').click(); }
 
     function handleFileImport(e) {
       const file = e.target.files[0];
       if (!file) return;
-
       const reader = new FileReader();
       reader.onload = function(evt) {
         try {
           const parsed = JSON.parse(evt.target.result);
-          if (typeof parsed !== 'object' || parsed === null) {
-            throw new Error("File không đúng cấu trúc dịch vụ số!");
-          }
+          if (typeof parsed !== 'object' || parsed === null) throw new Error("File không đúng cấu trúc!");
           servicesData = parsed;
           const cats = Object.keys(servicesData);
           if (cats.length > 0) activeCat = cats[0];
-          
           renderCategories();
           renderTable();
-          alert("✅ Nạp file JSON mới thành công! Bạn có thể xem và chỉnh sửa ngay trên bảng.");
+          alert("✅ Nạp file JSON mới thành công!");
         } catch (err) {
           alert("❌ Không thể đọc file: " + err.message);
         }
@@ -442,7 +462,6 @@
       e.target.value = '';
     }
 
-    // Render danh mục
     function renderCategories() {
       const el = document.getElementById('catList');
       el.innerHTML = Object.entries(servicesData).map(([k, cat]) => `
@@ -460,7 +479,6 @@
       renderTable();
     }
 
-    // QUẢN LÝ DANH MỤC (THÊM / SỬA / XÓA)
     function openAddCatModal() {
       isEditingCat = false;
       document.getElementById('catModalTitle').innerText = 'Thêm danh mục mới';
@@ -481,14 +499,11 @@
       document.getElementById('catModal').style.display = 'flex';
     }
 
-    function closeCatModal() {
-      document.getElementById('catModal').style.display = 'none';
-    }
+    function closeCatModal() { document.getElementById('catModal').style.display = 'none'; }
 
     function saveCategory() {
       const name = document.getElementById('inpCatName').value.trim();
       const logo = document.getElementById('inpCatLogo').value.trim();
-
       if (!name) { alert("Vui lòng nhập tên danh mục!"); return; }
 
       if (isEditingCat) {
@@ -497,18 +512,10 @@
       } else {
         let key = document.getElementById('inpCatKey').value.trim().toLowerCase().replace(/[^a-z0-9_-]/g, '-');
         if (!key) key = 'cat-' + Date.now();
-        if (servicesData[key]) {
-          alert("Mã danh mục này đã tồn tại, vui lòng chọn mã khác!");
-          return;
-        }
-        servicesData[key] = {
-          name: name,
-          logo: logo,
-          plans: []
-        };
+        if (servicesData[key]) { alert("Mã này đã tồn tại!"); return; }
+        servicesData[key] = { name, logo, plans: [] };
         activeCat = key;
       }
-
       closeCatModal();
       renderCategories();
       renderTable();
@@ -517,9 +524,7 @@
     function deleteCurrentCat() {
       if (!activeCat || !servicesData[activeCat]) return;
       const catName = servicesData[activeCat].name;
-      const count = (servicesData[activeCat].plans || []).length;
-
-      if (confirm(`Bạn có chắc chắn muốn xóa danh mục "${catName}" cùng toàn bộ ${count} gói bên trong?`)) {
+      if (confirm(`Xóa danh mục "${catName}"?`)) {
         delete servicesData[activeCat];
         const remaining = Object.keys(servicesData);
         activeCat = remaining.length > 0 ? remaining[0] : '';
@@ -528,11 +533,9 @@
       }
     }
 
-    // Render bảng gói sản phẩm
     function renderTable() {
       const currentCat = servicesData[activeCat];
       const tbody = document.getElementById('plansTableBody');
-
       if (!currentCat) {
         document.getElementById('currentCategoryTitle').innerText = 'Chưa chọn danh mục';
         tbody.innerHTML = `<tr><td colspan="5" style="text-align:center; padding:30px; color:var(--text-muted);">Hãy chọn hoặc thêm danh mục mới.</td></tr>`;
@@ -571,7 +574,6 @@
             <td style="color:#059669; font-weight:700; font-size:15px;">${Number(p.price).toLocaleString('vi-VN')}đ</td>
             <td>${stockHtml}</td>
             <td>${p.duration || 'N/A'}</td>
-            <!-- NÚT THÊM KẾ BÊN NÚT SỬA VÀ XÓA -->
             <td style="text-align: right; white-space: nowrap;">
               <button class="btn btn-primary" style="padding:6px 11px; font-size:12px;" onclick="openAddModal()" title="Thêm gói mới">➕ Thêm</button>
               <button class="btn btn-outline" style="padding:6px 11px; font-size:12px;" onclick="openEditModal(${idx})" title="Chỉnh sửa gói">✏️ Sửa</button>
@@ -587,10 +589,72 @@
       document.getElementById('stockNumberWrap').style.display = type === 'num' ? 'flex' : 'none';
     }
 
+    // BỘ PHÂN TÍCH VÀ ĐIỀN DỮ LIỆU TỰ ĐỘNG
+    function parseAndFillText(raw) {
+      if (!raw || !raw.trim()) return;
+      const lines = raw.trim().split('\n').map(l => l.trim()).filter(Boolean);
+
+      // Tên
+      if (lines.length > 0) {
+        document.getElementById('inpName').value = lines[0].replace(/^[^\w\s\u00C0-\u1EF9]+/i, '').trim();
+      }
+
+      // Giá (ví dụ: 60k -> 60000)
+      const priceMatch = raw.match(/Giá[:\s]*([0-9.,]+)\s*([kK]?)/i);
+      if (priceMatch) {
+        let pVal = parseFloat(priceMatch[1].replace(/[,.]/g, ''));
+        if (priceMatch[2] && priceMatch[2].toLowerCase() === 'k') pVal *= 1000;
+        document.getElementById('inpPrice').value = pVal;
+      }
+
+      // Thời hạn
+      const durMatch = raw.match(/(\d+\s*(?:Tháng|tháng|Năm|năm|Ngày|ngày|Giờ|giờ|H|h))/i);
+      if (durMatch) {
+        document.getElementById('inpDuration').value = durMatch[1].trim();
+      }
+
+      // Tồn kho
+      const stockMatch = raw.match(/Tồn kho[:\s]*(.*)/i);
+      if (stockMatch) {
+        const sText = stockMatch[1];
+        if (sText.includes('∞') || sText.toLowerCase().includes('vô cực')) {
+          document.getElementById('inpStockType').value = '-1';
+        } else {
+          const num = parseInt(sText.replace(/\D/g, ''), 10);
+          if (!isNaN(num)) {
+            if (num === 0) {
+              document.getElementById('inpStockType').value = '0';
+            } else {
+              document.getElementById('inpStockType').value = 'num';
+              document.getElementById('inpStockNumber').value = num;
+            }
+          }
+        }
+        toggleStockInput();
+      }
+
+      // Mô tả
+      const descIndex = raw.search(/Mô tả\s*:/i);
+      if (descIndex !== -1) {
+        document.getElementById('inpDetail').value = raw.substring(descIndex).replace(/^Mô tả\s*:\s*/i, '').trim();
+      } else {
+        document.getElementById('inpDetail').value = lines.slice(1).filter(l => !/^(💰|📦|📊|Giá|Tồn kho|Đã bán)/i.test(l)).join('\n');
+      }
+    }
+
+    // Lắng nghe khi dán vào ô dán nhanh
+    document.addEventListener('DOMContentLoaded', () => {
+      init();
+      document.getElementById('inpQuickPaste').addEventListener('input', function(e) {
+        parseAndFillText(e.target.value);
+      });
+    });
+
     function openAddModal() {
       if (!activeCat) { alert("Vui lòng tạo ít nhất 1 danh mục trước!"); return; }
       editingPlanIndex = -1;
       document.getElementById('modalTitle').innerText = `Thêm gói vào ${servicesData[activeCat].name}`;
+      document.getElementById('inpQuickPaste').value = '';
       document.getElementById('inpName').value = '';
       document.getElementById('inpPrice').value = '';
       document.getElementById('inpDuration').value = '1 Tháng';
@@ -598,12 +662,14 @@
       document.getElementById('inpDetail').value = '• Mô tả gói dịch vụ...\n• Quy định bảo hành...';
       toggleStockInput();
       document.getElementById('planModal').style.display = 'flex';
+      document.getElementById('inpQuickPaste').focus();
     }
 
     function openEditModal(idx) {
       editingPlanIndex = idx;
       const p = servicesData[activeCat].plans[idx];
       document.getElementById('modalTitle').innerText = `Chỉnh sửa: ${p.name}`;
+      document.getElementById('inpQuickPaste').value = '';
       document.getElementById('inpName').value = p.name;
       document.getElementById('inpPrice').value = p.price;
       document.getElementById('inpDuration').value = p.duration || '1 Tháng';
@@ -622,9 +688,7 @@
       document.getElementById('planModal').style.display = 'flex';
     }
 
-    function closeModal() {
-      document.getElementById('planModal').style.display = 'none';
-    }
+    function closeModal() { document.getElementById('planModal').style.display = 'none'; }
 
     function savePlan() {
       const name = document.getElementById('inpName').value.trim();
@@ -674,15 +738,13 @@
       }
     }
 
-    // Sao chép JSON
     function copyJSON() {
       const str = JSON.stringify(servicesData, null, 2);
       navigator.clipboard.writeText(str).then(() => {
-        alert("✅ Đã sao chép toàn bộ JSON vào Clipboard! Giờ bạn có thể dán thẳng vào GitHub.");
+        alert("✅ Đã sao chép toàn bộ JSON vào Clipboard!");
       });
     }
 
-    // Tải file về máy
     function downloadJSON() {
       const blob = new Blob([JSON.stringify(servicesData, null, 2)], { type: "application/json" });
       const a = document.createElement("a");
@@ -691,7 +753,6 @@
       a.click();
     }
 
-    // GIỮ NGUYÊN TUYỆT ĐỐI HÀM LƯU LÊN GITHUB
     async function saveDirectToGitHub() {
       const GITHUB_USERNAME = '21004023-oss';
       const REPO_NAME = 'my-static-website';
@@ -749,8 +810,6 @@
         btn.disabled = false;
       }
     }
-
-    document.addEventListener('DOMContentLoaded', init);
   </script>
 </body>
 </html>
