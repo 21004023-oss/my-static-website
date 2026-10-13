@@ -33,7 +33,87 @@
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+      user-select: none;
     }
+
+    /* MÀN HÌNH KHÓA BẢO MẬT */
+    #lockScreenOverlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: #090d16;
+      z-index: 99999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .lock-box {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 16px;
+      padding: 32px 28px;
+      width: 100%;
+      max-width: 380px;
+      text-align: center;
+      box-shadow: 0 25px 50px -12px rgba(0,0,0,0.9);
+      animation: fadeIn 0.3s ease;
+    }
+    .lock-icon {
+      width: 56px;
+      height: 56px;
+      background: rgba(56, 189, 248, 0.15);
+      color: #38bdf8;
+      border-radius: 16px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      margin-bottom: 16px;
+    }
+    .lock-title { font-size: 18px; font-weight: 800; color: #fff; margin-bottom: 6px; }
+    .lock-desc { font-size: 12.5px; color: var(--text-muted); margin-bottom: 22px; line-height: 1.4; }
+    .pin-input {
+      width: 100%;
+      background: #090d16;
+      border: 2px solid #334155;
+      border-radius: 10px;
+      padding: 12px;
+      color: #fff;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: 4px;
+      outline: none;
+      transition: all 0.2s;
+    }
+    .pin-input:focus { border-color: #38bdf8; box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2); }
+    .btn-unlock {
+      width: 100%;
+      background: linear-gradient(135deg, #0284c7, #38bdf8);
+      color: #fff;
+      border: none;
+      padding: 12px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 700;
+      margin-top: 14px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-unlock:hover { opacity: 0.95; transform: translateY(-1px); }
+    .lock-error {
+      color: #f43f5e;
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 10px;
+      display: none;
+    }
+    @keyframes fadeIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-8px); }
+      40%, 80% { transform: translateX(8px); }
+    }
+    .shake-anim { animation: shake 0.4s ease; }
 
     /* HEADER */
     .admin-header {
@@ -49,11 +129,7 @@
       z-index: 50;
     }
 
-    .brand-wrap {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
+    .brand-wrap { display: flex; align-items: center; gap: 12px; }
     .brand-logo {
       width: 38px;
       height: 38px;
@@ -66,22 +142,10 @@
       font-size: 18px;
       color: #0f172a;
     }
-    .brand-text h1 {
-      font-size: 16px;
-      font-weight: 700;
-      color: #fff;
-    }
-    .brand-text p {
-      font-size: 12px;
-      color: var(--text-muted);
-    }
+    .brand-text h1 { font-size: 16px; font-weight: 700; color: #fff; }
+    .brand-text p { font-size: 12px; color: var(--text-muted); }
 
-    .header-actions {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
+    .header-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 
     /* BUTTONS */
     .btn {
@@ -101,8 +165,6 @@
     .btn-primary:hover { background: #0369a1; transform: translateY(-1px); }
     .btn-success { background: #059669; color: #fff; }
     .btn-success:hover { background: #047857; }
-    .btn-warning { background: #d97706; color: #fff; }
-    .btn-warning:hover { background: #b45309; }
     .btn-danger { background: #e11d48; color: #fff; }
     .btn-danger:hover { background: #be123c; }
     .btn-purple { background: #6366f1; color: #fff; }
@@ -112,10 +174,7 @@
       border-color: var(--card-border);
       color: var(--text-muted);
     }
-    .btn-outline:hover {
-      background: #334155;
-      color: #fff;
-    }
+    .btn-outline:hover { background: #334155; color: #fff; }
 
     /* KPI STATS CARDS */
     .stats-grid {
@@ -187,11 +246,7 @@
     .tab-badge.badge-red { background: #e11d48; }
 
     /* MAIN CONTENT */
-    .main-wrap {
-      flex: 1;
-      padding: 20px 24px;
-      display: none;
-    }
+    .main-wrap { flex: 1; padding: 20px 24px; display: none; }
     .main-wrap.active { display: block; }
 
     /* TAB 1: PRODUCT & CATEGORY MANAGER */
@@ -286,12 +341,8 @@
     }
     .search-input:focus { border-color: var(--primary); }
 
-    /* TABLE STYLES */
-    .custom-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 13px;
-    }
+    /* TABLE */
+    .custom-table { width: 100%; border-collapse: collapse; font-size: 13px; }
     .custom-table th {
       background: #0f172a;
       padding: 12px 14px;
@@ -326,24 +377,15 @@
     .badge-source { background: rgba(99, 102, 241, 0.15); color: #818cf8; border: 1px solid rgba(99, 102, 241, 0.3); }
     .badge-warning { background: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3); }
 
-    /* TAB 2: LIVE RECENT FEED */
+    /* FEED */
     .feed-container {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: var(--radius);
       padding: 20px;
     }
-    .feed-head {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 16px;
-    }
-    .feed-list {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
+    .feed-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+    .feed-list { display: flex; flex-direction: column; gap: 10px; }
     .feed-item {
       background: #0f172a;
       border: 1px solid var(--card-border);
@@ -368,7 +410,7 @@
       color: #38bdf8;
     }
 
-    /* TAB 3: SMART AUDITOR */
+    /* AUDIT */
     .audit-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -381,14 +423,7 @@
       border-radius: var(--radius);
       padding: 18px;
     }
-    .audit-card-head {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 12px;
-      font-weight: 700;
-      font-size: 14px;
-    }
+    .audit-card-head { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; font-weight: 700; font-size: 14px; }
 
     /* MODAL */
     .modal-overlay {
@@ -448,14 +483,7 @@
     .form-control:focus { border-color: var(--primary); }
     textarea.form-control { min-height: 90px; resize: vertical; line-height: 1.4; }
 
-    .price-input-alert {
-      color: #f59e0b;
-      font-size: 11.5px;
-      margin-top: 4px;
-      display: none;
-    }
-
-    /* INLINE EDIT */
+    .price-input-alert { color: #f59e0b; font-size: 11.5px; margin-top: 4px; display: none; }
     .inline-price-input {
       width: 95px;
       background: #090d16;
@@ -471,6 +499,23 @@
 </head>
 <body>
 
+  <!-- ========================================================================= -->
+  <!-- MÀN HÌNH KHÓA BẢO MẬT (SHA-256 ENCRYPTED PIN) -->
+  <!-- ========================================================================= -->
+  <div id="lockScreenOverlay">
+    <div class="lock-box" id="lockBox">
+      <div class="lock-icon">🛡️</div>
+      <h2 class="lock-title">Khu Vực Quản Trị</h2>
+      <p class="lock-desc">Trang quản trị được bảo vệ an toàn. Vui lòng nhập mã PIN bảo mật để truy cập.</p>
+
+      <form onsubmit="handleUnlock(event)">
+        <input type="password" id="inpPinCode" class="pin-input" placeholder="••••••" maxlength="12" autofocus autocomplete="off" />
+        <button type="submit" class="btn-unlock">🔓 Mở Khóa Quản Trị</button>
+      </form>
+      <div id="lockErrorMsg" class="lock-error">❌ Mã PIN không chính xác! Vui lòng thử lại.</div>
+    </div>
+  </div>
+
   <!-- 1. HEADER -->
   <header class="admin-header">
     <div class="brand-wrap">
@@ -485,10 +530,11 @@
       <button class="btn btn-primary" id="btnSaveGitHub" onclick="saveDirectToGitHub()">
         🚀 Lưu lên GitHub
       </button>
-      <button class="btn btn-outline" onclick="openTokenModal()">🔑 GitHub Token</button>
+      <button class="btn btn-outline" style="padding:8px 10px;" title="Cài đặt Token" onclick="openTokenModal()">⚙️ Token</button>
       <button class="btn btn-outline" onclick="triggerImportFile()">📁 Nạp JSON</button>
       <button class="btn btn-outline" onclick="downloadJSON()">💾 Tải JSON</button>
       <a href="index.html" target="_blank" class="btn btn-success">👁️ Xem Web Bán</a>
+      <button class="btn btn-danger" style="padding:8px 10px;" title="Khóa màn hình" onclick="lockAdmin()">🔒</button>
     </div>
   </header>
 
@@ -540,9 +586,7 @@
     </button>
   </nav>
 
-  <!-- ========================================================================= -->
   <!-- TAB 1: DANH MỤC & SẢN PHẨM -->
-  <!-- ========================================================================= -->
   <main class="main-wrap active" id="tabView-catalog">
     <div class="catalog-layout">
       <!-- CỘT DANH MỤC -->
@@ -593,9 +637,7 @@
     </div>
   </main>
 
-  <!-- ========================================================================= -->
-  <!-- TAB 2: SẢN PHẨM VỪA LÊN / LIVE RECENT FEED -->
-  <!-- ========================================================================= -->
+  <!-- TAB 2: LIVE RECENT FEED -->
   <main class="main-wrap" id="tabView-recent">
     <div class="feed-container">
       <div class="feed-head">
@@ -614,9 +656,7 @@
     </div>
   </main>
 
-  <!-- ========================================================================= -->
   <!-- TAB 3: KIỂM TRA LOGIC GIÁ & BẤT THƯỜNG -->
-  <!-- ========================================================================= -->
   <main class="main-wrap" id="tabView-audit">
     <div class="feed-container">
       <div class="feed-head">
@@ -655,9 +695,7 @@
     </div>
   </main>
 
-  <!-- ========================================================================= -->
   <!-- TAB 4: LỊCH SỬ NHẬP HÀNG (_history) -->
-  <!-- ========================================================================= -->
   <main class="main-wrap" id="tabView-history">
     <div class="feed-container">
       <div class="feed-head">
@@ -692,9 +730,7 @@
     </div>
   </main>
 
-  <!-- ========================================================================= -->
   <!-- MODAL: THÊM / SỬA SẢN PHẨM -->
-  <!-- ========================================================================= -->
   <div class="modal-overlay" id="planModal">
     <div class="modal-content">
       <div class="modal-header">
@@ -704,7 +740,7 @@
       <div class="modal-body">
         <div class="form-group">
           <label class="form-label" style="color:var(--primary);">⚡ Dán nhanh thông báo Bot (Tự động điền form):</label>
-          <textarea id="inpQuickPaste" class="form-control" placeholder="Dán nội dung tin nhắn bot vào đây (ví dụ: ChatGPT Plus... Thêm: 10 Giá: 230k)..."></textarea>
+          <textarea id="inpQuickPaste" class="form-control" placeholder="Dán nội dung tin nhắn bot vào đây..."></textarea>
         </div>
 
         <div class="form-group">
@@ -792,11 +828,11 @@
       </div>
       <div class="modal-body">
         <p style="font-size:12.5px; color:var(--text-muted); line-height:1.5;">
-          Token dùng để lưu trực tiếp file <code>data/services.json</code> lên GitHub repository của bạn.
+          Token chỉ được lưu cục bộ trên trình duyệt máy bạn (localStorage) để cấp quyền lưu file lên GitHub.
         </p>
         <div class="form-group">
           <label class="form-label">GitHub Token (ghp_...):</label>
-          <input type="password" id="inpGitHubToken" class="form-control" placeholder="ghp_..." />
+          <input type="password" id="inpGitHubToken" class="form-control" placeholder="Dán token vào đây..." />
         </div>
       </div>
       <div class="modal-footer">
@@ -810,6 +846,77 @@
 
   <!-- SCRIPT LOGIC -->
   <script>
+    // =========================================================================
+    // 1. BẢO MẬT: CHẶN F12 & CHUỘT PHẢI
+    // =========================================================================
+    document.addEventListener('contextmenu', e => e.preventDefault());
+    document.addEventListener('keydown', e => {
+      // Chặn F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+Shift+C, Ctrl+U
+      if (
+        e.key === 'F12' ||
+        (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i' || e.key === 'J' || e.key === 'j' || e.key === 'C' || e.key === 'c')) ||
+        (e.ctrlKey && (e.key === 'U' || e.key === 'u' || e.key === 'S' || e.key === 's'))
+      ) {
+        e.preventDefault();
+        return false;
+      }
+    });
+
+    // =========================================================================
+    // 2. BẢO MẬT: MÃ HÓA SHA-256 CHO MÃ PIN MỞ KHÓA (071003)
+    // =========================================================================
+    // Hash SHA-256 tương ứng của mã pin '071003'
+    const PIN_HASH_SECURE = '5d6b0d5ce35cc43945965b67a21225493a94a1d0f8a8b71512a617cdb9137696';
+
+    async function computeSHA256(str) {
+      const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+      return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+
+    async function handleUnlock(e) {
+      if (e) e.preventDefault();
+      const inp = document.getElementById('inpPinCode');
+      const val = (inp.value || '').trim();
+      const hash = await computeSHA256(val);
+
+      if (hash === PIN_HASH_SECURE) {
+        sessionStorage.setItem('adm_session_ok', 'true');
+        document.getElementById('lockScreenOverlay').style.display = 'none';
+        initAdminData();
+      } else {
+        const box = document.getElementById('lockBox');
+        const err = document.getElementById('lockErrorMsg');
+        err.style.display = 'block';
+        box.classList.add('shake-anim');
+        setTimeout(() => box.classList.remove('shake-anim'), 500);
+        inp.value = '';
+        inp.focus();
+      }
+    }
+
+    function checkExistingSession() {
+      if (sessionStorage.getItem('adm_session_ok') === 'true') {
+        document.getElementById('lockScreenOverlay').style.display = 'none';
+        initAdminData();
+      } else {
+        document.getElementById('lockScreenOverlay').style.display = 'flex';
+        setTimeout(() => {
+          const inp = document.getElementById('inpPinCode');
+          if (inp) inp.focus();
+        }, 100);
+      }
+    }
+
+    function lockAdmin() {
+      sessionStorage.removeItem('adm_session_ok');
+      document.getElementById('lockScreenOverlay').style.display = 'flex';
+      document.getElementById('inpPinCode').value = '';
+      document.getElementById('lockErrorMsg').style.display = 'none';
+    }
+
+    // =========================================================================
+    // 3. LOGIC QUẢN TRỊ DỮ LIỆU
+    // =========================================================================
     const GITHUB_USERNAME = '21004023-oss';
     const REPO_NAME = 'my-static-website';
     const FILE_PATH = 'data/services.json';
@@ -821,7 +928,6 @@
     let draggedRowIndex = null;
     let draggedRowCat = null;
 
-    // TỪ KHÓA TỰ ĐỘNG PHÂN LOẠI
     const CAT_KEYWORDS = {
       'youtube': /youtube|ytb/i,
       'chatgpt': /chatgpt|gpt|openai/i,
@@ -839,24 +945,13 @@
       'bot-tele': /bot.*tele|telegram.*spam/i
     };
 
-    // ĐỊNH GIÁ CHUẨN THAM CHIẾU ĐỂ BẮT LỖI LOGIC GIÁ
-    const PRICE_BENCHMARKS = {
-      'gmail': { min: 300, max: 20000, typical: 1000 },
-      'chatgpt': { min: 5000, max: 800000, typical: 150000 },
-      'youtube': { min: 10000, max: 500000, typical: 30000 },
-      'canva': { min: 10000, max: 300000, typical: 40000 },
-      'capcut': { min: 20000, max: 500000, typical: 60000 },
-      'notion': { min: 20000, max: 600000, typical: 80000 },
-      'api-claude-codex': { min: 10000, max: 500000, typical: 45000 }
-    };
-
-    async function init() {
+    async function initAdminData() {
       try {
         const res = await fetch(`./data/services.json?t=${Date.now()}`);
         if (!res.ok) throw new Error("Chưa tải được file services.json");
         servicesData = await res.json();
       } catch (err) {
-        console.warn("Dùng dữ liệu mẫu hoặc localStorage:", err);
+        console.warn("Dùng dữ liệu hiện có:", err);
       }
 
       if (!servicesData._history) servicesData._history = [];
@@ -868,7 +963,6 @@
       renderHistoryTable();
     }
 
-    // --- TAB SWITCHER ---
     function switchTab(tabId) {
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
       document.querySelectorAll('.main-wrap').forEach(w => w.classList.remove('active'));
@@ -883,7 +977,6 @@
       if (tabId === 'history') renderHistoryTable();
     }
 
-    // --- STATS UPDATE ---
     function updateStats() {
       let total = 0;
       let inStock = 0;
@@ -909,7 +1002,6 @@
       document.getElementById('badgeRecentCount').innerText = Math.min(historyCount, 15);
     }
 
-    // --- CATEGORIES ---
     function renderCategories() {
       const container = document.getElementById('catList');
       container.innerHTML = '';
@@ -941,7 +1033,6 @@
           renderTable();
         };
 
-        // Kéo thả sản phẩm vào danh mục
         item.ondragover = (e) => { e.preventDefault(); item.classList.add('drag-over'); };
         item.ondragleave = () => item.classList.remove('drag-over');
         item.ondrop = (e) => {
@@ -956,7 +1047,6 @@
       renderTable();
     }
 
-    // --- TABLE SẢN PHẨM ---
     function renderTable() {
       const tbody = document.getElementById('plansTableBody');
       tbody.innerHTML = '';
@@ -975,7 +1065,7 @@
 
         const tr = document.createElement('tr');
         tr.draggable = true;
-        tr.ondragstart = (e) => { draggedRowIndex = idx; draggedRowCat = currentCat; tr.classList.add('row-dragging'); };
+        tr.ondragstart = () => { draggedRowIndex = idx; draggedRowCat = currentCat; tr.classList.add('row-dragging'); };
         tr.ondragend = () => { draggedRowIndex = null; tr.classList.remove('row-dragging'); };
         tr.ondragover = (e) => e.preventDefault();
         tr.ondrop = (e) => { e.preventDefault(); handleRowDrop(idx); };
@@ -1025,7 +1115,6 @@
       renderTable();
     }
 
-    // --- TAB 2: LIVE RECENT FEED ---
     function renderRecentFeed() {
       const container = document.getElementById('recentFeedList');
       container.innerHTML = '';
@@ -1082,10 +1171,9 @@
           return;
         }
       }
-      alert("Không tìm thấy gói này trong danh sách hiện tại (có thể đã bị đổi tên hoặc xóa).");
+      alert("Không tìm thấy gói này trong danh sách hiện tại.");
     }
 
-    // --- TAB 3: SMART AUDITOR (KIỂM TRA LOGIC GIÁ & BẤT THƯỜNG) ---
     function runPriceAudit() {
       const summaryContainer = document.getElementById('auditSummaryCards');
       const tableBody = document.getElementById('auditTableBody');
@@ -1105,22 +1193,15 @@
           let issue = null;
           let suggestedPrice = 0;
 
-          // 1. Kiểm tra giá = 0
           if (price <= 0) {
             issue = 'Giá bằng 0 hoặc chưa nhập giá';
-          }
-          // 2. Kiểm tra lỗi thập phân kinh điển (ví dụ Hotmail 0.5k bị nhập thành 5000đ)
-          else if (/hotmail/i.test(name) && price >= 3000) {
-            issue = 'Nghi vấn nhầm 0.5k thành 5.000đ (Giá hotmail thường 500đ - 1.000đ)';
+          } else if (/hotmail/i.test(name) && price >= 3000) {
+            issue = 'Nghi vấn nhầm 0.5k thành 5.000đ (Hotmail thường 500đ - 1.000đ)';
             suggestedPrice = 500;
-          }
-          // 3. Kiểm tra ChatGPT giá quá thấp (< 10.000đ mà không phải file json/free)
-          else if (/chatgpt/i.test(name) && !/json|free/i.test(name) && price < 15000) {
+          } else if (/chatgpt/i.test(name) && !/json|free/i.test(name) && price < 15000) {
             issue = 'Giá ChatGPT quá thấp so với thực tế (< 15.000đ)';
-          }
-          // 4. Kiểm tra gói bất thường quá đắt (> 2.000.000đ)
-          else if (price > 2000000) {
-            issue = 'Giá bất thường (> 2.000.000đ), cần kiểm tra lại số 0 thừa';
+          } else if (price > 2000000) {
+            issue = 'Giá bất thường (> 2.000.000đ), cần kiểm tra lại';
           }
 
           if (issue) {
@@ -1132,7 +1213,6 @@
       document.getElementById('badgeAlertCount').innerText = alerts.length;
       document.getElementById('statPriceAlerts').innerText = alerts.length;
 
-      // Render cards
       summaryContainer.innerHTML = `
         <div class="audit-card">
           <div class="audit-card-head" style="color:#38bdf8;">📦 Tổng Gói Đã Quét</div>
@@ -1198,7 +1278,6 @@
       alert("✅ Đã cập nhật giá mới! Đừng quên bấm '🚀 Lưu lên GitHub' để cập nhật lên web.");
     }
 
-    // --- TAB 4: LỊCH SỬ THÊM ---
     function renderHistoryTable() {
       const tbody = document.getElementById('historyTableBody');
       tbody.innerHTML = '';
@@ -1246,7 +1325,6 @@
       }
     }
 
-    // --- MODAL THÊM / SỬA SẢN PHẨM ---
     function openAddModal() {
       editingPlanIndex = -1;
       document.getElementById('modalTitle').innerText = "Thêm Sản Phẩm Mới";
@@ -1369,7 +1447,6 @@
       }
     }
 
-    // --- QUICK PASTE BOT TEXT ---
     document.getElementById('inpQuickPaste').addEventListener('input', function(e) {
       const raw = e.target.value.trim();
       if (!raw) return;
@@ -1379,7 +1456,6 @@
         document.getElementById('inpName').value = lines[0].replace(/^[^\w\s\u00C0-\u1EF9]+/i, '').trim();
       }
 
-      // Giá
       const pMatch = raw.match(/Giá[:\s]*([0-9.,]+)\s*([kKđĐ]?)/i);
       if (pMatch) {
         let pStr = pMatch[1].trim();
@@ -1394,7 +1470,6 @@
         checkPriceLogicInput(finalP);
       }
 
-      // Số lượng
       const addMatch = raw.match(/(?:Thêm|Tồn kho)[:\s]*([0-9]+)/i);
       if (addMatch) {
         document.getElementById('inpStockType').value = 'number';
@@ -1402,7 +1477,6 @@
         toggleStockInput();
       }
 
-      // Tự phân loại danh mục
       for (const [k, reg] of Object.entries(CAT_KEYWORDS)) {
         if (reg.test(raw)) {
           document.getElementById('inpTargetCategory').value = k;
@@ -1411,7 +1485,6 @@
       }
     });
 
-    // --- MODAL DANH MỤC ---
     function openAddCatModal() {
       editingCatKey = null;
       document.getElementById('catModalTitle').innerText = "Thêm Danh Mục Mới";
@@ -1469,7 +1542,6 @@
       plans.forEach(p => {
         for (const [k, reg] of Object.entries(CAT_KEYWORDS)) {
           if (k !== currentCat && reg.test(p.name)) {
-            // Chuyển sang k
             const idx = servicesData[currentCat].plans.indexOf(p);
             if (idx !== -1) {
               servicesData[currentCat].plans.splice(idx, 1);
@@ -1486,7 +1558,6 @@
       updateStats();
     }
 
-    // --- GITHUB TOKEN & SAVE ---
     function openTokenModal() {
       document.getElementById('inpGitHubToken').value = (localStorage.getItem('gh_token') || '').trim();
       document.getElementById('tokenModal').classList.add('active');
@@ -1571,7 +1642,7 @@
       reader.readAsText(file);
     }
 
-    document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('DOMContentLoaded', checkExistingSession);
   </script>
 </body>
 </html>
