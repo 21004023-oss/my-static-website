@@ -3,94 +3,213 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bảng Quản Trị Dịch Vụ - Admin Panel</title>
+  <title>Bảng Quản Trị Dịch Vụ - Admin Pro</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #f8fafc;
-      --card: #ffffff;
-      --card-border: #e2e8f0;
-      --primary: #2563eb;
-      --primary-hover: #1d4ed8;
-      --green: #059669;
-      --green-hover: #047857;
-      --green-light: #ecfdf5;
-      --red: #dc2626;
-      --red-hover: #b91c1c;
-      --red-light: #fef2f2;
-      --purple: #7c3aed;
-      --purple-hover: #6d28d9;
-      --text: #0f172a;
-      --text-muted: #64748b;
-      --radius: 10px;
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --primary: #38bdf8;
+      --primary-hover: #0284c7;
+      --emerald: #10b981;
+      --amber: #f59e0b;
+      --rose: #f43f5e;
+      --purple: #818cf8;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --input-bg: #090d16;
+      --input-border: #334155;
+      --radius: 12px;
     }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; }
-    body { background: var(--bg); color: var(--text); padding: 24px; min-height: 100vh; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
 
+    /* HEADER */
     .admin-header {
-      max-width: 1600px;
-      margin: 0 auto 24px auto;
-      background: var(--card);
-      border: 1px solid var(--card-border);
-      border-radius: var(--radius);
-      padding: 18px 24px;
+      background: rgba(30, 41, 59, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--card-border);
+      padding: 14px 24px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      flex-wrap: wrap;
-      gap: 16px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+      position: sticky;
+      top: 0;
+      z-index: 50;
     }
-    .admin-title h1 { font-size: 20px; font-weight: 800; display: flex; align-items: center; gap: 8px; color: var(--text); }
-    .admin-title p { font-size: 13px; color: var(--text-muted); margin-top: 3px; }
 
-    .header-actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    .brand-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-logo {
+      width: 38px;
+      height: 38px;
+      background: linear-gradient(135deg, #38bdf8, #818cf8);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 18px;
+      color: #0f172a;
+    }
+    .brand-text h1 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .brand-text p {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    /* BUTTONS */
     .btn {
-      padding: 9px 15px;
-      border-radius: 8px;
-      font-size: 13px;
-      font-weight: 600;
-      border: 1px solid transparent;
-      cursor: pointer;
       display: inline-flex;
       align-items: center;
       gap: 6px;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid transparent;
       transition: all 0.2s ease;
       text-decoration: none;
     }
-    .btn-primary { background: var(--primary); color: #fff; }
-    .btn-primary:hover { background: var(--primary-hover); }
-    .btn-success { background: var(--green); color: #fff; }
-    .btn-success:hover { background: var(--green-hover); }
-    .btn-purple { background: var(--purple); color: #fff; }
-    .btn-purple:hover { background: var(--purple-hover); }
-    .btn-outline { background: #fff; color: #334155; border-color: #cbd5e1; }
-    .btn-outline:hover { background: #f1f5f9; color: var(--text); }
-    .btn-danger { background: var(--red); color: #fff; }
-    .btn-danger:hover { background: var(--red-hover); }
-
-    .main-wrap {
-      max-width: 1600px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: 320px 1fr;
-      gap: 24px;
-      align-items: start;
+    .btn-primary { background: #0284c7; color: #fff; }
+    .btn-primary:hover { background: #0369a1; transform: translateY(-1px); }
+    .btn-success { background: #059669; color: #fff; }
+    .btn-success:hover { background: #047857; }
+    .btn-warning { background: #d97706; color: #fff; }
+    .btn-warning:hover { background: #b45309; }
+    .btn-danger { background: #e11d48; color: #fff; }
+    .btn-danger:hover { background: #be123c; }
+    .btn-purple { background: #6366f1; color: #fff; }
+    .btn-purple:hover { background: #4f46e5; }
+    .btn-outline {
+      background: transparent;
+      border-color: var(--card-border);
+      color: var(--text-muted);
     }
-    @media(max-width: 1024px) { .main-wrap { grid-template-columns: 1fr; } }
+    .btn-outline:hover {
+      background: #334155;
+      color: #fff;
+    }
 
-    /* SIDEBAR */
-    .sidebar {
-      background: var(--card);
+    /* KPI STATS CARDS */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      padding: 20px 24px 10px 24px;
+    }
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: transform 0.2s;
+    }
+    .stat-card:hover { transform: translateY(-2px); }
+    .stat-info p { font-size: 12px; color: var(--text-muted); text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; }
+    .stat-info h3 { font-size: 26px; font-weight: 800; margin-top: 4px; color: #fff; }
+    .stat-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+    }
+    .stat-blue { background: rgba(56, 189, 248, 0.15); color: #38bdf8; }
+    .stat-green { background: rgba(16, 185, 129, 0.15); color: #10b981; }
+    .stat-amber { background: rgba(245, 158, 11, 0.15); color: #f59e0b; }
+    .stat-red { background: rgba(244, 63, 94, 0.15); color: #f43f5e; }
+
+    /* TAB NAVIGATION */
+    .tab-bar {
+      display: flex;
+      gap: 8px;
+      padding: 10px 24px 0 24px;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .tab-btn {
+      padding: 10px 18px;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: var(--text-muted);
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s;
+    }
+    .tab-btn:hover { color: #fff; }
+    .tab-btn.active {
+      color: var(--primary);
+      border-bottom-color: var(--primary);
+    }
+    .tab-badge {
+      background: #334155;
+      padding: 2px 7px;
+      border-radius: 99px;
+      font-size: 11px;
+      color: #fff;
+    }
+    .tab-badge.badge-red { background: #e11d48; }
+
+    /* MAIN CONTENT */
+    .main-wrap {
+      flex: 1;
+      padding: 20px 24px;
+      display: none;
+    }
+    .main-wrap.active { display: block; }
+
+    /* TAB 1: PRODUCT & CATEGORY MANAGER */
+    .catalog-layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 20px;
+      min-height: 600px;
+    }
+    .cat-sidebar {
+      background: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: var(--radius);
       padding: 16px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+      display: flex;
+      flex-direction: column;
     }
-    .sidebar-header {
+    .sidebar-head {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -98,954 +217,1305 @@
       padding-bottom: 10px;
       border-bottom: 1px solid var(--card-border);
     }
-    .sidebar-title {
-      font-size: 12px;
-      font-weight: 800;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+    .sidebar-head h4 { font-size: 13px; font-weight: 700; color: #fff; text-transform: uppercase; }
+
+    .cat-list {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      overflow-y: auto;
+      max-height: 650px;
     }
     .cat-item {
-      padding: 11px 13px;
-      border-radius: 8px;
-      cursor: pointer;
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      margin-bottom: 5px;
-      font-size: 13.5px;
-      color: #334155;
-      font-weight: 600;
-      transition: all 0.2s ease;
-      border: 2px solid transparent;
+      justify-content: space-between;
+      padding: 10px 12px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+      border: 1px solid transparent;
+      color: #cbd5e1;
     }
-    .cat-item:hover { background: #f1f5f9; color: var(--text); }
-    .cat-item.active { background: var(--primary); color: #fff; }
-    .cat-item.active .badge-count { background: rgba(255,255,255,0.25); color: #fff; }
-    
-    .cat-item.drag-over-cat {
-      background: #eff6ff !important;
-      border: 2px dashed #2563eb !important;
-      color: #1d4ed8 !important;
-      transform: scale(1.02);
+    .cat-item:hover { background: #334155; color: #fff; }
+    .cat-item.active {
+      background: rgba(56, 189, 248, 0.15);
+      border-color: rgba(56, 189, 248, 0.4);
+      color: #38bdf8;
+      font-weight: 700;
     }
-
-    .badge-count {
+    .cat-item.drag-over {
+      background: rgba(16, 185, 129, 0.25) !important;
+      border: 1px dashed #10b981 !important;
+    }
+    .cat-count {
       font-size: 11px;
-      padding: 2px 7px;
-      border-radius: 12px;
-      background: #e2e8f0;
-      color: #475569;
+      background: #0f172a;
+      padding: 2px 8px;
+      border-radius: 99px;
+      color: var(--text-muted);
     }
 
-    .content-area { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
-    .content-top {
-      background: var(--card);
+    .catalog-main {
+      background: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: var(--radius);
-      padding: 14px 18px;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+    }
+    .table-toolbar {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      margin-bottom: 16px;
       flex-wrap: wrap;
       gap: 12px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
     }
-    .content-top-left { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-    .content-top h2 { font-size: 17px; font-weight: 800; color: var(--text); }
-
-    .search-filter {
-      background: #fff;
-      border: 1px solid #cbd5e1;
-      padding: 8px 14px;
+    .search-input {
+      background: var(--input-bg);
+      border: 1px solid var(--input-border);
       border-radius: 8px;
-      color: var(--text);
+      padding: 8px 14px;
+      color: #fff;
       font-size: 13px;
-      width: 200px;
+      width: 260px;
       outline: none;
     }
-    .search-filter:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12); }
+    .search-input:focus { border-color: var(--primary); }
 
-    .table-container {
-      background: var(--card);
+    /* TABLE STYLES */
+    .custom-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    .custom-table th {
+      background: #0f172a;
+      padding: 12px 14px;
+      text-align: left;
+      font-weight: 700;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--card-border);
+      text-transform: uppercase;
+      font-size: 11px;
+      letter-spacing: 0.5px;
+    }
+    .custom-table td {
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(51, 65, 85, 0.6);
+      vertical-align: middle;
+      color: #e2e8f0;
+    }
+    .custom-table tbody tr:hover { background: rgba(51, 65, 85, 0.35); }
+    .custom-table tr.row-dragging { opacity: 0.4; }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 11.5px;
+      font-weight: 600;
+    }
+    .badge-in { background: rgba(16, 185, 129, 0.15); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.3); }
+    .badge-out { background: rgba(244, 63, 94, 0.15); color: #f43f5e; border: 1px solid rgba(244, 63, 94, 0.3); }
+    .badge-source { background: rgba(99, 102, 241, 0.15); color: #818cf8; border: 1px solid rgba(99, 102, 241, 0.3); }
+    .badge-warning { background: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3); }
+
+    /* TAB 2: LIVE RECENT FEED */
+    .feed-container {
+      background: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: var(--radius);
-      overflow-x: auto;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+      padding: 20px;
     }
-    table { width: 100%; border-collapse: collapse; text-align: left; font-size: 13.5px; }
-    th {
-      background: #f8fafc;
-      padding: 14px 16px;
-      color: var(--text-muted);
-      font-size: 12px;
-      text-transform: uppercase;
+    .feed-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    .feed-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .feed-item {
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: all 0.2s;
+    }
+    .feed-item:hover { border-color: #38bdf8; transform: translateX(3px); }
+    .feed-main { display: flex; align-items: center; gap: 14px; }
+    .feed-badge-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      background: rgba(56, 189, 248, 0.15);
+      color: #38bdf8;
+    }
+
+    /* TAB 3: SMART AUDITOR */
+    .audit-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .audit-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 18px;
+    }
+    .audit-card-head {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
       font-weight: 700;
-      letter-spacing: 0.05em;
-      border-bottom: 1px solid var(--card-border);
+      font-size: 14px;
     }
-    td { padding: 14px 16px; border-bottom: 1px solid #f1f5f9; vertical-align: middle; }
-    tr:hover td { background: #f8fafc; }
-
-    tr.dragging { opacity: 0.35; background: #e0e7ff !important; }
-    tr.drag-over-row { border-top: 3px solid var(--primary); }
-    .drag-handle { cursor: grab; color: #94a3b8; font-size: 18px; user-select: none; padding-right: 6px; }
-
-    .plan-name { font-weight: 700; color: var(--text); font-size: 14px; margin-bottom: 3px; }
-    .plan-desc-preview { font-size: 12.5px; color: var(--text-muted); max-width: 420px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-
-    .badge-stock { display: inline-block; font-size: 11.5px; font-weight: 700; padding: 3px 8px; border-radius: 6px; }
-    .stock-unlimited { background: var(--green-light); color: var(--green); border: 1px solid #a7f3d0; }
-    .stock-available { background: #f0fdf4; color: #16a34a; border: 1px solid #bbf7d0; }
-    .stock-empty { background: var(--red-light); color: var(--red); border: 1px solid #fecaca; }
 
     /* MODAL */
     .modal-overlay {
-      display: none;
       position: fixed;
-      inset: 0;
-      background: rgba(15, 23, 42, 0.5);
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.75);
       backdrop-filter: blur(4px);
-      justify-content: center;
+      display: none;
       align-items: center;
+      justify-content: center;
       z-index: 1000;
       padding: 20px;
     }
-    .modal-box {
-      background: #ffffff;
+    .modal-overlay.active { display: flex; }
+    .modal-content {
+      background: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: 14px;
       width: 100%;
       max-width: 620px;
       max-height: 90vh;
       overflow-y: auto;
-      padding: 24px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
       display: flex;
       flex-direction: column;
-      gap: 14px;
-      box-shadow: 0 20px 25px -5px rgba(0,0,0,0.15);
     }
-    .modal-box h3 { font-size: 18px; font-weight: 800; padding-bottom: 10px; border-bottom: 1px solid var(--card-border); color: var(--text); }
-
-    .qty-add-badge {
-      background: #dcfce7;
-      color: #15803d;
-      border: 1px solid #86efac;
-      font-weight: 800;
-      font-size: 12px;
-      padding: 3px 9px;
-      border-radius: 6px;
-      display: inline-flex;
+    .modal-header {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--card-border);
+      display: flex;
+      justify-content: space-between;
       align-items: center;
-      gap: 4px;
+    }
+    .modal-header h3 { font-size: 16px; font-weight: 700; color: #fff; }
+    .modal-body { padding: 20px; display: flex; flex-direction: column; gap: 14px; }
+    .modal-footer {
+      padding: 14px 20px;
+      border-top: 1px solid var(--card-border);
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      background: rgba(15, 23, 42, 0.4);
     }
 
-    .quick-paste-box {
-      background: #f8fafc;
-      border: 1.5px dashed #8b5cf6;
-      border-radius: 8px;
-      padding: 10px 12px;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
-    .quick-paste-box textarea {
-      width: 100%; border: 1px solid #cbd5e1; border-radius: 6px; padding: 8px 10px; font-size: 12.5px; outline: none; resize: vertical; font-family: inherit;
-    }
     .form-group { display: flex; flex-direction: column; gap: 6px; }
-    .form-group label { font-size: 13px; font-weight: 700; color: #334155; }
-    .form-group input, .form-group textarea, .form-group select {
-      background: #ffffff; border: 1px solid #cbd5e1; color: var(--text); padding: 10px 13px; border-radius: 8px; font-size: 13.5px; outline: none; font-family: inherit;
+    .form-label { font-size: 12.5px; font-weight: 600; color: #cbd5e1; }
+    .form-control {
+      background: var(--input-bg);
+      border: 1px solid var(--input-border);
+      border-radius: 8px;
+      padding: 9px 12px;
+      color: #fff;
+      font-size: 13.5px;
+      outline: none;
+      font-family: inherit;
     }
-    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-    .modal-footer { display: flex; justify-content: flex-end; gap: 10px; margin-top: 10px; }
+    .form-control:focus { border-color: var(--primary); }
+    textarea.form-control { min-height: 90px; resize: vertical; line-height: 1.4; }
+
+    .price-input-alert {
+      color: #f59e0b;
+      font-size: 11.5px;
+      margin-top: 4px;
+      display: none;
+    }
+
+    /* INLINE EDIT */
+    .inline-price-input {
+      width: 95px;
+      background: #090d16;
+      border: 1px solid #475569;
+      color: #38bdf8;
+      font-weight: 700;
+      padding: 4px 6px;
+      border-radius: 6px;
+      text-align: right;
+    }
+    .inline-price-input:focus { border-color: #38bdf8; outline: none; }
   </style>
 </head>
 <body>
 
-  <input type="file" id="jsonFileInput" accept=".json" style="display:none;" onchange="handleFileImport(event)" />
-
+  <!-- 1. HEADER -->
   <header class="admin-header">
-    <div class="admin-title">
-      <h1>⚙️ BẢNG QUẢN TRỊ DỊCH VỤ SỐ</h1>
-      <p>Quản lý danh mục, kiểm soát kho hàng và tra cứu danh sách thêm sản phẩm</p>
+    <div class="brand-wrap">
+      <div class="brand-logo">⚡</div>
+      <div class="brand-text">
+        <h1>Bảng Quản Trị Dịch Vụ Số</h1>
+        <p>Hệ thống đồng bộ Telegram & Quản lý kho hàng</p>
+      </div>
     </div>
+
     <div class="header-actions">
-      <!-- NÚT MỞ DANH SÁCH THÊM -->
-      <button class="btn btn-purple" onclick="openAddHistoryModal()">📋 Danh sách thêm (<span id="topHistoryCount">0</span>)</button>
-      <button class="btn btn-outline" onclick="triggerImportFile()">📁 Nạp file JSON</button>
-      <button class="btn btn-outline" onclick="copyJSON()">📋 Sao chép JSON</button>
-      <button class="btn btn-success" onclick="downloadJSON()">💾 Tải JSON</button>
-      <button class="btn btn-primary" id="btnSaveGitHub" onclick="saveDirectToGitHub()">🚀 Lưu lên GitHub</button>
-      <a href="index.html" target="_blank" class="btn btn-outline">👁️ Xem trang bán</a>
+      <button class="btn btn-primary" id="btnSaveGitHub" onclick="saveDirectToGitHub()">
+        🚀 Lưu lên GitHub
+      </button>
+      <button class="btn btn-outline" onclick="openTokenModal()">🔑 GitHub Token</button>
+      <button class="btn btn-outline" onclick="triggerImportFile()">📁 Nạp JSON</button>
+      <button class="btn btn-outline" onclick="downloadJSON()">💾 Tải JSON</button>
+      <a href="index.html" target="_blank" class="btn btn-success">👁️ Xem Web Bán</a>
     </div>
   </header>
 
-  <main class="main-wrap">
-    <!-- CỘT DANH MỤC -->
-    <aside class="sidebar">
-      <div class="sidebar-header">
-        <span class="sidebar-title">Danh mục (Thả vào để chuyển)</span>
-        <button class="btn btn-primary" style="padding: 4px 10px; font-size: 12px;" onclick="openAddCatModal()">➕ Thêm</button>
+  <!-- 2. KPI STATS CARDS -->
+  <section class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-info">
+        <p>Tổng sản phẩm</p>
+        <h3 id="statTotalPlans">0</h3>
       </div>
-      <div id="catList">
-        <div style="color:var(--text-muted); font-size:13px; padding:10px;">Đang tải danh mục...</div>
+      <div class="stat-icon stat-blue">📦</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-info">
+        <p>Còn hàng (In Stock)</p>
+        <h3 id="statInStock" style="color:#10b981;">0</h3>
       </div>
-    </aside>
+      <div class="stat-icon stat-green">✅</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-info">
+        <p>Hết hàng (Out of Stock)</p>
+        <h3 id="statOutStock" style="color:#f43f5e;">0</h3>
+      </div>
+      <div class="stat-icon stat-red">⚠️</div>
+    </div>
+    <div class="stat-card" style="cursor:pointer;" onclick="switchTab('audit')">
+      <div class="stat-info">
+        <p>Cảnh báo giá nghi vấn</p>
+        <h3 id="statPriceAlerts" style="color:#f59e0b;">0</h3>
+      </div>
+      <div class="stat-icon stat-amber">🔍</div>
+    </div>
+  </section>
 
-    <!-- NỘI DUNG SẢN PHẨM -->
-    <section class="content-area">
-      <div class="content-top">
-        <div class="content-top-left">
-          <h2 id="currentCategoryTitle">Danh sách sản phẩm</h2>
-          <button class="btn btn-outline" style="padding: 4px 8px; font-size: 12px;" onclick="openEditCatModal()">✏️ Sửa mục</button>
-          <button class="btn btn-outline" style="padding: 4px 8px; font-size: 12px; color: var(--red); border-color:#fca5a5;" onclick="deleteCurrentCat()">🗑️ Xóa</button>
-          <button class="btn btn-purple" style="padding: 4px 10px; font-size: 12px;" onclick="autoCategorizeCurrentList()">⚡ Quét & Tự phân loại</button>
+  <!-- 3. TAB NAVIGATION -->
+  <nav class="tab-bar">
+    <button class="tab-btn active" id="tabBtn-catalog" onclick="switchTab('catalog')">
+      📦 Danh Mục & Sản Phẩm
+    </button>
+    <button class="tab-btn" id="tabBtn-recent" onclick="switchTab('recent')">
+      ⚡ Sản Phẩm Vừa Lên / Mới Nhập <span class="tab-badge" id="badgeRecentCount">0</span>
+    </button>
+    <button class="tab-btn" id="tabBtn-audit" onclick="switchTab('audit')">
+      🔍 Kiểm Tra Logic Giá & Bất Thường <span class="tab-badge badge-red" id="badgeAlertCount">0</span>
+    </button>
+    <button class="tab-btn" id="tabBtn-history" onclick="switchTab('history')">
+      📋 Lịch Sử Nhập Hàng (_history) <span class="tab-badge" id="badgeHistoryCount">0</span>
+    </button>
+  </nav>
+
+  <!-- ========================================================================= -->
+  <!-- TAB 1: DANH MỤC & SẢN PHẨM -->
+  <!-- ========================================================================= -->
+  <main class="main-wrap active" id="tabView-catalog">
+    <div class="catalog-layout">
+      <!-- CỘT DANH MỤC -->
+      <aside class="cat-sidebar">
+        <div class="sidebar-head">
+          <h4>Danh Mục</h4>
+          <button class="btn btn-primary" style="padding:4px 8px; font-size:11px;" onclick="openAddCatModal()">➕ Thêm</button>
+        </div>
+        <div class="cat-list" id="catList">
+          <div style="color:var(--text-muted); font-size:12px; padding:8px;">Đang tải...</div>
+        </div>
+      </aside>
+
+      <!-- BẢNG SẢN PHẨM -->
+      <section class="catalog-main">
+        <div class="table-toolbar">
+          <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+            <h2 id="currentCategoryTitle" style="font-size:16px; font-weight:700;">Danh mục</h2>
+            <button class="btn btn-outline" style="padding:4px 8px; font-size:11px;" onclick="openEditCatModal()">✏️ Sửa mục</button>
+            <button class="btn btn-danger" style="padding:4px 8px; font-size:11px;" onclick="deleteCurrentCat()">🗑️ Xóa</button>
+            <button class="btn btn-purple" style="padding:4px 8px; font-size:11px;" onclick="autoCategorizeCurrentList()">⚡ Quét phân loại</button>
+          </div>
+
+          <div style="display:flex; gap:8px; align-items:center;">
+            <input type="text" id="filterInp" class="search-input" placeholder="🔍 Tìm kiếm sản phẩm..." oninput="renderTable()" />
+            <button class="btn btn-primary" onclick="openAddModal()">➕ Thêm Gói Mới</button>
+          </div>
         </div>
 
-        <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
-          <input type="text" id="filterInp" class="search-filter" placeholder="Tìm kiếm gói cước..." oninput="renderTable()" />
-          <button class="btn btn-primary" onclick="openAddModal()">➕ Thêm sản phẩm</button>
+        <div style="overflow-x:auto;">
+          <table class="custom-table">
+            <thead>
+              <tr>
+                <th style="width:36px; text-align:center;">⠿</th>
+                <th>Tên Gói Sản Phẩm & Mô Tả</th>
+                <th style="width:130px;">Giá Bán</th>
+                <th style="width:110px;">Tồn Kho</th>
+                <th style="width:110px;">Thời Hạn</th>
+                <th style="text-align:right; width:160px;">Hành Động</th>
+              </tr>
+            </thead>
+            <tbody id="plansTableBody">
+              <!-- Render động -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- TAB 2: SẢN PHẨM VỪA LÊN / LIVE RECENT FEED -->
+  <!-- ========================================================================= -->
+  <main class="main-wrap" id="tabView-recent">
+    <div class="feed-container">
+      <div class="feed-head">
+        <div>
+          <h3 style="font-size:16px; font-weight:700; color:#fff;">⚡ Sản Phẩm Vừa Được Đồng Bộ / Nhập Kho Gần Đây</h3>
+          <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Theo dõi các đợt hàng được Bot Telegram hoặc Admin thêm vào gần đây nhất.</p>
+        </div>
+        <div style="display:flex; gap:8px;">
+          <button class="btn btn-outline" onclick="renderRecentFeed()">🔄 Làm mới</button>
         </div>
       </div>
 
-      <div class="table-container">
-        <table>
+      <div class="feed-list" id="recentFeedList">
+        <!-- Render động -->
+      </div>
+    </div>
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- TAB 3: KIỂM TRA LOGIC GIÁ & BẤT THƯỜNG -->
+  <!-- ========================================================================= -->
+  <main class="main-wrap" id="tabView-audit">
+    <div class="feed-container">
+      <div class="feed-head">
+        <div>
+          <h3 style="font-size:16px; font-weight:700; color:#fff;">🔍 Bộ Soát Lỗi Logic Giá & Bất Thường (Smart Price Auditor)</h3>
+          <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Phát hiện giá quá thấp, nhầm dấu thập phân (0.5k thành 5000đ), giá quá cao hoặc bất thường so với thị trường.</p>
+        </div>
+        <button class="btn btn-primary" onclick="runPriceAudit()">⚡ Quét lại toàn bộ</button>
+      </div>
+
+      <div class="audit-grid" id="auditSummaryCards">
+        <!-- Thống kê bất thường -->
+      </div>
+
+      <h4 style="font-size:14px; font-weight:700; margin-bottom:12px; color:#f8fafc;">
+        📋 Danh sách các gói cần xem xét & Chỉnh sửa trực tiếp
+      </h4>
+
+      <div style="overflow-x:auto;">
+        <table class="custom-table">
           <thead>
             <tr>
-              <th style="width: 40px; text-align: center;">⠿</th>
-              <th>Tên gói & Mô tả</th>
-              <th>Giá bán</th>
-              <th>Tồn kho</th>
-              <th>Thời hạn</th>
-              <th style="text-align: right; min-width: 190px;">Hành động</th>
+              <th>Danh Mục</th>
+              <th>Tên Sản Phẩm</th>
+              <th>Giá Hiện Tại</th>
+              <th>Giá Đề Xuất / Cảnh Báo</th>
+              <th>Tồn Kho</th>
+              <th style="text-align:right;">Chỉnh Sửa Nhanh</th>
             </tr>
           </thead>
-          <tbody id="plansTableBody">
-            <tr><td colspan="6" style="text-align:center; padding:30px; color:var(--text-muted);">Đang tải dữ liệu...</td></tr>
+          <tbody id="auditTableBody">
+            <!-- Render danh sách nghi vấn -->
           </tbody>
         </table>
       </div>
-    </section>
+    </div>
   </main>
 
-  <!-- MODAL: BẢNG DANH SÁCH THÊM HÀNG CHI TIẾT -->
-  <div class="modal-overlay" id="addHistoryModal">
-    <div class="modal-box" style="max-width: 900px;">
-      <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--card-border); padding-bottom:10px;">
-        <h3>📋 Danh Sách Nhập Kho & Thêm Sản Phẩm</h3>
-        <button class="btn btn-outline" style="padding:4px 8px; font-size:12px; color:var(--red);" onclick="clearAllHistory()">🗑️ Xóa lịch sử</button>
+  <!-- ========================================================================= -->
+  <!-- TAB 4: LỊCH SỬ NHẬP HÀNG (_history) -->
+  <!-- ========================================================================= -->
+  <main class="main-wrap" id="tabView-history">
+    <div class="feed-container">
+      <div class="feed-head">
+        <div>
+          <h3 style="font-size:16px; font-weight:700; color:#fff;">📋 Nhật Ký Lịch Sử Nhập Hàng (_history)</h3>
+          <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Lưu vết từng lần nhập kho tự động hoặc thủ công để chống trùng lặp dữ liệu.</p>
+        </div>
+        <div style="display:flex; gap:8px;">
+          <input type="text" id="inpHistorySearch" class="search-input" placeholder="🔍 Lọc theo tên sản phẩm..." oninput="renderHistoryTable()" />
+          <button class="btn btn-danger" style="font-size:12px;" onclick="clearAllHistory()">🗑️ Xóa toàn bộ lịch sử</button>
+        </div>
       </div>
 
-      <div style="display:flex; justify-content:space-between; align-items:center; gap:10px; margin-top:4px;">
-        <input type="text" id="inpHistorySearch" class="search-filter" style="width:100%;" placeholder="🔍 Tìm tên sản phẩm trong lịch sử thêm..." oninput="renderHistoryTable()" />
-      </div>
-
-      <div class="table-container" style="max-height: 480px; overflow-y:auto;">
-        <table>
+      <div style="overflow-x:auto;">
+        <table class="custom-table">
           <thead>
             <tr>
-              <th>Thời gian</th>
-              <th>Tên sản phẩm</th>
-              <th style="text-align: center;">Số lượng thêm</th>
-              <th>Kho sau thêm</th>
-              <th>Giá tiền</th>
+              <th>Thời Gian</th>
+              <th>Sản Phẩm</th>
+              <th>Số Lượng Thêm</th>
+              <th>Giá Bán</th>
+              <th>Kho Sau Thêm</th>
               <th>Nguồn</th>
-              <th style="text-align: right;">Xóa</th>
+              <th style="text-align:right;">Thao Tác</th>
             </tr>
           </thead>
           <tbody id="historyTableBody">
-            <tr><td colspan="7" style="text-align:center; padding:30px; color:var(--text-muted);">Chưa có lịch sử thêm nào.</td></tr>
+            <!-- Render lịch sử -->
           </tbody>
         </table>
       </div>
-
-      <div class="modal-footer">
-        <button class="btn btn-outline" onclick="closeAddHistoryModal()">Đóng</button>
-      </div>
     </div>
-  </div>
+  </main>
 
-  <!-- MODAL: THÊM / SỬA GÓI SẢN PHẨM -->
+  <!-- ========================================================================= -->
+  <!-- MODAL: THÊM / SỬA SẢN PHẨM -->
+  <!-- ========================================================================= -->
   <div class="modal-overlay" id="planModal">
-    <div class="modal-box">
-      <h3 id="modalTitle">Chỉnh sửa gói dịch vụ</h3>
-      <div class="quick-paste-box">
-        <label style="font-size:12.5px; font-weight:800; color:#6d28d9;">⚡ Dán nhanh tin nhắn bot:</label>
-        <textarea id="inpQuickPaste" rows="2" placeholder="Dán văn bản Telegram vào đây..."></textarea>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modalTitle">Thêm Sản Phẩm Mới</h3>
+        <button class="btn btn-outline" style="padding:4px 8px;" onclick="closeModal()">✕</button>
       </div>
-      <div class="form-group">
-        <label>Danh mục lưu trữ:</label>
-        <select id="inpTargetCategory"></select>
-      </div>
-      <div class="form-group">
-        <label>Tên gói dịch vụ:</label>
-        <input type="text" id="inpName">
-      </div>
-      <div class="form-row">
+      <div class="modal-body">
         <div class="form-group">
-          <label>Giá bán (VNĐ):</label>
-          <input type="number" id="inpPrice">
+          <label class="form-label" style="color:var(--primary);">⚡ Dán nhanh thông báo Bot (Tự động điền form):</label>
+          <textarea id="inpQuickPaste" class="form-control" placeholder="Dán nội dung tin nhắn bot vào đây (ví dụ: ChatGPT Plus... Thêm: 10 Giá: 230k)..."></textarea>
         </div>
+
         <div class="form-group">
-          <label>Thời hạn:</label>
-          <input type="text" id="inpDuration">
+          <label class="form-label">Danh mục đích:</label>
+          <select id="inpTargetCategory" class="form-control"></select>
         </div>
-      </div>
-      <div class="form-row">
+
         <div class="form-group">
-          <label>Tồn kho:</label>
-          <select id="inpStockType" onchange="toggleStockInput()">
-            <option value="-1">Vô cực (∞)</option>
-            <option value="num">Số lượng cụ thể</option>
-            <option value="0">Tạm hết hàng</option>
-          </select>
+          <label class="form-label">Tên gói dịch vụ:</label>
+          <input type="text" id="inpName" class="form-control" placeholder="Ví dụ: ChatGPT Plus GGPay 1 Tháng" />
         </div>
-        <div class="form-group" id="stockNumberWrap" style="display:none;">
-          <label>Số lượng:</label>
-          <input type="number" id="inpStockNumber" value="10">
+
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
+          <div class="form-group">
+            <label class="form-label">Giá bán (VNĐ):</label>
+            <input type="number" id="inpPrice" class="form-control" placeholder="Ví dụ: 230000" oninput="checkPriceLogicInput(this.value)" />
+            <div id="priceInputAlert" class="price-input-alert">⚠️ Giá có vẻ bất thường! Kiểm tra lại số 0 hoặc số thập phân.</div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Thời hạn:</label>
+            <input type="text" id="inpDuration" class="form-control" placeholder="1 Tháng, 1 Năm..." />
+          </div>
         </div>
-      </div>
-      <div class="form-group">
-        <label>Mô tả chi tiết:</label>
-        <textarea id="inpDetail" rows="5"></textarea>
+
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
+          <div class="form-group">
+            <label class="form-label">Loại tồn kho:</label>
+            <select id="inpStockType" class="form-control" onchange="toggleStockInput()">
+              <option value="number">Số lượng cụ thể</option>
+              <option value="infinity">Vô cực (∞)</option>
+            </select>
+          </div>
+          <div class="form-group" id="stockNumberWrap">
+            <label class="form-label">Số lượng:</label>
+            <input type="number" id="inpStockNumber" class="form-control" placeholder="Ví dụ: 10" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Mô tả & Chế độ bảo hành (detail):</label>
+          <textarea id="inpDetail" class="form-control" placeholder="Cam kết chất lượng, bảo hành 1 đổi 1..."></textarea>
+        </div>
       </div>
       <div class="modal-footer">
         <button class="btn btn-outline" onclick="closeModal()">Hủy</button>
-        <button class="btn btn-primary" onclick="savePlan()">💾 Lưu & Cập nhật danh sách</button>
+        <button class="btn btn-primary" onclick="savePlan()">💾 Lưu Sản Phẩm</button>
       </div>
     </div>
   </div>
 
-  <!-- MODAL: THÊM / SỬA DANH MỤC -->
+  <!-- MODAL: DANH MỤC -->
   <div class="modal-overlay" id="catModal">
-    <div class="modal-box" style="max-width: 480px;">
-      <h3 id="catModalTitle">Thêm danh mục mới</h3>
-      <div class="form-group" id="catKeyGroup">
-        <label>Mã danh mục (ID viết liền không dấu, vd: duolingo, netflix):</label>
-        <input type="text" id="inpCatKey" placeholder="duolingo">
+    <div class="modal-content" style="max-width:440px;">
+      <div class="modal-header">
+        <h3 id="catModalTitle">Thêm Danh Mục</h3>
+        <button class="btn btn-outline" style="padding:4px 8px;" onclick="closeCatModal()">✕</button>
       </div>
-      <div class="form-group">
-        <label>Tên hiển thị danh mục:</label>
-        <input type="text" id="inpCatName" placeholder="Ví dụ: Duolingo Super">
-      </div>
-      <div class="form-group">
-        <label>Link icon / logo (tùy chọn):</label>
-        <input type="text" id="inpCatLogo" placeholder="https://... hoặc bỏ trống">
+      <div class="modal-body">
+        <div class="form-group" id="catKeyGroup">
+          <label class="form-label">Mã danh mục (Key viết liền không dấu):</label>
+          <input type="text" id="inpCatKey" class="form-control" placeholder="ví dụ: netflix, canva" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Tên hiển thị:</label>
+          <input type="text" id="inpCatName" class="form-control" placeholder="ví dụ: Netflix Premium 4K" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Icon / Logo (URL hoặc Emoji):</label>
+          <input type="text" id="inpCatLogo" class="form-control" placeholder="🎬 hoặc link ảnh..." />
+        </div>
       </div>
       <div class="modal-footer">
         <button class="btn btn-outline" onclick="closeCatModal()">Hủy</button>
-        <button class="btn btn-primary" onclick="saveCategory()">Lưu danh mục</button>
+        <button class="btn btn-primary" onclick="saveCategory()">Lưu</button>
       </div>
     </div>
   </div>
 
+  <!-- MODAL: GITHUB TOKEN -->
+  <div class="modal-overlay" id="tokenModal">
+    <div class="modal-content" style="max-width:480px;">
+      <div class="modal-header">
+        <h3>🔑 Cấu Hình GitHub Token</h3>
+        <button class="btn btn-outline" style="padding:4px 8px;" onclick="closeTokenModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size:12.5px; color:var(--text-muted); line-height:1.5;">
+          Token dùng để lưu trực tiếp file <code>data/services.json</code> lên GitHub repository của bạn.
+        </p>
+        <div class="form-group">
+          <label class="form-label">GitHub Token (ghp_...):</label>
+          <input type="password" id="inpGitHubToken" class="form-control" placeholder="ghp_..." />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline" onclick="closeTokenModal()">Đóng</button>
+        <button class="btn btn-primary" onclick="saveGitHubToken()">Lưu Token</button>
+      </div>
+    </div>
+  </div>
+
+  <input type="file" id="jsonFileInput" accept=".json" style="display:none;" onchange="handleFileImport(event)" />
+
+  <!-- SCRIPT LOGIC -->
   <script>
     const GITHUB_USERNAME = '21004023-oss';
     const REPO_NAME = 'my-static-website';
     const FILE_PATH = 'data/services.json';
 
     let servicesData = {};
-    let activeCat = '';
+    let currentCat = '';
     let editingPlanIndex = -1;
-    let isEditingCat = false;
+    let editingCatKey = null;
+    let draggedRowIndex = null;
+    let draggedRowCat = null;
 
-    // BỘ TỪ KHÓA NHẬN DIỆN DANH MỤC
-    const KNOWN_RULES = {
-      'bot-tele': { regex: /bot.*tele|tele.*bot|telegram/i, name: 'Bot Telegram' },
-      'notion': { regex: /notion/i, name: 'Notion AI & Plus' },
-      'microsoft': { regex: /microsoft|office|365|onedrive/i, name: 'Microsoft 365' },
-      'capcut': { regex: /capcut/i, name: 'CapCut Pro' },
-      'youtube': { regex: /youtube|ytb/i, name: 'YouTube Premium' },
-      'chatgpt': { regex: /chatgpt|gpt|openai/i, name: 'ChatGPT / OpenAI' },
-      'canva': { regex: /canva/i, name: 'Canva Pro' },
-      'spotify': { regex: /spotify/i, name: 'Spotify Premium' },
-      'gmail': { regex: /gmail|mail\s*cổ/i, name: 'Gmail Cổ & Tài Khoản Mail' },
-      'google-veo': { regex: /gemini|google.*veo|veo\s*ultra/i, name: 'Google / Gemini / Veo Ultra' },
-      'api-claude-codex': { regex: /claude|codex/i, name: 'API Claude & Codex' },
-      'api-cursor-deepseek': { regex: /cursor|deepseek/i, name: 'API Cursor & DeepSeek' },
-      'grok': { regex: /grok/i, name: 'Grok AI' },
-      'kling': { regex: /kling/i, name: 'Kling AI' },
-      'duolingo': { regex: /duolingo/i, name: 'Duolingo Super' },
-      'netflix': { regex: /netflix/i, name: 'Netflix Premium' },
-      'adobe': { regex: /adobe|photoshop|illustrator/i, name: 'Adobe Full App' },
-      'zoom': { regex: /zoom/i, name: 'Zoom Pro' }
+    // TỪ KHÓA TỰ ĐỘNG PHÂN LOẠI
+    const CAT_KEYWORDS = {
+      'youtube': /youtube|ytb/i,
+      'chatgpt': /chatgpt|gpt|openai/i,
+      'google-veo': /google.*veo|veo/i,
+      'canva': /canva/i,
+      'capcut': /capcut/i,
+      'api-claude-codex': /claude|codex/i,
+      'api-cursor-deepseek': /cursor|deepseek/i,
+      'grok': /grok/i,
+      'spotify': /spotify/i,
+      'notion': /notion/i,
+      'kling': /kling/i,
+      'gmail': /gmail|hotmail/i,
+      'microsoft': /microsoft|office|365/i,
+      'bot-tele': /bot.*tele|telegram.*spam/i
+    };
+
+    // ĐỊNH GIÁ CHUẨN THAM CHIẾU ĐỂ BẮT LỖI LOGIC GIÁ
+    const PRICE_BENCHMARKS = {
+      'gmail': { min: 300, max: 20000, typical: 1000 },
+      'chatgpt': { min: 5000, max: 800000, typical: 150000 },
+      'youtube': { min: 10000, max: 500000, typical: 30000 },
+      'canva': { min: 10000, max: 300000, typical: 40000 },
+      'capcut': { min: 20000, max: 500000, typical: 60000 },
+      'notion': { min: 20000, max: 600000, typical: 80000 },
+      'api-claude-codex': { min: 10000, max: 500000, typical: 45000 }
     };
 
     async function init() {
       try {
-        const res = await fetch(`data/services.json?t=${Date.now()}`);
-        if (!res.ok) throw new Error("Chưa tìm thấy file data/services.json");
+        const res = await fetch(`./data/services.json?t=${Date.now()}`);
+        if (!res.ok) throw new Error("Chưa tải được file services.json");
         servicesData = await res.json();
-        
-        if (!servicesData._history) servicesData._history = [];
-        updateHistoryCount();
-
-        const cats = Object.keys(servicesData).filter(k => k !== '_history');
-        if (cats.length > 0) {
-          activeCat = cats[0];
-          renderCategories();
-          renderTable();
-        }
-      } catch (e) {
-        alert("Thông báo: " + e.message);
-      }
-    }
-
-    function updateHistoryCount() {
-      const countEl = document.getElementById('topHistoryCount');
-      if (countEl) countEl.innerText = (servicesData._history || []).length;
-    }
-
-    // --- CÁC HÀM XỬ LÝ DANH MỤC ---
-    function openAddCatModal() {
-      isEditingCat = false;
-      document.getElementById('catModalTitle').innerText = 'Thêm danh mục mới';
-      document.getElementById('catKeyGroup').style.display = 'flex';
-      document.getElementById('inpCatKey').value = '';
-      document.getElementById('inpCatName').value = '';
-      document.getElementById('inpCatLogo').value = '';
-      document.getElementById('catModal').style.display = 'flex';
-    }
-
-    function openEditCatModal() {
-      if (!activeCat || !servicesData[activeCat]) {
-        alert("Vui lòng chọn danh mục để sửa!");
-        return;
-      }
-      isEditingCat = true;
-      document.getElementById('catModalTitle').innerText = `Sửa danh mục: ${servicesData[activeCat].name}`;
-      document.getElementById('catKeyGroup').style.display = 'none';
-      document.getElementById('inpCatName').value = servicesData[activeCat].name || '';
-      document.getElementById('inpCatLogo').value = servicesData[activeCat].logo || '';
-      document.getElementById('catModal').style.display = 'flex';
-    }
-
-    function closeCatModal() {
-      document.getElementById('catModal').style.display = 'none';
-    }
-
-    function saveCategory() {
-      const name = document.getElementById('inpCatName').value.trim();
-      const logo = document.getElementById('inpCatLogo').value.trim();
-      if (!name) { 
-        alert("Vui lòng nhập tên danh mục!"); 
-        return; 
+      } catch (err) {
+        console.warn("Dùng dữ liệu mẫu hoặc localStorage:", err);
       }
 
-      if (isEditingCat) {
-        servicesData[activeCat].name = name;
-        servicesData[activeCat].logo = logo;
-      } else {
-        let key = document.getElementById('inpCatKey').value.trim().toLowerCase().replace(/[^a-z0-9_-]/g, '-');
-        if (!key) key = 'cat-' + Date.now();
-        if (servicesData[key]) { 
-          alert("Mã danh mục này đã tồn tại!"); 
-          return; 
-        }
-        servicesData[key] = { name, logo, plans: [] };
-        activeCat = key;
-      }
-      closeCatModal();
+      if (!servicesData._history) servicesData._history = [];
+
+      updateStats();
       renderCategories();
-      renderTable();
-      saveDirectToGitHub(true);
-    }
-
-    function deleteCurrentCat() {
-      if (!activeCat || !servicesData[activeCat]) return;
-      if (confirm(`Xóa toàn bộ danh mục "${servicesData[activeCat].name}"?`)) {
-        delete servicesData[activeCat];
-        const remaining = Object.keys(servicesData).filter(k => k !== '_history');
-        activeCat = remaining.length > 0 ? remaining[0] : '';
-        renderCategories();
-        renderTable();
-        saveDirectToGitHub(true);
-      }
-    }
-
-    // --- CÁC HÀM XỬ LÝ LỊCH SỬ THÊM (_history) ---
-    function openAddHistoryModal() {
-      document.getElementById('addHistoryModal').style.display = 'flex';
-      document.getElementById('inpHistorySearch').value = '';
+      renderRecentFeed();
+      runPriceAudit();
       renderHistoryTable();
     }
 
-    function closeAddHistoryModal() {
-      document.getElementById('addHistoryModal').style.display = 'none';
+    // --- TAB SWITCHER ---
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.main-wrap').forEach(w => w.classList.remove('active'));
+
+      const activeBtn = document.getElementById(`tabBtn-${tabId}`);
+      const activeView = document.getElementById(`tabView-${tabId}`);
+      if (activeBtn) activeBtn.classList.add('active');
+      if (activeView) activeView.classList.add('active');
+
+      if (tabId === 'recent') renderRecentFeed();
+      if (tabId === 'audit') runPriceAudit();
+      if (tabId === 'history') renderHistoryTable();
     }
 
-    function renderHistoryTable() {
-      const tbody = document.getElementById('historyTableBody');
-      const searchKw = (document.getElementById('inpHistorySearch').value || '').trim().toLowerCase();
-      let historyList = servicesData._history || [];
+    // --- STATS UPDATE ---
+    function updateStats() {
+      let total = 0;
+      let inStock = 0;
+      let outStock = 0;
 
-      if (searchKw) {
-        historyList = historyList.filter(h => (h.name && h.name.toLowerCase().includes(searchKw)));
+      for (const [k, v] of Object.entries(servicesData)) {
+        if (k === '_history') continue;
+        if (v && v.plans) {
+          total += v.plans.length;
+          v.plans.forEach(p => {
+            if (p.stock === 0) outStock++;
+            else inStock++;
+          });
+        }
       }
 
-      if (historyList.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding:30px; color:var(--text-muted);">Không có mục nào trong danh sách thêm.</td></tr>`;
+      document.getElementById('statTotalPlans').innerText = total;
+      document.getElementById('statInStock').innerText = inStock;
+      document.getElementById('statOutStock').innerText = outStock;
+
+      const historyCount = (servicesData._history || []).length;
+      document.getElementById('badgeHistoryCount').innerText = historyCount;
+      document.getElementById('badgeRecentCount').innerText = Math.min(historyCount, 15);
+    }
+
+    // --- CATEGORIES ---
+    function renderCategories() {
+      const container = document.getElementById('catList');
+      container.innerHTML = '';
+      const keys = Object.keys(servicesData).filter(k => k !== '_history');
+
+      if (keys.length === 0) {
+        container.innerHTML = '<div style="color:var(--text-muted);font-size:12px;">Chưa có danh mục</div>';
         return;
       }
 
-      tbody.innerHTML = historyList.map((h, idx) => {
-        const isTg = h.source === 'Bot Telegram';
-        const sourceHtml = isTg 
-          ? `<span style="background:#e0f2fe; color:#0284c7; padding:2px 7px; border-radius:5px; font-size:11px; font-weight:700;">🤖 Telegram</span>`
-          : `<span style="background:#f3e8ff; color:#7c3aed; padding:2px 7px; border-radius:5px; font-size:11px; font-weight:700;">👤 Admin</span>`;
+      if (!currentCat || !servicesData[currentCat]) {
+        currentCat = keys[0];
+      }
 
-        return `
+      keys.forEach(k => {
+        const item = document.createElement('div');
+        item.className = `cat-item ${k === currentCat ? 'active' : ''}`;
+        const planCount = servicesData[k].plans ? servicesData[k].plans.length : 0;
+        const catName = servicesData[k].name || k;
+
+        item.innerHTML = `
+          <span>${catName}</span>
+          <span class="cat-count">${planCount}</span>
+        `;
+
+        item.onclick = () => {
+          currentCat = k;
+          renderCategories();
+          renderTable();
+        };
+
+        // Kéo thả sản phẩm vào danh mục
+        item.ondragover = (e) => { e.preventDefault(); item.classList.add('drag-over'); };
+        item.ondragleave = () => item.classList.remove('drag-over');
+        item.ondrop = (e) => {
+          e.preventDefault();
+          item.classList.remove('drag-over');
+          handleDropToCategory(k);
+        };
+
+        container.appendChild(item);
+      });
+
+      renderTable();
+    }
+
+    // --- TABLE SẢN PHẨM ---
+    function renderTable() {
+      const tbody = document.getElementById('plansTableBody');
+      tbody.innerHTML = '';
+
+      if (!currentCat || !servicesData[currentCat]) return;
+      document.getElementById('currentCategoryTitle').innerText = servicesData[currentCat].name || currentCat;
+
+      const plans = servicesData[currentCat].plans || [];
+      const query = (document.getElementById('filterInp').value || '').trim().toLowerCase();
+
+      plans.forEach((p, idx) => {
+        if (query) {
+          const match = (p.name || '').toLowerCase().includes(query) || (p.detail || '').toLowerCase().includes(query);
+          if (!match) return;
+        }
+
+        const tr = document.createElement('tr');
+        tr.draggable = true;
+        tr.ondragstart = (e) => { draggedRowIndex = idx; draggedRowCat = currentCat; tr.classList.add('row-dragging'); };
+        tr.ondragend = () => { draggedRowIndex = null; tr.classList.remove('row-dragging'); };
+        tr.ondragover = (e) => e.preventDefault();
+        tr.ondrop = (e) => { e.preventDefault(); handleRowDrop(idx); };
+
+        let stockBadge = '<span class="badge badge-in">Còn ' + p.stock + '</span>';
+        if (p.stock === -1 || p.stock === '∞') stockBadge = '<span class="badge badge-in">Vô cực (∞)</span>';
+        else if (p.stock === 0) stockBadge = '<span class="badge badge-out">Hết hàng</span>';
+
+        tr.innerHTML = `
+          <td style="text-align:center; cursor:grab; color:var(--text-muted);">⠿</td>
+          <td>
+            <div style="font-weight:700; color:#fff;">${p.name}</div>
+            <div style="font-size:11.5px; color:var(--text-muted); margin-top:3px; max-width:420px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
+              ${p.detail || 'Chưa có mô tả chi tiết'}
+            </div>
+          </td>
+          <td>
+            <strong style="color:#38bdf8; font-size:14px;">${Number(p.price || 0).toLocaleString('vi-VN')}đ</strong>
+          </td>
+          <td>${stockBadge}</td>
+          <td><span class="badge badge-source">${p.duration || '1 Tháng'}</span></td>
+          <td style="text-align:right;">
+            <button class="btn btn-outline" style="padding:4px 8px; font-size:11.5px;" onclick="openEditModal(${idx})">✏️ Sửa</button>
+            <button class="btn btn-danger" style="padding:4px 8px; font-size:11.5px;" onclick="deletePlan(${idx})">🗑️</button>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function handleRowDrop(targetIdx) {
+      if (draggedRowIndex === null || draggedRowIndex === targetIdx) return;
+      const plans = servicesData[currentCat].plans;
+      const [moved] = plans.splice(draggedRowIndex, 1);
+      plans.splice(targetIdx, 0, moved);
+      renderTable();
+    }
+
+    function handleDropToCategory(targetCat) {
+      if (draggedRowIndex === null || !draggedRowCat) return;
+      if (draggedRowCat === targetCat) return;
+      const item = servicesData[draggedRowCat].plans.splice(draggedRowIndex, 1)[0];
+      if (!servicesData[targetCat].plans) servicesData[targetCat].plans = [];
+      servicesData[targetCat].plans.push(item);
+      draggedRowIndex = null;
+      renderCategories();
+      renderTable();
+    }
+
+    // --- TAB 2: LIVE RECENT FEED ---
+    function renderRecentFeed() {
+      const container = document.getElementById('recentFeedList');
+      container.innerHTML = '';
+
+      const history = servicesData._history || [];
+      if (history.length === 0) {
+        container.innerHTML = '<div style="color:var(--text-muted); font-size:13px; text-align:center; padding:30px;">Chưa có sản phẩm nào trong lịch sử gần đây.</div>';
+        return;
+      }
+
+      history.slice(0, 25).forEach(h => {
+        const item = document.createElement('div');
+        item.className = 'feed-item';
+
+        const isBot = (h.source || '').includes('Bot') || (h.source || '').includes('Telegram');
+        const icon = isBot ? '🤖' : '✍️';
+        const srcBadge = isBot ? '<span class="badge badge-source">Bot Telegram</span>' : '<span class="badge badge-warning">Admin</span>';
+
+        item.innerHTML = `
+          <div class="feed-main">
+            <div class="feed-badge-icon">${icon}</div>
+            <div>
+              <div style="font-weight:700; font-size:14px; color:#fff;">${h.name}</div>
+              <div style="font-size:12px; color:var(--text-muted); margin-top:3px; display:flex; gap:12px; align-items:center;">
+                <span>⏱️ ${h.time || 'Vừa xong'}</span>
+                <span>➕ Thêm: <strong style="color:#10b981;">+${h.addedQty || 0}</strong></span>
+                <span>📦 Kho sau thêm: <strong>${h.stockAfter !== undefined ? h.stockAfter : 'N/A'}</strong></span>
+                <span>💰 Giá: <strong style="color:#38bdf8;">${Number(h.price || 0).toLocaleString('vi-VN')}đ</strong></span>
+                ${srcBadge}
+              </div>
+            </div>
+          </div>
+          <div>
+            <button class="btn btn-outline" style="font-size:11.5px; padding:5px 10px;" onclick="locatePlanByName('${h.name.replace(/'/g, "\'")}')">
+              🔍 Xem trong kho
+            </button>
+          </div>
+        `;
+
+        container.appendChild(item);
+      });
+    }
+
+    function locatePlanByName(name) {
+      for (const [catKey, val] of Object.entries(servicesData)) {
+        if (catKey === '_history') continue;
+        const plans = val.plans || [];
+        const idx = plans.findIndex(p => p.name.trim().toLowerCase() === name.trim().toLowerCase());
+        if (idx !== -1) {
+          currentCat = catKey;
+          switchTab('catalog');
+          renderCategories();
+          openEditModal(idx);
+          return;
+        }
+      }
+      alert("Không tìm thấy gói này trong danh sách hiện tại (có thể đã bị đổi tên hoặc xóa).");
+    }
+
+    // --- TAB 3: SMART AUDITOR (KIỂM TRA LOGIC GIÁ & BẤT THƯỜNG) ---
+    function runPriceAudit() {
+      const summaryContainer = document.getElementById('auditSummaryCards');
+      const tableBody = document.getElementById('auditTableBody');
+      summaryContainer.innerHTML = '';
+      tableBody.innerHTML = '';
+
+      const alerts = [];
+      let totalChecked = 0;
+
+      for (const [catKey, val] of Object.entries(servicesData)) {
+        if (catKey === '_history') continue;
+        const plans = val.plans || [];
+        plans.forEach((p, idx) => {
+          totalChecked++;
+          const price = Number(p.price || 0);
+          const name = p.name || '';
+          let issue = null;
+          let suggestedPrice = 0;
+
+          // 1. Kiểm tra giá = 0
+          if (price <= 0) {
+            issue = 'Giá bằng 0 hoặc chưa nhập giá';
+          }
+          // 2. Kiểm tra lỗi thập phân kinh điển (ví dụ Hotmail 0.5k bị nhập thành 5000đ)
+          else if (/hotmail/i.test(name) && price >= 3000) {
+            issue = 'Nghi vấn nhầm 0.5k thành 5.000đ (Giá hotmail thường 500đ - 1.000đ)';
+            suggestedPrice = 500;
+          }
+          // 3. Kiểm tra ChatGPT giá quá thấp (< 10.000đ mà không phải file json/free)
+          else if (/chatgpt/i.test(name) && !/json|free/i.test(name) && price < 15000) {
+            issue = 'Giá ChatGPT quá thấp so với thực tế (< 15.000đ)';
+          }
+          // 4. Kiểm tra gói bất thường quá đắt (> 2.000.000đ)
+          else if (price > 2000000) {
+            issue = 'Giá bất thường (> 2.000.000đ), cần kiểm tra lại số 0 thừa';
+          }
+
+          if (issue) {
+            alerts.push({ catKey, planIndex: idx, plan: p, issue, suggestedPrice });
+          }
+        });
+      }
+
+      document.getElementById('badgeAlertCount').innerText = alerts.length;
+      document.getElementById('statPriceAlerts').innerText = alerts.length;
+
+      // Render cards
+      summaryContainer.innerHTML = `
+        <div class="audit-card">
+          <div class="audit-card-head" style="color:#38bdf8;">📦 Tổng Gói Đã Quét</div>
+          <h2 style="font-size:24px; color:#fff;">${totalChecked} gói</h2>
+          <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">100% dữ liệu đã được rà soát</p>
+        </div>
+        <div class="audit-card">
+          <div class="audit-card-head" style="color:#f59e0b;">⚠️ Cảnh Báo Cần Xem Xét</div>
+          <h2 style="font-size:24px; color:#f59e0b;">${alerts.length} mục</h2>
+          <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Có giá hoặc định dạng nghi vấn</p>
+        </div>
+        <div class="audit-card">
+          <div class="audit-card-head" style="color:#10b981;">✅ Trạng Thái An Toàn</div>
+          <h2 style="font-size:24px; color:#10b981;">${(( (totalChecked - alerts.length) / (totalChecked || 1) ) * 100).toFixed(1)}%</h2>
+          <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Tỉ lệ giá hợp logic</p>
+        </div>
+      `;
+
+      if (alerts.length === 0) {
+        tableBody.innerHTML = `
           <tr>
-            <td style="color:#64748b; font-size:12px; white-space:nowrap;">${h.time || 'N/A'}</td>
-            <td><strong style="color:var(--text);">${h.name}</strong></td>
-            <td style="text-align:center;">
-              <span class="qty-add-badge">+${h.addedQty || 1} số lượng</span>
-            </td>
-            <td style="color:#059669; font-weight:700;">${h.stockAfter === -1 ? '∞' : (h.stockAfter || 'N/A')}</td>
-            <td style="font-weight:700;">${Number(h.price || 0).toLocaleString('vi-VN')}đ</td>
-            <td>${sourceHtml}</td>
-            <td style="text-align:right;">
-              <button class="btn btn-outline" style="padding:3px 7px; font-size:11px; color:var(--red);" onclick="deleteHistoryItem(${idx})">🗑️</button>
+            <td colspan="6" style="text-align:center; padding:30px; color:#10b981; font-weight:600;">
+              🎉 Tuyệt vời! Không phát hiện bất kỳ gói nào có giá bất thường.
             </td>
           </tr>
         `;
-      }).join('');
+        return;
+      }
+
+      alerts.forEach(item => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td><span class="badge badge-source">${item.catKey}</span></td>
+          <td><strong style="color:#fff;">${item.plan.name}</strong></td>
+          <td>
+            <input type="number" class="inline-price-input" id="auditPrice_${item.catKey}_${item.planIndex}" value="${item.plan.price}" /> đ
+          </td>
+          <td>
+            <span style="color:#f59e0b; font-size:12px;">⚠️ ${item.issue}</span>
+            ${item.suggestedPrice ? `<br><button class="btn btn-outline" style="padding:2px 6px; font-size:11px; margin-top:3px;" onclick="applySuggestedPrice('${item.catKey}', ${item.planIndex}, ${item.suggestedPrice})">👉 Đổi về ${item.suggestedPrice.toLocaleString('vi-VN')}đ</button>` : ''}
+          </td>
+          <td>Còn ${item.plan.stock}</td>
+          <td style="text-align:right;">
+            <button class="btn btn-success" style="padding:4px 10px; font-size:12px;" onclick="saveInlinePrice('${item.catKey}', ${item.planIndex})">💾 Lưu</button>
+          </td>
+        `;
+        tableBody.appendChild(tr);
+      });
+    }
+
+    function applySuggestedPrice(catKey, idx, newPrice) {
+      document.getElementById(`auditPrice_${catKey}_${idx}`).value = newPrice;
+      saveInlinePrice(catKey, idx);
+    }
+
+    function saveInlinePrice(catKey, idx) {
+      const inp = document.getElementById(`auditPrice_${catKey}_${idx}`);
+      const val = Number(inp.value || 0);
+      servicesData[catKey].plans[idx].price = val;
+      runPriceAudit();
+      renderTable();
+      updateStats();
+      alert("✅ Đã cập nhật giá mới! Đừng quên bấm '🚀 Lưu lên GitHub' để cập nhật lên web.");
+    }
+
+    // --- TAB 4: LỊCH SỬ THÊM ---
+    function renderHistoryTable() {
+      const tbody = document.getElementById('historyTableBody');
+      tbody.innerHTML = '';
+
+      const query = (document.getElementById('inpHistorySearch').value || '').trim().toLowerCase();
+      const history = servicesData._history || [];
+
+      if (history.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:30px; color:var(--text-muted);">Trống</td></tr>';
+        return;
+      }
+
+      history.forEach((h, idx) => {
+        if (query && !h.name.toLowerCase().includes(query)) return;
+
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td><span style="color:var(--text-muted); font-size:12px;">${h.time || 'N/A'}</span></td>
+          <td><strong style="color:#fff;">${h.name}</strong></td>
+          <td><span class="badge badge-in">+${h.addedQty || 0}</span></td>
+          <td><strong style="color:#38bdf8;">${Number(h.price || 0).toLocaleString('vi-VN')}đ</strong></td>
+          <td>Còn ${h.stockAfter !== undefined ? h.stockAfter : 'N/A'}</td>
+          <td><span class="badge badge-source">${h.source || 'Bot'}</span></td>
+          <td style="text-align:right;">
+            <button class="btn btn-danger" style="padding:3px 7px; font-size:11px;" onclick="deleteHistoryItem(${idx})">🗑️</button>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
     }
 
     function deleteHistoryItem(idx) {
-      if (confirm("Xóa bản ghi này khỏi danh sách thêm?")) {
+      if (confirm("Xóa bản ghi này khỏi lịch sử?")) {
         servicesData._history.splice(idx, 1);
-        updateHistoryCount();
         renderHistoryTable();
-        saveDirectToGitHub(true);
+        updateStats();
       }
     }
 
     function clearAllHistory() {
-      if (confirm("Bạn có chắc muốn xóa sạch toàn bộ danh sách lịch sử thêm?")) {
+      if (confirm("Bạn có chắc chắn muốn xóa toàn bộ lịch sử nhập hàng?")) {
         servicesData._history = [];
-        updateHistoryCount();
         renderHistoryTable();
-        saveDirectToGitHub(true);
+        updateStats();
       }
     }
 
-    // --- HIỂN THỊ DANH MỤC & VÙNG THẢ ---
-    function renderCategories() {
-      const el = document.getElementById('catList');
-      const validCats = Object.entries(servicesData).filter(([k]) => k !== '_history');
-      el.innerHTML = validCats.map(([k, cat]) => `
-        <div class="cat-item ${k === activeCat ? 'active' : ''}" 
-             data-cat-key="${k}"
-             onclick="changeCat('${k}')"
-             ondragover="handleCatDragOver(event)"
-             ondragleave="handleCatDragLeave(event)"
-             ondrop="handleCatDrop(event, '${k}')">
-          <span>${cat.name}</span>
-          <span class="badge-count">${(cat.plans || []).length}</span>
-        </div>
-      `).join('');
-    }
-
-    function changeCat(k) {
-      activeCat = k;
-      document.getElementById('filterInp').value = '';
-      renderCategories();
-      renderTable();
-    }
-
-    // --- KÉO THẢ SẢN PHẨM ---
-    let draggedIndex = null;
-    function handleRowDragStart(e, idx) {
-      draggedIndex = idx;
-      e.currentTarget.classList.add('dragging');
-      e.dataTransfer.setData('text/plain', idx);
-      e.dataTransfer.effectAllowed = 'move';
-    }
-    function handleRowDragEnd(e) {
-      e.currentTarget.classList.remove('dragging');
-      document.querySelectorAll('tr.drag-over-row').forEach(r => r.classList.remove('drag-over-row'));
-    }
-    function handleRowDragOver(e) {
-      e.preventDefault();
-      const row = e.currentTarget;
-      if (!row.classList.contains('dragging')) row.classList.add('drag-over-row');
-    }
-    function handleRowDragLeave(e) { e.currentTarget.classList.remove('drag-over-row'); }
-    function handleRowDrop(e, targetIdx) {
-      e.preventDefault();
-      e.currentTarget.classList.remove('drag-over-row');
-      if (draggedIndex === null || draggedIndex === targetIdx) return;
-      const plans = servicesData[activeCat].plans;
-      const movedItem = plans.splice(draggedIndex, 1)[0];
-      plans.splice(targetIdx, 0, movedItem);
-      draggedIndex = null;
-      renderTable();
-      saveDirectToGitHub(true);
-    }
-
-    function handleCatDragOver(e) { e.preventDefault(); e.currentTarget.classList.add('drag-over-cat'); }
-    function handleCatDragLeave(e) { e.currentTarget.classList.remove('drag-over-cat'); }
-    function handleCatDrop(e, targetCatKey) {
-      e.preventDefault();
-      e.currentTarget.classList.remove('drag-over-cat');
-      if (draggedIndex === null || targetCatKey === activeCat) return;
-      const sourcePlans = servicesData[activeCat].plans;
-      const movedItem = sourcePlans.splice(draggedIndex, 1)[0];
-      if (!servicesData[targetCatKey].plans) servicesData[targetCatKey].plans = [];
-      servicesData[targetCatKey].plans.push(movedItem);
-      draggedIndex = null;
-      renderCategories();
-      renderTable();
-      saveDirectToGitHub(true);
-    }
-
-    // --- HIỂN THỊ BẢNG SẢN PHẨM ---
-    function renderTable() {
-      const currentCat = servicesData[activeCat];
-      const tbody = document.getElementById('plansTableBody');
-      if (!currentCat) {
-        document.getElementById('currentCategoryTitle').innerText = 'Chưa chọn danh mục';
-        tbody.innerHTML = `<tr><td colspan="6" style="text-align:center; padding:30px; color:var(--text-muted);">Chưa có sản phẩm.</td></tr>`;
-        return;
-      }
-
-      const filterKw = (document.getElementById('filterInp').value || '').trim().toLowerCase();
-      document.getElementById('currentCategoryTitle').innerText = `${currentCat.name} (${(currentCat.plans || []).length} gói)`;
-
-      let plans = currentCat.plans || [];
-      if (filterKw) {
-        plans = plans.filter(p => p.name.toLowerCase().includes(filterKw) || (p.detail && p.detail.toLowerCase().includes(filterKw)));
-      }
-
-      if (plans.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="6" style="text-align:center; padding:30px; color:var(--text-muted);">Không có sản phẩm nào.</td></tr>`;
-        return;
-      }
-
-      tbody.innerHTML = plans.map((p, idx) => {
-        let stockHtml = p.stock === -1 || p.stock === '∞' ? '<span class="badge-stock stock-unlimited">Vô cực (∞)</span>' : (p.stock === 0 ? '<span class="badge-stock stock-empty">Hết hàng</span>' : `<span class="badge-stock stock-available">Còn ${p.stock}</span>`);
-        return `
-          <tr draggable="true"
-              ondragstart="handleRowDragStart(event, ${idx})"
-              ondragend="handleRowDragEnd(event)"
-              ondragover="handleRowDragOver(event)"
-              ondragleave="handleRowDragLeave(event)"
-              ondrop="handleRowDrop(event, ${idx})">
-            <td style="text-align:center;"><span class="drag-handle">⠿</span></td>
-            <td>
-              <div class="plan-name">${p.name}</div>
-              <div class="plan-desc-preview">${p.detail || 'Không có mô tả chi tiết'}</div>
-            </td>
-            <td style="color:#059669; font-weight:700; font-size:15px;">${Number(p.price).toLocaleString('vi-VN')}đ</td>
-            <td>${stockHtml}</td>
-            <td>${p.duration || 'N/A'}</td>
-            <td style="text-align: right; white-space: nowrap;">
-              <button class="btn btn-outline" style="padding:6px 11px; font-size:12px;" onclick="openEditModal(${idx})">✏️ Sửa</button>
-              <button class="btn btn-danger" style="padding:6px 9px; font-size:12px;" onclick="deletePlan(${idx})">🗑️</button>
-            </td>
-          </tr>
-        `;
-      }).join('');
-    }
-
-    // --- TỰ ĐỘNG NHẬN DIỆN DANH MỤC ---
-    function detectCategoryByName(name) {
-      if (!name) return null;
-      const lower = name.toLowerCase();
-
-      for (const [key, cat] of Object.entries(servicesData)) {
-        if (key === '_history') continue;
-        if (lower.includes(cat.name.toLowerCase()) || lower.includes(key.toLowerCase())) {
-          return { key, name: cat.name, isNew: false };
-        }
-      }
-
-      for (const [key, item] of Object.entries(KNOWN_RULES)) {
-        if (item.regex.test(lower)) {
-          if (servicesData[key]) {
-            return { key, name: servicesData[key].name, isNew: false };
-          } else {
-            return { key, name: item.name, isNew: true };
-          }
-        }
-      }
-      return null;
-    }
-
-    function parseAndFillText(raw) {
-      if (!raw || !raw.trim()) return;
-      const lines = raw.trim().split('\n').map(l => l.trim()).filter(Boolean);
-
-      let pName = '';
-      if (lines.length > 0) {
-        pName = lines[0].replace(/^[^\w\s\u00C0-\u1EF9]+/i, '').trim();
-        document.getElementById('inpName').value = pName;
-      }
-
-      const detected = detectCategoryByName(pName);
-      if (detected) {
-        if (detected.isNew && !servicesData[detected.key]) {
-          servicesData[detected.key] = { name: detected.name, logo: '', plans: [] };
-          renderCategories();
-          populateCategorySelect(detected.key);
-        } else {
-          populateCategorySelect(detected.key);
-        }
-      }
-
-      const priceMatch = raw.match(/Giá[:\s]*([0-9.,]+)\s*([kK]?)/i);
-      if (priceMatch) {
-        let pVal = parseFloat(priceMatch[1].replace(/[,.]/g, ''));
-        if (priceMatch[2] && priceMatch[2].toLowerCase() === 'k') pVal *= 1000;
-        document.getElementById('inpPrice').value = pVal;
-      }
-
-      const durMatch = raw.match(/(\d+\s*(?:Tháng|tháng|Năm|năm|Ngày|ngày|Giờ|giờ|H|h))/i);
-      if (durMatch) {
-        document.getElementById('inpDuration').value = durMatch[1].trim();
-      }
-
-      const stockMatch = raw.match(/(?:Tồn kho|Thêm)[:\s]*(.*)/i);
-      if (stockMatch) {
-        const sText = stockMatch[1];
-        if (sText.includes('∞') || sText.toLowerCase().includes('vô cực')) {
-          document.getElementById('inpStockType').value = '-1';
-        } else {
-          const num = parseInt(sText.replace(/\D/g, ''), 10);
-          if (!isNaN(num)) {
-            if (num === 0) {
-              document.getElementById('inpStockType').value = '0';
-            } else {
-              document.getElementById('inpStockType').value = 'num';
-              document.getElementById('inpStockNumber').value = num;
-            }
-          }
-        }
-        toggleStockInput();
-      }
-
-      const descIndex = raw.search(/Mô tả\s*:/i);
-      if (descIndex !== -1) {
-        document.getElementById('inpDetail').value = raw.substring(descIndex).replace(/^Mô tả\s*:\s*/i, '').trim();
-      } else {
-        document.getElementById('inpDetail').value = lines.slice(1).filter(l => !/^(💰|📦|📊|Giá|Tồn kho|Đã bán|Thêm)/i.test(l)).join('\n');
-      }
-    }
-
-    function toggleStockInput() {
-      const type = document.getElementById('inpStockType').value;
-      document.getElementById('stockNumberWrap').style.display = type === 'num' ? 'flex' : 'none';
-    }
-
-    function populateCategorySelect(selectedKey) {
-      const sel = document.getElementById('inpTargetCategory');
-      const validCats = Object.entries(servicesData).filter(([k]) => k !== '_history');
-      sel.innerHTML = validCats.map(([k, cat]) => `<option value="${k}" ${k === selectedKey ? 'selected' : ''}>${cat.name}</option>`).join('');
-    }
-
+    // --- MODAL THÊM / SỬA SẢN PHẨM ---
     function openAddModal() {
-      if (!activeCat) { alert("Tạo danh mục trước!"); return; }
       editingPlanIndex = -1;
-      document.getElementById('modalTitle').innerText = 'Thêm gói sản phẩm';
-      document.getElementById('inpQuickPaste').value = '';
+      document.getElementById('modalTitle').innerText = "Thêm Sản Phẩm Mới";
       document.getElementById('inpName').value = '';
       document.getElementById('inpPrice').value = '';
       document.getElementById('inpDuration').value = '1 Tháng';
-      document.getElementById('inpStockType').value = 'num';
+      document.getElementById('inpStockType').value = 'number';
       document.getElementById('inpStockNumber').value = '10';
-      document.getElementById('inpDetail').value = '• Mô tả gói dịch vụ...';
-      populateCategorySelect(activeCat);
+      document.getElementById('inpDetail').value = '';
+      document.getElementById('inpQuickPaste').value = '';
+      populateCategorySelect();
+      document.getElementById('inpTargetCategory').value = currentCat;
       toggleStockInput();
-      document.getElementById('planModal').style.display = 'flex';
+      document.getElementById('planModal').classList.add('active');
     }
 
     function openEditModal(idx) {
       editingPlanIndex = idx;
-      const p = servicesData[activeCat].plans[idx];
-      document.getElementById('modalTitle').innerText = `Chỉnh sửa: ${p.name}`;
+      const p = servicesData[currentCat].plans[idx];
+      document.getElementById('modalTitle').innerText = "Chỉnh Sửa Sản Phẩm";
       document.getElementById('inpName').value = p.name;
       document.getElementById('inpPrice').value = p.price;
       document.getElementById('inpDuration').value = p.duration || '1 Tháng';
-      populateCategorySelect(activeCat);
-      document.getElementById('inpStockType').value = (p.stock === -1 || p.stock === '∞') ? '-1' : (p.stock === 0 ? '0' : 'num');
-      if (document.getElementById('inpStockType').value === 'num') document.getElementById('inpStockNumber').value = p.stock;
       document.getElementById('inpDetail').value = p.detail || '';
+
+      if (p.stock === -1 || p.stock === '∞') {
+        document.getElementById('inpStockType').value = 'infinity';
+      } else {
+        document.getElementById('inpStockType').value = 'number';
+        document.getElementById('inpStockNumber').value = p.stock;
+      }
+
+      populateCategorySelect();
+      document.getElementById('inpTargetCategory').value = currentCat;
       toggleStockInput();
-      document.getElementById('planModal').style.display = 'flex';
+      document.getElementById('planModal').classList.add('active');
     }
 
-    function closeModal() { document.getElementById('planModal').style.display = 'none'; }
+    function closeModal() { document.getElementById('planModal').classList.remove('active'); }
+    function toggleStockInput() {
+      const type = document.getElementById('inpStockType').value;
+      document.getElementById('stockNumberWrap').style.display = type === 'infinity' ? 'none' : 'block';
+    }
 
-    // --- LƯU SẢN PHẨM & GHI VÀO LỊCH SỬ THÊM ---
-    async function savePlan() {
+    function populateCategorySelect() {
+      const sel = document.getElementById('inpTargetCategory');
+      sel.innerHTML = '';
+      for (const k of Object.keys(servicesData)) {
+        if (k === '_history') continue;
+        const opt = document.createElement('option');
+        opt.value = k;
+        opt.innerText = servicesData[k].name || k;
+        sel.appendChild(opt);
+      }
+    }
+
+    function checkPriceLogicInput(val) {
+      const p = Number(val || 0);
+      const alertBox = document.getElementById('priceInputAlert');
+      if (p > 0 && p < 1000 && !/hotmail/i.test(document.getElementById('inpName').value)) {
+        alertBox.style.display = 'block';
+        alertBox.innerText = '⚠️ Giá quá thấp (< 1.000đ)! Bạn có gõ thiếu số 0 không?';
+      } else if (p > 3000000) {
+        alertBox.style.display = 'block';
+        alertBox.innerText = '⚠️ Giá quá cao (> 3.000.000đ)! Hãy kiểm tra lại số 0 thừa.';
+      } else {
+        alertBox.style.display = 'none';
+      }
+    }
+
+    function savePlan() {
+      const targetCat = document.getElementById('inpTargetCategory').value;
       const name = document.getElementById('inpName').value.trim();
       const price = Number(document.getElementById('inpPrice').value) || 0;
-      const duration = document.getElementById('inpDuration').value.trim();
+      const duration = document.getElementById('inpDuration').value.trim() || '1 Tháng';
       const detail = document.getElementById('inpDetail').value.trim();
       const stockType = document.getElementById('inpStockType').value;
-      const targetKey = document.getElementById('inpTargetCategory').value;
+      const stock = stockType === 'infinity' ? -1 : (Number(document.getElementById('inpStockNumber').value) || 0);
 
-      if (!name) { alert("Nhập tên gói!"); return; }
+      if (!name) { alert("Vui lòng nhập tên gói!"); return; }
 
-      let stock = stockType === '0' ? 0 : (stockType === 'num' ? (Number(document.getElementById('inpStockNumber').value) || 0) : -1);
-      let stock_text = stock === -1 ? "Vô cực (∞)" : (stock === 0 ? "Tạm hết hàng" : `Còn ${stock}`);
+      const newPlan = {
+        id: editingPlanIndex >= 0 ? servicesData[currentCat].plans[editingPlanIndex].id : 'p-' + Date.now(),
+        name,
+        price,
+        stock,
+        stock_text: stock === -1 ? 'Vô cực (∞)' : `Còn ${stock}`,
+        duration,
+        detail
+      };
 
-      if (!servicesData[targetKey]) {
-        servicesData[targetKey] = { name: targetKey.toUpperCase(), logo: '', plans: [] };
-      }
-      if (!servicesData[targetKey].plans) servicesData[targetKey].plans = [];
-      const plans = servicesData[targetKey].plans;
-
-      let addedQty = stock > 0 ? stock : 1;
-
-      if (editingPlanIndex !== -1 && activeCat !== targetKey) {
-        servicesData[activeCat].plans.splice(editingPlanIndex, 1);
-        editingPlanIndex = -1;
-      }
-
-      if (editingPlanIndex === -1) {
-        const existIdx = plans.findIndex(p => p.name.trim().toLowerCase() === name.toLowerCase());
-        if (existIdx !== -1) {
-          const oldPlan = plans[existIdx];
-          if (oldPlan.stock !== -1 && oldPlan.stock !== '∞' && stockType === 'num') {
-            oldPlan.stock = (Number(oldPlan.stock) || 0) + addedQty;
-            oldPlan.stock_text = `Còn ${oldPlan.stock}`;
-            stock = oldPlan.stock;
-          }
-          oldPlan.price = price > 0 ? price : oldPlan.price;
-          if (detail) oldPlan.detail = detail;
-          alert(`⚡ Gói trùng tên! Đã cộng dồn +${addedQty} vào kho (Hiện có: ${oldPlan.stock}).`);
+      if (editingPlanIndex >= 0) {
+        if (targetCat === currentCat) {
+          servicesData[currentCat].plans[editingPlanIndex] = newPlan;
         } else {
-          plans.push({ id: 'p-' + Date.now(), name, price, stock, stock_text, duration, detail });
+          servicesData[currentCat].plans.splice(editingPlanIndex, 1);
+          if (!servicesData[targetCat].plans) servicesData[targetCat].plans = [];
+          servicesData[targetCat].plans.push(newPlan);
+          currentCat = targetCat;
         }
       } else {
-        plans[editingPlanIndex] = { id: plans[editingPlanIndex].id, name, price, stock, stock_text, duration, detail };
+        if (!servicesData[targetCat].plans) servicesData[targetCat].plans = [];
+        servicesData[targetCat].plans.push(newPlan);
+        currentCat = targetCat;
       }
 
-      if (!servicesData._history) servicesData._history = [];
-      const nowStr = new Date().toLocaleString('vi-VN', {
-        hour: '2-digit', minute: '2-digit',
-        day: '2-digit', month: '2-digit', year: 'numeric'
-      });
-
-      servicesData._history.unshift({
-        id: 'hist-' + Date.now(),
-        time: nowStr,
-        name: name,
-        addedQty: addedQty,
-        price: price,
-        stockAfter: stock,
-        catKey: targetKey,
-        source: 'Admin'
-      });
-
-      updateHistoryCount();
-      activeCat = targetKey;
       closeModal();
+      updateStats();
       renderCategories();
       renderTable();
-      saveDirectToGitHub(true);
+      runPriceAudit();
     }
 
     function deletePlan(idx) {
-      if (confirm(`Xóa gói "${servicesData[activeCat].plans[idx].name}"?`)) {
-        servicesData[activeCat].plans.splice(idx, 1);
-        renderCategories();
+      if (confirm("Bạn có chắc chắn muốn xóa gói này?")) {
+        servicesData[currentCat].plans.splice(idx, 1);
+        updateStats();
         renderTable();
-        saveDirectToGitHub(true);
+        runPriceAudit();
       }
     }
 
-    // --- QUÉT & TỰ PHÂN LOẠI DANH MỤC ---
+    // --- QUICK PASTE BOT TEXT ---
+    document.getElementById('inpQuickPaste').addEventListener('input', function(e) {
+      const raw = e.target.value.trim();
+      if (!raw) return;
+
+      const lines = raw.split('\n').map(l => l.trim()).filter(Boolean);
+      if (lines.length > 0) {
+        document.getElementById('inpName').value = lines[0].replace(/^[^\w\s\u00C0-\u1EF9]+/i, '').trim();
+      }
+
+      // Giá
+      const pMatch = raw.match(/Giá[:\s]*([0-9.,]+)\s*([kKđĐ]?)/i);
+      if (pMatch) {
+        let pStr = pMatch[1].trim();
+        const unit = pMatch[2] ? pMatch[2].toLowerCase() : '';
+        let finalP = 0;
+        if (unit === 'k') {
+          finalP = Math.round(parseFloat(pStr.replace(',', '.')) * 1000);
+        } else {
+          finalP = parseInt(pStr.replace(/[,.]/g, ''), 10);
+        }
+        document.getElementById('inpPrice').value = finalP;
+        checkPriceLogicInput(finalP);
+      }
+
+      // Số lượng
+      const addMatch = raw.match(/(?:Thêm|Tồn kho)[:\s]*([0-9]+)/i);
+      if (addMatch) {
+        document.getElementById('inpStockType').value = 'number';
+        document.getElementById('inpStockNumber').value = parseInt(addMatch[1], 10);
+        toggleStockInput();
+      }
+
+      // Tự phân loại danh mục
+      for (const [k, reg] of Object.entries(CAT_KEYWORDS)) {
+        if (reg.test(raw)) {
+          document.getElementById('inpTargetCategory').value = k;
+          break;
+        }
+      }
+    });
+
+    // --- MODAL DANH MỤC ---
+    function openAddCatModal() {
+      editingCatKey = null;
+      document.getElementById('catModalTitle').innerText = "Thêm Danh Mục Mới";
+      document.getElementById('catKeyGroup').style.display = 'block';
+      document.getElementById('inpCatKey').value = '';
+      document.getElementById('inpCatName').value = '';
+      document.getElementById('inpCatLogo').value = '⚡';
+      document.getElementById('catModal').classList.add('active');
+    }
+
+    function openEditCatModal() {
+      if (!currentCat) return;
+      editingCatKey = currentCat;
+      document.getElementById('catModalTitle').innerText = "Sửa Danh Mục: " + currentCat;
+      document.getElementById('catKeyGroup').style.display = 'none';
+      document.getElementById('inpCatName').value = servicesData[currentCat].name || currentCat;
+      document.getElementById('inpCatLogo').value = servicesData[currentCat].logo || '⚡';
+      document.getElementById('catModal').classList.add('active');
+    }
+
+    function closeCatModal() { document.getElementById('catModal').classList.remove('active'); }
+
+    function saveCategory() {
+      const name = document.getElementById('inpCatName').value.trim();
+      const logo = document.getElementById('inpCatLogo').value.trim() || '⚡';
+      if (!name) { alert("Vui lòng nhập tên danh mục!"); return; }
+
+      if (editingCatKey) {
+        servicesData[editingCatKey].name = name;
+        servicesData[editingCatKey].logo = logo;
+      } else {
+        const key = document.getElementById('inpCatKey').value.trim().toLowerCase().replace(/\s+/g, '-');
+        if (!key) { alert("Vui lòng nhập mã danh mục!"); return; }
+        if (servicesData[key]) { alert("Mã danh mục này đã tồn tại!"); return; }
+        servicesData[key] = { name, logo, plans: [] };
+        currentCat = key;
+      }
+
+      closeCatModal();
+      renderCategories();
+    }
+
+    function deleteCurrentCat() {
+      if (confirm(`Bạn có chắc muốn xóa toàn bộ danh mục "${currentCat}"?`)) {
+        delete servicesData[currentCat];
+        currentCat = '';
+        renderCategories();
+        updateStats();
+      }
+    }
+
     function autoCategorizeCurrentList() {
-      const currentCat = servicesData[activeCat];
-      if (!currentCat || !currentCat.plans || currentCat.plans.length === 0) {
-        alert("Danh mục này không có sản phẩm nào để phân loại!");
+      let count = 0;
+      const plans = [...(servicesData[currentCat].plans || [])];
+      plans.forEach(p => {
+        for (const [k, reg] of Object.entries(CAT_KEYWORDS)) {
+          if (k !== currentCat && reg.test(p.name)) {
+            // Chuyển sang k
+            const idx = servicesData[currentCat].plans.indexOf(p);
+            if (idx !== -1) {
+              servicesData[currentCat].plans.splice(idx, 1);
+              if (!servicesData[k].plans) servicesData[k].plans = [];
+              servicesData[k].plans.push(p);
+              count++;
+              break;
+            }
+          }
+        }
+      });
+      alert(`Đã tự động phân loại lại ${count} sản phẩm!`);
+      renderCategories();
+      updateStats();
+    }
+
+    // --- GITHUB TOKEN & SAVE ---
+    function openTokenModal() {
+      document.getElementById('inpGitHubToken').value = (localStorage.getItem('gh_token') || '').trim();
+      document.getElementById('tokenModal').classList.add('active');
+    }
+    function closeTokenModal() { document.getElementById('tokenModal').classList.remove('active'); }
+    function saveGitHubToken() {
+      const t = document.getElementById('inpGitHubToken').value.trim();
+      localStorage.setItem('gh_token', t);
+      closeTokenModal();
+      alert("✅ Đã lưu GitHub Token vào trình duyệt!");
+    }
+
+    async function saveDirectToGitHub() {
+      let token = (localStorage.getItem('gh_token') || '').trim();
+      if (!token) {
+        openTokenModal();
         return;
       }
 
-      if (!confirm(`Tự động quét ${currentCat.plans.length} sản phẩm trong [${currentCat.name}] để đưa về đúng danh mục theo từ khóa?`)) return;
-
-      let movedCount = 0;
-      let newCatCount = 0;
-      const remainingPlans = [];
-
-      currentCat.plans.forEach(plan => {
-        const detected = detectCategoryByName(plan.name);
-
-        if (detected && detected.key !== activeCat) {
-          if (detected.isNew && !servicesData[detected.key]) {
-            servicesData[detected.key] = { name: detected.name, logo: '', plans: [] };
-            newCatCount++;
-          }
-
-          if (!servicesData[detected.key].plans) servicesData[detected.key].plans = [];
-          servicesData[detected.key].plans.push(plan);
-          movedCount++;
-        } else {
-          remainingPlans.push(plan);
-        }
-      });
-
-      servicesData[activeCat].plans = remainingPlans;
-      renderCategories();
-      renderTable();
-      saveDirectToGitHub(true);
-
-      alert(`🎉 Hoàn tất phân loại!\n• Đã chuyển: ${movedCount} sản phẩm về đúng danh mục.\n• Đã tạo mới: ${newCatCount} danh mục mới.`);
-    }
-
-    function copyJSON() {
-      navigator.clipboard.writeText(JSON.stringify(servicesData, null, 2)).then(() => alert("✅ Đã chép JSON!"));
-    }
-    function downloadJSON() {
-      const blob = new Blob([JSON.stringify(servicesData, null, 2)], { type: "application/json" });
-      const a = document.createElement("a");
-      a.href = URL.createObjectURL(blob);
-      a.download = "services.json";
-      a.click();
-    }
-    function triggerImportFile() { document.getElementById('jsonFileInput').click(); }
-    function handleFileImport(e) {
-      const file = e.target.files[0];
-      if (!file) return;
-      const reader = new FileReader();
-      reader.onload = function(evt) {
-        try {
-          servicesData = JSON.parse(evt.target.result);
-          if (!servicesData._history) servicesData._history = [];
-          updateHistoryCount();
-          const cats = Object.keys(servicesData).filter(k => k !== '_history');
-          activeCat = cats[0] || '';
-          renderCategories();
-          renderTable();
-          alert("✅ Nạp JSON thành công!");
-        } catch (err) { alert("Lỗi: " + err.message); }
-      };
-      reader.readAsText(file);
-    }
-
-    // --- ĐỒNG BỘ GITHUB ---
-    async function saveDirectToGitHub(isAuto = false) {
-      let token = (localStorage.getItem('gh_token') || '').trim();
-      if (!token) {
-        token = prompt("Nhập GitHub Personal Access Token (ghp_...):");
-        if (!token) return;
-        localStorage.setItem('gh_token', token.trim());
-      }
-
       const btn = document.getElementById('btnSaveGitHub');
-      const origText = btn.innerText;
-      btn.innerText = "⏳ Đang lưu...";
+      const origText = btn.innerHTML;
+      btn.innerHTML = "⏳ Đang đẩy lên GitHub...";
       btn.disabled = true;
 
       try {
         const getRes = await fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/${FILE_PATH}?_=${Date.now()}`, {
           headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' }
         });
-        if (!getRes.ok) throw new Error("Kết nối GitHub thất bại!");
+        if (!getRes.ok) throw new Error("Kết nối GitHub thất bại (" + getRes.status + ")! Vui lòng kiểm tra lại Token.");
         const fileData = await getRes.json();
 
         const newContent = btoa(unescape(encodeURIComponent(JSON.stringify(servicesData, null, 2))));
@@ -1057,40 +1527,51 @@
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-            message: 'Admin: Cap nhat danh sach & nhap kho',
+            message: 'Admin Pro: Cập nhật danh mục, giá & kho hàng',
             content: newContent,
             sha: fileData.sha
           })
         });
 
         if (!putRes.ok) throw new Error("Ghi file lên GitHub thất bại!");
-        if (!isAuto) alert("✅ Đã lưu lên GitHub thành công!");
+        alert("🎉 ĐÃ LƯU THÀNH CÔNG LÊN GITHUB! Website sẽ cập nhật ngay trong tích tắc.");
       } catch (err) {
         alert("❌ Lỗi: " + err.message);
       } finally {
-        btn.innerText = origText;
+        btn.innerHTML = origText;
         btn.disabled = false;
       }
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
-      init();
-      const qp = document.getElementById('inpQuickPaste');
-      if (qp) {
-        qp.addEventListener('input', function(e) {
-          parseAndFillText(e.target.value);
-        });
-      }
-      const nameInp = document.getElementById('inpName');
-      if (nameInp) {
-        nameInp.addEventListener('input', function(e) {
-          const detected = detectCategoryByName(e.target.value);
-          if (detected && !detected.isNew) {
-            document.getElementById('inpTargetCategory').value = detected.key;
-          }
-        });
-      }
-    });
+    function downloadJSON() {
+      const blob = new Blob([JSON.stringify(servicesData, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `services_${Date.now()}.json`;
+      a.click();
+    }
+
+    function triggerImportFile() { document.getElementById('jsonFileInput').click(); }
+    function handleFileImport(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (evt) => {
+        try {
+          servicesData = JSON.parse(evt.target.result);
+          updateStats();
+          renderCategories();
+          runPriceAudit();
+          renderRecentFeed();
+          alert("✅ Đã nạp file JSON thành công!");
+        } catch (err) {
+          alert("❌ File JSON không hợp lệ!");
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
   </script>
 </body>
 </html>
