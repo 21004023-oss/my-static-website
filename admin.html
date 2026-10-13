@@ -1548,19 +1548,19 @@
       }
     }
 
-    // ĐỒNG BỘ GIÁ TRONG NHÓM XUNG ĐỘT
-    function syncGroupPrice(catKey, indices, targetPrice) {
+    // ĐỒNG BỘ GIÁ TRONG NHÓM XUNG ĐỘT (TỰ ĐỘNG LƯU GITHUB)
+    async function syncGroupPrice(catKey, indices, targetPrice) {
       indices.forEach(idx => {
         servicesData[catKey].plans[idx].price = targetPrice;
       });
       runPriceAudit();
       renderTable();
       updateStats();
-      alert(`✅ Đã đồng bộ giá của nhóm về ${targetPrice.toLocaleString('vi-VN')}đ! Đừng quên bấm 'Lưu lên GitHub'.`);
+      await saveDirectToGitHub(true, `Đã đồng bộ giá của nhóm về ${targetPrice.toLocaleString('vi-VN')}đ và lưu vĩnh viễn lên GitHub! Khi F5 sẽ không bị mất.`);
     }
 
-    // GỘP CHUNG 2 GÓI LÀM 1 VÀ CỘNG DỒN KHO
-    function mergeGroupPlans(catKey, indices) {
+    // GỘP CHUNG 2 GÓI LÀM 1 VÀ CỘNG DỒN KHO (TỰ ĐỘNG LƯU GITHUB)
+    async function mergeGroupPlans(catKey, indices) {
       if (!confirm("Hành động này sẽ gộp các gói này thành 1 gói duy nhất và CỘNG DỒN SỐ LƯỢNG KHO lại với nhau. Bạn có chắc không?")) return;
 
       const plans = servicesData[catKey].plans;
@@ -1570,7 +1570,6 @@
 
       let totalStock = masterPlan.stock === -1 ? -1 : (masterPlan.stock || 0);
 
-      // Cộng dồn kho từ các gói sau
       for (let i = 1; i < sortedIdx.length; i++) {
         const otherPlan = plans[sortedIdx[i]];
         if (totalStock !== -1 && otherPlan.stock !== -1) {
@@ -1581,7 +1580,6 @@
       masterPlan.stock = totalStock;
       masterPlan.stock_text = totalStock === -1 ? 'Vô cực (∞)' : `Còn ${totalStock}`;
 
-      // Xóa các gói phụ (xóa từ index lớn về nhỏ)
       for (let i = sortedIdx.length - 1; i >= 1; i--) {
         plans.splice(sortedIdx[i], 1);
       }
@@ -1589,30 +1587,30 @@
       runPriceAudit();
       renderTable();
       updateStats();
-      alert("🎉 Đã gộp thành công thành 1 gói duy nhất và cộng dồn toàn bộ kho hàng!");
+      await saveDirectToGitHub(true, "🎉 Đã gộp thành công 2 gói làm một, cộng dồn kho và LƯU LÊN GITHUB!");
     }
 
-    function saveSingleConflictPrice(catKey, idx) {
+    async function saveSingleConflictPrice(catKey, idx) {
       const inp = document.getElementById(`confPrice_${catKey}_${idx}`);
       servicesData[catKey].plans[idx].price = Number(inp.value || 0);
       runPriceAudit();
       renderTable();
       updateStats();
-      alert("✅ Đã cập nhật giá mới!");
+      await saveDirectToGitHub(true, "✅ Đã lưu giá mới lên GitHub thành công!");
     }
 
-    function applySuggestedPrice(catKey, idx, newPrice) {
+    async function applySuggestedPrice(catKey, idx, newPrice) {
       document.getElementById(`auditPrice_${catKey}_${idx}`).value = newPrice;
-      saveInlinePrice(catKey, idx);
+      await saveInlinePrice(catKey, idx);
     }
 
-    function saveInlinePrice(catKey, idx) {
+    async function saveInlinePrice(catKey, idx) {
       const inp = document.getElementById(`auditPrice_${catKey}_${idx}`);
       servicesData[catKey].plans[idx].price = Number(inp.value || 0);
       runPriceAudit();
       renderTable();
       updateStats();
-      alert("✅ Đã cập nhật giá mới! Đừng quên bấm 'Lưu lên GitHub'.");
+      await saveDirectToGitHub(true, "✅ Đã cập nhật giá và LƯU VĨNH VIỄN LÊN GITHUB!");
     }
 
     // =========================================================================
@@ -2065,23 +2063,24 @@
       alert("✅ Đã lưu GitHub Token vào trình duyệt!");
     }
 
-    async function saveDirectToGitHub() {
+    async function saveDirectToGitHub(isSilent = false, successMsg = "") {
       let token = (localStorage.getItem('gh_token') || '').trim();
       if (!token) {
+        alert("⚠️ Bạn chưa cài GitHub Token! Vui lòng bấm vào '⚙️ Token' để nhập token một lần.");
         openTokenModal();
-        return;
+        return false;
       }
 
       const btn = document.getElementById('btnSaveGitHub');
       const origText = btn.innerHTML;
-      btn.innerHTML = "⏳ Đang đẩy lên GitHub...";
+      btn.innerHTML = "⏳ Đang lưu lên GitHub...";
       btn.disabled = true;
 
       try {
         const getRes = await fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/${FILE_PATH}?_=${Date.now()}`, {
           headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' }
         });
-        if (!getRes.ok) throw new Error("Kết nối GitHub thất bại (" + getRes.status + ")! Vui lòng kiểm tra lại Token.");
+        if (!getRes.ok) throw new Error("Kết nối GitHub thất bại (" + getRes.status + ")! Vui lòng kiểm tra lại Token trong mục '⚙️ Token'.");
         const fileData = await getRes.json();
 
         const newContent = btoa(unescape(encodeURIComponent(JSON.stringify(servicesData, null, 2))));
@@ -2093,16 +2092,20 @@
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-            message: 'Admin Pro Light: Cập nhật dữ liệu, xử lý xung đột giá & đồng bộ kho',
+            message: 'Admin Pro Light: Cập nhật dữ liệu & xử lý xung đột giá',
             content: newContent,
             sha: fileData.sha
           })
         });
 
-        if (!putRes.ok) throw new Error("Ghi file lên GitHub thất bại!");
-        alert("🎉 ĐÃ LƯU THÀNH CÔNG LÊN GITHUB! Website sẽ cập nhật ngay trong tích tắc.");
+        if (!putRes.ok) throw new Error("Ghi file lên GitHub thất bại (" + putRes.status + ")!");
+        
+        const finalMsg = successMsg || "🎉 ĐÃ LƯU THÀNH CÔNG LÊN GITHUB! Website đã cập nhật vĩnh viễn, F5 sẽ không bị mất dữ liệu.";
+        alert(finalMsg);
+        return true;
       } catch (err) {
-        alert("❌ Lỗi: " + err.message);
+        alert("❌ Lỗi lưu GitHub: " + err.message);
+        return false;
       } finally {
         btn.innerHTML = origText;
         btn.disabled = false;
