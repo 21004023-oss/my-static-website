@@ -826,24 +826,6 @@
         "detail": "-Admin Notion Business (tài khoản cấp sẵn-riêng tư).\n-Định dạng: Mail | Pass | Mail Khôi Phục\n-Có thể thêm nhiều thành viên cùng sử dụng ưu đãi (20-30 thành viên).\n-Hạn gói: 3 tháng\n-Bảo hành: 3 tháng.\n-Lưu ý: Sử dụng để Code sẽ bị ban."
       },
       {
-        "id": "p-1791863722166",
-        "name": "Tài khoản Telegram new SPAM 1 năm - BH 24H",
-        "price": 35000,
-        "stock": 615,
-        "stock_text": "Còn 615",
-        "duration": "1 năm",
-        "detail": "Gói Tài khoản Telegram new SPAM 1 năm - BH 24H bảo hành uy tín."
-      },
-      {
-        "id": "p-1791863897423",
-        "name": "Buff 1K Mem Nhóm Telegram 1 năm  - KBH",
-        "price": 50000,
-        "stock": -1,
-        "stock_text": "Vô cực (∞)",
-        "duration": "1 năm",
-        "detail": "Gói Buff 1K Mem Nhóm Telegram 1 năm  - KBH bảo hành uy tín."
-      },
-      {
         "id": "p-1791865366115",
         "name": "Mã Giảm Giá - Coffee Highlands",
         "price": 5000,
@@ -871,15 +853,6 @@
         "detail": "Gói Chào mừng bạn đến với Tạp Hóa Thỏ Mập bảo hành uy tín."
       },
       {
-        "id": "p-1791866349309",
-        "name": "Buff 10K Mem Nhóm Telegram 1 năm  - KBH",
-        "price": 480000,
-        "stock": -1,
-        "stock_text": "Vô cực (∞)",
-        "duration": "1 năm",
-        "detail": "Gói Buff 10K Mem Nhóm Telegram 1 năm  - KBH bảo hành uy tín."
-      },
-      {
         "id": "p-1791866355739",
         "name": "Tăng 1K Monthly User Bot 1 Tháng BHF",
         "price": 40000,
@@ -887,15 +860,6 @@
         "stock_text": "Vô cực (∞)",
         "duration": "1 Tháng",
         "detail": "Gói Tăng 1K Monthly User Bot 1 Tháng BHF bảo hành uy tín."
-      },
-      {
-        "id": "p-1791866400522",
-        "name": "Bot Tele 1 tháng BHF",
-        "price": 2000,
-        "stock": 37,
-        "stock_text": "Còn 37",
-        "duration": "1 tháng",
-        "detail": "Gói Bot Tele 1 tháng BHF bảo hành uy tín."
       },
       {
         "id": "p-1791867584592",
@@ -1121,5 +1085,47 @@
       "source": "Bot Telegram",
       "msgKey": "Buff10KMemNhómTelegram1năm-KBHGiá:480kTồnkho:∞tàikhoảnĐãbán:0tàikhoảnMôtả:HƯỚNGD"
     }
-  ]
+  ],
+  "bot-tele": {
+    "name": "Bot Telegram",
+    "logo": "",
+    "plans": [
+      {
+        "id": "p-1791863722166",
+        "name": "Tài khoản Telegram new SPAM 1 năm - BH 24H",
+        "price": 35000,
+        "stock": 615,
+        "stock_text": "Còn 615",
+        "duration": "1 năm",
+        "detail": "Gói Tài khoản Telegram new SPAM 1 năm - BH 24H bảo hành uy tín."
+      },
+      {
+        "id": "p-1791863897423",
+        "name": "Buff 1K Mem Nhóm Telegram 1 năm  - KBH",
+        "price": 50000,
+        "stock": -1,
+        "stock_text": "Vô cực (∞)",
+        "duration": "1 năm",
+        "detail": "Gói Buff 1K Mem Nhóm Telegram 1 năm  - KBH bảo hành uy tín."
+      },
+      {
+        "id": "p-1791866349309",
+        "name": "Buff 10K Mem Nhóm Telegram 1 năm  - KBH",
+        "price": 480000,
+        "stock": -1,
+        "stock_text": "Vô cực (∞)",
+        "duration": "1 năm",
+        "detail": "Gói Buff 10K Mem Nhóm Telegram 1 năm  - KBH bảo hành uy tín."
+      },
+      {
+        "id": "p-1791866400522",
+        "name": "Bot Tele 1 tháng BHF",
+        "price": 2000,
+        "stock": 37,
+        "stock_text": "Còn 37",
+        "duration": "1 tháng",
+        "detail": "Gói Bot Tele 1 tháng BHF bảo hành uy tín."
+      }
+    ]
+  }
 }
