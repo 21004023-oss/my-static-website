@@ -3,14 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bảng Quản Trị Dịch Vụ - Admin Pro Light</title>
+  <title>Bảng Quản Trị Dịch Vụ - Admin Pro Live</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    /* ========================================================================= */
-    /* THEME SYSTEM: MẶC ĐỊNH MÀU SÁNG (LIGHT THEME) CÓ NÚT ĐỔI MÀU TỐI          */
-    /* ========================================================================= */
     :root[data-theme="light"] {
       --bg: #f8fafc;
       --card-bg: #ffffff;
@@ -25,10 +22,10 @@
       --text: #0f172a;
       --text-muted: #64748b;
       --text-light: #94a3b8;
-      --input-bg: #f1f5f9;
+      --input-bg: #f8fafc;
       --input-border: #cbd5e1;
-      --table-header: #f8fafc;
-      --table-row-hover: #f1f5f9;
+      --table-header: #f1f5f9;
+      --table-row-hover: #f8fafc;
       --radius: 12px;
       --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
       --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.08);
@@ -71,7 +68,7 @@
       transition: background 0.25s ease, color 0.25s ease;
     }
 
-    /* MÀN HÌNH KHÓA BẢO MẬT */
+    /* MÀN HÌNH KHÓA */
     #lockScreenOverlay {
       position: fixed;
       top: 0; left: 0; right: 0; bottom: 0;
@@ -173,7 +170,6 @@
     }
     .brand-text h1 { font-size: 16px; font-weight: 800; color: var(--text); }
     .brand-text p { font-size: 12px; color: var(--text-muted); }
-
     .header-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 
     /* NÚT BẤM */
@@ -205,7 +201,20 @@
     }
     .btn-outline:hover { background: var(--input-bg); color: var(--text); border-color: var(--input-border); }
 
-    /* BANNER CẢNH BÁO XUNG ĐỘT GIÁ (TOP ALERT BANNER) */
+    /* CẢNH BÁO THIẾU TOKEN BANNER */
+    #noTokenWarningBanner {
+      background: #fef3c7;
+      border-bottom: 1px solid #fde68a;
+      color: #92400e;
+      padding: 10px 24px;
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    /* BANNER CẢNH BÁO XUNG ĐỘT GIÁ */
     .conflict-alert-banner {
       background: #fef2f2;
       border-bottom: 1px solid #fecaca;
@@ -222,6 +231,36 @@
       border-bottom-color: rgba(244, 63, 94, 0.3);
       color: #fecdd3;
     }
+
+    /* TOAST NOTIFICATION */
+    #toastContainer {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 999999;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .toast {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 12px 18px;
+      box-shadow: var(--shadow-lg);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 280px;
+      animation: slideIn 0.3s ease;
+    }
+    .toast-success { border-left: 4px solid var(--emerald); }
+    .toast-error { border-left: 4px solid var(--rose); }
+    .toast-info { border-left: 4px solid var(--primary); }
+    @keyframes slideIn { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
 
     /* KPI STATS CARDS */
     .stats-grid {
@@ -416,7 +455,7 @@
     }
     .custom-table tbody tr:hover { background: var(--table-row-hover); }
     .custom-table tr.row-dragging { opacity: 0.4; }
-    .custom-table tr.row-hidden { opacity: 0.55; background: var(--input-bg); }
+    .custom-table tr.row-hidden { opacity: 0.5; background: var(--input-bg); }
 
     .badge {
       display: inline-flex;
@@ -436,9 +475,9 @@
       background: rgba(5, 150, 105, 0.12);
       border: 1px solid rgba(5, 150, 105, 0.3);
       color: var(--emerald);
-      padding: 3px 8px;
+      padding: 4px 10px;
       border-radius: 6px;
-      font-size: 11.5px;
+      font-size: 12px;
       font-weight: 700;
       cursor: pointer;
       display: inline-flex;
@@ -503,6 +542,8 @@
       margin-bottom: 12px;
       padding-bottom: 8px;
       border-bottom: 1px solid var(--card-border);
+      flex-wrap: wrap;
+      gap: 10px;
     }
     .conflict-item-row {
       display: flex;
@@ -619,6 +660,19 @@
     </div>
   </div>
 
+  <!-- TOAST CONTAINER -->
+  <div id="toastContainer"></div>
+
+  <!-- BANNER CẢNH BÁO THIẾU TOKEN -->
+  <div id="noTokenWarningBanner">
+    <div>
+      ⚠️ <strong>CHƯA LƯU TOKEN:</strong> Trình duyệt chưa có GitHub Token. Mọi thay đổi của bạn sẽ KHÔNG thể lưu lên GitHub được!
+    </div>
+    <button class="btn btn-warning" style="padding:4px 10px; font-size:11.5px;" onclick="openTokenModal()">
+      ⚙️ Cài Đặt Token Ngay
+    </button>
+  </div>
+
   <!-- BANNER CẢNH BÁO XUNG ĐỘT GIÁ -->
   <div id="conflictAlertBanner" class="conflict-alert-banner">
     <div>
@@ -635,17 +689,17 @@
       <div class="brand-logo">⚡</div>
       <div class="brand-text">
         <h1>Bảng Quản Trị Dịch Vụ Số</h1>
-        <p>Hệ thống đồng bộ Telegram & Quản lý kho hàng Pro</p>
+        <p>Đồng bộ Telegram & Quản lý kho hàng Pro Live</p>
       </div>
     </div>
 
     <div class="header-actions">
-      <!-- Nút chuyển đổi Giao diện Sáng / Tối -->
+      <!-- Nút đổi Theme -->
       <button class="btn btn-outline" id="btnThemeToggle" onclick="toggleTheme()" title="Đổi màu giao diện Sáng / Tối">
         ☀️ Giao Diện Sáng
       </button>
 
-      <button class="btn btn-primary" id="btnSaveGitHub" onclick="saveDirectToGitHub()">
+      <button class="btn btn-primary" id="btnSaveGitHub" onclick="saveDirectToGitHub(false)">
         🚀 Lưu lên GitHub
       </button>
       <button class="btn btn-success" onclick="exportToExcelCSV()">
@@ -720,7 +774,6 @@
   <!-- TAB 1: DANH MỤC & SẢN PHẨM -->
   <main class="main-wrap active" id="tabView-catalog">
     <div class="catalog-layout">
-      <!-- CỘT DANH MỤC -->
       <aside class="cat-sidebar">
         <div class="sidebar-head">
           <h4>Danh Mục</h4>
@@ -731,7 +784,6 @@
         </div>
       </aside>
 
-      <!-- BẢNG SẢN PHẨM -->
       <section class="catalog-main">
         <div class="table-toolbar">
           <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
@@ -756,7 +808,7 @@
                 <th style="width:125px;">Giá Bán</th>
                 <th style="width:105px;">Tồn Kho</th>
                 <th style="width:100px;">Thời Hạn</th>
-                <th style="width:105px; text-align:center;">Hiển Thị</th>
+                <th style="width:120px; text-align:center;">Hiển Thị</th>
                 <th style="text-align:right; width:140px;">Hành Động</th>
               </tr>
             </thead>
@@ -859,7 +911,7 @@
     </div>
   </main>
 
-  <!-- MODAL: SỬA HÀNG LOẠT (BULK MODAL) -->
+  <!-- MODAL: SỬA HÀNG LOẠT -->
   <div class="modal-overlay" id="bulkModal">
     <div class="modal-content" style="max-width:500px;">
       <div class="modal-header">
@@ -868,7 +920,7 @@
       </div>
       <div class="modal-body">
         <p style="font-size:12.5px; color:var(--text-muted);">
-          Áp dụng thay đổi giá hoặc số lượng tồn kho đồng loạt cho nhiều sản phẩm cùng lúc.
+          Áp dụng thay đổi giá hoặc số lượng tồn kho đồng loạt và TỰ ĐỘNG LƯU LÊN GITHUB.
         </p>
 
         <div class="form-group">
@@ -900,7 +952,7 @@
       </div>
       <div class="modal-footer">
         <button class="btn btn-outline" onclick="closeBulkModal()">Hủy</button>
-        <button class="btn btn-primary" onclick="applyBulkChanges()">⚡ Áp Dụng Ngay</button>
+        <button class="btn btn-primary" onclick="applyBulkChanges()">⚡ Áp Dụng & Lưu GitHub</button>
       </div>
     </div>
   </div>
@@ -969,7 +1021,7 @@
       </div>
       <div class="modal-footer">
         <button class="btn btn-outline" onclick="closeModal()">Hủy</button>
-        <button class="btn btn-primary" onclick="savePlan()">💾 Lưu Sản Phẩm</button>
+        <button class="btn btn-primary" onclick="savePlan()">💾 Lưu & Đồng Bộ GitHub</button>
       </div>
     </div>
   </div>
@@ -1011,11 +1063,11 @@
       </div>
       <div class="modal-body">
         <p style="font-size:12.5px; color:var(--text-muted); line-height:1.5;">
-          Token chỉ được lưu cục bộ trên trình duyệt máy bạn (localStorage) để cấp quyền lưu file lên GitHub.
+          Token bắt buộc để cấp quyền ghi file lên kho GitHub. Token được lưu riêng tư trong trình duyệt (localStorage).
         </p>
         <div class="form-group">
           <label class="form-label">GitHub Token (ghp_...):</label>
-          <input type="password" id="inpGitHubToken" class="form-control" placeholder="Dán token vào đây..." />
+          <input type="password" id="inpGitHubToken" class="form-control" placeholder="Dán mã ghp_... vào đây" />
         </div>
       </div>
       <div class="modal-footer">
@@ -1029,15 +1081,28 @@
 
   <!-- SCRIPT LOGIC -->
   <script>
-    // =========================================================================
-    // 1. THEME TOGGLE (SÁNG / TỐI - MẶC ĐỊNH MÀU SÁNG)
-    // =========================================================================
+    // TOAST NOTIFICATION
+    function showToast(msg, type = 'success') {
+      const c = document.getElementById('toastContainer');
+      const t = document.createElement('div');
+      t.className = `toast toast-${type}`;
+      const icon = type === 'success' ? '✅' : (type === 'error' ? '❌' : '⏳');
+      t.innerHTML = `<span>${icon}</span><span>${msg}</span>`;
+      c.appendChild(t);
+      setTimeout(() => {
+        t.style.opacity = '0';
+        t.style.transform = 'translateY(10px)';
+        t.style.transition = 'all 0.3s';
+        setTimeout(() => t.remove(), 300);
+      }, 4000);
+    }
+
+    // THEME SYSTEM
     function applySavedTheme() {
       const savedTheme = localStorage.getItem('adm_theme') || 'light';
       document.documentElement.setAttribute('data-theme', savedTheme);
       updateThemeButtonText(savedTheme);
     }
-
     function toggleTheme() {
       const current = document.documentElement.getAttribute('data-theme') || 'light';
       const next = current === 'light' ? 'dark' : 'light';
@@ -1045,17 +1110,12 @@
       localStorage.setItem('adm_theme', next);
       updateThemeButtonText(next);
     }
-
     function updateThemeButtonText(theme) {
       const btn = document.getElementById('btnThemeToggle');
-      if (btn) {
-        btn.innerHTML = theme === 'light' ? '☀️ Giao Diện Sáng' : '🌙 Giao Diện Tối';
-      }
+      if (btn) btn.innerHTML = theme === 'light' ? '☀️ Giao Diện Sáng' : '🌙 Giao Diện Tối';
     }
 
-    // =========================================================================
-    // 2. BẢO MẬT: CHẶN F12 & MÃ HÓA PIN (071003)
-    // =========================================================================
+    // BẢO MẬT: CHẶN F12 & MÃ HÓA PIN (071003)
     document.addEventListener('contextmenu', e => e.preventDefault());
     document.addEventListener('keydown', e => {
       if (
@@ -1069,7 +1129,6 @@
     });
 
     const PIN_HASH_SECURE = '5d6b0d5ce35cc43945965b67a21225493a94a1d0f8a8b71512a617cdb9137696';
-
     async function computeSHA256(str) {
       const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
       return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
@@ -1117,13 +1176,9 @@
       document.getElementById('lockErrorMsg').style.display = 'none';
     }
 
-    // =========================================================================
-    // 3. THUẬT TOÁN CHUẨN HÓA TÊN ĐỂ PHÁT HIỆN SẢN PHẨM CÙNG LOẠI
-    // =========================================================================
     function getCanonicalKey(name) {
       if (!name) return "";
       let k = name.toLowerCase();
-      // Chuẩn hóa biến thể thời gian
       k = k.replace(/\b(2\s*năm|2\s*nam|24\s*tháng|2y)\b/g, ' _dur_2y_ ');
       k = k.replace(/\b(1\s*năm|1\s*nam|12\s*tháng|365\s*(?:ngày|d)|1y)\b/g, ' _dur_1y_ ');
       k = k.replace(/\b(6\s*(?:tháng|thang|th)|180\s*(?:ngày|d))\b/g, ' _dur_6m_ ');
@@ -1131,15 +1186,11 @@
       k = k.replace(/\b(2\s*(?:tháng|thang|th)|60\s*(?:ngày|d))\b/g, ' _dur_2m_ ');
       k = k.replace(/\b(1\s*(?:tháng|thang|th)|30\s*(?:ngày|d)|30d|1th)\b/g, ' _dur_1m_ ');
       k = k.replace(/\b(1\s*(?:ngày|d)|24\s*(?:h|giờ)|24h|1d)\b/g, ' _dur_1d_ ');
-      // Bỏ ký tự đặc biệt
       k = k.replace(/[^\w\s\u00C0-\u1EF9]/g, '');
       k = k.replace(/\s+/g, ' ').trim();
       return k;
     }
 
-    // =========================================================================
-    // 4. QUẢN TRỊ DỮ LIỆU & AUDIT
-    // =========================================================================
     const GITHUB_USERNAME = '21004023-oss';
     const REPO_NAME = 'my-static-website';
     const FILE_PATH = 'data/services.json';
@@ -1169,6 +1220,15 @@
     };
 
     async function initAdminData() {
+      // Kiểm tra token
+      const token = (localStorage.getItem('gh_token') || '').trim();
+      const banner = document.getElementById('noTokenWarningBanner');
+      if (!token) {
+        banner.style.display = 'flex';
+      } else {
+        banner.style.display = 'none';
+      }
+
       try {
         const res = await fetch(`./data/services.json?t=${Date.now()}`);
         if (!res.ok) throw new Error("Chưa tải được file services.json");
@@ -1261,10 +1321,10 @@
 
         item.ondragover = (e) => { e.preventDefault(); item.classList.add('drag-over'); };
         item.ondragleave = () => item.classList.remove('drag-over');
-        item.ondrop = (e) => {
+        item.ondrop = async (e) => {
           e.preventDefault();
           item.classList.remove('drag-over');
-          handleDropToCategory(k);
+          await handleDropToCategory(k);
         };
 
         container.appendChild(item);
@@ -1296,7 +1356,7 @@
         tr.ondragstart = () => { draggedRowIndex = idx; draggedRowCat = currentCat; tr.classList.add('row-dragging'); };
         tr.ondragend = () => { draggedRowIndex = null; tr.classList.remove('row-dragging'); };
         tr.ondragover = (e) => e.preventDefault();
-        tr.ondrop = (e) => { e.preventDefault(); handleRowDrop(idx); };
+        tr.ondrop = async (e) => { e.preventDefault(); await handleRowDrop(idx); };
 
         let stockBadge = '<span class="badge badge-in">Còn ' + p.stock + '</span>';
         if (p.stock === -1 || p.stock === '∞') stockBadge = '<span class="badge badge-in">Vô cực (∞)</span>';
@@ -1329,22 +1389,29 @@
       });
     }
 
-    function togglePlanVisibility(idx) {
+    // TỰ ĐỘNG LƯU GITHUB KHI ẨN / HIỆN SẢN PHẨM
+    async function togglePlanVisibility(idx) {
       const p = servicesData[currentCat].plans[idx];
       p.hidden = !p.hidden;
       renderTable();
       updateStats();
+
+      const actionText = p.hidden ? `Tạm ẩn gói [${p.name}] khỏi trang web` : `Kích hoạt hiển thị lại gói [${p.name}] trên trang web`;
+      showToast(`Đang lưu trạng thái: ${actionText}...`, 'info');
+      await saveDirectToGitHub(true, `✅ ${actionText} thành công!`);
     }
 
-    function handleRowDrop(targetIdx) {
+    async function handleRowDrop(targetIdx) {
       if (draggedRowIndex === null || draggedRowIndex === targetIdx) return;
       const plans = servicesData[currentCat].plans;
       const [moved] = plans.splice(draggedRowIndex, 1);
       plans.splice(targetIdx, 0, moved);
       renderTable();
+      showToast("Đang lưu thứ tự mới lên GitHub...", "info");
+      await saveDirectToGitHub(true, "✅ Đã lưu thứ tự sản phẩm mới lên GitHub!");
     }
 
-    function handleDropToCategory(targetCat) {
+    async function handleDropToCategory(targetCat) {
       if (draggedRowIndex === null || !draggedRowCat) return;
       if (draggedRowCat === targetCat) return;
       const item = servicesData[draggedRowCat].plans.splice(draggedRowIndex, 1)[0];
@@ -1353,11 +1420,11 @@
       draggedRowIndex = null;
       renderCategories();
       renderTable();
+      showToast(`Đang chuyển gói [${item.name}] sang mục [${targetCat}]...`, "info");
+      await saveDirectToGitHub(true, `✅ Đã chuyển gói sang mục [${targetCat}] thành công!`);
     }
 
-    // =========================================================================
-    // 5. SMART AUDITOR: QUÉT XUNG ĐỘT GIÁ CÙNG LOẠI & LỖI ĐỊNH DẠNG GIÁ
-    // =========================================================================
+    // AUDIT & XUNG ĐỘT GIÁ
     function runPriceAudit() {
       const summaryContainer = document.getElementById('auditSummaryCards');
       const conflictContainer = document.getElementById('conflictListContainer');
@@ -1372,22 +1439,19 @@
       const conflictGroups = [];
       let totalChecked = 0;
 
-      // Quét từng danh mục
       for (const [catKey, val] of Object.entries(servicesData)) {
         if (catKey === '_history') continue;
         const plans = val.plans || [];
 
-        // 1. Nhóm theo Canonical Key để tìm sản phẩm cùng loại
         const grouped = {};
         plans.forEach((p, idx) => {
           totalChecked++;
           const ck = getCanonicalKey(p.name);
           if (ck) {
             if (!grouped[ck]) grouped[ck] = [];
-            grouped[ck].append = grouped[ck].push({ plan: p, index: idx });
+            grouped[ck].push({ plan: p, index: idx });
           }
 
-          // Kiểm tra các lỗi giá khác (số 0 thừa, thập phân...)
           const price = Number(p.price || 0);
           const name = p.name || '';
           let issue = null;
@@ -1409,7 +1473,6 @@
           }
         });
 
-        // 2. Tìm nhóm có khác biệt giá
         for (const [ck, items] of Object.entries(grouped)) {
           if (items.length > 1) {
             const prices = new Set(items.map(it => Number(it.plan.price || 0)));
@@ -1424,12 +1487,11 @@
       document.getElementById('badgeAlertCount').innerText = totalAlertsCount;
       document.getElementById('statPriceAlerts').innerText = totalAlertsCount;
 
-      // Bật/tắt Banner cảnh báo ở đầu trang
       if (conflictGroups.length > 0) {
         banner.style.display = 'flex';
         banner.innerHTML = `
           <div>
-            ⚠️ <strong>CẢNH BÁO:</strong> Phát hiện <strong>${conflictGroups.length} nhóm sản phẩm cùng loại</strong> đang bị lệch giá tiền (ví dụ: CapCut 33k vs 40k)!
+            ⚠️ <strong>CẢNH BÁO:</strong> Phát hiện <strong>${conflictGroups.length} nhóm sản phẩm cùng loại</strong> đang bị lệch giá tiền (như CapCut 33k vs 40k)!
           </div>
           <button class="btn btn-danger" style="padding:4px 10px; font-size:11.5px;" onclick="switchTab('audit')">
             🔍 Xem & Xử Lý Ngay
@@ -1439,7 +1501,6 @@
         banner.style.display = 'none';
       }
 
-      // Render thẻ thống kê
       summaryContainer.innerHTML = `
         <div class="audit-card">
           <div class="audit-card-head" style="color:var(--primary);">📦 Tổng Gói Đã Quét</div>
@@ -1458,7 +1519,6 @@
         </div>
       `;
 
-      // RENDER NHÓM XUNG ĐỘT GIÁ
       if (conflictGroups.length === 0) {
         conflictContainer.innerHTML = `
           <div style="background:var(--input-bg); border-radius:10px; padding:20px; text-align:center; color:var(--emerald); font-weight:700;">
@@ -1516,7 +1576,6 @@
         });
       }
 
-      // RENDER CÁC GÓI CẦN XEM XÉT KHÁC
       if (otherAlerts.length === 0) {
         tableBody.innerHTML = `
           <tr>
@@ -1548,7 +1607,6 @@
       }
     }
 
-    // ĐỒNG BỘ GIÁ TRONG NHÓM XUNG ĐỘT (TỰ ĐỘNG LƯU GITHUB)
     async function syncGroupPrice(catKey, indices, targetPrice) {
       indices.forEach(idx => {
         servicesData[catKey].plans[idx].price = targetPrice;
@@ -1556,10 +1614,10 @@
       runPriceAudit();
       renderTable();
       updateStats();
-      await saveDirectToGitHub(true, `Đã đồng bộ giá của nhóm về ${targetPrice.toLocaleString('vi-VN')}đ và lưu vĩnh viễn lên GitHub! Khi F5 sẽ không bị mất.`);
+      showToast(`Đang đồng bộ giá về ${targetPrice.toLocaleString('vi-VN')}đ...`, 'info');
+      await saveDirectToGitHub(true, `✅ Đã đồng bộ giá của nhóm về ${targetPrice.toLocaleString('vi-VN')}đ thành công!`);
     }
 
-    // GỘP CHUNG 2 GÓI LÀM 1 VÀ CỘNG DỒN KHO (TỰ ĐỘNG LƯU GITHUB)
     async function mergeGroupPlans(catKey, indices) {
       if (!confirm("Hành động này sẽ gộp các gói này thành 1 gói duy nhất và CỘNG DỒN SỐ LƯỢNG KHO lại với nhau. Bạn có chắc không?")) return;
 
@@ -1587,7 +1645,8 @@
       runPriceAudit();
       renderTable();
       updateStats();
-      await saveDirectToGitHub(true, "🎉 Đã gộp thành công 2 gói làm một, cộng dồn kho và LƯU LÊN GITHUB!");
+      showToast("Đang gộp gói và cộng dồn kho lên GitHub...", "info");
+      await saveDirectToGitHub(true, "🎉 Đã gộp thành công 2 gói làm một, cộng dồn kho và lưu lên GitHub!");
     }
 
     async function saveSingleConflictPrice(catKey, idx) {
@@ -1596,6 +1655,7 @@
       runPriceAudit();
       renderTable();
       updateStats();
+      showToast("Đang cập nhật giá mới lên GitHub...", "info");
       await saveDirectToGitHub(true, "✅ Đã lưu giá mới lên GitHub thành công!");
     }
 
@@ -1610,12 +1670,10 @@
       runPriceAudit();
       renderTable();
       updateStats();
-      await saveDirectToGitHub(true, "✅ Đã cập nhật giá và LƯU VĨNH VIỄN LÊN GITHUB!");
+      showToast("Đang lưu giá mới lên GitHub...", "info");
+      await saveDirectToGitHub(true, "✅ Đã cập nhật giá và lưu vĩnh viễn lên GitHub!");
     }
 
-    // =========================================================================
-    // 6. CÁC TÍNH NĂNG KHÁC (FEED, HISTORY, BULK, EXCEL...)
-    // =========================================================================
     function checkDuplicateNameAlert(nameVal) {
       const alertDiv = document.getElementById('duplicateConflictAlert');
       if (!nameVal || !currentCat) {
@@ -1628,7 +1686,7 @@
 
       if (match) {
         alertDiv.style.display = 'block';
-        alertDiv.innerHTML = `⚠️ Chú ý: Đã có gói cùng loại: "<strong>${match.name}</strong>" đang bán giá <strong>${Number(match.price||0).toLocaleString('vi-VN')}đ</strong>. Hãy cân nhắc xem có nên đặt cùng giá hoặc cộng kho vào gói đó không.`;
+        alertDiv.innerHTML = `⚠️ Chú ý: Đã có gói cùng loại: "<strong>${match.name}</strong>" đang bán giá <strong>${Number(match.price||0).toLocaleString('vi-VN')}đ</strong>.`;
       } else {
         alertDiv.style.display = 'none';
       }
@@ -1664,12 +1722,13 @@
       const dateStr = new Date().toISOString().slice(0, 10);
       a.download = `kho_hang_services_${dateStr}.csv`;
       a.click();
+      showToast("✅ Đã xuất báo cáo Excel (CSV) thành công!");
     }
 
     function openBulkModal() { document.getElementById('bulkModal').classList.add('active'); }
     function closeBulkModal() { document.getElementById('bulkModal').classList.remove('active'); }
 
-    function applyBulkChanges() {
+    async function applyBulkChanges() {
       const scope = document.getElementById('bulkScope').value;
       const priceType = document.getElementById('bulkPriceType').value;
       const priceVal = Number(document.getElementById('bulkPriceVal').value || 0);
@@ -1701,7 +1760,8 @@
       renderTable();
       updateStats();
       runPriceAudit();
-      alert(`🎉 Đã áp dụng thay đổi hàng loạt thành công cho ${count} sản phẩm! Bấm 'Lưu lên GitHub' để cập nhật web.`);
+      showToast(`Đang lưu thay đổi cho ${count} sản phẩm lên GitHub...`, 'info');
+      await saveDirectToGitHub(true, `🎉 Đã áp dụng và lưu thay đổi hàng loạt cho ${count} sản phẩm lên GitHub!`);
     }
 
     function renderRecentFeed() {
@@ -1794,19 +1854,21 @@
       });
     }
 
-    function deleteHistoryItem(idx) {
+    async function deleteHistoryItem(idx) {
       if (confirm("Xóa bản ghi này khỏi lịch sử?")) {
         servicesData._history.splice(idx, 1);
         renderHistoryTable();
         updateStats();
+        await saveDirectToGitHub(true, "✅ Đã xóa bản ghi khỏi lịch sử!");
       }
     }
 
-    function clearAllHistory() {
+    async function clearAllHistory() {
       if (confirm("Bạn có chắc chắn muốn xóa toàn bộ lịch sử nhập hàng?")) {
         servicesData._history = [];
         renderHistoryTable();
         updateStats();
+        await saveDirectToGitHub(true, "✅ Đã xóa sạch lịch sử nhập hàng!");
       }
     }
 
@@ -1884,7 +1946,7 @@
       }
     }
 
-    function savePlan() {
+    async function savePlan() {
       const targetCat = document.getElementById('inpTargetCategory').value;
       const name = document.getElementById('inpName').value.trim();
       const price = Number(document.getElementById('inpPrice').value) || 0;
@@ -1927,14 +1989,19 @@
       renderCategories();
       renderTable();
       runPriceAudit();
+      showToast("Đang lưu sản phẩm lên GitHub...", "info");
+      await saveDirectToGitHub(true, "✅ Đã lưu sản phẩm thành công lên GitHub!");
     }
 
-    function deletePlan(idx) {
+    async function deletePlan(idx) {
       if (confirm("Bạn có chắc chắn muốn xóa gói này?")) {
+        const deletedName = servicesData[currentCat].plans[idx].name;
         servicesData[currentCat].plans.splice(idx, 1);
         updateStats();
         renderTable();
         runPriceAudit();
+        showToast(`Đang xóa gói [${deletedName}] khỏi GitHub...`, "info");
+        await saveDirectToGitHub(true, `✅ Đã xóa gói [${deletedName}] khỏi GitHub!`);
       }
     }
 
@@ -2000,7 +2067,7 @@
 
     function closeCatModal() { document.getElementById('catModal').classList.remove('active'); }
 
-    function saveCategory() {
+    async function saveCategory() {
       const name = document.getElementById('inpCatName').value.trim();
       const logo = document.getElementById('inpCatLogo').value.trim() || '⚡';
       if (!name) { alert("Vui lòng nhập tên danh mục!"); return; }
@@ -2018,18 +2085,22 @@
 
       closeCatModal();
       renderCategories();
+      showToast("Đang lưu danh mục lên GitHub...", "info");
+      await saveDirectToGitHub(true, "✅ Đã lưu danh mục lên GitHub thành công!");
     }
 
-    function deleteCurrentCat() {
+    async function deleteCurrentCat() {
       if (confirm(`Bạn có chắc muốn xóa toàn bộ danh mục "${currentCat}"?`)) {
         delete servicesData[currentCat];
         currentCat = '';
         renderCategories();
         updateStats();
+        showToast("Đang xóa danh mục trên GitHub...", "info");
+        await saveDirectToGitHub(true, "✅ Đã xóa danh mục thành công!");
       }
     }
 
-    function autoCategorizeCurrentList() {
+    async function autoCategorizeCurrentList() {
       let count = 0;
       const plans = [...(servicesData[currentCat].plans || [])];
       plans.forEach(p => {
@@ -2046,9 +2117,10 @@
           }
         }
       });
-      alert(`Đã tự động phân loại lại ${count} sản phẩm!`);
       renderCategories();
       updateStats();
+      showToast(`Đã tự động phân loại lại ${count} sản phẩm! Đang lưu lên GitHub...`, "info");
+      await saveDirectToGitHub(true, `✅ Đã lưu phân loại cho ${count} sản phẩm lên GitHub!`);
     }
 
     function openTokenModal() {
@@ -2060,27 +2132,28 @@
       const t = document.getElementById('inpGitHubToken').value.trim();
       localStorage.setItem('gh_token', t);
       closeTokenModal();
-      alert("✅ Đã lưu GitHub Token vào trình duyệt!");
+      document.getElementById('noTokenWarningBanner').style.display = t ? 'none' : 'flex';
+      showToast("✅ Đã lưu GitHub Token vào trình duyệt!", "success");
     }
 
     async function saveDirectToGitHub(isSilent = false, successMsg = "") {
       let token = (localStorage.getItem('gh_token') || '').trim();
       if (!token) {
-        alert("⚠️ Bạn chưa cài GitHub Token! Vui lòng bấm vào '⚙️ Token' để nhập token một lần.");
+        showToast("⚠️ Chưa có Token! Vui lòng nhập GitHub Token", "error");
         openTokenModal();
         return false;
       }
 
       const btn = document.getElementById('btnSaveGitHub');
       const origText = btn.innerHTML;
-      btn.innerHTML = "⏳ Đang lưu lên GitHub...";
+      btn.innerHTML = "⏳ Đang lưu...";
       btn.disabled = true;
 
       try {
         const getRes = await fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/${FILE_PATH}?_=${Date.now()}`, {
           headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' }
         });
-        if (!getRes.ok) throw new Error("Kết nối GitHub thất bại (" + getRes.status + ")! Vui lòng kiểm tra lại Token trong mục '⚙️ Token'.");
+        if (!getRes.ok) throw new Error("Kết nối GitHub thất bại (" + getRes.status + ")! Kiểm tra lại Token.");
         const fileData = await getRes.json();
 
         const newContent = btoa(unescape(encodeURIComponent(JSON.stringify(servicesData, null, 2))));
@@ -2092,7 +2165,7 @@
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-            message: 'Admin Pro Light: Cập nhật dữ liệu & xử lý xung đột giá',
+            message: 'Admin Pro Live: Tự động lưu thay đổi trạng thái ẩn/hiện, giá & kho hàng',
             content: newContent,
             sha: fileData.sha
           })
@@ -2100,11 +2173,11 @@
 
         if (!putRes.ok) throw new Error("Ghi file lên GitHub thất bại (" + putRes.status + ")!");
         
-        const finalMsg = successMsg || "🎉 ĐÃ LƯU THÀNH CÔNG LÊN GITHUB! Website đã cập nhật vĩnh viễn, F5 sẽ không bị mất dữ liệu.";
-        alert(finalMsg);
+        const finalMsg = successMsg || "🎉 Đã lưu vĩnh viễn lên GitHub thành công!";
+        showToast(finalMsg, "success");
         return true;
       } catch (err) {
-        alert("❌ Lỗi lưu GitHub: " + err.message);
+        showToast("❌ Lỗi: " + err.message, "error");
         return false;
       } finally {
         btn.innerHTML = origText;
@@ -2118,23 +2191,25 @@
       a.href = URL.createObjectURL(blob);
       a.download = `services_${Date.now()}.json`;
       a.click();
+      showToast("✅ Đã tải file JSON về máy!", "success");
     }
 
     function triggerImportFile() { document.getElementById('jsonFileInput').click(); }
-    function handleFileImport(e) {
+    async function handleFileImport(e) {
       const file = e.target.files[0];
       if (!file) return;
       const reader = new FileReader();
-      reader.onload = (evt) => {
+      reader.onload = async (evt) => {
         try {
           servicesData = JSON.parse(evt.target.result);
           updateStats();
           renderCategories();
           runPriceAudit();
           renderRecentFeed();
-          alert("✅ Đã nạp file JSON thành công!");
+          showToast("Đang đồng bộ file JSON vừa nạp lên GitHub...", "info");
+          await saveDirectToGitHub(true, "✅ Đã nạp JSON và lưu lên GitHub thành công!");
         } catch (err) {
-          alert("❌ File JSON không hợp lệ!");
+          showToast("❌ File JSON không hợp lệ!", "error");
         }
       };
       reader.readAsText(file);
