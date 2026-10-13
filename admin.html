@@ -1,28 +1,62 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="vi" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bảng Quản Trị Dịch Vụ - Admin Pro Max</title>
+  <title>Bảng Quản Trị Dịch Vụ - Admin Pro Light</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    :root {
+    /* ========================================================================= */
+    /* THEME SYSTEM: MẶC ĐỊNH MÀU SÁNG (LIGHT THEME) CÓ NÚT ĐỔI MÀU TỐI          */
+    /* ========================================================================= */
+    :root[data-theme="light"] {
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --card-border: #e2e8f0;
+      --primary: #0284c7;
+      --primary-hover: #0369a1;
+      --primary-subtle: #e0f2fe;
+      --emerald: #059669;
+      --amber: #d97706;
+      --rose: #e11d48;
+      --purple: #6366f1;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --text-light: #94a3b8;
+      --input-bg: #f1f5f9;
+      --input-border: #cbd5e1;
+      --table-header: #f8fafc;
+      --table-row-hover: #f1f5f9;
+      --radius: 12px;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+      --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.08);
+      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08);
+    }
+
+    :root[data-theme="dark"] {
       --bg: #0f172a;
       --card-bg: #1e293b;
       --card-border: #334155;
       --primary: #38bdf8;
       --primary-hover: #0284c7;
+      --primary-subtle: rgba(56, 189, 248, 0.15);
       --emerald: #10b981;
       --amber: #f59e0b;
       --rose: #f43f5e;
       --purple: #818cf8;
       --text: #f8fafc;
       --text-muted: #94a3b8;
+      --text-light: #64748b;
       --input-bg: #090d16;
       --input-border: #334155;
+      --table-header: #0f172a;
+      --table-row-hover: rgba(51, 65, 85, 0.35);
       --radius: 12px;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+      --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.4);
+      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.5);
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -34,13 +68,15 @@
       display: flex;
       flex-direction: column;
       user-select: none;
+      transition: background 0.25s ease, color 0.25s ease;
     }
 
     /* MÀN HÌNH KHÓA BẢO MẬT */
     #lockScreenOverlay {
       position: fixed;
       top: 0; left: 0; right: 0; bottom: 0;
-      background: #090d16;
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(10px);
       z-index: 99999;
       display: flex;
       align-items: center;
@@ -48,47 +84,47 @@
       padding: 20px;
     }
     .lock-box {
-      background: #1e293b;
-      border: 1px solid #334155;
-      border-radius: 16px;
-      padding: 32px 28px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 18px;
+      padding: 34px 30px;
       width: 100%;
       max-width: 380px;
       text-align: center;
-      box-shadow: 0 25px 50px -12px rgba(0,0,0,0.9);
+      box-shadow: var(--shadow-lg);
       animation: fadeIn 0.3s ease;
     }
     .lock-icon {
-      width: 56px;
-      height: 56px;
-      background: rgba(56, 189, 248, 0.15);
-      color: #38bdf8;
+      width: 58px;
+      height: 58px;
+      background: var(--primary-subtle);
+      color: var(--primary);
       border-radius: 16px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      font-size: 26px;
+      font-size: 28px;
       margin-bottom: 16px;
     }
-    .lock-title { font-size: 18px; font-weight: 800; color: #fff; margin-bottom: 6px; }
-    .lock-desc { font-size: 12.5px; color: var(--text-muted); margin-bottom: 22px; line-height: 1.4; }
+    .lock-title { font-size: 19px; font-weight: 800; color: var(--text); margin-bottom: 6px; }
+    .lock-desc { font-size: 13px; color: var(--text-muted); margin-bottom: 22px; line-height: 1.4; }
     .pin-input {
       width: 100%;
-      background: #090d16;
-      border: 2px solid #334155;
+      background: var(--input-bg);
+      border: 2px solid var(--input-border);
       border-radius: 10px;
       padding: 12px;
-      color: #fff;
-      font-size: 18px;
+      color: var(--text);
+      font-size: 20px;
       text-align: center;
-      letter-spacing: 4px;
+      letter-spacing: 5px;
       outline: none;
       transition: all 0.2s;
     }
-    .pin-input:focus { border-color: #38bdf8; box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2); }
+    .pin-input:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15); }
     .btn-unlock {
       width: 100%;
-      background: linear-gradient(135deg, #0284c7, #38bdf8);
+      background: linear-gradient(135deg, #0284c7, #0369a1);
       color: #fff;
       border: none;
       padding: 12px;
@@ -100,7 +136,7 @@
       transition: all 0.2s;
     }
     .btn-unlock:hover { opacity: 0.95; transform: translateY(-1px); }
-    .lock-error { color: #f43f5e; font-size: 12px; font-weight: 600; margin-top: 10px; display: none; }
+    .lock-error { color: var(--rose); font-size: 12px; font-weight: 600; margin-top: 10px; display: none; }
     @keyframes fadeIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
     @keyframes shake {
       0%, 100% { transform: translateX(0); }
@@ -111,8 +147,7 @@
 
     /* HEADER */
     .admin-header {
-      background: rgba(30, 41, 59, 0.85);
-      backdrop-filter: blur(12px);
+      background: var(--card-bg);
       border-bottom: 1px solid var(--card-border);
       padding: 14px 24px;
       display: flex;
@@ -121,27 +156,27 @@
       position: sticky;
       top: 0;
       z-index: 50;
+      box-shadow: var(--shadow-sm);
     }
-
     .brand-wrap { display: flex; align-items: center; gap: 12px; }
     .brand-logo {
       width: 38px;
       height: 38px;
-      background: linear-gradient(135deg, #38bdf8, #818cf8);
+      background: linear-gradient(135deg, #0284c7, #38bdf8);
       border-radius: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
       font-weight: 800;
       font-size: 18px;
-      color: #0f172a;
+      color: #fff;
     }
-    .brand-text h1 { font-size: 16px; font-weight: 700; color: #fff; }
+    .brand-text h1 { font-size: 16px; font-weight: 800; color: var(--text); }
     .brand-text p { font-size: 12px; color: var(--text-muted); }
 
     .header-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 
-    /* BUTTONS */
+    /* NÚT BẤM */
     .btn {
       display: inline-flex;
       align-items: center;
@@ -155,29 +190,45 @@
       transition: all 0.2s ease;
       text-decoration: none;
     }
-    .btn-primary { background: #0284c7; color: #fff; }
-    .btn-primary:hover { background: #0369a1; transform: translateY(-1px); }
-    .btn-success { background: #059669; color: #fff; }
-    .btn-success:hover { background: #047857; }
-    .btn-warning { background: #d97706; color: #fff; }
-    .btn-warning:hover { background: #b45309; }
-    .btn-danger { background: #e11d48; color: #fff; }
-    .btn-danger:hover { background: #be123c; }
-    .btn-purple { background: #6366f1; color: #fff; }
-    .btn-purple:hover { background: #4f46e5; }
+    .btn-primary { background: var(--primary); color: #fff; }
+    .btn-primary:hover { background: var(--primary-hover); transform: translateY(-1px); }
+    .btn-success { background: var(--emerald); color: #fff; }
+    .btn-success:hover { opacity: 0.92; }
+    .btn-danger { background: var(--rose); color: #fff; }
+    .btn-danger:hover { opacity: 0.92; }
+    .btn-purple { background: var(--purple); color: #fff; }
+    .btn-purple:hover { opacity: 0.92; }
     .btn-outline {
-      background: transparent;
+      background: var(--card-bg);
       border-color: var(--card-border);
       color: var(--text-muted);
     }
-    .btn-outline:hover { background: #334155; color: #fff; }
+    .btn-outline:hover { background: var(--input-bg); color: var(--text); border-color: var(--input-border); }
+
+    /* BANNER CẢNH BÁO XUNG ĐỘT GIÁ (TOP ALERT BANNER) */
+    .conflict-alert-banner {
+      background: #fef2f2;
+      border-bottom: 1px solid #fecaca;
+      color: #991b1b;
+      padding: 10px 24px;
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    :root[data-theme="dark"] .conflict-alert-banner {
+      background: rgba(244, 63, 94, 0.15);
+      border-bottom-color: rgba(244, 63, 94, 0.3);
+      color: #fecdd3;
+    }
 
     /* KPI STATS CARDS */
     .stats-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 16px;
-      padding: 20px 24px 10px 24px;
+      padding: 18px 24px 10px 24px;
     }
     .stat-card {
       background: var(--card-bg);
@@ -187,11 +238,12 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      transition: transform 0.2s;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.2s, box-shadow 0.2s;
     }
-    .stat-card:hover { transform: translateY(-2px); }
-    .stat-info p { font-size: 11.5px; color: var(--text-muted); text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; }
-    .stat-info h3 { font-size: 24px; font-weight: 800; margin-top: 4px; color: #fff; }
+    .stat-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+    .stat-info p { font-size: 11.5px; color: var(--text-muted); text-transform: uppercase; font-weight: 700; letter-spacing: 0.5px; }
+    .stat-info h3 { font-size: 24px; font-weight: 800; margin-top: 4px; color: var(--text); }
     .stat-icon {
       width: 44px;
       height: 44px;
@@ -201,11 +253,11 @@
       justify-content: center;
       font-size: 20px;
     }
-    .stat-blue { background: rgba(56, 189, 248, 0.15); color: #38bdf8; }
-    .stat-green { background: rgba(16, 185, 129, 0.15); color: #10b981; }
-    .stat-red { background: rgba(244, 63, 94, 0.15); color: #f43f5e; }
-    .stat-amber { background: rgba(245, 158, 11, 0.15); color: #f59e0b; }
-    .stat-gray { background: rgba(148, 163, 184, 0.15); color: #94a3b8; }
+    .stat-blue { background: rgba(2, 132, 199, 0.12); color: var(--primary); }
+    .stat-green { background: rgba(5, 150, 105, 0.12); color: var(--emerald); }
+    .stat-red { background: rgba(225, 29, 72, 0.12); color: var(--rose); }
+    .stat-amber { background: rgba(217, 119, 6, 0.12); color: var(--amber); }
+    .stat-gray { background: rgba(100, 116, 139, 0.12); color: var(--text-muted); }
 
     /* TAB NAVIGATION */
     .tab-bar {
@@ -228,19 +280,21 @@
       gap: 8px;
       transition: all 0.2s;
     }
-    .tab-btn:hover { color: #fff; }
+    .tab-btn:hover { color: var(--text); }
     .tab-btn.active {
       color: var(--primary);
       border-bottom-color: var(--primary);
+      font-weight: 700;
     }
     .tab-badge {
-      background: #334155;
+      background: var(--input-bg);
+      border: 1px solid var(--input-border);
       padding: 2px 7px;
       border-radius: 99px;
       font-size: 11px;
-      color: #fff;
+      color: var(--text);
     }
-    .tab-badge.badge-red { background: #e11d48; }
+    .tab-badge.badge-red { background: var(--rose); color: #fff; border-color: transparent; }
 
     /* MAIN CONTENT */
     .main-wrap { flex: 1; padding: 20px 24px; display: none; }
@@ -260,6 +314,7 @@
       padding: 16px;
       display: flex;
       flex-direction: column;
+      box-shadow: var(--shadow-sm);
     }
     .sidebar-head {
       display: flex;
@@ -269,7 +324,7 @@
       padding-bottom: 10px;
       border-bottom: 1px solid var(--card-border);
     }
-    .sidebar-head h4 { font-size: 13px; font-weight: 700; color: #fff; text-transform: uppercase; }
+    .sidebar-head h4 { font-size: 13px; font-weight: 800; color: var(--text); text-transform: uppercase; }
 
     .cat-list {
       display: flex;
@@ -285,26 +340,27 @@
       padding: 10px 12px;
       border-radius: 8px;
       font-size: 13px;
-      font-weight: 500;
+      font-weight: 600;
       cursor: pointer;
       transition: all 0.15s;
       border: 1px solid transparent;
-      color: #cbd5e1;
+      color: var(--text-muted);
     }
-    .cat-item:hover { background: #334155; color: #fff; }
+    .cat-item:hover { background: var(--input-bg); color: var(--text); }
     .cat-item.active {
-      background: rgba(56, 189, 248, 0.15);
-      border-color: rgba(56, 189, 248, 0.4);
-      color: #38bdf8;
-      font-weight: 700;
+      background: var(--primary-subtle);
+      border-color: rgba(2, 132, 199, 0.3);
+      color: var(--primary);
+      font-weight: 800;
     }
     .cat-item.drag-over {
-      background: rgba(16, 185, 129, 0.25) !important;
-      border: 1px dashed #10b981 !important;
+      background: rgba(5, 150, 105, 0.15) !important;
+      border: 1px dashed var(--emerald) !important;
     }
     .cat-count {
       font-size: 11px;
-      background: #0f172a;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
       padding: 2px 8px;
       border-radius: 99px;
       color: var(--text-muted);
@@ -317,6 +373,7 @@
       padding: 18px;
       display: flex;
       flex-direction: column;
+      box-shadow: var(--shadow-sm);
     }
     .table-toolbar {
       display: flex;
@@ -331,7 +388,7 @@
       border: 1px solid var(--input-border);
       border-radius: 8px;
       padding: 8px 14px;
-      color: #fff;
+      color: var(--text);
       font-size: 13px;
       width: 250px;
       outline: none;
@@ -341,7 +398,7 @@
     /* TABLE */
     .custom-table { width: 100%; border-collapse: collapse; font-size: 13px; }
     .custom-table th {
-      background: #0f172a;
+      background: var(--table-header);
       padding: 12px 14px;
       text-align: left;
       font-weight: 700;
@@ -353,13 +410,13 @@
     }
     .custom-table td {
       padding: 12px 14px;
-      border-bottom: 1px solid rgba(51, 65, 85, 0.6);
+      border-bottom: 1px solid var(--card-border);
       vertical-align: middle;
-      color: #e2e8f0;
+      color: var(--text);
     }
-    .custom-table tbody tr:hover { background: rgba(51, 65, 85, 0.35); }
+    .custom-table tbody tr:hover { background: var(--table-row-hover); }
     .custom-table tr.row-dragging { opacity: 0.4; }
-    .custom-table tr.row-hidden { opacity: 0.55; background: rgba(15, 23, 42, 0.4); }
+    .custom-table tr.row-hidden { opacity: 0.55; background: var(--input-bg); }
 
     .badge {
       display: inline-flex;
@@ -368,22 +425,21 @@
       padding: 3px 8px;
       border-radius: 6px;
       font-size: 11.5px;
-      font-weight: 600;
+      font-weight: 700;
     }
-    .badge-in { background: rgba(16, 185, 129, 0.15); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.3); }
-    .badge-out { background: rgba(244, 63, 94, 0.15); color: #f43f5e; border: 1px solid rgba(244, 63, 94, 0.3); }
-    .badge-source { background: rgba(99, 102, 241, 0.15); color: #818cf8; border: 1px solid rgba(99, 102, 241, 0.3); }
-    .badge-warning { background: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3); }
+    .badge-in { background: rgba(5, 150, 105, 0.12); color: var(--emerald); border: 1px solid rgba(5, 150, 105, 0.25); }
+    .badge-out { background: rgba(225, 29, 72, 0.12); color: var(--rose); border: 1px solid rgba(225, 29, 72, 0.25); }
+    .badge-source { background: rgba(99, 102, 241, 0.12); color: var(--purple); border: 1px solid rgba(99, 102, 241, 0.25); }
+    .badge-warning { background: rgba(217, 119, 6, 0.12); color: var(--amber); border: 1px solid rgba(217, 119, 6, 0.25); }
 
-    /* TOGGLE EYE BUTTON */
     .btn-toggle-eye {
-      background: rgba(16, 185, 129, 0.15);
-      border: 1px solid rgba(16, 185, 129, 0.4);
-      color: #10b981;
+      background: rgba(5, 150, 105, 0.12);
+      border: 1px solid rgba(5, 150, 105, 0.3);
+      color: var(--emerald);
       padding: 3px 8px;
       border-radius: 6px;
       font-size: 11.5px;
-      font-weight: 600;
+      font-weight: 700;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
@@ -391,9 +447,9 @@
       transition: all 0.15s;
     }
     .btn-toggle-eye.is-hidden {
-      background: rgba(148, 163, 184, 0.15);
-      border-color: rgba(148, 163, 184, 0.3);
-      color: #94a3b8;
+      background: var(--input-bg);
+      border-color: var(--input-border);
+      color: var(--text-muted);
     }
     .btn-toggle-eye:hover { transform: scale(1.05); }
 
@@ -403,11 +459,12 @@
       border: 1px solid var(--card-border);
       border-radius: var(--radius);
       padding: 20px;
+      box-shadow: var(--shadow-sm);
     }
     .feed-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 10px; }
     .feed-list { display: flex; flex-direction: column; gap: 10px; }
     .feed-item {
-      background: #0f172a;
+      background: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: 10px;
       padding: 14px 18px;
@@ -416,7 +473,7 @@
       justify-content: space-between;
       transition: all 0.2s;
     }
-    .feed-item:hover { border-color: #38bdf8; transform: translateX(3px); }
+    .feed-item:hover { border-color: var(--primary); transform: translateX(3px); box-shadow: var(--shadow-sm); }
     .feed-main { display: flex; align-items: center; gap: 14px; }
     .feed-badge-icon {
       width: 40px;
@@ -426,14 +483,41 @@
       align-items: center;
       justify-content: center;
       font-size: 18px;
-      background: rgba(56, 189, 248, 0.15);
-      color: #38bdf8;
+      background: var(--primary-subtle);
+      color: var(--primary);
     }
 
-    /* AUDIT */
+    /* AUDIT & XUNG ĐỘT GIÁ CARDS */
+    .conflict-group-box {
+      background: var(--card-bg);
+      border: 2px solid var(--rose);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin-bottom: 16px;
+      box-shadow: var(--shadow-sm);
+    }
+    .conflict-group-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .conflict-item-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 12px;
+      background: var(--input-bg);
+      border-radius: 8px;
+      margin-bottom: 6px;
+      font-size: 13px;
+    }
+
     .audit-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 16px;
       margin-bottom: 20px;
     }
@@ -442,6 +526,7 @@
       border: 1px solid var(--card-border);
       border-radius: var(--radius);
       padding: 18px;
+      box-shadow: var(--shadow-sm);
     }
     .audit-card-head { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; font-weight: 700; font-size: 14px; }
 
@@ -449,7 +534,7 @@
     .modal-overlay {
       position: fixed;
       top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(0, 0, 0, 0.75);
+      background: rgba(15, 23, 42, 0.7);
       backdrop-filter: blur(4px);
       display: none;
       align-items: center;
@@ -466,7 +551,7 @@
       max-width: 620px;
       max-height: 90vh;
       overflow-y: auto;
-      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+      box-shadow: var(--shadow-lg);
       display: flex;
       flex-direction: column;
     }
@@ -477,7 +562,7 @@
       justify-content: space-between;
       align-items: center;
     }
-    .modal-header h3 { font-size: 16px; font-weight: 700; color: #fff; }
+    .modal-header h3 { font-size: 16px; font-weight: 800; color: var(--text); }
     .modal-body { padding: 20px; display: flex; flex-direction: column; gap: 14px; }
     .modal-footer {
       padding: 14px 20px;
@@ -485,17 +570,17 @@
       display: flex;
       justify-content: flex-end;
       gap: 10px;
-      background: rgba(15, 23, 42, 0.4);
+      background: var(--input-bg);
     }
 
     .form-group { display: flex; flex-direction: column; gap: 6px; }
-    .form-label { font-size: 12.5px; font-weight: 600; color: #cbd5e1; }
+    .form-label { font-size: 12.5px; font-weight: 700; color: var(--text); }
     .form-control {
       background: var(--input-bg);
       border: 1px solid var(--input-border);
       border-radius: 8px;
       padding: 9px 12px;
-      color: #fff;
+      color: var(--text);
       font-size: 13.5px;
       outline: none;
       font-family: inherit;
@@ -503,25 +588,23 @@
     .form-control:focus { border-color: var(--primary); }
     textarea.form-control { min-height: 90px; resize: vertical; line-height: 1.4; }
 
-    .price-input-alert { color: #f59e0b; font-size: 11.5px; margin-top: 4px; display: none; }
+    .price-input-alert { color: var(--rose); font-size: 12px; font-weight: 600; margin-top: 4px; display: none; }
     .inline-price-input {
       width: 95px;
-      background: #090d16;
-      border: 1px solid #475569;
-      color: #38bdf8;
-      font-weight: 700;
+      background: var(--input-bg);
+      border: 1px solid var(--input-border);
+      color: var(--primary);
+      font-weight: 800;
       padding: 4px 6px;
       border-radius: 6px;
       text-align: right;
     }
-    .inline-price-input:focus { border-color: #38bdf8; outline: none; }
+    .inline-price-input:focus { border-color: var(--primary); outline: none; }
   </style>
 </head>
 <body>
 
-  <!-- ========================================================================= -->
   <!-- MÀN HÌNH KHÓA BẢO MẬT (SHA-256 PIN: 071003) -->
-  <!-- ========================================================================= -->
   <div id="lockScreenOverlay">
     <div class="lock-box" id="lockBox">
       <div class="lock-icon">🛡️</div>
@@ -536,17 +619,32 @@
     </div>
   </div>
 
+  <!-- BANNER CẢNH BÁO XUNG ĐỘT GIÁ -->
+  <div id="conflictAlertBanner" class="conflict-alert-banner">
+    <div>
+      ⚠️ <strong>CẢNH BÁO XUNG ĐỘT GIÁ:</strong> Phát hiện các gói sản phẩm cùng loại nhưng đang bán với các mức giá khác nhau!
+    </div>
+    <button class="btn btn-danger" style="padding:4px 10px; font-size:11.5px;" onclick="switchTab('audit')">
+      🔍 Xem & Đồng Bộ Ngay
+    </button>
+  </div>
+
   <!-- 1. HEADER -->
   <header class="admin-header">
     <div class="brand-wrap">
       <div class="brand-logo">⚡</div>
       <div class="brand-text">
         <h1>Bảng Quản Trị Dịch Vụ Số</h1>
-        <p>Hệ thống đồng bộ Telegram & Quản lý kho hàng Pro Max</p>
+        <p>Hệ thống đồng bộ Telegram & Quản lý kho hàng Pro</p>
       </div>
     </div>
 
     <div class="header-actions">
+      <!-- Nút chuyển đổi Giao diện Sáng / Tối -->
+      <button class="btn btn-outline" id="btnThemeToggle" onclick="toggleTheme()" title="Đổi màu giao diện Sáng / Tối">
+        ☀️ Giao Diện Sáng
+      </button>
+
       <button class="btn btn-primary" id="btnSaveGitHub" onclick="saveDirectToGitHub()">
         🚀 Lưu lên GitHub
       </button>
@@ -559,7 +657,7 @@
       <button class="btn btn-outline" style="padding:8px 10px;" title="Cài đặt Token" onclick="openTokenModal()">⚙️ Token</button>
       <button class="btn btn-outline" onclick="triggerImportFile()">📁 Nạp JSON</button>
       <button class="btn btn-outline" onclick="downloadJSON()">💾 Tải JSON</button>
-      <a href="index.html" target="_blank" class="btn btn-outline" style="color:#38bdf8; border-color:#38bdf8;">👁️ Xem Web</a>
+      <a href="index.html" target="_blank" class="btn btn-outline" style="color:var(--primary); border-color:var(--primary);">👁️ Xem Web</a>
       <button class="btn btn-danger" style="padding:8px 10px;" title="Khóa màn hình" onclick="lockAdmin()">🔒</button>
     </div>
   </header>
@@ -576,28 +674,28 @@
     <div class="stat-card">
       <div class="stat-info">
         <p>Đang bán (Hiện)</p>
-        <h3 id="statInStock" style="color:#10b981;">0</h3>
+        <h3 id="statInStock" style="color:var(--emerald);">0</h3>
       </div>
       <div class="stat-icon stat-green">✅</div>
     </div>
     <div class="stat-card">
       <div class="stat-info">
         <p>Đang tạm ẩn</p>
-        <h3 id="statHidden" style="color:#94a3b8;">0</h3>
+        <h3 id="statHidden" style="color:var(--text-muted);">0</h3>
       </div>
       <div class="stat-icon stat-gray">🙈</div>
     </div>
     <div class="stat-card">
       <div class="stat-info">
         <p>Hết hàng (Kho = 0)</p>
-        <h3 id="statOutStock" style="color:#f43f5e;">0</h3>
+        <h3 id="statOutStock" style="color:var(--rose);">0</h3>
       </div>
       <div class="stat-icon stat-red">⚠️</div>
     </div>
     <div class="stat-card" style="cursor:pointer;" onclick="switchTab('audit')">
       <div class="stat-info">
-        <p>Cảnh báo giá nghi vấn</p>
-        <h3 id="statPriceAlerts" style="color:#f59e0b;">0</h3>
+        <p>Xung đột giá / Nghi vấn</p>
+        <h3 id="statPriceAlerts" style="color:var(--rose);">0</h3>
       </div>
       <div class="stat-icon stat-amber">🔍</div>
     </div>
@@ -612,7 +710,7 @@
       ⚡ Sản Phẩm Vừa Lên / Mới Nhập <span class="tab-badge" id="badgeRecentCount">0</span>
     </button>
     <button class="tab-btn" id="tabBtn-audit" onclick="switchTab('audit')">
-      🔍 Kiểm Tra Logic Giá & Bất Thường <span class="tab-badge badge-red" id="badgeAlertCount">0</span>
+      🔍 Kiểm Tra Logic & Xung Đột Giá <span class="tab-badge badge-red" id="badgeAlertCount">0</span>
     </button>
     <button class="tab-btn" id="tabBtn-history" onclick="switchTab('history')">
       📋 Lịch Sử Nhập Hàng (_history) <span class="tab-badge" id="badgeHistoryCount">0</span>
@@ -637,7 +735,7 @@
       <section class="catalog-main">
         <div class="table-toolbar">
           <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
-            <h2 id="currentCategoryTitle" style="font-size:16px; font-weight:700;">Danh mục</h2>
+            <h2 id="currentCategoryTitle" style="font-size:16px; font-weight:800;">Danh mục</h2>
             <button class="btn btn-outline" style="padding:4px 8px; font-size:11px;" onclick="openEditCatModal()">✏️ Sửa mục</button>
             <button class="btn btn-danger" style="padding:4px 8px; font-size:11px;" onclick="deleteCurrentCat()">🗑️ Xóa</button>
             <button class="btn btn-purple" style="padding:4px 8px; font-size:11px;" onclick="autoCategorizeCurrentList()">⚡ Quét phân loại</button>
@@ -662,9 +760,7 @@
                 <th style="text-align:right; width:140px;">Hành Động</th>
               </tr>
             </thead>
-            <tbody id="plansTableBody">
-              <!-- Render động -->
-            </tbody>
+            <tbody id="plansTableBody"></tbody>
           </table>
         </div>
       </section>
@@ -676,33 +772,40 @@
     <div class="feed-container">
       <div class="feed-head">
         <div>
-          <h3 style="font-size:16px; font-weight:700; color:#fff;">⚡ Sản Phẩm Vừa Được Đồng Bộ / Nhập Kho Gần Đây</h3>
+          <h3 style="font-size:16px; font-weight:800; color:var(--text);">⚡ Sản Phẩm Vừa Được Đồng Bộ / Nhập Kho Gần Đây</h3>
           <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Theo dõi các đợt hàng được Bot Telegram hoặc Admin thêm vào gần đây nhất.</p>
         </div>
         <button class="btn btn-outline" onclick="renderRecentFeed()">🔄 Làm mới</button>
       </div>
 
-      <div class="feed-list" id="recentFeedList">
-        <!-- Render động -->
-      </div>
+      <div class="feed-list" id="recentFeedList"></div>
     </div>
   </main>
 
-  <!-- TAB 3: KIỂM TRA LOGIC GIÁ & BẤT THƯỜNG -->
+  <!-- TAB 3: KIỂM TRA LOGIC & XUNG ĐỘT GIÁ -->
   <main class="main-wrap" id="tabView-audit">
     <div class="feed-container">
       <div class="feed-head">
         <div>
-          <h3 style="font-size:16px; font-weight:700; color:#fff;">🔍 Bộ Soát Lỗi Logic Giá & Bất Thường (Smart Price Auditor)</h3>
-          <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Phát hiện giá quá thấp, nhầm dấu thập phân (0.5k thành 5000đ), giá quá cao hoặc bất thường so với thị trường.</p>
+          <h3 style="font-size:16px; font-weight:800; color:var(--text);">🔍 Bộ Soát Lỗi Xung Đột Giá & Bất Thường (Smart Price Auditor)</h3>
+          <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Phát hiện các gói cùng loại nhưng khác giá tiền, nhầm dấu thập phân (0.5k thành 5000đ) hoặc giá bất thường.</p>
         </div>
         <button class="btn btn-primary" onclick="runPriceAudit()">⚡ Quét lại toàn bộ</button>
       </div>
 
       <div class="audit-grid" id="auditSummaryCards"></div>
 
-      <h4 style="font-size:14px; font-weight:700; margin-bottom:12px; color:#f8fafc;">
-        📋 Danh sách các gói cần xem xét & Chỉnh sửa trực tiếp
+      <!-- KHU VỰC 1: XUNG ĐỘT GIÁ CÙNG LOẠI -->
+      <div id="conflictAreaWrap" style="margin-bottom:28px;">
+        <h4 style="font-size:15px; font-weight:800; margin-bottom:12px; color:var(--rose); display:flex; align-items:center; gap:8px;">
+          ⚠️ CÁC GÓI CÙNG LOẠI / TRÙNG THÔNG TIN NHƯNG KHÁC GIÁ TIỀN
+        </h4>
+        <div id="conflictListContainer"></div>
+      </div>
+
+      <!-- KHU VỰC 2: CÁC GÓI CÓ GIÁ NGHI VẤN KHÁC -->
+      <h4 style="font-size:14px; font-weight:800; margin-bottom:12px; color:var(--text);">
+        📋 Các Gói Cần Xem Xét Định Dạng Giá (Nhầm số 0 / Thập phân)
       </h4>
 
       <div style="overflow-x:auto;">
@@ -728,7 +831,7 @@
     <div class="feed-container">
       <div class="feed-head">
         <div>
-          <h3 style="font-size:16px; font-weight:700; color:#fff;">📋 Nhật Ký Lịch Sử Nhập Hàng (_history)</h3>
+          <h3 style="font-size:16px; font-weight:800; color:var(--text);">📋 Nhật Ký Lịch Sử Nhập Hàng (_history)</h3>
           <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Lưu vết từng lần nhập kho tự động hoặc thủ công để chống trùng lặp dữ liệu.</p>
         </div>
         <div style="display:flex; gap:8px;">
@@ -756,7 +859,7 @@
     </div>
   </main>
 
-  <!-- MODAL: SỬA HÀNG LOẠT (BULK EDIT) -->
+  <!-- MODAL: SỬA HÀNG LOẠT (BULK MODAL) -->
   <div class="modal-overlay" id="bulkModal">
     <div class="modal-content" style="max-width:500px;">
       <div class="modal-header">
@@ -822,7 +925,8 @@
 
         <div class="form-group">
           <label class="form-label">Tên gói dịch vụ:</label>
-          <input type="text" id="inpName" class="form-control" placeholder="Ví dụ: ChatGPT Plus GGPay 1 Tháng" />
+          <input type="text" id="inpName" class="form-control" placeholder="Ví dụ: ChatGPT Plus GGPay 1 Tháng" oninput="checkDuplicateNameAlert(this.value)" />
+          <div id="duplicateConflictAlert" style="color:var(--rose); font-size:12px; font-weight:700; margin-top:4px; display:none;"></div>
         </div>
 
         <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
@@ -852,8 +956,8 @@
         </div>
 
         <div class="form-group">
-          <label style="display:flex; align-items:center; gap:8px; cursor:pointer; font-size:13px; color:#cbd5e1;">
-            <input type="checkbox" id="inpIsHidden" style="width:16px; height:16px; accent-color:#38bdf8;" />
+          <label style="display:flex; align-items:center; gap:8px; cursor:pointer; font-size:13px; color:var(--text);">
+            <input type="checkbox" id="inpIsHidden" style="width:16px; height:16px; accent-color:var(--primary);" />
             <span>Tạm ẩn gói này khỏi web bán hàng (Khách không nhìn thấy)</span>
           </label>
         </div>
@@ -925,7 +1029,33 @@
 
   <!-- SCRIPT LOGIC -->
   <script>
-    // 1. BẢO MẬT: CHẶN F12 & CHUỘT PHẢI
+    // =========================================================================
+    // 1. THEME TOGGLE (SÁNG / TỐI - MẶC ĐỊNH MÀU SÁNG)
+    // =========================================================================
+    function applySavedTheme() {
+      const savedTheme = localStorage.getItem('adm_theme') || 'light';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+      updateThemeButtonText(savedTheme);
+    }
+
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme') || 'light';
+      const next = current === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('adm_theme', next);
+      updateThemeButtonText(next);
+    }
+
+    function updateThemeButtonText(theme) {
+      const btn = document.getElementById('btnThemeToggle');
+      if (btn) {
+        btn.innerHTML = theme === 'light' ? '☀️ Giao Diện Sáng' : '🌙 Giao Diện Tối';
+      }
+    }
+
+    // =========================================================================
+    // 2. BẢO MẬT: CHẶN F12 & MÃ HÓA PIN (071003)
+    // =========================================================================
     document.addEventListener('contextmenu', e => e.preventDefault());
     document.addEventListener('keydown', e => {
       if (
@@ -938,7 +1068,6 @@
       }
     });
 
-    // 2. MÃ HÓA SHA-256 CHO MÃ PIN (071003)
     const PIN_HASH_SECURE = '5d6b0d5ce35cc43945965b67a21225493a94a1d0f8a8b71512a617cdb9137696';
 
     async function computeSHA256(str) {
@@ -968,6 +1097,7 @@
     }
 
     function checkExistingSession() {
+      applySavedTheme();
       if (sessionStorage.getItem('adm_session_ok') === 'true') {
         document.getElementById('lockScreenOverlay').style.display = 'none';
         initAdminData();
@@ -987,7 +1117,29 @@
       document.getElementById('lockErrorMsg').style.display = 'none';
     }
 
-    // 3. LOGIC QUẢN TRỊ DỮ LIỆU
+    // =========================================================================
+    // 3. THUẬT TOÁN CHUẨN HÓA TÊN ĐỂ PHÁT HIỆN SẢN PHẨM CÙNG LOẠI
+    // =========================================================================
+    function getCanonicalKey(name) {
+      if (!name) return "";
+      let k = name.toLowerCase();
+      // Chuẩn hóa biến thể thời gian
+      k = k.replace(/\b(2\s*năm|2\s*nam|24\s*tháng|2y)\b/g, ' _dur_2y_ ');
+      k = k.replace(/\b(1\s*năm|1\s*nam|12\s*tháng|365\s*(?:ngày|d)|1y)\b/g, ' _dur_1y_ ');
+      k = k.replace(/\b(6\s*(?:tháng|thang|th)|180\s*(?:ngày|d))\b/g, ' _dur_6m_ ');
+      k = k.replace(/\b(3\s*(?:tháng|thang|th)|90\s*(?:ngày|d))\b/g, ' _dur_3m_ ');
+      k = k.replace(/\b(2\s*(?:tháng|thang|th)|60\s*(?:ngày|d))\b/g, ' _dur_2m_ ');
+      k = k.replace(/\b(1\s*(?:tháng|thang|th)|30\s*(?:ngày|d)|30d|1th)\b/g, ' _dur_1m_ ');
+      k = k.replace(/\b(1\s*(?:ngày|d)|24\s*(?:h|giờ)|24h|1d)\b/g, ' _dur_1d_ ');
+      // Bỏ ký tự đặc biệt
+      k = k.replace(/[^\w\s\u00C0-\u1EF9]/g, '');
+      k = k.replace(/\s+/g, ' ').trim();
+      return k;
+    }
+
+    // =========================================================================
+    // 4. QUẢN TRỊ DỮ LIỆU & AUDIT
+    // =========================================================================
     const GITHUB_USERNAME = '21004023-oss';
     const REPO_NAME = 'my-static-website';
     const FILE_PATH = 'data/services.json';
@@ -1157,13 +1309,13 @@
         tr.innerHTML = `
           <td style="text-align:center; cursor:grab; color:var(--text-muted);">⠿</td>
           <td>
-            <div style="font-weight:700; color:#fff;">${p.name} ${isHidden ? '<span style="font-size:11px; color:#94a3b8; font-weight:normal;">(Tạm ẩn)</span>' : ''}</div>
+            <div style="font-weight:700; color:var(--text);">${p.name} ${isHidden ? '<span style="font-size:11px; color:var(--text-muted); font-weight:normal;">(Tạm ẩn)</span>' : ''}</div>
             <div style="font-size:11.5px; color:var(--text-muted); margin-top:3px; max-width:380px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
               ${p.detail || 'Chưa có mô tả chi tiết'}
             </div>
           </td>
           <td>
-            <strong style="color:#38bdf8; font-size:13.5px;">${Number(p.price || 0).toLocaleString('vi-VN')}đ</strong>
+            <strong style="color:var(--primary); font-size:14px;">${Number(p.price || 0).toLocaleString('vi-VN')}đ</strong>
           </td>
           <td>${stockBadge}</td>
           <td><span class="badge badge-source">${p.duration || '1 Tháng'}</span></td>
@@ -1203,7 +1355,287 @@
       renderTable();
     }
 
-    // XUẤT FILE EXCEL / CSV CHUẨN UTF-8 BOM
+    // =========================================================================
+    // 5. SMART AUDITOR: QUÉT XUNG ĐỘT GIÁ CÙNG LOẠI & LỖI ĐỊNH DẠNG GIÁ
+    // =========================================================================
+    function runPriceAudit() {
+      const summaryContainer = document.getElementById('auditSummaryCards');
+      const conflictContainer = document.getElementById('conflictListContainer');
+      const tableBody = document.getElementById('auditTableBody');
+      const banner = document.getElementById('conflictAlertBanner');
+
+      summaryContainer.innerHTML = '';
+      conflictContainer.innerHTML = '';
+      tableBody.innerHTML = '';
+
+      const otherAlerts = [];
+      const conflictGroups = [];
+      let totalChecked = 0;
+
+      // Quét từng danh mục
+      for (const [catKey, val] of Object.entries(servicesData)) {
+        if (catKey === '_history') continue;
+        const plans = val.plans || [];
+
+        // 1. Nhóm theo Canonical Key để tìm sản phẩm cùng loại
+        const grouped = {};
+        plans.forEach((p, idx) => {
+          totalChecked++;
+          const ck = getCanonicalKey(p.name);
+          if (ck) {
+            if (!grouped[ck]) grouped[ck] = [];
+            grouped[ck].append = grouped[ck].push({ plan: p, index: idx });
+          }
+
+          // Kiểm tra các lỗi giá khác (số 0 thừa, thập phân...)
+          const price = Number(p.price || 0);
+          const name = p.name || '';
+          let issue = null;
+          let suggestedPrice = 0;
+
+          if (price <= 0) {
+            issue = 'Giá bằng 0 hoặc chưa nhập giá';
+          } else if (/hotmail/i.test(name) && price >= 3000) {
+            issue = 'Nghi vấn nhầm 0.5k thành 5.000đ (Hotmail thường 500đ - 1.000đ)';
+            suggestedPrice = 500;
+          } else if (/chatgpt/i.test(name) && !/json|free/i.test(name) && price < 15000) {
+            issue = 'Giá ChatGPT quá thấp so với thực tế (< 15.000đ)';
+          } else if (price > 2000000) {
+            issue = 'Giá bất thường (> 2.000.000đ), cần kiểm tra lại';
+          }
+
+          if (issue) {
+            otherAlerts.push({ catKey, planIndex: idx, plan: p, issue, suggestedPrice });
+          }
+        });
+
+        // 2. Tìm nhóm có khác biệt giá
+        for (const [ck, items] of Object.entries(grouped)) {
+          if (items.length > 1) {
+            const prices = new Set(items.map(it => Number(it.plan.price || 0)));
+            if (prices.size > 1) {
+              conflictGroups.push({ catKey, canonicalKey: ck, items });
+            }
+          }
+        }
+      }
+
+      const totalAlertsCount = conflictGroups.length + otherAlerts.length;
+      document.getElementById('badgeAlertCount').innerText = totalAlertsCount;
+      document.getElementById('statPriceAlerts').innerText = totalAlertsCount;
+
+      // Bật/tắt Banner cảnh báo ở đầu trang
+      if (conflictGroups.length > 0) {
+        banner.style.display = 'flex';
+        banner.innerHTML = `
+          <div>
+            ⚠️ <strong>CẢNH BÁO:</strong> Phát hiện <strong>${conflictGroups.length} nhóm sản phẩm cùng loại</strong> đang bị lệch giá tiền (ví dụ: CapCut 33k vs 40k)!
+          </div>
+          <button class="btn btn-danger" style="padding:4px 10px; font-size:11.5px;" onclick="switchTab('audit')">
+            🔍 Xem & Xử Lý Ngay
+          </button>
+        `;
+      } else {
+        banner.style.display = 'none';
+      }
+
+      // Render thẻ thống kê
+      summaryContainer.innerHTML = `
+        <div class="audit-card">
+          <div class="audit-card-head" style="color:var(--primary);">📦 Tổng Gói Đã Quét</div>
+          <h2 style="font-size:24px; color:var(--text);">${totalChecked} gói</h2>
+          <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">100% dữ liệu đã được rà soát</p>
+        </div>
+        <div class="audit-card">
+          <div class="audit-card-head" style="color:var(--rose);">⚠️ Xung Đột Giá Cùng Loại</div>
+          <h2 style="font-size:24px; color:var(--rose);">${conflictGroups.length} nhóm</h2>
+          <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Cùng sản phẩm nhưng khác giá</p>
+        </div>
+        <div class="audit-card">
+          <div class="audit-card-head" style="color:var(--amber);">🔍 Nghi Vấn Giá Bất Thường</div>
+          <h2 style="font-size:24px; color:var(--amber);">${otherAlerts.length} mục</h2>
+          <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Lỗi số 0 hoặc thập phân</p>
+        </div>
+      `;
+
+      // RENDER NHÓM XUNG ĐỘT GIÁ
+      if (conflictGroups.length === 0) {
+        conflictContainer.innerHTML = `
+          <div style="background:var(--input-bg); border-radius:10px; padding:20px; text-align:center; color:var(--emerald); font-weight:700;">
+            🎉 Không phát hiện sản phẩm nào cùng loại bị xung đột lệch giá!
+          </div>
+        `;
+      } else {
+        conflictGroups.forEach(grp => {
+          const box = document.createElement('div');
+          box.className = 'conflict-group-box';
+
+          const prices = grp.items.map(it => Number(it.plan.price || 0));
+          const minP = Math.min(...prices);
+          const maxP = Math.max(...prices);
+
+          let rowsHtml = '';
+          grp.items.forEach(it => {
+            rowsHtml += `
+              <div class="conflict-item-row">
+                <div>
+                  <strong style="color:var(--text);">${it.plan.name}</strong>
+                  <span style="font-size:11.5px; color:var(--text-muted); margin-left:8px;">(Kho: ${it.plan.stock})</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px;">
+                  <input type="number" class="inline-price-input" id="confPrice_${grp.catKey}_${it.index}" value="${it.plan.price}" /> đ
+                  <button class="btn btn-outline" style="padding:3px 7px; font-size:11px;" onclick="saveSingleConflictPrice('${grp.catKey}', ${it.index})">Lưu</button>
+                </div>
+              </div>
+            `;
+          });
+
+          box.innerHTML = `
+            <div class="conflict-group-header">
+              <div>
+                <span class="badge badge-source">${grp.catKey.toUpperCase()}</span>
+                <span style="font-size:13px; font-weight:700; margin-left:8px; color:var(--text);">
+                  ${grp.items[0].plan.name} (và các biến thể tương đương)
+                </span>
+              </div>
+              <div style="display:flex; gap:8px;">
+                <button class="btn btn-outline" style="font-size:11px; padding:4px 8px;" onclick="syncGroupPrice('${grp.catKey}', ${JSON.stringify(grp.items.map(i=>i.index))}, ${minP})">
+                  👉 Đồng bộ về giá thấp: ${minP.toLocaleString('vi-VN')}đ
+                </button>
+                <button class="btn btn-outline" style="font-size:11px; padding:4px 8px;" onclick="syncGroupPrice('${grp.catKey}', ${JSON.stringify(grp.items.map(i=>i.index))}, ${maxP})">
+                  👉 Đồng bộ về giá cao: ${maxP.toLocaleString('vi-VN')}đ
+                </button>
+                <button class="btn btn-success" style="font-size:11px; padding:4px 8px;" onclick="mergeGroupPlans('${grp.catKey}', ${JSON.stringify(grp.items.map(i=>i.index))})">
+                  🔀 Gộp chung làm 1 gói & cộng dồn kho
+                </button>
+              </div>
+            </div>
+            <div>${rowsHtml}</div>
+          `;
+          conflictContainer.appendChild(box);
+        });
+      }
+
+      // RENDER CÁC GÓI CẦN XEM XÉT KHÁC
+      if (otherAlerts.length === 0) {
+        tableBody.innerHTML = `
+          <tr>
+            <td colspan="6" style="text-align:center; padding:24px; color:var(--emerald); font-weight:700;">
+              🎉 Tất cả các gói đều có mức giá hợp lệ!
+            </td>
+          </tr>
+        `;
+      } else {
+        otherAlerts.forEach(item => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td><span class="badge badge-source">${item.catKey}</span></td>
+            <td><strong style="color:var(--text);">${item.plan.name}</strong></td>
+            <td>
+              <input type="number" class="inline-price-input" id="auditPrice_${item.catKey}_${item.planIndex}" value="${item.plan.price}" /> đ
+            </td>
+            <td>
+              <span style="color:var(--amber); font-size:12px; font-weight:600;">⚠️ ${item.issue}</span>
+              ${item.suggestedPrice ? `<br><button class="btn btn-outline" style="padding:2px 6px; font-size:11px; margin-top:3px;" onclick="applySuggestedPrice('${item.catKey}', ${item.planIndex}, ${item.suggestedPrice})">👉 Đổi về ${item.suggestedPrice.toLocaleString('vi-VN')}đ</button>` : ''}
+            </td>
+            <td>Còn ${item.plan.stock}</td>
+            <td style="text-align:right;">
+              <button class="btn btn-success" style="padding:4px 10px; font-size:12px;" onclick="saveInlinePrice('${item.catKey}', ${item.planIndex})">💾 Lưu</button>
+            </td>
+          `;
+          tableBody.appendChild(tr);
+        });
+      }
+    }
+
+    // ĐỒNG BỘ GIÁ TRONG NHÓM XUNG ĐỘT
+    function syncGroupPrice(catKey, indices, targetPrice) {
+      indices.forEach(idx => {
+        servicesData[catKey].plans[idx].price = targetPrice;
+      });
+      runPriceAudit();
+      renderTable();
+      updateStats();
+      alert(`✅ Đã đồng bộ giá của nhóm về ${targetPrice.toLocaleString('vi-VN')}đ! Đừng quên bấm 'Lưu lên GitHub'.`);
+    }
+
+    // GỘP CHUNG 2 GÓI LÀM 1 VÀ CỘNG DỒN KHO
+    function mergeGroupPlans(catKey, indices) {
+      if (!confirm("Hành động này sẽ gộp các gói này thành 1 gói duy nhất và CỘNG DỒN SỐ LƯỢNG KHO lại với nhau. Bạn có chắc không?")) return;
+
+      const plans = servicesData[catKey].plans;
+      const sortedIdx = [...indices].sort((a, b) => a - b);
+      const masterIdx = sortedIdx[0];
+      const masterPlan = plans[masterIdx];
+
+      let totalStock = masterPlan.stock === -1 ? -1 : (masterPlan.stock || 0);
+
+      // Cộng dồn kho từ các gói sau
+      for (let i = 1; i < sortedIdx.length; i++) {
+        const otherPlan = plans[sortedIdx[i]];
+        if (totalStock !== -1 && otherPlan.stock !== -1) {
+          totalStock += (otherPlan.stock || 0);
+        }
+      }
+
+      masterPlan.stock = totalStock;
+      masterPlan.stock_text = totalStock === -1 ? 'Vô cực (∞)' : `Còn ${totalStock}`;
+
+      // Xóa các gói phụ (xóa từ index lớn về nhỏ)
+      for (let i = sortedIdx.length - 1; i >= 1; i--) {
+        plans.splice(sortedIdx[i], 1);
+      }
+
+      runPriceAudit();
+      renderTable();
+      updateStats();
+      alert("🎉 Đã gộp thành công thành 1 gói duy nhất và cộng dồn toàn bộ kho hàng!");
+    }
+
+    function saveSingleConflictPrice(catKey, idx) {
+      const inp = document.getElementById(`confPrice_${catKey}_${idx}`);
+      servicesData[catKey].plans[idx].price = Number(inp.value || 0);
+      runPriceAudit();
+      renderTable();
+      updateStats();
+      alert("✅ Đã cập nhật giá mới!");
+    }
+
+    function applySuggestedPrice(catKey, idx, newPrice) {
+      document.getElementById(`auditPrice_${catKey}_${idx}`).value = newPrice;
+      saveInlinePrice(catKey, idx);
+    }
+
+    function saveInlinePrice(catKey, idx) {
+      const inp = document.getElementById(`auditPrice_${catKey}_${idx}`);
+      servicesData[catKey].plans[idx].price = Number(inp.value || 0);
+      runPriceAudit();
+      renderTable();
+      updateStats();
+      alert("✅ Đã cập nhật giá mới! Đừng quên bấm 'Lưu lên GitHub'.");
+    }
+
+    // =========================================================================
+    // 6. CÁC TÍNH NĂNG KHÁC (FEED, HISTORY, BULK, EXCEL...)
+    // =========================================================================
+    function checkDuplicateNameAlert(nameVal) {
+      const alertDiv = document.getElementById('duplicateConflictAlert');
+      if (!nameVal || !currentCat) {
+        alertDiv.style.display = 'none';
+        return;
+      }
+      const ck = getCanonicalKey(nameVal);
+      const plans = servicesData[currentCat].plans || [];
+      const match = plans.find((p, idx) => idx !== editingPlanIndex && getCanonicalKey(p.name) === ck);
+
+      if (match) {
+        alertDiv.style.display = 'block';
+        alertDiv.innerHTML = `⚠️ Chú ý: Đã có gói cùng loại: "<strong>${match.name}</strong>" đang bán giá <strong>${Number(match.price||0).toLocaleString('vi-VN')}đ</strong>. Hãy cân nhắc xem có nên đặt cùng giá hoặc cộng kho vào gói đó không.`;
+      } else {
+        alertDiv.style.display = 'none';
+      }
+    }
+
     function exportToExcelCSV() {
       const rows = [
         ['Danh Mục', 'Tên Gói', 'Giá Bán (VNĐ)', 'Tồn Kho', 'Thời Hạn', 'Trạng Thái', 'Mô Tả & Bảo Hành']
@@ -1236,13 +1668,8 @@
       a.click();
     }
 
-    // MODAL SỬA HÀNG LOẠT (BULK MODAL)
-    function openBulkModal() {
-      document.getElementById('bulkModal').classList.add('active');
-    }
-    function closeBulkModal() {
-      document.getElementById('bulkModal').classList.remove('active');
-    }
+    function openBulkModal() { document.getElementById('bulkModal').classList.add('active'); }
+    function closeBulkModal() { document.getElementById('bulkModal').classList.remove('active'); }
 
     function applyBulkChanges() {
       const scope = document.getElementById('bulkScope').value;
@@ -1257,7 +1684,6 @@
         const plans = servicesData[catKey].plans || [];
         plans.forEach(p => {
           count++;
-          // Sửa giá
           if (priceType !== 'none' && priceVal > 0) {
             let curPrice = Number(p.price || 0);
             if (priceType === 'percent_dec') curPrice = Math.round(curPrice * (1 - priceVal / 100));
@@ -1266,7 +1692,6 @@
             else if (priceType === 'fixed_inc') curPrice = curPrice + priceVal;
             p.price = curPrice;
           }
-          // Sửa kho gói hết hàng
           if (stockValStr !== '' && p.stock === 0) {
             p.stock = Number(stockValStr);
             p.stock_text = `Còn ${p.stock}`;
@@ -1303,12 +1728,12 @@
           <div class="feed-main">
             <div class="feed-badge-icon">${icon}</div>
             <div>
-              <div style="font-weight:700; font-size:14px; color:#fff;">${h.name}</div>
+              <div style="font-weight:700; font-size:14px; color:var(--text);">${h.name}</div>
               <div style="font-size:12px; color:var(--text-muted); margin-top:3px; display:flex; gap:12px; align-items:center;">
                 <span>⏱️ ${h.time || 'Vừa xong'}</span>
-                <span>➕ Thêm: <strong style="color:#10b981;">+${h.addedQty || 0}</strong></span>
+                <span>➕ Thêm: <strong style="color:var(--emerald);">+${h.addedQty || 0}</strong></span>
                 <span>📦 Kho sau thêm: <strong>${h.stockAfter !== undefined ? h.stockAfter : 'N/A'}</strong></span>
-                <span>💰 Giá: <strong style="color:#38bdf8;">${Number(h.price || 0).toLocaleString('vi-VN')}đ</strong></span>
+                <span>💰 Giá: <strong style="color:var(--primary);">${Number(h.price || 0).toLocaleString('vi-VN')}đ</strong></span>
                 ${srcBadge}
               </div>
             </div>
@@ -1340,110 +1765,6 @@
       alert("Không tìm thấy gói này trong danh sách hiện tại.");
     }
 
-    function runPriceAudit() {
-      const summaryContainer = document.getElementById('auditSummaryCards');
-      const tableBody = document.getElementById('auditTableBody');
-      summaryContainer.innerHTML = '';
-      tableBody.innerHTML = '';
-
-      const alerts = [];
-      let totalChecked = 0;
-
-      for (const [catKey, val] of Object.entries(servicesData)) {
-        if (catKey === '_history') continue;
-        const plans = val.plans || [];
-        plans.forEach((p, idx) => {
-          totalChecked++;
-          const price = Number(p.price || 0);
-          const name = p.name || '';
-          let issue = null;
-          let suggestedPrice = 0;
-
-          if (price <= 0) {
-            issue = 'Giá bằng 0 hoặc chưa nhập giá';
-          } else if (/hotmail/i.test(name) && price >= 3000) {
-            issue = 'Nghi vấn nhầm 0.5k thành 5.000đ (Hotmail thường 500đ - 1.000đ)';
-            suggestedPrice = 500;
-          } else if (/chatgpt/i.test(name) && !/json|free/i.test(name) && price < 15000) {
-            issue = 'Giá ChatGPT quá thấp so với thực tế (< 15.000đ)';
-          } else if (price > 2000000) {
-            issue = 'Giá bất thường (> 2.000.000đ), cần kiểm tra lại';
-          }
-
-          if (issue) {
-            alerts.push({ catKey, planIndex: idx, plan: p, issue, suggestedPrice });
-          }
-        });
-      }
-
-      document.getElementById('badgeAlertCount').innerText = alerts.length;
-      document.getElementById('statPriceAlerts').innerText = alerts.length;
-
-      summaryContainer.innerHTML = `
-        <div class="audit-card">
-          <div class="audit-card-head" style="color:#38bdf8;">📦 Tổng Gói Đã Quét</div>
-          <h2 style="font-size:24px; color:#fff;">${totalChecked} gói</h2>
-          <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">100% dữ liệu đã được rà soát</p>
-        </div>
-        <div class="audit-card">
-          <div class="audit-card-head" style="color:#f59e0b;">⚠️ Cảnh Báo Cần Xem Xét</div>
-          <h2 style="font-size:24px; color:#f59e0b;">${alerts.length} mục</h2>
-          <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Có giá hoặc định dạng nghi vấn</p>
-        </div>
-        <div class="audit-card">
-          <div class="audit-card-head" style="color:#10b981;">✅ Trạng Thái An Toàn</div>
-          <h2 style="font-size:24px; color:#10b981;">${(( (totalChecked - alerts.length) / (totalChecked || 1) ) * 100).toFixed(1)}%</h2>
-          <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Tỉ lệ giá hợp logic</p>
-        </div>
-      `;
-
-      if (alerts.length === 0) {
-        tableBody.innerHTML = `
-          <tr>
-            <td colspan="6" style="text-align:center; padding:30px; color:#10b981; font-weight:600;">
-              🎉 Tuyệt vời! Không phát hiện bất kỳ gói nào có giá bất thường.
-            </td>
-          </tr>
-        `;
-        return;
-      }
-
-      alerts.forEach(item => {
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td><span class="badge badge-source">${item.catKey}</span></td>
-          <td><strong style="color:#fff;">${item.plan.name}</strong></td>
-          <td>
-            <input type="number" class="inline-price-input" id="auditPrice_${item.catKey}_${item.planIndex}" value="${item.plan.price}" /> đ
-          </td>
-          <td>
-            <span style="color:#f59e0b; font-size:12px;">⚠️ ${item.issue}</span>
-            ${item.suggestedPrice ? `<br><button class="btn btn-outline" style="padding:2px 6px; font-size:11px; margin-top:3px;" onclick="applySuggestedPrice('${item.catKey}', ${item.planIndex}, ${item.suggestedPrice})">👉 Đổi về ${item.suggestedPrice.toLocaleString('vi-VN')}đ</button>` : ''}
-          </td>
-          <td>Còn ${item.plan.stock}</td>
-          <td style="text-align:right;">
-            <button class="btn btn-success" style="padding:4px 10px; font-size:12px;" onclick="saveInlinePrice('${item.catKey}', ${item.planIndex})">💾 Lưu</button>
-          </td>
-        `;
-        tableBody.appendChild(tr);
-      });
-    }
-
-    function applySuggestedPrice(catKey, idx, newPrice) {
-      document.getElementById(`auditPrice_${catKey}_${idx}`).value = newPrice;
-      saveInlinePrice(catKey, idx);
-    }
-
-    function saveInlinePrice(catKey, idx) {
-      const inp = document.getElementById(`auditPrice_${catKey}_${idx}`);
-      const val = Number(inp.value || 0);
-      servicesData[catKey].plans[idx].price = val;
-      runPriceAudit();
-      renderTable();
-      updateStats();
-      alert("✅ Đã cập nhật giá mới! Đừng quên bấm '🚀 Lưu lên GitHub' để cập nhật lên web.");
-    }
-
     function renderHistoryTable() {
       const tbody = document.getElementById('historyTableBody');
       tbody.innerHTML = '';
@@ -1462,9 +1783,9 @@
         const tr = document.createElement('tr');
         tr.innerHTML = `
           <td><span style="color:var(--text-muted); font-size:12px;">${h.time || 'N/A'}</span></td>
-          <td><strong style="color:#fff;">${h.name}</strong></td>
+          <td><strong style="color:var(--text);">${h.name}</strong></td>
           <td><span class="badge badge-in">+${h.addedQty || 0}</span></td>
-          <td><strong style="color:#38bdf8;">${Number(h.price || 0).toLocaleString('vi-VN')}đ</strong></td>
+          <td><strong style="color:var(--primary);">${Number(h.price || 0).toLocaleString('vi-VN')}đ</strong></td>
           <td>Còn ${h.stockAfter !== undefined ? h.stockAfter : 'N/A'}</td>
           <td><span class="badge badge-source">${h.source || 'Bot'}</span></td>
           <td style="text-align:right;">
@@ -1502,6 +1823,7 @@
       document.getElementById('inpIsHidden').checked = false;
       document.getElementById('inpDetail').value = '';
       document.getElementById('inpQuickPaste').value = '';
+      document.getElementById('duplicateConflictAlert').style.display = 'none';
       populateCategorySelect();
       document.getElementById('inpTargetCategory').value = currentCat;
       toggleStockInput();
@@ -1517,6 +1839,7 @@
       document.getElementById('inpDuration').value = p.duration || '1 Tháng';
       document.getElementById('inpIsHidden').checked = !!p.hidden;
       document.getElementById('inpDetail').value = p.detail || '';
+      document.getElementById('duplicateConflictAlert').style.display = 'none';
 
       if (p.stock === -1 || p.stock === '∞') {
         document.getElementById('inpStockType').value = 'infinity';
@@ -1623,7 +1946,9 @@
 
       const lines = raw.split('\n').map(l => l.trim()).filter(Boolean);
       if (lines.length > 0) {
-        document.getElementById('inpName').value = lines[0].replace(/^[^\w\s\u00C0-\u1EF9]+/i, '').trim();
+        const parsedName = lines[0].replace(/^[^\w\s\u00C0-\u1EF9]+/i, '').trim();
+        document.getElementById('inpName').value = parsedName;
+        checkDuplicateNameAlert(parsedName);
       }
 
       const pMatch = raw.match(/Giá[:\s]*([0-9.,]+)\s*([kKđĐ]?)/i);
@@ -1768,7 +2093,7 @@
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-            message: 'Admin Pro Max: Cập nhật danh mục, giá, kho hàng & trạng thái ẩn/hiện',
+            message: 'Admin Pro Light: Cập nhật dữ liệu, xử lý xung đột giá & đồng bộ kho',
             content: newContent,
             sha: fileData.sha
           })
