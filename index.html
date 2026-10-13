@@ -704,10 +704,12 @@ function loadData() {
       var keys = Object.keys(D);
       if (keys.length) {
         curCat = keys[0];
-        if (D[curCat].plans && D[curCat].plans.length) {
-          // Lấy danh sách đã sắp xếp tên để chọn gói đầu tiên
-          var sortedFirst = D[curCat].plans.slice().sort((a,b) => (a.name||'').localeCompare(b.name||'', 'vi', { numeric: true }));
+        var visiblePlans = (D[curCat].plans || []).filter(p => !p.hidden);
+        if (visiblePlans.length) {
+          var sortedFirst = visiblePlans.slice().sort((a,b) => (a.name||'').localeCompare(b.name||'', 'vi', { numeric: true }));
           selPlan = sortedFirst[0];
+        } else {
+          selPlan = null;
         }
       }
       render();
@@ -751,9 +753,12 @@ function renderCategories() {
       kw = '';
       document.getElementById('searchInp').value = '';
       curCat = k;
-      if (D[k].plans && D[k].plans.length) {
-        var sorted = D[k].plans.slice().sort((a,b) => (a.name||'').localeCompare(b.name||'', 'vi', { numeric: true }));
+      var visibleK = (D[k].plans || []).filter(p => !p.hidden);
+      if (visibleK.length) {
+        var sorted = visibleK.slice().sort((a,b) => (a.name||'').localeCompare(b.name||'', 'vi', { numeric: true }));
         selPlan = sorted[0];
+      } else {
+        selPlan = null;
       }
       closeMobileCats();
       render();
@@ -895,7 +900,10 @@ function createPlanCard(catName, p) {
 
 function renderDetail(catName) {
   var panel = document.getElementById('detailContent');
-  if (!selPlan) return;
+  if (!selPlan) {
+    if (panel) panel.innerHTML = '<div style="padding:40px;text-align:center;color:#64748b;font-size:13px;">Chưa chọn gói dịch vụ nào hoặc gói đã tạm ẩn.</div>';
+    return;
+  }
 
   catName = catName || (D[curCat] ? D[curCat].name : '');
   var p = selPlan;
