@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bảng Quản Trị Dịch Vụ - Admin Pro</title>
+  <title>Bảng Quản Trị Dịch Vụ - Admin Pro Max</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -100,13 +100,7 @@
       transition: all 0.2s;
     }
     .btn-unlock:hover { opacity: 0.95; transform: translateY(-1px); }
-    .lock-error {
-      color: #f43f5e;
-      font-size: 12px;
-      font-weight: 600;
-      margin-top: 10px;
-      display: none;
-    }
+    .lock-error { color: #f43f5e; font-size: 12px; font-weight: 600; margin-top: 10px; display: none; }
     @keyframes fadeIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
     @keyframes shake {
       0%, 100% { transform: translateX(0); }
@@ -152,9 +146,9 @@
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      padding: 8px 14px;
+      padding: 8px 13px;
       border-radius: 8px;
-      font-size: 13px;
+      font-size: 12.5px;
       font-weight: 600;
       cursor: pointer;
       border: 1px solid transparent;
@@ -165,6 +159,8 @@
     .btn-primary:hover { background: #0369a1; transform: translateY(-1px); }
     .btn-success { background: #059669; color: #fff; }
     .btn-success:hover { background: #047857; }
+    .btn-warning { background: #d97706; color: #fff; }
+    .btn-warning:hover { background: #b45309; }
     .btn-danger { background: #e11d48; color: #fff; }
     .btn-danger:hover { background: #be123c; }
     .btn-purple { background: #6366f1; color: #fff; }
@@ -179,7 +175,7 @@
     /* KPI STATS CARDS */
     .stats-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 16px;
       padding: 20px 24px 10px 24px;
     }
@@ -194,8 +190,8 @@
       transition: transform 0.2s;
     }
     .stat-card:hover { transform: translateY(-2px); }
-    .stat-info p { font-size: 12px; color: var(--text-muted); text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; }
-    .stat-info h3 { font-size: 26px; font-weight: 800; margin-top: 4px; color: #fff; }
+    .stat-info p { font-size: 11.5px; color: var(--text-muted); text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; }
+    .stat-info h3 { font-size: 24px; font-weight: 800; margin-top: 4px; color: #fff; }
     .stat-icon {
       width: 44px;
       height: 44px;
@@ -207,8 +203,9 @@
     }
     .stat-blue { background: rgba(56, 189, 248, 0.15); color: #38bdf8; }
     .stat-green { background: rgba(16, 185, 129, 0.15); color: #10b981; }
-    .stat-amber { background: rgba(245, 158, 11, 0.15); color: #f59e0b; }
     .stat-red { background: rgba(244, 63, 94, 0.15); color: #f43f5e; }
+    .stat-amber { background: rgba(245, 158, 11, 0.15); color: #f59e0b; }
+    .stat-gray { background: rgba(148, 163, 184, 0.15); color: #94a3b8; }
 
     /* TAB NAVIGATION */
     .tab-bar {
@@ -336,7 +333,7 @@
       padding: 8px 14px;
       color: #fff;
       font-size: 13px;
-      width: 260px;
+      width: 250px;
       outline: none;
     }
     .search-input:focus { border-color: var(--primary); }
@@ -362,6 +359,7 @@
     }
     .custom-table tbody tr:hover { background: rgba(51, 65, 85, 0.35); }
     .custom-table tr.row-dragging { opacity: 0.4; }
+    .custom-table tr.row-hidden { opacity: 0.55; background: rgba(15, 23, 42, 0.4); }
 
     .badge {
       display: inline-flex;
@@ -377,6 +375,28 @@
     .badge-source { background: rgba(99, 102, 241, 0.15); color: #818cf8; border: 1px solid rgba(99, 102, 241, 0.3); }
     .badge-warning { background: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3); }
 
+    /* TOGGLE EYE BUTTON */
+    .btn-toggle-eye {
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      color: #10b981;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 11.5px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s;
+    }
+    .btn-toggle-eye.is-hidden {
+      background: rgba(148, 163, 184, 0.15);
+      border-color: rgba(148, 163, 184, 0.3);
+      color: #94a3b8;
+    }
+    .btn-toggle-eye:hover { transform: scale(1.05); }
+
     /* FEED */
     .feed-container {
       background: var(--card-bg);
@@ -384,7 +404,7 @@
       border-radius: var(--radius);
       padding: 20px;
     }
-    .feed-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+    .feed-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 10px; }
     .feed-list { display: flex; flex-direction: column; gap: 10px; }
     .feed-item {
       background: #0f172a;
@@ -413,7 +433,7 @@
     /* AUDIT */
     .audit-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 16px;
       margin-bottom: 20px;
     }
@@ -500,7 +520,7 @@
 <body>
 
   <!-- ========================================================================= -->
-  <!-- MÀN HÌNH KHÓA BẢO MẬT (SHA-256 ENCRYPTED PIN) -->
+  <!-- MÀN HÌNH KHÓA BẢO MẬT (SHA-256 PIN: 071003) -->
   <!-- ========================================================================= -->
   <div id="lockScreenOverlay">
     <div class="lock-box" id="lockBox">
@@ -522,7 +542,7 @@
       <div class="brand-logo">⚡</div>
       <div class="brand-text">
         <h1>Bảng Quản Trị Dịch Vụ Số</h1>
-        <p>Hệ thống đồng bộ Telegram & Quản lý kho hàng</p>
+        <p>Hệ thống đồng bộ Telegram & Quản lý kho hàng Pro Max</p>
       </div>
     </div>
 
@@ -530,10 +550,16 @@
       <button class="btn btn-primary" id="btnSaveGitHub" onclick="saveDirectToGitHub()">
         🚀 Lưu lên GitHub
       </button>
+      <button class="btn btn-success" onclick="exportToExcelCSV()">
+        📊 Xuất Excel (CSV)
+      </button>
+      <button class="btn btn-purple" onclick="openBulkModal()">
+        ⚡ Sửa Hàng Loạt
+      </button>
       <button class="btn btn-outline" style="padding:8px 10px;" title="Cài đặt Token" onclick="openTokenModal()">⚙️ Token</button>
       <button class="btn btn-outline" onclick="triggerImportFile()">📁 Nạp JSON</button>
       <button class="btn btn-outline" onclick="downloadJSON()">💾 Tải JSON</button>
-      <a href="index.html" target="_blank" class="btn btn-success">👁️ Xem Web Bán</a>
+      <a href="index.html" target="_blank" class="btn btn-outline" style="color:#38bdf8; border-color:#38bdf8;">👁️ Xem Web</a>
       <button class="btn btn-danger" style="padding:8px 10px;" title="Khóa màn hình" onclick="lockAdmin()">🔒</button>
     </div>
   </header>
@@ -549,14 +575,21 @@
     </div>
     <div class="stat-card">
       <div class="stat-info">
-        <p>Còn hàng (In Stock)</p>
+        <p>Đang bán (Hiện)</p>
         <h3 id="statInStock" style="color:#10b981;">0</h3>
       </div>
       <div class="stat-icon stat-green">✅</div>
     </div>
     <div class="stat-card">
       <div class="stat-info">
-        <p>Hết hàng (Out of Stock)</p>
+        <p>Đang tạm ẩn</p>
+        <h3 id="statHidden" style="color:#94a3b8;">0</h3>
+      </div>
+      <div class="stat-icon stat-gray">🙈</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-info">
+        <p>Hết hàng (Kho = 0)</p>
         <h3 id="statOutStock" style="color:#f43f5e;">0</h3>
       </div>
       <div class="stat-icon stat-red">⚠️</div>
@@ -603,14 +636,14 @@
       <!-- BẢNG SẢN PHẨM -->
       <section class="catalog-main">
         <div class="table-toolbar">
-          <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+          <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
             <h2 id="currentCategoryTitle" style="font-size:16px; font-weight:700;">Danh mục</h2>
             <button class="btn btn-outline" style="padding:4px 8px; font-size:11px;" onclick="openEditCatModal()">✏️ Sửa mục</button>
             <button class="btn btn-danger" style="padding:4px 8px; font-size:11px;" onclick="deleteCurrentCat()">🗑️ Xóa</button>
             <button class="btn btn-purple" style="padding:4px 8px; font-size:11px;" onclick="autoCategorizeCurrentList()">⚡ Quét phân loại</button>
           </div>
 
-          <div style="display:flex; gap:8px; align-items:center;">
+          <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
             <input type="text" id="filterInp" class="search-input" placeholder="🔍 Tìm kiếm sản phẩm..." oninput="renderTable()" />
             <button class="btn btn-primary" onclick="openAddModal()">➕ Thêm Gói Mới</button>
           </div>
@@ -622,10 +655,11 @@
               <tr>
                 <th style="width:36px; text-align:center;">⠿</th>
                 <th>Tên Gói Sản Phẩm & Mô Tả</th>
-                <th style="width:130px;">Giá Bán</th>
-                <th style="width:110px;">Tồn Kho</th>
-                <th style="width:110px;">Thời Hạn</th>
-                <th style="text-align:right; width:160px;">Hành Động</th>
+                <th style="width:125px;">Giá Bán</th>
+                <th style="width:105px;">Tồn Kho</th>
+                <th style="width:100px;">Thời Hạn</th>
+                <th style="width:105px; text-align:center;">Hiển Thị</th>
+                <th style="text-align:right; width:140px;">Hành Động</th>
               </tr>
             </thead>
             <tbody id="plansTableBody">
@@ -645,9 +679,7 @@
           <h3 style="font-size:16px; font-weight:700; color:#fff;">⚡ Sản Phẩm Vừa Được Đồng Bộ / Nhập Kho Gần Đây</h3>
           <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Theo dõi các đợt hàng được Bot Telegram hoặc Admin thêm vào gần đây nhất.</p>
         </div>
-        <div style="display:flex; gap:8px;">
-          <button class="btn btn-outline" onclick="renderRecentFeed()">🔄 Làm mới</button>
-        </div>
+        <button class="btn btn-outline" onclick="renderRecentFeed()">🔄 Làm mới</button>
       </div>
 
       <div class="feed-list" id="recentFeedList">
@@ -667,9 +699,7 @@
         <button class="btn btn-primary" onclick="runPriceAudit()">⚡ Quét lại toàn bộ</button>
       </div>
 
-      <div class="audit-grid" id="auditSummaryCards">
-        <!-- Thống kê bất thường -->
-      </div>
+      <div class="audit-grid" id="auditSummaryCards"></div>
 
       <h4 style="font-size:14px; font-weight:700; margin-bottom:12px; color:#f8fafc;">
         📋 Danh sách các gói cần xem xét & Chỉnh sửa trực tiếp
@@ -687,9 +717,7 @@
               <th style="text-align:right;">Chỉnh Sửa Nhanh</th>
             </tr>
           </thead>
-          <tbody id="auditTableBody">
-            <!-- Render danh sách nghi vấn -->
-          </tbody>
+          <tbody id="auditTableBody"></tbody>
         </table>
       </div>
     </div>
@@ -722,13 +750,57 @@
               <th style="text-align:right;">Thao Tác</th>
             </tr>
           </thead>
-          <tbody id="historyTableBody">
-            <!-- Render lịch sử -->
-          </tbody>
+          <tbody id="historyTableBody"></tbody>
         </table>
       </div>
     </div>
   </main>
+
+  <!-- MODAL: SỬA HÀNG LOẠT (BULK EDIT) -->
+  <div class="modal-overlay" id="bulkModal">
+    <div class="modal-content" style="max-width:500px;">
+      <div class="modal-header">
+        <h3>⚡ Chỉnh Sửa Hàng Loạt (Bulk Adjuster)</h3>
+        <button class="btn btn-outline" style="padding:4px 8px;" onclick="closeBulkModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size:12.5px; color:var(--text-muted);">
+          Áp dụng thay đổi giá hoặc số lượng tồn kho đồng loạt cho nhiều sản phẩm cùng lúc.
+        </p>
+
+        <div class="form-group">
+          <label class="form-label">Phạm vi áp dụng:</label>
+          <select id="bulkScope" class="form-control">
+            <option value="current">Chỉ danh mục hiện tại</option>
+            <option value="all">Toàn bộ tất cả danh mục</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Tùy chỉnh giá bán:</label>
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px;">
+            <select id="bulkPriceType" class="form-control">
+              <option value="none">Không đổi giá</option>
+              <option value="percent_dec">Giảm theo %</option>
+              <option value="percent_inc">Tăng theo %</option>
+              <option value="fixed_dec">Giảm số tiền cố định (đ)</option>
+              <option value="fixed_inc">Tăng số tiền cố định (đ)</option>
+            </select>
+            <input type="number" id="bulkPriceVal" class="form-control" placeholder="Giá trị (ví dụ: 10)" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Tùy chỉnh tồn kho cho các gói hết hàng (stock = 0):</label>
+          <input type="number" id="bulkStockForZero" class="form-control" placeholder="Đặt số lượng mới (để trống nếu không đổi)" />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline" onclick="closeBulkModal()">Hủy</button>
+        <button class="btn btn-primary" onclick="applyBulkChanges()">⚡ Áp Dụng Ngay</button>
+      </div>
+    </div>
+  </div>
 
   <!-- MODAL: THÊM / SỬA SẢN PHẨM -->
   <div class="modal-overlay" id="planModal">
@@ -777,6 +849,13 @@
             <label class="form-label">Số lượng:</label>
             <input type="number" id="inpStockNumber" class="form-control" placeholder="Ví dụ: 10" />
           </div>
+        </div>
+
+        <div class="form-group">
+          <label style="display:flex; align-items:center; gap:8px; cursor:pointer; font-size:13px; color:#cbd5e1;">
+            <input type="checkbox" id="inpIsHidden" style="width:16px; height:16px; accent-color:#38bdf8;" />
+            <span>Tạm ẩn gói này khỏi web bán hàng (Khách không nhìn thấy)</span>
+          </label>
         </div>
 
         <div class="form-group">
@@ -846,12 +925,9 @@
 
   <!-- SCRIPT LOGIC -->
   <script>
-    // =========================================================================
     // 1. BẢO MẬT: CHẶN F12 & CHUỘT PHẢI
-    // =========================================================================
     document.addEventListener('contextmenu', e => e.preventDefault());
     document.addEventListener('keydown', e => {
-      // Chặn F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+Shift+C, Ctrl+U
       if (
         e.key === 'F12' ||
         (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i' || e.key === 'J' || e.key === 'j' || e.key === 'C' || e.key === 'c')) ||
@@ -862,10 +938,7 @@
       }
     });
 
-    // =========================================================================
-    // 2. BẢO MẬT: MÃ HÓA SHA-256 CHO MÃ PIN MỞ KHÓA (071003)
-    // =========================================================================
-    // Hash SHA-256 tương ứng của mã pin '071003'
+    // 2. MÃ HÓA SHA-256 CHO MÃ PIN (071003)
     const PIN_HASH_SECURE = '5d6b0d5ce35cc43945965b67a21225493a94a1d0f8a8b71512a617cdb9137696';
 
     async function computeSHA256(str) {
@@ -914,9 +987,7 @@
       document.getElementById('lockErrorMsg').style.display = 'none';
     }
 
-    // =========================================================================
     // 3. LOGIC QUẢN TRỊ DỮ LIỆU
-    // =========================================================================
     const GITHUB_USERNAME = '21004023-oss';
     const REPO_NAME = 'my-static-website';
     const FILE_PATH = 'data/services.json';
@@ -981,12 +1052,14 @@
       let total = 0;
       let inStock = 0;
       let outStock = 0;
+      let hiddenCount = 0;
 
       for (const [k, v] of Object.entries(servicesData)) {
         if (k === '_history') continue;
         if (v && v.plans) {
           total += v.plans.length;
           v.plans.forEach(p => {
+            if (p.hidden) hiddenCount++;
             if (p.stock === 0) outStock++;
             else inStock++;
           });
@@ -995,6 +1068,7 @@
 
       document.getElementById('statTotalPlans').innerText = total;
       document.getElementById('statInStock').innerText = inStock;
+      document.getElementById('statHidden').innerText = hiddenCount;
       document.getElementById('statOutStock').innerText = outStock;
 
       const historyCount = (servicesData._history || []).length;
@@ -1063,7 +1137,9 @@
           if (!match) return;
         }
 
+        const isHidden = !!p.hidden;
         const tr = document.createElement('tr');
+        if (isHidden) tr.classList.add('row-hidden');
         tr.draggable = true;
         tr.ondragstart = () => { draggedRowIndex = idx; draggedRowCat = currentCat; tr.classList.add('row-dragging'); };
         tr.ondragend = () => { draggedRowIndex = null; tr.classList.remove('row-dragging'); };
@@ -1074,19 +1150,24 @@
         if (p.stock === -1 || p.stock === '∞') stockBadge = '<span class="badge badge-in">Vô cực (∞)</span>';
         else if (p.stock === 0) stockBadge = '<span class="badge badge-out">Hết hàng</span>';
 
+        const eyeBtn = isHidden ?
+          `<button class="btn-toggle-eye is-hidden" onclick="togglePlanVisibility(${idx})">🙈 Đã ẩn</button>` :
+          `<button class="btn-toggle-eye" onclick="togglePlanVisibility(${idx})">👁️ Đang hiện</button>`;
+
         tr.innerHTML = `
           <td style="text-align:center; cursor:grab; color:var(--text-muted);">⠿</td>
           <td>
-            <div style="font-weight:700; color:#fff;">${p.name}</div>
-            <div style="font-size:11.5px; color:var(--text-muted); margin-top:3px; max-width:420px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
+            <div style="font-weight:700; color:#fff;">${p.name} ${isHidden ? '<span style="font-size:11px; color:#94a3b8; font-weight:normal;">(Tạm ẩn)</span>' : ''}</div>
+            <div style="font-size:11.5px; color:var(--text-muted); margin-top:3px; max-width:380px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
               ${p.detail || 'Chưa có mô tả chi tiết'}
             </div>
           </td>
           <td>
-            <strong style="color:#38bdf8; font-size:14px;">${Number(p.price || 0).toLocaleString('vi-VN')}đ</strong>
+            <strong style="color:#38bdf8; font-size:13.5px;">${Number(p.price || 0).toLocaleString('vi-VN')}đ</strong>
           </td>
           <td>${stockBadge}</td>
           <td><span class="badge badge-source">${p.duration || '1 Tháng'}</span></td>
+          <td style="text-align:center;">${eyeBtn}</td>
           <td style="text-align:right;">
             <button class="btn btn-outline" style="padding:4px 8px; font-size:11.5px;" onclick="openEditModal(${idx})">✏️ Sửa</button>
             <button class="btn btn-danger" style="padding:4px 8px; font-size:11.5px;" onclick="deletePlan(${idx})">🗑️</button>
@@ -1094,6 +1175,13 @@
         `;
         tbody.appendChild(tr);
       });
+    }
+
+    function togglePlanVisibility(idx) {
+      const p = servicesData[currentCat].plans[idx];
+      p.hidden = !p.hidden;
+      renderTable();
+      updateStats();
     }
 
     function handleRowDrop(targetIdx) {
@@ -1113,6 +1201,84 @@
       draggedRowIndex = null;
       renderCategories();
       renderTable();
+    }
+
+    // XUẤT FILE EXCEL / CSV CHUẨN UTF-8 BOM
+    function exportToExcelCSV() {
+      const rows = [
+        ['Danh Mục', 'Tên Gói', 'Giá Bán (VNĐ)', 'Tồn Kho', 'Thời Hạn', 'Trạng Thái', 'Mô Tả & Bảo Hành']
+      ];
+
+      for (const [catKey, val] of Object.entries(servicesData)) {
+        if (catKey === '_history') continue;
+        const catName = val.name || catKey;
+        const plans = val.plans || [];
+        plans.forEach(p => {
+          const status = p.hidden ? 'Đang ẩn' : (p.stock === 0 ? 'Hết hàng' : 'Đang bán');
+          rows.push([
+            catName,
+            p.name || '',
+            p.price || 0,
+            p.stock === -1 ? 'Vô cực (∞)' : (p.stock || 0),
+            p.duration || '',
+            status,
+            (p.detail || '').replace(/\r?\n/g, ' ')
+          ]);
+        });
+      }
+
+      const csvContent = '\uFEFF' + rows.map(e => e.map(x => `"${String(x).replace(/"/g, '""')}"`).join(',')).join('\n');
+      const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      const dateStr = new Date().toISOString().slice(0, 10);
+      a.download = `kho_hang_services_${dateStr}.csv`;
+      a.click();
+    }
+
+    // MODAL SỬA HÀNG LOẠT (BULK MODAL)
+    function openBulkModal() {
+      document.getElementById('bulkModal').classList.add('active');
+    }
+    function closeBulkModal() {
+      document.getElementById('bulkModal').classList.remove('active');
+    }
+
+    function applyBulkChanges() {
+      const scope = document.getElementById('bulkScope').value;
+      const priceType = document.getElementById('bulkPriceType').value;
+      const priceVal = Number(document.getElementById('bulkPriceVal').value || 0);
+      const stockValStr = document.getElementById('bulkStockForZero').value.trim();
+
+      const targetCats = scope === 'current' ? [currentCat] : Object.keys(servicesData).filter(k => k !== '_history');
+      let count = 0;
+
+      targetCats.forEach(catKey => {
+        const plans = servicesData[catKey].plans || [];
+        plans.forEach(p => {
+          count++;
+          // Sửa giá
+          if (priceType !== 'none' && priceVal > 0) {
+            let curPrice = Number(p.price || 0);
+            if (priceType === 'percent_dec') curPrice = Math.round(curPrice * (1 - priceVal / 100));
+            else if (priceType === 'percent_inc') curPrice = Math.round(curPrice * (1 + priceVal / 100));
+            else if (priceType === 'fixed_dec') curPrice = Math.max(0, curPrice - priceVal);
+            else if (priceType === 'fixed_inc') curPrice = curPrice + priceVal;
+            p.price = curPrice;
+          }
+          // Sửa kho gói hết hàng
+          if (stockValStr !== '' && p.stock === 0) {
+            p.stock = Number(stockValStr);
+            p.stock_text = `Còn ${p.stock}`;
+          }
+        });
+      });
+
+      closeBulkModal();
+      renderTable();
+      updateStats();
+      runPriceAudit();
+      alert(`🎉 Đã áp dụng thay đổi hàng loạt thành công cho ${count} sản phẩm! Bấm 'Lưu lên GitHub' để cập nhật web.`);
     }
 
     function renderRecentFeed() {
@@ -1333,6 +1499,7 @@
       document.getElementById('inpDuration').value = '1 Tháng';
       document.getElementById('inpStockType').value = 'number';
       document.getElementById('inpStockNumber').value = '10';
+      document.getElementById('inpIsHidden').checked = false;
       document.getElementById('inpDetail').value = '';
       document.getElementById('inpQuickPaste').value = '';
       populateCategorySelect();
@@ -1348,6 +1515,7 @@
       document.getElementById('inpName').value = p.name;
       document.getElementById('inpPrice').value = p.price;
       document.getElementById('inpDuration').value = p.duration || '1 Tháng';
+      document.getElementById('inpIsHidden').checked = !!p.hidden;
       document.getElementById('inpDetail').value = p.detail || '';
 
       if (p.stock === -1 || p.stock === '∞') {
@@ -1401,6 +1569,7 @@
       const price = Number(document.getElementById('inpPrice').value) || 0;
       const duration = document.getElementById('inpDuration').value.trim() || '1 Tháng';
       const detail = document.getElementById('inpDetail').value.trim();
+      const isHidden = document.getElementById('inpIsHidden').checked;
       const stockType = document.getElementById('inpStockType').value;
       const stock = stockType === 'infinity' ? -1 : (Number(document.getElementById('inpStockNumber').value) || 0);
 
@@ -1413,7 +1582,8 @@
         stock,
         stock_text: stock === -1 ? 'Vô cực (∞)' : `Còn ${stock}`,
         duration,
-        detail
+        detail,
+        hidden: isHidden
       };
 
       if (editingPlanIndex >= 0) {
@@ -1598,7 +1768,7 @@
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-            message: 'Admin Pro: Cập nhật danh mục, giá & kho hàng',
+            message: 'Admin Pro Max: Cập nhật danh mục, giá, kho hàng & trạng thái ẩn/hiện',
             content: newContent,
             sha: fileData.sha
           })
