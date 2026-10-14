@@ -1347,9 +1347,9 @@
       {
         "id": "p-1791873309021",
         "name": "Gmail Random ip 2020-2024",
-        "price": 35000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "price": 45000,
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "24h",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành"
       },
@@ -1712,6 +1712,18 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1791974701241",
+      "time": "17:45 - 14/10/2026",
+      "timestamp": 1791974701241,
+      "name": "Gmail Random ip 2020-2024",
+      "addedQty": 2,
+      "price": 45000,
+      "stockAfter": 4,
+      "catKey": "gmail",
+      "source": "Telegram Python Sync",
+      "msgKey": "📧GmailRandomip2020-2024➕Thêm:2📦Tồnkhohiệntại:22💰Giá:45.000đ"
+    },
     {
       "id": "hist-1791973604729",
       "time": "17:26 - 14/10/2026",
@@ -2899,18 +2911,6 @@
       "catKey": "khac",
       "source": "Telegram Python Sync",
       "msgKey": "✨MeituVIP7NgàyBHF➕Thêm:4📦Tồnkhohiệntại:0💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1791909487637",
-      "time": "23:38 - 13/10/2026",
-      "timestamp": 1791909487637,
-      "name": "ChatGPT Plus GGPay 30D BH 24H",
-      "addedQty": 7,
-      "price": 210000,
-      "stockAfter": 86,
-      "catKey": "chatgpt",
-      "source": "Telegram Python Sync",
-      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:7📦Tồnkhohiệntại:35💰Giá:210.000đ"
     }
   ],
   "bot-tele": {
