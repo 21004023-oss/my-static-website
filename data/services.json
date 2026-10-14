@@ -1869,6 +1869,22 @@
         "stock_text": "Còn 16",
         "duration": "7 Ngày",
         "detail": "Photoroom 7 ngày gói Max\nĐịnh dạng: Email|Web mail"
+      },
+      {
+        "id": "p-1792018974632",
+        "name": "Meitu SVIP 1 Tháng BHF",
+        "price": 75000,
+        "stock": 9,
+        "stock_text": "Còn 9",
+        "duration": "1 Tháng",
+        "detail": "Gói Meitu SVIP 1 Tháng BHF bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 9,
+            "cost_price": 75000,
+            "updated": "06:02 15/10/2026"
+          }
+        }
       }
     ]
   },
@@ -1896,6 +1912,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792018974632",
+      "time": "06:02 - 15/10/2026",
+      "timestamp": 1792018974632,
+      "name": "Meitu SVIP 1 Tháng BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 9,
+      "addedQty": 10,
+      "price": 75000,
+      "stockAfter": 9,
+      "catKey": "khac",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "✨MeituSVIP1ThángBHF➕Thêm:10📦Tồnkhohiệntại:9💰Giá:75.000đ"
+    },
     {
       "id": "hist-1792018971314",
       "time": "06:02 - 15/10/2026",
@@ -3091,18 +3121,6 @@
       "catKey": "gmail",
       "source": "Telegram Python Sync",
       "msgKey": "📧GMAILCỔDATE201X-2022➕Thêm:82📦Tồnkhohiệntại:152💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1791938217562",
-      "time": "07:36 - 14/10/2026",
-      "timestamp": 1791938217562,
-      "name": "Express VPN 6-7 ngày BHF",
-      "addedQty": 1,
-      "price": 20000,
-      "stockAfter": 1,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "🚚ExpressVPN6-7ngàyBHF➕Thêm:1📦Tồnkhohiệntại:3💰Giá:20.000đ"
     }
   ],
   "bot-tele": {
