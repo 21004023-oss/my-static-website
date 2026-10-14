@@ -1,914 +1,632 @@
 <!DOCTYPE html>
-<html lang="vi" data-theme="dark">
+<html lang="vi">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-  <title>CyberVending - Máy Bán Tài Khoản Tự Động // Phan Ngô Quốc Bảo</title>
+  <title>Bảng Giá Dịch Vụ Số - Bản Quyền Chính Hãng</title>
   
-  <meta name="description" content="Máy bán tài khoản số & AI tự động: YouTube Premium, ChatGPT Plus, Canva Pro, CapCut Pro, API Claude, Cursor. Kích hoạt tự động 24/7." />
-  <meta name="theme-color" content="#070a13" />
-  <meta property="og:title" content="CyberVending - Máy Bán Tài Khoản Số Tự Động 24/7" />
-  <meta property="og:description" content="Giao diện máy bán hàng tự động tương lai. Bấm chọn thẻ chip, nhận tài khoản tức thì." />
-
-  <!-- Fonts -->
+  <meta name="theme-color" content="#0f172a" />
+  <meta property="og:title" content="Bảng Giá Dịch Vụ Số - Bản Quyền Chính Hãng" />
+  <meta property="og:description" content="Cung cấp YouTube Premium, ChatGPT Plus, Canva Pro, CapCut Pro, API AI giá tốt, kích hoạt nhanh và bảo hành uy tín." />
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@500;700;800&family=Orbitron:wght@600;800;900&display=swap" rel="stylesheet" />
-
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  
   <style>
-    /* ========================================================================== */
-    /* 1. CYBERPUNK THEME ENGINE (DARK & LIGHT MODE)                              */
-    /* ========================================================================== */
-    :root[data-theme="dark"] {
-      --bg-page: #060911;
-      --bg-machine: #0b1120;
-      --bg-slot: #111a2f;
-      --bg-slot-hover: #16223d;
-      --bg-console: #080d19;
-      --border-machine: #1e293b;
-      --border-neon: #06b6d4;
-      
-      --neon-cyan: #06b6d4;
-      --neon-green: #10b981;
-      --neon-purple: #a855f7;
-      --neon-amber: #f59e0b;
-      --neon-red: #ef4444;
-      
-      --text-main: #f8fafc;
-      --text-muted: #94a3b8;
-      --text-cyan: #22d3ee;
-      --text-green: #34d399;
-      
-      --card-gradient: linear-gradient(145deg, #121c33 0%, #0c1426 100%);
-      --glow-cyan: 0 0 20px rgba(6, 182, 212, 0.35);
-      --glow-green: 0 0 20px rgba(16, 185, 129, 0.4);
-      --glow-purple: 0 0 20px rgba(168, 85, 247, 0.35);
-      --scanline: rgba(6, 182, 212, 0.03);
-    }
-
-    :root[data-theme="light"] {
-      --bg-page: #f1f5f9;
-      --bg-machine: #ffffff;
-      --bg-slot: #f8fafc;
-      --bg-slot-hover: #ffffff;
-      --bg-console: #0f172a;
-      --border-machine: #cbd5e1;
-      --border-neon: #0284c7;
-      
-      --neon-cyan: #0284c7;
-      --neon-green: #059669;
-      --neon-purple: #7c3aed;
-      --neon-amber: #d97706;
-      --neon-red: #dc2626;
-      
+    :root {
+      --primary: #10b981;
+      --primary-dark: #059669;
+      --primary-light: #ecfdf5;
+      --bg-page: #f8fafc;
+      --card-bg: #ffffff;
       --text-main: #0f172a;
       --text-muted: #64748b;
-      --text-cyan: #0284c7;
-      --text-green: #059669;
-      
-      --card-gradient: linear-gradient(145deg, #ffffff 0%, #f1f5f9 100%);
-      --glow-cyan: 0 4px 16px rgba(2, 132, 199, 0.2);
-      --glow-green: 0 4px 16px rgba(5, 150, 105, 0.25);
-      --glow-purple: 0 4px 16px rgba(124, 58, 237, 0.2);
-      --scanline: rgba(0, 0, 0, 0.015);
+      --border: #e2e8f0;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
+      --shadow-md: 0 4px 14px rgba(0,0,0,0.06);
+      --radius: 12px;
     }
 
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
       -webkit-tap-highlight-color: transparent;
     }
 
     body {
       background: var(--bg-page);
       color: var(--text-main);
+      font-size: 14px;
+      line-height: 1.5;
       min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      overflow-x: hidden;
-      transition: background 0.25s ease, color 0.25s ease;
     }
 
-    /* Ambient Scanlines Grid Background */
-    body::before {
-      content: "";
-      position: fixed;
-      inset: 0;
-      background-image: 
-        linear-gradient(to right, var(--scanline) 1px, transparent 1px),
-        linear-gradient(to bottom, var(--scanline) 1px, transparent 1px);
-      background-size: 32px 32px;
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    a { text-decoration: none; color: inherit; }
-    button { cursor: pointer; border: none; outline: none; font-family: inherit; }
-
-    /* ========================================================================== */
-    /* 2. MACHINE TOP HEADER & DIGITAL TICKER                                     */
-    /* ========================================================================== */
-    .vending-header {
-      background: var(--bg-machine);
-      border-bottom: 2px solid var(--border-neon);
-      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    /* ============================================================ */
+    /* 1. GIAO DIỆN MÁY TÍNH (DESKTOP) - GIỮ NGUYÊN HOÀN TOÀN      */
+    /* ============================================================ */
+    .topbar {
+      background: #0f172a;
+      color: #fff;
+      padding: 18px 32px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
       position: sticky;
       top: 0;
-      z-index: 100;
-      backdrop-filter: blur(12px);
+      z-index: 50;
     }
-    .header-inner {
-      max-width: 1560px;
+    .topbar-content {
+      max-width: 1600px;
       margin: 0 auto;
-      padding: 12px 24px;
       display: flex;
-      align-items: center;
+      flex-wrap: wrap;
       justify-content: space-between;
-      gap: 16px;
-    }
-
-    .brand-arcade {
-      display: flex;
       align-items: center;
-      gap: 14px;
+      gap: 20px;
     }
-    .arcade-coin-slot {
-      width: 44px;
-      height: 44px;
-      border-radius: 12px;
-      background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 22px;
-      box-shadow: var(--glow-cyan);
-      border: 1px solid rgba(255,255,255,0.3);
-      animation: pulseSlot 2.5s infinite;
-    }
-    @keyframes pulseSlot {
-      0%, 100% { transform: scale(1); filter: brightness(1); }
-      50% { transform: scale(1.05); filter: brightness(1.25); }
-    }
-
-    .brand-titles h1 {
-      font-family: 'Orbitron', monospace;
-      font-size: 17px;
-      font-weight: 900;
-      letter-spacing: 0.08em;
-      color: var(--text-main);
+    .brand h1 {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
       display: flex;
       align-items: center;
       gap: 8px;
     }
-    .brand-titles .glitch-sub {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 11px;
-      color: var(--neon-cyan);
-      display: flex;
-      align-items: center;
-      gap: 6px;
+    .brand p {
+      color: #94a3b8;
+      font-size: 13px;
+      margin-top: 3px;
     }
-    .glitch-sub .led-blink {
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: var(--neon-green);
-      box-shadow: 0 0 8px var(--neon-green);
-      animation: blink 1s infinite alternate;
-    }
-    @keyframes blink { from { opacity: 0.3; } to { opacity: 1; } }
+    .brand p b { color: #34d399; }
 
-    /* Search Radar Input */
-    .radar-search {
+    .search-box {
       flex: 1;
       max-width: 460px;
+      min-width: 280px;
       position: relative;
     }
-    .radar-search input {
+    .search-box input {
       width: 100%;
-      height: 42px;
-      padding: 0 40px 0 42px;
-      border-radius: 10px;
-      background: var(--bg-console);
-      border: 1px solid var(--border-neon);
-      color: var(--text-main);
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 13px;
+      padding: 11px 16px 11px 40px;
+      border-radius: 99px;
+      border: 1px solid rgba(255,255,255,0.15);
+      background: rgba(255,255,255,0.08);
+      color: #fff;
+      font-size: 13.5px;
       outline: none;
       transition: all 0.2s ease;
     }
-    .radar-search input:focus {
-      box-shadow: var(--glow-cyan);
-      border-color: #38bdf8;
+    .search-box input:focus {
+      background: #fff;
+      color: #0f172a;
+      box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.3);
     }
-    .radar-search .icon-radar {
+    .search-box svg {
       position: absolute;
       left: 14px;
       top: 50%;
       transform: translateY(-50%);
-      color: var(--neon-cyan);
-      width: 18px;
-      height: 18px;
+      color: #94a3b8;
       pointer-events: none;
     }
-    .radar-search .clear-btn {
-      position: absolute;
-      right: 12px;
-      top: 50%;
-      transform: translateY(-50%);
-      background: rgba(255,255,255,0.1);
-      color: var(--text-main);
-      border-radius: 50%;
-      width: 20px;
-      height: 20px;
-      display: none;
-      align-items: center;
-      justify-content: center;
-      font-size: 11px;
+
+    .layout {
+      max-width: 1600px;
+      margin: 24px auto;
+      padding: 0 24px 60px;
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr) 430px;
+      gap: 24px;
+      align-items: start;
     }
 
-    /* Actions */
-    .header-controls {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-    .zalo-hotline-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 9px 18px;
-      border-radius: 10px;
-      background: linear-gradient(135deg, #059669 0%, #10b981 100%);
-      color: #fff;
-      font-weight: 800;
-      font-size: 13px;
-      box-shadow: var(--glow-green);
-      transition: all 0.2s ease;
-      font-family: 'Orbitron', sans-serif;
-      letter-spacing: 0.03em;
-    }
-    .zalo-hotline-btn:hover {
-      transform: translateY(-2px);
-      filter: brightness(1.15);
-    }
-    .theme-cyber-btn {
-      width: 42px;
-      height: 42px;
-      border-radius: 10px;
-      background: var(--bg-console);
-      border: 1px solid var(--border-neon);
-      color: var(--text-main);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 18px;
-      transition: all 0.2s ease;
-    }
-    .sound-toggle-btn {
-      width: 42px;
-      height: 42px;
-      border-radius: 10px;
-      background: var(--bg-console);
-      border: 1px solid var(--border-neon);
-      color: var(--neon-cyan);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 18px;
-      transition: all 0.2s ease;
-    }
-
-    /* Digital Marquee Ticker */
-    .digital-ticker-bar {
-      background: #000000;
-      color: var(--neon-cyan);
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 12px;
-      padding: 6px 20px;
-      border-bottom: 1px solid var(--border-machine);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      overflow: hidden;
-      white-space: nowrap;
-    }
-    .ticker-left {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .ticker-left .blink-tag {
-      background: #dc2626;
-      color: #fff;
-      font-weight: 800;
-      padding: 1px 6px;
-      border-radius: 4px;
-      font-size: 10px;
-      letter-spacing: 0.05em;
-    }
-
-    /* ========================================================================== */
-    /* 3. VENDING MACHINE DISPENSER SHELF (SERVICE ICONS BUTTONS)                  */
-    /* ========================================================================== */
-    .vending-shelf-section {
-      max-width: 1560px;
-      margin: 20px auto 10px;
-      padding: 0 24px;
-    }
-    .shelf-title {
-      font-family: 'Orbitron', monospace;
-      font-size: 13px;
-      font-weight: 800;
-      letter-spacing: 0.08em;
-      color: var(--text-muted);
-      margin-bottom: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .shelf-title span b {
-      color: var(--neon-cyan);
-    }
-
-    .vending-shelf {
-      display: flex;
-      gap: 12px;
-      overflow-x: auto;
-      padding: 6px 4px 14px;
+    /* CỘT 1: Danh mục trên Desktop */
+    .col-cats {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      padding: 16px 12px;
+      box-shadow: var(--shadow-sm);
+      position: sticky;
+      top: 96px;
+      max-height: calc(100vh - 120px);
+      overflow-y: auto;
       scrollbar-width: thin;
     }
-    
-    /* Vending Machine Push Button */
-    .vending-slot-btn {
-      flex: 0 0 auto;
-      min-width: 135px;
-      background: var(--bg-slot);
-      border: 1.5px solid var(--border-machine);
-      border-radius: 14px;
-      padding: 12px 14px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 8px;
-      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-      position: relative;
-      cursor: pointer;
+    .desktop-cat-title {
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      padding: 0 8px 12px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 10px;
+      font-weight: 700;
+      display: block;
     }
-    .vending-slot-btn:hover {
-      transform: translateY(-4px);
-      border-color: var(--neon-cyan);
-      box-shadow: var(--glow-cyan);
-      background: var(--bg-slot-hover);
-    }
-    .vending-slot-btn.active {
-      border-color: var(--neon-cyan);
-      background: linear-gradient(180deg, rgba(6, 182, 212, 0.2) 0%, var(--bg-slot) 100%);
-      box-shadow: var(--glow-cyan);
-      transform: translateY(-4px);
-    }
-    .vending-slot-btn.active::after {
-      content: "SELECTED";
-      position: absolute;
-      bottom: -8px;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 8.5px;
-      font-weight: 800;
-      background: var(--neon-cyan);
-      color: #000;
-      padding: 1px 6px;
-      border-radius: 4px;
-      letter-spacing: 0.05em;
+    .mobile-cat-toggle {
+      display: none;
     }
 
-    .slot-icon-box {
-      width: 42px;
-      height: 42px;
-      border-radius: 10px;
-      background: #ffffff;
-      padding: 5px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .slot-icon-box img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-    }
-    .slot-name {
-      font-size: 13px;
-      font-weight: 700;
-      color: var(--text-main);
-      text-align: center;
-      white-space: nowrap;
-    }
-    .slot-count-lcd {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 10.5px;
-      font-weight: 700;
-      color: var(--neon-green);
-      background: var(--bg-console);
-      border: 1px solid var(--border-machine);
-      padding: 2px 7px;
-      border-radius: 6px;
-    }
-
-    /* ========================================================================== */
-    /* 4. SPEED CONTROLS & STATUS BAR                                             */
-    /* ========================================================================== */
-    .filter-bar {
-      max-width: 1560px;
-      margin: 10px auto 16px;
-      padding: 0 24px;
+    .cat-item {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 8px;
+      border: none;
+      background: transparent;
+      color: var(--text-main);
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-bottom: 4px;
+      transition: all 0.15s ease;
+      text-align: left;
     }
-    .filter-category-header {
+    .cat-item:hover { background: #f1f5f9; transform: translateX(2px); }
+    .cat-item.active { background: #0f172a; color: #fff; }
+    .cat-item .left {
       display: flex;
       align-items: center;
       gap: 10px;
+      min-width: 0;
     }
-    .filter-category-header h2 {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 20px;
-      font-weight: 900;
-      color: var(--text-main);
-      letter-spacing: -0.01em;
-    }
-    .filter-category-header .dispense-badge {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 12px;
-      background: rgba(6, 182, 212, 0.15);
-      color: var(--neon-cyan);
-      border: 1px solid var(--neon-cyan);
-      padding: 3px 10px;
-      border-radius: 20px;
-    }
-
-    .filter-chips {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-    .chip-btn {
-      background: var(--bg-slot);
-      border: 1px solid var(--border-machine);
-      color: var(--text-muted);
-      padding: 6px 14px;
-      border-radius: 8px;
-      font-size: 12px;
-      font-weight: 700;
-      font-family: 'JetBrains Mono', monospace;
-      transition: all 0.2s ease;
-    }
-    .chip-btn:hover, .chip-btn.active {
-      border-color: var(--neon-cyan);
-      color: var(--text-main);
-      background: var(--bg-slot-hover);
-      box-shadow: 0 2px 8px rgba(6, 182, 212, 0.2);
-    }
-
-    /* ========================================================================== */
-    /* 5. CYBER KEYCARD DISPENSER MATRIX (PRODUCT GRID)                          */
-    /* ========================================================================== */
-    .keycard-grid-container {
-      max-width: 1560px;
-      margin: 0 auto 50px;
-      padding: 0 24px;
-      flex: 1;
-      width: 100%;
-    }
-
-    .keycard-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-      gap: 20px;
-    }
-
-    /* THE FLIPPABLE 3D KEYCARD */
-    .keycard-wrapper {
-      perspective: 1200px;
-      min-height: 250px;
-    }
-
-    .keycard-inner {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      border-radius: 16px;
-      transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-      transform-style: preserve-3d;
-    }
-    .keycard-wrapper.flipped .keycard-inner {
-      transform: rotateY(180deg);
-    }
-
-    /* FRONT & BACK SIDES */
-    .keycard-front, .keycard-back {
-      position: absolute;
-      inset: 0;
-      backface-visibility: hidden;
-      border-radius: 16px;
-      background: var(--card-gradient);
-      border: 1.5px solid var(--border-machine);
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-      transition: border-color 0.2s ease, box-shadow 0.2s ease;
-    }
-    .keycard-wrapper:hover .keycard-front {
-      border-color: var(--neon-cyan);
-      box-shadow: var(--glow-cyan);
-    }
-
-    /* FRONT SIDE DETAILS */
-    .keycard-chip-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 12px;
-    }
-    .hologram-chip {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .sim-chip {
-      width: 28px;
-      height: 22px;
+    .cat-item img {
+      width: 20px;
+      height: 20px;
       border-radius: 4px;
-      background: linear-gradient(135deg, #d4af37 0%, #aa7c11 50%, #ffd700 100%);
-      border: 1px solid #7a5500;
-      position: relative;
+      object-fit: cover;
+      flex-shrink: 0;
     }
-    .sim-chip::after {
-      content: "";
-      position: absolute;
-      inset: 3px;
-      border: 1px solid rgba(0,0,0,0.3);
-      border-radius: 2px;
-    }
-    .keycard-serial {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 10.5px;
-      color: var(--neon-cyan);
-      font-weight: 700;
-      letter-spacing: 0.05em;
-    }
-
-    .stock-indicator {
-      font-family: 'JetBrains Mono', monospace;
+    .cat-item .badge-count {
       font-size: 11px;
-      font-weight: 700;
-      padding: 3px 8px;
-      border-radius: 6px;
+      background: #f1f5f9;
+      color: var(--text-muted);
+      padding: 2px 7px;
+      border-radius: 99px;
     }
-    .stock-indicator.in-stock {
-      background: rgba(16, 185, 129, 0.15);
-      color: var(--neon-green);
-      border: 1px solid var(--neon-green);
-    }
-    .stock-indicator.out-stock {
-      background: rgba(239, 68, 68, 0.15);
-      color: var(--neon-red);
-      border: 1px solid var(--neon-red);
+    .cat-item.active .badge-count {
+      background: rgba(255,255,255,0.2);
+      color: #fff;
     }
 
-    .keycard-body {
-      flex: 1;
-      margin-bottom: 16px;
+    /* CỘT 2: Danh sách sản phẩm Desktop */
+    .col-products { min-width: 0; }
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      padding: 0 4px;
     }
-    .keycard-title {
-      font-size: 16px;
+    .section-header h2 { font-size: 18px; font-weight: 800; color: var(--text-main); }
+    .section-header span { font-size: 13px; color: var(--text-muted); font-weight: 600; }
+
+    .plan-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      margin-bottom: 12px;
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.2s ease;
+      overflow: hidden;
+    }
+    .plan-card:hover {
+      border-color: #94a3b8;
+      box-shadow: var(--shadow-md);
+    }
+    .plan-card.selected {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.25);
+    }
+
+    .plan-card-body {
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+    .plan-card .p-left { flex: 1; min-width: 0; }
+    .plan-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.4;
+    }
+    .plan-sub {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 8px;
+    }
+    .tag {
+      font-size: 11.5px;
+      font-weight: 600;
+      padding: 2.5px 8px;
+      border-radius: 6px;
+      background: #f1f5f9;
+      color: #475569;
+    }
+    .tag.in-stock {
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      border: 1px solid #a7f3d0;
+    }
+    .tag.out-stock {
+      background: #fee2e2;
+      color: #b91c1c;
+      border: 1px solid #fecaca;
+    }
+
+    .plan-card .p-right { text-align: right; flex-shrink: 0; }
+    .plan-price { font-size: 18px; font-weight: 800; color: var(--primary-dark); }
+    .view-btn {
+      margin-top: 5px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 4px;
+    }
+    .plan-card.selected .view-btn { color: var(--primary-dark); }
+
+    .plan-accordion { display: none; }
+
+    /* CỘT 3: Chi tiết mô tả Desktop */
+    .col-detail {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      padding: 24px;
+      box-shadow: var(--shadow-sm);
+      position: sticky;
+      top: 96px;
+    }
+    .detail-title {
+      font-size: 18px;
       font-weight: 800;
       color: var(--text-main);
       line-height: 1.4;
-      margin-bottom: 10px;
     }
-    .keycard-specs-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
-    .cyber-pill {
-      font-size: 11px;
-      font-weight: 700;
-      font-family: 'JetBrains Mono', monospace;
-      padding: 3px 8px;
-      border-radius: 6px;
-      background: var(--bg-slot);
-      color: var(--text-muted);
-      border: 1px solid var(--border-machine);
-    }
-    .cyber-pill.duration {
-      color: var(--neon-cyan);
-      border-color: rgba(6, 182, 212, 0.3);
-    }
-    .cyber-pill.warranty {
-      color: var(--neon-purple);
-      border-color: rgba(168, 85, 247, 0.3);
-    }
-
-    /* Price LED Display */
-    .keycard-price-lcd {
-      background: var(--bg-console);
-      border: 1px solid var(--border-machine);
+    .detail-price-box {
+      margin: 14px 0 18px;
+      padding: 14px 18px;
+      background: #f8fafc;
       border-radius: 10px;
-      padding: 10px 14px;
+      border: 1px solid var(--border);
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 14px;
     }
-    .price-lcd-label {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 10.5px;
-      color: var(--text-muted);
-      text-transform: uppercase;
-    }
-    .price-lcd-val {
-      font-family: 'Orbitron', monospace;
-      font-size: 21px;
-      font-weight: 900;
-      color: var(--neon-green);
-      letter-spacing: 0.03em;
-      text-shadow: 0 0 10px rgba(16, 185, 129, 0.4);
-    }
-
-    /* Card Action Buttons */
-    .keycard-actions {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 8px;
-    }
-    .btn-dispense-zalo {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      background: linear-gradient(135deg, #059669 0%, #10b981 100%);
-      color: #ffffff;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 13px;
-      font-weight: 800;
-      padding: 11px 16px;
-      border-radius: 10px;
-      box-shadow: var(--glow-green);
-      transition: all 0.2s ease;
-      letter-spacing: 0.04em;
-    }
-    .btn-dispense-zalo:hover {
-      transform: translateY(-1px);
-      filter: brightness(1.15);
-    }
-    .btn-flip-info {
-      width: 44px;
-      border-radius: 10px;
-      background: var(--bg-slot);
-      border: 1px solid var(--border-neon);
-      color: var(--neon-cyan);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 16px;
-      transition: all 0.2s ease;
-    }
-    .btn-flip-info:hover {
-      background: rgba(6, 182, 212, 0.2);
-    }
-
-    /* BACK SIDE (DETAILS & SCANNER) */
-    .keycard-back {
-      transform: rotateY(180deg);
-      border-color: var(--neon-purple);
-      background: var(--bg-machine);
-    }
-    .back-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 1px solid var(--border-machine);
-      padding-bottom: 8px;
-      margin-bottom: 10px;
-    }
-    .back-header-title {
-      font-family: 'Orbitron', monospace;
-      font-size: 12px;
-      color: var(--neon-purple);
-      font-weight: 800;
-    }
-    .btn-close-flip {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 11px;
-      color: var(--text-muted);
-      background: var(--bg-slot);
-      border: 1px solid var(--border-machine);
-      padding: 3px 8px;
-      border-radius: 6px;
-    }
-    .back-desc-scroll {
-      flex: 1;
-      overflow-y: auto;
+    .detail-price-val { font-size: 22px; font-weight: 800; color: var(--primary-dark); }
+    .detail-stock-badge {
       font-size: 12.5px;
-      line-height: 1.6;
-      color: var(--text-main);
-      background: var(--bg-console);
-      border: 1px solid var(--border-machine);
-      border-radius: 8px;
-      padding: 10px 12px;
-      margin-bottom: 12px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+    .detail-stock-badge.in-stock { background: #ecfdf5; color: #059669; border: 1px solid #a7f3d0; }
+    .detail-stock-badge.out-stock { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
+
+    .desc-wrapper { margin-bottom: 20px; }
+    .desc-label {
+      font-size: 12.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #2563eb;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .desc-box {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 18px;
+      font-size: 13.5px;
+      line-height: 1.8;
+      color: #334155;
       white-space: pre-line;
       word-break: break-word;
-      font-family: 'JetBrains Mono', monospace;
+      max-height: 420px;
+      overflow-y: auto;
     }
-    .back-desc-scroll a {
-      color: var(--neon-cyan);
+    .desc-box a.desc-link {
+      color: #0284c7;
+      font-weight: 700;
       text-decoration: underline;
+      word-break: break-all;
     }
 
-    /* ========================================================================== */
-    /* 6. VENDING FOOTER & DISPENSER TRAY                                        */
-    /* ========================================================================== */
-    .vending-footer {
-      background: #03060c;
-      border-top: 2px solid var(--border-machine);
-      padding: 30px 24px 20px;
-      margin-top: auto;
-      color: #64748b;
-    }
-    .footer-content {
-      max-width: 1560px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 16px;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 12px;
-    }
-    .footer-specs {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-    .footer-specs span b {
-      color: var(--neon-cyan);
-    }
-
-    /* Floating Zalo Button for Mobile */
-    .mobile-float-zalo {
-      display: none;
-      position: fixed;
-      right: 18px;
-      bottom: 20px;
-      z-index: 99;
-      background: linear-gradient(135deg, #059669 0%, #10b981 100%);
-      color: #ffffff;
-      padding: 12px 20px;
-      border-radius: 30px;
-      font-weight: 800;
-      font-family: 'Orbitron', sans-serif;
+    .spec-list {
+      margin-bottom: 22px;
       font-size: 13px;
-      box-shadow: 0 4px 20px rgba(16, 185, 129, 0.5);
-      border: 1px solid rgba(255,255,255,0.3);
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
     }
+    .spec-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    .spec-row span:first-child { color: var(--text-muted); }
+    .spec-row span:last-child { font-weight: 600; color: var(--text-main); }
 
-    /* Responsive */
-    @media (max-width: 768px) {
-      .header-inner { padding: 10px 14px; flex-wrap: wrap; }
-      .brand-titles h1 { font-size: 14px; }
-      .radar-search { order: 3; max-width: 100%; width: 100%; }
-      .header-controls .zalo-hotline-btn { display: none; }
-      .vending-shelf-section { padding: 0 14px; }
-      .keycard-grid-container { padding: 0 14px; }
-      .keycard-grid { grid-template-columns: 1fr; }
-      .mobile-float-zalo { display: flex; align-items: center; gap: 8px; }
+    .btn-buy-zalo {
+      display: block;
+      width: 100%;
+      background: var(--primary-dark);
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 700;
+      font-size: 15px;
+      padding: 14px;
+      border-radius: 10px;
+      box-shadow: 0 4px 14px rgba(5, 150, 105, 0.25);
+      transition: all 0.2s ease;
+    }
+    .btn-buy-zalo:hover { background: #047857; }
+
+    /* ============================================================ */
+    /* 2. GIAO DIỆN RIÊNG CHO ĐIỆN THOẠI (THU / MỞ DANH MỤC MOBILE) */
+    /* ============================================================ */
+    @media(max-width: 768px) {
+      .topbar {
+        padding: 8px 12px;
+        position: sticky;
+        top: 0;
+      }
+      .topbar-content {
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+      }
+      .brand { flex: 1; min-width: 0; }
+      .brand h1 {
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .brand p { display: none; }
+
+      .search-box {
+        max-width: 150px;
+        min-width: 130px;
+      }
+      .search-box input {
+        padding: 6px 10px 6px 28px;
+        font-size: 12px;
+        border-radius: 6px;
+      }
+      .search-box svg { left: 8px; width: 12px; height: 12px; }
+
+      .layout {
+        grid-template-columns: 1fr;
+        padding: 0 10px 30px;
+        margin: 8px auto;
+        gap: 8px;
+      }
+
+      /* Khung danh mục trên Mobile */
+      .col-cats {
+        position: sticky;
+        top: 48px;
+        z-index: 40;
+        max-height: none;
+        overflow: visible;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+      }
+      .desktop-cat-title { display: none !important; }
+
+      .mobile-cat-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #ffffff;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 8px 12px;
+        cursor: pointer;
+        font-size: 13px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+      }
+      .m-cat-left {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .m-cat-left strong {
+        color: var(--primary-dark);
+        font-weight: 800;
+        font-size: 13.5px;
+      }
+      .m-toggle-icon {
+        font-size: 11px;
+        font-weight: 700;
+        color: var(--text-muted);
+        background: #f1f5f9;
+        padding: 3px 8px;
+        border-radius: 6px;
+      }
+
+      #catsContainer {
+        display: none;
+        margin-top: 6px;
+        background: #ffffff;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 8px;
+        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+        max-height: 240px;
+        overflow-y: auto;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+      #catsContainer.show-mobile {
+        display: flex !important;
+        animation: dropDown 0.2s ease;
+      }
+
+      @keyframes dropDown {
+        from { opacity: 0; transform: translateY(-4px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      .cat-item {
+        width: auto;
+        padding: 5px 11px;
+        border-radius: 6px;
+        background: #f8fafc;
+        border: 1px solid var(--border);
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 0;
+      }
+      .cat-item.active {
+        background: #0f172a;
+        color: #fff;
+        border-color: #0f172a;
+      }
+      .cat-item img { display: inline-block; width: 14px; height: 14px; }
+      .cat-item .badge-count { display: none; }
+
+      .section-header {
+        margin-bottom: 6px;
+        padding: 0 2px;
+      }
+      .section-header h2 { font-size: 14px; font-weight: 700; }
+      .section-header span { font-size: 11.5px; }
+
+      .plan-card {
+        margin-bottom: 6px;
+        border-radius: 8px;
+      }
+      .plan-card-body {
+        padding: 9px 12px;
+        gap: 10px;
+        align-items: center;
+      }
+      .plan-title {
+        font-size: 13.5px;
+        line-height: 1.35;
+        font-weight: 600;
+      }
+      .plan-sub { display: flex; gap: 5px; margin-top: 4px; }
+      .tag { font-size: 10px; padding: 1.5px 5px; border-radius: 4px; }
+
+      .plan-card .p-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+      }
+      .plan-price { font-size: 14.5px; font-weight: 800; }
+      .view-btn {
+        margin-top: 2px;
+        font-size: 10.5px;
+        color: var(--primary-dark);
+      }
+
+      .col-detail { display: none !important; }
+
+      .plan-accordion {
+        display: none;
+        border-top: 1px dashed var(--border);
+        padding: 12px 14px;
+        background: #fbfcfe;
+      }
+      .plan-card.active-mobile .plan-accordion { display: block; }
+      .plan-accordion .desc-wrapper { margin-bottom: 10px; }
+      .plan-accordion .desc-label { font-size: 11px; margin-bottom: 6px; }
+      .plan-accordion .desc-box {
+        padding: 10px 12px;
+        font-size: 12.5px;
+        line-height: 1.6;
+        max-height: none;
+      }
+      .plan-accordion .spec-list {
+        margin-bottom: 12px;
+        font-size: 12px;
+        padding-top: 8px;
+      }
+      .plan-accordion .spec-row { padding: 4px 0; }
+      .plan-accordion .btn-buy-zalo {
+        padding: 10px;
+        font-size: 13.5px;
+        border-radius: 8px;
+      }
     }
   </style>
 </head>
 <body>
 
-<!-- 1. VENDING MACHINE TOP CONSOLE -->
-<header class="vending-header">
-  <div class="header-inner">
-    <div class="brand-arcade">
-      <div class="arcade-coin-slot">🕹️</div>
-      <div class="brand-titles">
-        <h1>CYBER-VENDING // SHOP</h1>
-        <div class="glitch-sub">
-          <span class="led-blink"></span>
-          <span>DISPENSER ONLINE · PHAN NGÔ QUỐC BẢO</span>
-        </div>
-      </div>
+<header class="topbar">
+  <div class="topbar-content">
+    <div class="brand">
+      <h1>⚡ BẢNG GIÁ DỊCH VỤ SỐ</h1>
+      <p>Đặt mua qua Zalo: <b>0373 996 379</b> · Hỗ trợ 8:00 – 23:00</p>
     </div>
-
-    <!-- RADAR SEARCH -->
-    <div class="radar-search">
-      <svg class="icon-radar" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-      <input id="searchInp" placeholder="Quét radar: Tìm ChatGPT, Canva, CapCut, Claude..." autocomplete="off" />
-      <button class="clear-btn" id="clearBtn" onclick="clearSearch()">✕</button>
-    </div>
-
-    <!-- CONTROLS -->
-    <div class="header-controls">
-      <a href="https://zalo.me/0373996379" target="_blank" rel="noreferrer" class="zalo-hotline-btn">
-        <span>⚡ ZALO: 0373 996 379</span>
-      </a>
-      <button class="sound-toggle-btn" id="soundBtn" onclick="toggleAudio()" title="Bật/Tắt âm thanh tương tác">
-        🔊
-      </button>
-      <button class="theme-cyber-btn" id="themeBtn" onclick="toggleTheme()" title="Đổi màu giao diện Sáng / Tối">
-        🌙
-      </button>
-    </div>
-  </div>
-
-  <!-- DIGITAL TICKER -->
-  <div class="digital-ticker-bar">
-    <div class="ticker-left">
-      <span class="blink-tag">LIVE FEED</span>
-      <span>Tự động kích hoạt 24/7 · Bảo hành 1 đổi 1 full thời gian · Cấp tài khoản sau 3 - 5 phút</span>
-    </div>
-    <div style="color:var(--neon-green)">
-      <span>KHO SẴN SÀNG: <strong id="totalStockLcd">162 GÓI</strong></span>
+    <div class="search-box">
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      <input id="searchInp" placeholder="Tìm nhanh dịch vụ..." autocomplete="off" />
     </div>
   </div>
 </header>
 
-<!-- 2. VENDING MACHINE SHELF (SERVICE SELECTORS) -->
-<section class="vending-shelf-section">
-  <div class="shelf-title">
-    <span>KỆ HÀNG TỰ ĐỘNG // <b>CHỌN DỊCH VỤ ĐỂ MỞ KHAY:</b></span>
-    <span id="shelfTotalBadge">15 DỊCH VỤ</span>
-  </div>
-  <div class="vending-shelf" id="vendingShelf">
-    <!-- Populated by JS -->
-  </div>
-</section>
+<main class="layout">
+  <!-- CỘT 1: DANH MỤC -->
+  <aside class="col-cats">
+    <h2 class="desktop-cat-title">Danh mục dịch vụ</h2>
 
-<!-- 3. SPEED CONTROLS & FILTER -->
-<div class="filter-bar">
-  <div class="filter-category-header">
-    <h2 id="activeCatName">Đang tải khay hàng...</h2>
-    <span class="dispense-badge" id="activeCatCount">0 GÓI SẴN CÓ</span>
-  </div>
+    <div class="mobile-cat-toggle" onclick="toggleMobileCats()">
+      <div class="m-cat-left">
+        <span>📂 Mục:</span>
+        <strong id="mActiveCatName">Đang tải...</strong>
+      </div>
+      <span class="m-toggle-icon" id="mToggleIcon">Đổi mục ▾</span>
+    </div>
 
-  <div class="filter-chips">
-    <button class="chip-btn active" onclick="setSortMode('all')">TẤT CẢ</button>
-    <button class="chip-btn" onclick="setSortMode('price_asc')">GIÁ THẤP ➔ CAO</button>
-    <button class="chip-btn" onclick="setSortMode('price_desc')">GIÁ CAO ➔ THẤP</button>
-    <button class="chip-btn" onclick="setSortMode('stock_only')">CHỈ GÓI CÒN HÀNG</button>
-  </div>
-</div>
+    <div id="catsContainer"></div>
+  </aside>
 
-<!-- 4. KEYCARD DISPENSER MATRIX -->
-<main class="keycard-grid-container">
-  <div class="keycard-grid" id="keycardGrid">
-    <!-- Render keycards -->
-  </div>
+  <!-- CỘT 2: DANH SÁCH SẢN PHẨM -->
+  <section class="col-products">
+    <div class="section-header">
+      <h2 id="currentCatTitle">...</h2>
+      <span id="currentCatCount">0 gói</span>
+    </div>
+    <div id="plansContainer"></div>
+  </section>
+
+  <!-- CỘT 3: CHI TIẾT SẢN PHẨM (MÁY TÍNH) -->
+  <aside class="col-detail" id="detailPanel">
+    <div id="detailContent">
+      <div style="color:var(--text-muted); text-align:center; padding:45px 0; font-size:14px;">
+        Chọn một sản phẩm để xem mô tả chi tiết & đặt mua
+      </div>
+    </div>
+  </aside>
 </main>
 
-<!-- 5. FOOTER & SPECS -->
-<footer class="vending-footer">
-  <div class="footer-content">
-    <div>
-      © 2026 CYBER-VENDING MACHINE · Quản trị bởi <strong>Phan Ngô Quốc Bảo</strong>.
-    </div>
-    <div class="footer-specs">
-      <span>Zalo: <b>0373 996 379</b></span>
-      <span>Thời gian hỗ trợ: <b>8:00 - 23:30</b></span>
-      <span>Giao thức: <b>Instant Webhooks</b></span>
-    </div>
-  </div>
-</footer>
-
-<!-- FLOATING ZALO FOR MOBILE -->
-<a href="https://zalo.me/0373996379" target="_blank" rel="noreferrer" class="mobile-float-zalo">
-  <span>💬 MUA QUA ZALO</span>
-</a>
-
-<!-- ========================================================================== -->
-<!-- 6. CYBER JAVASCRIPT ENGINE                                                 -->
-<!-- ========================================================================== -->
 <script>
 var ZALO = '0373996379';
-var D = {}, curCat = '', kw = '', sortMode = 'all';
-var audioEnabled = true;
+var D = {}, curCat = '', selPlan = null, kw = '';
 
-// LOGOS
 var LOGO = {
   'youtube': 'https://www.google.com/s2/favicons?domain=youtube.com&sz=64',
   'chatgpt': 'https://www.google.com/s2/favicons?domain=openai.com&sz=64',
@@ -924,318 +642,311 @@ var LOGO = {
   'gmail': 'https://www.google.com/s2/favicons?domain=gmail.com&sz=64'
 };
 
-// SYNTHESIZED CYBER AUDIO EFFECTS (No external mp3 required)
-const AudioContext = window.AudioContext || window.webkitAudioContext;
-var ctx = null;
-
-function playCyberBeep(freq = 880, type = 'sine', duration = 0.08) {
-  if (!audioEnabled) return;
-  try {
-    if (!ctx) ctx = new AudioContext();
-    if (ctx.state === 'suspended') ctx.resume();
-    const osc = ctx.createOscillator();
-    const gain = ctx.createGain();
-    osc.type = type;
-    osc.frequency.setValueAtTime(freq, ctx.currentTime);
-    gain.gain.setValueAtTime(0.05, ctx.currentTime);
-    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + duration);
-    osc.connect(gain);
-    gain.connect(ctx.destination);
-    osc.start();
-    osc.stop(ctx.currentTime + duration);
-  } catch(e) {}
-}
-
-function playFlipSound() {
-  playCyberBeep(440, 'triangle', 0.06);
-  setTimeout(() => playCyberBeep(880, 'sine', 0.08), 50);
-}
-
-function toggleAudio() {
-  audioEnabled = !audioEnabled;
-  document.getElementById('soundBtn').textContent = audioEnabled ? '🔊' : '🔇';
-  if (audioEnabled) playCyberBeep(1200, 'sine', 0.1);
-}
-
-// THEME TOGGLE
-function toggleTheme() {
-  const cur = document.documentElement.getAttribute('data-theme') || 'dark';
-  const next = cur === 'dark' ? 'light' : 'dark';
-  document.documentElement.setAttribute('data-theme', next);
-  localStorage.setItem('vending_theme', next);
-  document.getElementById('themeBtn').textContent = next === 'dark' ? '🌙' : '☀️';
-  playCyberBeep(600, 'sine', 0.05);
-}
-
-function loadSavedTheme() {
-  const saved = localStorage.getItem('vending_theme') || 'dark';
-  document.documentElement.setAttribute('data-theme', saved);
-  document.getElementById('themeBtn').textContent = saved === 'dark' ? '🌙' : '☀️';
-}
-
-// MONEY FORMATTER
 function money(n) {
   n = Number(n || 0);
-  return n === 0 ? 'LIÊN HỆ' : n.toLocaleString('vi-VN') + 'đ';
+  return n === 0 ? 'Liên hệ' : n.toLocaleString('vi-VN') + 'đ';
 }
 
-// URL FORMATTER
-function formatLinks(text) {
-  if (!text) return 'Chưa có thông tin mô tả chi tiết.';
-  var safe = text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+function getStockInfo(p) {
+  var s = p.stock;
+  if (s === -1 || s === '∞' || s === '-1') {
+    return { tag: 'Còn hàng (∞)', isOut: false, badgeText: '✓ Sẵn hàng kích hoạt (∞)' };
+  }
+  var num = Number(s || 0);
+  if (num > 0) {
+    return { tag: 'Còn ' + num, isOut: false, badgeText: '✓ Còn ' + num + ' tài khoản' };
+  }
+  return { tag: 'Tạm hết', isOut: true, badgeText: '⚠ Tạm hết hàng' };
+}
+
+function formatDetail(text) {
+  if (!text) return 'Sản phẩm đang được cập nhật thông tin mô tả chi tiết.';
+  var safe = text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+
   var urlRegex = /((?:https?:\/\/|www\.)[^\s]+|(?:[a-zA-Z0-9-]+\.)+(?:com|net|org|site|xyz|top|vip|buzz|dev|live|me|be|co|io|vn|app|edu)(?:\/[^\s]*)?)/gi;
+
   return safe.replace(urlRegex, function(url) {
     var cleanUrl = url.replace(/[.,;:)\]]+$/, '');
     var trailing = url.slice(cleanUrl.length);
     var href = cleanUrl;
-    if (!/^https?:\/\//i.test(href)) href = 'https://' + href;
-    return `<a href="${href}" target="_blank" rel="noopener noreferrer">${cleanUrl}</a>${trailing}`;
+    if (!/^https?:\/\//i.test(href)) {
+      href = 'https://' + href;
+    }
+    return `<a href="${href}" target="_blank" rel="noopener noreferrer" class="desc-link">${cleanUrl}</a>${trailing}`;
   });
 }
 
-// LOAD DATA FROM GITHUB
+function toggleMobileCats() {
+  var box = document.getElementById('catsContainer');
+  var icon = document.getElementById('mToggleIcon');
+  if (!box) return;
+  var isOpen = box.classList.toggle('show-mobile');
+  if (icon) {
+    icon.textContent = isOpen ? 'Đóng ▴' : 'Đổi mục ▾';
+  }
+}
+
+function closeMobileCats() {
+  var box = document.getElementById('catsContainer');
+  var icon = document.getElementById('mToggleIcon');
+  if (box) box.classList.remove('show-mobile');
+  if (icon) icon.textContent = 'Đổi mục ▾';
+}
+
 function loadData() {
-  fetch('./data/services.json?t=' + Date.now(), { cache: 'no-store' })
+  fetch('./data/services.json?t=' + new Date().getTime(), { cache: 'no-store' })
     .then(r => r.json())
     .then(data => {
       D = data || {};
-      const keys = Object.keys(D).filter(k => !k.startsWith('_'));
+      var keys = Object.keys(D);
       if (keys.length) {
         curCat = keys[0];
+        var visiblePlans = (D[curCat].plans || []).filter(p => !p.hidden);
+        if (visiblePlans.length) {
+          var sortedFirst = visiblePlans.slice().sort((a,b) => (a.name||'').localeCompare(b.name||'', 'vi', { numeric: true }));
+          selPlan = sortedFirst[0];
+        } else {
+          selPlan = null;
+        }
       }
-      renderShelf();
-      renderKeycards();
+      render();
     })
     .catch(() => {
-      document.getElementById('keycardGrid').innerHTML = '<div style="padding:40px;text-align:center;color:#ef4444;font-family:Orbitron;">ERR: KHÔNG THỂ KẾT NỐI MÁY CHỦ DATA. VUI LÒNG F5 LẠI!</div>';
+      document.getElementById('plansContainer').innerHTML = '<div style="padding:40px;text-align:center;color:#ef4444;font-size:14px;">Chưa tải được dữ liệu data/services.json. Vui lòng kiểm tra lại file!</div>';
     });
 }
 
-// RENDER VENDING SHELF (SERVICE SELECTORS)
-function renderShelf() {
-  const shelf = document.getElementById('vendingShelf');
-  shelf.innerHTML = '';
+function render() {
+  renderCategories();
+  renderPlans();
+  renderDetail();
+}
 
-  const keys = Object.keys(D).filter(k => !k.startsWith('_'));
-  let totalPlansCount = 0;
+function renderCategories() {
+  var c = document.getElementById('catsContainer');
+  c.innerHTML = '';
 
-  keys.forEach(k => {
-    const it = D[k];
-    const visiblePlans = (it.plans || []).filter(p => !p.hidden);
-    totalPlansCount += visiblePlans.length;
+  var mName = document.getElementById('mActiveCatName');
+  if (mName && D[curCat]) {
+    mName.textContent = D[curCat].name;
+  }
 
-    const btn = document.createElement('div');
-    btn.className = 'vending-slot-btn' + (k === curCat && !kw ? ' active' : '');
+  Object.keys(D).forEach(k => {
+    var it = D[k];
+    var btn = document.createElement('button');
+    btn.className = 'cat-item' + (k === curCat && !kw ? ' active' : '');
+    var logoUrl = it.logo || LOGO[k] || '';
     
-    const logoUrl = it.logo || LOGO[k] || 'https://www.google.com/s2/favicons?domain=google.com&sz=64';
+    var imgHtml = logoUrl 
+      ? `<img src="${logoUrl}" onerror="this.style.display='none'" />` 
+      : `<span style="font-size:12px;width:16px;text-align:center">❖</span>`;
 
     btn.innerHTML = `
-      <div class="slot-icon-box">
-        <img src="${logoUrl}" onerror="this.src='https://www.google.com/s2/favicons?domain=google.com&sz=64'" />
-      </div>
-      <div class="slot-name">${it.name}</div>
-      <div class="slot-count-lcd">${visiblePlans.length} GÓI</div>
+      <div class="left">${imgHtml}<span>${it.name}</span></div>
+      <span class="badge-count">${(it.plans || []).filter(function(p){ return !p.hidden; }).length}</span>
     `;
 
     btn.onclick = () => {
-      playCyberBeep(700, 'triangle', 0.06);
       kw = '';
       document.getElementById('searchInp').value = '';
-      document.getElementById('clearBtn').style.display = 'none';
       curCat = k;
-      document.querySelectorAll('.vending-slot-btn').forEach(el => el.classList.remove('active'));
-      btn.classList.add('active');
-      renderKeycards();
+      var visibleK = (D[k].plans || []).filter(p => !p.hidden);
+      if (visibleK.length) {
+        var sorted = visibleK.slice().sort((a,b) => (a.name||'').localeCompare(b.name||'', 'vi', { numeric: true }));
+        selPlan = sorted[0];
+      } else {
+        selPlan = null;
+      }
+      closeMobileCats();
+      render();
     };
-
-    shelf.appendChild(btn);
+    c.appendChild(btn);
   });
-
-  document.getElementById('totalStockLcd').textContent = `${totalPlansCount} GÓI`;
 }
 
-// RENDER KEYCARDS MATRIX
-function renderKeycards() {
-  const grid = document.getElementById('keycardGrid');
-  grid.innerHTML = '';
+function renderPlans() {
+  var container = document.getElementById('plansContainer');
+  container.innerHTML = '';
 
-  let list = [];
-
-  // SEARCH MODE
   if (kw) {
-    Object.keys(D).filter(k => !k.startsWith('_')).forEach(k => {
-      (D[k].plans || []).filter(p => !p.hidden).forEach((p, idx) => {
-        const text = ((p.name || '') + ' ' + (p.detail || '') + ' ' + (p.source || '')).toLowerCase();
-        if (text.indexOf(kw) !== -1) {
-          list.push({ catKey: k, catName: D[k].name, plan: p, origIndex: idx });
-        }
+    var found = [];
+    Object.keys(D).forEach(k => {
+      (D[k].plans || []).filter(function(p) { return !p.hidden; }).forEach(p => {
+        var str = ((p.name || '') + ' ' + (p.detail || '') + ' ' + (p.source || '')).toLowerCase();
+        if (str.indexOf(kw) !== -1) found.push({ catName: D[k].name, plan: p });
       });
     });
 
-    document.getElementById('activeCatName').textContent = `RADAR: "${kw}"`;
-    document.getElementById('activeCatCount').textContent = `${list.length} KẾT QUẢ`;
+    // Sắp xếp kết quả tìm kiếm theo tên A-Z
+    found.sort((a, b) => (a.plan.name || '').localeCompare(b.plan.name || '', 'vi', { numeric: true }));
 
-    if (!list.length) {
-      grid.innerHTML = '<div style="padding:60px;text-align:center;color:var(--text-muted);font-family:Orbitron;grid-column:1/-1;">RADAR SCAN: KHÔNG TÌM THẤY GÓI NÀO PHÙ HỢP TỪ KHÓA NÀY.</div>';
+    document.getElementById('currentCatTitle').textContent = `Kết quả: "${kw}"`;
+    document.getElementById('currentCatCount').textContent = `${found.length} gói`;
+
+    if (!found.length) {
+      container.innerHTML = '<div style="padding:40px;text-align:center;color:#64748b">Không tìm thấy gói nào phù hợp.</div>';
       return;
     }
-  } 
-  // CATEGORY VIEW
-  else {
-    const cat = D[curCat];
-    if (!cat) return;
-    document.getElementById('activeCatName').textContent = cat.name.toUpperCase();
 
-    (cat.plans || []).filter(p => !p.hidden).forEach((p, idx) => {
-      list.push({ catKey: curCat, catName: cat.name, plan: p, origIndex: idx });
+    found.forEach(item => {
+      container.appendChild(createPlanCard(item.catName, item.plan));
     });
-
-    document.getElementById('activeCatCount').textContent = `${list.length} GÓI SẴN CÓ`;
-
-    if (!list.length) {
-      grid.innerHTML = '<div style="padding:60px;text-align:center;color:var(--text-muted);font-family:Orbitron;grid-column:1/-1;">KHAY NÀY ĐANG ĐƯỢC BỔ SUNG THÊM TÀI KHOẢN.</div>';
-      return;
-    }
+    return;
   }
 
-  // APPLY SORTING
-  if (sortMode === 'price_asc') {
-    list.sort((a, b) => Number(a.plan.price || 0) - Number(b.plan.price || 0));
-  } else if (sortMode === 'price_desc') {
-    list.sort((a, b) => Number(b.plan.price || 0) - Number(a.plan.price || 0));
-  } else if (sortMode === 'stock_only') {
-    list = list.filter(item => {
-      const s = item.plan.stock;
-      return s === -1 || s === '∞' || Number(s || 0) > 0;
-    });
+  var cat = D[curCat];
+  if (!cat) return;
+
+  document.getElementById('currentCatTitle').textContent = cat.name;
+
+  // SẮP XẾP SẢN PHẨM THEO TÊN (A -> Z)
+  var plans = (cat.plans || []).filter(function(p) { return !p.hidden; }).slice();
+  plans.sort(function(a, b) {
+    return (a.name || '').localeCompare(b.name || '', 'vi', { sensitivity: 'base', numeric: true });
+  });
+
+  document.getElementById('currentCatCount').textContent = `${plans.length} gói`;
+
+  if (!plans.length) {
+    container.innerHTML = '<div style="padding:40px;text-align:center;color:#64748b">Danh mục này hiện chưa có gói nào.</div>';
+    return;
   }
 
-  list.forEach((item, index) => {
-    grid.appendChild(createCyberKeycard(item, index));
+  plans.forEach(p => {
+    container.appendChild(createPlanCard(cat.name, p));
   });
 }
 
-// CREATE FLIPPABLE CYBER KEYCARD
-function createCyberKeycard(item, index) {
-  const p = item.plan;
-  const wrapper = document.createElement('div');
-  wrapper.className = 'keycard-wrapper';
-  wrapper.id = `card-${item.catKey}-${index}`;
+function createPlanCard(catName, p) {
+  var card = document.createElement('div');
+  var isSelected = selPlan && selPlan.id === p.id;
+  card.className = 'plan-card' + (isSelected ? ' selected' : '');
+  card.id = 'card-' + p.id;
 
-  const isStockAvailable = p.stock === -1 || p.stock === '∞' || Number(p.stock || 0) > 0;
-  const stockText = p.stock === -1 || p.stock === '∞' ? '🟢 SẴN SÀNG (∞)' : (isStockAvailable ? `📦 CÒN ${p.stock} SLOT` : '🔴 TẠM HẾT HÀNG');
-  const stockClass = isStockAvailable ? 'in-stock' : 'out-stock';
+  var stock = getStockInfo(p);
+  var stockHtml = `<span class="tag ${stock.isOut ? 'out-stock' : 'in-stock'}">${stock.tag}</span>`;
+  var zaloMsg = encodeURIComponent(`Chào shop, mình muốn mua gói [${catName}] ${p.name} giá ${money(p.price)}. Còn hàng không shop?`);
 
-  const zaloMsg = encodeURIComponent(`Chào shop Quốc Bảo, mình muốn mua gói [${item.catName}] ${p.name} giá ${money(p.price)}. Kích hoạt giúp mình nhé!`);
-
-  wrapper.innerHTML = `
-    <div class="keycard-inner">
-      <!-- FRONT SIDE -->
-      <div class="keycard-front">
-        <div>
-          <div class="keycard-chip-header">
-            <div class="hologram-chip">
-              <div class="sim-chip"></div>
-              <span class="keycard-serial">KEYCARD #${index + 101}</span>
-            </div>
-            <div class="stock-indicator ${stockClass}">${stockText}</div>
-          </div>
-
-          <div class="keycard-body">
-            <h3 class="keycard-title">${p.name}</h3>
-            <div class="keycard-specs-row">
-              ${p.duration ? `<span class="cyber-pill duration">⏱️ ${p.duration}</span>` : ''}
-              ${p.source ? `<span class="cyber-pill warranty">🛡️ ${p.source}</span>` : ''}
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div class="keycard-price-lcd">
-            <span class="price-lcd-label">GIÁ NIÊM YẾT:</span>
-            <span class="price-lcd-val">${money(p.price)}</span>
-          </div>
-
-          <div class="keycard-actions">
-            <a href="https://zalo.me/${ZALO}?text=${zaloMsg}" target="_blank" rel="noreferrer" class="btn-dispense-zalo" onclick="playCyberBeep(1200, 'square', 0.1)">
-              🛒 MUA NGAY (ZALO)
-            </a>
-            <button class="btn-flip-info" title="Lật thẻ xem mô tả chi tiết" onclick="flipKeycard('${wrapper.id}')">
-              ℹ️
-            </button>
-          </div>
+  card.innerHTML = `
+    <div class="plan-card-body">
+      <div class="p-left">
+        <div class="plan-title">${p.name}</div>
+        <div class="plan-sub">
+          ${p.duration ? `<span class="tag">${p.duration}</span>` : ''}
+          ${p.source ? `<span class="tag">${p.source}</span>` : ''}
+          ${stockHtml}
         </div>
       </div>
-
-      <!-- BACK SIDE (FLIPPED INFO & SCANNER) -->
-      <div class="keycard-back">
-        <div>
-          <div class="back-header">
-            <span class="back-header-title">📋 THÔNG SỐ & MÔ TẢ KỸ THUẬT</span>
-            <button class="btn-close-flip" onclick="flipKeycard('${wrapper.id}')">↩ QUAY LẠI</button>
-          </div>
-          
-          <div style="font-size:12px; font-weight:700; color:var(--neon-cyan); margin-bottom:6px;">
-            ${p.name}
-          </div>
-
-          <div class="back-desc-scroll">
-            ${formatLinks(p.detail)}
-          </div>
-        </div>
-
-        <div>
-          <a href="https://zalo.me/${ZALO}?text=${zaloMsg}" target="_blank" rel="noreferrer" class="btn-dispense-zalo" style="width:100%" onclick="playCyberBeep(1200, 'square', 0.1)">
-            🛒 XÁC NHẬN MUA GÓI NÀY (${money(p.price)})
-          </a>
-        </div>
+      <div class="p-right">
+        <div class="plan-price">${money(p.price)}</div>
+        <div class="view-btn">Chi tiết ▾</div>
       </div>
+    </div>
+
+    <!-- KHUNG MÔ TẢ BUNG TẠI CHỖ KHI BẤM (MOBILE) -->
+    <div class="plan-accordion">
+      <div class="desc-wrapper">
+        <div class="desc-label">
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+          Mô tả gói dịch vụ
+        </div>
+        <div class="desc-box">${formatDetail(p.detail)}</div>
+      </div>
+
+      <div class="spec-list">
+        <div class="spec-row"><span>Thời hạn:</span><span>${p.duration || 'Theo gói'}</span></div>
+        <div class="spec-row"><span>Hình thức:</span><span>${p.source || 'Chính chủ'}</span></div>
+      </div>
+
+      <a href="https://zalo.me/${ZALO}?text=${zaloMsg}" target="_blank" rel="noreferrer" class="btn-buy-zalo">
+        Đặt Mua Qua Zalo (${money(p.price)})
+      </a>
     </div>
   `;
 
-  return wrapper;
+  card.onclick = (e) => {
+    if (e.target.closest('a')) return;
+
+    selPlan = p;
+
+    // Desktop: cập nhật cột 3 bên phải
+    if (window.innerWidth > 768) {
+      document.querySelectorAll('.plan-card').forEach(el => el.classList.remove('selected'));
+      card.classList.add('selected');
+      renderDetail(catName);
+    } 
+    // Mobile: bung accordion ngay tại chỗ
+    else {
+      var isAlreadyActive = card.classList.contains('active-mobile');
+      document.querySelectorAll('.plan-card').forEach(el => {
+        el.classList.remove('active-mobile');
+        var btn = el.querySelector('.view-btn');
+        if (btn) btn.textContent = 'Chi tiết ▾';
+      });
+
+      if (!isAlreadyActive) {
+        card.classList.add('active-mobile');
+        var btn = card.querySelector('.view-btn');
+        if (btn) btn.textContent = 'Thu gọn ▴';
+      }
+    }
+  };
+
+  return card;
 }
 
-// FLIP KEYCARD 3D INTERACTION
-function flipKeycard(id) {
-  const el = document.getElementById(id);
-  if (!el) return;
-  playFlipSound();
-  el.classList.toggle('flipped');
+function renderDetail(catName) {
+  var panel = document.getElementById('detailContent');
+  if (!selPlan) {
+    if (panel) panel.innerHTML = '<div style="padding:40px;text-align:center;color:#64748b;font-size:13px;">Chưa chọn gói dịch vụ nào hoặc gói đã tạm ẩn.</div>';
+    return;
+  }
+
+  catName = catName || (D[curCat] ? D[curCat].name : '');
+  var p = selPlan;
+  var stock = getStockInfo(p);
+  var zaloMsg = encodeURIComponent(`Chào shop, mình muốn mua gói [${catName}] ${p.name} giá ${money(p.price)}. Còn hàng không shop?`);
+
+  panel.innerHTML = `
+    <div class="detail-title">${p.name}</div>
+    
+    <div class="detail-price-box">
+      <div>
+        <span style="font-size:12px;color:var(--text-muted);display:block">Giá dịch vụ</span>
+        <div class="detail-price-val">${money(p.price)}</div>
+      </div>
+      <div class="detail-stock-badge ${stock.isOut ? 'out-stock' : 'in-stock'}">${stock.badgeText}</div>
+    </div>
+
+    <div class="desc-wrapper">
+      <div class="desc-label">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+        Mô tả chi tiết sản phẩm
+      </div>
+      <div class="desc-box">${formatDetail(p.detail)}</div>
+    </div>
+
+    <div class="spec-list">
+      <div class="spec-row"><span>Danh mục:</span><span>${catName}</span></div>
+      <div class="spec-row"><span>Thời hạn:</span><span>${p.duration || 'Theo gói'}</span></div>
+      <div class="spec-row"><span>Hình thức:</span><span>${p.source || 'Chính chủ'}</span></div>
+    </div>
+
+    <a href="https://zalo.me/${ZALO}?text=${zaloMsg}" target="_blank" rel="noreferrer" class="btn-buy-zalo">
+      Đặt Mua Qua Zalo (${money(p.price)})
+    </a>
+  `;
 }
 
-// SORT CONTROLS
-function setSortMode(mode) {
-  playCyberBeep(550, 'sine', 0.05);
-  sortMode = mode;
-  document.querySelectorAll('.chip-btn').forEach(b => b.classList.remove('active'));
-  if (event && event.target) event.target.classList.add('active');
-  renderKeycards();
-}
-
-// SEARCH RADAR
-const searchInp = document.getElementById('searchInp');
-const clearBtn = document.getElementById('clearBtn');
-
-searchInp.addEventListener('input', (e) => {
+document.getElementById('searchInp').addEventListener('input', function(e) {
   kw = e.target.value.trim().toLowerCase();
-  clearBtn.style.display = kw ? 'flex' : 'none';
-  renderKeycards();
+  renderPlans();
 });
 
-function clearSearch() {
-  playCyberBeep(400, 'sine', 0.05);
-  searchInp.value = '';
-  kw = '';
-  clearBtn.style.display = 'none';
-  renderKeycards();
-}
-
-// INIT
-document.addEventListener('DOMContentLoaded', () => {
-  loadSavedTheme();
-  loadData();
-});
+document.addEventListener('DOMContentLoaded', loadData);
 </script>
 </body>
 </html>
