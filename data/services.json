@@ -1829,10 +1829,17 @@
         "id": "p-1791989249235",
         "name": "KASPERSKY PREMIUM + VPN 1 NĂM (BH 300 ngày)",
         "price": 150000,
-        "stock": 147,
-        "stock_text": "Còn 147",
-        "duration": "1 NĂM",
-        "detail": "Định dạng Key:XXXXX-XXXXX-XXXXX-XXXX\nBảo hành 300 ngày\nĐối với khách Global: Cần kết nối VPN Fake ip/Proxy sang Việt Nam để kích hoạt lần đầu tiên.\nSau khi kích hoạt thành công, các lần sử dụng sau không cần dùng VPN Fake ip.\nThời hạn sử dụng:⏳ 01 năm (có thể trôi hạn vài tuần tùy thời điểm kích hoạt của nhà cung cấp).\nSố lượng thiết bị:💻 01 PC Windows\nkaspersky.com.vn/downloads/premium\nLưu ý: Khi tải Kaspersky Premium, thì VPN  sẽ được cài kèm theo phiên bản Premium."
+        "stock": 33,
+        "stock_text": "Còn 33",
+        "duration": "1 Năm",
+        "detail": "Định dạng Key:XXXXX-XXXXX-XXXXX-XXXX\nBảo hành 300 ngày\nĐối với khách Global: Cần kết nối VPN Fake ip/Proxy sang Việt Nam để kích hoạt lần đầu tiên.\nSau khi kích hoạt thành công, các lần sử dụng sau không cần dùng VPN Fake ip.\nThời hạn sử dụng:⏳ 01 năm (có thể trôi hạn vài tuần tùy thời điểm kích hoạt của nhà cung cấp).\nSố lượng thiết bị:💻 01 PC Windows\nkaspersky.com.vn/downloads/premium\nLưu ý: Khi tải Kaspersky Premium, thì VPN  sẽ được cài kèm theo phiên bản Premium.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 33,
+            "cost_price": 165000,
+            "updated": "06:02 15/10/2026"
+          }
+        }
       },
       {
         "id": "p-1791991303685",
@@ -1912,6 +1919,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792018977948",
+      "time": "06:02 - 15/10/2026",
+      "timestamp": 1792018977948,
+      "name": "KASPERSKY PREMIUM + VPN 1 NĂM (BH 300 ngày)",
+      "bot": "ntnshopre_bot",
+      "shopStock": 33,
+      "addedQty": 0,
+      "price": 165000,
+      "stockAfter": 33,
+      "catKey": "khac",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "⭐KASPERSKYPREMIUM+VPN1NĂM(BH300ngày)💰Giá:165k📦Tồnkho:33tàikhoản📊Đãbán:241tàikhoả"
+    },
     {
       "id": "hist-1792018974632",
       "time": "06:02 - 15/10/2026",
@@ -3109,18 +3130,6 @@
       "catKey": "chatgpt",
       "source": "Telegram Python Sync",
       "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:9📦Tồnkhohiệntại:40💰Giá:300.000đ"
-    },
-    {
-      "id": "hist-1791938632148",
-      "time": "07:43 - 14/10/2026",
-      "timestamp": 1791938632148,
-      "name": "GMAIL CỔ DATE 201X- 2022",
-      "addedQty": 82,
-      "price": 35000,
-      "stockAfter": 179,
-      "catKey": "gmail",
-      "source": "Telegram Python Sync",
-      "msgKey": "📧GMAILCỔDATE201X-2022➕Thêm:82📦Tồnkhohiệntại:152💰Giá:35.000đ"
     }
   ],
   "bot-tele": {
