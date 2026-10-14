@@ -290,12 +290,12 @@
         "stock": 13,
         "stock_text": "Còn 13",
         "duration": "1 Tháng",
-        "detail": "Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi Pass hoặc 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm.\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\n\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi Pass hoặc 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm.\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "sources": {
           "taphoathomap_bot": {
             "stock": 13,
             "cost_price": 650000,
-            "updated": "06:32 15/10/2026"
+            "updated": "06:33 15/10/2026"
           }
         }
       },
@@ -2000,6 +2000,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792020825638",
+      "time": "06:33 - 15/10/2026",
+      "timestamp": 1792020825638,
+      "name": "ChatGPT Plus 4 Tháng - BH 1 Tháng",
+      "bot": "taphoathomap_bot",
+      "shopStock": 13,
+      "addedQty": 0,
+      "price": 650000,
+      "stockAfter": 13,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlus4Tháng-BH1Tháng💰Giá:650k📦Tồnkho:13tàikhoản📊Đãbán:9tàikhoản💎Môtả:🔐Acc"
+    },
+    {
       "id": "hist-1792020766272",
       "time": "06:32 - 15/10/2026",
       "timestamp": 1792020766272,
@@ -3240,18 +3254,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram Python Sync",
       "msgKey": "🧠APIClaude100MToken1ngàyBHF➕Thêm:1📦Tồnkhohiệntại:6💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1791958411207",
-      "time": "13:13 - 14/10/2026",
-      "timestamp": 1791958411207,
-      "name": "Locket Gold  DNS 1 Năm BHF",
-      "addedQty": 2,
-      "price": 60000,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "⭐LocketGoldDNS1NămBHF➕Thêm:2📦Tồnkhohiệntại:6💰Giá:60.000đ"
     }
   ],
   "bot-tele": {
