@@ -1832,9 +1832,9 @@
       {
         "id": "p-1792006811047",
         "name": "Photoroom Max 7 Ngày BHF",
-        "price": 35000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "price": 15000,
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "7 Ngày",
         "detail": "Photoroom 7 ngày gói Max\nĐịnh dạng: Email|Web mail"
       }
@@ -1864,6 +1864,18 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792006815937",
+      "time": "02:40 - 15/10/2026",
+      "timestamp": 1792006815937,
+      "name": "Photoroom Max 7 Ngày BHF",
+      "addedQty": 8,
+      "price": 15000,
+      "stockAfter": 16,
+      "catKey": "khac",
+      "source": "Telegram Python Sync",
+      "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:8📦Tồnkhohiệntại:8💰Giá:15.000đ"
+    },
     {
       "id": "hist-1792006811047",
       "time": "02:40 - 15/10/2026",
@@ -3051,18 +3063,6 @@
       "catKey": "capcut",
       "source": "Telegram Python Sync",
       "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:185.000đ"
-    },
-    {
-      "id": "hist-1791931324515",
-      "time": "05:42 - 14/10/2026",
-      "timestamp": 1791931324515,
-      "name": "Slot Youtube Premium 6 Tháng BHF",
-      "addedQty": 2,
-      "price": 165000,
-      "stockAfter": 2,
-      "catKey": "youtube",
-      "source": "Telegram Python Sync",
-      "msgKey": "▶️SlotYoutubePremium6ThángBHF➕Thêm:2📦Tồnkhohiệntại:547💰Giá:165.000đ"
     }
   ],
   "bot-tele": {
