@@ -1909,8 +1909,8 @@
         "id": "p-1792018974632",
         "name": "Meitu SVIP 1 Tháng BHF",
         "price": 75000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "1 Tháng",
         "detail": "Gói Meitu SVIP 1 Tháng BHF bảo hành uy tín.",
         "sources": {
@@ -1918,6 +1918,11 @@
             "stock": 9,
             "cost_price": 75000,
             "updated": "06:02 15/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 9,
+            "cost_price": 75000,
+            "updated": "06:05 15/10/2026"
           }
         }
       }
@@ -1947,6 +1952,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792019143864",
+      "time": "06:05 - 15/10/2026",
+      "timestamp": 1792019143864,
+      "name": "Meitu SVip 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 9,
+      "addedQty": 10,
+      "price": 75000,
+      "stockAfter": 18,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✨MeituSVip1ThángBHF➕Thêm:10📦Tồnkhohiệntại:9💰Giá:75.000đ"
+    },
     {
       "id": "hist-1792019140349",
       "time": "06:05 - 15/10/2026",
@@ -3162,18 +3181,6 @@
       "catKey": "khac",
       "source": "Telegram Python Sync",
       "msgKey": "☁️LINKGETGEMINIPRO18THÁNGBẢOHÀNH24H➕Thêm:74📦Tồnkhohiệntại:99💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1791947436374",
-      "time": "10:10 - 14/10/2026",
-      "timestamp": 1791947436374,
-      "name": "API CODEX ASTRA6 50$ TOKEN 1THÁNG BHF",
-      "addedQty": 1,
-      "price": 140000,
-      "stockAfter": 6,
-      "catKey": "api-claude-codex",
-      "source": "Telegram Python Sync",
-      "msgKey": "⭐APICODEXASTRA650$TOKEN1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:4💰Giá:140.000đ"
     }
   ],
   "bot-tele": {
