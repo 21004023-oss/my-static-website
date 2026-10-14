@@ -1137,6 +1137,22 @@
         "stock_text": "Còn 2",
         "duration": "1 THÁNG",
         "detail": "-API Codex 100$\n-Hạn gói: 1 tháng\n-Bảo hành: 30 ngày\n- Có Astra 6\n-File hướng dẫn thiết lập và sử dụng: https://drive.google.com/drive/folders/1kMP3CutQ2ANDo5pKXw1Xe9kR2YXPhSSW?usp=drive_link"
+      },
+      {
+        "id": "p-1792021557657",
+        "name": "API Claude 50$ Token 1 tháng BH 30 ngày",
+        "price": 140000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "-API Claude 50$-Hàng lấy từ Kiro AWS\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng\n-File hướng dẫn sử dụng và thiết lập:\nhttps://drive.google.com/drive/folders/1cDpZB5Of3bk7cz_1qxMWgy3nvHomCkN5?usp=drive_link",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 1,
+            "cost_price": 140000,
+            "updated": "06:45 15/10/2026"
+          }
+        }
       }
     ]
   },
@@ -2022,6 +2038,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792021557657",
+      "time": "06:45 - 15/10/2026",
+      "timestamp": 1792021557657,
+      "name": "API Claude 50$ Token 1 tháng BH 30 ngày",
+      "bot": "piggyai99_bot",
+      "shopStock": 1,
+      "addedQty": 1,
+      "price": 140000,
+      "stockAfter": 1,
+      "catKey": "api-claude-codex",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🧠APIClaude50$Token1thángBH30ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:140.000đ"
+    },
     {
       "id": "hist-1792021056520",
       "time": "06:37 - 15/10/2026",
@@ -3269,18 +3299,6 @@
       "catKey": "khac",
       "source": "Telegram Python Sync",
       "msgKey": "⭐COURSERAPREMIUM12THÁNGBẢOHÀNH24H➕Thêm:11📦Tồnkhohiệntại:15💰Giá:125.000đ"
-    },
-    {
-      "id": "hist-1791959583226",
-      "time": "13:33 - 14/10/2026",
-      "timestamp": 1791959583226,
-      "name": "Coursera Premium 12 Tháng BH 1 Ngày",
-      "addedQty": 11,
-      "price": 120000,
-      "stockAfter": 11,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "⭐CourseraPremium12ThángBH1Ngày➕Thêm:11📦Tồnkhohiệntại:15💰Giá:120.000đ"
     }
   ],
   "bot-tele": {
