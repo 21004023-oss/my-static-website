@@ -1098,6 +1098,24 @@
     }
 
     // THEME SYSTEM
+    
+    function updateGitHubStatusUI() {
+      const token = (localStorage.getItem('gh_token') || '').trim();
+      const dot = document.getElementById('ghStatusDot');
+      const text = document.getElementById('ghStatusText');
+      const banner = document.getElementById('noTokenAlertBanner');
+
+      if (token) {
+        if (dot) dot.style.background = '#10b981';
+        if (text) text.innerHTML = '<span style="color:var(--emerald);">🟢 GitHub: Đã kết nối (Auto-Save Bật)</span>';
+        if (banner) banner.style.display = 'none';
+      } else {
+        if (dot) dot.style.background = '#ef4444';
+        if (text) text.innerHTML = '<span style="color:var(--rose);">🔴 Chưa kết nối GitHub (Bấm nhập Token)</span>';
+        if (banner) banner.style.display = 'flex';
+      }
+    }
+
     function applySavedTheme() {
       const savedTheme = localStorage.getItem('adm_theme') || 'light';
       document.documentElement.setAttribute('data-theme', savedTheme);
@@ -1143,7 +1161,7 @@
       if (hash === PIN_HASH_SECURE) {
         sessionStorage.setItem('adm_session_ok', 'true');
         document.getElementById('lockScreenOverlay').style.display = 'none';
-        initAdminData();
+        initAdminData(); updateGitHubStatusUI();
       } else {
         const box = document.getElementById('lockBox');
         const err = document.getElementById('lockErrorMsg');
@@ -1159,7 +1177,7 @@
       applySavedTheme();
       if (sessionStorage.getItem('adm_session_ok') === 'true') {
         document.getElementById('lockScreenOverlay').style.display = 'none';
-        initAdminData();
+        initAdminData(); updateGitHubStatusUI();
       } else {
         document.getElementById('lockScreenOverlay').style.display = 'flex';
         setTimeout(() => {
@@ -1179,6 +1197,12 @@
     function getCanonicalKey(name) {
       if (!name) return "";
       let k = name.toLowerCase();
+      // Keep warranty in brackets out
+      k = k.replace(/\(bh[^\)]*\)/gi, '');
+      k = k.replace(/\(kbh[^\)]*\)/gi, '');
+      k = k.replace(/\[[^\]]*\]/g, '');
+
+      // Normalize durations
       k = k.replace(/\b(2\s*năm|2\s*nam|24\s*tháng|2y)\b/g, ' _dur_2y_ ');
       k = k.replace(/\b(1\s*năm|1\s*nam|12\s*tháng|365\s*(?:ngày|d)|1y)\b/g, ' _dur_1y_ ');
       k = k.replace(/\b(6\s*(?:tháng|thang|th)|180\s*(?:ngày|d))\b/g, ' _dur_6m_ ');
@@ -1186,7 +1210,11 @@
       k = k.replace(/\b(2\s*(?:tháng|thang|th)|60\s*(?:ngày|d))\b/g, ' _dur_2m_ ');
       k = k.replace(/\b(1\s*(?:tháng|thang|th)|30\s*(?:ngày|d)|30d|1th)\b/g, ' _dur_1m_ ');
       k = k.replace(/\b(1\s*(?:ngày|d)|24\s*(?:h|giờ)|24h|1d)\b/g, ' _dur_1d_ ');
-      k = k.replace(/[^\w\s\u00C0-\u1EF9]/g, '');
+
+      // Normalize capacities so 10M != 50M
+      k = k.replace(/\b(\d+)\s*(m|k|credits|credit|token|tokens|slot)\b/g, ' _cap_$1$2_ ');
+
+      k = k.replace(/[^\w\s\u00C0-\u1EF9]/g, ' ');
       k = k.replace(/\s+/g, ' ').trim();
       return k;
     }
@@ -1446,26 +1474,37 @@
         const grouped = {};
         plans.forEach((p, idx) => {
           totalChecked++;
-          const ck = getCanonicalKey(p.name);
-          if (ck) {
-            if (!grouped[ck]) grouped[ck] = [];
-            grouped[ck].push({ plan: p, index: idx });
+          if (p.conflict_dismissed) {
+            // Admin da xac nhan day la 2 goi khac nhau, khong canh bao nua
+          } else {
+            const ck = getCanonicalKey(p.name);
+            if (ck) {
+              if (!grouped[ck]) grouped[ck] = [];
+              grouped[ck].push({ plan: p, index: idx });
+            }
           }
 
+          // Neu Admin da bam 'Gia da dung' thi khong bao loi nua tren moi lan F5
+          if (p.price_verified) return;
+
           const price = Number(p.price || 0);
-          const name = p.name || '';
+          const name = (p.name || '').toLowerCase();
           let issue = null;
           let suggestedPrice = 0;
 
+          const isBulkOrAdmin = /admin|fam|50 slot|100 slot|1 năm|12 tháng|ultra|business/.test(name);
+
           if (price <= 0) {
             issue = 'Giá bằng 0 hoặc chưa nhập giá';
-          } else if (/hotmail/i.test(name) && price >= 3000) {
-            issue = 'Nghi vấn nhầm 0.5k thành 5.000đ (Hotmail thường 500đ - 1.000đ)';
-            suggestedPrice = 500;
-          } else if (/chatgpt/i.test(name) && !/json|free/i.test(name) && price < 15000) {
-            issue = 'Giá ChatGPT quá thấp so với thực tế (< 15.000đ)';
-          } else if (price > 2000000) {
-            issue = 'Giá bất thường (> 2.000.000đ), cần kiểm tra lại';
+          } else if (/hotmail|gmail/.test(name) && price >= 25000) {
+            issue = 'Nghi vấn nhầm giá mail (thường 500đ - 15.000đ)';
+            suggestedPrice = 5000;
+          } else if (/canva/.test(name) && !isBulkOrAdmin && price > 300000) {
+            issue = 'Giá Canva 1 slot bất thường (> 300.000đ)';
+          } else if (/capcut/.test(name) && !isBulkOrAdmin && price > 500000) {
+            issue = 'Giá CapCut 1 tháng bất thường (> 500.000đ)';
+          } else if (price > 12000000) {
+            issue = 'Giá rất cao (> 12.000.000đ), cần kiểm tra lại';
           }
 
           if (issue) {
@@ -1568,6 +1607,9 @@
                 <button class="btn btn-success" style="font-size:11px; padding:4px 8px;" onclick="mergeGroupPlans('${grp.catKey}', ${JSON.stringify(grp.items.map(i=>i.index))})">
                   🔀 Gộp chung làm 1 gói & cộng dồn kho
                 </button>
+                <button class="btn btn-outline" style="font-size:11px; padding:4px 8px;" onclick="dismissConflictGroup('${grp.catKey}', ${JSON.stringify(grp.items.map(i=>i.index))})">
+                  ✅ Bỏ qua (Đây là 2 gói khác nhau)
+                </button>
               </div>
             </div>
             <div>${rowsHtml}</div>
@@ -1599,7 +1641,10 @@
             </td>
             <td>Còn ${item.plan.stock}</td>
             <td style="text-align:right;">
-              <button class="btn btn-success" style="padding:4px 10px; font-size:12px;" onclick="saveInlinePrice('${item.catKey}', ${item.planIndex})">💾 Lưu</button>
+              <div style="display:flex; gap:6px; justify-content:flex-end;">
+                <button class="btn btn-outline" style="padding:4px 8px; font-size:11.5px; border-color:var(--emerald); color:var(--emerald);" onclick="verifyPlanPrice('${item.catKey}', ${item.planIndex})">✅ Giá đã đúng</button>
+                <button class="btn btn-success" style="padding:4px 10px; font-size:12px;" onclick="saveInlinePrice('${item.catKey}', ${item.planIndex})">💾 Lưu giá mới</button>
+              </div>
             </td>
           `;
           tableBody.appendChild(tr);
@@ -1664,9 +1709,31 @@
       await saveInlinePrice(catKey, idx);
     }
 
+    
+    async function verifyPlanPrice(catKey, idx) {
+      const p = servicesData[catKey].plans[idx];
+      p.price_verified = true;
+      runPriceAudit();
+      renderTable();
+      updateStats();
+      showToast(`Đang lưu trạng thái đã xác nhận gói [${p.name}]...`, 'info');
+      await saveDirectToGitHub(true, `✅ Đã xác nhận mức giá của [${p.name}] là chính xác!`);
+    }
+
+    async function dismissConflictGroup(catKey, indices) {
+      indices.forEach(idx => {
+        servicesData[catKey].plans[idx].conflict_dismissed = true;
+      });
+      runPriceAudit();
+      updateStats();
+      showToast("Đang lưu trạng thái bỏ qua trùng lặp...", "info");
+      await saveDirectToGitHub(true, "✅ Đã bỏ qua nhóm này, không cảnh báo trùng lặp nữa!");
+    }
+
     async function saveInlinePrice(catKey, idx) {
       const inp = document.getElementById(`auditPrice_${catKey}_${idx}`);
       servicesData[catKey].plans[idx].price = Number(inp.value || 0);
+      servicesData[catKey].plans[idx].price_verified = true;
       runPriceAudit();
       renderTable();
       updateStats();
