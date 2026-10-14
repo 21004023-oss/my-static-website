@@ -1900,14 +1900,19 @@
         "id": "p-1792006811047",
         "name": "Photoroom Max 7 Ngày BHF",
         "price": 15000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Tháng",
         "detail": "Photoroom 7 ngày gói Max\nĐịnh dạng: Email|Web mail",
         "sources": {
           "sieuthistore_bot": {
             "stock": 8,
             "cost_price": 35000,
+            "updated": "06:05 15/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 8,
+            "cost_price": 15000,
             "updated": "06:05 15/10/2026"
           }
         }
@@ -1959,6 +1964,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792019152064",
+      "time": "06:05 - 15/10/2026",
+      "timestamp": 1792019152064,
+      "name": "Photoroom Max 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 8,
+      "addedQty": 0,
+      "price": 15000,
+      "stockAfter": 16,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐PhotoroomMax7NgàyBHF💰Giá:15k📦Tồnkho:8tàikhoản📊Đãbán:108tàikhoản💎Môtả:Photoroom7"
+    },
     {
       "id": "hist-1792019147312",
       "time": "06:05 - 15/10/2026",
@@ -3178,18 +3197,6 @@
       "catKey": "chatgpt",
       "source": "Telegram Python Sync",
       "msgKey": "🤖ChatGPTVerStudentsPlus4ThángKBH➕Thêm:2📦Tồnkhohiệntại:10💰Giá:270.000đ"
-    },
-    {
-      "id": "hist-1791948360081",
-      "time": "10:26 - 14/10/2026",
-      "timestamp": 1791948360081,
-      "name": "Link Gemini Pro 18 Tháng BH 24H",
-      "addedQty": 74,
-      "price": 23500,
-      "stockAfter": 74,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:74📦Tồnkhohiệntại:99💰Giá:23.500đ"
     }
   ],
   "bot-tele": {
