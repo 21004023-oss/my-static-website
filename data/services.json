@@ -786,14 +786,14 @@
         "id": "capcut-1m",
         "name": "CapCut Pro 1 Tháng BHF",
         "price": 38000,
-        "stock": 28,
-        "stock_text": "Còn 28",
+        "stock": 27,
+        "stock_text": "Còn 27",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 28,
+            "stock": 27,
             "cost_price": 38000,
             "updated": "06:05 15/10/2026"
           }
@@ -1926,6 +1926,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792019119047",
+      "time": "06:05 - 15/10/2026",
+      "timestamp": 1792019119047,
+      "name": "CAPCUT PRO 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 27,
+      "addedQty": 9,
+      "price": 38000,
+      "stockAfter": 27,
+      "catKey": "capcut",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:38.000đ"
+    },
     {
       "id": "hist-1792019115719",
       "time": "06:05 - 15/10/2026",
@@ -3129,18 +3143,6 @@
       "catKey": "youtube",
       "source": "Telegram Python Sync",
       "msgKey": "▶️CODEKÍCHHOẠTYOUTUBEPREMIUM3THÁNGBẢOHÀNHFULL➕Thêm:1📦Tồnkhohiệntại:1💰Giá:89.000đ"
-    },
-    {
-      "id": "hist-1791940868936",
-      "time": "08:21 - 14/10/2026",
-      "timestamp": 1791940868936,
-      "name": "Slot Youtube Premium 3 Tháng BHF",
-      "addedQty": 2,
-      "price": 95000,
-      "stockAfter": 24,
-      "catKey": "youtube",
-      "source": "Telegram Python Sync",
-      "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:549💰Giá:95.000đ"
     }
   ],
   "bot-tele": {
