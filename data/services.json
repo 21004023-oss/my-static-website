@@ -1823,9 +1823,9 @@
       {
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
-        "price": 25000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "price": 15000,
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass"
       }
@@ -1855,6 +1855,18 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792003622475",
+      "time": "01:47 - 15/10/2026",
+      "timestamp": 1792003622475,
+      "name": "NordVPN 3 Ngày BHF",
+      "addedQty": 9,
+      "price": 15000,
+      "stockAfter": 18,
+      "catKey": "khac",
+      "source": "Telegram Python Sync",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:15.000đ"
+    },
     {
       "id": "hist-1792003618063",
       "time": "01:46 - 15/10/2026",
@@ -3042,18 +3054,6 @@
       "catKey": "gmail",
       "source": "Telegram Python Sync",
       "msgKey": "📧GMAILUSCỔDATE201X-202X2FA80%TRIAL➕Thêm:99📦Tồnkhohiệntại:208💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1791930950773",
-      "time": "05:35 - 14/10/2026",
-      "timestamp": 1791930950773,
-      "name": "ChatGPT Free Gmail KBH",
-      "addedQty": 32,
-      "price": 10000,
-      "stockAfter": 32,
-      "catKey": "chatgpt",
-      "source": "Telegram Python Sync",
-      "msgKey": "🤖ChatGPTFreeGmailKBH➕Thêm:32📦Tồnkhohiệntại:9💰Giá:10.000đ"
     }
   ],
   "bot-tele": {
