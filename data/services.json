@@ -271,15 +271,15 @@
         "id": "p-1791854770760",
         "name": "ChatGPT Plus GGPay 30D BH 24H",
         "price": 200000,
-        "stock": 64,
-        "stock_text": "Còn 64",
+        "stock": 70,
+        "stock_text": "Còn 70",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 64,
+            "stock": 70,
             "cost_price": 200000,
-            "updated": "06:05 15/10/2026"
+            "updated": "06:06 15/10/2026"
           }
         }
       },
@@ -1972,6 +1972,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792019160664",
+      "time": "06:06 - 15/10/2026",
+      "timestamp": 1792019160664,
+      "name": "ChatGPT Plus GGPay 30D BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 70,
+      "addedQty": 8,
+      "price": 200000,
+      "stockAfter": 70,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:8📦Tồnkhohiệntại:70💰Giá:200.000đ"
+    },
+    {
       "id": "hist-1792019156972",
       "time": "06:05 - 15/10/2026",
       "timestamp": 1792019156972,
@@ -3194,18 +3208,6 @@
       "catKey": "gmail",
       "source": "Telegram Python Sync",
       "msgKey": "📧GMAILCỔDATE201X-2022➕Thêm:100📦Tồnkhohiệntại:250💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1791951111143",
-      "time": "11:11 - 14/10/2026",
-      "timestamp": 1791951111143,
-      "name": "ChatGPT Go 1 Tháng BHF",
-      "addedQty": 9,
-      "price": 100000,
-      "stockAfter": 9,
-      "catKey": "chatgpt",
-      "source": "Telegram Python Sync",
-      "msgKey": "🤖ChatGPTGo1ThángBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:100.000đ"
     }
   ],
   "bot-tele": {
