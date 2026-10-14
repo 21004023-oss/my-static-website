@@ -325,10 +325,17 @@
         "id": "p-1791909483397",
         "name": "ChatGPT Plus ( GG Pay) 1 Tháng BH 1 Ngày",
         "price": 240000,
-        "stock": 30,
-        "stock_text": "Còn 30",
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "1 Tháng",
-        "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex"
+        "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 9,
+            "cost_price": 240000,
+            "updated": "06:05 15/10/2026"
+          }
+        }
       },
       {
         "id": "p-1791913103284",
@@ -1934,6 +1941,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792019132631",
+      "time": "06:05 - 15/10/2026",
+      "timestamp": 1792019132631,
+      "name": "ChatGPT Plus ( GG Pay) 1 Tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 9,
+      "addedQty": 0,
+      "price": 240000,
+      "stockAfter": 9,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày💰Giá:240k📦Tồnkho:9tàikhoản📊Đãbán:2.737tàikhoản💎M"
+    },
+    {
       "id": "hist-1792019126423",
       "time": "06:05 - 15/10/2026",
       "timestamp": 1792019126423,
@@ -3142,18 +3163,6 @@
       "catKey": "gmail",
       "source": "Telegram Python Sync",
       "msgKey": "📧GMAILUSCỔDATE201X-202X2FA80%TRIAL➕Thêm:9📦Tồnkhohiệntại:217💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1791945058163",
-      "time": "09:30 - 14/10/2026",
-      "timestamp": 1791945058163,
-      "name": "SLOT VEO3 Ultra x20 – Vô hạn Credit – 7 Ngày BHF",
-      "addedQty": 14,
-      "price": 3700000,
-      "stockAfter": 14,
-      "catKey": "google-veo",
-      "source": "Telegram Python Sync",
-      "msgKey": "🚀SLOTVEO3Ultrax20–VôhạnCredit–7NgàyBHF➕Thêm:14📦Tồnkhohiệntại:14💰Giá:3.700.000đ"
     }
   ],
   "bot-tele": {
