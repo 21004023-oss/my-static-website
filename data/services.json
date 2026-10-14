@@ -718,11 +718,11 @@
         "id": "capcut-1m",
         "name": "CapCut Pro 1 Tháng BHF",
         "price": 38000,
-        "stock": 18,
-        "stock_text": "Còn 18",
+        "stock": 28,
+        "stock_text": "Còn 28",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
-        "detail": "- CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL.\n- ĐỊNH DẠNG: TK|MK.\n- KBH LỖI TRUY CẬP THƯỜNG XUYÊN DO LOGIN QUÁ 2 THIẾT BỊ (CHỈ ĐĂNG NHẬP 1 ĐIỆN THOẠI + 1 PC)."
+        "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )"
       },
       {
         "id": "capcut-12m",
@@ -1739,6 +1739,18 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1791980233614",
+      "time": "19:17 - 14/10/2026",
+      "timestamp": 1791980233614,
+      "name": "CAPCUT PRO 1 THÁNG BHF",
+      "addedQty": 10,
+      "price": 38000,
+      "stockAfter": 28,
+      "catKey": "capcut",
+      "source": "Telegram Python Sync",
+      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:10📦Tồnkhohiệntại:15💰Giá:38.000đ"
+    },
     {
       "id": "hist-1791979523715",
       "time": "19:05 - 14/10/2026",
@@ -2926,18 +2938,6 @@
       "catKey": "capcut",
       "source": "Telegram Python Sync",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:140📦Tồnkhohiệntại:10💰Giá:33.000đ"
-    },
-    {
-      "id": "hist-1791915324864",
-      "time": "01:15 - 14/10/2026",
-      "timestamp": 1791915324864,
-      "name": "Meitu VIP 7 Ngày BHF",
-      "addedQty": 3,
-      "price": 15000,
-      "stockAfter": 7,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "✨MeituVIP7NgàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:15.000đ"
     }
   ],
   "bot-tele": {
