@@ -271,10 +271,17 @@
         "id": "p-1791854770760",
         "name": "ChatGPT Plus GGPay 30D BH 24H",
         "price": 200000,
-        "stock": 109,
-        "stock_text": "Còn 109",
+        "stock": 64,
+        "stock_text": "Còn 64",
         "duration": "1 Tháng",
-        "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex"
+        "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 64,
+            "cost_price": 200000,
+            "updated": "06:05 15/10/2026"
+          }
+        }
       },
       {
         "id": "p-1791870770999",
@@ -1965,6 +1972,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792019156972",
+      "time": "06:05 - 15/10/2026",
+      "timestamp": 1792019156972,
+      "name": "ChatGPT Plus GGPay 30D BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 64,
+      "addedQty": 0,
+      "price": 200000,
+      "stockAfter": 64,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H💰Giá:200k📦Tồnkho:64tàikhoản📊Đãbán:2.737tàikhoản💎Môtả:Kh"
+    },
+    {
       "id": "hist-1792019152064",
       "time": "06:05 - 15/10/2026",
       "timestamp": 1792019152064,
@@ -3185,18 +3206,6 @@
       "catKey": "chatgpt",
       "source": "Telegram Python Sync",
       "msgKey": "🤖ChatGPTGo1ThángBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1791950549274",
-      "time": "11:02 - 14/10/2026",
-      "timestamp": 1791950549274,
-      "name": "ChatGPT Ver Students Plus 4 Tháng KBH",
-      "addedQty": 2,
-      "price": 270000,
-      "stockAfter": 2,
-      "catKey": "chatgpt",
-      "source": "Telegram Python Sync",
-      "msgKey": "🤖ChatGPTVerStudentsPlus4ThángKBH➕Thêm:2📦Tồnkhohiệntại:10💰Giá:270.000đ"
     }
   ],
   "bot-tele": {
