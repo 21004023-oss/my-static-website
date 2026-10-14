@@ -718,8 +718,52 @@ var LOGO = {
   'spotify': 'https://www.google.com/s2/favicons?domain=spotify.com&sz=64',
   'notion': 'https://www.google.com/s2/favicons?domain=notion.so&sz=64',
   'kling': 'https://www.google.com/s2/favicons?domain=klingai.com&sz=64',
-  'gmail': 'https://www.google.com/s2/favicons?domain=gmail.com&sz=64'
+  'gmail': 'https://www.google.com/s2/favicons?domain=gmail.com&sz=64',
+  'microsoft': 'https://www.google.com/s2/favicons?domain=microsoft.com&sz=64',
+  'bot-tele': 'https://www.google.com/s2/favicons?domain=telegram.org&sz=64',
+  'khac': 'https://www.google.com/s2/favicons?domain=producthunt.com&sz=64'
 };
+
+function getPlanLogo(catKey, planName) {
+  var name = (planName || '').toLowerCase();
+  
+  if (/adobe/i.test(name)) return 'https://www.google.com/s2/favicons?domain=adobe.com&sz=64';
+  if (/gemini/i.test(name)) return 'https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64';
+  if (/deepseek/i.test(name)) return 'https://www.google.com/s2/favicons?domain=deepseek.com&sz=64';
+  if (/cursor/i.test(name)) return 'https://www.google.com/s2/favicons?domain=cursor.com&sz=64';
+  if (/claude|anthropic/i.test(name)) return 'https://www.google.com/s2/favicons?domain=anthropic.com&sz=64';
+  if (/codex/i.test(name)) return 'https://www.google.com/s2/favicons?domain=openai.com&sz=64';
+  if (/chatgpt|openai/i.test(name)) return 'https://www.google.com/s2/favicons?domain=openai.com&sz=64';
+  if (/coursera/i.test(name)) return 'https://www.google.com/s2/favicons?domain=coursera.org&sz=64';
+  if (/tiktok/i.test(name)) return 'https://www.google.com/s2/favicons?domain=tiktok.com&sz=64';
+  if (/heygen/i.test(name)) return 'https://www.google.com/s2/favicons?domain=heygen.com&sz=64';
+  if (/gamma/i.test(name)) return 'https://www.google.com/s2/favicons?domain=gamma.app&sz=64';
+  if (/higgsfield|higgfield/i.test(name)) return 'https://www.google.com/s2/favicons?domain=higgsfield.ai&sz=64';
+  if (/vidiq/i.test(name)) return 'https://www.google.com/s2/favicons?domain=vidiq.com&sz=64';
+  if (/meitu|wink/i.test(name)) return 'https://www.google.com/s2/favicons?domain=meitu.com&sz=64';
+  if (/locket/i.test(name)) return 'https://www.google.com/s2/favicons?domain=locket.camera&sz=64';
+  if (/skillshare/i.test(name)) return 'https://www.google.com/s2/favicons?domain=skillshare.com&sz=64';
+  if (/surfshark/i.test(name)) return 'https://www.google.com/s2/favicons?domain=surfshark.com&sz=64';
+  if (/express\s*vpn/i.test(name)) return 'https://www.google.com/s2/favicons?domain=expressvpn.com&sz=64';
+  if (/vpn/i.test(name)) return 'https://www.google.com/s2/favicons?domain=surfshark.com&sz=64';
+  if (/hotmail|outlook/i.test(name)) return 'https://www.google.com/s2/favicons?domain=outlook.com&sz=64';
+  if (/gmail/i.test(name)) return 'https://www.google.com/s2/favicons?domain=gmail.com&sz=64';
+  if (/google|veo/i.test(name)) return 'https://www.google.com/s2/favicons?domain=google.com&sz=64';
+  if (/spotify/i.test(name)) return 'https://www.google.com/s2/favicons?domain=spotify.com&sz=64';
+  if (/notion/i.test(name)) return 'https://www.google.com/s2/favicons?domain=notion.so&sz=64';
+  if (/kling/i.test(name)) return 'https://www.google.com/s2/favicons?domain=klingai.com&sz=64';
+  if (/grok|x\.ai/i.test(name)) return 'https://www.google.com/s2/favicons?domain=x.ai&sz=64';
+  if (/canva/i.test(name)) return 'https://www.google.com/s2/favicons?domain=canva.com&sz=64';
+  if (/capcut/i.test(name)) return 'https://www.google.com/s2/favicons?domain=capcut.com&sz=64';
+  if (/youtube/i.test(name)) return 'https://www.google.com/s2/favicons?domain=youtube.com&sz=64';
+  if (/microsoft|office|ms365/i.test(name)) return 'https://www.google.com/s2/favicons?domain=microsoft.com&sz=64';
+  if (/telegram|tele|bot tele/i.test(name)) return 'https://www.google.com/s2/favicons?domain=telegram.org&sz=64';
+  if (/mb\s*bank/i.test(name)) return 'https://www.google.com/s2/favicons?domain=mbbank.com.vn&sz=64';
+
+  if (D[catKey] && D[catKey].logo) return D[catKey].logo;
+  if (LOGO[catKey]) return LOGO[catKey];
+  return 'https://www.google.com/s2/favicons?domain=producthunt.com&sz=64';
+}
 
 function money(n) {
   n = Number(n || 0);
@@ -906,7 +950,7 @@ function createPlanCard(catName, p, catKey) {
   card.id = 'card-' + p.id;
 
   catKey = catKey || curCat;
-  var logoUrl = (D[catKey] && D[catKey].logo) || LOGO[catKey] || '';
+  var logoUrl = getPlanLogo(catKey, p.name);
   var logoImgHtml = logoUrl 
     ? `<img src="${logoUrl}" class="plan-card-logo" onerror="this.style.display='none'" alt="${catName}" />` 
     : `<span class="plan-card-logo-placeholder">❖</span>`;
@@ -998,8 +1042,12 @@ function renderDetail(catName) {
   var stock = getStockInfo(p);
   var zaloMsg = encodeURIComponent(`Chào shop, mình muốn mua gói [${catName}] ${p.name} giá ${money(p.price)}. Còn hàng không shop?`);
 
+  var detailLogo = getPlanLogo(curCat, p.name);
   panel.innerHTML = `
-    <div class="detail-title">${p.name}</div>
+    <div style="display:flex; align-items:center; gap:12px; margin-bottom:14px;">
+      <img src="${detailLogo}" style="width:38px; height:38px; border-radius:10px; object-fit:cover; border:1px solid #e2e8f0; padding:3px; background:#fff; flex-shrink:0; box-shadow:0 2px 6px rgba(0,0,0,0.05);" onerror="this.style.display='none'" />
+      <div class="detail-title" style="margin-bottom:0; font-size:17px;">${p.name}</div>
+    </div>
     
     <div class="detail-price-box">
       <div>
