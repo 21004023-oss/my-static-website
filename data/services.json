@@ -1828,6 +1828,15 @@
         "stock_text": "Còn 18",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass"
+      },
+      {
+        "id": "p-1792006811047",
+        "name": "Photoroom Max 7 Ngày BHF",
+        "price": 35000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "7 Ngày",
+        "detail": "Photoroom 7 ngày gói Max\nĐịnh dạng: Email|Web mail"
       }
     ]
   },
@@ -1855,6 +1864,18 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792006811047",
+      "time": "02:40 - 15/10/2026",
+      "timestamp": 1792006811047,
+      "name": "Photoroom Max 7 Ngày BHF",
+      "addedQty": 8,
+      "price": 35000,
+      "stockAfter": 8,
+      "catKey": "khac",
+      "source": "Telegram Python Sync",
+      "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:8📦Tồnkhohiệntại:8💰Giá:35.000đ"
+    },
     {
       "id": "hist-1792003622475",
       "time": "01:47 - 15/10/2026",
@@ -3042,18 +3063,6 @@
       "catKey": "youtube",
       "source": "Telegram Python Sync",
       "msgKey": "▶️SlotYoutubePremium6ThángBHF➕Thêm:2📦Tồnkhohiệntại:547💰Giá:165.000đ"
-    },
-    {
-      "id": "hist-1791931300166",
-      "time": "05:41 - 14/10/2026",
-      "timestamp": 1791931300166,
-      "name": "GMAIL US CỔ DATE 201X-202X 2FA 80% TRIAL",
-      "addedQty": 99,
-      "price": 50000,
-      "stockAfter": 347,
-      "catKey": "gmail",
-      "source": "Telegram Python Sync",
-      "msgKey": "📧GMAILUSCỔDATE201X-202X2FA80%TRIAL➕Thêm:99📦Tồnkhohiệntại:208💰Giá:50.000đ"
     }
   ],
   "bot-tele": {
