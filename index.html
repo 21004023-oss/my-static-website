@@ -1,94 +1,33 @@
 <!DOCTYPE html>
-<html lang="vi" data-theme="light">
+<html lang="vi">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-  <title>Phan Ngô Quốc Bảo - Bảng Giá Dịch Vụ Số & Tài Khoản AI Chính Hãng</title>
+  <title>Bảng Giá Dịch Vụ Số - Bản Quyền Chính Hãng</title>
   
-  <meta name="description" content="Chuyên cung cấp tài khoản YouTube Premium, ChatGPT Plus, Canva Pro, CapCut Pro, API Claude, Cursor, Grok giá tốt nhất, kích hoạt tức thì, bảo hành uy tín." />
-  <meta name="theme-color" content="#090d16" />
-  <meta property="og:title" content="Phan Ngô Quốc Bảo - Dịch Vụ Số & Tài Khoản Bản Quyền AI" />
-  <meta property="og:description" content="Tự động hóa kích hoạt, giá tốt nhất thị trường, bảo hành chu đáo 24/7." />
-  <meta property="og:type" content="website" />
-
-  <!-- Google Fonts -->
+  <meta name="theme-color" content="#0f172a" />
+  <meta property="og:title" content="Bảng Giá Dịch Vụ Số - Bản Quyền Chính Hãng" />
+  <meta property="og:description" content="Cung cấp YouTube Premium, ChatGPT Plus, Canva Pro, CapCut Pro, API AI giá tốt, kích hoạt nhanh và bảo hành uy tín." />
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
-
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  
   <style>
-    /* ========================================================================== */
-    /* 1. COLOR SYSTEM & CSS VARIABLES (LIGHT & DARK THEMES)                      */
-    /* ========================================================================== */
-    :root[data-theme="light"] {
-      --bg-page: #f8fafc;
-      --bg-card: #ffffff;
-      --bg-card-hover: #ffffff;
-      --bg-muted: #f1f5f9;
-      --bg-tag: #e2e8f0;
-      --border: #e2e8f0;
-      --border-focus: #10b981;
-      
-      --text-main: #0f172a;
-      --text-muted: #64748b;
-      --text-light: #94a3b8;
-      
+    :root {
       --primary: #10b981;
       --primary-dark: #059669;
       --primary-light: #ecfdf5;
-      --primary-border: #a7f3d0;
-      
-      --accent-blue: #2563eb;
-      --accent-blue-light: #eff6ff;
-      --accent-amber: #d97706;
-      --accent-rose: #e11d48;
-      --accent-purple: #7c3aed;
-      
-      --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.04);
-      --shadow-md: 0 4px 14px rgba(15, 23, 42, 0.06);
-      --shadow-lg: 0 10px 28px rgba(15, 23, 42, 0.08);
-      --shadow-glow: 0 0 25px rgba(16, 185, 129, 0.15);
-      
-      --topbar-bg: #090d16;
-      --topbar-text: #ffffff;
-      --topbar-border: rgba(255, 255, 255, 0.08);
+      --bg-page: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
+      --shadow-md: 0 4px 14px rgba(0,0,0,0.06);
+      --radius: 12px;
     }
 
-    :root[data-theme="dark"] {
-      --bg-page: #0b0f19;
-      --bg-card: #131b2e;
-      --bg-card-hover: #19233c;
-      --bg-muted: #1c263f;
-      --bg-tag: #253352;
-      --border: #263353;
-      --border-focus: #10b981;
-      
-      --text-main: #f8fafc;
-      --text-muted: #94a3b8;
-      --text-light: #64748b;
-      
-      --primary: #10b981;
-      --primary-dark: #059669;
-      --primary-light: rgba(16, 185, 129, 0.12);
-      --primary-border: rgba(16, 185, 129, 0.3);
-      
-      --accent-blue: #3b82f6;
-      --accent-blue-light: rgba(59, 130, 246, 0.15);
-      --accent-amber: #f59e0b;
-      --accent-rose: #f43f5e;
-      --accent-purple: #a855f7;
-      
-      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
-      --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.4);
-      --shadow-lg: 0 10px 28px rgba(0, 0, 0, 0.5);
-      --shadow-glow: 0 0 25px rgba(16, 185, 129, 0.25);
-      
-      --topbar-bg: #070a12;
-      --topbar-text: #ffffff;
-      --topbar-border: rgba(255, 255, 255, 0.06);
-    }
-
-    /* Reset & Base */
     * {
       box-sizing: border-box;
       margin: 0;
@@ -103,1035 +42,563 @@
       font-size: 14px;
       line-height: 1.5;
       min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      transition: background-color 0.25s ease, color 0.25s ease;
     }
 
-    a { text-decoration: none; color: inherit; }
-    button { font-family: inherit; cursor: pointer; border: none; outline: none; }
-
-    /* Custom Scrollbar */
-    ::-webkit-scrollbar { width: 6px; height: 6px; }
-    ::-webkit-scrollbar-track { background: transparent; }
-    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
-    ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
-
-    /* ========================================================================== */
-    /* 2. HEADER & NAVIGATION                                                     */
-    /* ========================================================================== */
+    /* ============================================================ */
+    /* 1. GIAO DIỆN MÁY TÍNH (DESKTOP) - GIỮ NGUYÊN HOÀN TOÀN      */
+    /* ============================================================ */
     .topbar {
-      background: var(--topbar-bg);
-      color: var(--topbar-text);
-      border-bottom: 1px solid var(--topbar-border);
+      background: #0f172a;
+      color: #fff;
+      padding: 18px 32px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
       position: sticky;
       top: 0;
-      z-index: 100;
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
+      z-index: 50;
     }
-    
     .topbar-content {
-      max-width: 1540px;
+      max-width: 1600px;
       margin: 0 auto;
-      padding: 14px 24px;
       display: flex;
-      align-items: center;
+      flex-wrap: wrap;
       justify-content: space-between;
+      align-items: center;
       gap: 20px;
     }
-
-    .brand-link {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      text-decoration: none;
-      color: inherit;
-    }
-    .brand-logo-badge {
-      width: 42px;
-      height: 42px;
-      border-radius: 12px;
-      background: linear-gradient(135deg, #10b981 0%, #064e3b 100%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 22px;
-      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35);
-      flex-shrink: 0;
-    }
-    .brand-text h1 {
-      font-size: 17px;
+    .brand h1 {
+      font-size: 20px;
       font-weight: 800;
       letter-spacing: -0.02em;
-      color: #ffffff;
       display: flex;
       align-items: center;
       gap: 8px;
     }
-    .brand-text .status-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 5px;
-      font-size: 11px;
-      font-weight: 700;
-      color: #34d399;
-      background: rgba(52, 211, 153, 0.12);
-      border: 1px solid rgba(52, 211, 153, 0.25);
-      padding: 2px 8px;
-      border-radius: 99px;
-      margin-top: 2px;
+    .brand p {
+      color: #94a3b8;
+      font-size: 13px;
+      margin-top: 3px;
     }
-    .status-pill .pulse-dot {
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: #10b981;
-      animation: pulseAnim 1.8s infinite;
-    }
-    @keyframes pulseAnim {
-      0% { transform: scale(0.9); opacity: 0.8; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
-      70% { transform: scale(1.1); opacity: 1; box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
-      100% { transform: scale(0.9); opacity: 0.8; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
-    }
+    .brand p b { color: #34d399; }
 
-    /* Search Box */
     .search-box {
       flex: 1;
-      max-width: 520px;
+      max-width: 460px;
+      min-width: 280px;
       position: relative;
     }
     .search-box input {
       width: 100%;
-      height: 44px;
-      padding: 0 44px 0 44px;
-      border-radius: 12px;
-      border: 1px solid rgba(255, 255, 255, 0.14);
-      background: rgba(255, 255, 255, 0.06);
-      color: #ffffff;
+      padding: 11px 16px 11px 40px;
+      border-radius: 99px;
+      border: 1px solid rgba(255,255,255,0.15);
+      background: rgba(255,255,255,0.08);
+      color: #fff;
       font-size: 13.5px;
       outline: none;
       transition: all 0.2s ease;
     }
     .search-box input:focus {
-      background: rgba(255, 255, 255, 0.12);
-      border-color: #10b981;
-      box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.25);
+      background: #fff;
+      color: #0f172a;
+      box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.3);
     }
-    .search-box input::placeholder {
-      color: #94a3b8;
-    }
-    .search-box .icon-search {
+    .search-box svg {
       position: absolute;
       left: 14px;
       top: 50%;
       transform: translateY(-50%);
       color: #94a3b8;
       pointer-events: none;
-      width: 18px;
-      height: 18px;
-    }
-    .search-box .clear-search-btn {
-      position: absolute;
-      right: 12px;
-      top: 50%;
-      transform: translateY(-50%);
-      background: rgba(255, 255, 255, 0.15);
-      color: #ffffff;
-      border-radius: 50%;
-      width: 20px;
-      height: 20px;
-      display: none;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-      line-height: 1;
     }
 
-    /* Header Actions */
-    .topbar-actions {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-    .contact-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 7px;
-      padding: 9px 16px;
-      border-radius: 10px;
-      font-size: 13px;
-      font-weight: 700;
-      color: #ffffff;
-      background: linear-gradient(135deg, #059669 0%, #10b981 100%);
-      box-shadow: 0 3px 10px rgba(16, 185, 129, 0.3);
-      transition: all 0.2s ease;
-    }
-    .contact-btn:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 5px 15px rgba(16, 185, 129, 0.45);
-    }
-    .theme-toggle-btn {
-      width: 40px;
-      height: 40px;
-      border-radius: 10px;
-      background: rgba(255, 255, 255, 0.08);
-      color: #cbd5e1;
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 18px;
-      transition: all 0.2s ease;
-    }
-    .theme-toggle-btn:hover {
-      background: rgba(255, 255, 255, 0.16);
-      color: #ffffff;
-    }
-
-    /* ========================================================================== */
-    /* 3. HERO & TRUST BANNER                                                     */
-    /* ========================================================================== */
-    .trust-strip {
-      background: var(--bg-card);
-      border-bottom: 1px solid var(--border);
-      padding: 10px 24px;
-    }
-    .trust-container {
-      max-width: 1540px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .trust-item {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 12.5px;
-      font-weight: 600;
-      color: var(--text-muted);
-    }
-    .trust-item strong {
-      color: var(--text-main);
-    }
-    .trust-item .trust-icon {
-      font-size: 15px;
-    }
-
-    /* Notice Marquee Bar */
-    .notice-bar {
-      background: linear-gradient(90deg, rgba(16, 185, 129, 0.08) 0%, rgba(59, 130, 246, 0.08) 100%);
-      border-bottom: 1px solid var(--border);
-      padding: 7px 24px;
-      font-size: 12px;
-      color: var(--text-muted);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      text-align: center;
-    }
-    .notice-bar b { color: var(--primary-dark); }
-
-    /* ========================================================================== */
-    /* 4. MAIN LAYOUT (3 COLUMNS)                                                 */
-    /* ========================================================================== */
     .layout {
-      max-width: 1540px;
-      margin: 20px auto 40px;
-      padding: 0 24px;
+      max-width: 1600px;
+      margin: 24px auto;
+      padding: 0 24px 60px;
       display: grid;
-      grid-template-columns: 280px minmax(0, 1fr) 440px;
+      grid-template-columns: 260px minmax(0, 1fr) 430px;
       gap: 24px;
       align-items: start;
-      flex: 1;
-      width: 100%;
     }
 
-    /* -------------------------------------------------------------------------- */
-    /* CỘT 1: DANH MỤC (CATEGORY SIDEBAR)                                        */
-    /* -------------------------------------------------------------------------- */
+    /* CỘT 1: Danh mục trên Desktop */
     .col-cats {
-      background: var(--bg-card);
-      border-radius: 14px;
+      background: var(--card-bg);
+      border-radius: var(--radius);
       border: 1px solid var(--border);
-      padding: 18px 14px;
+      padding: 16px 12px;
       box-shadow: var(--shadow-sm);
       position: sticky;
-      top: 86px;
-      max-height: calc(100vh - 110px);
+      top: 96px;
+      max-height: calc(100vh - 120px);
       overflow-y: auto;
+      scrollbar-width: thin;
     }
-    .sidebar-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 6px 12px;
-      border-bottom: 1px solid var(--border);
-      margin-bottom: 12px;
-    }
-    .sidebar-header h2 {
-      font-size: 12px;
+    .desktop-cat-title {
+      font-size: 11.5px;
       text-transform: uppercase;
-      letter-spacing: 0.06em;
-      font-weight: 800;
+      letter-spacing: 0.08em;
       color: var(--text-muted);
-    }
-    .sidebar-header .total-badge {
-      font-size: 11px;
+      padding: 0 8px 12px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 10px;
       font-weight: 700;
-      background: var(--bg-muted);
-      color: var(--text-muted);
-      padding: 2px 7px;
-      border-radius: 99px;
+      display: block;
+    }
+    .mobile-cat-toggle {
+      display: none;
     }
 
-    .cat-btn {
+    .cat-item {
       display: flex;
       align-items: center;
       justify-content: space-between;
       width: 100%;
       padding: 10px 12px;
-      border-radius: 10px;
+      border-radius: 8px;
+      border: none;
       background: transparent;
       color: var(--text-main);
       font-size: 13.5px;
       font-weight: 600;
+      cursor: pointer;
       margin-bottom: 4px;
       transition: all 0.15s ease;
       text-align: left;
     }
-    .cat-btn:hover {
-      background: var(--bg-muted);
-      transform: translateX(2px);
-    }
-    .cat-btn.active {
-      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-      color: #ffffff;
-      box-shadow: 0 3px 10px rgba(15, 23, 42, 0.2);
-    }
-    :root[data-theme="dark"] .cat-btn.active {
-      background: linear-gradient(135deg, #059669 0%, #10b981 100%);
-      color: #ffffff;
-      box-shadow: 0 3px 12px rgba(16, 185, 129, 0.3);
-    }
-    .cat-btn .cat-left {
+    .cat-item:hover { background: #f1f5f9; transform: translateX(2px); }
+    .cat-item.active { background: #0f172a; color: #fff; }
+    .cat-item .left {
       display: flex;
       align-items: center;
       gap: 10px;
       min-width: 0;
     }
-    .cat-btn img.cat-icon {
-      width: 22px;
-      height: 22px;
-      border-radius: 6px;
+    .cat-item img {
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
       object-fit: cover;
       flex-shrink: 0;
-      background: #ffffff;
-      padding: 2px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     }
-    .cat-btn .badge-count {
+    .cat-item .badge-count {
       font-size: 11px;
-      font-weight: 700;
-      background: var(--bg-muted);
+      background: #f1f5f9;
       color: var(--text-muted);
-      padding: 2px 8px;
+      padding: 2px 7px;
       border-radius: 99px;
-      flex-shrink: 0;
     }
-    .cat-btn.active .badge-count {
-      background: rgba(255, 255, 255, 0.2);
-      color: #ffffff;
-    }
-
-    /* Mobile toggle */
-    .mobile-cat-header { display: none; }
-
-    /* -------------------------------------------------------------------------- */
-    /* CỘT 2: DANH SÁCH SẢN PHẨM (PRODUCTS LIST)                                  */
-    /* -------------------------------------------------------------------------- */
-    .col-products {
-      min-width: 0;
+    .cat-item.active .badge-count {
+      background: rgba(255,255,255,0.2);
+      color: #fff;
     }
 
-    /* Filter & Controls Bar */
-    .products-toolbar {
+    /* CỘT 2: Danh sách sản phẩm Desktop */
+    .col-products { min-width: 0; }
+    .section-header {
       display: flex;
-      align-items: center;
       justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-bottom: 16px;
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 12px 18px;
-      box-shadow: var(--shadow-sm);
-    }
-    .toolbar-left {
-      display: flex;
-      align-items: baseline;
-      gap: 8px;
-    }
-    .toolbar-left h2 {
-      font-size: 18px;
-      font-weight: 800;
-      color: var(--text-main);
-      letter-spacing: -0.01em;
-    }
-    .toolbar-left .plans-count {
-      font-size: 12.5px;
-      font-weight: 600;
-      color: var(--text-muted);
-    }
-    .toolbar-right {
-      display: flex;
       align-items: center;
-      gap: 10px;
+      margin-bottom: 14px;
+      padding: 0 4px;
     }
-    .sort-select {
-      background: var(--bg-muted);
-      border: 1px solid var(--border);
-      color: var(--text-main);
-      padding: 6px 12px;
-      border-radius: 8px;
-      font-size: 12px;
-      font-weight: 600;
-      outline: none;
-      cursor: pointer;
-    }
+    .section-header h2 { font-size: 18px; font-weight: 800; color: var(--text-main); }
+    .section-header span { font-size: 13px; color: var(--text-muted); font-weight: 600; }
 
-    /* Plan Cards */
     .plan-card {
-      background: var(--bg-card);
+      background: var(--card-bg);
       border: 1px solid var(--border);
-      border-radius: 14px;
+      border-radius: var(--radius);
       margin-bottom: 12px;
       cursor: pointer;
       box-shadow: var(--shadow-sm);
-      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      transition: all 0.2s ease;
       overflow: hidden;
-      position: relative;
     }
     .plan-card:hover {
       border-color: #94a3b8;
       box-shadow: var(--shadow-md);
-      transform: translateY(-2px);
     }
     .plan-card.selected {
       border-color: var(--primary);
-      box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.25), var(--shadow-md);
-      background: var(--bg-card-hover);
-    }
-    .plan-card.selected::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      width: 4px;
-      background: var(--primary);
+      box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.25);
     }
 
     .plan-card-body {
       padding: 16px 20px;
       display: flex;
-      align-items: center;
       justify-content: space-between;
-      gap: 18px;
+      align-items: center;
+      gap: 16px;
     }
-    .plan-left {
-      flex: 1;
-      min-width: 0;
-    }
+    .plan-card .p-left { flex: 1; min-width: 0; }
     .plan-title {
       font-size: 15px;
       font-weight: 700;
       color: var(--text-main);
       line-height: 1.4;
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 6px;
     }
-    .plan-tags {
+    .plan-sub {
       display: flex;
       flex-wrap: wrap;
-      gap: 6px;
+      gap: 7px;
       margin-top: 8px;
     }
     .tag {
-      font-size: 11px;
-      font-weight: 700;
-      padding: 3px 8px;
+      font-size: 11.5px;
+      font-weight: 600;
+      padding: 2.5px 8px;
       border-radius: 6px;
-      background: var(--bg-muted);
-      color: var(--text-muted);
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
+      background: #f1f5f9;
+      color: #475569;
     }
     .tag.in-stock {
       background: var(--primary-light);
       color: var(--primary-dark);
-      border: 1px solid var(--primary-border);
+      border: 1px solid #a7f3d0;
     }
     .tag.out-stock {
-      background: rgba(239, 68, 68, 0.1);
-      color: #dc2626;
-      border: 1px solid rgba(239, 68, 68, 0.25);
-    }
-    .tag.duration {
-      background: var(--accent-blue-light);
-      color: var(--accent-blue);
-      border: 1px solid rgba(59, 130, 246, 0.2);
+      background: #fee2e2;
+      color: #b91c1c;
+      border: 1px solid #fecaca;
     }
 
-    .plan-right {
-      text-align: right;
-      flex-shrink: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-    }
-    .plan-price {
-      font-size: 19px;
-      font-weight: 800;
-      color: var(--primary-dark);
-      letter-spacing: -0.02em;
-    }
-    :root[data-theme="dark"] .plan-price {
-      color: #34d399;
-    }
-    .btn-view-detail {
-      margin-top: 6px;
-      font-size: 11.5px;
+    .plan-card .p-right { text-align: right; flex-shrink: 0; }
+    .plan-price { font-size: 18px; font-weight: 800; color: var(--primary-dark); }
+    .view-btn {
+      margin-top: 5px;
+      font-size: 12px;
       font-weight: 700;
       color: var(--text-muted);
       display: flex;
       align-items: center;
+      justify-content: flex-end;
       gap: 4px;
-      background: var(--bg-muted);
-      padding: 3px 10px;
-      border-radius: 6px;
-      transition: all 0.15s ease;
     }
-    .plan-card:hover .btn-view-detail,
-    .plan-card.selected .btn-view-detail {
-      background: var(--primary-light);
-      color: var(--primary-dark);
-    }
+    .plan-card.selected .view-btn { color: var(--primary-dark); }
 
     .plan-accordion { display: none; }
 
-    /* -------------------------------------------------------------------------- */
-    /* CỘT 3: CHI TIẾT SẢN PHẨM & CHỐT ĐƠN (CHECKOUT PANEL)                      */
-    /* -------------------------------------------------------------------------- */
+    /* CỘT 3: Chi tiết mô tả Desktop */
     .col-detail {
-      background: var(--bg-card);
-      border-radius: 14px;
+      background: var(--card-bg);
+      border-radius: var(--radius);
       border: 1px solid var(--border);
-      padding: 22px;
+      padding: 24px;
       box-shadow: var(--shadow-sm);
       position: sticky;
-      top: 86px;
-    }
-    .detail-category-badge {
-      font-size: 11.5px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--accent-blue);
-      margin-bottom: 6px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
+      top: 96px;
     }
     .detail-title {
       font-size: 18px;
       font-weight: 800;
       color: var(--text-main);
       line-height: 1.4;
-      margin-bottom: 14px;
     }
-    
-    .detail-price-card {
-      background: var(--bg-muted);
+    .detail-price-box {
+      margin: 14px 0 18px;
+      padding: 14px 18px;
+      background: #f8fafc;
+      border-radius: 10px;
       border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 16px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 18px;
     }
-    .detail-price-card .label {
-      font-size: 12px;
-      font-weight: 600;
-      color: var(--text-muted);
-      display: block;
-    }
-    .detail-price-card .price-val {
-      font-size: 24px;
-      font-weight: 800;
-      color: var(--primary-dark);
-      letter-spacing: -0.02em;
-    }
-    :root[data-theme="dark"] .detail-price-card .price-val {
-      color: #34d399;
-    }
-
-    /* Specs Grid */
-    .spec-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px;
-      margin-bottom: 18px;
-    }
-    .spec-item {
-      background: var(--bg-muted);
-      border-radius: 8px;
-      padding: 8px 12px;
-      border: 1px solid var(--border);
-    }
-    .spec-item .spec-label {
-      font-size: 11px;
-      color: var(--text-muted);
-      display: block;
-    }
-    .spec-item .spec-val {
+    .detail-price-val { font-size: 22px; font-weight: 800; color: var(--primary-dark); }
+    .detail-stock-badge {
       font-size: 12.5px;
       font-weight: 700;
-      color: var(--text-main);
-      margin-top: 2px;
+      padding: 4px 10px;
+      border-radius: 6px;
     }
+    .detail-stock-badge.in-stock { background: #ecfdf5; color: #059669; border: 1px solid #a7f3d0; }
+    .detail-stock-badge.out-stock { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
 
-    /* Description Box */
-    .desc-wrapper {
-      margin-bottom: 20px;
-    }
-    .desc-header {
-      font-size: 12px;
+    .desc-wrapper { margin-bottom: 20px; }
+    .desc-label {
+      font-size: 12.5px;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      color: var(--text-muted);
-      margin-bottom: 8px;
+      color: #2563eb;
+      margin-bottom: 10px;
       display: flex;
       align-items: center;
       gap: 6px;
     }
     .desc-box {
-      background: var(--bg-muted);
+      background: #f8fafc;
       border: 1px solid var(--border);
       border-radius: 10px;
-      padding: 14px 16px;
-      font-size: 13px;
-      line-height: 1.7;
-      color: var(--text-main);
+      padding: 16px 18px;
+      font-size: 13.5px;
+      line-height: 1.8;
+      color: #334155;
       white-space: pre-line;
       word-break: break-word;
-      max-height: 280px;
+      max-height: 420px;
       overflow-y: auto;
     }
-    .desc-box a {
-      color: var(--accent-blue);
+    .desc-box a.desc-link {
+      color: #0284c7;
       font-weight: 700;
       text-decoration: underline;
+      word-break: break-all;
     }
 
-    /* CTAs Buttons */
-    .cta-stack {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .btn-buy-primary {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      width: 100%;
-      background: linear-gradient(135deg, #059669 0%, #10b981 100%);
-      color: #ffffff;
-      padding: 14px 20px;
-      border-radius: 12px;
-      font-size: 15px;
-      font-weight: 800;
-      box-shadow: 0 4px 16px rgba(16, 185, 129, 0.35);
-      transition: all 0.2s ease;
-      text-decoration: none;
-    }
-    .btn-buy-primary:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(16, 185, 129, 0.45);
-    }
-    .btn-tele-secondary {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      width: 100%;
-      background: #0284c7;
-      color: #ffffff;
-      padding: 11px 18px;
-      border-radius: 10px;
-      font-size: 13.5px;
-      font-weight: 700;
-      transition: all 0.2s ease;
-      text-decoration: none;
-    }
-    .btn-tele-secondary:hover {
-      background: #0369a1;
-    }
-
-    .guarantee-note {
-      font-size: 11.5px;
-      color: var(--text-muted);
-      text-align: center;
-      margin-top: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 5px;
-    }
-
-    /* ========================================================================== */
-    /* 5. FOOTER                                                                 */
-    /* ========================================================================== */
-    .site-footer {
-      background: var(--topbar-bg);
-      color: #94a3b8;
-      border-top: 1px solid var(--topbar-border);
-      padding: 36px 24px 24px;
-      margin-top: auto;
-    }
-    .footer-container {
-      max-width: 1540px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: 2fr 1fr 1fr;
-      gap: 32px;
-      padding-bottom: 24px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    }
-    .footer-col h3 {
-      font-size: 15px;
-      font-weight: 800;
-      color: #ffffff;
-      margin-bottom: 12px;
-    }
-    .footer-col p {
+    .spec-list {
+      margin-bottom: 22px;
       font-size: 13px;
-      line-height: 1.6;
-      margin-bottom: 10px;
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
     }
-    .footer-col ul {
-      list-style: none;
-    }
-    .footer-col ul li {
-      font-size: 13px;
-      margin-bottom: 8px;
-    }
-    .footer-bottom {
-      max-width: 1540px;
-      margin: 20px auto 0;
+    .spec-row {
       display: flex;
-      align-items: center;
       justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-      font-size: 12px;
-      color: #64748b;
+      padding: 8px 0;
+      border-bottom: 1px solid #f1f5f9;
     }
+    .spec-row span:first-child { color: var(--text-muted); }
+    .spec-row span:last-child { font-weight: 600; color: var(--text-main); }
 
-    /* Floating Action Buttons (Mobile) */
-    .floating-fab {
-      display: none;
-      position: fixed;
-      right: 16px;
-      bottom: 20px;
-      z-index: 99;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .fab-btn {
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    .btn-buy-zalo {
+      display: block;
+      width: 100%;
+      background: var(--primary-dark);
       color: #fff;
-      font-size: 20px;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      text-decoration: none;
+      text-align: center;
+      font-weight: 700;
+      font-size: 15px;
+      padding: 14px;
+      border-radius: 10px;
+      box-shadow: 0 4px 14px rgba(5, 150, 105, 0.25);
       transition: all 0.2s ease;
     }
-    .fab-zalo { background: #059669; }
-    .fab-top { background: #1e293b; font-size: 16px; }
+    .btn-buy-zalo:hover { background: #047857; }
 
-    /* ========================================================================== */
-    /* 6. RESPONSIVE DESIGN (MOBILE & TABLET)                                    */
-    /* ========================================================================== */
-    @media (max-width: 1024px) {
-      .layout {
-        grid-template-columns: 240px minmax(0, 1fr);
+    /* ============================================================ */
+    /* 2. GIAO DIỆN RIÊNG CHO ĐIỆN THOẠI (THU / MỞ DANH MỤC MOBILE) */
+    /* ============================================================ */
+    @media(max-width: 768px) {
+      .topbar {
+        padding: 8px 12px;
+        position: sticky;
+        top: 0;
       }
-      .col-detail {
-        display: none !important;
-      }
-      .plan-accordion {
-        display: none;
-      }
-      .plan-card.active-mobile .plan-accordion {
-        display: block;
-      }
-    }
-
-    @media (max-width: 768px) {
       .topbar-content {
-        padding: 10px 14px;
-        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
       }
-      .brand-logo-badge {
-        width: 34px;
-        height: 34px;
-        font-size: 18px;
+      .brand { flex: 1; min-width: 0; }
+      .brand h1 {
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
-      .brand-text h1 {
-        font-size: 14.5px;
-      }
-      .topbar-actions .contact-btn {
-        display: none;
-      }
+      .brand p { display: none; }
+
       .search-box {
-        order: 3;
-        width: 100%;
-        max-width: 100%;
-        margin-top: 4px;
+        max-width: 150px;
+        min-width: 130px;
       }
       .search-box input {
-        height: 38px;
-        font-size: 12.5px;
+        padding: 6px 10px 6px 28px;
+        font-size: 12px;
+        border-radius: 6px;
       }
-
-      .trust-strip {
-        padding: 8px 14px;
-        overflow-x: auto;
-      }
-      .trust-container {
-        flex-wrap: nowrap;
-        gap: 16px;
-      }
-      .trust-item {
-        white-space: nowrap;
-        font-size: 11.5px;
-      }
+      .search-box svg { left: 8px; width: 12px; height: 12px; }
 
       .layout {
         grid-template-columns: 1fr;
-        padding: 0 12px;
-        margin-top: 10px;
-        gap: 12px;
+        padding: 0 10px 30px;
+        margin: 8px auto;
+        gap: 8px;
       }
 
-      /* Mobile Horizontal Categories */
+      /* Khung danh mục trên Mobile */
       .col-cats {
         position: sticky;
-        top: 104px;
+        top: 48px;
         z-index: 40;
-        background: var(--bg-card);
-        border: 1px solid var(--border);
-        border-radius: 12px;
-        padding: 10px 12px;
         max-height: none;
         overflow: visible;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        padding: 0;
       }
-      .sidebar-header { display: none; }
-      
-      .mobile-cat-header {
+      .desktop-cat-title { display: none !important; }
+
+      .mobile-cat-toggle {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        background: #ffffff;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 8px 12px;
         cursor: pointer;
-        font-size: 13.5px;
-        font-weight: 700;
+        font-size: 13px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.04);
       }
-      .mobile-cat-header .m-active-name {
-        color: var(--primary-dark);
+      .m-cat-left {
         display: flex;
         align-items: center;
         gap: 6px;
       }
-      .mobile-cat-header .m-arrow {
-        font-size: 12px;
-        background: var(--bg-muted);
+      .m-cat-left strong {
+        color: var(--primary-dark);
+        font-weight: 800;
+        font-size: 13.5px;
+      }
+      .m-toggle-icon {
+        font-size: 11px;
+        font-weight: 700;
+        color: var(--text-muted);
+        background: #f1f5f9;
         padding: 3px 8px;
         border-radius: 6px;
-        color: var(--text-muted);
       }
 
       #catsContainer {
         display: none;
-        margin-top: 10px;
-        padding-top: 10px;
-        border-top: 1px solid var(--border);
+        margin-top: 6px;
+        background: #ffffff;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 8px;
+        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
         max-height: 240px;
         overflow-y: auto;
-        gap: 6px;
         flex-wrap: wrap;
+        gap: 6px;
       }
       #catsContainer.show-mobile {
         display: flex !important;
-      }
-      .cat-btn {
-        width: auto;
-        padding: 6px 12px;
-        border-radius: 8px;
-        font-size: 12px;
-        background: var(--bg-muted);
-        border: 1px solid var(--border);
-      }
-      .cat-btn.active {
-        background: var(--primary-dark);
-        color: #ffffff;
-      }
-      .cat-btn .badge-count {
-        display: none;
+        animation: dropDown 0.2s ease;
       }
 
-      /* Products list mobile */
-      .products-toolbar {
-        padding: 8px 12px;
-        margin-bottom: 8px;
+      @keyframes dropDown {
+        from { opacity: 0; transform: translateY(-4px); }
+        to { opacity: 1; transform: translateY(0); }
       }
-      .toolbar-left h2 { font-size: 15px; }
+
+      .cat-item {
+        width: auto;
+        padding: 5px 11px;
+        border-radius: 6px;
+        background: #f8fafc;
+        border: 1px solid var(--border);
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 0;
+      }
+      .cat-item.active {
+        background: #0f172a;
+        color: #fff;
+        border-color: #0f172a;
+      }
+      .cat-item img { display: inline-block; width: 14px; height: 14px; }
+      .cat-item .badge-count { display: none; }
+
+      .section-header {
+        margin-bottom: 6px;
+        padding: 0 2px;
+      }
+      .section-header h2 { font-size: 14px; font-weight: 700; }
+      .section-header span { font-size: 11.5px; }
 
       .plan-card {
-        border-radius: 10px;
-        margin-bottom: 8px;
+        margin-bottom: 6px;
+        border-radius: 8px;
       }
       .plan-card-body {
-        padding: 10px 14px;
-        gap: 12px;
+        padding: 9px 12px;
+        gap: 10px;
+        align-items: center;
       }
       .plan-title {
         font-size: 13.5px;
+        line-height: 1.35;
+        font-weight: 600;
       }
-      .plan-price {
-        font-size: 15px;
+      .plan-sub { display: flex; gap: 5px; margin-top: 4px; }
+      .tag { font-size: 10px; padding: 1.5px 5px; border-radius: 4px; }
+
+      .plan-card .p-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+      }
+      .plan-price { font-size: 14.5px; font-weight: 800; }
+      .view-btn {
+        margin-top: 2px;
+        font-size: 10.5px;
+        color: var(--primary-dark);
       }
 
-      /* Mobile Accordion */
+      .col-detail { display: none !important; }
+
       .plan-accordion {
+        display: none;
         border-top: 1px dashed var(--border);
-        padding: 14px;
-        background: var(--bg-muted);
+        padding: 12px 14px;
+        background: #fbfcfe;
       }
-      .plan-accordion .spec-grid {
-        grid-template-columns: 1fr;
-        gap: 6px;
-        margin-bottom: 12px;
-      }
+      .plan-card.active-mobile .plan-accordion { display: block; }
+      .plan-accordion .desc-wrapper { margin-bottom: 10px; }
+      .plan-accordion .desc-label { font-size: 11px; margin-bottom: 6px; }
       .plan-accordion .desc-box {
-        max-height: none;
+        padding: 10px 12px;
         font-size: 12.5px;
+        line-height: 1.6;
+        max-height: none;
+      }
+      .plan-accordion .spec-list {
+        margin-bottom: 12px;
+        font-size: 12px;
+        padding-top: 8px;
+      }
+      .plan-accordion .spec-row { padding: 4px 0; }
+      .plan-accordion .btn-buy-zalo {
         padding: 10px;
-        margin-bottom: 14px;
+        font-size: 13.5px;
+        border-radius: 8px;
       }
-
-      .footer-container {
-        grid-template-columns: 1fr;
-        gap: 20px;
-      }
-      .floating-fab { display: flex; }
     }
   </style>
 </head>
 <body>
 
-<!-- 1. TOPBAR & BRANDING -->
 <header class="topbar">
   <div class="topbar-content">
-    <a href="./" class="brand-link">
-      <div class="brand-logo-badge">⚡</div>
-      <div class="brand-text">
-        <h1>QUỐC BẢO DIGITAL</h1>
-        <div class="status-pill">
-          <span class="pulse-dot"></span>
-          <span>KÍCH HOẠT TỰ ĐỘNG 24/7</span>
-        </div>
-      </div>
-    </a>
-
-    <!-- SEARCH BAR -->
-    <div class="search-box">
-      <svg class="icon-search" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-      <input id="searchInp" placeholder="Tìm kiếm ChatGPT, YouTube, Canva, CapCut..." autocomplete="off" />
-      <button class="clear-search-btn" id="clearSearchBtn" onclick="clearSearch()">✕</button>
+    <div class="brand">
+      <h1>⚡ BẢNG GIÁ DỊCH VỤ SỐ</h1>
+      <p>Đặt mua qua Zalo: <b>0373 996 379</b> · Hỗ trợ 8:00 – 23:00</p>
     </div>
-
-    <!-- ACTIONS -->
-    <div class="topbar-actions">
-      <a href="https://zalo.me/0373996379" target="_blank" rel="noreferrer" class="contact-btn">
-        <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.82.49 3.53 1.34 5L2 22l5.18-1.31C8.62 21.52 10.26 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg>
-        <span>Zalo: 0373 996 379</span>
-      </a>
-      <button class="theme-toggle-btn" onclick="toggleTheme()" id="themeBtn" title="Chuyển chế độ sáng/tối">
-        ☀️
-      </button>
+    <div class="search-box">
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      <input id="searchInp" placeholder="Tìm nhanh dịch vụ..." autocomplete="off" />
     </div>
   </div>
 </header>
 
-<!-- 2. TRUST & VALUE STRIP -->
-<div class="trust-strip">
-  <div class="trust-container">
-    <div class="trust-item">
-      <span class="trust-icon">🛡️</span>
-      <span><strong>Bảo Hành 1 Đổi 1:</strong> Uy tín full thời gian</span>
-    </div>
-    <div class="trust-item">
-      <span class="trust-icon">⚡</span>
-      <span><strong>Kích Hoạt Nhanh:</strong> Bàn giao trong 3 – 10 phút</span>
-    </div>
-    <div class="trust-item">
-      <span class="trust-icon">💎</span>
-      <span><strong>100% Bản Quyền:</strong> Không lo mất tài khoản</span>
-    </div>
-    <div class="trust-item">
-      <span class="trust-icon">💬</span>
-      <span><strong>Hỗ Trợ 24/7:</strong> Tư vấn qua Zalo & Telegram</span>
-    </div>
-  </div>
-</div>
-
-<!-- NOTICE BAR -->
-<div class="notice-bar">
-  <span>🔥 <b>Mới cập nhật:</b> Tài khoản Veo 3 Ultra, Claude Sonnet 3.5 & ChatGPT Plus sẵn sàng kích hoạt ngay!</span>
-</div>
-
-<!-- 3. MAIN 3-COLUMN LAYOUT -->
 <main class="layout">
   <!-- CỘT 1: DANH MỤC -->
   <aside class="col-cats">
-    <div class="sidebar-header">
-      <h2>Danh Mục Dịch Vụ</h2>
-      <span class="total-badge" id="totalCatsCount">0 mục</span>
-    </div>
+    <h2 class="desktop-cat-title">Danh mục dịch vụ</h2>
 
-    <!-- Mobile Category Dropdown Header -->
-    <div class="mobile-cat-header" onclick="toggleMobileCats()">
-      <div class="m-active-name">
-        <span>📂 Danh mục:</span>
+    <div class="mobile-cat-toggle" onclick="toggleMobileCats()">
+      <div class="m-cat-left">
+        <span>📂 Mục:</span>
         <strong id="mActiveCatName">Đang tải...</strong>
       </div>
-      <span class="m-arrow" id="mArrowIcon">Đổi mục ▾</span>
+      <span class="m-toggle-icon" id="mToggleIcon">Đổi mục ▾</span>
     </div>
 
     <div id="catsContainer"></div>
@@ -1139,82 +606,26 @@
 
   <!-- CỘT 2: DANH SÁCH SẢN PHẨM -->
   <section class="col-products">
-    <div class="products-toolbar">
-      <div class="toolbar-left">
-        <h2 id="currentCatTitle">Đang tải dịch vụ...</h2>
-        <span class="plans-count" id="currentCatCount">(0 gói)</span>
-      </div>
-      <div class="toolbar-right">
-        <select class="sort-select" id="sortSelect" onchange="handleSortChange()">
-          <option value="name_asc">Sắp xếp: Tên A → Z</option>
-          <option value="price_asc">Giá: Thấp đến Cao</option>
-          <option value="price_desc">Giá: Cao đến Thấp</option>
-          <option value="stock">Chỉ gói còn hàng</option>
-        </select>
-      </div>
+    <div class="section-header">
+      <h2 id="currentCatTitle">...</h2>
+      <span id="currentCatCount">0 gói</span>
     </div>
-
     <div id="plansContainer"></div>
   </section>
 
-  <!-- CỘT 3: CHI TIẾT SẢN PHẨM & CHỐT ĐƠN (DESKTOP) -->
+  <!-- CỘT 3: CHI TIẾT SẢN PHẨM (MÁY TÍNH) -->
   <aside class="col-detail" id="detailPanel">
     <div id="detailContent">
-      <div style="color:var(--text-muted); text-align:center; padding:60px 0; font-size:13.5px;">
-        <span style="font-size:32px; display:block; margin-bottom:12px;">👆</span>
-        Nhấp chọn một gói dịch vụ để xem mô tả chi tiết & đặt mua
+      <div style="color:var(--text-muted); text-align:center; padding:45px 0; font-size:14px;">
+        Chọn một sản phẩm để xem mô tả chi tiết & đặt mua
       </div>
     </div>
   </aside>
 </main>
 
-<!-- 4. FOOTER -->
-<footer class="site-footer">
-  <div class="footer-container">
-    <div class="footer-col">
-      <h3>QUỐC BẢO DIGITAL</h3>
-      <p>Hệ thống cung cấp tài khoản công nghệ AI, đồ họa, giải trí và bản quyền số chính hãng giá tốt nhất. Kích hoạt tự động, an toàn và bảo mật thông tin khách hàng tuyệt đối.</p>
-      <p>📍 <strong>Zalo Hỗ Trợ:</strong> 0373 996 379 (8:00 – 23:30 hàng ngày)</p>
-    </div>
-    <div class="footer-col">
-      <h3>CAM KẾT DỊCH VỤ</h3>
-      <ul>
-        <li>✓ Bảo hành 1 đổi 1 suốt thời gian sử dụng</li>
-        <li>✓ Kích hoạt nhanh chóng trong 5 - 10 phút</li>
-        <li>✓ Hoàn tiền 100% nếu tài khoản lỗi không khắc phục được</li>
-        <li>✓ Hỗ trợ kỹ thuật tận tâm, hướng dẫn từ A - Z</li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <h3>HÌNH THỨC THANH TOÁN</h3>
-      <p>Hỗ trợ quét mã VietQR tự động qua tất cả các ngân hàng Việt Nam, MoMo và Thẻ Quốc Tế.</p>
-      <div style="font-size:12px; background:rgba(255,255,255,0.06); padding:8px 12px; border-radius:8px; border:1px solid rgba(255,255,255,0.1);">
-        ⚡ Quét mã thanh toán nhận tài khoản siêu tốc
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <div>© 2026 phanngoquocbao.id.vn · Bản quyền thuộc về Phan Ngô Quốc Bảo.</div>
-    <div>Phiên bản Pro Storefront v3.0 Live</div>
-  </div>
-</footer>
-
-<!-- FLOATING ACTION BUTTONS (MOBILE) -->
-<div class="floating-fab">
-  <a href="https://zalo.me/0373996379" target="_blank" rel="noreferrer" class="fab-btn fab-zalo" title="Chat Zalo">
-    💬
-  </a>
-  <button class="fab-btn fab-top" onclick="window.scrollTo({top:0, behavior:'smooth'})" title="Lên đầu trang">
-    ↑
-  </button>
-</div>
-
-<!-- ========================================================================== -->
-<!-- 5. JAVASCRIPT LOGIC                                                        -->
-<!-- ========================================================================== */
 <script>
 var ZALO = '0373996379';
-var D = {}, curCat = '', selPlan = null, kw = '', currentSort = 'name_asc';
+var D = {}, curCat = '', selPlan = null, kw = '';
 
 var LOGO = {
   'youtube': 'https://www.google.com/s2/favicons?domain=youtube.com&sz=64',
@@ -1231,46 +642,23 @@ var LOGO = {
   'gmail': 'https://www.google.com/s2/favicons?domain=gmail.com&sz=64'
 };
 
-// 1. THEME LOGIC (LIGHT / DARK)
-function applySavedTheme() {
-  const saved = localStorage.getItem('site_theme') || 'light';
-  document.documentElement.setAttribute('data-theme', saved);
-  updateThemeButton(saved);
-}
-
-function toggleTheme() {
-  const current = document.documentElement.getAttribute('data-theme') || 'light';
-  const next = current === 'dark' ? 'light' : 'dark';
-  document.documentElement.setAttribute('data-theme', next);
-  localStorage.setItem('site_theme', next);
-  updateThemeButton(next);
-}
-
-function updateThemeButton(theme) {
-  const btn = document.getElementById('themeBtn');
-  if (btn) btn.textContent = theme === 'dark' ? '🌙' : '☀️';
-}
-
-// 2. MONEY FORMATTER
 function money(n) {
   n = Number(n || 0);
   return n === 0 ? 'Liên hệ' : n.toLocaleString('vi-VN') + 'đ';
 }
 
-// 3. STOCK INFO HELPER
 function getStockInfo(p) {
   var s = p.stock;
   if (s === -1 || s === '∞' || s === '-1') {
-    return { tag: '🟢 Còn hàng (∞)', isOut: false, badgeText: '✓ Sẵn sàng kích hoạt (Vô cực ∞)' };
+    return { tag: 'Còn hàng (∞)', isOut: false, badgeText: '✓ Sẵn hàng kích hoạt (∞)' };
   }
   var num = Number(s || 0);
   if (num > 0) {
-    return { tag: '📦 Còn ' + num, isOut: false, badgeText: '✓ Sẵn hàng trong kho: Còn ' + num + ' tài khoản' };
+    return { tag: 'Còn ' + num, isOut: false, badgeText: '✓ Còn ' + num + ' tài khoản' };
   }
-  return { tag: '🔴 Tạm hết', isOut: true, badgeText: '⚠ Tạm hết hàng (Liên hệ để đặt trước)' };
+  return { tag: 'Tạm hết', isOut: true, badgeText: '⚠ Tạm hết hàng' };
 }
 
-// 4. FORMAT DETAIL TEXT (CLICKABLE LINKS)
 function formatDetail(text) {
   if (!text) return 'Sản phẩm đang được cập nhật thông tin mô tả chi tiết.';
   var safe = text
@@ -1287,14 +675,13 @@ function formatDetail(text) {
     if (!/^https?:\/\//i.test(href)) {
       href = 'https://' + href;
     }
-    return `<a href="${href}" target="_blank" rel="noopener noreferrer">${cleanUrl}</a>${trailing}`;
+    return `<a href="${href}" target="_blank" rel="noopener noreferrer" class="desc-link">${cleanUrl}</a>${trailing}`;
   });
 }
 
-// 5. MOBILE CATEGORY ACCORDION
 function toggleMobileCats() {
   var box = document.getElementById('catsContainer');
-  var icon = document.getElementById('mArrowIcon');
+  var icon = document.getElementById('mToggleIcon');
   if (!box) return;
   var isOpen = box.classList.toggle('show-mobile');
   if (icon) {
@@ -1304,23 +691,23 @@ function toggleMobileCats() {
 
 function closeMobileCats() {
   var box = document.getElementById('catsContainer');
-  var icon = document.getElementById('mArrowIcon');
+  var icon = document.getElementById('mToggleIcon');
   if (box) box.classList.remove('show-mobile');
   if (icon) icon.textContent = 'Đổi mục ▾';
 }
 
-// 6. LOAD DATA FROM GITHUB
 function loadData() {
   fetch('./data/services.json?t=' + new Date().getTime(), { cache: 'no-store' })
     .then(r => r.json())
     .then(data => {
       D = data || {};
-      var keys = Object.keys(D).filter(k => !k.startsWith('_'));
+      var keys = Object.keys(D);
       if (keys.length) {
         curCat = keys[0];
         var visiblePlans = (D[curCat].plans || []).filter(p => !p.hidden);
         if (visiblePlans.length) {
-          selPlan = visiblePlans.slice().sort((a,b) => (a.name||'').localeCompare(b.name||'', 'vi', { numeric: true }))[0];
+          var sortedFirst = visiblePlans.slice().sort((a,b) => (a.name||'').localeCompare(b.name||'', 'vi', { numeric: true }));
+          selPlan = sortedFirst[0];
         } else {
           selPlan = null;
         }
@@ -1328,7 +715,7 @@ function loadData() {
       render();
     })
     .catch(() => {
-      document.getElementById('plansContainer').innerHTML = '<div style="padding:40px;text-align:center;color:#ef4444;font-size:14px;">Chưa tải được dữ liệu data/services.json. Vui lòng tải lại trang!</div>';
+      document.getElementById('plansContainer').innerHTML = '<div style="padding:40px;text-align:center;color:#ef4444;font-size:14px;">Chưa tải được dữ liệu data/services.json. Vui lòng kiểm tra lại file!</div>';
     });
 }
 
@@ -1338,49 +725,38 @@ function render() {
   renderDetail();
 }
 
-// 7. RENDER CATEGORIES
 function renderCategories() {
   var c = document.getElementById('catsContainer');
   c.innerHTML = '';
-
-  var keys = Object.keys(D).filter(k => !k.startsWith('_'));
-  var totalCatsBadge = document.getElementById('totalCatsCount');
-  if (totalCatsBadge) totalCatsBadge.textContent = `${keys.length} mục`;
 
   var mName = document.getElementById('mActiveCatName');
   if (mName && D[curCat]) {
     mName.textContent = D[curCat].name;
   }
 
-  keys.forEach(k => {
+  Object.keys(D).forEach(k => {
     var it = D[k];
     var btn = document.createElement('button');
-    btn.className = 'cat-btn' + (k === curCat && !kw ? ' active' : '');
+    btn.className = 'cat-item' + (k === curCat && !kw ? ' active' : '');
     var logoUrl = it.logo || LOGO[k] || '';
     
     var imgHtml = logoUrl 
-      ? `<img src="${logoUrl}" class="cat-icon" onerror="this.style.display='none'" />` 
-      : `<span style="font-size:12px;width:20px;text-align:center">❖</span>`;
-
-    var visibleCount = (it.plans || []).filter(function(p){ return !p.hidden; }).length;
+      ? `<img src="${logoUrl}" onerror="this.style.display='none'" />` 
+      : `<span style="font-size:12px;width:16px;text-align:center">❖</span>`;
 
     btn.innerHTML = `
-      <div class="cat-left">
-        ${imgHtml}
-        <span>${it.name}</span>
-      </div>
-      <span class="badge-count">${visibleCount}</span>
+      <div class="left">${imgHtml}<span>${it.name}</span></div>
+      <span class="badge-count">${(it.plans || []).filter(function(p){ return !p.hidden; }).length}</span>
     `;
 
     btn.onclick = () => {
       kw = '';
       document.getElementById('searchInp').value = '';
-      document.getElementById('clearSearchBtn').style.display = 'none';
       curCat = k;
-      
       var visibleK = (D[k].plans || []).filter(p => !p.hidden);
       if (visibleK.length) {
-        selPlan = visibleK.slice().sort((a,b) => (a.name||'').localeCompare(b.name||'', 'vi', { numeric: true }))[0];
+        var sorted = visibleK.slice().sort((a,b) => (a.name||'').localeCompare(b.name||'', 'vi', { numeric: true }));
+        selPlan = sorted[0];
       } else {
         selPlan = null;
       }
@@ -1391,77 +767,59 @@ function renderCategories() {
   });
 }
 
-// 8. RENDER PLANS (WITH SORTING & FILTERING)
 function renderPlans() {
   var container = document.getElementById('plansContainer');
   container.innerHTML = '';
 
-  var targetPlans = [];
-
-  // SEARCH MODE
   if (kw) {
-    Object.keys(D).filter(k => !k.startsWith('_')).forEach(k => {
-      (D[k].plans || []).filter(p => !p.hidden).forEach(p => {
+    var found = [];
+    Object.keys(D).forEach(k => {
+      (D[k].plans || []).filter(function(p) { return !p.hidden; }).forEach(p => {
         var str = ((p.name || '') + ' ' + (p.detail || '') + ' ' + (p.source || '')).toLowerCase();
-        if (str.indexOf(kw) !== -1) {
-          targetPlans.push({ catName: D[k].name, plan: p });
-        }
+        if (str.indexOf(kw) !== -1) found.push({ catName: D[k].name, plan: p });
       });
     });
 
-    document.getElementById('currentCatTitle').textContent = `Kết quả tìm kiếm: "${kw}"`;
-    document.getElementById('currentCatCount').textContent = `(${targetPlans.length} gói)`;
+    // Sắp xếp kết quả tìm kiếm theo tên A-Z
+    found.sort((a, b) => (a.plan.name || '').localeCompare(b.plan.name || '', 'vi', { numeric: true }));
 
-    if (!targetPlans.length) {
-      container.innerHTML = '<div style="padding:48px 20px;text-align:center;color:var(--text-muted);background:var(--bg-card);border:1px dashed var(--border);border-radius:14px;">Không tìm thấy gói nào phù hợp với từ khóa trên.</div>';
+    document.getElementById('currentCatTitle').textContent = `Kết quả: "${kw}"`;
+    document.getElementById('currentCatCount').textContent = `${found.length} gói`;
+
+    if (!found.length) {
+      container.innerHTML = '<div style="padding:40px;text-align:center;color:#64748b">Không tìm thấy gói nào phù hợp.</div>';
       return;
     }
-  } 
-  // CATEGORY VIEW MODE
-  else {
-    var cat = D[curCat];
-    if (!cat) return;
-    document.getElementById('currentCatTitle').textContent = cat.name;
 
-    (cat.plans || []).filter(p => !p.hidden).forEach(p => {
-      targetPlans.push({ catName: cat.name, plan: p });
+    found.forEach(item => {
+      container.appendChild(createPlanCard(item.catName, item.plan));
     });
-  }
-
-  // APPLY SORTING
-  if (currentSort === 'name_asc') {
-    targetPlans.sort((a, b) => (a.plan.name || '').localeCompare(b.plan.name || '', 'vi', { numeric: true }));
-  } else if (currentSort === 'price_asc') {
-    targetPlans.sort((a, b) => Number(a.plan.price || 0) - Number(b.plan.price || 0));
-  } else if (currentSort === 'price_desc') {
-    targetPlans.sort((a, b) => Number(b.plan.price || 0) - Number(a.plan.price || 0));
-  } else if (currentSort === 'stock') {
-    targetPlans = targetPlans.filter(item => {
-      var s = item.plan.stock;
-      return s === -1 || s === '∞' || Number(s || 0) > 0;
-    });
-  }
-
-  if (!kw) {
-    document.getElementById('currentCatCount').textContent = `(${targetPlans.length} gói)`;
-  }
-
-  if (!targetPlans.length) {
-    container.innerHTML = '<div style="padding:48px 20px;text-align:center;color:var(--text-muted);background:var(--bg-card);border:1px dashed var(--border);border-radius:14px;">Danh mục này hiện chưa có gói nào sẵn hàng.</div>';
     return;
   }
 
-  targetPlans.forEach(item => {
-    container.appendChild(createPlanCard(item.catName, item.plan));
+  var cat = D[curCat];
+  if (!cat) return;
+
+  document.getElementById('currentCatTitle').textContent = cat.name;
+
+  // SẮP XẾP SẢN PHẨM THEO TÊN (A -> Z)
+  var plans = (cat.plans || []).filter(function(p) { return !p.hidden; }).slice();
+  plans.sort(function(a, b) {
+    return (a.name || '').localeCompare(b.name || '', 'vi', { sensitivity: 'base', numeric: true });
+  });
+
+  document.getElementById('currentCatCount').textContent = `${plans.length} gói`;
+
+  if (!plans.length) {
+    container.innerHTML = '<div style="padding:40px;text-align:center;color:#64748b">Danh mục này hiện chưa có gói nào.</div>';
+    return;
+  }
+
+  plans.forEach(p => {
+    container.appendChild(createPlanCard(cat.name, p));
   });
 }
 
-function handleSortChange() {
-  currentSort = document.getElementById('sortSelect').value;
-  renderPlans();
-}
-
-// 9. CREATE PRODUCT CARD
 function createPlanCard(catName, p) {
   var card = document.createElement('div');
   var isSelected = selPlan && selPlan.id === p.id;
@@ -1470,69 +828,68 @@ function createPlanCard(catName, p) {
 
   var stock = getStockInfo(p);
   var stockHtml = `<span class="tag ${stock.isOut ? 'out-stock' : 'in-stock'}">${stock.tag}</span>`;
-  var durationHtml = p.duration ? `<span class="tag duration">⏱️ ${p.duration}</span>` : '';
   var zaloMsg = encodeURIComponent(`Chào shop, mình muốn mua gói [${catName}] ${p.name} giá ${money(p.price)}. Còn hàng không shop?`);
 
   card.innerHTML = `
     <div class="plan-card-body">
-      <div class="plan-left">
-        <div class="plan-title">
-          <span>${p.name}</span>
-        </div>
-        <div class="plan-tags">
-          ${durationHtml}
-          ${p.source ? `<span class="tag">🛡️ ${p.source}</span>` : ''}
+      <div class="p-left">
+        <div class="plan-title">${p.name}</div>
+        <div class="plan-sub">
+          ${p.duration ? `<span class="tag">${p.duration}</span>` : ''}
+          ${p.source ? `<span class="tag">${p.source}</span>` : ''}
           ${stockHtml}
         </div>
       </div>
-      <div class="plan-right">
+      <div class="p-right">
         <div class="plan-price">${money(p.price)}</div>
-        <div class="btn-view-detail">Chi tiết ▾</div>
+        <div class="view-btn">Chi tiết ▾</div>
       </div>
     </div>
 
-    <!-- ACCORDION FOR MOBILE -->
+    <!-- KHUNG MÔ TẢ BUNG TẠI CHỖ KHI BẤM (MOBILE) -->
     <div class="plan-accordion">
-      <div class="spec-grid">
-        <div class="spec-item"><span class="spec-label">Thời hạn:</span><span class="spec-val">${p.duration || 'Theo gói'}</span></div>
-        <div class="spec-item"><span class="spec-label">Bảo hành:</span><span class="spec-val">${p.source || 'Bảo hành uy tín'}</span></div>
-      </div>
-
       <div class="desc-wrapper">
-        <div class="desc-header">📋 Mô tả & Hướng dẫn:</div>
+        <div class="desc-label">
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+          Mô tả gói dịch vụ
+        </div>
         <div class="desc-box">${formatDetail(p.detail)}</div>
       </div>
 
-      <div class="cta-stack">
-        <a href="https://zalo.me/${ZALO}?text=${zaloMsg}" target="_blank" rel="noreferrer" class="btn-buy-primary">
-          <span>🛒 Đặt Mua Qua Zalo (${money(p.price)})</span>
-        </a>
+      <div class="spec-list">
+        <div class="spec-row"><span>Thời hạn:</span><span>${p.duration || 'Theo gói'}</span></div>
+        <div class="spec-row"><span>Hình thức:</span><span>${p.source || 'Chính chủ'}</span></div>
       </div>
+
+      <a href="https://zalo.me/${ZALO}?text=${zaloMsg}" target="_blank" rel="noreferrer" class="btn-buy-zalo">
+        Đặt Mua Qua Zalo (${money(p.price)})
+      </a>
     </div>
   `;
 
   card.onclick = (e) => {
     if (e.target.closest('a')) return;
+
     selPlan = p;
 
-    // Desktop
-    if (window.innerWidth > 1024) {
+    // Desktop: cập nhật cột 3 bên phải
+    if (window.innerWidth > 768) {
       document.querySelectorAll('.plan-card').forEach(el => el.classList.remove('selected'));
       card.classList.add('selected');
       renderDetail(catName);
     } 
-    // Mobile & Tablet
+    // Mobile: bung accordion ngay tại chỗ
     else {
       var isAlreadyActive = card.classList.contains('active-mobile');
       document.querySelectorAll('.plan-card').forEach(el => {
         el.classList.remove('active-mobile');
-        var btn = el.querySelector('.btn-view-detail');
+        var btn = el.querySelector('.view-btn');
         if (btn) btn.textContent = 'Chi tiết ▾';
       });
 
       if (!isAlreadyActive) {
         card.classList.add('active-mobile');
-        var btn = card.querySelector('.btn-view-detail');
+        var btn = card.querySelector('.view-btn');
         if (btn) btn.textContent = 'Thu gọn ▴';
       }
     }
@@ -1541,16 +898,10 @@ function createPlanCard(catName, p) {
   return card;
 }
 
-// 10. RENDER DETAIL PANEL (DESKTOP)
 function renderDetail(catName) {
   var panel = document.getElementById('detailContent');
   if (!selPlan) {
-    if (panel) panel.innerHTML = `
-      <div style="color:var(--text-muted); text-align:center; padding:60px 0; font-size:13.5px;">
-        <span style="font-size:32px; display:block; margin-bottom:12px;">👆</span>
-        Nhấp chọn một gói dịch vụ để xem mô tả chi tiết & đặt mua
-      </div>
-    `;
+    if (panel) panel.innerHTML = '<div style="padding:40px;text-align:center;color:#64748b;font-size:13px;">Chưa chọn gói dịch vụ nào hoặc gói đã tạm ẩn.</div>';
     return;
   }
 
@@ -1560,94 +911,42 @@ function renderDetail(catName) {
   var zaloMsg = encodeURIComponent(`Chào shop, mình muốn mua gói [${catName}] ${p.name} giá ${money(p.price)}. Còn hàng không shop?`);
 
   panel.innerHTML = `
-    <div class="detail-category-badge">
-      <span>❖ ${catName}</span>
-    </div>
-    
     <div class="detail-title">${p.name}</div>
     
-    <div class="detail-price-card">
+    <div class="detail-price-box">
       <div>
-        <span class="label">Giá niêm yết chính hãng:</span>
-        <div class="price-val">${money(p.price)}</div>
+        <span style="font-size:12px;color:var(--text-muted);display:block">Giá dịch vụ</span>
+        <div class="detail-price-val">${money(p.price)}</div>
       </div>
-      <div class="tag ${stock.isOut ? 'out-stock' : 'in-stock'}" style="font-size:12px; padding:6px 12px;">
-        ${stock.tag}
-      </div>
+      <div class="detail-stock-badge ${stock.isOut ? 'out-stock' : 'in-stock'}">${stock.badgeText}</div>
     </div>
 
-    <!-- SPECS -->
-    <div class="spec-grid">
-      <div class="spec-item">
-        <span class="spec-label">Thời gian sử dụng:</span>
-        <div class="spec-val">⏱️ ${p.duration || 'Theo chu kỳ gói'}</div>
-      </div>
-      <div class="spec-item">
-        <span class="spec-label">Chính sách bảo hành:</span>
-        <div class="spec-val">🛡️ ${p.source || 'Bảo hành chu đáo'}</div>
-      </div>
-      <div class="spec-item">
-        <span class="spec-label">Tình trạng tài khoản:</span>
-        <div class="spec-val">⚡ Cấp mới / Kích hoạt nhanh</div>
-      </div>
-      <div class="spec-item">
-        <span class="spec-label">Hỗ trợ kỹ thuật:</span>
-        <div class="spec-val">💬 24/7 qua Zalo/Telegram</div>
-      </div>
-    </div>
-
-    <!-- DESCRIPTION -->
     <div class="desc-wrapper">
-      <div class="desc-header">
+      <div class="desc-label">
         <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-        <span>Mô tả chi tiết & quyền lợi gói:</span>
+        Mô tả chi tiết sản phẩm
       </div>
       <div class="desc-box">${formatDetail(p.detail)}</div>
     </div>
 
-    <!-- DUAL ACTION BUTTONS -->
-    <div class="cta-stack">
-      <a href="https://zalo.me/${ZALO}?text=${zaloMsg}" target="_blank" rel="noreferrer" class="btn-buy-primary">
-        <span>🛒 ĐẶT MUA QUA ZALO (${money(p.price)})</span>
-      </a>
+    <div class="spec-list">
+      <div class="spec-row"><span>Danh mục:</span><span>${catName}</span></div>
+      <div class="spec-row"><span>Thời hạn:</span><span>${p.duration || 'Theo gói'}</span></div>
+      <div class="spec-row"><span>Hình thức:</span><span>${p.source || 'Chính chủ'}</span></div>
     </div>
 
-    <div class="guarantee-note">
-      <span>🛡️ Cam kết: Hoàn tiền 100% nếu tài khoản lỗi không thể bảo hành</span>
-    </div>
+    <a href="https://zalo.me/${ZALO}?text=${zaloMsg}" target="_blank" rel="noreferrer" class="btn-buy-zalo">
+      Đặt Mua Qua Zalo (${money(p.price)})
+    </a>
   `;
 }
 
-// 11. SEARCH EVENTS
-const searchInp = document.getElementById('searchInp');
-const clearSearchBtn = document.getElementById('clearSearchBtn');
-
-searchInp.addEventListener('input', function(e) {
+document.getElementById('searchInp').addEventListener('input', function(e) {
   kw = e.target.value.trim().toLowerCase();
-  clearSearchBtn.style.display = kw ? 'flex' : 'none';
   renderPlans();
 });
 
-function clearSearch() {
-  searchInp.value = '';
-  kw = '';
-  clearSearchBtn.style.display = 'none';
-  renderPlans();
-}
-
-// Keyboard Shortcut: Ctrl + K or / to focus search
-document.addEventListener('keydown', function(e) {
-  if ((e.ctrlKey && e.key === 'k') || (e.key === '/' && document.activeElement !== searchInp)) {
-    e.preventDefault();
-    searchInp.focus();
-  }
-});
-
-// INITIALIZE
-document.addEventListener('DOMContentLoaded', () => {
-  applySavedTheme();
-  loadData();
-});
+document.addEventListener('DOMContentLoaded', loadData);
 </script>
 </body>
 </html>
