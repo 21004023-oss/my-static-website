@@ -654,6 +654,15 @@
         "stock_text": "Còn 14",
         "duration": "7 Ngày",
         "detail": "🛒 CÁCH ĐẶT HÀNG\n✅ Trước khi gửi Gmail:\n- Đóng hồ sơ thanh toán: https://payments.google.com/gp/w/home/settings\n- Kiểm tra Family: http://g.co/yourfamily\n❗ Gmail không được nằm trong Family khác.\n📩 BOT báo thành công → gửi Gmail cho Admin → vào link Family và bấm “Tham gia”.\n✅ Có vô hạn Flow Credit 1 tháng, hiển thị tối đa 25k credit, credit sẽ được refill trong cứ mỗi 30-45 phút và khi hết credit, thời gian từ 10h-22h giờ Việt Nam\n⚠️ LƯU Ý\n- Đổi Gmail : 10% /1 lần ( hạn chế đổi mail vì family limit lời mời )\n- Chỉ hoàn tiền khi Shop không bảo hành được gói Ultra cho khách hoặc không thể refill credit còn thiếu cho khách - Cơ chế hoàn tiền theo ngày còn lại của gói mua\n--------------\nXem hướng dẫn tham gia : https://drive.google.com/drive/folders/1KLpqDMJpHfEwD4146EaJaCBlNTMmuQO9?usp=drive_link\n⚠️GOOGLE đã dừng triển khai model Veo 3 Lower Priority, đọc kĩ cảnh báo này, shop sẽ không hoàn tiền.\n⏱️ Xử lý tối đa 24h từ lúc mua hàng , nếu đồng ý thì mua hàng, vì lượng đơn hàng lớn. Xin đừng hối thúc shop. Xin cảm ơn !"
+      },
+      {
+        "id": "p-1791979128181",
+        "name": "Veo Omni 1 Tháng BH 1 Ngày",
+        "price": 45000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản Veo Omni 1 tháng\nBảo hành: 1 ngày\nTạo video tại: Vids.new (trang website chính thức của Google)\nĐịnh dạng tài khoản: Tài khoản|Mật khẩu\nTạo được 200 video/tháng\nLog 1 thiết bị, chỉ hỗ trợ get OTP 1 lần, không hỗ trợ khi gặp lỗi quét QR thiết bị\nĐăng nhập vào được tài khoản vui lòng tạo 2FA để tránh gặp lỗi quét thiết bị\nLấy mã OTP Số điện thoại tại:  veoomniotp_bot"
       }
     ]
   },
@@ -1730,6 +1739,18 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1791979128181",
+      "time": "18:58 - 14/10/2026",
+      "timestamp": 1791979128181,
+      "name": "Veo Omni 1 Tháng BH 1 Ngày",
+      "addedQty": 2,
+      "price": 45000,
+      "stockAfter": 2,
+      "catKey": "google-veo",
+      "source": "Telegram Python Sync",
+      "msgKey": "🔍VeoOmni1ThángBH1Ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:45.000đ"
+    },
     {
       "id": "hist-1791979060671",
       "time": "18:57 - 14/10/2026",
@@ -2917,18 +2938,6 @@
       "catKey": "microsoft",
       "source": "Telegram Python Sync",
       "msgKey": "⭐ADMINMS365PREMIUM1TB5SLOT1NĂMBHF➕Thêm:1📦Tồnkhohiệntại:7💰Giá:300.000đ"
-    },
-    {
-      "id": "hist-1791914630270",
-      "time": "01:03 - 14/10/2026",
-      "timestamp": 1791914630270,
-      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
-      "addedQty": 24,
-      "price": 33000,
-      "stockAfter": 24,
-      "catKey": "capcut",
-      "source": "Telegram Python Sync",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:24📦Tồnkhohiệntại:10💰Giá:33.000đ"
     }
   ],
   "bot-tele": {
