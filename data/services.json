@@ -1938,12 +1938,12 @@
         "stock": 18,
         "stock_text": "Còn 18",
         "duration": "1 Tháng",
-        "detail": "Gói Meitu SVIP 1 Tháng BHF bảo hành uy tín.",
+        "detail": "⚠️ LƯU Ý QUAN TRỌNG\n📱 Chỉ sử dụng trên 01 thiết bị iPhone/iOS\n🔐 Quy định sử dụng:\n• Đăng nhập trong vòng 30 phút kể từ lúc mua.\n• Không đăng xuất tài khoản sau khi đăng nhập.\n• Không chia sẻ tài khoản, không đổi mật khẩu/thông tin tài khoản.\n• Không đăng nhập nhiều thiết bị.\n➡️ Vi phạm bất kỳ quy định nào sẽ không được bảo hành.\n🍎 Hướng dẫn đăng nhập iPhone/iOS:\nThông thường không cần mã xác nhận. Chọn +852 hoặc +86, nhập SĐT + mật khẩu rồi đăng nhập.\n👆 Xem ảnh hướng dẫn đăng nhập phía trên.\n🛠 Nếu bị lỗi: chụp màn hình tình trạng lỗi ngay sau khi đăng nhập và gửi cho shop để được hỗ trợ.",
         "sources": {
           "piggyai99_bot": {
             "stock": 9,
             "cost_price": 75000,
-            "updated": "06:02 15/10/2026"
+            "updated": "06:09 15/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 9,
@@ -1978,6 +1978,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792019370669",
+      "time": "06:09 - 15/10/2026",
+      "timestamp": 1792019370669,
+      "name": "Meitu SVIP 1 Tháng BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 9,
+      "addedQty": 852,
+      "price": 75000,
+      "stockAfter": 18,
+      "catKey": "khac",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "✨MeituSVIP1ThángBHF💰Giá:75k📦Tồnkho:9tàikhoản📊Đãbán:425tàikhoản💎Môtả:⚠️LƯUÝQUANTR"
+    },
     {
       "id": "hist-1792019164059",
       "time": "06:06 - 15/10/2026",
@@ -3205,18 +3219,6 @@
       "catKey": "khac",
       "source": "Telegram Python Sync",
       "msgKey": "🎵TiktokViệtngâmtrên1Năm➕Thêm:10📦Tồnkhohiệntại:9💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1791952453245",
-      "time": "11:34 - 14/10/2026",
-      "timestamp": 1791952453245,
-      "name": "Tiktok Việt ngâm trên 1 Năm",
-      "addedQty": 10,
-      "price": 85000,
-      "stockAfter": 10,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "🎵TiktokViệtngâmtrên1Năm➕Thêm:10📦Tồnkhohiệntại:9💰Giá:85.000đ"
     }
   ],
   "bot-tele": {
