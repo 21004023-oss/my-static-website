@@ -2443,6 +2443,23 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792061006617",
+        "name": "Wink VIP 30 ngày BHF",
+        "price": 90000,
+        "stock": 9,
+        "stock_text": "Còn 9",
+        "duration": "1 Tháng",
+        "detail": "LƯU Ý: Chỉ sử dụng trên 01 thiết bị. Không chia sẻ tài khoản, không đổi mật khẩu/thông tin tài khoản. Trường hợp đăng nhập nhiều thiết bị hoặc vi phạm quy định sẽ không được bảo hành. Có lỗi vui lòng liên hệ shop để được hỗ trợ.( dùng cho ip)",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 9,
+            "cost_price": 90000,
+            "updated": "17:43 15/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -2470,6 +2487,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792061006617",
+      "time": "17:43 - 15/10/2026",
+      "timestamp": 1792061006617,
+      "name": "Wink VIP 30 ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 9,
+      "addedQty": 9,
+      "price": 90000,
+      "stockAfter": 9,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐WinkVIP30ngàyBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:90.000đ"
+    },
     {
       "id": "hist-1792058056150",
       "time": "16:54 - 15/10/2026",
@@ -3833,18 +3864,6 @@
       "catKey": "khac",
       "source": "Telegram Python Sync",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:12💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1791998879660",
-      "time": "00:27 - 15/10/2026",
-      "timestamp": 1791998879660,
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "addedQty": 10,
-      "price": 35000,
-      "stockAfter": 24,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:12💰Giá:35.000đ"
     }
   ],
   "bot-tele": {
