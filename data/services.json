@@ -2208,6 +2208,23 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792039571963",
+        "name": "Thông báo từ Admin:",
+        "price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Thông báo từ Admin: bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "updated": "11:46 15/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -2235,6 +2252,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792039571964",
+      "time": "11:46 - 15/10/2026",
+      "timestamp": 1792039571964,
+      "name": "Thông báo từ Admin:",
+      "bot": "taphoathomap_bot",
+      "shopStock": 0,
+      "addedQty": 0,
+      "price": 0,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📣ThôngbáotừAdmin:🔥GIẢMGIÁCỰCSỐC–CHATGPTPLUS🔥🚀CHATGPTPLUS–BH30NGÀYCHỈ240K(9.2$)🚀C"
+    },
     {
       "id": "hist-1792038919545",
       "time": "11:35 - 15/10/2026",
@@ -3546,18 +3577,6 @@
       "catKey": "capcut",
       "source": "Telegram Python Sync",
       "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:10📦Tồnkhohiệntại:15💰Giá:38.000đ"
-    },
-    {
-      "id": "hist-1791979523715",
-      "time": "19:05 - 14/10/2026",
-      "timestamp": 1791979523715,
-      "name": "CODE KÍCH HOẠT YOUTUBE PREMIUM 3 THÁNG BẢO HÀNH FULL",
-      "addedQty": 13,
-      "price": 89000,
-      "stockAfter": 28,
-      "catKey": "youtube",
-      "source": "Telegram Python Sync",
-      "msgKey": "▶️CODEKÍCHHOẠTYOUTUBEPREMIUM3THÁNGBẢOHÀNHFULL💰Giá:89k📦Tồnkho:13tàikhoản📊Đãbán:8t"
     }
   ],
   "bot-tele": {
