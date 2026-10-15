@@ -706,6 +706,23 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792054905088",
+        "name": "CHAT GPT TRIAL NO OFFER PLUS GMAIL CSLIVE",
+        "price": 25000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Tháng",
+        "detail": "-Khi mua về nhớ change 2FA.\n- Bảo hành Offer 24h, Quá 24h shop không giải quyết.\n- AE tự bảo quản acc sau khi mua nhé.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 4,
+            "cost_price": 25000,
+            "updated": "16:01 15/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -2436,6 +2453,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792054905088",
+      "time": "16:01 - 15/10/2026",
+      "timestamp": 1792054905088,
+      "name": "CHAT GPT TRIAL NO OFFER PLUS GMAIL CSLIVE",
+      "bot": "ntnshopre_bot",
+      "shopStock": 4,
+      "addedQty": 4,
+      "price": 25000,
+      "stockAfter": 4,
+      "catKey": "chatgpt",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🤖CHATGPTTRIALNOOFFERPLUSGMAILCSLIVE➕Thêm:4📦Tồnkhohiệntại:4💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1792053747236",
       "time": "15:42 - 15/10/2026",
       "timestamp": 1792053747236,
@@ -3792,18 +3823,6 @@
       "catKey": "chatgpt",
       "source": "Telegram Python Sync",
       "msgKey": "🤖CHATGPTPLUS30NGÀY(BH24H)➕Thêm:3📦Tồnkhohiệntại:0💰Giá:190.000đ"
-    },
-    {
-      "id": "hist-1791994478958",
-      "time": "23:14 - 14/10/2026",
-      "timestamp": 1791994478958,
-      "name": "ChatGPT Plus GGPay 30D BH 24H",
-      "addedQty": 12,
-      "price": 200000,
-      "stockAfter": 98,
-      "catKey": "chatgpt",
-      "source": "Telegram Python Sync",
-      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:12📦Tồnkhohiệntại:42💰Giá:200.000đ"
     }
   ],
   "bot-tele": {
