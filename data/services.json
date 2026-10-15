@@ -2705,12 +2705,12 @@
         "stock": 23,
         "stock_text": "Còn 23",
         "duration": "1 Tháng",
-        "detail": "Gói Clone Facebook Novery Name Việt KBH bảo hành uy tín.",
+        "detail": "Định dạng: UID|PASSWORD|COOKIE|EMAIL|NAME|USER_AGENT|DATE|STATUS\n- Khách hàng nên Login bằng Cookie -> Nhấn tôi không nhận được mã -> Change thông tin.\n- Tài khoản có thể Bị (Checkpoint, selfie) % rất thấp, khách hàng cân nhắc trước khi mua.\n- Sau khi mua shop không chịu trách nhiệm về tài khoản.\n- Nên mở tab mới và IP mới để tránh bị khóa, mọi tài khoản đẩy lên shop đều live.",
         "sources": {
           "sieuthistore_bot": {
             "stock": 23,
             "cost_price": 10000,
-            "updated": "23:53 15/10/2026"
+            "updated": "23:55 15/10/2026"
           }
         },
         "hidden": false
@@ -2741,6 +2741,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792083325025",
+      "time": "23:55 - 15/10/2026",
+      "timestamp": 1792083325025,
+      "name": "Clone Facebook Novery Name Việt KBH",
+      "bot": "sieuthistore_bot",
+      "shopStock": 23,
+      "addedQty": 0,
+      "price": 10000,
+      "stockAfter": 23,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐CloneFacebookNoveryNameViệtKBH💰Giá:10k📦Tồnkho:23tàikhoản📊Đãbán:68tàikhoản💎Môtả:"
+    },
     {
       "id": "hist-1792083188888",
       "time": "23:53 - 15/10/2026",
@@ -4126,20 +4140,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🤖ChatgptPlusApplePay1thángBHF➕Thêm:42📦Tồnkhohiệntại:105💰Giá:320.000đ"
-    },
-    {
-      "id": "hist-1792020140570",
-      "time": "06:22 - 15/10/2026",
-      "timestamp": 1792020140570,
-      "name": "ChatGPT Plus 4 Tháng - BH 10 Ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 10,
-      "addedQty": 10,
-      "price": 550000,
-      "stockAfter": 10,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlus4Tháng-BH10Ngày➕Thêm:10📦Tồnkhohiệntại:10💰Giá:550.000đ"
     }
   ],
   "bot-tele": {
