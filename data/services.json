@@ -2243,6 +2243,23 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792043307697",
+        "name": "KEY HMA AND/PC 20-30 DAYS",
+        "price": 10000,
+        "stock": 49,
+        "stock_text": "Còn 49",
+        "duration": "1 Tháng",
+        "detail": "Gói KEY HMA AND/PC 20-30 DAYS bảo hành uy tín.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 49,
+            "cost_price": 10000,
+            "updated": "12:48 15/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -2270,6 +2287,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792043307697",
+      "time": "12:48 - 15/10/2026",
+      "timestamp": 1792043307697,
+      "name": "KEY HMA AND/PC 20-30 DAYS",
+      "bot": "ntnshopre_bot",
+      "shopStock": 49,
+      "addedQty": 0,
+      "price": 10000,
+      "stockAfter": 49,
+      "catKey": "khac",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "⭐KEYHMAAND/PC20-30DAYS💰Giá:10k📦Tồnkho:49tàikhoản📊Đãbán:542tàikhoản"
+    },
     {
       "id": "hist-1792039693338",
       "time": "11:48 - 15/10/2026",
@@ -3589,18 +3620,6 @@
       "catKey": "capcut",
       "source": "Telegram Python Sync",
       "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:185.000đ"
-    },
-    {
-      "id": "hist-1791981670799",
-      "time": "19:41 - 14/10/2026",
-      "timestamp": 1791981670799,
-      "name": "CAPCUT PRO 3 THÁNG BHF",
-      "addedQty": 3,
-      "price": 155000,
-      "stockAfter": 12,
-      "catKey": "capcut",
-      "source": "Telegram Python Sync",
-      "msgKey": "✂️CAPCUTPRO3THÁNGBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:155.000đ"
     }
   ],
   "bot-tele": {
