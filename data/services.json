@@ -2569,6 +2569,23 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792072180486",
+        "name": "Chương trình giới thiệu bạn bè",
+        "price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Chương trình giới thiệu bạn bè bảo hành uy tín.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "updated": "20:49 15/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -2596,6 +2613,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792072180486",
+      "time": "20:49 - 15/10/2026",
+      "timestamp": 1792072180486,
+      "name": "Chương trình giới thiệu bạn bè",
+      "bot": "ntnshopre_bot",
+      "shopStock": 0,
+      "addedQty": 0,
+      "price": 0,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🎁Chươngtrìnhgiớithiệubạnbè•Chiasẻlinkbotkèmmãgiớithiệucủabạn.•Khingườiđượcmờiphá"
+    },
     {
       "id": "hist-1792070431190",
       "time": "20:20 - 15/10/2026",
@@ -3981,20 +4012,6 @@
       "catKey": "capcut",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:9📦Tồnkhohiệntại:28💰Giá:38.000đ"
-    },
-    {
-      "id": "hist-1792018977948",
-      "time": "06:02 - 15/10/2026",
-      "timestamp": 1792018977948,
-      "name": "KASPERSKY PREMIUM + VPN 1 NĂM (BH 300 ngày)",
-      "bot": "ntnshopre_bot",
-      "shopStock": 33,
-      "addedQty": 0,
-      "price": 165000,
-      "stockAfter": 33,
-      "catKey": "khac",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "⭐KASPERSKYPREMIUM+VPN1NĂM(BH300ngày)💰Giá:165k📦Tồnkho:33tàikhoản📊Đãbán:241tàikhoả"
     }
   ],
   "bot-tele": {
