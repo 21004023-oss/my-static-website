@@ -628,6 +628,24 @@
             "updated": "07:11 15/10/2026"
           }
         }
+      },
+      {
+        "id": "p-1792033585741",
+        "name": "ChatGPT Ver Students Plus 4 Tháng KBH",
+        "price": 300000,
+        "stock": 12,
+        "stock_text": "Còn 12",
+        "duration": "4 Tháng",
+        "detail": "Gói ChatGPT Ver Students Plus 4 Tháng KBH bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 12,
+            "cost_price": 300000,
+            "updated": "10:06 15/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -2084,6 +2102,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792033585741",
+      "time": "10:06 - 15/10/2026",
+      "timestamp": 1792033585741,
+      "name": "ChatGPT Ver Students Plus 4 Tháng KBH",
+      "bot": "piggyai99_bot",
+      "shopStock": 12,
+      "addedQty": 2,
+      "price": 300000,
+      "stockAfter": 12,
+      "catKey": "chatgpt",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🤖ChatGPTVerStudentsPlus4ThángKBH➕Thêm:2📦Tồnkhohiệntại:12💰Giá:300.000đ"
+    },
+    {
       "id": "hist-1792033581629",
       "time": "10:06 - 15/10/2026",
       "timestamp": 1792033581629,
@@ -3358,18 +3390,6 @@
       "catKey": "khac",
       "source": "Telegram Python Sync",
       "msgKey": "⭐Seedance400~600credit1Ngày-BH1H➕Thêm:37📦Tồnkhohiệntại:0💰Giá:5.000đ"
-    },
-    {
-      "id": "hist-1791966869465",
-      "time": "15:34 - 14/10/2026",
-      "timestamp": 1791966869465,
-      "name": "Akool Starter 200 cre 1 tháng ( BH 12H )",
-      "addedQty": 2,
-      "price": 115000,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "⭐AkoolStarter200cre1tháng(BH12H)➕Thêm:2📦Tồnkhohiệntại:5💰Giá:115.000đ"
     }
   ],
   "bot-tele": {
