@@ -2144,6 +2144,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792093865277",
+        "name": "Gmail Random 200X~2023 Có 2FA",
+        "price": 35000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Định dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H - Login thành công hết bảo hành\n- Gmail đã nuôi khá lâu rồi nên gmail khá khoẻ\n+ Lưu ý:\n- Hãy dùng proxy , và IP máy riêng để login Gmail , tránh tình trạng GG quét hàng loạt.\n-Sau 48H hãy thay đổi thông , đá thiết bị cũ, Để bảo mật tài sản của mình. ( Gmail cổ điều bảo mật thông tin là quan trọng nhất )",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 0,
+            "cost_price": 35000,
+            "updated": "02:51 16/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -2942,6 +2960,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792093865281",
+      "time": "02:51 - 16/10/2026",
+      "timestamp": 1792093865281,
+      "name": "Gmail Random 200X~2023 Có 2FA",
+      "bot": "taphoathomap_bot",
+      "shopStock": 0,
+      "addedQty": 26,
+      "price": 35000,
+      "stockAfter": 0,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:26📦Tồnkhohiệntại:0💰Giá:35.000đ"
+    },
     {
       "id": "hist-1792093859673",
       "time": "02:50 - 16/10/2026",
@@ -4327,20 +4359,6 @@
       "catKey": "khac",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🦈SURFSHARKVPNANDROI/PC/IOS7NGÀYBHF➕Thêm:6📦Tồnkhohiệntại:7💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792034129867",
-      "time": "10:15 - 15/10/2026",
-      "timestamp": 1792034129867,
-      "name": "ChatGPT Ver Students Plus 4 Tháng KBH",
-      "bot": "piggyai99_bot",
-      "shopStock": 12,
-      "addedQty": 2,
-      "price": 300000,
-      "stockAfter": 12,
-      "catKey": "chatgpt",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🤖ChatGPTVerStudentsPlus4ThángKBH➕Thêm:2📦Tồnkhohiệntại:12💰Giá:300.000đ"
     }
   ],
   "bot-tele": {
