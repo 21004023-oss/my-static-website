@@ -2390,6 +2390,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792052819376",
+        "name": "Meitu Vip+ 7 Ngày  BHF",
+        "price": 25000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "Meitu SVIP(VIP+) 7 Ngày login 1 thiết bị, nếu đăng nhập trên điện thoại lỗi thì có thể đăng nhập sử dụng trên PC, Mac\n- Định dạng: (Email|Pass Hotmail|Pass Meitu) Token\n- Pass Meitu mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\n・Link tải Meitu cho máy tính Windows\nhttps://meitu.vi.uptodown.com/windows\n・Link tải Meitu cho máy tính Mac OS\nhttps://meitu.vi.uptodown.com/mac\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU TÀI KHOẢN VẪN CÒN GÓI",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 25000,
+            "updated": "15:26 15/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -2417,6 +2435,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792052819378",
+      "time": "15:26 - 15/10/2026",
+      "timestamp": 1792052819378,
+      "name": "Meitu Vip+ 7 Ngày  BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 3,
+      "addedQty": 3,
+      "price": 25000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "✨MeituVip+7NgàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:25.000đ"
+    },
     {
       "id": "hist-1792052472670",
       "time": "15:21 - 15/10/2026",
@@ -3770,18 +3802,6 @@
       "catKey": "chatgpt",
       "source": "Telegram Python Sync",
       "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:12📦Tồnkhohiệntại:42💰Giá:240.000đ"
-    },
-    {
-      "id": "hist-1791993142500",
-      "time": "22:52 - 14/10/2026",
-      "timestamp": 1791993142500,
-      "name": "API CODEX ASTRA6 100$ TOKEN 1 THÁNG BHF",
-      "addedQty": 2,
-      "price": 230000,
-      "stockAfter": 2,
-      "catKey": "api-claude-codex",
-      "source": "Telegram Python Sync",
-      "msgKey": "⭐APICODEXASTRA6100$TOKEN1THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:12💰Giá:230.000đ"
     }
   ],
   "bot-tele": {
