@@ -1486,10 +1486,17 @@
         "id": "p-1791958427941",
         "name": "API Claude 100M Token 1 ngày BHF",
         "price": 100000,
-        "stock": 7,
-        "stock_text": "Còn 7",
-        "duration": "1 ngày",
-        "detail": "-API Claude 100M-Hàng anthropic\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Base Url : https://api.opusapi.store/\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-File hướng dẫn sử dụng và thiết lập:\n+ENGLISH: https://docs.google.com/document/d/1-r0i4qkHToW3exdkJfUAzin78s_bRbYb4nnvchhvtjg/edit?usp=sharing\n+VIETNAM: https://docs.google.com/document/d/1rBLXYdzTHL5mvm6c8d4QN2c7qWh8Cjj8sgEEf-_Wzug/edit?usp=sharing"
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Ngày",
+        "detail": "-API Claude 100M-Hàng anthropic\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Base Url : https://api.opusapi.store/\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-File hướng dẫn sử dụng và thiết lập:\n+ENGLISH: https://docs.google.com/document/d/1-r0i4qkHToW3exdkJfUAzin78s_bRbYb4nnvchhvtjg/edit?usp=sharing\n+VIETNAM: https://docs.google.com/document/d/1rBLXYdzTHL5mvm6c8d4QN2c7qWh8Cjj8sgEEf-_Wzug/edit?usp=sharing",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 4,
+            "cost_price": 100000,
+            "updated": "03:24 16/10/2026"
+          }
+        }
       },
       {
         "id": "p-1791993142500",
@@ -3065,6 +3072,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792095898191",
+      "time": "03:24 - 16/10/2026",
+      "timestamp": 1792095898191,
+      "name": "API Claude 100M Token 1 ngày BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 4,
+      "addedQty": 1,
+      "price": 100000,
+      "stockAfter": 4,
+      "catKey": "api-claude-codex",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🧠APIClaude100MToken1ngàyBHF➕Thêm:1📦Tồnkhohiệntại:4💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1792095571794",
       "time": "03:19 - 16/10/2026",
       "timestamp": 1792095571794,
@@ -4449,20 +4470,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🦈SurfSharkVPNAndroi/PC/IOS7ngàyBHF➕Thêm:6📦Tồnkhohiệntại:7💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792034167134",
-      "time": "10:16 - 15/10/2026",
-      "timestamp": 1792034167134,
-      "name": "Gmail (New) -Login All",
-      "bot": "taphoathomap_bot",
-      "shopStock": 78,
-      "addedQty": 0,
-      "price": 25000,
-      "stockAfter": 78,
-      "catKey": "gmail",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "📧Gmail(New)-LoginAll💰Giá:25k📦Tồnkho:78tàikhoản📊Đãbán:9.790tàikhoản💎Môtả:GMAILNew"
     }
   ],
   "bot-tele": {
