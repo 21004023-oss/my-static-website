@@ -3058,6 +3058,23 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792097672589",
+        "name": "ELEVENLAB CREATOR 1 THÁNG BẢO HÀNH 3 NGÀY",
+        "price": 199000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "mail|pass mail|pas11lab",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 5,
+            "cost_price": 199000,
+            "updated": "03:54 16/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -3085,6 +3102,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792097672589",
+      "time": "03:54 - 16/10/2026",
+      "timestamp": 1792097672589,
+      "name": "ELEVENLAB CREATOR 1 THÁNG BẢO HÀNH 3 NGÀY",
+      "bot": "ntnshopre_bot",
+      "shopStock": 5,
+      "addedQty": 1,
+      "price": 199000,
+      "stockAfter": 5,
+      "catKey": "khac",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🎙️ELEVENLABCREATOR1THÁNGBẢOHÀNH3NGÀY➕Thêm:1📦Tồnkhohiệntại:5💰Giá:199.000đ"
+    },
     {
       "id": "hist-1792096643610",
       "time": "03:37 - 16/10/2026",
@@ -4470,20 +4501,6 @@
       "catKey": "youtube",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧GmailRandomip2020-2023trialyoutube➕Thêm:20📦Tồnkhohiệntại:0💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792034318271",
-      "time": "10:18 - 15/10/2026",
-      "timestamp": 1792034318271,
-      "name": "ChatGPT Ver Students Plus 4 Tháng KBH",
-      "bot": "piggyai99_bot",
-      "shopStock": 12,
-      "addedQty": 0,
-      "price": 300000,
-      "stockAfter": 12,
-      "catKey": "chatgpt",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🤖ChatGPTVerStudentsPlus4ThángKBH💰Giá:300k📦Tồnkho:12tàikhoản📊Đãbán:71tàikhoản💎Môt"
     }
   ],
   "bot-tele": {
