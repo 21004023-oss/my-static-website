@@ -2277,6 +2277,23 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792043521001",
+        "name": "Kiro Pro K12 EDU 1 Năm KBH",
+        "price": 420000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Năm",
+        "detail": "🚀 KIRO AI STUDENT – 12 THÁNG | BẢO HÀNH LOGIN\n📌 QUYỀN LỢI\n• Tài khoản riêng, thời hạn 12 tháng. Hàng reg thủ công, hiện tại đang rất trâu chưa die bất cứ 1 con nào\n• 1.000 AI Credits/tháng → Tổng 12.000 Credits/năm.\n• Context lên đến 1M.\n• Hỗ trợ nhiều model AI mới nhất hiện nay:\n- Claude: Opus 5.5, Sonnet 5.5, Sonnet 4.6, Haiku 4.5.\n- OpenAI: GPT-5.6 (Sol, Terra, Luna).\n- Open Weight: DeepSeek 3.2, Qwen3 Coder, GLM-5.\n• Tích hợp Kiro Auto Multi-Agent Engine.\n• Hỗ trợ Spec-Driven Development và MCP.\n• Sử dụng trên Kiro IDE, CLI, Web và Mobile.\n• Tài khoản được kiểm tra trước khi giao.\n🔑 ĐĂNG NHẬP\n• Định dạng: Email | Pass Kiro | Pass Hotmail | Refresh_token | Client_id\n• Builder ID → Email → Mật khẩu + 2FA.\n• Nên login bằng trình duyệt/Profile mới và IP sạch, ổn định.\n• Không khuyến nghị VPN/Proxy khi login lần đầu.\n🛡️ BẢO HÀNH\n• Bảo hành đăng nhập ban đầu: lỗi Pass/OTP/không login được → hỗ trợ hoặc đổi tài khoản.\n• Login thành công → hết bảo hành.\n• Không bảo hành các vấn đề phát sinh do sử dụng sau khi login.\n📧 ĐỔI EMAIL\n• Có thể đổi sang Email cá nhân, KHÔNG bắt buộc.\n• Không đổi vẫn sử dụng bình thường và có đầy đủ quyền truy cập/OTP.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 3,
+            "cost_price": 420000,
+            "updated": "12:52 15/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -2304,6 +2321,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792043521001",
+      "time": "12:52 - 15/10/2026",
+      "timestamp": 1792043521001,
+      "name": "Kiro Pro K12 EDU 1 Năm KBH",
+      "bot": "sieuthistore_bot",
+      "shopStock": 3,
+      "addedQty": 5,
+      "price": 420000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐KiroProK12EDU1NămKBH➕Thêm:5📦Tồnkhohiệntại:3💰Giá:420.000đ"
+    },
     {
       "id": "hist-1792043489127",
       "time": "12:51 - 15/10/2026",
@@ -3629,18 +3660,6 @@
       "catKey": "capcut",
       "source": "Telegram Python Sync",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:6📦Tồnkhohiệntại:27💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1791984297655",
-      "time": "20:24 - 14/10/2026",
-      "timestamp": 1791984297655,
-      "name": "CAPCUT PRO 1 THÁNG BHF",
-      "addedQty": 6,
-      "price": 38000,
-      "stockAfter": 34,
-      "catKey": "capcut",
-      "source": "Telegram Python Sync",
-      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:6📦Tồnkhohiệntại:27💰Giá:38.000đ"
     }
   ],
   "bot-tele": {
