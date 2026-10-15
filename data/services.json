@@ -1809,15 +1809,15 @@
         "id": "p-1792043489127",
         "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
         "price": 23000,
-        "stock": 48,
-        "stock_text": "Còn 48",
+        "stock": 46,
+        "stock_text": "Còn 46",
         "duration": "6 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2fa | Passkey\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL TRIAL RANDOM IP  DATE  6 THÁNG\n- Lấy mã Google Authentic / 2fa ở 2fa.live",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 48,
+            "stock": 46,
             "cost_price": 23000,
-            "updated": "12:51 15/10/2026"
+            "updated": "14:11 15/10/2026"
           }
         },
         "hidden": false
@@ -2385,6 +2385,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792048282326",
+      "time": "14:11 - 15/10/2026",
+      "timestamp": 1792048282326,
+      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
+      "bot": "ntnshopre_bot",
+      "shopStock": 46,
+      "addedQty": 1,
+      "price": 23000,
+      "stockAfter": 46,
+      "catKey": "gmail",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:1📦Tồnkhohiệntại:46💰Giá:23.000đ"
+    },
     {
       "id": "hist-1792047851790",
       "time": "14:04 - 15/10/2026",
@@ -3730,18 +3744,6 @@
       "catKey": "khac",
       "source": "Telegram Python Sync",
       "msgKey": "⭐XBOXGAMEPASSULTIMATE-1NĂM(BH1Tháng)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:330.000đ"
-    },
-    {
-      "id": "hist-1791989276656",
-      "time": "21:47 - 14/10/2026",
-      "timestamp": 1791989276656,
-      "name": "KASPERSKY PREMIUM + VPN 1 NĂM (BH 300 ngày)",
-      "addedQty": 49,
-      "price": 150000,
-      "stockAfter": 147,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "⭐KASPERSKYPREMIUM+VPN1NĂM(BH300ngày)➕Thêm:49📦Tồnkhohiệntại:33💰Giá:150.000đ"
     }
   ],
   "bot-tele": {
