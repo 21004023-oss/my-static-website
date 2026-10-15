@@ -1435,10 +1435,17 @@
         "id": "p-1791925516429",
         "name": "API CODEX ASTRA6 50$ TOKEN 1THÁNG BHF",
         "price": 140000,
-        "stock": 6,
-        "stock_text": "Còn 6",
-        "duration": "1THÁNG",
-        "detail": "-API Codex 50$\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng\n- Có Astra 6\n-File hướng dẫn thiết lập và sử dụng: https://drive.google.com/drive/folders/1kMP3CutQ2ANDo5pKXw1Xe9kR2YXPhSSW?usp=drive_link"
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Tháng",
+        "detail": "-API Codex 50$\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng\n- Có Astra 6\n-File hướng dẫn thiết lập và sử dụng: https://drive.google.com/drive/folders/1kMP3CutQ2ANDo5pKXw1Xe9kR2YXPhSSW?usp=drive_link",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 4,
+            "cost_price": 140000,
+            "updated": "01:57 16/10/2026"
+          }
+        }
       },
       {
         "id": "p-1791958427941",
@@ -2902,6 +2909,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792090646137",
+      "time": "01:57 - 16/10/2026",
+      "timestamp": 1792090646137,
+      "name": "API CODEX ASTRA6 50$ TOKEN 1THÁNG BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 4,
+      "addedQty": 1,
+      "price": 140000,
+      "stockAfter": 4,
+      "catKey": "api-claude-codex",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "⭐APICODEXASTRA650$TOKEN1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:4💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1792089998022",
       "time": "01:46 - 16/10/2026",
       "timestamp": 1792089998022,
@@ -4286,20 +4307,6 @@
       "catKey": "gmail",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:50📦Tồnkhohiệntại:78💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792031325295",
-      "time": "09:28 - 15/10/2026",
-      "timestamp": 1792031325295,
-      "name": "Gmail (New) -Login All",
-      "bot": "sieuthistore_bot",
-      "shopStock": 78,
-      "addedQty": 50,
-      "price": 35000,
-      "stockAfter": 78,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:50📦Tồnkhohiệntại:78💰Giá:35.000đ"
     }
   ],
   "bot-tele": {
