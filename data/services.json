@@ -326,15 +326,15 @@
         "id": "p-1791879689407",
         "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
         "price": 250000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 22,
+        "stock_text": "Còn 22",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n✅ Hiện tại, việc đổi 2FA có thể lỗi OTP gmail, khách hàng có thể cân nhắc không đổi và cứ việc dùng\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📂 Hướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link\n🎁 Khuyến mãi:\n- Mua từ 5 giá 240k",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 22,
             "cost_price": 250000,
-            "updated": "11:29 15/10/2026"
+            "updated": "11:35 15/10/2026"
           }
         }
       },
@@ -2236,6 +2236,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792038919545",
+      "time": "11:35 - 15/10/2026",
+      "timestamp": 1792038919545,
+      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 22,
+      "addedQty": 20,
+      "price": 250000,
+      "stockAfter": 22,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:20📦Tồnkhohiệntại:22💰Giá:250.000đ"
+    },
+    {
       "id": "hist-1792038571883",
       "time": "11:29 - 15/10/2026",
       "timestamp": 1792038571883,
@@ -3544,18 +3558,6 @@
       "catKey": "youtube",
       "source": "Telegram Python Sync",
       "msgKey": "▶️CODEKÍCHHOẠTYOUTUBEPREMIUM3THÁNGBẢOHÀNHFULL💰Giá:89k📦Tồnkho:13tàikhoản📊Đãbán:8t"
-    },
-    {
-      "id": "hist-1791979128181",
-      "time": "18:58 - 14/10/2026",
-      "timestamp": 1791979128181,
-      "name": "Veo Omni 1 Tháng BH 1 Ngày",
-      "addedQty": 2,
-      "price": 45000,
-      "stockAfter": 2,
-      "catKey": "google-veo",
-      "source": "Telegram Python Sync",
-      "msgKey": "🔍VeoOmni1ThángBH1Ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:45.000đ"
     }
   ],
   "bot-tele": {
