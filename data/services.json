@@ -1576,8 +1576,8 @@
         "id": "p-gmail-new-25k",
         "name": "Gmail (New) -Login All",
         "price": 35000,
-        "stock": 78,
-        "stock_text": "Còn 78",
+        "stock": 156,
+        "stock_text": "Còn 156",
         "duration": "1 Tháng",
         "detail": "GMAIL New TRÂU BÒ - Login All thiết bị\nĐịnh dạng : Gmail | Pass | mail khôi phục\nBẢO HÀNH LOGIN LẦN ĐẦU 24H ( very phone, sai pass) được bảo hành - login thành công là hết Bảo hành\n- Gmail New cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\nĐÃ CHECK LIVE TRƯỚC KHI BÁN",
         "sources": {
@@ -1585,6 +1585,11 @@
             "stock": 78,
             "cost_price": 25000,
             "updated": "09:28 15/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 78,
+            "cost_price": 35000,
+            "updated": "10:15 15/10/2026"
           }
         },
         "conflict_group": "gmail_new_login_all",
@@ -2120,6 +2125,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792034152882",
+      "time": "10:15 - 15/10/2026",
+      "timestamp": 1792034152882,
+      "name": "Gmail (New) -Login All",
+      "bot": "sieuthistore_bot",
+      "shopStock": 78,
+      "addedQty": 0,
+      "price": 35000,
+      "stockAfter": 156,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧Gmail(New)-LoginAll💰Giá:35k📦Tồnkho:78tàikhoản📊Đãbán:9.790tàikhoản💎Môtả:GMAILNew"
+    },
     {
       "id": "hist-1792034146471",
       "time": "10:15 - 15/10/2026",
@@ -3405,18 +3424,6 @@
       "catKey": "khac",
       "source": "Telegram Python Sync",
       "msgKey": "🎨AdobeAllApps1ThángKBH➕Thêm:15📦Tồnkhohiệntại:8💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1791969755660",
-      "time": "16:22 - 14/10/2026",
-      "timestamp": 1791969755660,
-      "name": "Adobe All Apps 7D BH 12H",
-      "addedQty": 15,
-      "price": 65000,
-      "stockAfter": 15,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "🎨AdobeAllApps7DBH12H➕Thêm:15📦Tồnkhohiệntại:8💰Giá:65.000đ"
     }
   ],
   "bot-tele": {
