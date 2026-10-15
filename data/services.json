@@ -1153,6 +1153,22 @@
             "updated": "06:45 15/10/2026"
           }
         }
+      },
+      {
+        "id": "p-1792022781261",
+        "name": "Nâng chính chủ CLAUDE PRO 1 Tháng - BH 20 Ngày",
+        "price": 380000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "1 Tháng",
+        "detail": "🚀 NÂNG CẤP CLAUDE PRO – TÀI KHOẢN CHÍNH CHỦ\n✅ Nâng cấp trực tiếp trên tài khoản khách hàng.\n🛡 Bảo hành 20 ngày: Mất gói, tụt gói.\n❌ Không BH tài khoản bị khóa (die) hoặc vi phạm chính sách nền tảng.\n📩 Sau khi mua, gửi: Email | Pass | 2FA\n⏳ Hoàn thành trong 24 giờ, vui lòng không giục Shop.\n⚠️ LƯU Ý: Gửi đầy đủ, chính xác thông tin đăng nhập bao gồm Tài khoản| Pass | 2FA , trường hợp đăng nhập thông qua link shop sẽ không hỗ trợ nâng cấp",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 8,
+            "cost_price": 380000,
+            "updated": "07:06 15/10/2026"
+          }
+        }
       }
     ]
   },
@@ -2038,6 +2054,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792022781261",
+      "time": "07:06 - 15/10/2026",
+      "timestamp": 1792022781261,
+      "name": "Nâng chính chủ CLAUDE PRO 1 Tháng - BH 20 Ngày",
+      "bot": "taphoathomap_bot",
+      "shopStock": 8,
+      "addedQty": 8,
+      "price": 380000,
+      "stockAfter": 8,
+      "catKey": "api-claude-codex",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🧠NângchínhchủCLAUDEPRO1Tháng-BH20Ngày➕Thêm:8📦Tồnkhohiệntại:8💰Giá:380.000đ"
+    },
     {
       "id": "hist-1792021557657",
       "time": "06:45 - 15/10/2026",
@@ -3287,18 +3317,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram Python Sync",
       "msgKey": "🧠APIClaude100MToken1ngàyBHF💰Giá:100k📦Tồnkho:6tàikhoản📊Đãbán:56tàikhoản💎Môtả:-API"
-    },
-    {
-      "id": "hist-1791959586384",
-      "time": "13:33 - 14/10/2026",
-      "timestamp": 1791959586384,
-      "name": "COURSERA PREMIUM 12 THÁNG BẢO HÀN H24H",
-      "addedQty": 11,
-      "price": 125000,
-      "stockAfter": 11,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "⭐COURSERAPREMIUM12THÁNGBẢOHÀNH24H➕Thêm:11📦Tồnkhohiệntại:15💰Giá:125.000đ"
     }
   ],
   "bot-tele": {
