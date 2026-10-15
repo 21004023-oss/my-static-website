@@ -1250,6 +1250,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792094683588",
+        "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+        "price": 33000,
+        "stock": 23,
+        "stock_text": "Còn 23",
+        "duration": "1 Tháng",
+        "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 23,
+            "cost_price": 33000,
+            "updated": "03:04 16/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -2978,6 +2996,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792094683590",
+      "time": "03:04 - 16/10/2026",
+      "timestamp": 1792094683590,
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 23,
+      "addedQty": 24,
+      "price": 33000,
+      "stockAfter": 23,
+      "catKey": "capcut",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:24📦Tồnkhohiệntại:23💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1792094270245",
       "time": "02:57 - 16/10/2026",
       "timestamp": 1792094270245,
@@ -4362,20 +4394,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:8📦Tồnkhohiệntại:70💰Giá:240.000đ"
-    },
-    {
-      "id": "hist-1792034138931",
-      "time": "10:15 - 15/10/2026",
-      "timestamp": 1792034138931,
-      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 7,
-      "addedQty": 0,
-      "price": 300000,
-      "stockAfter": 7,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày💰Giá:300k📦Tồnkho:7tàikhoản📊Đãbán:683tàikhoản💎Môtả:🔥TÀI"
     }
   ],
   "bot-tele": {
