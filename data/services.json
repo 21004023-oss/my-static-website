@@ -1617,6 +1617,24 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792108551171",
+        "name": "API CURSOR PRO 2600 CREDITS 1 THÁNG BHF",
+        "price": 210000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Api Cursor Pro 2600 credit hạn sử dụng 1 tháng.\n-Credit: 2600\n-Hạn sử dụng: 1 tháng từ lúc active Key.\n-Bảo hành: 30 ngày.\n-File tài liệu chi tiết về cách sử dụng và setup sản phẩm: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1?usp=drive_link\n-Lưu ý: Sản phẩm là API,không phải tài khoản,không hỗ trợ hoàn trả nếu mua nhầm,không biết sử dụng.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 2,
+            "cost_price": 210000,
+            "updated": "06:55 16/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -3206,6 +3224,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792108551174",
+      "time": "06:55 - 16/10/2026",
+      "timestamp": 1792108551174,
+      "name": "API CURSOR PRO 2600 CREDITS 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 2,
+      "addedQty": 2,
+      "price": 210000,
+      "stockAfter": 2,
+      "catKey": "api-cursor-deepseek",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🖱️APICURSORPRO2600CREDITS1THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:210.000đ"
+    },
     {
       "id": "hist-1792108522128",
       "time": "06:55 - 16/10/2026",
