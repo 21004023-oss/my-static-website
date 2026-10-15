@@ -2933,6 +2933,23 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792094270245",
+        "name": "Amazon Prime 6 Tháng BH 24H",
+        "price": 70000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "6 Tháng",
+        "detail": "Amazon Prime Video – 6 Tháng Tận hưởng 6 tháng sử dụng Amazon Prime Video và phát trực tuyến hàng nghìn bộ phim phổ biến, chương trình truyền hình, Amazon Originals và nội dung độc quyền. Tính năng: - 🎬 Truy cập không giới hạn vào thư viện phong phú của Prime Video - ⭐️ Các bộ phim và loạt phim Amazon Original độc quyền - 👥 6 Hồ sơ – Tạo và quản lý tối đa 6 hồ sơ cá nhân - 🔒 Thay đổi tên hồ sơ và thiết lập bảo vệ bằng mã PIN cho từng hồ sơ - 📱 Xem trên nhiều thiết bị được hỗ trợ - ⬇️ Tải xuống nội dung để xem ngoại tuyến - 🎥 Phát trực tuyến ở độ phân giải HD và 4K Ultra HD (nếu có) - 🌍 Xem mọi lúc, mọi nơi với tài khoản Amazon của bạn",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 70000,
+            "updated": "02:57 16/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -2960,6 +2977,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792094270245",
+      "time": "02:57 - 16/10/2026",
+      "timestamp": 1792094270245,
+      "name": "Amazon Prime 6 Tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 6,
+      "addedQty": 1,
+      "price": 70000,
+      "stockAfter": 6,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐AmazonPrime6ThángBH24H➕Thêm:1📦Tồnkhohiệntại:6💰Giá:70.000đ"
+    },
     {
       "id": "hist-1792093865281",
       "time": "02:51 - 16/10/2026",
@@ -4345,20 +4376,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày💰Giá:300k📦Tồnkho:7tàikhoản📊Đãbán:683tàikhoản💎Môtả:🔥TÀI"
-    },
-    {
-      "id": "hist-1792034135088",
-      "time": "10:15 - 15/10/2026",
-      "timestamp": 1792034135088,
-      "name": "SURFSHARK VPN ANDROI/PC/IOS 7 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 7,
-      "addedQty": 6,
-      "price": 15000,
-      "stockAfter": 7,
-      "catKey": "khac",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🦈SURFSHARKVPNANDROI/PC/IOS7NGÀYBHF➕Thêm:6📦Tồnkhohiệntại:7💰Giá:15.000đ"
     }
   ],
   "bot-tele": {
