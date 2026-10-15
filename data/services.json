@@ -2084,8 +2084,8 @@
         "id": "p-1792033591108",
         "name": "SURFSHARK VPN ANDROI/PC/IOS 7 NGÀY BHF",
         "price": 15000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "1 Tháng",
         "detail": "Gói SURFSHARK VPN ANDROI/PC/IOS 7 NGÀY BHF bảo hành uy tín.",
         "sources": {
@@ -2093,6 +2093,11 @@
             "stock": 7,
             "cost_price": 15000,
             "updated": "10:06 15/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 7,
+            "cost_price": 15000,
+            "updated": "10:07 15/10/2026"
           }
         },
         "hidden": false
@@ -2123,6 +2128,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792033625207",
+      "time": "10:07 - 15/10/2026",
+      "timestamp": 1792033625207,
+      "name": "SurfShark VPN Androi/PC/IOS 7 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 7,
+      "addedQty": 6,
+      "price": 15000,
+      "stockAfter": 14,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🦈SurfSharkVPNAndroi/PC/IOS7ngàyBHF➕Thêm:6📦Tồnkhohiệntại:7💰Giá:15.000đ"
+    },
     {
       "id": "hist-1792033622006",
       "time": "10:07 - 15/10/2026",
@@ -3416,18 +3435,6 @@
       "catKey": "youtube",
       "source": "Telegram Python Sync",
       "msgKey": "▶️CODEKÍCHHOẠTYOUTUBEPREMIUM3THÁNGBẢOHÀNHFULL➕Thêm:14📦Tồnkhohiệntại:14💰Giá:89.00"
-    },
-    {
-      "id": "hist-1791970778416",
-      "time": "16:39 - 14/10/2026",
-      "timestamp": 1791970778416,
-      "name": "Surfshark VPN  Random 5-7 Ngày BHF",
-      "addedQty": 1,
-      "price": 12222,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "🦈SurfsharkVPNRandom5-7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:12.222đ"
     }
   ],
   "bot-tele": {
