@@ -794,15 +794,15 @@
         "id": "p-1792073305855",
         "name": "ChatGPT Free Gmail KBH",
         "price": 10000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 61,
+        "stock_text": "Còn 61",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư , đổi pass thỏa mái\n📂 Format: Email | Pass | 2FA\n⚠️ Hỗ trợ vấn đề trong 1H đầu. Sau 1H shop không hỗ trợ",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 61,
             "cost_price": 10000,
-            "updated": "21:08 15/10/2026"
+            "updated": "21:23 15/10/2026"
           }
         },
         "hidden": false
@@ -2631,6 +2631,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792074239900",
+      "time": "21:23 - 15/10/2026",
+      "timestamp": 1792074239900,
+      "name": "ChatGPT Free Gmail KBH",
+      "bot": "sieuthistore_bot",
+      "shopStock": 61,
+      "addedQty": 61,
+      "price": 10000,
+      "stockAfter": 61,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTFreeGmailKBH➕Thêm:61📦Tồnkhohiệntại:61💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1792074177275",
       "time": "21:22 - 15/10/2026",
       "timestamp": 1792074177275,
@@ -4015,20 +4029,6 @@
       "catKey": "khac",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐PhotoroomMax7NgàyBHF💰Giá:35k📦Tồnkho:8tàikhoản📊Đãbán:108tàikhoản💎Môtả:Photoroom7"
-    },
-    {
-      "id": "hist-1792019122676",
-      "time": "06:05 - 15/10/2026",
-      "timestamp": 1792019122676,
-      "name": "CAPCUT PRO 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 27,
-      "addedQty": 0,
-      "price": 38000,
-      "stockAfter": 27,
-      "catKey": "capcut",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "✂️CAPCUTPRO1THÁNGBHF💰Giá:38k📦Tồnkho:27tàikhoản📊Đãbán:598tàikhoản💎Môtả:CAPCUTPROC"
     }
   ],
   "bot-tele": {
