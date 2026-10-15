@@ -492,12 +492,17 @@
         "id": "p-1791922487996",
         "name": "ChatGPT Plus Apple Pay 1 Tháng BHF",
         "price": 320000,
-        "stock": 93,
-        "stock_text": "Còn 93",
+        "stock": 186,
+        "stock_text": "Còn 186",
         "duration": "1 Tháng",
         "detail": "-ChatGPT Plus Apple Pay ổn định\n-Định dạng: Mail | Pass | 2Fa\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng\n-Tài khoản đã được check kĩ thông tin trước khi bán\n-Khách hàng nhận tài khoản tự bảo mật\n-Sử dụng Codex tự ver số, thuê số tại viotp chấm com\n-KBH Codex & 9routor, tools,.. love you 💚",
         "sources": {
           "piggyai99_bot": {
+            "stock": 93,
+            "cost_price": 320000,
+            "updated": "00:47 16/10/2026"
+          },
+          "sieuthistore_bot": {
             "stock": 93,
             "cost_price": 320000,
             "updated": "00:47 16/10/2026"
@@ -2767,6 +2772,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792086425008",
+      "time": "00:47 - 16/10/2026",
+      "timestamp": 1792086425008,
+      "name": "Chatgpt Plus ( Apple Pay ) 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 93,
+      "addedQty": 10,
+      "price": 320000,
+      "stockAfter": 186,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:10📦Tồnkhohiệntại:93💰Giá:320.000đ"
+    },
+    {
       "id": "hist-1792086421250",
       "time": "00:47 - 16/10/2026",
       "timestamp": 1792086421250,
@@ -4151,20 +4170,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlus4Tháng-BH1Tháng💰Giá:650k📦Tồnkho:13tàikhoản📊Đãbán:9tàikhoản💎Môtả:🔐Acc"
-    },
-    {
-      "id": "hist-1792020766272",
-      "time": "06:32 - 15/10/2026",
-      "timestamp": 1792020766272,
-      "name": "ChatGPT Plus 4 Tháng - BH 1 Tháng",
-      "bot": "taphoathomap_bot",
-      "shopStock": 13,
-      "addedQty": 15,
-      "price": 650000,
-      "stockAfter": 13,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlus4Tháng-BH1Tháng➕Thêm:15📦Tồnkhohiệntại:13💰Giá:650.000đ"
     }
   ],
   "bot-tele": {
