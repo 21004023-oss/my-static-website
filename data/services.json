@@ -2008,7 +2008,7 @@
           "sieuthistore_bot": {
             "stock": 9,
             "cost_price": 75000,
-            "updated": "06:05 15/10/2026"
+            "updated": "10:06 15/10/2026"
           }
         }
       },
@@ -2118,6 +2118,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792033602262",
+      "time": "10:06 - 15/10/2026",
+      "timestamp": 1792033602262,
+      "name": "Meitu SVip 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 9,
+      "addedQty": 10,
+      "price": 75000,
+      "stockAfter": 18,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✨MeituSVip1ThángBHF➕Thêm:10📦Tồnkhohiệntại:9💰Giá:75.000đ"
+    },
     {
       "id": "hist-1792033598868",
       "time": "10:06 - 15/10/2026",
@@ -3401,18 +3415,6 @@
       "catKey": "khac",
       "source": "Telegram Python Sync",
       "msgKey": "🎨AdobeAllApps7DBH12H➕Thêm:15📦Tồnkhohiệntại:8💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1791968735551",
-      "time": "16:05 - 14/10/2026",
-      "timestamp": 1791968735551,
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "addedQty": 48,
-      "price": 250000,
-      "stockAfter": 158,
-      "catKey": "chatgpt",
-      "source": "Telegram Python Sync",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:48📦Tồnkhohiệntại:52💰Giá:250.000đ"
     }
   ],
   "bot-tele": {
