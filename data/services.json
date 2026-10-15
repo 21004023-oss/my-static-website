@@ -1584,7 +1584,7 @@
           "taphoathomap_bot": {
             "stock": 78,
             "cost_price": 25000,
-            "updated": "09:28 15/10/2026"
+            "updated": "10:07 15/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 78,
@@ -2123,6 +2123,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792033622006",
+      "time": "10:07 - 15/10/2026",
+      "timestamp": 1792033622006,
+      "name": "Gmail (New) -Login All",
+      "bot": "taphoathomap_bot",
+      "shopStock": 78,
+      "addedQty": 0,
+      "price": 25000,
+      "stockAfter": 156,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧Gmail(New)-LoginAll💰Giá:25k📦Tồnkho:78tàikhoản📊Đãbán:9.790tàikhoản💎Môtả:GMAILNew"
+    },
     {
       "id": "hist-1792033617330",
       "time": "10:06 - 15/10/2026",
@@ -3414,18 +3428,6 @@
       "catKey": "khac",
       "source": "Telegram Python Sync",
       "msgKey": "🦈SurfsharkVPNRandom5-7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:12.222đ"
-    },
-    {
-      "id": "hist-1791970773837",
-      "time": "16:39 - 14/10/2026",
-      "timestamp": 1791970773837,
-      "name": "Surfshark VPN  Random 5-7 Ngày BHF",
-      "addedQty": 1,
-      "price": 15000,
-      "stockAfter": 1,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "🦈SurfsharkVPNRandom5-7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:15.000đ"
     }
   ],
   "bot-tele": {
