@@ -848,6 +848,24 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792083582297",
+        "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+        "price": 240000,
+        "stock": 48,
+        "stock_text": "Còn 48",
+        "duration": "1 Tháng",
+        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n✅ Hiện tại, việc đổi PASS cần OTP nên không đổi được, còn nếu đổi 2FA có thể lỗi OTP gmail, khách hàng có thể cân nhắc không đổi và cứ việc dùng\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📂 Hướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 48,
+            "cost_price": 240000,
+            "updated": "23:59 15/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -2742,6 +2760,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792083582298",
+      "time": "23:59 - 15/10/2026",
+      "timestamp": 1792083582298,
+      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 48,
+      "addedQty": 20,
+      "price": 240000,
+      "stockAfter": 48,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:20📦Tồnkhohiệntại:48💰Giá:240.000đ"
+    },
+    {
       "id": "hist-1792083325025",
       "time": "23:55 - 15/10/2026",
       "timestamp": 1792083325025,
@@ -4126,20 +4158,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTcóofferPLUS0$1tháng-KBH💰Giá:30k📦Tồnkho:7tàikhoản📊Đãbán:17tàikhoản💎Môtả:🎁"
-    },
-    {
-      "id": "hist-1792020725453",
-      "time": "06:32 - 15/10/2026",
-      "timestamp": 1792020725453,
-      "name": "Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 105,
-      "addedQty": 42,
-      "price": 320000,
-      "stockAfter": 105,
-      "catKey": "chatgpt",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🤖ChatgptPlusApplePay1thángBHF➕Thêm:42📦Tồnkhohiệntại:105💰Giá:320.000đ"
     }
   ],
   "bot-tele": {
