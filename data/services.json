@@ -1985,7 +1985,7 @@
           "piggyai99_bot": {
             "stock": 9,
             "cost_price": 75000,
-            "updated": "06:09 15/10/2026"
+            "updated": "10:06 15/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 9,
@@ -2083,6 +2083,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792033576026",
+      "time": "10:06 - 15/10/2026",
+      "timestamp": 1792033576026,
+      "name": "Meitu SVIP 1 Tháng BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 9,
+      "addedQty": 10,
+      "price": 75000,
+      "stockAfter": 18,
+      "catKey": "khac",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "✨MeituSVIP1ThángBHF➕Thêm:10📦Tồnkhohiệntại:9💰Giá:75.000đ"
+    },
     {
       "id": "hist-1792033572840",
       "time": "10:06 - 15/10/2026",
@@ -3354,18 +3368,6 @@
       "catKey": "khac",
       "source": "Telegram Python Sync",
       "msgKey": "⭐AkoolStarter200credit1thángKBH➕Thêm:2📦Tồnkhohiệntại:5💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1791966480892",
-      "time": "15:28 - 14/10/2026",
-      "timestamp": 1791966480892,
-      "name": "ChatGPT Pro 100 - 1 tháng BH 20 ngày",
-      "addedQty": 2,
-      "price": 1800000,
-      "stockAfter": 3,
-      "catKey": "chatgpt",
-      "source": "Telegram Python Sync",
-      "msgKey": "🤖ChatGPTPro100-1thángBH20ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:1.800.000đ"
     }
   ],
   "bot-tele": {
