@@ -3003,6 +3003,23 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792095497555",
+        "name": "Adobe Full Apps 1 Tháng BHF",
+        "price": 170000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Tháng",
+        "detail": "Adobe Full Apps cấp sẵn sử dụng trên 2 thiết bị\nCó sẵn ≥1000 credit dùng Ai, Generative Fill...\nBảo hành gói toàn thời gian\nKhách đặt hàng sẽ có tròng vòng 1h\n(Hiện tại đang không dùng được Acrobat)\nLưu ý:\nCần kết hợp thêm việc sử dụng tool chặn Adobe quét bản quyền. Quý khách chỉ cần thực hiện thao tác này 1 LẦN DUY NHẤT là xong, và không bị ảnh hưởng gì tới việc sử dụng bản quyền chính hãng sau này nếu có.\nCách tải và sử dụng:\nTrên Windows: https://drive.google.com/drive/folders/1oD-K3HelSNPQW7ozmn8LzkbPYC-PiFBB?usp=drive_link\nTrên MacOS: https://drive.google.com/drive/folders/1Qais2hnJPB1fc0x_BfYf0g5gsmXi7OIY?usp=drive_link",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 4,
+            "cost_price": 170000,
+            "updated": "03:18 16/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -3030,6 +3047,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792095497555",
+      "time": "03:18 - 16/10/2026",
+      "timestamp": 1792095497555,
+      "name": "Adobe Full Apps 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 4,
+      "addedQty": 5,
+      "price": 170000,
+      "stockAfter": 4,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🎨AdobeFullApps1ThángBHF➕Thêm:5📦Tồnkhohiệntại:4💰Giá:170.000đ"
+    },
     {
       "id": "hist-1792094920637",
       "time": "03:08 - 16/10/2026",
@@ -4415,20 +4446,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬HiggfieldGenJutsu720p1thBH1h💰Giá:40k📦Tồnkho:4tàikhoản📊Đãbán:247tàikhoản💎Môtả:Tà"
-    },
-    {
-      "id": "hist-1792034152882",
-      "time": "10:15 - 15/10/2026",
-      "timestamp": 1792034152882,
-      "name": "Gmail (New) -Login All",
-      "bot": "sieuthistore_bot",
-      "shopStock": 78,
-      "addedQty": 0,
-      "price": 35000,
-      "stockAfter": 156,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧Gmail(New)-LoginAll💰Giá:35k📦Tồnkho:78tàikhoản📊Đãbán:9.790tàikhoản💎Môtả:GMAILNew"
     }
   ],
   "bot-tele": {
