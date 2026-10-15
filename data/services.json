@@ -681,6 +681,24 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792050238184",
+        "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+        "price": 240000,
+        "stock": 100,
+        "stock_text": "Còn 100",
+        "duration": "1 Tháng",
+        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n✅ Hiện tại, việc đổi PASS cần OTP nên không đổi được, còn nếu đổi 2FA có thể lỗi OTP gmail, khách hàng có thể cân nhắc không đổi và cứ việc dùng\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📂 Hướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 100,
+            "cost_price": 240000,
+            "updated": "14:43 15/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -2386,6 +2404,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792050238186",
+      "time": "14:43 - 15/10/2026",
+      "timestamp": 1792050238186,
+      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 100,
+      "addedQty": 84,
+      "price": 240000,
+      "stockAfter": 100,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:84📦Tồnkhohiệntại:100💰Giá:240.000đ"
+    },
+    {
       "id": "hist-1792048282326",
       "time": "14:11 - 15/10/2026",
       "timestamp": 1792048282326,
@@ -3732,18 +3764,6 @@
       "catKey": "chatgpt",
       "source": "Telegram Python Sync",
       "msgKey": "🤖ChatGPTBusinessPremium1thángBH1ngày➕Thêm:8📦Tồnkhohiệntại:4💰Giá:250.000đ"
-    },
-    {
-      "id": "hist-1791991303685",
-      "time": "22:21 - 14/10/2026",
-      "timestamp": 1791991303685,
-      "name": "XBOX GAME PASS ULTIMATE - 1 NĂM ( BH 1 Tháng)",
-      "addedQty": 1,
-      "price": 330000,
-      "stockAfter": 1,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "⭐XBOXGAMEPASSULTIMATE-1NĂM(BH1Tháng)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:330.000đ"
     }
   ],
   "bot-tele": {
