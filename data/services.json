@@ -1716,8 +1716,8 @@
         "id": "p-gmail-new-25k",
         "name": "Gmail (New) -Login All",
         "price": 35000,
-        "stock": 156,
-        "stock_text": "Còn 156",
+        "stock": 121,
+        "stock_text": "Còn 121",
         "duration": "1 Tháng",
         "detail": "GMAIL New TRÂU BÒ - Login All thiết bị\nĐịnh dạng : Gmail | Pass | mail khôi phục\nBẢO HÀNH LOGIN LẦN ĐẦU 24H ( very phone, sai pass) được bảo hành - login thành công là hết Bảo hành\n- Gmail New cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\nĐÃ CHECK LIVE TRƯỚC KHI BÁN",
         "sources": {
@@ -1727,9 +1727,9 @@
             "updated": "09:28 15/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 78,
+            "stock": 43,
             "cost_price": 35000,
-            "updated": "10:15 15/10/2026"
+            "updated": "16:54 15/10/2026"
           }
         },
         "conflict_group": "gmail_new_login_all",
@@ -2452,6 +2452,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792058047879",
+      "time": "16:54 - 15/10/2026",
+      "timestamp": 1792058047879,
+      "name": "Gmail (New) -Login All",
+      "bot": "sieuthistore_bot",
+      "shopStock": 43,
+      "addedQty": 149,
+      "price": 35000,
+      "stockAfter": 121,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:149📦Tồnkhohiệntại:43💰Giá:35.000đ"
+    },
     {
       "id": "hist-1792054905088",
       "time": "16:01 - 15/10/2026",
@@ -3811,18 +3825,6 @@
       "catKey": "khac",
       "source": "Telegram Python Sync",
       "msgKey": "⭐GammaUltrachínhchủ1tháng(BHF)➕Thêm:3📦Tồnkhohiệntại:3💰Giá:750.000đ"
-    },
-    {
-      "id": "hist-1791997920856",
-      "time": "00:12 - 15/10/2026",
-      "timestamp": 1791997920856,
-      "name": "CHATGPT PLUS  30 NGÀY  ( BH 24H )",
-      "addedQty": 3,
-      "price": 190000,
-      "stockAfter": 8,
-      "catKey": "chatgpt",
-      "source": "Telegram Python Sync",
-      "msgKey": "🤖CHATGPTPLUS30NGÀY(BH24H)➕Thêm:3📦Tồnkhohiệntại:0💰Giá:190.000đ"
     }
   ],
   "bot-tele": {
