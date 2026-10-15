@@ -131,15 +131,15 @@
         "id": "p-1792035062198",
         "name": "Gmail Random ip 2020-2023 trial youtube",
         "price": 50000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 42,
+        "stock_text": "Còn 42",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 5,
+            "stock": 42,
             "cost_price": 50000,
-            "updated": "11:48 15/10/2026"
+            "updated": "19:53 15/10/2026"
           }
         },
         "hidden": false,
@@ -2562,6 +2562,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792068834268",
+      "time": "19:53 - 15/10/2026",
+      "timestamp": 1792068834268,
+      "name": "Gmail Random ip 2020-2023 trial youtube",
+      "bot": "sieuthistore_bot",
+      "shopStock": 42,
+      "addedQty": 50,
+      "price": 50000,
+      "stockAfter": 42,
+      "catKey": "youtube",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧GmailRandomip2020-2023trialyoutube➕Thêm:50📦Tồnkhohiệntại:42💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1792066713501",
       "time": "19:18 - 15/10/2026",
       "timestamp": 1792066713501,
@@ -3946,20 +3960,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🤖ChatgptPlusApplePay1thángBHF💰Giá:320k📦Tồnkho:34tàikhoản📊Đãbán:4.363tàikhoản💎Môt"
-    },
-    {
-      "id": "hist-1792018961060",
-      "time": "06:02 - 15/10/2026",
-      "timestamp": 1792018961060,
-      "name": "CapCut Pro Team 3 Tháng - BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 4,
-      "addedQty": 0,
-      "price": 160000,
-      "stockAfter": 4,
-      "catKey": "capcut",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "✂️CapCutProTeam3Tháng-BHF💰Giá:160k📦Tồnkho:4tàikhoản📊Đãbán:118tàikhoản💎Môtả:Tàikh"
     }
   ],
   "bot-tele": {
