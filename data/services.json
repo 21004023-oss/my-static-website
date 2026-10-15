@@ -392,10 +392,17 @@
         "id": "p-1791898409445",
         "name": "ChatGPT Ver Students chính chủ  Plus 4 Tháng KBH",
         "price": 300000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 28,
+        "stock_text": "Còn 28",
         "duration": "4 Tháng",
-        "detail": "- Sau khi thanh toán nhắn tin cho admin @khaidayne để được xác minh sinh viên nhé\n- Sau khi xác minh xong về mọi người tự thêm thẻ thanh toán ạ"
+        "detail": "- Sau khi thanh toán nhắn tin cho admin @khaidayne để được xác minh sinh viên nhé\n- Sau khi xác minh xong về mọi người tự thêm thẻ thanh toán ạ",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 28,
+            "cost_price": 300000,
+            "updated": "19:13 15/10/2026"
+          }
+        }
       },
       {
         "id": "p-1791898413975",
@@ -2548,6 +2555,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792066404076",
+      "time": "19:13 - 15/10/2026",
+      "timestamp": 1792066404076,
+      "name": "ChatGPT Ver Students chính chủ  Plus 4 Tháng KBH",
+      "bot": "piggyai99_bot",
+      "shopStock": 28,
+      "addedQty": 4,
+      "price": 300000,
+      "stockAfter": 28,
+      "catKey": "chatgpt",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🤖ChatGPTVerStudentschínhchủPlus4ThángKBH➕Thêm:4📦Tồnkhohiệntại:28💰Giá:300.000đ"
+    },
+    {
       "id": "hist-1792066359101",
       "time": "19:12 - 15/10/2026",
       "timestamp": 1792066359101,
@@ -3930,18 +3951,6 @@
       "catKey": "chatgpt",
       "source": "Telegram Python Sync",
       "msgKey": "🤖ChatGPTPlusGGPayGmail30D-BH20D➕Thêm:1📦Tồnkhohiệntại:55💰Giá:280.000đ"
-    },
-    {
-      "id": "hist-1792010836482",
-      "time": "03:47 - 15/10/2026",
-      "timestamp": 1792010836482,
-      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
-      "addedQty": 1,
-      "price": 300000,
-      "stockAfter": 10,
-      "catKey": "chatgpt",
-      "source": "Telegram Python Sync",
-      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:1📦Tồnkhohiệntại:55💰Giá:300.000đ"
     }
   ],
   "bot-tele": {
