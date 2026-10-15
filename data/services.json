@@ -551,10 +551,17 @@
         "id": "p-1791951111143",
         "name": "ChatGPT Go 1 Tháng BHF",
         "price": 100000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Tháng",
-        "detail": "👉 Format: Email | Password | 2FA\n👉 Bảo hành: 30 Ngày\n👉 Quy định bảo hành:\n- Chỉ bảo hành nếu tài khoản bị mất gói GPT GO\n- Tài khoản trước khi đưa lên BOT đã kiểm tra kỹ lưỡng nên KHÔNG BẢO HÀNH MỌI TRƯỜNG HỢP KHÁC (ví dụ như sai password, sai 2FA...)\n⚠️ Sau khi mua hàng yêu cầu thay đổi lại 2FA và hãy chắc chắn rằng bạn đã lưu lại chúng\nĐỌC KỸ THÔNG TIN TRƯỚC KHI MUA HÀNG! TRÁNH NHỮNG TRANH CHẤP SAU KHI MUA HÀNG."
+        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n2. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n3. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 16,
+            "cost_price": 100000,
+            "updated": "22:17 15/10/2026"
+          }
+        }
       },
       {
         "id": "p-1791958947021",
@@ -2666,6 +2673,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792077475637",
+      "time": "22:17 - 15/10/2026",
+      "timestamp": 1792077475637,
+      "name": "ChatGPT Go 1 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 16,
+      "addedQty": 16,
+      "price": 100000,
+      "stockAfter": 16,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTGo1Tháng-BHF➕Thêm:16📦Tồnkhohiệntại:16💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1792076992685",
       "time": "22:09 - 15/10/2026",
       "timestamp": 1792076992685,
@@ -4050,20 +4071,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🛡️NordVPN3NgàyBHF💰Giá:15k📦Tồnkho:9tàikhoản📊Đãbán:287tàikhoản💎Môtả:Địnhdạng:Email"
-    },
-    {
-      "id": "hist-1792019143864",
-      "time": "06:05 - 15/10/2026",
-      "timestamp": 1792019143864,
-      "name": "Meitu SVip 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 9,
-      "addedQty": 10,
-      "price": 75000,
-      "stockAfter": 18,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✨MeituSVip1ThángBHF➕Thêm:10📦Tồnkhohiệntại:9💰Giá:75.000đ"
     }
   ],
   "bot-tele": {
