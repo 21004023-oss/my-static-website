@@ -1685,6 +1685,23 @@
             "updated": "10:08 15/10/2026"
           }
         }
+      },
+      {
+        "id": "p-1792035072787",
+        "name": "GMAIL TRIAL RANDOM DATE 202X",
+        "price": 40000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 0,
+            "cost_price": 40000,
+            "updated": "10:31 15/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -2191,6 +2208,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792035072787",
+      "time": "10:31 - 15/10/2026",
+      "timestamp": 1792035072787,
+      "name": "GMAIL TRIAL RANDOM DATE 202X",
+      "bot": "ntnshopre_bot",
+      "shopStock": 0,
+      "addedQty": 20,
+      "price": 40000,
+      "stockAfter": 0,
+      "catKey": "gmail",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "📧GMAILTRIALRANDOMDATE202X➕Thêm:20📦Tồnkhohiệntại:0💰Giá:40.000đ"
+    },
     {
       "id": "hist-1792035066895",
       "time": "10:31 - 15/10/2026",
@@ -3494,18 +3525,6 @@
       "catKey": "chatgpt",
       "source": "Telegram Python Sync",
       "msgKey": "🤖GPTProx51thBH7d➕Thêm:1📦Tồnkhohiệntại:0💰Giá:1.800.000đ"
-    },
-    {
-      "id": "hist-1791976940640",
-      "time": "18:22 - 14/10/2026",
-      "timestamp": 1791976940640,
-      "name": "ChatGPT Pro x5 - 1 Tháng BH 7 Ngày",
-      "addedQty": 1,
-      "price": 1700000,
-      "stockAfter": 1,
-      "catKey": "chatgpt",
-      "source": "Telegram Python Sync",
-      "msgKey": "🤖ChatGPTProx5-1ThángBH7Ngày➕Thêm:1📦Tồnkhohiệntại:0💰Giá:1.700.000đ"
     }
   ],
   "bot-tele": {
