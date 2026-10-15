@@ -2761,6 +2761,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792088131622",
+        "name": "Grammarly AI Pro 1 Tháng BHF",
+        "price": 90000,
+        "stock": 7,
+        "stock_text": "Còn 7",
+        "duration": "1 Tháng",
+        "detail": "Gói Grammarly AI Pro 1 Tháng BHF bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 7,
+            "cost_price": 90000,
+            "updated": "01:15 16/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -2788,6 +2806,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792088131624",
+      "time": "01:15 - 16/10/2026",
+      "timestamp": 1792088131624,
+      "name": "Grammarly AI Pro 1 Tháng BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 7,
+      "addedQty": 3,
+      "price": 90000,
+      "stockAfter": 7,
+      "catKey": "khac",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:3📦Tồnkhohiệntại:7💰Giá:90.000đ"
+    },
     {
       "id": "hist-1792088127430",
       "time": "01:15 - 16/10/2026",
@@ -4173,20 +4205,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎨AdobeAllApps7NgàyKBH(góichínhhãng)➕Thêm:10📦Tồnkhohiệntại:14💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792020842463",
-      "time": "06:34 - 15/10/2026",
-      "timestamp": 1792020842463,
-      "name": "Nâng chính chủ CLAUDE X5 1 Tháng - BH 7 Ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 5,
-      "addedQty": 5,
-      "price": 1700000,
-      "stockAfter": 5,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🧠NângchínhchủCLAUDEX51Tháng-BH7Ngày➕Thêm:5📦Tồnkhohiệntại:5💰Giá:1.700.000đ"
     }
   ],
   "bot-tele": {
