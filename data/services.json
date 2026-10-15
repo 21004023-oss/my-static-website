@@ -1977,10 +1977,17 @@
         "id": "p-1791938217562",
         "name": "Express VPN 6-7 ngày BHF",
         "price": 20000,
-        "stock": 1,
-        "stock_text": "Còn 1",
-        "duration": "7 ngày",
-        "detail": "Express VPN dùng fake IP các nước, hàng mua rồi không hoàn tiền"
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Express VPN dùng fake IP các nước, hàng mua rồi không hoàn tiền",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 20000,
+            "updated": "13:59 15/10/2026"
+          }
+        }
       },
       {
         "id": "p-1791948345889",
@@ -2371,6 +2378,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792047576752",
+      "time": "13:59 - 15/10/2026",
+      "timestamp": 1792047576752,
+      "name": "Express VPN 6-7 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 2,
+      "addedQty": 2,
+      "price": 20000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🚚ExpressVPN6-7ngàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:20.000đ"
+    },
     {
       "id": "hist-1792046596312",
       "time": "13:43 - 15/10/2026",
@@ -3712,18 +3733,6 @@
       "catKey": "khac",
       "source": "Telegram Python Sync",
       "msgKey": "⭐KASPERSKYPREMIUM+VPN1NĂM(BH300ngày)➕Thêm:49📦Tồnkhohiệntại:33💰Giá:165.000đ"
-    },
-    {
-      "id": "hist-1791989249235",
-      "time": "21:47 - 14/10/2026",
-      "timestamp": 1791989249235,
-      "name": "KASPERSKY PREMIUM + VPN 1 NĂM (BH 300 ngày)",
-      "addedQty": 49,
-      "price": 170000,
-      "stockAfter": 49,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "⭐KASPERSKYPREMIUM+VPN1NĂM(BH300ngày)➕Thêm:49📦Tồnkhohiệntại:33💰Giá:170.000đ"
     }
   ],
   "bot-tele": {
