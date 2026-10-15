@@ -2478,6 +2478,24 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792061018287",
+        "name": "Wink VIP 30 ngày BHF",
+        "price": 70000,
+        "stock": 9,
+        "stock_text": "Còn 9",
+        "duration": "1 Tháng",
+        "detail": "LƯU Ý: Chỉ sử dụng trên 01 thiết bị. Không chia sẻ tài khoản, không đổi mật khẩu/thông tin tài khoản. Trường hợp đăng nhập nhiều thiết bị hoặc vi phạm quy định sẽ không được bảo hành. Có lỗi vui lòng liên hệ shop để được hỗ trợ.( dùng cho ip)",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 9,
+            "cost_price": 70000,
+            "updated": "17:43 15/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -2505,6 +2523,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792061018289",
+      "time": "17:43 - 15/10/2026",
+      "timestamp": 1792061018289,
+      "name": "Wink VIP 30 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 9,
+      "addedQty": 9,
+      "price": 70000,
+      "stockAfter": 9,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐WinkVIP30ngàyBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:70.000đ"
+    },
     {
       "id": "hist-1792061014665",
       "time": "17:43 - 15/10/2026",
@@ -3872,18 +3904,6 @@
       "catKey": "chatgpt",
       "source": "Telegram Python Sync",
       "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:42📦Tồnkhohiệntại:105💰Giá:320.000đ"
-    },
-    {
-      "id": "hist-1792000732921",
-      "time": "00:58 - 15/10/2026",
-      "timestamp": 1792000732921,
-      "name": "Chatgpt Plus Apple Pay 1 tháng BHF",
-      "addedQty": 42,
-      "price": 320000,
-      "stockAfter": 42,
-      "catKey": "chatgpt",
-      "source": "Telegram Python Sync",
-      "msgKey": "🤖ChatgptPlusApplePay1thángBHF➕Thêm:42📦Tồnkhohiệntại:105💰Giá:320.000đ"
     }
   ],
   "bot-tele": {
