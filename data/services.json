@@ -2127,6 +2127,23 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792093859672",
+        "name": "Gmail Random 200X~2023 Có 2FA",
+        "price": 45000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Định dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H - Login thành công hết bảo hành\n- Gmail đã nuôi khá lâu rồi nên gmail khá khoẻ\n+ Lưu ý:\n- Hãy dùng proxy , và IP máy riêng để login Gmail , tránh tình trạng GG quét hàng loạt.\n-Sau 48H hãy thay đổi thông , đá thiết bị cũ, Để bảo mật tài sản của mình. ( Gmail cổ điều bảo mật thông tin là quan trọng nhất )",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 0,
+            "cost_price": 45000,
+            "updated": "02:50 16/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -2925,6 +2942,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792093859673",
+      "time": "02:50 - 16/10/2026",
+      "timestamp": 1792093859673,
+      "name": "Gmail Random 200X~2023 Có 2FA",
+      "bot": "sieuthistore_bot",
+      "shopStock": 0,
+      "addedQty": 26,
+      "price": 45000,
+      "stockAfter": 0,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:26📦Tồnkhohiệntại:0💰Giá:45.000đ"
+    },
     {
       "id": "hist-1792093266861",
       "time": "02:41 - 16/10/2026",
@@ -4310,20 +4341,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🤖ChatGPTVerStudentsPlus4ThángKBH➕Thêm:2📦Tồnkhohiệntại:12💰Giá:300.000đ"
-    },
-    {
-      "id": "hist-1792034125769",
-      "time": "10:15 - 15/10/2026",
-      "timestamp": 1792034125769,
-      "name": "API Claude 50$ Token 1 tháng BH 30 ngày",
-      "bot": "piggyai99_bot",
-      "shopStock": 1,
-      "addedQty": 0,
-      "price": 140000,
-      "stockAfter": 1,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🧠APIClaude50$Token1thángBH30ngày💰Giá:140k📦Tồnkho:1tàikhoản📊Đãbán:67tàikhoản💎Môtả"
     }
   ],
   "bot-tele": {
