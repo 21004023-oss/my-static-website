@@ -813,6 +813,23 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792081760260",
+        "name": "ChatGPT Go 1 Tháng - BH 7 Ngày",
+        "price": 50000,
+        "stock": 15,
+        "stock_text": "Còn 15",
+        "duration": "1 Tháng",
+        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n2. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n3. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 15,
+            "cost_price": 50000,
+            "updated": "23:29 15/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -2673,6 +2690,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792081760260",
+      "time": "23:29 - 15/10/2026",
+      "timestamp": 1792081760260,
+      "name": "ChatGPT Go 1 Tháng - BH 7 Ngày",
+      "bot": "taphoathomap_bot",
+      "shopStock": 15,
+      "addedQty": 15,
+      "price": 50000,
+      "stockAfter": 15,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTGo1Tháng-BH7Ngày➕Thêm:15📦Tồnkhohiệntại:15💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1792079540461",
       "time": "22:52 - 15/10/2026",
       "timestamp": 1792079540461,
@@ -4057,20 +4088,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:8📦Tồnkhohiệntại:70💰Giá:200.000đ"
-    },
-    {
-      "id": "hist-1792019156972",
-      "time": "06:05 - 15/10/2026",
-      "timestamp": 1792019156972,
-      "name": "ChatGPT Plus GGPay 30D BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 64,
-      "addedQty": 0,
-      "price": 200000,
-      "stockAfter": 64,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H💰Giá:200k📦Tồnkho:64tàikhoản📊Đãbán:2.737tàikhoản💎Môtả:Kh"
     }
   ],
   "bot-tele": {
