@@ -2235,6 +2235,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792102069973",
+        "name": "Gmail Cổ Random 2010~2022",
+        "price": 45000,
+        "stock": 330,
+        "stock_text": "Còn 330",
+        "duration": "1 Tháng",
+        "detail": "🇻🇳Mô tả: Login Lỗi Pass- Very Phone- Được Bảo hành Login 24H - login thành công là hết Bảo hành\nĐịnh dạng: Gmail | Pass | Gmail khôi phục| 2FA (nếu có )\n- Gmail này cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\n✅ Cần chọn nước Gmail inbox Admin ( chỉ áp dụng cho đơn mua số lượng)",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 330,
+            "cost_price": 45000,
+            "updated": "05:07 16/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -3153,6 +3171,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792102069975",
+      "time": "05:07 - 16/10/2026",
+      "timestamp": 1792102069975,
+      "name": "Gmail Cổ Random 2010~2022",
+      "bot": "sieuthistore_bot",
+      "shopStock": 330,
+      "addedQty": 23,
+      "price": 45000,
+      "stockAfter": 330,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧GmailCổRandom2010~2022➕Thêm:23📦Tồnkhohiệntại:330💰Giá:45.000đ"
+    },
     {
       "id": "hist-1792101992916",
       "time": "05:06 - 16/10/2026",
@@ -4538,20 +4570,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📣ThôngbáotừAdmin:🔥GIẢMGIÁCỰCSỐC–CHATGPTPLUS🔥🚀CHATGPTPLUS–BH30NGÀYCHỈ240K(9.2$)🚀C"
-    },
-    {
-      "id": "hist-1792038919545",
-      "time": "11:35 - 15/10/2026",
-      "timestamp": 1792038919545,
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 22,
-      "addedQty": 20,
-      "price": 250000,
-      "stockAfter": 22,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:20📦Tồnkhohiệntại:22💰Giá:250.000đ"
     }
   ],
   "bot-tele": {
