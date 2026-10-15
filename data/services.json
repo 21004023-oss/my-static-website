@@ -96,11 +96,18 @@
         "id": "p-1791926580507",
         "name": "Slot Youtube Premium 1 Năm BHF",
         "price": 280000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 606,
+        "stock_text": "Còn 606",
         "duration": "1 Năm",
         "detail": "THỜI GIAN HOÀN THÀNH KHOẢNG 1 GiỜ HOẶC SỚM HƠN\n- Khách gửi tên gmail để được mời vào Family\n-KHÁCH CHỈ CẦN DÙNG 1 GMAIL DUY NHẤT CHO ĐẾN KHI HẾT HẠN GÓI ĐĂNG KÍ Ở BOT MÀ KHÔNG LO LỖI 12 THÁNG\n- Khách cần sử dụng VPN VIỆT NAM hoặc xóa hồ sơ thanh toán để có thể tham gia nhóm gia đình, sau đó có thể xem bình thường mà không cần phải sử dụng VPN VIETNAM\n- Sử dụng được ở mọi quốc gia trên thế giới\n-Không chấp nhận yêu cầu hủy gói đăng ký khi chưa hết hạn ở bot.\n-Sau khi BOT báo đã hoàn thành, hãy vào link  http://g.co/yourfamily bằng mail đăng ký, kiểm tra có lời mời, ấn tham gia\n- Youtube Premium gia hạn hàng tháng ổn định, mỗi tháng hệ thống sẽ gửi link để tham gia nhóm gia đình mới, 100% không lỗi 12 tháng, household\n-Dùng bên mình khi nào bị mất premium và nhận đủ 2 mail , 1 mail báo nhóm gia đình cũ không hoạt động và 1 mail có lời mời mới. Khi đã nhận đủ 2 mail  thì sẽ bắt đầu thoát nhóm gia đình cũ và tham gia nhóm gia đình mới\n-Không nhận mail đã từng fix 12 tháng, hoặc đang bị kẹt lỗi quét hộ gia đình\n-Link hướng dẫn cụ thể: https://docs.google.com/document/d/1Cjf5AsKj5ytHF4ixl_0rTBnY0lxtctJfghHJsAHX-pI/edit?tab=t.0",
-        "conflict_dismissed": true
+        "conflict_dismissed": true,
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 606,
+            "cost_price": 280000,
+            "updated": "03:25 16/10/2026"
+          }
+        }
       },
       {
         "id": "p-1791941158182",
@@ -3072,6 +3079,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792095915189",
+      "time": "03:25 - 16/10/2026",
+      "timestamp": 1792095915189,
+      "name": "Slot Youtube Premium 1 Năm BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 606,
+      "addedQty": 2,
+      "price": 280000,
+      "stockAfter": 606,
+      "catKey": "youtube",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "▶️SlotYoutubePremium1NămBHF➕Thêm:2📦Tồnkhohiệntại:606💰Giá:280.000đ"
+    },
+    {
       "id": "hist-1792095898191",
       "time": "03:24 - 16/10/2026",
       "timestamp": 1792095898191,
@@ -4456,20 +4477,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🦈SurfSharkVPNAndroi/PC/IOS7ngàyBHF💰Giá:15k📦Tồnkho:7tàikhoản📊Đãbán:142tàikhoản💎Mô"
-    },
-    {
-      "id": "hist-1792034170433",
-      "time": "10:16 - 15/10/2026",
-      "timestamp": 1792034170433,
-      "name": "SurfShark VPN Androi/PC/IOS 7 ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 7,
-      "addedQty": 6,
-      "price": 15000,
-      "stockAfter": 14,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🦈SurfSharkVPNAndroi/PC/IOS7ngàyBHF➕Thêm:6📦Tồnkhohiệntại:7💰Giá:15.000đ"
     }
   ],
   "bot-tele": {
