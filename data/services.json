@@ -1637,11 +1637,18 @@
         "id": "p-1791929333993",
         "name": "Gmail (New) -Login All",
         "price": 25000,
-        "stock": 140,
-        "stock_text": "Còn 140",
+        "stock": 78,
+        "stock_text": "Còn 78",
         "duration": "1 Tháng",
         "detail": "GMAIL New TRÂU BÒ - Login All thiết bị\nĐịnh dạng : Gmail | Pass | mail khôi phục\nBẢO HÀNH LOGIN LẦN ĐẦU 24H ( very phone, sai pass) được bảo hành - login thành công là hết Bảo hành\n- Gmail New cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\nĐÃ CHECK LIVE TRƯỚC KHI BÁN",
-        "price_verified": true
+        "price_verified": true,
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 78,
+            "cost_price": 35000,
+            "updated": "09:28 15/10/2026"
+          }
+        }
       },
       {
         "id": "p-1791936082491",
@@ -2109,6 +2116,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792031325295",
+      "time": "09:28 - 15/10/2026",
+      "timestamp": 1792031325295,
+      "name": "Gmail (New) -Login All",
+      "bot": "sieuthistore_bot",
+      "shopStock": 78,
+      "addedQty": 50,
+      "price": 35000,
+      "stockAfter": 78,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:50📦Tồnkhohiệntại:78💰Giá:35.000đ"
+    },
     {
       "id": "hist-1792029163474",
       "time": "08:52 - 15/10/2026",
@@ -3372,18 +3393,6 @@
       "catKey": "chatgpt",
       "source": "Telegram Python Sync",
       "msgKey": "🤖ChatGPTPlus4Tháng-BH10Ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:550.000đ"
-    },
-    {
-      "id": "hist-1791960560914",
-      "time": "13:49 - 14/10/2026",
-      "timestamp": 1791960560914,
-      "name": "ChatGPT Go 1 Tháng - BH 10 Ngày",
-      "addedQty": 7,
-      "price": 75000,
-      "stockAfter": 7,
-      "catKey": "chatgpt",
-      "source": "Telegram Python Sync",
-      "msgKey": "🤖ChatGPTGo1Tháng-BH10Ngày➕Thêm:7📦Tồnkhohiệntại:10💰Giá:75.000đ"
     }
   ],
   "bot-tele": {
