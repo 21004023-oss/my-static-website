@@ -1595,10 +1595,17 @@
         "id": "p-1791936211706",
         "name": "API Cursor Pro 2600 Credits 1 tháng BHF",
         "price": 204000,
-        "stock": 1,
-        "stock_text": "Còn 1",
-        "duration": "1 tháng",
-        "detail": "Api Cursor Pro 2600 credit hạn sử dụng 1 tháng.\n-Credit: 2600\n-Hạn sử dụng: 1 tháng từ lúc active Key.\n-Bảo hành: 30 ngày.\n-File tài liệu chi tiết về cách sử dụng và setup sản phẩm: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1?usp=drive_link\n-Lưu ý: Sản phẩm là API,không phải tài khoản,không hỗ trợ hoàn trả nếu mua nhầm,không biết sử dụng."
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Api Cursor Pro 2600 credit hạn sử dụng 1 tháng.\n-Credit: 2600\n-Hạn sử dụng: 1 tháng từ lúc active Key.\n-Bảo hành: 30 ngày.\n-File tài liệu chi tiết về cách sử dụng và setup sản phẩm: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1?usp=drive_link\n-Lưu ý: Sản phẩm là API,không phải tài khoản,không hỗ trợ hoàn trả nếu mua nhầm,không biết sử dụng.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 204000,
+            "updated": "06:56 16/10/2026"
+          }
+        }
       },
       {
         "id": "p-1792108522126",
@@ -3225,6 +3232,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792108581266",
+      "time": "06:56 - 16/10/2026",
+      "timestamp": 1792108581266,
+      "name": "API Cursor Pro 2600 Credits 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 2,
+      "addedQty": 2,
+      "price": 204000,
+      "stockAfter": 2,
+      "catKey": "api-cursor-deepseek",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🖱️APICursorPro2600Credits1thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:204.000đ"
+    },
+    {
       "id": "hist-1792108551174",
       "time": "06:55 - 16/10/2026",
       "timestamp": 1792108551174,
@@ -4609,20 +4630,6 @@
       "catKey": "khac",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "⭐KEYHMAAND/PC20-30DAYS➕Thêm:49📦Tồnkhohiệntại:49💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1792043307697",
-      "time": "12:48 - 15/10/2026",
-      "timestamp": 1792043307697,
-      "name": "KEY HMA AND/PC 20-30 DAYS",
-      "bot": "ntnshopre_bot",
-      "shopStock": 49,
-      "addedQty": 0,
-      "price": 10000,
-      "stockAfter": 49,
-      "catKey": "khac",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "⭐KEYHMAAND/PC20-30DAYS💰Giá:10k📦Tồnkho:49tàikhoản📊Đãbán:542tàikhoản"
     }
   ],
   "bot-tele": {
