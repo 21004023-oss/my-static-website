@@ -655,6 +655,24 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792045731437",
+        "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+        "price": 240000,
+        "stock": 26,
+        "stock_text": "Còn 26",
+        "duration": "1 Tháng",
+        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n✅ Hiện tại, việc đổi PASS cần OTP nên không đổi được, còn nếu đổi 2FA có thể lỗi OTP gmail, khách hàng có thể cân nhắc không đổi và cứ việc dùng\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📂 Hướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 26,
+            "cost_price": 240000,
+            "updated": "13:28 15/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -2353,6 +2371,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792045731439",
+      "time": "13:28 - 15/10/2026",
+      "timestamp": 1792045731439,
+      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 26,
+      "addedQty": 32,
+      "price": 240000,
+      "stockAfter": 26,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:32📦Tồnkhohiệntại:26💰Giá:240.000đ"
+    },
+    {
       "id": "hist-1792044744578",
       "time": "13:12 - 15/10/2026",
       "timestamp": 1792044744578,
@@ -3689,18 +3721,6 @@
       "catKey": "khac",
       "source": "Telegram Python Sync",
       "msgKey": "📣ThôngbáotừAdmin:CapcutPro1thánggiáchỉ33kmờimọingườimuaạ"
-    },
-    {
-      "id": "hist-1791987865843",
-      "time": "21:24 - 14/10/2026",
-      "timestamp": 1791987865843,
-      "name": "CAPCUT PRO CÁ NHÂN 30 Ngày BHF",
-      "addedQty": 9,
-      "price": 40000,
-      "stockAfter": 40,
-      "catKey": "capcut",
-      "source": "Telegram Python Sync",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:3💰Giá:40.000đ"
     }
   ],
   "bot-tele": {
