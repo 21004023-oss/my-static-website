@@ -1809,10 +1809,17 @@
         "id": "p-1791935149110",
         "name": "Higgfield GenJutsu 720p 1th BH 1h",
         "price": 40000,
-        "stock": 1,
-        "stock_text": "Còn 1",
-        "duration": "1th",
-        "detail": "Tài khoản làm dc 1 video 720p siêu nhanh Genjutsu\nMua xong dùng luôn\nKhông chấp nhận lí do quên hay bận"
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản làm dc 1 video 720p siêu nhanh Genjutsu\nMua xong dùng luôn\nKhông chấp nhận lí do quên hay bận",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 4,
+            "cost_price": 40000,
+            "updated": "08:43 15/10/2026"
+          }
+        }
       },
       {
         "id": "p-1791938217562",
@@ -2102,6 +2109,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792028635787",
+      "time": "08:43 - 15/10/2026",
+      "timestamp": 1792028635787,
+      "name": "Higgfield GenJutsu 720p 1th BH 1h",
+      "bot": "taphoathomap_bot",
+      "shopStock": 4,
+      "addedQty": 2,
+      "price": 40000,
+      "stockAfter": 4,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬HiggfieldGenJutsu720p1thBH1h➕Thêm:2📦Tồnkhohiệntại:4💰Giá:40.000đ"
+    },
     {
       "id": "hist-1792027014464",
       "time": "08:16 - 15/10/2026",
@@ -3361,18 +3382,6 @@
       "catKey": "chatgpt",
       "source": "Telegram Python Sync",
       "msgKey": "🤖ChatGPTBusinessStandard1thángBH1ngày➕Thêm:13📦Tồnkhohiệntại:13💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1791959649685",
-      "time": "13:34 - 14/10/2026",
-      "timestamp": 1791959649685,
-      "name": "COURSERA PREMIUM 12 THÁNG BẢO HÀN H24H",
-      "addedQty": 15,
-      "price": 125000,
-      "stockAfter": 26,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "⭐COURSERAPREMIUM12THÁNGBẢOHÀNH24H💰Giá:125k📦Tồnkho:15tàikhoản📊Đãbán:29tàikhoản💎Mô"
     }
   ],
   "bot-tele": {
