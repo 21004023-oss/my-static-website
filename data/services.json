@@ -2744,6 +2744,23 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792088127430",
+        "name": "Grammarly AI Pro 1 Tháng BHF",
+        "price": 80000,
+        "stock": 7,
+        "stock_text": "Còn 7",
+        "duration": "1 Tháng",
+        "detail": "Grammarly Pro có AI 1 Tháng BHF\nĐịnh dạng: Email|Pass\n・　Viết lại toàn bộ câu chỉ với một cú nhấp chuột\n・　Dễ dàng điều chỉnh văn phong và giọng điệu bài viết\n・　Viết tiếng Anh trôi chảy và tự nhiên hơn\n・　Gợi ý cá nhân hóa không giới hạn\n・　Phát hiện đạo văn và nội dung do AI tạo ra\n・　Tạo nội dung với 2.000 lượt prompt AI\n-Chú ý: Không thay đổi thêm thắt bất kỳ cái gì vào tài khoản, nếu vi phạm sẽ không được bảo hành",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 7,
+            "cost_price": 80000,
+            "updated": "01:15 16/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -2771,6 +2788,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792088127430",
+      "time": "01:15 - 16/10/2026",
+      "timestamp": 1792088127430,
+      "name": "Grammarly AI Pro 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 7,
+      "addedQty": 3,
+      "price": 80000,
+      "stockAfter": 7,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:3📦Tồnkhohiệntại:7💰Giá:80.000đ"
+    },
     {
       "id": "hist-1792086425008",
       "time": "00:47 - 16/10/2026",
@@ -4156,20 +4187,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🧠NângchínhchủCLAUDEX51Tháng-BH7Ngày➕Thêm:5📦Tồnkhohiệntại:5💰Giá:1.700.000đ"
-    },
-    {
-      "id": "hist-1792020825638",
-      "time": "06:33 - 15/10/2026",
-      "timestamp": 1792020825638,
-      "name": "ChatGPT Plus 4 Tháng - BH 1 Tháng",
-      "bot": "taphoathomap_bot",
-      "shopStock": 13,
-      "addedQty": 0,
-      "price": 650000,
-      "stockAfter": 13,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlus4Tháng-BH1Tháng💰Giá:650k📦Tồnkho:13tàikhoản📊Đãbán:9tàikhoản💎Môtả:🔐Acc"
     }
   ],
   "bot-tele": {
