@@ -129,6 +129,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792035066889",
+        "name": "Gmail Random ip 2020-2023 trial youtube",
+        "price": 40000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 0,
+            "cost_price": 40000,
+            "updated": "10:31 15/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -2174,6 +2192,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792035066895",
+      "time": "10:31 - 15/10/2026",
+      "timestamp": 1792035066895,
+      "name": "Gmail Random ip 2020-2023 trial youtube",
+      "bot": "taphoathomap_bot",
+      "shopStock": 0,
+      "addedQty": 20,
+      "price": 40000,
+      "stockAfter": 0,
+      "catKey": "youtube",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧GmailRandomip2020-2023trialyoutube➕Thêm:20📦Tồnkhohiệntại:0💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1792035062198",
       "time": "10:31 - 15/10/2026",
       "timestamp": 1792035062198,
@@ -3474,18 +3506,6 @@
       "catKey": "chatgpt",
       "source": "Telegram Python Sync",
       "msgKey": "🤖ChatGPTProx5-1ThángBH7Ngày➕Thêm:1📦Tồnkhohiệntại:0💰Giá:1.700.000đ"
-    },
-    {
-      "id": "hist-1791975939646",
-      "time": "18:05 - 14/10/2026",
-      "timestamp": 1791975939646,
-      "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
-      "addedQty": 218,
-      "price": 2000,
-      "stockAfter": 268,
-      "catKey": "chatgpt",
-      "source": "Telegram Python Sync",
-      "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH➕Thêm:218📦Tồnkhohiệntại:218💰Giá:2.000đ"
     }
   ],
   "bot-tele": {
