@@ -777,15 +777,15 @@
         "id": "p-1792070431190",
         "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
         "price": 2000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 157,
+        "stock_text": "Còn 157",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư , đổi pass thỏa mái\n📂 Format: Email | Pass | 2FA\n⚠️ Hỗ trợ vấn đề trong 1H đầu. Sau 1H shop không hỗ trợ",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 157,
             "cost_price": 2000,
-            "updated": "20:20 15/10/2026"
+            "updated": "20:57 15/10/2026"
           }
         },
         "hidden": false
@@ -2614,6 +2614,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792072623573",
+      "time": "20:57 - 15/10/2026",
+      "timestamp": 1792072623573,
+      "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
+      "bot": "taphoathomap_bot",
+      "shopStock": 157,
+      "addedQty": 157,
+      "price": 2000,
+      "stockAfter": 157,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH➕Thêm:157📦Tồnkhohiệntại:157💰Giá:2.000đ"
+    },
+    {
       "id": "hist-1792072180486",
       "time": "20:49 - 15/10/2026",
       "timestamp": 1792072180486,
@@ -3998,20 +4012,6 @@
       "catKey": "capcut",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "✂️CAPCUTPRO1THÁNGBHF💰Giá:38k📦Tồnkho:28tàikhoản📊Đãbán:597tàikhoản💎Môtả:CAPCUTPROC"
-    },
-    {
-      "id": "hist-1792019112138",
-      "time": "06:05 - 15/10/2026",
-      "timestamp": 1792019112138,
-      "name": "CAPCUT PRO 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 28,
-      "addedQty": 9,
-      "price": 38000,
-      "stockAfter": 28,
-      "catKey": "capcut",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:9📦Tồnkhohiệntại:28💰Giá:38.000đ"
     }
   ],
   "bot-tele": {
