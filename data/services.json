@@ -96,6 +96,22 @@
         "stock_text": "Còn 28",
         "duration": "3 THÁNG",
         "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân\n- Cần fake VPN US\n- Link redeem code: https://www.youtube.com/redeem"
+      },
+      {
+        "id": "p-1792027014464",
+        "name": "ADMIN YTB PREMIUM  5 SLOT 1 THÁNG BẢO HÀNH FULL",
+        "price": 45000,
+        "stock": 106,
+        "stock_text": "Còn 106",
+        "duration": "1 Tháng",
+        "detail": "- Định dạng: Mail | Pass | 2fa\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho ae seller\n- Bảo hành full gói trong quá trình sử dụng, KHÔNG bảo hành ACC vì tuỳ vào cách bảo quản của mỗi người sử dụng",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 106,
+            "cost_price": 45000,
+            "updated": "08:16 15/10/2026"
+          }
+        }
       }
     ]
   },
@@ -2087,6 +2103,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792027014464",
+      "time": "08:16 - 15/10/2026",
+      "timestamp": 1792027014464,
+      "name": "ADMIN YTB PREMIUM  5 SLOT 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "shopStock": 106,
+      "addedQty": 0,
+      "price": 45000,
+      "stockAfter": 106,
+      "catKey": "youtube",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "▶️ADMINYTBPREMIUM5SLOT1THÁNGBẢOHÀNHFULL💰Giá:45k📦Tồnkho:106tàikhoản📊Đãbán:6tàikho"
+    },
+    {
       "id": "hist-1792024628673",
       "time": "07:37 - 15/10/2026",
       "timestamp": 1792024628673,
@@ -3343,18 +3373,6 @@
       "catKey": "khac",
       "source": "Telegram Python Sync",
       "msgKey": "⭐COURSERAPREMIUM12THÁNGBẢOHÀNH24H💰Giá:125k📦Tồnkho:15tàikhoản📊Đãbán:29tàikhoản💎Mô"
-    },
-    {
-      "id": "hist-1791959646093",
-      "time": "13:34 - 14/10/2026",
-      "timestamp": 1791959646093,
-      "name": "Coursera Premium 12 Tháng BH 1 Ngày",
-      "addedQty": 15,
-      "price": 120000,
-      "stockAfter": 26,
-      "catKey": "khac",
-      "source": "Telegram Python Sync",
-      "msgKey": "⭐CourseraPremium12ThángBH1Ngày💰Giá:120k📦Tồnkho:15tàikhoản📊Đãbán:29tàikhoản💎Môtả:"
     }
   ],
   "bot-tele": {
