@@ -2985,6 +2985,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792094920635",
+        "name": "Tài khoản VieON VIP 3 tháng bhf",
+        "price": 55000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "3 Tháng",
+        "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 55000,
+            "updated": "03:08 16/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -3012,6 +3030,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792094920637",
+      "time": "03:08 - 16/10/2026",
+      "timestamp": 1792094920637,
+      "name": "Tài khoản VieON VIP 3 tháng bhf",
+      "bot": "taphoathomap_bot",
+      "shopStock": 1,
+      "addedQty": 1,
+      "price": 55000,
+      "stockAfter": 1,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐TàikhoảnVieONVIP3thángbhf➕Thêm:1📦Tồnkhohiệntại:1💰Giá:55.000đ"
+    },
     {
       "id": "hist-1792094916011",
       "time": "03:08 - 16/10/2026",
@@ -4397,20 +4429,6 @@
       "catKey": "gmail",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧Gmail(New)-LoginAll💰Giá:35k📦Tồnkho:78tàikhoản📊Đãbán:9.790tàikhoản💎Môtả:GMAILNew"
-    },
-    {
-      "id": "hist-1792034146471",
-      "time": "10:15 - 15/10/2026",
-      "timestamp": 1792034146471,
-      "name": "Meitu SVip 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 9,
-      "addedQty": 10,
-      "price": 75000,
-      "stockAfter": 18,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✨MeituSVip1ThángBHF➕Thêm:10📦Tồnkhohiệntại:9💰Giá:75.000đ"
     }
   ],
   "bot-tele": {
