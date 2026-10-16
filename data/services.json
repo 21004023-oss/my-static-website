@@ -1565,6 +1565,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792172397970",
+        "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+        "price": 33000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "1 Tháng",
+        "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 8,
+            "cost_price": 33000,
+            "updated": "00:39 17/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -4001,6 +4019,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792172397975",
+      "time": "00:39 - 17/10/2026",
+      "timestamp": 1792172397975,
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 8,
+      "addedQty": 12,
+      "price": 33000,
+      "stockAfter": 8,
+      "catKey": "capcut",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:12📦Tồnkhohiệntại:8💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1792171959798",
       "time": "00:32 - 17/10/2026",
       "timestamp": 1792171959798,
@@ -5385,20 +5417,6 @@
       "catKey": "gmail",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧GmailCổRandom2010~2022➕Thêm:23📦Tồnkhohiệntại:330💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792101992916",
-      "time": "05:06 - 16/10/2026",
-      "timestamp": 1792101992916,
-      "name": "Gmail Cổ Random 2010~2022",
-      "bot": "piggyai99_bot",
-      "shopStock": 330,
-      "addedQty": 23,
-      "price": 35000,
-      "stockAfter": 330,
-      "catKey": "gmail",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "📧GmailCổRandom2010~2022➕Thêm:23📦Tồnkhohiệntại:330💰Giá:35.000đ"
     }
   ],
   "bot-tele": {
