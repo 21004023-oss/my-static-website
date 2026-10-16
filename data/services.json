@@ -2095,6 +2095,24 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792157503751",
+        "name": "Admin Notion Business 3 tháng BHF",
+        "price": 380000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "3 Tháng",
+        "detail": "-Admin Notion Business (tài khoản cấp sẵn-riêng tư).\n-Định dạng: Mail | Pass | Mail Khôi Phục\n-Có thể thêm nhiều thành viên cùng sử dụng ưu đãi (20-30 thành viên).\n-Hạn gói: 2 tháng\n-Bảo hành: 2 tháng.\n-Lưu ý: Sử dụng để Code sẽ bị ban.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 380000,
+            "updated": "20:31 16/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ],
     "logo": ""
@@ -3785,6 +3803,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792157503753",
+      "time": "20:31 - 16/10/2026",
+      "timestamp": 1792157503753,
+      "name": "Admin Notion Business 3 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 2,
+      "addedQty": 2,
+      "price": 380000,
+      "stockAfter": 2,
+      "catKey": "notion",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐AdminNotionBusiness3thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:380.000đ"
+    },
+    {
       "id": "hist-1792157497292",
       "time": "20:31 - 16/10/2026",
       "timestamp": 1792157497292,
@@ -5169,20 +5201,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:3📦Tồnkhohiệntại:7💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1792088137060",
-      "time": "01:15 - 16/10/2026",
-      "timestamp": 1792088137060,
-      "name": "Grammarly AI Pro 1 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 7,
-      "addedQty": 0,
-      "price": 90000,
-      "stockAfter": 7,
-      "catKey": "khac",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "⭐GrammarlyAIPro1ThángBHF💰Giá:90k📦Tồnkho:7tàikhoản📊Đãbán:100tàikhoản💎Môtả:Grammar"
     }
   ],
   "bot-tele": {
