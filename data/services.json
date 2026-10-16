@@ -1511,15 +1511,15 @@
         "id": "p-1792125293833",
         "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
         "price": 33000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "piggyai99_bot": {
-            "stock": 20,
+            "stock": 12,
             "cost_price": 33000,
-            "updated": "22:12 16/10/2026"
+            "updated": "23:34 16/10/2026"
           }
         },
         "hidden": true,
@@ -3942,6 +3942,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792168496389",
+      "time": "23:34 - 16/10/2026",
+      "timestamp": 1792168496389,
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 12,
+      "addedQty": 12,
+      "price": 33000,
+      "stockAfter": 12,
+      "catKey": "capcut",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1792168411113",
       "time": "23:33 - 16/10/2026",
       "timestamp": 1792168411113,
@@ -5326,20 +5340,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🧠APIClaude100MToken1ngàyBHF➕Thêm:1📦Tồnkhohiệntại:4💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1792095571794",
-      "time": "03:19 - 16/10/2026",
-      "timestamp": 1792095571794,
-      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 23,
-      "addedQty": 192,
-      "price": 33000,
-      "stockAfter": 23,
-      "catKey": "capcut",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:192📦Tồnkhohiệntại:23💰Giá:33.000đ"
     }
   ],
   "bot-tele": {
