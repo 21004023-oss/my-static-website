@@ -3019,15 +3019,20 @@
       {
         "id": "p-1792192343631",
         "name": "Gmail random 5-10 tháng 2FA",
-        "price": 45000,
-        "stock": 32,
-        "stock_text": "Còn 32",
+        "price": 25000,
+        "stock": 64,
+        "stock_text": "Còn 64",
         "duration": "10 Tháng",
         "detail": "Định dạng username|pass|2fa\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "sources": {
           "sieuthistore_bot": {
             "stock": 32,
             "cost_price": 45000,
+            "updated": "06:35 17/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 32,
+            "cost_price": 25000,
             "updated": "06:35 17/10/2026"
           }
         },
@@ -4306,6 +4311,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792193748759",
+      "time": "06:35 - 17/10/2026",
+      "timestamp": 1792193748759,
+      "name": "Gmail random 5-10 tháng 2FA",
+      "bot": "taphoathomap_bot",
+      "shopStock": 32,
+      "addedQty": 0,
+      "price": 25000,
+      "stockAfter": 64,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧Gmailrandom5-10tháng2FA💰Giá:25k📦Tồnkho:32tàikhoản📊Đãbán:3.734tàikhoản💎Môtả:Định"
+    },
     {
       "id": "hist-1792193737842",
       "time": "06:35 - 17/10/2026",
@@ -5691,20 +5710,6 @@
       "catKey": "kling",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬Kling1kcredits1thángBH24H➕Thêm:3📦Tồnkhohiệntại:5💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1792148582960",
-      "time": "18:03 - 16/10/2026",
-      "timestamp": 1792148582960,
-      "name": "Kling 1k  credits 1 tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 5,
-      "addedQty": 0,
-      "price": 180000,
-      "stockAfter": 5,
-      "catKey": "kling",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬Kling1kcredits1thángBH24H💰Giá:180k📦Tồnkho:5tàikhoản📊Đãbán:21tàikhoản"
     }
   ],
   "bot-tele": {
