@@ -2447,7 +2447,7 @@
           "ntnshopre_bot": {
             "stock": 5,
             "cost_price": 150000,
-            "updated": "00:32 17/10/2026"
+            "updated": "03:56 17/10/2026"
           }
         },
         "hidden": false
@@ -4190,6 +4190,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792184161774",
+      "time": "03:56 - 17/10/2026",
+      "timestamp": 1792184161774,
+      "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
+      "bot": "ntnshopre_bot",
+      "shopStock": 5,
+      "addedQty": 3,
+      "price": 150000,
+      "stockAfter": 5,
+      "catKey": "kling",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🎬KLING792-992cre1tháng(BH24h)➕Thêm:3📦Tồnkhohiệntại:5💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1792184154630",
       "time": "03:55 - 17/10/2026",
       "timestamp": 1792184154630,
@@ -5574,20 +5588,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "✨MeituVip+7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792121275566",
-      "time": "10:27 - 16/10/2026",
-      "timestamp": 1792121275566,
-      "name": "ChatGPT Plus 4 tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 81,
-      "addedQty": 73,
-      "price": 450000,
-      "stockAfter": 81,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlus4thángBH24H➕Thêm:73📦Tồnkhohiệntại:81💰Giá:450.000đ"
     }
   ],
   "bot-tele": {
