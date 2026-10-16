@@ -1125,6 +1125,24 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792175035933",
+        "name": "ChatGPT Plus GGPay 30D BH 24H",
+        "price": 190000,
+        "stock": 15,
+        "stock_text": "Còn 15",
+        "duration": "1 Tháng",
+        "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 15,
+            "cost_price": 190000,
+            "updated": "01:23 17/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -4049,6 +4067,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792175035934",
+      "time": "01:23 - 17/10/2026",
+      "timestamp": 1792175035934,
+      "name": "ChatGPT Plus GGPay 30D BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 15,
+      "addedQty": 17,
+      "price": 190000,
+      "stockAfter": 15,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:17📦Tồnkhohiệntại:15💰Giá:190.000đ"
+    },
+    {
       "id": "hist-1792175030852",
       "time": "01:23 - 17/10/2026",
       "timestamp": 1792175030852,
@@ -5433,20 +5465,6 @@
       "catKey": "api-cursor-deepseek",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🖱️APICursorPro2600Credits1thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:280.000đ"
-    },
-    {
-      "id": "hist-1792107536195",
-      "time": "06:38 - 16/10/2026",
-      "timestamp": 1792107536195,
-      "name": "ChatGPT Plus K12 Edu 2 Năm  KBH",
-      "bot": "sieuthistore_bot",
-      "shopStock": 25,
-      "addedQty": 169,
-      "price": 100000,
-      "stockAfter": 25,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2NămKBH➕Thêm:169📦Tồnkhohiệntại:25💰Giá:100.000đ"
     }
   ],
   "bot-tele": {
