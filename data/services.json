@@ -3015,6 +3015,23 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792192343631",
+        "name": "Gmail random 5-10 tháng 2FA",
+        "price": 45000,
+        "stock": 32,
+        "stock_text": "Còn 32",
+        "duration": "10 Tháng",
+        "detail": "Định dạng username|pass|2fa\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 32,
+            "cost_price": 45000,
+            "updated": "06:12 17/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -4232,6 +4249,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792192343631",
+      "time": "06:12 - 17/10/2026",
+      "timestamp": 1792192343631,
+      "name": "Gmail random 5-10 tháng 2FA",
+      "bot": "sieuthistore_bot",
+      "shopStock": 32,
+      "addedQty": 24,
+      "price": 45000,
+      "stockAfter": 32,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧Gmailrandom5-10tháng2FA➕Thêm:24📦Tồnkhohiệntại:32💰Giá:45.000đ"
+    },
     {
       "id": "hist-1792190011111",
       "time": "05:33 - 17/10/2026",
@@ -5617,20 +5648,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH➕Thêm:2📦Tồnkhohiệntại:35💰Giá:2.000đ"
-    },
-    {
-      "id": "hist-1792142056174",
-      "time": "16:14 - 16/10/2026",
-      "timestamp": 1792142056174,
-      "name": "Slot Youtube Premium 1 Năm BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 608,
-      "addedQty": 2,
-      "price": 280000,
-      "stockAfter": 608,
-      "catKey": "youtube",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "▶️SlotYoutubePremium1NămBHF➕Thêm:2📦Tồnkhohiệntại:608💰Giá:280.000đ"
     }
   ],
   "bot-tele": {
