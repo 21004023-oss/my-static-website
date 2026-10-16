@@ -2104,6 +2104,23 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792146735154",
+        "name": "Kling 1k  credits 1 tháng BH 24H",
+        "price": 180000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "Gói Kling 1k  credits 1 tháng BH 24H bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 180000,
+            "updated": "17:32 16/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -3674,6 +3691,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792146735154",
+      "time": "17:32 - 16/10/2026",
+      "timestamp": 1792146735154,
+      "name": "Kling 1k  credits 1 tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 3,
+      "addedQty": 0,
+      "price": 180000,
+      "stockAfter": 3,
+      "catKey": "kling",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬Kling1kcredits1thángBH24H💰Giá:180k📦Tồnkho:3tàikhoản📊Đãbán:20tàikhoản"
+    },
+    {
       "id": "hist-1792144903773",
       "time": "17:01 - 16/10/2026",
       "timestamp": 1792144903773,
@@ -5058,20 +5089,6 @@
       "catKey": "kling",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬KlingUltra26kcredit1THBH2D➕Thêm:32📦Tồnkhohiệntại:32💰Giá:1.500.000đ"
-    },
-    {
-      "id": "hist-1792082109659",
-      "time": "23:35 - 15/10/2026",
-      "timestamp": 1792082109659,
-      "name": "ChatGPT Go 1 Tháng - BH 7 Ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 20,
-      "addedQty": 5,
-      "price": 60000,
-      "stockAfter": 20,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTGo1Tháng-BH7Ngày➕Thêm:5📦Tồnkhohiệntại:20💰Giá:60.000đ"
     }
   ],
   "bot-tele": {
