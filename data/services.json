@@ -1254,6 +1254,24 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792119807992",
+        "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
+        "price": 65000,
+        "stock": 23,
+        "stock_text": "Còn 23",
+        "duration": "1 Tháng",
+        "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 23,
+            "cost_price": 65000,
+            "updated": "10:03 16/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -3348,6 +3366,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792119807994",
+      "time": "10:03 - 16/10/2026",
+      "timestamp": 1792119807994,
+      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 23,
+      "addedQty": 20,
+      "price": 65000,
+      "stockAfter": 23,
+      "catKey": "capcut",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:20📦Tồnkhohiệntại:23💰Giá:65.000đ"
+    },
+    {
       "id": "hist-1792119792500",
       "time": "10:03 - 16/10/2026",
       "timestamp": 1792119792500,
@@ -4732,20 +4764,6 @@
       "catKey": "gmail",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:149📦Tồnkhohiệntại:43💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792058047879",
-      "time": "16:54 - 15/10/2026",
-      "timestamp": 1792058047879,
-      "name": "Gmail (New) -Login All",
-      "bot": "sieuthistore_bot",
-      "shopStock": 43,
-      "addedQty": 149,
-      "price": 35000,
-      "stockAfter": 121,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:149📦Tồnkhohiệntại:43💰Giá:35.000đ"
     }
   ],
   "bot-tele": {
