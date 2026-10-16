@@ -4237,6 +4237,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792190006476",
+        "name": "Figma Pro Edu 1 năm (BHF)",
+        "price": 100000,
+        "stock": 7,
+        "stock_text": "Còn 7",
+        "duration": "1 Năm",
+        "detail": "Gói Figma Pro Edu 1 năm (BHF) bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 7,
+            "cost_price": 100000,
+            "updated": "05:33 17/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -4288,6 +4306,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792190006478",
+      "time": "05:33 - 17/10/2026",
+      "timestamp": 1792190006478,
+      "name": "Figma Pro Edu 1 năm (BHF)",
+      "bot": "taphoathomap_bot",
+      "shopStock": 7,
+      "addedQty": 9,
+      "price": 100000,
+      "stockAfter": 7,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:9📦Tồnkhohiệntại:7💰Giá:100.000đ"
+    },
     {
       "id": "hist-1792190002685",
       "time": "05:33 - 17/10/2026",
@@ -5673,20 +5705,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐JetBrainEdu1năm(BHF)➕Thêm:1📦Tồnkhohiệntại:6💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792141362411",
-      "time": "16:02 - 16/10/2026",
-      "timestamp": 1792141362411,
-      "name": "JetBrain Edu 1 năm BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 6,
-      "addedQty": 1,
-      "price": 80000,
-      "stockAfter": 6,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐JetBrainEdu1nămBHF➕Thêm:1📦Tồnkhohiệntại:6💰Giá:80.000đ"
     }
   ],
   "bot-tele": {
