@@ -2478,6 +2478,23 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792128240242",
+        "name": "Gmail Việt 2020-2024",
+        "price": 35000,
+        "stock": 63,
+        "stock_text": "Còn 63",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 63,
+            "cost_price": 35000,
+            "updated": "12:24 16/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -3476,6 +3493,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792128240242",
+      "time": "12:24 - 16/10/2026",
+      "timestamp": 1792128240242,
+      "name": "Gmail Việt 2020-2024",
+      "bot": "taphoathomap_bot",
+      "shopStock": 63,
+      "addedQty": 24,
+      "price": 35000,
+      "stockAfter": 63,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧GmailViệt2020-2024➕Thêm:24📦Tồnkhohiệntại:63💰Giá:35.000đ"
+    },
     {
       "id": "hist-1792127775751",
       "time": "12:16 - 16/10/2026",
@@ -4861,20 +4892,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🤖ChatGPTVerStudentschínhchủPlus4ThángKBH➕Thêm:4📦Tồnkhohiệntại:28💰Giá:300.000đ"
-    },
-    {
-      "id": "hist-1792066359101",
-      "time": "19:12 - 15/10/2026",
-      "timestamp": 1792066359101,
-      "name": "Nâng chính chủ ChatGPT Student 4 tháng - BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 10,
-      "addedQty": 10,
-      "price": 320000,
-      "stockAfter": 10,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖NângchínhchủChatGPTStudent4tháng-BH24H➕Thêm:10📦Tồnkhohiệntại:10💰Giá:320.000đ"
     }
   ],
   "bot-tele": {
