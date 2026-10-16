@@ -3032,6 +3032,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792192349068",
+        "name": "Gmail random 5-10 tháng 2FA",
+        "price": 25000,
+        "stock": 32,
+        "stock_text": "Còn 32",
+        "duration": "10 Tháng",
+        "detail": "Định dạng username|pass|2fa\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 32,
+            "cost_price": 25000,
+            "updated": "06:12 17/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -4249,6 +4267,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792192349074",
+      "time": "06:12 - 17/10/2026",
+      "timestamp": 1792192349074,
+      "name": "Gmail random 5-10 tháng 2FA",
+      "bot": "taphoathomap_bot",
+      "shopStock": 32,
+      "addedQty": 24,
+      "price": 25000,
+      "stockAfter": 32,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧Gmailrandom5-10tháng2FA➕Thêm:24📦Tồnkhohiệntại:32💰Giá:25.000đ"
+    },
     {
       "id": "hist-1792192343631",
       "time": "06:12 - 17/10/2026",
@@ -5634,20 +5666,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTFreeGmailKBH➕Thêm:2📦Tồnkhohiệntại:35💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1792144015246",
-      "time": "16:46 - 16/10/2026",
-      "timestamp": 1792144015246,
-      "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
-      "bot": "taphoathomap_bot",
-      "shopStock": 35,
-      "addedQty": 2,
-      "price": 2000,
-      "stockAfter": 35,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH➕Thêm:2📦Tồnkhohiệntại:35💰Giá:2.000đ"
     }
   ],
   "bot-tele": {
