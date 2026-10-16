@@ -3820,6 +3820,23 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792163346491",
+        "name": "Genspark Plus 1 tháng (BH 15D)",
+        "price": 380000,
+        "stock": 45,
+        "stock_text": "Còn 45",
+        "duration": "1 Tháng",
+        "detail": "Gói Genspark Plus 1 tháng (BH 15D) bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 45,
+            "cost_price": 380000,
+            "updated": "22:09 16/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -3871,6 +3888,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792163346491",
+      "time": "22:09 - 16/10/2026",
+      "timestamp": 1792163346491,
+      "name": "Genspark Plus 1 tháng (BH 15D)",
+      "bot": "taphoathomap_bot",
+      "shopStock": 45,
+      "addedQty": 45,
+      "price": 380000,
+      "stockAfter": 45,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐GensparkPlus1tháng(BH15D)➕Thêm:45📦Tồnkhohiệntại:45💰Giá:380.000đ"
+    },
     {
       "id": "hist-1792162755309",
       "time": "21:59 - 16/10/2026",
@@ -5256,20 +5287,6 @@
       "catKey": "khac",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🛡️NORDVPN10thiếtbị7ngàyBHF➕Thêm:11📦Tồnkhohiệntại:11💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792089905786",
-      "time": "01:45 - 16/10/2026",
-      "timestamp": 1792089905786,
-      "name": "NORD VPN 10 thiết bị 7 ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 11,
-      "addedQty": 11,
-      "price": 20000,
-      "stockAfter": 11,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🛡️NORDVPN10thiếtbị7ngàyBHF➕Thêm:11📦Tồnkhohiệntại:11💰Giá:20.000đ"
     }
   ],
   "bot-tele": {
