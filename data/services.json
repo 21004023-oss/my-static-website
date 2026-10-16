@@ -1630,15 +1630,15 @@
         "id": "p-1792172397970",
         "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
         "price": 33000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "piggyai99_bot": {
-            "stock": 8,
+            "stock": 2,
             "cost_price": 33000,
-            "updated": "00:39 17/10/2026"
+            "updated": "02:39 17/10/2026"
           }
         },
         "hidden": true,
@@ -4102,6 +4102,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792179545656",
+      "time": "02:39 - 17/10/2026",
+      "timestamp": 1792179545656,
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 2,
+      "addedQty": 12,
+      "price": 33000,
+      "stockAfter": 2,
+      "catKey": "capcut",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:12📦Tồnkhohiệntại:2💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1792179458456",
       "time": "02:37 - 17/10/2026",
       "timestamp": 1792179458456,
@@ -5486,20 +5500,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTcóofferPLUS0$1tháng-KBH➕Thêm:1📦Tồnkhohiệntại:21💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1792113020267",
-      "time": "08:10 - 16/10/2026",
-      "timestamp": 1792113020267,
-      "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
-      "bot": "taphoathomap_bot",
-      "shopStock": 386,
-      "addedQty": 386,
-      "price": 2000,
-      "stockAfter": 386,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH➕Thêm:386📦Tồnkhohiệntại:386💰Giá:2.000đ"
     }
   ],
   "bot-tele": {
