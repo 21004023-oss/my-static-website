@@ -2331,6 +2331,23 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792171955948",
+        "name": "Kling 790-1k Credit 1 tháng BH 1 Ngày",
+        "price": 180000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "ACC KLING STAND RANDOM 700-750 CREDITS",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 5,
+            "cost_price": 180000,
+            "updated": "00:32 17/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -3959,6 +3976,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792171955948",
+      "time": "00:32 - 17/10/2026",
+      "timestamp": 1792171955948,
+      "name": "Kling 790-1k Credit 1 tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 5,
+      "addedQty": 3,
+      "price": 180000,
+      "stockAfter": 5,
+      "catKey": "kling",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🎬Kling790-1kCredit1thángBH1Ngày➕Thêm:3📦Tồnkhohiệntại:5💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1792171951020",
       "time": "00:32 - 17/10/2026",
       "timestamp": 1792171951020,
@@ -5343,20 +5374,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐VIP1.API300MTokenCodex15Ngày-BH7D➕Thêm:10📦Tồnkhohiệntại:9💰Giá:299.000đ"
-    },
-    {
-      "id": "hist-1792098229770",
-      "time": "04:03 - 16/10/2026",
-      "timestamp": 1792098229770,
-      "name": "Slot Youtube Premium 1 Năm BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 606,
-      "addedQty": 10,
-      "price": 280000,
-      "stockAfter": 606,
-      "catKey": "youtube",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "▶️SlotYoutubePremium1NămBHF➕Thêm:10📦Tồnkhohiệntại:606💰Giá:280.000đ"
     }
   ],
   "bot-tele": {
