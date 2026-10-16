@@ -2349,6 +2349,23 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792119419529",
+        "name": "GMAIL US CỔ DATE 201X-202X 2FA",
+        "price": 45000,
+        "stock": 265,
+        "stock_text": "Còn 265",
+        "duration": "1 Tháng",
+        "detail": "- Định dạng: Mail | Pass | Mail khôi phục | 2fa\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL US CỔ DATE 201X TRIAL CÓ 2FA",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 265,
+            "cost_price": 45000,
+            "updated": "09:56 16/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -3330,6 +3347,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792119419529",
+      "time": "09:56 - 16/10/2026",
+      "timestamp": 1792119419529,
+      "name": "GMAIL US CỔ DATE 201X-202X 2FA",
+      "bot": "ntnshopre_bot",
+      "shopStock": 265,
+      "addedQty": 100,
+      "price": 45000,
+      "stockAfter": 265,
+      "catKey": "gmail",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "📧GMAILUSCỔDATE201X-202X2FA➕Thêm:100📦Tồnkhohiệntại:265💰Giá:45.000đ"
+    },
     {
       "id": "hist-1792117046681",
       "time": "09:17 - 16/10/2026",
@@ -4715,20 +4746,6 @@
       "catKey": "capcut",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:9📦Tồnkhohiệntại:3💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1792052819378",
-      "time": "15:26 - 15/10/2026",
-      "timestamp": 1792052819378,
-      "name": "Meitu Vip+ 7 Ngày  BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 3,
-      "addedQty": 3,
-      "price": 25000,
-      "stockAfter": 3,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "✨MeituVip+7NgàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:25.000đ"
     }
   ],
   "bot-tele": {
