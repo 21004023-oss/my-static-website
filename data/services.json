@@ -2303,6 +2303,23 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792183806979",
+        "name": "Code Notion Business 3 Tháng KBH",
+        "price": 180000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "3 Tháng",
+        "detail": "- Định Dạng Link Code redeem\n- Link code chỉ sử dụng được cho Workspace chưa từng nâng cấp gói đăng ký",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 5,
+            "cost_price": 180000,
+            "updated": "03:50 17/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": ""
@@ -4120,6 +4137,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792183806979",
+      "time": "03:50 - 17/10/2026",
+      "timestamp": 1792183806979,
+      "name": "Code Notion Business 3 Tháng KBH",
+      "bot": "sieuthistore_bot",
+      "shopStock": 5,
+      "addedQty": 5,
+      "price": 180000,
+      "stockAfter": 5,
+      "catKey": "notion",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐CodeNotionBusiness3ThángKBH➕Thêm:5📦Tồnkhohiệntại:5💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1792182706560",
       "time": "03:31 - 17/10/2026",
       "timestamp": 1792182706560,
@@ -5504,20 +5535,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:1📦Tồnkhohiệntại:45💰Giá:240.000đ"
-    },
-    {
-      "id": "hist-1792115689984",
-      "time": "08:54 - 16/10/2026",
-      "timestamp": 1792115689984,
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 3,
-      "addedQty": 2,
-      "price": 15000,
-      "stockAfter": 3,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:15.000đ"
     }
   ],
   "bot-tele": {
