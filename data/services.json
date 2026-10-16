@@ -1340,16 +1340,21 @@
         "id": "canva-link-1m",
         "name": "Link Join Canva Pro 1 Tháng BHF",
         "price": 5000,
-        "stock": 165,
-        "stock_text": "Còn 165",
+        "stock": 229,
+        "stock_text": "Còn 229",
         "duration": "1 Tháng",
-        "detail": "- Dán link lên web để join - Mỗi link chỉ sử dụng được 1 lần",
+        "detail": "- Dán link lên web để join\n- Mỗi link chỉ sử dụng được 1 lần",
         "hidden": false,
         "sources": {
           "taphoathomap_bot": {
             "stock": 165,
             "cost_price": 5000,
             "updated": "00:42 17/10/2026"
+          },
+          "ntnshopre_bot": {
+            "stock": 64,
+            "cost_price": 5000,
+            "updated": "04:28 17/10/2026"
           }
         }
       },
@@ -4215,6 +4220,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792186118448",
+      "time": "04:28 - 17/10/2026",
+      "timestamp": 1792186118448,
+      "name": "LINK JOIN CANVA PRO 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 64,
+      "addedQty": 68,
+      "price": 5000,
+      "stockAfter": 229,
+      "catKey": "canva",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🎨LINKJOINCANVAPRO1THÁNGBHF➕Thêm:68📦Tồnkhohiệntại:64💰Giá:5.000đ"
+    },
+    {
       "id": "hist-1792185952116",
       "time": "04:25 - 17/10/2026",
       "timestamp": 1792185952116,
@@ -5599,20 +5618,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2nămbh5h➕Thêm:1📦Tồnkhohiệntại:9💰Giá:120.000đ"
-    },
-    {
-      "id": "hist-1792130982454",
-      "time": "13:09 - 16/10/2026",
-      "timestamp": 1792130982454,
-      "name": "Thông báo từ Admin:",
-      "bot": "piggyai99_bot",
-      "shopStock": 0,
-      "addedQty": 0,
-      "price": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "📣ThôngbáotừAdmin:giảmgiáChatgptPlusApplePay1thángBHF"
     }
   ],
   "bot-tele": {
