@@ -3832,10 +3832,41 @@
             "updated": "18:14 16/10/2026"
           }
         }
+      },
+      {
+        "id": "p-1792161713705",
+        "name": "CLAUDE FREE cũ đã tạo hơn 1 tháng tuổi hạn 365 ngày KBH",
+        "price": 30000,
+        "stock": 24,
+        "stock_text": "Còn 24",
+        "duration": "1 Năm",
+        "detail": "Định dạng : hotmail|pass\nKHÔNG BẢO HÀNH\nKHÔNG PHẢI TÀI KHOẢN CLAUDE PRO\nKHÔNG PHẢI TÀI KHOẢN CLAUDE MAX\nĐÂY CHỈ LÀ TÀI KHOẢN FREE TẠO SẴN CLAUDE ĐÃ VER SỐ\nTài khoản trên 1 tháng tuổi, chuyên dùng để nâng cấp Claude Pro và Claude Max. Tài khoản có độ ổn định cao, giúp hạn chế tối đa nguy cơ bị khóa (die) sau khi nâng cấp các gói trả phí PRO, MAX",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 24,
+            "cost_price": 30000,
+            "updated": "21:41 16/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792161713705",
+      "time": "21:41 - 16/10/2026",
+      "timestamp": 1792161713705,
+      "name": "CLAUDE FREE cũ đã tạo hơn 1 tháng tuổi hạn 365 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "shopStock": 24,
+      "addedQty": 38,
+      "price": 30000,
+      "stockAfter": 24,
+      "catKey": "microsoft",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🧠CLAUDEFREEcũđãtạohơn1thángtuổihạn365ngàyKBH➕Thêm:38📦Tồnkhohiệntại:24💰Giá:30.000"
+    },
     {
       "id": "hist-1792159826877",
       "time": "21:10 - 16/10/2026",
@@ -5221,20 +5252,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:35📦Tồnkhohiệntại:23💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1792089113532",
-      "time": "01:31 - 16/10/2026",
-      "timestamp": 1792089113532,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 14,
-      "addedQty": 25,
-      "price": 85000,
-      "stockAfter": 14,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH24H➕Thêm:25📦Tồnkhohiệntại:14💰Giá:85.000đ"
     }
   ],
   "bot-tele": {
