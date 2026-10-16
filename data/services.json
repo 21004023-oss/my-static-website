@@ -3048,6 +3048,11 @@
             "stock": 0,
             "cost_price": 0,
             "updated": "13:43 15/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "updated": "13:09 16/10/2026"
           }
         },
         "hidden": false
@@ -3511,6 +3516,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792130982454",
+      "time": "13:09 - 16/10/2026",
+      "timestamp": 1792130982454,
+      "name": "Thông báo từ Admin:",
+      "bot": "piggyai99_bot",
+      "shopStock": 0,
+      "addedQty": 0,
+      "price": 0,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "📣ThôngbáotừAdmin:giảmgiáChatgptPlusApplePay1thángBHF"
+    },
     {
       "id": "hist-1792129773859",
       "time": "12:49 - 16/10/2026",
@@ -4896,20 +4915,6 @@
       "catKey": "youtube",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📧GmailRandomip2020-2023trialyoutube➕Thêm:50📦Tồnkhohiệntại:42💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792068834268",
-      "time": "19:53 - 15/10/2026",
-      "timestamp": 1792068834268,
-      "name": "Gmail Random ip 2020-2023 trial youtube",
-      "bot": "sieuthistore_bot",
-      "shopStock": 42,
-      "addedQty": 50,
-      "price": 50000,
-      "stockAfter": 42,
-      "catKey": "youtube",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧GmailRandomip2020-2023trialyoutube➕Thêm:50📦Tồnkhohiệntại:42💰Giá:50.000đ"
     }
   ],
   "bot-tele": {
