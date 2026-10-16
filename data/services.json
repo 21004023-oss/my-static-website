@@ -2981,8 +2981,8 @@
         "id": "p-1791917317024",
         "name": "Wink VIP+ 7 Ngày BHF",
         "price": 35000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 28,
+        "stock_text": "Còn 28",
         "duration": "1 Tháng",
         "detail": "Wink gói VIP+ 7 Ngày BHF 100 credits login 1 thiết bị,  nếu đăng nhập trên điện thoại lỗi thì có thể có thể dùng trên PC\n- Định dạng: (Email|Pass Hotmail|Pass Wink) Token\n- Pass Wink mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\nLink tải app Wink trên máy tính: https://wink.ai/vi\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU TÀI KHOẢN VẪN CÒN GÓI",
         "sources": {
@@ -2990,6 +2990,11 @@
             "stock": 3,
             "cost_price": 15000,
             "updated": "08:54 16/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 25,
+            "cost_price": 35000,
+            "updated": "00:56 17/10/2026"
           }
         }
       },
@@ -4025,6 +4030,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792173413834",
+      "time": "00:56 - 17/10/2026",
+      "timestamp": 1792173413834,
+      "name": "Wink VIP+ 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 25,
+      "addedQty": 12,
+      "price": 35000,
+      "stockAfter": 28,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:25💰Giá:35.000đ"
+    },
     {
       "id": "hist-1792172530175",
       "time": "00:42 - 17/10/2026",
@@ -5410,20 +5429,6 @@
       "catKey": "gmail",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧GmailCổRandom2010~2022➕Thêm:999📦Tồnkhohiệntại:330💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792104197775",
-      "time": "05:43 - 16/10/2026",
-      "timestamp": 1792104197775,
-      "name": "Gmail Cổ Random 2010~2022",
-      "bot": "piggyai99_bot",
-      "shopStock": 330,
-      "addedQty": 999,
-      "price": 35000,
-      "stockAfter": 330,
-      "catKey": "gmail",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "📧GmailCổRandom2010~2022➕Thêm:999📦Tồnkhohiệntại:330💰Giá:35.000đ"
     }
   ],
   "bot-tele": {
