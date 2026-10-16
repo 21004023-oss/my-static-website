@@ -1298,11 +1298,18 @@
         "id": "canva-link-1m",
         "name": "Link Join Canva Pro 1 Tháng BHF",
         "price": 5000,
-        "stock": 303,
-        "stock_text": "Còn 303",
+        "stock": 165,
+        "stock_text": "Còn 165",
         "duration": "1 Tháng",
-        "detail": "- Dán link lên web để join\n- Mỗi link chỉ sử dụng được 1 lần",
-        "hidden": false
+        "detail": "- Dán link lên web để join - Mỗi link chỉ sử dụng được 1 lần",
+        "hidden": false,
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 165,
+            "cost_price": 5000,
+            "updated": "00:37 17/10/2026"
+          }
+        }
       },
       {
         "id": "canva-slot-edu-1y",
@@ -3994,6 +4001,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792172260496",
+      "time": "00:37 - 17/10/2026",
+      "timestamp": 1792172260496,
+      "name": "LINK JOIN CANVA PRO 1 THÁNG BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 165,
+      "addedQty": 165,
+      "price": 5000,
+      "stockAfter": 165,
+      "catKey": "canva",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎨LINKJOINCANVAPRO1THÁNGBHF➕Thêm:165📦Tồnkhohiệntại:165💰Giá:5.000đ"
+    },
+    {
       "id": "hist-1792171959798",
       "time": "00:32 - 17/10/2026",
       "timestamp": 1792171959798,
@@ -5378,20 +5399,6 @@
       "catKey": "gmail",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧GmailCổRandom2010~2022➕Thêm:23📦Tồnkhohiệntại:330💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792101992916",
-      "time": "05:06 - 16/10/2026",
-      "timestamp": 1792101992916,
-      "name": "Gmail Cổ Random 2010~2022",
-      "bot": "piggyai99_bot",
-      "shopStock": 330,
-      "addedQty": 23,
-      "price": 35000,
-      "stockAfter": 330,
-      "catKey": "gmail",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "📧GmailCổRandom2010~2022➕Thêm:23📦Tồnkhohiệntại:330💰Giá:35.000đ"
     }
   ],
   "bot-tele": {
