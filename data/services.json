@@ -4229,7 +4229,7 @@
           "sieuthistore_bot": {
             "stock": 5,
             "cost_price": 130000,
-            "updated": "06:28 17/10/2026"
+            "updated": "06:35 17/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 5,
@@ -4306,6 +4306,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792193737842",
+      "time": "06:35 - 17/10/2026",
+      "timestamp": 1792193737842,
+      "name": "Seedance 2.5 1 tháng BH 5 Ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 5,
+      "addedQty": 0,
+      "price": 130000,
+      "stockAfter": 10,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐Seedance2.51thángBH5Ngày💰Giá:130k📦Tồnkho:5tàikhoản📊Đãbán:1tàikhoản💎Môtả:rendar."
+    },
     {
       "id": "hist-1792193730149",
       "time": "06:35 - 17/10/2026",
@@ -5691,20 +5705,6 @@
       "catKey": "kling",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬Kling1kcredits1thángBH24H💰Giá:180k📦Tồnkho:5tàikhoản📊Đãbán:21tàikhoản"
-    },
-    {
-      "id": "hist-1792148261509",
-      "time": "17:57 - 16/10/2026",
-      "timestamp": 1792148261509,
-      "name": "API Claude 50M Token 1 ngày BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 6,
-      "addedQty": 1,
-      "price": 55000,
-      "stockAfter": 6,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:1📦Tồnkhohiệntại:6💰Giá:55.000đ"
     }
   ],
   "bot-tele": {
