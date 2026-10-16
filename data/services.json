@@ -3979,6 +3979,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792173419359",
+        "name": "Wink VIP+ 7 Ngày BHF",
+        "price": 15000,
+        "stock": 25,
+        "stock_text": "Còn 25",
+        "duration": "1 Tháng",
+        "detail": "Wink gói VIP+ 7 Ngày BHF 100 credits login 1 thiết bị,  nếu đăng nhập trên điện thoại lỗi thì có thể có thể dùng trên PC\n- Định dạng: (Email|Pass Hotmail|Pass Wink) Token\n- Pass Wink mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\nLink tải app Wink trên máy tính: https://wink.ai/vi\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU TÀI KHOẢN VẪN CÒN GÓI",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 25,
+            "cost_price": 15000,
+            "updated": "00:56 17/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -4030,6 +4048,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792173419361",
+      "time": "00:56 - 17/10/2026",
+      "timestamp": 1792173419361,
+      "name": "Wink VIP+ 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 25,
+      "addedQty": 12,
+      "price": 15000,
+      "stockAfter": 25,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:25💰Giá:15.000đ"
+    },
     {
       "id": "hist-1792173413834",
       "time": "00:56 - 17/10/2026",
@@ -5415,20 +5447,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2NămKBH➕Thêm:40📦Tồnkhohiệntại:26💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1792104271913",
-      "time": "05:44 - 16/10/2026",
-      "timestamp": 1792104271913,
-      "name": "Gmail Cổ Random 2010~2022",
-      "bot": "sieuthistore_bot",
-      "shopStock": 330,
-      "addedQty": 999,
-      "price": 45000,
-      "stockAfter": 330,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧GmailCổRandom2010~2022➕Thêm:999📦Tồnkhohiệntại:330💰Giá:45.000đ"
     }
   ],
   "bot-tele": {
