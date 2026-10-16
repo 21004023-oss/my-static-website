@@ -3278,6 +3278,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792115684790",
+        "name": "Wink VIP+ 7 Ngày BHF",
+        "price": 35000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "Wink gói VIP+ 7 Ngày BHF 100 credits login 1 thiết bị,  nếu đăng nhập trên điện thoại lỗi thì có thể có thể dùng trên PC\n- Định dạng: (Email|Pass Hotmail|Pass Wink) Token\n- Pass Wink mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\nLink tải app Wink trên máy tính: https://wink.ai/vi\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU TÀI KHOẢN VẪN CÒN GÓI",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 3,
+            "cost_price": 35000,
+            "updated": "08:54 16/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -3305,6 +3323,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792115684793",
+      "time": "08:54 - 16/10/2026",
+      "timestamp": 1792115684793,
+      "name": "Wink VIP+ 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 3,
+      "addedQty": 2,
+      "price": 35000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:35.000đ"
+    },
     {
       "id": "hist-1792114099096",
       "time": "08:28 - 16/10/2026",
@@ -4690,20 +4722,6 @@
       "catKey": "gmail",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:1📦Tồnkhohiệntại:46💰Giá:23.000đ"
-    },
-    {
-      "id": "hist-1792047851790",
-      "time": "14:04 - 15/10/2026",
-      "timestamp": 1792047851790,
-      "name": "Slot Youtube Premium 6 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 549,
-      "addedQty": 2,
-      "price": 165000,
-      "stockAfter": 549,
-      "catKey": "youtube",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "▶️SlotYoutubePremium6ThángBHF➕Thêm:2📦Tồnkhohiệntại:549💰Giá:165.000đ"
     }
   ],
   "bot-tele": {
