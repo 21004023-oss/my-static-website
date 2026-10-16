@@ -2127,15 +2127,15 @@
         "id": "p-1792146735154",
         "name": "Kling 1k  credits 1 tháng BH 24H",
         "price": 180000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "Gói Kling 1k  credits 1 tháng BH 24H bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 3,
+            "stock": 5,
             "cost_price": 180000,
-            "updated": "17:32 16/10/2026"
+            "updated": "18:03 16/10/2026"
           }
         },
         "hidden": false
@@ -3709,6 +3709,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792148582960",
+      "time": "18:03 - 16/10/2026",
+      "timestamp": 1792148582960,
+      "name": "Kling 1k  credits 1 tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 5,
+      "addedQty": 0,
+      "price": 180000,
+      "stockAfter": 5,
+      "catKey": "kling",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬Kling1kcredits1thángBH24H💰Giá:180k📦Tồnkho:5tàikhoản📊Đãbán:21tàikhoản"
+    },
+    {
       "id": "hist-1792148261509",
       "time": "17:57 - 16/10/2026",
       "timestamp": 1792148261509,
@@ -5093,20 +5107,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:20📦Tồnkhohiệntại:48💰Giá:240.000đ"
-    },
-    {
-      "id": "hist-1792083325025",
-      "time": "23:55 - 15/10/2026",
-      "timestamp": 1792083325025,
-      "name": "Clone Facebook Novery Name Việt KBH",
-      "bot": "sieuthistore_bot",
-      "shopStock": 23,
-      "addedQty": 0,
-      "price": 10000,
-      "stockAfter": 23,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐CloneFacebookNoveryNameViệtKBH💰Giá:10k📦Tồnkho:23tàikhoản📊Đãbán:68tàikhoản💎Môtả:"
     }
   ],
   "bot-tele": {
