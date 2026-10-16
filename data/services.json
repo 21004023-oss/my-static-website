@@ -1312,15 +1312,20 @@
         "id": "p-1792094683588",
         "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
         "price": 40000,
-        "stock": 23,
-        "stock_text": "Còn 23",
+        "stock": 176,
+        "stock_text": "Còn 176",
         "duration": "1 Tháng",
-        "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
+        "detail": "✨ CAPCUT PRO – 30 NGÀY | BHF 📌 THÔNG TIN • Tài khoản CapCut Pro, thời hạn 30 ngày. • Có thể nhận tới 2.000 AI Credits. • Định dạng: Email | Pass. • Khuyến nghị chỉ đăng nhập 1–2 thiết bị, hạn chế đăng nhập nhiều thiết bị. 🛡️ BẢO HÀNH • Bảo hành 30 ngày. • Hỗ trợ bảo hành 1 lần đối với lỗi đăng nhập do đăng nhập quá thường xuyên. ⚠️ LƯU Ý • Hạn chế đăng nhập/đăng xuất liên tục hoặc trên quá nhiều thiết bị. • Vui lòng kiểm tra tài khoản ngay sau khi nhận hàng.",
         "sources": {
           "piggyai99_bot": {
             "stock": 23,
             "cost_price": 33000,
             "updated": "03:19 16/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 153,
+            "cost_price": 40000,
+            "updated": "12:16 16/10/2026"
           }
         },
         "hidden": true,
@@ -3472,6 +3477,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792127775751",
+      "time": "12:16 - 16/10/2026",
+      "timestamp": 1792127775751,
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 153,
+      "addedQty": 13,
+      "price": 40000,
+      "stockAfter": 176,
+      "catKey": "capcut",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:13📦Tồnkhohiệntại:153💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1792127586909",
       "time": "12:13 - 16/10/2026",
       "timestamp": 1792127586909,
@@ -4856,20 +4875,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖NângchínhchủChatGPTStudent4tháng-BH24H➕Thêm:10📦Tồnkhohiệntại:10💰Giá:320.000đ"
-    },
-    {
-      "id": "hist-1792065391877",
-      "time": "18:56 - 15/10/2026",
-      "timestamp": 1792065391877,
-      "name": "ChatGPT Go 1 Tháng - BH 10 Ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 2,
-      "addedQty": 2,
-      "price": 75000,
-      "stockAfter": 2,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTGo1Tháng-BH10Ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:75.000đ"
     }
   ],
   "bot-tele": {
