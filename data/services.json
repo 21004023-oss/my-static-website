@@ -1065,6 +1065,23 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792163852840",
+        "name": "ChatGPT Plus (Codex Full ) 1 Tháng BHF",
+        "price": 330000,
+        "stock": 29,
+        "stock_text": "Còn 29",
+        "duration": "1 Tháng",
+        "detail": "🗣️ Mô tả:\n🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n6. Bảo hành đổi acc mới nếu die trước 7D.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nThuê sim vẻ số tại: https://viotp.com/\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 29,
+            "cost_price": 330000,
+            "updated": "22:17 16/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -3889,6 +3906,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792163852840",
+      "time": "22:17 - 16/10/2026",
+      "timestamp": 1792163852840,
+      "name": "ChatGPT Plus (Codex Full ) 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 29,
+      "addedQty": 17,
+      "price": 330000,
+      "stockAfter": 29,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTPlus(CodexFull)1ThángBHF➕Thêm:17📦Tồnkhohiệntại:29💰Giá:330.000đ"
+    },
+    {
       "id": "hist-1792163645879",
       "time": "22:14 - 16/10/2026",
       "timestamp": 1792163645879,
@@ -5273,20 +5304,6 @@
       "catKey": "gmail",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:26📦Tồnkhohiệntại:0💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792093859673",
-      "time": "02:50 - 16/10/2026",
-      "timestamp": 1792093859673,
-      "name": "Gmail Random 200X~2023 Có 2FA",
-      "bot": "sieuthistore_bot",
-      "shopStock": 0,
-      "addedQty": 26,
-      "price": 45000,
-      "stockAfter": 0,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:26📦Tồnkhohiệntại:0💰Giá:45.000đ"
     }
   ],
   "bot-tele": {
