@@ -2348,6 +2348,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792171959795",
+        "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
+        "price": 125000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "ACC KLING STAND RANDOM 700-750 CREDITS",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 125000,
+            "updated": "00:32 17/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -3976,6 +3994,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792171959798",
+      "time": "00:32 - 17/10/2026",
+      "timestamp": 1792171959798,
+      "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
+      "bot": "taphoathomap_bot",
+      "shopStock": 5,
+      "addedQty": 3,
+      "price": 125000,
+      "stockAfter": 5,
+      "catKey": "kling",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬KLING792-992cre1tháng(BH24h)➕Thêm:3📦Tồnkhohiệntại:5💰Giá:125.000đ"
+    },
+    {
       "id": "hist-1792171955948",
       "time": "00:32 - 17/10/2026",
       "timestamp": 1792171955948,
@@ -5360,20 +5392,6 @@
       "catKey": "gmail",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "📧GmailCổRandom2010~2022➕Thêm:23📦Tồnkhohiệntại:330💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792099400994",
-      "time": "04:23 - 16/10/2026",
-      "timestamp": 1792099400994,
-      "name": "VIP 1.API 300M Token Codex 15 Ngày - BH7D",
-      "bot": "taphoathomap_bot",
-      "shopStock": 9,
-      "addedQty": 10,
-      "price": 299000,
-      "stockAfter": 9,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐VIP1.API300MTokenCodex15Ngày-BH7D➕Thêm:10📦Tồnkhohiệntại:9💰Giá:299.000đ"
     }
   ],
   "bot-tele": {
