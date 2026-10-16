@@ -571,6 +571,134 @@
     }
     .audit-card-head { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; font-weight: 700; font-size: 14px; }
 
+    /* BỘ NÚT TĂNG GIẢM GIÁ TRÊN BẢNG (TABLE) */
+    .table-price-stepper {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: var(--input-bg);
+      border: 1px solid var(--input-border);
+      border-radius: 8px;
+      padding: 3px 6px;
+    }
+    .tbl-step-btn {
+      width: 22px;
+      height: 22px;
+      border-radius: 6px;
+      border: 1px solid var(--card-border);
+      background: var(--card-bg);
+      color: var(--text);
+      font-weight: 800;
+      font-size: 13px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      line-height: 1;
+      user-select: none;
+    }
+    .tbl-step-btn.minus:hover {
+      background: rgba(225, 29, 72, 0.15);
+      color: var(--rose);
+      border-color: var(--rose);
+      transform: scale(1.08);
+    }
+    .tbl-step-btn.plus:hover {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--emerald);
+      border-color: var(--emerald);
+      transform: scale(1.08);
+    }
+    .tbl-price-display {
+      padding: 2px 5px;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background 0.15s;
+    }
+    .tbl-price-display:hover {
+      background: var(--table-row-hover);
+      text-decoration: underline;
+    }
+    .tbl-price-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3px;
+      margin-top: 4px;
+    }
+    .tbl-chip {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 5px;
+      border-radius: 4px;
+      border: 1px solid var(--card-border);
+      background: var(--card-bg);
+      cursor: pointer;
+      transition: all 0.15s;
+      user-select: none;
+    }
+    .tbl-chip.minus { color: var(--rose); }
+    .tbl-chip.minus:hover { background: var(--rose); color: #fff; border-color: var(--rose); }
+    .tbl-chip.plus { color: var(--emerald); }
+    .tbl-chip.plus:hover { background: var(--emerald); color: #fff; border-color: var(--emerald); }
+
+    /* BỘ NÚT TĂNG GIẢM GIÁ TRONG MODAL */
+    .price-input-stepper-wrap {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-step-act {
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+      background: var(--card-bg);
+      color: var(--text-muted);
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.15s;
+      user-select: none;
+    }
+    .btn-step-act:hover {
+      background: rgba(225, 29, 72, 0.12);
+      color: var(--rose);
+      border-color: var(--rose);
+    }
+    .btn-step-act.plus:hover {
+      background: rgba(16, 185, 129, 0.12);
+      color: var(--emerald);
+      border-color: var(--emerald);
+    }
+    .quick-adjust-chips {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 5px;
+      margin-top: 8px;
+    }
+    .step-chip-lbl {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+    .chip-step-btn {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 6px;
+      border: 1px solid var(--card-border);
+      background: var(--input-bg);
+      cursor: pointer;
+      transition: all 0.15s;
+      user-select: none;
+    }
+    .chip-step-btn.minus { color: var(--rose); }
+    .chip-step-btn.minus:hover { background: var(--rose); color: #fff; border-color: var(--rose); }
+    .chip-step-btn.plus { color: var(--emerald); }
+    .chip-step-btn.plus:hover { background: var(--emerald); color: #fff; border-color: var(--emerald); }
+
     /* MODAL */
     .modal-overlay {
       position: fixed;
@@ -805,7 +933,7 @@
               <tr>
                 <th style="width:36px; text-align:center;">⠿</th>
                 <th>Tên Gói Sản Phẩm & Mô Tả</th>
-                <th style="width:125px;">Giá Bán</th>
+                <th style="width:160px;">Giá Bán & Tăng Giảm</th>
                 <th style="width:105px;">Tồn Kho</th>
                 <th style="width:100px;">Thời Hạn</th>
                 <th style="width:120px; text-align:center;">Hiển Thị</th>
@@ -983,8 +1111,26 @@
 
         <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
           <div class="form-group">
-            <label class="form-label">Giá bán (VNĐ):</label>
-            <input type="number" id="inpPrice" class="form-control" placeholder="Ví dụ: 230000" oninput="checkPriceLogicInput(this.value)" />
+            <label class="form-label" style="display:flex; justify-content:space-between; align-items:center;">
+              <span>Giá bán (VNĐ):</span>
+              <span id="priceReadText" style="font-size:12px; color:var(--primary); font-weight:700;"></span>
+            </label>
+            <div class="price-input-stepper-wrap">
+              <button type="button" class="btn-step-act minus" onclick="changeInpPrice(-5000)" title="Giảm 5.000đ">− 5k</button>
+              <button type="button" class="btn-step-act minus" onclick="changeInpPrice(-1000)" title="Giảm 1.000đ">− 1k</button>
+              <input type="number" id="inpPrice" class="form-control" placeholder="Ví dụ: 230000" oninput="checkPriceLogicInput(this.value)" style="font-weight:700; text-align:center; font-size:15px; color:var(--primary);" />
+              <button type="button" class="btn-step-act plus" onclick="changeInpPrice(1000)" title="Tăng 1.000đ">+ 1k</button>
+              <button type="button" class="btn-step-act plus" onclick="changeInpPrice(5000)" title="Tăng 5.000đ">+ 5k</button>
+            </div>
+            <div class="quick-adjust-chips">
+              <span class="step-chip-lbl">Chỉnh nhanh:</span>
+              <button type="button" class="chip-step-btn minus" onclick="changeInpPrice(-50000)">-50k</button>
+              <button type="button" class="chip-step-btn minus" onclick="changeInpPrice(-20000)">-20k</button>
+              <button type="button" class="chip-step-btn minus" onclick="changeInpPrice(-10000)">-10k</button>
+              <button type="button" class="chip-step-btn plus" onclick="changeInpPrice(10000)">+10k</button>
+              <button type="button" class="chip-step-btn plus" onclick="changeInpPrice(20000)">+20k</button>
+              <button type="button" class="chip-step-btn plus" onclick="changeInpPrice(50000)">+50k</button>
+            </div>
             <div id="priceInputAlert" class="price-input-alert">⚠️ Giá có vẻ bất thường! Kiểm tra lại số 0 hoặc số thập phân.</div>
           </div>
           <div class="form-group">
@@ -1403,7 +1549,19 @@
             </div>
           </td>
           <td>
-            <strong style="color:var(--primary); font-size:14px;">${Number(p.price || 0).toLocaleString('vi-VN')}đ</strong>
+            <div class="table-price-stepper">
+              <button class="tbl-step-btn minus" title="Giảm 5.000đ" onclick="adjustPlanPrice(${idx}, -5000)">−</button>
+              <div class="tbl-price-display" onclick="quickEditPlanPrice(${idx})" title="Nhấp để gõ giá mới trực tiếp">
+                <strong style="color:var(--primary); font-size:13.5px;">${Number(p.price || 0).toLocaleString('vi-VN')}đ</strong>
+              </div>
+              <button class="tbl-step-btn plus" title="Tăng 5.000đ" onclick="adjustPlanPrice(${idx}, 5000)">+</button>
+            </div>
+            <div class="tbl-price-chips">
+              <button class="tbl-chip minus" title="Giảm 10.000đ" onclick="adjustPlanPrice(${idx}, -10000)">-10k</button>
+              <button class="tbl-chip minus" title="Giảm 5.000đ" onclick="adjustPlanPrice(${idx}, -5000)">-5k</button>
+              <button class="tbl-chip plus" title="Tăng 5.000đ" onclick="adjustPlanPrice(${idx}, 5000)">+5k</button>
+              <button class="tbl-chip plus" title="Tăng 10.000đ" onclick="adjustPlanPrice(${idx}, 10000)">+10k</button>
+            </div>
           </td>
           <td>${stockBadge}</td>
           <td><span class="badge badge-source">${p.duration || '1 Tháng'}</span></td>
@@ -1954,6 +2112,7 @@
       populateCategorySelect();
       document.getElementById('inpTargetCategory').value = currentCat;
       toggleStockInput();
+      checkPriceLogicInput('');
       document.getElementById('planModal').classList.add('active');
     }
 
@@ -1978,6 +2137,7 @@
       populateCategorySelect();
       document.getElementById('inpTargetCategory').value = currentCat;
       toggleStockInput();
+      checkPriceLogicInput(p.price);
       document.getElementById('planModal').classList.add('active');
     }
 
@@ -1999,8 +2159,54 @@
       }
     }
 
+    function updatePriceReadText(val) {
+      const readEl = document.getElementById('priceReadText');
+      if (!readEl) return;
+      const p = Number(val || 0);
+      readEl.innerText = p > 0 ? (p.toLocaleString('vi-VN') + ' đ') : '';
+    }
+
+    function changeInpPrice(delta) {
+      const inp = document.getElementById('inpPrice');
+      let cur = Number(inp.value || 0);
+      cur = Math.max(0, cur + delta);
+      inp.value = cur;
+      checkPriceLogicInput(cur);
+    }
+
+    async function adjustPlanPrice(idx, delta) {
+      if (!currentCat || !servicesData[currentCat] || !servicesData[currentCat].plans[idx]) return;
+      const p = servicesData[currentCat].plans[idx];
+      const oldPrice = Number(p.price || 0);
+      const newPrice = Math.max(0, oldPrice + delta);
+      p.price = newPrice;
+      renderTable();
+      
+      const signText = delta > 0 ? `+${delta.toLocaleString('vi-VN')}đ` : `${delta.toLocaleString('vi-VN')}đ`;
+      showToast(`💰 Đã ${delta > 0 ? 'tăng' : 'giảm'} giá "${p.name}": ${oldPrice.toLocaleString('vi-VN')}đ ➔ ${newPrice.toLocaleString('vi-VN')}đ (${signText})`, 'success');
+      await saveDirectToGitHub(true, `✅ Đã lưu giá mới "${p.name}" (${newPrice.toLocaleString('vi-VN')}đ) lên Website!`);
+    }
+
+    function quickEditPlanPrice(idx) {
+      if (!currentCat || !servicesData[currentCat] || !servicesData[currentCat].plans[idx]) return;
+      const p = servicesData[currentCat].plans[idx];
+      const curPrice = Number(p.price || 0);
+      const val = prompt(`Chỉnh sửa giá cho gói:\n"${p.name}"\n\nNhập giá mới (VNĐ):`, curPrice);
+      if (val !== null && val.trim() !== '') {
+        const cleanVal = val.trim().replace(/\./g, '').replace(/,/g, '').replace(/\D/g, '');
+        const newPrice = Math.max(0, parseInt(cleanVal, 10));
+        if (!isNaN(newPrice)) {
+          p.price = newPrice;
+          renderTable();
+          showToast(`💰 Đã đổi giá "${p.name}" thành ${newPrice.toLocaleString('vi-VN')}đ`, 'success');
+          saveDirectToGitHub(true, `✅ Đã lưu giá mới "${p.name}" (${newPrice.toLocaleString('vi-VN')}đ) lên Website!`);
+        }
+      }
+    }
+
     function checkPriceLogicInput(val) {
       const p = Number(val || 0);
+      updatePriceReadText(p);
       const alertBox = document.getElementById('priceInputAlert');
       if (p > 0 && p < 1000 && !/hotmail/i.test(document.getElementById('inpName').value)) {
         alertBox.style.display = 'block';
