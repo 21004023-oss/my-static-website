@@ -2495,6 +2495,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792128243477",
+        "name": "Gmail Việt 2020-2024",
+        "price": 45000,
+        "stock": 63,
+        "stock_text": "Còn 63",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 63,
+            "cost_price": 45000,
+            "updated": "12:24 16/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -3493,6 +3511,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792128243483",
+      "time": "12:24 - 16/10/2026",
+      "timestamp": 1792128243483,
+      "name": "Gmail Việt 2020-2024",
+      "bot": "sieuthistore_bot",
+      "shopStock": 63,
+      "addedQty": 24,
+      "price": 45000,
+      "stockAfter": 63,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧GmailViệt2020-2024➕Thêm:24📦Tồnkhohiệntại:63💰Giá:45.000đ"
+    },
     {
       "id": "hist-1792128240242",
       "time": "12:24 - 16/10/2026",
@@ -4878,20 +4910,6 @@
       "catKey": "youtube",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:557💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1792066404076",
-      "time": "19:13 - 15/10/2026",
-      "timestamp": 1792066404076,
-      "name": "ChatGPT Ver Students chính chủ  Plus 4 Tháng KBH",
-      "bot": "piggyai99_bot",
-      "shopStock": 28,
-      "addedQty": 4,
-      "price": 300000,
-      "stockAfter": 28,
-      "catKey": "chatgpt",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🤖ChatGPTVerStudentschínhchủPlus4ThángKBH➕Thêm:4📦Tồnkhohiệntại:28💰Giá:300.000đ"
     }
   ],
   "bot-tele": {
