@@ -4607,6 +4607,23 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792221059713",
+        "name": "Higgsfield 80 credit 1 tháng BH 5 ngày",
+        "price": 170000,
+        "stock": 7,
+        "stock_text": "Còn 7",
+        "duration": "1 Tháng",
+        "detail": "Higgsfield standard\n• Mô hình SOUL V2 đỉnh cao: Khóa chặt 100% nhất quán nhân vật và kiểm soát chuyển động vật lý, xóa bỏ hoàn toàn lỗi méo ảnh hay nhấp nháy.\n• Hệ sinh thái AI \"khủng\": Kết hợp linh hoạt hơn 15 mô hình hàng đầu thế giới (Sora, Kling 3.0, Veo) thông qua trợ lý siêu trí tuệ GPT-6 Astra.\n• Trải nghiệm Cinematic chuyên nghiệp: Xuất video mượt mà chuẩn điện ảnh qua giao diện Web hoặc API, tối ưu hóa chi phí sản xuất content.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 7,
+            "cost_price": 170000,
+            "updated": "14:10 17/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -4658,6 +4675,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792221059713",
+      "time": "14:10 - 17/10/2026",
+      "timestamp": 1792221059713,
+      "name": "Higgsfield 80 credit 1 tháng BH 5 ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 7,
+      "addedQty": 5,
+      "price": 170000,
+      "stockAfter": 7,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🎬Higgsfield80credit1thángBH5ngày➕Thêm:5📦Tồnkhohiệntại:7💰Giá:170.000đ"
+    },
     {
       "id": "hist-1792218966911",
       "time": "13:36 - 17/10/2026",
@@ -6043,20 +6074,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐RedeemAppleMusicIndividual5thángBH1ngày💰Giá:40k📦Tồnkho:25tàikhoản📊Đãbán:23tàikh"
-    },
-    {
-      "id": "hist-1792184210879",
-      "time": "03:56 - 17/10/2026",
-      "timestamp": 1792184210879,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 19,
-      "addedQty": 0,
-      "price": 75000,
-      "stockAfter": 19,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H💰Giá:75k📦Tồnkho:19tàikhoản📊Đãbán:444tàikhoản💎Môtả:🔐Tà"
     }
   ],
   "bot-tele": {
