@@ -2710,8 +2710,8 @@
         "id": "p-1792171951020",
         "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
         "price": 150000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "ACC KLING STAND RANDOM 700-750 CREDITS",
         "sources": {
@@ -2719,9 +2719,15 @@
             "stock": 1,
             "cost_price": 150000,
             "updated": "06:51 18/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 125000,
+            "updated": "06:51 18/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       },
       {
         "id": "p-1792171955948",
@@ -5268,6 +5274,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792281089008",
+      "time": "06:51 - 18/10/2026",
+      "timestamp": 1792281089008,
+      "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
+      "bot": "taphoathomap_bot",
+      "shopStock": 1,
+      "addedQty": 1,
+      "price": 125000,
+      "stockAfter": 2,
+      "catKey": "kling",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬KLING792-992cre1tháng(BH24h)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:125.000đ"
+    },
+    {
       "id": "hist-1792281084413",
       "time": "06:51 - 18/10/2026",
       "timestamp": 1792281084413,
@@ -6652,20 +6672,6 @@
       "catKey": "capcut",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✂️CapCutProTeam3Tháng-BHF💰Giá:160k📦Tồnkho:5tàikhoản📊Đãbán:152tàikhoản💎Môtả:Tàikh"
-    },
-    {
-      "id": "hist-1792225674146",
-      "time": "15:27 - 17/10/2026",
-      "timestamp": 1792225674146,
-      "name": "ChatGPT Plus K12 Edu 2 năm bh 5h",
-      "bot": "piggyai99_bot",
-      "shopStock": 5,
-      "addedQty": 0,
-      "price": 120000,
-      "stockAfter": 5,
-      "catKey": "chatgpt",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2nămbh5h💰Giá:120k📦Tồnkho:5tàikhoản📊Đãbán:957tàikhoản💎Môtả:-Cha"
     }
   ],
   "bot-tele": {
