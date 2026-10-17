@@ -1470,13 +1470,13 @@
         "id": "p-1792233515898",
         "name": "Slot Veo3 Ultra Chung 750K Credits 1 tháng BHF",
         "price": 5000000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": -1,
+        "stock_text": "Vô cực (∞)",
         "duration": "1 Tháng",
-        "detail": "Gói Slot Veo3 Ultra Chung 750K Credits 1 tháng BHF bảo hành uy tín.",
+        "detail": "-Slot Mail chính chủ Google Ultra\n-Cả nhóm gia đình dùng chung 750K Credits 1 tháng,mỗi ngày được bơm 25K Credits Flow Veo3 Ultra.\n-Hạn gói: 1 tháng\n-Bảo hành 1 tháng\n-Đóng hồ sơ thanh toán của Google trước khi đặt hàng.\n-Lưu ý: Kiểm tra mail trước khi đặt hàng,đổi mail mất thêm phí",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": -1,
             "cost_price": 5000000,
             "updated": "17:38 17/10/2026"
           }
@@ -4885,6 +4885,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792233521744",
+      "time": "17:38 - 17/10/2026",
+      "timestamp": 1792233521744,
+      "name": "Slot Veo3 Ultra Chung 750K Credits 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": -1,
+      "addedQty": 0,
+      "price": 5000000,
+      "stockAfter": -1,
+      "catKey": "google-veo",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🚀SlotVeo3UltraChung750KCredits1thángBHF💰Giá:5000k📦Tồnkho:∞tàikhoản📊Đãbán:0tàikho"
+    },
+    {
       "id": "hist-1792233515898",
       "time": "17:38 - 17/10/2026",
       "timestamp": 1792233515898,
@@ -6269,20 +6283,6 @@
       "catKey": "youtube",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "▶️SlotYoutubePremium6ThángBHF➕Thêm:2📦Tồnkhohiệntại:551💰Giá:165.000đ"
-    },
-    {
-      "id": "hist-1792202663978",
-      "time": "09:04 - 17/10/2026",
-      "timestamp": 1792202663978,
-      "name": "CAPCUT TEAM 6 THÁNG  BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 3,
-      "addedQty": 3,
-      "price": 290000,
-      "stockAfter": 5,
-      "catKey": "capcut",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "✂️CAPCUTTEAM6THÁNGBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:290.000đ"
     }
   ],
   "bot-tele": {
