@@ -2059,6 +2059,23 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792223545074",
+        "name": "VIP 1.API 40M Token Claude 1 Ngày - BHF",
+        "price": 70000,
+        "stock": 30,
+        "stock_text": "Còn 30",
+        "duration": "1 Ngày",
+        "detail": "💎 API Claude VIP High Stable — model trích xuất từ Cursor Ultra, dùng cho Claude Code và app hỗ trợ OpenAI/Anthropic.\n⚡ Có Fable tốc độ cao, có opus-5.5 ( nếu hết dùng model khác )\n🤖 Token ước tính: Fable 5M · Opus 5 10M · Sonnet 5 20M · Haiku 4.5 33M\n💠 Hỗ trợ thêm: Kimi K3 · GLM 5.2 · Grok 4.6, quy đổi tương đương Sonnet 5\n🛡️ Độ ổn định cao, không gián đoạn như bản Standard\n⏳ Hạn dùng: 24 giờ từ khi kích hoạt Key\n🔗 Hướng dẫn cài đặt và kích hoạt:\nhttps://daily.bddevlab.buzz/redeem.html\n🔗 Cách khắc phục lỗi :\nhttps://duc-dop-error-guide.pages.dev",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 30,
+            "cost_price": 70000,
+            "updated": "14:52 17/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -4694,6 +4711,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792223545074",
+      "time": "14:52 - 17/10/2026",
+      "timestamp": 1792223545074,
+      "name": "VIP 1.API 40M Token Claude 1 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 30,
+      "addedQty": 33,
+      "price": 70000,
+      "stockAfter": 30,
+      "catKey": "api-claude-codex",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🧠VIP1.API40MTokenClaude1Ngày-BHF➕Thêm:33📦Tồnkhohiệntại:30💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1792222361323",
       "time": "14:32 - 17/10/2026",
       "timestamp": 1792222361323,
@@ -6078,20 +6109,6 @@
       "catKey": "khac",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "☁️LINKGETGEMINIPRO18THÁNGBẢOHÀNH24H💰Giá:25k📦Tồnkho:86tàikhoản📊Đãbán:6.550tàikhoả"
-    },
-    {
-      "id": "hist-1792184557376",
-      "time": "04:02 - 17/10/2026",
-      "timestamp": 1792184557376,
-      "name": "LINK GET GEMINI PRO 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "shopStock": 86,
-      "addedQty": 60,
-      "price": 25000,
-      "stockAfter": 86,
-      "catKey": "khac",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "☁️LINKGETGEMINIPRO18THÁNGBẢOHÀNH24H➕Thêm:60📦Tồnkhohiệntại:86💰Giá:25.000đ"
     }
   ],
   "bot-tele": {
