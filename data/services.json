@@ -4888,15 +4888,15 @@
         "id": "p-1792224372565",
         "name": "Tài Khoản Netflix Premium 2 ngày BHF",
         "price": 35000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "Gói Tài Khoản Netflix Premium 2 ngày BHF bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 3,
+            "stock": 2,
             "cost_price": 35000,
-            "updated": "15:06 17/10/2026"
+            "updated": "00:38 18/10/2026"
           }
         },
         "hidden": false
@@ -5070,6 +5070,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792258682763",
+      "time": "00:38 - 18/10/2026",
+      "timestamp": 1792258682763,
+      "name": "Tài Khoản Netflix Premium 2 ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 2,
+      "addedQty": 0,
+      "price": 35000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🎬TàiKhoảnNetflixPremium2ngàyBHF💰Giá:35k📦Tồnkho:2tàikhoản📊Đãbán:35tàikhoản"
+    },
     {
       "id": "hist-1792256301350",
       "time": "23:58 - 17/10/2026",
@@ -6455,20 +6469,6 @@
       "catKey": "canva",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🎨LINKJOINCANVAPRO1THÁNGBHF💰Giá:5k📦Tồnkho:64tàikhoản📊Đãbán:521tàikhoản💎Môtả:-Dánl"
-    },
-    {
-      "id": "hist-1792216687106",
-      "time": "12:58 - 17/10/2026",
-      "timestamp": 1792216687106,
-      "name": "LINK JOIN CANVA PRO 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 64,
-      "addedQty": 68,
-      "price": 5000,
-      "stockAfter": 229,
-      "catKey": "canva",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🎨LINKJOINCANVAPRO1THÁNGBHF➕Thêm:68📦Tồnkhohiệntại:64💰Giá:5.000đ"
     }
   ],
   "bot-tele": {
