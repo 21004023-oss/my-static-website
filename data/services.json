@@ -1834,6 +1834,23 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792280145282",
+        "name": "CAPCUT PRO CÁ NHÂN 3 THÁNG BHF",
+        "price": 130000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "3 Tháng",
+        "detail": "Gói Pro Cá Nhân\n-Wed change email: https://dongvanfb.net/read_mail_box/\n-Vì chưa thiết kế tự động, các shop mua tài khoản nhắn tin zalo ở phần hỗ trợ. Em sẽ hướng dẫn ạ\n-Đăng nhập tối đa 2thiết bị ( Đt - Pc )\n-KBH TRUY CẬP THƯỜNG XUYÊN\n-Cần đổi email sau 2 ngày mua. Sau 2 ngày kbh vấn đề email",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 5,
+            "cost_price": 130000,
+            "updated": "06:35 18/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -5251,6 +5268,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792280145282",
+      "time": "06:35 - 18/10/2026",
+      "timestamp": 1792280145282,
+      "name": "CAPCUT PRO CÁ NHÂN 3 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 5,
+      "addedQty": 5,
+      "price": 130000,
+      "stockAfter": 5,
+      "catKey": "capcut",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN3THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1792279441095",
       "time": "06:24 - 18/10/2026",
       "timestamp": 1792279441095,
@@ -6635,20 +6666,6 @@
       "catKey": "google-veo",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🚀SlotVeo3UltraChung300KCredits12thángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:4.000.000đ"
-    },
-    {
-      "id": "hist-1792225572056",
-      "time": "15:26 - 17/10/2026",
-      "timestamp": 1792225572056,
-      "name": "Slot Veo3 Ultra Chung 75K Credits 3 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 1,
-      "addedQty": 1,
-      "price": 1800000,
-      "stockAfter": 1,
-      "catKey": "google-veo",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🚀SlotVeo3UltraChung75KCredits3thángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:1.800.000đ"
     }
   ],
   "bot-tele": {
