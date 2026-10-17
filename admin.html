@@ -860,12 +860,12 @@
       </div>
       <div class="stat-icon stat-green">✅</div>
     </div>
-    <div class="stat-card">
+    <div class="stat-card" style="cursor:pointer; transition:transform 0.2s, box-shadow 0.2s;" onclick="openHiddenPlansModal()" title="Nhấp để xem danh sách & vị trí tất cả các gói đang bị ẩn trên Web">
       <div class="stat-info">
-        <p>Đang tạm ẩn</p>
-        <h3 id="statHidden" style="color:var(--text-muted);">0</h3>
+        <p>Đang tạm ẩn (Bấm xem vị trí)</p>
+        <h3 id="statHidden" style="color:var(--rose); font-weight:800;">0</h3>
       </div>
-      <div class="stat-icon stat-gray">🙈</div>
+      <div class="stat-icon stat-red">🙈</div>
     </div>
     <div class="stat-card">
       <div class="stat-info">
@@ -922,6 +922,9 @@
           </div>
 
           <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+            <button class="btn btn-outline" id="btnFilterHidden" style="padding:6px 10px; font-size:12px; font-weight:600;" onclick="toggleHiddenFilter()">
+              🙈 Chỉ xem gói ẩn (<span id="filterHiddenCount">0</span>)
+            </button>
             <input type="text" id="filterInp" class="search-input" placeholder="🔍 Tìm kiếm sản phẩm..." oninput="renderTable()" />
             <button class="btn btn-primary" onclick="openAddModal()">➕ Thêm Gói Mới</button>
           </div>
@@ -1201,6 +1204,29 @@
   </div>
 
   <!-- MODAL: GITHUB TOKEN -->
+  
+  <!-- MODAL XEM CÁC GÓI ĐANG ẨN & VỊ TRÍ TRÊN WEB -->
+  <div class="modal-overlay" id="hiddenPlansModal">
+    <div class="modal-content" style="max-width:760px;">
+      <div class="modal-header">
+        <h3 style="display:flex; align-items:center; gap:8px; color:var(--text); font-size:16px;">
+          🙈 Danh Sách Gói Đang Bị Ẩn & Vị Trí Trên Website
+        </h3>
+        <button class="btn btn-outline" style="padding:4px 8px;" onclick="closeHiddenPlansModal()">✕</button>
+      </div>
+      <div class="modal-body" style="max-height:65vh; overflow-y:auto; padding:16px;">
+        <div style="font-size:12.5px; color:var(--text-muted); margin-bottom:14px; background:var(--input-bg); padding:10px 14px; border-radius:8px; border-left:4px solid var(--primary);">
+          💡 Các gói dưới đây đang ở trạng thái <strong>Ẩn (hidden: true)</strong> nên khách vào web sẽ không nhìn thấy. Bạn có thể nhấn <strong>"🎯 Xem vị trí"</strong> để cuộn ngay tới hàng đó hoặc <strong>"👁️ Mở hiện lại"</strong>.
+        </div>
+        <div id="hiddenPlansListContainer"></div>
+      </div>
+      <div class="modal-footer" style="display:flex; justify-content:space-between; align-items:center;">
+        <span style="font-size:12px; color:var(--text-muted); font-weight:600;" id="hiddenModalFooterInfo"></span>
+        <button class="btn btn-outline" onclick="closeHiddenPlansModal()">Đóng</button>
+      </div>
+    </div>
+  </div>
+
   <div class="modal-overlay" id="tokenModal">
     <div class="modal-content" style="max-width:480px;">
       <div class="modal-header">
@@ -1343,12 +1369,13 @@
     function getCanonicalKey(name) {
       if (!name) return "";
       let k = name.toLowerCase();
-      // Keep warranty in brackets out
+      // 1. Chuẩn hóa từ khóa bảo hành (BH 5 Ngày, BH 5D -> bh)
+      k = k.replace(/\b(?:bảo\s*hành|bao\s*hanh|bh)\b/gi, ' bh ');
       k = k.replace(/\(bh[^\)]*\)/gi, '');
       k = k.replace(/\(kbh[^\)]*\)/gi, '');
       k = k.replace(/\[[^\]]*\]/g, '');
 
-      // Normalize durations
+      // 2. Chuẩn hóa thời hạn cố định
       k = k.replace(/\b(2\s*năm|2\s*nam|24\s*tháng|2y)\b/g, ' _dur_2y_ ');
       k = k.replace(/\b(1\s*năm|1\s*nam|12\s*tháng|365\s*(?:ngày|d)|1y)\b/g, ' _dur_1y_ ');
       k = k.replace(/\b(6\s*(?:tháng|thang|th)|180\s*(?:ngày|d))\b/g, ' _dur_6m_ ');
@@ -1356,6 +1383,11 @@
       k = k.replace(/\b(2\s*(?:tháng|thang|th)|60\s*(?:ngày|d))\b/g, ' _dur_2m_ ');
       k = k.replace(/\b(1\s*(?:tháng|thang|th)|30\s*(?:ngày|d)|30d|1th)\b/g, ' _dur_1m_ ');
       k = k.replace(/\b(1\s*(?:ngày|d)|24\s*(?:h|giờ)|24h|1d)\b/g, ' _dur_1d_ ');
+
+      // 3. Chuẩn hóa số ngày / giờ / tháng linh hoạt (5d vs 5 ngày, 7d vs 7 ngày, 12h vs 12 giờ)
+      k = k.replace(/\b(\d+)\s*(?:ngày|ngay|d)\b/gi, ' _dur_$1d_ ');
+      k = k.replace(/\b(\d+)\s*(?:giờ|gio|h)\b/gi, ' _dur_$1h_ ');
+      k = k.replace(/\b(\d+)\s*(?:tháng|thang|th|m)\b/gi, ' _dur_$1m_ ');
 
       // Normalize capacities so 10M != 50M
       k = k.replace(/\b(\d+)\s*(m|k|credits|credit|token|tokens|slot)\b/g, ' _cap_$1$2_ ');
@@ -1507,6 +1539,141 @@
       renderTable();
     }
 
+    
+    // =========================================================================
+    // HỆ THỐNG XEM VỊ TRÍ & QUẢN LÝ GÓI ĐANG ẨN TRÊN WEB
+    // =========================================================================
+    let isFilteringHiddenOnly = false;
+
+    function toggleHiddenFilter() {
+      isFilteringHiddenOnly = !isFilteringHiddenOnly;
+      const btn = document.getElementById('btnFilterHidden');
+      if (btn) {
+        if (isFilteringHiddenOnly) {
+          btn.classList.remove('btn-outline');
+          btn.classList.add('btn-danger');
+          btn.innerText = '✕ Bỏ lọc gói ẩn';
+        } else {
+          btn.classList.remove('btn-danger');
+          btn.classList.add('btn-outline');
+          updateFilterHiddenBadge();
+        }
+      }
+      renderTable();
+    }
+
+    function updateFilterHiddenBadge() {
+      const btn = document.getElementById('btnFilterHidden');
+      if (!btn || isFilteringHiddenOnly) return;
+      const plans = (servicesData[currentCat] && servicesData[currentCat].plans) || [];
+      const hiddenInCurrent = plans.filter(p => !!p.hidden).length;
+      btn.innerHTML = `🙈 Chỉ xem gói ẩn (<span id="filterHiddenCount">${hiddenInCurrent}</span>)`;
+    }
+
+    function openHiddenPlansModal() {
+      const container = document.getElementById('hiddenPlansListContainer');
+      const footerInfo = document.getElementById('hiddenModalFooterInfo');
+      container.innerHTML = '';
+
+      let hiddenList = [];
+      for (const [catKey, cat] of Object.entries(servicesData)) {
+        if (catKey === '_history') continue;
+        const plans = cat.plans || [];
+        plans.forEach((p, idx) => {
+          if (p.hidden) {
+            hiddenList.push({ catKey, catName: cat.name || catKey, plan: p, index: idx });
+          }
+        });
+      }
+
+      footerInfo.innerText = `Tổng cộng: ${hiddenList.length} gói đang tạm ẩn trên Web`;
+
+      if (hiddenList.length === 0) {
+        container.innerHTML = `
+          <div style="text-align:center; padding:35px 20px; color:var(--emerald); font-weight:700;">
+            🎉 Tuyệt vời! Hiện tại không có gói nào bị ẩn. Tất cả sản phẩm đều đang mở bán công khai!
+          </div>
+        `;
+      } else {
+        hiddenList.forEach(item => {
+          const row = document.createElement('div');
+          row.style.cssText = 'display:flex; justify-content:space-between; align-items:center; padding:12px 14px; border:1px solid var(--border-color); border-radius:8px; margin-bottom:8px; background:var(--input-bg); flex-wrap:wrap; gap:10px;';
+          
+          row.innerHTML = `
+            <div>
+              <div style="display:flex; align-items:center; gap:6px; margin-bottom:4px;">
+                <span class="badge badge-source" style="font-size:10.5px;">${item.catName.toUpperCase()}</span>
+                <span style="font-size:11.5px; color:var(--text-muted);">Vị trí: Hàng #${item.index + 1}</span>
+                <span class="badge" style="background:rgba(239,68,68,0.15); color:var(--rose); font-size:10.5px; font-weight:700;">🔒 Tạm Ẩn</span>
+              </div>
+              <strong style="color:var(--text); font-size:13.5px;">${item.plan.name}</strong>
+              <div style="font-size:12px; color:var(--primary); font-weight:700; margin-top:2px;">
+                ${Number(item.plan.price || 0).toLocaleString('vi-VN')}đ • Kho: ${item.plan.stock}
+              </div>
+            </div>
+            <div style="display:flex; gap:8px;">
+              <button class="btn btn-outline" style="padding:5px 10px; font-size:11.5px; font-weight:600;" onclick="locatePlanOnAdmin('${item.catKey}', ${item.index})">
+                🎯 Xem vị trí
+              </button>
+              <button class="btn btn-success" style="padding:5px 10px; font-size:11.5px; font-weight:600;" onclick="unhidePlanFromModal('${item.catKey}', ${item.index})">
+                👁️ Mở hiện lại
+              </button>
+            </div>
+          `;
+          container.appendChild(row);
+        });
+      }
+
+      document.getElementById('hiddenPlansModal').classList.add('active');
+    }
+
+    function closeHiddenPlansModal() {
+      document.getElementById('hiddenPlansModal').classList.remove('active');
+    }
+
+    function locatePlanOnAdmin(catKey, planIndex) {
+      closeHiddenPlansModal();
+      // Chuyển sang Tab Danh mục & Sản phẩm
+      switchTab('catalog');
+      // Chọn đúng danh mục
+      currentCat = catKey;
+      isFilteringHiddenOnly = false;
+      const btn = document.getElementById('btnFilterHidden');
+      if (btn) {
+        btn.classList.remove('btn-danger');
+        btn.classList.add('btn-outline');
+      }
+      renderCategories();
+      renderTable();
+
+      // Cuộn và highlight dòng sản phẩm
+      setTimeout(() => {
+        const tbody = document.getElementById('plansTableBody');
+        const rows = tbody.querySelectorAll('tr');
+        if (rows[planIndex]) {
+          rows[planIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
+          rows[planIndex].style.transition = 'all 0.5s';
+          rows[planIndex].style.outline = '3px solid #f59e0b';
+          rows[planIndex].style.background = 'rgba(245, 158, 11, 0.2)';
+          setTimeout(() => {
+            rows[planIndex].style.outline = '';
+            rows[planIndex].style.background = '';
+          }, 3500);
+        }
+      }, 250);
+    }
+
+    async function unhidePlanFromModal(catKey, planIndex) {
+      if (servicesData[catKey] && servicesData[catKey].plans && servicesData[catKey].plans[planIndex]) {
+        servicesData[catKey].plans[planIndex].hidden = false;
+        servicesData[catKey].plans[planIndex].needs_review = false;
+        renderStats();
+        openHiddenPlansModal();
+        showToast('Đã mở hiện gói: ' + servicesData[catKey].plans[planIndex].name);
+        await saveDirectToGitHub(true, 'Mở hiện gói: ' + servicesData[catKey].plans[planIndex].name);
+      }
+    }
+
     function renderTable() {
       const tbody = document.getElementById('plansTableBody');
       tbody.innerHTML = '';
@@ -1514,10 +1681,12 @@
       if (!currentCat || !servicesData[currentCat]) return;
       document.getElementById('currentCategoryTitle').innerText = servicesData[currentCat].name || currentCat;
 
+      updateFilterHiddenBadge();
       const plans = servicesData[currentCat].plans || [];
       const query = (document.getElementById('filterInp').value || '').trim().toLowerCase();
 
       plans.forEach((p, idx) => {
+        if (isFilteringHiddenOnly && !p.hidden) return;
         if (query) {
           const match = (p.name || '').toLowerCase().includes(query) || (p.detail || '').toLowerCase().includes(query);
           if (!match) return;
@@ -1543,7 +1712,7 @@
         tr.innerHTML = `
           <td style="text-align:center; cursor:grab; color:var(--text-muted);">⠿</td>
           <td>
-            <div style="font-weight:700; color:var(--text);">${p.name} ${isHidden ? '<span style="font-size:11px; color:var(--text-muted); font-weight:normal;">(Tạm ẩn)</span>' : ''}</div>
+            <div style="font-weight:700; color:var(--text);">${p.name} ${isHidden ? '<span class="badge" style="background:rgba(239,68,68,0.15); color:var(--rose); font-size:10.5px; padding:2px 6px; border-radius:4px; font-weight:700; margin-left:6px;">🔒 TẠM ẨN TRÊN WEB</span>' : ''}</div>
             <div style="font-size:11.5px; color:var(--text-muted); margin-top:3px; max-width:380px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
               ${p.detail || 'Chưa có mô tả chi tiết'}
             </div>
@@ -1733,15 +1902,24 @@
 
           let rowsHtml = '';
           grp.items.forEach(it => {
+            const isHidden = !!it.plan.hidden;
+            const statusBadge = isHidden 
+              ? `<span class="badge" style="background:rgba(239,68,68,0.15); color:var(--rose); font-size:11px; padding:2px 7px; border-radius:4px; font-weight:700;">🔒 Đang ẩn trên Web</span>`
+              : `<span class="badge" style="background:rgba(16,185,129,0.15); color:var(--emerald); font-size:11px; padding:2px 7px; border-radius:4px; font-weight:700;">🟢 Đang bán (Hiện)</span>`;
+
             rowsHtml += `
-              <div class="conflict-item-row">
+              <div class="conflict-item-row" style="display:flex; justify-content:space-between; align-items:center; padding:10px 14px; border-bottom:1px solid var(--border-color); ${isHidden ? 'background:rgba(239,68,68,0.04);' : ''}">
                 <div>
-                  <strong style="color:var(--text);">${it.plan.name}</strong>
+                  <strong style="color:var(--text); font-size:13.5px;">${it.plan.name}</strong>
                   <span style="font-size:11.5px; color:var(--text-muted); margin-left:8px;">(Kho: ${it.plan.stock})</span>
+                  <span style="margin-left:8px;">${statusBadge}</span>
                 </div>
                 <div style="display:flex; align-items:center; gap:8px;">
-                  <input type="number" class="inline-price-input" id="confPrice_${grp.catKey}_${it.index}" value="${it.plan.price}" /> đ
-                  <button class="btn btn-outline" style="padding:3px 7px; font-size:11px;" onclick="saveSingleConflictPrice('${grp.catKey}', ${it.index})">Lưu</button>
+                  <button class="btn btn-outline" style="padding:4px 9px; font-size:11px; font-weight:600;" onclick="locatePlanOnAdmin('${grp.catKey}', ${it.index})" title="Xem vị trí gói này trong bảng quản trị">
+                    🎯 Xem vị trí trên Web
+                  </button>
+                  <input type="number" class="inline-price-input" id="confPrice_${grp.catKey}_${it.index}" value="${it.plan.price}" style="width:110px;" /> đ
+                  <button class="btn btn-primary" style="padding:4px 9px; font-size:11px;" onclick="saveSingleConflictPrice('${grp.catKey}', ${it.index})">Lưu</button>
                 </div>
               </div>
             `;
