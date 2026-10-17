@@ -1104,15 +1104,15 @@
         "id": "p-1792175035933",
         "name": "ChatGPT Plus GGPay 30D BH 24H",
         "price": 190000,
-        "stock": 24,
-        "stock_text": "Còn 24",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 24,
+            "stock": 30,
             "cost_price": 190000,
-            "updated": "12:58 17/10/2026"
+            "updated": "14:32 17/10/2026"
           }
         },
         "hidden": true,
@@ -4694,6 +4694,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792222361323",
+      "time": "14:32 - 17/10/2026",
+      "timestamp": 1792222361323,
+      "name": "ChatGPT Plus GGPay 30D BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 30,
+      "addedQty": 1,
+      "price": 190000,
+      "stockAfter": 30,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:1📦Tồnkhohiệntại:30💰Giá:190.000đ"
+    },
+    {
       "id": "hist-1792222355599",
       "time": "14:32 - 17/10/2026",
       "timestamp": 1792222355599,
@@ -6078,20 +6092,6 @@
       "catKey": "khac",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "☁️LINKGETGEMINIPRO18THÁNGBẢOHÀNH24H➕Thêm:60📦Tồnkhohiệntại:86💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792184553022",
-      "time": "04:02 - 17/10/2026",
-      "timestamp": 1792184553022,
-      "name": "Link Gemini Pro 18 Tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 86,
-      "addedQty": 60,
-      "price": 30000,
-      "stockAfter": 86,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:60📦Tồnkhohiệntại:86💰Giá:30.000đ"
     }
   ],
   "bot-tele": {
