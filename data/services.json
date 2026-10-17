@@ -1726,7 +1726,7 @@
           "piggyai99_bot": {
             "stock": 21,
             "cost_price": 33000,
-            "updated": "04:38 18/10/2026"
+            "updated": "04:53 18/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 153,
@@ -5251,6 +5251,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792273996106",
+      "time": "04:53 - 18/10/2026",
+      "timestamp": 1792273996106,
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 21,
+      "addedQty": 78,
+      "price": 33000,
+      "stockAfter": 174,
+      "catKey": "capcut",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:78📦Tồnkhohiệntại:21💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1792273265596",
       "time": "04:41 - 18/10/2026",
       "timestamp": 1792273265596,
@@ -6635,20 +6649,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🧠VIP1.API40MTokenClaude1Ngày-BHF💰Giá:70k📦Tồnkho:30tàikhoản📊Đãbán:189tàikhoản💎Môt"
-    },
-    {
-      "id": "hist-1792225332020",
-      "time": "15:22 - 17/10/2026",
-      "timestamp": 1792225332020,
-      "name": "ChatGPT Plus GGPay 30D BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 30,
-      "addedQty": 0,
-      "price": 190000,
-      "stockAfter": 38,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H💰Giá:190k📦Tồnkho:30tàikhoản📊Đãbán:2.860tàikhoản💎Môtả:Kh"
     }
   ],
   "bot-tele": {
