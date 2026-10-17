@@ -311,15 +311,15 @@
         "id": "p-1791854770760",
         "name": "ChatGPT Plus GGPay 30D BH 24H",
         "price": 210000,
-        "stock": 49,
-        "stock_text": "Còn 49",
+        "stock": 38,
+        "stock_text": "Còn 38",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 41,
+            "stock": 30,
             "cost_price": 190000,
-            "updated": "15:15 17/10/2026"
+            "updated": "15:22 17/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 8,
@@ -4698,6 +4698,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792225332020",
+      "time": "15:22 - 17/10/2026",
+      "timestamp": 1792225332020,
+      "name": "ChatGPT Plus GGPay 30D BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 30,
+      "addedQty": 0,
+      "price": 190000,
+      "stockAfter": 38,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H💰Giá:190k📦Tồnkho:30tàikhoản📊Đãbán:2.860tàikhoản💎Môtả:Kh"
+    },
+    {
       "id": "hist-1792225321666",
       "time": "15:22 - 17/10/2026",
       "timestamp": 1792225321666,
@@ -6082,20 +6096,6 @@
       "catKey": "khac",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:9📦Tồnkhohiệntại:7💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1792189997359",
-      "time": "05:33 - 17/10/2026",
-      "timestamp": 1792189997359,
-      "name": "Figma Pro Education 1 năm BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 7,
-      "addedQty": 9,
-      "price": 180000,
-      "stockAfter": 7,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐FigmaProEducation1nămBHF➕Thêm:9📦Tồnkhohiệntại:7💰Giá:180.000đ"
     }
   ],
   "bot-tele": {
