@@ -2885,9 +2885,9 @@
       {
         "id": "p-1791936082491",
         "name": "GMAIL CỔ DATE 201X- 2022",
-        "price": 35000,
-        "stock": 75,
-        "stock_text": "Còn 75",
+        "price": 45000,
+        "stock": 150,
+        "stock_text": "Còn 150",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Mail | Pass | Mail khôi phục  | 2fa\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL RANDOM DATE 201X- 202X\n- Link check DATE mail: https://www.youtube.com/watch?v=Cer8zHUhnB4",
         "price_verified": true,
@@ -2896,8 +2896,14 @@
             "stock": 75,
             "cost_price": 35000,
             "updated": "20:55 17/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 75,
+            "cost_price": 45000,
+            "updated": "21:31 17/10/2026"
           }
-        }
+        },
+        "needs_review": true
       },
       {
         "id": "p-1792034167129",
@@ -4994,6 +5000,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792247511571",
+      "time": "21:31 - 17/10/2026",
+      "timestamp": 1792247511571,
+      "name": "GMAIL CỔ DATE 201X- 2022",
+      "bot": "sieuthistore_bot",
+      "shopStock": 75,
+      "addedQty": 1,
+      "price": 45000,
+      "stockAfter": 150,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧GMAILCỔDATE201X-2022➕Thêm:1📦Tồnkhohiệntại:75💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1792245816873",
       "time": "21:03 - 17/10/2026",
       "timestamp": 1792245816873,
@@ -6378,20 +6398,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐LinkGetOfferDuolingoSuper1nămBH1tháng➕Thêm:1📦Tồnkhohiệntại:26💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1792207184102",
-      "time": "10:19 - 17/10/2026",
-      "timestamp": 1792207184102,
-      "name": "(💚BEST SELLER) ChatGPT Plus GGPay Gmail 30D - BH 20D",
-      "bot": "piggyai99_bot",
-      "shopStock": 14,
-      "addedQty": 0,
-      "price": 260000,
-      "stockAfter": 14,
-      "catKey": "chatgpt",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🤖(💚BESTSELLER)ChatGPTPlusGGPayGmail30D-BH20D💰Giá:260k📦Tồnkho:14tàikhoản📊Đãbán:80"
     }
   ],
   "bot-tele": {
