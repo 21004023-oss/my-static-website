@@ -1402,15 +1402,15 @@
         "id": "p-1792225572056",
         "name": "Slot Veo3 Ultra Chung 75K Credits 3 tháng BHF",
         "price": 1800000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": -1,
+        "stock_text": "Vô cực (∞)",
         "duration": "3 Tháng",
         "detail": "-Mỗi tháng có 25K Credits dùng chung trong nhóm gia đình,3 tháng 75K Credits.\n-Google Ultra x20-Mạnh hơn 20 lần Pro\n+Flow Veo3 Ultra\n+Gemini Ultra\n+Antigravity Ultra\n+30 TB Drive\n-Hạn gói: 3 tháng\n-Bảo hành: 3 tháng\n-Lưu ý:\n+Cả nhóm gia đình dùng chung 25K Credits,nên mọi người tranh thủ dùng được càng nhiều càng tốt,shop không chịu trách nhiệm nếu mọi người vào nhóm muộn dẫn tới dùng ít credit\n+Check kĩ mail trước khi Order,đổi mail sẽ mất thêm phí.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": -1,
             "cost_price": 1800000,
-            "updated": "15:26 17/10/2026"
+            "updated": "15:28 17/10/2026"
           }
         },
         "hidden": false
@@ -4732,6 +4732,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792225713268",
+      "time": "15:28 - 17/10/2026",
+      "timestamp": 1792225713268,
+      "name": "Slot Veo3 Ultra Chung 75K Credits 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": -1,
+      "addedQty": 30,
+      "price": 1800000,
+      "stockAfter": -1,
+      "catKey": "google-veo",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🚀SlotVeo3UltraChung75KCredits3thángBHF💰Giá:1800k📦Tồnkho:∞tàikhoản📊Đãbán:0tàikhoả"
+    },
+    {
       "id": "hist-1792225703727",
       "time": "15:28 - 17/10/2026",
       "timestamp": 1792225703727,
@@ -6116,20 +6130,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapcutProTeam6ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:340.000đ"
-    },
-    {
-      "id": "hist-1792193755878",
-      "time": "06:35 - 17/10/2026",
-      "timestamp": 1792193755878,
-      "name": "seedance 2.5 1 tháng BH 5D",
-      "bot": "taphoathomap_bot",
-      "shopStock": 5,
-      "addedQty": 0,
-      "price": 99000,
-      "stockAfter": 10,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐seedance2.51thángBH5D💰Giá:99k📦Tồnkho:5tàikhoản📊Đãbán:1tàikhoản💎Môtả:rendar.aigó"
     }
   ],
   "bot-tele": {
