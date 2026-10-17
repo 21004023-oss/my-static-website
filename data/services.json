@@ -2676,15 +2676,15 @@
         "id": "p-1792146735154",
         "name": "Kling 1k  credits 1 tháng BH 24H",
         "price": 180000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "Gói Kling 1k  credits 1 tháng BH 24H bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 4,
             "cost_price": 180000,
-            "updated": "18:03 16/10/2026"
+            "updated": "06:23 18/10/2026"
           }
         },
         "hidden": false
@@ -5251,6 +5251,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792279436989",
+      "time": "06:23 - 18/10/2026",
+      "timestamp": 1792279436989,
+      "name": "Kling 1k  credits 1 tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 4,
+      "addedQty": 0,
+      "price": 180000,
+      "stockAfter": 4,
+      "catKey": "kling",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬Kling1kcredits1thángBH24H💰Giá:180k📦Tồnkho:4tàikhoản📊Đãbán:30tàikhoản"
+    },
+    {
       "id": "hist-1792273996106",
       "time": "04:53 - 18/10/2026",
       "timestamp": 1792273996106,
@@ -6635,20 +6649,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H💰Giá:190k📦Tồnkho:41tàikhoản📊Đãbán:2.862tàikhoản💎Môtả:Kh"
-    },
-    {
-      "id": "hist-1792225337734",
-      "time": "15:22 - 17/10/2026",
-      "timestamp": 1792225337734,
-      "name": "VIP 1.API 40M Token Claude 1 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 30,
-      "addedQty": 0,
-      "price": 70000,
-      "stockAfter": 30,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🧠VIP1.API40MTokenClaude1Ngày-BHF💰Giá:70k📦Tồnkho:30tàikhoản📊Đãbán:189tàikhoản💎Môt"
     }
   ],
   "bot-tele": {
