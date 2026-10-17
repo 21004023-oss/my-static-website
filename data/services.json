@@ -171,8 +171,8 @@
         "id": "p-1792236161309",
         "name": "Gmail Random ip 2020-2023 trial youtube",
         "price": 50000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành",
         "sources": {
@@ -180,9 +180,15 @@
             "stock": 6,
             "cost_price": 50000,
             "updated": "18:22 17/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 40000,
+            "updated": "18:22 17/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ]
   },
@@ -4919,6 +4925,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792236173798",
+      "time": "18:22 - 17/10/2026",
+      "timestamp": 1792236173798,
+      "name": "Gmail Random ip 2020-2023 trial youtube",
+      "bot": "taphoathomap_bot",
+      "shopStock": 6,
+      "addedQty": 6,
+      "price": 40000,
+      "stockAfter": 12,
+      "catKey": "youtube",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧GmailRandomip2020-2023trialyoutube➕Thêm:6📦Tồnkhohiệntại:6💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1792236166461",
       "time": "18:22 - 17/10/2026",
       "timestamp": 1792236166461,
@@ -6303,20 +6323,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapcutProTeam6ThángBHF💰Giá:340k📦Tồnkho:3tàikhoản📊Đãbán:281tàikhoản💎Môtả:CAPCUT"
-    },
-    {
-      "id": "hist-1792203056787",
-      "time": "09:10 - 17/10/2026",
-      "timestamp": 1792203056787,
-      "name": "Capcut Pro Team 6 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 2,
-      "addedQty": 0,
-      "price": 340000,
-      "stockAfter": 2,
-      "catKey": "capcut",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✂️CapcutProTeam6ThángBHF💰Giá:340k📦Tồnkho:2tàikhoản📊Đãbán:279tàikhoản💎Môtả:CAPCUT"
     }
   ],
   "bot-tele": {
