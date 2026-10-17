@@ -2869,11 +2869,18 @@
         "id": "p-1791936082491",
         "name": "GMAIL CỔ DATE 201X- 2022",
         "price": 35000,
-        "stock": 281,
-        "stock_text": "Còn 281",
+        "stock": 75,
+        "stock_text": "Còn 75",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Mail | Pass | Mail khôi phục  | 2fa\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL RANDOM DATE 201X- 202X\n- Link check DATE mail: https://www.youtube.com/watch?v=Cer8zHUhnB4",
-        "price_verified": true
+        "price_verified": true,
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 75,
+            "cost_price": 35000,
+            "updated": "20:55 17/10/2026"
+          }
+        }
       },
       {
         "id": "p-1792034167129",
@@ -4970,6 +4977,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792245347633",
+      "time": "20:55 - 17/10/2026",
+      "timestamp": 1792245347633,
+      "name": "GMAIL CỔ DATE 201X- 2022",
+      "bot": "ntnshopre_bot",
+      "shopStock": 75,
+      "addedQty": 1,
+      "price": 35000,
+      "stockAfter": 75,
+      "catKey": "gmail",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "📧GMAILCỔDATE201X-2022➕Thêm:1📦Tồnkhohiệntại:75💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792243625122",
       "time": "20:27 - 17/10/2026",
       "timestamp": 1792243625122,
@@ -6354,20 +6375,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🤖(💚BESTSELLER)ChatGPTPlusGGPayGmail30D-BH20D➕Thêm:22📦Tồnkhohiệntại:25💰Giá:260.00"
-    },
-    {
-      "id": "hist-1792207175412",
-      "time": "10:19 - 17/10/2026",
-      "timestamp": 1792207175412,
-      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 25,
-      "addedQty": 22,
-      "price": 300000,
-      "stockAfter": 25,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:22📦Tồnkhohiệntại:25💰Giá:300.000đ"
     }
   ],
   "bot-tele": {
