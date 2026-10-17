@@ -5175,10 +5175,41 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792268578812",
+        "name": "Microsoft 365 Admin Family 1 Tháng BHF",
+        "price": 30000,
+        "stock": 19,
+        "stock_text": "Còn 19",
+        "duration": "1 Tháng",
+        "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 19,
+            "cost_price": 30000,
+            "updated": "03:22 18/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792268578812",
+      "time": "03:22 - 18/10/2026",
+      "timestamp": 1792268578812,
+      "name": "Microsoft 365 Admin Family 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 19,
+      "addedQty": 10,
+      "price": 30000,
+      "stockAfter": 19,
+      "catKey": "microsoft",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐Microsoft365AdminFamily1ThángBHF➕Thêm:10📦Tồnkhohiệntại:19💰Giá:30.000đ"
+    },
     {
       "id": "hist-1792268573325",
       "time": "03:22 - 18/10/2026",
@@ -6564,20 +6595,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:5📦Tồnkhohiệntại:41💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1792224918033",
-      "time": "15:15 - 17/10/2026",
-      "timestamp": 1792224918033,
-      "name": "ChatGPT Plus GGPay 30D BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 41,
-      "addedQty": 5,
-      "price": 190000,
-      "stockAfter": 41,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:5📦Tồnkhohiệntại:41💰Giá:190.000đ"
     }
   ],
   "bot-tele": {
