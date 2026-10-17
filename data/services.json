@@ -4469,6 +4469,23 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792211632076",
+        "name": "Tài khoản VieON VIP 30 ngày BHF",
+        "price": 35000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 3,
+            "cost_price": 35000,
+            "updated": "11:33 17/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -4520,6 +4537,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792211632076",
+      "time": "11:33 - 17/10/2026",
+      "timestamp": 1792211632076,
+      "name": "Tài khoản VieON VIP 30 ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 3,
+      "addedQty": 3,
+      "price": 35000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐TàikhoảnVieONVIP30ngàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:35.000đ"
+    },
     {
       "id": "hist-1792209352050",
       "time": "10:55 - 17/10/2026",
@@ -5905,20 +5936,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:8📦Tồnkhohiệntại:21💰Giá:190.000đ"
-    },
-    {
-      "id": "hist-1792177727082",
-      "time": "02:08 - 17/10/2026",
-      "timestamp": 1792177727082,
-      "name": "ChatGPT Plus ( GG Pay) 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 21,
-      "addedQty": 8,
-      "price": 240000,
-      "stockAfter": 21,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:8📦Tồnkhohiệntại:21💰Giá:240.000đ"
     }
   ],
   "bot-tele": {
