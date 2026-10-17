@@ -4329,6 +4329,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792198259840",
+        "name": "Muse Ai  1B Token KBH",
+        "price": 30000,
+        "stock": 24,
+        "stock_text": "Còn 24",
+        "duration": "1 Tháng",
+        "detail": "Muse Ai 1 Token KBH\nMail | link nhận code",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 24,
+            "cost_price": 30000,
+            "updated": "07:50 17/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -4380,6 +4398,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792198259843",
+      "time": "07:50 - 17/10/2026",
+      "timestamp": 1792198259843,
+      "name": "Muse Ai  1B Token KBH",
+      "bot": "taphoathomap_bot",
+      "shopStock": 24,
+      "addedQty": 1,
+      "price": 30000,
+      "stockAfter": 24,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:1📦Tồnkhohiệntại:24💰Giá:30.000đ"
+    },
     {
       "id": "hist-1792198254519",
       "time": "07:50 - 17/10/2026",
@@ -5765,20 +5797,6 @@
       "catKey": "capcut",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:6📦Tồnkhohiệntại:38💰Giá:38.000đ"
-    },
-    {
-      "id": "hist-1792163509838",
-      "time": "22:11 - 16/10/2026",
-      "timestamp": 1792163509838,
-      "name": "ChatGPT Go 1 Tháng - BH 7 Ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 16,
-      "addedQty": 2,
-      "price": 60000,
-      "stockAfter": 16,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTGo1Tháng-BH7Ngày➕Thêm:2📦Tồnkhohiệntại:16💰Giá:60.000đ"
     }
   ],
   "bot-tele": {
