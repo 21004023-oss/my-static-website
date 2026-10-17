@@ -2512,11 +2512,18 @@
       {
         "id": "p-1791865931335",
         "name": "Admin Notion Business 1 tháng BHF",
-        "price": 114000,
-        "stock": 2,
-        "stock_text": "Còn 2",
-        "duration": "1 tháng",
-        "detail": "Gói Admin Notion Business 1 tháng BHF bảo hành uy tín."
+        "price": 140000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "-Admin Notion Business (tài khoản cấp sẵn-riêng tư).\n-Định dạng: Mail | Pass | Mail Khôi Phục\n-Có thể thêm nhiều thành viên cùng sử dụng ưu đãi (20-30 thành viên).\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng.\n-Lưu ý: Sử dụng để Code sẽ bị ban.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 1,
+            "cost_price": 140000,
+            "updated": "04:40 18/10/2026"
+          }
+        }
       },
       {
         "id": "p-1791927829837",
@@ -5238,6 +5245,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792273259506",
+      "time": "04:40 - 18/10/2026",
+      "timestamp": 1792273259506,
+      "name": "Admin Notion Business 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 1,
+      "addedQty": 2,
+      "price": 140000,
+      "stockAfter": 1,
+      "catKey": "notion",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐AdminNotionBusiness1thángBHF➕Thêm:2📦Tồnkhohiệntại:1💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1792273125638",
       "time": "04:38 - 18/10/2026",
       "timestamp": 1792273125638,
@@ -6622,20 +6643,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày💰Giá:210k📦Tồnkho:8tàikhoản📊Đãbán:2.860tàikhoản💎M"
-    },
-    {
-      "id": "hist-1792225305277",
-      "time": "15:21 - 17/10/2026",
-      "timestamp": 1792225305277,
-      "name": "CapCut Pro Team 3 Tháng - BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 5,
-      "addedQty": 5,
-      "price": 160000,
-      "stockAfter": 5,
-      "catKey": "capcut",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:160.000đ"
     }
   ],
   "bot-tele": {
