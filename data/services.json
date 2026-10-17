@@ -4050,8 +4050,8 @@
         "id": "p-1792088127430",
         "name": "Grammarly AI Pro 1 Tháng BHF",
         "price": 90000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "1 Tháng",
         "detail": "Grammarly Pro có AI 1 Tháng BHF\nĐịnh dạng: Email|Pass\n・　Viết lại toàn bộ câu chỉ với một cú nhấp chuột\n・　Dễ dàng điều chỉnh văn phong và giọng điệu bài viết\n・　Viết tiếng Anh trôi chảy và tự nhiên hơn\n・　Gợi ý cá nhân hóa không giới hạn\n・　Phát hiện đạo văn và nội dung do AI tạo ra\n・　Tạo nội dung với 2.000 lượt prompt AI\n-Chú ý: Không thay đổi thêm thắt bất kỳ cái gì vào tài khoản, nếu vi phạm sẽ không được bảo hành",
         "sources": {
@@ -4059,9 +4059,15 @@
             "stock": 7,
             "cost_price": 80000,
             "updated": "00:45 18/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 7,
+            "cost_price": 90000,
+            "updated": "00:45 18/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       },
       {
         "id": "p-1792088131622",
@@ -5070,6 +5076,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792259145003",
+      "time": "00:45 - 18/10/2026",
+      "timestamp": 1792259145003,
+      "name": "Grammarly AI Pro 1 Tháng BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 7,
+      "addedQty": 4,
+      "price": 90000,
+      "stockAfter": 14,
+      "catKey": "khac",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:7💰Giá:90.000đ"
+    },
     {
       "id": "hist-1792259139173",
       "time": "00:45 - 18/10/2026",
@@ -6455,20 +6475,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày💰Giá:240k📦Tồnkho:8tàikhoản📊Đãbán:2.857tàikhoản💎M"
-    },
-    {
-      "id": "hist-1792216701544",
-      "time": "12:58 - 17/10/2026",
-      "timestamp": 1792216701544,
-      "name": "Tài khoản VieON VIP 30 ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 3,
-      "addedQty": 0,
-      "price": 35000,
-      "stockAfter": 3,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐TàikhoảnVieONVIP30ngàyBHF💰Giá:35k📦Tồnkho:3tàikhoản📊Đãbán:10tàikhoản💎Môtả:Tàikho"
     }
   ],
   "bot-tele": {
