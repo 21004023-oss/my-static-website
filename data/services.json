@@ -1240,6 +1240,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792222355598",
+        "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
+        "price": 210000,
+        "stock": 30,
+        "stock_text": "Còn 30",
+        "duration": "1 Tháng",
+        "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 30,
+            "cost_price": 210000,
+            "updated": "14:32 17/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -4676,6 +4694,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792222355599",
+      "time": "14:32 - 17/10/2026",
+      "timestamp": 1792222355599,
+      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 30,
+      "addedQty": 1,
+      "price": 210000,
+      "stockAfter": 30,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:1📦Tồnkhohiệntại:30💰Giá:210.000đ"
+    },
+    {
       "id": "hist-1792221059713",
       "time": "14:10 - 17/10/2026",
       "timestamp": 1792221059713,
@@ -6060,20 +6092,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:60📦Tồnkhohiệntại:86💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1792184218990",
-      "time": "03:56 - 17/10/2026",
-      "timestamp": 1792184218990,
-      "name": "Redeem Apple Music Individual 5 tháng BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 25,
-      "addedQty": 0,
-      "price": 40000,
-      "stockAfter": 25,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐RedeemAppleMusicIndividual5thángBH1ngày💰Giá:40k📦Tồnkho:25tàikhoản📊Đãbán:23tàikh"
     }
   ],
   "bot-tele": {
