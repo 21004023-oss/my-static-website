@@ -594,15 +594,15 @@
         "id": "p-1791960560914",
         "name": "ChatGPT Go 1 Tháng - BH 10 Ngày",
         "price": 75000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 33,
+        "stock_text": "Còn 33",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n2. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n3. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 14,
+            "stock": 33,
             "cost_price": 75000,
-            "updated": "22:25 15/10/2026"
+            "updated": "01:42 18/10/2026"
           }
         }
       },
@@ -5099,6 +5099,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792262572702",
+      "time": "01:42 - 18/10/2026",
+      "timestamp": 1792262572702,
+      "name": "ChatGPT Go 1 Tháng - BH 10 Ngày",
+      "bot": "taphoathomap_bot",
+      "shopStock": 33,
+      "addedQty": 20,
+      "price": 75000,
+      "stockAfter": 33,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTGo1Tháng-BH10Ngày➕Thêm:20📦Tồnkhohiệntại:33💰Giá:75.000đ"
+    },
+    {
       "id": "hist-1792261855714",
       "time": "01:30 - 18/10/2026",
       "timestamp": 1792261855714,
@@ -6483,20 +6497,6 @@
       "catKey": "khac",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐YoukuVip3thángBHF➕Thêm:3📦Tồnkhohiệntại:2💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1792217933454",
-      "time": "13:18 - 17/10/2026",
-      "timestamp": 1792217933454,
-      "name": "HMA VPN Androi/PC/IOS 30 ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 23,
-      "addedQty": 11,
-      "price": 35000,
-      "stockAfter": 23,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐HMAVPNAndroi/PC/IOS30ngàyBHF➕Thêm:11📦Tồnkhohiệntại:23💰Giá:35.000đ"
     }
   ],
   "bot-tele": {
