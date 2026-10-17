@@ -4589,6 +4589,24 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792218966910",
+        "name": "Youku Vip 3 tháng bhf",
+        "price": 50000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "3 Tháng",
+        "detail": "Tài khoản youku vip dùng 1 thiết bị (1 slot)\nKhách hàng được đăng nhập tối đa 2 thiết bị, và xem 1 thiết bị đồng thời\nBảo hành toàn thời gian đăng ký",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 50000,
+            "updated": "13:36 17/10/2026"
+          }
+        },
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -4640,6 +4658,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792218966911",
+      "time": "13:36 - 17/10/2026",
+      "timestamp": 1792218966911,
+      "name": "Youku Vip 3 tháng bhf",
+      "bot": "taphoathomap_bot",
+      "shopStock": 2,
+      "addedQty": 3,
+      "price": 50000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐YoukuVip3thángbhf➕Thêm:3📦Tồnkhohiệntại:2💰Giá:50.000đ"
+    },
     {
       "id": "hist-1792218961522",
       "time": "13:36 - 17/10/2026",
@@ -6025,20 +6057,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H💰Giá:75k📦Tồnkho:19tàikhoản📊Đãbán:444tàikhoản💎Môtả:🔐Tà"
-    },
-    {
-      "id": "hist-1792184203057",
-      "time": "03:56 - 17/10/2026",
-      "timestamp": 1792184203057,
-      "name": "ChatGPT Plus GGPay 30D BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 28,
-      "addedQty": 0,
-      "price": 190000,
-      "stockAfter": 28,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H💰Giá:190k📦Tồnkho:28tàikhoản📊Đãbán:2.841tàikhoản💎Môtả:Kh"
     }
   ],
   "bot-tele": {
