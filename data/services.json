@@ -4174,8 +4174,8 @@
         "id": "p-1792097676939",
         "name": "Elevenlab Creator 1Th BH 3D",
         "price": 180000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 22,
+        "stock_text": "Còn 22",
         "duration": "1 Tháng",
         "detail": "mail|pass mail|pas11lab",
         "sources": {
@@ -4183,9 +4183,15 @@
             "stock": 11,
             "cost_price": 180000,
             "updated": "20:18 17/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 11,
+            "cost_price": 159000,
+            "updated": "20:18 17/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       },
       {
         "id": "p-1792113846092",
@@ -4946,6 +4952,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792243131169",
+      "time": "20:18 - 17/10/2026",
+      "timestamp": 1792243131169,
+      "name": "Elevenlab Creator 1Th BH 3D",
+      "bot": "taphoathomap_bot",
+      "shopStock": 11,
+      "addedQty": 10,
+      "price": 159000,
+      "stockAfter": 22,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎙️ElevenlabCreator1ThBH3D➕Thêm:10📦Tồnkhohiệntại:11💰Giá:159.000đ"
+    },
     {
       "id": "hist-1792243126033",
       "time": "20:18 - 17/10/2026",
@@ -6331,20 +6351,6 @@
       "catKey": "capcut",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1792205011823",
-      "time": "09:43 - 17/10/2026",
-      "timestamp": 1792205011823,
-      "name": "Surfshark VPN One 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 20,
-      "addedQty": 9,
-      "price": 15000,
-      "stockAfter": 20,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:9📦Tồnkhohiệntại:20💰Giá:15.000đ"
     }
   ],
   "bot-tele": {
