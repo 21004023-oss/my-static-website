@@ -1228,15 +1228,15 @@
         "id": "p-1792214706218",
         "name": "Gia hạn chính chủ ChatGPT PLUS 1 THÁNG BHF",
         "price": 400000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": -1,
+        "stock_text": "Vô cực (∞)",
         "duration": "1 Tháng",
         "detail": "- Gia hạn gói đăng kí PLUS tài khoản chính chủ\n- Khách gửi : tài khoản | pass | 2fa để kích hoạt",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 6,
+            "stock": -1,
             "cost_price": 400000,
-            "updated": "12:25 17/10/2026"
+            "updated": "12:58 17/10/2026"
           }
         },
         "hidden": false
@@ -4607,6 +4607,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792216716978",
+      "time": "12:58 - 17/10/2026",
+      "timestamp": 1792216716978,
+      "name": "Gia hạn chính chủ ChatGPT PLUS 1 THÁNG BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": -1,
+      "addedQty": 0,
+      "price": 400000,
+      "stockAfter": -1,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖GiahạnchínhchủChatGPTPLUS1THÁNGBHF💰Giá:400k📦Tồnkho:∞tàikhoản📊Đãbán:0tàikhoản💎Mô"
+    },
+    {
       "id": "hist-1792216711660",
       "time": "12:58 - 17/10/2026",
       "timestamp": 1792216711660,
@@ -5991,20 +6005,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày💰Giá:240k📦Tồnkho:9tàikhoản📊Đãbán:2.841tàikhoản💎M"
-    },
-    {
-      "id": "hist-1792184169299",
-      "time": "03:56 - 17/10/2026",
-      "timestamp": 1792184169299,
-      "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
-      "bot": "ntnshopre_bot",
-      "shopStock": 5,
-      "addedQty": 0,
-      "price": 150000,
-      "stockAfter": 5,
-      "catKey": "kling",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🎬KLING792-992cre1tháng(BH24h)💰Giá:150k📦Tồnkho:5tàikhoản📊Đãbán:323tàikhoản💎Môtả:A"
     }
   ],
   "bot-tele": {
