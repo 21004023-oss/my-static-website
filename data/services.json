@@ -1223,6 +1223,23 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792214706218",
+        "name": "Gia hạn chính chủ ChatGPT PLUS 1 THÁNG BHF",
+        "price": 400000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "1 Tháng",
+        "detail": "- Gia hạn gói đăng kí PLUS tài khoản chính chủ\n- Khách gửi : tài khoản | pass | 2fa để kích hoạt",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 400000,
+            "updated": "12:25 17/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -4590,6 +4607,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792214706218",
+      "time": "12:25 - 17/10/2026",
+      "timestamp": 1792214706218,
+      "name": "Gia hạn chính chủ ChatGPT PLUS 1 THÁNG BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 6,
+      "addedQty": 6,
+      "price": 400000,
+      "stockAfter": 6,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖GiahạnchínhchủChatGPTPLUS1THÁNGBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:400.000đ"
+    },
+    {
       "id": "hist-1792214644794",
       "time": "12:24 - 17/10/2026",
       "timestamp": 1792214644794,
@@ -5974,20 +6005,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:7📦Tồnkhohiệntại:28💰Giá:190.000đ"
-    },
-    {
-      "id": "hist-1792182424688",
-      "time": "03:27 - 17/10/2026",
-      "timestamp": 1792182424688,
-      "name": "ChatGPT Plus ( GG Pay) 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 28,
-      "addedQty": 7,
-      "price": 240000,
-      "stockAfter": 28,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:7📦Tồnkhohiệntại:28💰Giá:240.000đ"
     }
   ],
   "bot-tele": {
