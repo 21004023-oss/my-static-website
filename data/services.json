@@ -4050,8 +4050,8 @@
         "id": "p-1792088127430",
         "name": "Grammarly AI Pro 1 Tháng BHF",
         "price": 90000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 21,
+        "stock_text": "Còn 21",
         "duration": "1 Tháng",
         "detail": "Grammarly Pro có AI 1 Tháng BHF\nĐịnh dạng: Email|Pass\n・　Viết lại toàn bộ câu chỉ với một cú nhấp chuột\n・　Dễ dàng điều chỉnh văn phong và giọng điệu bài viết\n・　Viết tiếng Anh trôi chảy và tự nhiên hơn\n・　Gợi ý cá nhân hóa không giới hạn\n・　Phát hiện đạo văn và nội dung do AI tạo ra\n・　Tạo nội dung với 2.000 lượt prompt AI\n-Chú ý: Không thay đổi thêm thắt bất kỳ cái gì vào tài khoản, nếu vi phạm sẽ không được bảo hành",
         "sources": {
@@ -4063,6 +4063,11 @@
           "piggyai99_bot": {
             "stock": 7,
             "cost_price": 90000,
+            "updated": "00:45 18/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 7,
+            "cost_price": 70000,
             "updated": "00:45 18/10/2026"
           }
         },
@@ -5076,6 +5081,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792259150391",
+      "time": "00:45 - 18/10/2026",
+      "timestamp": 1792259150391,
+      "name": "Grammarly AI Pro 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 7,
+      "addedQty": 4,
+      "price": 70000,
+      "stockAfter": 21,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:7💰Giá:70.000đ"
+    },
     {
       "id": "hist-1792259145003",
       "time": "00:45 - 18/10/2026",
@@ -6461,20 +6480,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H💰Giá:190k📦Tồnkho:24tàikhoản📊Đãbán:2.857tàikhoản💎Môtả:Kh"
-    },
-    {
-      "id": "hist-1792216706949",
-      "time": "12:58 - 17/10/2026",
-      "timestamp": 1792216706949,
-      "name": "ChatGPT Plus ( GG Pay) 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 8,
-      "addedQty": 0,
-      "price": 240000,
-      "stockAfter": 8,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày💰Giá:240k📦Tồnkho:8tàikhoản📊Đãbán:2.857tàikhoản💎M"
     }
   ],
   "bot-tele": {
