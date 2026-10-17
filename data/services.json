@@ -4157,15 +4157,15 @@
         "id": "p-1792097672589",
         "name": "ELEVENLAB CREATOR 1 THÁNG BẢO HÀNH 3 NGÀY",
         "price": 199000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 11,
+        "stock_text": "Còn 11",
         "duration": "1 Tháng",
         "detail": "mail|pass mail|pas11lab",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 5,
+            "stock": 11,
             "cost_price": 199000,
-            "updated": "03:54 16/10/2026"
+            "updated": "20:18 17/10/2026"
           }
         },
         "hidden": false
@@ -4946,6 +4946,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792243126033",
+      "time": "20:18 - 17/10/2026",
+      "timestamp": 1792243126033,
+      "name": "ELEVENLAB CREATOR 1 THÁNG BẢO HÀNH 3 NGÀY",
+      "bot": "ntnshopre_bot",
+      "shopStock": 11,
+      "addedQty": 10,
+      "price": 199000,
+      "stockAfter": 11,
+      "catKey": "khac",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🎙️ELEVENLABCREATOR1THÁNGBẢOHÀNH3NGÀY➕Thêm:10📦Tồnkhohiệntại:11💰Giá:199.000đ"
+    },
     {
       "id": "hist-1792243121470",
       "time": "20:18 - 17/10/2026",
@@ -6331,20 +6345,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:9📦Tồnkhohiệntại:20💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792205006619",
-      "time": "09:43 - 17/10/2026",
-      "timestamp": 1792205006619,
-      "name": "Surfshark VPN One 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 20,
-      "addedQty": 9,
-      "price": 35000,
-      "stockAfter": 20,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:9📦Tồnkhohiệntại:20💰Giá:35.000đ"
     }
   ],
   "bot-tele": {
