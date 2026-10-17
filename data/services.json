@@ -2513,17 +2513,23 @@
         "id": "p-1791865931335",
         "name": "Admin Notion Business 1 tháng BHF",
         "price": 140000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
-        "detail": "-Admin Notion Business (tài khoản cấp sẵn-riêng tư).\n-Định dạng: Mail | Pass | Mail Khôi Phục\n-Có thể thêm nhiều thành viên cùng sử dụng ưu đãi (20-30 thành viên).\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng.\n-Lưu ý: Sử dụng để Code sẽ bị ban.",
+        "detail": "-Admin Notion Business (tài khoản cấp sẵn-riêng tư).\n-Định dạng: Mail | Pass | Mail Khôi Phục\n- Hàng trial - Không dùng được model\n-Có thể thêm nhiều thành viên cùng sử dụng ưu đãi (20-30 thành viên).\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng.\n-Lưu ý: Sử dụng để Code sẽ bị ban.",
         "sources": {
           "sieuthistore_bot": {
             "stock": 1,
             "cost_price": 140000,
             "updated": "04:40 18/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 105000,
+            "updated": "04:41 18/10/2026"
           }
-        }
+        },
+        "needs_review": true
       },
       {
         "id": "p-1791927829837",
@@ -5245,6 +5251,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792273265596",
+      "time": "04:41 - 18/10/2026",
+      "timestamp": 1792273265596,
+      "name": "Admin Notion Business 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 1,
+      "addedQty": 2,
+      "price": 105000,
+      "stockAfter": 2,
+      "catKey": "notion",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐AdminNotionBusiness1thángBHF➕Thêm:2📦Tồnkhohiệntại:1💰Giá:105.000đ"
+    },
+    {
       "id": "hist-1792273259506",
       "time": "04:40 - 18/10/2026",
       "timestamp": 1792273259506,
@@ -6629,20 +6649,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H💰Giá:190k📦Tồnkho:30tàikhoản📊Đãbán:2.860tàikhoản💎Môtả:Kh"
-    },
-    {
-      "id": "hist-1792225321666",
-      "time": "15:22 - 17/10/2026",
-      "timestamp": 1792225321666,
-      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 8,
-      "addedQty": 0,
-      "price": 210000,
-      "stockAfter": 49,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày💰Giá:210k📦Tồnkho:8tàikhoản📊Đãbán:2.860tàikhoản💎M"
     }
   ],
   "bot-tele": {
