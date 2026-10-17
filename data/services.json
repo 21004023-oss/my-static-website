@@ -4572,6 +4572,23 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792218961522",
+        "name": "Youku Vip 3 tháng BHF",
+        "price": 85000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "3 Tháng",
+        "detail": "Tài khoản youku vip dùng 1 thiết bị (1 slot)\nKhách hàng được đăng nhập tối đa 2 thiết bị, và xem 1 thiết bị đồng thời\nBảo hành toàn thời gian đăng ký",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 2,
+            "cost_price": 85000,
+            "updated": "13:36 17/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -4623,6 +4640,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792218961522",
+      "time": "13:36 - 17/10/2026",
+      "timestamp": 1792218961522,
+      "name": "Youku Vip 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 2,
+      "addedQty": 3,
+      "price": 85000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐YoukuVip3thángBHF➕Thêm:3📦Tồnkhohiệntại:2💰Giá:85.000đ"
+    },
     {
       "id": "hist-1792217933454",
       "time": "13:18 - 17/10/2026",
@@ -6008,20 +6039,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H💰Giá:190k📦Tồnkho:28tàikhoản📊Đãbán:2.841tàikhoản💎Môtả:Kh"
-    },
-    {
-      "id": "hist-1792184195439",
-      "time": "03:56 - 17/10/2026",
-      "timestamp": 1792184195439,
-      "name": "Redeem Apple Music Individual 5 tháng BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 25,
-      "addedQty": 0,
-      "price": 45000,
-      "stockAfter": 25,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐RedeemAppleMusicIndividual5thángBH1ngày💰Giá:45k📦Tồnkho:25tàikhoản📊Đãbán:23tàikh"
     }
   ],
   "bot-tele": {
