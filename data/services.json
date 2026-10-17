@@ -4731,6 +4731,23 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792230370922",
+        "name": "Thông báo từ Admin:",
+        "price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Thông báo từ Admin: bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "updated": "16:46 17/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -4782,6 +4799,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792230370922",
+      "time": "16:46 - 17/10/2026",
+      "timestamp": 1792230370922,
+      "name": "Thông báo từ Admin:",
+      "bot": "piggyai99_bot",
+      "shopStock": 0,
+      "addedQty": 0,
+      "price": 0,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "📣ThôngbáotừAdmin:lênthêmChatGPTFreeđãxácminhCodex1tháng–KBHGiảmgiámạnh:ChatGPTPl"
+    },
     {
       "id": "hist-1792230098849",
       "time": "16:41 - 17/10/2026",
@@ -6167,20 +6198,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬Tạo1VideoHiggsfieldGenjutsu1thángBH1H➕Thêm:3📦Tồnkhohiệntại:3💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792195301548",
-      "time": "07:01 - 17/10/2026",
-      "timestamp": 1792195301548,
-      "name": "Higgfield GenJutsu 720p 1 Tháng KBH",
-      "bot": "sieuthistore_bot",
-      "shopStock": 3,
-      "addedQty": 3,
-      "price": 50000,
-      "stockAfter": 3,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🎬HiggfieldGenJutsu720p1ThángKBH➕Thêm:3📦Tồnkhohiệntại:3💰Giá:50.000đ"
     }
   ],
   "bot-tele": {
