@@ -5141,10 +5141,41 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792268569370",
+        "name": "Admin Microsoft 365 Family 1 Tháng BHF",
+        "price": 45000,
+        "stock": 19,
+        "stock_text": "Còn 19",
+        "duration": "1 Tháng",
+        "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 19,
+            "cost_price": 45000,
+            "updated": "03:22 18/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792268569370",
+      "time": "03:22 - 18/10/2026",
+      "timestamp": 1792268569370,
+      "name": "Admin Microsoft 365 Family 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 19,
+      "addedQty": 10,
+      "price": 45000,
+      "stockAfter": 19,
+      "catKey": "microsoft",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐AdminMicrosoft365Family1ThángBHF➕Thêm:10📦Tồnkhohiệntại:19💰Giá:45.000đ"
+    },
     {
       "id": "hist-1792266081050",
       "time": "02:41 - 18/10/2026",
@@ -6530,20 +6561,6 @@
       "catKey": "khac",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🎬TàiKhoảnNetflixPremium2ngàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792224372565",
-      "time": "15:06 - 17/10/2026",
-      "timestamp": 1792224372565,
-      "name": "Tài Khoản Netflix Premium 2 ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 3,
-      "addedQty": 0,
-      "price": 35000,
-      "stockAfter": 3,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🎬TàiKhoảnNetflixPremium2ngàyBHF💰Giá:35k📦Tồnkho:3tàikhoản📊Đãbán:32tàikhoản"
     }
   ],
   "bot-tele": {
