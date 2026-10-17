@@ -177,11 +177,18 @@
         "id": "gpt-go-3d",
         "name": "ChatGPT Go 1 Tháng (BH 3 Ngày)",
         "price": 95000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Tháng",
         "source": "Cấp sẵn",
-        "detail": "- Định dạng: Email|Mật khẩu|2FA (lấy OTP tại 2FA.LIVE).\n- Không Bảo Hành Ver Số Codex, khách muốn ver vào web https://smspool.net hoặc https://viotp.com/ (thuê số ver chỉ với 2k).\n- Nghiêm cấm sử dụng acc để gắn tool 9Router bào Codex (phát hiện huỷ bảo hành).\n- Chủ động đổi mật khẩu và 2FA ngay sau khi nhận tài khoản."
+        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n2. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n3. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 30,
+            "cost_price": 60000,
+            "updated": "01:59 18/10/2026"
+          }
+        }
       },
       {
         "id": "gpt-go-10d",
@@ -5082,6 +5089,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792263564666",
+      "time": "01:59 - 18/10/2026",
+      "timestamp": 1792263564666,
+      "name": "ChatGPT Go 1 Tháng - BH 3 Ngày",
+      "bot": "taphoathomap_bot",
+      "shopStock": 30,
+      "addedQty": 50,
+      "price": 60000,
+      "stockAfter": 30,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTGo1Tháng-BH3Ngày➕Thêm:50📦Tồnkhohiệntại:30💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1792262572702",
       "time": "01:42 - 18/10/2026",
       "timestamp": 1792262572702,
@@ -6466,20 +6487,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐YoukuVip3thángbhf➕Thêm:3📦Tồnkhohiệntại:2💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792218961522",
-      "time": "13:36 - 17/10/2026",
-      "timestamp": 1792218961522,
-      "name": "Youku Vip 3 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 2,
-      "addedQty": 3,
-      "price": 85000,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐YoukuVip3thángBHF➕Thêm:3📦Tồnkhohiệntại:2💰Giá:85.000đ"
     }
   ],
   "bot-tele": {
