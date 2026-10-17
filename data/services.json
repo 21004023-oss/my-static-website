@@ -310,18 +310,24 @@
       {
         "id": "p-1791854770760",
         "name": "ChatGPT Plus GGPay 30D BH 24H",
-        "price": 200000,
-        "stock": 70,
-        "stock_text": "Còn 70",
+        "price": 210000,
+        "stock": 49,
+        "stock_text": "Còn 49",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 70,
-            "cost_price": 200000,
-            "updated": "06:06 15/10/2026"
+            "stock": 41,
+            "cost_price": 190000,
+            "updated": "15:15 17/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 8,
+            "cost_price": 210000,
+            "updated": "15:15 17/10/2026"
           }
-        }
+        },
+        "hidden": false
       },
       {
         "id": "p-1791870770999",
@@ -1101,24 +1107,6 @@
         "needs_review": true
       },
       {
-        "id": "p-1792175035933",
-        "name": "ChatGPT Plus GGPay 30D BH 24H",
-        "price": 190000,
-        "stock": 41,
-        "stock_text": "Còn 41",
-        "duration": "1 Tháng",
-        "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
-        "sources": {
-          "taphoathomap_bot": {
-            "stock": 41,
-            "cost_price": 190000,
-            "updated": "15:15 17/10/2026"
-          }
-        },
-        "hidden": true,
-        "needs_review": true
-      },
-      {
         "id": "p-1792176601628",
         "name": "Chatgpt Plus Apple Pay 1 tháng BHF",
         "price": 300000,
@@ -1240,24 +1228,6 @@
           }
         },
         "hidden": false
-      },
-      {
-        "id": "p-1792222355598",
-        "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
-        "price": 210000,
-        "stock": 8,
-        "stock_text": "Còn 8",
-        "duration": "1 Tháng",
-        "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
-        "sources": {
-          "sieuthistore_bot": {
-            "stock": 8,
-            "cost_price": 210000,
-            "updated": "15:15 17/10/2026"
-          }
-        },
-        "hidden": true,
-        "needs_review": true
       }
     ]
   },
