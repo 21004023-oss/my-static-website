@@ -1055,16 +1055,16 @@
         "id": "p-1792138339640",
         "name": "ChatGPT Go 1 Tháng - BHF",
         "price": 110000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n2. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n3. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 12,
-            "cost_price": 80000,
-            "updated": "15:12 16/10/2026",
-            "selling_price": 90000
+            "stock": 10,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "06:17 19/10/2026"
           }
         },
         "hidden": true,
@@ -6536,6 +6536,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792365429507",
+      "time": "06:17 - 19/10/2026",
+      "timestamp": 1792365429507,
+      "name": "ChatGPT Go 1 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 10,
+      "addedQty": 10,
+      "price": 110000,
+      "stockAfter": 10,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTGo1Tháng-BHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1792365225004",
       "time": "06:13 - 19/10/2026",
       "timestamp": 1792365225004,
@@ -7920,20 +7934,6 @@
       "catKey": "notion",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐RedeemNotionBusiness3thángBHF💰Giá:190k📦Tồnkho:6tàikhoản📊Đãbán:141tàikhoản💎Môtả:"
-    },
-    {
-      "id": "hist-1792302118210",
-      "time": "12:41 - 18/10/2026",
-      "timestamp": 1792302118210,
-      "name": "Redeem Notion Business 3 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 6,
-      "addedQty": 5,
-      "price": 210000,
-      "stockAfter": 12,
-      "catKey": "notion",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐RedeemNotionBusiness3thángBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:190.000đ"
     }
   ]
 }
