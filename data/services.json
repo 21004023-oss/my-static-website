@@ -158,25 +158,6 @@
         "cost_price": 45000
       },
       {
-        "id": "p-1792043776777",
-        "name": "SLOT YOUTUBE PREMIUM + GOOGLE AI PRO 1 THÁNG BHF",
-        "price": 35000,
-        "stock": 1,
-        "stock_text": "Còn 1",
-        "duration": "1 Tháng",
-        "detail": "Gói SLOT YOUTUBE PREMIUM + GOOGLE AI PRO 1 THÁNG BHF bảo hành uy tín.",
-        "sources": {
-          "ntnshopre_bot": {
-            "stock": 1,
-            "cost_price": 25000,
-            "updated": "12:56 15/10/2026",
-            "selling_price": 35000
-          }
-        },
-        "hidden": false,
-        "cost_price": 25000
-      },
-      {
         "id": "vidiq-boost-1m",
         "name": "VidIQ Boost YouTube Advanced Tools 1M",
         "price": 165000,
@@ -205,64 +186,6 @@
         },
         "hidden": false,
         "cost_price": 170000
-      },
-      {
-        "id": "p-1792342693436",
-        "name": "Gmail Random ip 2020-2023 trial youtube",
-        "price": 60000,
-        "cost_price": 40000,
-        "stock": 51,
-        "stock_text": "Còn 51",
-        "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành",
-        "sources": {
-          "sieuthistore_bot": {
-            "stock": 17,
-            "cost_price": 50000,
-            "selling_price": 60000,
-            "updated": "23:58 18/10/2026"
-          },
-          "taphoathomap_bot": {
-            "stock": 17,
-            "cost_price": 40000,
-            "selling_price": 50000,
-            "updated": "23:58 18/10/2026"
-          },
-          "piggyai99_bot": {
-            "stock": 17,
-            "cost_price": 40000,
-            "selling_price": 50000,
-            "updated": "23:58 18/10/2026"
-          }
-        },
-        "hidden": false,
-        "needs_review": true
-      },
-      {
-        "id": "p-1792354871286",
-        "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
-        "price": 49000,
-        "cost_price": 36000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
-        "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|mkp|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
-        "sources": {
-          "sieuthistore_bot": {
-            "stock": 0,
-            "cost_price": 39000,
-            "selling_price": 49000,
-            "updated": "03:21 19/10/2026"
-          },
-          "taphoathomap_bot": {
-            "stock": 0,
-            "cost_price": 36000,
-            "selling_price": 46000,
-            "updated": "03:21 19/10/2026"
-          }
-        },
-        "hidden": false,
-        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=youtube.com&sz=64"
@@ -1968,6 +1891,25 @@
         },
         "hidden": false,
         "needs_review": true
+      },
+      {
+        "id": "p-1792043776777",
+        "name": "SLOT YOUTUBE PREMIUM + GOOGLE AI PRO 1 THÁNG BHF",
+        "price": 35000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Gói SLOT YOUTUBE PREMIUM + GOOGLE AI PRO 1 THÁNG BHF bảo hành uy tín.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 1,
+            "cost_price": 25000,
+            "updated": "12:56 15/10/2026",
+            "selling_price": 35000
+          }
+        },
+        "hidden": false,
+        "cost_price": 25000
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64"
@@ -4306,6 +4248,64 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "updated": "13:45 18/10/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": true
+      },
+      {
+        "id": "p-1792342693436",
+        "name": "Gmail Random ip 2020-2023 trial youtube",
+        "price": 60000,
+        "cost_price": 40000,
+        "stock": 51,
+        "stock_text": "Còn 51",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 17,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "23:58 18/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 17,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "23:58 18/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 17,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "23:58 18/10/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": true
+      },
+      {
+        "id": "p-1792354871286",
+        "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
+        "price": 49000,
+        "cost_price": 36000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|pass|mkp|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 0,
+            "cost_price": 39000,
+            "selling_price": 49000,
+            "updated": "03:21 19/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 0,
+            "cost_price": 36000,
+            "selling_price": 46000,
+            "updated": "03:21 19/10/2026"
           }
         },
         "hidden": false,
