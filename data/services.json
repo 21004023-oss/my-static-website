@@ -404,16 +404,16 @@
         "id": "p-1791854770760",
         "name": "ChatGPT Plus GGPay 30D BH 24H",
         "price": 240000,
-        "stock": 88,
-        "stock_text": "Còn 88",
+        "stock": 122,
+        "stock_text": "Còn 122",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 27,
+            "stock": 61,
             "cost_price": 190000,
             "selling_price": 210000,
-            "updated": "12:00 18/10/2026"
+            "updated": "02:39 19/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 61,
@@ -423,7 +423,7 @@
           }
         },
         "hidden": false,
-        "cost_price": 210000,
+        "cost_price": 190000,
         "needs_review": true
       },
       {
@@ -6417,6 +6417,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792352349793",
+      "time": "02:39 - 19/10/2026",
+      "timestamp": 1792352349793,
+      "name": "ChatGPT Plus GGPay 30D BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 61,
+      "addedQty": 10,
+      "price": 210000,
+      "stockAfter": 122,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:10📦Tồnkhohiệntại:61💰Giá:190.000đ"
+    },
+    {
       "id": "hist-1792352343524",
       "time": "02:39 - 19/10/2026",
       "timestamp": 1792352343524,
@@ -7801,20 +7815,6 @@
       "catKey": "gmail",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "⭐AppleID2FAGmail➕Thêm:11📦Tồnkhohiệntại:14💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792291943637",
-      "time": "09:52 - 18/10/2026",
-      "timestamp": 1792291943637,
-      "name": "Apple ID 2FA Gmail",
-      "bot": "taphoathomap_bot",
-      "shopStock": 14,
-      "addedQty": 11,
-      "price": 45000,
-      "stockAfter": 28,
-      "catKey": "gmail",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐AppleID2FAGmail➕Thêm:11📦Tồnkhohiệntại:14💰Giá:35.000đ"
     }
   ]
 }
