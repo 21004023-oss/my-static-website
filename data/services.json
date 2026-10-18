@@ -518,19 +518,20 @@
         "id": "p-1791918068696",
         "name": "ChatGPT có offer PLUS 0$  1 tháng - KBH",
         "price": 40000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
         "detail": "🎁 CHATGPT FREE – OFFER PLUS 0$ / 1 THÁNG\n📂 Format: Email | Pass | 2FA\n✅ Gmail 100% có Offer, không có liên hệ Admin đổi.\n🌍 Fake IP khu vực hỗ trợ trước khi đăng nhập ( VietNam, Trung Quốc , ... )\n🔐 Khách tự đổi Pass & 2FA.\n⚠️ LƯU Ý:\n- Acc FREE, chưa kích hoạt Plus.\n- Khách tự thêm phương thức thanh toán, KHÔNG BH thanh toán.\n- Không thấy Offer: thử đổi IP hoặc đăng nhập web trên điện thoại.\n- Không hoàn tiền nếu không đọc kỹ hướng dẫn, trừ lỗi Shop.\n📌 ĐỌC KỸ TRƯỚC KHI MUA!",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 20,
-            "cost_price": 30000,
-            "updated": "08:05 16/10/2026",
-            "selling_price": 40000
+            "stock": 3,
+            "cost_price": 20000,
+            "selling_price": 30000,
+            "updated": "20:52 18/10/2026"
           }
         },
-        "cost_price": 30000
+        "cost_price": 20000,
+        "needs_review": true
       },
       {
         "id": "p-1791922487996",
@@ -6344,6 +6345,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792331569529",
+      "time": "20:52 - 18/10/2026",
+      "timestamp": 1792331569529,
+      "name": "ChatGPT có offer PLUS 0$  1 tháng - KBH",
+      "bot": "taphoathomap_bot",
+      "shopStock": 3,
+      "addedQty": 3,
+      "price": 30000,
+      "stockAfter": 3,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTcóofferPLUS0$1tháng-KBH➕Thêm:3📦Tồnkhohiệntại:3💰Giá:20.000đ"
+    },
+    {
       "id": "hist-1792331143560",
       "time": "20:45 - 18/10/2026",
       "timestamp": 1792331143560,
@@ -7728,20 +7743,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:1📦Tồnkhohiệntại:72💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1792287011511",
-      "time": "08:30 - 18/10/2026",
-      "timestamp": 1792287011511,
-      "name": "Meitu Vip+ 7 Ngày  BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 11,
-      "addedQty": 0,
-      "price": 25000,
-      "stockAfter": 11,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "✨MeituVip+7NgàyBHF💰Giá:25k📦Tồnkho:11tàikhoản📊Đãbán:615tàikhoản💎Môtả:MeituSVIP(VI"
     }
   ]
 }
