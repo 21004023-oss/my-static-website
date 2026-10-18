@@ -434,6 +434,52 @@
     }
     .search-input:focus { border-color: var(--primary); }
 
+    /* FILTER PILLS */
+    .filter-pills { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .pill-btn {
+      background: var(--input-bg);
+      border: 1px solid var(--input-border);
+      color: var(--text-muted);
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+      user-select: none;
+    }
+    .pill-btn:hover {
+      border-color: var(--primary);
+      color: var(--text);
+    }
+    .pill-btn.active {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+      box-shadow: 0 2px 8px rgba(99, 102, 241, 0.35);
+    }
+    .pill-btn.pill-amber.active {
+      background: var(--amber);
+      border-color: var(--amber);
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(217, 119, 6, 0.35);
+    }
+    .pill-btn.pill-rose.active {
+      background: var(--rose);
+      border-color: var(--rose);
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(225, 29, 72, 0.35);
+    }
+    .pill-btn.pill-purple.active {
+      background: var(--purple);
+      border-color: var(--purple);
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(147, 51, 234, 0.35);
+    }
+
     /* TABLE */
     .custom-table { width: 100%; border-collapse: collapse; font-size: 13px; }
     .custom-table th {
@@ -864,35 +910,35 @@
 
   <!-- 2. KPI STATS CARDS -->
   <section class="stats-grid">
-    <div class="stat-card">
+    <div class="stat-card" style="cursor:pointer;" onclick="setStatusFilter('all')" title="Nhấp để xem toàn bộ sản phẩm">
       <div class="stat-info">
         <p>Tổng sản phẩm</p>
         <h3 id="statTotalPlans">0</h3>
       </div>
       <div class="stat-icon stat-blue">📦</div>
     </div>
-    <div class="stat-card">
+    <div class="stat-card" style="cursor:pointer;" onclick="setStatusFilter('visible')" title="Nhấp để lọc các gói Đang Bán (Hiện trên Web)">
       <div class="stat-info">
         <p>Đang bán (Hiện)</p>
         <h3 id="statInStock" style="color:var(--emerald);">0</h3>
       </div>
       <div class="stat-icon stat-green">✅</div>
     </div>
-    <div class="stat-card">
+    <div class="stat-card" style="cursor:pointer;" onclick="setStatusFilter('hidden')" title="Nhấp để lọc các gói Đang Tạm Ẩn">
       <div class="stat-info">
         <p>Đang tạm ẩn</p>
-        <h3 id="statHidden" style="color:var(--text-muted);">0</h3>
+        <h3 id="statHidden" style="color:var(--amber);">0</h3>
       </div>
       <div class="stat-icon stat-gray">🙈</div>
     </div>
-    <div class="stat-card">
+    <div class="stat-card" style="cursor:pointer;" onclick="setStatusFilter('outofstock')" title="Nhấp để lọc các gói Hết Hàng (Kho = 0)">
       <div class="stat-info">
         <p>Hết hàng (Kho = 0)</p>
         <h3 id="statOutStock" style="color:var(--rose);">0</h3>
       </div>
       <div class="stat-icon stat-red">⚠️</div>
     </div>
-    <div class="stat-card" style="cursor:pointer;" onclick="switchTab('audit')">
+    <div class="stat-card" style="cursor:pointer;" onclick="switchTab('audit')" title="Nhấp để mở Bộ Soát Lỗi Xung Đột Giá">
       <div class="stat-info">
         <p>Xung đột giá / Nghi vấn</p>
         <h3 id="statPriceAlerts" style="color:var(--rose);">0</h3>
@@ -931,17 +977,39 @@
       </aside>
 
       <section class="catalog-main">
-        <div class="table-toolbar">
-          <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
-            <h2 id="currentCategoryTitle" style="font-size:16px; font-weight:800;">Danh mục</h2>
-            <button class="btn btn-outline" style="padding:4px 8px; font-size:11px;" onclick="openEditCatModal()">✏️ Sửa mục</button>
-            <button class="btn btn-danger" style="padding:4px 8px; font-size:11px;" onclick="deleteCurrentCat()">🗑️ Xóa</button>
-            <button class="btn btn-purple" style="padding:4px 8px; font-size:11px;" onclick="autoCategorizeCurrentList()">⚡ Quét phân loại</button>
+        <div class="table-toolbar" style="flex-direction:column; align-items:stretch; gap:12px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+              <h2 id="currentCategoryTitle" style="font-size:16px; font-weight:800;">Danh mục</h2>
+              <button class="btn btn-outline" style="padding:4px 8px; font-size:11px;" onclick="openEditCatModal()">✏️ Sửa mục</button>
+              <button class="btn btn-danger" style="padding:4px 8px; font-size:11px;" onclick="deleteCurrentCat()">🗑️ Xóa</button>
+              <button class="btn btn-purple" style="padding:4px 8px; font-size:11px;" onclick="autoCategorizeCurrentList()">⚡ Quét phân loại</button>
+            </div>
+
+            <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+              <input type="text" id="filterInp" class="search-input" style="min-width:300px;" placeholder="🔍 Tìm kiếm toàn bộ kho (không cần chọn mục)..." oninput="renderTable()" />
+              <button class="btn btn-primary" onclick="openAddModal()">➕ Thêm Gói Mới</button>
+            </div>
           </div>
 
-          <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
-            <input type="text" id="filterInp" class="search-input" style="min-width:300px;" placeholder="🔍 Tìm kiếm toàn bộ kho (không cần chọn mục)..." oninput="renderTable()" />
-            <button class="btn btn-primary" onclick="openAddModal()">➕ Thêm Gói Mới</button>
+          <!-- THANH LỌC TRẠNG THÁI NHANH (TẤT CẢ / ĐANG HIỆN / ĐANG ẨN / HẾT HÀNG / CẦN DUYỆT) -->
+          <div class="filter-pills" style="padding-top:8px; border-top:1px dashed var(--card-border);">
+            <span style="font-size:12px; font-weight:700; color:var(--text-muted); margin-right:4px;">Lọc trạng thái:</span>
+            <button class="pill-btn active" id="pillFilter-all" onclick="setStatusFilter('all')">
+              🔘 Tất cả (<span id="pillCount-all">0</span>)
+            </button>
+            <button class="pill-btn" id="pillFilter-visible" onclick="setStatusFilter('visible')">
+              👁️ Đang hiện (<span id="pillCount-visible">0</span>)
+            </button>
+            <button class="pill-btn pill-amber" id="pillFilter-hidden" onclick="setStatusFilter('hidden')">
+              🙈 Đang tạm ẩn (<span id="pillCount-hidden">0</span>)
+            </button>
+            <button class="pill-btn pill-rose" id="pillFilter-outofstock" onclick="setStatusFilter('outofstock')">
+              ⚠️ Hết hàng (<span id="pillCount-outofstock">0</span>)
+            </button>
+            <button class="pill-btn pill-purple" id="pillFilter-needsreview" onclick="setStatusFilter('needsreview')">
+              🚨 Cần duyệt giá (<span id="pillCount-needsreview">0</span>)
+            </button>
           </div>
         </div>
 
@@ -1406,6 +1474,7 @@
     let editingCatKey = null;
     let draggedRowIndex = null;
     let draggedRowCat = null;
+    let currentStatusFilter = 'all';
 
     const CAT_KEYWORDS = {
       'youtube': /youtube|ytb/i,
@@ -1488,9 +1557,69 @@
       document.getElementById('statHidden').innerText = hiddenCount;
       document.getElementById('statOutStock').innerText = outStock;
 
+      // Cập nhật số đếm trên các nút lọc trạng thái
+      const pillAll = document.getElementById('pillCount-all');
+      if (pillAll) pillAll.innerText = total;
+      const pillVis = document.getElementById('pillCount-visible');
+      if (pillVis) pillVis.innerText = inStock;
+      const pillHid = document.getElementById('pillCount-hidden');
+      if (pillHid) pillHid.innerText = hiddenCount;
+      const pillOut = document.getElementById('pillCount-outofstock');
+      if (pillOut) pillOut.innerText = outStock;
+      const pillRev = document.getElementById('pillCount-needsreview');
+      if (pillRev) {
+        let revCount = 0;
+        for (const [k, v] of Object.entries(servicesData)) {
+          if (k === '_history') continue;
+          (v.plans || []).forEach(p => { if (p.needs_review) revCount++; });
+        }
+        pillRev.innerText = revCount;
+      }
+
       const historyCount = (servicesData._history || []).length;
       document.getElementById('badgeHistoryCount').innerText = historyCount;
       document.getElementById('badgeRecentCount').innerText = Math.min(historyCount, 15);
+    }
+
+    function setStatusFilter(filterType) {
+      currentStatusFilter = filterType;
+      document.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
+      const activePill = document.getElementById(`pillFilter-${filterType}`);
+      if (activePill) activePill.classList.add('active');
+
+      // Khi người dùng bấm lọc "Đã ẩn" hoặc "Hết hàng", tự động quét trên toàn bộ kho
+      if (filterType !== 'all') {
+        currentCat = 'all';
+      }
+
+      switchTab('catalog');
+      renderCategories();
+      renderTable();
+    }
+
+    async function quickRestockPlan(idx, catKey = currentCat) {
+      if (!catKey || !servicesData[catKey] || !servicesData[catKey].plans || !servicesData[catKey].plans[idx]) return;
+      const p = servicesData[catKey].plans[idx];
+      const val = prompt(`Nhập số lượng tồn kho mới cho gói:\n"${p.name}"\n\n(Gõ số, ví dụ: 10, hoặc gõ "vc" để đặt Vô Cực ∞):`, "10");
+      if (val !== null && val.trim() !== '') {
+        const clean = val.trim().toLowerCase();
+        if (clean === 'vc' || clean === 'vô cực' || clean === 'vo cuc' || clean === '-1' || clean === '∞') {
+          p.stock = -1;
+          p.stock_text = "Vô cực (∞)";
+        } else {
+          const num = parseInt(clean, 10);
+          if (isNaN(num) || num < 0) {
+            alert("Số lượng không hợp lệ!");
+            return;
+          }
+          p.stock = num;
+          p.stock_text = num === 0 ? "Hết hàng" : `Còn ${num}`;
+        }
+        renderTable();
+        updateStats();
+        showToast(`📦 Đã nạp kho gói "${p.name}": ${p.stock_text}`, 'success');
+        await saveDirectToGitHub(true, `✅ Đã cập nhật tồn kho "${p.name}" (${p.stock_text}) lên Website!`);
+      }
     }
 
     function renderCategories() {
@@ -1570,50 +1699,67 @@
       tbody.innerHTML = '';
 
       const query = (document.getElementById('filterInp').value || '').trim().toLowerCase();
-      const isGlobalSearch = (query.length > 0) || (currentCat === 'all');
+      const isGlobalSearch = (query.length > 0) || (currentCat === 'all') || (currentStatusFilter !== 'all');
       const titleEl = document.getElementById('currentCategoryTitle');
 
       let plansToRender = [];
+      const keys = isGlobalSearch ? Object.keys(servicesData).filter(k => k !== '_history') : [currentCat];
 
-      if (isGlobalSearch) {
-        // TÌM KIẾM TOÀN BỘ KHO HOẶC XEM TẤT CẢ DANH MỤC (KHÔNG CẦN CHỌN MỤC)
-        const keys = Object.keys(servicesData).filter(k => k !== '_history');
-        keys.forEach(k => {
-          const catPlans = servicesData[k].plans || [];
-          const catName = servicesData[k].name || k;
-          catPlans.forEach((p, idx) => {
-            if (query) {
-              const nameMatch = (p.name || '').toLowerCase().includes(query);
-              const detailMatch = (p.detail || '').toLowerCase().includes(query);
-              const catMatch = catName.toLowerCase().includes(query) || k.toLowerCase().includes(query);
-              if (!nameMatch && !detailMatch && !catMatch) return;
-            }
-            plansToRender.push({ plan: p, idx, catKey: k, catName });
-          });
+      keys.forEach(k => {
+        if (!servicesData[k] || !servicesData[k].plans) return;
+        const catPlans = servicesData[k].plans || [];
+        const catName = servicesData[k].name || k;
+
+        catPlans.forEach((p, idx) => {
+          // LỌC THEO TRẠNG THÁI (STATUS FILTER)
+          if (currentStatusFilter === 'hidden' && !p.hidden) return;
+          if (currentStatusFilter === 'visible' && p.hidden) return;
+          if (currentStatusFilter === 'outofstock' && p.stock !== 0) return;
+          if (currentStatusFilter === 'needsreview' && !p.needs_review) return;
+
+          // LỌC THEO TỪ KHÓA TÌM KIẾM
+          if (query) {
+            const nameMatch = (p.name || '').toLowerCase().includes(query);
+            const detailMatch = (p.detail || '').toLowerCase().includes(query);
+            const catMatch = catName.toLowerCase().includes(query) || k.toLowerCase().includes(query);
+            if (!nameMatch && !detailMatch && !catMatch) return;
+          }
+
+          plansToRender.push({ plan: p, idx, catKey: k, catName });
         });
+      });
 
-        if (query) {
-          titleEl.innerHTML = `🔍 Kết quả tìm kiếm: <span style="color:var(--primary); font-weight:800;">"${document.getElementById('filterInp').value.trim()}"</span> <span style="font-size:12px; font-weight:normal; color:var(--text-muted); margin-left:6px;">(${plansToRender.length} gói tìm thấy)</span> <button class="btn btn-outline" style="font-size:11px; padding:2px 8px; margin-left:8px;" onclick="clearGlobalSearch()">✕ Xóa lọc</button>`;
-        } else {
-          titleEl.innerHTML = `🌟 Toàn bộ sản phẩm trong kho <span style="font-size:12px; font-weight:normal; color:var(--text-muted); margin-left:6px;">(${plansToRender.length} gói)</span>`;
-        }
+      // HIỂN THỊ TIÊU ĐỀ BỘ LỌC TRÊN TOOLBAR
+      let statusLabel = '';
+      if (currentStatusFilter === 'hidden') statusLabel = '🙈 ĐANG TẠM ẨN';
+      else if (currentStatusFilter === 'visible') statusLabel = '👁️ ĐANG HIỂN THỊ';
+      else if (currentStatusFilter === 'outofstock') statusLabel = '⚠️ HẾT HÀNG (KHO = 0)';
+      else if (currentStatusFilter === 'needsreview') statusLabel = '🚨 CẦN DUYỆT GIÁ';
+
+      if (query || currentStatusFilter !== 'all' || currentCat === 'all') {
+        let parts = [];
+        if (statusLabel) parts.push(`<span style="color:var(--primary); font-weight:800;">${statusLabel}</span>`);
+        if (query) parts.push(`Từ khóa: <span style="color:var(--primary); font-weight:800;">"${document.getElementById('filterInp').value.trim()}"</span>`);
+        
+        const filterDesc = parts.join(' • ') || '🌟 Toàn bộ kho hàng';
+        titleEl.innerHTML = `${filterDesc} <span style="font-size:12px; font-weight:normal; color:var(--text-muted); margin-left:6px;">(${plansToRender.length} gói)</span> <button class="btn btn-outline" style="font-size:11px; padding:2px 8px; margin-left:8px;" onclick="clearGlobalSearch()">✕ Xóa lọc</button>`;
       } else {
-        if (!currentCat || !servicesData[currentCat]) return;
-        titleEl.innerText = servicesData[currentCat].name || currentCat;
-        const plans = servicesData[currentCat].plans || [];
-        const catName = servicesData[currentCat].name || currentCat;
-        plans.forEach((p, idx) => {
-          plansToRender.push({ plan: p, idx, catKey: currentCat, catName });
-        });
+        titleEl.innerText = (servicesData[currentCat] && servicesData[currentCat].name) ? servicesData[currentCat].name : currentCat;
       }
 
       if (plansToRender.length === 0) {
+        let emptyMsg = "Không tìm thấy sản phẩm nào";
+        if (currentStatusFilter === 'hidden') emptyMsg = "Tuyệt vời! Hiện không có sản phẩm nào bị tạm ẩn.";
+        else if (currentStatusFilter === 'outofstock') emptyMsg = "Tuyệt vời! Toàn bộ kho đều còn hàng, không có sản phẩm nào kho = 0.";
+        else if (currentStatusFilter === 'needsreview') emptyMsg = "Không có sản phẩm nào bị xung đột giá cần duyệt.";
+        else if (query) emptyMsg = `Không tìm thấy sản phẩm nào phù hợp với "<strong>${query}</strong>"`;
+
         tbody.innerHTML = `
           <tr>
             <td colspan="7" style="text-align:center; padding:40px; color:var(--text-muted);">
-              <div style="font-size:24px; margin-bottom:8px;">🔍</div>
-              <div>Không tìm thấy sản phẩm nào${query ? ` phù hợp với "<strong>${query}</strong>"` : ''}.</div>
-              ${query ? `<button class="btn btn-outline" style="margin-top:12px; font-size:12px;" onclick="clearGlobalSearch()">Xem lại tất cả sản phẩm</button>` : ''}
+              <div style="font-size:26px; margin-bottom:8px;">${currentStatusFilter === 'hidden' ? '🙈' : (currentStatusFilter === 'outofstock' ? '🎉' : '🔍')}</div>
+              <div style="font-size:14px; color:var(--text);">${emptyMsg}</div>
+              <button class="btn btn-outline" style="margin-top:14px; font-size:12px;" onclick="clearGlobalSearch()">Xem lại tất cả sản phẩm</button>
             </td>
           </tr>
         `;
@@ -1627,7 +1773,7 @@
         tr.id = `plan-row-${catKey}-${idx}`;
         if (isHidden) tr.classList.add('row-hidden');
 
-        if (!query && currentCat !== 'all') {
+        if (!query && currentCat !== 'all' && currentStatusFilter === 'all') {
           tr.draggable = true;
           tr.ondragstart = () => { draggedRowIndex = idx; draggedRowCat = currentCat; tr.classList.add('row-dragging'); };
           tr.ondragend = () => { draggedRowIndex = null; tr.classList.remove('row-dragging'); };
@@ -1637,22 +1783,30 @@
 
         let stockBadge = '<span class="badge badge-in">Còn ' + p.stock + '</span>';
         if (p.stock === -1 || p.stock === '∞') stockBadge = '<span class="badge badge-in">Vô cực (∞)</span>';
-        else if (p.stock === 0) stockBadge = '<span class="badge badge-out">Hết hàng</span>';
+        else if (p.stock === 0) {
+          stockBadge = `
+            <div style="display:flex; flex-direction:column; gap:3px;">
+              <span class="badge badge-out">Hết hàng</span>
+              <button class="btn btn-outline" style="padding:2px 6px; font-size:10px; border-color:var(--rose); color:var(--rose);" onclick="quickRestockPlan(${idx}, '${catKey}')" title="Nhấp để nạp lại số lượng tồn kho">+ Nạp kho</button>
+            </div>
+          `;
+        }
 
         const eyeBtn = isHidden ?
-          `<button class="btn-toggle-eye is-hidden" onclick="togglePlanVisibility(${idx}, '${catKey}')">🙈 Đã ẩn</button>` :
-          `<button class="btn-toggle-eye" onclick="togglePlanVisibility(${idx}, '${catKey}')">👁️ Đang hiện</button>`;
+          `<button class="btn-toggle-eye is-hidden" onclick="togglePlanVisibility(${idx}, '${catKey}')" title="Nhấp để hiển thị lại gói này lên Website">🙈 Đã ẩn (Hiện lại)</button>` :
+          `<button class="btn-toggle-eye" onclick="togglePlanVisibility(${idx}, '${catKey}')" title="Nhấp để tạm ẩn gói này khỏi Website">👁️ Đang hiện</button>`;
 
         const catBadgeHtml = isGlobalSearch ?
           `<span class="badge badge-source" style="margin-left:6px; background:rgba(99,102,241,0.15); color:var(--primary); font-size:10.5px; cursor:pointer;" onclick="selectCategoryDirectly('${catKey}')" title="Bấm để lọc riêng danh mục này">📁 ${catName}</span>` : '';
 
         tr.innerHTML = `
-          <td style="text-align:center; cursor:${query ? 'default' : 'grab'}; color:var(--text-muted);">${query ? '•' : '⠿'}</td>
+          <td style="text-align:center; cursor:${(query || isGlobalSearch) ? 'default' : 'grab'}; color:var(--text-muted);">${(query || isGlobalSearch) ? '•' : '⠿'}</td>
           <td>
             <div style="font-weight:700; color:var(--text); display:flex; align-items:center; flex-wrap:wrap; gap:4px;">
               <span>${p.name}</span>
               ${catBadgeHtml}
-              ${isHidden ? '<span style="font-size:11px; color:var(--text-muted); font-weight:normal;">(Tạm ẩn)</span>' : ''}
+              ${isHidden ? '<span class="badge badge-warning" style="font-size:10.5px;">🙈 Tạm ẩn</span>' : ''}
+              ${p.needs_review ? '<span class="badge badge-out" style="font-size:10.5px;">🚨 Cần duyệt giá</span>' : ''}
             </div>
             <div style="font-size:11.5px; color:var(--text-muted); margin-top:3px; max-width:380px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
               ${p.detail || 'Chưa có mô tả chi tiết'}
@@ -1687,6 +1841,11 @@
 
     function clearGlobalSearch() {
       document.getElementById('filterInp').value = '';
+      currentStatusFilter = 'all';
+      document.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
+      const allPill = document.getElementById('pillFilter-all');
+      if (allPill) allPill.classList.add('active');
+
       if (currentCat === 'all') currentCat = Object.keys(servicesData).filter(k => k !== '_history')[0];
       renderCategories();
       renderTable();
@@ -1695,6 +1854,10 @@
     function selectCategoryDirectly(catKey) {
       currentCat = catKey;
       document.getElementById('filterInp').value = '';
+      currentStatusFilter = 'all';
+      document.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
+      const allPill = document.getElementById('pillFilter-all');
+      if (allPill) allPill.classList.add('active');
       renderCategories();
       renderTable();
     }
