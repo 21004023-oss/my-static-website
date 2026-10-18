@@ -1871,6 +1871,25 @@
         "hidden": true,
         "needs_review": true,
         "cost_price": 40000
+      },
+      {
+        "id": "p-1792332432148",
+        "name": "NÂNG CẤP GEMINI PRO + GOOGLE ONE 5TB 18 THÁNG BẢO HÀNH 1 THÁNG",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 16,
+        "stock_text": "Còn 16",
+        "duration": "1 Tháng",
+        "detail": "Gói NÂNG CẤP GEMINI PRO + GOOGLE ONE 5TB 18 THÁNG BẢO HÀNH 1 THÁNG bảo hành uy tín.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 16,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "21:07 18/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64"
@@ -6353,6 +6372,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792332432148",
+      "time": "21:07 - 18/10/2026",
+      "timestamp": 1792332432148,
+      "name": "NÂNG CẤP GEMINI PRO + GOOGLE ONE 5TB 18 THÁNG BẢO HÀNH 1 THÁNG",
+      "bot": "ntnshopre_bot",
+      "shopStock": 16,
+      "addedQty": 0,
+      "price": 45000,
+      "stockAfter": 16,
+      "catKey": "google-veo",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "☁️NÂNGCẤPGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH1THÁNG💰Giá:35k📦Tồnkho:16tàikhoản📊Đã"
+    },
+    {
       "id": "hist-1792332101841",
       "time": "21:01 - 18/10/2026",
       "timestamp": 1792332101841,
@@ -7737,20 +7770,6 @@
       "catKey": "kling",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬Kling1kcredits1thángBH24H➕Thêm:2📦Tồnkhohiệntại:5💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1792288730047",
-      "time": "08:58 - 18/10/2026",
-      "timestamp": 1792288730047,
-      "name": "Kling 1k  credits 1 tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 5,
-      "addedQty": 0,
-      "price": 180000,
-      "stockAfter": 5,
-      "catKey": "kling",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬Kling1kcredits1thángBH24H💰Giá:180k📦Tồnkho:5tàikhoản📊Đãbán:31tàikhoản"
     }
   ]
 }
