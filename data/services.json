@@ -3681,20 +3681,21 @@
         "id": "p-1792043489127",
         "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
         "price": 33000,
-        "stock": 46,
-        "stock_text": "Còn 46",
+        "stock": 53,
+        "stock_text": "Còn 53",
         "duration": "6 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2fa | Passkey\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL TRIAL RANDOM IP  DATE  6 THÁNG\n- Lấy mã Google Authentic / 2fa ở 2fa.live",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 46,
+            "stock": 53,
             "cost_price": 23000,
-            "updated": "14:11 15/10/2026",
-            "selling_price": 33000
+            "selling_price": 33000,
+            "updated": "20:16 18/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 23000
+        "cost_price": 23000,
+        "needs_review": true
       },
       {
         "id": "p-1792058056145",
@@ -6324,6 +6325,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792329398818",
+      "time": "20:16 - 18/10/2026",
+      "timestamp": 1792329398818,
+      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
+      "bot": "ntnshopre_bot",
+      "shopStock": 53,
+      "addedQty": 53,
+      "price": 33000,
+      "stockAfter": 53,
+      "catKey": "gmail",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:53📦Tồnkhohiệntại:53💰Giá:23.000đ"
+    },
+    {
       "id": "hist-1792318665494",
       "time": "17:17 - 18/10/2026",
       "timestamp": 1792318665494,
@@ -7708,20 +7723,6 @@
       "catKey": "kling",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬KLING792-992cre1tháng(BH24h)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:125.000đ"
-    },
-    {
-      "id": "hist-1792281084413",
-      "time": "06:51 - 18/10/2026",
-      "timestamp": 1792281084413,
-      "name": "Kling 790-1k Credit 1 tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 1,
-      "addedQty": 1,
-      "price": 180000,
-      "stockAfter": 1,
-      "catKey": "kling",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🎬Kling790-1kCredit1thángBH1Ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:180.000đ"
     }
   ]
 }
