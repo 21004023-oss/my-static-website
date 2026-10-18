@@ -6461,9 +6461,9 @@
         "id": "p-1792359006626",
         "name": "Key Windows 10/11 Pro Retail Online Vĩnh viễn BH 7 ngày",
         "price": 110000,
-        "cost_price": 100000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "cost_price": 89000,
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Tháng",
         "detail": "Định Dạng Key: XXXXX-XXXXX-XXXXX-XXXXX\nBảo hành 7 ngày\nNhập trực tiếp vào thiết bị là xong\nSử dụng vĩnh viễn, nhưng nếu cài lại Windows thì khoảng 10% khả năng mất bản quyền\nLink tải: https://www.microsoft.com/en-us/software-download/windows11\nKHÁCH ĐANG Ở BẢN HOME: Đầu tiên, nhập key mẫu dưới đây để nâng cấp TỪ BẢN HOME lên bản Pro:\nXPN43-XP7KQ-KMH2P-Q3P93-2WF9G\nSau khi nâng cấp xong, nhập key bạn đã mua trong đơn hàng để kích hoạt là hoàn tất.",
         "sources": {
@@ -6472,9 +6472,16 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "updated": "04:30 19/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 8,
+            "cost_price": 89000,
+            "selling_price": 99000,
+            "updated": "04:30 19/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       },
       {
         "id": "p-1792359012362",
@@ -6499,6 +6506,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792359016923",
+      "time": "04:30 - 19/10/2026",
+      "timestamp": 1792359016923,
+      "name": "Key Windows 10/11 Pro Retail Online Vĩnh viễn BH 7 ngày",
+      "bot": "taphoathomap_bot",
+      "shopStock": 8,
+      "addedQty": 7,
+      "price": 99000,
+      "stockAfter": 16,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐KeyWindows10/11ProRetailOnlineVĩnhviễnBH7ngày➕Thêm:7📦Tồnkhohiệntại:8💰Giá:89.000"
+    },
     {
       "id": "hist-1792359012366",
       "time": "04:30 - 19/10/2026",
@@ -7884,20 +7905,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🚚ExpressVPN12ThángKBH💰Giá:65k📦Tồnkho:14tàikhoản📊Đãbán:25tàikhoản💎Môtả:địnhdạngma"
-    },
-    {
-      "id": "hist-1792295763659",
-      "time": "10:56 - 18/10/2026",
-      "timestamp": 1792295763659,
-      "name": "EXPRESS VPN 12 THÁNG BẢO HÀNH LOGIN",
-      "bot": "ntnshopre_bot",
-      "shopStock": 14,
-      "addedQty": 0,
-      "price": 145000,
-      "stockAfter": 14,
-      "catKey": "khac",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🚚EXPRESSVPN12THÁNGBẢOHÀNHLOGIN💰Giá:125k📦Tồnkho:14tàikhoản📊Đãbán:25tàikhoản💎Môtả:"
     }
   ]
 }
