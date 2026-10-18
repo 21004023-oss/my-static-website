@@ -1165,7 +1165,7 @@
       {
         "id": "p-1792287862880",
         "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
-        "price": 2000,
+        "price": 12000,
         "stock": 181,
         "stock_text": "Còn 181",
         "duration": "1 Tháng",
@@ -1174,10 +1174,13 @@
           "taphoathomap_bot": {
             "stock": 181,
             "cost_price": 2000,
-            "updated": "08:44 18/10/2026"
+            "selling_price": 12000,
+            "updated": "09:25 18/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "cost_price": 2000,
+        "needs_review": true
       },
       {
         "id": "p-1792289373179",
@@ -5359,6 +5362,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792290342383",
+      "time": "09:25 - 18/10/2026",
+      "timestamp": 1792290342383,
+      "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
+      "bot": "taphoathomap_bot",
+      "shopStock": 181,
+      "addedQty": 0,
+      "price": 12000,
+      "stockAfter": 181,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH💰Giá:2k📦Tồnkho:181tàikhoản📊Đãbán:1.894tàikhoản💎Môtả:🔐"
+    },
+    {
       "id": "hist-1792290335943",
       "time": "09:25 - 18/10/2026",
       "timestamp": 1792290335943,
@@ -6743,20 +6760,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎨AdobeAllApps7DBH12H(góichínhhãng)➕Thêm:3📦Tồnkhohiệntại:4💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1792232667999",
-      "time": "17:24 - 17/10/2026",
-      "timestamp": 1792232667999,
-      "name": "Adobe All Apps 7D BH 12H",
-      "bot": "piggyai99_bot",
-      "shopStock": 4,
-      "addedQty": 3,
-      "price": 65000,
-      "stockAfter": 4,
-      "catKey": "khac",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🎨AdobeAllApps7DBH12H➕Thêm:3📦Tồnkhohiệntại:4💰Giá:65.000đ"
     }
   ],
   "bot-tele": {
