@@ -3925,9 +3925,9 @@
         "id": "p-1792291938667",
         "name": "Apple ID 2FA Gmail",
         "price": 59000,
-        "cost_price": 49000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "cost_price": 35000,
+        "stock": 28,
+        "stock_text": "Còn 28",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.",
         "sources": {
@@ -3936,9 +3936,16 @@
             "cost_price": 49000,
             "selling_price": 59000,
             "updated": "09:52 18/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 14,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "09:52 18/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ]
   },
@@ -5964,6 +5971,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792291943637",
+      "time": "09:52 - 18/10/2026",
+      "timestamp": 1792291943637,
+      "name": "Apple ID 2FA Gmail",
+      "bot": "taphoathomap_bot",
+      "shopStock": 14,
+      "addedQty": 11,
+      "price": 45000,
+      "stockAfter": 28,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:11📦Tồnkhohiệntại:14💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792291938667",
       "time": "09:52 - 18/10/2026",
       "timestamp": 1792291938667,
@@ -7348,20 +7369,6 @@
       "catKey": "google-veo",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🚀SlotVeo3UltraChung750KCredits1thángBHF💰Giá:5000k📦Tồnkho:∞tàikhoản📊Đãbán:0tàikho"
-    },
-    {
-      "id": "hist-1792233515898",
-      "time": "17:38 - 17/10/2026",
-      "timestamp": 1792233515898,
-      "name": "Slot Veo3 Ultra Chung 750K Credits 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 1,
-      "addedQty": 1,
-      "price": 5000000,
-      "stockAfter": 1,
-      "catKey": "google-veo",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🚀SlotVeo3UltraChung750KCredits1thángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:5.000.000đ"
     }
   ],
   "bot-tele": {
