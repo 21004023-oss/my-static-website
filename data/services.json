@@ -5862,6 +5862,25 @@
         "hidden": false,
         "needs_review": true,
         "cost_price": 40000
+      },
+      {
+        "id": "p-1792295327091",
+        "name": "Express VPN 12 Tháng KBH",
+        "price": 140000,
+        "cost_price": 120000,
+        "stock": 14,
+        "stock_text": "Còn 14",
+        "duration": "1 Năm",
+        "detail": "Gói Express VPN 12 Tháng KBH bảo hành uy tín.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 14,
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "10:48 18/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -5976,6 +5995,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792295327091",
+      "time": "10:48 - 18/10/2026",
+      "timestamp": 1792295327091,
+      "name": "Express VPN 12 Tháng KBH",
+      "bot": "sieuthistore_bot",
+      "shopStock": 14,
+      "addedQty": 14,
+      "price": 140000,
+      "stockAfter": 14,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🚚ExpressVPN12ThángKBH➕Thêm:14📦Tồnkhohiệntại:14💰Giá:120.000đ"
+    },
     {
       "id": "hist-1792291948227",
       "time": "09:52 - 18/10/2026",
@@ -7361,20 +7394,6 @@
       "catKey": "capcut",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "✂️CAPCUTTEAM6THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:290.000đ"
-    },
-    {
-      "id": "hist-1792234724236",
-      "time": "17:58 - 17/10/2026",
-      "timestamp": 1792234724236,
-      "name": "Capcut Pro Team 6 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 3,
-      "addedQty": 2,
-      "price": 340000,
-      "stockAfter": 3,
-      "catKey": "capcut",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✂️CapcutProTeam6ThángBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:340.000đ"
     }
   ],
   "bot-tele": {
