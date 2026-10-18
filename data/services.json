@@ -6318,9 +6318,16 @@
             "stock": 0,
             "cost_price": 0,
             "updated": "16:46 17/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "21:01 18/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "cost_price": 0
       },
       {
         "id": "p-1792318665494",
@@ -6345,6 +6352,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792332101841",
+      "time": "21:01 - 18/10/2026",
+      "timestamp": 1792332101841,
+      "name": "Thông báo từ Admin:",
+      "bot": "taphoathomap_bot",
+      "shopStock": 0,
+      "addedQty": 0,
+      "price": 0,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📣ThôngbáotừAdmin:📢THÔNGBÁOTỪADMIN✅BOTĐÃHOẠTĐỘNGTRỞLẠI!🐰🎉ShopđangSALEmộtsốsảnphẩm"
+    },
     {
       "id": "hist-1792331645033",
       "time": "20:54 - 18/10/2026",
@@ -7730,20 +7751,6 @@
       "catKey": "kling",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬Kling1kcredits1thángBH24H💰Giá:180k📦Tồnkho:5tàikhoản📊Đãbán:31tàikhoản"
-    },
-    {
-      "id": "hist-1792287862880",
-      "time": "08:44 - 18/10/2026",
-      "timestamp": 1792287862880,
-      "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
-      "bot": "taphoathomap_bot",
-      "shopStock": 181,
-      "addedQty": 175,
-      "price": 2000,
-      "stockAfter": 181,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH➕Thêm:175📦Tồnkhohiệntại:181💰Giá:2.000đ"
     }
   ]
 }
