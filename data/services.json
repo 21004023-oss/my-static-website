@@ -4976,9 +4976,9 @@
         "id": "p-1792307363682",
         "name": "Express VPN 3 Ngày BHF",
         "price": 35000,
-        "cost_price": 25000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "cost_price": 15000,
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/",
         "sources": {
@@ -4987,9 +4987,16 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "updated": "14:09 18/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "14:09 18/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ]
   },
@@ -6245,6 +6252,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792307368283",
+      "time": "14:09 - 18/10/2026",
+      "timestamp": 1792307368283,
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 6,
+      "addedQty": 6,
+      "price": 25000,
+      "stockAfter": 12,
+      "catKey": "vpn",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:15.000đ"
+    },
     {
       "id": "hist-1792307363682",
       "time": "14:09 - 18/10/2026",
@@ -7630,20 +7651,6 @@
       "catKey": "khac",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:6💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792259317120",
-      "time": "00:48 - 18/10/2026",
-      "timestamp": 1792259317120,
-      "name": "ChatGPT Ver Students chính chủ  Plus 4 Tháng KBH",
-      "bot": "piggyai99_bot",
-      "shopStock": 34,
-      "addedQty": 2,
-      "price": 360000,
-      "stockAfter": 34,
-      "catKey": "chatgpt",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🤖ChatGPTVerStudentschínhchủPlus4ThángKBH➕Thêm:2📦Tồnkhohiệntại:34💰Giá:360.000đ"
     }
   ]
 }
