@@ -4092,8 +4092,8 @@
         "id": "p-1791925962704",
         "name": "MEITU VIP+ 1 THÁNG BHF",
         "price": 90000,
-        "stock": 43,
-        "stock_text": "Còn 43",
+        "stock": 77,
+        "stock_text": "Còn 77",
         "duration": "1 Tháng",
         "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.",
         "sources": {
@@ -4108,9 +4108,15 @@
             "cost_price": 80000,
             "selling_price": 90000,
             "updated": "11:40 18/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 34,
+            "cost_price": 70000,
+            "selling_price": 80000,
+            "updated": "11:40 18/10/2026"
           }
         },
-        "cost_price": 80000,
+        "cost_price": 70000,
         "needs_review": true
       },
       {
@@ -6033,6 +6039,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792298451135",
+      "time": "11:40 - 18/10/2026",
+      "timestamp": 1792298451135,
+      "name": "Meitu Vip+ 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 34,
+      "addedQty": 24,
+      "price": 80000,
+      "stockAfter": 77,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✨MeituVip+1ThángBHF➕Thêm:24📦Tồnkhohiệntại:34💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1792298446341",
       "time": "11:40 - 18/10/2026",
       "timestamp": 1792298446341,
@@ -7417,20 +7437,6 @@
       "catKey": "capcut",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:5📦Tồnkhohiệntại:4💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1792240819868",
-      "time": "19:40 - 17/10/2026",
-      "timestamp": 1792240819868,
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 20 DAYS",
-      "bot": "ntnshopre_bot",
-      "shopStock": 10,
-      "addedQty": 10,
-      "price": 239999,
-      "stockAfter": 10,
-      "catKey": "chatgpt",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH20DAYS➕Thêm:10📦Tồnkhohiệntại:10💰Giá:239.999đ"
     }
   ],
   "bot-tele": {
