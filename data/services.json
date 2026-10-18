@@ -403,9 +403,9 @@
       {
         "id": "p-1791854770760",
         "name": "ChatGPT Plus GGPay 30D BH 24H",
-        "price": 210000,
-        "stock": 54,
-        "stock_text": "Còn 54",
+        "price": 240000,
+        "stock": 88,
+        "stock_text": "Còn 88",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
         "sources": {
@@ -416,14 +416,14 @@
             "updated": "12:00 18/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 27,
+            "stock": 61,
             "cost_price": 210000,
             "selling_price": 240000,
-            "updated": "12:00 18/10/2026"
+            "updated": "02:39 19/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 190000,
+        "cost_price": 210000,
         "needs_review": true
       },
       {
@@ -6417,6 +6417,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792352343524",
+      "time": "02:39 - 19/10/2026",
+      "timestamp": 1792352343524,
+      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 61,
+      "addedQty": 10,
+      "price": 240000,
+      "stockAfter": 88,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:10📦Tồnkhohiệntại:61💰Giá:210.000đ"
+    },
+    {
       "id": "hist-1792348737344",
       "time": "01:38 - 19/10/2026",
       "timestamp": 1792348737344,
@@ -7801,20 +7815,6 @@
       "catKey": "gmail",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐AppleID2FAGmail➕Thêm:11📦Tồnkhohiệntại:14💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792291938667",
-      "time": "09:52 - 18/10/2026",
-      "timestamp": 1792291938667,
-      "name": "Apple ID 2FA Gmail",
-      "bot": "sieuthistore_bot",
-      "shopStock": 14,
-      "addedQty": 11,
-      "price": 59000,
-      "stockAfter": 14,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐AppleID2FAGmail➕Thêm:11📦Tồnkhohiệntại:14💰Giá:49.000đ"
     }
   ]
 }
