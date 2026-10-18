@@ -2888,16 +2888,22 @@
         "id": "p-1791927829837",
         "name": "Redeem Notion Business 3 tháng BHF",
         "price": 240000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "3 Tháng",
         "detail": "-Code nhận gói Notion Business,không phải slot Team\n-Định dạng: Link nhận gói\n-Hạn gói: 3 tháng\n-Bảo hành: 3 tháng\n-Lưu Ý: Code chỉ áp dụng cho Work Space chưa nâng lần nào và gói chỉ áp dụng được cho 1 thành viên.",
-        "cost_price": 210000,
+        "cost_price": 190000,
         "sources": {
           "sieuthistore_bot": {
             "stock": 6,
             "cost_price": 210000,
             "selling_price": 240000,
+            "updated": "12:41 18/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 190000,
+            "selling_price": 210000,
             "updated": "12:41 18/10/2026"
           }
         },
@@ -6089,6 +6095,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792302118210",
+      "time": "12:41 - 18/10/2026",
+      "timestamp": 1792302118210,
+      "name": "Redeem Notion Business 3 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 6,
+      "addedQty": 5,
+      "price": 210000,
+      "stockAfter": 12,
+      "catKey": "notion",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐RedeemNotionBusiness3thángBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:190.000đ"
+    },
+    {
       "id": "hist-1792302114345",
       "time": "12:41 - 18/10/2026",
       "timestamp": 1792302114345,
@@ -7473,20 +7493,6 @@
       "catKey": "gmail",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📧GMAILCỔDATE201X-2022➕Thêm:1📦Tồnkhohiệntại:75💰Giá:39.000đ"
-    },
-    {
-      "id": "hist-1792247511571",
-      "time": "21:31 - 17/10/2026",
-      "timestamp": 1792247511571,
-      "name": "GMAIL CỔ DATE 201X- 2022",
-      "bot": "sieuthistore_bot",
-      "shopStock": 75,
-      "addedQty": 1,
-      "price": 45000,
-      "stockAfter": 150,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧GMAILCỔDATE201X-2022➕Thêm:1📦Tồnkhohiệntại:75💰Giá:45.000đ"
     }
   ],
   "bot-tele": {
