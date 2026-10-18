@@ -3924,10 +3924,10 @@
       {
         "id": "p-1792291938667",
         "name": "Apple ID 2FA Gmail",
-        "price": 59000,
-        "cost_price": 35000,
-        "stock": 28,
-        "stock_text": "Còn 28",
+        "price": 60000,
+        "cost_price": 50000,
+        "stock": 42,
+        "stock_text": "Còn 42",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.",
         "sources": {
@@ -3941,6 +3941,12 @@
             "stock": 14,
             "cost_price": 35000,
             "selling_price": 45000,
+            "updated": "09:52 18/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 14,
+            "cost_price": 50000,
+            "selling_price": 60000,
             "updated": "09:52 18/10/2026"
           }
         },
@@ -5971,6 +5977,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792291948227",
+      "time": "09:52 - 18/10/2026",
+      "timestamp": 1792291948227,
+      "name": "Apple ID 2FA Gmail",
+      "bot": "piggyai99_bot",
+      "shopStock": 14,
+      "addedQty": 11,
+      "price": 60000,
+      "stockAfter": 42,
+      "catKey": "gmail",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:11📦Tồnkhohiệntại:14💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1792291943637",
       "time": "09:52 - 18/10/2026",
       "timestamp": 1792291943637,
@@ -7355,20 +7375,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapcutProTeam6ThángBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:340.000đ"
-    },
-    {
-      "id": "hist-1792233521744",
-      "time": "17:38 - 17/10/2026",
-      "timestamp": 1792233521744,
-      "name": "Slot Veo3 Ultra Chung 750K Credits 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": -1,
-      "addedQty": 0,
-      "price": 5000000,
-      "stockAfter": -1,
-      "catKey": "google-veo",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🚀SlotVeo3UltraChung750KCredits1thángBHF💰Giá:5000k📦Tồnkho:∞tàikhoản📊Đãbán:0tàikho"
     }
   ],
   "bot-tele": {
