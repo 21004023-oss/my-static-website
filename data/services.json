@@ -2155,8 +2155,8 @@
         "id": "p-1792119807992",
         "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
         "price": 75000,
-        "stock": 28,
-        "stock_text": "Còn 28",
+        "stock": 24,
+        "stock_text": "Còn 24",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
@@ -2167,15 +2167,15 @@
             "selling_price": 75000
           },
           "taphoathomap_bot": {
-            "stock": 14,
+            "stock": 10,
             "cost_price": 40000,
-            "updated": "23:21 17/10/2026",
-            "selling_price": 50000
+            "selling_price": 50000,
+            "updated": "23:04 18/10/2026"
           }
         },
         "hidden": true,
         "needs_review": true,
-        "cost_price": 65000
+        "cost_price": 40000
       },
       {
         "id": "p-1792125293833",
@@ -6393,6 +6393,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792339456458",
+      "time": "23:04 - 18/10/2026",
+      "timestamp": 1792339456458,
+      "name": "CAPCUT PRO CÁ NHÂN 30 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 10,
+      "addedQty": 10,
+      "price": 50000,
+      "stockAfter": 24,
+      "catKey": "capcut",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1792338948740",
       "time": "22:55 - 18/10/2026",
       "timestamp": 1792338948740,
@@ -7777,20 +7791,6 @@
       "catKey": "kling",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🎬KLING792-992cre1tháng(BH24h)💰Giá:150k📦Tồnkho:1tàikhoản📊Đãbán:331tàikhoản💎Môtả:A"
-    },
-    {
-      "id": "hist-1792290313153",
-      "time": "09:25 - 18/10/2026",
-      "timestamp": 1792290313153,
-      "name": "CAPCUT PRO CÁ NHÂN 3 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 5,
-      "addedQty": 0,
-      "price": 150000,
-      "stockAfter": 5,
-      "catKey": "capcut",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN3THÁNGBHF💰Giá:130k📦Tồnkho:5tàikhoản📊Đãbán:11tàikhoản💎Môtả:GóiPr"
     }
   ]
 }
