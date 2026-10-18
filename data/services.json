@@ -4092,8 +4092,8 @@
         "id": "p-1791925962704",
         "name": "MEITU VIP+ 1 THÁNG BHF",
         "price": 90000,
-        "stock": 77,
-        "stock_text": "Còn 77",
+        "stock": 67,
+        "stock_text": "Còn 67",
         "duration": "1 Tháng",
         "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.",
         "sources": {
@@ -4110,7 +4110,7 @@
             "updated": "11:40 18/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 34,
+            "stock": 24,
             "cost_price": 70000,
             "selling_price": 80000,
             "updated": "11:40 18/10/2026"
@@ -6039,6 +6039,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792298455583",
+      "time": "11:40 - 18/10/2026",
+      "timestamp": 1792298455583,
+      "name": "Meitu Vip+ 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 24,
+      "addedQty": 0,
+      "price": 80000,
+      "stockAfter": 67,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✨MeituVip+1ThángBHF💰Giá:70k📦Tồnkho:24tàikhoản📊Đãbán:1.366tàikhoản💎Môtả:Mởkhóaful"
+    },
+    {
       "id": "hist-1792298451135",
       "time": "11:40 - 18/10/2026",
       "timestamp": 1792298451135,
@@ -7423,20 +7437,6 @@
       "catKey": "khac",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🎙️ElevenlabCreator1ThBH3D➕Thêm:10📦Tồnkhohiệntại:11💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1792241396055",
-      "time": "19:49 - 17/10/2026",
-      "timestamp": 1792241396055,
-      "name": "CapCut Pro Team 3 Tháng - BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 4,
-      "addedQty": 5,
-      "price": 160000,
-      "stockAfter": 4,
-      "catKey": "capcut",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:5📦Tồnkhohiệntại:4💰Giá:160.000đ"
     }
   ],
   "bot-tele": {
