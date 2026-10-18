@@ -5217,8 +5217,8 @@
         "id": "p-1792289751254",
         "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
         "price": 40000,
-        "stock": 100,
-        "stock_text": "Còn 100",
+        "stock": 200,
+        "stock_text": "Còn 200",
         "duration": "1 Ngày",
         "detail": "⚡ GEMINI AI PRO — LINK NÂNG CHÍNH CHỦ 18 THÁNG\n🛡️ CHÍNH SÁCH BẢO HÀNH\nBảo hành Active: 30 phút đầu kể từ thời điểm mua. Vui lòng active ngay với khách lẻ\nBảo hành gói: 24 giờ đầu kể từ thời điểm mua. Khách mua số lượng ít vui lòng kích hoạt và sử dụng ngay để đảm bảo quyền lợi bảo hành.\n✨ THÔNG TIN SẢN PHẨM\n- Link nâng chính chủ Gemini AI Pro lên đến 18 tháng.\n- Kích hoạt trực tiếp trên tài khoản Gmail của bạn.\n- Không cần liên kết thẻ thanh toán. -Thao tác đơn giản, kích hoạt nhanh chóng.\n- Có thể mời thêm tối đa 5 thành viên vào Family.\n📌 CÁCH KÍCH HOẠT\n- Đăng nhập vào tài khoản Gmail cần nâng cấp.\n- Truy cập Link nâng Gemini AI Pro được cung cấp.\n- Nhấn xác nhận và hoàn tất kích hoạt.\n- Kiểm tra lại gói Gemini AI Pro trên tài khoản.\n⚠️ LƯU Ý: Vui lòng kích hoạt ngay sau khi mua. Shop chỉ hỗ trợ bảo hành theo đúng thời gian quy định ở trên.",
         "sources": {
@@ -5226,9 +5226,15 @@
             "stock": 100,
             "cost_price": 40000,
             "updated": "09:15 18/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 100,
+            "cost_price": 30000,
+            "updated": "09:15 18/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ]
   },
@@ -5331,6 +5337,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792289754681",
+      "time": "09:15 - 18/10/2026",
+      "timestamp": 1792289754681,
+      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 100,
+      "addedQty": 2,
+      "price": 30000,
+      "stockAfter": 200,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:2📦Tồnkhohiệntại:100💰Giá:30.000đ"
+    },
     {
       "id": "hist-1792289751254",
       "time": "09:15 - 18/10/2026",
@@ -6716,20 +6736,6 @@
       "catKey": "khac",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🎬HiggfieldGenJutsu720p1ThángKBH➕Thêm:3📦Tồnkhohiệntại:9💰Giá:23.000đ"
-    },
-    {
-      "id": "hist-1792228850135",
-      "time": "16:20 - 17/10/2026",
-      "timestamp": 1792228850135,
-      "name": "Grok Premium 1 Tháng KBH",
-      "bot": "sieuthistore_bot",
-      "shopStock": 10,
-      "addedQty": 10,
-      "price": 650000,
-      "stockAfter": 10,
-      "catKey": "grok",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⚡GrokPremium1ThángKBH➕Thêm:10📦Tồnkhohiệntại:10💰Giá:650.000đ"
     }
   ],
   "bot-tele": {
