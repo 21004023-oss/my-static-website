@@ -2908,13 +2908,13 @@
         "stock_text": "Còn 12",
         "duration": "3 Tháng",
         "detail": "-Code nhận gói Notion Business,không phải slot Team\n-Định dạng: Link nhận gói\n-Hạn gói: 3 tháng\n-Bảo hành: 3 tháng\n-Lưu Ý: Code chỉ áp dụng cho Work Space chưa nâng lần nào và gói chỉ áp dụng được cho 1 thành viên.",
-        "cost_price": 190000,
+        "cost_price": 210000,
         "sources": {
           "sieuthistore_bot": {
             "stock": 6,
             "cost_price": 210000,
             "selling_price": 240000,
-            "updated": "12:41 18/10/2026"
+            "updated": "13:35 18/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 6,
@@ -6092,6 +6092,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792305315286",
+      "time": "13:35 - 18/10/2026",
+      "timestamp": 1792305315286,
+      "name": "Redeem Notion Business 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 6,
+      "addedQty": 0,
+      "price": 240000,
+      "stockAfter": 12,
+      "catKey": "notion",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐RedeemNotionBusiness3thángBHF💰Giá:210k📦Tồnkho:6tàikhoản📊Đãbán:141tàikhoản💎Môtả:"
+    },
+    {
       "id": "hist-1792305308775",
       "time": "13:35 - 18/10/2026",
       "timestamp": 1792305308775,
@@ -7476,20 +7490,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:1📦Tồnkhohiệntại:5💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1792252017758",
-      "time": "22:46 - 17/10/2026",
-      "timestamp": 1792252017758,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 21,
-      "addedQty": 16,
-      "price": 75000,
-      "stockAfter": 21,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:16📦Tồnkhohiệntại:21💰Giá:75.000đ"
     }
   ],
   "bot-tele": {
