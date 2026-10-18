@@ -394,19 +394,20 @@
         "id": "p-1791879689407",
         "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
         "price": 280000,
-        "stock": 51,
-        "stock_text": "Còn 51",
+        "stock": 59,
+        "stock_text": "Còn 59",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Date radom 25 - 30 ngày\n4. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n✅ Hiện tại, việc đổi PASS cần OTP nên không đổi được, còn nếu đổi 2FA có thể lỗi OTP gmail, khách hàng có thể cân nhắc không đổi và cứ việc dùng",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 51,
+            "stock": 59,
             "cost_price": 230000,
-            "updated": "23:14 17/10/2026",
-            "selling_price": 260000
+            "selling_price": 260000,
+            "updated": "12:29 18/10/2026"
           }
         },
-        "cost_price": 250000
+        "cost_price": 230000,
+        "needs_review": true
       },
       {
         "id": "p-1791898409445",
@@ -6040,6 +6041,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792301343699",
+      "time": "12:29 - 18/10/2026",
+      "timestamp": 1792301343699,
+      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 59,
+      "addedQty": 50,
+      "price": 260000,
+      "stockAfter": 59,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:50📦Tồnkhohiệntại:59💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1792299628841",
       "time": "12:00 - 18/10/2026",
       "timestamp": 1792299628841,
@@ -7424,20 +7439,6 @@
       "catKey": "khac",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐ProtonVPNUnlimited20-25ngàyBHF💰Giá:60k📦Tồnkho:7tàikhoản📊Đãbán:0tàikhoản"
-    },
-    {
-      "id": "hist-1792243131169",
-      "time": "20:18 - 17/10/2026",
-      "timestamp": 1792243131169,
-      "name": "Elevenlab Creator 1Th BH 3D",
-      "bot": "taphoathomap_bot",
-      "shopStock": 11,
-      "addedQty": 10,
-      "price": 159000,
-      "stockAfter": 22,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎙️ElevenlabCreator1ThBH3D➕Thêm:10📦Tồnkhohiệntại:11💰Giá:159.000đ"
     }
   ],
   "bot-tele": {
