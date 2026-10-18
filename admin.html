@@ -457,6 +457,24 @@
     .custom-table tr.row-dragging { opacity: 0.4; }
     .custom-table tr.row-hidden { opacity: 0.5; background: var(--input-bg); }
 
+    @keyframes highlightRowPulse {
+      0% {
+        background-color: rgba(99, 102, 241, 0.45);
+        box-shadow: inset 0 0 0 2px var(--primary), 0 0 20px rgba(99, 102, 241, 0.6);
+      }
+      50% {
+        background-color: rgba(99, 102, 241, 0.25);
+        box-shadow: inset 0 0 0 2px var(--primary);
+      }
+      100% {
+        background-color: transparent;
+        box-shadow: inset 0 0 0 0 transparent;
+      }
+    }
+    .highlight-pulse {
+      animation: highlightRowPulse 3s cubic-bezier(0.1, 0.9, 0.2, 1) forwards !important;
+    }
+
     .badge {
       display: inline-flex;
       align-items: center;
@@ -922,7 +940,7 @@
           </div>
 
           <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
-            <input type="text" id="filterInp" class="search-input" placeholder="🔍 Tìm kiếm sản phẩm..." oninput="renderTable()" />
+            <input type="text" id="filterInp" class="search-input" style="min-width:300px;" placeholder="🔍 Tìm kiếm toàn bộ kho (không cần chọn mục)..." oninput="renderTable()" />
             <button class="btn btn-primary" onclick="openAddModal()">➕ Thêm Gói Mới</button>
           </div>
         </div>
@@ -1485,10 +1503,36 @@
         return;
       }
 
-      if (!currentCat || !servicesData[currentCat]) {
+      if (!currentCat || (!servicesData[currentCat] && currentCat !== 'all')) {
         currentCat = keys[0];
       }
 
+      // 1. Mục đặc biệt: "Tất cả sản phẩm" ở trên cùng
+      let totalAllPlans = 0;
+      keys.forEach(k => {
+        totalAllPlans += (servicesData[k].plans ? servicesData[k].plans.length : 0);
+      });
+
+      const allItem = document.createElement('div');
+      allItem.className = `cat-item ${currentCat === 'all' ? 'active' : ''}`;
+      allItem.style.marginBottom = '8px';
+      allItem.style.paddingBottom = '8px';
+      allItem.style.borderBottom = '1px dashed var(--card-border)';
+      allItem.innerHTML = `
+        <span style="font-weight:700; color:var(--text); display:flex; align-items:center; gap:6px;">
+          <span>🌟</span> <span>Tất cả sản phẩm</span>
+        </span>
+        <span class="cat-count" style="background:var(--primary); color:#fff; font-weight:700;">${totalAllPlans}</span>
+      `;
+      allItem.onclick = () => {
+        currentCat = 'all';
+        document.getElementById('filterInp').value = '';
+        renderCategories();
+        renderTable();
+      };
+      container.appendChild(allItem);
+
+      // 2. Liệt kê từng danh mục cụ thể
       keys.forEach(k => {
         const item = document.createElement('div');
         item.className = `cat-item ${k === currentCat ? 'active' : ''}`;
@@ -1502,6 +1546,7 @@
 
         item.onclick = () => {
           currentCat = k;
+          document.getElementById('filterInp').value = '';
           renderCategories();
           renderTable();
         };
@@ -1524,73 +1569,140 @@
       const tbody = document.getElementById('plansTableBody');
       tbody.innerHTML = '';
 
-      if (!currentCat || !servicesData[currentCat]) return;
-      document.getElementById('currentCategoryTitle').innerText = servicesData[currentCat].name || currentCat;
-
-      const plans = servicesData[currentCat].plans || [];
       const query = (document.getElementById('filterInp').value || '').trim().toLowerCase();
+      const isGlobalSearch = (query.length > 0) || (currentCat === 'all');
+      const titleEl = document.getElementById('currentCategoryTitle');
 
-      plans.forEach((p, idx) => {
+      let plansToRender = [];
+
+      if (isGlobalSearch) {
+        // TÌM KIẾM TOÀN BỘ KHO HOẶC XEM TẤT CẢ DANH MỤC (KHÔNG CẦN CHỌN MỤC)
+        const keys = Object.keys(servicesData).filter(k => k !== '_history');
+        keys.forEach(k => {
+          const catPlans = servicesData[k].plans || [];
+          const catName = servicesData[k].name || k;
+          catPlans.forEach((p, idx) => {
+            if (query) {
+              const nameMatch = (p.name || '').toLowerCase().includes(query);
+              const detailMatch = (p.detail || '').toLowerCase().includes(query);
+              const catMatch = catName.toLowerCase().includes(query) || k.toLowerCase().includes(query);
+              if (!nameMatch && !detailMatch && !catMatch) return;
+            }
+            plansToRender.push({ plan: p, idx, catKey: k, catName });
+          });
+        });
+
         if (query) {
-          const match = (p.name || '').toLowerCase().includes(query) || (p.detail || '').toLowerCase().includes(query);
-          if (!match) return;
+          titleEl.innerHTML = `🔍 Kết quả tìm kiếm: <span style="color:var(--primary); font-weight:800;">"${document.getElementById('filterInp').value.trim()}"</span> <span style="font-size:12px; font-weight:normal; color:var(--text-muted); margin-left:6px;">(${plansToRender.length} gói tìm thấy)</span> <button class="btn btn-outline" style="font-size:11px; padding:2px 8px; margin-left:8px;" onclick="clearGlobalSearch()">✕ Xóa lọc</button>`;
+        } else {
+          titleEl.innerHTML = `🌟 Toàn bộ sản phẩm trong kho <span style="font-size:12px; font-weight:normal; color:var(--text-muted); margin-left:6px;">(${plansToRender.length} gói)</span>`;
         }
+      } else {
+        if (!currentCat || !servicesData[currentCat]) return;
+        titleEl.innerText = servicesData[currentCat].name || currentCat;
+        const plans = servicesData[currentCat].plans || [];
+        const catName = servicesData[currentCat].name || currentCat;
+        plans.forEach((p, idx) => {
+          plansToRender.push({ plan: p, idx, catKey: currentCat, catName });
+        });
+      }
 
+      if (plansToRender.length === 0) {
+        tbody.innerHTML = `
+          <tr>
+            <td colspan="7" style="text-align:center; padding:40px; color:var(--text-muted);">
+              <div style="font-size:24px; margin-bottom:8px;">🔍</div>
+              <div>Không tìm thấy sản phẩm nào${query ? ` phù hợp với "<strong>${query}</strong>"` : ''}.</div>
+              ${query ? `<button class="btn btn-outline" style="margin-top:12px; font-size:12px;" onclick="clearGlobalSearch()">Xem lại tất cả sản phẩm</button>` : ''}
+            </td>
+          </tr>
+        `;
+        return;
+      }
+
+      plansToRender.forEach(item => {
+        const { plan: p, idx, catKey, catName } = item;
         const isHidden = !!p.hidden;
         const tr = document.createElement('tr');
+        tr.id = `plan-row-${catKey}-${idx}`;
         if (isHidden) tr.classList.add('row-hidden');
-        tr.draggable = true;
-        tr.ondragstart = () => { draggedRowIndex = idx; draggedRowCat = currentCat; tr.classList.add('row-dragging'); };
-        tr.ondragend = () => { draggedRowIndex = null; tr.classList.remove('row-dragging'); };
-        tr.ondragover = (e) => e.preventDefault();
-        tr.ondrop = async (e) => { e.preventDefault(); await handleRowDrop(idx); };
+
+        if (!query && currentCat !== 'all') {
+          tr.draggable = true;
+          tr.ondragstart = () => { draggedRowIndex = idx; draggedRowCat = currentCat; tr.classList.add('row-dragging'); };
+          tr.ondragend = () => { draggedRowIndex = null; tr.classList.remove('row-dragging'); };
+          tr.ondragover = (e) => e.preventDefault();
+          tr.ondrop = async (e) => { e.preventDefault(); await handleRowDrop(idx); };
+        }
 
         let stockBadge = '<span class="badge badge-in">Còn ' + p.stock + '</span>';
         if (p.stock === -1 || p.stock === '∞') stockBadge = '<span class="badge badge-in">Vô cực (∞)</span>';
         else if (p.stock === 0) stockBadge = '<span class="badge badge-out">Hết hàng</span>';
 
         const eyeBtn = isHidden ?
-          `<button class="btn-toggle-eye is-hidden" onclick="togglePlanVisibility(${idx})">🙈 Đã ẩn</button>` :
-          `<button class="btn-toggle-eye" onclick="togglePlanVisibility(${idx})">👁️ Đang hiện</button>`;
+          `<button class="btn-toggle-eye is-hidden" onclick="togglePlanVisibility(${idx}, '${catKey}')">🙈 Đã ẩn</button>` :
+          `<button class="btn-toggle-eye" onclick="togglePlanVisibility(${idx}, '${catKey}')">👁️ Đang hiện</button>`;
+
+        const catBadgeHtml = isGlobalSearch ?
+          `<span class="badge badge-source" style="margin-left:6px; background:rgba(99,102,241,0.15); color:var(--primary); font-size:10.5px; cursor:pointer;" onclick="selectCategoryDirectly('${catKey}')" title="Bấm để lọc riêng danh mục này">📁 ${catName}</span>` : '';
 
         tr.innerHTML = `
-          <td style="text-align:center; cursor:grab; color:var(--text-muted);">⠿</td>
+          <td style="text-align:center; cursor:${query ? 'default' : 'grab'}; color:var(--text-muted);">${query ? '•' : '⠿'}</td>
           <td>
-            <div style="font-weight:700; color:var(--text);">${p.name} ${isHidden ? '<span style="font-size:11px; color:var(--text-muted); font-weight:normal;">(Tạm ẩn)</span>' : ''}</div>
+            <div style="font-weight:700; color:var(--text); display:flex; align-items:center; flex-wrap:wrap; gap:4px;">
+              <span>${p.name}</span>
+              ${catBadgeHtml}
+              ${isHidden ? '<span style="font-size:11px; color:var(--text-muted); font-weight:normal;">(Tạm ẩn)</span>' : ''}
+            </div>
             <div style="font-size:11.5px; color:var(--text-muted); margin-top:3px; max-width:380px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
               ${p.detail || 'Chưa có mô tả chi tiết'}
             </div>
           </td>
           <td>
             <div class="table-price-stepper">
-              <button class="tbl-step-btn minus" title="Giảm 5.000đ" onclick="adjustPlanPrice(${idx}, -5000)">−</button>
-              <div class="tbl-price-display" onclick="quickEditPlanPrice(${idx})" title="Nhấp để gõ giá mới trực tiếp">
+              <button class="tbl-step-btn minus" title="Giảm 5.000đ" onclick="adjustPlanPrice(${idx}, -5000, '${catKey}')">−</button>
+              <div class="tbl-price-display" onclick="quickEditPlanPrice(${idx}, '${catKey}')" title="Nhấp để gõ giá mới trực tiếp">
                 <strong style="color:var(--primary); font-size:13.5px;">${Number(p.price || 0).toLocaleString('vi-VN')}đ</strong>
               </div>
-              <button class="tbl-step-btn plus" title="Tăng 5.000đ" onclick="adjustPlanPrice(${idx}, 5000)">+</button>
+              <button class="tbl-step-btn plus" title="Tăng 5.000đ" onclick="adjustPlanPrice(${idx}, 5000, '${catKey}')">+</button>
             </div>
             <div class="tbl-price-chips">
-              <button class="tbl-chip minus" title="Giảm 10.000đ" onclick="adjustPlanPrice(${idx}, -10000)">-10k</button>
-              <button class="tbl-chip minus" title="Giảm 5.000đ" onclick="adjustPlanPrice(${idx}, -5000)">-5k</button>
-              <button class="tbl-chip plus" title="Tăng 5.000đ" onclick="adjustPlanPrice(${idx}, 5000)">+5k</button>
-              <button class="tbl-chip plus" title="Tăng 10.000đ" onclick="adjustPlanPrice(${idx}, 10000)">+10k</button>
+              <button class="tbl-chip minus" title="Giảm 10.000đ" onclick="adjustPlanPrice(${idx}, -10000, '${catKey}')">-10k</button>
+              <button class="tbl-chip minus" title="Giảm 5.000đ" onclick="adjustPlanPrice(${idx}, -5000, '${catKey}')">-5k</button>
+              <button class="tbl-chip plus" title="Tăng 5.000đ" onclick="adjustPlanPrice(${idx}, 5000, '${catKey}')">+5k</button>
+              <button class="tbl-chip plus" title="Tăng 10.000đ" onclick="adjustPlanPrice(${idx}, 10000, '${catKey}')">+10k</button>
             </div>
           </td>
           <td>${stockBadge}</td>
           <td><span class="badge badge-source">${p.duration || '1 Tháng'}</span></td>
           <td style="text-align:center;">${eyeBtn}</td>
           <td style="text-align:right;">
-            <button class="btn btn-outline" style="padding:4px 8px; font-size:11.5px;" onclick="openEditModal(${idx})">✏️ Sửa</button>
-            <button class="btn btn-danger" style="padding:4px 8px; font-size:11.5px;" onclick="deletePlan(${idx})">🗑️</button>
+            <button class="btn btn-outline" style="padding:4px 8px; font-size:11.5px;" onclick="openEditModal(${idx}, '${catKey}')">✏️ Sửa</button>
+            <button class="btn btn-danger" style="padding:4px 8px; font-size:11.5px;" onclick="deletePlan(${idx}, '${catKey}')">🗑️</button>
           </td>
         `;
         tbody.appendChild(tr);
       });
     }
 
+    function clearGlobalSearch() {
+      document.getElementById('filterInp').value = '';
+      if (currentCat === 'all') currentCat = Object.keys(servicesData).filter(k => k !== '_history')[0];
+      renderCategories();
+      renderTable();
+    }
+
+    function selectCategoryDirectly(catKey) {
+      currentCat = catKey;
+      document.getElementById('filterInp').value = '';
+      renderCategories();
+      renderTable();
+    }
+
     // TỰ ĐỘNG LƯU GITHUB KHI ẨN / HIỆN SẢN PHẨM
-    async function togglePlanVisibility(idx) {
-      const p = servicesData[currentCat].plans[idx];
+    async function togglePlanVisibility(idx, catKey = currentCat) {
+      if (!catKey || !servicesData[catKey] || !servicesData[catKey].plans[idx]) return;
+      const p = servicesData[catKey].plans[idx];
       p.hidden = !p.hidden;
       renderTable();
       updateStats();
@@ -2015,17 +2127,23 @@
       history.slice(0, 25).forEach(h => {
         const item = document.createElement('div');
         item.className = 'feed-item';
+        item.style.cursor = 'pointer';
+        item.title = 'Nhấp vào để xem ngay vị trí sản phẩm này trong kho hàng!';
 
         const isBot = (h.source || '').includes('Bot') || (h.source || '').includes('Telegram');
         const icon = isBot ? '🤖' : '✍️';
         const srcBadge = isBot ? '<span class="badge badge-source">Bot Telegram</span>' : '<span class="badge badge-warning">Admin</span>';
+        const catName = (h.catKey && servicesData[h.catKey] && servicesData[h.catKey].name) ? servicesData[h.catKey].name : (h.catKey || '');
 
         item.innerHTML = `
           <div class="feed-main">
             <div class="feed-badge-icon">${icon}</div>
             <div>
-              <div style="font-weight:700; font-size:14px; color:var(--text);">${h.name}</div>
-              <div style="font-size:12px; color:var(--text-muted); margin-top:3px; display:flex; gap:12px; align-items:center;">
+              <div style="font-weight:700; font-size:14px; color:var(--text); display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+                <span>${h.name}</span>
+                ${catName ? `<span class="badge badge-source" style="font-size:10.5px; background:rgba(99,102,241,0.12);">📁 ${catName}</span>` : ''}
+              </div>
+              <div style="font-size:12px; color:var(--text-muted); margin-top:3px; display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
                 <span>⏱️ ${h.time || 'Vừa xong'}</span>
                 <span>➕ Thêm: <strong style="color:var(--emerald);">+${h.addedQty || 0}</strong></span>
                 <span>📦 Kho sau thêm: <strong>${h.stockAfter !== undefined ? h.stockAfter : 'N/A'}</strong></span>
@@ -2035,30 +2153,81 @@
             </div>
           </div>
           <div>
-            <button class="btn btn-outline" style="font-size:11.5px; padding:5px 10px;" onclick="locatePlanByName('${h.name.replace(/'/g, "\'")}')">
-              🔍 Xem trong kho
+            <button class="btn btn-primary" style="font-size:11.5px; padding:6px 12px; display:flex; align-items:center; gap:4px;">
+              📍 Xem vị trí kho
             </button>
           </div>
         `;
 
+        item.onclick = () => locatePlanByName(h.name, h.catKey);
         container.appendChild(item);
       });
     }
 
-    function locatePlanByName(name) {
-      for (const [catKey, val] of Object.entries(servicesData)) {
-        if (catKey === '_history') continue;
-        const plans = val.plans || [];
-        const idx = plans.findIndex(p => p.name.trim().toLowerCase() === name.trim().toLowerCase());
-        if (idx !== -1) {
-          currentCat = catKey;
-          switchTab('catalog');
-          renderCategories();
-          openEditModal(idx);
-          return;
+    function locatePlanByName(name, hintCatKey = '') {
+      if (!name) return;
+      const targetCanon = getCanonicalKey(name);
+      const cleanTarget = name.trim().toLowerCase();
+      let foundCat = null;
+      let foundIdx = -1;
+
+      // 1. Kiểm tra ưu tiên trong hintCatKey nếu có
+      if (hintCatKey && servicesData[hintCatKey] && servicesData[hintCatKey].plans) {
+        const plans = servicesData[hintCatKey].plans;
+        foundIdx = plans.findIndex(p => (p.name || '').trim().toLowerCase() === cleanTarget);
+        if (foundIdx === -1 && targetCanon) {
+          foundIdx = plans.findIndex(p => getCanonicalKey(p.name || '') === targetCanon);
+        }
+        if (foundIdx !== -1) foundCat = hintCatKey;
+      }
+
+      // 2. Quét qua toàn bộ danh mục nếu chưa tìm thấy
+      if (foundIdx === -1) {
+        for (const [catKey, val] of Object.entries(servicesData)) {
+          if (catKey === '_history') continue;
+          const plans = val.plans || [];
+          foundIdx = plans.findIndex(p => (p.name || '').trim().toLowerCase() === cleanTarget);
+          if (foundIdx === -1 && targetCanon) {
+            foundIdx = plans.findIndex(p => getCanonicalKey(p.name || '') === targetCanon);
+          }
+          if (foundIdx === -1) {
+            // Thử so khớp tương đối chứa nhau
+            foundIdx = plans.findIndex(p => (p.name || '').toLowerCase().includes(cleanTarget) || cleanTarget.includes((p.name || '').toLowerCase()));
+          }
+          if (foundIdx !== -1) {
+            foundCat = catKey;
+            break;
+          }
         }
       }
-      alert("Không tìm thấy gói này trong danh sách hiện tại.");
+
+      if (foundCat && foundIdx !== -1) {
+        currentCat = foundCat;
+        document.getElementById('filterInp').value = '';
+        switchTab('catalog');
+        renderCategories();
+        renderTable();
+
+        setTimeout(() => {
+          const rowEl = document.getElementById(`plan-row-${foundCat}-${foundIdx}`);
+          if (rowEl) {
+            rowEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            rowEl.classList.remove('highlight-pulse');
+            void rowEl.offsetWidth; // force reflow
+            rowEl.classList.add('highlight-pulse');
+            const catTitle = servicesData[foundCat].name || foundCat;
+            showToast(`📍 Đã định vị sản phẩm: [${name}] tại danh mục [${catTitle}]!`, 'success');
+          }
+        }, 180);
+        return;
+      }
+
+      // 3. Nếu không tìm thấy chính xác, tự động mở tìm kiếm toàn kho theo tên này
+      switchTab('catalog');
+      document.getElementById('filterInp').value = name;
+      renderCategories();
+      renderTable();
+      showToast(`🔍 Đang hiển thị kết quả tìm kiếm gần giống cho [${name}] trên toàn bộ kho...`, 'info');
     }
 
     function renderHistoryTable() {
@@ -2076,18 +2245,38 @@
       history.forEach((h, idx) => {
         if (query && !h.name.toLowerCase().includes(query)) return;
 
+        const catName = (h.catKey && servicesData[h.catKey] && servicesData[h.catKey].name) ? servicesData[h.catKey].name : (h.catKey || '');
         const tr = document.createElement('tr');
+        tr.style.cursor = 'pointer';
+        tr.title = 'Nhấp vào dòng để xem ngay vị trí gói sản phẩm này trong kho hàng!';
+
         tr.innerHTML = `
           <td><span style="color:var(--text-muted); font-size:12px;">${h.time || 'N/A'}</span></td>
-          <td><strong style="color:var(--text);">${h.name}</strong></td>
+          <td>
+            <div style="font-weight:700; color:var(--text); display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+              <span style="text-decoration:underline; text-decoration-style:dotted;">${h.name}</span>
+              ${catName ? `<span class="badge badge-source" style="font-size:10px; padding:2px 5px;">📁 ${catName}</span>` : ''}
+            </div>
+          </td>
           <td><span class="badge badge-in">+${h.addedQty || 0}</span></td>
           <td><strong style="color:var(--primary);">${Number(h.price || 0).toLocaleString('vi-VN')}đ</strong></td>
           <td>Còn ${h.stockAfter !== undefined ? h.stockAfter : 'N/A'}</td>
           <td><span class="badge badge-source">${h.source || 'Bot'}</span></td>
-          <td style="text-align:right;">
-            <button class="btn btn-danger" style="padding:3px 7px; font-size:11px;" onclick="deleteHistoryItem(${idx})">🗑️</button>
+          <td style="text-align:right; white-space:nowrap;">
+            <button class="btn btn-primary" style="padding:4px 9px; font-size:11px; margin-right:4px;" title="Xem vị trí sản phẩm trong kho">📍 Xem vị trí</button>
+            <button class="btn btn-danger btn-del-hist" style="padding:4px 8px; font-size:11px;" title="Xóa dòng lịch sử này">🗑️</button>
           </td>
         `;
+
+        tr.onclick = (e) => {
+          if (e.target.closest('.btn-del-hist')) {
+            e.stopPropagation();
+            deleteHistoryItem(idx);
+          } else {
+            locatePlanByName(h.name, h.catKey);
+          }
+        };
+
         tbody.appendChild(tr);
       });
     }
@@ -2112,6 +2301,7 @@
 
     function openAddModal() {
       editingPlanIndex = -1;
+      editingCatKey = null;
       document.getElementById('modalTitle').innerText = "Thêm Sản Phẩm Mới";
       document.getElementById('inpName').value = '';
       document.getElementById('inpPrice').value = '';
@@ -2123,15 +2313,18 @@
       document.getElementById('inpQuickPaste').value = '';
       document.getElementById('duplicateConflictAlert').style.display = 'none';
       populateCategorySelect();
-      document.getElementById('inpTargetCategory').value = currentCat;
+      document.getElementById('inpTargetCategory').value = (currentCat && currentCat !== 'all') ? currentCat : Object.keys(servicesData).filter(k => k !== '_history')[0];
       toggleStockInput();
       checkPriceLogicInput('');
       document.getElementById('planModal').classList.add('active');
     }
 
-    function openEditModal(idx) {
+    function openEditModal(idx, catKey = currentCat) {
+      if (!catKey || !servicesData[catKey] || !servicesData[catKey].plans || !servicesData[catKey].plans[idx]) return;
       editingPlanIndex = idx;
-      const p = servicesData[currentCat].plans[idx];
+      editingCatKey = catKey;
+      currentCat = catKey;
+      const p = servicesData[catKey].plans[idx];
       document.getElementById('modalTitle').innerText = "Chỉnh Sửa Sản Phẩm";
       document.getElementById('inpName').value = p.name;
       document.getElementById('inpPrice').value = p.price;
@@ -2148,7 +2341,7 @@
       }
 
       populateCategorySelect();
-      document.getElementById('inpTargetCategory').value = currentCat;
+      document.getElementById('inpTargetCategory').value = catKey;
       toggleStockInput();
       checkPriceLogicInput(p.price);
       document.getElementById('planModal').classList.add('active');
@@ -2187,9 +2380,9 @@
       checkPriceLogicInput(cur);
     }
 
-    async function adjustPlanPrice(idx, delta) {
-      if (!currentCat || !servicesData[currentCat] || !servicesData[currentCat].plans[idx]) return;
-      const p = servicesData[currentCat].plans[idx];
+    async function adjustPlanPrice(idx, delta, catKey = currentCat) {
+      if (!catKey || !servicesData[catKey] || !servicesData[catKey].plans || !servicesData[catKey].plans[idx]) return;
+      const p = servicesData[catKey].plans[idx];
       const oldPrice = Number(p.price || 0);
       const newPrice = Math.max(0, oldPrice + delta);
       p.price = newPrice;
@@ -2200,9 +2393,9 @@
       await saveDirectToGitHub(true, `✅ Đã lưu giá mới "${p.name}" (${newPrice.toLocaleString('vi-VN')}đ) lên Website!`);
     }
 
-    function quickEditPlanPrice(idx) {
-      if (!currentCat || !servicesData[currentCat] || !servicesData[currentCat].plans[idx]) return;
-      const p = servicesData[currentCat].plans[idx];
+    function quickEditPlanPrice(idx, catKey = currentCat) {
+      if (!catKey || !servicesData[catKey] || !servicesData[catKey].plans || !servicesData[catKey].plans[idx]) return;
+      const p = servicesData[catKey].plans[idx];
       const curPrice = Number(p.price || 0);
       const val = prompt(`Chỉnh sửa giá cho gói:\n"${p.name}"\n\nNhập giá mới (VNĐ):`, curPrice);
       if (val !== null && val.trim() !== '') {
@@ -2244,8 +2437,9 @@
 
       if (!name) { alert("Vui lòng nhập tên gói!"); return; }
 
+      const sourceCat = (editingPlanIndex >= 0 && editingCatKey) ? editingCatKey : currentCat;
       const newPlan = {
-        id: editingPlanIndex >= 0 ? servicesData[currentCat].plans[editingPlanIndex].id : 'p-' + Date.now(),
+        id: (editingPlanIndex >= 0 && servicesData[sourceCat] && servicesData[sourceCat].plans[editingPlanIndex]) ? servicesData[sourceCat].plans[editingPlanIndex].id : 'p-' + Date.now(),
         name,
         price,
         stock,
@@ -2255,11 +2449,11 @@
         hidden: isHidden
       };
 
-      if (editingPlanIndex >= 0) {
-        if (targetCat === currentCat) {
-          servicesData[currentCat].plans[editingPlanIndex] = newPlan;
+      if (editingPlanIndex >= 0 && servicesData[sourceCat]) {
+        if (targetCat === sourceCat) {
+          servicesData[sourceCat].plans[editingPlanIndex] = newPlan;
         } else {
-          servicesData[currentCat].plans.splice(editingPlanIndex, 1);
+          servicesData[sourceCat].plans.splice(editingPlanIndex, 1);
           if (!servicesData[targetCat].plans) servicesData[targetCat].plans = [];
           servicesData[targetCat].plans.push(newPlan);
           currentCat = targetCat;
@@ -2279,10 +2473,11 @@
       await saveDirectToGitHub(true, "✅ Đã lưu sản phẩm thành công lên GitHub!");
     }
 
-    async function deletePlan(idx) {
+    async function deletePlan(idx, catKey = currentCat) {
+      if (!catKey || !servicesData[catKey] || !servicesData[catKey].plans || !servicesData[catKey].plans[idx]) return;
       if (confirm("Bạn có chắc chắn muốn xóa gói này?")) {
-        const deletedName = servicesData[currentCat].plans[idx].name;
-        servicesData[currentCat].plans.splice(idx, 1);
+        const deletedName = servicesData[catKey].plans[idx].name;
+        servicesData[catKey].plans.splice(idx, 1);
         updateStats();
         renderTable();
         runPriceAudit();
