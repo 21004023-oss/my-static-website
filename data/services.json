@@ -2024,19 +2024,20 @@
         "id": "p-1791919210876",
         "name": "CapCut Pro Team 3 Tháng - BHF",
         "price": 180000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "3 Tháng",
         "detail": "Tài khoản Capcut Pro dạng team hạn sử dụng 90 ngày. • Có thể nhận tới 2000 Credit AI • Định dạng: Email | Pass • Login 1-2 thiết bị hạn chế login nhiều thiết bị. • Bảo hành 90 ngày, không bảo hành lỗi đăng nhập quá thường xuyên.",
         "sources": {
           "piggyai99_bot": {
-            "stock": 7,
+            "stock": 2,
             "cost_price": 160000,
-            "updated": "21:32 17/10/2026",
-            "selling_price": 180000
+            "selling_price": 180000,
+            "updated": "20:54 18/10/2026"
           }
         },
-        "cost_price": 160000
+        "cost_price": 160000,
+        "needs_review": true
       },
       {
         "id": "p-1791921267652",
@@ -6345,6 +6346,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792331645033",
+      "time": "20:54 - 18/10/2026",
+      "timestamp": 1792331645033,
+      "name": "CapCut Pro Team 3 Tháng - BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 2,
+      "addedQty": 2,
+      "price": 180000,
+      "stockAfter": 2,
+      "catKey": "capcut",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:160.000đ"
+    },
+    {
       "id": "hist-1792331569529",
       "time": "20:52 - 18/10/2026",
       "timestamp": 1792331569529,
@@ -7729,20 +7744,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH➕Thêm:175📦Tồnkhohiệntại:181💰Giá:2.000đ"
-    },
-    {
-      "id": "hist-1792287161405",
-      "time": "08:32 - 18/10/2026",
-      "timestamp": 1792287161405,
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "taphoathomap_bot",
-      "shopStock": 72,
-      "addedQty": 1,
-      "price": 30000,
-      "stockAfter": 72,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:1📦Tồnkhohiệntại:72💰Giá:30.000đ"
     }
   ]
 }
