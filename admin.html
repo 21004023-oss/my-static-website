@@ -1471,24 +1471,32 @@
           </div>
         </div>
 
-        <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:10px;">
-          <div class="form-group">
-            <label class="form-label">Tiền Khách Trả (VNĐ):</label>
-            <input type="number" id="inpOrderCustomerPrice" class="form-control" placeholder="0" oninput="calcOrderProfits()" />
+        <!-- TỰ ĐỘNG TÍNH GIÁ CHUẨN THEO SHOP & BẢNG GIÁ -->
+        <div style="background:rgba(16, 185, 129, 0.08); border:1px solid rgba(16, 185, 129, 0.25); border-radius:8px; padding:12px; margin-bottom:14px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+            <span style="font-weight:700; font-size:12px; color:var(--emerald); text-transform:uppercase; letter-spacing:0.5px;">⚡ Bảng Giá Tự Động Tính (Theo Chuẩn CSDL Shop)</span>
+            <label style="font-size:11.5px; color:var(--text-muted); cursor:pointer; display:flex; align-items:center; gap:4px;">
+              <input type="checkbox" id="chkManualPriceEdit" onchange="toggleManualPriceEdit()" /> Sửa giá thủ công
+            </label>
           </div>
-          <div class="form-group">
-            <label class="form-label">Vốn / Shop Giữ (VNĐ):</label>
-            <input type="number" id="inpOrderShopCost" class="form-control" placeholder="0" oninput="calcOrderProfits()" />
+          <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:10px;">
+            <div class="form-group" style="margin-bottom:0;">
+              <label class="form-label" style="font-size:11.5px;">Tiền Khách Trả:</label>
+              <input type="number" id="inpOrderCustomerPrice" class="form-control" placeholder="0" readonly style="font-weight:700; color:var(--emerald); background:var(--card-bg);" oninput="calcOrderProfits()" />
+            </div>
+            <div class="form-group" style="margin-bottom:0;">
+              <label class="form-label" style="font-size:11.5px;">Bạn Thu Về (Shop Giữ):</label>
+              <input type="number" id="inpOrderShopCost" class="form-control" placeholder="0" readonly style="font-weight:700; color:var(--primary); background:var(--card-bg);" oninput="calcOrderProfits()" />
+            </div>
+            <div class="form-group" style="margin-bottom:0;">
+              <label class="form-label" style="font-size:11.5px;">Hoa Hồng Sale:</label>
+              <input type="number" id="inpOrderSaleCommission" class="form-control" placeholder="0" readonly style="font-weight:700; color:var(--amber); background:var(--card-bg);" oninput="calcOrderProfits()" />
+            </div>
           </div>
-          <div class="form-group">
-            <label class="form-label">Hoa Hồng Sale (VNĐ):</label>
-            <input type="number" id="inpOrderSaleCommission" class="form-control" placeholder="0" oninput="calcOrderProfits()" />
+          <div style="display:flex; justify-content:space-between; margin-top:8px; padding-top:6px; border-top:1px dashed rgba(16, 185, 129, 0.2); font-size:12px;">
+            <span>Tiền Lời Ròng Của Shop: <strong id="lblPreviewShopProfit" style="color:var(--purple); font-size:13px;">0đ</strong></span>
+            <span>Khách chuyển khoản: <strong id="lblPreviewCustomerPrice" style="color:var(--emerald); font-size:13px;">0đ</strong></span>
           </div>
-        </div>
-
-        <div style="background:rgba(99, 102, 241, 0.08); padding:8px 12px; border-radius:6px; margin-bottom:14px; font-size:12.5px; display:flex; justify-content:space-between;">
-          <span>Lợi nhuận Shop thực thu: <strong id="lblPreviewShopProfit" style="color:var(--purple);">0đ</strong></span>
-          <span>Khách thanh toán: <strong id="lblPreviewCustomerPrice" style="color:var(--emerald);">0đ</strong></span>
         </div>
 
         <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
@@ -3329,58 +3337,131 @@
       }
     }
 
+    // BẢNG GIÁ DỊCH VỤ CHUẨN TỰ ĐỘNG KHỚP CSDL
+    const PRESET_PRICING = {"youtube premium (slot) 1 tháng": {"cost": 20000, "shop_keep": 26000, "profit": 6000, "cust_price": 30000, "sale_comm": 4000}, "youtube premium (slot) 6 tháng": {"cost": 165000, "shop_keep": 175000, "profit": 10000, "cust_price": 185000, "sale_comm": 10000}, "youtube premium (slot) 1 năm": {"cost": 280000, "shop_keep": 300000, "profit": 20000, "cust_price": 320000, "sale_comm": 20000}, "canva pro bản quyền (edu) 1 năm": {"cost": 20000, "shop_keep": 25000, "profit": 5000, "cust_price": 30000, "sale_comm": 5000}, "canva pro (nhóm) 1 tháng": {"cost": 5000, "shop_keep": 10000, "profit": 5000, "cust_price": 15000, "sale_comm": 5000}, "canva pro (nhóm) 1 năm": {"cost": 80000, "shop_keep": 95000, "profit": 15000, "cust_price": 110000, "sale_comm": 15000}, "capcut pro pc & mobile 1 tháng": {"cost": 38000, "shop_keep": 44000, "profit": 6000, "cust_price": 50000, "sale_comm": 6000}, "capcut pro pc & mobile 3 tháng": {"cost": 185000, "shop_keep": 195000, "profit": 10000, "cust_price": 205000, "sale_comm": 10000}, "capcut pro pc & mobile 6 tháng": {"cost": 290000, "shop_keep": 305000, "profit": 15000, "cust_price": 320000, "sale_comm": 15000}, "chatgpt plus trial 1 tháng": {"cost": 45000, "shop_keep": 60000, "profit": 15000, "cust_price": 75000, "sale_comm": 15000}, "chatgpt plus 1 tháng (bh 15d) 1 tháng": {"cost": 240000, "shop_keep": 255000, "profit": 15000, "cust_price": 270000, "sale_comm": 15000}, "chatgpt plus 1 tháng (bh 30d) 1 tháng": {"cost": 280000, "shop_keep": 300000, "profit": 20000, "cust_price": 320000, "sale_comm": 20000}, "api 10m token claude 1 ngày 24h": {"cost": 35000, "shop_keep": 40000, "profit": 5000, "cust_price": 45000, "sale_comm": 5000}, "api 50m token claude 1 ngày 24h": {"cost": 50000, "shop_keep": 75000, "profit": 25000, "cust_price": 95000, "sale_comm": 20000}, "api 100m token claude 3 ngày 3 ngày": {"cost": 95000, "shop_keep": 125000, "profit": 30000, "cust_price": 150000, "sale_comm": 25000}, "api 200m token claude 1 ngày 24h": {"cost": 189000, "shop_keep": 200000, "profit": 11000, "cust_price": 215000, "sale_comm": 15000}, "grok super 7 ngày bhf 7 ngày": {"cost": 100000, "shop_keep": 105000, "profit": 5000, "cust_price": 115000, "sale_comm": 10000}, "grok api key 10m 3 ngày": {"cost": 35000, "shop_keep": 40000, "profit": 5000, "cust_price": 45000, "sale_comm": 5000}, "link gemini pro 5tb 18 tháng 18 tháng": {"cost": 45000, "shop_keep": 50000, "profit": 5000, "cust_price": 55000, "sale_comm": 5000}, "kling 1k credits 1 tháng 1 tháng": {"cost": 205000, "shop_keep": 220000, "profit": 15000, "cust_price": 235000, "sale_comm": 15000}, "kling 700 - 900 credits 1 tháng 1 tháng": {"cost": 150000, "shop_keep": 160000, "profit": 10000, "cust_price": 170000, "sale_comm": 10000}, "kling ultra 26k credit 1 tháng 1 tháng": {"cost": 1500000, "shop_keep": 1620000, "profit": 120000, "cust_price": 1700000, "sale_comm": 80000}, "discord nitro boost 1 tháng 1 tháng": {"cost": 65000, "shop_keep": 78000, "profit": 13000, "cust_price": 95000, "sale_comm": 17000}, "discord nitro boost 1 năm 1 năm": {"cost": 650000, "shop_keep": 750000, "profit": 100000, "cust_price": 890000, "sale_comm": 140000}, "boost server discord level 3 1 tháng": {"cost": 280000, "shop_keep": 330000, "profit": 50000, "cust_price": 390000, "sale_comm": 60000}, "setup server discord chuyên nghiệp trọn gói": {"cost": 200000, "shop_keep": 320000, "profit": 120000, "cust_price": 450000, "sale_comm": 130000}};
+
+    function toggleManualPriceEdit() {
+      const isManual = document.getElementById('chkManualPriceEdit').checked;
+      document.getElementById('inpOrderCustomerPrice').readOnly = !isManual;
+      document.getElementById('inpOrderShopCost').readOnly = !isManual;
+      document.getElementById('inpOrderSaleCommission').readOnly = !isManual;
+      if (isManual) {
+        showToast('🔓 Đã mở khóa cho phép sửa giá thủ công!', 'info');
+      } else {
+        onOrderPlanSelectChange();
+        showToast('🔒 Đã khóa, tự động áp dụng giá chuẩn từ Shop!', 'info');
+      }
+    }
+
+    function calculateTieredCommission(price, cost) {
+      if (cost <= 0) cost = Math.round(price * 0.8);
+      const grossMargin = Math.max(0, price - cost);
+      
+      let saleComm = 0;
+      let shopProfit = 0;
+
+      if (price <= 50000) {
+        saleComm = Math.min(5000, Math.round(grossMargin * 0.45));
+      } else if (price <= 150000) {
+        saleComm = Math.min(15000, Math.max(5000, Math.round(grossMargin * 0.45)));
+      } else if (price <= 350000) {
+        saleComm = Math.min(25000, Math.max(15000, Math.round(grossMargin * 0.45)));
+      } else if (price <= 800000) {
+        saleComm = Math.min(50000, Math.max(25000, Math.round(grossMargin * 0.45)));
+      } else if (price <= 2000000) {
+        saleComm = Math.min(100000, Math.max(50000, Math.round(grossMargin * 0.45)));
+      } else {
+        saleComm = Math.min(200000, Math.max(100000, Math.round(grossMargin * 0.4)));
+      }
+
+      if (saleComm > grossMargin && grossMargin > 0) saleComm = Math.round(grossMargin * 0.4);
+      const shopKeep = price - saleComm;
+      shopProfit = shopKeep - cost;
+
+      return {
+        customerPrice: price,
+        shopKeep: shopKeep,
+        shopProfit: shopProfit > 0 ? shopProfit : grossMargin - saleComm,
+        saleCommission: saleComm
+      };
+    }
+
     function onOrderPlanSelectChange() {
       const sel = document.getElementById('selOrderPlanSelect');
       const opt = sel.options[sel.selectedIndex];
       if (!opt || !opt.value) return;
 
-      document.getElementById('inpOrderPlanName').value = opt.value;
+      const planName = opt.value;
+      document.getElementById('inpOrderPlanName').value = planName;
       const price = Number(opt.dataset.price || 0);
       const cost = Number(opt.dataset.costPrice || 0);
 
-      document.getElementById('inpOrderCustomerPrice').value = price;
-      
-      // Mặc định shop giữ giá vốn hoặc 90%
-      let shopKeep = cost > 0 ? cost : Math.round(price * 0.85);
-      let saleComm = Math.max(0, price - shopKeep);
-
-      // Nếu không có cost thì tính hoa hồng ước lượng 20k-50k
-      if (cost > 0) {
-        let profit = price - cost;
-        saleComm = Math.round(profit * 0.5); // Sale hưởng 50% chênh lệch
-        shopKeep = price - saleComm;
+      let matchedPreset = null;
+      const lowerName = planName.toLowerCase().replace(/\s+/g, ' ');
+      for (const [k, p] of Object.entries(PRESET_PRICING)) {
+        if (lowerName.includes(k) || k.includes(lowerName)) {
+          matchedPreset = p;
+          break;
+        }
       }
 
+      let custPrice = price;
+      let shopKeep = 0;
+      let saleComm = 0;
+      let shopProfit = 0;
+
+      if (matchedPreset) {
+        custPrice = matchedPreset.cust_price;
+        shopKeep = matchedPreset.shop_keep;
+        saleComm = matchedPreset.sale_comm;
+        shopProfit = matchedPreset.profit;
+      } else {
+        const calc = calculateTieredCommission(price, cost);
+        custPrice = calc.customerPrice;
+        shopKeep = calc.shopKeep;
+        saleComm = calc.saleCommission;
+        shopProfit = calc.shopProfit;
+      }
+
+      document.getElementById('inpOrderCustomerPrice').value = custPrice;
       document.getElementById('inpOrderShopCost').value = shopKeep;
       document.getElementById('inpOrderSaleCommission').value = saleComm;
-      calcOrderProfits();
+      calcOrderProfits(shopProfit);
 
-      // Tự động tính hạn 30 ngày hoặc 1 năm theo tên gói
       const now = new Date();
       let expire = new Date();
-      if (opt.value.includes('Năm') || opt.value.includes('1 Năm') || opt.value.includes('12 Tháng')) {
-        expire.setFullYear(now.getFullYear() + 1);
+      if (/1\s*năm|1\s*nam|12\s*tháng|1y|2y|2\s*năm/.test(lowerName)) {
+        expire.setFullYear(now.getFullYear() + (lowerName.includes('2') ? 2 : 1));
+      } else if (/6\s*tháng|6m/.test(lowerName)) {
+        expire.setMonth(now.getMonth() + 6);
+      } else if (/3\s*tháng|3m/.test(lowerName)) {
+        expire.setMonth(now.getMonth() + 3);
+      } else if (/24\s*h|24h|1\s*ngày|1d/.test(lowerName)) {
+        expire.setDate(now.getDate() + 1);
+      } else if (/7\s*ngày|7d/.test(lowerName)) {
+        expire.setDate(now.getDate() + 7);
       } else {
         expire.setDate(now.getDate() + 30);
       }
+
       const dd = String(expire.getDate()).padStart(2, '0');
       const mm = String(expire.getMonth() + 1).padStart(2, '0');
       const yyyy = expire.getFullYear();
       document.getElementById('inpOrderExpireDate').value = `${dd}/${mm}/${yyyy}`;
     }
 
-    function calcOrderProfits() {
+    function calcOrderProfits(customShopProfit = null) {
       const cust = Number(document.getElementById('inpOrderCustomerPrice').value || 0);
       const shopKeep = Number(document.getElementById('inpOrderShopCost').value || 0);
       const comm = Number(document.getElementById('inpOrderSaleCommission').value || 0);
 
-      // Shop thực lời = Tiền khách trả - Giá vốn nhà cung cấp - Hoa hồng sale
-      // Ở đây: shopKeep là số tiền Bạn thu về từ khách hoặc sale.
-      // Tiền Bạn Lời = Tiền khách trả - Hoa hồng sale (nếu Bạn bán trực tiếp) HOẶC shopKeep - Giá vốn.
-      const shopProfit = Math.max(0, cust - comm);
+      let shopProfit = customShopProfit;
+      if (shopProfit === null) {
+        shopProfit = Math.max(0, shopKeep > 0 ? (shopKeep - Math.round(shopKeep * 0.75)) : (cust - comm));
+      }
 
       const lblPf = document.getElementById('lblPreviewShopProfit');
-      if (lblPf) lblPf.innerText = shopProfit.toLocaleString('vi-VN') + 'đ';
+      if (lblPf) lblPf.innerText = (shopProfit > 0 ? shopProfit : Math.max(0, cust - comm)).toLocaleString('vi-VN') + 'đ';
 
       const lblCust = document.getElementById('lblPreviewCustomerPrice');
       if (lblCust) lblCust.innerText = cust.toLocaleString('vi-VN') + 'đ';
