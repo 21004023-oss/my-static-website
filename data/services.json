@@ -5218,7 +5218,7 @@
       {
         "id": "p-1792289751254",
         "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
-        "price": 40000,
+        "price": 50000,
         "stock": 200,
         "stock_text": "Còn 200",
         "duration": "1 Ngày",
@@ -5227,7 +5227,8 @@
           "piggyai99_bot": {
             "stock": 100,
             "cost_price": 40000,
-            "updated": "09:15 18/10/2026"
+            "selling_price": 50000,
+            "updated": "09:25 18/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 100,
@@ -5236,7 +5237,8 @@
           }
         },
         "hidden": false,
-        "needs_review": true
+        "needs_review": true,
+        "cost_price": 40000
       }
     ]
   },
@@ -5339,6 +5341,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792290302374",
+      "time": "09:25 - 18/10/2026",
+      "timestamp": 1792290302374,
+      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
+      "bot": "piggyai99_bot",
+      "shopStock": 100,
+      "addedQty": 0,
+      "price": 50000,
+      "stockAfter": 200,
+      "catKey": "khac",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H💰Giá:40k📦Tồnkho:100tàikhoản📊Đãbán:2.527tàikhoản💎Mô"
+    },
     {
       "id": "hist-1792290294731",
       "time": "09:24 - 18/10/2026",
@@ -6724,20 +6740,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🧠APIClaude100MToken1ngàyBHF➕Thêm:1📦Tồnkhohiệntại:4💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1792229136900",
-      "time": "16:25 - 17/10/2026",
-      "timestamp": 1792229136900,
-      "name": "Muse AI 31 Tỷ Token 1 tháng KBH",
-      "bot": "sieuthistore_bot",
-      "shopStock": 10,
-      "addedQty": 10,
-      "price": 170000,
-      "stockAfter": 10,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐MuseAI31TỷToken1thángKBH➕Thêm:10📦Tồnkhohiệntại:10💰Giá:170.000đ"
     }
   ],
   "bot-tele": {
