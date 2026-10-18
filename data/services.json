@@ -411,19 +411,20 @@
         "id": "p-1791898409445",
         "name": "ChatGPT Ver Students chính chủ  Plus 4 Tháng KBH",
         "price": 390000,
-        "stock": 34,
-        "stock_text": "Còn 34",
+        "stock": 36,
+        "stock_text": "Còn 36",
         "duration": "4 Tháng",
         "detail": "- Sau khi thanh toán nhắn tin cho admin @khaidayne để được xác minh sinh viên nhé\n- Sau khi xác minh xong về mọi người tự thêm thẻ thanh toán ạ",
         "sources": {
           "piggyai99_bot": {
-            "stock": 34,
+            "stock": 36,
             "cost_price": 360000,
-            "updated": "00:48 18/10/2026",
-            "selling_price": 390000
+            "selling_price": 390000,
+            "updated": "11:25 18/10/2026"
           }
         },
-        "cost_price": 360000
+        "cost_price": 360000,
+        "needs_review": true
       },
       {
         "id": "p-1791898413975",
@@ -6025,6 +6026,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792297518967",
+      "time": "11:25 - 18/10/2026",
+      "timestamp": 1792297518967,
+      "name": "ChatGPT Ver Students chính chủ  Plus 4 Tháng KBH",
+      "bot": "piggyai99_bot",
+      "shopStock": 36,
+      "addedQty": 2,
+      "price": 390000,
+      "stockAfter": 36,
+      "catKey": "chatgpt",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🤖ChatGPTVerStudentschínhchủPlus4ThángKBH➕Thêm:2📦Tồnkhohiệntại:36💰Giá:360.000đ"
+    },
+    {
       "id": "hist-1792297004191",
       "time": "11:16 - 18/10/2026",
       "timestamp": 1792297004191,
@@ -7409,20 +7424,6 @@
       "catKey": "youtube",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:563💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1792236569746",
-      "time": "18:29 - 17/10/2026",
-      "timestamp": 1792236569746,
-      "name": "Slot Veo3 Ultra Dùng Riêng 100K Credits 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 1,
-      "addedQty": 1,
-      "price": 3400000,
-      "stockAfter": 1,
-      "catKey": "google-veo",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🚀SlotVeo3UltraDùngRiêng100KCredits1thángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:3.400.000"
     }
   ],
   "bot-tele": {
