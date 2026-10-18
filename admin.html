@@ -1019,7 +1019,7 @@
               <tr>
                 <th style="width:36px; text-align:center;">⠿</th>
                 <th>Tên Gói Sản Phẩm & Mô Tả</th>
-                <th style="width:160px;">Giá Bán & Tăng Giảm</th>
+                <th style="width:190px;">Giá Bán & Chênh Lệch</th>
                 <th style="width:105px;">Tồn Kho</th>
                 <th style="width:100px;">Thời Hạn</th>
                 <th style="width:120px; text-align:center;">Hiển Thị</th>
@@ -1220,10 +1220,22 @@
             <div id="priceInputAlert" class="price-input-alert">⚠️ Giá có vẻ bất thường! Kiểm tra lại số 0 hoặc số thập phân.</div>
           </div>
           <div class="form-group">
+            <label class="form-label" style="display:flex; justify-content:space-between; align-items:center;">
+              <span>Giá nhập gốc (VNĐ):</span>
+              <span id="profitPreviewText" style="font-size:12px; font-weight:700;"></span>
+            </label>
+            <input type="number" id="inpCostPrice" class="form-control" placeholder="Ví dụ: 190000" oninput="updateProfitPreview()" style="font-weight:700; font-size:14px;" />
+            <div style="font-size:11px; color:var(--text-muted); margin-top:3px;">
+              Giá vốn từ shop cung cấp (dùng tính tiền lời tăng thêm)
+            </div>
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
+          <div class="form-group">
             <label class="form-label">Thời hạn:</label>
             <input type="text" id="inpDuration" class="form-control" placeholder="1 Tháng, 1 Năm..." />
           </div>
-        </div>
 
         <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
           <div class="form-group">
@@ -1694,6 +1706,21 @@
       renderTable();
     }
 
+    function getPlanCostPrice(p) {
+      if (!p) return 0;
+      if (typeof p.cost_price === 'number' && p.cost_price > 0) return p.cost_price;
+      if (p.sources && typeof p.sources === 'object') {
+        const costs = [];
+        for (const s of Object.values(p.sources)) {
+          if (s && typeof s.cost_price === 'number' && s.cost_price > 0) {
+            costs.push(s.cost_price);
+          }
+        }
+        if (costs.length > 0) return Math.min(...costs);
+      }
+      return 0;
+    }
+
     function renderTable() {
       const tbody = document.getElementById('plansTableBody');
       tbody.innerHTML = '';
@@ -1826,6 +1853,40 @@
               <button class="tbl-chip plus" title="Tăng 5.000đ" onclick="adjustPlanPrice(${idx}, 5000, '${catKey}')">+5k</button>
               <button class="tbl-chip plus" title="Tăng 10.000đ" onclick="adjustPlanPrice(${idx}, 10000, '${catKey}')">+10k</button>
             </div>
+            ${(() => {
+              const costPrice = getPlanCostPrice(p);
+              if (costPrice > 0) {
+                const diff = (p.price || 0) - costPrice;
+                const pct = ((diff / costPrice) * 100).toFixed(1);
+                if (diff > 0) {
+                  return `
+                    <div style="margin-top:6px; font-size:11px; background:rgba(5, 150, 105, 0.08); border:1px solid rgba(5, 150, 105, 0.22); border-radius:6px; padding:3px 6px; display:flex; justify-content:space-between; align-items:center;" title="Giá nhập từ nguồn bot: ${costPrice.toLocaleString('vi-VN')}đ • Tiền lời: +${diff.toLocaleString('vi-VN')}đ">
+                      <span style="color:var(--text-muted); font-size:10.5px;">Gốc: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong></span>
+                      <span style="color:var(--emerald); font-weight:700;">▲ +${diff.toLocaleString('vi-VN')}đ (+${pct}%)</span>
+                    </div>
+                  `;
+                } else if (diff === 0) {
+                  return `
+                    <div style="margin-top:6px; font-size:11px; background:rgba(100, 116, 139, 0.08); border:1px solid rgba(100, 116, 139, 0.2); border-radius:6px; padding:3px 6px; display:flex; justify-content:space-between; align-items:center;" title="Giá bán bằng đúng giá gốc nhập kho">
+                      <span style="color:var(--text-muted); font-size:10.5px;">Gốc: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong></span>
+                      <span style="color:var(--text-muted); font-weight:600;">Hòa vốn (0đ)</span>
+                    </div>
+                  `;
+                } else {
+                  return `
+                    <div style="margin-top:6px; font-size:11px; background:rgba(225, 29, 72, 0.08); border:1px solid rgba(225, 29, 72, 0.25); border-radius:6px; padding:3px 6px; display:flex; justify-content:space-between; align-items:center;" title="Cảnh báo: Đang bán lỗ dưới giá nhập!">
+                      <span style="color:var(--text-muted); font-size:10.5px;">Gốc: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong></span>
+                      <span style="color:var(--rose); font-weight:700;">⚠️ Lỗ: ${diff.toLocaleString('vi-VN')}đ (${pct}%)</span>
+                    </div>
+                  `;
+                }
+              }
+              return `
+                <div style="margin-top:5px; font-size:10.5px; color:var(--text-muted); text-align:center; opacity:0.65;">
+                  <span>(Chưa có giá nhập)</span>
+                </div>
+              `;
+            })()}
           </td>
           <td>${stockBadge}</td>
           <td><span class="badge badge-source">${p.duration || '1 Tháng'}</span></td>
@@ -2462,12 +2523,35 @@
       }
     }
 
+    function updateProfitPreview() {
+      const sell = Number(document.getElementById('inpPrice').value || 0);
+      const cost = Number(document.getElementById('inpCostPrice').value || 0);
+      const el = document.getElementById('profitPreviewText');
+      if (!el) return;
+      if (cost > 0 && sell > 0) {
+        const diff = sell - cost;
+        const pct = ((diff / cost) * 100).toFixed(1);
+        if (diff > 0) {
+          el.innerHTML = `<span style="color:var(--emerald);">▲ Tăng lời: +${diff.toLocaleString('vi-VN')}đ (+${pct}%)</span>`;
+        } else if (diff === 0) {
+          el.innerHTML = `<span style="color:var(--text-muted);">Hòa vốn (0đ)</span>`;
+        } else {
+          el.innerHTML = `<span style="color:var(--rose);">⚠️ Đang lỗ: ${diff.toLocaleString('vi-VN')}đ (${pct}%)</span>`;
+        }
+      } else if (cost > 0 && sell === 0) {
+        el.innerHTML = `<span style="color:var(--text-muted);">Giá vốn: ${cost.toLocaleString('vi-VN')}đ</span>`;
+      } else {
+        el.innerHTML = '';
+      }
+    }
+
     function openAddModal() {
       editingPlanIndex = -1;
       editingCatKey = null;
       document.getElementById('modalTitle').innerText = "Thêm Sản Phẩm Mới";
       document.getElementById('inpName').value = '';
       document.getElementById('inpPrice').value = '';
+      document.getElementById('inpCostPrice').value = '';
       document.getElementById('inpDuration').value = '1 Tháng';
       document.getElementById('inpStockType').value = 'number';
       document.getElementById('inpStockNumber').value = '10';
@@ -2479,6 +2563,7 @@
       document.getElementById('inpTargetCategory').value = (currentCat && currentCat !== 'all') ? currentCat : Object.keys(servicesData).filter(k => k !== '_history')[0];
       toggleStockInput();
       checkPriceLogicInput('');
+      updateProfitPreview();
       document.getElementById('planModal').classList.add('active');
     }
 
@@ -2491,6 +2576,8 @@
       document.getElementById('modalTitle').innerText = "Chỉnh Sửa Sản Phẩm";
       document.getElementById('inpName').value = p.name;
       document.getElementById('inpPrice').value = p.price;
+      const costVal = getPlanCostPrice(p);
+      document.getElementById('inpCostPrice').value = costVal > 0 ? costVal : '';
       document.getElementById('inpDuration').value = p.duration || '1 Tháng';
       document.getElementById('inpIsHidden').checked = !!p.hidden;
       document.getElementById('inpDetail').value = p.detail || '';
@@ -2507,6 +2594,7 @@
       document.getElementById('inpTargetCategory').value = catKey;
       toggleStockInput();
       checkPriceLogicInput(p.price);
+      updateProfitPreview();
       document.getElementById('planModal').classList.add('active');
     }
 
@@ -2576,6 +2664,7 @@
     function checkPriceLogicInput(val) {
       const p = Number(val || 0);
       updatePriceReadText(p);
+      updateProfitPreview();
       const alertBox = document.getElementById('priceInputAlert');
       if (p > 0 && p < 1000 && !/hotmail/i.test(document.getElementById('inpName').value)) {
         alertBox.style.display = 'block';
@@ -2592,6 +2681,7 @@
       const targetCat = document.getElementById('inpTargetCategory').value;
       const name = document.getElementById('inpName').value.trim();
       const price = Number(document.getElementById('inpPrice').value) || 0;
+      const costPrice = Number(document.getElementById('inpCostPrice').value) || 0;
       const duration = document.getElementById('inpDuration').value.trim() || '1 Tháng';
       const detail = document.getElementById('inpDetail').value.trim();
       const isHidden = document.getElementById('inpIsHidden').checked;
@@ -2601,10 +2691,14 @@
       if (!name) { alert("Vui lòng nhập tên gói!"); return; }
 
       const sourceCat = (editingPlanIndex >= 0 && editingCatKey) ? editingCatKey : currentCat;
+      const existingPlan = (editingPlanIndex >= 0 && servicesData[sourceCat] && servicesData[sourceCat].plans && servicesData[sourceCat].plans[editingPlanIndex]) ? servicesData[sourceCat].plans[editingPlanIndex] : {};
+
       const newPlan = {
-        id: (editingPlanIndex >= 0 && servicesData[sourceCat] && servicesData[sourceCat].plans[editingPlanIndex]) ? servicesData[sourceCat].plans[editingPlanIndex].id : 'p-' + Date.now(),
+        ...existingPlan,
+        id: existingPlan.id || ('p-' + Date.now()),
         name,
         price,
+        cost_price: costPrice > 0 ? costPrice : (existingPlan.cost_price || 0),
         stock,
         stock_text: stock === -1 ? 'Vô cực (∞)' : `Còn ${stock}`,
         duration,
