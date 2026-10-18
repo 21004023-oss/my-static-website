@@ -5658,11 +5658,20 @@
         "id": "p-1791913403407",
         "name": "Higgsfield Starter 210 Credit 1 Tháng (BH 24H)",
         "price": 240000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Higgsfield Starter 1 Tháng (BH 24H)\n210 Credit\nEmail | pass | Link đọc code\nBảo hành 24H.",
-        "cost_price": 210000
+        "cost_price": 160000,
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 0,
+            "cost_price": 160000,
+            "selling_price": 180000,
+            "updated": "00:30 19/10/2026"
+          }
+        },
+        "needs_review": true
       },
       {
         "id": "p-1791935149110",
@@ -6435,6 +6444,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792344605192",
+      "time": "00:30 - 19/10/2026",
+      "timestamp": 1792344605192,
+      "name": "Higgsfield Starter 210 Credit 1 Tháng (BH 24H)",
+      "bot": "taphoathomap_bot",
+      "shopStock": 0,
+      "addedQty": 1,
+      "price": 180000,
+      "stockAfter": 0,
+      "catKey": "higgsfield",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬HiggsfieldStarter210Credit1Tháng(BH24H)➕Thêm:1📦Tồnkhohiệntại:0💰Giá:160.000đ"
+    },
     {
       "id": "hist-1792344598944",
       "time": "00:29 - 19/10/2026",
@@ -7820,20 +7843,6 @@
       "catKey": "gmail",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "⭐AppleID2FAGmail➕Thêm:11📦Tồnkhohiệntại:14💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792291943637",
-      "time": "09:52 - 18/10/2026",
-      "timestamp": 1792291943637,
-      "name": "Apple ID 2FA Gmail",
-      "bot": "taphoathomap_bot",
-      "shopStock": 14,
-      "addedQty": 11,
-      "price": 45000,
-      "stockAfter": 28,
-      "catKey": "gmail",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐AppleID2FAGmail➕Thêm:11📦Tồnkhohiệntại:14💰Giá:35.000đ"
     }
   ]
 }
