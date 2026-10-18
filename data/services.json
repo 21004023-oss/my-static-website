@@ -5178,6 +5178,23 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792286983590",
+        "name": "Chương trình giới thiệu bạn bè",
+        "price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Chương trình giới thiệu bạn bè bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "updated": "08:29 18/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -5280,6 +5297,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792286983590",
+      "time": "08:29 - 18/10/2026",
+      "timestamp": 1792286983590,
+      "name": "Chương trình giới thiệu bạn bè",
+      "bot": "taphoathomap_bot",
+      "shopStock": 0,
+      "addedQty": 0,
+      "price": 0,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎁Chươngtrìnhgiớithiệubạnbè•Chiasẻlinkbotkèmmãgiớithiệucủabạn.•Khingườiđượcmờiphá"
+    },
     {
       "id": "hist-1792282167653",
       "time": "07:09 - 18/10/2026",
@@ -6665,20 +6696,6 @@
       "catKey": "kling",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🎬KLING792-992cre1tháng(BH24h)💰Giá:150k📦Tồnkho:5tàikhoản📊Đãbán:323tàikhoản💎Môtả:A"
-    },
-    {
-      "id": "hist-1792225684179",
-      "time": "15:28 - 17/10/2026",
-      "timestamp": 1792225684179,
-      "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
-      "bot": "ntnshopre_bot",
-      "shopStock": 5,
-      "addedQty": 3,
-      "price": 150000,
-      "stockAfter": 5,
-      "catKey": "kling",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🎬KLING792-992cre1tháng(BH24h)➕Thêm:3📦Tồnkhohiệntại:5💰Giá:150.000đ"
     }
   ],
   "bot-tele": {
