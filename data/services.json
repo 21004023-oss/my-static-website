@@ -518,10 +518,10 @@
         "id": "p-1791922487996",
         "name": "ChatGPT Plus Apple Pay 1 Tháng BHF",
         "price": 370000,
-        "stock": 148,
-        "stock_text": "Còn 148",
+        "stock": 123,
+        "stock_text": "Còn 123",
         "duration": "1 Tháng",
-        "detail": "-ChatGPT Plus Apple Pay ổn định\n-Định dạng: Mail | Pass | 2Fa\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng\n-Tài khoản đã được check kĩ thông tin trước khi bán\n-Khách hàng nhận tài khoản tự bảo mật\n-Sử dụng Codex tự ver số, thuê số tại viotp chấm com\n-KBH Codex & 9routor, tools,.. love you 💚",
+        "detail": "📌 QUÝ KHÁCH VUI LÒNG ĐỌC KỸ MÔ TẢ TRƯỚC KHI MUA HÀNG!\n👉Hàng apple pay 100% Gmail, update hàng ngày\n👉Hàng pay địa chỉ tt Việt, mỗi acc 1 thẻ & không trùng IP => Siêu bền\n👉TK cấp sẵn theo định dạng Mail|Pass|2FA, lấy code log in tại https://2fa.live/\n👉 Sử dụng Codex nếu bị ver thì thuê tại https://viotp.com/ (Chọn dịch vụ Chatgpt + đầu số Vina)\n👉 Đảm bảo 100% hàng rao đi đã check cẩn thận Pass&2FA, nên mình sẽ kbh các vấn đề như sai pass hoặc chưa cài 2FA.\n👉 Các shop mua xong tự bảo quản tài khoản. TK được đăng ký bằng Gmail OTP nên shop ko hỗ trợ lấy lại pass hoặc 2FA\n⚠️ Hàng khan khó làm, tránh tình trạng nhiều khách mua về đổi Pass&2FA nhằm gian lận lấy thêm tk.\n⚠️ Không bảo hành các VẤN ĐỀ VỀ BẢO MẬT nếu khách hàng thay đổi thông tin đăng nhập như: Change Password, 2FA, Change Email dẫn đến bị xác minh code về mail và không truy cập được tài khoản nữa.\n✅ Bên em cam kết không bao giờ back acc. Chỉ BH tài khoản khi có thể log in được để check gói",
         "sources": {
           "piggyai99_bot": {
             "stock": 93,
@@ -530,13 +530,14 @@
             "selling_price": 370000
           },
           "sieuthistore_bot": {
-            "stock": 55,
-            "cost_price": 320000,
-            "updated": "03:00 17/10/2026",
-            "selling_price": 370000
+            "stock": 30,
+            "cost_price": 280000,
+            "selling_price": 310000,
+            "updated": "06:01 19/10/2026"
           }
         },
-        "cost_price": 320000
+        "cost_price": 280000,
+        "needs_review": true
       },
       {
         "id": "p-1791933349082",
@@ -6534,6 +6535,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792364462560",
+      "time": "06:01 - 19/10/2026",
+      "timestamp": 1792364462560,
+      "name": "ChatGPT Plus (Apple Pay) 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 30,
+      "addedQty": 30,
+      "price": 310000,
+      "stockAfter": 123,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTPlus(ApplePay)1ThángBHF➕Thêm:30📦Tồnkhohiệntại:30💰Giá:280.000đ"
+    },
+    {
       "id": "hist-1792363985421",
       "time": "05:53 - 19/10/2026",
       "timestamp": 1792363985421,
@@ -7918,20 +7933,6 @@
       "catKey": "notion",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐RedeemNotionBusiness3thángBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1792301523617",
-      "time": "12:32 - 18/10/2026",
-      "timestamp": 1792301523617,
-      "name": "Code Notion Business 3 tháng BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 7,
-      "addedQty": 0,
-      "price": 100000,
-      "stockAfter": 7,
-      "catKey": "notion",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐CodeNotionBusiness3thángBH1ngày💰Giá:90k📦Tồnkho:7tàikhoản📊Đãbán:43tàikhoản💎Môtả:"
     }
   ]
 }
