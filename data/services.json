@@ -5867,17 +5867,17 @@
         "id": "p-1792295327091",
         "name": "Express VPN 12 Tháng KBH",
         "price": 145000,
-        "cost_price": 65000,
+        "cost_price": 120000,
         "stock": 28,
         "stock_text": "Còn 28",
         "duration": "1 Năm",
-        "detail": "Gói Express VPN 12 Tháng KBH bảo hành uy tín.",
+        "detail": "định dạng mail|pass hàng 12 tháng siêu ngon",
         "sources": {
           "sieuthistore_bot": {
             "stock": 14,
             "cost_price": 120000,
             "selling_price": 140000,
-            "updated": "10:48 18/10/2026"
+            "updated": "10:55 18/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 14,
@@ -6021,6 +6021,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792295759246",
+      "time": "10:55 - 18/10/2026",
+      "timestamp": 1792295759246,
+      "name": "Express VPN 12 Tháng KBH",
+      "bot": "sieuthistore_bot",
+      "shopStock": 14,
+      "addedQty": 0,
+      "price": 140000,
+      "stockAfter": 28,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🚚ExpressVPN12ThángKBH💰Giá:120k📦Tồnkho:14tàikhoản📊Đãbán:25tàikhoản💎Môtả:địnhdạngm"
+    },
     {
       "id": "hist-1792295340186",
       "time": "10:49 - 18/10/2026",
@@ -7406,20 +7420,6 @@
       "catKey": "youtube",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧GmailRandomip2020-2023trialyoutube➕Thêm:6📦Tồnkhohiệntại:6💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792236157438",
-      "time": "18:22 - 17/10/2026",
-      "timestamp": 1792236157438,
-      "name": "GMAIL TRIAL RANDOM DATE 202X",
-      "bot": "ntnshopre_bot",
-      "shopStock": 6,
-      "addedQty": 6,
-      "price": 40000,
-      "stockAfter": 6,
-      "catKey": "gmail",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "📧GMAILTRIALRANDOMDATE202X➕Thêm:6📦Tồnkhohiệntại:6💰Giá:40.000đ"
     }
   ],
   "bot-tele": {
