@@ -720,6 +720,16 @@ var LOGO = {
   'kling': 'https://www.google.com/s2/favicons?domain=klingai.com&sz=64',
   'gmail': 'https://www.google.com/s2/favicons?domain=gmail.com&sz=64',
   'microsoft': 'https://www.google.com/s2/favicons?domain=microsoft.com&sz=64',
+  'netflix': 'https://www.google.com/s2/favicons?domain=netflix.com&sz=64',
+  'adobe': 'https://www.google.com/s2/favicons?domain=adobe.com&sz=64',
+  'vpn': 'https://www.google.com/s2/favicons?domain=expressvpn.com&sz=64',
+  'education': 'https://www.google.com/s2/favicons?domain=duolingo.com&sz=64',
+  'meitu-wink': 'https://www.google.com/s2/favicons?domain=meitu.com&sz=64',
+  'ai-video-voice': 'https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=64',
+  'higgsfield': 'https://www.google.com/s2/favicons?domain=higgsfield.ai&sz=64',
+  'muse-ai': 'https://www.google.com/s2/favicons?domain=muse.ai&sz=64',
+  'work-dev': 'https://www.google.com/s2/favicons?domain=jetbrains.com&sz=64',
+  'social': 'https://www.google.com/s2/favicons?domain=tiktok.com&sz=64',
   'bot-tele': 'https://www.google.com/s2/favicons?domain=telegram.org&sz=64',
   'khac': 'https://www.google.com/s2/favicons?domain=producthunt.com&sz=64'
 };
@@ -824,7 +834,7 @@ function loadData() {
     .then(r => r.json())
     .then(data => {
       D = data || {};
-      var keys = Object.keys(D);
+      var keys = Object.keys(D).filter(function(k){ return k !== '_history'; });
       if (keys.length) {
         curCat = keys[0];
         var visiblePlans = (D[curCat].plans || []).filter(p => !p.hidden);
@@ -857,7 +867,7 @@ function renderCategories() {
     mName.textContent = D[curCat].name;
   }
 
-  Object.keys(D).forEach(k => {
+  Object.keys(D).filter(function(k){ return k !== '_history'; }).forEach(k => {
     var it = D[k];
     var btn = document.createElement('button');
     btn.className = 'cat-item' + (k === curCat && !kw ? ' active' : '');
@@ -896,7 +906,7 @@ function renderPlans() {
 
   if (kw) {
     var found = [];
-    Object.keys(D).forEach(k => {
+    Object.keys(D).filter(function(k){ return k !== '_history'; }).forEach(k => {
       (D[k].plans || []).filter(function(p) { return !p.hidden; }).forEach(p => {
         var str = ((p.name || '') + ' ' + (p.detail || '') + ' ' + (p.source || '')).toLowerCase();
         if (str.indexOf(kw) !== -1) found.push({ catKey: k, catName: D[k].name, plan: p });
