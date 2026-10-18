@@ -242,7 +242,7 @@
         "id": "p-1792354871286",
         "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
         "price": 49000,
-        "cost_price": 39000,
+        "cost_price": 36000,
         "stock": 0,
         "stock_text": "Hết hàng",
         "duration": "1 Tháng",
@@ -253,9 +253,16 @@
             "cost_price": 39000,
             "selling_price": 49000,
             "updated": "03:21 19/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 0,
+            "cost_price": 36000,
+            "selling_price": 46000,
+            "updated": "03:21 19/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=youtube.com&sz=64"
@@ -6436,6 +6443,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792354875627",
+      "time": "03:21 - 19/10/2026",
+      "timestamp": 1792354875627,
+      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
+      "bot": "taphoathomap_bot",
+      "shopStock": 0,
+      "addedQty": 1,
+      "price": 46000,
+      "stockAfter": 0,
+      "catKey": "youtube",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:1📦Tồnkhohiệntại:0💰Giá:36.000đ"
+    },
+    {
       "id": "hist-1792354871286",
       "time": "03:21 - 19/10/2026",
       "timestamp": 1792354871286,
@@ -7820,20 +7841,6 @@
       "catKey": "khac",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🚚EXPRESSVPN12THÁNGBẢOHÀNHLOGIN➕Thêm:14📦Tồnkhohiệntại:14💰Giá:125.000đ"
-    },
-    {
-      "id": "hist-1792295327091",
-      "time": "10:48 - 18/10/2026",
-      "timestamp": 1792295327091,
-      "name": "Express VPN 12 Tháng KBH",
-      "bot": "sieuthistore_bot",
-      "shopStock": 14,
-      "addedQty": 14,
-      "price": 140000,
-      "stockAfter": 14,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🚚ExpressVPN12ThángKBH➕Thêm:14📦Tồnkhohiệntại:14💰Giá:120.000đ"
     }
   ]
 }
