@@ -210,9 +210,9 @@
         "id": "p-1792342693436",
         "name": "Gmail Random ip 2020-2023 trial youtube",
         "price": 60000,
-        "cost_price": 50000,
-        "stock": 17,
-        "stock_text": "Còn 17",
+        "cost_price": 40000,
+        "stock": 34,
+        "stock_text": "Còn 34",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành",
         "sources": {
@@ -221,9 +221,16 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "updated": "23:58 18/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 17,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "23:58 18/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=youtube.com&sz=64"
@@ -6414,6 +6421,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792342703718",
+      "time": "23:58 - 18/10/2026",
+      "timestamp": 1792342703718,
+      "name": "Gmail Random ip 2020-2023 trial youtube",
+      "bot": "taphoathomap_bot",
+      "shopStock": 17,
+      "addedQty": 5,
+      "price": 50000,
+      "stockAfter": 34,
+      "catKey": "youtube",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧GmailRandomip2020-2023trialyoutube➕Thêm:5📦Tồnkhohiệntại:17💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1792342698066",
       "time": "23:58 - 18/10/2026",
       "timestamp": 1792342698066,
@@ -7798,20 +7819,6 @@
       "catKey": "capcut",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:10📦Tồnkhohiệntại:21💰Giá:33.000đ"
-    },
-    {
-      "id": "hist-1792290342383",
-      "time": "09:25 - 18/10/2026",
-      "timestamp": 1792290342383,
-      "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
-      "bot": "taphoathomap_bot",
-      "shopStock": 181,
-      "addedQty": 0,
-      "price": 12000,
-      "stockAfter": 181,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH💰Giá:2k📦Tồnkho:181tàikhoản📊Đãbán:1.894tàikhoản💎Môtả:🔐"
     }
   ]
 }
