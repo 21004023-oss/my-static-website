@@ -5689,11 +5689,20 @@
         "id": "p-1791913398101",
         "name": "HIGGSFIELD STARTER 210 CREDITS 1 THÁNG BẢO HÀNH 24H",
         "price": 195000,
-        "stock": 3,
-        "stock_text": "Còn 3",
-        "duration": "1 THÁNG",
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
         "detail": "Higgsfield Starter 1 Tháng (BH 24H)\n210 Credit\nEmail | pass | Link đọc code\nBảo hành 24H.",
-        "cost_price": 175000
+        "cost_price": 175000,
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 0,
+            "cost_price": 175000,
+            "selling_price": 195000,
+            "updated": "05:45 19/10/2026"
+          }
+        },
+        "needs_review": true
       },
       {
         "id": "p-1791913403407",
@@ -6521,6 +6530,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792363517562",
+      "time": "05:45 - 19/10/2026",
+      "timestamp": 1792363517562,
+      "name": "HIGGSFIELD STARTER 210 CREDITS 1 THÁNG BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "shopStock": 0,
+      "addedQty": 1,
+      "price": 195000,
+      "stockAfter": 0,
+      "catKey": "higgsfield",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🎬HIGGSFIELDSTARTER210CREDITS1THÁNGBẢOHÀNH24H➕Thêm:1📦Tồnkhohiệntại:0💰Giá:175.000đ"
+    },
     {
       "id": "hist-1792363512567",
       "time": "05:45 - 19/10/2026",
@@ -7906,20 +7929,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:12📦Tồnkhohiệntại:27💰Giá:190.000đ"
-    },
-    {
-      "id": "hist-1792299623894",
-      "time": "12:00 - 18/10/2026",
-      "timestamp": 1792299623894,
-      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 27,
-      "addedQty": 12,
-      "price": 240000,
-      "stockAfter": 68,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:12📦Tồnkhohiệntại:27💰Giá:210.000đ"
     }
   ]
 }
