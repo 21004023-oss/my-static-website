@@ -4018,8 +4018,8 @@
         "id": "p-1792192343631",
         "name": "Gmail random 5-10 tháng 2FA",
         "price": 55000,
-        "stock": 48,
-        "stock_text": "Còn 48",
+        "stock": 32,
+        "stock_text": "Còn 32",
         "duration": "10 Tháng",
         "detail": "Định dạng username|pass|2fa\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "sources": {
@@ -4030,14 +4030,14 @@
             "updated": "16:52 18/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 32,
+            "stock": 16,
             "cost_price": 25000,
-            "updated": "06:35 17/10/2026",
-            "selling_price": 35000
+            "selling_price": 35000,
+            "updated": "16:52 18/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 45000,
+        "cost_price": 25000,
         "needs_review": true
       },
       {
@@ -6305,6 +6305,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792317140504",
+      "time": "16:52 - 18/10/2026",
+      "timestamp": 1792317140504,
+      "name": "Gmail random 5-10 tháng 2FA",
+      "bot": "taphoathomap_bot",
+      "shopStock": 16,
+      "addedQty": 44,
+      "price": 35000,
+      "stockAfter": 32,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧Gmailrandom5-10tháng2FA➕Thêm:44📦Tồnkhohiệntại:16💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1792317134775",
       "time": "16:52 - 18/10/2026",
       "timestamp": 1792317134775,
@@ -7689,20 +7703,6 @@
       "catKey": "microsoft",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐Microsoft365AdminFamily1ThángBHF➕Thêm:10📦Tồnkhohiệntại:19💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1792268573325",
-      "time": "03:22 - 18/10/2026",
-      "timestamp": 1792268573325,
-      "name": "ADMIN MS365 PREMIUM 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 19,
-      "addedQty": 10,
-      "price": 50000,
-      "stockAfter": 19,
-      "catKey": "microsoft",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "⭐ADMINMS365PREMIUM1THÁNGBHF➕Thêm:10📦Tồnkhohiệntại:19💰Giá:50.000đ"
     }
   ]
 }
