@@ -3920,6 +3920,25 @@
         },
         "hidden": false,
         "cost_price": 260000
+      },
+      {
+        "id": "p-1792291938667",
+        "name": "Apple ID 2FA Gmail",
+        "price": 59000,
+        "cost_price": 49000,
+        "stock": 14,
+        "stock_text": "Còn 14",
+        "duration": "1 Tháng",
+        "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 14,
+            "cost_price": 49000,
+            "selling_price": 59000,
+            "updated": "09:52 18/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -5945,6 +5964,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792291938667",
+      "time": "09:52 - 18/10/2026",
+      "timestamp": 1792291938667,
+      "name": "Apple ID 2FA Gmail",
+      "bot": "sieuthistore_bot",
+      "shopStock": 14,
+      "addedQty": 11,
+      "price": 59000,
+      "stockAfter": 14,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:11📦Tồnkhohiệntại:14💰Giá:49.000đ"
+    },
+    {
       "id": "hist-1792290364702",
       "time": "09:26 - 18/10/2026",
       "timestamp": 1792290364702,
@@ -7329,20 +7362,6 @@
       "catKey": "google-veo",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🚀SlotVeo3UltraChung750KCredits1thángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:5.000.000đ"
-    },
-    {
-      "id": "hist-1792232910127",
-      "time": "17:28 - 17/10/2026",
-      "timestamp": 1792232910127,
-      "name": "Admin 5 thành viên Veo3 Ultra 150K Credits 6 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 4,
-      "addedQty": 4,
-      "price": 9000000,
-      "stockAfter": 4,
-      "catKey": "google-veo",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🚀Admin5thànhviênVeo3Ultra150KCredits6thángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:9.000.0"
     }
   ],
   "bot-tele": {
