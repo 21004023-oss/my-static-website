@@ -5338,16 +5338,16 @@
         "id": "p-1792052819376",
         "name": "Meitu Vip+ 7 Ngày  BHF",
         "price": 35000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
         "detail": "Meitu SVIP(VIP+) 7 Ngày login 1 thiết bị, nếu đăng nhập trên điện thoại lỗi thì có thể đăng nhập sử dụng trên PC, Mac\n- Định dạng: (Email|Pass Hotmail|Pass Meitu) Token\n- Pass Meitu mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\n・Link tải Meitu cho máy tính Windows\nhttps://meitu.vi.uptodown.com/windows\n・Link tải Meitu cho máy tính Mac OS\nhttps://meitu.vi.uptodown.com/mac\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 11,
+            "stock": 3,
             "cost_price": 25000,
-            "updated": "08:30 18/10/2026",
-            "selling_price": 35000
+            "selling_price": 35000,
+            "updated": "20:32 18/10/2026"
           }
         },
         "hidden": true,
@@ -6343,6 +6343,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792330338837",
+      "time": "20:32 - 18/10/2026",
+      "timestamp": 1792330338837,
+      "name": "Meitu Vip+ 7 Ngày  BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 3,
+      "addedQty": 10,
+      "price": 35000,
+      "stockAfter": 3,
+      "catKey": "meitu-wink",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "✨MeituVip+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:3💰Giá:25.000đ"
+    },
     {
       "id": "hist-1792330332777",
       "time": "20:32 - 18/10/2026",
@@ -7728,20 +7742,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎁Chươngtrìnhgiớithiệubạnbè•Chiasẻlinkbotkèmmãgiớithiệucủabạn.•Khingườiđượcmờiphá"
-    },
-    {
-      "id": "hist-1792282167653",
-      "time": "07:09 - 18/10/2026",
-      "timestamp": 1792282167653,
-      "name": "ChatGPT Pro 100 - 1 tháng BH 20 ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 3,
-      "addedQty": 3,
-      "price": 1800000,
-      "stockAfter": 3,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPro100-1thángBH20ngày➕Thêm:3📦Tồnkhohiệntại:3💰Giá:1.800.000đ"
     }
   ]
 }
