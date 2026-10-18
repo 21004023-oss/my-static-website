@@ -1182,7 +1182,7 @@
       {
         "id": "p-1792289373179",
         "name": "ChatGPT Free Gmail KBH",
-        "price": 10000,
+        "price": 20000,
         "stock": 180,
         "stock_text": "Còn 180",
         "duration": "1 Tháng",
@@ -1191,10 +1191,13 @@
           "sieuthistore_bot": {
             "stock": 180,
             "cost_price": 10000,
-            "updated": "09:09 18/10/2026"
+            "selling_price": 20000,
+            "updated": "09:25 18/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "cost_price": 10000,
+        "needs_review": true
       }
     ]
   },
@@ -5353,6 +5356,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792290329984",
+      "time": "09:25 - 18/10/2026",
+      "timestamp": 1792290329984,
+      "name": "ChatGPT Free Gmail KBH",
+      "bot": "sieuthistore_bot",
+      "shopStock": 180,
+      "addedQty": 0,
+      "price": 20000,
+      "stockAfter": 180,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTFreeGmailKBH💰Giá:10k📦Tồnkho:180tàikhoản📊Đãbán:1.895tàikhoản💎Môtả:🔐Accriê"
+    },
+    {
       "id": "hist-1792290323002",
       "time": "09:25 - 18/10/2026",
       "timestamp": 1792290323002,
@@ -6737,20 +6754,6 @@
       "catKey": "google-veo",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🚀Admin5thànhviênVeo3Ultra300KCredits12thángBHF➕Thêm:5📦Tồnkhohiệntại:4💰Giá:20.000"
-    },
-    {
-      "id": "hist-1792231006684",
-      "time": "16:56 - 17/10/2026",
-      "timestamp": 1792231006684,
-      "name": "Buff 30 Tỉ Token Muse AI KBH",
-      "bot": "sieuthistore_bot",
-      "shopStock": 1,
-      "addedQty": 1,
-      "price": 170000,
-      "stockAfter": 1,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐Buff30TỉTokenMuseAIKBH➕Thêm:1📦Tồnkhohiệntại:1💰Giá:170.000đ"
     }
   ],
   "bot-tele": {
