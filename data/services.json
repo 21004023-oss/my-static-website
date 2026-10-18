@@ -4091,9 +4091,9 @@
       {
         "id": "p-1791925962704",
         "name": "MEITU VIP+ 1 THÁNG BHF",
-        "price": 80000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "price": 90000,
+        "stock": 43,
+        "stock_text": "Còn 43",
         "duration": "1 Tháng",
         "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.",
         "sources": {
@@ -4102,9 +4102,16 @@
             "cost_price": 60000,
             "updated": "06:06 15/10/2026",
             "selling_price": 70000
+          },
+          "ntnshopre_bot": {
+            "stock": 34,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "11:40 18/10/2026"
           }
         },
-        "cost_price": 70000
+        "cost_price": 80000,
+        "needs_review": true
       },
       {
         "id": "p-1791925999209",
@@ -6026,6 +6033,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792298446341",
+      "time": "11:40 - 18/10/2026",
+      "timestamp": 1792298446341,
+      "name": "MEITU VIP+ 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 34,
+      "addedQty": 24,
+      "price": 90000,
+      "stockAfter": 43,
+      "catKey": "khac",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "✨MEITUVIP+1THÁNGBHF➕Thêm:24📦Tồnkhohiệntại:34💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1792297518967",
       "time": "11:25 - 18/10/2026",
       "timestamp": 1792297518967,
@@ -7410,20 +7431,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH20DAYS➕Thêm:10📦Tồnkhohiệntại:10💰Giá:239.999đ"
-    },
-    {
-      "id": "hist-1792238670312",
-      "time": "19:04 - 17/10/2026",
-      "timestamp": 1792238670312,
-      "name": "Slot Youtube Premium 3 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 563,
-      "addedQty": 2,
-      "price": 95000,
-      "stockAfter": 563,
-      "catKey": "youtube",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:563💰Giá:95.000đ"
     }
   ],
   "bot-tele": {
