@@ -4033,11 +4033,11 @@
             "stock": 16,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "16:52 18/10/2026"
+            "updated": "17:09 18/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 45000,
+        "cost_price": 25000,
         "needs_review": true
       },
       {
@@ -6305,6 +6305,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792318199238",
+      "time": "17:09 - 18/10/2026",
+      "timestamp": 1792318199238,
+      "name": "Gmail random 5-10 tháng 2FA",
+      "bot": "taphoathomap_bot",
+      "shopStock": 16,
+      "addedQty": 0,
+      "price": 35000,
+      "stockAfter": 32,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧Gmailrandom5-10tháng2FA💰Giá:25k📦Tồnkho:16tàikhoản📊Đãbán:3.906tàikhoản💎Môtả:Định"
+    },
+    {
       "id": "hist-1792318194072",
       "time": "17:09 - 18/10/2026",
       "timestamp": 1792318194072,
@@ -7689,20 +7703,6 @@
       "catKey": "kling",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🎬KLING792-992cre1tháng(BH24h)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1792280145282",
-      "time": "06:35 - 18/10/2026",
-      "timestamp": 1792280145282,
-      "name": "CAPCUT PRO CÁ NHÂN 3 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 5,
-      "addedQty": 5,
-      "price": 130000,
-      "stockAfter": 5,
-      "catKey": "capcut",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN3THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:130.000đ"
     }
   ]
 }
