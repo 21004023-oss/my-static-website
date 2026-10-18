@@ -4180,7 +4180,7 @@
             "stock": 34,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "13:35 18/10/2026"
+            "updated": "13:46 18/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 24,
@@ -6106,6 +6106,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792305973936",
+      "time": "13:46 - 18/10/2026",
+      "timestamp": 1792305973936,
+      "name": "MEITU VIP+ 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 34,
+      "addedQty": 24,
+      "price": 90000,
+      "stockAfter": 67,
+      "catKey": "khac",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "✨MEITUVIP+1THÁNGBHF➕Thêm:24📦Tồnkhohiệntại:34💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1792305969447",
       "time": "13:46 - 18/10/2026",
       "timestamp": 1792305969447,
@@ -7490,20 +7504,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:1📦Tồnkhohiệntại:65💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1792256292426",
-      "time": "23:58 - 17/10/2026",
-      "timestamp": 1792256292426,
-      "name": "Link Gemini Pro 18 Tháng",
-      "bot": "sieuthistore_bot",
-      "shopStock": 65,
-      "addedQty": 1,
-      "price": 45000,
-      "stockAfter": 65,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:1📦Tồnkhohiệntại:65💰Giá:45.000đ"
     }
   ],
   "bot-tele": {
