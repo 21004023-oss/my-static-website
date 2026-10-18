@@ -1142,7 +1142,7 @@
           </p>
         </div>
         <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
-          <button class="btn btn-primary" onclick="openOrderModal()" style="font-weight:700;">
+          <button id="btnOpenCreateOrder" class="btn btn-primary" onclick="openOrderModal()" style="font-weight:700;">
             ➕ Tạo Đơn Cấp Acc Mới
           </button>
           <button class="btn btn-success" onclick="exportOrdersToExcelCSV()">
@@ -1337,8 +1337,6 @@
             <label class="form-label">Thời hạn:</label>
             <input type="text" id="inpDuration" class="form-control" placeholder="1 Tháng, 1 Năm..." />
           </div>
-
-        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
           <div class="form-group">
             <label class="form-label">Loại tồn kho:</label>
             <select id="inpStockType" class="form-control" onchange="toggleStockInput()">
@@ -1346,10 +1344,10 @@
               <option value="infinity">Vô cực (∞)</option>
             </select>
           </div>
-          <div class="form-group" id="stockNumberWrap">
-            <label class="form-label">Số lượng:</label>
-            <input type="number" id="inpStockNumber" class="form-control" placeholder="Ví dụ: 10" />
-          </div>
+        </div>
+        <div class="form-group" id="stockNumberWrap">
+          <label class="form-label">Số lượng:</label>
+          <input type="number" id="inpStockNumber" class="form-control" placeholder="Ví dụ: 10" />
         </div>
 
         <div class="form-group">
@@ -3178,7 +3176,19 @@
       reader.readAsText(file);
     }
 
-    document.addEventListener('DOMContentLoaded', checkExistingSession);
+    document.addEventListener('DOMContentLoaded', () => {
+      checkExistingSession();
+      const orderM = document.getElementById('orderModal');
+      if (orderM) {
+        orderM.addEventListener('click', (e) => {
+          if (e.target === orderM) closeOrderModal();
+        });
+      }
+      const btnCreate = document.getElementById('btnOpenCreateOrder');
+      if (btnCreate) {
+        btnCreate.addEventListener('click', () => openOrderModal());
+      }
+    });
   
 // ==========================================
     // MODULE: QUẢN LÝ ĐƠN HÀNG & CẤP ACC SHOP
@@ -3468,50 +3478,68 @@
     }
 
     function openOrderModal(idx = -1) {
-      document.getElementById('inpOrderIndex').value = idx;
-      populateOrderPlanSelect();
-
-      if (idx >= 0 && ordersData[idx]) {
-        const o = ordersData[idx];
-        document.getElementById('orderModalTitle').innerText = '✏️ Chỉnh Sửa Đơn Hàng ' + o.id;
-        document.getElementById('inpOrderId').value = o.id || '';
-        document.getElementById('inpOrderDate').value = o.date || '';
-        document.getElementById('inpOrderPlanName').value = o.plan_name || '';
-        document.getElementById('inpOrderAccount').value = o.account || '';
-        document.getElementById('inpOrderPassword2FA').value = o.password_2fa || '';
-        document.getElementById('inpOrderExpireDate').value = o.expire_date || '';
-        document.getElementById('inpOrderCustomerPrice').value = o.customer_price || 0;
-        document.getElementById('inpOrderShopCost').value = o.shop_cost || 0;
-        document.getElementById('inpOrderSaleCommission').value = o.sale_commission || 0;
-        document.getElementById('inpOrderSaleName').value = o.sale_name || 'Admin';
-        document.getElementById('selOrderStatus').value = o.status || '✅ Đang hoạt động';
-      } else {
-        document.getElementById('orderModalTitle').innerText = '📦 Cấp Tài Khoản Đơn Hàng Mới';
-        
-        // Sinh mã đơn tự động DH-xxx
-        const nextId = 'DH-' + String(ordersData.length + 1).padStart(3, '0');
-        document.getElementById('inpOrderId').value = nextId;
-
-        // Ngày hiện tại
-        const now = new Date();
-        const dd = String(now.getDate()).padStart(2, '0');
-        const mm = String(now.getMonth() + 1).padStart(2, '0');
-        const yyyy = now.getFullYear();
-        document.getElementById('inpOrderDate').value = `${dd}/${mm}/${yyyy}`;
-
-        document.getElementById('inpOrderPlanName').value = '';
-        document.getElementById('inpOrderAccount').value = '';
-        document.getElementById('inpOrderPassword2FA').value = '';
-        document.getElementById('inpOrderExpireDate').value = '';
-        document.getElementById('inpOrderCustomerPrice').value = 0;
-        document.getElementById('inpOrderShopCost').value = 0;
-        document.getElementById('inpOrderSaleCommission').value = 0;
-        document.getElementById('inpOrderSaleName').value = 'Admin';
-        document.getElementById('selOrderStatus').value = '✅ Đang hoạt động';
+      const orderM = document.getElementById('orderModal');
+      if (orderM) {
+        orderM.style.display = 'flex';
+        orderM.classList.add('active');
       }
 
-      calcOrderProfits();
-      const orderM = document.getElementById('orderModal'); orderM.style.display = 'flex'; orderM.classList.add('active');
+      try {
+        const chkManual = document.getElementById('chkManualPriceEdit');
+        if (chkManual) chkManual.checked = false;
+        const custInp = document.getElementById('inpOrderCustomerPrice');
+        if (custInp) custInp.readOnly = true;
+        const costInp = document.getElementById('inpOrderShopCost');
+        if (costInp) costInp.readOnly = true;
+        const commInp = document.getElementById('inpOrderSaleCommission');
+        if (commInp) commInp.readOnly = true;
+
+        document.getElementById('inpOrderIndex').value = idx;
+        populateOrderPlanSelect();
+
+        if (idx >= 0 && ordersData[idx]) {
+          const o = ordersData[idx];
+          document.getElementById('orderModalTitle').innerText = '✏️ Chỉnh Sửa Đơn Hàng ' + o.id;
+          document.getElementById('inpOrderId').value = o.id || '';
+          document.getElementById('inpOrderDate').value = o.date || '';
+          document.getElementById('inpOrderPlanName').value = o.plan_name || '';
+          document.getElementById('inpOrderAccount').value = o.account || '';
+          document.getElementById('inpOrderPassword2FA').value = o.password_2fa || '';
+          document.getElementById('inpOrderExpireDate').value = o.expire_date || '';
+          document.getElementById('inpOrderCustomerPrice').value = o.customer_price || 0;
+          document.getElementById('inpOrderShopCost').value = o.shop_cost || 0;
+          document.getElementById('inpOrderSaleCommission').value = o.sale_commission || 0;
+          document.getElementById('inpOrderSaleName').value = o.sale_name || 'Admin';
+          document.getElementById('selOrderStatus').value = o.status || '✅ Đang hoạt động';
+        } else {
+          document.getElementById('orderModalTitle').innerText = '📦 Cấp Tài Khoản Đơn Hàng Mới';
+          
+          // Sinh mã đơn tự động DH-xxx
+          const nextId = 'DH-' + String(ordersData.length + 1).padStart(3, '0');
+          document.getElementById('inpOrderId').value = nextId;
+
+          // Ngày hiện tại
+          const now = new Date();
+          const dd = String(now.getDate()).padStart(2, '0');
+          const mm = String(now.getMonth() + 1).padStart(2, '0');
+          const yyyy = now.getFullYear();
+          document.getElementById('inpOrderDate').value = `${dd}/${mm}/${yyyy}`;
+
+          document.getElementById('inpOrderPlanName').value = '';
+          document.getElementById('inpOrderAccount').value = '';
+          document.getElementById('inpOrderPassword2FA').value = '';
+          document.getElementById('inpOrderExpireDate').value = '';
+          document.getElementById('inpOrderCustomerPrice').value = 0;
+          document.getElementById('inpOrderShopCost').value = 0;
+          document.getElementById('inpOrderSaleCommission').value = 0;
+          document.getElementById('inpOrderSaleName').value = 'Admin';
+          document.getElementById('selOrderStatus').value = '✅ Đang hoạt động';
+        }
+
+        calcOrderProfits();
+      } catch (err) {
+        console.error("Lỗi khi mở modal đơn hàng:", err);
+      }
     }
 
     function closeOrderModal() {
