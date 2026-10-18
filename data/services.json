@@ -435,16 +435,16 @@
         "id": "p-1791898409445",
         "name": "ChatGPT Ver Students chính chủ  Plus 4 Tháng KBH",
         "price": 410000,
-        "stock": 36,
-        "stock_text": "Còn 36",
+        "stock": -1,
+        "stock_text": "Vô cực (∞)",
         "duration": "4 Tháng",
         "detail": "- Sau khi thanh toán nhắn tin cho admin @khaidayne để được xác minh sinh viên nhé\n- Sau khi xác minh xong về mọi người tự thêm thẻ thanh toán ạ",
         "sources": {
           "piggyai99_bot": {
-            "stock": 36,
+            "stock": -1,
             "cost_price": 360000,
             "selling_price": 410000,
-            "updated": "14:00 18/10/2026"
+            "updated": "17:08 18/10/2026"
           }
         },
         "cost_price": 360000,
@@ -6305,6 +6305,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792318137574",
+      "time": "17:08 - 18/10/2026",
+      "timestamp": 1792318137574,
+      "name": "ChatGPT Ver Students chính chủ  Plus 4 Tháng KBH",
+      "bot": "piggyai99_bot",
+      "shopStock": -1,
+      "addedQty": 0,
+      "price": 410000,
+      "stockAfter": -1,
+      "catKey": "chatgpt",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🤖ChatGPTVerStudentschínhchủPlus4ThángKBH💰Giá:360k📦Tồnkho:∞tàikhoản📊Đãbán:0tàikho"
+    },
+    {
       "id": "hist-1792317140504",
       "time": "16:52 - 18/10/2026",
       "timestamp": 1792317140504,
@@ -7689,20 +7703,6 @@
       "catKey": "google-veo",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🚀Admin5thànhviênVeo3Ultra75KCredits3thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:6.000.00"
-    },
-    {
-      "id": "hist-1792268578812",
-      "time": "03:22 - 18/10/2026",
-      "timestamp": 1792268578812,
-      "name": "Microsoft 365 Admin Family 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 19,
-      "addedQty": 10,
-      "price": 30000,
-      "stockAfter": 19,
-      "catKey": "microsoft",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐Microsoft365AdminFamily1ThángBHF➕Thêm:10📦Tồnkhohiệntại:19💰Giá:30.000đ"
     }
   ]
 }
