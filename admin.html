@@ -3511,11 +3511,11 @@
       }
 
       calcOrderProfits();
-      document.getElementById('orderModal').style.display = 'flex';
+      const orderM = document.getElementById('orderModal'); orderM.style.display = 'flex'; orderM.classList.add('active');
     }
 
     function closeOrderModal() {
-      document.getElementById('orderModal').style.display = 'none';
+      const orderM = document.getElementById('orderModal'); orderM.style.display = 'none'; orderM.classList.remove('active');
     }
 
     function editOrderEntry(idx) {
