@@ -4971,6 +4971,25 @@
         },
         "hidden": false,
         "needs_review": true
+      },
+      {
+        "id": "p-1792307363682",
+        "name": "Express VPN 3 Ngày BHF",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "1 Tháng",
+        "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 6,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "14:09 18/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -6226,6 +6245,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792307363682",
+      "time": "14:09 - 18/10/2026",
+      "timestamp": 1792307363682,
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 6,
+      "addedQty": 6,
+      "price": 35000,
+      "stockAfter": 6,
+      "catKey": "vpn",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:25.000đ"
+    },
     {
       "id": "hist-1792306864160",
       "time": "14:01 - 18/10/2026",
@@ -7611,20 +7644,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🤖ChatGPTVerStudentschínhchủPlus4ThángKBH➕Thêm:2📦Tồnkhohiệntại:34💰Giá:360.000đ"
-    },
-    {
-      "id": "hist-1792259154936",
-      "time": "00:45 - 18/10/2026",
-      "timestamp": 1792259154936,
-      "name": "Grammarly AI Pro 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 7,
-      "addedQty": 0,
-      "price": 70000,
-      "stockAfter": 21,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐GrammarlyAIPro1ThángBHF💰Giá:70k📦Tồnkho:7tàikhoản📊Đãbán:102tàikhoản💎Môtả:Grammar"
     }
   ]
 }
