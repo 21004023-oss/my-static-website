@@ -2480,19 +2480,20 @@
         "id": "p-1791958427941",
         "name": "API Claude 100M Token 1 ngày BHF",
         "price": 110000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Ngày",
         "detail": "-API Claude 100M-Hàng anthropic\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Base Url : https://api.opusapi.store/\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-File hướng dẫn sử dụng và thiết lập:\n+ENGLISH: https://docs.google.com/document/d/1-r0i4qkHToW3exdkJfUAzin78s_bRbYb4nnvchhvtjg/edit?usp=sharing\n+VIETNAM: https://docs.google.com/document/d/1rBLXYdzTHL5mvm6c8d4QN2c7qWh8Cjj8sgEEf-_Wzug/edit?usp=sharing",
         "sources": {
           "piggyai99_bot": {
-            "stock": 4,
+            "stock": 2,
             "cost_price": 100000,
-            "updated": "16:39 17/10/2026",
-            "selling_price": 110000
+            "selling_price": 110000,
+            "updated": "16:36 18/10/2026"
           }
         },
-        "cost_price": 100000
+        "cost_price": 100000,
+        "needs_review": true
       },
       {
         "id": "p-1791993142500",
@@ -6303,6 +6304,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792316178949",
+      "time": "16:36 - 18/10/2026",
+      "timestamp": 1792316178949,
+      "name": "API Claude 100M Token 1 ngày BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 2,
+      "addedQty": 1,
+      "price": 110000,
+      "stockAfter": 2,
+      "catKey": "api-claude-codex",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🧠APIClaude100MToken1ngàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1792313863742",
       "time": "15:57 - 18/10/2026",
       "timestamp": 1792313863742,
@@ -7687,20 +7702,6 @@
       "catKey": "microsoft",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐AdminMicrosoft365Family1ThángBHF➕Thêm:10📦Tồnkhohiệntại:19💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792266081050",
-      "time": "02:41 - 18/10/2026",
-      "timestamp": 1792266081050,
-      "name": "Slot Youtube Premium 6 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 553,
-      "addedQty": 2,
-      "price": 165000,
-      "stockAfter": 553,
-      "catKey": "youtube",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "▶️SlotYoutubePremium6ThángBHF➕Thêm:2📦Tồnkhohiệntại:553💰Giá:165.000đ"
     }
   ]
 }
