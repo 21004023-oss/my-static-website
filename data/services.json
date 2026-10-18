@@ -540,19 +540,20 @@
         "id": "p-1791933349082",
         "name": "ChatGPT Plus K12 Edu 2 năm - BH 24H",
         "price": 105000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "2 Năm",
         "detail": "🔐 Tài khoản riêng tư – Có thể đổi mật khẩu , 2FA thoải mái\n📂 Định dạng: TK | Pass | 2FA\n✅ Bảo hành: Tài khoản die hoặc mất gói\n✅ Nguyên zin codex, chưa sử dụng\n⚠️ Khách mua về tự Ver codex, Chức năng tạo ảnh hạn chế\n⚠️ Lưu ý:\n• Sau khi mua, vui lòng đọc kỹ và làm theo hướng dẫn trong file để kích hoạt K12 : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link\n✅ Sử dụng cả hai mô hình GPT-6 Astra và GPT-5.6 Sol\n✅CÓ THỂ KHÔNG CẦN ĐỔI 2FA ĐỂ TRÁNH LỖI",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 22,
+            "stock": 20,
             "cost_price": 85000,
-            "updated": "22:45 17/10/2026",
-            "selling_price": 95000
+            "selling_price": 95000,
+            "updated": "13:50 18/10/2026"
           }
         },
-        "cost_price": 95000
+        "cost_price": 85000,
+        "needs_review": true
       },
       {
         "id": "p-1791934033720",
@@ -6107,6 +6108,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792306223442",
+      "time": "13:50 - 18/10/2026",
+      "timestamp": 1792306223442,
+      "name": "ChatGPT Plus K12 Edu 2 năm - BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 20,
+      "addedQty": 12,
+      "price": 95000,
+      "stockAfter": 20,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH24H➕Thêm:12📦Tồnkhohiệntại:20💰Giá:85.000đ"
+    },
+    {
       "id": "hist-1792306168311",
       "time": "13:49 - 18/10/2026",
       "timestamp": 1792306168311,
@@ -7491,20 +7506,6 @@
       "catKey": "khac",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🎬TàiKhoảnNetflixPremium2ngàyBHF💰Giá:35k📦Tồnkho:2tàikhoản📊Đãbán:35tàikhoản"
-    },
-    {
-      "id": "hist-1792256301350",
-      "time": "23:58 - 17/10/2026",
-      "timestamp": 1792256301350,
-      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
-      "bot": "piggyai99_bot",
-      "shopStock": 65,
-      "addedQty": 1,
-      "price": 40000,
-      "stockAfter": 130,
-      "catKey": "khac",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:1📦Tồnkhohiệntại:65💰Giá:40.000đ"
     }
   ],
   "bot-tele": {
