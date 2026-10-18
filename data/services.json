@@ -1767,7 +1767,8 @@
           "piggyai99_bot": {
             "stock": 21,
             "cost_price": 33000,
-            "updated": "04:53 18/10/2026"
+            "selling_price": 43000,
+            "updated": "09:24 18/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 153,
@@ -1776,7 +1777,8 @@
           }
         },
         "hidden": true,
-        "needs_review": true
+        "needs_review": true,
+        "cost_price": 33000
       },
       {
         "id": "p-1792119807992",
@@ -5338,6 +5340,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792290294731",
+      "time": "09:24 - 18/10/2026",
+      "timestamp": 1792290294731,
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 21,
+      "addedQty": 0,
+      "price": 43000,
+      "stockAfter": 174,
+      "catKey": "capcut",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF💰Giá:33k📦Tồnkho:21tàikhoản📊Đãbán:383tàikhoản💎Môtả:CAPCUTP"
+    },
+    {
       "id": "hist-1792289758641",
       "time": "09:15 - 18/10/2026",
       "timestamp": 1792289758641,
@@ -6722,20 +6738,6 @@
       "catKey": "khac",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐MuseAI31TỷToken1thángKBH➕Thêm:10📦Tồnkhohiệntại:10💰Giá:170.000đ"
-    },
-    {
-      "id": "hist-1792228903945",
-      "time": "16:21 - 17/10/2026",
-      "timestamp": 1792228903945,
-      "name": "Tạo 1 Video Higgsfield Genjutsu 1 tháng BH  1H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 9,
-      "addedQty": 3,
-      "price": 25000,
-      "stockAfter": 9,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬Tạo1VideoHiggsfieldGenjutsu1thángBH1H➕Thêm:3📦Tồnkhohiệntại:9💰Giá:25.000đ"
     }
   ],
   "bot-tele": {
