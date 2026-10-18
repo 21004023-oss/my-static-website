@@ -600,20 +600,21 @@
       {
         "id": "p-1791950549274",
         "name": "ChatGPT Ver Students Plus 4 Tháng KBH",
-        "price": 330000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "price": 370000,
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "4 Tháng",
         "detail": "ChatGPT Ver Students Plus 4 Tháng Hàng này mọi người nhận về, chỉ cần vào https://chatgpt.com/students/2026/ Bấm vào Yêu cầu Ưu đãi sẽ nhận được Link Pay 4 tháng Plus. Hàng này AE về tự thanh toán nhé! Đã Verify Học viên sẵn sàng hết rồi. Hoàn tiền không được hỗ trợ , mua về tự động đổi 2fa. + mail",
         "sources": {
           "piggyai99_bot": {
-            "stock": 12,
-            "cost_price": 300000,
-            "updated": "10:18 15/10/2026",
-            "selling_price": 330000
+            "stock": 4,
+            "cost_price": 320000,
+            "selling_price": 370000,
+            "updated": "06:49 19/10/2026"
           }
         },
-        "cost_price": 300000
+        "cost_price": 320000,
+        "needs_review": true
       },
       {
         "id": "p-1791951111143",
@@ -6537,6 +6538,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792367373917",
+      "time": "06:49 - 19/10/2026",
+      "timestamp": 1792367373917,
+      "name": "ChatGPT Ver Students Plus 4 Tháng KBH",
+      "bot": "piggyai99_bot",
+      "shopStock": 4,
+      "addedQty": 2,
+      "price": 370000,
+      "stockAfter": 4,
+      "catKey": "chatgpt",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🤖ChatGPTVerStudentsPlus4ThángKBH➕Thêm:2📦Tồnkhohiệntại:4💰Giá:320.000đ"
+    },
+    {
       "id": "hist-1792367133331",
       "time": "06:45 - 19/10/2026",
       "timestamp": 1792367133331,
@@ -7921,20 +7936,6 @@
       "catKey": "khac",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🎬SlotProfileNetflixPremium4K1ThángBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:155.000đ"
-    },
-    {
-      "id": "hist-1792303140777",
-      "time": "12:59 - 18/10/2026",
-      "timestamp": 1792303140777,
-      "name": "Admin Notion Business 3 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 2,
-      "addedQty": 2,
-      "price": 410000,
-      "stockAfter": 4,
-      "catKey": "notion",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐AdminNotionBusiness3thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:380.000đ"
     }
   ]
 }
