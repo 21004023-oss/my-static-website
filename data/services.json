@@ -3164,6 +3164,25 @@
         },
         "hidden": false,
         "cost_price": 25000
+      },
+      {
+        "id": "p-1792309664458",
+        "name": "Spotify Premium 1-2 tháng KBH",
+        "price": 60000,
+        "cost_price": 50000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "2 Tháng",
+        "detail": "Bảo hành 1 tháng, có tỉ lệ cao sang tháng thứ 2 renew tiếp",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 10,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "14:47 18/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=spotify.com&sz=64"
@@ -6259,6 +6278,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792309664458",
+      "time": "14:47 - 18/10/2026",
+      "timestamp": 1792309664458,
+      "name": "Spotify Premium 1-2 tháng KBH",
+      "bot": "sieuthistore_bot",
+      "shopStock": 10,
+      "addedQty": 10,
+      "price": 60000,
+      "stockAfter": 10,
+      "catKey": "spotify",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐SpotifyPremium1-2thángKBH➕Thêm:10📦Tồnkhohiệntại:10💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1792308354799",
       "time": "14:25 - 18/10/2026",
       "timestamp": 1792308354799,
@@ -7643,20 +7676,6 @@
       "catKey": "khac",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐AcccấpZoomPro28NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1792263564666",
-      "time": "01:59 - 18/10/2026",
-      "timestamp": 1792263564666,
-      "name": "ChatGPT Go 1 Tháng - BH 3 Ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 30,
-      "addedQty": 50,
-      "price": 60000,
-      "stockAfter": 30,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTGo1Tháng-BH3Ngày➕Thêm:50📦Tồnkhohiệntại:30💰Giá:60.000đ"
     }
   ]
 }
