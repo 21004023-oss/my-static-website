@@ -4179,7 +4179,7 @@
             "stock": 34,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "11:40 18/10/2026"
+            "updated": "13:35 18/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 24,
@@ -4188,7 +4188,7 @@
             "updated": "11:40 18/10/2026"
           }
         },
-        "cost_price": 70000,
+        "cost_price": 80000,
         "needs_review": true
       },
       {
@@ -6092,6 +6092,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792305308775",
+      "time": "13:35 - 18/10/2026",
+      "timestamp": 1792305308775,
+      "name": "MEITU VIP+ 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 34,
+      "addedQty": 0,
+      "price": 90000,
+      "stockAfter": 67,
+      "catKey": "khac",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "✨MEITUVIP+1THÁNGBHF💰Giá:80k📦Tồnkho:34tàikhoản📊Đãbán:1.366tàikhoản💎Môtả:Mởkhóaful"
+    },
+    {
       "id": "hist-1792305299489",
       "time": "13:34 - 18/10/2026",
       "timestamp": 1792305299489,
@@ -7476,20 +7490,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:16📦Tồnkhohiệntại:21💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1792251936310",
-      "time": "22:45 - 17/10/2026",
-      "timestamp": 1792251936310,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 22,
-      "addedQty": 14,
-      "price": 85000,
-      "stockAfter": 22,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH24H➕Thêm:14📦Tồnkhohiệntại:22💰Giá:85.000đ"
     }
   ],
   "bot-tele": {
