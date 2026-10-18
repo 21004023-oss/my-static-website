@@ -5138,19 +5138,22 @@
       {
         "id": "p-1792256292426",
         "name": "Link Gemini Pro 18 Tháng",
-        "price": 45000,
-        "stock": 100,
-        "stock_text": "Còn 100",
+        "price": 55000,
+        "stock": 63,
+        "stock_text": "Còn 63",
         "duration": "18 Tháng",
         "detail": "⚡ GEMINI AI PRO — LINK NÂNG CHÍNH CHỦ 18 THÁNG\n🛡️ CHÍNH SÁCH BẢO HÀNH\nBảo hành Active: 30 phút đầu kể từ thời điểm mua. Vui lòng active ngay với khách lẻ\nBảo hành gói: 24 giờ đầu kể từ thời điểm mua. Khách mua số lượng ít vui lòng kích hoạt và sử dụng ngay để đảm bảo quyền lợi bảo hành.\n✨ THÔNG TIN SẢN PHẨM\n- Link nâng chính chủ Gemini AI Pro lên đến 18 tháng.\n- Kích hoạt trực tiếp trên tài khoản Gmail của bạn.\n- Không cần liên kết thẻ thanh toán. -Thao tác đơn giản, kích hoạt nhanh chóng.\n- Có thể mời thêm tối đa 5 thành viên vào Family.\n📌 CÁCH KÍCH HOẠT\n- Đăng nhập vào tài khoản Gmail cần nâng cấp.\n- Truy cập Link nâng Gemini AI Pro được cung cấp.\n- Nhấn xác nhận và hoàn tất kích hoạt.\n- Kiểm tra lại gói Gemini AI Pro trên tài khoản.\n⚠️ LƯU Ý: Vui lòng kích hoạt ngay sau khi mua. Shop chỉ hỗ trợ bảo hành theo đúng thời gian quy định ở trên.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 100,
+            "stock": 63,
             "cost_price": 45000,
-            "updated": "09:15 18/10/2026"
+            "selling_price": 55000,
+            "updated": "09:25 18/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "cost_price": 45000,
+        "needs_review": true
       },
       {
         "id": "p-1792261855714",
@@ -5355,6 +5358,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792290335943",
+      "time": "09:25 - 18/10/2026",
+      "timestamp": 1792290335943,
+      "name": "Link Gemini Pro 18 Tháng",
+      "bot": "sieuthistore_bot",
+      "shopStock": 63,
+      "addedQty": 0,
+      "price": 55000,
+      "stockAfter": 63,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "☁️LinkGeminiPro18Tháng💰Giá:45k📦Tồnkho:63tàikhoản📊Đãbán:2.527tàikhoản💎Môtả:⚡GEMIN"
+    },
     {
       "id": "hist-1792290329984",
       "time": "09:25 - 18/10/2026",
@@ -6740,20 +6757,6 @@
       "catKey": "khac",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🎨AdobeAllApps7DBH12H➕Thêm:3📦Tồnkhohiệntại:4💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1792232604678",
-      "time": "17:23 - 17/10/2026",
-      "timestamp": 1792232604678,
-      "name": "Admin 5 thành viên Veo3 Ultra 300K Credits 12 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 4,
-      "addedQty": 5,
-      "price": 20000000,
-      "stockAfter": 4,
-      "catKey": "google-veo",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🚀Admin5thànhviênVeo3Ultra300KCredits12thángBHF➕Thêm:5📦Tồnkhohiệntại:4💰Giá:20.000"
     }
   ],
   "bot-tele": {
