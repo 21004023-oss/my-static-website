@@ -1115,7 +1115,15 @@
         <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px;">
           <div class="form-group">
             <label class="form-label" style="display:flex; justify-content:space-between; align-items:center;">
-              <span>Giá bán (VNĐ):</span>
+              <span>Giá vốn gốc (VNĐ):</span>
+              <span id="costPriceReadText" style="font-size:12px; color:var(--amber); font-weight:700;"></span>
+            </label>
+            <input type="number" id="inpCostPrice" class="form-control" placeholder="Ví dụ: 150000" oninput="checkCostPriceInput(this.value)" style="font-weight:700; text-align:center; font-size:14px;" />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" style="display:flex; justify-content:space-between; align-items:center;">
+              <span>Giá bán niêm yết (VNĐ):</span>
               <span id="priceReadText" style="font-size:12px; color:var(--primary); font-weight:700;"></span>
             </label>
             <div class="price-input-stepper-wrap">
@@ -1725,7 +1733,24 @@
               </div>
               <button class="tbl-step-btn plus" title="Tăng 5.000đ" onclick="adjustPlanPrice(${idx}, 5000)">+</button>
             </div>
-            <div class="tbl-price-chips">
+            ${(() => {
+              const cp = Number(p.cost_price || 0);
+              const sp = Number(p.price || 0);
+              const pf = sp - cp;
+              if (cp > 0 && pf > 0) {
+                const pct = Math.round((pf / sp) * 100);
+                return `<div style="font-size:11px; margin-top:5px; color:var(--text-muted); display:flex; align-items:center; gap:5px; flex-wrap:wrap;">
+                  <span>Vốn: <strong>${cp.toLocaleString('vi-VN')}đ</strong></span>
+                  <span style="background:rgba(16,185,129,0.15); color:var(--emerald); padding:1px 6px; border-radius:4px; font-weight:700; font-size:10.5px;">+${pf.toLocaleString('vi-VN')}đ (${pct}%)</span>
+                </div>`;
+              } else if (cp > 0 && pf === 0) {
+                return `<div style="font-size:11px; margin-top:5px; color:var(--amber); font-weight:600;">Vốn: ${cp.toLocaleString('vi-VN')}đ (Hòa vốn)</div>`;
+              } else if (cp > 0 && pf < 0) {
+                return `<div style="font-size:11px; margin-top:5px; color:var(--rose); font-weight:700;">Vốn: ${cp.toLocaleString('vi-VN')}đ (Lỗ ${Math.abs(pf).toLocaleString('vi-VN')}đ)</div>`;
+              }
+              return '';
+            })()}
+            <div class="tbl-price-chips" style="margin-top:5px;">
               <button class="tbl-chip minus" title="Giảm 10.000đ" onclick="adjustPlanPrice(${idx}, -10000)">-10k</button>
               <button class="tbl-chip minus" title="Giảm 5.000đ" onclick="adjustPlanPrice(${idx}, -5000)">-5k</button>
               <button class="tbl-chip plus" title="Tăng 5.000đ" onclick="adjustPlanPrice(${idx}, 5000)">+5k</button>
@@ -2280,6 +2305,7 @@
       document.getElementById('modalTitle').innerText = "Thêm Sản Phẩm Mới";
       document.getElementById('inpName').value = '';
       document.getElementById('inpPrice').value = '';
+      document.getElementById('inpCostPrice').value = '';
       document.getElementById('inpDuration').value = '1 Tháng';
       document.getElementById('inpStockType').value = 'number';
       document.getElementById('inpStockNumber').value = '10';
@@ -2300,6 +2326,7 @@
       document.getElementById('modalTitle').innerText = "Chỉnh Sửa Sản Phẩm";
       document.getElementById('inpName').value = p.name;
       document.getElementById('inpPrice').value = p.price;
+      document.getElementById('inpCostPrice').value = p.cost_price || p.price || '';
       document.getElementById('inpDuration').value = p.duration || '1 Tháng';
       document.getElementById('inpIsHidden').checked = !!p.hidden;
       document.getElementById('inpDetail').value = p.detail || '';
@@ -2382,6 +2409,13 @@
       }
     }
 
+    
+    function checkCostPriceInput(val) {
+      const v = Number(val) || 0;
+      const el = document.getElementById('costPriceReadText');
+      if (el) el.innerText = v > 0 ? v.toLocaleString('vi-VN') + 'đ' : '';
+    }
+
     function checkPriceLogicInput(val) {
       const p = Number(val || 0);
       updatePriceReadText(p);
@@ -2409,10 +2443,12 @@
 
       if (!name) { alert("Vui lòng nhập tên gói!"); return; }
 
+      const cost_price = Number(document.getElementById('inpCostPrice').value) || (editingPlanIndex >= 0 ? (servicesData[currentCat].plans[editingPlanIndex].cost_price || price) : price);
       const newPlan = {
         id: editingPlanIndex >= 0 ? servicesData[currentCat].plans[editingPlanIndex].id : 'p-' + Date.now(),
         name,
         price,
+        cost_price,
         stock,
         stock_text: stock === -1 ? 'Vô cực (∞)' : `Còn ${stock}`,
         duration,
