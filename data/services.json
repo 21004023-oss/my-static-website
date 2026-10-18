@@ -2843,11 +2843,20 @@
         "id": "p-1791858092378",
         "name": "Admin Notion Business 3 tháng BHF",
         "price": 480000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "3 Tháng",
-        "detail": "-Admin Notion Business (tài khoản cấp sẵn-riêng tư).\n-Định dạng: Mail | Pass | Mail Khôi Phục\n-Có thể thêm nhiều thành viên cùng sử dụng ưu đãi (20-30 thành viên).\n-Hạn gói: 3 tháng\n-Bảo hành: 3 tháng.\n-Lưu ý: Sử dụng để Code sẽ bị ban.",
-        "cost_price": 430000
+        "detail": "-Admin Notion Business (tài khoản cấp sẵn-riêng tư).\n-Định dạng: Mail | Pass | Mail Khôi Phục\n-Có thể thêm nhiều thành viên cùng sử dụng ưu đãi (20-30 thành viên).\n-Hạn gói: 2 tháng\n-Bảo hành: 2 tháng.\n-Lưu ý: Sử dụng để Code sẽ bị ban.",
+        "cost_price": 430000,
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 2,
+            "cost_price": 430000,
+            "selling_price": 480000,
+            "updated": "12:58 18/10/2026"
+          }
+        },
+        "needs_review": true
       },
       {
         "id": "p-1791865366115",
@@ -6095,6 +6104,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792303137024",
+      "time": "12:58 - 18/10/2026",
+      "timestamp": 1792303137024,
+      "name": "Admin Notion Business 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 2,
+      "addedQty": 2,
+      "price": 480000,
+      "stockAfter": 2,
+      "catKey": "notion",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐AdminNotionBusiness3thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:430.000đ"
+    },
+    {
       "id": "hist-1792302122648",
       "time": "12:42 - 18/10/2026",
       "timestamp": 1792302122648,
@@ -7479,20 +7502,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapcutProTeam6ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:340.000đ"
-    },
-    {
-      "id": "hist-1792247531195",
-      "time": "21:32 - 17/10/2026",
-      "timestamp": 1792247531195,
-      "name": "CapCut Pro Team 3 Tháng - BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 7,
-      "addedQty": 4,
-      "price": 160000,
-      "stockAfter": 7,
-      "catKey": "capcut",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:4📦Tồnkhohiệntại:7💰Giá:160.000đ"
     }
   ],
   "bot-tele": {
