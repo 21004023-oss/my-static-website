@@ -2911,6 +2911,7 @@
         const res = await fetch(`./data/orders.json?t=${Date.now()}`);
         if (res.ok) {
           ordersData = await res.json();
+          localStorage.setItem("qb_orders_data", JSON.stringify(ordersData));
         } else {
           ordersData = [];
         }
