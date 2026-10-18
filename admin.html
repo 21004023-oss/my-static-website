@@ -3672,6 +3672,21 @@
       URL.revokeObjectURL(url);
       showToast("📊 Đã xuất file CSV Đơn Hàng thành công!", "success");
     }
-</script>
+
+    // Gán trực tiếp vào window để đảm bảo onclick luôn gọi được dù chạy ở bất kỳ ngữ cảnh nào
+    window.openOrderModal = openOrderModal;
+    window.closeOrderModal = closeOrderModal;
+    window.saveOrderEntry = saveOrderEntry;
+    window.editOrderEntry = editOrderEntry;
+    window.deleteOrderEntry = deleteOrderEntry;
+    window.onOrderPlanSelectChange = onOrderPlanSelectChange;
+    window.toggleManualPriceEdit = toggleManualPriceEdit;
+    window.calcOrderProfits = calcOrderProfits;
+    window.exportOrdersToExcelCSV = exportOrdersToExcelCSV;
+    window.saveOrdersDirectToGitHub = saveOrdersDirectToGitHub;
+    window.renderOrdersTable = renderOrdersTable;
+    window.populateOrderPlanSelect = populateOrderPlanSelect;
+
+  </script>
 </body>
 </html>
