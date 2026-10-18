@@ -1489,20 +1489,31 @@
     let currentStatusFilter = 'all';
 
     const CAT_KEYWORDS = {
-      'youtube': /youtube|ytb/i,
+      'youtube': /youtube|ytb|vidiq/i,
       'chatgpt': /chatgpt|gpt|openai/i,
-      'google-veo': /google.*veo|veo/i,
+      'google-veo': /google|gemini|veo/i,
       'canva': /canva/i,
       'capcut': /capcut/i,
       'api-claude-codex': /claude|codex/i,
       'api-cursor-deepseek': /cursor|deepseek/i,
       'grok': /grok/i,
+      'kling': /kling/i,
       'spotify': /spotify/i,
       'notion': /notion/i,
-      'kling': /kling/i,
-      'gmail': /gmail|hotmail/i,
-      'microsoft': /microsoft|office|365/i,
-      'bot-tele': /bot.*tele|telegram.*spam/i
+      'gmail': /gmail|hotmail|apple\s*id/i,
+      'microsoft': /microsoft|office|\bms365\b|\bms\s*365\b/i,
+      'netflix': /netflix|vieon|youku|apple\s*music|amazon\s*prime/i,
+      'adobe': /adobe|figma|photoroom/i,
+      'vpn': /vpn|hma|kaspersky|surfshark|nordvpn|express\s*vpn/i,
+      'education': /duolingo|coursera|grammarly|skillshare/i,
+      'meitu-wink': /meitu|wink/i,
+      'ai-video-voice': /eleven|elevan|heygen/i,
+      'higgsfield': /higgsfield|higgfield|akool|seedance/i,
+      'muse-ai': /muse/i,
+      'work-dev': /jetbrains|jetbrain|zoom|gamma|kiro|elser/i,
+      'social': /tiktok|locket|facebook/i,
+      'bot-tele': /bot.*tele|telegram.*spam|telegram/i,
+      'khac': /khac/i
     };
 
     async function initAdminData() {
@@ -1679,9 +1690,14 @@
         item.className = `cat-item ${k === currentCat ? 'active' : ''}`;
         const planCount = servicesData[k].plans ? servicesData[k].plans.length : 0;
         const catName = servicesData[k].name || k;
+        const catLogo = servicesData[k].logo || '';
+        const logoImg = catLogo ? `<img src="${catLogo}" style="width:18px; height:18px; border-radius:4px; object-fit:cover; flex-shrink:0;" onerror="this.style.display='none'">` : '<span style="font-size:13px;">📁</span>';
 
         item.innerHTML = `
-          <span>${catName}</span>
+          <span style="display:flex; align-items:center; gap:8px; min-width:0; overflow:hidden; text-overflow:ellipsis;">
+            ${logoImg}
+            <span style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${catName}</span>
+          </span>
           <span class="cat-count">${planCount}</span>
         `;
 
@@ -1771,7 +1787,9 @@
         const filterDesc = parts.join(' • ') || '🌟 Toàn bộ kho hàng';
         titleEl.innerHTML = `${filterDesc} <span style="font-size:12px; font-weight:normal; color:var(--text-muted); margin-left:6px;">(${plansToRender.length} gói)</span> <button class="btn btn-outline" style="font-size:11px; padding:2px 8px; margin-left:8px;" onclick="clearGlobalSearch()">✕ Xóa lọc</button>`;
       } else {
-        titleEl.innerText = (servicesData[currentCat] && servicesData[currentCat].name) ? servicesData[currentCat].name : currentCat;
+        const activeCat = servicesData[currentCat] || {};
+        const activeLogo = activeCat.logo ? `<img src="${activeCat.logo}" style="width:24px; height:24px; border-radius:6px; object-fit:cover; vertical-align:middle; margin-right:8px;" onerror="this.style.display='none'">` : '';
+        titleEl.innerHTML = `${activeLogo}<span>${activeCat.name || currentCat}</span>`;
       }
 
       if (plansToRender.length === 0) {
@@ -1823,8 +1841,11 @@
           `<button class="btn-toggle-eye is-hidden" onclick="togglePlanVisibility(${idx}, '${catKey}')" title="Nhấp để hiển thị lại gói này lên Website">🙈 Đã ẩn (Hiện lại)</button>` :
           `<button class="btn-toggle-eye" onclick="togglePlanVisibility(${idx}, '${catKey}')" title="Nhấp để tạm ẩn gói này khỏi Website">👁️ Đang hiện</button>`;
 
+        const catLogoUrl = (servicesData[catKey] && servicesData[catKey].logo) ? servicesData[catKey].logo : '';
+        const catBadgeLogoHtml = catLogoUrl ? `<img src="${catLogoUrl}" style="width:13px; height:13px; border-radius:3px; object-fit:cover; margin-right:4px;" onerror="this.style.display='none'">` : '';
+
         const catBadgeHtml = isGlobalSearch ?
-          `<span class="badge badge-source" style="margin-left:6px; background:rgba(99,102,241,0.15); color:var(--primary); font-size:10.5px; cursor:pointer;" onclick="selectCategoryDirectly('${catKey}')" title="Bấm để lọc riêng danh mục này">📁 ${catName}</span>` : '';
+          `<span class="badge badge-source" style="margin-left:6px; background:rgba(99,102,241,0.15); color:var(--primary); font-size:10.5px; cursor:pointer; display:inline-flex; align-items:center;" onclick="selectCategoryDirectly('${catKey}')" title="Bấm để lọc riêng danh mục này">${catBadgeLogoHtml}${catName}</span>` : '';
 
         tr.innerHTML = `
           <td style="text-align:center; cursor:${(query || isGlobalSearch) ? 'default' : 'grab'}; color:var(--text-muted);">${(query || isGlobalSearch) ? '•' : '⠿'}</td>
