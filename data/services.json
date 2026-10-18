@@ -350,8 +350,8 @@
         "id": "p-1791854770760",
         "name": "ChatGPT Plus GGPay 30D BH 24H",
         "price": 240000,
-        "stock": 49,
-        "stock_text": "Còn 49",
+        "stock": 68,
+        "stock_text": "Còn 68",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
         "sources": {
@@ -362,14 +362,15 @@
             "selling_price": 210000
           },
           "sieuthistore_bot": {
-            "stock": 8,
+            "stock": 27,
             "cost_price": 210000,
-            "updated": "15:22 17/10/2026",
-            "selling_price": 240000
+            "selling_price": 240000,
+            "updated": "12:00 18/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 210000
+        "cost_price": 210000,
+        "needs_review": true
       },
       {
         "id": "p-1791870770999",
@@ -6039,6 +6040,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792299623894",
+      "time": "12:00 - 18/10/2026",
+      "timestamp": 1792299623894,
+      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 27,
+      "addedQty": 12,
+      "price": 240000,
+      "stockAfter": 68,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:12📦Tồnkhohiệntại:27💰Giá:210.000đ"
+    },
+    {
       "id": "hist-1792298455583",
       "time": "11:40 - 18/10/2026",
       "timestamp": 1792298455583,
@@ -7423,20 +7438,6 @@
       "catKey": "khac",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🎙️ELEVENLABCREATOR1THÁNGBẢOHÀNH3NGÀY➕Thêm:10📦Tồnkhohiệntại:11💰Giá:199.000đ"
-    },
-    {
-      "id": "hist-1792243121470",
-      "time": "20:18 - 17/10/2026",
-      "timestamp": 1792243121470,
-      "name": "Elevenlab Creator 1Th BH 3D",
-      "bot": "piggyai99_bot",
-      "shopStock": 11,
-      "addedQty": 10,
-      "price": 180000,
-      "stockAfter": 11,
-      "catKey": "khac",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🎙️ElevenlabCreator1ThBH3D➕Thêm:10📦Tồnkhohiệntại:11💰Giá:180.000đ"
     }
   ],
   "bot-tele": {
