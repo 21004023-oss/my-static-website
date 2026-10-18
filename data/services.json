@@ -2980,16 +2980,17 @@
         "stock": 7,
         "stock_text": "Còn 7",
         "duration": "3 Tháng",
-        "detail": "Gói Code Notion Business 3 tháng BH 1 ngày bảo hành uy tín.",
+        "detail": "-Code nhận gói Notion Business,1 acc 1 workspace,không phải slot team\n-Định dạng: Link nhận gói\n-Hạn gói: 3 tháng\n-Bảo hành: 3 tháng\n-Lưu Ý: Code chỉ áp dụng cho Work Space chưa nâng lần nào và gói chỉ áp dụng được cho 1 thành viên.",
         "sources": {
           "taphoathomap_bot": {
             "stock": 7,
             "cost_price": 90000,
             "selling_price": 100000,
-            "updated": "12:31 18/10/2026"
+            "updated": "12:32 18/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ],
     "logo": ""
@@ -6079,6 +6080,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792301523617",
+      "time": "12:32 - 18/10/2026",
+      "timestamp": 1792301523617,
+      "name": "Code Notion Business 3 tháng BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "shopStock": 7,
+      "addedQty": 0,
+      "price": 100000,
+      "stockAfter": 7,
+      "catKey": "notion",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐CodeNotionBusiness3thángBH1ngày💰Giá:90k📦Tồnkho:7tàikhoản📊Đãbán:43tàikhoản💎Môtả:"
+    },
+    {
       "id": "hist-1792301519038",
       "time": "12:31 - 18/10/2026",
       "timestamp": 1792301519038,
@@ -7463,20 +7478,6 @@
       "catKey": "google-veo",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🚀SlotVeo3UltraDùngRiêng25KCredits1thángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:2.000.000đ"
-    },
-    {
-      "id": "hist-1792245347633",
-      "time": "20:55 - 17/10/2026",
-      "timestamp": 1792245347633,
-      "name": "GMAIL CỔ DATE 201X- 2022",
-      "bot": "ntnshopre_bot",
-      "shopStock": 75,
-      "addedQty": 1,
-      "price": 35000,
-      "stockAfter": 75,
-      "catKey": "gmail",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "📧GMAILCỔDATE201X-2022➕Thêm:1📦Tồnkhohiệntại:75💰Giá:35.000đ"
     }
   ],
   "bot-tele": {
