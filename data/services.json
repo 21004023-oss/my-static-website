@@ -211,8 +211,8 @@
         "name": "Gmail Random ip 2020-2023 trial youtube",
         "price": 60000,
         "cost_price": 40000,
-        "stock": 34,
-        "stock_text": "Còn 34",
+        "stock": 51,
+        "stock_text": "Còn 51",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành",
         "sources": {
@@ -223,6 +223,12 @@
             "updated": "23:58 18/10/2026"
           },
           "taphoathomap_bot": {
+            "stock": 17,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "23:58 18/10/2026"
+          },
+          "piggyai99_bot": {
             "stock": 17,
             "cost_price": 40000,
             "selling_price": 50000,
@@ -6421,6 +6427,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792342713996",
+      "time": "23:58 - 18/10/2026",
+      "timestamp": 1792342713996,
+      "name": "Gmail Random ip 2020-2023 trial youtube",
+      "bot": "piggyai99_bot",
+      "shopStock": 17,
+      "addedQty": 0,
+      "price": 50000,
+      "stockAfter": 51,
+      "catKey": "youtube",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "📧GmailRandomip2020-2023trialyoutube💰Giá:40k📦Tồnkho:17tàikhoản📊Đãbán:11.274tàikho"
+    },
+    {
       "id": "hist-1792342703718",
       "time": "23:58 - 18/10/2026",
       "timestamp": 1792342703718,
@@ -7805,20 +7825,6 @@
       "catKey": "microsoft",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "⭐ADMINMS365PREMIUM1THÁNGBHF➕Thêm:10📦Tồnkhohiệntại:19💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792290354140",
-      "time": "09:25 - 18/10/2026",
-      "timestamp": 1792290354140,
-      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 21,
-      "addedQty": 10,
-      "price": 43000,
-      "stockAfter": 174,
-      "catKey": "capcut",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:10📦Tồnkhohiệntại:21💰Giá:33.000đ"
     }
   ]
 }
