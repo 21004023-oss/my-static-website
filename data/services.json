@@ -416,16 +416,16 @@
         "id": "p-1791879689407",
         "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
         "price": 260000,
-        "stock": 21,
-        "stock_text": "Còn 21",
+        "stock": 63,
+        "stock_text": "Còn 63",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Date radom 25 - 30 ngày\n4. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n✅ Hiện tại, việc đổi PASS cần OTP nên không đổi được, còn nếu đổi 2FA có thể lỗi OTP gmail, khách hàng có thể cân nhắc không đổi và cứ việc dùng",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 21,
+            "stock": 63,
             "cost_price": 220000,
             "selling_price": 250000,
-            "updated": "21:25 18/10/2026"
+            "updated": "22:55 18/10/2026"
           }
         },
         "cost_price": 220000,
@@ -6393,6 +6393,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792338948740",
+      "time": "22:55 - 18/10/2026",
+      "timestamp": 1792338948740,
+      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 63,
+      "addedQty": 50,
+      "price": 250000,
+      "stockAfter": 63,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:50📦Tồnkhohiệntại:63💰Giá:220.000đ"
+    },
+    {
       "id": "hist-1792334725183",
       "time": "21:45 - 18/10/2026",
       "timestamp": 1792334725183,
@@ -7777,20 +7791,6 @@
       "catKey": "capcut",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "✂️CAPCUTPROCÁNHÂN3THÁNGBHF💰Giá:130k📦Tồnkho:5tàikhoản📊Đãbán:11tàikhoản💎Môtả:GóiPr"
-    },
-    {
-      "id": "hist-1792290307670",
-      "time": "09:25 - 18/10/2026",
-      "timestamp": 1792290307670,
-      "name": "ADMIN MS365 PREMIUM 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 19,
-      "addedQty": 0,
-      "price": 60000,
-      "stockAfter": 19,
-      "catKey": "microsoft",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "⭐ADMINMS365PREMIUM1THÁNGBHF💰Giá:50k📦Tồnkho:19tàikhoản📊Đãbán:261tàikhoản💎Môtả:Off"
     }
   ]
 }
