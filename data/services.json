@@ -2710,13 +2710,22 @@
       {
         "id": "api-cursor-400cre",
         "name": "API Cursor Pro 400 Credits/Ngày 1 Tháng BHF",
-        "price": 339000,
+        "price": 390000,
         "stock": 1,
         "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "source": "Key Cursor API",
-        "detail": "- Api Cursor Pro hạn sử dụng 1 tháng (bảo hành 30 ngày).\n- Credit: 400 credit/ngày (tổng 1 tháng có 12.000 credits).\n- Sản phẩm là API, không phải tài khoản, không hỗ trợ hoàn trả nếu mua nhầm.\n- File tài liệu chi tiết cách setup: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1",
-        "cost_price": 309000
+        "detail": "Api Cursor Pro hạn sử dụng 1 tháng.\n-Credit: 400 credit/ngày- 1 tháng có 12.000 credits\n-Hạn sử dụng: 1 tháng từ lúc active Key.\n-Bảo hành: 30 ngày.\n-File tài liệu chi tiết về cách sử dụng và setup sản phẩm: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1?usp=drive_link\n-Lưu ý: Sản phẩm là API,không phải tài khoản,không hỗ trợ hoàn trả nếu mua nhầm,không biết sử dụng.",
+        "cost_price": 360000,
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 1,
+            "cost_price": 360000,
+            "selling_price": 390000,
+            "updated": "15:57 18/10/2026"
+          }
+        },
+        "needs_review": true
       },
       {
         "id": "api-cursor-6500cre",
@@ -6282,6 +6291,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792313836216",
+      "time": "15:57 - 18/10/2026",
+      "timestamp": 1792313836216,
+      "name": "API Cursor Pro 400 Credits/ngày 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 1,
+      "addedQty": 4,
+      "price": 390000,
+      "stockAfter": 1,
+      "catKey": "api-cursor-deepseek",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🖱️APICursorPro400Credits/ngày1thángBHF➕Thêm:4📦Tồnkhohiệntại:1💰Giá:360.000đ"
+    },
+    {
       "id": "hist-1792310831023",
       "time": "15:07 - 18/10/2026",
       "timestamp": 1792310831023,
@@ -7666,20 +7689,6 @@
       "catKey": "khac",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "⭐ZoomPro28NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1792265287086",
-      "time": "02:28 - 18/10/2026",
-      "timestamp": 1792265287086,
-      "name": "Zoom Pro 28 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 10,
-      "addedQty": 10,
-      "price": 45000,
-      "stockAfter": 10,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐ZoomPro28NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:45.000đ"
     }
   ]
 }
