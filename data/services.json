@@ -1360,16 +1360,16 @@
         "id": "p-1792287862880",
         "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
         "price": 12000,
-        "stock": 765,
-        "stock_text": "Còn 765",
+        "stock": 490,
+        "stock_text": "Còn 490",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư , đổi pass thỏa mái\n📂 Format: Email | Pass | 2FA\n⚠️ Hỗ trợ vấn đề trong 1H đầu. Sau 1H shop không hỗ trợ",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 765,
+            "stock": 490,
             "cost_price": 2000,
             "selling_price": 12000,
-            "updated": "20:45 18/10/2026"
+            "updated": "00:30 19/10/2026"
           }
         },
         "hidden": false,
@@ -6454,6 +6454,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792344637137",
+      "time": "00:30 - 19/10/2026",
+      "timestamp": 1792344637137,
+      "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
+      "bot": "taphoathomap_bot",
+      "shopStock": 490,
+      "addedQty": 300,
+      "price": 12000,
+      "stockAfter": 490,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH➕Thêm:300📦Tồnkhohiệntại:490💰Giá:2.000đ"
+    },
+    {
       "id": "hist-1792344609812",
       "time": "00:30 - 19/10/2026",
       "timestamp": 1792344609812,
@@ -7838,20 +7852,6 @@
       "catKey": "khac",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🚚EXPRESSVPN12THÁNGBẢOHÀNHLOGIN➕Thêm:14📦Tồnkhohiệntại:14💰Giá:125.000đ"
-    },
-    {
-      "id": "hist-1792295327091",
-      "time": "10:48 - 18/10/2026",
-      "timestamp": 1792295327091,
-      "name": "Express VPN 12 Tháng KBH",
-      "bot": "sieuthistore_bot",
-      "shopStock": 14,
-      "addedQty": 14,
-      "price": 140000,
-      "stockAfter": 14,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🚚ExpressVPN12ThángKBH➕Thêm:14📦Tồnkhohiệntại:14💰Giá:120.000đ"
     }
   ]
 }
