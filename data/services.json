@@ -706,19 +706,20 @@
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
         "price": 310000,
-        "stock": 34,
-        "stock_text": "Còn 34",
+        "stock": 29,
+        "stock_text": "Còn 29",
         "duration": "1 Tháng",
-        "detail": "🗣️ Mô tả:\n🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n6. Bảo hành đổi acc mới nếu die trước 7D.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nThuê sim vẻ số tại: https://viotp.com/\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "detail": "🗣️ Mô tả:\n🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nThuê sim vẻ số tại: https://viotp.com/\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 34,
-            "cost_price": 265000,
-            "updated": "22:20 17/10/2026",
-            "selling_price": 295000
+            "stock": 29,
+            "cost_price": 200000,
+            "selling_price": 220000,
+            "updated": "13:49 18/10/2026"
           }
         },
-        "cost_price": 280000
+        "cost_price": 200000,
+        "needs_review": true
       },
       {
         "id": "p-1791976940640",
@@ -6106,6 +6107,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792306168311",
+      "time": "13:49 - 18/10/2026",
+      "timestamp": 1792306168311,
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "shopStock": 29,
+      "addedQty": 29,
+      "price": 220000,
+      "stockAfter": 29,
+      "catKey": "chatgpt",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:29📦Tồnkhohiệntại:29💰Giá:200.000đ"
+    },
+    {
       "id": "hist-1792305973936",
       "time": "13:46 - 18/10/2026",
       "timestamp": 1792305973936,
@@ -7490,20 +7505,6 @@
       "catKey": "khac",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:1📦Tồnkhohiệntại:65💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792256297234",
-      "time": "23:58 - 17/10/2026",
-      "timestamp": 1792256297234,
-      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 65,
-      "addedQty": 1,
-      "price": 30000,
-      "stockAfter": 65,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:1📦Tồnkhohiệntại:65💰Giá:30.000đ"
     }
   ],
   "bot-tele": {
