@@ -5056,21 +5056,28 @@
       {
         "id": "p-1792123650725",
         "name": "SLOT NETFLIX PREMIUM 4K 1 THÁNG BHF",
-        "price": 60000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "price": 175000,
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "1 Tháng",
-        "detail": "- Định dạng: Mail | Pass | Profile | Pin\n- Login PC/IPAD/IPHONE/LAP/TV\n- Không bảo hành lỗi quá thiết bị\n- Chỉ Login và xem duy nhất 1 thiết bị\n- GIA HẠN ĐƯỢC",
+        "detail": "Tài khoản Netflix Premium 4K + HDR gói cao nhất cấp riêng tư - BHF\n⚠️ Không đổi mật khẩu, mã pin , dùng 1 thiết bị nếu vi phạm ko bảo hành\n✅ Định dạng sản phẩm: Mail/Pass/Slot/Mã Pin(Nếu có)\n✅ Bảo hành full 1 tháng trong thời gian sử dụng, gia hạn được\n✅ Thiết bị được hỗ trợ:\nTV, máy tính, điện thoại di động, máy tính bảng\n✅ Khi đăng nhập lần đầu sẽ cần mã 4 số, Quý khách chọn Nhận trợ giúp nhập mật khẩu là được\n✅ Lưu ý: Khách vui lòng dùng đúng Profile được cấp, không spam tài khoản nhiều lần\n✅ Dùng được global ko cần vpn\n📺 Lưu ý quan trọng\n- Vui lòng xem đúng Slot, không đổi tên, Pin, mật khẩu giúp em nha , chỉ vào và sử dụng xem  1 máy cùng lúc, không chia sẻ tài khoản với ai ( sẽ ảnh hưởng đến quý khách ).\n- Không spam đăng nhập tài khoản liên tục có thể bị khóa 24h\n- KHÔNG THAY ĐỔI THÔNG TIN THANH TOÁN, XEM ĐÚNG HỒ SƠ CHỈ ĐỊNH. Nếu cố tình đổi, shop xin từ chối bảo hành! Thời gian support: 7h sáng - 23h đêm, support có thể chậm chễ, nhưng chắc chắn sẽ phản hồi, a/c thông cảm giúp em nha. Chúc Quý Khách xem phim vui vẻ!)",
         "sources": {
           "ntnshopre_bot": {
             "stock": 5,
             "cost_price": 55000,
             "updated": "11:07 16/10/2026",
             "selling_price": 65000
+          },
+          "sieuthistore_bot": {
+            "stock": 9,
+            "cost_price": 155000,
+            "selling_price": 175000,
+            "updated": "13:35 18/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 55000
+        "cost_price": 155000,
+        "needs_review": true
       },
       {
         "id": "p-1792136051706",
@@ -6091,6 +6098,20 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1792305326565",
+      "time": "13:35 - 18/10/2026",
+      "timestamp": 1792305326565,
+      "name": "Slot Profile Netflix Premium 4K 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 9,
+      "addedQty": 0,
+      "price": 175000,
+      "stockAfter": 14,
+      "catKey": "khac",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🎬SlotProfileNetflixPremium4K1ThángBHF💰Giá:155k📦Tồnkho:9tàikhoản📊Đãbán:378tàikhoả"
+    },
     {
       "id": "hist-1792305320911",
       "time": "13:35 - 18/10/2026",
@@ -7476,20 +7497,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:1📦Tồnkhohiệntại:51💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1792253334177",
-      "time": "23:08 - 17/10/2026",
-      "timestamp": 1792253334177,
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 50,
-      "addedQty": 49,
-      "price": 220000,
-      "stockAfter": 50,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:49📦Tồnkhohiệntại:50💰Giá:220.000đ"
     }
   ],
   "bot-tele": {
