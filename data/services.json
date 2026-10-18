@@ -436,19 +436,20 @@
         "id": "p-1791898413975",
         "name": "ChatGPT Plus K12 Edu 2 năm bh 5h",
         "price": 140000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "2 Năm",
         "detail": "-ChatGPT Plus K12 tài khoản cấp sẵn\n+Format : Email | Pass | 2fa\n+Get code: https://2fa.live/\n❗️Lưu ý!\nAcc đã được mời vào team K12, nếu chưa có gói thì chỉ cần làm theo hướng dẫn là sẽ có gói!\nHướng dẫn: https://docs.google.com/document/d/1XcODdzlQJyeJbzXt61mEMYbkDv_xctY9d52-KihtH5I\n- Mọi người làm theo hướng dẫn và đợi load 10s nếu không lên thì đăng xuất ra đăng nhập lại nha\n-Hạn gói: 2 năm\n-Đổi 2FA ngay sau khi nhận tài khoản.\n-Không bảo hành ver số Codex\n-Về sử dụng thì Quota Codex của K12 ngon ngang Plus\n* Chỉ bảo hành trong vòng 5h sau khi mua, sau thời gian trên mọi yêu cầu bảo hành sẽ bị từ chối",
         "sources": {
           "piggyai99_bot": {
-            "stock": 5,
+            "stock": 3,
             "cost_price": 120000,
-            "updated": "15:27 17/10/2026",
-            "selling_price": 140000
+            "selling_price": 140000,
+            "updated": "06:45 19/10/2026"
           }
         },
-        "cost_price": 120000
+        "cost_price": 120000,
+        "needs_review": true
       },
       {
         "id": "p-1791898436678",
@@ -6536,6 +6537,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792367133331",
+      "time": "06:45 - 19/10/2026",
+      "timestamp": 1792367133331,
+      "name": "ChatGPT Plus K12 Edu 2 năm bh 5h",
+      "bot": "piggyai99_bot",
+      "shopStock": 3,
+      "addedQty": 5,
+      "price": 140000,
+      "stockAfter": 3,
+      "catKey": "chatgpt",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🤖ChatGPTPlusK12Edu2nămbh5h➕Thêm:5📦Tồnkhohiệntại:3💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1792367007159",
       "time": "06:43 - 19/10/2026",
       "timestamp": 1792367007159,
@@ -7920,20 +7935,6 @@
       "catKey": "notion",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐AdminNotionBusiness3thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:380.000đ"
-    },
-    {
-      "id": "hist-1792303137024",
-      "time": "12:58 - 18/10/2026",
-      "timestamp": 1792303137024,
-      "name": "Admin Notion Business 3 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 2,
-      "addedQty": 2,
-      "price": 480000,
-      "stockAfter": 2,
-      "catKey": "notion",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐AdminNotionBusiness3thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:430.000đ"
     }
   ]
 }
