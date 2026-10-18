@@ -553,19 +553,20 @@
         "id": "p-1791934033720",
         "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
         "price": 85000,
-        "stock": 21,
-        "stock_text": "Còn 21",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "2 Năm",
         "detail": "🔐 Tài khoản riêng tư – Có thể đổi mật khẩu , 2FA thoải mái\n📂 Định dạng: TK | Pass | 2FA\n✅ Bảo hành: Tài khoản die hoặc mất gói\n✅ Nguyên zin codex, chưa sử dụng\n⚠️ Khách mua về tự Ver codex, Chức năng tạo ảnh hạn chế\n⚠️ Lưu ý:\n• Sau khi mua, vui lòng đọc kỹ và làm theo hướng dẫn trong file để kích hoạt K12 : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link\n✅ Sử dụng cả hai mô hình GPT-6 Astra và GPT-5.6 Sol\n✅CÓ THỂ KHÔNG CẦN ĐỔI 2FA ĐỂ TRÁNH LỖI",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 21,
+            "stock": 5,
             "cost_price": 75000,
-            "updated": "22:46 17/10/2026",
-            "selling_price": 85000
+            "selling_price": 85000,
+            "updated": "11:16 18/10/2026"
           }
         },
-        "cost_price": 75000
+        "cost_price": 75000,
+        "needs_review": true
       },
       {
         "id": "p-1791939794894",
@@ -6024,6 +6025,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792297004191",
+      "time": "11:16 - 18/10/2026",
+      "timestamp": 1792297004191,
+      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 5,
+      "addedQty": 5,
+      "price": 85000,
+      "stockAfter": 5,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:5📦Tồnkhohiệntại:5💰Giá:75.000đ"
+    },
+    {
       "id": "hist-1792296947955",
       "time": "11:15 - 18/10/2026",
       "timestamp": 1792296947955,
@@ -7408,20 +7423,6 @@
       "catKey": "google-veo",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🚀SlotVeo3UltraDùngRiêng100KCredits1thángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:3.400.000"
-    },
-    {
-      "id": "hist-1792236179449",
-      "time": "18:22 - 17/10/2026",
-      "timestamp": 1792236179449,
-      "name": "Gmail Random ip 2020-2023 trial youtube",
-      "bot": "piggyai99_bot",
-      "shopStock": 6,
-      "addedQty": 0,
-      "price": 40000,
-      "stockAfter": 18,
-      "catKey": "youtube",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "📧GmailRandomip2020-2023trialyoutube💰Giá:40k📦Tồnkho:6tàikhoản📊Đãbán:11.180tàikhoả"
     }
   ],
   "bot-tele": {
