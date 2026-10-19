@@ -4390,9 +4390,9 @@
         "id": "p-1792402722954",
         "name": "Gmail (New) -Login phone",
         "price": 43000,
-        "cost_price": 33000,
-        "stock": 41,
-        "stock_text": "Còn 41",
+        "cost_price": 23000,
+        "stock": 82,
+        "stock_text": "Còn 82",
         "duration": "1 Tháng",
         "detail": "Bảo hành login 24H- Login thành công là hết BH\nGmail Login bằng Điện thoại ( Ngâm 1 thời gian có thể login đc pc bình thường )\n-Cách lượt quét QR : Đăng nhập bằng ứng dụng gmail sẽ hạ chế quét QR.\n- Định dạng : Gmail | Pass | mail khôi phục",
         "sources": {
@@ -4401,9 +4401,16 @@
             "cost_price": 33000,
             "selling_price": 43000,
             "updated": "16:38 19/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 41,
+            "cost_price": 23000,
+            "selling_price": 33000,
+            "updated": "16:38 19/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -6758,6 +6765,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792402727116",
+      "time": "16:38 - 19/10/2026",
+      "timestamp": 1792402727116,
+      "name": "Gmail (New) -Login phone",
+      "bot": "taphoathomap_bot",
+      "shopStock": 41,
+      "addedQty": 54,
+      "price": 33000,
+      "stockAfter": 82,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧Gmail(New)-Loginphone➕Thêm:54📦Tồnkhohiệntại:41💰Giá:23.000đ"
+    },
+    {
       "id": "hist-1792402722954",
       "time": "16:38 - 19/10/2026",
       "timestamp": 1792402722954,
@@ -8142,20 +8163,6 @@
       "catKey": "vpn",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:5💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792309664458",
-      "time": "14:47 - 18/10/2026",
-      "timestamp": 1792309664458,
-      "name": "Spotify Premium 1-2 tháng KBH",
-      "bot": "sieuthistore_bot",
-      "shopStock": 10,
-      "addedQty": 10,
-      "price": 60000,
-      "stockAfter": 10,
-      "catKey": "spotify",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐SpotifyPremium1-2thángKBH➕Thêm:10📦Tồnkhohiệntại:10💰Giá:50.000đ"
     }
   ]
 }
