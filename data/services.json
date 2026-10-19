@@ -3884,20 +3884,21 @@
         "id": "p-1792093859672",
         "name": "Gmail Random 200X~2023 Có 2FA",
         "price": 55000,
-        "stock": 128,
-        "stock_text": "Còn 128",
+        "stock": 31,
+        "stock_text": "Còn 31",
         "duration": "1 Tháng",
-        "detail": "Định dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H - Login thành công hết bảo hành\n- Gmail đã nuôi khá lâu rồi nên gmail khá khoẻ\n+ Lưu ý:\n- Hãy dùng proxy , và IP máy riêng để login Gmail , tránh tình trạng GG quét hàng loạt.\n-Sau 48H hãy thay đổi thông , đá thiết bị cũ, Để bảo mật tài sản của mình. ( Gmail cổ điều bảo mật thông tin là quan trọng nhất )",
+        "detail": "Định dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H - Login thành công hết bảo hành\n- Gmail đã nuôi khá lâu rồi nên gmail khá khoẻ\n+ Lưu ý:\n- Hãy dùng proxy , và IP máy riêng để login Gmail , tránh tình trạng GG quét hàng loạt.\n-Sau 48H hãy thay đổi thông , đá thiết bị cũ, Để bảo mật tài sản của mình. ( Gmail cổ điều bảo mật thông tin là quan trọng nhất )\n-Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 128,
+            "stock": 31,
             "cost_price": 45000,
-            "updated": "15:37 16/10/2026",
-            "selling_price": 55000
+            "selling_price": 55000,
+            "updated": "22:59 19/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 45000
+        "cost_price": 45000,
+        "needs_review": true
       },
       {
         "id": "p-1792093865277",
@@ -6995,6 +6996,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792425590056",
+      "time": "22:59 - 19/10/2026",
+      "timestamp": 1792425590056,
+      "name": "Gmail Random 200X~2023 Có 2FA",
+      "bot": "sieuthistore_bot",
+      "shopStock": 31,
+      "addedQty": 48,
+      "price": 55000,
+      "stockAfter": 31,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:48📦Tồnkhohiệntại:31💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1792424754115",
       "time": "22:45 - 19/10/2026",
       "timestamp": 1792424754115,
@@ -8379,20 +8394,6 @@
       "catKey": "youtube",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📧GmailRandomip2020-2023trialyoutube➕Thêm:5📦Tồnkhohiệntại:17💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792342698066",
-      "time": "23:58 - 18/10/2026",
-      "timestamp": 1792342698066,
-      "name": "GMAIL TRIAL RANDOM DATE 202X",
-      "bot": "ntnshopre_bot",
-      "shopStock": 17,
-      "addedQty": 5,
-      "price": 50000,
-      "stockAfter": 17,
-      "catKey": "gmail",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "📧GMAILTRIALRANDOMDATE202X➕Thêm:5📦Tồnkhohiệntại:17💰Giá:40.000đ"
     }
   ]
 }
