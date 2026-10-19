@@ -5688,16 +5688,16 @@
         "id": "p-1792052819376",
         "name": "Meitu Vip+ 7 Ngày  BHF",
         "price": 35000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "Meitu SVIP(VIP+) 7 Ngày login 1 thiết bị, nếu đăng nhập trên điện thoại lỗi thì có thể đăng nhập sử dụng trên PC, Mac\n- Định dạng: (Email|Pass Hotmail|Pass Meitu) Token\n- Pass Meitu mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\n・Link tải Meitu cho máy tính Windows\nhttps://meitu.vi.uptodown.com/windows\n・Link tải Meitu cho máy tính Mac OS\nhttps://meitu.vi.uptodown.com/mac\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 3,
+            "stock": 10,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "20:32 18/10/2026"
+            "updated": "17:08 19/10/2026"
           }
         },
         "hidden": true,
@@ -6809,6 +6809,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792404522723",
+      "time": "17:08 - 19/10/2026",
+      "timestamp": 1792404522723,
+      "name": "Meitu Vip+ 7 Ngày  BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 10,
+      "addedQty": 11,
+      "price": 35000,
+      "stockAfter": 10,
+      "catKey": "meitu-wink",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "✨MeituVip+7NgàyBHF➕Thêm:11📦Tồnkhohiệntại:10💰Giá:25.000đ"
+    },
     {
       "id": "hist-1792404471223",
       "time": "17:07 - 19/10/2026",
@@ -8194,20 +8208,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🧠APIClaude100MToken1ngàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1792313863742",
-      "time": "15:57 - 18/10/2026",
-      "timestamp": 1792313863742,
-      "name": "API Cursor Pro 400 Credits/ngày 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 1,
-      "addedQty": 4,
-      "price": 339000,
-      "stockAfter": 3,
-      "catKey": "api-cursor-deepseek",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🖱️APICursorPro400Credits/ngày1thángBHF➕Thêm:4📦Tồnkhohiệntại:1💰Giá:309.000đ"
     }
   ]
 }
