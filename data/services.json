@@ -199,20 +199,27 @@
         "id": "gpt-go-3d",
         "name": "ChatGPT Go 1 Tháng (BH 3 Ngày)",
         "price": 105000,
-        "stock": 30,
-        "stock_text": "Còn 30",
+        "stock": 34,
+        "stock_text": "Còn 34",
         "duration": "1 Tháng",
         "source": "Cấp sẵn",
-        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n2. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n3. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
           "taphoathomap_bot": {
             "stock": 30,
             "cost_price": 60000,
             "updated": "01:59 18/10/2026",
             "selling_price": 70000
+          },
+          "sieuthistore_bot": {
+            "stock": 4,
+            "cost_price": 85000,
+            "selling_price": 95000,
+            "updated": "20:43 19/10/2026"
           }
         },
-        "cost_price": 95000
+        "cost_price": 85000,
+        "needs_review": true
       },
       {
         "id": "gpt-go-10d",
@@ -6899,6 +6906,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792417430650",
+      "time": "20:43 - 19/10/2026",
+      "timestamp": 1792417430650,
+      "name": "ChatGPT Go 1 Tháng BH 3 Ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 4,
+      "addedQty": 15,
+      "price": 95000,
+      "stockAfter": 34,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTGo1ThángBH3Ngày➕Thêm:15📦Tồnkhohiệntại:4💰Giá:85.000đ"
+    },
+    {
       "id": "hist-1792417345531",
       "time": "20:42 - 19/10/2026",
       "timestamp": 1792417345531,
@@ -8283,20 +8304,6 @@
       "catKey": "google-veo",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "☁️NÂNGCẤPGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH1THÁNG💰Giá:35k📦Tồnkho:16tàikhoản📊Đã"
-    },
-    {
-      "id": "hist-1792332101841",
-      "time": "21:01 - 18/10/2026",
-      "timestamp": 1792332101841,
-      "name": "Thông báo từ Admin:",
-      "bot": "taphoathomap_bot",
-      "shopStock": 0,
-      "addedQty": 0,
-      "price": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "📣ThôngbáotừAdmin:📢THÔNGBÁOTỪADMIN✅BOTĐÃHOẠTĐỘNGTRỞLẠI!🐰🎉ShopđangSALEmộtsốsảnphẩm"
     }
   ]
 }
