@@ -6214,19 +6214,20 @@
         "name": "Higgsfield Starter 200 credit 1 tháng BH 3 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 11,
+        "stock_text": "Còn 11",
         "duration": "1 Tháng",
         "detail": "- Gói đăng kí : Higgsfield Starter\n- 200 credit\n- Định dạng : Tài khoản | pass HIGG | Pass hotmail\n- Login bằng EMAIL",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 11,
             "cost_price": 150000,
             "selling_price": 170000,
-            "updated": "19:07 19/10/2026"
+            "updated": "19:51 19/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ]
   },
@@ -6870,6 +6871,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792414288222",
+      "time": "19:51 - 19/10/2026",
+      "timestamp": 1792414288222,
+      "name": "Higgsfield Starter 200 credit 1 tháng BH 3 ngày",
+      "bot": "taphoathomap_bot",
+      "shopStock": 11,
+      "addedQty": 10,
+      "price": 170000,
+      "stockAfter": 11,
+      "catKey": "higgsfield",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬HiggsfieldStarter200credit1thángBH3ngày➕Thêm:10📦Tồnkhohiệntại:11💰Giá:150.000đ"
+    },
     {
       "id": "hist-1792414173932",
       "time": "19:49 - 19/10/2026",
@@ -8255,20 +8270,6 @@
       "catKey": "meitu-wink",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:3💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792329398818",
-      "time": "20:16 - 18/10/2026",
-      "timestamp": 1792329398818,
-      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
-      "bot": "ntnshopre_bot",
-      "shopStock": 53,
-      "addedQty": 53,
-      "price": 33000,
-      "stockAfter": 53,
-      "catKey": "gmail",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:53📦Tồnkhohiệntại:53💰Giá:23.000đ"
     }
   ]
 }
