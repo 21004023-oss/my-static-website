@@ -353,8 +353,8 @@
         "id": "p-1791854770760",
         "name": "ChatGPT Plus GGPay 30D BH 24H",
         "price": 240000,
-        "stock": 56,
-        "stock_text": "Còn 56",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
         "sources": {
@@ -365,14 +365,14 @@
             "updated": "13:41 19/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 56,
+            "stock": 0,
             "cost_price": 210000,
             "selling_price": 240000,
-            "updated": "10:37 19/10/2026"
+            "updated": "13:41 19/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 190000,
+        "cost_price": 210000,
         "needs_review": true
       },
       {
@@ -6630,6 +6630,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792392067698",
+      "time": "13:41 - 19/10/2026",
+      "timestamp": 1792392067698,
+      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 0,
+      "addedQty": 7,
+      "price": 240000,
+      "stockAfter": 0,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:7📦Tồnkhohiệntại:0💰Giá:210.000đ"
+    },
+    {
       "id": "hist-1792392063433",
       "time": "13:41 - 19/10/2026",
       "timestamp": 1792392063433,
@@ -8014,20 +8028,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🤖ChatGPTVerStudentschínhchủPlus4ThángKBH💰Giá:360k📦Tồnkho:∞tàikhoản📊Đãbán:0tàikho"
-    },
-    {
-      "id": "hist-1792305286185",
-      "time": "13:34 - 18/10/2026",
-      "timestamp": 1792305286185,
-      "name": "Apple ID 2FA Gmail",
-      "bot": "piggyai99_bot",
-      "shopStock": 14,
-      "addedQty": 0,
-      "price": 60000,
-      "stockAfter": 42,
-      "catKey": "gmail",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "⭐AppleID2FAGmail💰Giá:50k📦Tồnkho:14tàikhoản📊Đãbán:503tàikhoản💎Môtả:-Tàikhoảnchưaq"
     }
   ]
 }
