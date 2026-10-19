@@ -1981,17 +1981,17 @@
         "id": "p-1791877845717",
         "name": "CAPCUT PRO 3 THÁNG BHF",
         "price": 205000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "3 Tháng",
         "detail": "Tài khoản Capcut Pro dạng team hạn sử dụng 90 ngày. • Có thể nhận tới 2000 Credit AI • Định dạng: Email | Pass • Login 1-2 thiết bị hạn chế login nhiều thiết bị. • Bảo hành 90 ngày, không bảo hành lỗi đăng nhập quá thường xuyên.\nTK tự động gia hạn mỗi tháng 1 lần đến khi đủ 1 tháng",
         "cost_price": 185000,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 3,
             "cost_price": 185000,
             "selling_price": 205000,
-            "updated": "05:29 19/10/2026"
+            "updated": "07:32 19/10/2026"
           }
         },
         "needs_review": true
@@ -6538,6 +6538,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792369961330",
+      "time": "07:32 - 19/10/2026",
+      "timestamp": 1792369961330,
+      "name": "CapCut Pro 3 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 3,
+      "addedQty": 1,
+      "price": 205000,
+      "stockAfter": 3,
+      "catKey": "capcut",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:1📦Tồnkhohiệntại:3💰Giá:185.000đ"
+    },
+    {
       "id": "hist-1792367373917",
       "time": "06:49 - 19/10/2026",
       "timestamp": 1792367373917,
@@ -7922,20 +7936,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬SlotriêngtưNetflixPremium4K1TH(BHF)➕Thêm:9📦Tồnkhohiệntại:9💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1792304818394",
-      "time": "13:26 - 18/10/2026",
-      "timestamp": 1792304818394,
-      "name": "Slot Profile Netflix Premium 4K 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 9,
-      "addedQty": 9,
-      "price": 175000,
-      "stockAfter": 9,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🎬SlotProfileNetflixPremium4K1ThángBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:155.000đ"
     }
   ]
 }
