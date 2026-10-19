@@ -6226,6 +6226,25 @@
         },
         "hidden": false,
         "cost_price": 75000
+      },
+      {
+        "id": "p-1792380877722",
+        "name": "Zoom Pro 1Y BHF",
+        "price": 720000,
+        "cost_price": 620000,
+        "stock": 23,
+        "stock_text": "Còn 23",
+        "duration": "1 Năm",
+        "detail": "Zoom Pro 1Y. Done trong 2-4H. Gửi tài khoản, mật khẩu và bật sẵn 2FA.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 23,
+            "cost_price": 620000,
+            "selling_price": 720000,
+            "updated": "10:34 19/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -6522,6 +6541,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792380877722",
+      "time": "10:34 - 19/10/2026",
+      "timestamp": 1792380877722,
+      "name": "Zoom Pro 1Y BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 23,
+      "addedQty": 23,
+      "price": 720000,
+      "stockAfter": 23,
+      "catKey": "work-dev",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐ZoomPro1YBHF➕Thêm:23📦Tồnkhohiệntại:23💰Giá:620.000đ"
+    },
     {
       "id": "hist-1792362583452",
       "time": "05:29 - 19/10/2026",
@@ -7907,20 +7940,6 @@
       "catKey": "khac",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "✨MEITUVIP+1THÁNGBHF➕Thêm:24📦Tồnkhohiệntại:34💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1792297518967",
-      "time": "11:25 - 18/10/2026",
-      "timestamp": 1792297518967,
-      "name": "ChatGPT Ver Students chính chủ  Plus 4 Tháng KBH",
-      "bot": "piggyai99_bot",
-      "shopStock": 36,
-      "addedQty": 2,
-      "price": 390000,
-      "stockAfter": 36,
-      "catKey": "chatgpt",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🤖ChatGPTVerStudentschínhchủPlus4ThángKBH➕Thêm:2📦Tồnkhohiệntại:36💰Giá:360.000đ"
     }
   ]
 }
