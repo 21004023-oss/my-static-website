@@ -5118,20 +5118,21 @@
         "id": "p-1792189997359",
         "name": "Figma Pro Education 1 năm BHF",
         "price": 200000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Năm",
         "detail": "🎨 **FIGMA PRO EDUCATION**\n✨ Gói Figma dành cho học tập, thiết kế UI/UX và làm việc nhóm.\n✅ Không giới hạn file\n✅ Prototype nâng cao\n✅ Team Library & Design System\n✅ Dev Mode / Handoff\n✅ Hỗ trợ các tính năng AI. 3000 AI credit\n✅ Phù hợp học tập, làm đồ án và thiết kế chuyên nghiệp\n📦 **Định dạng:**\nMAIL | PASS | PASSMAIL\nhttps://outlook.office.com/mail/\nKhông được thay đổi email sau khi đã nâng cấp*\n✅ Mua số lượng nhiều inbox admin giá tốt hơn",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 7,
+            "stock": 5,
             "cost_price": 180000,
-            "updated": "06:35 17/10/2026",
-            "selling_price": 200000
+            "selling_price": 200000,
+            "updated": "23:23 19/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 180000
+        "cost_price": 180000,
+        "needs_review": true
       },
       {
         "id": "p-1792193708584",
@@ -7021,6 +7022,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792426998305",
+      "time": "23:23 - 19/10/2026",
+      "timestamp": 1792426998305,
+      "name": "Figma Pro Education 1 năm BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 5,
+      "addedQty": 3,
+      "price": 200000,
+      "stockAfter": 5,
+      "catKey": "adobe",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐FigmaProEducation1nămBHF➕Thêm:3📦Tồnkhohiệntại:5💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1792425904869",
       "time": "23:05 - 19/10/2026",
       "timestamp": 1792425904869,
@@ -8405,20 +8420,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:10📦Tồnkhohiệntại:61💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1792348737344",
-      "time": "01:38 - 19/10/2026",
-      "timestamp": 1792348737344,
-      "name": "Proton VPN 14-28 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 5,
-      "addedQty": 4,
-      "price": 55000,
-      "stockAfter": 5,
-      "catKey": "vpn",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:5💰Giá:45.000đ"
     }
   ]
 }
