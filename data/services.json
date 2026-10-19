@@ -5477,18 +5477,24 @@
       {
         "id": "p-1791911398561",
         "name": "Meitu VIP 7 Ngày BHF",
-        "price": 35000,
+        "price": 40000,
         "stock": 0,
         "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Meitu VIP 7 Ngày login 1 thiết bị(Không dùng được trên PC, chỉ có Meitu Svip là dùng được trên PC)\n- Định dạng: (Email|Pass Hotmail|Pass Meitu) Token\n- Pass Meitu mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI",
-        "cost_price": 15000,
+        "cost_price": 30000,
         "sources": {
           "taphoathomap_bot": {
             "stock": 0,
             "cost_price": 15000,
             "selling_price": 25000,
             "updated": "15:50 19/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 0,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "15:51 19/10/2026"
           }
         },
         "needs_review": true
@@ -6720,6 +6726,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792399867848",
+      "time": "15:51 - 19/10/2026",
+      "timestamp": 1792399867848,
+      "name": "Meitu VIP 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 0,
+      "addedQty": 6,
+      "price": 40000,
+      "stockAfter": 0,
+      "catKey": "meitu-wink",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✨MeituVIP7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:0💰Giá:30.000đ"
+    },
     {
       "id": "hist-1792399851185",
       "time": "15:50 - 19/10/2026",
@@ -8105,20 +8125,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:18📦Tồnkhohiệntại:17💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1792306223442",
-      "time": "13:50 - 18/10/2026",
-      "timestamp": 1792306223442,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 20,
-      "addedQty": 12,
-      "price": 95000,
-      "stockAfter": 20,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH24H➕Thêm:12📦Tồnkhohiệntại:20💰Giá:85.000đ"
     }
   ]
 }
