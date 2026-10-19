@@ -727,19 +727,20 @@
         "id": "p-1791966477609",
         "name": "ChatGPT Pro 100 - 1 tháng BH 20 ngày",
         "price": 2000000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "detail": "Gói ChatGPT Pro 100 - 1 tháng BH 20 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 3,
+            "stock": 1,
             "cost_price": 1800000,
-            "updated": "07:09 18/10/2026",
-            "selling_price": 2000000
+            "selling_price": 2000000,
+            "updated": "01:30 20/10/2026"
           }
         },
-        "cost_price": 1800000
+        "cost_price": 1800000,
+        "needs_review": true
       },
       {
         "id": "p-1791967221993",
@@ -7058,6 +7059,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792434653685",
+      "time": "01:30 - 20/10/2026",
+      "timestamp": 1792434653685,
+      "name": "ChatGPT Pro 100 - 1 tháng BH 20 ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 1,
+      "addedQty": 0,
+      "price": 2000000,
+      "stockAfter": 1,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTPro100-1thángBH20ngày💰Giá:1800k📦Tồnkho:1tàikhoản📊Đãbán:5tàikhoản"
+    },
+    {
       "id": "hist-1792434370458",
       "time": "01:26 - 20/10/2026",
       "timestamp": 1792434370458,
@@ -8442,20 +8457,6 @@
       "catKey": "capcut",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:10📦Tồnkhohiệntại:17💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792385011024",
-      "time": "11:43 - 19/10/2026",
-      "timestamp": 1792385011024,
-      "name": "CAPCUT PRO 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 17,
-      "addedQty": 10,
-      "price": 48000,
-      "stockAfter": 17,
-      "catKey": "capcut",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:10📦Tồnkhohiệntại:17💰Giá:38.000đ"
     }
   ]
 }
