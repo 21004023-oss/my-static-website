@@ -354,8 +354,8 @@
         "id": "p-1791854770760",
         "name": "ChatGPT Plus GGPay 30D BH 24H",
         "price": 240000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
         "sources": {
@@ -366,10 +366,10 @@
             "updated": "13:41 19/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 5,
             "cost_price": 210000,
             "selling_price": 240000,
-            "updated": "13:41 19/10/2026"
+            "updated": "19:29 19/10/2026"
           }
         },
         "hidden": false,
@@ -6843,6 +6843,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792412971377",
+      "time": "19:29 - 19/10/2026",
+      "timestamp": 1792412971377,
+      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 5,
+      "addedQty": 8,
+      "price": 240000,
+      "stockAfter": 5,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:8📦Tồnkhohiệntại:5💰Giá:210.000đ"
+    },
+    {
       "id": "hist-1792411671644",
       "time": "19:07 - 19/10/2026",
       "timestamp": 1792411671644,
@@ -8227,20 +8241,6 @@
       "catKey": "api-cursor-deepseek",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🖱️APICursorPro400Credits/ngày1thángBHF💰Giá:360k📦Tồnkho:1tàikhoản📊Đãbán:515tàikho"
-    },
-    {
-      "id": "hist-1792318170208",
-      "time": "17:09 - 18/10/2026",
-      "timestamp": 1792318170208,
-      "name": "Proton VPN 14-28 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 5,
-      "addedQty": 0,
-      "price": 55000,
-      "stockAfter": 5,
-      "catKey": "vpn",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐ProtonVPN14-28NgàyBHF💰Giá:45k📦Tồnkho:5tàikhoản📊Đãbán:830tàikhoản💎Môtả:-Tàikhoản"
     }
   ]
 }
