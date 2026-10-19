@@ -3244,6 +3244,25 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792427096285",
+        "name": "Kling Pro 3k3 Credit 1 Tháng BH 7 Ngày",
+        "price": 750000,
+        "cost_price": 650000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "áp dụng bảo hành /7 ko phải /30\nKhách lưu ý",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 5,
+            "cost_price": 650000,
+            "selling_price": 750000,
+            "updated": "23:24 19/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=64"
@@ -7029,6 +7048,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792427096285",
+      "time": "23:24 - 19/10/2026",
+      "timestamp": 1792427096285,
+      "name": "Kling Pro 3k3 Credit 1 Tháng BH 7 Ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 5,
+      "addedQty": 6,
+      "price": 750000,
+      "stockAfter": 5,
+      "catKey": "kling",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🎬KlingPro3k3Credit1ThángBH7Ngày➕Thêm:6📦Tồnkhohiệntại:5💰Giá:650.000đ"
+    },
+    {
       "id": "hist-1792427013779",
       "time": "23:23 - 19/10/2026",
       "timestamp": 1792427013779,
@@ -8413,20 +8446,6 @@
       "catKey": "microsoft",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐KeyOffice2024ProPlusVĩnhviễnBH7ngày➕Thêm:5📦Tồnkhohiệntại:9💰Giá:79.000đ"
-    },
-    {
-      "id": "hist-1792354875627",
-      "time": "03:21 - 19/10/2026",
-      "timestamp": 1792354875627,
-      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
-      "bot": "taphoathomap_bot",
-      "shopStock": 0,
-      "addedQty": 1,
-      "price": 46000,
-      "stockAfter": 0,
-      "catKey": "youtube",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:1📦Tồnkhohiệntại:0💰Giá:36.000đ"
     }
   ]
 }
