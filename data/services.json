@@ -1350,19 +1350,20 @@
         "name": "🔥Chatgpt Plus Vip 1 tháng BHF",
         "price": 260000,
         "cost_price": 230000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 10,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "23:05 19/10/2026"
+            "updated": "02:05 20/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -7097,6 +7098,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792436716572",
+      "time": "02:05 - 20/10/2026",
+      "timestamp": 1792436716572,
+      "name": "🔥Chatgpt Plus Vip 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 10,
+      "addedQty": 6,
+      "price": 260000,
+      "stockAfter": 10,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖🔥ChatgptPlusVip1thángBHF➕Thêm:6📦Tồnkhohiệntại:10💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1792435951220",
       "time": "01:52 - 20/10/2026",
       "timestamp": 1792435951220,
@@ -8481,20 +8496,6 @@
       "catKey": "google-veo",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:21📦Tồnkhohiệntại:42💰Giá:26.850đ"
-    },
-    {
-      "id": "hist-1792388356103",
-      "time": "12:39 - 19/10/2026",
-      "timestamp": 1792388356103,
-      "name": "Link Gemini Pro 18 Tháng",
-      "bot": "sieuthistore_bot",
-      "shopStock": 42,
-      "addedQty": 21,
-      "price": 50000,
-      "stockAfter": 42,
-      "catKey": "google-veo",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:21📦Tồnkhohiệntại:42💰Giá:40.000đ"
     }
   ]
 }
