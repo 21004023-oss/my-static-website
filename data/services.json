@@ -5267,6 +5267,25 @@
         },
         "hidden": false,
         "needs_review": true
+      },
+      {
+        "id": "p-1792396908587",
+        "name": "Express VPN Random 2-3 Ngày BHF",
+        "price": 17000,
+        "cost_price": 7000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 7000,
+            "selling_price": 17000,
+            "updated": "15:01 19/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -6687,6 +6706,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792396908587",
+      "time": "15:01 - 19/10/2026",
+      "timestamp": 1792396908587,
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 3,
+      "addedQty": 2,
+      "price": 17000,
+      "stockAfter": 3,
+      "catKey": "vpn",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1792396052851",
       "time": "14:47 - 19/10/2026",
       "timestamp": 1792396052851,
@@ -8071,20 +8104,6 @@
       "catKey": "notion",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐AdminNotionBusiness3thángBHF💰Giá:380k📦Tồnkho:2tàikhoản📊Đãbán:12tàikhoản💎Môtả:-A"
-    },
-    {
-      "id": "hist-1792305326565",
-      "time": "13:35 - 18/10/2026",
-      "timestamp": 1792305326565,
-      "name": "Slot Profile Netflix Premium 4K 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 9,
-      "addedQty": 0,
-      "price": 175000,
-      "stockAfter": 14,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🎬SlotProfileNetflixPremium4K1ThángBHF💰Giá:155k📦Tồnkho:9tàikhoản📊Đãbán:378tàikhoả"
     }
   ]
 }
