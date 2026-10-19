@@ -5138,8 +5138,8 @@
         "id": "p-1792193708584",
         "name": "Figma Pro Edu 1 năm (BHF)",
         "price": 130000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Năm",
         "detail": "🎨 **FIGMA PRO EDUCATION**\n✨ Gói Figma dành cho học tập, thiết kế UI/UX và làm việc nhóm.\n✅ Không giới hạn file\n✅ Prototype nâng cao\n✅ Team Library & Design System\n✅ Dev Mode / Handoff\n✅ Hỗ trợ các tính năng AI. 3000 AI credit\n✅ Phù hợp học tập, làm đồ án và thiết kế chuyên nghiệp\n📦 **Định dạng:**\nMAIL | PASS | PASSMAIL\nhttps://outlook.office.com/mail/\nKhông được thay đổi email sau khi đã nâng cấp*\n✅ Mua số lượng nhiều inbox admin giá tốt hơn",
         "sources": {
@@ -5148,10 +5148,16 @@
             "cost_price": 110000,
             "selling_price": 130000,
             "updated": "23:23 19/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "23:23 19/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 110000,
+        "cost_price": 100000,
         "needs_review": true
       }
     ]
@@ -7023,6 +7029,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792427008305",
+      "time": "23:23 - 19/10/2026",
+      "timestamp": 1792427008305,
+      "name": "Figma Pro Edu 1 năm (BHF)",
+      "bot": "taphoathomap_bot",
+      "shopStock": 5,
+      "addedQty": 3,
+      "price": 110000,
+      "stockAfter": 10,
+      "catKey": "adobe",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:3📦Tồnkhohiệntại:5💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1792427004106",
       "time": "23:23 - 19/10/2026",
       "timestamp": 1792427004106,
@@ -8407,20 +8427,6 @@
       "catKey": "youtube",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:1📦Tồnkhohiệntại:0💰Giá:39.000đ"
-    },
-    {
-      "id": "hist-1792352349793",
-      "time": "02:39 - 19/10/2026",
-      "timestamp": 1792352349793,
-      "name": "ChatGPT Plus GGPay 30D BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 61,
-      "addedQty": 10,
-      "price": 210000,
-      "stockAfter": 122,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:10📦Tồnkhohiệntại:61💰Giá:190.000đ"
     }
   ]
 }
