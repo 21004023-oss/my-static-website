@@ -3201,6 +3201,25 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792370446078",
+        "name": "Spotify Premium 1-2 tháng BH 1 Tháng",
+        "price": 70000,
+        "cost_price": 60000,
+        "stock": 11,
+        "stock_text": "Còn 11",
+        "duration": "2 Tháng",
+        "detail": "Hàng đã trôi date 2 tuần, có tỉ lệ cao sang tháng thứ 2 renew tiếp\nCó thể trôi date mạnh",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 11,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "07:40 19/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=spotify.com&sz=64"
@@ -6538,6 +6557,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792370446078",
+      "time": "07:40 - 19/10/2026",
+      "timestamp": 1792370446078,
+      "name": "Spotify Premium 1-2 tháng BH 1 Tháng",
+      "bot": "sieuthistore_bot",
+      "shopStock": 11,
+      "addedQty": 3,
+      "price": 70000,
+      "stockAfter": 11,
+      "catKey": "spotify",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐SpotifyPremium1-2thángBH1Tháng➕Thêm:3📦Tồnkhohiệntại:11💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1792369966700",
       "time": "07:32 - 19/10/2026",
       "timestamp": 1792369966700,
@@ -7922,20 +7955,6 @@
       "catKey": "khac",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H💰Giá:40k📦Tồnkho:100tàikhoản📊Đãbán:2.527tàikhoản💎Mô"
-    },
-    {
-      "id": "hist-1792305275248",
-      "time": "13:34 - 18/10/2026",
-      "timestamp": 1792305275248,
-      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
-      "bot": "piggyai99_bot",
-      "shopStock": 100,
-      "addedQty": 2,
-      "price": 50000,
-      "stockAfter": 200,
-      "catKey": "khac",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:2📦Tồnkhohiệntại:100💰Giá:40.000đ"
     }
   ]
 }
