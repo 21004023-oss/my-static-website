@@ -1138,12 +1138,13 @@
           "sieuthistore_bot": {
             "stock": 10,
             "cost_price": 100000,
-            "updated": "21:10 16/10/2026",
-            "selling_price": 110000
+            "selling_price": 110000,
+            "updated": "00:53 20/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 100000
+        "cost_price": 100000,
+        "needs_review": true
       },
       {
         "id": "p-1792159826877",
@@ -7056,6 +7057,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792432438844",
+      "time": "00:53 - 20/10/2026",
+      "timestamp": 1792432438844,
+      "name": "ChatGPT K12 Education 2 năm KBH",
+      "bot": "sieuthistore_bot",
+      "shopStock": 10,
+      "addedQty": 10,
+      "price": 110000,
+      "stockAfter": 10,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTK12Education2nămKBH➕Thêm:10📦Tồnkhohiệntại:10💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1792432428903",
       "time": "00:53 - 20/10/2026",
       "timestamp": 1792432428903,
@@ -8440,20 +8455,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:14📦Tồnkhohiệntại:56💰Giá:190.000đ"
-    },
-    {
-      "id": "hist-1792381057574",
-      "time": "10:37 - 19/10/2026",
-      "timestamp": 1792381057574,
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
-      "bot": "ntnshopre_bot",
-      "shopStock": 28,
-      "addedQty": 30,
-      "price": 220000,
-      "stockAfter": 28,
-      "catKey": "chatgpt",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:30📦Tồnkhohiệntại:28💰Giá:200.000đ"
     }
   ]
 }
