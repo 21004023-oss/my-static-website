@@ -387,16 +387,16 @@
         "id": "p-1791854770760",
         "name": "ChatGPT Plus GGPay 30D BH 24H",
         "price": 240000,
-        "stock": 23,
-        "stock_text": "Còn 23",
+        "stock": 36,
+        "stock_text": "Còn 36",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 18,
             "cost_price": 190000,
             "selling_price": 210000,
-            "updated": "19:29 19/10/2026"
+            "updated": "01:26 20/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 18,
@@ -406,7 +406,7 @@
           }
         },
         "hidden": false,
-        "cost_price": 210000,
+        "cost_price": 190000,
         "needs_review": true
       },
       {
@@ -7058,6 +7058,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792434366275",
+      "time": "01:26 - 20/10/2026",
+      "timestamp": 1792434366275,
+      "name": "ChatGPT Plus GGPay 30D BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 18,
+      "addedQty": 17,
+      "price": 210000,
+      "stockAfter": 36,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:17📦Tồnkhohiệntại:18💰Giá:190.000đ"
+    },
+    {
       "id": "hist-1792434362237",
       "time": "01:26 - 20/10/2026",
       "timestamp": 1792434362237,
@@ -8442,20 +8456,6 @@
       "catKey": "meitu-wink",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "✨MeituVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:3💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792381901734",
-      "time": "10:51 - 19/10/2026",
-      "timestamp": 1792381901734,
-      "name": "Meitu SVIP 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 3,
-      "addedQty": 5,
-      "price": 55000,
-      "stockAfter": 6,
-      "catKey": "meitu-wink",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✨MeituSVIP7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:3💰Giá:45.000đ"
     }
   ]
 }
