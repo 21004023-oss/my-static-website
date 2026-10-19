@@ -4633,17 +4633,17 @@
         "id": "p-1792402722954",
         "name": "Gmail (New) -Login phone",
         "price": 43000,
-        "cost_price": 23000,
-        "stock": 82,
-        "stock_text": "Còn 82",
+        "cost_price": 33000,
+        "stock": 41,
+        "stock_text": "Còn 41",
         "duration": "1 Tháng",
         "detail": "Bảo hành login 24H- Login thành công là hết BH\nGmail Login bằng Điện thoại ( Ngâm 1 thời gian có thể login đc pc bình thường )\n-Cách lượt quét QR : Đăng nhập bằng ứng dụng gmail sẽ hạ chế quét QR.\n- Định dạng : Gmail | Pass | mail khôi phục",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 41,
+            "stock": 0,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "16:38 19/10/2026"
+            "updated": "06:34 20/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 41,
@@ -7285,6 +7285,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792452899283",
+      "time": "06:34 - 20/10/2026",
+      "timestamp": 1792452899283,
+      "name": "Gmail (New) -Login phone",
+      "bot": "sieuthistore_bot",
+      "shopStock": 0,
+      "addedQty": 43,
+      "price": 43000,
+      "stockAfter": 41,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧Gmail(New)-Loginphone➕Thêm:43📦Tồnkhohiệntại:0💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1792451053428",
       "time": "06:04 - 20/10/2026",
       "timestamp": 1792451053428,
@@ -8669,20 +8683,6 @@
       "catKey": "microsoft",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "⭐ADMINMS365PREMIUM1TB5SLOT1NĂMBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:300.000đ"
-    },
-    {
-      "id": "hist-1792400073664",
-      "time": "15:54 - 19/10/2026",
-      "timestamp": 1792400073664,
-      "name": "CAPCUT TEAM 6 THÁNG  BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 1,
-      "addedQty": 8,
-      "price": 320000,
-      "stockAfter": 5,
-      "catKey": "capcut",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "✂️CAPCUTTEAM6THÁNGBHF➕Thêm:8📦Tồnkhohiệntại:1💰Giá:290.000đ"
     }
   ]
 }
