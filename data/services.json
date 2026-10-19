@@ -2793,8 +2793,8 @@
         "id": "p-1791936211706",
         "name": "API Cursor Pro 2600 Credits 1 tháng BHF",
         "price": 310000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
         "detail": "Api Cursor Pro 2600 credit hạn sử dụng 1 tháng.\n-Credit: 2600\n-Hạn sử dụng: 1 tháng từ lúc active Key.\n-Bảo hành: 30 ngày.\n-File tài liệu chi tiết về cách sử dụng và setup sản phẩm: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1?usp=drive_link\n-Lưu ý: Sản phẩm là API,không phải tài khoản,không hỗ trợ hoàn trả nếu mua nhầm,không biết sử dụng.",
         "sources": {
@@ -2809,9 +2809,15 @@
             "cost_price": 280000,
             "selling_price": 310000,
             "updated": "18:30 19/10/2026"
+          },
+          "ntnshopre_bot": {
+            "stock": 2,
+            "cost_price": 210000,
+            "selling_price": 240000,
+            "updated": "18:30 19/10/2026"
           }
         },
-        "cost_price": 280000,
+        "cost_price": 210000,
         "needs_review": true
       },
       {
@@ -6818,6 +6824,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792409441451",
+      "time": "18:30 - 19/10/2026",
+      "timestamp": 1792409441451,
+      "name": "API CURSOR PRO 2600 CREDITS 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 2,
+      "addedQty": 5,
+      "price": 240000,
+      "stockAfter": 6,
+      "catKey": "api-cursor-deepseek",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🖱️APICURSORPRO2600CREDITS1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:2💰Giá:210.000đ"
+    },
+    {
       "id": "hist-1792409422180",
       "time": "18:30 - 19/10/2026",
       "timestamp": 1792409422180,
@@ -8202,20 +8222,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🧠APIClaude100MToken1ngàyBHF💰Giá:100k📦Tồnkho:2tàikhoản📊Đãbán:60tàikhoản💎Môtả:-API"
-    },
-    {
-      "id": "hist-1792318143100",
-      "time": "17:09 - 18/10/2026",
-      "timestamp": 1792318143100,
-      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 16,
-      "addedQty": 0,
-      "price": 43000,
-      "stockAfter": 169,
-      "catKey": "capcut",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF💰Giá:33k📦Tồnkho:16tàikhoản📊Đãbán:388tàikhoản💎Môtả:CAPCUTP"
     }
   ]
 }
