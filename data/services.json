@@ -4633,9 +4633,9 @@
         "id": "p-1792402722954",
         "name": "Gmail (New) -Login phone",
         "price": 43000,
-        "cost_price": 33000,
-        "stock": 41,
-        "stock_text": "Còn 41",
+        "cost_price": 23000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Bảo hành login 24H- Login thành công là hết BH\nGmail Login bằng Điện thoại ( Ngâm 1 thời gian có thể login đc pc bình thường )\n-Cách lượt quét QR : Đăng nhập bằng ứng dụng gmail sẽ hạ chế quét QR.\n- Định dạng : Gmail | Pass | mail khôi phục",
         "sources": {
@@ -4646,10 +4646,10 @@
             "updated": "06:34 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 41,
+            "stock": 0,
             "cost_price": 23000,
             "selling_price": 33000,
-            "updated": "16:38 19/10/2026"
+            "updated": "06:35 20/10/2026"
           }
         },
         "hidden": false,
@@ -7285,6 +7285,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792452903843",
+      "time": "06:35 - 20/10/2026",
+      "timestamp": 1792452903843,
+      "name": "Gmail (New) -Login phone",
+      "bot": "taphoathomap_bot",
+      "shopStock": 0,
+      "addedQty": 43,
+      "price": 33000,
+      "stockAfter": 0,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧Gmail(New)-Loginphone➕Thêm:43📦Tồnkhohiệntại:0💰Giá:23.000đ"
+    },
+    {
       "id": "hist-1792452899283",
       "time": "06:34 - 20/10/2026",
       "timestamp": 1792452899283,
@@ -8669,20 +8683,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2nămbh5h➕Thêm:5📦Tồnkhohiệntại:5💰Giá:120.000đ"
-    },
-    {
-      "id": "hist-1792400292655",
-      "time": "15:58 - 19/10/2026",
-      "timestamp": 1792400292655,
-      "name": "ADMIN MS365 PREMIUM 1TB 5 SLOT 1 NĂM BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 9,
-      "addedQty": 9,
-      "price": 330000,
-      "stockAfter": 9,
-      "catKey": "microsoft",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "⭐ADMINMS365PREMIUM1TB5SLOT1NĂMBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:300.000đ"
     }
   ]
 }
