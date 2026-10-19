@@ -5235,19 +5235,20 @@
         "name": "NORD VPN ANDROI/PC/IOS SLOT 3 THÁNG BHF",
         "price": 110000,
         "cost_price": 100000,
-        "stock": 17,
-        "stock_text": "Còn 17",
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "3 Tháng",
-        "detail": "Gói NORD VPN ANDROI/PC/IOS SLOT 3 THÁNG BHF bảo hành uy tín.",
+        "detail": "- Nord Vpn dùng 2 thiết bị 3 tháng bảo hành full-time\nHướng dẫn đăng nhập:\n- Định dạng tk|mk|key1|key2 dùng được android ios pc .\n- Thiết bị 1: Đăng nhập tài khoản -> mật khẩu  -> See other options -> Chọn mã key 1 -> mã key 1 -> Hoàn thành\n- Thiết bị 2 làm  tương tự như thiết bị 1.\n-Ae hoàn toàn chủ động đăng nhập nhớ đọc kỹ hướng dẫn sau khi mua xong (không cấp full mail) .\n- Lưu ý không dùng hơn số thiết bị phát hiện kick không hoàn tiền\n- Cần nâng cấp chính chủ 10 thiết bị liên hệ với admin",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 17,
+            "stock": 14,
             "cost_price": 100000,
             "selling_price": 110000,
             "updated": "14:17 19/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ]
   },
@@ -6668,6 +6669,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792394265877",
+      "time": "14:17 - 19/10/2026",
+      "timestamp": 1792394265877,
+      "name": "NORD VPN ANDROI/PC/IOS SLOT 3 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 14,
+      "addedQty": 0,
+      "price": 110000,
+      "stockAfter": 14,
+      "catKey": "vpn",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🛡️NORDVPNANDROI/PC/IOSSLOT3THÁNGBHF💰Giá:100k📦Tồnkho:14tàikhoản📊Đãbán:223tàikhoản"
+    },
+    {
       "id": "hist-1792394261988",
       "time": "14:17 - 19/10/2026",
       "timestamp": 1792394261988,
@@ -8052,20 +8067,6 @@
       "catKey": "khac",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "✨MEITUVIP+1THÁNGBHF💰Giá:80k📦Tồnkho:34tàikhoản📊Đãbán:1.366tàikhoản💎Môtả:Mởkhóaful"
-    },
-    {
-      "id": "hist-1792305299489",
-      "time": "13:34 - 18/10/2026",
-      "timestamp": 1792305299489,
-      "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
-      "bot": "ntnshopre_bot",
-      "shopStock": 1,
-      "addedQty": 0,
-      "price": 170000,
-      "stockAfter": 2,
-      "catKey": "kling",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🎬KLING792-992cre1tháng(BH24h)💰Giá:150k📦Tồnkho:1tàikhoản📊Đãbán:331tàikhoản💎Môtả:A"
     }
   ]
 }
