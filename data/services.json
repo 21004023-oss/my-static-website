@@ -4491,6 +4491,25 @@
         },
         "hidden": false,
         "needs_review": true
+      },
+      {
+        "id": "p-1792417336475",
+        "name": "Gmail Random ip 7-10 ngày 2FA",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 13,
+        "stock_text": "Còn 13",
+        "duration": "1 Tháng",
+        "detail": "- Định dạng: Mail | Pass | 2FA |  Bảo hành trong 24h, LOGIN xong hết BẢO HÀNH",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 13,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "20:42 19/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -6873,6 +6892,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792417336475",
+      "time": "20:42 - 19/10/2026",
+      "timestamp": 1792417336475,
+      "name": "Gmail Random ip 7-10 ngày 2FA",
+      "bot": "sieuthistore_bot",
+      "shopStock": 13,
+      "addedQty": 17,
+      "price": 45000,
+      "stockAfter": 13,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧GmailRandomip7-10ngày2FA➕Thêm:17📦Tồnkhohiệntại:13💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792415896423",
       "time": "20:18 - 19/10/2026",
       "timestamp": 1792415896423,
@@ -8257,20 +8290,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTcóofferPLUS0$1tháng-KBH➕Thêm:3📦Tồnkhohiệntại:3💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1792331143560",
-      "time": "20:45 - 18/10/2026",
-      "timestamp": 1792331143560,
-      "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
-      "bot": "taphoathomap_bot",
-      "shopStock": 765,
-      "addedQty": 741,
-      "price": 12000,
-      "stockAfter": 765,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH➕Thêm:741📦Tồnkhohiệntại:765💰Giá:2.000đ"
     }
   ]
 }
