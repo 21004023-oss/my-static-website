@@ -353,16 +353,16 @@
         "id": "p-1791854770760",
         "name": "ChatGPT Plus GGPay 30D BH 24H",
         "price": 240000,
-        "stock": 112,
-        "stock_text": "Còn 112",
+        "stock": 56,
+        "stock_text": "Còn 56",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 56,
+            "stock": 0,
             "cost_price": 190000,
             "selling_price": 210000,
-            "updated": "10:37 19/10/2026"
+            "updated": "13:41 19/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 56,
@@ -372,7 +372,7 @@
           }
         },
         "hidden": false,
-        "cost_price": 210000,
+        "cost_price": 190000,
         "needs_review": true
       },
       {
@@ -6630,6 +6630,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792392063433",
+      "time": "13:41 - 19/10/2026",
+      "timestamp": 1792392063433,
+      "name": "ChatGPT Plus GGPay 30D BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 0,
+      "addedQty": 7,
+      "price": 210000,
+      "stockAfter": 56,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:7📦Tồnkhohiệntại:0💰Giá:190.000đ"
+    },
+    {
       "id": "hist-1792390892374",
       "time": "13:21 - 19/10/2026",
       "timestamp": 1792390892374,
@@ -8014,20 +8028,6 @@
       "catKey": "gmail",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "⭐AppleID2FAGmail💰Giá:50k📦Tồnkho:14tàikhoản📊Đãbán:503tàikhoản💎Môtả:-Tàikhoảnchưaq"
-    },
-    {
-      "id": "hist-1792305279620",
-      "time": "13:34 - 18/10/2026",
-      "timestamp": 1792305279620,
-      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
-      "bot": "piggyai99_bot",
-      "shopStock": 100,
-      "addedQty": 0,
-      "price": 50000,
-      "stockAfter": 200,
-      "catKey": "khac",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H💰Giá:40k📦Tồnkho:100tàikhoản📊Đãbán:2.527tàikhoản💎Mô"
     }
   ]
 }
