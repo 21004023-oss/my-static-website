@@ -3129,20 +3129,21 @@
         "id": "p-1792146735154",
         "name": "Kling 1k  credits 1 tháng BH 24H",
         "price": 235000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
         "detail": "Gói Kling 1k  credits 1 tháng BH 24H bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 3,
             "cost_price": 180000,
-            "updated": "08:58 18/10/2026",
-            "selling_price": 200000
+            "selling_price": 200000,
+            "updated": "01:24 20/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 180000
+        "cost_price": 180000,
+        "needs_review": true
       },
       {
         "id": "p-1792171951020",
@@ -7057,6 +7058,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792434259865",
+      "time": "01:24 - 20/10/2026",
+      "timestamp": 1792434259865,
+      "name": "Kling 1k  credits 1 tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 3,
+      "addedQty": 0,
+      "price": 200000,
+      "stockAfter": 3,
+      "catKey": "kling",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬Kling1kcredits1thángBH24H💰Giá:180k📦Tồnkho:3tàikhoản📊Đãbán:46tàikhoản"
+    },
+    {
       "id": "hist-1792433633536",
       "time": "01:13 - 20/10/2026",
       "timestamp": 1792433633536,
@@ -8441,20 +8456,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:24📦Tồnkhohiệntại:27💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1792381066942",
-      "time": "10:37 - 19/10/2026",
-      "timestamp": 1792381066943,
-      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 56,
-      "addedQty": 14,
-      "price": 240000,
-      "stockAfter": 112,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:14📦Tồnkhohiệntại:56💰Giá:210.000đ"
     }
   ]
 }
