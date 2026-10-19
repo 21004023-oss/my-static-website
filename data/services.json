@@ -1305,6 +1305,25 @@
         },
         "hidden": false,
         "cost_price": 400000
+      },
+      {
+        "id": "p-1792380102654",
+        "name": "ChatGPT PRO 100$ 1 tháng - BH 20 Ngày ( Gói X5 cũ )",
+        "price": 2200000,
+        "cost_price": 2000000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "📦 Hình thức nhận hàng: Email + Mật khẩu + 2FA\nℹ️ Sau thanh toán bot sẽ tự động gửi tài khoản đăng nhập và mã 2FA nếu sản phẩm có.\n📝 Tài khoản ORDER\n+ Không bảo hành nếu sau 1 thời gian dùng xong báo sai thông tin pass/2fa vì khi bên mình giao account là cam kết acc chuẩn 100% không trùng không sai thông tin\n+ Lưu ý hàng này bên mình không làm sẵn, anh em order mới làm nha\n+ Đã lên đơn là shop làm, sẽ không hoàn tiền dưới mọi lý do, trừ trường hợp shop không làm được sẽ hoàn tiền\n* ĐỌC KĨ TRƯỚC KHI MUA TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 2000000,
+            "selling_price": 2200000,
+            "updated": "10:21 19/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -6523,6 +6542,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792380102654",
+      "time": "10:21 - 19/10/2026",
+      "timestamp": 1792380102654,
+      "name": "ChatGPT PRO 100$ 1 tháng - BH 20 Ngày ( Gói X5 cũ )",
+      "bot": "taphoathomap_bot",
+      "shopStock": 5,
+      "addedQty": 5,
+      "price": 2200000,
+      "stockAfter": 5,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPRO100$1tháng-BH20Ngày(GóiX5cũ)➕Thêm:5📦Tồnkhohiệntại:5💰Giá:2.000.000đ"
+    },
+    {
       "id": "hist-1792362583452",
       "time": "05:29 - 19/10/2026",
       "timestamp": 1792362583452,
@@ -7907,20 +7940,6 @@
       "catKey": "khac",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "✨MEITUVIP+1THÁNGBHF➕Thêm:24📦Tồnkhohiệntại:34💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1792297518967",
-      "time": "11:25 - 18/10/2026",
-      "timestamp": 1792297518967,
-      "name": "ChatGPT Ver Students chính chủ  Plus 4 Tháng KBH",
-      "bot": "piggyai99_bot",
-      "shopStock": 36,
-      "addedQty": 2,
-      "price": 390000,
-      "stockAfter": 36,
-      "catKey": "chatgpt",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🤖ChatGPTVerStudentschínhchủPlus4ThángKBH➕Thêm:2📦Tồnkhohiệntại:36💰Giá:360.000đ"
     }
   ]
 }
