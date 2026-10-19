@@ -3962,20 +3962,27 @@
         "id": "p-1792128240242",
         "name": "Gmail Việt 2020-2024",
         "price": 55000,
-        "stock": 63,
-        "stock_text": "Còn 63",
+        "stock": 583,
+        "stock_text": "Còn 583",
         "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
+        "detail": "Định dạng username|pass|mkp|2FA (nếu có)\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "sources": {
           "taphoathomap_bot": {
             "stock": 63,
             "cost_price": 35000,
             "updated": "12:24 16/10/2026",
             "selling_price": 45000
+          },
+          "sieuthistore_bot": {
+            "stock": 520,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "16:20 19/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 45000
+        "cost_price": 45000,
+        "needs_review": true
       },
       {
         "id": "p-1792128243477",
@@ -6732,6 +6739,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792401612944",
+      "time": "16:20 - 19/10/2026",
+      "timestamp": 1792401612944,
+      "name": "Gmail Việt 2020-2024",
+      "bot": "sieuthistore_bot",
+      "shopStock": 520,
+      "addedQty": 525,
+      "price": 55000,
+      "stockAfter": 583,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧GmailViệt2020-2024➕Thêm:525📦Tồnkhohiệntại:520💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1792401437725",
       "time": "16:17 - 19/10/2026",
       "timestamp": 1792401437725,
@@ -8116,20 +8137,6 @@
       "catKey": "vpn",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🚚EXPRESSVPN3NGÀYBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792307368283",
-      "time": "14:09 - 18/10/2026",
-      "timestamp": 1792307368283,
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 6,
-      "addedQty": 6,
-      "price": 25000,
-      "stockAfter": 12,
-      "catKey": "vpn",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:15.000đ"
     }
   ]
 }
