@@ -6224,11 +6224,20 @@
         "id": "p-1791913398101",
         "name": "HIGGSFIELD STARTER 210 CREDITS 1 THÁNG BẢO HÀNH 24H",
         "price": 195000,
-        "stock": 3,
-        "stock_text": "Còn 3",
-        "duration": "1 THÁNG",
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
         "detail": "Higgsfield Starter 1 Tháng (BH 24H)\n210 Credit\nEmail | pass | Link đọc code\nBảo hành 24H.",
-        "cost_price": 175000
+        "cost_price": 175000,
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 0,
+            "cost_price": 175000,
+            "selling_price": 195000,
+            "updated": "05:38 20/10/2026"
+          }
+        },
+        "needs_review": true
       },
       {
         "id": "p-1791913403407",
@@ -7256,6 +7265,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792449525739",
+      "time": "05:38 - 20/10/2026",
+      "timestamp": 1792449525739,
+      "name": "HIGGSFIELD STARTER 210 CREDITS 1 THÁNG BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "shopStock": 0,
+      "addedQty": 1,
+      "price": 195000,
+      "stockAfter": 0,
+      "catKey": "higgsfield",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🎬HIGGSFIELDSTARTER210CREDITS1THÁNGBẢOHÀNH24H➕Thêm:1📦Tồnkhohiệntại:0💰Giá:175.000đ"
+    },
     {
       "id": "hist-1792449520961",
       "time": "05:38 - 20/10/2026",
@@ -8641,20 +8664,6 @@
       "catKey": "meitu-wink",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✨MeituVIP7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:0💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1792399851185",
-      "time": "15:50 - 19/10/2026",
-      "timestamp": 1792399851185,
-      "name": "Meitu VIP 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 0,
-      "addedQty": 6,
-      "price": 25000,
-      "stockAfter": 0,
-      "catKey": "meitu-wink",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "✨MeituVIP7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:0💰Giá:15.000đ"
     }
   ]
 }
