@@ -3249,9 +3249,9 @@
         "id": "p-1792427096285",
         "name": "Kling Pro 3k3 Credit 1 Tháng BH 7 Ngày",
         "price": 750000,
-        "cost_price": 650000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "cost_price": 600000,
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "áp dụng bảo hành /7 ko phải /30\nKhách lưu ý",
         "sources": {
@@ -3260,9 +3260,16 @@
             "cost_price": 650000,
             "selling_price": 750000,
             "updated": "23:24 19/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 600000,
+            "selling_price": 700000,
+            "updated": "23:25 19/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=64"
@@ -7048,6 +7055,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792427103342",
+      "time": "23:25 - 19/10/2026",
+      "timestamp": 1792427103342,
+      "name": "KLING PRO 3k3 credit 1th bh 7d",
+      "bot": "taphoathomap_bot",
+      "shopStock": 5,
+      "addedQty": 6,
+      "price": 700000,
+      "stockAfter": 10,
+      "catKey": "kling",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬KLINGPRO3k3credit1thbh7d➕Thêm:6📦Tồnkhohiệntại:5💰Giá:600.000đ"
+    },
+    {
       "id": "hist-1792427096285",
       "time": "23:24 - 19/10/2026",
       "timestamp": 1792427096285,
@@ -8432,20 +8453,6 @@
       "catKey": "khac",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐KeyWindows10/11ProRetailOnlineVĩnhviễnBH7ngày➕Thêm:7📦Tồnkhohiệntại:8💰Giá:100.00"
-    },
-    {
-      "id": "hist-1792356747202",
-      "time": "03:52 - 19/10/2026",
-      "timestamp": 1792356747202,
-      "name": "Key Office 2024 Pro Plus Vĩnh viễn BH 7 ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 9,
-      "addedQty": 5,
-      "price": 89000,
-      "stockAfter": 9,
-      "catKey": "microsoft",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐KeyOffice2024ProPlusVĩnhviễnBH7ngày➕Thêm:5📦Tồnkhohiệntại:9💰Giá:79.000đ"
     }
   ]
 }
