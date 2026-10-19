@@ -5210,6 +5210,25 @@
         },
         "hidden": false,
         "needs_review": true
+      },
+      {
+        "id": "p-1792394257372",
+        "name": "Slot Nord VPN And/PC/IOS 3 tháng BHF",
+        "price": 90000,
+        "cost_price": 80000,
+        "stock": 17,
+        "stock_text": "Còn 17",
+        "duration": "3 Tháng",
+        "detail": "- Nord Vpn dùng 2 thiết bị 3 tháng bảo hành full-time\nHướng dẫn đăng nhập:\n- Định dạng tk|mk|key1|key2 dùng được android ios pc .\n- Thiết bị 1: Đăng nhập tài khoản -> mật khẩu  -> See other options -> Chọn mã key 1 -> mã key 1 -> Hoàn thành\n- Thiết bị 2 làm  tương tự như thiết bị 1.\n-Ae hoàn toàn chủ động đăng nhập nhớ đọc kỹ hướng dẫn sau khi mua xong (không cấp full mail) .\n- Lưu ý không dùng hơn số thiết bị phát hiện kick không hoàn tiền\n- Cần nâng cấp chính chủ 10 thiết bị liên hệ với admin",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 17,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "14:17 19/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -6630,6 +6649,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792394257372",
+      "time": "14:17 - 19/10/2026",
+      "timestamp": 1792394257372,
+      "name": "Slot Nord VPN And/PC/IOS 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 17,
+      "addedQty": 15,
+      "price": 90000,
+      "stockAfter": 17,
+      "catKey": "vpn",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🛡️SlotNordVPNAnd/PC/IOS3thángBHF➕Thêm:15📦Tồnkhohiệntại:17💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1792392067698",
       "time": "13:41 - 19/10/2026",
       "timestamp": 1792392067698,
@@ -8014,20 +8047,6 @@
       "catKey": "kling",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🎬KLING792-992cre1tháng(BH24h)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1792305292107",
-      "time": "13:34 - 18/10/2026",
-      "timestamp": 1792305292107,
-      "name": "ChatGPT Ver Students chính chủ  Plus 4 Tháng KBH",
-      "bot": "piggyai99_bot",
-      "shopStock": -1,
-      "addedQty": 0,
-      "price": 390000,
-      "stockAfter": -1,
-      "catKey": "chatgpt",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🤖ChatGPTVerStudentschínhchủPlus4ThángKBH💰Giá:360k📦Tồnkho:∞tàikhoản📊Đãbán:0tàikho"
     }
   ]
 }
