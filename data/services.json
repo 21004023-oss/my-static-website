@@ -218,9 +218,9 @@
         "id": "p-1792454350705",
         "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
         "price": 49000,
-        "cost_price": 39000,
-        "stock": 51,
-        "stock_text": "Còn 51",
+        "cost_price": 36000,
+        "stock": 102,
+        "stock_text": "Còn 102",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|mkp|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "sources": {
@@ -229,9 +229,16 @@
             "cost_price": 39000,
             "selling_price": 49000,
             "updated": "06:59 20/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 51,
+            "cost_price": 36000,
+            "selling_price": 46000,
+            "updated": "06:59 20/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=youtube.com&sz=64"
@@ -7304,6 +7311,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792454355281",
+      "time": "06:59 - 20/10/2026",
+      "timestamp": 1792454355281,
+      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
+      "bot": "taphoathomap_bot",
+      "shopStock": 51,
+      "addedQty": 173,
+      "price": 46000,
+      "stockAfter": 102,
+      "catKey": "youtube",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:173📦Tồnkhohiệntại:51💰Giá:36.000đ"
+    },
+    {
       "id": "hist-1792454350705",
       "time": "06:59 - 20/10/2026",
       "timestamp": 1792454350705,
@@ -8688,20 +8709,6 @@
       "catKey": "gmail",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧GmailViệt2020-2024➕Thêm:525📦Tồnkhohiệntại:520💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792401437725",
-      "time": "16:17 - 19/10/2026",
-      "timestamp": 1792401437725,
-      "name": "ChatGPT Ver Students Plus 4 Tháng KBH",
-      "bot": "piggyai99_bot",
-      "shopStock": 5,
-      "addedQty": 2,
-      "price": 370000,
-      "stockAfter": 5,
-      "catKey": "chatgpt",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🤖ChatGPTVerStudentsPlus4ThángKBH➕Thêm:2📦Tồnkhohiệntại:5💰Giá:320.000đ"
     }
   ]
 }
