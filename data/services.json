@@ -2116,16 +2116,16 @@
         "id": "p-1792119807992",
         "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
         "price": 75000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 10,
+            "stock": 0,
             "cost_price": 65000,
             "selling_price": 75000,
-            "updated": "23:04 18/10/2026"
+            "updated": "09:52 19/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -2136,7 +2136,7 @@
         },
         "hidden": true,
         "needs_review": true,
-        "cost_price": 40000
+        "cost_price": 65000
       },
       {
         "id": "p-1792125293833",
@@ -6584,6 +6584,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792378330378",
+      "time": "09:52 - 19/10/2026",
+      "timestamp": 1792378330378,
+      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 0,
+      "addedQty": 1,
+      "price": 75000,
+      "stockAfter": 0,
+      "catKey": "capcut",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:1📦Tồnkhohiệntại:0💰Giá:65.000đ"
+    },
+    {
       "id": "hist-1792378325474",
       "time": "09:52 - 19/10/2026",
       "timestamp": 1792378325474,
@@ -7968,20 +7982,6 @@
       "catKey": "notion",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐AdminNotionBusiness3thángBHF💰Giá:380k📦Tồnkho:2tàikhoản📊Đãbán:12tàikhoản💎Môtả:-A"
-    },
-    {
-      "id": "hist-1792305326565",
-      "time": "13:35 - 18/10/2026",
-      "timestamp": 1792305326565,
-      "name": "Slot Profile Netflix Premium 4K 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 9,
-      "addedQty": 0,
-      "price": 175000,
-      "stockAfter": 14,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🎬SlotProfileNetflixPremium4K1ThángBHF💰Giá:155k📦Tồnkho:9tàikhoản📊Đãbán:378tàikhoả"
     }
   ]
 }
