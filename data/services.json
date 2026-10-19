@@ -5584,20 +5584,27 @@
         "id": "p-1792330332777",
         "name": "Meitu SVip+ 7 Ngày BHF",
         "price": 45000,
-        "cost_price": 35000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "cost_price": 25000,
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
-        "detail": "Meitu SVIP(VIP+) 7 Ngày login 1 thiết bị, nếu đăng nhập trên điện thoại lỗi thì có thể đăng nhập sử dụng trên PC, Mac\n- Định dạng: (Email|Pass Hotmail|Pass Meitu) Token\n- Pass Meitu mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\n・Link tải Meitu cho máy tính Windows\nhttps://meitu.vi.uptodown.com/windows\n・Link tải Meitu cho máy tính Mac OS\nhttps://meitu.vi.uptodown.com/mac\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI",
+        "detail": "⚠️ LƯU Ý QUAN TRỌNG\n📱 Chỉ sử dụng trên 01 thiết bị iPhone/iOS\n🔐 Quy định sử dụng:\n• Đăng nhập trong vòng 30 phút kể từ lúc mua.\n• Không đăng xuất tài khoản sau khi đăng nhập.\n• Không chia sẻ tài khoản, không đổi mật khẩu/thông tin tài khoản.\n• Không đăng nhập nhiều thiết bị.\n➡️ Vi phạm bất kỳ quy định nào sẽ không được bảo hành.\n🍎 Hướng dẫn đăng nhập iPhone/iOS:\nThông thường không cần mã xác nhận. Chọn +852 hoặc +86, nhập SĐT + mật khẩu rồi đăng nhập.\n👆 Xem ảnh hướng dẫn đăng nhập phía trên.\n🛠 Nếu bị lỗi: chụp màn hình tình trạng lỗi ngay sau khi đăng nhập và gửi cho shop để được hỗ trợ.",
         "sources": {
           "sieuthistore_bot": {
             "stock": 3,
             "cost_price": 35000,
             "selling_price": 45000,
             "updated": "20:32 18/10/2026"
+          },
+          "ntnshopre_bot": {
+            "stock": 3,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "10:51 19/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ]
   },
@@ -6541,6 +6548,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792381898024",
+      "time": "10:51 - 19/10/2026",
+      "timestamp": 1792381898024,
+      "name": "MEITU SVIP 7 NGÀY BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 3,
+      "addedQty": 5,
+      "price": 35000,
+      "stockAfter": 6,
+      "catKey": "meitu-wink",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "✨MEITUSVIP7NGÀYBHF➕Thêm:5📦Tồnkhohiệntại:3💰Giá:25.000đ"
+    },
     {
       "id": "hist-1792381556908",
       "time": "10:45 - 19/10/2026",
@@ -7926,20 +7947,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:50📦Tồnkhohiệntại:59💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1792299628841",
-      "time": "12:00 - 18/10/2026",
-      "timestamp": 1792299628841,
-      "name": "ChatGPT Plus GGPay 30D BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 27,
-      "addedQty": 12,
-      "price": 210000,
-      "stockAfter": 54,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:12📦Tồnkhohiệntại:27💰Giá:190.000đ"
     }
   ]
 }
