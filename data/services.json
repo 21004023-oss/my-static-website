@@ -4866,8 +4866,8 @@
         "id": "p-1792006811047",
         "name": "Photoroom Max 7 Ngày BHF",
         "price": 45000,
-        "stock": 13,
-        "stock_text": "Còn 13",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "Photoroom 7 ngày gói Max\nĐịnh dạng: Email|Web mail",
         "sources": {
@@ -4878,13 +4878,13 @@
             "updated": "18:07 19/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 8,
+            "stock": 5,
             "cost_price": 15000,
-            "updated": "06:05 15/10/2026",
-            "selling_price": 25000
+            "selling_price": 25000,
+            "updated": "18:07 19/10/2026"
           }
         },
-        "cost_price": 35000,
+        "cost_price": 15000,
         "needs_review": true
       },
       {
@@ -6811,6 +6811,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792408078468",
+      "time": "18:07 - 19/10/2026",
+      "timestamp": 1792408078468,
+      "name": "Photoroom Max 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 5,
+      "addedQty": 6,
+      "price": 25000,
+      "stockAfter": 10,
+      "catKey": "adobe",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:5💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1792408072943",
       "time": "18:07 - 19/10/2026",
       "timestamp": 1792408072943,
@@ -8195,20 +8209,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🤖ChatGPTVerStudentschínhchủPlus4ThángKBH💰Giá:360k📦Tồnkho:∞tàikhoản📊Đãbán:0tàikho"
-    },
-    {
-      "id": "hist-1792317140504",
-      "time": "16:52 - 18/10/2026",
-      "timestamp": 1792317140504,
-      "name": "Gmail random 5-10 tháng 2FA",
-      "bot": "taphoathomap_bot",
-      "shopStock": 16,
-      "addedQty": 44,
-      "price": 35000,
-      "stockAfter": 32,
-      "catKey": "gmail",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "📧Gmailrandom5-10tháng2FA➕Thêm:44📦Tồnkhohiệntại:16💰Giá:25.000đ"
     }
   ]
 }
