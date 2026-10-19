@@ -4435,7 +4435,7 @@
         "id": "p-1792404466054",
         "name": "Gmail (New) 2FA-Login All",
         "price": 46000,
-        "cost_price": 36000,
+        "cost_price": 26000,
         "stock": 0,
         "stock_text": "Hết hàng",
         "duration": "1 Tháng",
@@ -4446,9 +4446,16 @@
             "cost_price": 36000,
             "selling_price": 46000,
             "updated": "17:07 19/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 0,
+            "cost_price": 26000,
+            "selling_price": 36000,
+            "updated": "17:07 19/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -6803,6 +6810,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792404471223",
+      "time": "17:07 - 19/10/2026",
+      "timestamp": 1792404471223,
+      "name": "Gmail (New) 2FA-Login All",
+      "bot": "taphoathomap_bot",
+      "shopStock": 0,
+      "addedQty": 4,
+      "price": 36000,
+      "stockAfter": 0,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧Gmail(New)2FA-LoginAll➕Thêm:4📦Tồnkhohiệntại:0💰Giá:26.000đ"
+    },
+    {
       "id": "hist-1792404466054",
       "time": "17:07 - 19/10/2026",
       "timestamp": 1792404466054,
@@ -8187,20 +8208,6 @@
       "catKey": "api-cursor-deepseek",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🖱️APICursorPro400Credits/ngày1thángBHF➕Thêm:4📦Tồnkhohiệntại:1💰Giá:309.000đ"
-    },
-    {
-      "id": "hist-1792313842304",
-      "time": "15:57 - 18/10/2026",
-      "timestamp": 1792313842304,
-      "name": "API CURSOR PRO 400 CREDITS/NGÀY 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 1,
-      "addedQty": 4,
-      "price": 339000,
-      "stockAfter": 2,
-      "catKey": "api-cursor-deepseek",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🖱️APICURSORPRO400CREDITS/NGÀY1THÁNGBHF➕Thêm:4📦Tồnkhohiệntại:1💰Giá:309.000đ"
     }
   ]
 }
