@@ -192,9 +192,9 @@
         "id": "p-1792421847902",
         "name": "Gmail Random ip 2020-2023 trial youtube",
         "price": 60000,
-        "cost_price": 50000,
-        "stock": 172,
-        "stock_text": "Còn 172",
+        "cost_price": 40000,
+        "stock": 344,
+        "stock_text": "Còn 344",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành",
         "sources": {
@@ -203,9 +203,16 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "updated": "21:57 19/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 172,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "21:57 19/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=youtube.com&sz=64"
@@ -6985,6 +6992,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792421852111",
+      "time": "21:57 - 19/10/2026",
+      "timestamp": 1792421852111,
+      "name": "Gmail Random ip 2020-2023 trial youtube",
+      "bot": "taphoathomap_bot",
+      "shopStock": 172,
+      "addedQty": 2,
+      "price": 50000,
+      "stockAfter": 344,
+      "catKey": "youtube",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧GmailRandomip2020-2023trialyoutube➕Thêm:2📦Tồnkhohiệntại:172💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1792421847902",
       "time": "21:57 - 19/10/2026",
       "timestamp": 1792421847902,
@@ -8369,20 +8390,6 @@
       "catKey": "meitu-wink",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✨MeituSVIP1ThángBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1792334720383",
-      "time": "21:45 - 18/10/2026",
-      "timestamp": 1792334720383,
-      "name": "Meitu VIP+  1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 9,
-      "addedQty": 9,
-      "price": 70000,
-      "stockAfter": 67,
-      "catKey": "meitu-wink",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "✨MeituVIP+1ThángBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:60.000đ"
     }
   ]
 }
