@@ -2113,16 +2113,16 @@
         "id": "p-1792119807992",
         "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
         "price": 75000,
-        "stock": 27,
-        "stock_text": "Còn 27",
+        "stock": 34,
+        "stock_text": "Còn 34",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 10,
+            "stock": 17,
             "cost_price": 65000,
             "selling_price": 75000,
-            "updated": "23:04 18/10/2026"
+            "updated": "11:43 19/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 17,
@@ -2133,7 +2133,7 @@
         },
         "hidden": true,
         "needs_review": true,
-        "cost_price": 40000
+        "cost_price": 65000
       },
       {
         "id": "p-1792125293833",
@@ -6558,6 +6558,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792385025618",
+      "time": "11:43 - 19/10/2026",
+      "timestamp": 1792385025618,
+      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 17,
+      "addedQty": 10,
+      "price": 75000,
+      "stockAfter": 34,
+      "catKey": "capcut",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:10📦Tồnkhohiệntại:17💰Giá:65.000đ"
+    },
+    {
       "id": "hist-1792385018672",
       "time": "11:43 - 19/10/2026",
       "timestamp": 1792385018672,
@@ -7942,20 +7956,6 @@
       "catKey": "notion",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐RedeemNotionBusiness3thángBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:190.000đ"
-    },
-    {
-      "id": "hist-1792302114345",
-      "time": "12:41 - 18/10/2026",
-      "timestamp": 1792302114345,
-      "name": "Redeem Notion Business 3 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 6,
-      "addedQty": 5,
-      "price": 240000,
-      "stockAfter": 6,
-      "catKey": "notion",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐RedeemNotionBusiness3thángBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:210.000đ"
     }
   ]
 }
