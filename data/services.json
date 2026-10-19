@@ -3129,13 +3129,13 @@
         "id": "p-1792146735154",
         "name": "Kling 1k  credits 1 tháng BH 24H",
         "price": 235000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "Gói Kling 1k  credits 1 tháng BH 24H bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 3,
+            "stock": 2,
             "cost_price": 180000,
             "selling_price": 200000,
             "updated": "01:24 20/10/2026"
@@ -7058,6 +7058,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792434264846",
+      "time": "01:24 - 20/10/2026",
+      "timestamp": 1792434264846,
+      "name": "Kling 1k  credits 1 tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 2,
+      "addedQty": 2,
+      "price": 200000,
+      "stockAfter": 2,
+      "catKey": "kling",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬Kling1kcredits1thángBH24H➕Thêm:2📦Tồnkhohiệntại:2💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1792434259865",
       "time": "01:24 - 20/10/2026",
       "timestamp": 1792434259865,
@@ -8442,20 +8456,6 @@
       "catKey": "meitu-wink",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "✨MEITUSVIP7NGÀYBHF➕Thêm:5📦Tồnkhohiệntại:3💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792381556908",
-      "time": "10:45 - 19/10/2026",
-      "timestamp": 1792381556908,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 27,
-      "addedQty": 24,
-      "price": 85000,
-      "stockAfter": 27,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:24📦Tồnkhohiệntại:27💰Giá:75.000đ"
     }
   ]
 }
