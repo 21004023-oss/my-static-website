@@ -2559,19 +2559,20 @@
         "id": "p-1792022781261",
         "name": "Nâng chính chủ CLAUDE PRO 1 Tháng - BH 20 Ngày",
         "price": 430000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 7,
+        "stock_text": "Còn 7",
         "duration": "1 Tháng",
-        "detail": "🚀 NÂNG CẤP CLAUDE PRO – TÀI KHOẢN CHÍNH CHỦ\n✅ Nâng cấp trực tiếp trên tài khoản khách hàng.\n🛡 Bảo hành 20 ngày: Mất gói, tụt gói.\n❌ Không BH tài khoản bị khóa (die) hoặc vi phạm chính sách nền tảng.\n📩 Sau khi mua, gửi: Email | Pass | 2FA\n⏳ Hoàn thành trong 24 giờ, vui lòng không giục Shop.\n⚠️ LƯU Ý: Gửi đầy đủ, chính xác thông tin đăng nhập bao gồm Tài khoản| Pass | 2FA , trường hợp đăng nhập thông qua link shop sẽ không hỗ trợ nâng cấp",
+        "detail": "🚀 NÂNG CẤP CLAUDE PRO – TÀI KHOẢN CHÍNH CHỦ\n✅ Nâng cấp trực tiếp trên tài khoản khách hàng.\n🛡 Bảo hành 20 ngày: Mất gói, tụt gói.\n❌ Không BH tài khoản bị khóa (die) hoặc vi phạm chính sách nền tảng.\n📩 Sau khi mua, gửi: Email | Pass | 2FA\n⏳ Hoàn thành trong 2-3 NGÀY , vui lòng không giục Shop.\n⚠️ LƯU Ý: Gửi đầy đủ, chính xác thông tin đăng nhập bao gồm Tài khoản| Pass | 2FA , trường hợp đăng nhập thông qua link shop sẽ không hỗ trợ nâng cấp",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 8,
+            "stock": 7,
             "cost_price": 380000,
-            "updated": "07:06 15/10/2026",
-            "selling_price": 430000
+            "selling_price": 430000,
+            "updated": "15:26 19/10/2026"
           }
         },
-        "cost_price": 380000
+        "cost_price": 380000,
+        "needs_review": true
       },
       {
         "id": "gpt-json-free",
@@ -6707,6 +6708,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792398370869",
+      "time": "15:26 - 19/10/2026",
+      "timestamp": 1792398370869,
+      "name": "Nâng chính chủ CLAUDE PRO 1 Tháng - BH 20 Ngày",
+      "bot": "taphoathomap_bot",
+      "shopStock": 7,
+      "addedQty": 7,
+      "price": 430000,
+      "stockAfter": 7,
+      "catKey": "api-claude-codex",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🧠NângchínhchủCLAUDEPRO1Tháng-BH20Ngày➕Thêm:7📦Tồnkhohiệntại:7💰Giá:380.000đ"
+    },
+    {
       "id": "hist-1792397516353",
       "time": "15:11 - 19/10/2026",
       "timestamp": 1792397516353,
@@ -8091,20 +8106,6 @@
       "catKey": "gmail",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "⭐AppleID2FAGmail➕Thêm:11📦Tồnkhohiệntại:14💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792305340690",
-      "time": "13:35 - 18/10/2026",
-      "timestamp": 1792305340690,
-      "name": "Slot riêng tư Netflix Premium 4K 1TH (BHF)",
-      "bot": "taphoathomap_bot",
-      "shopStock": 9,
-      "addedQty": 0,
-      "price": 75000,
-      "stockAfter": 23,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬SlotriêngtưNetflixPremium4K1TH(BHF)💰Giá:65k📦Tồnkho:9tàikhoản📊Đãbán:378tàikhoản💎"
     }
   ]
 }
