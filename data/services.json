@@ -4497,8 +4497,8 @@
         "name": "Gmail Random ip 7-10 ngày 2FA",
         "price": 45000,
         "cost_price": 25000,
-        "stock": 26,
-        "stock_text": "Còn 26",
+        "stock": 27,
+        "stock_text": "Còn 27",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2FA |  Bảo hành trong 24h, LOGIN xong hết BẢO HÀNH",
         "sources": {
@@ -4509,7 +4509,7 @@
             "updated": "20:42 19/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 13,
+            "stock": 14,
             "cost_price": 25000,
             "selling_price": 35000,
             "updated": "20:42 19/10/2026"
@@ -6899,6 +6899,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792417345531",
+      "time": "20:42 - 19/10/2026",
+      "timestamp": 1792417345531,
+      "name": "Gmail Random ip 7-10 ngày 2FA",
+      "bot": "taphoathomap_bot",
+      "shopStock": 14,
+      "addedQty": 0,
+      "price": 35000,
+      "stockAfter": 27,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧GmailRandomip7-10ngày2FA💰Giá:25k📦Tồnkho:14tàikhoản📊Đãbán:3.511tàikhoản💎Môtả:-Đị"
+    },
+    {
       "id": "hist-1792417341241",
       "time": "20:42 - 19/10/2026",
       "timestamp": 1792417341241,
@@ -8283,20 +8297,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📣ThôngbáotừAdmin:📢THÔNGBÁOTỪADMIN✅BOTĐÃHOẠTĐỘNGTRỞLẠI!🐰🎉ShopđangSALEmộtsốsảnphẩm"
-    },
-    {
-      "id": "hist-1792331645033",
-      "time": "20:54 - 18/10/2026",
-      "timestamp": 1792331645033,
-      "name": "CapCut Pro Team 3 Tháng - BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 2,
-      "addedQty": 2,
-      "price": 180000,
-      "stockAfter": 2,
-      "catKey": "capcut",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:160.000đ"
     }
   ]
 }
