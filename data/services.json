@@ -3236,6 +3236,25 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792402833725",
+        "name": "Spotify Premium 1-2 tháng BH 1 Tháng",
+        "price": 70000,
+        "cost_price": 60000,
+        "stock": 11,
+        "stock_text": "Còn 11",
+        "duration": "2 Tháng",
+        "detail": "Hàng đã trôi date 2 tuần, có tỉ lệ cao sang tháng thứ 2 renew tiếp\nCó thể trôi date mạnh",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 11,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "16:40 19/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=spotify.com&sz=64"
@@ -6765,6 +6784,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792402833725",
+      "time": "16:40 - 19/10/2026",
+      "timestamp": 1792402833725,
+      "name": "Spotify Premium 1-2 tháng BH 1 Tháng",
+      "bot": "sieuthistore_bot",
+      "shopStock": 11,
+      "addedQty": 3,
+      "price": 70000,
+      "stockAfter": 11,
+      "catKey": "spotify",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐SpotifyPremium1-2thángBH1Tháng➕Thêm:3📦Tồnkhohiệntại:11💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1792402727116",
       "time": "16:38 - 19/10/2026",
       "timestamp": 1792402727116,
@@ -8149,20 +8182,6 @@
       "catKey": "api-cursor-deepseek",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🖱️APICursorPro400Credits/ngày1thángBHF➕Thêm:4📦Tồnkhohiệntại:1💰Giá:360.000đ"
-    },
-    {
-      "id": "hist-1792310831023",
-      "time": "15:07 - 18/10/2026",
-      "timestamp": 1792310831023,
-      "name": "Proton VPN 14-28 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 5,
-      "addedQty": 4,
-      "price": 55000,
-      "stockAfter": 5,
-      "catKey": "vpn",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:5💰Giá:45.000đ"
     }
   ]
 }
