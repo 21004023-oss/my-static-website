@@ -3705,9 +3705,9 @@
       {
         "id": "p-1792043489127",
         "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
-        "price": 33000,
-        "stock": 42,
-        "stock_text": "Còn 42",
+        "price": 53000,
+        "stock": 84,
+        "stock_text": "Còn 84",
         "duration": "6 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2fa | Passkey\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL TRIAL RANDOM IP  DATE  6 THÁNG\n- Lấy mã Google Authentic / 2fa ở 2fa.live",
         "sources": {
@@ -3716,10 +3716,16 @@
             "cost_price": 23000,
             "selling_price": 33000,
             "updated": "14:41 19/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 42,
+            "cost_price": 43000,
+            "selling_price": 53000,
+            "updated": "15:47 19/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 23000,
+        "cost_price": 43000,
         "needs_review": true
       },
       {
@@ -6709,6 +6715,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792399676846",
+      "time": "15:47 - 19/10/2026",
+      "timestamp": 1792399676846,
+      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
+      "bot": "sieuthistore_bot",
+      "shopStock": 42,
+      "addedQty": 1,
+      "price": 53000,
+      "stockAfter": 84,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:1📦Tồnkhohiệntại:42💰Giá:43.000đ"
+    },
+    {
       "id": "hist-1792399217652",
       "time": "15:40 - 19/10/2026",
       "timestamp": 1792399217652,
@@ -8093,20 +8113,6 @@
       "catKey": "khac",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "✨MEITUVIP+1THÁNGBHF➕Thêm:24📦Tồnkhohiệntại:34💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1792305969447",
-      "time": "13:46 - 18/10/2026",
-      "timestamp": 1792305969447,
-      "name": "EXPRESS VPN 12 THÁNG BẢO HÀNH LOGIN",
-      "bot": "ntnshopre_bot",
-      "shopStock": 14,
-      "addedQty": 0,
-      "price": 145000,
-      "stockAfter": 14,
-      "catKey": "khac",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🚚EXPRESSVPN12THÁNGBẢOHÀNHLOGIN💰Giá:125k📦Tồnkho:14tàikhoản📊Đãbán:25tàikhoản💎Môtả:"
     }
   ]
 }
