@@ -353,16 +353,16 @@
         "id": "p-1791854770760",
         "name": "ChatGPT Plus GGPay 30D BH 24H",
         "price": 240000,
-        "stock": 122,
-        "stock_text": "Còn 122",
+        "stock": 117,
+        "stock_text": "Còn 117",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 61,
+            "stock": 56,
             "cost_price": 190000,
             "selling_price": 210000,
-            "updated": "02:39 19/10/2026"
+            "updated": "10:37 19/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 61,
@@ -6542,6 +6542,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792381063027",
+      "time": "10:37 - 19/10/2026",
+      "timestamp": 1792381063027,
+      "name": "ChatGPT Plus GGPay 30D BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 56,
+      "addedQty": 14,
+      "price": 210000,
+      "stockAfter": 117,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:14📦Tồnkhohiệntại:56💰Giá:190.000đ"
+    },
+    {
       "id": "hist-1792381057574",
       "time": "10:37 - 19/10/2026",
       "timestamp": 1792381057574,
@@ -7926,20 +7940,6 @@
       "catKey": "khac",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✨MeituVip+1ThángBHF💰Giá:70k📦Tồnkho:24tàikhoản📊Đãbán:1.366tàikhoản💎Môtả:Mởkhóaful"
-    },
-    {
-      "id": "hist-1792298451135",
-      "time": "11:40 - 18/10/2026",
-      "timestamp": 1792298451135,
-      "name": "Meitu Vip+ 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 34,
-      "addedQty": 24,
-      "price": 80000,
-      "stockAfter": 77,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✨MeituVip+1ThángBHF➕Thêm:24📦Tồnkhohiệntại:34💰Giá:70.000đ"
     }
   ]
 }
