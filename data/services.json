@@ -3554,13 +3554,22 @@
       {
         "id": "p-1791873309021",
         "name": "Gmail Random ip 2020-2024",
-        "price": 45000,
-        "stock": 6,
-        "stock_text": "Còn 6",
-        "duration": "24h",
-        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
+        "price": 55000,
+        "stock": 100,
+        "stock_text": "Còn 100",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|pass|MKP|2FA (nếu có)\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "price_verified": true,
-        "cost_price": 35000
+        "cost_price": 45000,
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 100,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "20:58 19/10/2026"
+          }
+        },
+        "needs_review": true
       },
       {
         "id": "p-1791895584818",
@@ -6906,6 +6915,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792418331563",
+      "time": "20:58 - 19/10/2026",
+      "timestamp": 1792418331563,
+      "name": "Gmail Random ip 2020-2024",
+      "bot": "sieuthistore_bot",
+      "shopStock": 100,
+      "addedQty": 100,
+      "price": 55000,
+      "stockAfter": 100,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧GmailRandomip2020-2024➕Thêm:100📦Tồnkhohiệntại:100💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1792417430650",
       "time": "20:43 - 19/10/2026",
       "timestamp": 1792417430650,
@@ -8290,20 +8313,6 @@
       "catKey": "google-veo",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "☁️NÂNGCẤPGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH1THÁNG➕Thêm:17📦Tồnkhohiệntại:16💰Giá"
-    },
-    {
-      "id": "hist-1792332432148",
-      "time": "21:07 - 18/10/2026",
-      "timestamp": 1792332432148,
-      "name": "NÂNG CẤP GEMINI PRO + GOOGLE ONE 5TB 18 THÁNG BẢO HÀNH 1 THÁNG",
-      "bot": "ntnshopre_bot",
-      "shopStock": 16,
-      "addedQty": 0,
-      "price": 45000,
-      "stockAfter": 16,
-      "catKey": "google-veo",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "☁️NÂNGCẤPGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH1THÁNG💰Giá:35k📦Tồnkho:16tàikhoản📊Đã"
     }
   ]
 }
