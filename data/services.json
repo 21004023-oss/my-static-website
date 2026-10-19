@@ -2793,8 +2793,8 @@
         "id": "p-1791936211706",
         "name": "API Cursor Pro 2600 Credits 1 tháng BHF",
         "price": 310000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "Api Cursor Pro 2600 credit hạn sử dụng 1 tháng.\n-Credit: 2600\n-Hạn sử dụng: 1 tháng từ lúc active Key.\n-Bảo hành: 30 ngày.\n-File tài liệu chi tiết về cách sử dụng và setup sản phẩm: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1?usp=drive_link\n-Lưu ý: Sản phẩm là API,không phải tài khoản,không hỗ trợ hoàn trả nếu mua nhầm,không biết sử dụng.",
         "sources": {
@@ -2803,9 +2803,16 @@
             "cost_price": 204000,
             "updated": "06:56 16/10/2026",
             "selling_price": 234000
+          },
+          "sieuthistore_bot": {
+            "stock": 2,
+            "cost_price": 280000,
+            "selling_price": 310000,
+            "updated": "18:30 19/10/2026"
           }
         },
-        "cost_price": 280000
+        "cost_price": 280000,
+        "needs_review": true
       },
       {
         "id": "p-1792108522126",
@@ -6811,6 +6818,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792409422180",
+      "time": "18:30 - 19/10/2026",
+      "timestamp": 1792409422180,
+      "name": "API Cursor Pro 2600 Credits 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 2,
+      "addedQty": 5,
+      "price": 310000,
+      "stockAfter": 4,
+      "catKey": "api-cursor-deepseek",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🖱️APICursorPro2600Credits1thángBHF➕Thêm:5📦Tồnkhohiệntại:2💰Giá:280.000đ"
+    },
+    {
       "id": "hist-1792408078468",
       "time": "18:07 - 19/10/2026",
       "timestamp": 1792408078468,
@@ -8195,20 +8216,6 @@
       "catKey": "capcut",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF💰Giá:33k📦Tồnkho:16tàikhoản📊Đãbán:388tàikhoản💎Môtả:CAPCUTP"
-    },
-    {
-      "id": "hist-1792318137574",
-      "time": "17:08 - 18/10/2026",
-      "timestamp": 1792318137574,
-      "name": "ChatGPT Ver Students chính chủ  Plus 4 Tháng KBH",
-      "bot": "piggyai99_bot",
-      "shopStock": -1,
-      "addedQty": 0,
-      "price": 410000,
-      "stockAfter": -1,
-      "catKey": "chatgpt",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🤖ChatGPTVerStudentschínhchủPlus4ThángKBH💰Giá:360k📦Tồnkho:∞tàikhoản📊Đãbán:0tàikho"
     }
   ]
 }
