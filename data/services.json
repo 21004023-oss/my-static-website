@@ -4430,6 +4430,25 @@
         },
         "hidden": false,
         "needs_review": true
+      },
+      {
+        "id": "p-1792404466054",
+        "name": "Gmail (New) 2FA-Login All",
+        "price": 46000,
+        "cost_price": 36000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Gmail (New) 2FA-Login All bảo hành uy tín.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 0,
+            "cost_price": 36000,
+            "selling_price": 46000,
+            "updated": "17:07 19/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -6784,6 +6803,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792404466054",
+      "time": "17:07 - 19/10/2026",
+      "timestamp": 1792404466054,
+      "name": "Gmail (New) 2FA-Login All",
+      "bot": "sieuthistore_bot",
+      "shopStock": 0,
+      "addedQty": 4,
+      "price": 46000,
+      "stockAfter": 0,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧Gmail(New)2FA-LoginAll➕Thêm:4📦Tồnkhohiệntại:0💰Giá:36.000đ"
+    },
+    {
       "id": "hist-1792402833725",
       "time": "16:40 - 19/10/2026",
       "timestamp": 1792402833725,
@@ -8168,20 +8201,6 @@
       "catKey": "api-cursor-deepseek",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🖱️APICURSORPRO400CREDITS/NGÀY1THÁNGBHF➕Thêm:4📦Tồnkhohiệntại:1💰Giá:309.000đ"
-    },
-    {
-      "id": "hist-1792313836216",
-      "time": "15:57 - 18/10/2026",
-      "timestamp": 1792313836216,
-      "name": "API Cursor Pro 400 Credits/ngày 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 1,
-      "addedQty": 4,
-      "price": 390000,
-      "stockAfter": 1,
-      "catKey": "api-cursor-deepseek",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🖱️APICursorPro400Credits/ngày1thángBHF➕Thêm:4📦Tồnkhohiệntại:1💰Giá:360.000đ"
     }
   ]
 }
