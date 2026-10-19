@@ -2801,8 +2801,8 @@
           "taphoathomap_bot": {
             "stock": 2,
             "cost_price": 204000,
-            "updated": "06:56 16/10/2026",
-            "selling_price": 234000
+            "selling_price": 234000,
+            "updated": "18:30 19/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 2,
@@ -2817,7 +2817,7 @@
             "updated": "18:30 19/10/2026"
           }
         },
-        "cost_price": 210000,
+        "cost_price": 204000,
         "needs_review": true
       },
       {
@@ -6824,6 +6824,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792409457974",
+      "time": "18:30 - 19/10/2026",
+      "timestamp": 1792409457974,
+      "name": "API Cursor Pro 2600 Credits 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 2,
+      "addedQty": 5,
+      "price": 234000,
+      "stockAfter": 6,
+      "catKey": "api-cursor-deepseek",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🖱️APICursorPro2600Credits1thángBHF➕Thêm:5📦Tồnkhohiệntại:2💰Giá:204.000đ"
+    },
+    {
       "id": "hist-1792409441451",
       "time": "18:30 - 19/10/2026",
       "timestamp": 1792409441451,
@@ -8208,20 +8222,6 @@
       "catKey": "vpn",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🚚EXPRESSVPN3NGÀYBHF💰Giá:15k📦Tồnkho:6tàikhoản📊Đãbán:753tàikhoản💎Môtả:Địnhdạng:ema"
-    },
-    {
-      "id": "hist-1792318149357",
-      "time": "17:09 - 18/10/2026",
-      "timestamp": 1792318149357,
-      "name": "API Claude 100M Token 1 ngày BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 2,
-      "addedQty": 0,
-      "price": 110000,
-      "stockAfter": 2,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🧠APIClaude100MToken1ngàyBHF💰Giá:100k📦Tồnkho:2tàikhoản📊Đãbán:60tàikhoản💎Môtả:-API"
     }
   ]
 }
