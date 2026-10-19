@@ -4354,9 +4354,9 @@
         "id": "p-1792370696891",
         "name": "Gmail Random ip 7-10 ngày 2FA",
         "price": 45000,
-        "cost_price": 35000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "cost_price": 25000,
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2FA |  Bảo hành trong 24h, LOGIN xong hết BẢO HÀNH",
         "sources": {
@@ -4365,9 +4365,16 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "updated": "07:44 19/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "07:45 19/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -6576,6 +6583,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792370700609",
+      "time": "07:45 - 19/10/2026",
+      "timestamp": 1792370700609,
+      "name": "Gmail Random ip 7-10 ngày 2FA",
+      "bot": "taphoathomap_bot",
+      "shopStock": 5,
+      "addedQty": 17,
+      "price": 35000,
+      "stockAfter": 10,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧GmailRandomip7-10ngày2FA➕Thêm:17📦Tồnkhohiệntại:5💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1792370696891",
       "time": "07:44 - 19/10/2026",
       "timestamp": 1792370696891,
@@ -7960,20 +7981,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🤖ChatGPTVerStudentschínhchủPlus4ThángKBH💰Giá:360k📦Tồnkho:∞tàikhoản📊Đãbán:0tàikho"
-    },
-    {
-      "id": "hist-1792305286185",
-      "time": "13:34 - 18/10/2026",
-      "timestamp": 1792305286185,
-      "name": "Apple ID 2FA Gmail",
-      "bot": "piggyai99_bot",
-      "shopStock": 14,
-      "addedQty": 0,
-      "price": 60000,
-      "stockAfter": 42,
-      "catKey": "gmail",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "⭐AppleID2FAGmail💰Giá:50k📦Tồnkho:14tàikhoản📊Đãbán:503tàikhoản💎Môtả:-Tàikhoảnchưaq"
     }
   ]
 }
