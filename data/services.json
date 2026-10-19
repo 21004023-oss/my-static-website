@@ -553,10 +553,10 @@
         "id": "p-1791922487996",
         "name": "ChatGPT Plus Apple Pay 1 Tháng BHF",
         "price": 370000,
-        "stock": 148,
-        "stock_text": "Còn 148",
+        "stock": 128,
+        "stock_text": "Còn 128",
         "duration": "1 Tháng",
-        "detail": "-ChatGPT Plus Apple Pay ổn định\n-Định dạng: Mail | Pass | 2Fa\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng\n-Tài khoản đã được check kĩ thông tin trước khi bán\n-Khách hàng nhận tài khoản tự bảo mật\n-Sử dụng Codex tự ver số, thuê số tại viotp chấm com\n-KBH Codex & 9routor, tools,.. love you 💚",
+        "detail": "📌 QUÝ KHÁCH VUI LÒNG ĐỌC KỸ MÔ TẢ TRƯỚC KHI MUA HÀNG!\n👉Hàng apple pay 100% Gmail, update hàng ngày\n👉Hàng pay địa chỉ tt Việt, mỗi acc 1 thẻ & không trùng IP => Siêu bền\n👉TK cấp sẵn theo định dạng Mail|Pass|2FA, lấy code log in tại https://2fa.live/\n👉 Sử dụng Codex nếu bị ver thì thuê tại https://viotp.com/ (Chọn dịch vụ Chatgpt + đầu số Vina)\n👉 Đảm bảo 100% hàng rao đi đã check cẩn thận Pass&2FA, nên mình sẽ kbh các vấn đề như sai pass hoặc chưa cài 2FA sau 5h từ lúc mua hàng\n👉 Các shop mua xong tự bảo quản tài khoản. TK được đăng ký bằng Gmail OTP nên shop ko hỗ trợ lấy lại pass hoặc 2FA. Nếu đổi 2FA thì nên đổi ngay sau khi log in lần đầu để tránh bị code về mail gốc\n⚠️ Hàng khan khó làm, tránh tình trạng nhiều khách mua về đổi Pass&2FA nhằm gian lận lấy thêm tk.\n⚠️ BH log in trong 5h kể từ thời điểm tạo đơn. Sau 5h không bảo hành các VẤN ĐỀ VỀ BẢO MẬT nếu khách hàng thay đổi thông tin đăng nhập như: Change Password, 2FA, Change Email dẫn đến bị xác minh code về mail và không truy cập được tài khoản nữa.\n✅ Bên em cam kết không bao giờ back acc. Chỉ BH tài khoản khi có thể log in được để check gói",
         "sources": {
           "piggyai99_bot": {
             "stock": 93,
@@ -565,13 +565,14 @@
             "selling_price": 370000
           },
           "sieuthistore_bot": {
-            "stock": 55,
-            "cost_price": 320000,
-            "updated": "03:00 17/10/2026",
-            "selling_price": 370000
+            "stock": 35,
+            "cost_price": 280000,
+            "selling_price": 310000,
+            "updated": "02:13 20/10/2026"
           }
         },
-        "cost_price": 320000
+        "cost_price": 280000,
+        "needs_review": true
       },
       {
         "id": "p-1791933349082",
@@ -7098,6 +7099,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792437239570",
+      "time": "02:13 - 20/10/2026",
+      "timestamp": 1792437239570,
+      "name": "ChatGPT Plus (Apple Pay) 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 35,
+      "addedQty": 30,
+      "price": 310000,
+      "stockAfter": 128,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTPlus(ApplePay)1ThángBHF➕Thêm:30📦Tồnkhohiệntại:35💰Giá:280.000đ"
+    },
+    {
       "id": "hist-1792436716572",
       "time": "02:05 - 20/10/2026",
       "timestamp": 1792436716572,
@@ -8482,20 +8497,6 @@
       "catKey": "google-veo",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:21📦Tồnkhohiệntại:42💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792388360997",
-      "time": "12:39 - 19/10/2026",
-      "timestamp": 1792388360997,
-      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 42,
-      "addedQty": 21,
-      "price": 36850,
-      "stockAfter": 42,
-      "catKey": "google-veo",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:21📦Tồnkhohiệntại:42💰Giá:26.850đ"
     }
   ]
 }
