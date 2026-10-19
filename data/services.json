@@ -1055,16 +1055,16 @@
         "id": "p-1792138339640",
         "name": "ChatGPT Go 1 Tháng - BHF",
         "price": 110000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n2. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n3. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 12,
-            "cost_price": 80000,
-            "updated": "15:12 16/10/2026",
-            "selling_price": 90000
+            "stock": 10,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "15:40 19/10/2026"
           }
         },
         "hidden": true,
@@ -6709,6 +6709,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792399217652",
+      "time": "15:40 - 19/10/2026",
+      "timestamp": 1792399217652,
+      "name": "ChatGPT Go 1 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 10,
+      "addedQty": 10,
+      "price": 110000,
+      "stockAfter": 10,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTGo1Tháng-BHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1792398696681",
       "time": "15:31 - 19/10/2026",
       "timestamp": 1792398696681,
@@ -8093,20 +8107,6 @@
       "catKey": "khac",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🚚EXPRESSVPN12THÁNGBẢOHÀNHLOGIN💰Giá:125k📦Tồnkho:14tàikhoản📊Đãbán:25tàikhoản💎Môtả:"
-    },
-    {
-      "id": "hist-1792305964934",
-      "time": "13:46 - 18/10/2026",
-      "timestamp": 1792305964934,
-      "name": "EXPRESS VPN 12 THÁNG BẢO HÀNH LOGIN",
-      "bot": "ntnshopre_bot",
-      "shopStock": 14,
-      "addedQty": 14,
-      "price": 145000,
-      "stockAfter": 14,
-      "catKey": "khac",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🚚EXPRESSVPN12THÁNGBẢOHÀNHLOGIN➕Thêm:14📦Tồnkhohiệntại:14💰Giá:125.000đ"
     }
   ]
 }
