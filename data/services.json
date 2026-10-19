@@ -4385,6 +4385,25 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792402722954",
+        "name": "Gmail (New) -Login phone",
+        "price": 43000,
+        "cost_price": 33000,
+        "stock": 41,
+        "stock_text": "Còn 41",
+        "duration": "1 Tháng",
+        "detail": "Bảo hành login 24H- Login thành công là hết BH\nGmail Login bằng Điện thoại ( Ngâm 1 thời gian có thể login đc pc bình thường )\n-Cách lượt quét QR : Đăng nhập bằng ứng dụng gmail sẽ hạ chế quét QR.\n- Định dạng : Gmail | Pass | mail khôi phục",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 41,
+            "cost_price": 33000,
+            "selling_price": 43000,
+            "updated": "16:38 19/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -6739,6 +6758,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792402722954",
+      "time": "16:38 - 19/10/2026",
+      "timestamp": 1792402722954,
+      "name": "Gmail (New) -Login phone",
+      "bot": "sieuthistore_bot",
+      "shopStock": 41,
+      "addedQty": 54,
+      "price": 43000,
+      "stockAfter": 41,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧Gmail(New)-Loginphone➕Thêm:54📦Tồnkhohiệntại:41💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1792401618657",
       "time": "16:20 - 19/10/2026",
       "timestamp": 1792401618657,
@@ -8123,20 +8156,6 @@
       "catKey": "spotify",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐SpotifyPremium1-2thángKBH➕Thêm:10📦Tồnkhohiệntại:10💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792308354799",
-      "time": "14:25 - 18/10/2026",
-      "timestamp": 1792308354799,
-      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 16,
-      "addedQty": 1,
-      "price": 43000,
-      "stockAfter": 169,
-      "catKey": "capcut",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:1📦Tồnkhohiệntại:16💰Giá:33.000đ"
     }
   ]
 }
