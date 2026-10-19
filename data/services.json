@@ -3591,10 +3591,10 @@
         "id": "p-gmail-new-25k",
         "name": "Gmail (New) -Login All",
         "price": 45000,
-        "stock": 78,
-        "stock_text": "Còn 78",
+        "stock": 98,
+        "stock_text": "Còn 98",
         "duration": "1 Tháng",
-        "detail": "GMAIL New TRÂU BÒ - Login All thiết bị\nĐịnh dạng : Gmail | Pass | mail khôi phục\nBẢO HÀNH LOGIN LẦN ĐẦU 24H ( very phone, sai pass) được bảo hành - login thành công là hết Bảo hành\n- Gmail New cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\nĐÃ CHECK LIVE TRƯỚC KHI BÁN",
+        "detail": "GMAIL New TRÂU BÒ - Login All thiết bị\nĐịnh dạng : Gmail | Pass | mail khôi phục\nBẢO HÀNH LOGIN LẦN ĐẦU 24H ( very phone, sai pass) được bảo hành - login thành công là hết Bảo hành\n- Gmail New cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\n💎 Mô tả:\n🇻🇳Mô tả: Login Lỗi Pass- Very Phone- Được Bảo hành Login 24H - login thành công là hết Bảo hành\nĐịnh dạng: Gmail | Pass | Gmail khôi phục| 2FA (nếu có )\n- Gmail này cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\n-Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/",
         "sources": {
           "taphoathomap_bot": {
             "stock": 78,
@@ -3603,15 +3603,16 @@
             "selling_price": 35000
           },
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 20,
             "cost_price": 35000,
-            "updated": "22:09 15/10/2026",
-            "selling_price": 45000
+            "selling_price": 45000,
+            "updated": "20:18 19/10/2026"
           }
         },
         "conflict_group": "gmail_new_login_all",
         "price_verified": true,
-        "cost_price": 35000
+        "cost_price": 35000,
+        "needs_review": true
       },
       {
         "id": "p-gmail-new-35k",
@@ -6872,6 +6873,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792415891700",
+      "time": "20:18 - 19/10/2026",
+      "timestamp": 1792415891700,
+      "name": "Gmail (New) -Login All",
+      "bot": "sieuthistore_bot",
+      "shopStock": 20,
+      "addedQty": 154,
+      "price": 45000,
+      "stockAfter": 98,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:154📦Tồnkhohiệntại:20💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792414288222",
       "time": "19:51 - 19/10/2026",
       "timestamp": 1792414288222,
@@ -8256,20 +8271,6 @@
       "catKey": "meitu-wink",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "✨MeituVip+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:3💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792330332777",
-      "time": "20:32 - 18/10/2026",
-      "timestamp": 1792330332777,
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 3,
-      "addedQty": 10,
-      "price": 45000,
-      "stockAfter": 3,
-      "catKey": "meitu-wink",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:3💰Giá:35.000đ"
     }
   ]
 }
