@@ -354,16 +354,16 @@
         "id": "p-1791854770760",
         "name": "ChatGPT Plus GGPay 30D BH 24H",
         "price": 240000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 5,
             "cost_price": 190000,
             "selling_price": 210000,
-            "updated": "13:41 19/10/2026"
+            "updated": "19:29 19/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 5,
@@ -373,7 +373,7 @@
           }
         },
         "hidden": false,
-        "cost_price": 210000,
+        "cost_price": 190000,
         "needs_review": true
       },
       {
@@ -6843,6 +6843,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792412976340",
+      "time": "19:29 - 19/10/2026",
+      "timestamp": 1792412976340,
+      "name": "ChatGPT Plus GGPay 30D BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 5,
+      "addedQty": 8,
+      "price": 210000,
+      "stockAfter": 10,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:8📦Tồnkhohiệntại:5💰Giá:190.000đ"
+    },
+    {
       "id": "hist-1792412971377",
       "time": "19:29 - 19/10/2026",
       "timestamp": 1792412971377,
@@ -8227,20 +8241,6 @@
       "catKey": "gmail",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧Gmailrandom5-10tháng2FA💰Giá:45k📦Tồnkho:16tàikhoản📊Đãbán:3.906tàikhoản💎Môtả:Định"
-    },
-    {
-      "id": "hist-1792318176374",
-      "time": "17:09 - 18/10/2026",
-      "timestamp": 1792318176374,
-      "name": "API Cursor Pro 400 Credits/ngày 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 1,
-      "addedQty": 0,
-      "price": 410000,
-      "stockAfter": 3,
-      "catKey": "api-cursor-deepseek",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🖱️APICursorPro400Credits/ngày1thángBHF💰Giá:360k📦Tồnkho:1tàikhoản📊Đãbán:515tàikho"
     }
   ]
 }
