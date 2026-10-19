@@ -4702,20 +4702,21 @@
         "id": "p-1792183901751",
         "name": "Redeem Apple Music Individual 5 tháng BH 1 ngày",
         "price": 55000,
-        "stock": 25,
-        "stock_text": "Còn 25",
+        "stock": 67,
+        "stock_text": "Còn 67",
         "duration": "1 Ngày",
         "detail": "📋 Gói: Apple Music Cá nhân (Individual)\n-Thời hạn: 5 tháng\n-Hình thức: Kích hoạt trực tiếp trên tài khoản của bạn\n-Định dạng: Link kích hoạt chính thức\n-Không bảo hành sau khi đã kích hoạt thành công\n-Bảo hành link kích hoạt trong vòng 24 giờ\n-Cần sử dụng VPN Ấn Độ và thẻ để thanh toán\n-Sau khi thanh toán không hỗ trợ hoàn trả.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 25,
+            "stock": 67,
             "cost_price": 45000,
-            "updated": "03:56 17/10/2026",
-            "selling_price": 55000
+            "selling_price": 55000,
+            "updated": "19:39 19/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 45000
+        "cost_price": 45000,
+        "needs_review": true
       },
       {
         "id": "p-1792183906322",
@@ -6843,6 +6844,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792413574969",
+      "time": "19:39 - 19/10/2026",
+      "timestamp": 1792413574969,
+      "name": "Redeem Apple Music Individual 5 tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 67,
+      "addedQty": 64,
+      "price": 55000,
+      "stockAfter": 67,
+      "catKey": "netflix",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐RedeemAppleMusicIndividual5thángBH1ngày➕Thêm:64📦Tồnkhohiệntại:67💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1792412976340",
       "time": "19:29 - 19/10/2026",
       "timestamp": 1792412976340,
@@ -8227,20 +8242,6 @@
       "catKey": "vpn",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🚚ExpressVPN3NgàyBHF💰Giá:15k📦Tồnkho:6tàikhoản📊Đãbán:753tàikhoản💎Môtả:Địnhdạng:ema"
-    },
-    {
-      "id": "hist-1792318181950",
-      "time": "17:09 - 18/10/2026",
-      "timestamp": 1792318181950,
-      "name": "Gmail random 5-10 tháng 2FA",
-      "bot": "sieuthistore_bot",
-      "shopStock": 16,
-      "addedQty": 0,
-      "price": 55000,
-      "stockAfter": 32,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧Gmailrandom5-10tháng2FA💰Giá:45k📦Tồnkho:16tàikhoản📊Đãbán:3.906tàikhoản💎Môtả:Định"
     }
   ]
 }
