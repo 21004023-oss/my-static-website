@@ -2782,18 +2782,24 @@
         "id": "api-cursor-6500cre",
         "name": "API Cursor Pro 6500 Credits 1 Tháng BHF",
         "price": 410000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "source": "Key Cursor API",
         "detail": "Api Cursor Pro 6500 credit hạn sử dụng 1 tháng.\n-Credit: 6500\n-Hạn sử dụng: 1 tháng từ lúc active Key.\n-Bảo hành: 30 ngày.\n-File tài liệu chi tiết về cách sử dụng và setup sản phẩm: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1?usp=drive_link\n-Lưu ý: Sản phẩm là API,không phải tài khoản,không hỗ trợ hoàn trả nếu mua nhầm,không biết sử dụng.",
-        "cost_price": 360000,
+        "cost_price": 309000,
         "sources": {
           "sieuthistore_bot": {
             "stock": 1,
             "cost_price": 360000,
             "selling_price": 410000,
             "updated": "19:48 19/10/2026"
+          },
+          "ntnshopre_bot": {
+            "stock": 1,
+            "cost_price": 309000,
+            "selling_price": 359000,
+            "updated": "19:49 19/10/2026"
           }
         },
         "needs_review": true
@@ -6859,6 +6865,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792414160834",
+      "time": "19:49 - 19/10/2026",
+      "timestamp": 1792414160834,
+      "name": "API CURSOR PRO 6500 CREDITS 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 1,
+      "addedQty": 5,
+      "price": 359000,
+      "stockAfter": 2,
+      "catKey": "api-cursor-deepseek",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🖱️APICURSORPRO6500CREDITS1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:1💰Giá:309.000đ"
+    },
+    {
       "id": "hist-1792414137464",
       "time": "19:48 - 19/10/2026",
       "timestamp": 1792414137464,
@@ -8243,20 +8263,6 @@
       "catKey": "khac",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🎵SunoPro2500Credits1ThángBH1Ngày➕Thêm:4📦Tồnkhohiệntại:4💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1792318199238",
-      "time": "17:09 - 18/10/2026",
-      "timestamp": 1792318199238,
-      "name": "Gmail random 5-10 tháng 2FA",
-      "bot": "taphoathomap_bot",
-      "shopStock": 16,
-      "addedQty": 0,
-      "price": 35000,
-      "stockAfter": 32,
-      "catKey": "gmail",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "📧Gmailrandom5-10tháng2FA💰Giá:25k📦Tồnkho:16tàikhoản📊Đãbán:3.906tàikhoản💎Môtả:Định"
     }
   ]
 }
