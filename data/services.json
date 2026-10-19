@@ -444,11 +444,12 @@
           "piggyai99_bot": {
             "stock": 5,
             "cost_price": 120000,
-            "updated": "15:27 17/10/2026",
-            "selling_price": 140000
+            "selling_price": 140000,
+            "updated": "16:03 19/10/2026"
           }
         },
-        "cost_price": 120000
+        "cost_price": 120000,
+        "needs_review": true
       },
       {
         "id": "p-1791898436678",
@@ -6730,6 +6731,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792400585989",
+      "time": "16:03 - 19/10/2026",
+      "timestamp": 1792400585989,
+      "name": "ChatGPT Plus K12 Edu 2 năm bh 5h",
+      "bot": "piggyai99_bot",
+      "shopStock": 5,
+      "addedQty": 5,
+      "price": 140000,
+      "stockAfter": 5,
+      "catKey": "chatgpt",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🤖ChatGPTPlusK12Edu2nămbh5h➕Thêm:5📦Tồnkhohiệntại:5💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1792400292655",
       "time": "15:58 - 19/10/2026",
       "timestamp": 1792400292655,
@@ -8114,20 +8129,6 @@
       "catKey": "vpn",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792306864160",
-      "time": "14:01 - 18/10/2026",
-      "timestamp": 1792306864160,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 17,
-      "addedQty": 0,
-      "price": 85000,
-      "stockAfter": 17,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H💰Giá:75k📦Tồnkho:17tàikhoản📊Đãbán:491tàikhoản💎Môtả:🔐Tà"
     }
   ]
 }
