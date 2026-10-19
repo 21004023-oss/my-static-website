@@ -387,16 +387,16 @@
         "id": "p-1791854770760",
         "name": "ChatGPT Plus GGPay 30D BH 24H",
         "price": 240000,
-        "stock": 62,
-        "stock_text": "Còn 62",
+        "stock": 88,
+        "stock_text": "Còn 88",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 18,
+            "stock": 44,
             "cost_price": 190000,
             "selling_price": 210000,
-            "updated": "01:26 20/10/2026"
+            "updated": "03:22 20/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 44,
@@ -406,7 +406,7 @@
           }
         },
         "hidden": false,
-        "cost_price": 210000,
+        "cost_price": 190000,
         "needs_review": true
       },
       {
@@ -7137,6 +7137,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792441351125",
+      "time": "03:22 - 20/10/2026",
+      "timestamp": 1792441351125,
+      "name": "ChatGPT Plus GGPay 30D BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 44,
+      "addedQty": 28,
+      "price": 210000,
+      "stockAfter": 88,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:28📦Tồnkhohiệntại:44💰Giá:190.000đ"
+    },
+    {
       "id": "hist-1792441346162",
       "time": "03:22 - 20/10/2026",
       "timestamp": 1792441346162,
@@ -8521,20 +8535,6 @@
       "catKey": "vpn",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🛡️SlotNordVPNAnd/PC/IOS3thángBHF➕Thêm:15📦Tồnkhohiệntại:17💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1792392067698",
-      "time": "13:41 - 19/10/2026",
-      "timestamp": 1792392067698,
-      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 0,
-      "addedQty": 7,
-      "price": 240000,
-      "stockAfter": 0,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:7📦Tồnkhohiệntại:0💰Giá:210.000đ"
     }
   ]
 }
