@@ -4954,19 +4954,20 @@
         "id": "p-1791969755660",
         "name": "Adobe All Apps 7D BH 12H",
         "price": 75000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "12 Giờ",
         "detail": "Adobe All Apps 7D sử dụng 2 thiết bị 4000 credits\n- Định dạng tài khoản: email | pass_hotmail | token, muốn đọc token mail nhanh thì copy rồi vào link web bên dưới dán code vào\n- Link đọc token: https://smail1s.com/\n(Lưu ý: nhớ chọn '\"Oauth2 - Graph\" mới đọc được mail)\n(Hoặc đăng nhập email lấy code mail thủ công tại https://outlook.live.com/mail )\nKhách nhập email vào Adobe sẽ đòi mã otp, các bác vào email để lấy mã otp (dùng web đọc mail nhanh ở trên) để lấy code otp cho nhanh nhé, rồi tự tạo pass Adobe nếu cần là xong!\n⚠️ Để đảm bảo an toàn và tránh mất tài khoản, sau khi nhận acc yêu cầu đổi:\n✔️ Mật khẩu Adobe\n✔️ Mật khẩu Email\n🔐 Đổi mật khẩu Adobe tại:\naccount.adobe.com/profile\n🔐 Đổi mật khẩu Hotmail/Outlook tại:\nhttps://account.live.com/password/change\n⚠️ ĐĂNG NHẬP VÀO CHỌN PERSONAL PROFILE  (  HỒ SƠ CÁ NHÂN )\n⚠️ HÀNG ĐÃ QUA TEST BÁN HƠN NỬA THÁNG KHÁ BỀN CÓ THỂ LIVE 5-7 hoặc HƠN (NỢ BILL), HI HỮU CHỈ MỘT SỐ LÔ BỊ QUÉT SỚM VUI LÒNG HOAN HỈ. CẢM ƠN ĐÃ ỦNG HỘ SHOP",
         "sources": {
           "piggyai99_bot": {
-            "stock": 4,
+            "stock": 1,
             "cost_price": 65000,
-            "updated": "17:24 17/10/2026",
-            "selling_price": 75000
+            "selling_price": 75000,
+            "updated": "22:13 19/10/2026"
           }
         },
-        "cost_price": 65000
+        "cost_price": 65000,
+        "needs_review": true
       },
       {
         "id": "p-1791969759029",
@@ -6993,6 +6994,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792422800106",
+      "time": "22:13 - 19/10/2026",
+      "timestamp": 1792422800106,
+      "name": "Adobe All Apps 7D BH 12H",
+      "bot": "piggyai99_bot",
+      "shopStock": 1,
+      "addedQty": 11,
+      "price": 75000,
+      "stockAfter": 1,
+      "catKey": "adobe",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🎨AdobeAllApps7DBH12H➕Thêm:11📦Tồnkhohiệntại:1💰Giá:65.000đ"
+    },
+    {
       "id": "hist-1792422794044",
       "time": "22:13 - 19/10/2026",
       "timestamp": 1792422794044,
@@ -8377,20 +8392,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1792339461876",
-      "time": "23:04 - 18/10/2026",
-      "timestamp": 1792339461876,
-      "name": "CAPCUT PRO 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 10,
-      "addedQty": 10,
-      "price": 48000,
-      "stockAfter": 10,
-      "catKey": "capcut",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:38.000đ"
     }
   ]
 }
