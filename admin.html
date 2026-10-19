@@ -833,6 +833,75 @@
       text-align: right;
     }
     .inline-price-input:focus { border-color: var(--primary); outline: none; }
+
+    /* SEARCHABLE PLAN SUGGESTIONS & CHIPS */
+    .order-suggestions-box {
+      position: absolute;
+      top: calc(100% + 4px);
+      left: 0;
+      right: 0;
+      max-height: 280px;
+      overflow-y: auto;
+      background: var(--card-bg);
+      border: 1px solid var(--primary);
+      border-radius: 10px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.25), 0 8px 10px -6px rgba(0, 0, 0, 0.2);
+      z-index: 1050;
+      display: none;
+    }
+    .order-suggest-item {
+      padding: 10px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      cursor: pointer;
+      border-bottom: 1px solid var(--card-border);
+      transition: background 0.15s;
+    }
+    .order-suggest-item:last-child { border-bottom: none; }
+    .order-suggest-item:hover, .order-suggest-item.highlighted {
+      background: var(--primary-subtle);
+    }
+    .order-suggest-item .item-title {
+      font-weight: 700;
+      font-size: 13px;
+      color: var(--text);
+    }
+    .order-suggest-item .item-cat {
+      font-size: 10.5px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+    .order-suggest-item .item-price {
+      font-weight: 800;
+      font-size: 13.5px;
+      color: var(--emerald);
+      white-space: nowrap;
+    }
+    .order-chip-filter {
+      padding: 3px 10px;
+      border-radius: 99px;
+      font-size: 11px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid var(--card-border);
+      background: var(--input-bg);
+      color: var(--text-muted);
+      transition: all 0.15s;
+      white-space: nowrap;
+      user-select: none;
+    }
+    .order-chip-filter:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+    .order-chip-filter.active {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #fff;
+      font-weight: 700;
+    }
   </style>
 </head>
 <body>
@@ -1441,14 +1510,44 @@
           </div>
         </div>
 
-        <div class="form-group">
-          <label class="form-label">Sản Phẩm / Gói Dịch Vụ:</label>
-          <div style="display:flex; gap:8px;">
+        <div class="form-group" style="position:relative;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+            <label class="form-label" style="margin-bottom:0;">Sản Phẩm / Gói Dịch Vụ:</label>
+            <span style="font-size:11.5px; color:var(--primary); font-weight:700;">⚡ Gõ tìm nhanh hoặc bấm danh mục</span>
+          </div>
+
+          <!-- THANH TÌM KIẾM THÔNG MINH (GÕ ĐẾN ĐÂU HIỆN ĐẾN ĐÓ) -->
+          <div style="position:relative;">
+            <input type="text" id="inpOrderPlanSearch" class="form-control" 
+              placeholder="🔍 Gõ tìm nhanh gói (vd: netflix, canva, genspark, plus, 1 năm, slot...)..." 
+              style="padding-left:36px; padding-right:32px; font-weight:600; border:2px solid var(--primary); background:rgba(2, 132, 199, 0.05);"
+              oninput="handleOrderPlanSearchInput(this.value)"
+              onfocus="showOrderPlanDropdown()"
+              autocomplete="off" />
+            <span style="position:absolute; left:12px; top:50%; transform:translateY(-50%); font-size:15px; pointer-events:none; opacity:0.8;">🔍</span>
+            <button type="button" id="btnClearPlanSearch" onclick="clearOrderPlanSearch()" 
+              style="position:absolute; right:10px; top:50%; transform:translateY(-50%); background:none; border:none; cursor:pointer; color:var(--text-muted); font-size:14px; display:none; padding:2px 6px;">✕</button>
+            
+            <!-- POPUP GỢI Ý KẾT QUẢ TÌM KIẾM TRỰC TIẾP -->
+            <div id="orderPlanSuggestionsBox" class="order-suggestions-box"></div>
+          </div>
+
+          <!-- CHIP LỌC NHANH THEO DANH MỤC (CUỘN NGANG SIÊU TIỆN) -->
+          <div style="margin-top:7px;">
+            <div style="font-size:11px; color:var(--text-muted); margin-bottom:4px; font-weight:600;">Lọc nhanh danh mục:</div>
+            <div id="orderCatFilterChips" style="display:flex; gap:6px; overflow-x:auto; white-space:nowrap; padding:3px 2px 8px 2px; scrollbar-width:thin;"></div>
+          </div>
+
+          <!-- DROPDOWN TRUYỀN THỐNG (ĐƯỢC ĐỒNG BỘ) -->
+          <div style="margin-top:8px;">
+            <div style="font-size:11px; color:var(--text-muted); margin-bottom:4px;">Hoặc chọn từ danh sách:</div>
             <select id="selOrderPlanSelect" class="form-control" onchange="onOrderPlanSelectChange()">
-              <option value="">-- Chọn gói từ kho hàng sẵn có --</option>
+              <option value="">-- Chọn gói từ danh mục kho hàng --</option>
             </select>
           </div>
-          <input type="text" id="inpOrderPlanName" class="form-control" style="margin-top:6px;" placeholder="Hoặc nhập tên gói trực tiếp..." />
+
+          <!-- TÊN GÓI ĐÃ CHỌN HOẶC TỰ GÕ -->
+          <input type="text" id="inpOrderPlanName" class="form-control" style="margin-top:6px; font-weight:700;" placeholder="Tên gói đã chọn (hoặc tự gõ nếu gói đặc biệt)..." oninput="onManualPlanNameInput(this.value)" />
         </div>
 
         <div style="background:var(--table-header); padding:12px; border-radius:8px; border:1px solid var(--border); margin-bottom:14px;">
@@ -3188,6 +3287,13 @@
       if (btnCreate) {
         btnCreate.addEventListener('click', () => openOrderModal());
       }
+      document.addEventListener('click', (e) => {
+        const box = document.getElementById('orderPlanSuggestionsBox');
+        const searchInp = document.getElementById('inpOrderPlanSearch');
+        if (box && searchInp && !searchInp.contains(e.target) && !box.contains(e.target)) {
+          box.style.display = 'none';
+        }
+      });
     });
   
 // ==========================================
@@ -3322,6 +3428,82 @@
       }).join('');
     }
 
+    let currentOrderCatFilter = 'all';
+
+    function formatCatIcon(logo) {
+      if (!logo) return '📁';
+      if (typeof logo === 'string' && (logo.startsWith('http://') || logo.startsWith('https://'))) {
+        return `<img src="${logo}" style="width:13px; height:13px; vertical-align:middle; border-radius:3px; margin-right:3px;" />`;
+      }
+      return logo;
+    }
+
+    function removeVietnameseAccents(str) {
+      if (!str) return '';
+      return str.normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/đ/g, 'd').replace(/Đ/g, 'D')
+        .toLowerCase()
+        .trim();
+    }
+
+    function getAllAvailablePlans() {
+      const list = [];
+      for (const [catKey, catObj] of Object.entries(servicesData)) {
+        if (catKey === '_history') continue;
+        if (!catObj || !catObj.plans) continue;
+        const catName = catObj.name || catKey;
+        const catLogo = catObj.logo || '📦';
+        catObj.plans.forEach(p => {
+          if (!p || !p.name) return;
+          list.push({
+            name: p.name,
+            price: Number(p.price || 0),
+            cost_price: Number(p.cost_price || 0),
+            duration: p.duration || '1 Tháng',
+            stock: p.stock !== undefined ? p.stock : -1,
+            catKey: catKey,
+            catName: catName,
+            catLogo: catLogo
+          });
+        });
+      }
+      return list;
+    }
+
+    function renderOrderCatFilterChips() {
+      const container = document.getElementById('orderCatFilterChips');
+      if (!container) return;
+
+      const catCounts = {};
+      const allPlans = getAllAvailablePlans();
+      allPlans.forEach(p => {
+        catCounts[p.catKey] = (catCounts[p.catKey] || 0) + 1;
+      });
+
+      let html = `<button type="button" class="order-chip-filter ${currentOrderCatFilter === 'all' ? 'active' : ''}" onclick="filterByOrderCategory('all')">✨ Tất cả (${allPlans.length})</button>`;
+
+      for (const [catKey, catObj] of Object.entries(servicesData)) {
+        if (catKey === '_history') continue;
+        const count = catCounts[catKey] || 0;
+        if (count === 0) continue;
+        const isAct = currentOrderCatFilter === catKey ? 'active' : '';
+        const iconHtml = formatCatIcon(catObj.logo);
+        html += `<button type="button" class="order-chip-filter ${isAct}" onclick="filterByOrderCategory('${catKey}')">${iconHtml} ${catObj.name || catKey} (${count})</button>`;
+      }
+
+      container.innerHTML = html;
+    }
+
+    function filterByOrderCategory(catKey) {
+      currentOrderCatFilter = catKey;
+      renderOrderCatFilterChips();
+      populateOrderPlanSelect();
+      const currentQ = document.getElementById('inpOrderPlanSearch')?.value || '';
+      handleOrderPlanSearchInput(currentQ);
+      showOrderPlanDropdown();
+    }
+
     function populateOrderPlanSelect() {
       const sel = document.getElementById('selOrderPlanSelect');
       if (!sel) return;
@@ -3330,20 +3512,135 @@
       for (const [catKey, catObj] of Object.entries(servicesData)) {
         if (catKey === '_history') continue;
         if (!catObj || !catObj.plans) continue;
+        if (currentOrderCatFilter !== 'all' && currentOrderCatFilter !== catKey) continue;
 
         const group = document.createElement('optgroup');
-        group.label = catObj.name || catKey;
+        const cleanLogo = (catObj.logo && !catObj.logo.startsWith('http')) ? (catObj.logo + ' ') : '📁 ';
+        group.label = cleanLogo + (catObj.name || catKey);
 
         catObj.plans.forEach(p => {
+          if (!p || !p.name) return;
           const opt = document.createElement('option');
           opt.value = p.name;
           opt.innerText = `${p.name} (${Number(p.price || 0).toLocaleString('vi-VN')}đ)`;
           opt.dataset.price = p.price || 0;
           opt.dataset.costPrice = p.cost_price || 0;
+          opt.dataset.catKey = catKey;
           group.appendChild(opt);
         });
 
         sel.appendChild(group);
+      }
+      renderOrderCatFilterChips();
+    }
+
+    function handleOrderPlanSearchInput(query) {
+      const cleanQ = removeVietnameseAccents(query);
+      const clearBtn = document.getElementById('btnClearPlanSearch');
+      if (clearBtn) clearBtn.style.display = query.trim() ? 'block' : 'none';
+
+      const box = document.getElementById('orderPlanSuggestionsBox');
+      if (!box) return;
+
+      const allPlans = getAllAvailablePlans();
+      const matched = allPlans.filter(p => {
+        if (currentOrderCatFilter !== 'all' && p.catKey !== currentOrderCatFilter) return false;
+        if (!cleanQ) return true;
+        const normName = removeVietnameseAccents(p.name);
+        const normCat = removeVietnameseAccents(p.catName);
+        return normName.includes(cleanQ) || normCat.includes(cleanQ);
+      });
+
+      if (matched.length === 0) {
+        box.innerHTML = `
+          <div style="padding:14px; text-align:center; color:var(--text-muted); font-size:12.5px;">
+            🔍 Không tìm thấy gói nào khớp với "<strong>${query}</strong>"<br/>
+            <span style="font-size:11px; color:var(--text-muted);">Bạn có thể tự nhập tên gói vào ô bên dưới.</span>
+          </div>
+        `;
+        box.style.display = 'block';
+        return;
+      }
+
+      box.innerHTML = matched.slice(0, 30).map(p => {
+        const safeName = p.name.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+        const safeCat = (p.catName || '').replace(/'/g, "\\'");
+        const stockBadge = p.stock === -1 ? '∞' : (p.stock === 0 ? '<span style="color:var(--rose);">Hết</span>' : `Còn ${p.stock}`);
+        const iconHtml = formatCatIcon(p.catLogo);
+
+        return `
+          <div class="order-suggest-item" onclick="selectOrderPlan('${safeName}', '${safeCat}', ${p.price}, ${p.cost_price})">
+            <div>
+              <div class="item-title">${p.name}</div>
+              <div class="item-cat">${iconHtml} ${p.catName} • ⏱️ ${p.duration} • 📦 ${stockBadge}</div>
+            </div>
+            <div class="item-price">${p.price.toLocaleString('vi-VN')}đ</div>
+          </div>
+        `;
+      }).join('');
+
+      box.style.display = 'block';
+    }
+
+    function showOrderPlanDropdown() {
+      const query = document.getElementById('inpOrderPlanSearch')?.value || '';
+      handleOrderPlanSearchInput(query);
+    }
+
+    function hideOrderPlanDropdown() {
+      const box = document.getElementById('orderPlanSuggestionsBox');
+      if (box) box.style.display = 'none';
+    }
+
+    function clearOrderPlanSearch() {
+      const inp = document.getElementById('inpOrderPlanSearch');
+      if (inp) inp.value = '';
+      currentOrderCatFilter = 'all';
+      renderOrderCatFilterChips();
+      populateOrderPlanSelect();
+      handleOrderPlanSearchInput('');
+      hideOrderPlanDropdown();
+    }
+
+    function selectOrderPlan(planName, catName, price, costPrice) {
+      document.getElementById('inpOrderPlanName').value = planName;
+      const searchInp = document.getElementById('inpOrderPlanSearch');
+      if (searchInp) searchInp.value = planName;
+
+      // Đồng bộ vào thẻ select
+      const sel = document.getElementById('selOrderPlanSelect');
+      if (sel) {
+        let found = false;
+        for (let i = 0; i < sel.options.length; i++) {
+          if (sel.options[i].value === planName) {
+            sel.selectedIndex = i;
+            found = true;
+            break;
+          }
+        }
+        if (!found) {
+          const opt = document.createElement('option');
+          opt.value = planName;
+          opt.innerText = `${planName} (${Number(price||0).toLocaleString('vi-VN')}đ)`;
+          opt.dataset.price = price || 0;
+          opt.dataset.costPrice = costPrice || 0;
+          sel.appendChild(opt);
+          sel.value = planName;
+        }
+      }
+
+      applyPlanPricingAndDuration(planName, price, costPrice);
+      hideOrderPlanDropdown();
+      showToast(`⚡ Đã chọn: ${planName} (${Number(price||0).toLocaleString('vi-VN')}đ)`, 'success');
+    }
+
+    function onManualPlanNameInput(val) {
+      if (!val || !val.trim()) return;
+      const cleanVal = removeVietnameseAccents(val);
+      const all = getAllAvailablePlans();
+      const exact = all.find(p => removeVietnameseAccents(p.name) === cleanVal);
+      if (exact) {
+        applyPlanPricingAndDuration(exact.name, exact.price, exact.cost_price);
       }
     }
 
@@ -3396,15 +3693,8 @@
       };
     }
 
-    function onOrderPlanSelectChange() {
-      const sel = document.getElementById('selOrderPlanSelect');
-      const opt = sel.options[sel.selectedIndex];
-      if (!opt || !opt.value) return;
-
-      const planName = opt.value;
+    function applyPlanPricingAndDuration(planName, price, cost) {
       document.getElementById('inpOrderPlanName').value = planName;
-      const price = Number(opt.dataset.price || 0);
-      const cost = Number(opt.dataset.costPrice || 0);
 
       let matchedPreset = null;
       const lowerName = planName.toLowerCase().replace(/\s+/g, ' ');
@@ -3460,6 +3750,20 @@
       document.getElementById('inpOrderExpireDate').value = `${dd}/${mm}/${yyyy}`;
     }
 
+    function onOrderPlanSelectChange() {
+      const sel = document.getElementById('selOrderPlanSelect');
+      const opt = sel.options[sel.selectedIndex];
+      if (!opt || !opt.value) return;
+
+      const planName = opt.value;
+      const price = Number(opt.dataset.price || 0);
+      const cost = Number(opt.dataset.costPrice || 0);
+      const searchInp = document.getElementById('inpOrderPlanSearch');
+      if (searchInp) searchInp.value = planName;
+
+      applyPlanPricingAndDuration(planName, price, cost);
+    }
+
     function calcOrderProfits(customShopProfit = null) {
       const cust = Number(document.getElementById('inpOrderCustomerPrice').value || 0);
       const shopKeep = Number(document.getElementById('inpOrderShopCost').value || 0);
@@ -3495,7 +3799,16 @@
         if (commInp) commInp.readOnly = true;
 
         document.getElementById('inpOrderIndex').value = idx;
+        currentOrderCatFilter = 'all';
         populateOrderPlanSelect();
+
+        const searchInp = document.getElementById('inpOrderPlanSearch');
+        const clearBtn = document.getElementById('btnClearPlanSearch');
+        if (searchInp) {
+          searchInp.value = (idx >= 0 && ordersData[idx]) ? (ordersData[idx].plan_name || '') : '';
+          if (clearBtn) clearBtn.style.display = searchInp.value ? 'block' : 'none';
+        }
+        hideOrderPlanDropdown();
 
         if (idx >= 0 && ordersData[idx]) {
           const o = ordersData[idx];
@@ -3543,7 +3856,12 @@
     }
 
     function closeOrderModal() {
-      const orderM = document.getElementById('orderModal'); orderM.style.display = 'none'; orderM.classList.remove('active');
+      const orderM = document.getElementById('orderModal');
+      if (orderM) {
+        orderM.style.display = 'none';
+        orderM.classList.remove('active');
+      }
+      hideOrderPlanDropdown();
     }
 
     function editOrderEntry(idx) {
@@ -3715,6 +4033,13 @@
     window.saveOrdersDirectToGitHub = saveOrdersDirectToGitHub;
     window.renderOrdersTable = renderOrdersTable;
     window.populateOrderPlanSelect = populateOrderPlanSelect;
+    window.selectOrderPlan = selectOrderPlan;
+    window.filterByOrderCategory = filterByOrderCategory;
+    window.handleOrderPlanSearchInput = handleOrderPlanSearchInput;
+    window.showOrderPlanDropdown = showOrderPlanDropdown;
+    window.hideOrderPlanDropdown = hideOrderPlanDropdown;
+    window.clearOrderPlanSearch = clearOrderPlanSearch;
+    window.onManualPlanNameInput = onManualPlanNameInput;
 
   </script>
 </body>
