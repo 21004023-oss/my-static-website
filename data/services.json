@@ -2811,6 +2811,25 @@
         },
         "hidden": false,
         "cost_price": 30000
+      },
+      {
+        "id": "p-1792441831386",
+        "name": "SMS nhận OTP xác minh Codex 24h - KBH",
+        "price": 20000,
+        "cost_price": 10000,
+        "stock": 38,
+        "stock_text": "Còn 38",
+        "duration": "1 Ngày",
+        "detail": "- Sau khi mua hàng bạn sẽ nhận 1 mã CDK và sử dụng tại web: https://sms.ccmmo.shop/ để sử dụng số",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 38,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "03:30 20/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64"
@@ -7137,6 +7156,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792441831386",
+      "time": "03:30 - 20/10/2026",
+      "timestamp": 1792441831386,
+      "name": "SMS nhận OTP xác minh Codex 24h - KBH",
+      "bot": "piggyai99_bot",
+      "shopStock": 38,
+      "addedQty": 30,
+      "price": 20000,
+      "stockAfter": 38,
+      "catKey": "api-claude-codex",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🤖SMSnhậnOTPxácminhCodex24h-KBH➕Thêm:30📦Tồnkhohiệntại:38💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1792441351125",
       "time": "03:22 - 20/10/2026",
       "timestamp": 1792441351125,
@@ -8521,20 +8554,6 @@
       "catKey": "vpn",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🛡️NORDVPNANDROI/PC/IOSSLOT3THÁNGBHF➕Thêm:15📦Tồnkhohiệntại:17💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1792394257372",
-      "time": "14:17 - 19/10/2026",
-      "timestamp": 1792394257372,
-      "name": "Slot Nord VPN And/PC/IOS 3 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 17,
-      "addedQty": 15,
-      "price": 90000,
-      "stockAfter": 17,
-      "catKey": "vpn",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🛡️SlotNordVPNAnd/PC/IOS3thángBHF➕Thêm:15📦Tồnkhohiệntại:17💰Giá:80.000đ"
     }
   ]
 }
