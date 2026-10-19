@@ -4865,17 +4865,17 @@
       {
         "id": "p-1792006811047",
         "name": "Photoroom Max 7 Ngày BHF",
-        "price": 25000,
-        "stock": 16,
-        "stock_text": "Còn 16",
+        "price": 45000,
+        "stock": 13,
+        "stock_text": "Còn 13",
         "duration": "1 Tháng",
         "detail": "Photoroom 7 ngày gói Max\nĐịnh dạng: Email|Web mail",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 8,
+            "stock": 5,
             "cost_price": 35000,
-            "updated": "06:05 15/10/2026",
-            "selling_price": 45000
+            "selling_price": 45000,
+            "updated": "18:07 19/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 8,
@@ -4884,7 +4884,8 @@
             "selling_price": 25000
           }
         },
-        "cost_price": 15000
+        "cost_price": 35000,
+        "needs_review": true
       },
       {
         "id": "p-1792021056520",
@@ -6810,6 +6811,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792408072943",
+      "time": "18:07 - 19/10/2026",
+      "timestamp": 1792408072943,
+      "name": "Photoroom Max 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 5,
+      "addedQty": 6,
+      "price": 45000,
+      "stockAfter": 13,
+      "catKey": "adobe",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:5💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792404527172",
       "time": "17:08 - 19/10/2026",
       "timestamp": 1792404527172,
@@ -8194,20 +8209,6 @@
       "catKey": "gmail",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📧Gmailrandom5-10tháng2FA➕Thêm:44📦Tồnkhohiệntại:16💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792317134775",
-      "time": "16:52 - 18/10/2026",
-      "timestamp": 1792317134775,
-      "name": "Gmail random 5-10 tháng 2FA",
-      "bot": "sieuthistore_bot",
-      "shopStock": 16,
-      "addedQty": 44,
-      "price": 55000,
-      "stockAfter": 48,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧Gmailrandom5-10tháng2FA➕Thêm:44📦Tồnkhohiệntại:16💰Giá:45.000đ"
     }
   ]
 }
