@@ -2781,13 +2781,22 @@
       {
         "id": "api-cursor-6500cre",
         "name": "API Cursor Pro 6500 Credits 1 Tháng BHF",
-        "price": 369000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "price": 410000,
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "source": "Key Cursor API",
-        "detail": "- Api Cursor Pro hạn sử dụng 1 tháng (bảo hành 30 ngày).\n- Credit: 6500 credits.\n- Sản phẩm là API, không phải tài khoản.\n- File tài liệu setup: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1",
-        "cost_price": 319000
+        "detail": "Api Cursor Pro 6500 credit hạn sử dụng 1 tháng.\n-Credit: 6500\n-Hạn sử dụng: 1 tháng từ lúc active Key.\n-Bảo hành: 30 ngày.\n-File tài liệu chi tiết về cách sử dụng và setup sản phẩm: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1?usp=drive_link\n-Lưu ý: Sản phẩm là API,không phải tài khoản,không hỗ trợ hoàn trả nếu mua nhầm,không biết sử dụng.",
+        "cost_price": 360000,
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 1,
+            "cost_price": 360000,
+            "selling_price": 410000,
+            "updated": "19:48 19/10/2026"
+          }
+        },
+        "needs_review": true
       },
       {
         "id": "p-1791936211706",
@@ -6850,6 +6859,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792414137464",
+      "time": "19:48 - 19/10/2026",
+      "timestamp": 1792414137464,
+      "name": "API Cursor Pro 6500 Credits 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 1,
+      "addedQty": 5,
+      "price": 410000,
+      "stockAfter": 1,
+      "catKey": "api-cursor-deepseek",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🖱️APICursorPro6500Credits1thángBHF➕Thêm:5📦Tồnkhohiệntại:1💰Giá:360.000đ"
+    },
+    {
       "id": "hist-1792413578535",
       "time": "19:39 - 19/10/2026",
       "timestamp": 1792413578535,
@@ -8234,20 +8257,6 @@
       "catKey": "gmail",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📧Gmailrandom5-10tháng2FA💰Giá:25k📦Tồnkho:16tàikhoản📊Đãbán:3.906tàikhoản💎Môtả:Định"
-    },
-    {
-      "id": "hist-1792318194072",
-      "time": "17:09 - 18/10/2026",
-      "timestamp": 1792318194072,
-      "name": "API Cursor Pro 400 Credits/ngày 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 1,
-      "addedQty": 0,
-      "price": 359000,
-      "stockAfter": 3,
-      "catKey": "api-cursor-deepseek",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🖱️APICursorPro400Credits/ngày1thángBHF💰Giá:309k📦Tồnkho:1tàikhoản📊Đãbán:515tàikho"
     }
   ]
 }
