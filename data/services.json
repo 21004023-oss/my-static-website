@@ -353,8 +353,8 @@
         "id": "p-1791854770760",
         "name": "ChatGPT Plus GGPay 30D BH 24H",
         "price": 240000,
-        "stock": 117,
-        "stock_text": "Còn 117",
+        "stock": 112,
+        "stock_text": "Còn 112",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
         "sources": {
@@ -365,14 +365,14 @@
             "updated": "10:37 19/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 61,
+            "stock": 56,
             "cost_price": 210000,
             "selling_price": 240000,
-            "updated": "02:39 19/10/2026"
+            "updated": "10:37 19/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 190000,
+        "cost_price": 210000,
         "needs_review": true
       },
       {
@@ -6542,6 +6542,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792381066942",
+      "time": "10:37 - 19/10/2026",
+      "timestamp": 1792381066943,
+      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 56,
+      "addedQty": 14,
+      "price": 240000,
+      "stockAfter": 112,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:14📦Tồnkhohiệntại:56💰Giá:210.000đ"
+    },
+    {
       "id": "hist-1792381063027",
       "time": "10:37 - 19/10/2026",
       "timestamp": 1792381063027,
@@ -7926,20 +7940,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:12📦Tồnkhohiệntại:27💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1792298455583",
-      "time": "11:40 - 18/10/2026",
-      "timestamp": 1792298455583,
-      "name": "Meitu Vip+ 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 24,
-      "addedQty": 0,
-      "price": 80000,
-      "stockAfter": 67,
-      "catKey": "khac",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✨MeituVip+1ThángBHF💰Giá:70k📦Tồnkho:24tàikhoản📊Đãbán:1.366tàikhoản💎Môtả:Mởkhóaful"
     }
   ]
 }
