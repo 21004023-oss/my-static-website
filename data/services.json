@@ -1696,12 +1696,21 @@
         "id": "p-1791948360081",
         "name": "Link Gemini Pro 18 Tháng BH 24H",
         "price": 40000,
-        "stock": 74,
-        "stock_text": "Còn 74",
-        "duration": "18 Tháng",
+        "stock": 122,
+        "stock_text": "Còn 122",
+        "duration": "1 Ngày",
         "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.",
         "hidden": true,
-        "cost_price": 23500
+        "cost_price": 27000,
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 122,
+            "cost_price": 27000,
+            "selling_price": 37000,
+            "updated": "14:47 19/10/2026"
+          }
+        },
+        "needs_review": true
       },
       {
         "id": "p-1791948345889",
@@ -6678,6 +6687,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792396052851",
+      "time": "14:47 - 19/10/2026",
+      "timestamp": 1792396052851,
+      "name": "Link Gemini Pro 18 Tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 122,
+      "addedQty": 70,
+      "price": 37000,
+      "stockAfter": 122,
+      "catKey": "google-veo",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:70📦Tồnkhohiệntại:122💰Giá:27.000đ"
+    },
+    {
       "id": "hist-1792396040716",
       "time": "14:47 - 19/10/2026",
       "timestamp": 1792396040716,
@@ -8062,20 +8085,6 @@
       "catKey": "khac",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🎬SlotProfileNetflixPremium4K1ThángBHF💰Giá:155k📦Tồnkho:9tàikhoản📊Đãbán:378tàikhoả"
-    },
-    {
-      "id": "hist-1792305320911",
-      "time": "13:35 - 18/10/2026",
-      "timestamp": 1792305320911,
-      "name": "Admin Notion Business 3 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 2,
-      "addedQty": 0,
-      "price": 480000,
-      "stockAfter": 4,
-      "catKey": "notion",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐AdminNotionBusiness3thángBHF💰Giá:430k📦Tồnkho:2tàikhoản📊Đãbán:12tàikhoản💎Môtả:-A"
     }
   ]
 }
