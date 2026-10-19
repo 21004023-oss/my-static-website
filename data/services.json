@@ -4539,6 +4539,25 @@
         },
         "hidden": false,
         "needs_review": true
+      },
+      {
+        "id": "p-1792421622161",
+        "name": "Gmail random new",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 29,
+        "stock_text": "Còn 29",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|pass Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 29,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "21:53 19/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -6940,6 +6959,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792421622161",
+      "time": "21:53 - 19/10/2026",
+      "timestamp": 1792421622161,
+      "name": "Gmail random new",
+      "bot": "sieuthistore_bot",
+      "shopStock": 29,
+      "addedQty": 30,
+      "price": 35000,
+      "stockAfter": 29,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧Gmailrandomnew➕Thêm:30📦Tồnkhohiệntại:29💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1792421105477",
       "time": "21:45 - 19/10/2026",
       "timestamp": 1792421105477,
@@ -8324,20 +8357,6 @@
       "catKey": "capcut",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:14📦Tồnkhohiệntại:14💰Giá:33.000đ"
-    },
-    {
-      "id": "hist-1792333521128",
-      "time": "21:25 - 18/10/2026",
-      "timestamp": 1792333521128,
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 21,
-      "addedQty": 1,
-      "price": 250000,
-      "stockAfter": 21,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:1📦Tồnkhohiệntại:21💰Giá:220.000đ"
     }
   ]
 }
