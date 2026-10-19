@@ -5478,17 +5478,17 @@
         "id": "p-1791911398561",
         "name": "Meitu VIP 7 Ngày BHF",
         "price": 35000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
-        "detail": "⚠️ LƯU Ý QUAN TRỌNG\n📱 Chỉ sử dụng trên 01 thiết bị iPhone/iOS\n🔐 Quy định sử dụng:\n• Đăng nhập trong vòng 30 phút kể từ lúc mua.\n• Không đăng xuất tài khoản sau khi đăng nhập.\n• Không chia sẻ tài khoản, không đổi mật khẩu/thông tin tài khoản.\n• Không đăng nhập nhiều thiết bị.\n➡️ Vi phạm bất kỳ quy định nào sẽ không được bảo hành.\n🍎 Hướng dẫn đăng nhập iPhone/iOS:\nThông thường không cần mã xác nhận. Chọn +852 hoặc +86, nhập SĐT + mật khẩu rồi đăng nhập.\n👆 Xem ảnh hướng dẫn đăng nhập phía trên.\n🛠 Nếu bị lỗi: chụp màn hình tình trạng lỗi ngay sau khi đăng nhập và gửi cho shop để được hỗ trợ.",
-        "cost_price": 25000,
+        "detail": "Meitu VIP 7 Ngày login 1 thiết bị(Không dùng được trên PC, chỉ có Meitu Svip là dùng được trên PC)\n- Định dạng: (Email|Pass Hotmail|Pass Meitu) Token\n- Pass Meitu mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI",
+        "cost_price": 15000,
         "sources": {
           "taphoathomap_bot": {
-            "stock": 3,
-            "cost_price": 25000,
-            "selling_price": 35000,
-            "updated": "10:51 19/10/2026"
+            "stock": 0,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "15:50 19/10/2026"
           }
         },
         "needs_review": true
@@ -6720,6 +6720,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792399851185",
+      "time": "15:50 - 19/10/2026",
+      "timestamp": 1792399851185,
+      "name": "Meitu VIP 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 0,
+      "addedQty": 6,
+      "price": 25000,
+      "stockAfter": 0,
+      "catKey": "meitu-wink",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "✨MeituVIP7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:0💰Giá:15.000đ"
+    },
     {
       "id": "hist-1792399681923",
       "time": "15:48 - 19/10/2026",
@@ -8105,20 +8119,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH24H➕Thêm:12📦Tồnkhohiệntại:20💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1792306168311",
-      "time": "13:49 - 18/10/2026",
-      "timestamp": 1792306168311,
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
-      "bot": "ntnshopre_bot",
-      "shopStock": 29,
-      "addedQty": 29,
-      "price": 220000,
-      "stockAfter": 29,
-      "catKey": "chatgpt",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:29📦Tồnkhohiệntại:29💰Giá:200.000đ"
     }
   ]
 }
