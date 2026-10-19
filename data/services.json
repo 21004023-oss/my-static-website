@@ -599,20 +599,21 @@
       {
         "id": "p-1791950549274",
         "name": "ChatGPT Ver Students Plus 4 Tháng KBH",
-        "price": 330000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "price": 370000,
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "4 Tháng",
         "detail": "ChatGPT Ver Students Plus 4 Tháng Hàng này mọi người nhận về, chỉ cần vào https://chatgpt.com/students/2026/ Bấm vào Yêu cầu Ưu đãi sẽ nhận được Link Pay 4 tháng Plus. Hàng này AE về tự thanh toán nhé! Đã Verify Học viên sẵn sàng hết rồi. Hoàn tiền không được hỗ trợ , mua về tự động đổi 2fa. + mail",
         "sources": {
           "piggyai99_bot": {
-            "stock": 12,
-            "cost_price": 300000,
-            "updated": "10:18 15/10/2026",
-            "selling_price": 330000
+            "stock": 5,
+            "cost_price": 320000,
+            "selling_price": 370000,
+            "updated": "16:17 19/10/2026"
           }
         },
-        "cost_price": 300000
+        "cost_price": 320000,
+        "needs_review": true
       },
       {
         "id": "p-1791951111143",
@@ -6731,6 +6732,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792401437725",
+      "time": "16:17 - 19/10/2026",
+      "timestamp": 1792401437725,
+      "name": "ChatGPT Ver Students Plus 4 Tháng KBH",
+      "bot": "piggyai99_bot",
+      "shopStock": 5,
+      "addedQty": 2,
+      "price": 370000,
+      "stockAfter": 5,
+      "catKey": "chatgpt",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🤖ChatGPTVerStudentsPlus4ThángKBH➕Thêm:2📦Tồnkhohiệntại:5💰Giá:320.000đ"
+    },
+    {
       "id": "hist-1792400585989",
       "time": "16:03 - 19/10/2026",
       "timestamp": 1792400585989,
@@ -8115,20 +8130,6 @@
       "catKey": "vpn",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792307363682",
-      "time": "14:09 - 18/10/2026",
-      "timestamp": 1792307363682,
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 6,
-      "addedQty": 6,
-      "price": 35000,
-      "stockAfter": 6,
-      "catKey": "vpn",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:25.000đ"
     }
   ]
 }
