@@ -4702,8 +4702,8 @@
         "id": "p-1792183901751",
         "name": "Redeem Apple Music Individual 5 tháng BH 1 ngày",
         "price": 55000,
-        "stock": 67,
-        "stock_text": "Còn 67",
+        "stock": 134,
+        "stock_text": "Còn 134",
         "duration": "1 Ngày",
         "detail": "📋 Gói: Apple Music Cá nhân (Individual)\n-Thời hạn: 5 tháng\n-Hình thức: Kích hoạt trực tiếp trên tài khoản của bạn\n-Định dạng: Link kích hoạt chính thức\n-Không bảo hành sau khi đã kích hoạt thành công\n-Bảo hành link kích hoạt trong vòng 24 giờ\n-Cần sử dụng VPN Ấn Độ và thẻ để thanh toán\n-Sau khi thanh toán không hỗ trợ hoàn trả.",
         "sources": {
@@ -4712,10 +4712,16 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "updated": "19:39 19/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 67,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "19:39 19/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 45000,
+        "cost_price": 40000,
         "needs_review": true
       },
       {
@@ -6844,6 +6850,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792413578535",
+      "time": "19:39 - 19/10/2026",
+      "timestamp": 1792413578535,
+      "name": "Redeem Apple Music Individual 5 tháng BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "shopStock": 67,
+      "addedQty": 64,
+      "price": 50000,
+      "stockAfter": 134,
+      "catKey": "netflix",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐RedeemAppleMusicIndividual5thángBH1ngày➕Thêm:64📦Tồnkhohiệntại:67💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1792413574969",
       "time": "19:39 - 19/10/2026",
       "timestamp": 1792413574969,
@@ -8228,20 +8248,6 @@
       "catKey": "api-cursor-deepseek",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🖱️APICursorPro400Credits/ngày1thángBHF💰Giá:309k📦Tồnkho:1tàikhoản📊Đãbán:515tàikho"
-    },
-    {
-      "id": "hist-1792318188555",
-      "time": "17:09 - 18/10/2026",
-      "timestamp": 1792318188555,
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 6,
-      "addedQty": 0,
-      "price": 25000,
-      "stockAfter": 18,
-      "catKey": "vpn",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🚚ExpressVPN3NgàyBHF💰Giá:15k📦Tồnkho:6tàikhoản📊Đãbán:753tàikhoản💎Môtả:Địnhdạng:ema"
     }
   ]
 }
