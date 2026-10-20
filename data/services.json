@@ -4328,7 +4328,7 @@
         "stock": 38,
         "stock_text": "Còn 38",
         "duration": "1 Tháng",
-        "detail": "Gói Gmail USA new log all thiết bị bảo hành uy tín.",
+        "detail": "Định dạng: Gmail | Pass - Gmail này cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone -Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll ) -Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/\n- BH 24h, log thành công hết BH",
         "sources": {
           "sieuthistore_bot": {
             "stock": 38,
@@ -4337,7 +4337,8 @@
             "updated": "17:03 20/10/2026"
           }
         },
-        "hidden": false
+        "hidden": true,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -6967,6 +6968,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792490611551",
+      "time": "17:03 - 20/10/2026",
+      "timestamp": 1792490611551,
+      "name": "Gmail USA new log all thiết bị",
+      "bot": "sieuthistore_bot",
+      "shopStock": 38,
+      "addedQty": 0,
+      "price": 45000,
+      "stockAfter": 38,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧GmailUSAnewlogallthiếtbị💰Giá:35k📦Tồnkho:38tàikhoản📊Đãbán:2.094tàikhoản💎Môtả:Địn"
+    },
+    {
       "id": "hist-1792490607327",
       "time": "17:03 - 20/10/2026",
       "timestamp": 1792490607327,
@@ -8351,20 +8366,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapcutProTeam6ThángBHF➕Thêm:2📦Tồnkhohiệntại:1💰Giá:340.000đ"
-    },
-    {
-      "id": "hist-1792428512367",
-      "time": "23:48 - 19/10/2026",
-      "timestamp": 1792428512367,
-      "name": "CAPCUT TEAM 6 THÁNG  BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 1,
-      "addedQty": 2,
-      "price": 320000,
-      "stockAfter": 5,
-      "catKey": "capcut",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "✂️CAPCUTTEAM6THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:1💰Giá:290.000đ"
     }
   ]
 }
