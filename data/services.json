@@ -2292,17 +2292,17 @@
         "name": "ChatGPT Plus (Codex Full) 1 Tháng BHF",
         "price": 380000,
         "cost_price": 310000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 11,
+        "stock_text": "Còn 11",
         "duration": "1 Tháng",
         "detail": "🗣️ Mô tả:\n🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n6. Bảo hành đổi acc mới nếu die trước 7D.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nThuê sim vẻ số tại: https://viotp.com/\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "hidden": true,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 3,
+            "stock": 11,
             "cost_price": 310000,
             "selling_price": 360000,
-            "updated": "20:28 20/10/2026"
+            "updated": "22:53 20/10/2026"
           }
         },
         "needs_review": true
@@ -7073,6 +7073,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792511583554",
+      "time": "22:53 - 20/10/2026",
+      "timestamp": 1792511583554,
+      "name": "ChatGPT Plus (Codex Full) 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 11,
+      "addedQty": 6,
+      "price": 360000,
+      "stockAfter": 11,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTPlus(CodexFull)1ThángBHF➕Thêm:6📦Tồnkhohiệntại:11💰Giá:310.000đ"
+    },
+    {
       "id": "hist-1792509937308",
       "time": "22:25 - 20/10/2026",
       "timestamp": 1792509937308,
@@ -8457,20 +8471,6 @@
       "catKey": "higgsfield",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1thángBH24h➕Thêm:21📦Tồnkhohiệntại:27💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792435945130",
-      "time": "01:52 - 20/10/2026",
-      "timestamp": 1792435945130,
-      "name": "Higgsfield Genjutsu 1 tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 27,
-      "addedQty": 21,
-      "price": 75000,
-      "stockAfter": 27,
-      "catKey": "higgsfield",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🎬HiggsfieldGenjutsu1thángBH1Ngày➕Thêm:21📦Tồnkhohiệntại:27💰Giá:65.000đ"
     }
   ]
 }
