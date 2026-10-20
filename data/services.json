@@ -399,16 +399,16 @@
         "id": "p-1791879689407",
         "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
         "price": 280000,
-        "stock": 82,
-        "stock_text": "Còn 82",
+        "stock": 123,
+        "stock_text": "Còn 123",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Date radom 25 - 30 ngày\n4. Chỉ bảo hành tài khoản vô hiệu hóa, thay đổi thông tin lỗi - KBH\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n✅ Hiện tại, việc đổi PASS cần OTP nên không đổi được, còn nếu đổi 2FA có thể lỗi OTP gmail, khách hàng có thể cân nhắc không đổi và cứ việc dùng",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 82,
+            "stock": 123,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "17:12 20/10/2026"
+            "updated": "19:09 20/10/2026"
           }
         },
         "cost_price": 230000,
@@ -7051,6 +7051,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792498157025",
+      "time": "19:09 - 20/10/2026",
+      "timestamp": 1792498157025,
+      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 123,
+      "addedQty": 80,
+      "price": 260000,
+      "stockAfter": 123,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:80📦Tồnkhohiệntại:123💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1792496862214",
       "time": "18:47 - 20/10/2026",
       "timestamp": 1792496862214,
@@ -8435,20 +8449,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPro100-1thángBH20ngày➕Thêm:1📦Tồnkhohiệntại:3💰Giá:1.800.000đ"
-    },
-    {
-      "id": "hist-1792434653685",
-      "time": "01:30 - 20/10/2026",
-      "timestamp": 1792434653685,
-      "name": "ChatGPT Pro 100 - 1 tháng BH 20 ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 1,
-      "addedQty": 0,
-      "price": 2000000,
-      "stockAfter": 1,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPro100-1thángBH20ngày💰Giá:1800k📦Tồnkho:1tàikhoản📊Đãbán:5tàikhoản"
     }
   ]
 }
