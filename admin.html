@@ -918,6 +918,153 @@
       color: #fff;
       font-weight: 700;
     }
+  
+    /* ========================================================
+       PHƯƠNG ÁN A: CLEAN BAR CHO CỘT GIÁ BÁN & CHÊNH LỆCH
+       ======================================================== */
+    .price-cell-clean {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      min-width: 260px;
+    }
+    .price-top-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+      flex-wrap: nowrap;
+    }
+    .tbl-price-chips {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      flex-wrap: nowrap;
+      flex-shrink: 0;
+    }
+    .tbl-chip {
+      font-size: 9.5px;
+      font-weight: 700;
+      padding: 3px 5px;
+      border-radius: 4px;
+      border: 1px solid var(--card-border);
+      background: var(--card-bg);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .table-price-stepper {
+      display: inline-flex;
+      align-items: center;
+      background: var(--input-bg);
+      border: 1px solid var(--input-border);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+    .tbl-step-btn {
+      background: var(--bg);
+      border: none;
+      padding: 5px 10px;
+      font-weight: 700;
+      font-size: 13px;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .tbl-step-btn:hover {
+      background: var(--card-border);
+      color: var(--text);
+    }
+    .tbl-price-display {
+      padding: 5px 8px;
+      font-size: 13.5px;
+      font-weight: 800;
+      color: var(--primary);
+      border-left: 1px solid var(--card-border);
+      border-right: 1px solid var(--card-border);
+      cursor: pointer;
+      min-width: 84px;
+      text-align: center;
+      letter-spacing: -0.2px;
+    }
+    .tbl-price-chips {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+    .tbl-chip {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 4px 6px;
+      border-radius: 5px;
+      border: 1px solid var(--card-border);
+      background: var(--card-bg);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .tbl-chip.minus { color: var(--rose); background: var(--rose-subtle); border-color: rgba(239, 68, 68, 0.2); }
+    .tbl-chip.minus:hover { background: rgba(239, 68, 68, 0.25); }
+    .tbl-chip.plus { color: var(--primary); background: var(--primary-subtle); border-color: rgba(2, 132, 199, 0.2); }
+    .tbl-chip.plus:hover { background: rgba(2, 132, 199, 0.25); }
+
+    /* PROFIT BAR CLEAN */
+    .profit-bar-clean {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 11px;
+    }
+    .profit-bar-clean.gain {
+      background: var(--emerald-subtle);
+      border: 1px solid rgba(16, 185, 129, 0.25);
+    }
+    .profit-bar-clean .cost-label {
+      color: var(--text-muted);
+      font-size: 11px;
+    }
+    .profit-bar-clean .gain-val {
+      color: var(--emerald);
+      font-weight: 800;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .profit-bar-clean .pct-badge {
+      background: rgba(16, 185, 129, 0.18);
+      color: #065f46;
+      padding: 1px 5px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 700;
+    }
+    body.dark-theme .profit-bar-clean .pct-badge {
+      color: #a7f3d0;
+    }
+    .profit-bar-clean.even {
+      background: rgba(100, 116, 139, 0.08);
+      border: 1px solid var(--card-border);
+    }
+    .profit-bar-clean .even-val { color: var(--text-muted); font-weight: 600; }
+    .profit-bar-clean.loss {
+      background: var(--rose-subtle);
+      border: 1px solid rgba(239, 68, 68, 0.25);
+    }
+    .profit-bar-clean .loss-val { color: var(--rose); font-weight: 800; }
+    .profit-bar-clean.empty {
+      color: var(--text-muted);
+      font-size: 10.5px;
+      text-align: center;
+      justify-content: center;
+      opacity: 0.6;
+    }
+
   </style>
 </head>
 <body>
@@ -2209,53 +2356,57 @@
             </div>
           </td>
           <td>
-            <div class="table-price-stepper">
-              <button class="tbl-step-btn minus" title="Giảm 5.000đ" onclick="adjustPlanPrice(${idx}, -5000, '${catKey}')">−</button>
-              <div class="tbl-price-display" onclick="quickEditPlanPrice(${idx}, '${catKey}')" title="Nhấp để gõ giá mới trực tiếp">
-                <strong style="color:var(--primary); font-size:13.5px;">${Number(p.price || 0).toLocaleString('vi-VN')}đ</strong>
-              </div>
-              <button class="tbl-step-btn plus" title="Tăng 5.000đ" onclick="adjustPlanPrice(${idx}, 5000, '${catKey}')">+</button>
-            </div>
-            <div class="tbl-price-chips">
-              <button class="tbl-chip minus" title="Giảm 10.000đ" onclick="adjustPlanPrice(${idx}, -10000, '${catKey}')">-10k</button>
-              <button class="tbl-chip minus" title="Giảm 5.000đ" onclick="adjustPlanPrice(${idx}, -5000, '${catKey}')">-5k</button>
-              <button class="tbl-chip plus" title="Tăng 5.000đ" onclick="adjustPlanPrice(${idx}, 5000, '${catKey}')">+5k</button>
-              <button class="tbl-chip plus" title="Tăng 10.000đ" onclick="adjustPlanPrice(${idx}, 10000, '${catKey}')">+10k</button>
-            </div>
-            ${(() => {
-              const costPrice = getPlanCostPrice(p);
-              if (costPrice > 0) {
-                const diff = (p.price || 0) - costPrice;
-                const pct = ((diff / costPrice) * 100).toFixed(1);
-                if (diff > 0) {
-                  return `
-                    <div style="margin-top:6px; font-size:11px; background:rgba(5, 150, 105, 0.08); border:1px solid rgba(5, 150, 105, 0.22); border-radius:6px; padding:3px 6px; display:flex; justify-content:space-between; align-items:center;" title="Giá nhập từ nguồn bot: ${costPrice.toLocaleString('vi-VN')}đ • Tiền lời: +${diff.toLocaleString('vi-VN')}đ">
-                      <span style="color:var(--text-muted); font-size:10.5px;">Gốc: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong></span>
-                      <span style="color:var(--emerald); font-weight:700;">▲ +${diff.toLocaleString('vi-VN')}đ (+${pct}%)</span>
-                    </div>
-                  `;
-                } else if (diff === 0) {
-                  return `
-                    <div style="margin-top:6px; font-size:11px; background:rgba(100, 116, 139, 0.08); border:1px solid rgba(100, 116, 139, 0.2); border-radius:6px; padding:3px 6px; display:flex; justify-content:space-between; align-items:center;" title="Giá bán bằng đúng giá gốc nhập kho">
-                      <span style="color:var(--text-muted); font-size:10.5px;">Gốc: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong></span>
-                      <span style="color:var(--text-muted); font-weight:600;">Hòa vốn (0đ)</span>
-                    </div>
-                  `;
-                } else {
-                  return `
-                    <div style="margin-top:6px; font-size:11px; background:rgba(225, 29, 72, 0.08); border:1px solid rgba(225, 29, 72, 0.25); border-radius:6px; padding:3px 6px; display:flex; justify-content:space-between; align-items:center;" title="Cảnh báo: Đang bán lỗ dưới giá nhập!">
-                      <span style="color:var(--text-muted); font-size:10.5px;">Gốc: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong></span>
-                      <span style="color:var(--rose); font-weight:700;">⚠️ Lỗ: ${diff.toLocaleString('vi-VN')}đ (${pct}%)</span>
-                    </div>
-                  `;
-                }
-              }
-              return `
-                <div style="margin-top:5px; font-size:10.5px; color:var(--text-muted); text-align:center; opacity:0.65;">
-                  <span>(Chưa có giá nhập)</span>
+            <div class="price-cell-clean">
+              <div class="price-top-row">
+                <div class="table-price-stepper">
+                  <button class="tbl-step-btn minus" title="Giảm 5.000đ" onclick="adjustPlanPrice(${idx}, -5000, '${catKey}')">−</button>
+                  <div class="tbl-price-display" onclick="quickEditPlanPrice(${idx}, '${catKey}')" title="Nhấp để gõ giá mới trực tiếp">
+                    <strong>${Number(p.price || 0).toLocaleString('vi-VN')}đ</strong>
+                  </div>
+                  <button class="tbl-step-btn plus" title="Tăng 5.000đ" onclick="adjustPlanPrice(${idx}, 5000, '${catKey}')">+</button>
                 </div>
-              `;
-            })()}
+                <div class="tbl-price-chips">
+                  <button class="tbl-chip minus" title="Giảm 10.000đ" onclick="adjustPlanPrice(${idx}, -10000, '${catKey}')">-10k</button>
+                  <button class="tbl-chip minus" title="Giảm 5.000đ" onclick="adjustPlanPrice(${idx}, -5000, '${catKey}')">-5k</button>
+                  <button class="tbl-chip plus" title="Tăng 5.000đ" onclick="adjustPlanPrice(${idx}, 5000, '${catKey}')">+5k</button>
+                  <button class="tbl-chip plus" title="Tăng 10.000đ" onclick="adjustPlanPrice(${idx}, 10000, '${catKey}')">+10k</button>
+                </div>
+              </div>
+              ${(() => {
+                const costPrice = getPlanCostPrice(p);
+                if (costPrice > 0) {
+                  const diff = (p.price || 0) - costPrice;
+                  const pct = ((diff / costPrice) * 100).toFixed(1);
+                  if (diff > 0) {
+                    return `
+                      <div class="profit-bar-clean gain" title="Giá gốc: ${costPrice.toLocaleString('vi-VN')}đ • Lời: +${diff.toLocaleString('vi-VN')}đ">
+                        <span class="cost-label">Vốn: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong></span>
+                        <span class="gain-val">▲ Lời +${diff.toLocaleString('vi-VN')}đ <span class="pct-badge">+${pct}%</span></span>
+                      </div>
+                    `;
+                  } else if (diff === 0) {
+                    return `
+                      <div class="profit-bar-clean even" title="Giá bán bằng đúng giá gốc nhập kho">
+                        <span class="cost-label">Vốn: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong></span>
+                        <span class="even-val">Hòa vốn (0đ)</span>
+                      </div>
+                    `;
+                  } else {
+                    return `
+                      <div class="profit-bar-clean loss" title="Cảnh báo: Đang bán lỗ dưới giá nhập!">
+                        <span class="cost-label">Vốn: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong></span>
+                        <span class="loss-val">⚠️ Lỗ: ${diff.toLocaleString('vi-VN')}đ (${pct}%)</span>
+                      </div>
+                    `;
+                  }
+                }
+                return `
+                  <div class="profit-bar-clean empty">
+                    <span>(Chưa có giá nhập)</span>
+                  </div>
+                `;
+              })()}
+            </div>
           </td>
           <td>${stockBadge}</td>
           <td><span class="badge badge-source">${p.duration || '1 Tháng'}</span></td>
