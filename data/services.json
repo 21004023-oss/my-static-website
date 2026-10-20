@@ -4851,8 +4851,8 @@
         "id": "p-1792006811047",
         "name": "Photoroom Max 7 Ngày BHF",
         "price": 45000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
         "detail": "Photoroom 7 ngày gói Max\nĐịnh dạng: Email|Web mail",
         "sources": {
@@ -4863,13 +4863,13 @@
             "updated": "18:47 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 6,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "18:07 19/10/2026"
+            "updated": "18:47 20/10/2026"
           }
         },
-        "cost_price": 35000,
+        "cost_price": 15000,
         "needs_review": true,
         "hidden": true
       },
@@ -7051,6 +7051,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792496862214",
+      "time": "18:47 - 20/10/2026",
+      "timestamp": 1792496862214,
+      "name": "Photoroom Max 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 6,
+      "addedQty": 6,
+      "price": 25000,
+      "stockAfter": 12,
+      "catKey": "adobe",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1792496854650",
       "time": "18:47 - 20/10/2026",
       "timestamp": 1792496854650,
@@ -8435,20 +8449,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPro100-1thángBH20ngày💰Giá:1800k📦Tồnkho:1tàikhoản📊Đãbán:5tàikhoản"
-    },
-    {
-      "id": "hist-1792434370458",
-      "time": "01:26 - 20/10/2026",
-      "timestamp": 1792434370458,
-      "name": "ChatGPT Plus GGPay 30D BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 18,
-      "addedQty": 0,
-      "price": 210000,
-      "stockAfter": 36,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H💰Giá:190k📦Tồnkho:18tàikhoản📊Đãbán:3.303tàikhoản💎Môtả:Kh"
     }
   ]
 }
