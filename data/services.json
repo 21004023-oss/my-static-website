@@ -2713,7 +2713,7 @@
         "id": "p-1792441831386",
         "name": "SMS nhận OTP xác minh Codex 24h - KBH",
         "price": 25000,
-        "cost_price": 15000,
+        "cost_price": 10000,
         "stock": 76,
         "stock_text": "Còn 76",
         "duration": "1 Ngày",
@@ -2723,7 +2723,7 @@
             "stock": 38,
             "cost_price": 10000,
             "selling_price": 20000,
-            "updated": "03:30 20/10/2026"
+            "updated": "11:46 20/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 38,
@@ -6877,6 +6877,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792471571448",
+      "time": "11:46 - 20/10/2026",
+      "timestamp": 1792471571448,
+      "name": "SMS nhận OTP xác minh Codex 24h - KBH",
+      "bot": "piggyai99_bot",
+      "shopStock": 38,
+      "addedQty": 0,
+      "price": 20000,
+      "stockAfter": 76,
+      "catKey": "api-claude-codex",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🤖SMSnhậnOTPxácminhCodex24h-KBH💰Giá:10k📦Tồnkho:38tàikhoản📊Đãbán:22tàikhoản💎Môtả:-"
+    },
+    {
       "id": "hist-1792471555584",
       "time": "11:45 - 20/10/2026",
       "timestamp": 1792471555584,
@@ -8261,20 +8275,6 @@
       "catKey": "api-cursor-deepseek",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🖱️APICURSORPRO6500CREDITS1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:1💰Giá:309.000đ"
-    },
-    {
-      "id": "hist-1792414137464",
-      "time": "19:48 - 19/10/2026",
-      "timestamp": 1792414137464,
-      "name": "API Cursor Pro 6500 Credits 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 1,
-      "addedQty": 5,
-      "price": 410000,
-      "stockAfter": 1,
-      "catKey": "api-cursor-deepseek",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🖱️APICursorPro6500Credits1thángBHF➕Thêm:5📦Tồnkhohiệntại:1💰Giá:360.000đ"
     }
   ]
 }
