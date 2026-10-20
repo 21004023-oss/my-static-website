@@ -1272,6 +1272,25 @@
             "updated": "09:25 18/10/2026"
           }
         }
+      },
+      {
+        "id": "p-1792475712974",
+        "name": "ChatGPT Plus 4 tháng BH 24H",
+        "price": 500000,
+        "cost_price": 450000,
+        "stock": 86,
+        "stock_text": "Còn 86",
+        "duration": "1 Ngày",
+        "detail": "🎓 CHATGPT STUDENT 4 THÁNG – ĐÃ PAY\n✅ Đã thanh toán, mua về chỉ việc dùng.\n📦 Không sẵn hàng, mua xong gửi mã đơn để Shop giao tài khoản.\n🛡 Chỉ bảo hành khi tài khoản die hoặc tụt gói.\n🔐 Check tài khoản OK → Khách tự Change All.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 86,
+            "cost_price": 450000,
+            "selling_price": 500000,
+            "updated": "12:55 20/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -6906,6 +6925,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792475712974",
+      "time": "12:55 - 20/10/2026",
+      "timestamp": 1792475712974,
+      "name": "ChatGPT Plus 4 tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 86,
+      "addedQty": 86,
+      "price": 500000,
+      "stockAfter": 86,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlus4thángBH24H➕Thêm:86📦Tồnkhohiệntại:86💰Giá:450.000đ"
+    },
+    {
       "id": "hist-1792472398618",
       "time": "11:59 - 20/10/2026",
       "timestamp": 1792472398618,
@@ -8290,20 +8323,6 @@
       "catKey": "youtube",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📧GmailRandomip2020-2023trialyoutube➕Thêm:2📦Tồnkhohiệntại:172💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792421847902",
-      "time": "21:57 - 19/10/2026",
-      "timestamp": 1792421847902,
-      "name": "Gmail Random ip 2020-2023 trial youtube",
-      "bot": "sieuthistore_bot",
-      "shopStock": 172,
-      "addedQty": 2,
-      "price": 60000,
-      "stockAfter": 172,
-      "catKey": "youtube",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧GmailRandomip2020-2023trialyoutube➕Thêm:2📦Tồnkhohiệntại:172💰Giá:50.000đ"
     }
   ]
 }
