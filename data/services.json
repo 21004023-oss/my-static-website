@@ -993,10 +993,10 @@
             "stock": 10,
             "cost_price": 100000,
             "selling_price": 110000,
-            "updated": "00:53 20/10/2026"
+            "updated": "17:03 20/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 100000,
         "needs_review": true
       },
@@ -6948,6 +6948,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792490589189",
+      "time": "17:03 - 20/10/2026",
+      "timestamp": 1792490589189,
+      "name": "ChatGPT K12 Education 2 năm KBH",
+      "bot": "sieuthistore_bot",
+      "shopStock": 10,
+      "addedQty": 10,
+      "price": 110000,
+      "stockAfter": 10,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTK12Education2nămKBH➕Thêm:10📦Tồnkhohiệntại:10💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1792490584174",
       "time": "17:03 - 20/10/2026",
       "timestamp": 1792490584174,
@@ -8332,20 +8346,6 @@
       "catKey": "adobe",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:3📦Tồnkhohiệntại:5💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1792427004106",
-      "time": "23:23 - 19/10/2026",
-      "timestamp": 1792427004106,
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "shopStock": 5,
-      "addedQty": 3,
-      "price": 130000,
-      "stockAfter": 5,
-      "catKey": "adobe",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:3📦Tồnkhohiệntại:5💰Giá:110.000đ"
     }
   ]
 }
