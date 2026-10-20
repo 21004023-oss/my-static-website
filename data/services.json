@@ -3160,6 +3160,25 @@
         },
         "hidden": false,
         "cost_price": 650000
+      },
+      {
+        "id": "p-1792460560425",
+        "name": "Grok Plus 30 ngày KBH",
+        "price": 200000,
+        "cost_price": 180000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 2,
+            "cost_price": 180000,
+            "selling_price": 200000,
+            "updated": "08:42 20/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=x.ai&sz=64"
@@ -7312,6 +7331,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792460560425",
+      "time": "08:42 - 20/10/2026",
+      "timestamp": 1792460560425,
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "sieuthistore_bot",
+      "shopStock": 2,
+      "addedQty": 2,
+      "price": 200000,
+      "stockAfter": 2,
+      "catKey": "grok",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:2📦Tồnkhohiệntại:2💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1792457549727",
       "time": "07:52 - 20/10/2026",
       "timestamp": 1792457549727,
@@ -8696,20 +8729,6 @@
       "catKey": "spotify",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐SpotifyPremium1-2thángBH1Tháng➕Thêm:3📦Tồnkhohiệntại:11💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1792402727116",
-      "time": "16:38 - 19/10/2026",
-      "timestamp": 1792402727116,
-      "name": "Gmail (New) -Login phone",
-      "bot": "taphoathomap_bot",
-      "shopStock": 41,
-      "addedQty": 54,
-      "price": 33000,
-      "stockAfter": 82,
-      "catKey": "gmail",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "📧Gmail(New)-Loginphone➕Thêm:54📦Tồnkhohiệntại:41💰Giá:23.000đ"
     }
   ]
 }
