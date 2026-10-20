@@ -6669,8 +6669,8 @@
           "taphoathomap_bot": {
             "stock": 10,
             "cost_price": 45000,
-            "updated": "02:28 18/10/2026",
-            "selling_price": 55000
+            "selling_price": 55000,
+            "updated": "01:58 21/10/2026"
           },
           "piggyai99_bot": {
             "stock": 10,
@@ -6681,7 +6681,7 @@
         },
         "hidden": true,
         "needs_review": true,
-        "cost_price": 60000
+        "cost_price": 45000
       },
       {
         "id": "p-1792265296447",
@@ -7073,6 +7073,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792522733357",
+      "time": "01:58 - 21/10/2026",
+      "timestamp": 1792522733357,
+      "name": "Zoom Pro 28 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 10,
+      "addedQty": 10,
+      "price": 55000,
+      "stockAfter": 20,
+      "catKey": "work-dev",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐ZoomPro28NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:45.000đ"
+    },
     {
       "id": "hist-1792522718725",
       "time": "01:58 - 21/10/2026",
@@ -8458,20 +8472,6 @@
       "catKey": "meitu-wink",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "✨MeituVIP7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792437239570",
-      "time": "02:13 - 20/10/2026",
-      "timestamp": 1792437239570,
-      "name": "ChatGPT Plus (Apple Pay) 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 35,
-      "addedQty": 30,
-      "price": 310000,
-      "stockAfter": 128,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus(ApplePay)1ThángBHF➕Thêm:30📦Tồnkhohiệntại:35💰Giá:280.000đ"
     }
   ]
 }
