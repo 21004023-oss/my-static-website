@@ -4782,6 +4782,25 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792508363624",
+        "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
+        "price": 65000,
+        "cost_price": 55000,
+        "stock": 27,
+        "stock_text": "Còn 27",
+        "duration": "1 Tháng",
+        "detail": "✅Netflix 4K Premium bảo hành full 1 tháng sử dụng.\n✅Có web riêng lấy code, xác minh hộ gia đình v.v...\n✅Định dạng mail|pass|Profile riêng, mã pin riêng\n---Lưu ý: Sau khi nhập mail xong chọn mục NHẬN TRỢ GIÚP để nhập pass\n✅ Bảo hành full trong suốt thời gian sử dụng",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 27,
+            "cost_price": 55000,
+            "selling_price": 65000,
+            "updated": "21:59 20/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -7053,6 +7072,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792508363624",
+      "time": "21:59 - 20/10/2026",
+      "timestamp": 1792508363624,
+      "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
+      "bot": "taphoathomap_bot",
+      "shopStock": 27,
+      "addedQty": 28,
+      "price": 65000,
+      "stockAfter": 27,
+      "catKey": "netflix",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬[Slot]Netflix4KPremium1thángBảohànhfull➕Thêm:28📦Tồnkhohiệntại:27💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1792507756330",
       "time": "21:49 - 20/10/2026",
       "timestamp": 1792507756331,
@@ -8437,20 +8470,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPro100-1thángBH20ngày➕Thêm:1📦Tồnkhohiệntại:3💰Giá:1.800.000đ"
-    },
-    {
-      "id": "hist-1792434653685",
-      "time": "01:30 - 20/10/2026",
-      "timestamp": 1792434653685,
-      "name": "ChatGPT Pro 100 - 1 tháng BH 20 ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 1,
-      "addedQty": 0,
-      "price": 2000000,
-      "stockAfter": 1,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPro100-1thángBH20ngày💰Giá:1800k📦Tồnkho:1tàikhoản📊Đãbán:5tàikhoản"
     }
   ]
 }
