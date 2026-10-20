@@ -5201,17 +5201,17 @@
         "id": "p-1792307363682",
         "name": "Express VPN 3 Ngày BHF",
         "price": 25000,
-        "cost_price": 15000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "cost_price": 25000,
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 6,
+            "stock": 7,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "14:09 18/10/2026"
+            "updated": "17:03 20/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 6,
@@ -6948,6 +6948,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792490598313",
+      "time": "17:03 - 20/10/2026",
+      "timestamp": 1792490598313,
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 7,
+      "addedQty": 8,
+      "price": 35000,
+      "stockAfter": 20,
+      "catKey": "vpn",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:8📦Tồnkhohiệntại:7💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1792490593478",
       "time": "17:03 - 20/10/2026",
       "timestamp": 1792490593478,
@@ -8332,20 +8346,6 @@
       "catKey": "kling",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🎬KlingPro3k3Credit1ThángBH7Ngày➕Thêm:6📦Tồnkhohiệntại:5💰Giá:650.000đ"
-    },
-    {
-      "id": "hist-1792427013779",
-      "time": "23:23 - 19/10/2026",
-      "timestamp": 1792427013779,
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "taphoathomap_bot",
-      "shopStock": 5,
-      "addedQty": 0,
-      "price": 110000,
-      "stockAfter": 10,
-      "catKey": "adobe",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)💰Giá:100k📦Tồnkho:5tàikhoản📊Đãbán:66tàikhoản💎Môtả:🎨**FIGMAPR"
     }
   ]
 }
