@@ -1417,19 +1417,20 @@
         "name": "Nâng chính chủ ChatGPT Ver Students offer  Plus 4 Tháng  KBH",
         "price": 400000,
         "cost_price": 350000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": -1,
+        "stock_text": "Vô cực (∞)",
         "duration": "4 Tháng",
-        "detail": "Gói Nâng chính chủ ChatGPT Ver Students offer  Plus 4 Tháng  KBH bảo hành uy tín.",
+        "detail": "Nâng cấp chính chủ Gói ưu đãi mua 4th GPT plus sinh viên Mỹ với giá 0$\n- Dịch vụ nâng cấp chính chủ ưu đãi STUDENT - CHƯA BAO GỒM THANH TOÁN PLUS\n- Khách truy cập https://chatgpt.com/students/2026/ để check gói sau khi bot báo thành công\n- Kích nhận ưu đãi = DONE\n- ĐỌC KĨ TRƯỚC KHI MUA",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 6,
+            "stock": -1,
             "cost_price": 350000,
             "selling_price": 400000,
             "updated": "10:20 20/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -7369,6 +7370,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792466418183",
+      "time": "10:20 - 20/10/2026",
+      "timestamp": 1792466418183,
+      "name": "Nâng chính chủ ChatGPT Ver Students offer  Plus 4 Tháng  KBH",
+      "bot": "taphoathomap_bot",
+      "shopStock": -1,
+      "addedQty": 0,
+      "price": 400000,
+      "stockAfter": -1,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖NângchínhchủChatGPTVerStudentsofferPlus4ThángKBH💰Giá:350k📦Tồnkho:∞tàikhoản📊Đãbá"
+    },
+    {
       "id": "hist-1792466403307",
       "time": "10:20 - 20/10/2026",
       "timestamp": 1792466403307,
@@ -8753,20 +8768,6 @@
       "catKey": "muse-ai",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:8📦Tồnkhohiệntại:8💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1792409457974",
-      "time": "18:30 - 19/10/2026",
-      "timestamp": 1792409457974,
-      "name": "API Cursor Pro 2600 Credits 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 2,
-      "addedQty": 5,
-      "price": 234000,
-      "stockAfter": 6,
-      "catKey": "api-cursor-deepseek",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🖱️APICursorPro2600Credits1thángBHF➕Thêm:5📦Tồnkhohiệntại:2💰Giá:204.000đ"
     }
   ]
 }
