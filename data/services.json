@@ -4339,6 +4339,25 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792490616334",
+        "name": "Gmail USA new",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 38,
+        "stock_text": "Còn 38",
+        "duration": "1 Tháng",
+        "detail": "Gói Gmail USA new bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 38,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "17:03 20/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -6968,6 +6987,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792490616334",
+      "time": "17:03 - 20/10/2026",
+      "timestamp": 1792490616334,
+      "name": "Gmail USA new",
+      "bot": "taphoathomap_bot",
+      "shopStock": 38,
+      "addedQty": 30,
+      "price": 35000,
+      "stockAfter": 38,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧GmailUSAnew➕Thêm:30📦Tồnkhohiệntại:38💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1792490611551",
       "time": "17:03 - 20/10/2026",
       "timestamp": 1792490611551,
@@ -8352,20 +8385,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapcutProTeam6ThángBHF💰Giá:340k📦Tồnkho:2tàikhoản📊Đãbán:326tàikhoản💎Môtả:CAPCUT"
-    },
-    {
-      "id": "hist-1792428517159",
-      "time": "23:48 - 19/10/2026",
-      "timestamp": 1792428517159,
-      "name": "Capcut Pro Team 6 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 1,
-      "addedQty": 2,
-      "price": 390000,
-      "stockAfter": 1,
-      "catKey": "capcut",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✂️CapcutProTeam6ThángBHF➕Thêm:2📦Tồnkhohiệntại:1💰Giá:340.000đ"
     }
   ]
 }
