@@ -4336,6 +4336,25 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792485838589",
+        "name": "Gmail USA new",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 38,
+        "stock_text": "Còn 38",
+        "duration": "1 Tháng",
+        "detail": "Gói Gmail USA new bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 38,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "15:43 20/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -6824,6 +6843,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792485838589",
+      "time": "15:43 - 20/10/2026",
+      "timestamp": 1792485838589,
+      "name": "Gmail USA new",
+      "bot": "taphoathomap_bot",
+      "shopStock": 38,
+      "addedQty": 30,
+      "price": 35000,
+      "stockAfter": 38,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧GmailUSAnew➕Thêm:30📦Tồnkhohiệntại:38💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1792485784004",
       "time": "15:43 - 20/10/2026",
       "timestamp": 1792485784004,
@@ -8208,20 +8241,6 @@
       "catKey": "kling",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬Kling1kcredits1thángBH24H➕Thêm:2📦Tồnkhohiệntại:2💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1792434259865",
-      "time": "01:24 - 20/10/2026",
-      "timestamp": 1792434259865,
-      "name": "Kling 1k  credits 1 tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 3,
-      "addedQty": 0,
-      "price": 200000,
-      "stockAfter": 3,
-      "catKey": "kling",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬Kling1kcredits1thángBH24H💰Giá:180k📦Tồnkho:3tàikhoản📊Đãbán:46tàikhoản"
     }
   ]
 }
