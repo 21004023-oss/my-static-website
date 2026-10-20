@@ -6229,11 +6229,20 @@
         "id": "p-1791885964384",
         "name": "Gói chính hãng ) ElevanLabs 131 Credit 1 Tháng (BH 3D)",
         "price": 140000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
         "detail": "Login bằng Email Định dạng Email|Pass",
-        "cost_price": 120000
+        "cost_price": 120000,
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "11:18 20/10/2026"
+          }
+        },
+        "needs_review": true
       },
       {
         "id": "p-1792097672589",
@@ -7369,6 +7378,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792469924215",
+      "time": "11:18 - 20/10/2026",
+      "timestamp": 1792469924215,
+      "name": "( Gói chính hãng ) ElevanLabs 131 Credit 1 Tháng (BH 3D)",
+      "bot": "taphoathomap_bot",
+      "shopStock": 6,
+      "addedQty": 6,
+      "price": 140000,
+      "stockAfter": 6,
+      "catKey": "ai-video-voice",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎙️(Góichínhhãng)ElevanLabs131Credit1Tháng(BH3D)➕Thêm:6📦Tồnkhohiệntại:6💰Giá:120.0"
+    },
     {
       "id": "hist-1792467158012",
       "time": "10:32 - 20/10/2026",
@@ -8754,20 +8777,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:8📦Tồnkhohiệntại:5💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1792411671644",
-      "time": "19:07 - 19/10/2026",
-      "timestamp": 1792411671644,
-      "name": "Higgsfield Starter 200 credit 1 tháng BH 3 ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 1,
-      "addedQty": 1,
-      "price": 170000,
-      "stockAfter": 1,
-      "catKey": "higgsfield",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬HiggsfieldStarter200credit1thángBH3ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:150.000đ"
     }
   ]
 }
