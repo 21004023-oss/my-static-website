@@ -3857,16 +3857,16 @@
         "id": "p-1792043489127",
         "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
         "price": 53000,
-        "stock": 126,
-        "stock_text": "Còn 126",
+        "stock": 97,
+        "stock_text": "Còn 97",
         "duration": "6 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2fa | Passkey\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL TRIAL RANDOM IP  DATE  6 THÁNG\n- Lấy mã Google Authentic / 2fa ở 2fa.live",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 42,
+            "stock": 13,
             "cost_price": 23000,
             "selling_price": 33000,
-            "updated": "14:41 19/10/2026"
+            "updated": "11:41 20/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 42,
@@ -3882,7 +3882,7 @@
           }
         },
         "hidden": false,
-        "cost_price": 33000,
+        "cost_price": 23000,
         "needs_review": true
       },
       {
@@ -6868,6 +6868,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792471275233",
+      "time": "11:41 - 20/10/2026",
+      "timestamp": 1792471275233,
+      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
+      "bot": "ntnshopre_bot",
+      "shopStock": 13,
+      "addedQty": 2,
+      "price": 33000,
+      "stockAfter": 97,
+      "catKey": "gmail",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:2📦Tồnkhohiệntại:13💰Giá:23.000đ"
+    },
+    {
       "id": "hist-1792469924215",
       "time": "11:18 - 20/10/2026",
       "timestamp": 1792469924215,
@@ -8252,20 +8266,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:8📦Tồnkhohiệntại:5💰Giá:190.000đ"
-    },
-    {
-      "id": "hist-1792412971377",
-      "time": "19:29 - 19/10/2026",
-      "timestamp": 1792412971377,
-      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 5,
-      "addedQty": 8,
-      "price": 240000,
-      "stockAfter": 5,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:8📦Tồnkhohiệntại:5💰Giá:210.000đ"
     }
   ]
 }
