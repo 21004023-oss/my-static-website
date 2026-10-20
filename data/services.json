@@ -4474,6 +4474,25 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792488659790",
+        "name": "Microsoft Office 365 - 2 Năm BHF",
+        "price": 60000,
+        "cost_price": 50000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "2 Năm",
+        "detail": "Gói Microsoft Office 365 - 2 Năm BHF bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "16:30 20/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=64"
@@ -6844,6 +6863,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792488659790",
+      "time": "16:30 - 20/10/2026",
+      "timestamp": 1792488659790,
+      "name": "Microsoft Office 365 - 2 Năm BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 5,
+      "addedQty": 5,
+      "price": 60000,
+      "stockAfter": 5,
+      "catKey": "microsoft",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐MicrosoftOffice365-2NămBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1792486139070",
       "time": "15:48 - 20/10/2026",
       "timestamp": 1792486139070,
@@ -8228,20 +8261,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:17📦Tồnkhohiệntại:18💰Giá:190.000đ"
-    },
-    {
-      "id": "hist-1792434362237",
-      "time": "01:26 - 20/10/2026",
-      "timestamp": 1792434362237,
-      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 18,
-      "addedQty": 17,
-      "price": 240000,
-      "stockAfter": 23,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:17📦Tồnkhohiệntại:18💰Giá:210.000đ"
     }
   ]
 }
