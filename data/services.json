@@ -4277,7 +4277,7 @@
         "id": "p-1792421622161",
         "name": "Gmail random new",
         "price": 35000,
-        "cost_price": 22000,
+        "cost_price": 25000,
         "stock": 22,
         "stock_text": "Còn 22",
         "duration": "1 Tháng",
@@ -4287,7 +4287,7 @@
             "stock": 11,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "09:41 20/10/2026"
+            "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -6879,6 +6879,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792471616460",
+      "time": "11:46 - 20/10/2026",
+      "timestamp": 1792471616460,
+      "name": "Gmail random new",
+      "bot": "sieuthistore_bot",
+      "shopStock": 11,
+      "addedQty": 0,
+      "price": 35000,
+      "stockAfter": 22,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧Gmailrandomnew💰Giá:25k📦Tồnkho:11tàikhoản📊Đãbán:451tàikhoản💎Môtả:Địnhdạngusernam"
+    },
+    {
       "id": "hist-1792471610552",
       "time": "11:46 - 20/10/2026",
       "timestamp": 1792471610552,
@@ -8263,20 +8277,6 @@
       "catKey": "gmail",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧GmailRandomip2020-2024➕Thêm:100📦Tồnkhohiệntại:100💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792417430650",
-      "time": "20:43 - 19/10/2026",
-      "timestamp": 1792417430650,
-      "name": "ChatGPT Go 1 Tháng BH 3 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 4,
-      "addedQty": 15,
-      "price": 95000,
-      "stockAfter": 34,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTGo1ThángBH3Ngày➕Thêm:15📦Tồnkhohiệntại:4💰Giá:85.000đ"
     }
   ]
 }
