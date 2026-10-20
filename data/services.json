@@ -3262,17 +3262,17 @@
         "id": "p-1792427096285",
         "name": "Kling Pro 3k3 Credit 1 Tháng BH 7 Ngày",
         "price": 750000,
-        "cost_price": 600000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "cost_price": 650000,
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "1 Tháng",
         "detail": "áp dụng bảo hành /7 ko phải /30\nKhách lưu ý",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 5,
+            "stock": 4,
             "cost_price": 650000,
             "selling_price": 750000,
-            "updated": "23:24 19/10/2026"
+            "updated": "06:50 21/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 5,
@@ -7139,6 +7139,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792540246162",
+      "time": "06:50 - 21/10/2026",
+      "timestamp": 1792540246162,
+      "name": "Kling Pro 3k3 Credit 1 Tháng BH 7 Ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 4,
+      "addedQty": 4,
+      "price": 750000,
+      "stockAfter": 9,
+      "catKey": "kling",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🎬KlingPro3k3Credit1ThángBH7Ngày➕Thêm:4📦Tồnkhohiệntại:4💰Giá:650.000đ"
+    },
+    {
       "id": "hist-1792536357371",
       "time": "05:45 - 21/10/2026",
       "timestamp": 1792536357371,
@@ -8523,20 +8537,6 @@
       "catKey": "adobe",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:6📦Tồnkhohiệntại:11💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1792445113438",
-      "time": "04:25 - 20/10/2026",
-      "timestamp": 1792445113438,
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "shopStock": 11,
-      "addedQty": 6,
-      "price": 130000,
-      "stockAfter": 16,
-      "catKey": "adobe",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:6📦Tồnkhohiệntại:11💰Giá:110.000đ"
     }
   ]
 }
