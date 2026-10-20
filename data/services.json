@@ -4490,6 +4490,25 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792490625291",
+        "name": "Microsoft Office 365 - 2 Năm BHF",
+        "price": 60000,
+        "cost_price": 50000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "2 Năm",
+        "detail": "Gói Microsoft Office 365 - 2 Năm BHF bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "17:03 20/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=64"
@@ -6988,6 +7007,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792490625291",
+      "time": "17:03 - 20/10/2026",
+      "timestamp": 1792490625291,
+      "name": "Microsoft Office 365 - 2 Năm BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 5,
+      "addedQty": 5,
+      "price": 60000,
+      "stockAfter": 5,
+      "catKey": "microsoft",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐MicrosoftOffice365-2NămBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1792490620520",
       "time": "17:03 - 20/10/2026",
       "timestamp": 1792490620520,
@@ -8372,20 +8405,6 @@
       "catKey": "meitu-wink",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✨MeituVIP7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:0💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1792431416431",
-      "time": "00:36 - 20/10/2026",
-      "timestamp": 1792431416431,
-      "name": "Meitu VIP 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 0,
-      "addedQty": 6,
-      "price": 25000,
-      "stockAfter": 0,
-      "catKey": "meitu-wink",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "✨MeituVIP7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:0💰Giá:15.000đ"
     }
   ]
 }
