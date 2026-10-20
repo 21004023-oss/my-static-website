@@ -4319,6 +4319,25 @@
             "updated": "09:25 18/10/2026"
           }
         }
+      },
+      {
+        "id": "p-1792490607327",
+        "name": "Gmail USA new log all thiết bị",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 38,
+        "stock_text": "Còn 38",
+        "duration": "1 Tháng",
+        "detail": "Gói Gmail USA new log all thiết bị bảo hành uy tín.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 38,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "17:03 20/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -6948,6 +6967,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792490607327",
+      "time": "17:03 - 20/10/2026",
+      "timestamp": 1792490607327,
+      "name": "Gmail USA new log all thiết bị",
+      "bot": "sieuthistore_bot",
+      "shopStock": 38,
+      "addedQty": 30,
+      "price": 45000,
+      "stockAfter": 38,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧GmailUSAnewlogallthiếtbị➕Thêm:30📦Tồnkhohiệntại:38💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792490602459",
       "time": "17:03 - 20/10/2026",
       "timestamp": 1792490602459,
@@ -8332,20 +8365,6 @@
       "catKey": "capcut",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "✂️CAPCUTTEAM6THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:1💰Giá:290.000đ"
-    },
-    {
-      "id": "hist-1792427103342",
-      "time": "23:25 - 19/10/2026",
-      "timestamp": 1792427103342,
-      "name": "KLING PRO 3k3 credit 1th bh 7d",
-      "bot": "taphoathomap_bot",
-      "shopStock": 5,
-      "addedQty": 6,
-      "price": 700000,
-      "stockAfter": 10,
-      "catKey": "kling",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬KLINGPRO3k3credit1thbh7d➕Thêm:6📦Tồnkhohiệntại:5💰Giá:600.000đ"
     }
   ]
 }
