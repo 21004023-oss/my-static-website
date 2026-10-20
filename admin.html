@@ -1623,6 +1623,22 @@
     </div>
   </div>
 
+    <!-- MODAL: QUYẾT ĐỊNH XUNG ĐỘT GIÁ (ADMIN CHỌN GIÁ NÀO XUẤT HIỆN TRÊN SHOP) -->
+  <div class="modal-overlay" id="conflictResolverModal">
+    <div class="modal-content" style="max-width: 620px;">
+      <div class="modal-header">
+        <h3 id="conflictModalTitle">⚡ Quyết Định Giá Xuất Hiện Trên Shop</h3>
+        <button class="btn btn-outline" style="padding:4px 8px;" onclick="closeConflictModal()">✕</button>
+      </div>
+      <div class="modal-body" id="conflictModalBody" style="max-height: 70vh; overflow-y: auto;">
+        <!-- Nội dung xung đột giá & các nút chọn sẽ được render động ở đây -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline" onclick="closeConflictModal()">Đóng</button>
+      </div>
+    </div>
+  </div>
+
   <input type="file" id="jsonFileInput" accept=".json" style="display:none;" onchange="handleFileImport(event)" />
 
   <!-- SCRIPT LOGIC -->
@@ -2160,8 +2176,7 @@
               ${catBadgeHtml}
               ${isHidden ? '<span class="badge badge-warning" style="font-size:10.5px;">🙈 Tạm ẩn</span>' : ''}
               ${p.needs_review ? `
-                <span class="badge badge-out" style="font-size:10.5px;">🚨 Cần duyệt giá</span>
-                <button class="btn btn-success" style="padding:1px 7px; font-size:10.5px; border-radius:4px;" onclick="approvePlanPrice(${idx}, '${catKey}')" title="Phê duyệt giá gói này và lập tức cho hiển thị lên Website">✓ Duyệt giá</button>
+                <span class="badge badge-out" style="font-size:10.5px; cursor:pointer;" onclick="openConflictDecisionModal('${catKey}', ${idx})" title="Nhấp để xem các mức giá đang xung đột và tự tay quyết định mức giá nào được xuất hiện trên Shop">⚡ Xung đột giá (Chọn giá hiện) ▾</span>
               ` : ''}
             </div>
             <div style="font-size:11.5px; color:var(--text-muted); margin-top:3px; max-width:380px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
@@ -4091,6 +4106,163 @@
         handleAdminSearchInput();
         inp.focus();
       }
+    }
+
+
+    // ========================================================
+    // MODULE: QUYẾT ĐỊNH XUNG ĐỘT GIÁ (ADMIN TOÀN QUYỀN CHỌN GIÁ SHOP)
+    // ========================================================
+    function openConflictDecisionModal(catKey, idx) {
+      if (!catKey || !servicesData[catKey] || !servicesData[catKey].plans[idx]) return;
+      const p = servicesData[catKey].plans[idx];
+      const catName = servicesData[catKey].name || catKey;
+
+      const modalTitle = document.getElementById('conflictModalTitle');
+      const modalBody = document.getElementById('conflictModalBody');
+      if (!modalTitle || !modalBody) return;
+
+      modalTitle.innerHTML = `⚡ Quyết Định Giá: <span style="color:var(--primary); font-size:15px;">${p.name}</span>`;
+
+      // 1. Thu thập tất cả các mức giá đang xung đột
+      const priceOptions = [];
+      const seenPrices = new Set();
+
+      // Mức giá hiện tại của gói
+      const curP = Number(p.price || 0);
+      priceOptions.push({
+        price: curP,
+        label: `Mức giá hiện tại trên hệ thống: ${curP.toLocaleString('vi-VN')}đ`,
+        source: 'Giá đang lưu hiện thời',
+        stock: p.stock
+      });
+      seenPrices.add(curP);
+
+      // Mức giá từ các nguồn (sources / bot Telegram)
+      if (p.sources && typeof p.sources === 'object') {
+        for (const [botName, botInfo] of Object.entries(p.sources)) {
+          const sp = Number(botInfo.selling_price || 0);
+          const cp = Number(botInfo.cost_price || 0);
+          const stk = botInfo.stock;
+          if (sp > 0 && !seenPrices.has(sp)) {
+            priceOptions.push({
+              price: sp,
+              label: `Giá ${sp.toLocaleString('vi-VN')}đ (Nguồn: ${botName})`,
+              source: `Bot @${botName} báo giá bán ${sp.toLocaleString('vi-VN')}đ (Gốc: ${cp.toLocaleString('vi-VN')}đ)`,
+              stock: stk
+            });
+            seenPrices.add(sp);
+          }
+        }
+      }
+
+      // Quét các gói trùng / tương tự khác trong cùng danh mục
+      const allPlans = servicesData[catKey].plans || [];
+      const pCanon = (typeof getCanonicalKey === 'function') ? getCanonicalKey(p.name) : '';
+      const pCore = (p.name || '').toLowerCase().replace(/[\(\)\[\]\{\}💚⚡🔥⭐✨💥📦🛒👑💎✅❌\-\+\/]/g, ' ').trim();
+
+      allPlans.forEach((otherP, otherIdx) => {
+        if (otherIdx === idx) return;
+        const otherPrc = Number(otherP.price || 0);
+        const otherCanon = (typeof getCanonicalKey === 'function') ? getCanonicalKey(otherP.name) : '';
+        const isSimilar = (otherCanon && otherCanon === pCanon) || otherP.name.toLowerCase().includes(pCore) || p.name.toLowerCase().includes(otherP.name.toLowerCase().slice(0, 10));
+
+        if (isSimilar && otherPrc > 0 && !seenPrices.has(otherPrc)) {
+          priceOptions.push({
+            price: otherPrc,
+            label: `Giá ${otherPrc.toLocaleString('vi-VN')}đ (Từ gói biến thể: "${otherP.name}")`,
+            source: `Biến thể "${otherP.name}" (Kho: ${otherP.stock})`,
+            stock: otherP.stock,
+            siblingIdx: otherIdx
+          });
+          seenPrices.add(otherPrc);
+        }
+      });
+
+      // 2. Render giao diện các lựa chọn quyết định
+      let optionsHtml = '';
+      priceOptions.sort((a, b) => a.price - b.price).forEach((opt, oIdx) => {
+        const isCurrent = opt.price === curP;
+        optionsHtml += `
+          <div style="background:var(--table-header); border:2px solid ${isCurrent ? 'var(--primary)' : 'var(--border)'}; border-radius:10px; padding:14px; margin-bottom:12px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+            <div>
+              <div style="display:flex; align-items:center; gap:8px;">
+                <span style="font-size:18px; font-weight:800; color:var(--primary);">${Number(opt.price).toLocaleString('vi-VN')}đ</span>
+                ${isCurrent ? '<span class="badge badge-in" style="font-size:10.5px;">Đang lưu</span>' : ''}
+              </div>
+              <div style="font-size:12px; color:var(--text-muted); margin-top:4px;">
+                ${opt.source} • Tồn kho: <strong>${opt.stock === -1 ? 'Vô cực' : opt.stock}</strong>
+              </div>
+            </div>
+            <button class="btn btn-primary" style="font-weight:700; padding:7px 14px; font-size:12.5px;" onclick="applyConflictDecision('${catKey}', ${idx}, ${opt.price})">
+              👉 Quyết định chọn giá này xuất hiện trên Shop
+            </button>
+          </div>
+        `;
+      });
+
+      modalBody.innerHTML = `
+        <div style="background:rgba(239, 68, 68, 0.08); border:1px solid rgba(239, 68, 68, 0.2); border-radius:8px; padding:12px; margin-bottom:16px;">
+          <div style="font-size:13px; font-weight:700; color:var(--rose); display:flex; align-items:center; gap:6px;">
+            ⚠️ PHÁT HIỆN XUNG ĐỘT GIÁ / TRÙNG NGUỒN CUNG CẤP
+          </div>
+          <div style="font-size:12px; color:var(--text-muted); margin-top:4px;">
+            Hệ thống <strong>không tự ý chọn giá cao nữa</strong>. Bạn hãy bấm chọn mức giá bạn muốn để đưa sản phẩm này xuất hiện chính thức trên website!
+          </div>
+        </div>
+
+        <div style="margin-bottom:16px;">
+          <h4 style="font-size:13px; font-weight:700; color:var(--text); margin-bottom:10px;">📋 CÁC MỨC GIÁ BẠN CÓ THỂ CHỌN:</h4>
+          ${optionsHtml}
+        </div>
+
+        <!-- Ô TỰ ĐIỀN MỨC GIÁ TÙY Ý CỦA ADMIN -->
+        <div style="background:var(--input-bg); border:1px dashed var(--border); border-radius:10px; padding:14px;">
+          <label style="font-size:12.5px; font-weight:700; color:var(--text); display:block; margin-bottom:6px;">
+            ✏️ Hoặc tự quyết định một mức giá khác theo ý bạn:
+          </label>
+          <div style="display:flex; gap:8px;">
+            <input type="number" id="inpCustomConflictDecisionPrice" class="form-control" style="font-size:15px; font-weight:700; color:var(--primary);" value="${curP}" placeholder="Nhập giá VNĐ..." />
+            <button class="btn btn-purple" style="white-space:nowrap; font-weight:700; padding:6px 14px;" onclick="applyCustomConflictDecision('${catKey}', ${idx})">
+              💾 Áp dụng giá này & Bật hiện lên Shop
+            </button>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('conflictResolverModal').style.display = 'flex';
+    }
+
+    function closeConflictModal() {
+      const modal = document.getElementById('conflictResolverModal');
+      if (modal) modal.style.display = 'none';
+    }
+
+    async function applyConflictDecision(catKey, idx, chosenPrice) {
+      if (!catKey || !servicesData[catKey] || !servicesData[catKey].plans[idx]) return;
+      const p = servicesData[catKey].plans[idx];
+
+      p.price = Number(chosenPrice);
+      p.hidden = false;        // BẬT HIỂN THỊ LÊN SHOP
+      p.needs_review = false;  // ĐÃ DUYỆT XONG
+      if (p.conflicts) delete p.conflicts;
+
+      closeConflictModal();
+      renderTable();
+      updateStats();
+      if (typeof runPriceAudit === 'function') runPriceAudit();
+
+      showToast(`🎉 Đã quyết định chọn giá ${Number(chosenPrice).toLocaleString('vi-VN')}đ và đưa [${p.name}] lên Shop!`, 'success');
+      await saveDirectToGitHub(false, `Admin quyết định giá xuất hiện trên Shop: ${p.name} (${Number(chosenPrice).toLocaleString('vi-VN')}đ)`);
+    }
+
+    async function applyCustomConflictDecision(catKey, idx) {
+      const inp = document.getElementById('inpCustomConflictDecisionPrice');
+      const val = Number(inp?.value || 0);
+      if (val <= 0) {
+        showToast('⚠️ Vui lòng nhập mức giá bán hợp lệ (> 0đ)!', 'warning');
+        return;
+      }
+      await applyConflictDecision(catKey, idx, val);
     }
 
 </script>
