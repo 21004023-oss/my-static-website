@@ -1013,10 +1013,10 @@
             "stock": 10,
             "cost_price": 95000,
             "selling_price": 105000,
-            "updated": "00:53 20/10/2026"
+            "updated": "17:02 20/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 95000,
         "needs_review": true
       },
@@ -6948,6 +6948,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792490571428",
+      "time": "17:02 - 20/10/2026",
+      "timestamp": 1792490571428,
+      "name": "CHAT GPT PLUS K12 2 NĂM BẢO HÀNH 12H",
+      "bot": "ntnshopre_bot",
+      "shopStock": 10,
+      "addedQty": 10,
+      "price": 105000,
+      "stockAfter": 10,
+      "catKey": "chatgpt",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🤖CHATGPTPLUSK122NĂMBẢOHÀNH12H➕Thêm:10📦Tồnkhohiệntại:10💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1792490558482",
       "time": "17:02 - 20/10/2026",
       "timestamp": 1792490558482,
@@ -8332,20 +8346,6 @@
       "catKey": "gmail",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:48📦Tồnkhohiệntại:31💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792425590056",
-      "time": "22:59 - 19/10/2026",
-      "timestamp": 1792425590056,
-      "name": "Gmail Random 200X~2023 Có 2FA",
-      "bot": "sieuthistore_bot",
-      "shopStock": 31,
-      "addedQty": 48,
-      "price": 55000,
-      "stockAfter": 31,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:48📦Tồnkhohiệntại:31💰Giá:45.000đ"
     }
   ]
 }
