@@ -406,11 +406,12 @@
             "stock": 85,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "16:51 20/10/2026"
+            "updated": "17:03 20/10/2026"
           }
         },
         "cost_price": 230000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791898409445",
@@ -7007,6 +7008,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792490633917",
+      "time": "17:03 - 20/10/2026",
+      "timestamp": 1792490633917,
+      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 85,
+      "addedQty": 0,
+      "price": 260000,
+      "stockAfter": 85,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF💰Giá:230k📦Tồnkho:85tàikhoản📊Đãbán:1.159tàikhoản"
+    },
+    {
       "id": "hist-1792490625291",
       "time": "17:03 - 20/10/2026",
       "timestamp": 1792490625291,
@@ -8391,20 +8406,6 @@
       "catKey": "higgsfield",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬HiggsfieldStarter200credit1thángBH3ngày➕Thêm:10📦Tồnkhohiệntại:15💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1792431433834",
-      "time": "00:37 - 20/10/2026",
-      "timestamp": 1792431433834,
-      "name": "Meitu VIP 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 0,
-      "addedQty": 6,
-      "price": 40000,
-      "stockAfter": 0,
-      "catKey": "meitu-wink",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✨MeituVIP7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:0💰Giá:30.000đ"
     }
   ]
 }
