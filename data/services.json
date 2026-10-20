@@ -5998,8 +5998,8 @@
         "id": "p-1792221059713",
         "name": "Higgsfield 80 credit 1 tháng BH 5 ngày",
         "price": 190000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "1 Tháng",
         "detail": "Higgsfield standard\n• Mô hình SOUL V2 đỉnh cao: Khóa chặt 100% nhất quán nhân vật và kiểm soát chuyển động vật lý, xóa bỏ hoàn toàn lỗi méo ảnh hay nhấp nháy.\n• Hệ sinh thái AI \"khủng\": Kết hợp linh hoạt hơn 15 mô hình hàng đầu thế giới (Sora, Kling 3.0, Veo) thông qua trợ lý siêu trí tuệ GPT-6 Astra.\n• Trải nghiệm Cinematic chuyên nghiệp: Xuất video mượt mà chuẩn điện ảnh qua giao diện Web hoặc API, tối ưu hóa chi phí sản xuất content.",
         "sources": {
@@ -6008,10 +6008,17 @@
             "cost_price": 170000,
             "updated": "14:10 17/10/2026",
             "selling_price": 190000
+          },
+          "taphoathomap_bot": {
+            "stock": 8,
+            "cost_price": 95000,
+            "selling_price": 105000,
+            "updated": "15:42 20/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 170000
+        "cost_price": 95000,
+        "needs_review": true
       },
       {
         "id": "p-1792411671644",
@@ -6797,6 +6804,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792485746222",
+      "time": "15:42 - 20/10/2026",
+      "timestamp": 1792485746222,
+      "name": "Higgsfield 80 credit 1 tháng BH 5 ngày",
+      "bot": "taphoathomap_bot",
+      "shopStock": 8,
+      "addedQty": 0,
+      "price": 105000,
+      "stockAfter": 15,
+      "catKey": "higgsfield",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬Higgsfield80credit1thángBH5ngày💰Giá:95k📦Tồnkho:8tàikhoản📊Đãbán:15tàikhoản"
+    },
     {
       "id": "hist-1792485228569",
       "time": "15:33 - 20/10/2026",
@@ -8182,20 +8203,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTK12Education2nămKBH➕Thêm:10📦Tồnkhohiệntại:10💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1792432428903",
-      "time": "00:53 - 20/10/2026",
-      "timestamp": 1792432428903,
-      "name": "CHAT GPT PLUS K12 2 NĂM BẢO HÀNH 12H",
-      "bot": "ntnshopre_bot",
-      "shopStock": 10,
-      "addedQty": 10,
-      "price": 105000,
-      "stockAfter": 10,
-      "catKey": "chatgpt",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🤖CHATGPTPLUSK122NĂMBẢOHÀNH12H➕Thêm:10📦Tồnkhohiệntại:10💰Giá:95.000đ"
     }
   ]
 }
