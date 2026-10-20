@@ -2159,7 +2159,10 @@
               <span>${p.name}</span>
               ${catBadgeHtml}
               ${isHidden ? '<span class="badge badge-warning" style="font-size:10.5px;">🙈 Tạm ẩn</span>' : ''}
-              ${p.needs_review ? '<span class="badge badge-out" style="font-size:10.5px;">🚨 Cần duyệt giá</span>' : ''}
+              ${p.needs_review ? `
+                <span class="badge badge-out" style="font-size:10.5px;">🚨 Cần duyệt giá</span>
+                <button class="btn btn-success" style="padding:1px 7px; font-size:10.5px; border-radius:4px;" onclick="approvePlanPrice(${idx}, '${catKey}')" title="Phê duyệt giá gói này và lập tức cho hiển thị lên Website">✓ Duyệt giá</button>
+              ` : ''}
             </div>
             <div style="font-size:11.5px; color:var(--text-muted); margin-top:3px; max-width:380px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
               ${p.detail || 'Chưa có mô tả chi tiết'}
@@ -2250,10 +2253,23 @@
     }
 
     // TỰ ĐỘNG LƯU GITHUB KHI ẨN / HIỆN SẢN PHẨM
+    
+    async function approvePlanPrice(idx, catKey = currentCat) {
+      if (!catKey || !servicesData[catKey] || !servicesData[catKey].plans[idx]) return;
+      const p = servicesData[catKey].plans[idx];
+      p.needs_review = false;
+      p.hidden = false;
+      renderTable();
+      updateStats();
+      showToast(`Đã duyệt giá và kích hoạt hiển thị gói [${p.name}] lên Web!`, 'success');
+      await saveDirectToGitHub(true, `Admin phê duyệt giá & hiển thị gói [${p.name}]`);
+    }
+
     async function togglePlanVisibility(idx, catKey = currentCat) {
       if (!catKey || !servicesData[catKey] || !servicesData[catKey].plans[idx]) return;
       const p = servicesData[catKey].plans[idx];
       p.hidden = !p.hidden;
+      if (!p.hidden) p.needs_review = false;
       renderTable();
       updateStats();
 
