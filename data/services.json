@@ -5133,7 +5133,7 @@
         "id": "p-1792307363682",
         "name": "Express VPN 3 Ngày BHF",
         "price": 35000,
-        "cost_price": 25000,
+        "cost_price": 15000,
         "stock": 21,
         "stock_text": "Còn 21",
         "duration": "1 Tháng",
@@ -5149,7 +5149,7 @@
             "stock": 7,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "15:18 20/10/2026"
+            "updated": "15:33 20/10/2026"
           },
           "ntnshopre_bot": {
             "stock": 7,
@@ -6798,6 +6798,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792485228569",
+      "time": "15:33 - 20/10/2026",
+      "timestamp": 1792485228569,
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 7,
+      "addedQty": 0,
+      "price": 25000,
+      "stockAfter": 21,
+      "catKey": "vpn",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🚚ExpressVPN3NgàyBHF💰Giá:15k📦Tồnkho:7tàikhoản📊Đãbán:770tàikhoản💎Môtả:Địnhdạng:ema"
+    },
+    {
       "id": "hist-1792485223863",
       "time": "15:33 - 20/10/2026",
       "timestamp": 1792485223863,
@@ -8182,20 +8196,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🤖CHATGPTPLUSK122NĂMBẢOHÀNH12H➕Thêm:10📦Tồnkhohiệntại:10💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1792431444933",
-      "time": "00:37 - 20/10/2026",
-      "timestamp": 1792431444933,
-      "name": "Higgsfield Starter 200 credit 1 tháng BH 3 ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 15,
-      "addedQty": 10,
-      "price": 170000,
-      "stockAfter": 15,
-      "catKey": "higgsfield",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬HiggsfieldStarter200credit1thángBH3ngày➕Thêm:10📦Tồnkhohiệntại:15💰Giá:150.000đ"
     }
   ]
 }
