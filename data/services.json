@@ -205,7 +205,7 @@
         "stock_text": "Còn 21",
         "duration": "1 Tháng",
         "detail": "- Hàng Gpay 100% Gmail, thanh toán IP Việt, mỗi acc 1 thẻ riêng không trùng IP, siêu bền.\n- Định dạng: Mail|Pass|2FA (lấy mã tại https://2fa.live/).\n- Thuê số ver Codex tại https://viotp.com/ (chọn Chatgpt + đầu số Vina).\n- Bảo hành thông tin đăng nhập trong 1h.\n- Hoàn tiền theo số ngày chưa dùng nếu phát sinh lỗi không khắc phục được: (tổng tiền / 20) * (20 - ngày đã dùng).",
-        "hidden": false,
+        "hidden": true,
         "sources": {
           "sieuthistore_bot": {
             "stock": 7,
@@ -219,7 +219,8 @@
             "updated": "19:40 17/10/2026",
             "selling_price": 269999
           }
-        }
+        },
+        "needs_review": true
       },
       {
         "id": "gpt-plus-24h-unified",
@@ -230,7 +231,7 @@
         "stock_text": "Còn 265",
         "duration": "30 Ngày",
         "detail": "- Tài khoản ChatGPT Giáo Viên (K12) cấp BH 24h.\n- Format: TK | MK | 2FA.\n- Quota Codex của K12 dùng ngon ngang Plus, thích hợp bào Codex giá rẻ.\n- Family đã live gần tháng, độ bền rất cao.\n- Không bảo hành ver số Codex.\n- Link HDSD: https://docs.google.com/document/d/1XcODdzlQJyeJbzXt61mEMYbkDv_xctY9d52-KihtH5I\n- Video hướng dẫn: https://youtu.be/pm_YgRIjUTg.",
-        "hidden": false,
+        "hidden": true,
         "sources": {
           "taphoathomap_bot": {
             "stock": 23,
@@ -244,7 +245,8 @@
             "selling_price": 240000,
             "updated": "03:22 20/10/2026"
           }
-        }
+        },
+        "needs_review": true
       },
       {
         "id": "gpt-go-3d",
@@ -430,7 +432,8 @@
           }
         },
         "cost_price": 360000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791898413975",
@@ -449,7 +452,8 @@
           }
         },
         "cost_price": 120000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791898436678",
@@ -496,7 +500,8 @@
           }
         },
         "cost_price": 300000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791918068696",
@@ -515,7 +520,8 @@
           }
         },
         "cost_price": 20000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791922487996",
@@ -540,7 +546,8 @@
           }
         },
         "cost_price": 280000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791934033720",
@@ -559,7 +566,8 @@
           }
         },
         "cost_price": 75000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791950549274",
@@ -578,7 +586,8 @@
           }
         },
         "cost_price": 320000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791951111143",
@@ -625,7 +634,8 @@
           }
         },
         "cost_price": 75000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791960800680",
@@ -662,7 +672,8 @@
           }
         },
         "cost_price": 1800000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791967221993",
@@ -1196,7 +1207,7 @@
             "updated": "05:09 20/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       },
       {
@@ -1235,7 +1246,7 @@
             "updated": "10:20 20/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       },
       {
@@ -1815,7 +1826,7 @@
             "updated": "21:07 18/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       },
       {
@@ -1965,7 +1976,8 @@
           }
         },
         "cost_price": 38000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "capcut-12m",
@@ -2015,7 +2027,8 @@
             "updated": "05:29 19/10/2026"
           }
         },
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791898468912",
@@ -2058,7 +2071,8 @@
           }
         },
         "cost_price": 155000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791921267652",
@@ -2201,7 +2215,7 @@
             "selling_price": 320000
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 290000,
         "needs_review": true
       },
@@ -2221,7 +2235,7 @@
             "updated": "23:48 19/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 340000,
         "needs_review": true
       },
@@ -2261,7 +2275,7 @@
             "updated": "09:25 18/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 130000,
         "needs_review": true
       }
@@ -2537,7 +2551,8 @@
           }
         },
         "cost_price": 100000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791993142500",
@@ -2584,7 +2599,8 @@
           }
         },
         "cost_price": 380000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "gpt-json-free",
@@ -2780,7 +2796,8 @@
             "updated": "17:09 18/10/2026"
           }
         },
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "api-cursor-6500cre",
@@ -2812,7 +2829,8 @@
             "updated": "19:49 19/10/2026"
           }
         },
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791936211706",
@@ -2843,7 +2861,8 @@
           }
         },
         "cost_price": 204000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1792108522126",
@@ -3015,7 +3034,7 @@
             "updated": "11:46 20/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       }
     ],
@@ -3111,7 +3130,7 @@
             "updated": "01:24 20/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 180000,
         "needs_review": true
       },
@@ -3157,7 +3176,7 @@
             "updated": "09:25 18/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 180000,
         "needs_review": true
       },
@@ -3241,7 +3260,7 @@
             "updated": "23:25 19/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       }
     ],
@@ -3393,7 +3412,8 @@
             "updated": "13:35 18/10/2026"
           }
         },
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791865366115",
@@ -3428,7 +3448,8 @@
           }
         },
         "needs_review": true,
-        "cost_price": 140000
+        "cost_price": 140000,
+        "hidden": true
       },
       {
         "id": "p-1791927829837",
@@ -3453,7 +3474,8 @@
             "updated": "12:42 18/10/2026"
           }
         },
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1792157497288",
@@ -3550,7 +3572,7 @@
             "updated": "12:32 18/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       }
     ],
@@ -3588,7 +3610,7 @@
         "stock_text": "Còn 576",
         "duration": "Ngẫu nhiên",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành",
-        "hidden": false,
+        "hidden": true,
         "sources": {
           "sieuthistore_bot": {
             "stock": 17,
@@ -3608,7 +3630,8 @@
             "selling_price": 50000,
             "updated": "23:58 18/10/2026"
           }
-        }
+        },
+        "needs_review": true
       },
       {
         "id": "p-gmail-2010-2016-unified",
@@ -3619,7 +3642,7 @@
         "stock_text": "Còn 98",
         "duration": "Ngẫu nhiên",
         "detail": "Định dạng username|pass|mkp|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
-        "hidden": false,
+        "hidden": true,
         "sources": {
           "sieuthistore_bot": {
             "stock": 0,
@@ -3633,7 +3656,8 @@
             "selling_price": 46000,
             "updated": "03:21 19/10/2026"
           }
-        }
+        },
+        "needs_review": true
       },
       {
         "id": "gmail-new-ytb",
@@ -3694,7 +3718,8 @@
             "updated": "20:58 19/10/2026"
           }
         },
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791898506865",
@@ -3742,7 +3767,8 @@
         "conflict_group": "gmail_new_login_all",
         "price_verified": true,
         "cost_price": 25000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-gmail-new-35k",
@@ -3796,7 +3822,8 @@
           }
         },
         "needs_review": true,
-        "cost_price": 45000
+        "cost_price": 45000,
+        "hidden": true
       },
       {
         "id": "p-1792034167129",
@@ -3835,7 +3862,7 @@
             "updated": "21:57 19/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "price_verified": true,
         "cost_price": 40000,
         "needs_review": true
@@ -3868,7 +3895,7 @@
             "updated": "15:48 19/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 23000,
         "needs_review": true
       },
@@ -3934,7 +3961,7 @@
             "updated": "22:59 19/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 35000,
         "needs_review": true
       },
@@ -4013,7 +4040,7 @@
             "updated": "15:11 19/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 45000,
         "needs_review": true
       },
@@ -4039,7 +4066,7 @@
             "updated": "16:20 19/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 35000,
         "needs_review": true
       },
@@ -4105,7 +4132,7 @@
             "updated": "17:09 18/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 25000,
         "needs_review": true
       },
@@ -4177,7 +4204,7 @@
             "updated": "13:45 18/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       },
       {
@@ -4203,7 +4230,7 @@
             "updated": "06:35 20/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       },
       {
@@ -4229,7 +4256,7 @@
             "updated": "17:07 19/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       },
       {
@@ -4255,7 +4282,7 @@
             "updated": "20:42 19/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       },
       {
@@ -4281,7 +4308,7 @@
             "updated": "09:41 20/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       },
       {
@@ -4395,7 +4422,8 @@
           }
         },
         "cost_price": 300000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1792268569370",
@@ -4432,7 +4460,7 @@
             "updated": "09:26 18/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 50000,
         "needs_review": true
       },
@@ -4605,7 +4633,7 @@
             "updated": "13:35 18/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 47999,
         "needs_review": true
       },
@@ -4631,7 +4659,7 @@
             "updated": "19:39 19/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 40000,
         "needs_review": true
       },
@@ -4776,7 +4804,8 @@
           }
         },
         "cost_price": 65000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791969759029",
@@ -4795,7 +4824,8 @@
           }
         },
         "cost_price": 75000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791969764176",
@@ -4814,7 +4844,8 @@
           }
         },
         "cost_price": 55000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1792006811047",
@@ -4839,7 +4870,8 @@
           }
         },
         "cost_price": 15000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1792021056520",
@@ -4913,7 +4945,7 @@
             "updated": "04:25 20/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 180000,
         "needs_review": true
       },
@@ -4939,7 +4971,7 @@
             "updated": "04:25 20/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 110000,
         "needs_review": true
       }
@@ -5208,7 +5240,7 @@
             "updated": "01:38 19/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cost_price": 45000,
         "needs_review": true
       },
@@ -5235,7 +5267,7 @@
             "updated": "10:56 18/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       },
       {
@@ -5255,7 +5287,7 @@
             "updated": "13:46 18/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       },
       {
@@ -5326,7 +5358,7 @@
             "updated": "14:17 19/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       },
       {
@@ -5431,7 +5463,7 @@
             "selling_price": 80000
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true,
         "cost_price": 90000
       },
@@ -5543,7 +5575,8 @@
             "updated": "02:20 20/10/2026"
           }
         },
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791917317024",
@@ -5567,7 +5600,9 @@
             "selling_price": 45000
           }
         },
-        "cost_price": 35000
+        "cost_price": 35000,
+        "hidden": true,
+        "needs_review": true
       },
       {
         "id": "p-1791925962704",
@@ -5598,7 +5633,8 @@
           }
         },
         "cost_price": 60000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791925999209",
@@ -5633,7 +5669,8 @@
           }
         },
         "cost_price": 75000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791867584592",
@@ -5789,7 +5826,7 @@
             "updated": "10:51 19/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       },
       {
@@ -5815,7 +5852,7 @@
             "updated": "11:59 20/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       }
     ]
@@ -5851,7 +5888,8 @@
             "updated": "11:47 20/10/2026"
           }
         },
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1792097672589",
@@ -5894,7 +5932,7 @@
             "selling_price": 179000
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true,
         "cost_price": 180000
       }
@@ -5940,7 +5978,8 @@
             "updated": "05:38 20/10/2026"
           }
         },
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791913398101",
@@ -5959,7 +5998,8 @@
             "updated": "11:46 20/10/2026"
           }
         },
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791913403407",
@@ -5978,7 +6018,8 @@
             "updated": "05:38 20/10/2026"
           }
         },
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791954027769",
@@ -6200,7 +6241,7 @@
             "updated": "00:37 20/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       },
       {
@@ -6220,7 +6261,7 @@
             "updated": "13:13 20/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       },
       {
@@ -6240,7 +6281,7 @@
             "updated": "13:13 20/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       },
       {
@@ -6286,7 +6327,8 @@
             "updated": "11:47 20/10/2026"
           }
         },
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1792198254519",
@@ -6614,7 +6656,7 @@
             "selling_price": 70000
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true,
         "cost_price": 60000
       },
@@ -6925,7 +6967,7 @@
             "updated": "04:30 19/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       },
       {
