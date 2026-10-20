@@ -997,16 +997,16 @@
         "id": "p-1792159821315",
         "name": "ChatGPT K12 Education 2 năm KBH",
         "price": 110000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "2 Năm",
         "detail": "🔐 Tài khoản riêng tư – Có thể đổi 2FA để bảo mật tài khoản\n📂 Định dạng: TK | Pass | 2FA\n✅Lấy code 2fa ở 2fa.live\n✅ Bảo hành: Tài khoản die hoặc mất gói\n✅ Nguyên zin codex, chưa sử dụng\n⚠️ Khách mua về tự Ver codex, Chức năng tạo ảnh hạn chế\n⚠️ Lưu ý:\n• Sau khi mua, vui lòng đọc kỹ và làm theo hướng dẫn trong file để kích hoạt K12 : https://docs.google.com/document/d/1XcODdzlQJyeJbzXt61mEMYbkDv_xctY9d52-KihtH5I/edit?usp=sharing\n✅ Sử dụng cả hai mô hình GPT-6 Astra và GPT-5.6 Sol",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 10,
+            "stock": 18,
             "cost_price": 100000,
             "selling_price": 110000,
-            "updated": "17:03 20/10/2026"
+            "updated": "04:44 21/10/2026"
           }
         },
         "hidden": true,
@@ -7132,6 +7132,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792532690811",
+      "time": "04:44 - 21/10/2026",
+      "timestamp": 1792532690811,
+      "name": "ChatGPT K12 Education 2 năm KBH",
+      "bot": "sieuthistore_bot",
+      "shopStock": 18,
+      "addedQty": 20,
+      "price": 110000,
+      "stockAfter": 18,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTK12Education2nămKBH➕Thêm:20📦Tồnkhohiệntại:18💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1792530386310",
       "time": "04:06 - 21/10/2026",
       "timestamp": 1792530386310,
@@ -8516,20 +8530,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:28📦Tồnkhohiệntại:44💰Giá:190.000đ"
-    },
-    {
-      "id": "hist-1792441346162",
-      "time": "03:22 - 20/10/2026",
-      "timestamp": 1792441346162,
-      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 44,
-      "addedQty": 28,
-      "price": 240000,
-      "stockAfter": 62,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:28📦Tồnkhohiệntại:44💰Giá:210.000đ"
     }
   ]
 }
