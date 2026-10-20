@@ -6140,12 +6140,21 @@
         "id": "muse-ai-1b",
         "name": "Muse AI 1B Token 1 Tháng (BH 24H)",
         "price": 60000,
-        "stock": 62,
-        "stock_text": "Còn 62",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "source": "Email",
-        "detail": "- Định dạng: Email.\n- Đọc OTP tại https://mail-loli.pages.dev/ nha.\n- Bảo hành 24H.",
-        "cost_price": 50000
+        "detail": "Định dạng : MAIL - LINK OTP",
+        "cost_price": 20000,
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 20,
+            "cost_price": 20000,
+            "selling_price": 30000,
+            "updated": "11:44 20/10/2026"
+          }
+        },
+        "needs_review": true
       },
       {
         "id": "p-1792198254519",
@@ -6867,6 +6876,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792471483571",
+      "time": "11:44 - 20/10/2026",
+      "timestamp": 1792471483571,
+      "name": "Muse AI 1B Token 1 Tháng - BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 20,
+      "addedQty": 20,
+      "price": 30000,
+      "stockAfter": 20,
+      "catKey": "muse-ai",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐MuseAI1BToken1Tháng-BH24H➕Thêm:20📦Tồnkhohiệntại:20💰Giá:20.000đ"
+    },
     {
       "id": "hist-1792471275233",
       "time": "11:41 - 20/10/2026",
@@ -8252,20 +8275,6 @@
       "catKey": "netflix",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐RedeemAppleMusicIndividual5thángBH1ngày➕Thêm:64📦Tồnkhohiệntại:67💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792412976340",
-      "time": "19:29 - 19/10/2026",
-      "timestamp": 1792412976340,
-      "name": "ChatGPT Plus GGPay 30D BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 5,
-      "addedQty": 8,
-      "price": 210000,
-      "stockAfter": 10,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:8📦Tồnkhohiệntại:5💰Giá:190.000đ"
     }
   ]
 }
