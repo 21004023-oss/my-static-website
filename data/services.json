@@ -6145,19 +6145,20 @@
         "name": "Higgsfield Genjutsu 1 tháng BH 1 Ngày",
         "price": 75000,
         "cost_price": 65000,
-        "stock": 27,
-        "stock_text": "Còn 27",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Tháng",
         "detail": "💎 Mô tả:\n🎬 HIGGSFIELD – GENJUTSU\n✅ Gói Free Tạo 1 video bằng Motion,Swap Genjutsu\n🎥 Chất lượng: 720p | 30 giây/video\n⏳ Thời gian kết xuất: Khoảng 20 phút/video hoặc lâu hơn tùy chọn khung giờ và trạng thái máy chủ Higg.\nMua về nên Gen video luôn ko để lâu, không tắt đi bật lại nhiều lần khi đang Gen dễ bị mất slot\n🔐 Tài khoản dạng định dạng:\nTK Higgsfield | MK Higgsfield | Liên kết OTP\n✅ Video tạo web: https://higgsfield.ai/ai/video?model=genjutsu\n✅ HD login : điền tài khoản mật khẩu, nếu yêu cầu OTP thì click vào link OTP\nhttps://dongvanfb.net/read_mail_box/\n⚠️ Lưu ý : Vui lòng chờ đợi trong quá trình render video.\nNếu lâu chưa Gen có thể load lại trang",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 27,
+            "stock": 30,
             "cost_price": 65000,
             "selling_price": 75000,
-            "updated": "01:52 20/10/2026"
+            "updated": "13:13 20/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       },
       {
         "id": "p-1792435951220",
@@ -6924,6 +6925,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792476816246",
+      "time": "13:13 - 20/10/2026",
+      "timestamp": 1792476816246,
+      "name": "Higgsfield Genjutsu 1 tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 30,
+      "addedQty": 20,
+      "price": 75000,
+      "stockAfter": 30,
+      "catKey": "higgsfield",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🎬HiggsfieldGenjutsu1thángBH1Ngày➕Thêm:20📦Tồnkhohiệntại:30💰Giá:65.000đ"
+    },
     {
       "id": "hist-1792475744433",
       "time": "12:55 - 20/10/2026",
@@ -8309,20 +8324,6 @@
       "catKey": "gmail",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "📧GMAILTRIALRANDOMDATE202X➕Thêm:2📦Tồnkhohiệntại:172💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792421856516",
-      "time": "21:57 - 19/10/2026",
-      "timestamp": 1792421856516,
-      "name": "Gmail Random ip 2020-2023 trial youtube",
-      "bot": "taphoathomap_bot",
-      "shopStock": 172,
-      "addedQty": 0,
-      "price": 50000,
-      "stockAfter": 344,
-      "catKey": "youtube",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "📧GmailRandomip2020-2023trialyoutube💰Giá:40k📦Tồnkho:172tàikhoản📊Đãbán:11.297tàikh"
     }
   ]
 }
