@@ -3027,10 +3027,11 @@
             "stock": 2,
             "cost_price": 180000,
             "selling_price": 200000,
-            "updated": "08:42 20/10/2026"
+            "updated": "11:46 20/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=x.ai&sz=64"
@@ -6878,6 +6879,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792471610552",
+      "time": "11:46 - 20/10/2026",
+      "timestamp": 1792471610552,
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "sieuthistore_bot",
+      "shopStock": 2,
+      "addedQty": 0,
+      "price": 200000,
+      "stockAfter": 2,
+      "catKey": "grok",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⚡GrokPlus30ngàyKBH💰Giá:180k📦Tồnkho:2tàikhoản📊Đãbán:30tàikhoản💎Môtả:Mail|PassĐược"
+    },
+    {
       "id": "hist-1792471604200",
       "time": "11:46 - 20/10/2026",
       "timestamp": 1792471604200,
@@ -8262,20 +8277,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTGo1ThángBH3Ngày➕Thêm:15📦Tồnkhohiệntại:4💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1792417345531",
-      "time": "20:42 - 19/10/2026",
-      "timestamp": 1792417345531,
-      "name": "Gmail Random ip 7-10 ngày 2FA",
-      "bot": "taphoathomap_bot",
-      "shopStock": 14,
-      "addedQty": 0,
-      "price": 35000,
-      "stockAfter": 27,
-      "catKey": "gmail",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "📧GmailRandomip7-10ngày2FA💰Giá:25k📦Tồnkho:14tàikhoản📊Đãbán:3.511tàikhoản💎Môtả:-Đị"
     }
   ]
 }
