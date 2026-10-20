@@ -4757,9 +4757,9 @@
         "id": "p-1792421622161",
         "name": "Gmail random new",
         "price": 35000,
-        "cost_price": 25000,
-        "stock": 40,
-        "stock_text": "Còn 40",
+        "cost_price": 22000,
+        "stock": 22,
+        "stock_text": "Còn 22",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành",
         "sources": {
@@ -4770,10 +4770,10 @@
             "updated": "09:41 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 29,
+            "stock": 11,
             "cost_price": 22000,
             "selling_price": 32000,
-            "updated": "21:53 19/10/2026"
+            "updated": "09:41 20/10/2026"
           }
         },
         "hidden": false,
@@ -7331,6 +7331,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792464093697",
+      "time": "09:41 - 20/10/2026",
+      "timestamp": 1792464093697,
+      "name": "Gmail random new",
+      "bot": "taphoathomap_bot",
+      "shopStock": 11,
+      "addedQty": 1,
+      "price": 32000,
+      "stockAfter": 22,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧Gmailrandomnew➕Thêm:1📦Tồnkhohiệntại:11💰Giá:22.000đ"
+    },
+    {
       "id": "hist-1792464088173",
       "time": "09:41 - 20/10/2026",
       "timestamp": 1792464088173,
@@ -8715,20 +8729,6 @@
       "catKey": "meitu-wink",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "✨MeituVip+7NgàyBHF➕Thêm:11📦Tồnkhohiệntại:10💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792404471223",
-      "time": "17:07 - 19/10/2026",
-      "timestamp": 1792404471223,
-      "name": "Gmail (New) 2FA-Login All",
-      "bot": "taphoathomap_bot",
-      "shopStock": 0,
-      "addedQty": 4,
-      "price": 36000,
-      "stockAfter": 0,
-      "catKey": "gmail",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "📧Gmail(New)2FA-LoginAll➕Thêm:4📦Tồnkhohiệntại:0💰Giá:26.000đ"
     }
   ]
 }
