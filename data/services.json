@@ -1238,44 +1238,6 @@
         "needs_review": true
       },
       {
-        "id": "gpt-free-gmail-12k-unified",
-        "name": "ChatGPT Free (Hàng Gmail) - KBH",
-        "price": 12000,
-        "cost_price": 2000,
-        "stock": 1355,
-        "stock_text": "Còn 1355",
-        "duration": "Vĩnh viễn",
-        "detail": "🔐 Acc riêng tư , đổi pass thỏa mái\n📂 Format: Email | Pass | 2FA\n⚠️ Hỗ trợ vấn đề trong 1H đầu. Sau 1H shop không hỗ trợ",
-        "hidden": false,
-        "sources": {
-          "taphoathomap_bot": {
-            "stock": 765,
-            "cost_price": 2000,
-            "selling_price": 12000,
-            "updated": "20:45 18/10/2026"
-          }
-        }
-      },
-      {
-        "id": "gpt-free-gmail-20k-unified",
-        "name": "ChatGPT Free Gmail KBH",
-        "price": 20000,
-        "cost_price": 10000,
-        "stock": 247,
-        "stock_text": "Còn 247",
-        "duration": "Vĩnh viễn",
-        "detail": "🔐 Acc riêng tư , đổi pass thỏa mái\n📂 Format: Email | Pass | 2FA\n⚠️ Hỗ trợ vấn đề trong 1H đầu. Sau 1H shop không hỗ trợ",
-        "hidden": false,
-        "sources": {
-          "sieuthistore_bot": {
-            "stock": 180,
-            "cost_price": 10000,
-            "selling_price": 20000,
-            "updated": "09:25 18/10/2026"
-          }
-        }
-      },
-      {
         "id": "p-1792475712974",
         "name": "ChatGPT Plus 4 tháng BH 24H",
         "price": 500000,
@@ -4319,6 +4281,44 @@
         },
         "hidden": false,
         "needs_review": true
+      },
+      {
+        "id": "gpt-free-gmail-12k-unified",
+        "name": "ChatGPT Free (Hàng Gmail) - KBH",
+        "price": 12000,
+        "cost_price": 2000,
+        "stock": 1355,
+        "stock_text": "Còn 1355",
+        "duration": "Vĩnh viễn",
+        "detail": "🔐 Acc riêng tư , đổi pass thỏa mái\n📂 Format: Email | Pass | 2FA\n⚠️ Hỗ trợ vấn đề trong 1H đầu. Sau 1H shop không hỗ trợ",
+        "hidden": false,
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 765,
+            "cost_price": 2000,
+            "selling_price": 12000,
+            "updated": "20:45 18/10/2026"
+          }
+        }
+      },
+      {
+        "id": "gpt-free-gmail-20k-unified",
+        "name": "ChatGPT Free Gmail KBH",
+        "price": 20000,
+        "cost_price": 10000,
+        "stock": 247,
+        "stock_text": "Còn 247",
+        "duration": "Vĩnh viễn",
+        "detail": "🔐 Acc riêng tư , đổi pass thỏa mái\n📂 Format: Email | Pass | 2FA\n⚠️ Hỗ trợ vấn đề trong 1H đầu. Sau 1H shop không hỗ trợ",
+        "hidden": false,
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 180,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "09:25 18/10/2026"
+          }
+        }
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
