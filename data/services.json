@@ -6633,16 +6633,16 @@
         "id": "p-1792198259840",
         "name": "Muse Ai  1B Token KBH",
         "price": 40000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Tháng",
         "detail": "Muse Ai 1 Token KBH\nMail | link nhận code",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 8,
+            "stock": 30,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "18:34 19/10/2026"
+            "updated": "08:48 20/10/2026"
           }
         },
         "hidden": true,
@@ -7330,6 +7330,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792460914787",
+      "time": "08:48 - 20/10/2026",
+      "timestamp": 1792460914787,
+      "name": "Muse Ai  1B Token KBH",
+      "bot": "taphoathomap_bot",
+      "shopStock": 30,
+      "addedQty": 29,
+      "price": 40000,
+      "stockAfter": 30,
+      "catKey": "muse-ai",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:29📦Tồnkhohiệntại:30💰Giá:30.000đ"
+    },
     {
       "id": "hist-1792460560425",
       "time": "08:42 - 20/10/2026",
@@ -8715,20 +8729,6 @@
       "catKey": "gmail",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧Gmail(New)2FA-LoginAll➕Thêm:4📦Tồnkhohiệntại:0💰Giá:36.000đ"
-    },
-    {
-      "id": "hist-1792402833725",
-      "time": "16:40 - 19/10/2026",
-      "timestamp": 1792402833725,
-      "name": "Spotify Premium 1-2 tháng BH 1 Tháng",
-      "bot": "sieuthistore_bot",
-      "shopStock": 11,
-      "addedQty": 3,
-      "price": 70000,
-      "stockAfter": 11,
-      "catKey": "spotify",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐SpotifyPremium1-2thángBH1Tháng➕Thêm:3📦Tồnkhohiệntại:11💰Giá:60.000đ"
     }
   ]
 }
