@@ -2707,7 +2707,7 @@
             "stock": 38,
             "cost_price": 10000,
             "selling_price": 20000,
-            "updated": "11:46 20/10/2026"
+            "updated": "17:02 20/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 38,
@@ -2716,7 +2716,7 @@
             "updated": "03:30 20/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": true
       }
     ],
@@ -6948,6 +6948,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792490558482",
+      "time": "17:02 - 20/10/2026",
+      "timestamp": 1792490558482,
+      "name": "SMS nhận OTP xác minh Codex 24h - KBH",
+      "bot": "piggyai99_bot",
+      "shopStock": 38,
+      "addedQty": 30,
+      "price": 20000,
+      "stockAfter": 76,
+      "catKey": "api-claude-codex",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🤖SMSnhậnOTPxácminhCodex24h-KBH➕Thêm:30📦Tồnkhohiệntại:38💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1792489885711",
       "time": "16:51 - 20/10/2026",
       "timestamp": 1792489885711,
@@ -8332,20 +8346,6 @@
       "catKey": "gmail",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:48📦Tồnkhohiệntại:31💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792424754115",
-      "time": "22:45 - 19/10/2026",
-      "timestamp": 1792424754115,
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
-      "bot": "ntnshopre_bot",
-      "shopStock": 4,
-      "addedQty": 5,
-      "price": 220000,
-      "stockAfter": 4,
-      "catKey": "chatgpt",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:5📦Tồnkhohiệntại:4💰Giá:200.000đ"
     }
   ]
 }
