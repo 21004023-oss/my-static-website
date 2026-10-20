@@ -5130,6 +5130,25 @@
         "hidden": true,
         "needs_review": true,
         "cost_price": 50000
+      },
+      {
+        "id": "p-1792465658876",
+        "name": "Netflix Premium Extra 1 Tháng BHF",
+        "price": 170000,
+        "cost_price": 150000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 1,
+            "cost_price": 150000,
+            "selling_price": 170000,
+            "updated": "10:07 20/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -7331,6 +7350,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792465658876",
+      "time": "10:07 - 20/10/2026",
+      "timestamp": 1792465658876,
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 1,
+      "addedQty": 1,
+      "price": 170000,
+      "stockAfter": 1,
+      "catKey": "netflix",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1792465514093",
       "time": "10:05 - 20/10/2026",
       "timestamp": 1792465514093,
@@ -8715,20 +8748,6 @@
       "catKey": "api-cursor-deepseek",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🖱️APICURSORPRO2600CREDITS1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:2💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1792409422180",
-      "time": "18:30 - 19/10/2026",
-      "timestamp": 1792409422180,
-      "name": "API Cursor Pro 2600 Credits 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 2,
-      "addedQty": 5,
-      "price": 310000,
-      "stockAfter": 4,
-      "catKey": "api-cursor-deepseek",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🖱️APICursorPro2600Credits1thángBHF➕Thêm:5📦Tồnkhohiệntại:2💰Giá:280.000đ"
     }
   ]
 }
