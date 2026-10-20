@@ -4348,7 +4348,7 @@
         "stock": 38,
         "stock_text": "Còn 38",
         "duration": "1 Tháng",
-        "detail": "Gói Gmail USA new bảo hành uy tín.",
+        "detail": "Định dạng: Gmail | Pass - Gmail này cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone -Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll ) -Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/\n- BH 24h, log thành công hết BH",
         "sources": {
           "taphoathomap_bot": {
             "stock": 38,
@@ -4357,7 +4357,8 @@
             "updated": "17:03 20/10/2026"
           }
         },
-        "hidden": false
+        "hidden": true,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -6987,6 +6988,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792490620520",
+      "time": "17:03 - 20/10/2026",
+      "timestamp": 1792490620520,
+      "name": "Gmail USA new",
+      "bot": "taphoathomap_bot",
+      "shopStock": 38,
+      "addedQty": 0,
+      "price": 35000,
+      "stockAfter": 38,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧GmailUSAnew💰Giá:25k📦Tồnkho:38tàikhoản📊Đãbán:2.094tàikhoản💎Môtả:Địnhdạng:Gmail|P"
+    },
+    {
       "id": "hist-1792490616334",
       "time": "17:03 - 20/10/2026",
       "timestamp": 1792490616334,
@@ -8371,20 +8386,6 @@
       "catKey": "meitu-wink",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "✨MeituVIP7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:0💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792428521211",
-      "time": "23:48 - 19/10/2026",
-      "timestamp": 1792428521211,
-      "name": "Capcut Pro Team 6 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 2,
-      "addedQty": 0,
-      "price": 390000,
-      "stockAfter": 2,
-      "catKey": "capcut",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✂️CapcutProTeam6ThángBHF💰Giá:340k📦Tồnkho:2tàikhoản📊Đãbán:326tàikhoản💎Môtả:CAPCUT"
     }
   ]
 }
