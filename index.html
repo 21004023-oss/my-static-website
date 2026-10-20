@@ -93,6 +93,37 @@
       outline: none;
       transition: all 0.2s ease;
     }
+        .search-clear-btn {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      color: #fff;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      font-size: 11px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+    }
+    .search-clear-btn:hover {
+      background: rgba(239, 68, 68, 0.8);
+      color: #fff;
+    }
+    .search-box input:focus ~ .search-clear-btn {
+      color: #64748b;
+      background: #e2e8f0;
+    }
+    .search-box input:focus ~ .search-clear-btn:hover {
+      background: #ef4444;
+      color: #fff;
+    }
+
     .search-box input:focus {
       background: #fff;
       color: #0f172a;
@@ -658,7 +689,8 @@
     </div>
     <div class="search-box">
       <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-      <input id="searchInp" placeholder="Tìm nhanh dịch vụ..." autocomplete="off" />
+      <input id="searchInp" placeholder="Tìm nhanh dịch vụ (gõ có dấu hoặc không dấu)..." autocomplete="off" />
+      <button id="searchClearBtn" class="search-clear-btn" onclick="clearSearch()" title="Xóa tìm kiếm" style="display:none;">✕</button>
     </div>
   </div>
 </header>
@@ -919,11 +951,15 @@ function renderPlans() {
   container.innerHTML = '';
 
   if (kw) {
+    var cleanKw = removeVietnameseTones(kw);
     var found = [];
     Object.keys(D).filter(function(k){ return k !== '_history'; }).forEach(k => {
       (D[k].plans || []).filter(function(p) { return !p.hidden; }).forEach(p => {
-        var str = ((p.name || '') + ' ' + (p.detail || '') + ' ' + (p.source || '')).toLowerCase();
-        if (str.indexOf(kw) !== -1) found.push({ catKey: k, catName: D[k].name, plan: p });
+        var rawStr = ((p.name || '') + ' ' + (p.detail || '') + ' ' + (p.source || '') + ' ' + (D[k].name || '')).toLowerCase();
+        var cleanStr = removeVietnameseTones(rawStr);
+        if (rawStr.indexOf(kw) !== -1 || cleanStr.indexOf(cleanKw) !== -1) {
+          found.push({ catKey: k, catName: D[k].name, plan: p });
+        }
       });
     });
 
@@ -934,8 +970,16 @@ function renderPlans() {
     document.getElementById('currentCatCount').textContent = `${found.length} gói`;
 
     if (!found.length) {
-      container.innerHTML = '<div style="padding:40px;text-align:center;color:#64748b">Không tìm thấy gói nào phù hợp.</div>';
+      container.innerHTML = '<div style="padding:40px;text-align:center;color:#64748b">Không tìm thấy gói nào phù hợp với từ khóa "<b>' + kw + '</b>". Thử tìm không dấu hoặc từ khóa ngắn hơn.</div>';
+      selPlan = null;
+      renderDetail('');
       return;
+    }
+
+    // Tự động xem gói đầu tiên khi tìm kiếm trên máy tính
+    if (window.innerWidth > 768 && found.length) {
+      selPlan = found[0].plan;
+      renderDetail(found[0].catName);
     }
 
     found.forEach(item => {
@@ -1101,9 +1145,47 @@ function renderDetail(catName) {
   `;
 }
 
+function removeVietnameseTones(str) {
+  if (!str) return '';
+  str = str.toLowerCase();
+  str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
+  str = str.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g, "e");
+  str = str.replace(/ì|í|ị|ỉ|ĩ/g, "i");
+  str = str.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g, "o");
+  str = str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g, "u");
+  str = str.replace(/ỳ|ý|ỵ|ỷ|ỹ/g, "y");
+  str = str.replace(/đ/g, "d");
+  str = str.replace(/\u0300|\u0301|\u0303|\u0309|\u0323/g, "");
+  str = str.replace(/\u02C6|\u0306|\u031B/g, "");
+  return str.trim();
+}
+
+function clearSearch() {
+  var inp = document.getElementById('searchInp');
+  if (inp) {
+    inp.value = '';
+    kw = '';
+    var clearBtn = document.getElementById('searchClearBtn');
+    if (clearBtn) clearBtn.style.display = 'none';
+    render();
+    inp.focus();
+  }
+}
+
 document.getElementById('searchInp').addEventListener('input', function(e) {
   kw = e.target.value.trim().toLowerCase();
+  var clearBtn = document.getElementById('searchClearBtn');
+  if (clearBtn) {
+    clearBtn.style.display = kw.length > 0 ? 'flex' : 'none';
+  }
   renderPlans();
+});
+
+// Phím Escape để xóa nhanh tìm kiếm
+document.getElementById('searchInp').addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    clearSearch();
+  }
 });
 
 document.addEventListener('DOMContentLoaded', loadData);
