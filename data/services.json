@@ -542,19 +542,20 @@
         "id": "p-1791913103284",
         "name": "ChatGPT Ver Students offer  Plus 4 Tháng  KBH",
         "price": 330000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 7,
+        "stock_text": "Còn 7",
         "duration": "4 Tháng",
         "detail": "Gói ưu đãi mua 4th GPT plus sinh viên Mỹ với giá 0$\n- Đã verify chưa pay\n- Khách truy cập https://chatgpt.com/students/2026/\nđể claim gói, dùng thẻ chưa trial để pay hoặc thẻ đã pay trial qua 15 ngày\n-  không bao pay\n- ĐỌC KĨ TRƯỚC KHI MUA",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 0,
-            "cost_price": 260000,
-            "updated": "04:24 18/10/2026",
-            "selling_price": 290000
+            "stock": 7,
+            "cost_price": 300000,
+            "selling_price": 330000,
+            "updated": "07:14 20/10/2026"
           }
         },
-        "cost_price": 300000
+        "cost_price": 300000,
+        "needs_review": true
       },
       {
         "id": "p-1791918068696",
@@ -7311,6 +7312,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792455288106",
+      "time": "07:14 - 20/10/2026",
+      "timestamp": 1792455288106,
+      "name": "ChatGPT Ver Students offer  Plus 4 Tháng  KBH",
+      "bot": "taphoathomap_bot",
+      "shopStock": 7,
+      "addedQty": 10,
+      "price": 330000,
+      "stockAfter": 7,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTVerStudentsofferPlus4ThángKBH➕Thêm:10📦Tồnkhohiệntại:7💰Giá:300.000đ"
+    },
+    {
       "id": "hist-1792454355281",
       "time": "06:59 - 20/10/2026",
       "timestamp": 1792454355281,
@@ -8695,20 +8710,6 @@
       "catKey": "gmail",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📧GmailViệt2020-2024➕Thêm:525📦Tồnkhohiệntại:520💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792401612944",
-      "time": "16:20 - 19/10/2026",
-      "timestamp": 1792401612944,
-      "name": "Gmail Việt 2020-2024",
-      "bot": "sieuthistore_bot",
-      "shopStock": 520,
-      "addedQty": 525,
-      "price": 55000,
-      "stockAfter": 583,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧GmailViệt2020-2024➕Thêm:525📦Tồnkhohiệntại:520💰Giá:45.000đ"
     }
   ]
 }
