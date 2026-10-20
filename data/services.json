@@ -4345,16 +4345,17 @@
         "stock": 38,
         "stock_text": "Còn 38",
         "duration": "1 Tháng",
-        "detail": "Gói Gmail USA new bảo hành uy tín.",
+        "detail": "Định dạng: Gmail | Pass - Gmail này cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone -Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll ) -Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/\n- BH 24h, log thành công hết BH",
         "sources": {
           "taphoathomap_bot": {
             "stock": 38,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "15:43 20/10/2026"
+            "updated": "15:48 20/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -6843,6 +6844,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792486139070",
+      "time": "15:48 - 20/10/2026",
+      "timestamp": 1792486139070,
+      "name": "Gmail USA new",
+      "bot": "taphoathomap_bot",
+      "shopStock": 38,
+      "addedQty": 0,
+      "price": 35000,
+      "stockAfter": 38,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧GmailUSAnew💰Giá:25k📦Tồnkho:38tàikhoản📊Đãbán:2.094tàikhoản💎Môtả:Địnhdạng:Gmail|P"
+    },
+    {
       "id": "hist-1792485838589",
       "time": "15:43 - 20/10/2026",
       "timestamp": 1792485838589,
@@ -8227,20 +8242,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:17📦Tồnkhohiệntại:18💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1792434264846",
-      "time": "01:24 - 20/10/2026",
-      "timestamp": 1792434264846,
-      "name": "Kling 1k  credits 1 tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 2,
-      "addedQty": 2,
-      "price": 200000,
-      "stockAfter": 2,
-      "catKey": "kling",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬Kling1kcredits1thángBH24H➕Thêm:2📦Tồnkhohiệntại:2💰Giá:180.000đ"
     }
   ]
 }
