@@ -1059,7 +1059,10 @@
             </div>
 
             <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
-              <input type="text" id="filterInp" class="search-input" style="min-width:300px;" placeholder="🔍 Tìm kiếm toàn bộ kho (không cần chọn mục)..." oninput="renderTable()" />
+              <div style="position:relative; display:inline-flex; align-items:center;">
+        <input type="text" id="filterInp" class="search-input" style="min-width:320px; padding-right:28px;" placeholder="🔍 Tìm toàn bộ kho (hỗ trợ có dấu & không dấu)..." oninput="handleAdminSearchInput()" />
+        <button id="btnAdminClearSearch" onclick="clearAdminSearch()" style="position:absolute; right:8px; background:none; border:none; color:var(--text-muted); cursor:pointer; font-size:12px; display:none;" title="Xóa tìm kiếm">✕</button>
+      </div>
               <button class="btn btn-primary" onclick="openAddModal()">➕ Thêm Gói Mới</button>
             </div>
           </div>
@@ -2061,12 +2064,13 @@
           if (currentStatusFilter === 'outofstock' && p.stock !== 0) return;
           if (currentStatusFilter === 'needsreview' && !p.needs_review) return;
 
-          // LỌC THEO TỪ KHÓA TÌM KIẾM
+          // LỌC THEO TỪ KHÓA TÌM KIẾM (HỖ TRỢ CẢ CÓ DẤU VÀ KHÔNG DẤU)
           if (query) {
-            const nameMatch = (p.name || '').toLowerCase().includes(query);
-            const detailMatch = (p.detail || '').toLowerCase().includes(query);
-            const catMatch = catName.toLowerCase().includes(query) || k.toLowerCase().includes(query);
-            if (!nameMatch && !detailMatch && !catMatch) return;
+            const cleanQuery = removeVietnameseTones(query);
+            const rawText = ((p.name || '') + ' ' + (p.detail || '') + ' ' + catName + ' ' + k).toLowerCase();
+            const cleanText = removeVietnameseTones(rawText);
+            const isMatch = rawText.includes(query) || cleanText.includes(cleanQuery);
+            if (!isMatch) return;
           }
 
           plansToRender.push({ plan: p, idx, catKey: k, catName });
@@ -4041,6 +4045,38 @@
     window.clearOrderPlanSearch = clearOrderPlanSearch;
     window.onManualPlanNameInput = onManualPlanNameInput;
 
-  </script>
+  
+    function removeVietnameseTones(str) {
+      if (!str) return '';
+      str = str.toLowerCase();
+      str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
+      str = str.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g, "e");
+      str = str.replace(/ì|í|ị|ỉ|ĩ/g, "i");
+      str = str.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g, "o");
+      str = str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g, "u");
+      str = str.replace(/ỳ|ý|ỵ|ỷ|ỹ/g, "y");
+      str = str.replace(/đ/g, "d");
+      str = str.replace(/\u0300|\u0301|\u0303|\u0309|\u0323/g, "");
+      str = str.replace(/\u02C6|\u0306|\u031B/g, "");
+      return str.trim();
+    }
+
+    function handleAdminSearchInput() {
+      const q = (document.getElementById('filterInp')?.value || '').trim();
+      const btn = document.getElementById('btnAdminClearSearch');
+      if (btn) btn.style.display = q.length > 0 ? 'block' : 'none';
+      renderTable();
+    }
+
+    function clearAdminSearch() {
+      const inp = document.getElementById('filterInp');
+      if (inp) {
+        inp.value = '';
+        handleAdminSearchInput();
+        inp.focus();
+      }
+    }
+
+</script>
 </body>
 </html>
