@@ -269,7 +269,8 @@
           }
         },
         "cost_price": 85000,
-        "needs_review": true
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "gpt-go-10d",
@@ -991,7 +992,7 @@
             "stock": 10,
             "cost_price": 100000,
             "selling_price": 110000,
-            "updated": "13:49 20/10/2026"
+            "updated": "00:53 20/10/2026"
           }
         },
         "hidden": false,
@@ -1011,7 +1012,7 @@
             "stock": 10,
             "cost_price": 95000,
             "selling_price": 105000,
-            "updated": "13:49 20/10/2026"
+            "updated": "00:53 20/10/2026"
           }
         },
         "hidden": false,
@@ -6946,34 +6947,6 @@
   },
   "_history": [
     {
-      "id": "hist-1792478980224",
-      "time": "13:49 - 20/10/2026",
-      "timestamp": 1792478980224,
-      "name": "ChatGPT K12 Education 2 năm KBH",
-      "bot": "sieuthistore_bot",
-      "shopStock": 10,
-      "addedQty": 10,
-      "price": 110000,
-      "stockAfter": 10,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTK12Education2nămKBH➕Thêm:10📦Tồnkhohiệntại:10💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1792478969126",
-      "time": "13:49 - 20/10/2026",
-      "timestamp": 1792478969126,
-      "name": "CHAT GPT PLUS K12 2 NĂM BẢO HÀNH 12H",
-      "bot": "ntnshopre_bot",
-      "shopStock": 10,
-      "addedQty": 10,
-      "price": 105000,
-      "stockAfter": 10,
-      "catKey": "chatgpt",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🤖CHATGPTPLUSK122NĂMBẢOHÀNH12H➕Thêm:10📦Tồnkhohiệntại:10💰Giá:95.000đ"
-    },
-    {
       "id": "hist-1792477945515",
       "time": "13:32 - 20/10/2026",
       "timestamp": 1792477945515,
@@ -8344,6 +8317,34 @@
       "catKey": "gmail",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:48📦Tồnkhohiệntại:31💰Giá:45.000đ"
+    },
+    {
+      "id": "hist-1792424754115",
+      "time": "22:45 - 19/10/2026",
+      "timestamp": 1792424754115,
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "shopStock": 4,
+      "addedQty": 5,
+      "price": 220000,
+      "stockAfter": 4,
+      "catKey": "chatgpt",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:5📦Tồnkhohiệntại:4💰Giá:200.000đ"
+    },
+    {
+      "id": "hist-1792422803921",
+      "time": "22:13 - 19/10/2026",
+      "timestamp": 1792422803921,
+      "name": "Adobe All Apps 7D BH 12H ( gói chính hãng )",
+      "bot": "taphoathomap_bot",
+      "shopStock": 1,
+      "addedQty": 11,
+      "price": 65000,
+      "stockAfter": 1,
+      "catKey": "adobe",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎨AdobeAllApps7DBH12H(góichínhhãng)➕Thêm:11📦Tồnkhohiệntại:1💰Giá:55.000đ"
     }
   ]
 }
