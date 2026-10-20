@@ -6649,12 +6649,13 @@
           "sieuthistore_bot": {
             "stock": 10,
             "cost_price": 65000,
-            "updated": "02:28 18/10/2026",
-            "selling_price": 75000
+            "selling_price": 75000,
+            "updated": "01:58 21/10/2026"
           }
         },
-        "hidden": false,
-        "cost_price": 65000
+        "hidden": true,
+        "cost_price": 65000,
+        "needs_review": true
       },
       {
         "id": "p-1792265287086",
@@ -7072,6 +7073,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792522718725",
+      "time": "01:58 - 21/10/2026",
+      "timestamp": 1792522718725,
+      "name": "Acc cấp Zoom Pro 28 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 10,
+      "addedQty": 10,
+      "price": 75000,
+      "stockAfter": 10,
+      "catKey": "work-dev",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐AcccấpZoomPro28NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:65.000đ"
+    },
     {
       "id": "hist-1792522270415",
       "time": "01:51 - 21/10/2026",
@@ -8457,20 +8472,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(ApplePay)1ThángBHF➕Thêm:30📦Tồnkhohiệntại:35💰Giá:280.000đ"
-    },
-    {
-      "id": "hist-1792436716572",
-      "time": "02:05 - 20/10/2026",
-      "timestamp": 1792436716572,
-      "name": "🔥Chatgpt Plus Vip 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 10,
-      "addedQty": 6,
-      "price": 260000,
-      "stockAfter": 10,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖🔥ChatgptPlusVip1thángBHF➕Thêm:6📦Tồnkhohiệntại:10💰Giá:230.000đ"
     }
   ]
 }
