@@ -5193,20 +5193,21 @@
         "id": "p-1792205006619",
         "name": "Surfshark VPN One 7 Ngày BHF",
         "price": 45000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 11,
+        "stock_text": "Còn 11",
         "duration": "1 Tháng",
         "detail": "Surfshark VPN gói One 7 Ngày BHF login 5 thiết bị, login quá nhiều dẫn đến bị khoá tài khoản sẽ không được bảo hành\n- Định dạng: email|pass\n- Web mail lấy code otp: https://get-opt.phh.info.vn/",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 20,
+            "stock": 11,
             "cost_price": 35000,
-            "updated": "09:43 17/10/2026",
-            "selling_price": 45000
+            "selling_price": 45000,
+            "updated": "05:45 21/10/2026"
           }
         },
-        "hidden": false,
-        "cost_price": 35000
+        "hidden": true,
+        "cost_price": 35000,
+        "needs_review": true
       },
       {
         "id": "p-1792205011820",
@@ -7132,6 +7133,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792536351720",
+      "time": "05:45 - 21/10/2026",
+      "timestamp": 1792536351720,
+      "name": "Surfshark VPN One 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 11,
+      "addedQty": 12,
+      "price": 45000,
+      "stockAfter": 11,
+      "catKey": "vpn",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:11💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792534545180",
       "time": "05:15 - 21/10/2026",
       "timestamp": 1792534545180,
@@ -8516,20 +8531,6 @@
       "catKey": "adobe",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐FigmaProEducation1nămBHF➕Thêm:6📦Tồnkhohiệntại:11💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1792441846435",
-      "time": "03:30 - 20/10/2026",
-      "timestamp": 1792441846435,
-      "name": "SMS nhận OTP xác minh Codex 1 Ngày KBH",
-      "bot": "sieuthistore_bot",
-      "shopStock": 38,
-      "addedQty": 30,
-      "price": 25000,
-      "stockAfter": 76,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖SMSnhậnOTPxácminhCodex1NgàyKBH➕Thêm:30📦Tồnkhohiệntại:38💰Giá:15.000đ"
     }
   ]
 }
