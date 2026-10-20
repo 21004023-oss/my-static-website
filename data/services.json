@@ -395,16 +395,16 @@
         "id": "p-1791879689407",
         "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
         "price": 280000,
-        "stock": 35,
-        "stock_text": "Còn 35",
+        "stock": 13,
+        "stock_text": "Còn 13",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Date radom 25 - 30 ngày\n4. Chỉ bảo hành tài khoản vô hiệu hóa, thay đổi thông tin lỗi - KBH\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n✅ Hiện tại, việc đổi PASS cần OTP nên không đổi được, còn nếu đổi 2FA có thể lỗi OTP gmail, khách hàng có thể cân nhắc không đổi và cứ việc dùng",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 35,
+            "stock": 13,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "09:48 20/10/2026"
+            "updated": "12:55 20/10/2026"
           }
         },
         "cost_price": 230000,
@@ -6925,6 +6925,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792475744433",
+      "time": "12:55 - 20/10/2026",
+      "timestamp": 1792475744433,
+      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 13,
+      "addedQty": 14,
+      "price": 260000,
+      "stockAfter": 13,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:14📦Tồnkhohiệntại:13💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1792475712974",
       "time": "12:55 - 20/10/2026",
       "timestamp": 1792475712974,
@@ -8309,20 +8323,6 @@
       "catKey": "youtube",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📧GmailRandomip2020-2023trialyoutube💰Giá:40k📦Tồnkho:172tàikhoản📊Đãbán:11.297tàikh"
-    },
-    {
-      "id": "hist-1792421852111",
-      "time": "21:57 - 19/10/2026",
-      "timestamp": 1792421852111,
-      "name": "Gmail Random ip 2020-2023 trial youtube",
-      "bot": "taphoathomap_bot",
-      "shopStock": 172,
-      "addedQty": 2,
-      "price": 50000,
-      "stockAfter": 344,
-      "catKey": "youtube",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "📧GmailRandomip2020-2023trialyoutube➕Thêm:2📦Tồnkhohiệntại:172💰Giá:40.000đ"
     }
   ]
 }
