@@ -5131,18 +5131,18 @@
       {
         "id": "p-1792307363682",
         "name": "Express VPN 3 Ngày BHF",
-        "price": 25000,
-        "cost_price": 15000,
-        "stock": 18,
-        "stock_text": "Còn 18",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 19,
+        "stock_text": "Còn 19",
         "duration": "1 Tháng",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 6,
+            "stock": 7,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "14:09 18/10/2026"
+            "updated": "15:18 20/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 6,
@@ -6797,6 +6797,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792484323058",
+      "time": "15:18 - 20/10/2026",
+      "timestamp": 1792484323058,
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 7,
+      "addedQty": 8,
+      "price": 35000,
+      "stockAfter": 19,
+      "catKey": "vpn",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:8📦Tồnkhohiệntại:7💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1792484299592",
       "time": "15:18 - 20/10/2026",
       "timestamp": 1792484299592,
@@ -8181,20 +8195,6 @@
       "catKey": "gmail",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:48📦Tồnkhohiệntại:31💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792425590056",
-      "time": "22:59 - 19/10/2026",
-      "timestamp": 1792425590056,
-      "name": "Gmail Random 200X~2023 Có 2FA",
-      "bot": "sieuthistore_bot",
-      "shopStock": 31,
-      "addedQty": 48,
-      "price": 55000,
-      "stockAfter": 31,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:48📦Tồnkhohiệntại:31💰Giá:45.000đ"
     }
   ]
 }
