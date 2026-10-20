@@ -3767,16 +3767,16 @@
         "id": "p-gmail-new-25k",
         "name": "Gmail (New) -Login All",
         "price": 45000,
-        "stock": 157,
-        "stock_text": "Còn 157",
+        "stock": 274,
+        "stock_text": "Còn 274",
         "duration": "1 Tháng",
         "detail": "GMAIL New TRÂU BÒ - Login All thiết bị\nĐịnh dạng : Gmail | Pass | mail khôi phục\nBẢO HÀNH LOGIN LẦN ĐẦU 24H ( very phone, sai pass) được bảo hành - login thành công là hết Bảo hành\n- Gmail New cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\n💎 Mô tả:\n🇻🇳Mô tả: Login Lỗi Pass- Very Phone- Được Bảo hành Login 24H - login thành công là hết Bảo hành\nĐịnh dạng: Gmail | Pass | Gmail khôi phục| 2FA (nếu có )\n- Gmail này cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\n-Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 20,
+            "stock": 137,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "20:18 19/10/2026"
+            "updated": "05:15 21/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 137,
@@ -3787,7 +3787,7 @@
         },
         "conflict_group": "gmail_new_login_all",
         "price_verified": true,
-        "cost_price": 35000,
+        "cost_price": 25000,
         "needs_review": true,
         "hidden": true
       },
@@ -7132,6 +7132,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792534545180",
+      "time": "05:15 - 21/10/2026",
+      "timestamp": 1792534545180,
+      "name": "Gmail (New) -Login All",
+      "bot": "taphoathomap_bot",
+      "shopStock": 137,
+      "addedQty": 131,
+      "price": 35000,
+      "stockAfter": 274,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:131📦Tồnkhohiệntại:137💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1792534538761",
       "time": "05:15 - 21/10/2026",
       "timestamp": 1792534538761,
@@ -8516,20 +8530,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖SMSnhậnOTPxácminhCodex1NgàyKBH➕Thêm:30📦Tồnkhohiệntại:38💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792441831386",
-      "time": "03:30 - 20/10/2026",
-      "timestamp": 1792441831386,
-      "name": "SMS nhận OTP xác minh Codex 24h - KBH",
-      "bot": "piggyai99_bot",
-      "shopStock": 38,
-      "addedQty": 30,
-      "price": 20000,
-      "stockAfter": 38,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🤖SMSnhậnOTPxácminhCodex24h-KBH➕Thêm:30📦Tồnkhohiệntại:38💰Giá:10.000đ"
     }
   ]
 }
