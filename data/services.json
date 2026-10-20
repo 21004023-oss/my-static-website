@@ -1442,20 +1442,21 @@
         "id": "p-1792144903773",
         "name": "ADMIN VEO3 X5 1 THÁNG ( BH 3 NGÀY )",
         "price": 1300000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 43,
+        "stock_text": "Còn 43",
         "duration": "1 Tháng",
-        "detail": "Admin Veo3 Ultra Family 5x, add dc 5 slot\nNhớ log điện thoại trước rồi log máy tính sau, đá thiết bị cũ ra rồi change 2fa rồi gắn sdt vào nhé",
+        "detail": "- Tài khoản không có sẵn, nhắn ADMIN mã đơn nhận hàng\n- Admin Veo3 Ultra Family 5x, add dc 5 slot Nhớ log điện thoại trước rồi log máy tính sau, đá thiết bị cũ ra rồi change 2fa rồi gắn sdt vào nhé",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 12,
-            "cost_price": 1100000,
-            "updated": "17:01 16/10/2026",
-            "selling_price": 1300000
+            "stock": 43,
+            "cost_price": 900000,
+            "selling_price": 1000000,
+            "updated": "19:52 20/10/2026"
           }
         },
-        "hidden": false,
-        "cost_price": 1100000
+        "hidden": true,
+        "cost_price": 900000,
+        "needs_review": true
       },
       {
         "id": "p-1792225572056",
@@ -7070,6 +7071,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792500762368",
+      "time": "19:52 - 20/10/2026",
+      "timestamp": 1792500762368,
+      "name": "ADMIN VEO3 X5 1 THÁNG ( BH 3 NGÀY )",
+      "bot": "taphoathomap_bot",
+      "shopStock": 43,
+      "addedQty": 43,
+      "price": 1000000,
+      "stockAfter": 43,
+      "catKey": "google-veo",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🚀ADMINVEO3X51THÁNG(BH3NGÀY)➕Thêm:43📦Tồnkhohiệntại:43💰Giá:900.000đ"
+    },
+    {
       "id": "hist-1792500106063",
       "time": "19:41 - 20/10/2026",
       "timestamp": 1792500106063,
@@ -8454,20 +8469,6 @@
       "catKey": "higgsfield",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1thángBH24h➕Thêm:21📦Tồnkhohiệntại:27💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792435945130",
-      "time": "01:52 - 20/10/2026",
-      "timestamp": 1792435945130,
-      "name": "Higgsfield Genjutsu 1 tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 27,
-      "addedQty": 21,
-      "price": 75000,
-      "stockAfter": 27,
-      "catKey": "higgsfield",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🎬HiggsfieldGenjutsu1thángBH1Ngày➕Thêm:21📦Tồnkhohiệntại:27💰Giá:65.000đ"
     }
   ]
 }
