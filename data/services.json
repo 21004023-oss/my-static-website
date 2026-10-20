@@ -5193,8 +5193,8 @@
         "id": "p-1792205006619",
         "name": "Surfshark VPN One 7 Ngày BHF",
         "price": 45000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 22,
+        "stock_text": "Còn 22",
         "duration": "1 Tháng",
         "detail": "Surfshark VPN gói One 7 Ngày BHF login 5 thiết bị, login quá nhiều dẫn đến bị khoá tài khoản sẽ không được bảo hành\n- Định dạng: email|pass\n- Web mail lấy code otp: https://get-opt.phh.info.vn/",
         "sources": {
@@ -5203,10 +5203,16 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "updated": "05:45 21/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 11,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "05:45 21/10/2026"
           }
         },
         "hidden": true,
-        "cost_price": 35000,
+        "cost_price": 15000,
         "needs_review": true
       },
       {
@@ -7133,6 +7139,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792536357371",
+      "time": "05:45 - 21/10/2026",
+      "timestamp": 1792536357371,
+      "name": "Surfshark VPN One 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 11,
+      "addedQty": 12,
+      "price": 25000,
+      "stockAfter": 22,
+      "catKey": "vpn",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:11💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1792536351720",
       "time": "05:45 - 21/10/2026",
       "timestamp": 1792536351720,
@@ -8517,20 +8537,6 @@
       "catKey": "adobe",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:6📦Tồnkhohiệntại:11💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1792445107971",
-      "time": "04:25 - 20/10/2026",
-      "timestamp": 1792445107971,
-      "name": "Figma Pro Education 1 năm BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 11,
-      "addedQty": 6,
-      "price": 200000,
-      "stockAfter": 11,
-      "catKey": "adobe",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐FigmaProEducation1nămBHF➕Thêm:6📦Tồnkhohiệntại:11💰Giá:180.000đ"
     }
   ]
 }
