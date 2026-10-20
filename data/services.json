@@ -5713,10 +5713,10 @@
       {
         "id": "p-1792472374619",
         "name": "Meitu Vip+ 90D BHF",
-        "price": 185000,
-        "cost_price": 165000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "price": 240000,
+        "cost_price": 210000,
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "3 Tháng",
         "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.",
         "sources": {
@@ -5725,9 +5725,16 @@
             "cost_price": 165000,
             "selling_price": 185000,
             "updated": "11:59 20/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 4,
+            "cost_price": 210000,
+            "selling_price": 240000,
+            "updated": "11:59 20/10/2026"
           }
         },
-        "hidden": false
+        "hidden": false,
+        "needs_review": true
       }
     ]
   },
@@ -6898,6 +6905,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792472398618",
+      "time": "11:59 - 20/10/2026",
+      "timestamp": 1792472398618,
+      "name": "Meitu Vip+ 3 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 4,
+      "addedQty": 4,
+      "price": 240000,
+      "stockAfter": 8,
+      "catKey": "meitu-wink",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✨MeituVip+3ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:210.000đ"
+    },
     {
       "id": "hist-1792472374620",
       "time": "11:59 - 20/10/2026",
@@ -8283,20 +8304,6 @@
       "catKey": "youtube",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧GmailRandomip2020-2023trialyoutube➕Thêm:2📦Tồnkhohiệntại:172💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792421627758",
-      "time": "21:53 - 19/10/2026",
-      "timestamp": 1792421627758,
-      "name": "Gmail random new",
-      "bot": "taphoathomap_bot",
-      "shopStock": 29,
-      "addedQty": 30,
-      "price": 32000,
-      "stockAfter": 58,
-      "catKey": "gmail",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "📧Gmailrandomnew➕Thêm:30📦Tồnkhohiệntại:29💰Giá:22.000đ"
     }
   ]
 }
