@@ -196,6 +196,25 @@
     "short": "GPT",
     "plans": [
       {
+        "id": "gpt-go-10d-unified",
+        "name": "ChatGPT Go 1 Tháng (BH 10 Ngày)",
+        "price": 105000,
+        "cost_price": 75000,
+        "stock": 45,
+        "stock_text": "Còn 45",
+        "duration": "1 Tháng",
+        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n2. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n3. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "hidden": false,
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 32,
+            "cost_price": 75000,
+            "selling_price": 85000,
+            "updated": "11:15 18/10/2026"
+          }
+        }
+      },
+      {
         "id": "gpt-plus-20d-unified",
         "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
         "price": 330000,
@@ -271,17 +290,6 @@
         "cost_price": 85000,
         "needs_review": true,
         "hidden": true
-      },
-      {
-        "id": "gpt-go-10d",
-        "name": "ChatGPT Go 1 Tháng (BH 10 Ngày)",
-        "price": 105000,
-        "stock": 13,
-        "stock_text": "Còn 13",
-        "duration": "1 Tháng",
-        "source": "Cấp sẵn",
-        "detail": "- Định dạng: Email|Mật khẩu|2FA (lấy mã OTP tại 2FA.LIVE).\n- Không Bảo Hành Ver Số Codex (thuê sim tại smspool.net hoặc viotp.com).\n- Nghiêm cấm sử dụng acc để gắn tool 9Router bào Codex.\n- Đổi mật khẩu và 2FA sau khi nhận để tự bảo quản.",
-        "cost_price": 95000
       },
       {
         "id": "gpt-biz-shared",
@@ -605,25 +613,6 @@
         "duration": "1 tháng",
         "detail": "Tài khoản chat gpt business 1 tháng - bảo hành 1 ngày\n- Định dạng: mail----pass----2FA\n- 2FA SITE: https://2fa.live\n- ĐỔI PASS/ 2FA ĐỂ BẢO MẬT TÀI KHOẢN\n- KHÔNG ĐƯỢC ADD MEMBER VÀO WORLPLACE. Vi phạm auto kick và không hoàn tiền.",
         "cost_price": 130000
-      },
-      {
-        "id": "p-1791960560914",
-        "name": "ChatGPT Go 1 Tháng - BH 10 Ngày",
-        "price": 85000,
-        "stock": 32,
-        "stock_text": "Còn 32",
-        "duration": "1 Tháng",
-        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n2. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n3. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
-        "sources": {
-          "taphoathomap_bot": {
-            "stock": 32,
-            "cost_price": 75000,
-            "selling_price": 85000,
-            "updated": "11:15 18/10/2026"
-          }
-        },
-        "cost_price": 75000,
-        "needs_review": true
       },
       {
         "id": "p-1791960800680",
@@ -2308,6 +2297,25 @@
     "short": "API",
     "plans": [
       {
+        "id": "api-claude-50m-1d-unified",
+        "name": "API 50M Token Claude 1 Ngày BHF",
+        "price": 110000,
+        "cost_price": 55000,
+        "stock": 76,
+        "stock_text": "Còn 76",
+        "duration": "1 Ngày",
+        "detail": "-API Claude 50M-Hàng anthropic\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Base Url : https://api.opusapi.store/\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-File hướng dẫn sử dụng và thiết lập:\n+ENGLISH: https://docs.google.com/document/d/1-r0i4qkHToW3exdkJfUAzin78s_bRbYb4nnvchhvtjg/edit?usp=sharing\n+VIETNAM: https://docs.google.com/document/d/1rBLXYdzTHL5mvm6c8d4QN2c7qWh8Cjj8sgEEf-_Wzug/edit?usp=sharing",
+        "hidden": false,
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 5,
+            "cost_price": 55000,
+            "updated": "22:49 17/10/2026",
+            "selling_price": 65000
+          }
+        }
+      },
+      {
         "id": "codex-plus-unified",
         "name": "ChatGPT Plus (Codex Full) 1 Tháng BHF",
         "price": 380000,
@@ -2402,17 +2410,6 @@
         "source": "Teamsoclo",
         "detail": "- Model: gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna.\n- Hạn dùng 5 ngày.\n- Base URL: https://gpt.teamsoclo.site/v1\n- HDSD: https://docs.teamsoclo.site/\n- Trang kiểm tra KEY: https://gpt.teamsoclo.site/check\n- Đổi CDK tại: https://redeem.teamsoclo.site/",
         "cost_price": 95000
-      },
-      {
-        "id": "api-claude-50m-1d",
-        "name": "API 50M Token Claude 1 Ngày BHF",
-        "price": 110000,
-        "stock": 71,
-        "stock_text": "Còn 71",
-        "duration": "1 Ngày",
-        "source": "API Key",
-        "detail": "- Model: Full model Claude Opus, Sonet, Haiku.\n- Hoàn tiền theo số lượng token khách chưa sử dụng.\n- Kênh thông báo: https://t.me/api_thongbao\n- Danh sách model và hướng dẫn: api.nghimmo.com/huongdan\n- Trang kiểm tra KEY: api.nghimmo.com/check",
-        "cost_price": 100000
       },
       {
         "id": "api-claude-vip-40m",
@@ -2518,24 +2515,6 @@
         "duration": "20 ngày",
         "detail": "✅ Nâng cấp trực tiếp trên tài khoản khách hàng.\n🛡 Bảo hành 20 ngày: Mất gói, tụt gói.\n❌ Không BH tài khoản bị khóa (die) hoặc vi phạm chính sách nền tảng.\n📩 Sau khi mua, gửi: Email | Pass | 2FA\n⏳ Hoàn thành trong 24 giờ, vui lòng không giục Shop.\n⚠️ LƯU Ý: Gửi đầy đủ, chính xác thông tin đăng nhập để được nâng cấp nhanh chóng.",
         "cost_price": 380000
-      },
-      {
-        "id": "p-1791898418611",
-        "name": "API Claude 50M Token 1 ngày BHF",
-        "price": 65000,
-        "stock": 5,
-        "stock_text": "Còn 5",
-        "duration": "1 Ngày",
-        "detail": "-API Claude 50M-Hàng anthropic\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Base Url : https://api.opusapi.store/\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-File hướng dẫn sử dụng và thiết lập:\n+ENGLISH: https://docs.google.com/document/d/1-r0i4qkHToW3exdkJfUAzin78s_bRbYb4nnvchhvtjg/edit?usp=sharing\n+VIETNAM: https://docs.google.com/document/d/1rBLXYdzTHL5mvm6c8d4QN2c7qWh8Cjj8sgEEf-_Wzug/edit?usp=sharing",
-        "sources": {
-          "piggyai99_bot": {
-            "stock": 5,
-            "cost_price": 55000,
-            "updated": "22:49 17/10/2026",
-            "selling_price": 65000
-          }
-        },
-        "cost_price": 55000
       },
       {
         "id": "p-1791925516429",
@@ -4326,6 +4305,31 @@
     "name": "Microsoft 365 & Office",
     "plans": [
       {
+        "id": "p-admin-ms365-family-1m-unified",
+        "name": "Admin Microsoft 365 Family 1 Tháng BHF",
+        "price": 55000,
+        "cost_price": 30000,
+        "stock": 38,
+        "stock_text": "Còn 38",
+        "duration": "1 Tháng",
+        "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com",
+        "hidden": false,
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 19,
+            "cost_price": 45000,
+            "updated": "03:22 18/10/2026",
+            "selling_price": 55000
+          },
+          "taphoathomap_bot": {
+            "stock": 19,
+            "cost_price": 30000,
+            "updated": "03:22 18/10/2026",
+            "selling_price": 40000
+          }
+        }
+      },
+      {
         "id": "p-1791865941592",
         "name": "Microsoft 365 cá nhân 1 năm BH 3 tháng",
         "price": 54000,
@@ -4355,25 +4359,6 @@
         "needs_review": true
       },
       {
-        "id": "p-1792268569370",
-        "name": "Admin Microsoft 365 Family 1 Tháng BHF",
-        "price": 55000,
-        "stock": 19,
-        "stock_text": "Còn 19",
-        "duration": "1 Tháng",
-        "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com",
-        "sources": {
-          "sieuthistore_bot": {
-            "stock": 19,
-            "cost_price": 45000,
-            "updated": "03:22 18/10/2026",
-            "selling_price": 55000
-          }
-        },
-        "hidden": false,
-        "cost_price": 45000
-      },
-      {
         "id": "p-1792268573325",
         "name": "ADMIN MS365 PREMIUM 1 THÁNG BHF",
         "price": 60000,
@@ -4392,25 +4377,6 @@
         "hidden": false,
         "cost_price": 50000,
         "needs_review": true
-      },
-      {
-        "id": "p-1792268578812",
-        "name": "Microsoft 365 Admin Family 1 Tháng BHF",
-        "price": 40000,
-        "stock": 19,
-        "stock_text": "Còn 19",
-        "duration": "1 Tháng",
-        "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com",
-        "sources": {
-          "taphoathomap_bot": {
-            "stock": 19,
-            "cost_price": 30000,
-            "updated": "03:22 18/10/2026",
-            "selling_price": 40000
-          }
-        },
-        "hidden": false,
-        "cost_price": 30000
       },
       {
         "id": "p-1792356747202",
@@ -4698,23 +4664,29 @@
     "logo": "https://www.google.com/s2/favicons?domain=adobe.com&sz=64",
     "plans": [
       {
-        "id": "p-1791969755660",
-        "name": "Adobe All Apps 7D BH 12H",
+        "id": "p-adobe-all-apps-7d-unified",
+        "name": "Adobe All Apps 7D BH 12H (Gói Chính Hãng)",
         "price": 75000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "cost_price": 55000,
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "12 Giờ",
         "detail": "Adobe All Apps 7D sử dụng 2 thiết bị 4000 credits\n- Định dạng tài khoản: email | pass_hotmail | token, muốn đọc token mail nhanh thì copy rồi vào link web bên dưới dán code vào\n- Link đọc token: https://smail1s.com/\n(Lưu ý: nhớ chọn '\"Oauth2 - Graph\" mới đọc được mail)\n(Hoặc đăng nhập email lấy code mail thủ công tại https://outlook.live.com/mail )\nKhách nhập email vào Adobe sẽ đòi mã otp, các bác vào email để lấy mã otp (dùng web đọc mail nhanh ở trên) để lấy code otp cho nhanh nhé, rồi tự tạo pass Adobe nếu cần là xong!\n⚠️ Để đảm bảo an toàn và tránh mất tài khoản, sau khi nhận acc yêu cầu đổi:\n✔️ Mật khẩu Adobe\n✔️ Mật khẩu Email\n🔐 Đổi mật khẩu Adobe tại:\naccount.adobe.com/profile\n🔐 Đổi mật khẩu Hotmail/Outlook tại:\nhttps://account.live.com/password/change\n⚠️ ĐĂNG NHẬP VÀO CHỌN PERSONAL PROFILE  (  HỒ SƠ CÁ NHÂN )\n⚠️ HÀNG ĐÃ QUA TEST BÁN HƠN NỬA THÁNG KHÁ BỀN CÓ THỂ LIVE 5-7 hoặc HƠN (NỢ BILL), HI HỮU CHỈ MỘT SỐ LÔ BỊ QUÉT SỚM VUI LÒNG HOAN HỈ. CẢM ƠN ĐÃ ỦNG HỘ SHOP",
+        "hidden": false,
         "sources": {
           "piggyai99_bot": {
             "stock": 1,
             "cost_price": 65000,
             "selling_price": 75000,
             "updated": "22:13 19/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 55000,
+            "selling_price": 65000,
+            "updated": "22:13 19/10/2026"
           }
-        },
-        "cost_price": 65000,
-        "needs_review": true
+        }
       },
       {
         "id": "p-1791969759029",
@@ -4733,25 +4705,6 @@
           }
         },
         "cost_price": 75000,
-        "needs_review": true
-      },
-      {
-        "id": "p-1791969764176",
-        "name": "Adobe All Apps 7D BH 12H ( gói chính hãng )",
-        "price": 65000,
-        "stock": 1,
-        "stock_text": "Còn 1",
-        "duration": "12 Giờ",
-        "detail": "Adobe All Apps 7D sử dụng 2 thiết bị 4000 credits\n- Định dạng tài khoản: email | pass_hotmail | token, muốn đọc token mail nhanh thì copy rồi vào link web bên dưới dán code vào\n- Link đọc token: https://smail1s.com/\n(Lưu ý: nhớ chọn '\"Oauth2 - Graph\" mới đọc được mail)\n(Hoặc đăng nhập email lấy code mail thủ công tại https://outlook.live.com/mail )\nKhách nhập email vào Adobe sẽ đòi mã otp, các bác vào email để lấy mã otp (dùng web đọc mail nhanh ở trên) để lấy code otp cho nhanh nhé, rồi tự tạo pass Adobe nếu cần là xong!\n⚠️ Để đảm bảo an toàn và tránh mất tài khoản, sau khi nhận acc yêu cầu đổi:\n✔️ Mật khẩu Adobe\n✔️ Mật khẩu Email\n🔐 Đổi mật khẩu Adobe tại:\naccount.adobe.com/profile\n🔐 Đổi mật khẩu Hotmail/Outlook tại:\nhttps://account.live.com/password/change\n⚠️ ĐĂNG NHẬP VÀO CHỌN PERSONAL PROFILE  (  HỒ SƠ CÁ NHÂN )\n⚠️ HÀNG ĐÃ QUA TEST BÁN HƠN NỬA THÁNG KHÁ BỀN CÓ THỂ LIVE 5-7 hoặc HƠN (NỢ BILL), HI HỮU CHỈ MỘT SỐ LÔ BỊ QUÉT SỚM VUI LÒNG HOAN HỈ. CẢM ƠN ĐÃ ỦNG HỘ SHOP",
-        "sources": {
-          "taphoathomap_bot": {
-            "stock": 1,
-            "cost_price": 55000,
-            "selling_price": 65000,
-            "updated": "22:13 19/10/2026"
-          }
-        },
-        "cost_price": 55000,
         "needs_review": true
       },
       {
@@ -4888,6 +4841,37 @@
     "logo": "https://www.google.com/s2/favicons?domain=expressvpn.com&sz=64",
     "plans": [
       {
+        "id": "p-nord-vpn-10tb-7d-unified",
+        "name": "NORD VPN 10 Thiết Bị 7 Ngày BHF",
+        "price": 45000,
+        "cost_price": 25000,
+        "stock": 33,
+        "stock_text": "Còn 33",
+        "duration": "1 Tháng",
+        "detail": "- Nord Vpn dùng 10 thiết bị 7 ngày bhf\n- Định dạng tk|mk dùng được android ios pc\n- Lấy code tại wed https://mailtemp.vn/ hoặc cutemail.us",
+        "hidden": false,
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 11,
+            "cost_price": 25000,
+            "updated": "01:44 16/10/2026",
+            "selling_price": 35000
+          },
+          "taphoathomap_bot": {
+            "stock": 11,
+            "cost_price": 20000,
+            "updated": "01:45 16/10/2026",
+            "selling_price": 30000
+          },
+          "sieuthistore_bot": {
+            "stock": 11,
+            "cost_price": 35000,
+            "updated": "01:45 16/10/2026",
+            "selling_price": 45000
+          }
+        }
+      },
+      {
         "id": "p-1791938217562",
         "name": "Express VPN 6-7 ngày BHF",
         "price": 30000,
@@ -4994,64 +4978,6 @@
         },
         "hidden": false,
         "cost_price": 10000
-      },
-      {
-        "id": "p-1792089898144",
-        "name": "NORD VPN 7 NGÀY 10 THIẾT BỊ BHF",
-        "price": 35000,
-        "stock": 11,
-        "stock_text": "Còn 11",
-        "duration": "1 Tháng",
-        "detail": "- Nord Vpn dùng 10 thiết bị 7 ngày bhf\n- Định dạng tk|mk dùng được android ios pc\n- Lấy code tại wed https://mailtemp.vn/ hoặc cutemail.us",
-        "sources": {
-          "ntnshopre_bot": {
-            "stock": 11,
-            "cost_price": 25000,
-            "updated": "01:44 16/10/2026",
-            "selling_price": 35000
-          }
-        },
-        "hidden": false,
-        "cost_price": 25000
-      },
-      {
-        "id": "p-1792089905786",
-        "name": "NORD VPN 10 thiết bị 7 ngày BHF",
-        "price": 45000,
-        "stock": 11,
-        "stock_text": "Còn 11",
-        "duration": "1 Tháng",
-        "detail": "- Nord Vpn dùng 10 thiết bị 7 ngày bhf\n- Định dạng tk|mk dùng được android ios pc\n- Lấy code tại wed https://mailtemp.vn/ hoặc cutemail.us",
-        "sources": {
-          "taphoathomap_bot": {
-            "stock": 11,
-            "cost_price": 20000,
-            "updated": "01:45 16/10/2026",
-            "selling_price": 30000
-          }
-        },
-        "hidden": false,
-        "cost_price": 35000
-      },
-      {
-        "id": "p-1792089911145",
-        "name": "NORD VPN 10 thiết bị 7 ngày BHF",
-        "price": 45000,
-        "stock": 11,
-        "stock_text": "Còn 11",
-        "duration": "1 Tháng",
-        "detail": "- Nord Vpn dùng 10 thiết bị 7 ngày bhf\n- Định dạng tk|mk dùng được android ios pc\n- Lấy code tại wed https://mailtemp.vn/ hoặc cutemail.us",
-        "sources": {
-          "sieuthistore_bot": {
-            "stock": 11,
-            "cost_price": 35000,
-            "updated": "01:45 16/10/2026",
-            "selling_price": 45000
-          }
-        },
-        "hidden": true,
-        "needs_review": true,
-        "cost_price": 35000
       },
       {
         "id": "p-1792205006619",
@@ -5459,6 +5385,43 @@
     "logo": "https://www.google.com/s2/favicons?domain=meitu.com&sz=64",
     "plans": [
       {
+        "id": "p-meitu-vip-1m-unified",
+        "name": "MEITU VIP+ 1 THÁNG BHF",
+        "price": 90000,
+        "cost_price": 60000,
+        "stock": 103,
+        "stock_text": "Còn 103",
+        "duration": "1 Tháng",
+        "detail": "⚠️ LƯU Ý QUAN TRỌNG\n📱 Chỉ sử dụng trên 01 thiết bị iPhone/iOS\n🔐 Quy định sử dụng:\n• Đăng nhập trong vòng 30 phút kể từ lúc mua.\n• Không đăng xuất tài khoản sau khi đăng nhập.\n• Không chia sẻ tài khoản, không đổi mật khẩu/thông tin tài khoản.\n• Không đăng nhập nhiều thiết bị.\n➡️ Vi phạm bất kỳ quy định nào sẽ không được bảo hành.\n🍎 Hướng dẫn đăng nhập iPhone/iOS:\nThông thường không cần mã xác nhận. Chọn +852 hoặc +86, nhập SĐT + mật khẩu rồi đăng nhập.\n👆 Xem ảnh hướng dẫn đăng nhập phía trên.\n🛠 Nếu bị lỗi: chụp màn hình tình trạng lỗi ngay sau khi đăng nhập và gửi cho shop để được hỗ trợ.",
+        "hidden": false,
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 9,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "21:45 18/10/2026"
+          },
+          "ntnshopre_bot": {
+            "stock": 34,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "13:46 18/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 9,
+            "cost_price": 75000,
+            "selling_price": 85000,
+            "updated": "21:45 18/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 9,
+            "cost_price": 75000,
+            "selling_price": 85000,
+            "updated": "21:45 18/10/2026"
+          }
+        }
+      },
+      {
         "id": "p-1791911398561",
         "name": "Meitu VIP 7 Ngày BHF",
         "price": 40000,
@@ -5506,84 +5469,6 @@
           }
         },
         "cost_price": 35000
-      },
-      {
-        "id": "p-1791925962704",
-        "name": "MEITU VIP+ 1 THÁNG BHF",
-        "price": 90000,
-        "stock": 67,
-        "stock_text": "Còn 67",
-        "duration": "1 Tháng",
-        "detail": "⚠️ LƯU Ý QUAN TRỌNG\n📱 Chỉ sử dụng trên 01 thiết bị iPhone/iOS\n🔐 Quy định sử dụng:\n• Đăng nhập trong vòng 30 phút kể từ lúc mua.\n• Không đăng xuất tài khoản sau khi đăng nhập.\n• Không chia sẻ tài khoản, không đổi mật khẩu/thông tin tài khoản.\n• Không đăng nhập nhiều thiết bị.\n➡️ Vi phạm bất kỳ quy định nào sẽ không được bảo hành.\n🍎 Hướng dẫn đăng nhập iPhone/iOS:\nThông thường không cần mã xác nhận. Chọn +852 hoặc +86, nhập SĐT + mật khẩu rồi đăng nhập.\n👆 Xem ảnh hướng dẫn đăng nhập phía trên.\n🛠 Nếu bị lỗi: chụp màn hình tình trạng lỗi ngay sau khi đăng nhập và gửi cho shop để được hỗ trợ.",
-        "sources": {
-          "taphoathomap_bot": {
-            "stock": 9,
-            "cost_price": 60000,
-            "selling_price": 70000,
-            "updated": "21:45 18/10/2026"
-          },
-          "ntnshopre_bot": {
-            "stock": 34,
-            "cost_price": 80000,
-            "selling_price": 90000,
-            "updated": "13:46 18/10/2026"
-          },
-          "sieuthistore_bot": {
-            "stock": 24,
-            "cost_price": 70000,
-            "selling_price": 80000,
-            "updated": "11:40 18/10/2026"
-          }
-        },
-        "cost_price": 60000,
-        "needs_review": true
-      },
-      {
-        "id": "p-1791925999209",
-        "name": "Meitu Vip+ 30D BHF",
-        "price": 80000,
-        "stock": 12,
-        "stock_text": "Còn 12",
-        "duration": "30D",
-        "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.",
-        "cost_price": 70000
-      },
-      {
-        "id": "p-1792018974632",
-        "name": "Meitu SVIP 1 Tháng BHF",
-        "price": 85000,
-        "stock": 18,
-        "stock_text": "Còn 18",
-        "duration": "1 Tháng",
-        "detail": "⚠️ LƯU Ý QUAN TRỌNG\n📱 Chỉ sử dụng trên 01 thiết bị iPhone/iOS\n🔐 Quy định sử dụng:\n• Đăng nhập trong vòng 30 phút kể từ lúc mua.\n• Không đăng xuất tài khoản sau khi đăng nhập.\n• Không chia sẻ tài khoản, không đổi mật khẩu/thông tin tài khoản.\n• Không đăng nhập nhiều thiết bị.\n➡️ Vi phạm bất kỳ quy định nào sẽ không được bảo hành.\n🍎 Hướng dẫn đăng nhập iPhone/iOS:\nThông thường không cần mã xác nhận. Chọn +852 hoặc +86, nhập SĐT + mật khẩu rồi đăng nhập.\n👆 Xem ảnh hướng dẫn đăng nhập phía trên.\n🛠 Nếu bị lỗi: chụp màn hình tình trạng lỗi ngay sau khi đăng nhập và gửi cho shop để được hỗ trợ.",
-        "sources": {
-          "piggyai99_bot": {
-            "stock": 9,
-            "cost_price": 75000,
-            "selling_price": 85000,
-            "updated": "21:45 18/10/2026"
-          },
-          "sieuthistore_bot": {
-            "stock": 9,
-            "cost_price": 75000,
-            "selling_price": 85000,
-            "updated": "21:45 18/10/2026"
-          }
-        },
-        "cost_price": 75000,
-        "needs_review": true
-      },
-      {
-        "id": "p-1791867584592",
-        "name": "Meitu Vip+ 30D BHF",
-        "price": 80000,
-        "stock": 6,
-        "stock_text": "Còn 6",
-        "duration": "1 Tháng",
-        "detail": "Chỉnh sửa: Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.",
-        "hidden": true,
-        "needs_review": true,
-        "cost_price": 70000
       },
       {
         "id": "p-1792052819376",
@@ -6424,6 +6309,43 @@
     "logo": "https://www.google.com/s2/favicons?domain=jetbrains.com&sz=64",
     "plans": [
       {
+        "id": "p-zoom-pro-28d-unified",
+        "name": "Acc Cấp Zoom Pro 28 Ngày BHF",
+        "price": 85000,
+        "cost_price": 60000,
+        "stock": 40,
+        "stock_text": "Còn 40",
+        "duration": "1 Tháng",
+        "detail": "Zoom Pro 100 members, 30 giờ mỗi cuộc họp\nĐịnh dạng: Email|Pass|Web mail\n📝 ✨ VÀI LƯU Ý QUAN TRỌNG  GỬI ĐẾN BẠN ✨\nCảm ơn bạn đã tin tưởng và nâng cấp tài khoản Zoom tại! Để quá trình sử dụng của bạn được suôn sẻ và nhận được hỗ trợ tốt nhất, bạn vui lòng lưu ý giúp shop vài điểm nhỏ sau nhé:\n🔑 Về mật khẩu tài khoản:\n- Để shop có thể hỗ trợ bạn tức thì khi có sự cố phát sinh, bạn vui lòng không thay đổi mật khẩu trong thời gian sử dụng gói cước. Nếu có thay đổi, bạn đừng quên báo lại mật khẩu mới cho shop nhé!\n📲 Về xác thực hai yếu tố (2FA):\n- Trong quá trình đăng nhập, nếu màn hình hiển thị yêu cầu xác thực 2 yếu tố, bạn chỉ cần chọn \"Bỏ qua\"…\n✨ Lưu ý về việc lấy code otp ở web, nếu check mail thấy mã 333333 thì các bác phải nhấn vào mã đó để ra nội dung chứa code chuẩn 6 số nhé, đừng nhập mã 333333 là sai nhé, nếu bị khóa đợi 30 phút nó mở lại",
+        "hidden": false,
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 10,
+            "cost_price": 65000,
+            "updated": "02:28 18/10/2026",
+            "selling_price": 75000
+          },
+          "taphoathomap_bot": {
+            "stock": 10,
+            "cost_price": 45000,
+            "updated": "02:28 18/10/2026",
+            "selling_price": 55000
+          },
+          "piggyai99_bot": {
+            "stock": 10,
+            "cost_price": 60000,
+            "updated": "02:28 18/10/2026",
+            "selling_price": 70000
+          },
+          "ntnshopre_bot": {
+            "stock": 10,
+            "cost_price": 75000,
+            "updated": "02:28 18/10/2026",
+            "selling_price": 85000
+          }
+        }
+      },
+      {
         "id": "p-1791898423543",
         "name": "gamma 10k credit bonus 10k 10 năm BH 3 tháng",
         "price": 140000,
@@ -6510,70 +6432,6 @@
         "hidden": true,
         "needs_review": true,
         "cost_price": 50000
-      },
-      {
-        "id": "p-1792265282764",
-        "name": "Acc cấp Zoom Pro 28 Ngày BHF",
-        "price": 75000,
-        "stock": 10,
-        "stock_text": "Còn 10",
-        "duration": "1 Tháng",
-        "detail": "Zoom Pro 100 members, 30 giờ mỗi cuộc họp\nĐịnh dạng: Email|Pass|Web mail\n📝 ✨ VÀI LƯU Ý QUAN TRỌNG  GỬI ĐẾN BẠN ✨\nCảm ơn bạn đã tin tưởng và nâng cấp tài khoản Zoom tại! Để quá trình sử dụng của bạn được suôn sẻ và nhận được hỗ trợ tốt nhất, bạn vui lòng lưu ý giúp shop vài điểm nhỏ sau nhé:\n🔑 Về mật khẩu tài khoản:\n- Để shop có thể hỗ trợ bạn tức thì khi có sự cố phát sinh, bạn vui lòng không thay đổi mật khẩu trong thời gian sử dụng gói cước. Nếu có thay đổi, bạn đừng quên báo lại mật khẩu mới cho shop nhé!\n📲 Về xác thực hai yếu tố (2FA):\n- Trong quá trình đăng nhập, nếu màn hình hiển thị yêu cầu xác thực 2 yếu tố, bạn chỉ cần chọn \"Bỏ qua\"…\n✨ Lưu ý về việc lấy code otp ở web, nếu check mail thấy mã 333333 thì các bác phải nhấn vào mã đó để ra nội dung chứa code chuẩn 6 số nhé, đừng nhập mã 333333 là sai nhé, nếu bị khóa đợi 30 phút nó mở lại",
-        "sources": {
-          "sieuthistore_bot": {
-            "stock": 10,
-            "cost_price": 65000,
-            "updated": "02:28 18/10/2026",
-            "selling_price": 75000
-          }
-        },
-        "hidden": false,
-        "cost_price": 65000
-      },
-      {
-        "id": "p-1792265287086",
-        "name": "Zoom Pro 28 Ngày BHF",
-        "price": 70000,
-        "stock": 20,
-        "stock_text": "Còn 20",
-        "duration": "1 Tháng",
-        "detail": "Zoom Pro 100 members, 30 giờ mỗi cuộc họp\nĐịnh dạng: Email|Pass|Web mail\n📝 ✨ VÀI LƯU Ý QUAN TRỌNG  GỬI ĐẾN BẠN ✨\nCảm ơn bạn đã tin tưởng và nâng cấp tài khoản Zoom tại! Để quá trình sử dụng của bạn được suôn sẻ và nhận được hỗ trợ tốt nhất, bạn vui lòng lưu ý giúp shop vài điểm nhỏ sau nhé:\n🔑 Về mật khẩu tài khoản:\n- Để shop có thể hỗ trợ bạn tức thì khi có sự cố phát sinh, bạn vui lòng không thay đổi mật khẩu trong thời gian sử dụng gói cước. Nếu có thay đổi, bạn đừng quên báo lại mật khẩu mới cho shop nhé!\n📲 Về xác thực hai yếu tố (2FA):\n- Trong quá trình đăng nhập, nếu màn hình hiển thị yêu cầu xác thực 2 yếu tố, bạn chỉ cần chọn \"Bỏ qua\"…\n✨ Lưu ý về việc lấy code otp ở web, nếu check mail thấy mã 333333 thì các bác phải nhấn vào mã đó để ra nội dung chứa code chuẩn 6 số nhé, đừng nhập mã 333333 là sai nhé, nếu bị khóa đợi 30 phút nó mở lại",
-        "sources": {
-          "taphoathomap_bot": {
-            "stock": 10,
-            "cost_price": 45000,
-            "updated": "02:28 18/10/2026",
-            "selling_price": 55000
-          },
-          "piggyai99_bot": {
-            "stock": 10,
-            "cost_price": 60000,
-            "updated": "02:28 18/10/2026",
-            "selling_price": 70000
-          }
-        },
-        "hidden": false,
-        "needs_review": true,
-        "cost_price": 60000
-      },
-      {
-        "id": "p-1792265296447",
-        "name": "ACC ZOOM PRO 28 NGÀY BHF",
-        "price": 85000,
-        "stock": 10,
-        "stock_text": "Còn 10",
-        "duration": "1 Tháng",
-        "detail": "Zoom Pro 100 members, 30 giờ mỗi cuộc họp\nĐịnh dạng: Email|Pass|Web mail\n📝 ✨ VÀI LƯU Ý QUAN TRỌNG  GỬI ĐẾN BẠN ✨\nCảm ơn bạn đã tin tưởng và nâng cấp tài khoản Zoom tại! Để quá trình sử dụng của bạn được suôn sẻ và nhận được hỗ trợ tốt nhất, bạn vui lòng lưu ý giúp shop vài điểm nhỏ sau nhé:\n🔑 Về mật khẩu tài khoản:\n- Để shop có thể hỗ trợ bạn tức thì khi có sự cố phát sinh, bạn vui lòng không thay đổi mật khẩu trong thời gian sử dụng gói cước. Nếu có thay đổi, bạn đừng quên báo lại mật khẩu mới cho shop nhé!\n📲 Về xác thực hai yếu tố (2FA):\n- Trong quá trình đăng nhập, nếu màn hình hiển thị yêu cầu xác thực 2 yếu tố, bạn chỉ cần chọn \"Bỏ qua\"…\n✨ Lưu ý về việc lấy code otp ở web, nếu check mail thấy mã 333333 thì các bác phải nhấn vào mã đó để ra nội dung chứa code chuẩn 6 số nhé, đừng nhập mã 333333 là sai nhé, nếu bị khóa đợi 30 phút nó mở lại",
-        "sources": {
-          "ntnshopre_bot": {
-            "stock": 10,
-            "cost_price": 75000,
-            "updated": "02:28 18/10/2026",
-            "selling_price": 85000
-          }
-        },
-        "hidden": false,
-        "cost_price": 75000
       },
       {
         "id": "p-1792380877722",
@@ -6740,6 +6598,37 @@
     "short": "KHC",
     "plans": [
       {
+        "id": "p-key-win-10-11-pro-unified",
+        "name": "Key Windows 10/11 Pro Retail Online Vĩnh Viễn BH 7 Ngày",
+        "price": 110000,
+        "cost_price": 89000,
+        "stock": 24,
+        "stock_text": "Còn 24",
+        "duration": "1 Tháng",
+        "detail": "Định Dạng Key: XXXXX-XXXXX-XXXXX-XXXXX\nBảo hành 7 ngày\nNhập trực tiếp vào thiết bị là xong\nSử dụng vĩnh viễn, nhưng nếu cài lại Windows thì khoảng 10% khả năng mất bản quyền\nLink tải: https://www.microsoft.com/en-us/software-download/windows11\nKHÁCH ĐANG Ở BẢN HOME: Đầu tiên, nhập key mẫu dưới đây để nâng cấp TỪ BẢN HOME lên bản Pro:\nXPN43-XP7KQ-KMH2P-Q3P93-2WF9G\nSau khi nâng cấp xong, nhập key bạn đã mua trong đơn hàng để kích hoạt là hoàn tất.",
+        "hidden": false,
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 8,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "04:30 19/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 8,
+            "cost_price": 89000,
+            "selling_price": 99000,
+            "updated": "04:30 19/10/2026"
+          },
+          "ntnshopre_bot": {
+            "stock": 8,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "04:30 19/10/2026"
+          }
+        }
+      },
+      {
         "id": "voucher-mbbank-25tr",
         "name": "Voucher TK Số Đẹp MB Bank 25Tr",
         "price": 60000,
@@ -6836,51 +6725,6 @@
             "cost_price": 180000,
             "selling_price": 200000,
             "updated": "17:17 18/10/2026"
-          }
-        },
-        "hidden": false
-      },
-      {
-        "id": "p-1792359006626",
-        "name": "Key Windows 10/11 Pro Retail Online Vĩnh viễn BH 7 ngày",
-        "price": 110000,
-        "cost_price": 89000,
-        "stock": 16,
-        "stock_text": "Còn 16",
-        "duration": "1 Tháng",
-        "detail": "Định Dạng Key: XXXXX-XXXXX-XXXXX-XXXXX\nBảo hành 7 ngày\nNhập trực tiếp vào thiết bị là xong\nSử dụng vĩnh viễn, nhưng nếu cài lại Windows thì khoảng 10% khả năng mất bản quyền\nLink tải: https://www.microsoft.com/en-us/software-download/windows11\nKHÁCH ĐANG Ở BẢN HOME: Đầu tiên, nhập key mẫu dưới đây để nâng cấp TỪ BẢN HOME lên bản Pro:\nXPN43-XP7KQ-KMH2P-Q3P93-2WF9G\nSau khi nâng cấp xong, nhập key bạn đã mua trong đơn hàng để kích hoạt là hoàn tất.",
-        "sources": {
-          "sieuthistore_bot": {
-            "stock": 8,
-            "cost_price": 100000,
-            "selling_price": 110000,
-            "updated": "04:30 19/10/2026"
-          },
-          "taphoathomap_bot": {
-            "stock": 8,
-            "cost_price": 89000,
-            "selling_price": 99000,
-            "updated": "04:30 19/10/2026"
-          }
-        },
-        "hidden": false,
-        "needs_review": true
-      },
-      {
-        "id": "p-1792359012362",
-        "name": "KEY WINDOWS 10/11 PRO RETAIL ONLINE BH 7 NGÀY",
-        "price": 110000,
-        "cost_price": 100000,
-        "stock": 8,
-        "stock_text": "Còn 8",
-        "duration": "1 Tháng",
-        "detail": "Định Dạng Key: XXXXX-XXXXX-XXXXX-XXXXX\nBảo hành 7 ngày\nNhập trực tiếp vào thiết bị là xong\nSử dụng vĩnh viễn, nhưng nếu cài lại Windows thì khoảng 10% khả năng mất bản quyền\nLink tải: https://www.microsoft.com/en-us/software-download/windows11\nKHÁCH ĐANG Ở BẢN HOME: Đầu tiên, nhập key mẫu dưới đây để nâng cấp TỪ BẢN HOME lên bản Pro:\nXPN43-XP7KQ-KMH2P-Q3P93-2WF9G\nSau khi nâng cấp xong, nhập key bạn đã mua trong đơn hàng để kích hoạt là hoàn tất.",
-        "sources": {
-          "ntnshopre_bot": {
-            "stock": 8,
-            "cost_price": 100000,
-            "selling_price": 110000,
-            "updated": "04:30 19/10/2026"
           }
         },
         "hidden": false
