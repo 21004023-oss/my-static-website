@@ -7107,11 +7107,44 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792530386310",
+        "name": "MiniMax Go Plan $22 1 Tháng (BH 20D)",
+        "price": 185000,
+        "cost_price": 165000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Gói MiniMax Go Plan $22, thời hạn 1 tháng.\nBảo hành 20 ngày.\nĐịnh dạng: Email | Pass | Link đọc code\nLink đăng nhập: https://platform.minimax.io/login",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 165000,
+            "selling_price": 185000,
+            "updated": "04:06 21/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792530386310",
+      "time": "04:06 - 21/10/2026",
+      "timestamp": 1792530386310,
+      "name": "MiniMax Go Plan $22 1 Tháng (BH 20D)",
+      "bot": "taphoathomap_bot",
+      "shopStock": 2,
+      "addedQty": 1,
+      "price": 185000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐MiniMaxGoPlan$221Tháng(BH20D)➕Thêm:1📦Tồnkhohiệntại:2💰Giá:165.000đ"
+    },
     {
       "id": "hist-1792529382880",
       "time": "03:49 - 21/10/2026",
@@ -8497,20 +8530,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:28📦Tồnkhohiệntại:44💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1792438548399",
-      "time": "02:35 - 20/10/2026",
-      "timestamp": 1792438548399,
-      "name": "Admin Canva Pro Business 100 Slot 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 3,
-      "addedQty": 1,
-      "price": 95000,
-      "stockAfter": 3,
-      "catKey": "canva",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🎨AdminCanvaProBusiness100Slot1ThángBHF➕Thêm:1📦Tồnkhohiệntại:3💰Giá:85.000đ"
     }
   ]
 }
