@@ -6688,19 +6688,20 @@
         "name": "Gói VIP 1. API MUSE - Tạo 333 video 10s - 1 Tháng BHF",
         "price": 110000,
         "cost_price": 100000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
-        "detail": "🎬 API MUSE VIP 1 – AI VIDEO GENERATOR\n━━━━━━━━━━━━━━━━\n💎 THÔNG TIN GÓI\n• Số lượng: 333 video\n• Thời lượng: 10 giây/video, độ phân giải 720\n• Khung hình: 16:9 & 9:16\n🚀 TÍNH NĂNG NỔI BẬT\n• Text-to-Video: Tạo video từ văn bản\n• Image-to-Video: Tạo video từ hình ảnh\n• Hỗ trợ tạo nhiều video cùng lúc\n• AI tự động xử lý yêu cầu\n• Sử dụng trực tiếp trên website\n• Không cần cài đặt phần mềm\n🔑 HƯỚNG DẪN SỬ DỤNG\n① Nhận API Key sau khi mua\n② Truy cập Playground và nhập Key\n③ Nhập Prompt hoặc tải ảnh lên\n④ Chọn khung hình và tạo video\n⚠️ LƯU Ý\n• Video thành công sẽ trừ số dư theo gói\n• Tốc độ xử lý phụ thuộc hệ thống\n• Vui lòng tuân thủ chính sách dịch vụ\n------\nWeb tạo video : https://muse.careflow-demo.online/playground",
+        "detail": "🎬 API MUSE VIP 1 – AI VIDEO GENERATOR\n━━━━━━━━━━━━━━━━\n💎 THÔNG TIN GÓI\n• Số lượng: 333 video\n• Thời lượng: 10 giây/video, độ phân giải 720\n• Khung hình: 16:9 & 9:16\n🚀 TÍNH NĂNG NỔI BẬT\n• Text-to-Video: Tạo video từ văn bản\n• Image-to-Video: Tạo video từ hình ảnh\n• Hỗ trợ tạo nhiều video cùng lúc\n• AI tự động xử lý yêu cầu\n• Sử dụng trực tiếp trên website\n• Không cần cài đặt phần mềm\n🔑 HƯỚNG DẪN SỬ DỤNG\n① Nhận API Key sau khi mua\n② Truy cập Playground và nhập Key\n③ Nhập Prompt hoặc tải ảnh lên\n④ Chọn khung hình và tạo video\n⚠️ LƯU Ý\n• Video thành công sẽ trừ số dư theo gói\n• Tốc độ xử lý phụ thuộc hệ thống\n• Vui lòng tuân thủ chính sách dịch vụ\n------\n* Web tạo video : https://muse.careflow-demo.online/playground\n* Tạo 2 video đồng thời",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 9,
+            "stock": 0,
             "cost_price": 100000,
             "selling_price": 110000,
-            "updated": "05:43 20/10/2026"
+            "updated": "20:06 21/10/2026"
           }
         },
-        "hidden": false
+        "hidden": true,
+        "needs_review": true
       }
     ]
   },
@@ -7309,6 +7310,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792587984129",
+      "time": "20:06 - 21/10/2026",
+      "timestamp": 1792587984129,
+      "name": "Gói VIP 1. API MUSE - Tạo 333 video 10s - 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 0,
+      "addedQty": 10,
+      "price": 110000,
+      "stockAfter": 0,
+      "catKey": "muse-ai",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐GóiVIP1.APIMUSE-Tạo333video10s-1ThángBHF➕Thêm:10📦Tồnkhohiệntại:0💰Giá:100.000đ"
+    },
     {
       "id": "hist-1792587425309",
       "time": "19:57 - 21/10/2026",
@@ -8694,20 +8709,6 @@
       "catKey": "vpn",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🚚ExpressVPN3NgàyBHF💰Giá:25k📦Tồnkho:7tàikhoản📊Đãbán:770tàikhoản💎Môtả:Địnhdạng:ema"
-    },
-    {
-      "id": "hist-1792490598313",
-      "time": "17:03 - 20/10/2026",
-      "timestamp": 1792490598313,
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 7,
-      "addedQty": 8,
-      "price": 35000,
-      "stockAfter": 20,
-      "catKey": "vpn",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:8📦Tồnkhohiệntại:7💰Giá:25.000đ"
     }
   ]
 }
