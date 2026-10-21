@@ -4376,17 +4376,17 @@
         "name": "ChatGPT Free Gmail KBH",
         "price": 20000,
         "cost_price": 10000,
-        "stock": 1098,
-        "stock_text": "Còn 1098",
+        "stock": 868,
+        "stock_text": "Còn 868",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư , đổi pass thỏa mái\n📂 Format: Email | Pass | 2FA\n⚠️ Hỗ trợ vấn đề trong 1H đầu. Sau 1H shop không hỗ trợ",
         "hidden": true,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1098,
+            "stock": 868,
             "cost_price": 10000,
             "selling_price": 20000,
-            "updated": "09:38 21/10/2026"
+            "updated": "09:39 21/10/2026"
           }
         },
         "needs_review": true
@@ -7206,6 +7206,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792550380536",
+      "time": "09:39 - 21/10/2026",
+      "timestamp": 1792550380536,
+      "name": "ChatGPT Free Gmail KBH",
+      "bot": "sieuthistore_bot",
+      "shopStock": 868,
+      "addedQty": 0,
+      "price": 20000,
+      "stockAfter": 868,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTFreeGmailKBH💰Giá:10k📦Tồnkho:868tàikhoản📊Đãbán:3.094tàikhoản💎Môtả:🔐Accriê"
+    },
+    {
       "id": "hist-1792550314966",
       "time": "09:38 - 21/10/2026",
       "timestamp": 1792550314966,
@@ -8590,20 +8604,6 @@
       "catKey": "gmail",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📧Gmail(New)-Loginphone➕Thêm:43📦Tồnkhohiệntại:0💰Giá:23.000đ"
-    },
-    {
-      "id": "hist-1792452899283",
-      "time": "06:34 - 20/10/2026",
-      "timestamp": 1792452899283,
-      "name": "Gmail (New) -Login phone",
-      "bot": "sieuthistore_bot",
-      "shopStock": 0,
-      "addedQty": 43,
-      "price": 43000,
-      "stockAfter": 41,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧Gmail(New)-Loginphone➕Thêm:43📦Tồnkhohiệntại:0💰Giá:33.000đ"
     }
   ]
 }
