@@ -4376,19 +4376,20 @@
         "name": "ChatGPT Free Gmail KBH",
         "price": 20000,
         "cost_price": 10000,
-        "stock": 247,
-        "stock_text": "Còn 247",
-        "duration": "Vĩnh viễn",
+        "stock": 1098,
+        "stock_text": "Còn 1098",
+        "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư , đổi pass thỏa mái\n📂 Format: Email | Pass | 2FA\n⚠️ Hỗ trợ vấn đề trong 1H đầu. Sau 1H shop không hỗ trợ",
-        "hidden": false,
+        "hidden": true,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 180,
+            "stock": 1098,
             "cost_price": 10000,
             "selling_price": 20000,
-            "updated": "09:25 18/10/2026"
+            "updated": "09:38 21/10/2026"
           }
-        }
+        },
+        "needs_review": true
       },
       {
         "id": "p-1792490607327",
@@ -7205,6 +7206,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792550314966",
+      "time": "09:38 - 21/10/2026",
+      "timestamp": 1792550314966,
+      "name": "ChatGPT Free Gmail KBH",
+      "bot": "sieuthistore_bot",
+      "shopStock": 1098,
+      "addedQty": 1080,
+      "price": 20000,
+      "stockAfter": 1098,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTFreeGmailKBH➕Thêm:1080📦Tồnkhohiệntại:1098💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1792549797853",
       "time": "09:29 - 21/10/2026",
       "timestamp": 1792549797853,
@@ -8589,20 +8604,6 @@
       "catKey": "gmail",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧Gmail(New)-Loginphone➕Thêm:43📦Tồnkhohiệntại:0💰Giá:33.000đ"
-    },
-    {
-      "id": "hist-1792451053428",
-      "time": "06:04 - 20/10/2026",
-      "timestamp": 1792451053428,
-      "name": "Link Gemini Pro 18 Tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 111,
-      "addedQty": 50,
-      "price": 37000,
-      "stockAfter": 111,
-      "catKey": "google-veo",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:50📦Tồnkhohiệntại:111💰Giá:27.000đ"
     }
   ]
 }
