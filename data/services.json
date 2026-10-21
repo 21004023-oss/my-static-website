@@ -2212,16 +2212,16 @@
         "id": "p-1792119807992",
         "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
         "price": 75000,
-        "stock": 54,
-        "stock_text": "Còn 54",
+        "stock": 63,
+        "stock_text": "Còn 63",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 27,
+            "stock": 36,
             "cost_price": 65000,
             "selling_price": 75000,
-            "updated": "17:17 21/10/2026"
+            "updated": "20:37 21/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 27,
@@ -7312,6 +7312,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792589857608",
+      "time": "20:37 - 21/10/2026",
+      "timestamp": 1792589857608,
+      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 36,
+      "addedQty": 20,
+      "price": 75000,
+      "stockAfter": 63,
+      "catKey": "capcut",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:20📦Tồnkhohiệntại:36💰Giá:65.000đ"
+    },
+    {
       "id": "hist-1792589800415",
       "time": "20:36 - 21/10/2026",
       "timestamp": 1792589800415,
@@ -8696,20 +8710,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF💰Giá:230k📦Tồnkho:85tàikhoản📊Đãbán:1.159tàikhoản"
-    },
-    {
-      "id": "hist-1792490625291",
-      "time": "17:03 - 20/10/2026",
-      "timestamp": 1792490625291,
-      "name": "Microsoft Office 365 - 2 Năm BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 5,
-      "addedQty": 5,
-      "price": 60000,
-      "stockAfter": 5,
-      "catKey": "microsoft",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐MicrosoftOffice365-2NămBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:50.000đ"
     }
   ]
 }
