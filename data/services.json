@@ -2034,17 +2034,17 @@
         "id": "p-1791877845717",
         "name": "CAPCUT PRO 3 THÁNG BHF",
         "price": 205000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "3 Tháng",
         "detail": "Tài khoản Capcut Pro dạng team hạn sử dụng 90 ngày. • Có thể nhận tới 2000 Credit AI • Định dạng: Email | Pass • Login 1-2 thiết bị hạn chế login nhiều thiết bị. • Bảo hành 90 ngày, không bảo hành lỗi đăng nhập quá thường xuyên.\nTK tự động gia hạn mỗi tháng 1 lần đến khi đủ 1 tháng",
         "cost_price": 185000,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 5,
             "cost_price": 185000,
             "selling_price": 205000,
-            "updated": "07:49 21/10/2026"
+            "updated": "11:17 21/10/2026"
           }
         },
         "needs_review": true,
@@ -7206,6 +7206,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792556275557",
+      "time": "11:17 - 21/10/2026",
+      "timestamp": 1792556275557,
+      "name": "CapCut Pro 3 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 5,
+      "addedQty": 5,
+      "price": 205000,
+      "stockAfter": 5,
+      "catKey": "capcut",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:185.000đ"
+    },
+    {
       "id": "hist-1792554816665",
       "time": "10:53 - 21/10/2026",
       "timestamp": 1792554816665,
@@ -8590,20 +8604,6 @@
       "catKey": "gmail",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧Gmailrandomnew➕Thêm:1📦Tồnkhohiệntại:11💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792460914787",
-      "time": "08:48 - 20/10/2026",
-      "timestamp": 1792460914787,
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "taphoathomap_bot",
-      "shopStock": 30,
-      "addedQty": 29,
-      "price": 40000,
-      "stockAfter": 30,
-      "catKey": "muse-ai",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:29📦Tồnkhohiệntại:30💰Giá:30.000đ"
     }
   ]
 }
