@@ -2765,7 +2765,7 @@
             "stock": 38,
             "cost_price": 10000,
             "selling_price": 20000,
-            "updated": "17:02 20/10/2026"
+            "updated": "12:18 21/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 38,
@@ -7225,6 +7225,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792559904179",
+      "time": "12:18 - 21/10/2026",
+      "timestamp": 1792559904179,
+      "name": "SMS nhận OTP xác minh Codex 24h - KBH",
+      "bot": "piggyai99_bot",
+      "shopStock": 38,
+      "addedQty": 30,
+      "price": 20000,
+      "stockAfter": 76,
+      "catKey": "api-claude-codex",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🤖SMSnhậnOTPxácminhCodex24h-KBH➕Thêm:30📦Tồnkhohiệntại:38💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1792559899869",
       "time": "12:18 - 21/10/2026",
       "timestamp": 1792559899869,
@@ -8609,20 +8623,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖NângchínhchủChatGPTVerStudentsofferPlus4ThángKBH💰Giá:350k📦Tồnkho:∞tàikhoản📊Đãbá"
-    },
-    {
-      "id": "hist-1792466403307",
-      "time": "10:20 - 20/10/2026",
-      "timestamp": 1792466403307,
-      "name": "Nâng chính chủ ChatGPT Ver Students offer  Plus 4 Tháng  KBH",
-      "bot": "taphoathomap_bot",
-      "shopStock": 6,
-      "addedQty": 6,
-      "price": 400000,
-      "stockAfter": 6,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖NângchínhchủChatGPTVerStudentsofferPlus4ThángKBH➕Thêm:6📦Tồnkhohiệntại:6💰Giá:350"
     }
   ]
 }
