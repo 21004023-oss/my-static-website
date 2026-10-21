@@ -4825,17 +4825,17 @@
         "id": "p-1792508363624",
         "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
         "price": 65000,
-        "cost_price": 55000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "cost_price": 60000,
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
-        "detail": "✅Netflix 4K Premium bảo hành full 1 tháng sử dụng.\n✅Có web riêng lấy code, xác minh hộ gia đình v.v...\n✅Định dạng mail|pass|Profile riêng, mã pin riêng\n---Lưu ý: Sau khi nhập mail xong chọn mục NHẬN TRỢ GIÚP để nhập pass\n✅ Bảo hành full trong suốt thời gian sử dụng",
+        "detail": "✅Netflix 4K Premium bảo hành full 1 tháng sử dụng.\n✅Có web riêng lấy code, xác minh hộ gia đình v.v...\n✅Định dạng mail|pass|Profile riêng, mã pin riêng\n---Lưu ý: Sau khi nhập mail xong chọn mục NHẬN TRỢ GIÚP để nhập pass\n✅ Bảo hành full trong suốt thời gian sử dụng\nvào taikhoan24h.vn lấy otp",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 4,
-            "cost_price": 55000,
-            "selling_price": 65000,
-            "updated": "03:32 21/10/2026"
+            "stock": 1,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "09:11 21/10/2026"
           }
         },
         "hidden": true,
@@ -7184,6 +7184,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792548670832",
+      "time": "09:11 - 21/10/2026",
+      "timestamp": 1792548670832,
+      "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành  full",
+      "bot": "taphoathomap_bot",
+      "shopStock": 1,
+      "addedQty": 1,
+      "price": 70000,
+      "stockAfter": 1,
+      "catKey": "netflix",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬[Slot]Netflix4KPremium1thángBảohànhfull➕Thêm:1📦Tồnkhohiệntại:1💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1792547523891",
       "time": "08:52 - 21/10/2026",
       "timestamp": 1792547523891,
@@ -8568,20 +8582,6 @@
       "catKey": "higgsfield",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🎬HIGGSFIELDSTARTER210CREDITS1THÁNGBẢOHÀNH24H➕Thêm:1📦Tồnkhohiệntại:0💰Giá:175.000đ"
-    },
-    {
-      "id": "hist-1792449520961",
-      "time": "05:38 - 20/10/2026",
-      "timestamp": 1792449520961,
-      "name": "Higgsfield Starter 210 Credit 1 Tháng (BH 24H)",
-      "bot": "taphoathomap_bot",
-      "shopStock": 0,
-      "addedQty": 1,
-      "price": 180000,
-      "stockAfter": 0,
-      "catKey": "higgsfield",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬HiggsfieldStarter210Credit1Tháng(BH24H)➕Thêm:1📦Tồnkhohiệntại:0💰Giá:160.000đ"
     }
   ]
 }
