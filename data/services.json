@@ -4356,19 +4356,20 @@
         "name": "ChatGPT Free (Hàng Gmail) - KBH",
         "price": 12000,
         "cost_price": 2000,
-        "stock": 1355,
-        "stock_text": "Còn 1355",
-        "duration": "Vĩnh viễn",
+        "stock": 1098,
+        "stock_text": "Còn 1098",
+        "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư , đổi pass thỏa mái\n📂 Format: Email | Pass | 2FA\n⚠️ Hỗ trợ vấn đề trong 1H đầu. Sau 1H shop không hỗ trợ",
-        "hidden": false,
+        "hidden": true,
         "sources": {
           "taphoathomap_bot": {
-            "stock": 765,
+            "stock": 1098,
             "cost_price": 2000,
             "selling_price": 12000,
-            "updated": "20:45 18/10/2026"
+            "updated": "09:29 21/10/2026"
           }
-        }
+        },
+        "needs_review": true
       },
       {
         "id": "gpt-free-gmail-20k-unified",
@@ -7204,6 +7205,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792549797853",
+      "time": "09:29 - 21/10/2026",
+      "timestamp": 1792549797853,
+      "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
+      "bot": "taphoathomap_bot",
+      "shopStock": 1098,
+      "addedQty": 1080,
+      "price": 12000,
+      "stockAfter": 1098,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH➕Thêm:1080📦Tồnkhohiệntại:1098💰Giá:2.000đ"
+    },
+    {
       "id": "hist-1792549025561",
       "time": "09:17 - 21/10/2026",
       "timestamp": 1792549025561,
@@ -8588,20 +8603,6 @@
       "catKey": "google-veo",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:50📦Tồnkhohiệntại:111💰Giá:27.000đ"
-    },
-    {
-      "id": "hist-1792451046549",
-      "time": "06:04 - 20/10/2026",
-      "timestamp": 1792451046549,
-      "name": "LINK GET GEMINI PRO 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "shopStock": 111,
-      "addedQty": 50,
-      "price": 35000,
-      "stockAfter": 111,
-      "catKey": "google-veo",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "☁️LINKGETGEMINIPRO18THÁNGBẢOHÀNH24H➕Thêm:50📦Tồnkhohiệntại:111💰Giá:25.000đ"
     }
   ]
 }
