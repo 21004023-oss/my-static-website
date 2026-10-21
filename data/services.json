@@ -2173,16 +2173,16 @@
         "id": "p-1792119807992",
         "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
         "price": 75000,
-        "stock": 38,
-        "stock_text": "Còn 38",
+        "stock": 54,
+        "stock_text": "Còn 54",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 11,
+            "stock": 27,
             "cost_price": 65000,
             "selling_price": 75000,
-            "updated": "16:34 21/10/2026"
+            "updated": "17:17 21/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 27,
@@ -2193,7 +2193,7 @@
         },
         "hidden": true,
         "needs_review": true,
-        "cost_price": 40000
+        "cost_price": 65000
       },
       {
         "id": "p-1792125293833",
@@ -7248,6 +7248,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792577828258",
+      "time": "17:17 - 21/10/2026",
+      "timestamp": 1792577828258,
+      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 27,
+      "addedQty": 9,
+      "price": 75000,
+      "stockAfter": 54,
+      "catKey": "capcut",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:65.000đ"
+    },
+    {
       "id": "hist-1792577772814",
       "time": "17:16 - 21/10/2026",
       "timestamp": 1792577772814,
@@ -8632,20 +8646,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlus4thángBH24H➕Thêm:86📦Tồnkhohiệntại:86💰Giá:450.000đ"
-    },
-    {
-      "id": "hist-1792472398618",
-      "time": "11:59 - 20/10/2026",
-      "timestamp": 1792472398618,
-      "name": "Meitu Vip+ 3 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 4,
-      "addedQty": 4,
-      "price": 240000,
-      "stockAfter": 8,
-      "catKey": "meitu-wink",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✨MeituVip+3ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:210.000đ"
     }
   ]
 }
