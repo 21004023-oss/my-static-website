@@ -4487,17 +4487,17 @@
         "name": "ChatGPT Free (Hàng Gmail) - KBH",
         "price": 12000,
         "cost_price": 2000,
-        "stock": 1098,
-        "stock_text": "Còn 1098",
+        "stock": 1069,
+        "stock_text": "Còn 1069",
         "duration": "1 Tháng",
-        "detail": "🔐 Acc riêng tư , đổi pass thỏa mái\n📂 Format: Email | Pass | 2FA\n⚠️ Hỗ trợ vấn đề trong 1H đầu. Sau 1H shop không hỗ trợ",
+        "detail": "🔐 Acc riêng tư , đổi pass thỏa mái\n📂 Format: Email | Pass | 2FA\n⚠️ Không có offer, không hoàn tiền sau khi mua\n⚠️ Hỗ trợ vấn đề trong 1H đầu. Sau 1H shop không hỗ trợ",
         "hidden": true,
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1098,
+            "stock": 1069,
             "cost_price": 2000,
             "selling_price": 12000,
-            "updated": "09:29 21/10/2026"
+            "updated": "00:00 22/10/2026"
           }
         },
         "needs_review": true
@@ -7456,6 +7456,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792602048980",
+      "time": "00:00 - 22/10/2026",
+      "timestamp": 1792602048980,
+      "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
+      "bot": "taphoathomap_bot",
+      "shopStock": 1069,
+      "addedQty": 1000,
+      "price": 12000,
+      "stockAfter": 1069,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH➕Thêm:1000📦Tồnkhohiệntại:1069💰Giá:2.000đ"
+    },
+    {
       "id": "hist-1792601762956",
       "time": "23:56 - 21/10/2026",
       "timestamp": 1792601762956,
@@ -8840,20 +8854,6 @@
       "catKey": "google-veo",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:49📦Tồnkhohiệntại:116💰Giá:27.000đ"
-    },
-    {
-      "id": "hist-1792511583554",
-      "time": "22:53 - 20/10/2026",
-      "timestamp": 1792511583554,
-      "name": "ChatGPT Plus (Codex Full) 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 11,
-      "addedQty": 6,
-      "price": 360000,
-      "stockAfter": 11,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus(CodexFull)1ThángBHF➕Thêm:6📦Tồnkhohiệntại:11💰Giá:310.000đ"
     }
   ]
 }
