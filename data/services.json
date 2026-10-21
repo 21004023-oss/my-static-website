@@ -3119,6 +3119,25 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792594889363",
+        "name": "Grok Plus 30 ngày Bh Login",
+        "price": 140000,
+        "cost_price": 120000,
+        "stock": 13,
+        "stock_text": "Còn 13",
+        "duration": "1 Tháng",
+        "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 13,
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "22:01 21/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=x.ai&sz=64"
@@ -7312,6 +7331,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792594889363",
+      "time": "22:01 - 21/10/2026",
+      "timestamp": 1792594889363,
+      "name": "Grok Plus 30 ngày Bh Login",
+      "bot": "sieuthistore_bot",
+      "shopStock": 13,
+      "addedQty": 13,
+      "price": 140000,
+      "stockAfter": 13,
+      "catKey": "grok",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⚡GrokPlus30ngàyBhLogin➕Thêm:13📦Tồnkhohiệntại:13💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1792592601953",
       "time": "21:23 - 21/10/2026",
       "timestamp": 1792592601953,
@@ -8696,20 +8729,6 @@
       "catKey": "canva",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🎨ADMINCANVAPRO1THÁNG100SLOTBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792491245032",
-      "time": "17:14 - 20/10/2026",
-      "timestamp": 1792491245032,
-      "name": "Admin Canva Pro Business 100 Slot 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 2,
-      "addedQty": 1,
-      "price": 95000,
-      "stockAfter": 2,
-      "catKey": "canva",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🎨AdminCanvaProBusiness100Slot1ThángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:85.000đ"
     }
   ]
 }
