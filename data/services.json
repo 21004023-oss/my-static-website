@@ -5853,8 +5853,8 @@
         "id": "p-1792018974632",
         "name": "Meitu SVIP 1 Tháng BHF",
         "price": 85000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "⚠️ LƯU Ý QUAN TRỌNG\n📱 Chỉ sử dụng trên 01 thiết bị iPhone/iOS\n🔐 Quy định sử dụng:\n• Đăng nhập trong vòng 30 phút kể từ lúc mua.\n• Không đăng xuất tài khoản sau khi đăng nhập.\n• Không chia sẻ tài khoản, không đổi mật khẩu/thông tin tài khoản.\n• Không đăng nhập nhiều thiết bị.\n➡️ Vi phạm bất kỳ quy định nào sẽ không được bảo hành.\n🍎 Hướng dẫn đăng nhập iPhone/iOS:\nThông thường không cần mã xác nhận. Chọn +852 hoặc +86, nhập SĐT + mật khẩu rồi đăng nhập.\n👆 Xem ảnh hướng dẫn đăng nhập phía trên.\n🛠 Nếu bị lỗi: chụp màn hình tình trạng lỗi ngay sau khi đăng nhập và gửi cho shop để được hỗ trợ.",
         "sources": {
@@ -5865,10 +5865,10 @@
             "updated": "02:51 22/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 9,
+            "stock": 0,
             "cost_price": 75000,
             "selling_price": 85000,
-            "updated": "21:45 18/10/2026"
+            "updated": "02:52 22/10/2026"
           }
         },
         "cost_price": 75000,
@@ -7457,6 +7457,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792612321513",
+      "time": "02:52 - 22/10/2026",
+      "timestamp": 1792612321513,
+      "name": "Meitu SVip 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 0,
+      "addedQty": 10,
+      "price": 85000,
+      "stockAfter": 0,
+      "catKey": "meitu-wink",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✨MeituSVip1ThángBHF➕Thêm:10📦Tồnkhohiệntại:0💰Giá:75.000đ"
+    },
+    {
       "id": "hist-1792612315385",
       "time": "02:51 - 22/10/2026",
       "timestamp": 1792612315385,
@@ -8841,20 +8855,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTK12Education2nămKBH➕Thêm:20📦Tồnkhohiệntại:18💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1792530386310",
-      "time": "04:06 - 21/10/2026",
-      "timestamp": 1792530386310,
-      "name": "MiniMax Go Plan $22 1 Tháng (BH 20D)",
-      "bot": "taphoathomap_bot",
-      "shopStock": 2,
-      "addedQty": 1,
-      "price": 185000,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐MiniMaxGoPlan$221Tháng(BH20D)➕Thêm:1📦Tồnkhohiệntại:2💰Giá:165.000đ"
     }
   ]
 }
