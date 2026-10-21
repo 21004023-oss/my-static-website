@@ -7200,11 +7200,44 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792553960315",
+        "name": "Chương trình giới thiệu bạn bè",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Chương trình giới thiệu bạn bè bảo hành uy tín.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "10:39 21/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792553960315",
+      "time": "10:39 - 21/10/2026",
+      "timestamp": 1792553960315,
+      "name": "Chương trình giới thiệu bạn bè",
+      "bot": "ntnshopre_bot",
+      "shopStock": 0,
+      "addedQty": 0,
+      "price": 0,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🎁Chươngtrìnhgiớithiệubạnbè•Chiasẻlinkbotkèmmãgiớithiệucủabạn.•Khingườiđượcmờiphá"
+    },
     {
       "id": "hist-1792551525404",
       "time": "09:58 - 21/10/2026",
@@ -8590,20 +8623,6 @@
       "catKey": "youtube",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:173📦Tồnkhohiệntại:51💰Giá:36.000đ"
-    },
-    {
-      "id": "hist-1792454350705",
-      "time": "06:59 - 20/10/2026",
-      "timestamp": 1792454350705,
-      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
-      "bot": "sieuthistore_bot",
-      "shopStock": 51,
-      "addedQty": 173,
-      "price": 49000,
-      "stockAfter": 51,
-      "catKey": "youtube",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:173📦Tồnkhohiệntại:51💰Giá:39.000đ"
     }
   ]
 }
