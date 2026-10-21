@@ -2583,19 +2583,21 @@
         "id": "p-1791898418611",
         "name": "API Claude 50M Token 1 ngày BHF",
         "price": 65000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Ngày",
         "detail": "-API Claude 50M-Hàng anthropic\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Base Url : https://api.opusapi.store/\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-File hướng dẫn sử dụng và thiết lập:\n+ENGLISH: https://docs.google.com/document/d/1-r0i4qkHToW3exdkJfUAzin78s_bRbYb4nnvchhvtjg/edit?usp=sharing\n+VIETNAM: https://docs.google.com/document/d/1rBLXYdzTHL5mvm6c8d4QN2c7qWh8Cjj8sgEEf-_Wzug/edit?usp=sharing",
         "sources": {
           "piggyai99_bot": {
-            "stock": 5,
+            "stock": 2,
             "cost_price": 55000,
-            "updated": "22:49 17/10/2026",
-            "selling_price": 65000
+            "selling_price": 65000,
+            "updated": "19:38 21/10/2026"
           }
         },
-        "cost_price": 55000
+        "cost_price": 55000,
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791925516429",
@@ -7288,6 +7290,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792586322143",
+      "time": "19:38 - 21/10/2026",
+      "timestamp": 1792586322143,
+      "name": "API Claude 50M Token 1 ngày BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 2,
+      "addedQty": 2,
+      "price": 65000,
+      "stockAfter": 2,
+      "catKey": "api-claude-codex",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1792584884093",
       "time": "19:14 - 21/10/2026",
       "timestamp": 1792584884093,
@@ -8672,20 +8688,6 @@
       "catKey": "vpn",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🚚EXPRESSVPN3NGÀYBHF💰Giá:15k📦Tồnkho:7tàikhoản📊Đãbán:770tàikhoản💎Môtả:Địnhdạng:ema"
-    },
-    {
-      "id": "hist-1792490579488",
-      "time": "17:02 - 20/10/2026",
-      "timestamp": 1792490579488,
-      "name": "EXPRESS VPN 3 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 7,
-      "addedQty": 8,
-      "price": 25000,
-      "stockAfter": 19,
-      "catKey": "vpn",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🚚EXPRESSVPN3NGÀYBHF➕Thêm:8📦Tồnkhohiệntại:7💰Giá:15.000đ"
     }
   ]
 }
