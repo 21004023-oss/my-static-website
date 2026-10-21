@@ -1287,6 +1287,25 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792581368152",
+        "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 1H",
+        "price": 110000,
+        "cost_price": 100000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "1 Tháng",
+        "detail": "- ChatGPT Plus 1 tháng BHF\n- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 8,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "18:16 21/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -7249,6 +7268,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792581368152",
+      "time": "18:16 - 21/10/2026",
+      "timestamp": 1792581368152,
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 1H",
+      "bot": "ntnshopre_bot",
+      "shopStock": 8,
+      "addedQty": 9,
+      "price": 110000,
+      "stockAfter": 8,
+      "catKey": "chatgpt",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH1H➕Thêm:9📦Tồnkhohiệntại:8💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1792580952353",
       "time": "18:09 - 21/10/2026",
       "timestamp": 1792580952353,
@@ -8633,20 +8666,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🤖CHATGPTPLUSK122NĂMBẢOHÀNH12H➕Thêm:10📦Tồnkhohiệntại:10💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1792490558482",
-      "time": "17:02 - 20/10/2026",
-      "timestamp": 1792490558482,
-      "name": "SMS nhận OTP xác minh Codex 24h - KBH",
-      "bot": "piggyai99_bot",
-      "shopStock": 38,
-      "addedQty": 30,
-      "price": 20000,
-      "stockAfter": 76,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🤖SMSnhậnOTPxácminhCodex24h-KBH➕Thêm:30📦Tồnkhohiệntại:38💰Giá:10.000đ"
     }
   ]
 }
