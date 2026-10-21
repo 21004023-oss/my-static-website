@@ -5346,8 +5346,8 @@
         "id": "p-1792205006619",
         "name": "Surfshark VPN One 7 Ngày BHF",
         "price": 45000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "Surfshark VPN gói One 7 Ngày BHF login 5 thiết bị, login quá nhiều dẫn đến bị khoá tài khoản sẽ không được bảo hành\n- Định dạng: email|pass\n- Web mail lấy code otp: https://get-opt.phh.info.vn/",
         "sources": {
@@ -5358,14 +5358,14 @@
             "updated": "04:34 22/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 11,
+            "stock": 4,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "05:45 21/10/2026"
+            "updated": "04:34 22/10/2026"
           }
         },
         "hidden": true,
-        "cost_price": 35000,
+        "cost_price": 15000,
         "needs_review": true
       },
       {
@@ -7457,6 +7457,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792618476880",
+      "time": "04:34 - 22/10/2026",
+      "timestamp": 1792618476880,
+      "name": "Surfshark VPN One 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 4,
+      "addedQty": 23,
+      "price": 25000,
+      "stockAfter": 8,
+      "catKey": "vpn",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:23📦Tồnkhohiệntại:4💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1792618470979",
       "time": "04:34 - 22/10/2026",
       "timestamp": 1792618470979,
@@ -8841,20 +8855,6 @@
       "catKey": "gmail",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:131📦Tồnkhohiệntại:137💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792534538761",
-      "time": "05:15 - 21/10/2026",
-      "timestamp": 1792534538761,
-      "name": "Gmail (New) -Login All",
-      "bot": "sieuthistore_bot",
-      "shopStock": 137,
-      "addedQty": 131,
-      "price": 45000,
-      "stockAfter": 157,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:131📦Tồnkhohiệntại:137💰Giá:35.000đ"
     }
   ]
 }
