@@ -291,12 +291,22 @@
         "id": "gpt-biz-shared",
         "name": "Slot ChatGPT Business Dùng Chung 1 Tháng BHF",
         "price": 139000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 19,
+        "stock_text": "Còn 19",
         "duration": "1 Tháng",
         "source": "Workspace Dùng Chung",
-        "detail": "- ChatGPT Business cấp sẵn tháng, dùng ổn định gia hạn được, không bị đổi team.\n- Bảo hành full 1 tháng.\n- Định dạng: Mail + Pass (lấy mã nhắn admin).\n- Dùng cố định 1 thiết bị, không đổi Pass và mã 2FA.\n- Không hợp nhất 2 không gian làm việc.\n- Dùng được cho Codex (hạn mức dùng chung).\n- Model mạnh hơn Plus: có model Chat GPT Pro, hạn mức cao hơn gói cá nhân.\n- Tự lưu dữ liệu cá nhân, không xoá chat/project của người khác.",
-        "cost_price": 119000
+        "detail": "✅ ChatGPT Business dùng chung cấp sẵn tháng (dùng ổn định gia hạn được, không bị đổi team) Bảo hành full 1 tháng\n✅Dùng 1 thiết bị cố định không được đổi thông tin Pass, Mã  2Fa  vi phạm sẽ không bảo hành\n✅ Định dạng tài khoản: Tên Mail, Khi đăng nhập sẽ có mã về mail,  Để lấy mã nhắn trực tiếp cho admin\n✅ Không hợp nhất 2 không gian vi phạm không bảo hành\n✅ Không dùng được, không bảo hành Codex, 9router hạn mức usage là dùng chung nên mọi người cân nhắc\n✅ Không bảo hành dữ liệu nên lưu dữ liệu quan trọng về, không được xóa đoạn chat,project của người khác\n✅ Model mạnh hơn Plus: Giới hạn nhiều hơn gói cá nhân, có model Chat GPT Pro\n🛡️ CHÍNH SÁCH BẢO HÀNH\n- Bảo hành Full-time trong quá trình sử dụng, Chỉ hoàn tiền khi Shop không bảo hành được gói cho khách\n✅ Tính năng Chatgpt Business\n- Truy cập các model ChatGPT mạnh với hạn mức cao hơn.\n- Không gian làm việc riêng cho đội nhóm/doanh nghiệp.\n- Kết nối công cụ như Google Drive, Microsoft 365, Slack, GitHub…\n-Hỗ trợ viết nội dung, nghiên cứu, phân tích dữ liệu, tạo tài liệu và tự động hóa công việc.",
+        "cost_price": 119000,
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 19,
+            "cost_price": 119000,
+            "selling_price": 139000,
+            "updated": "22:29 21/10/2026"
+          }
+        },
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "gpt-plus-15d",
@@ -7331,6 +7341,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792596568318",
+      "time": "22:29 - 21/10/2026",
+      "timestamp": 1792596568318,
+      "name": "SLOT CHATGPT BUSINESS DÙNG CHUNG 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 19,
+      "addedQty": 19,
+      "price": 139000,
+      "stockAfter": 19,
+      "catKey": "chatgpt",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🤖SLOTCHATGPTBUSINESSDÙNGCHUNG1THÁNGBHF➕Thêm:19📦Tồnkhohiệntại:19💰Giá:119.000đ"
+    },
+    {
       "id": "hist-1792594889363",
       "time": "22:01 - 21/10/2026",
       "timestamp": 1792594889363,
@@ -8715,20 +8739,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:185.000đ"
-    },
-    {
-      "id": "hist-1792491251841",
-      "time": "17:14 - 20/10/2026",
-      "timestamp": 1792491251841,
-      "name": "ADMIN CANVA PRO 1 THÁNG 100 SLOT BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 2,
-      "addedQty": 1,
-      "price": 60000,
-      "stockAfter": 2,
-      "catKey": "canva",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🎨ADMINCANVAPRO1THÁNG100SLOTBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:50.000đ"
     }
   ]
 }
