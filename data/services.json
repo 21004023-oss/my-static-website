@@ -2197,10 +2197,10 @@
         "id": "p-1792094683588",
         "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
         "price": 75000,
-        "stock": 167,
-        "stock_text": "Còn 167",
+        "stock": 229,
+        "stock_text": "Còn 229",
         "duration": "1 Tháng",
-        "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
+        "detail": "✨ CAPCUT PRO – 30 NGÀY | BHF 📌 THÔNG TIN • Tài khoản CapCut Pro, thời hạn 30 ngày. • Có thể nhận tới 2.000 AI Credits. • Định dạng: Email | Pass. • Khuyến nghị chỉ đăng nhập 1–2 thiết bị, hạn chế đăng nhập nhiều thiết bị. 🛡️ BẢO HÀNH • Bảo hành 30 ngày. • Hỗ trợ bảo hành 1 lần đối với lỗi đăng nhập do đăng nhập quá thường xuyên. ⚠️ LƯU Ý • Hạn chế đăng nhập/đăng xuất liên tục hoặc trên quá nhiều thiết bị. • Vui lòng kiểm tra tài khoản ngay sau khi nhận hàng.",
         "sources": {
           "piggyai99_bot": {
             "stock": 14,
@@ -2209,15 +2209,15 @@
             "updated": "21:36 18/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 153,
-            "cost_price": 40000,
-            "updated": "12:16 16/10/2026",
-            "selling_price": 50000
+            "stock": 215,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "01:04 22/10/2026"
           }
         },
         "hidden": true,
         "needs_review": true,
-        "cost_price": 33000
+        "cost_price": 45000
       },
       {
         "id": "p-1792119807992",
@@ -7456,6 +7456,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792605877744",
+      "time": "01:04 - 22/10/2026",
+      "timestamp": 1792605877744,
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 215,
+      "addedQty": 100,
+      "price": 55000,
+      "stockAfter": 229,
+      "catKey": "capcut",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:100📦Tồnkhohiệntại:215💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1792603469028",
       "time": "00:24 - 22/10/2026",
       "timestamp": 1792603469028,
@@ -8840,20 +8854,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:50📦Tồnkhohiệntại:91💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1792522733357",
-      "time": "01:58 - 21/10/2026",
-      "timestamp": 1792522733357,
-      "name": "Zoom Pro 28 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 10,
-      "addedQty": 10,
-      "price": 55000,
-      "stockAfter": 20,
-      "catKey": "work-dev",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐ZoomPro28NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:45.000đ"
     }
   ]
 }
