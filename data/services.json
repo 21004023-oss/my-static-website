@@ -652,19 +652,21 @@
         "id": "p-1791960800680",
         "name": "ChatGPT Plus 4 Tháng - BH 10 Ngày",
         "price": 650000,
-        "stock": 36,
-        "stock_text": "Còn 36",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "4 Tháng",
         "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi Pass hoặc 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm.\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 36,
-            "cost_price": 550000,
-            "updated": "08:28 16/10/2026",
-            "selling_price": 650000
+            "stock": 0,
+            "cost_price": 600000,
+            "selling_price": 700000,
+            "updated": "05:55 22/10/2026"
           }
         },
-        "cost_price": 550000
+        "cost_price": 600000,
+        "needs_review": true,
+        "hidden": true
       },
       {
         "id": "p-1791966477609",
@@ -7502,6 +7504,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792623322299",
+      "time": "05:55 - 22/10/2026",
+      "timestamp": 1792623322299,
+      "name": "ChatGPT Plus 4 Tháng - BH 10 Ngày",
+      "bot": "taphoathomap_bot",
+      "shopStock": 0,
+      "addedQty": 43,
+      "price": 700000,
+      "stockAfter": 0,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlus4Tháng-BH10Ngày➕Thêm:43📦Tồnkhohiệntại:0💰Giá:600.000đ"
+    },
+    {
       "id": "hist-1792622925656",
       "time": "05:48 - 22/10/2026",
       "timestamp": 1792622925656,
@@ -8886,20 +8902,6 @@
       "catKey": "capcut",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "✂️CAPCUTPROTEAM7NGÀYBHF➕Thêm:50📦Tồnkhohiệntại:50💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1792543796904",
-      "time": "07:49 - 21/10/2026",
-      "timestamp": 1792543796904,
-      "name": "CapCut Pro 3 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 1,
-      "addedQty": 1,
-      "price": 205000,
-      "stockAfter": 1,
-      "catKey": "capcut",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:185.000đ"
     }
   ]
 }
