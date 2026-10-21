@@ -3302,6 +3302,25 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792556825012",
+        "name": "VIP. Kling Ultra 4.0 26k credit 1 tháng BH 2 ngày",
+        "price": 2600000,
+        "cost_price": 2250000,
+        "stock": 38,
+        "stock_text": "Còn 38",
+        "duration": "1 Tháng",
+        "detail": "- Hàng không sẵn, order trả trong 3-5 tiếng\nLưu ý: Cân nhắc trước khi mua, đã mua là shop sẽ ghi nhận đơn hàng và bấm thanh toán. Sẽ không hoàn tiền sau khi mua\n- Sử dụng model mới nhất Kling 4.0 Flash",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 38,
+            "cost_price": 2250000,
+            "selling_price": 2600000,
+            "updated": "11:27 21/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=64"
@@ -7206,6 +7225,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792556825012",
+      "time": "11:27 - 21/10/2026",
+      "timestamp": 1792556825012,
+      "name": "VIP. Kling Ultra 4.0 26k credit 1 tháng BH 2 ngày",
+      "bot": "taphoathomap_bot",
+      "shopStock": 38,
+      "addedQty": 36,
+      "price": 2600000,
+      "stockAfter": 38,
+      "catKey": "kling",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬VIP.KlingUltra4.026kcredit1thángBH2ngày➕Thêm:36📦Tồnkhohiệntại:38💰Giá:2.250.000đ"
+    },
+    {
       "id": "hist-1792556282598",
       "time": "11:18 - 21/10/2026",
       "timestamp": 1792556282598,
@@ -8590,20 +8623,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:51📦Tồnkhohiệntại:35💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1792464093697",
-      "time": "09:41 - 20/10/2026",
-      "timestamp": 1792464093697,
-      "name": "Gmail random new",
-      "bot": "taphoathomap_bot",
-      "shopStock": 11,
-      "addedQty": 1,
-      "price": 32000,
-      "stockAfter": 22,
-      "catKey": "gmail",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "📧Gmailrandomnew➕Thêm:1📦Tồnkhohiệntại:11💰Giá:22.000đ"
     }
   ]
 }
