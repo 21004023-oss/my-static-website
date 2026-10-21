@@ -2171,16 +2171,16 @@
         "id": "p-1792119807992",
         "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
         "price": 75000,
-        "stock": 63,
-        "stock_text": "Còn 63",
+        "stock": 92,
+        "stock_text": "Còn 92",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 17,
+            "stock": 46,
             "cost_price": 65000,
             "selling_price": 75000,
-            "updated": "11:43 19/10/2026"
+            "updated": "08:43 21/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 46,
@@ -2191,7 +2191,7 @@
         },
         "hidden": true,
         "needs_review": true,
-        "cost_price": 40000
+        "cost_price": 65000
       },
       {
         "id": "p-1792125293833",
@@ -7184,6 +7184,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792547025560",
+      "time": "08:43 - 21/10/2026",
+      "timestamp": 1792547025560,
+      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 46,
+      "addedQty": 20,
+      "price": 75000,
+      "stockAfter": 92,
+      "catKey": "capcut",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:20📦Tồnkhohiệntại:46💰Giá:65.000đ"
+    },
+    {
       "id": "hist-1792546976559",
       "time": "08:42 - 21/10/2026",
       "timestamp": 1792546976559,
@@ -8568,20 +8582,6 @@
       "catKey": "higgsfield",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🎬HiggsfieldStarter210Credit1ThángBH1Ngày➕Thêm:1📦Tồnkhohiệntại:0💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1792449486474",
-      "time": "05:38 - 20/10/2026",
-      "timestamp": 1792449486474,
-      "name": "Gói VIP 2. API MUSE - Tạo 2000 video 10s - 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 5,
-      "addedQty": 5,
-      "price": 330000,
-      "stockAfter": 5,
-      "catKey": "muse-ai",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐GóiVIP2.APIMUSE-Tạo2000video10s-1ThángBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:300.000đ"
     }
   ]
 }
