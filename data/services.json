@@ -957,21 +957,21 @@
         "id": "p-1792138339640",
         "name": "ChatGPT Go 1 Tháng - BHF",
         "price": 110000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 27,
+        "stock_text": "Còn 27",
         "duration": "1 Tháng",
-        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n2. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n3. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n2. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n3. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 10,
-            "cost_price": 100000,
-            "selling_price": 110000,
-            "updated": "15:40 19/10/2026"
+            "stock": 27,
+            "cost_price": 75000,
+            "selling_price": 85000,
+            "updated": "17:59 21/10/2026"
           }
         },
         "hidden": true,
         "needs_review": true,
-        "cost_price": 100000
+        "cost_price": 75000
       },
       {
         "id": "p-1792146867637",
@@ -7248,6 +7248,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792580367193",
+      "time": "17:59 - 21/10/2026",
+      "timestamp": 1792580367193,
+      "name": "ChatGPT Go 1 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 27,
+      "addedQty": 21,
+      "price": 85000,
+      "stockAfter": 27,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTGo1Tháng-BHF➕Thêm:21📦Tồnkhohiệntại:27💰Giá:75.000đ"
+    },
+    {
       "id": "hist-1792580081274",
       "time": "17:54 - 21/10/2026",
       "timestamp": 1792580081274,
@@ -8632,20 +8646,6 @@
       "catKey": "higgsfield",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬HiggsfieldStarter200credit1thángBH5ngày➕Thêm:12📦Tồnkhohiệntại:12💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1792476820469",
-      "time": "13:13 - 20/10/2026",
-      "timestamp": 1792476820469,
-      "name": "Higgsfield Genjutsu  hạn 1 tháng BH 24h",
-      "bot": "taphoathomap_bot",
-      "shopStock": 30,
-      "addedQty": 20,
-      "price": 45000,
-      "stockAfter": 30,
-      "catKey": "higgsfield",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1thángBH24h➕Thêm:20📦Tồnkhohiệntại:30💰Giá:35.000đ"
     }
   ]
 }
