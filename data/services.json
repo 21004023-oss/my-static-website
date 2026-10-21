@@ -5383,7 +5383,7 @@
         "id": "p-1792307363682",
         "name": "Express VPN 3 Ngày BHF",
         "price": 25000,
-        "cost_price": 15000,
+        "cost_price": 25000,
         "stock": 29,
         "stock_text": "Còn 29",
         "duration": "1 Tháng",
@@ -5393,7 +5393,7 @@
             "stock": 11,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "11:27 21/10/2026"
+            "updated": "12:18 21/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -7225,6 +7225,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792559931443",
+      "time": "12:18 - 21/10/2026",
+      "timestamp": 1792559931443,
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 11,
+      "addedQty": 0,
+      "price": 35000,
+      "stockAfter": 29,
+      "catKey": "vpn",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🚚ExpressVPN3NgàyBHF💰Giá:25k📦Tồnkho:11tàikhoản📊Đãbán:778tàikhoản💎Môtả:Địnhdạng:em"
+    },
+    {
       "id": "hist-1792559925365",
       "time": "12:18 - 21/10/2026",
       "timestamp": 1792559925365,
@@ -8609,20 +8623,6 @@
       "catKey": "adobe",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:3📦Tồnkhohiệntại:5💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1792471483571",
-      "time": "11:44 - 20/10/2026",
-      "timestamp": 1792471483571,
-      "name": "Muse AI 1B Token 1 Tháng - BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 20,
-      "addedQty": 20,
-      "price": 30000,
-      "stockAfter": 20,
-      "catKey": "muse-ai",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐MuseAI1BToken1Tháng-BH24H➕Thêm:20📦Tồnkhohiệntại:20💰Giá:20.000đ"
     }
   ]
 }
