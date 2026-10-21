@@ -3317,10 +3317,11 @@
             "stock": 38,
             "cost_price": 2250000,
             "selling_price": 2600000,
-            "updated": "11:27 21/10/2026"
+            "updated": "12:18 21/10/2026"
           }
         },
-        "hidden": false
+        "hidden": true,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=64"
@@ -7225,6 +7226,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792559937959",
+      "time": "12:18 - 21/10/2026",
+      "timestamp": 1792559937959,
+      "name": "VIP. Kling Ultra 4.0 26k credit 1 tháng BH 2 ngày",
+      "bot": "taphoathomap_bot",
+      "shopStock": 38,
+      "addedQty": 0,
+      "price": 2600000,
+      "stockAfter": 38,
+      "catKey": "kling",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬VIP.KlingUltra4.026kcredit1thángBH2ngày💰Giá:2250k📦Tồnkho:38tàikhoản📊Đãbán:1tàik"
+    },
+    {
       "id": "hist-1792559931443",
       "time": "12:18 - 21/10/2026",
       "timestamp": 1792559931443,
@@ -8609,20 +8624,6 @@
       "catKey": "adobe",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "⭐FigmaProEdu1năm(BHF)💰Giá:110k📦Tồnkho:5tàikhoản📊Đãbán:66tàikhoản💎Môtả:🎨**FIGMAPR"
-    },
-    {
-      "id": "hist-1792471551071",
-      "time": "11:45 - 20/10/2026",
-      "timestamp": 1792471551071,
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "shopStock": 5,
-      "addedQty": 3,
-      "price": 130000,
-      "stockAfter": 16,
-      "catKey": "adobe",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:3📦Tồnkhohiệntại:5💰Giá:110.000đ"
     }
   ]
 }
