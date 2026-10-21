@@ -5384,16 +5384,16 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 25000,
         "cost_price": 25000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 24,
+        "stock_text": "Còn 24",
         "duration": "1 Tháng",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 7,
+            "stock": 11,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "17:03 20/10/2026"
+            "updated": "11:27 21/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 6,
@@ -7225,6 +7225,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792556877222",
+      "time": "11:27 - 21/10/2026",
+      "timestamp": 1792556877222,
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 11,
+      "addedQty": 12,
+      "price": 35000,
+      "stockAfter": 24,
+      "catKey": "vpn",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:12📦Tồnkhohiệntại:11💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1792556825012",
       "time": "11:27 - 21/10/2026",
       "timestamp": 1792556825012,
@@ -8609,20 +8623,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTVerStudentsofferPlus4ThángKBH➕Thêm:25📦Tồnkhohiệntại:25💰Giá:300.000đ"
-    },
-    {
-      "id": "hist-1792464482440",
-      "time": "09:48 - 20/10/2026",
-      "timestamp": 1792464482440,
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 35,
-      "addedQty": 51,
-      "price": 260000,
-      "stockAfter": 35,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:51📦Tồnkhohiệntại:35💰Giá:230.000đ"
     }
   ]
 }
