@@ -5346,16 +5346,16 @@
         "id": "p-1792205006619",
         "name": "Surfshark VPN One 7 Ngày BHF",
         "price": 45000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "1 Tháng",
         "detail": "Surfshark VPN gói One 7 Ngày BHF login 5 thiết bị, login quá nhiều dẫn đến bị khoá tài khoản sẽ không được bảo hành\n- Định dạng: email|pass\n- Web mail lấy code otp: https://get-opt.phh.info.vn/",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 11,
+            "stock": 4,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "05:45 21/10/2026"
+            "updated": "04:34 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -5365,7 +5365,7 @@
           }
         },
         "hidden": true,
-        "cost_price": 15000,
+        "cost_price": 35000,
         "needs_review": true
       },
       {
@@ -7457,6 +7457,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792618470979",
+      "time": "04:34 - 22/10/2026",
+      "timestamp": 1792618470979,
+      "name": "Surfshark VPN One 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 4,
+      "addedQty": 23,
+      "price": 45000,
+      "stockAfter": 15,
+      "catKey": "vpn",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:23📦Tồnkhohiệntại:4💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792612321513",
       "time": "02:52 - 22/10/2026",
       "timestamp": 1792612321513,
@@ -8841,20 +8855,6 @@
       "catKey": "gmail",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:131📦Tồnkhohiệntại:137💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792532690811",
-      "time": "04:44 - 21/10/2026",
-      "timestamp": 1792532690811,
-      "name": "ChatGPT K12 Education 2 năm KBH",
-      "bot": "sieuthistore_bot",
-      "shopStock": 18,
-      "addedQty": 20,
-      "price": 110000,
-      "stockAfter": 18,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTK12Education2nămKBH➕Thêm:20📦Tồnkhohiệntại:18💰Giá:100.000đ"
     }
   ]
 }
