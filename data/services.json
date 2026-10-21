@@ -1324,19 +1324,20 @@
         "name": "ChatGPT Plus K12 Edu 2 năm - BH 24H",
         "price": 95000,
         "cost_price": 85000,
-        "stock": 31,
-        "stock_text": "Còn 31",
+        "stock": 28,
+        "stock_text": "Còn 28",
         "duration": "2 Năm",
         "detail": "🔐 Tài khoản riêng tư – Có thể đổi mật khẩu , 2FA thoải mái\n📂 Định dạng: TK | Pass | 2FA\n✅ Bảo hành: Tài khoản die hoặc mất gói\n✅ Nguyên zin codex, chưa sử dụng\n⚠️ Khách mua về tự Ver codex, Chức năng tạo ảnh hạn chế\n⚠️ Lưu ý:\n• Sau khi mua, vui lòng đọc kỹ và làm theo hướng dẫn trong file để kích hoạt K12 : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link\n✅ Sử dụng cả hai mô hình GPT-6 Astra và GPT-5.6 Sol\n✅CÓ THỂ KHÔNG CẦN ĐỔI 2FA ĐỂ TRÁNH LỖI\n🎁 Khuyến mãi:\n- Mua từ 10 giá 80k",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 31,
+            "stock": 28,
             "cost_price": 85000,
             "selling_price": 95000,
-            "updated": "19:09 21/10/2026"
+            "updated": "01:14 22/10/2026"
           }
         },
-        "hidden": false
+        "hidden": true,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -7456,6 +7457,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792606492313",
+      "time": "01:14 - 22/10/2026",
+      "timestamp": 1792606492313,
+      "name": "ChatGPT Plus K12 Edu 2 năm - BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 28,
+      "addedQty": 20,
+      "price": 95000,
+      "stockAfter": 28,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH24H➕Thêm:20📦Tồnkhohiệntại:28💰Giá:85.000đ"
+    },
+    {
       "id": "hist-1792605877744",
       "time": "01:04 - 22/10/2026",
       "timestamp": 1792605877744,
@@ -8840,20 +8855,6 @@
       "catKey": "netflix",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬[Slot]Netflix4KPremium1thángBảohànhfull➕Thêm:7📦Tồnkhohiệntại:4💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1792523162928",
-      "time": "02:06 - 21/10/2026",
-      "timestamp": 1792523162928,
-      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 91,
-      "addedQty": 50,
-      "price": 260000,
-      "stockAfter": 91,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:50📦Tồnkhohiệntại:91💰Giá:230.000đ"
     }
   ]
 }
