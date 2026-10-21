@@ -2173,8 +2173,8 @@
         "id": "p-1792119807992",
         "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
         "price": 75000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "stock": 38,
+        "stock_text": "Còn 38",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
@@ -2185,15 +2185,15 @@
             "updated": "16:34 21/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 11,
+            "stock": 27,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "16:33 21/10/2026"
+            "updated": "17:16 21/10/2026"
           }
         },
         "hidden": true,
         "needs_review": true,
-        "cost_price": 65000
+        "cost_price": 40000
       },
       {
         "id": "p-1792125293833",
@@ -7248,6 +7248,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792577772814",
+      "time": "17:16 - 21/10/2026",
+      "timestamp": 1792577772814,
+      "name": "CAPCUT PRO CÁ NHÂN 30 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 27,
+      "addedQty": 9,
+      "price": 50000,
+      "stockAfter": 38,
+      "catKey": "capcut",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1792577767439",
       "time": "17:16 - 21/10/2026",
       "timestamp": 1792577767439,
@@ -8632,20 +8646,6 @@
       "catKey": "meitu-wink",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✨MeituVip+3ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1792472374620",
-      "time": "11:59 - 20/10/2026",
-      "timestamp": 1792472374620,
-      "name": "Meitu Vip+ 90D BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 4,
-      "addedQty": 4,
-      "price": 185000,
-      "stockAfter": 4,
-      "catKey": "meitu-wink",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "✨MeituVip+90DBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:165.000đ"
     }
   ]
 }
