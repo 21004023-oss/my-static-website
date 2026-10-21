@@ -2238,16 +2238,16 @@
         "id": "p-1792094683588",
         "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
         "price": 75000,
-        "stock": 229,
-        "stock_text": "Còn 229",
+        "stock": 216,
+        "stock_text": "Còn 216",
         "duration": "1 Tháng",
         "detail": "✨ CAPCUT PRO – 30 NGÀY | BHF 📌 THÔNG TIN • Tài khoản CapCut Pro, thời hạn 30 ngày. • Có thể nhận tới 2.000 AI Credits. • Định dạng: Email | Pass. • Khuyến nghị chỉ đăng nhập 1–2 thiết bị, hạn chế đăng nhập nhiều thiết bị. 🛡️ BẢO HÀNH • Bảo hành 30 ngày. • Hỗ trợ bảo hành 1 lần đối với lỗi đăng nhập do đăng nhập quá thường xuyên. ⚠️ LƯU Ý • Hạn chế đăng nhập/đăng xuất liên tục hoặc trên quá nhiều thiết bị. • Vui lòng kiểm tra tài khoản ngay sau khi nhận hàng.",
         "sources": {
           "piggyai99_bot": {
-            "stock": 14,
+            "stock": 1,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "21:36 18/10/2026"
+            "updated": "05:55 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 215,
@@ -2258,7 +2258,7 @@
         },
         "hidden": true,
         "needs_review": true,
-        "cost_price": 45000
+        "cost_price": 33000
       },
       {
         "id": "p-1792119807992",
@@ -7504,6 +7504,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792623326922",
+      "time": "05:55 - 22/10/2026",
+      "timestamp": 1792623326922,
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 1,
+      "addedQty": 1,
+      "price": 43000,
+      "stockAfter": 216,
+      "catKey": "capcut",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1792623322299",
       "time": "05:55 - 22/10/2026",
       "timestamp": 1792623322299,
@@ -8888,20 +8902,6 @@
       "catKey": "capcut",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:20📦Tồnkhohiệntại:46💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792543942976",
-      "time": "07:52 - 21/10/2026",
-      "timestamp": 1792543942976,
-      "name": "CAPCUT PRO TEAM 7 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 50,
-      "addedQty": 50,
-      "price": 20000,
-      "stockAfter": 50,
-      "catKey": "capcut",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "✂️CAPCUTPROTEAM7NGÀYBHF➕Thêm:50📦Tồnkhohiệntại:50💰Giá:10.000đ"
     }
   ]
 }
