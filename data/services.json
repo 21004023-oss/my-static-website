@@ -252,8 +252,8 @@
         "id": "gpt-go-3d",
         "name": "ChatGPT Go 1 Tháng (BH 3 Ngày)",
         "price": 105000,
-        "stock": 26,
-        "stock_text": "Còn 26",
+        "stock": 44,
+        "stock_text": "Còn 44",
         "duration": "1 Tháng",
         "source": "Cấp sẵn",
         "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n2. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n3. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
@@ -265,13 +265,13 @@
             "updated": "17:54 21/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 4,
-            "cost_price": 85000,
-            "selling_price": 95000,
-            "updated": "20:43 19/10/2026"
+            "stock": 22,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "18:04 21/10/2026"
           }
         },
-        "cost_price": 50000,
+        "cost_price": 80000,
         "needs_review": true,
         "hidden": true
       },
@@ -7248,6 +7248,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792580673223",
+      "time": "18:04 - 21/10/2026",
+      "timestamp": 1792580673223,
+      "name": "ChatGPT Go 1 Tháng BH 3 Ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 22,
+      "addedQty": 14,
+      "price": 90000,
+      "stockAfter": 44,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTGo1ThángBH3Ngày➕Thêm:14📦Tồnkhohiệntại:22💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1792580367193",
       "time": "17:59 - 21/10/2026",
       "timestamp": 1792580367193,
@@ -8632,20 +8646,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:11📦Tồnkhohiệntại:21💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1792477648043",
-      "time": "13:27 - 20/10/2026",
-      "timestamp": 1792477648043,
-      "name": "Higgsfield Starter 200 credit 1 tháng BH 5 ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 12,
-      "addedQty": 12,
-      "price": 170000,
-      "stockAfter": 12,
-      "catKey": "higgsfield",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬HiggsfieldStarter200credit1thángBH5ngày➕Thêm:12📦Tồnkhohiệntại:12💰Giá:150.000đ"
     }
   ]
 }
