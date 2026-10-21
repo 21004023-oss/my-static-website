@@ -2298,6 +2298,25 @@
         "hidden": true,
         "cost_price": 130000,
         "needs_review": true
+      },
+      {
+        "id": "p-1792543942976",
+        "name": "CAPCUT PRO TEAM 7 NGÀY BHF",
+        "price": 20000,
+        "cost_price": 10000,
+        "stock": 50,
+        "stock_text": "Còn 50",
+        "duration": "1 Tháng",
+        "detail": "-Định dạng: Email | Pass\n-Lưu Ý Khi Sử Dụng :\nAE đăng nhập bằng email + pass vào điện thoại có thể sử dụng trên cả thoại và Pc\n-Bảo hành gói. Nếu acc bị mất Pro\n-Để sử dụng ổn định ae nên đăng nhập 1 hoặc 2 thiết bị\n-AE mua thì đưa cho khách dùng luôn nhé không dược log thêm nó tính thiết bị rất gắt\n-Nếu ae cố tình đăng nhập nhiều thiết bị dẫn đến tài khoản không đăng nhập bị lỗi truy cập thường xuyên hoặc limit thiết bị thì sẽ không được bảo hành nhé",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 50,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "07:52 21/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=capcut.com&sz=64"
@@ -7165,6 +7184,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792543942976",
+      "time": "07:52 - 21/10/2026",
+      "timestamp": 1792543942976,
+      "name": "CAPCUT PRO TEAM 7 NGÀY BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 50,
+      "addedQty": 50,
+      "price": 20000,
+      "stockAfter": 50,
+      "catKey": "capcut",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "✂️CAPCUTPROTEAM7NGÀYBHF➕Thêm:50📦Tồnkhohiệntại:50💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1792543796904",
       "time": "07:49 - 21/10/2026",
       "timestamp": 1792543796904,
@@ -8549,20 +8582,6 @@
       "catKey": "muse-ai",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐GóiVIP3.APIMUSE-Tạo6250video10s-1ThángBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:700.000đ"
-    },
-    {
-      "id": "hist-1792449431438",
-      "time": "05:37 - 20/10/2026",
-      "timestamp": 1792449431438,
-      "name": "Gói VIP PRO. API MUSE - Tạo 16660 video 10s - 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 24,
-      "addedQty": 24,
-      "price": 1700000,
-      "stockAfter": 24,
-      "catKey": "muse-ai",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐GóiVIPPRO.APIMUSE-Tạo16660video10s-1ThángBHF➕Thêm:24📦Tồnkhohiệntại:24💰Giá:1.500"
     }
   ]
 }
