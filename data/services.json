@@ -5553,20 +5553,21 @@
         "id": "p-1792076682282",
         "name": "Link Get Offer Duolingo Super 1 năm BH 24H",
         "price": 30000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 17,
+        "stock_text": "Còn 17",
         "duration": "1 Năm",
         "detail": "✅ Bạn sẽ nhận được liên kết kích hoạt Duolingo Super thời hạn 12 tháng!\n✅ Không cần dùng thẻ để kích hoạt.\n✅ Chỉ cần dán liên kết vào trình duyệt, đăng nhập vào tài khoản của bạn và nhấn vào nút nhận ưu đãi (CLAIM OFFER)!\n✅ Chỉ bảo hành active thành công cho 1 tài khoản\n✅ Nếu lỗi vui lòng FAKE IP INDIA để nhận ưu đãi",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 15,
+            "stock": 17,
             "cost_price": 20000,
-            "updated": "09:12 16/10/2026",
-            "selling_price": 30000
+            "selling_price": 30000,
+            "updated": "19:57 21/10/2026"
           }
         },
-        "hidden": false,
-        "cost_price": 20000
+        "hidden": true,
+        "cost_price": 20000,
+        "needs_review": true
       },
       {
         "id": "p-1792088127430",
@@ -7309,6 +7310,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792587425309",
+      "time": "19:57 - 21/10/2026",
+      "timestamp": 1792587425309,
+      "name": "Link Get Offer Duolingo Super 1 năm BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 17,
+      "addedQty": 12,
+      "price": 30000,
+      "stockAfter": 17,
+      "catKey": "education",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐LinkGetOfferDuolingoSuper1nămBH24H➕Thêm:12📦Tồnkhohiệntại:17💰Giá:20.000đ"
+    },
+    {
       "id": "hist-1792586938128",
       "time": "19:48 - 21/10/2026",
       "timestamp": 1792586938128,
@@ -8693,20 +8708,6 @@
       "catKey": "vpn",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:8📦Tồnkhohiệntại:7💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792490593478",
-      "time": "17:03 - 20/10/2026",
-      "timestamp": 1792490593478,
-      "name": "ChatGPT K12 Education 2 năm KBH",
-      "bot": "sieuthistore_bot",
-      "shopStock": 10,
-      "addedQty": 0,
-      "price": 110000,
-      "stockAfter": 10,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTK12Education2nămKBH💰Giá:100k📦Tồnkho:10tàikhoản📊Đãbán:2.934tàikhoản💎Môtả:"
     }
   ]
 }
