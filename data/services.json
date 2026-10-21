@@ -6878,20 +6878,21 @@
         "id": "p-1792083188887",
         "name": "Clone Facebook Novery Name Việt KBH",
         "price": 20000,
-        "stock": 23,
-        "stock_text": "Còn 23",
+        "stock": 24,
+        "stock_text": "Còn 24",
         "duration": "1 Tháng",
-        "detail": "Định dạng: UID|PASSWORD|COOKIE|EMAIL|NAME|USER_AGENT|DATE|STATUS\n- Khách hàng nên Login bằng Cookie -> Nhấn tôi không nhận được mã -> Change thông tin.\n- Tài khoản có thể Bị (Checkpoint, selfie) % rất thấp, khách hàng cân nhắc trước khi mua.\n- Sau khi mua shop không chịu trách nhiệm về tài khoản.\n- Nên mở tab mới và IP mới để tránh bị khóa, mọi tài khoản đẩy lên shop đều live.",
+        "detail": "Định dạng: UID|PASSWORD|COOKIE|EMAIL|NAME|USER_AGENT|DATE|STATUS\n- Khách hàng nên Login bằng Cookie -> Nhấn tôi không nhận được mã -> Change thông tin.\n- Tài khoản có thể Bị (Checkpoint, selfie) % rất thấp, có thể log được acc ngon hoặc bị dính check point, ..... , hàng rẻ tiền khách hàng cân nhắc trước khi mua.\n- Sau khi mua shop không chịu trách nhiệm về tài khoản.\n- Nên mở tab mới và IP mới để tránh bị khóa.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 23,
+            "stock": 24,
             "cost_price": 10000,
-            "updated": "23:55 15/10/2026",
-            "selling_price": 20000
+            "selling_price": 20000,
+            "updated": "18:09 21/10/2026"
           }
         },
-        "hidden": false,
-        "cost_price": 10000
+        "hidden": true,
+        "cost_price": 10000,
+        "needs_review": true
       },
       {
         "id": "p-1792207455641",
@@ -7247,6 +7248,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792580952353",
+      "time": "18:09 - 21/10/2026",
+      "timestamp": 1792580952353,
+      "name": "Clone Facebook Novery Name Việt KBH",
+      "bot": "sieuthistore_bot",
+      "shopStock": 24,
+      "addedQty": 30,
+      "price": 20000,
+      "stockAfter": 24,
+      "catKey": "social",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐CloneFacebookNoveryNameViệtKBH➕Thêm:30📦Tồnkhohiệntại:24💰Giá:10.000đ"
+    },
     {
       "id": "hist-1792580765476",
       "time": "18:06 - 21/10/2026",
@@ -8632,20 +8647,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🤖SMSnhậnOTPxácminhCodex24h-KBH➕Thêm:30📦Tồnkhohiệntại:38💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1792489885711",
-      "time": "16:51 - 20/10/2026",
-      "timestamp": 1792489885711,
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 85,
-      "addedQty": 85,
-      "price": 260000,
-      "stockAfter": 85,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:85📦Tồnkhohiệntại:85💰Giá:230.000đ"
     }
   ]
 }
