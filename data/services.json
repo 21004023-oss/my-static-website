@@ -22,7 +22,7 @@
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -46,13 +46,13 @@
             "cost_price": 95000,
             "selling_price": 105000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 90000,
             "selling_price": 100000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 90000,
@@ -82,13 +82,13 @@
             "cost_price": 165000,
             "selling_price": 185000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 180000,
             "selling_price": 200000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 165000,
@@ -119,13 +119,13 @@
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 360000,
             "selling_price": 410000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -141,32 +141,61 @@
         "id": "yt-admin-1m",
         "name": "Admin YTB Premium 5 Slot 1 Tháng BHF",
         "price": 100000,
-        "stock": 108,
-        "stock_text": "Còn 108",
+        "stock": 96,
+        "stock_text": "Còn 96",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2FA.\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho anh em seller.\n- Bảo hành full gói trong quá trình sử dụng.\n- KHÔNG bảo hành ACC vì tuỳ vào cách bảo quản của mỗi người.",
         "hidden": false,
-        "cost_price": 90000,
+        "cost_price": 45000,
         "needs_review": false,
         "signature": "admin ytb premium 5 | slot | 1m | bh_1m",
         "product_type": "slot",
         "normalized_duration": "1m",
-        "normalized_warranty": "bh_1m"
+        "normalized_warranty": "bh_1m",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 45,000đ | Kho: 96)",
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 45000,
+          "stock": 96
+        },
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "stock": 96,
+            "updated": "18:16 22/10/2026"
+          }
+        }
       },
       {
         "id": "yt-admin-3m",
         "name": "Admin YTB Premium 5 Slot 3 Tháng BHF",
         "price": 500000,
-        "stock": 110,
-        "stock_text": "Còn 110",
+        "stock": 100,
+        "stock_text": "Còn 100",
         "duration": "3 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2FA.\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho ae seller.\n- Bảo hành full gói trong quá trình sử dụng, KHÔNG bảo hành ACC.\n- Lưu ý không đổi bất cứ Info nào của tài khoản để Admin có thể renew.\n- Bảo hành 1:1 trong 5h sau khi gia hạn thành công.",
         "hidden": false,
-        "cost_price": 450000,
+        "cost_price": 390000,
         "signature": "admin ytb premium 5 | slot | 3m | bh_3m",
         "product_type": "slot",
         "normalized_duration": "3m",
-        "normalized_warranty": "bh_3m"
+        "normalized_warranty": "bh_3m",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 390000,
+            "selling_price": 440000,
+            "stock": 100,
+            "updated": "18:16 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 390000,
+          "stock": 100
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 390,000đ | Kho: 100)",
+        "needs_review": false
       },
       {
         "id": "yt-admin-6m",
@@ -177,11 +206,26 @@
         "duration": "6 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2FA.\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho ae seller.\n- Bảo hành full gói trong quá trình sử dụng, KHÔNG bảo hành ACC.\n- Lưu ý không đổi bất cứ Info nào của tài khoản để Admin có thể renew.\n- Bảo hành 1:1 trong 5h sau khi gia hạn thành công.",
         "hidden": false,
-        "cost_price": 840000,
+        "cost_price": 780000,
         "signature": "admin ytb premium 5 | slot | 6m | bh_6m",
         "product_type": "slot",
         "normalized_duration": "6m",
-        "normalized_warranty": "bh_6m"
+        "normalized_warranty": "bh_6m",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 780000,
+            "selling_price": 880000,
+            "stock": 112,
+            "updated": "18:16 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 780000,
+          "stock": 112
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 780,000đ | Kho: 112)",
+        "needs_review": false
       },
       {
         "id": "yt-admin-12m",
@@ -192,18 +236,33 @@
         "duration": "12 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2FA.\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho ae seller.\n- Bảo hành full gói trong quá trình sử dụng, KHÔNG bảo hành ACC.\n- Lưu ý không đổi bất cứ Info nào của tài khoản để Admin có thể renew.\n- Bảo hành 1:1 trong 5h sau khi gia hạn thành công.",
         "hidden": false,
-        "cost_price": 1800000,
+        "cost_price": 1560000,
         "signature": "admin ytb premium 5 | slot | 1y | bh_1y",
         "product_type": "slot",
         "normalized_duration": "1y",
-        "normalized_warranty": "bh_1y"
+        "normalized_warranty": "bh_1y",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 1560000,
+            "selling_price": 1760000,
+            "stock": 112,
+            "updated": "18:16 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 1560000,
+          "stock": 112
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 1,560,000đ | Kho: 112)",
+        "needs_review": false
       },
       {
         "id": "p-1791941158182",
         "name": "CODE KÍCH HOẠT YOUTUBE PREMIUM 3 THÁNG BẢO HÀNH FULL",
         "price": 99000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "3 THÁNG",
         "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân\n- Cần fake VPN US\n- Link redeem code: https://www.youtube.com/redeem",
         "hidden": false,
@@ -216,46 +275,16 @@
           "ntnshopre_bot": {
             "cost_price": 89000,
             "selling_price": 99000,
-            "stock": 4,
-            "updated": "17:49 22/10/2026"
+            "stock": 2,
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 89000,
-          "stock": 4
+          "stock": 2
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 89,000đ | Kho: 4)",
-        "needs_review": false
-      },
-      {
-        "id": "p-1792027014464",
-        "name": "ADMIN YTB PREMIUM  5 SLOT 1 THÁNG BẢO HÀNH FULL",
-        "price": 100000,
-        "stock": 106,
-        "stock_text": "Còn 106",
-        "duration": "1 Tháng",
-        "detail": "- Định dạng: Mail | Pass | 2fa\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho ae seller\n- Bảo hành full gói trong quá trình sử dụng, KHÔNG bảo hành ACC vì tuỳ vào cách bảo quản của mỗi người sử dụng",
-        "sources": {
-          "ntnshopre_bot": {
-            "cost_price": 45000,
-            "selling_price": 55000,
-            "stock": 106,
-            "updated": "17:49 22/10/2026"
-          }
-        },
-        "hidden": false,
-        "cost_price": 45000,
-        "signature": "admin ytb premium 5 bảo hành full | slot | 1m | bh_1m",
-        "product_type": "slot",
-        "normalized_duration": "1m",
-        "normalized_warranty": "bh_1m",
-        "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 45000,
-          "stock": 106
-        },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 45,000đ | Kho: 106)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 89,000đ | Kho: 2)",
         "needs_review": false
       },
       {
@@ -277,7 +306,7 @@
             "cost_price": 145000,
             "selling_price": 165000,
             "stock": 23,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -414,13 +443,13 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 22,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 80000,
             "selling_price": 90000,
             "stock": 22,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 50000,
@@ -442,24 +471,24 @@
         "name": "ChatGPT Go 1 Tháng (BH 10 Ngày)",
         "price": 105000,
         "cost_price": 65000,
-        "stock": 16,
-        "stock_text": "Còn 16",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Email|Mật khẩu|2FA (lấy mã OTP tại 2FA.LIVE).\n- Không Bảo Hành Ver Số Codex (thuê sim tại smspool.net hoặc viotp.com).\n- Nghiêm cấm sử dụng acc để gắn tool 9Router bào Codex.\n- Đổi mật khẩu và 2FA sau khi nhận để tự bảo quản.",
         "sources": {
           "taphoathomap_bot": {
             "cost_price": 65000,
             "selling_price": 75000,
-            "stock": 16,
-            "updated": "17:49 22/10/2026"
+            "stock": 10,
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 65000,
-          "stock": 16
+          "stock": 10
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 65,000đ | Kho: 16)",
+        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 65,000đ | Kho: 10)",
         "hidden": false,
         "needs_review": false
       },
@@ -467,8 +496,8 @@
         "id": "gpt-biz-shared",
         "name": "Slot ChatGPT Business Dùng Chung 1 Tháng BHF",
         "price": 139000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
         "source": "Workspace Dùng Chung",
         "detail": "- ChatGPT Business cấp sẵn tháng, dùng ổn định gia hạn được, không bị đổi team.\n- Bảo hành full 1 tháng.\n- Định dạng: Mail + Pass (lấy mã nhắn admin).\n- Dùng cố định 1 thiết bị, không đổi Pass và mã 2FA.\n- Không hợp nhất 2 không gian làm việc.\n- Dùng được cho Codex (hạn mức dùng chung).\n- Model mạnh hơn Plus: có model Chat GPT Pro, hạn mức cao hơn gói cá nhân.\n- Tự lưu dữ liệu cá nhân, không xoá chat/project của người khác.",
@@ -481,16 +510,16 @@
           "ntnshopre_bot": {
             "cost_price": 119000,
             "selling_price": 139000,
-            "stock": 19,
-            "updated": "17:49 22/10/2026"
+            "stock": 12,
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 119000,
-          "stock": 19
+          "stock": 12
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 119,000đ | Kho: 19)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 119,000đ | Kho: 12)",
         "hidden": false,
         "needs_review": false
       },
@@ -636,36 +665,36 @@
         "name": "ChatGPT Plus Apple Pay 1 Tháng BHF",
         "price": 370000,
         "cost_price": 240000,
-        "stock": 79,
-        "stock_text": "Còn 79",
+        "stock": 48,
+        "stock_text": "Còn 48",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Date radom 25 - 30 ngày\n4. Chỉ bảo hành tài khoản vô hiệu hóa, thay đổi thông tin lỗi - KBH\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n✅ Hiện tại, việc đổi PASS cần OTP nên không đổi được, còn nếu đổi 2FA có thể lỗi OTP gmail, khách hàng có thể cân nhắc không đổi và cứ việc dùng",
         "sources": {
           "taphoathomap_bot": {
             "cost_price": 240000,
             "selling_price": 270000,
-            "stock": 51,
-            "updated": "17:49 22/10/2026"
+            "stock": 20,
+            "updated": "18:16 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 20,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": 8,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 240000,
-          "stock": 51
+          "stock": 20
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 240,000đ | Kho: 51)",
+        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 240,000đ | Kho: 20)",
         "hidden": false,
         "needs_review": false
       },
@@ -683,7 +712,7 @@
             "cost_price": 320000,
             "selling_price": 370000,
             "stock": 5,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -708,7 +737,7 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": 5,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 120000,
@@ -782,7 +811,7 @@
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 29,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -808,7 +837,7 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 6,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -833,7 +862,7 @@
             "cost_price": 75000,
             "selling_price": 85000,
             "stock": 51,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 75000,
@@ -855,24 +884,24 @@
         "name": "ChatGPT Go 1 Tháng BHF",
         "price": 110000,
         "cost_price": 75000,
-        "stock": 27,
-        "stock_text": "Còn 27",
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n2. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n3. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "sources": {
           "taphoathomap_bot": {
             "cost_price": 75000,
             "selling_price": 85000,
-            "stock": 27,
-            "updated": "17:49 22/10/2026"
+            "stock": 14,
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 75000,
-          "stock": 27
+          "stock": 14
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 75,000đ | Kho: 27)",
+        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 75,000đ | Kho: 14)",
         "hidden": false,
         "needs_review": false
       },
@@ -903,7 +932,7 @@
             "cost_price": 600000,
             "selling_price": 700000,
             "stock": 0,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 600000,
@@ -933,7 +962,7 @@
             "cost_price": 1800000,
             "selling_price": 2000000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 1800000,
@@ -954,25 +983,25 @@
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
         "price": 310000,
-        "cost_price": 265000,
-        "stock": 34,
-        "stock_text": "Còn 34",
+        "cost_price": 215000,
+        "stock": 41,
+        "stock_text": "Còn 41",
         "duration": "1 Tháng",
         "detail": "🗣️ Mô tả:\n🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nThuê sim vẻ số tại: https://viotp.com/\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "sources": {
           "ntnshopre_bot": {
-            "cost_price": 265000,
-            "selling_price": 295000,
-            "stock": 34,
-            "updated": "17:49 22/10/2026"
+            "cost_price": 215000,
+            "selling_price": 245000,
+            "stock": 41,
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 265000,
-          "stock": 34
+          "cost_price": 215000,
+          "stock": 41
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 265,000đ | Kho: 34)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 215,000đ | Kho: 41)",
         "hidden": false,
         "needs_review": false
       },
@@ -1087,7 +1116,7 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "stock": 27,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -1117,7 +1146,7 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "stock": 18,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -1147,7 +1176,7 @@
             "cost_price": 95000,
             "selling_price": 105000,
             "stock": 10,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -1168,16 +1197,16 @@
         "id": "p-1792212631462",
         "name": "Tài khoản ChatGPT dùng chung 1 tháng BHF",
         "price": 139000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
         "detail": "✅ ChatGPT Business dùng chung cấp sẵn tháng (dùng ổn định gia hạn được, không bị đổi team) Bảo hành full 1 tháng\n✅Dùng 1 thiết bị cố định không được đổi thông tin Pass, Mã  2Fa  vi phạm sẽ không bảo hành\n✅ Định dạng tài khoản: Tên Mail, Khi đăng nhập sẽ có mã về mail,  Để lấy mã nhắn trực tiếp cho admin\n✅ Không hợp nhất 2 không gian vi phạm không bảo hành\n✅ Dùng được cho Codex, hạn mức usage là dùng chung nên mọi người cân nhắc\n✅ Không bảo hành dữ liệu nên lưu dữ liệu quan trọng về, không được xóa đoạn chat,project của người khác\n✅ Model mạnh hơn Plus: Giới hạn nhiều hơn gói cá nhân, có model Chat GPT Pro\n🛡️ CHÍNH SÁCH BẢO HÀNH\n- Bảo hành Full-time trong quá trình sử dụng, Chỉ hoàn tiền khi Shop không bảo hành được gói cho khách\n✅ Tính năng Chatgpt Business\n- Truy cập các model ChatGPT mạnh với hạn mức cao hơn.\n- Không gian làm việc riêng cho đội nhóm/doanh nghiệp.\n- Kết nối công cụ như Google Drive, Microsoft 365, Slack, GitHub…\n-Hỗ trợ viết nội dung, nghiên cứu, phân tích dữ liệu, tạo tài liệu và tự động hóa công việc.",
         "sources": {
           "taphoathomap_bot": {
             "cost_price": 119000,
             "selling_price": 139000,
-            "stock": 19,
-            "updated": "17:49 22/10/2026"
+            "stock": 12,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -1189,9 +1218,9 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 119000,
-          "stock": 19
+          "stock": 12
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 119,000đ | Kho: 19)",
+        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 119,000đ | Kho: 12)",
         "needs_review": false
       },
       {
@@ -1207,7 +1236,7 @@
             "cost_price": 400000,
             "selling_price": 450000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -1229,8 +1258,8 @@
         "name": "🔥Chatgpt Plus Vip 1 tháng BHF",
         "price": 295000,
         "cost_price": 265000,
-        "stock": 41,
-        "stock_text": "Còn 41",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "sources": {
@@ -1243,8 +1272,8 @@
           "ntnshopre_bot": {
             "cost_price": 265000,
             "selling_price": 295000,
-            "stock": 41,
-            "updated": "17:49 22/10/2026"
+            "stock": 20,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -1256,9 +1285,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 265000,
-          "stock": 41
+          "stock": 20
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 265,000đ | Kho: 41)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 265,000đ | Kho: 20)"
       },
       {
         "id": "p-1792448602063",
@@ -1304,7 +1333,7 @@
             "cost_price": 350000,
             "selling_price": 400000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -1334,7 +1363,7 @@
             "cost_price": 450000,
             "selling_price": 500000,
             "stock": 86,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -1364,7 +1393,7 @@
             "cost_price": 210000,
             "selling_price": 240000,
             "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1381,50 +1410,24 @@
         "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 1H",
         "price": 110000,
         "cost_price": 100000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Gói bản quyền CHAT GPT PLUS 1 THÁNG BẢO HÀNH 1H cấp nhanh chóng, bảo hành uy tín đúng mô tả.",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 100000,
             "selling_price": 110000,
-            "stock": 8,
-            "updated": "17:49 22/10/2026"
+            "stock": 0,
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 100000,
-          "stock": 8
+          "stock": 0
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 100,000đ | Kho: 8)",
-        "hidden": false,
-        "needs_review": false
-      },
-      {
-        "id": "p-1792665217388-5",
-        "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
-        "price": 245000,
-        "cost_price": 215000,
-        "stock": 41,
-        "stock_text": "Còn 41",
-        "duration": "1 Tháng",
-        "detail": "Gói bản quyền CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL cấp nhanh chóng, bảo hành uy tín đúng mô tả.",
-        "sources": {
-          "ntnshopre_bot": {
-            "cost_price": 215000,
-            "selling_price": 245000,
-            "stock": 41,
-            "updated": "17:49 22/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 215000,
-          "stock": 41
-        },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 215,000đ | Kho: 41)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 100,000đ | Kho: 0)",
         "hidden": false,
         "needs_review": false
       },
@@ -1442,7 +1445,7 @@
             "cost_price": 240000,
             "selling_price": 270000,
             "stock": 10,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1468,7 +1471,7 @@
             "cost_price": 230000,
             "selling_price": 260000,
             "stock": 12,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1494,7 +1497,7 @@
             "cost_price": 3300000,
             "selling_price": 3650000,
             "stock": 30,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1520,7 +1523,7 @@
             "cost_price": 4200000,
             "selling_price": 4800000,
             "stock": 30,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1546,7 +1549,7 @@
             "cost_price": 85000,
             "selling_price": 95000,
             "stock": 28,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1563,24 +1566,24 @@
         "name": "ChatGPT Go 1 Tháng - BH 24H",
         "price": 60000,
         "cost_price": 50000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
         "detail": "Gói bản quyền ChatGPT Go 1 Tháng - BH 24H cấp nhanh chóng, bảo hành uy tín đúng mô tả.",
         "sources": {
           "taphoathomap_bot": {
             "cost_price": 50000,
             "selling_price": 60000,
-            "stock": 22,
-            "updated": "17:49 22/10/2026"
+            "stock": 3,
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 50000,
-          "stock": 22
+          "stock": 3
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 50,000đ | Kho: 22)",
+        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 50,000đ | Kho: 3)",
         "hidden": false,
         "needs_review": false
       },
@@ -1598,7 +1601,7 @@
             "cost_price": 430000,
             "selling_price": 480000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1624,7 +1627,7 @@
             "cost_price": 200000,
             "selling_price": 220000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1650,7 +1653,7 @@
             "cost_price": 1700000,
             "selling_price": 1900000,
             "stock": 20,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1676,7 +1679,7 @@
             "cost_price": 2300000,
             "selling_price": 2650000,
             "stock": 6,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1702,7 +1705,7 @@
             "cost_price": 2900000,
             "selling_price": 3250000,
             "stock": 17,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1728,7 +1731,7 @@
             "cost_price": 3100000,
             "selling_price": 3450000,
             "stock": 36,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1754,7 +1757,7 @@
             "cost_price": 7999000,
             "selling_price": 8999000,
             "stock": 30,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1780,7 +1783,7 @@
             "cost_price": 6200000,
             "selling_price": 6800000,
             "stock": 30,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1806,7 +1809,7 @@
             "cost_price": 350000,
             "selling_price": 400000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1832,7 +1835,7 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 349,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1871,7 +1874,7 @@
             "cost_price": 27000,
             "selling_price": 37000,
             "stock": 73,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -1932,7 +1935,7 @@
             "cost_price": 1000000,
             "selling_price": 1100000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2008,7 +2011,7 @@
             "cost_price": 2500000,
             "selling_price": 2850000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2039,7 +2042,7 @@
             "cost_price": 2500000,
             "selling_price": 2850000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2070,7 +2073,7 @@
             "cost_price": 5000000,
             "selling_price": 5600000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2101,7 +2104,7 @@
             "cost_price": 6500000,
             "selling_price": 7100000,
             "stock": 0,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2145,7 +2148,7 @@
             "cost_price": 3700000,
             "selling_price": 4050000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2189,16 +2192,16 @@
         "id": "p-1792144903773",
         "name": "ADMIN VEO3 X5 1 THÁNG ( BH 3 NGÀY )",
         "price": 1300000,
-        "stock": 43,
-        "stock_text": "Còn 43",
+        "stock": 41,
+        "stock_text": "Còn 41",
         "duration": "1 Tháng",
         "detail": "Admin Veo3 Ultra Family 5x, add dc 5 slot\nNhớ log điện thoại trước rồi log máy tính sau, đá thiết bị cũ ra rồi change 2fa rồi gắn sdt vào nhé",
         "sources": {
           "taphoathomap_bot": {
             "cost_price": 900000,
             "selling_price": 1000000,
-            "stock": 43,
-            "updated": "17:49 22/10/2026"
+            "stock": 41,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -2210,9 +2213,9 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 900000,
-          "stock": 43
+          "stock": 41
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 900,000đ | Kho: 43)",
+        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 900,000đ | Kho: 41)",
         "needs_review": false
       },
       {
@@ -2499,13 +2502,13 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 10,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2531,7 +2534,7 @@
             "cost_price": 27000,
             "selling_price": 37000,
             "stock": 73,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2558,7 +2561,7 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 73,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "needs_review": false,
@@ -2622,7 +2625,7 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 10,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2676,7 +2679,7 @@
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 42,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -2698,16 +2701,16 @@
         "name": "NÂNG CẤP GEMINI PRO + GOOGLE ONE 5TB 18 THÁNG BẢO HÀNH 1 THÁNG",
         "price": 45000,
         "cost_price": 35000,
-        "stock": 16,
-        "stock_text": "Còn 16",
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "1 Tháng",
         "detail": "Gói NÂNG CẤP GEMINI PRO + GOOGLE ONE 5TB 18 THÁNG BẢO HÀNH 1 THÁNG bảo hành uy tín.",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 35000,
             "selling_price": 45000,
-            "stock": 16,
-            "updated": "17:49 22/10/2026"
+            "stock": 9,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -2719,24 +2722,24 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 35000,
-          "stock": 16
+          "stock": 9
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 35,000đ | Kho: 16)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 35,000đ | Kho: 9)"
       },
       {
         "id": "p-1792043776777",
         "name": "SLOT YOUTUBE PREMIUM + GOOGLE AI PRO 1 THÁNG BHF",
         "price": 35000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Gói SLOT YOUTUBE PREMIUM + GOOGLE AI PRO 1 THÁNG BHF bảo hành uy tín.",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 25000,
             "selling_price": 35000,
-            "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "stock": 0,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -2748,9 +2751,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 25000,
-          "stock": 1
+          "stock": 0
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 25,000đ | Kho: 1)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 25,000đ | Kho: 0)",
         "needs_review": false
       },
       {
@@ -2767,7 +2770,7 @@
             "cost_price": 1150000,
             "selling_price": 1350000,
             "stock": 3,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2790,8 +2793,8 @@
         "id": "canva-link-1m",
         "name": "Link Join Canva Pro 1 Tháng BHF",
         "price": 15000,
-        "stock": 197,
-        "stock_text": "Còn 197",
+        "stock": 150,
+        "stock_text": "Còn 150",
         "duration": "1 Tháng",
         "detail": "- Dán link lên web để join\n- Mỗi link chỉ sử dụng được 1 lần",
         "hidden": false,
@@ -2800,13 +2803,13 @@
             "cost_price": 5000,
             "selling_price": 15000,
             "stock": 133,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 5000,
             "selling_price": 15000,
-            "stock": 64,
-            "updated": "17:49 22/10/2026"
+            "stock": 17,
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 5000,
@@ -2817,9 +2820,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 5000,
-          "stock": 64
+          "stock": 17
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 5,000đ | Kho: 64)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 5,000đ | Kho: 17)",
         "needs_review": false
       },
       {
@@ -2840,7 +2843,7 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2870,13 +2873,13 @@
             "cost_price": 80000,
             "selling_price": 90000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 59000,
             "selling_price": 69000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2907,7 +2910,7 @@
             "cost_price": 2500000,
             "selling_price": 2850000,
             "stock": 3,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2924,16 +2927,16 @@
         "name": "ADMIN CANVA PRO 1 THÁNG 100 SLOT BHF",
         "price": 60000,
         "cost_price": 50000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "• Tài khoản Admin Canva Pro Business (Add tối đa 100 thành viên).\n• Thời hạn sử dụng: 1 tháng.\n• Bảo hành Fulltime (đôi khi có thể trôi date 1–2 ngày).\nĐịnh dạng nhận hàng:\n• Email | Lấy Code.\nHướng dẫn đăng nhập:\n• Đăng nhập bằng Email (không chọn Đăng nhập bằng Google hoặc tài khoản khác).\n• Lấy mã xác minh (OTP) tại: dongvanfb.net/read_mail_box/.",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 50000,
             "selling_price": 60000,
-            "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "stock": 0,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -2945,9 +2948,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 50000,
-          "stock": 2
+          "stock": 0
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 50,000đ | Kho: 2)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 50,000đ | Kho: 0)"
       },
       {
         "id": "p-1792438548398",
@@ -2963,7 +2966,7 @@
             "cost_price": 85000,
             "selling_price": 95000,
             "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -2993,7 +2996,7 @@
             "cost_price": 1000,
             "selling_price": 11000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3019,7 +3022,7 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3045,7 +3048,7 @@
             "cost_price": 80000,
             "selling_price": 90000,
             "stock": 5,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3068,8 +3071,8 @@
         "id": "capcut-1m",
         "name": "CapCut Pro 1 Tháng BHF",
         "price": 48000,
-        "stock": 31,
-        "stock_text": "Còn 31",
+        "stock": 24,
+        "stock_text": "Còn 24",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
@@ -3077,8 +3080,8 @@
           "ntnshopre_bot": {
             "cost_price": 38000,
             "selling_price": 48000,
-            "stock": 31,
-            "updated": "17:49 22/10/2026"
+            "stock": 24,
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 38000,
@@ -3091,9 +3094,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 38000,
-          "stock": 31
+          "stock": 24
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 38,000đ | Kho: 31)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 38,000đ | Kho: 24)"
       },
       {
         "id": "capcut-12m",
@@ -3114,7 +3117,7 @@
             "cost_price": 650000,
             "selling_price": 750000,
             "stock": 0,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3168,13 +3171,13 @@
             "cost_price": 185000,
             "selling_price": 205000,
             "stock": 7,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 155000,
             "selling_price": 175000,
             "stock": 5,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "needs_review": false,
@@ -3195,8 +3198,8 @@
         "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
         "price": 75000,
         "cost_price": 33000,
-        "stock": 68,
-        "stock_text": "Còn 68",
+        "stock": 63,
+        "stock_text": "Còn 63",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
@@ -3204,27 +3207,27 @@
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 27,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "piggyai99_bot": {
-            "stock": 10,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "18:02 22/10/2026"
+            "stock": 5,
+            "updated": "18:16 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": 31,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 33000,
-          "stock": 10
+          "stock": 5
         },
-        "import_note": "Ưu tiên nhập tại @piggyai99_bot (Vốn: 33,000đ)",
+        "import_note": "Ưu tiên nhập tại @piggyai99_bot (Vốn: 33,000đ | Kho: 5)",
         "hidden": false,
         "needs_review": false
       },
@@ -3232,8 +3235,8 @@
         "id": "p-1791919210876",
         "name": "CapCut Pro Team 3 Tháng - BHF",
         "price": 180000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "3 Tháng",
         "detail": "Tài khoản Capcut Pro dạng team hạn sử dụng 90 ngày. • Có thể nhận tới 2000 Credit AI • Định dạng: Email | Pass • Login 1-2 thiết bị hạn chế login nhiều thiết bị. • Bảo hành 90 ngày, không bảo hành lỗi đăng nhập quá thường xuyên.\nTK tự động gia hạn mỗi tháng 1 lần đến khi đủ 1 tháng",
         "sources": {
@@ -3241,13 +3244,13 @@
             "cost_price": 160000,
             "selling_price": 180000,
             "stock": 7,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 155000,
             "selling_price": 175000,
-            "stock": 7,
-            "updated": "17:49 22/10/2026"
+            "stock": 5,
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 155000,
@@ -3260,9 +3263,9 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 155000,
-          "stock": 7
+          "stock": 5
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 155,000đ | Kho: 7)"
+        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 155,000đ | Kho: 5)"
       },
       {
         "id": "p-1791921267652",
@@ -3282,7 +3285,7 @@
             "cost_price": 230000,
             "selling_price": 260000,
             "stock": 0,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3307,7 +3310,7 @@
             "cost_price": 60000,
             "selling_price": 70000,
             "stock": 9,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 60000,
@@ -3337,7 +3340,7 @@
             "cost_price": 290000,
             "selling_price": 320000,
             "stock": 6,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -3359,36 +3362,36 @@
         "name": "CAPCUT TEAM 6 THÁNG  BHF",
         "price": 390000,
         "cost_price": 290000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "6 Tháng",
         "detail": "CAPCUT PRO TEAM RENEW – 180 NGÀY | BHF 📌 THÔNG TIN • Tài khoản CapCut Pro dạng Team, thời hạn 365 ngày tự động gia hạn hàng tháng. • Có thể nhận tới 2.000 AI Credits. • Định dạng: Email | Pass. • Khuyến nghị đăng nhập 1–2 thiết bị, hạn chế đăng nhập nhiều thiết bị. 🛡️ BẢO HÀNH • Bảo hành 180 ngày. • Hỗ trợ bảo hành tối đa 1 lần/tháng đối với lỗi đăng nhập do đăng nhập quá thường xuyên. ⚠️ LƯU Ý • Hạn chế đăng nhập/đăng xuất liên tục hoặc trên nhiều thiết bị. • Vui lòng kiểm tra tài khoản ngay sau khi nhận hàng",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 290000,
             "selling_price": 320000,
-            "stock": 5,
-            "updated": "17:49 22/10/2026"
+            "stock": 3,
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 290000,
             "selling_price": 320000,
             "stock": 3,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 340000,
             "selling_price": 390000,
             "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 290000,
-          "stock": 5
+          "stock": 3
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 290,000đ | Kho: 5)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 290,000đ | Kho: 3)",
         "hidden": false,
         "needs_review": false
       },
@@ -3396,16 +3399,16 @@
         "id": "p-1792280145282",
         "name": "CAPCUT PRO CÁ NHÂN 3 THÁNG BHF",
         "price": 150000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "3 Tháng",
         "detail": "Gói Pro Cá Nhân\n-Wed change email: https://dongvanfb.net/read_mail_box/\n-Vì chưa thiết kế tự động, các shop mua tài khoản nhắn tin zalo ở phần hỗ trợ. Em sẽ hướng dẫn ạ\n-Đăng nhập tối đa 2thiết bị ( Đt - Pc )\n-KBH TRUY CẬP THƯỜNG XUYÊN\n-Cần đổi email sau 2 ngày mua. Sau 2 ngày kbh vấn đề email",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 130000,
             "selling_price": 150000,
-            "stock": 5,
-            "updated": "17:49 22/10/2026"
+            "stock": 0,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -3418,33 +3421,33 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 130000,
-          "stock": 5
+          "stock": 0
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 130,000đ | Kho: 5)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 130,000đ | Kho: 0)"
       },
       {
         "id": "p-1792665217388-4",
         "name": "CAPCUT PRO TEAM 7 NGÀY BHF",
         "price": 20000,
         "cost_price": 10000,
-        "stock": 50,
-        "stock_text": "Còn 50",
+        "stock": 40,
+        "stock_text": "Còn 40",
         "duration": "7 Ngày",
         "detail": "Gói bản quyền CAPCUT PRO TEAM 7 NGÀY BHF cấp nhanh chóng, bảo hành uy tín đúng mô tả.",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 10000,
             "selling_price": 20000,
-            "stock": 50,
-            "updated": "17:49 22/10/2026"
+            "stock": 40,
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 10000,
-          "stock": 50
+          "stock": 40
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 10,000đ | Kho: 50)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 10,000đ | Kho: 40)",
         "hidden": false,
         "needs_review": false
       },
@@ -3462,7 +3465,7 @@
             "cost_price": 60000,
             "selling_price": 70000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3488,7 +3491,7 @@
             "cost_price": 550000,
             "selling_price": 650000,
             "stock": 4,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3514,7 +3517,7 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "stock": 81,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3548,7 +3551,7 @@
             "cost_price": 310000,
             "selling_price": 360000,
             "stock": 41,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "signature": "chatgpt plus codex full | general | 1m | bh_1m",
@@ -3582,7 +3585,7 @@
             "cost_price": 3000,
             "selling_price": 13000,
             "stock": 86,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3597,7 +3600,7 @@
       {
         "id": "api-claude-10m-1d",
         "name": "API 10M Token Claude 1 Ngày BHF",
-        "price": 45000,
+        "price": 209000,
         "stock": 221,
         "stock_text": "Còn 221",
         "duration": "1 Ngày",
@@ -3619,7 +3622,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 221,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3634,7 +3637,7 @@
       {
         "id": "api-codex-10m-2d",
         "name": "10M Credit API Codex 2 Ngày BHF",
-        "price": 45000,
+        "price": 105000,
         "stock": 359,
         "stock_text": "Còn 359",
         "duration": "2 Ngày",
@@ -3650,50 +3653,13 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 181,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 178,
-            "updated": "17:49 22/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 35000,
-          "stock": 181
-        },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 35,000đ | Kho: 181)",
-        "hidden": false,
-        "needs_review": false
-      },
-      {
-        "id": "api-codex-20m-2d",
-        "name": "20M Credit API Codex 2 Ngày BHF",
-        "price": 60000,
-        "stock": 359,
-        "stock_text": "Còn 359",
-        "duration": "2 Ngày",
-        "source": "Teamsoclo",
-        "detail": "- Model: gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna.\n- Hoàn tiền theo token chưa dùng.\n- Base URL: https://gpt.teamsoclo.site/v1\n- HDSD: https://docs.teamsoclo.site/\n- Video: https://tinyurl.com/teamsoclovid\n- Trang kiểm tra KEY: https://gpt.teamsoclo.site/check\n- Đổi CDK tại: https://redeem.teamsoclo.site/",
-        "cost_price": 35000,
-        "signature": "credit api codex | api | 1m | bh_1m",
-        "product_type": "api",
-        "normalized_duration": "1m",
-        "normalized_warranty": "bh_1m",
-        "sources": {
-          "taphoathomap_bot": {
-            "cost_price": 35000,
-            "selling_price": 45000,
-            "stock": 181,
-            "updated": "17:49 22/10/2026"
-          },
-          "ntnshopre_bot": {
-            "cost_price": 35000,
-            "selling_price": 45000,
-            "stock": 178,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3724,7 +3690,7 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 127,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3733,117 +3699,6 @@
           "stock": 127
         },
         "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 50,000đ | Kho: 127)",
-        "hidden": false,
-        "needs_review": false
-      },
-      {
-        "id": "api-codex-50m-2d",
-        "name": "50M Credit API Codex 2 Ngày BHF",
-        "price": 70000,
-        "stock": 359,
-        "stock_text": "Còn 359",
-        "duration": "2 Ngày",
-        "source": "Teamsoclo",
-        "detail": "- Model: gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna.\n- Hạn dùng 48h.\n- Hoàn tiền theo số lượng token chưa sử dụng.\n- Base URL: https://gpt.teamsoclo.site/v1\n- HDSD: https://docs.teamsoclo.site/",
-        "cost_price": 35000,
-        "signature": "credit api codex | api | 1m | bh_1m",
-        "product_type": "api",
-        "normalized_duration": "1m",
-        "normalized_warranty": "bh_1m",
-        "sources": {
-          "taphoathomap_bot": {
-            "cost_price": 35000,
-            "selling_price": 45000,
-            "stock": 181,
-            "updated": "17:49 22/10/2026"
-          },
-          "ntnshopre_bot": {
-            "cost_price": 35000,
-            "selling_price": 45000,
-            "stock": 178,
-            "updated": "17:49 22/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 35000,
-          "stock": 181
-        },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 35,000đ | Kho: 181)",
-        "hidden": false,
-        "needs_review": false
-      },
-      {
-        "id": "api-codex-100m-5d",
-        "name": "100M Credit API Codex 5 Ngày BHF",
-        "price": 105000,
-        "stock": 359,
-        "stock_text": "Còn 359",
-        "duration": "5 Ngày",
-        "source": "Teamsoclo",
-        "detail": "- Model: gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna.\n- Hạn dùng 5 ngày.\n- Base URL: https://gpt.teamsoclo.site/v1\n- HDSD: https://docs.teamsoclo.site/\n- Trang kiểm tra KEY: https://gpt.teamsoclo.site/check\n- Đổi CDK tại: https://redeem.teamsoclo.site/",
-        "cost_price": 35000,
-        "signature": "credit api codex | api | 1m | bh_1m",
-        "product_type": "api",
-        "normalized_duration": "1m",
-        "normalized_warranty": "bh_1m",
-        "sources": {
-          "taphoathomap_bot": {
-            "cost_price": 35000,
-            "selling_price": 45000,
-            "stock": 181,
-            "updated": "17:49 22/10/2026"
-          },
-          "ntnshopre_bot": {
-            "cost_price": 35000,
-            "selling_price": 45000,
-            "stock": 178,
-            "updated": "17:49 22/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 35000,
-          "stock": 181
-        },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 35,000đ | Kho: 181)",
-        "hidden": false,
-        "needs_review": false
-      },
-      {
-        "id": "api-claude-50m-1d",
-        "name": "API 50M Token Claude 1 Ngày BHF",
-        "price": 110000,
-        "stock": 221,
-        "stock_text": "Còn 221",
-        "duration": "1 Ngày",
-        "source": "API Key",
-        "detail": "- Model: Full model Claude Opus, Sonet, Haiku.\n- Hoàn tiền theo số lượng token khách chưa sử dụng.\n- Kênh thông báo: https://t.me/api_thongbao\n- Danh sách model và hướng dẫn: api.nghimmo.com/huongdan\n- Trang kiểm tra KEY: api.nghimmo.com/check",
-        "cost_price": 35000,
-        "signature": "api token claude | api | 1d | bh_1d",
-        "product_type": "api",
-        "normalized_duration": "1d",
-        "normalized_warranty": "bh_1d",
-        "sources": {
-          "taphoathomap_bot": {
-            "cost_price": 35000,
-            "selling_price": 45000,
-            "stock": 10,
-            "updated": "17:19 22/10/2026"
-          },
-          "ntnshopre_bot": {
-            "cost_price": 35000,
-            "selling_price": 45000,
-            "stock": 221,
-            "updated": "17:49 22/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 35000,
-          "stock": 221
-        },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 35,000đ | Kho: 221)",
         "hidden": false,
         "needs_review": false
       },
@@ -3866,7 +3721,7 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "stock": 21,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3903,7 +3758,7 @@
             "cost_price": 140000,
             "selling_price": 160000,
             "stock": 37,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3916,47 +3771,10 @@
         "needs_review": false
       },
       {
-        "id": "api-claude-200m-1d",
-        "name": "API 200M Token Claude 1 Ngày BHF",
-        "price": 209000,
-        "stock": 221,
-        "stock_text": "Còn 221",
-        "duration": "1 Ngày",
-        "source": "API Key",
-        "detail": "- Full model Claude Opus, Sonet, Haiku trong 24 giờ.\n- Hoàn tiền theo lượng token chưa dùng.\n- Kênh thông báo: https://t.me/api_thongbao\n- Trang kiểm tra KEY: api.nghimmo.com/check",
-        "cost_price": 35000,
-        "signature": "api token claude | api | 1d | bh_1d",
-        "product_type": "api",
-        "normalized_duration": "1d",
-        "normalized_warranty": "bh_1d",
-        "sources": {
-          "taphoathomap_bot": {
-            "cost_price": 35000,
-            "selling_price": 45000,
-            "stock": 10,
-            "updated": "17:19 22/10/2026"
-          },
-          "ntnshopre_bot": {
-            "cost_price": 35000,
-            "selling_price": 45000,
-            "stock": 221,
-            "updated": "17:49 22/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 35000,
-          "stock": 221
-        },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 35,000đ | Kho: 221)",
-        "hidden": false,
-        "needs_review": false
-      },
-      {
         "id": "api-claude-100m-1m",
         "name": "API Claude 100M 1 Tháng BHF",
         "price": 359000,
-        "cost_price": 35000,
+        "cost_price": 249000,
         "stock": 36,
         "stock_text": "Còn 36",
         "duration": "1 Tháng",
@@ -3972,15 +3790,15 @@
             "cost_price": 249000,
             "selling_price": 279000,
             "stock": 36,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 35000,
-          "stock": 300
+          "bot": "@ntnshopre_bot",
+          "cost_price": 249000,
+          "stock": 36
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 35,000đ | Kho: 300)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 249,000đ | Kho: 36)",
         "hidden": false,
         "needs_review": false
       },
@@ -3988,12 +3806,12 @@
         "id": "api-claude-200m-7d",
         "name": "API Claude 200M 7 Ngày BHF",
         "price": 279000,
-        "stock": 54,
-        "stock_text": "Còn 54",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "7 Ngày",
         "source": "Teamsoclo",
         "detail": "- Model: full Claude Fable, Haiku, Opus, Sonnet.\n- Hạn dùng 7 ngày.\n- Base URL: https://gpt.teamsoclo.site/\n- Đổi CDK tại: https://redeem.teamsoclo.site/",
-        "cost_price": 179000,
+        "cost_price": 249000,
         "signature": "api claude | api | 7d | bh_7d",
         "product_type": "api",
         "normalized_duration": "7d",
@@ -4004,14 +3822,20 @@
             "selling_price": 199000,
             "stock": 54,
             "updated": "17:49 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 249000,
+            "selling_price": 279000,
+            "stock": 20,
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 179000,
-          "stock": 54
+          "bot": "@ntnshopre_bot",
+          "cost_price": 249000,
+          "stock": 20
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 179,000đ | Kho: 54)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 249,000đ | Kho: 20)",
         "hidden": false,
         "needs_review": false
       },
@@ -4034,7 +3858,7 @@
             "cost_price": 439000,
             "selling_price": 489000,
             "stock": 11,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4092,7 +3916,7 @@
       {
         "id": "p-1791898418611",
         "name": "API Claude 50M Token 1 ngày BHF",
-        "price": 65000,
+        "price": 110000,
         "stock": 10,
         "stock_text": "Còn 10",
         "duration": "1 Ngày",
@@ -4102,7 +3926,7 @@
             "cost_price": 55000,
             "selling_price": 65000,
             "stock": 10,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 55000,
@@ -4132,7 +3956,7 @@
             "cost_price": 140000,
             "selling_price": 160000,
             "stock": 5,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 140000,
@@ -4148,36 +3972,6 @@
         "import_note": "Ưu tiên nhập tại @piggyai99_bot (Vốn: 140,000đ | Kho: 5)",
         "hidden": false,
         "needs_review": false
-      },
-      {
-        "id": "p-1791958427941",
-        "name": "API Claude 100M Token 1 ngày BHF",
-        "price": 110000,
-        "stock": 10,
-        "stock_text": "Còn 10",
-        "duration": "1 Ngày",
-        "detail": "-API Claude 100M-Hàng anthropic\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Base Url : https://api.opusapi.store/\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-File hướng dẫn sử dụng và thiết lập:\n+ENGLISH: https://docs.google.com/document/d/1-r0i4qkHToW3exdkJfUAzin78s_bRbYb4nnvchhvtjg/edit?usp=sharing\n+VIETNAM: https://docs.google.com/document/d/1rBLXYdzTHL5mvm6c8d4QN2c7qWh8Cjj8sgEEf-_Wzug/edit?usp=sharing",
-        "sources": {
-          "piggyai99_bot": {
-            "cost_price": 55000,
-            "selling_price": 65000,
-            "stock": 10,
-            "updated": "17:49 22/10/2026"
-          }
-        },
-        "cost_price": 55000,
-        "needs_review": false,
-        "hidden": false,
-        "signature": "api claude token | api | 1d | bh_1d",
-        "product_type": "api",
-        "normalized_duration": "1d",
-        "normalized_warranty": "bh_1d",
-        "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 55000,
-          "stock": 10
-        },
-        "import_note": "Ưu tiên nhập tại @piggyai99_bot (Vốn: 55,000đ | Kho: 10)"
       },
       {
         "id": "p-1791993142500",
@@ -4206,7 +4000,7 @@
             "cost_price": 140000,
             "selling_price": 160000,
             "stock": 4,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 140000,
@@ -4312,7 +4106,7 @@
             "cost_price": 299000,
             "selling_price": 329000,
             "stock": 3,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -4342,37 +4136,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 10,
-            "updated": "17:49 22/10/2026"
-          }
-        },
-        "hidden": false,
-        "cost_price": 35000,
-        "signature": "1 api token claude | api | 1d | bh_1d",
-        "product_type": "api",
-        "normalized_duration": "1d",
-        "normalized_warranty": "bh_1d",
-        "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 35000,
-          "stock": 10
-        },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 35,000đ | Kho: 10)",
-        "needs_review": false
-      },
-      {
-        "id": "p-1792273003906",
-        "name": "VIP 1.API 15M Token Claude 1 Ngày - BHF",
-        "price": 45000,
-        "stock": 10,
-        "stock_text": "Còn 10",
-        "duration": "1 Ngày",
-        "detail": "💎 API Claude VIP High Stable — model trích xuất từ Cursor Ultra, dùng cho Claude Code và app hỗ trợ OpenAI/Anthropic.\n⚡ Có Fable tốc độ cao, có opus-5.5 ( nếu hết dùng model khác )\n🤖 Token ước tính: Fable 5M · Opus 5 10M · Sonnet 5 20M · Haiku 4.5 33M\n💠 Hỗ trợ thêm: Kimi K3 · GLM 5.2 · Grok 4.6, quy đổi tương đương Sonnet 5\n🛡️ Độ ổn định cao, không gián đoạn như bản Standard\n⏳ Hạn dùng: 24 giờ từ khi kích hoạt Key\n🔗 Hướng dẫn cài đặt và kích hoạt:\nhttps://daily.bddevlab.buzz/redeem.html\n🔗 Cách khắc phục lỗi :\nhttps://duc-dop-error-guide.pages.dev",
-        "sources": {
-          "taphoathomap_bot": {
-            "cost_price": 35000,
-            "selling_price": 45000,
-            "stock": 10,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -4433,13 +4197,13 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "stock": 38,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": 38,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -4469,7 +4233,7 @@
             "cost_price": 250000,
             "selling_price": 280000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4495,7 +4259,7 @@
             "cost_price": 29000,
             "selling_price": 39000,
             "stock": 196,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4512,24 +4276,24 @@
         "name": "100M Credit API Claude 3 Ngày - BHF",
         "price": 179000,
         "cost_price": 159000,
-        "stock": 107,
-        "stock_text": "Còn 107",
+        "stock": 58,
+        "stock_text": "Còn 58",
         "duration": "3 Ngày",
         "detail": "Gói bản quyền 100M Credit API Claude 3 Ngày - BHF cấp nhanh chóng, bảo hành uy tín đúng mô tả.",
         "sources": {
           "taphoathomap_bot": {
             "cost_price": 159000,
             "selling_price": 179000,
-            "stock": 107,
-            "updated": "17:49 22/10/2026"
+            "stock": 58,
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 159000,
-          "stock": 107
+          "stock": 58
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 159,000đ | Kho: 107)",
+        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 159,000đ | Kho: 58)",
         "hidden": false,
         "needs_review": false
       }
@@ -4559,7 +4323,7 @@
             "cost_price": 109000,
             "selling_price": 129000,
             "stock": 50,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4590,7 +4354,7 @@
             "cost_price": 159000,
             "selling_price": 179000,
             "stock": 34,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4606,8 +4370,8 @@
         "id": "api-cursor-400cre",
         "name": "API Cursor Pro 400 Credits/Ngày 1 Tháng BHF",
         "price": 410000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "source": "Key Cursor API",
         "detail": "Api Cursor Pro hạn sử dụng 1 tháng.\n-Credit: 400 credit/ngày- 1 tháng có 12.000 credits\n-Hạn sử dụng: 1 tháng từ lúc active Key.\n-Bảo hành: 30 ngày.\n-File tài liệu chi tiết về cách sử dụng và setup sản phẩm: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1?usp=drive_link\n-Lưu ý: Sản phẩm là API,không phải tài khoản,không hỗ trợ hoàn trả nếu mua nhầm,không biết sử dụng.",
@@ -4622,14 +4386,14 @@
           "ntnshopre_bot": {
             "cost_price": 309000,
             "selling_price": 359000,
-            "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "stock": 2,
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 309000,
             "selling_price": 359000,
             "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "needs_review": false,
@@ -4641,9 +4405,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 309000,
-          "stock": 1
+          "stock": 2
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 309,000đ | Kho: 1)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 309,000đ | Kho: 2)"
       },
       {
         "id": "api-cursor-6500cre",
@@ -4660,19 +4424,19 @@
             "cost_price": 360000,
             "selling_price": 410000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 309000,
             "selling_price": 359000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 309000,
             "selling_price": 359000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "needs_review": false,
@@ -4702,19 +4466,19 @@
             "cost_price": 204000,
             "selling_price": 234000,
             "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 210000,
             "selling_price": 240000,
             "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4736,7 +4500,7 @@
       {
         "id": "grok-api-10m",
         "name": "Grok API 10M Credits 3 Ngày BHF",
-        "price": 45000,
+        "price": 95000,
         "stock": 80,
         "stock_text": "Còn 80",
         "duration": "3 Ngày",
@@ -4752,69 +4516,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 80,
-            "updated": "17:49 22/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 35000,
-          "stock": 80
-        },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 35,000đ | Kho: 80)",
-        "hidden": false,
-        "needs_review": false
-      },
-      {
-        "id": "grok-api-30m",
-        "name": "Grok API 30M Credits 3 Ngày BHF",
-        "price": 59000,
-        "stock": 80,
-        "stock_text": "Còn 80",
-        "duration": "3 Ngày",
-        "source": "Teamsoclo",
-        "detail": "- Base URL: https://gpt.teamsoclo.site/v1\n- Model: grok-4.5, grok-4.6, grok-4.7.\n- Hạn dùng 3 ngày.\n- HDSD: https://docs.teamsoclo.site/\n- Video: https://tinyurl.com/teamsoclovid\n- Đổi CDK tại: https://redeem.teamsoclo.site/",
-        "cost_price": 35000,
-        "signature": "grok api credits | api | 3d | bh_3d",
-        "product_type": "api",
-        "normalized_duration": "3d",
-        "normalized_warranty": "bh_3d",
-        "sources": {
-          "ntnshopre_bot": {
-            "cost_price": 35000,
-            "selling_price": 45000,
-            "stock": 80,
-            "updated": "17:49 22/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 35000,
-          "stock": 80
-        },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 35,000đ | Kho: 80)",
-        "hidden": false,
-        "needs_review": false
-      },
-      {
-        "id": "grok-api-50m",
-        "name": "Grok API 50M Credits 3 Ngày BHF",
-        "price": 95000,
-        "stock": 80,
-        "stock_text": "Còn 80",
-        "duration": "3 Ngày",
-        "source": "Teamsoclo",
-        "detail": "- Base URL: https://gpt.teamsoclo.site/v1\n- Model: grok-4.5, grok-4.6, grok-4.7.\n- Hạn dùng 3 ngày.\n- Trang kiểm tra KEY: https://gpt.teamsoclo.site/check",
-        "cost_price": 35000,
-        "signature": "grok api credits | api | 3d | bh_3d",
-        "product_type": "api",
-        "normalized_duration": "3d",
-        "normalized_warranty": "bh_3d",
-        "sources": {
-          "ntnshopre_bot": {
-            "cost_price": 35000,
-            "selling_price": 45000,
-            "stock": 80,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4845,7 +4547,7 @@
             "cost_price": 140000,
             "selling_price": 160000,
             "stock": 0,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4860,7 +4562,7 @@
       {
         "id": "grok-api-100m",
         "name": "Grok API 100M Credits 5 Ngày BHF",
-        "price": 169000,
+        "price": 399000,
         "stock": 34,
         "stock_text": "Còn 34",
         "duration": "5 Ngày",
@@ -4876,7 +4578,7 @@
             "cost_price": 149000,
             "selling_price": 169000,
             "stock": 34,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4885,37 +4587,6 @@
           "stock": 34
         },
         "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 149,000đ | Kho: 34)",
-        "needs_review": false
-      },
-      {
-        "id": "grok-api-200m",
-        "name": "Grok API 200M Credits 5 Ngày BHF",
-        "price": 399000,
-        "stock": 34,
-        "stock_text": "Còn 34",
-        "duration": "5 Ngày",
-        "source": "Teamsoclo",
-        "detail": "- Dung lượng khủng 200M credit, hạn 5 ngày.\n- Base URL: https://gpt.teamsoclo.site/v1\n- Model: grok-4.5, grok-4.6, grok-4.7.\n- Đổi CDK tại: https://redeem.teamsoclo.site/",
-        "cost_price": 149000,
-        "signature": "grok api credits | api | 1m | bh_1m",
-        "product_type": "api",
-        "normalized_duration": "1m",
-        "normalized_warranty": "bh_1m",
-        "sources": {
-          "ntnshopre_bot": {
-            "cost_price": 149000,
-            "selling_price": 169000,
-            "stock": 34,
-            "updated": "17:49 22/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 149000,
-          "stock": 34
-        },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 149,000đ | Kho: 34)",
-        "hidden": false,
         "needs_review": false
       },
       {
@@ -4991,13 +4662,13 @@
             "cost_price": 180000,
             "selling_price": 200000,
             "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 109000,
             "selling_price": 129000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -5027,7 +4698,7 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": 13,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5053,7 +4724,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 25,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5079,7 +4750,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 80,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5105,7 +4776,7 @@
             "cost_price": 1150000,
             "selling_price": 1350000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5131,7 +4802,7 @@
             "cost_price": 700000,
             "selling_price": 800000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5169,7 +4840,7 @@
             "cost_price": 3000,
             "selling_price": 13000,
             "stock": 193,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5215,7 +4886,7 @@
             "cost_price": 205000,
             "selling_price": 235000,
             "stock": 6,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5321,17 +4992,17 @@
         "id": "p-1792171951020",
         "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
         "price": 170000,
-        "cost_price": 125000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "cost_price": 150000,
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "ACC KLING STAND RANDOM 700-750 CREDITS",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 150000,
             "selling_price": 170000,
-            "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "stock": 8,
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 1,
@@ -5341,11 +5012,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 125000,
-          "stock": 1
+          "bot": "@ntnshopre_bot",
+          "cost_price": 150000,
+          "stock": 8
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 125,000đ | Kho: 1)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 150,000đ | Kho: 8)",
         "hidden": false,
         "needs_review": false
       },
@@ -5420,13 +5091,13 @@
             "cost_price": 650000,
             "selling_price": 750000,
             "stock": 3,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 600000,
             "selling_price": 700000,
             "stock": 4,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -5456,7 +5127,7 @@
             "cost_price": 2250000,
             "selling_price": 2600000,
             "stock": 38,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5479,8 +5150,8 @@
         "id": "spotify-link-3m",
         "name": "Link Kích Hoạt Spotify Premium 3 Tháng (BH Active)",
         "price": 49000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 17,
+        "stock_text": "Còn 17",
         "duration": "3 Tháng",
         "source": "Link kích hoạt",
         "detail": "- Kích hoạt Premium ngay trên tài khoản của bạn (dùng trọn 3 tháng Premium).\n- Yêu cầu tài khoản mới hoặc đủ điều kiện, BẬT VPN ẤN ĐỘ trước rồi click vào link để kích hoạt.\n- Không bảo hành sau khi kích hoạt thành công.",
@@ -5488,7 +5159,23 @@
         "signature": "kích hoạt spotify premium bh active | link | 3m | none",
         "product_type": "link",
         "normalized_duration": "3m",
-        "normalized_warranty": "none"
+        "normalized_warranty": "none",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 39000,
+            "selling_price": 49000,
+            "stock": 17,
+            "updated": "18:16 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 39000,
+          "stock": 17
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 39,000đ | Kho: 17)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "spotify-slot-6m",
@@ -5509,7 +5196,7 @@
             "cost_price": 190000,
             "selling_price": 210000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5540,7 +5227,7 @@
             "cost_price": 350000,
             "selling_price": 400000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5626,7 +5313,7 @@
             "cost_price": 60000,
             "selling_price": 70000,
             "stock": 11,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -5668,7 +5355,7 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5684,8 +5371,8 @@
         "id": "notion-plus-edu-2y",
         "name": "Notion Plus Edu 2 Năm (BH 3 Tháng)",
         "price": 150000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "2 Năm",
         "source": "Edu Plus",
         "detail": "- Notion Education (Edu Plus) có tính năng 100% giống gói Notion Plus trả phí cá nhân (upload file không giới hạn, xem lại lịch sử 30 ngày, mời nhiều khách).\n- Không phải trả phí hàng tháng.\n- KHÔNG ĐƯỢC CHANGE THÔNG TIN (change thông tin = mất bảo hành).",
@@ -5693,7 +5380,23 @@
         "signature": "notion plus edu bh | general | 2y | none",
         "product_type": "general",
         "normalized_duration": "2y",
-        "normalized_warranty": "none"
+        "normalized_warranty": "none",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 130000,
+            "selling_price": 150000,
+            "stock": 2,
+            "updated": "18:16 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 130000,
+          "stock": 2
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 130,000đ | Kho: 2)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1791858092378",
@@ -5928,7 +5631,7 @@
             "cost_price": 260000,
             "selling_price": 290000,
             "stock": 14,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "signature": "chatgpt plus ggpay gmail bh | general | 1m | bh_20d",
@@ -5958,7 +5661,7 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 28,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 17,
@@ -5970,7 +5673,7 @@
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 135,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "needs_review": false,
@@ -6000,13 +5703,13 @@
             "cost_price": 39000,
             "selling_price": 49000,
             "stock": 49,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 36000,
             "selling_price": 46000,
             "stock": 49,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "needs_review": false,
@@ -6040,7 +5743,7 @@
             "cost_price": 18000,
             "selling_price": 28000,
             "stock": 0,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -6057,16 +5760,16 @@
         "name": "GMAIL CỔ DATE 201X- 2022",
         "price": 55000,
         "cost_price": 35000,
-        "stock": 75,
-        "stock_text": "Còn 75",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "Vĩnh viễn",
         "detail": "- Định dạng: Mail | Pass | Mail khôi phục | 2fa.\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH.\n- Link check DATE mail: https://www.youtube.com/watch?v=Cer8zHUhnB4.",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 35000,
             "selling_price": 45000,
-            "stock": 75,
-            "updated": "17:49 22/10/2026"
+            "stock": 8,
+            "updated": "18:16 22/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 75,
@@ -6084,9 +5787,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 35000,
-          "stock": 75
+          "stock": 8
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 35,000đ | Kho: 75)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 35,000đ | Kho: 8)",
         "hidden": false,
         "needs_review": false
       },
@@ -6121,7 +5824,7 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 32,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 100,
@@ -6186,27 +5889,27 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 81,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 81,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 81,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
+          "bot": "@piggyai99_bot",
           "cost_price": 25000,
           "stock": 81
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 25,000đ | Kho: 81)",
+        "import_note": "Ưu tiên nhập tại @piggyai99_bot (Vốn: 25,000đ | Kho: 81)",
         "hidden": false,
         "needs_review": false
       },
@@ -6214,16 +5917,16 @@
         "id": "p-1792035072787",
         "name": "GMAIL TRIAL RANDOM DATE 202X",
         "price": 50000,
-        "stock": 160,
-        "stock_text": "Còn 160",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 40000,
             "selling_price": 50000,
-            "stock": 160,
-            "updated": "17:49 22/10/2026"
+            "stock": 0,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -6237,30 +5940,30 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 40000,
-          "stock": 160
+          "stock": 0
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 40,000đ | Kho: 160)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 40,000đ | Kho: 0)"
       },
       {
         "id": "p-1792043489127",
         "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
         "price": 53000,
-        "stock": 55,
-        "stock_text": "Còn 55",
+        "stock": 42,
+        "stock_text": "Còn 42",
         "duration": "6 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2fa | Passkey\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL TRIAL RANDOM IP  DATE  6 THÁNG\n- Lấy mã Google Authentic / 2fa ở 2fa.live",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 23000,
             "selling_price": 33000,
-            "stock": 13,
-            "updated": "17:49 22/10/2026"
+            "stock": 0,
+            "updated": "18:16 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 43000,
             "selling_price": 53000,
             "stock": 42,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 42,
@@ -6270,24 +5973,24 @@
           }
         },
         "hidden": false,
-        "cost_price": 23000,
+        "cost_price": 43000,
         "needs_review": false,
         "signature": "gmail trial date có 2fa | general | 6m | none",
         "product_type": "general",
         "normalized_duration": "6m",
         "normalized_warranty": "none",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 23000,
-          "stock": 13
+          "bot": "@sieuthistore_bot",
+          "cost_price": 43000,
+          "stock": 42
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 23,000đ | Kho: 13)"
+        "import_note": "Ưu tiên nhập tại @sieuthistore_bot (Vốn: 43,000đ | Kho: 42)"
       },
       {
         "id": "p-1792093859672",
         "name": "Gmail Random 200X~2023 Có 2FA",
         "price": 55000,
-        "cost_price": 35000,
+        "cost_price": 45000,
         "stock": 31,
         "stock_text": "Còn 31",
         "duration": "1 Tháng",
@@ -6297,7 +6000,7 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 31,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 31,
@@ -6307,11 +6010,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 35000,
+          "bot": "@sieuthistore_bot",
+          "cost_price": 45000,
           "stock": 31
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 35,000đ | Kho: 31)",
+        "import_note": "Ưu tiên nhập tại @sieuthistore_bot (Vốn: 45,000đ | Kho: 31)",
         "hidden": false,
         "needs_review": false
       },
@@ -6329,7 +6032,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 202,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 330,
@@ -6351,16 +6054,16 @@
         "id": "p-1792119419529",
         "name": "GMAIL US CỔ DATE 201X-202X 2FA",
         "price": 55000,
-        "stock": 153,
-        "stock_text": "Còn 153",
+        "stock": 62,
+        "stock_text": "Còn 62",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Mail | Pass | Mail khôi phục | 2fa\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL US CỔ DATE 201X TRIAL CÓ 2FA",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 45000,
             "selling_price": 55000,
-            "stock": 153,
-            "updated": "17:49 22/10/2026"
+            "stock": 62,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -6373,15 +6076,15 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 45000,
-          "stock": 153
+          "stock": 62
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 45,000đ | Kho: 153)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 45,000đ | Kho: 62)"
       },
       {
         "id": "p-1792128240242",
         "name": "Gmail Việt 2020-2024",
         "price": 55000,
-        "cost_price": 35000,
+        "cost_price": 45000,
         "stock": 59,
         "stock_text": "Còn 59",
         "duration": "1 Tháng",
@@ -6397,15 +6100,15 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 59,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 35000,
-          "stock": 520
+          "bot": "@sieuthistore_bot",
+          "cost_price": 45000,
+          "stock": 59
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 35,000đ | Kho: 520)",
+        "import_note": "Ưu tiên nhập tại @sieuthistore_bot (Vốn: 45,000đ | Kho: 59)",
         "hidden": false,
         "needs_review": false
       },
@@ -6445,16 +6148,16 @@
         "id": "p-1792054905088",
         "name": "CHAT GPT TRIAL NO OFFER PLUS GMAIL CSLIVE",
         "price": 35000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "detail": "-Khi mua về nhớ change 2FA.\n- Bảo hành Offer 24h, Quá 24h shop không giải quyết.\n- AE tự bảo quản acc sau khi mua nhé.",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 25000,
             "selling_price": 35000,
-            "stock": 3,
-            "updated": "17:49 22/10/2026"
+            "stock": 1,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -6466,9 +6169,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 25000,
-          "stock": 3
+          "stock": 1
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 25,000đ | Kho: 3)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 25,000đ | Kho: 1)",
         "needs_review": false
       },
       {
@@ -6485,19 +6188,19 @@
             "cost_price": 49000,
             "selling_price": 59000,
             "stock": 29,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 29,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 29,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -6527,7 +6230,7 @@
             "cost_price": 33000,
             "selling_price": 43000,
             "stock": 0,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -6563,7 +6266,7 @@
             "cost_price": 36000,
             "selling_price": 46000,
             "stock": 0,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -6599,7 +6302,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 14,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 14,
@@ -6635,13 +6338,13 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 11,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 22000,
             "selling_price": 32000,
             "stock": 11,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -6662,8 +6365,8 @@
         "name": "ChatGPT Free (Hàng Gmail) - KBH",
         "price": 12000,
         "cost_price": 2000,
-        "stock": 1069,
-        "stock_text": "Còn 1069",
+        "stock": 1062,
+        "stock_text": "Còn 1062",
         "duration": "Vĩnh viễn",
         "detail": "🔐 Acc riêng tư , đổi pass thỏa mái\n📂 Format: Email | Pass | 2FA\n⚠️ Hỗ trợ vấn đề trong 1H đầu. Sau 1H shop không hỗ trợ",
         "hidden": false,
@@ -6671,8 +6374,8 @@
           "taphoathomap_bot": {
             "cost_price": 2000,
             "selling_price": 12000,
-            "stock": 1069,
-            "updated": "17:49 22/10/2026"
+            "stock": 1062,
+            "updated": "18:16 22/10/2026"
           }
         },
         "signature": "chatgpt free hàng gmail | general | 1m | kbh",
@@ -6682,9 +6385,9 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 2000,
-          "stock": 1069
+          "stock": 1062
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 2,000đ | Kho: 1069)",
+        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 2,000đ | Kho: 1062)",
         "needs_review": false
       },
       {
@@ -6702,7 +6405,7 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "stock": 868,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "signature": "chatgpt free gmail | general | 1m | kbh",
@@ -6731,7 +6434,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 38,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -6761,7 +6464,7 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 38,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -6801,16 +6504,16 @@
         "id": "p-1791915198168",
         "name": "ADMIN MS365 PREMIUM 1TB 5 SLOT 1 NĂM BHF",
         "price": 330000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 7,
+        "stock_text": "Còn 7",
         "duration": "1 Năm",
         "detail": "ướng dẫn: Office family trial 12 tháng, mỗi tháng renew 1 lần bên mình đã có tool tự động gia hạn. ae add khách nếu hiện ngày hết hạn sau 1 tháng thì có thể yên tâm sử dụng, đến hạn bên mình sẽ renew ngay lập tức hoàn toàn tự động cho anh em\nKhông đổi pass, cài 2Fa. tài khoản bảo đảm bán riêng tư ae giữ nguyên bên mình tiện renew nhé\nđọc kỹ trước khi mua hàng, tránh tranh chấp sau mua, cảm ơn ae\n- Web lấy mã otp về mail khôi phục ( thay đuôi @ ): ướng dẫn: Office family trial 12 tháng, mỗi tháng renew 1 lần bên mình đã có tool tự động gia hạn. ae add khách nếu hiện ngày hết hạn sau 1 tháng thì có thể yên tâm sử dụng, đến hạn bên mình sẽ renew ngay lập tức hoàn toàn tự động cho anh em\n- Web mail Domain mail khôi phục nếu ae cần lấy Code để đăng nhập ( thay mỗi đuôi @ đằng sau ): https://fviainboxes.com/",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 300000,
             "selling_price": 330000,
-            "stock": 8,
-            "updated": "17:49 22/10/2026"
+            "stock": 7,
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 300000,
@@ -6823,9 +6526,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 300000,
-          "stock": 8
+          "stock": 7
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 300,000đ | Kho: 8)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 300,000đ | Kho: 7)"
       },
       {
         "id": "p-1792268569370",
@@ -6861,16 +6564,16 @@
         "id": "p-1792268573325",
         "name": "ADMIN MS365 PREMIUM 1 THÁNG BHF",
         "price": 60000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 50000,
             "selling_price": 60000,
-            "stock": 19,
-            "updated": "17:49 22/10/2026"
+            "stock": 8,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -6883,9 +6586,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 50000,
-          "stock": 19
+          "stock": 8
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 50,000đ | Kho: 19)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 50,000đ | Kho: 8)"
       },
       {
         "id": "p-1792268578812",
@@ -6991,7 +6694,7 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 5,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -7048,7 +6751,7 @@
         "id": "p-1792094916011",
         "name": "Tài khoản VieON VIP 3 Tháng BHF",
         "price": 100000,
-        "cost_price": 55000,
+        "cost_price": 80000,
         "stock": 1,
         "stock_text": "Còn 1",
         "duration": "3 Tháng",
@@ -7064,7 +6767,7 @@
             "cost_price": 80000,
             "selling_price": 90000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 1,
@@ -7074,11 +6777,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 55000,
+          "bot": "@ntnshopre_bot",
+          "cost_price": 80000,
           "stock": 1
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 55,000đ | Kho: 1)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 80,000đ | Kho: 1)",
         "hidden": false,
         "needs_review": false
       },
@@ -7086,16 +6789,16 @@
         "id": "p-1792123650725",
         "name": "SLOT NETFLIX PREMIUM 4K 1 THÁNG BHF",
         "price": 175000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Tài khoản Netflix Premium 4K + HDR gói cao nhất cấp riêng tư - BHF\n⚠️ Không đổi mật khẩu, mã pin , dùng 1 thiết bị nếu vi phạm ko bảo hành\n✅ Định dạng sản phẩm: Mail/Pass/Slot/Mã Pin(Nếu có)\n✅ Bảo hành full 1 tháng trong thời gian sử dụng, gia hạn được\n✅ Thiết bị được hỗ trợ:\nTV, máy tính, điện thoại di động, máy tính bảng\n✅ Khi đăng nhập lần đầu sẽ cần mã 4 số, Quý khách chọn Nhận trợ giúp nhập mật khẩu là được\n✅ Lưu ý: Khách vui lòng dùng đúng Profile được cấp, không spam tài khoản nhiều lần\n✅ Dùng được global ko cần vpn\n📺 Lưu ý quan trọng\n- Vui lòng xem đúng Slot, không đổi tên, Pin, mật khẩu giúp em nha , chỉ vào và sử dụng xem  1 máy cùng lúc, không chia sẻ tài khoản với ai ( sẽ ảnh hưởng đến quý khách ).\n- Không spam đăng nhập tài khoản liên tục có thể bị khóa 24h\n- KHÔNG THAY ĐỔI THÔNG TIN THANH TOÁN, XEM ĐÚNG HỒ SƠ CHỈ ĐỊNH. Nếu cố tình đổi, shop xin từ chối bảo hành! Thời gian support: 7h sáng - 23h đêm, support có thể chậm chễ, nhưng chắc chắn sẽ phản hồi, a/c thông cảm giúp em nha. Chúc Quý Khách xem phim vui vẻ!)",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 55000,
             "selling_price": 65000,
-            "stock": 5,
-            "updated": "17:49 22/10/2026"
+            "stock": 0,
+            "updated": "18:16 22/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 9,
@@ -7120,9 +6823,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 55000,
-          "stock": 5
+          "stock": 0
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 55,000đ | Kho: 5)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 55,000đ | Kho: 0)"
       },
       {
         "id": "p-1792183901751",
@@ -7138,13 +6841,13 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 67,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 67,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -7176,7 +6879,7 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -7234,7 +6937,7 @@
             "cost_price": 150000,
             "selling_price": 170000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -7253,26 +6956,26 @@
       {
         "id": "p-1792665217389-23",
         "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành  full",
-        "price": 65000,
-        "cost_price": 55000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "price": 70000,
+        "cost_price": 60000,
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "detail": "Gói bản quyền [Slot] Netflix 4K Premium 1 tháng Bảo hành  full cấp nhanh chóng, bảo hành uy tín đúng mô tả.",
         "sources": {
           "taphoathomap_bot": {
-            "cost_price": 55000,
-            "selling_price": 65000,
-            "stock": 4,
-            "updated": "17:49 22/10/2026"
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "stock": 1,
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 55000,
-          "stock": 4
+          "cost_price": 60000,
+          "stock": 1
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 55,000đ | Kho: 4)",
+        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 60,000đ | Kho: 1)",
         "hidden": false,
         "needs_review": false
       }
@@ -7295,7 +6998,7 @@
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 65000,
@@ -7325,7 +7028,7 @@
             "cost_price": 75000,
             "selling_price": 85000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 75000,
@@ -7386,13 +7089,13 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 6,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": 6,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 15000,
@@ -7481,7 +7184,7 @@
             "cost_price": 150000,
             "selling_price": 170000,
             "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -7511,7 +7214,7 @@
             "cost_price": 180000,
             "selling_price": 200000,
             "stock": 11,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -7541,7 +7244,7 @@
             "cost_price": 110000,
             "selling_price": 130000,
             "stock": 11,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -7578,7 +7281,7 @@
             "cost_price": 180000,
             "selling_price": 200000,
             "stock": 12,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -7604,7 +7307,7 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -7630,7 +7333,7 @@
             "cost_price": 700000,
             "selling_price": 800000,
             "stock": 53,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -7656,7 +7359,7 @@
             "cost_price": 350000,
             "selling_price": 400000,
             "stock": 51,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -7682,7 +7385,7 @@
             "cost_price": 950000,
             "selling_price": 1050000,
             "stock": 36,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -7708,7 +7411,7 @@
             "cost_price": 2500000,
             "selling_price": 2850000,
             "stock": 30,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -7734,7 +7437,7 @@
             "cost_price": 245000,
             "selling_price": 275000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -7760,7 +7463,7 @@
             "cost_price": 150000,
             "selling_price": 170000,
             "stock": 10,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -7786,7 +7489,7 @@
             "cost_price": 115000,
             "selling_price": 135000,
             "stock": 3,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -7812,7 +7515,7 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 48,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -7886,7 +7589,7 @@
             "cost_price": 165000,
             "selling_price": 185000,
             "stock": 17,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 165000,
@@ -7936,22 +7639,22 @@
         "id": "p-1792034135088",
         "name": "SURFSHARK VPN ANDROI/PC/IOS 7 NGÀY BHF",
         "price": 25000,
-        "stock": 13,
-        "stock_text": "Còn 13",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "Surfshark VPN gói One 7 Ngày BHF login 5 thiết bị, login quá nhiều dẫn đến bị khoá tài khoản sẽ không được bảo hành\n- Chỉ bảo hành gói đăng kí\n- Định dạng: email|pass\n- Lấy mã tại https://mailtemp.vn/ hoặc Cutemail.us",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 15000,
             "selling_price": 25000,
-            "stock": 7,
-            "updated": "17:49 22/10/2026"
+            "stock": 4,
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": 6,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -7963,25 +7666,25 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 15000,
-          "stock": 7
+          "stock": 4
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 15,000đ | Kho: 7)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 15,000đ | Kho: 4)",
         "needs_review": false
       },
       {
         "id": "p-1792043307697",
         "name": "KEY HMA AND/PC 20-30 DAYS",
         "price": 20000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "Gói KEY HMA AND/PC 20-30 DAYS bảo hành uy tín.",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 10000,
             "selling_price": 20000,
-            "stock": 22,
-            "updated": "17:49 22/10/2026"
+            "stock": 8,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -7993,26 +7696,26 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 10000,
-          "stock": 22
+          "stock": 8
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 10,000đ | Kho: 22)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 10,000đ | Kho: 8)",
         "needs_review": false
       },
       {
         "id": "p-1792089898144",
         "name": "NORD VPN 7 NGÀY 10 THIẾT BỊ BHF",
         "price": 45000,
-        "cost_price": 20000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "cost_price": 25000,
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "- Nord Vpn dùng 10 thiết bị 7 ngày bhf\n- Định dạng tk|mk dùng được android ios pc\n- Lấy code tại wed https://mailtemp.vn/ hoặc cutemail.us",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 25000,
             "selling_price": 35000,
-            "stock": 11,
-            "updated": "17:49 22/10/2026"
+            "stock": 8,
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -8028,11 +7731,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 20000,
-          "stock": 11
+          "bot": "@ntnshopre_bot",
+          "cost_price": 25000,
+          "stock": 8
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 20,000đ | Kho: 11)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 25,000đ | Kho: 8)",
         "hidden": false,
         "needs_review": false
       },
@@ -8041,8 +7744,8 @@
         "name": "Surfshark VPN One 7 Ngày BHF",
         "price": 45000,
         "cost_price": 15000,
-        "stock": 36,
-        "stock_text": "Còn 36",
+        "stock": 31,
+        "stock_text": "Còn 31",
         "duration": "1 Tháng",
         "detail": "Surfshark VPN gói One 7 Ngày BHF login 5 thiết bị, login quá nhiều dẫn đến bị khoá tài khoản sẽ không được bảo hành\n- Định dạng: email|pass\n- Web mail lấy code otp: https://get-opt.phh.info.vn/",
         "sources": {
@@ -8050,19 +7753,19 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 12,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 18000,
             "selling_price": 28000,
-            "stock": 12,
-            "updated": "17:49 22/10/2026"
+            "stock": 7,
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": 12,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -8179,7 +7882,7 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": 0,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 14,
@@ -8215,7 +7918,7 @@
             "cost_price": 125000,
             "selling_price": 145000,
             "stock": 0,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -8236,8 +7939,8 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 35000,
         "cost_price": 15000,
-        "stock": 29,
-        "stock_text": "Còn 29",
+        "stock": 25,
+        "stock_text": "Còn 25",
         "duration": "1 Tháng",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/",
         "sources": {
@@ -8245,19 +7948,19 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 11,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": 11,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 15000,
             "selling_price": 25000,
-            "stock": 7,
-            "updated": "17:49 22/10/2026"
+            "stock": 3,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -8269,9 +7972,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 15000,
-          "stock": 7
+          "stock": 3
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 15,000đ | Kho: 7)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 15,000đ | Kho: 3)"
       },
       {
         "id": "p-1792394257372",
@@ -8287,7 +7990,7 @@
             "cost_price": 80000,
             "selling_price": 90000,
             "stock": 14,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -8308,16 +8011,16 @@
         "name": "NORD VPN ANDROI/PC/IOS SLOT 3 THÁNG BHF",
         "price": 110000,
         "cost_price": 100000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "3 Tháng",
         "detail": "- Nord Vpn dùng 2 thiết bị 3 tháng bảo hành full-time\nHướng dẫn đăng nhập:\n- Định dạng tk|mk|key1|key2 dùng được android ios pc .\n- Thiết bị 1: Đăng nhập tài khoản -> mật khẩu  -> See other options -> Chọn mã key 1 -> mã key 1 -> Hoàn thành\n- Thiết bị 2 làm  tương tự như thiết bị 1.\n-Ae hoàn toàn chủ động đăng nhập nhớ đọc kỹ hướng dẫn sau khi mua xong (không cấp full mail) .\n- Lưu ý không dùng hơn số thiết bị phát hiện kick không hoàn tiền\n- Cần nâng cấp chính chủ 10 thiết bị liên hệ với admin",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 100000,
             "selling_price": 110000,
-            "stock": 14,
-            "updated": "17:49 22/10/2026"
+            "stock": 2,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -8329,9 +8032,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 100000,
-          "stock": 14
+          "stock": 2
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 100,000đ | Kho: 14)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 100,000đ | Kho: 2)"
       },
       {
         "id": "p-1792396908587",
@@ -8415,7 +8118,7 @@
             "cost_price": 125000,
             "selling_price": 145000,
             "stock": 4,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -8441,13 +8144,13 @@
             "cost_price": 20000,
             "selling_price": 30000,
             "stock": 17,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 9,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -8463,7 +8166,7 @@
         "id": "p-1792088127430",
         "name": "Grammarly AI Pro 1 Tháng BHF",
         "price": 100000,
-        "cost_price": 70000,
+        "cost_price": 90000,
         "stock": 7,
         "stock_text": "Còn 7",
         "duration": "1 Tháng",
@@ -8479,7 +8182,7 @@
             "cost_price": 90000,
             "selling_price": 100000,
             "stock": 7,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 7,
@@ -8489,20 +8192,20 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 70000,
+          "bot": "@piggyai99_bot",
+          "cost_price": 90000,
           "stock": 7
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 70,000đ | Kho: 7)",
+        "import_note": "Ưu tiên nhập tại @piggyai99_bot (Vốn: 90,000đ | Kho: 7)",
         "hidden": false,
         "needs_review": false
       },
       {
         "id": "p-1792207318666",
         "name": "Link Get Offer Duolingo Super 1 năm BH 1 tháng",
-        "price": 40000,
-        "stock": 26,
-        "stock_text": "Còn 26",
+        "price": 55000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Năm",
         "detail": "✅ Bạn sẽ nhận được liên kết kích hoạt Duolingo Super thời hạn 12 tháng!\n✅ Không cần dùng thẻ để kích hoạt.\n✅ Chỉ cần dán liên kết vào trình duyệt, đăng nhập vào tài khoản của bạn và nhấn vào nút nhận ưu đãi (CLAIM OFFER)!\n✅ Chỉ bảo hành active thành công cho 1 tài khoản\n✅ Nếu lỗi vui lòng FAKE IP INDIA để nhận ưu đãi",
         "sources": {
@@ -8511,21 +8214,27 @@
             "cost_price": 30000,
             "updated": "10:21 17/10/2026",
             "selling_price": 40000
+          },
+          "ntnshopre_bot": {
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "stock": 0,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 30000,
+        "cost_price": 45000,
         "signature": "get offer duolingo super bh | link | 1y | none",
         "product_type": "link",
         "normalized_duration": "1y",
         "normalized_warranty": "none",
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 30000,
-          "stock": 26,
-          "updated": "10:21 17/10/2026"
+          "bot": "@ntnshopre_bot",
+          "cost_price": 45000,
+          "stock": 0
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 30,000đ)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 45,000đ | Kho: 0)",
+        "needs_review": false
       }
     ]
   },
@@ -8547,13 +8256,13 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -8602,8 +8311,8 @@
         "name": "Meitu Vip+ 30D BHF",
         "price": 90000,
         "cost_price": 30000,
-        "stock": 44,
-        "stock_text": "Còn 44",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "⚠️ LƯU Ý QUAN TRỌNG\n📱 Chỉ sử dụng trên 01 thiết bị iPhone/iOS\n🔐 Quy định sử dụng:\n• Đăng nhập trong vòng 30 phút kể từ lúc mua.\n• Không đăng xuất tài khoản sau khi đăng nhập.\n• Không chia sẻ tài khoản, không đổi mật khẩu/thông tin tài khoản.\n• Không đăng nhập nhiều thiết bị.\n➡️ Vi phạm bất kỳ quy định nào sẽ không được bảo hành.\n🍎 Hướng dẫn đăng nhập iPhone/iOS:\nThông thường không cần mã xác nhận. Chọn +852 hoặc +86, nhập SĐT + mật khẩu rồi đăng nhập.\n👆 Xem ảnh hướng dẫn đăng nhập phía trên.\n🛠 Nếu bị lỗi: chụp màn hình tình trạng lỗi ngay sau khi đăng nhập và gửi cho shop để được hỗ trợ.",
         "sources": {
@@ -8611,13 +8320,13 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 10,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 80000,
             "selling_price": 90000,
-            "stock": 34,
-            "updated": "17:49 22/10/2026"
+            "stock": 10,
+            "updated": "18:16 22/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 24,
@@ -8648,13 +8357,13 @@
             "cost_price": 75000,
             "selling_price": 85000,
             "stock": 0,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 75000,
             "selling_price": 85000,
             "stock": 0,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cost_price": 75000,
@@ -8714,8 +8423,8 @@
         "name": "Meitu SVip+ 7 Ngày BHF",
         "price": 55000,
         "cost_price": 25000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "1 Tháng",
         "detail": "Meitu SVIP(VIP+) 7 Ngày login 1 thiết bị, nếu đăng nhập trên điện thoại lỗi thì có thể đăng nhập sử dụng trên PC, Mac\n- Định dạng: (Email|Pass Hotmail|Pass Meitu) Token\n- Pass Meitu mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\n・Link tải Meitu cho máy tính Windows\nhttps://meitu.vi.uptodown.com/windows\n・Link tải Meitu cho máy tính Mac OS\nhttps://meitu.vi.uptodown.com/mac\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI",
         "sources": {
@@ -8723,13 +8432,13 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 13,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 25000,
             "selling_price": 35000,
-            "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "stock": 5,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -8741,9 +8450,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 25000,
-          "stock": 1
+          "stock": 5
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 25,000đ | Kho: 1)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 25,000đ | Kho: 5)"
       },
       {
         "id": "p-1792472374619",
@@ -8759,13 +8468,13 @@
             "cost_price": 165000,
             "selling_price": 185000,
             "stock": 4,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 210000,
             "selling_price": 240000,
             "stock": 4,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -8805,7 +8514,7 @@
             "cost_price": 380000,
             "selling_price": 430000,
             "stock": 0,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -8831,7 +8540,7 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": 10,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "needs_review": false,
@@ -8851,16 +8560,16 @@
         "id": "p-1792097672589",
         "name": "ELEVENLAB CREATOR 1 THÁNG BẢO HÀNH 3 NGÀY",
         "price": 219000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "mail|pass mail|pas11lab",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 199000,
             "selling_price": 219000,
-            "stock": 11,
-            "updated": "17:49 22/10/2026"
+            "stock": 0,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -8872,9 +8581,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 199000,
-          "stock": 11
+          "stock": 0
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 199,000đ | Kho: 11)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 199,000đ | Kho: 0)",
         "needs_review": false
       },
       {
@@ -8890,7 +8599,7 @@
             "cost_price": 180000,
             "selling_price": 200000,
             "stock": 11,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -8963,7 +8672,7 @@
             "cost_price": 210000,
             "selling_price": 240000,
             "stock": 0,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "needs_review": false,
@@ -8993,7 +8702,7 @@
             "cost_price": 175000,
             "selling_price": 195000,
             "stock": 0,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "needs_review": false,
@@ -9126,13 +8835,13 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 90000,
             "selling_price": 100000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -9148,16 +8857,16 @@
         "id": "p-1792136056665",
         "name": "AKOOL STARTER 200 CREDITS 1 THÁNG BẢO HÀNH 12H",
         "price": 110000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "detail": "AKOOL AI – Nền tảng AI Video & Image hỗ trợ tạo video, Face Swap, AI Avatar và chỉnh sửa nội dung bằng AI.\nGói: 1 Tháng\nĐịnh dạng: Email | Pass | Link đọc Code\nBảo hành 12 giờ",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 100000,
             "selling_price": 110000,
-            "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "stock": 1,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -9169,9 +8878,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 100000,
-          "stock": 2
+          "stock": 1
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 100,000đ | Kho: 2)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 100,000đ | Kho: 1)",
         "needs_review": false
       },
       {
@@ -9285,7 +8994,7 @@
             "cost_price": 95000,
             "selling_price": 105000,
             "stock": 8,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -9347,7 +9056,7 @@
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": 30,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -9377,7 +9086,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 30,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -9407,7 +9116,7 @@
             "cost_price": 150000,
             "selling_price": 170000,
             "stock": 12,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -9444,7 +9153,7 @@
             "cost_price": 20000,
             "selling_price": 30000,
             "stock": 20,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "needs_review": false,
@@ -9474,13 +9183,13 @@
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": 182,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 30,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -9511,7 +9220,7 @@
             "cost_price": 89000,
             "selling_price": 99000,
             "stock": 7,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -9632,7 +9341,7 @@
             "cost_price": 1500000,
             "selling_price": 1700000,
             "stock": 43,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -9662,7 +9371,7 @@
             "cost_price": 700000,
             "selling_price": 800000,
             "stock": 43,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -9692,7 +9401,7 @@
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 43,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -9722,7 +9431,7 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "stock": 43,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -9861,7 +9570,7 @@
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": 10,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -9891,19 +9600,19 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 60000,
             "selling_price": 70000,
             "stock": 10,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -9924,16 +9633,16 @@
         "id": "p-1792265296447",
         "name": "ACC ZOOM PRO 28 NGÀY BHF",
         "price": 85000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "detail": "Zoom Pro 100 members, 30 giờ mỗi cuộc họp\nĐịnh dạng: Email|Pass|Web mail\n📝 ✨ VÀI LƯU Ý QUAN TRỌNG  GỬI ĐẾN BẠN ✨\nCảm ơn bạn đã tin tưởng và nâng cấp tài khoản Zoom tại! Để quá trình sử dụng của bạn được suôn sẻ và nhận được hỗ trợ tốt nhất, bạn vui lòng lưu ý giúp shop vài điểm nhỏ sau nhé:\n🔑 Về mật khẩu tài khoản:\n- Để shop có thể hỗ trợ bạn tức thì khi có sự cố phát sinh, bạn vui lòng không thay đổi mật khẩu trong thời gian sử dụng gói cước. Nếu có thay đổi, bạn đừng quên báo lại mật khẩu mới cho shop nhé!\n📲 Về xác thực hai yếu tố (2FA):\n- Trong quá trình đăng nhập, nếu màn hình hiển thị yêu cầu xác thực 2 yếu tố, bạn chỉ cần chọn \"Bỏ qua\"…\n✨ Lưu ý về việc lấy code otp ở web, nếu check mail thấy mã 333333 thì các bác phải nhấn vào mã đó để ra nội dung chứa code chuẩn 6 số nhé, đừng nhập mã 333333 là sai nhé, nếu bị khóa đợi 30 phút nó mở lại",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 40000,
             "selling_price": 50000,
-            "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "stock": 1,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -9945,9 +9654,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 40000,
-          "stock": 2
+          "stock": 1
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 40,000đ | Kho: 2)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 40,000đ | Kho: 1)",
         "needs_review": false
       },
       {
@@ -10041,7 +9750,7 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "stock": 24,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -10071,7 +9780,7 @@
             "cost_price": 179000,
             "selling_price": 199000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -10204,9 +9913,9 @@
       {
         "id": "p-1791991303685",
         "name": "XBOX GAME PASS ULTIMATE - 1 NĂM ( BH 1 Tháng)",
-        "price": 380000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "price": 410000,
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "1 Năm",
         "detail": "🌟Nâng Cấp Xbox Game Pass Ultimate 1 Năm - Vũ Trụ Game Không Giới Hạn - Bảo hành 1 tháng 📌 Gói này chỉ dành sử dụng cho máy tính 🟥 Sử dụng trên Máy tính - Không thể sử dụng trên Console, Điện thoại 🟥 Không bao gồm Cloud Gaming và các game có launcher thứ 3 như EA, Ubisoft, Activision, GTA, Minecraft 📌Nâng cấp trên tài khoản Chính chủ: kích hoạt trực tiếp vào tài khoản Microsoft/Xbox cá nhân của bạn. Không dùng chung, bảo mật tuyệt đối, giữ nguyên lịch sử chơi game (Save game) và thành tích (Achievements). 📌Có hướng dẫn sử dụng sau khi mua. 📌 Đọc kĩ trước khi mua hàng ! 📌Không hoàn tiền khi mua gói ------------------------------- 🌟 Đặc quyền \"Vô cực\" khi sở hữu Xbox Game Pass Ultimate: 📌Thư viện hàng trăm game đỉnh cao: Truy cập tự do vào kho tàng hơn 400+ tựa game chất lượng cao trên cả PC (Windows 10/11) . Từ game nhập vai, bắn súng, đua xe đến game gia đình giải trí.",
         "sources": {
@@ -10215,20 +9924,27 @@
             "cost_price": 330000,
             "updated": "15:12 15/10/2026",
             "selling_price": 380000
+          },
+          "ntnshopre_bot": {
+            "cost_price": 360000,
+            "selling_price": 410000,
+            "stock": 14,
+            "updated": "18:16 22/10/2026"
           }
         },
-        "cost_price": 330000,
+        "cost_price": 360000,
         "signature": "xbox game pass ultimate bh | general | 1y | none",
         "product_type": "general",
         "normalized_duration": "1y",
         "normalized_warranty": "none",
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 330000,
-          "stock": 2,
-          "updated": "15:12 15/10/2026"
+          "bot": "@ntnshopre_bot",
+          "cost_price": 360000,
+          "stock": 14
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 330,000đ)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 360,000đ | Kho: 14)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1791866355739",
@@ -10346,7 +10062,7 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "stock": 6,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 8,
@@ -10373,16 +10089,16 @@
         "name": "KEY WINDOWS 10/11 PRO RETAIL ONLINE BH 7 NGÀY",
         "price": 110000,
         "cost_price": 100000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 13,
+        "stock_text": "Còn 13",
         "duration": "1 Tháng",
         "detail": "Định Dạng Key: XXXXX-XXXXX-XXXXX-XXXXX\nBảo hành 7 ngày\nNhập trực tiếp vào thiết bị là xong\nSử dụng vĩnh viễn, nhưng nếu cài lại Windows thì khoảng 10% khả năng mất bản quyền\nLink tải: https://www.microsoft.com/en-us/software-download/windows11\nKHÁCH ĐANG Ở BẢN HOME: Đầu tiên, nhập key mẫu dưới đây để nâng cấp TỪ BẢN HOME lên bản Pro:\nXPN43-XP7KQ-KMH2P-Q3P93-2WF9G\nSau khi nâng cấp xong, nhập key bạn đã mua trong đơn hàng để kích hoạt là hoàn tất.",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 100000,
             "selling_price": 110000,
-            "stock": 6,
-            "updated": "17:49 22/10/2026"
+            "stock": 13,
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -10393,9 +10109,9 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 100000,
-          "stock": 6
+          "stock": 13
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 100,000đ | Kho: 6)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 100,000đ | Kho: 13)",
         "needs_review": false
       },
       {
@@ -10412,7 +10128,7 @@
             "cost_price": 80000,
             "selling_price": 90000,
             "stock": 4,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -10442,7 +10158,7 @@
             "cost_price": 180000,
             "selling_price": 200000,
             "stock": 5,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -10472,7 +10188,7 @@
             "cost_price": 110000,
             "selling_price": 130000,
             "stock": 4,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "hidden": false,
@@ -10502,7 +10218,7 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 41,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10528,13 +10244,13 @@
             "cost_price": 59000,
             "selling_price": 69000,
             "stock": 63,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 59000,
             "selling_price": 69000,
             "stock": 500,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10560,7 +10276,7 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": 0,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10586,7 +10302,7 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "stock": 8,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10612,7 +10328,7 @@
             "cost_price": 115000,
             "selling_price": 135000,
             "stock": 20,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10638,7 +10354,7 @@
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10664,7 +10380,7 @@
             "cost_price": 165000,
             "selling_price": 185000,
             "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10690,7 +10406,7 @@
             "cost_price": 330000,
             "selling_price": 380000,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10716,7 +10432,7 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 374,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10742,7 +10458,7 @@
             "cost_price": 149000,
             "selling_price": 169000,
             "stock": 47,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10768,7 +10484,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 300,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10794,7 +10510,7 @@
             "cost_price": 179000,
             "selling_price": 199000,
             "stock": 54,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10820,7 +10536,7 @@
             "cost_price": 629000,
             "selling_price": 729000,
             "stock": 14,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10846,7 +10562,7 @@
             "cost_price": 619000,
             "selling_price": 719000,
             "stock": 9,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10872,7 +10588,7 @@
             "cost_price": 469000,
             "selling_price": 519000,
             "stock": 4,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10898,7 +10614,7 @@
             "cost_price": 1080000,
             "selling_price": 1280000,
             "stock": 8,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10924,7 +10640,7 @@
             "cost_price": 355000,
             "selling_price": 405000,
             "stock": 2,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10950,7 +10666,7 @@
             "cost_price": 369000,
             "selling_price": 419000,
             "stock": 25,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10976,7 +10692,7 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 173,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11002,7 +10718,7 @@
             "cost_price": 320000,
             "selling_price": 370000,
             "stock": 26,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11028,7 +10744,7 @@
             "cost_price": 169000,
             "selling_price": 189000,
             "stock": 50,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11054,7 +10770,7 @@
             "cost_price": 39000,
             "selling_price": 49000,
             "stock": 191,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11080,7 +10796,7 @@
             "cost_price": 229000,
             "selling_price": 259000,
             "stock": 5,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11106,7 +10822,7 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 28,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11132,7 +10848,7 @@
             "cost_price": 529000,
             "selling_price": 629000,
             "stock": 5,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11158,7 +10874,7 @@
             "cost_price": 70000,
             "selling_price": 80000,
             "stock": 4,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11184,7 +10900,7 @@
             "cost_price": 450000,
             "selling_price": 500000,
             "stock": 10,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11210,7 +10926,7 @@
             "cost_price": 550000,
             "selling_price": 650000,
             "stock": 3,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11236,7 +10952,7 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 76,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11262,7 +10978,7 @@
             "cost_price": 450000,
             "selling_price": 500000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11288,7 +11004,7 @@
             "cost_price": 1650000,
             "selling_price": 1850000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11314,7 +11030,7 @@
             "cost_price": 4500000,
             "selling_price": 5100000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11340,7 +11056,7 @@
             "cost_price": 9200000,
             "selling_price": 10200000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11366,7 +11082,7 @@
             "cost_price": 370000,
             "selling_price": 420000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11392,7 +11108,7 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11418,7 +11134,7 @@
             "cost_price": 4100000,
             "selling_price": 4700000,
             "stock": 37,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11444,7 +11160,7 @@
             "cost_price": 6000000,
             "selling_price": 6600000,
             "stock": 37,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11470,7 +11186,7 @@
             "cost_price": 3300000,
             "selling_price": 3650000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11496,7 +11212,7 @@
             "cost_price": 350000,
             "selling_price": 400000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11522,7 +11238,7 @@
             "cost_price": 200000,
             "selling_price": 220000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11548,7 +11264,7 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11574,7 +11290,7 @@
             "cost_price": 70000,
             "selling_price": 80000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11600,7 +11316,7 @@
             "cost_price": 60000,
             "selling_price": 70000,
             "stock": 12,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11626,7 +11342,7 @@
             "cost_price": 69000,
             "selling_price": 79000,
             "stock": 19,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11652,7 +11368,7 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 16,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11678,7 +11394,7 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 6,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11704,7 +11420,7 @@
             "cost_price": 95000,
             "selling_price": 105000,
             "stock": 6,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11730,7 +11446,7 @@
             "cost_price": 2800000,
             "selling_price": 3150000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11756,7 +11472,7 @@
             "cost_price": 10,
             "selling_price": 10010,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11782,7 +11498,7 @@
             "cost_price": 450000,
             "selling_price": 500000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11808,7 +11524,7 @@
             "cost_price": 230000,
             "selling_price": 260000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11834,7 +11550,7 @@
             "cost_price": 60000,
             "selling_price": 70000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11860,7 +11576,7 @@
             "cost_price": 10,
             "selling_price": 10010,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11886,7 +11602,7 @@
             "cost_price": 10,
             "selling_price": 10010,
             "stock": 1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11912,7 +11628,7 @@
             "cost_price": 110000,
             "selling_price": 130000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11938,7 +11654,7 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11964,7 +11680,7 @@
             "cost_price": 150000,
             "selling_price": 170000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -11990,7 +11706,7 @@
             "cost_price": 180000,
             "selling_price": 200000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12016,7 +11732,7 @@
             "cost_price": 210000,
             "selling_price": 240000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12042,7 +11758,7 @@
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12068,7 +11784,7 @@
             "cost_price": 75000,
             "selling_price": 85000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12094,7 +11810,7 @@
             "cost_price": 90000,
             "selling_price": 100000,
             "stock": -1,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:16 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12105,107 +11821,11 @@
         "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 90,000đ | Kho: -1)",
         "hidden": false,
         "needs_review": false
-      },
-      {
-        "id": "p-1792666869546",
-        "name": "Test",
-        "price": 15000,
-        "cost_price": 5000,
-        "stock": 1,
-        "stock_text": "Còn 1",
-        "duration": "1 Tháng",
-        "detail": "Gói Test bảo hành uy tín.",
-        "sources": {
-          "piggyai99_bot": {
-            "stock": 1,
-            "cost_price": 5000,
-            "selling_price": 15000,
-            "updated": "18:01 22/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 5000,
-          "stock": 1
-        },
-        "import_note": "Ưu tiên nhập tại @piggyai99_bot (Vốn: 5,000đ)",
-        "hidden": false,
-        "needs_review": false
-      },
-      {
-        "id": "p-1792667153074",
-        "name": "Link Gemini AI Pro 18 tháng",
-        "price": 55000,
-        "cost_price": 45000,
-        "stock": 41,
-        "stock_text": "Còn 41",
-        "duration": "1 Tháng",
-        "detail": "⚡ GEMINI AI PRO — LINK NÂNG CHÍNH CHỦ 18 THÁNG\n🛡️ CHÍNH SÁCH BẢO HÀNH\nBảo hành Active: 30 phút đầu kể từ thời điểm mua. Vui lòng active ngay với khách lẻ\nBảo hành gói: 24 giờ đầu kể từ thời điểm mua. Khách mua số lượng ít vui lòng kích hoạt và sử dụng ngay để đảm bảo quyền lợi bảo hành.\n✨ THÔNG TIN SẢN PHẨM\n- Link nâng chính chủ Gemini AI Pro lên đến 18 tháng.\n- Kích hoạt trực tiếp trên tài khoản Gmail của bạn.\n- Không cần liên kết thẻ thanh toán. -Thao tác đơn giản, kích hoạt nhanh chóng.\n- Có thể mời thêm tối đa 5 thành viên vào Family.\n📌 CÁCH KÍCH HOẠT\n- Đăng nhập vào tài khoản Gmail cần nâng cấp.\n- Truy cập Link nâng Gemini AI Pro được cung cấp.\n- Nhấn xác nhận và hoàn tất kích hoạt.\n- Kiểm tra lại gói Gemini AI Pro trên tài khoản.\n⚠️ LƯU Ý: Vui lòng kích hoạt ngay sau khi mua. Shop chỉ hỗ trợ bảo hành theo đúng thời gian quy định ở trên.",
-        "sources": {
-          "sieuthistore_bot": {
-            "stock": 41,
-            "cost_price": 45000,
-            "selling_price": 55000,
-            "updated": "18:05 22/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 45000,
-          "stock": 41
-        },
-        "import_note": "Ưu tiên nhập tại @sieuthistore_bot (Vốn: 45,000đ)",
-        "hidden": false,
-        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
-    {
-      "id": "hist-1792667153074",
-      "time": "18:05 - 22/10/2026",
-      "name": "Link Gemini AI Pro 18 tháng",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 41,
-      "catKey": "khac",
-      "msgKey": "☁️LinkGeminiAIPro18tháng➕Thêm:1📦Tồnkhohiệntại:41💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792666920855",
-      "time": "18:02 - 22/10/2026",
-      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
-      "bot": "piggyai99_bot",
-      "price": 43000,
-      "costPrice": 33000,
-      "stockAfter": 68,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:33.000đ"
-    },
-    {
-      "id": "hist-1792666873604",
-      "time": "18:01 - 22/10/2026",
-      "name": "Test",
-      "bot": "piggyai99_bot",
-      "price": 15000,
-      "costPrice": 5000,
-      "stockAfter": 1,
-      "catKey": "khac",
-      "msgKey": "Test➕Thêm:2📦Tồnkhohiệntại:1💰Giá:5.000đ"
-    },
-    {
-      "id": "hist-1792666869546",
-      "time": "18:01 - 22/10/2026",
-      "name": "Test",
-      "bot": "piggyai99_bot",
-      "price": 15000,
-      "costPrice": 5000,
-      "stockAfter": 1,
-      "catKey": "khac",
-      "msgKey": "Test💰Giá:5k📦Tồnkho:1tàikhoản📊Đãbán:3tàikhoản"
-    },
     {
       "id": "hist-1792491251841",
       "time": "17:14 - 20/10/2026",
@@ -13549,6 +13169,62 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:17📦Tồnkhohiệntại:18💰Giá:190.000đ"
+    },
+    {
+      "id": "hist-1792434362237",
+      "time": "01:26 - 20/10/2026",
+      "timestamp": 1792434362237,
+      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 18,
+      "addedQty": 17,
+      "price": 240000,
+      "stockAfter": 23,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:17📦Tồnkhohiệntại:18💰Giá:210.000đ"
+    },
+    {
+      "id": "hist-1792434264846",
+      "time": "01:24 - 20/10/2026",
+      "timestamp": 1792434264846,
+      "name": "Kling 1k  credits 1 tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 2,
+      "addedQty": 2,
+      "price": 200000,
+      "stockAfter": 2,
+      "catKey": "kling",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬Kling1kcredits1thángBH24H➕Thêm:2📦Tồnkhohiệntại:2💰Giá:180.000đ"
+    },
+    {
+      "id": "hist-1792434259865",
+      "time": "01:24 - 20/10/2026",
+      "timestamp": 1792434259865,
+      "name": "Kling 1k  credits 1 tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 3,
+      "addedQty": 0,
+      "price": 200000,
+      "stockAfter": 3,
+      "catKey": "kling",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬Kling1kcredits1thángBH24H💰Giá:180k📦Tồnkho:3tàikhoản📊Đãbán:46tàikhoản"
+    },
+    {
+      "id": "hist-1792433633536",
+      "time": "01:13 - 20/10/2026",
+      "timestamp": 1792433633536,
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "shopStock": 41,
+      "addedQty": 47,
+      "price": 245000,
+      "stockAfter": 41,
+      "catKey": "chatgpt",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:47📦Tồnkhohiệntại:41💰Giá:215.000đ"
     }
   ]
 }
