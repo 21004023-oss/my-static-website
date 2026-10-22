@@ -7467,16 +7467,16 @@
         "id": "p-1792034135088",
         "name": "SURFSHARK VPN ANDROI/PC/IOS 7 NGÀY BHF",
         "price": 25000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "7 Ngày",
         "detail": "Surfshark VPN gói One 7 Ngày BHF login 5 thiết bị, login quá nhiều dẫn đến bị khoá tài khoản sẽ không được bảo hành\n- Chỉ bảo hành gói đăng kí\n- Định dạng: email|pass\n- Lấy mã tại https://mailtemp.vn/ hoặc Cutemail.us",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 7,
+            "stock": 4,
             "cost_price": 15000,
-            "updated": "10:15 15/10/2026",
-            "selling_price": 25000
+            "selling_price": 25000,
+            "updated": "17:10 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 4,
@@ -7494,7 +7494,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 15000,
-          "stock": 7
+          "stock": 4
         },
         "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 15,000đ)",
         "needs_review": false
@@ -10658,6 +10658,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792663843110",
+      "time": "17:10 - 22/10/2026",
+      "name": "SURFSHARK VPN ANDROI/PC/IOS 7 NGÀY BHF",
+      "bot": "ntnshopre_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 8,
+      "catKey": "vpn",
+      "msgKey": "🦈SURFSHARKVPNANDROI/PC/IOS7NGÀYBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1792663837226",
       "time": "17:10 - 22/10/2026",
       "name": "SurfShark VPN Androi/PC/IOS 7 ngày BHF",
@@ -12000,20 +12011,6 @@
       "catKey": "canva",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🎨AdminCanvaProBusiness100Slot1ThángBHF➕Thêm:1📦Tồnkhohiệntại:3💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1792438543204",
-      "time": "02:35 - 20/10/2026",
-      "timestamp": 1792438543204,
-      "name": "ADMIN CANVA PRO 1 THÁNG 100 SLOT BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 3,
-      "addedQty": 1,
-      "price": 60000,
-      "stockAfter": 3,
-      "catKey": "canva",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🎨ADMINCANVAPRO1THÁNG100SLOTBHF➕Thêm:1📦Tồnkhohiệntại:3💰Giá:50.000đ"
     }
   ]
 }
