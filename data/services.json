@@ -226,22 +226,22 @@
         "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
         "price": 49000,
         "cost_price": 39000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 103,
+        "stock_text": "Còn 103",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|mkp|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 103,
             "cost_price": 39000,
             "selling_price": 49000,
-            "updated": "23:26 22/10/2026"
+            "updated": "00:17 23/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 39000,
-          "stock": 0
+          "stock": 103
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -9960,6 +9960,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792689453343",
+      "time": "00:17 - 23/10/2026",
+      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
+      "bot": "sieuthistore_bot",
+      "price": 49000,
+      "costPrice": 39000,
+      "stockAfter": 103,
+      "catKey": "youtube",
+      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:104📦Tồnkhohiệntại:103💰Giá:39.000đ"
+    },
+    {
       "id": "hist-1792688719730",
       "time": "00:05 - 23/10/2026",
       "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
@@ -11290,20 +11301,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapcutPro1ThángBH30Ngày➕Thêm:10📦Tồnkhohiệntại:9💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1792588080263",
-      "time": "20:08 - 21/10/2026",
-      "timestamp": 1792588080263,
-      "name": "Capcut Pro 1 Tháng BH 30 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 9,
-      "addedQty": 0,
-      "price": 70000,
-      "stockAfter": 9,
-      "catKey": "capcut",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✂️CapcutPro1ThángBH30Ngày💰Giá:60k📦Tồnkho:9tàikhoản📊Đãbán:1.721tàikhoản"
     }
   ]
 }
