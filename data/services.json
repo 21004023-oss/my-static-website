@@ -5787,17 +5787,17 @@
         "id": "p-1792291938667",
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
-        "cost_price": 15000,
-        "stock": 87,
-        "stock_text": "Còn 87",
+        "cost_price": 35000,
+        "stock": 74,
+        "stock_text": "Còn 74",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 29,
+            "stock": 16,
             "cost_price": 49000,
             "selling_price": 59000,
-            "updated": "08:13 22/10/2026"
+            "updated": "04:50 23/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 29,
@@ -5812,13 +5812,14 @@
             "updated": "08:13 22/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 35000,
+          "stock": 29
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792402722954",
@@ -10100,6 +10101,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792705818724",
+      "time": "04:50 - 23/10/2026",
+      "name": "Apple ID 2FA Gmail",
+      "bot": "sieuthistore_bot",
+      "price": 59000,
+      "costPrice": 49000,
+      "stockAfter": 74,
+      "catKey": "gmail",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:2📦Tồnkhohiệntại:16💰Giá:49.000đ"
+    },
+    {
       "id": "hist-1792702151745",
       "time": "03:49 - 23/10/2026",
       "name": "NordVPN 3 Ngày BHF",
@@ -11391,20 +11403,6 @@
       "catKey": "google-veo",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:5📦Tồnkhohiệntại:48💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792597682881",
-      "time": "22:48 - 21/10/2026",
-      "timestamp": 1792597682881,
-      "name": "Gói VIP 1. API MUSE - Tạo 333 video 10s - 10 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 43,
-      "addedQty": 43,
-      "price": 110000,
-      "stockAfter": 43,
-      "catKey": "muse-ai",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐GóiVIP1.APIMUSE-Tạo333video10s-10NgàyBHF➕Thêm:43📦Tồnkhohiệntại:43💰Giá:100.000đ"
     }
   ]
 }
