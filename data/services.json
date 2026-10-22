@@ -5742,17 +5742,17 @@
         "id": "p-1792417336475",
         "name": "Gmail Random ip 7-10 ngày 2FA",
         "price": 45000,
-        "cost_price": 25000,
-        "stock": 44,
-        "stock_text": "Còn 44",
+        "cost_price": 15000,
+        "stock": 27,
+        "stock_text": "Còn 27",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2FA |  Bảo hành trong 24h, LOGIN xong hết BẢO HÀNH",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 30,
+            "stock": 13,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "21:10 22/10/2026"
+            "updated": "20:42 19/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 14,
@@ -5761,14 +5761,13 @@
             "updated": "20:42 19/10/2026"
           }
         },
-        "hidden": false,
-        "needs_review": false,
+        "hidden": true,
+        "needs_review": true,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 25000,
-          "stock": 14
+          "cost_price": 15000
         },
-        "import_note": "Nhập: @taphoathomap_bot"
+        "import_note": "🛒 @taphoathomap_bot"
       },
       {
         "id": "p-1792421622161",
@@ -9682,59 +9681,11 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 115000
         }
-      },
-      {
-        "id": "p-1792679624024",
-        "name": "Link Gemini Pro 18 Tháng KBH",
-        "price": 60000,
-        "cost_price": 50000,
-        "stock": 169,
-        "stock_text": "Còn 169",
-        "duration": "1 Tháng",
-        "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.",
-        "sources": {
-          "sieuthistore_bot": {
-            "stock": 169,
-            "cost_price": 50000,
-            "selling_price": 60000,
-            "updated": "21:33 22/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 50000,
-          "stock": 169
-        },
-        "import_note": "Nhập: @sieuthistore_bot",
-        "hidden": false,
-        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
-    {
-      "id": "hist-1792679624024",
-      "time": "21:33 - 22/10/2026",
-      "name": "Link Gemini Pro 18 Tháng KBH",
-      "bot": "sieuthistore_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 169,
-      "catKey": "khac",
-      "msgKey": "☁️LinkGeminiPro18ThángKBH➕Thêm:80📦Tồnkhohiệntại:169💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792678250851",
-      "time": "21:10 - 22/10/2026",
-      "name": "Gmail Random ip 7-10 ngày 2FA",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 44,
-      "catKey": "gmail",
-      "msgKey": "📧GmailRandomip7-10ngày2FA➕Thêm:30📦Tồnkhohiệntại:30💰Giá:35.000đ"
-    },
     {
       "id": "hist-1792655686636",
       "time": "14:54 - 22/10/2026",
@@ -11106,6 +11057,34 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:93📦Tồnkhohiệntại:56💰Giá:230.000đ"
+    },
+    {
+      "id": "hist-1792577828258",
+      "time": "17:17 - 21/10/2026",
+      "timestamp": 1792577828258,
+      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 27,
+      "addedQty": 9,
+      "price": 75000,
+      "stockAfter": 54,
+      "catKey": "capcut",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:65.000đ"
+    },
+    {
+      "id": "hist-1792577772814",
+      "time": "17:16 - 21/10/2026",
+      "timestamp": 1792577772814,
+      "name": "CAPCUT PRO CÁ NHÂN 30 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 27,
+      "addedQty": 9,
+      "price": 50000,
+      "stockAfter": 38,
+      "catKey": "capcut",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:40.000đ"
     }
   ]
 }
