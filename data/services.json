@@ -182,18 +182,28 @@
       {
         "id": "p-1791941158182",
         "name": "CODE KÍCH HOẠT YOUTUBE PREMIUM 3 THÁNG BẢO HÀNH FULL",
-        "price": 99000,
-        "cost_price": 89000,
+        "price": 100000,
+        "cost_price": 90000,
         "duration": "3 Tháng",
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 43,
+        "stock_text": "Còn 43",
         "hidden": false,
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 89000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 90000,
+          "stock": 43
         },
-        "import_note": "🛒 @ntnshopre_bot",
-        "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân\n- Cần fake VPN US\n- Link redeem code: https://www.youtube.com/redeem"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân - Cần fake VPN US - Link redeem code: https://www.youtube.com/redeem",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 43,
+            "cost_price": 90000,
+            "selling_price": 100000,
+            "updated": "23:43 22/10/2026"
+          }
+        },
+        "needs_review": false
       },
       {
         "id": "vidiq-boost-1m",
@@ -9872,6 +9882,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792687394867",
+      "time": "23:43 - 22/10/2026",
+      "name": "CODE KÍCH HOẠT YOUTUBE PREMIUM 3 THÁNG BẢO HÀNH FULL",
+      "bot": "taphoathomap_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 43,
+      "catKey": "youtube",
+      "msgKey": "▶️CODEKÍCHHOẠTYOUTUBEPREMIUM3THÁNGBẢOHÀNHFULL➕Thêm:43📦Tồnkhohiệntại:43💰Giá:90.00"
+    },
+    {
       "id": "hist-1792687056776",
       "time": "23:37 - 22/10/2026",
       "name": "Lovable Lite 12 tháng - BH 2 Tháng",
@@ -11217,20 +11238,6 @@
       "catKey": "youtube",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:4📦Tồnkhohiệntại:571💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1792586738305",
-      "time": "19:45 - 21/10/2026",
-      "timestamp": 1792586738305,
-      "name": "Tài khoản Newtake ai Credits 19$ starter Plan 1 tháng ( BH 24H )",
-      "bot": "taphoathomap_bot",
-      "shopStock": 20,
-      "addedQty": 20,
-      "price": 135000,
-      "stockAfter": 20,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "TàikhoảnNewtakeaiCredits19$starterPlan1tháng(BH24H)➕Thêm:20📦Tồnkhohiệntại:20💰Giá"
     }
   ]
 }
