@@ -1434,6 +1434,13 @@
         <select id="selOrderFilterSale" class="form-control" style="width:140px;" onchange="renderOrdersTable()">
           <option value="">Tất cả Sale</option>
         </select>
+        <select id="selOrderSort" class="form-control" style="width:195px; font-weight:600;" onchange="renderOrdersTable()">
+          <option value="date_desc">📅 Ngày thêm: Mới nhất trước</option>
+          <option value="date_asc">📅 Ngày thêm: Cũ nhất trước</option>
+          <option value="expire_asc">⏳ Hạn dùng: Sắp hết hạn</option>
+          <option value="price_desc">💵 Giá tiền: Cao nhất</option>
+          <option value="id_desc">🔢 Mã đơn: Mới nhất</option>
+        </select>
       </div>
 
       <!-- Bảng Đơn Hàng -->
@@ -1442,7 +1449,7 @@
           <thead>
             <tr>
               <th>Mã Đơn</th>
-              <th>Ngày Mua</th>
+              <th style="cursor:pointer; user-select:none;" onclick="toggleOrderDateSort()" title="Bấm để đảo chiều sắp xếp Ngày Mua">Ngày Mua <span id="sortDateIcon" style="font-size:11px; color:var(--primary); margin-left:3px;">▼</span></th>
               <th>Sản Phẩm / Gói</th>
               <th>Tài Khoản Gmail Cấp</th>
               <th>Mật Khẩu & 2FA</th>
@@ -3652,6 +3659,48 @@
         return true;
       });
 
+      // Hàm chuẩn hóa ngày DD/MM/YYYY sang số nguyên YYYYMMDD để so sánh chuẩn xác tuyệt đối
+      function parseDateToScore(dStr) {
+        if (!dStr) return 0;
+        const parts = String(dStr).trim().split(/[\/\-]/);
+        if (parts.length === 3) {
+          const d = parseInt(parts[0], 10) || 0;
+          const m = parseInt(parts[1], 10) || 0;
+          const y = parseInt(parts[2], 10) || 0;
+          return y * 10000 + m * 100 + d;
+        }
+        return 0;
+      }
+
+      function parseOrderNum(idStr) {
+        if (!idStr) return 0;
+        const m = String(idStr).match(/\d+/);
+        return m ? parseInt(m[0], 10) : 0;
+      }
+
+      // Sắp xếp đơn hàng theo tiêu chí người dùng chọn
+      const sortMode = document.getElementById('selOrderSort')?.value || 'date_desc';
+      filtered.sort((a, b) => {
+        if (sortMode === 'date_desc') {
+          const diff = parseDateToScore(b.date) - parseDateToScore(a.date);
+          if (diff !== 0) return diff;
+          return parseOrderNum(b.id) - parseOrderNum(a.id);
+        } else if (sortMode === 'date_asc') {
+          const diff = parseDateToScore(a.date) - parseDateToScore(b.date);
+          if (diff !== 0) return diff;
+          return parseOrderNum(a.id) - parseOrderNum(b.id);
+        } else if (sortMode === 'expire_asc') {
+          const diff = parseDateToScore(a.expire_date) - parseDateToScore(b.expire_date);
+          if (diff !== 0) return diff;
+          return parseOrderNum(b.id) - parseOrderNum(a.id);
+        } else if (sortMode === 'price_desc') {
+          return Number(b.customer_price || 0) - Number(a.customer_price || 0);
+        } else if (sortMode === 'id_desc') {
+          return parseOrderNum(b.id) - parseOrderNum(a.id);
+        }
+        return 0;
+      });
+
       if (filtered.length === 0) {
         tbody.innerHTML = `<tr><td colspan="12" style="text-align:center; padding:32px; color:var(--text-muted);">Không tìm thấy đơn hàng nào khớp với điều kiện lọc.</td></tr>`;
         return;
@@ -4264,6 +4313,18 @@
         return false;
       }
     }
+
+    let currentOrderDateSort = 'desc';
+    function toggleOrderDateSort() {
+      const sel = document.getElementById('selOrderSort');
+      if (!sel) return;
+      currentOrderDateSort = (currentOrderDateSort === 'desc') ? 'asc' : 'desc';
+      sel.value = currentOrderDateSort === 'desc' ? 'date_desc' : 'date_asc';
+      const icon = document.getElementById('sortDateIcon');
+      if (icon) icon.innerText = currentOrderDateSort === 'desc' ? '▼' : '▲';
+      renderOrdersTable();
+    }
+    window.toggleOrderDateSort = toggleOrderDateSort;
 
     function exportOrdersToExcelCSV() {
       if (ordersData.length === 0) {
