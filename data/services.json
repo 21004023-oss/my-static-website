@@ -12105,11 +12105,48 @@
         "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 90,000đ | Kho: -1)",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792666869546",
+        "name": "Test",
+        "price": 15000,
+        "cost_price": 5000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Gói Test bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 1,
+            "cost_price": 5000,
+            "selling_price": 15000,
+            "updated": "18:01 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 5000,
+          "stock": 1
+        },
+        "import_note": "Ưu tiên nhập tại @piggyai99_bot (Vốn: 5,000đ)",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792666869546",
+      "time": "18:01 - 22/10/2026",
+      "name": "Test",
+      "bot": "piggyai99_bot",
+      "price": 15000,
+      "costPrice": 5000,
+      "stockAfter": 1,
+      "catKey": "khac",
+      "msgKey": "Test💰Giá:5k📦Tồnkho:1tàikhoản📊Đãbán:3tàikhoản"
+    },
     {
       "id": "hist-1792491251841",
       "time": "17:14 - 20/10/2026",
@@ -13495,20 +13532,6 @@
       "catKey": "kling",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬Kling1kcredits1thángBH24H💰Giá:180k📦Tồnkho:3tàikhoản📊Đãbán:46tàikhoản"
-    },
-    {
-      "id": "hist-1792433633536",
-      "time": "01:13 - 20/10/2026",
-      "timestamp": 1792433633536,
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
-      "bot": "ntnshopre_bot",
-      "shopStock": 41,
-      "addedQty": 47,
-      "price": 245000,
-      "stockAfter": 41,
-      "catKey": "chatgpt",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:47📦Tồnkhohiệntại:41💰Giá:215.000đ"
     }
   ]
 }
