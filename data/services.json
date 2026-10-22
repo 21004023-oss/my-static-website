@@ -7585,12 +7585,27 @@
             "updated": "15:38 22/10/2026"
           }
         },
-        "hidden": false
+        "hidden": true,
+        "needs_review": true
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792658303805",
+      "time": "15:38 - 22/10/2026",
+      "timestamp": 1792658303805,
+      "name": "Test",
+      "bot": "piggyai99_bot",
+      "shopStock": 2,
+      "addedQty": 2,
+      "price": 15000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "Test➕Thêm:2📦Tồnkhohiệntại:2💰Giá:5.000đ"
+    },
     {
       "id": "hist-1792658293784",
       "time": "15:38 - 22/10/2026",
@@ -8976,20 +8991,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapCutPro3ThángBHF💰Giá:185k📦Tồnkho:5tàikhoản📊Đãbán:251tàikhoản💎Môtả:TàikhoảnCa"
-    },
-    {
-      "id": "hist-1792559917385",
-      "time": "12:18 - 21/10/2026",
-      "timestamp": 1792559917385,
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "shopStock": 11,
-      "addedQty": 0,
-      "price": 130000,
-      "stockAfter": 22,
-      "catKey": "adobe",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)💰Giá:110k📦Tồnkho:11tàikhoản📊Đãbán:66tàikhoản💎Môtả:🎨**FIGMAP"
     }
   ]
 }
