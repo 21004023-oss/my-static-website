@@ -9682,11 +9682,48 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 115000
         }
+      },
+      {
+        "id": "p-1792679624024",
+        "name": "Link Gemini Pro 18 Tháng KBH",
+        "price": 60000,
+        "cost_price": 50000,
+        "stock": 169,
+        "stock_text": "Còn 169",
+        "duration": "1 Tháng",
+        "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 169,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "21:33 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 50000,
+          "stock": 169
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792679624024",
+      "time": "21:33 - 22/10/2026",
+      "name": "Link Gemini Pro 18 Tháng KBH",
+      "bot": "sieuthistore_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 169,
+      "catKey": "khac",
+      "msgKey": "☁️LinkGeminiPro18ThángKBH➕Thêm:80📦Tồnkhohiệntại:169💰Giá:50.000đ"
+    },
     {
       "id": "hist-1792678250851",
       "time": "21:10 - 22/10/2026",
@@ -11069,20 +11106,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:93📦Tồnkhohiệntại:56💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1792577828258",
-      "time": "17:17 - 21/10/2026",
-      "timestamp": 1792577828258,
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 27,
-      "addedQty": 9,
-      "price": 75000,
-      "stockAfter": 54,
-      "catKey": "capcut",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:65.000đ"
     }
   ]
 }
