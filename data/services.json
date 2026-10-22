@@ -10490,11 +10490,48 @@
         "import_note": "Ưu tiên nhập tại @piggyai99_bot (Vốn: 40,000đ)",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792661954035",
+        "name": "Test",
+        "price": 15000,
+        "cost_price": 5000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Gói Test bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 1,
+            "cost_price": 5000,
+            "selling_price": 15000,
+            "updated": "16:39 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 5000,
+          "stock": 1
+        },
+        "import_note": "Ưu tiên nhập tại @piggyai99_bot (Vốn: 5,000đ)",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792661954035",
+      "time": "16:39 - 22/10/2026",
+      "name": "Test",
+      "bot": "piggyai99_bot",
+      "price": 15000,
+      "costPrice": 5000,
+      "stockAfter": 1,
+      "catKey": "khac",
+      "msgKey": "Test➕Thêm:2📦Tồnkhohiệntại:1💰Giá:5.000đ"
+    },
     {
       "id": "hist-1792661949610",
       "time": "16:39 - 22/10/2026",
@@ -11874,20 +11911,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:17📦Tồnkhohiệntại:18💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1792434264846",
-      "time": "01:24 - 20/10/2026",
-      "timestamp": 1792434264846,
-      "name": "Kling 1k  credits 1 tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 2,
-      "addedQty": 2,
-      "price": 200000,
-      "stockAfter": 2,
-      "catKey": "kling",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬Kling1kcredits1thángBH24H➕Thêm:2📦Tồnkhohiệntại:2💰Giá:180.000đ"
     }
   ]
 }
