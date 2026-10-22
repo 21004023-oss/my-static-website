@@ -6078,16 +6078,16 @@
         "name": "Meitu SVip+ 7 Ngày BHF",
         "price": 55000,
         "cost_price": 35000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Tháng",
         "detail": "Meitu SVIP(VIP+) 7 Ngày login 1 thiết bị, nếu đăng nhập trên điện thoại lỗi thì có thể đăng nhập sử dụng trên PC, Mac\n- Định dạng: (Email|Pass Hotmail|Pass Meitu) Token\n- Pass Meitu mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\n・Link tải Meitu cho máy tính Windows\nhttps://meitu.vi.uptodown.com/windows\n・Link tải Meitu cho máy tính Mac OS\nhttps://meitu.vi.uptodown.com/mac\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 13,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "21:03 20/10/2026"
+            "updated": "10:33 22/10/2026"
           },
           "ntnshopre_bot": {
             "stock": 3,
@@ -7569,6 +7569,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792640027832",
+      "time": "10:33 - 22/10/2026",
+      "timestamp": 1792640027832,
+      "name": "Meitu SVip+ 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 13,
+      "addedQty": 12,
+      "price": 45000,
+      "stockAfter": 16,
+      "catKey": "meitu-wink",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:13💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792639685088",
       "time": "10:28 - 22/10/2026",
       "timestamp": 1792639685088,
@@ -8953,20 +8967,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🤖SMSnhậnOTPxácminhCodex24h-KBH➕Thêm:30📦Tồnkhohiệntại:38💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1792559899869",
-      "time": "12:18 - 21/10/2026",
-      "timestamp": 1792559899869,
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "shopStock": 5,
-      "addedQty": 0,
-      "price": 130000,
-      "stockAfter": 16,
-      "catKey": "adobe",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)💰Giá:110k📦Tồnkho:5tàikhoản📊Đãbán:66tàikhoản💎Môtả:🎨**FIGMAPR"
     }
   ]
 }
