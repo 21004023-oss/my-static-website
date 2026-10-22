@@ -4393,17 +4393,17 @@
         "id": "p-1792291938667",
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
-        "cost_price": 35000,
-        "stock": 44,
-        "stock_text": "Còn 44",
+        "cost_price": 49000,
+        "stock": 58,
+        "stock_text": "Còn 58",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 15,
+            "stock": 29,
             "cost_price": 49000,
             "selling_price": 59000,
-            "updated": "12:53 21/10/2026"
+            "updated": "08:13 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 15,
@@ -7506,6 +7506,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792631613288",
+      "time": "08:13 - 22/10/2026",
+      "timestamp": 1792631613288,
+      "name": "Apple ID 2FA Gmail",
+      "bot": "sieuthistore_bot",
+      "shopStock": 29,
+      "addedQty": 2,
+      "price": 59000,
+      "stockAfter": 58,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:2📦Tồnkhohiệntại:29💰Giá:49.000đ"
+    },
+    {
       "id": "hist-1792629625122",
       "time": "07:40 - 22/10/2026",
       "timestamp": 1792629625122,
@@ -8890,20 +8904,6 @@
       "catKey": "khac",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🎁Chươngtrìnhgiớithiệubạnbè•Chiasẻlinkbotkèmmãgiớithiệucủabạn.•Khingườiđượcmờiphá"
-    },
-    {
-      "id": "hist-1792551525404",
-      "time": "09:58 - 21/10/2026",
-      "timestamp": 1792551525404,
-      "name": "ADMIN MS365 PREMIUM 1TB 5 SLOT 1 NĂM BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 8,
-      "addedQty": 1,
-      "price": 330000,
-      "stockAfter": 8,
-      "catKey": "microsoft",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "⭐ADMINMS365PREMIUM1TB5SLOT1NĂMBHF➕Thêm:1📦Tồnkhohiệntại:8💰Giá:300.000đ"
     }
   ]
 }
