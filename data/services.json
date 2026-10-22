@@ -1558,26 +1558,27 @@
       {
         "id": "p-1792466403307",
         "name": "Nâng chính chủ ChatGPT Ver Students offer  Plus 4 Tháng  KBH",
-        "price": 400000,
-        "cost_price": 350000,
-        "stock": -1,
-        "stock_text": "Vô cực (∞)",
-        "duration": "4 Tháng",
+        "price": 450000,
+        "cost_price": 400000,
+        "stock": 12,
+        "stock_text": "Còn 12",
+        "duration": "1 Tháng",
         "detail": "Nâng cấp chính chủ Gói ưu đãi mua 4th GPT plus sinh viên Mỹ với giá 0$\n- Dịch vụ nâng cấp chính chủ ưu đãi STUDENT - CHƯA BAO GỒM THANH TOÁN PLUS\n- Khách truy cập https://chatgpt.com/students/2026/ để check gói sau khi bot báo thành công\n- Kích nhận ưu đãi = DONE\n- ĐỌC KĨ TRƯỚC KHI MUA",
         "sources": {
           "taphoathomap_bot": {
-            "stock": -1,
-            "cost_price": 350000,
-            "selling_price": 400000,
-            "updated": "10:20 20/10/2026"
+            "stock": 12,
+            "cost_price": 400000,
+            "selling_price": 450000,
+            "updated": "20:56 22/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 350000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 400000,
+          "stock": 12
         }
       },
       {
@@ -9688,6 +9689,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792677405883",
+      "time": "20:56 - 22/10/2026",
+      "name": "Nâng chính chủ ChatGPT Ver Students offer  Plus 4 Tháng  KBH",
+      "bot": "taphoathomap_bot",
+      "price": 450000,
+      "costPrice": 400000,
+      "stockAfter": 12,
+      "catKey": "chatgpt",
+      "msgKey": "🤖NângchínhchủChatGPTVerStudentsofferPlus4ThángKBH➕Thêm:6📦Tồnkhohiệntại:12💰Giá:40"
+    },
+    {
       "id": "hist-1792676497783",
       "time": "20:41 - 22/10/2026",
       "name": "CapCut Pro Team 3 Tháng - BHF",
@@ -11069,20 +11081,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:93📦Tồnkhohiệntại:56💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1792577828258",
-      "time": "17:17 - 21/10/2026",
-      "timestamp": 1792577828258,
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 27,
-      "addedQty": 9,
-      "price": 75000,
-      "stockAfter": 54,
-      "catKey": "capcut",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:65.000đ"
     }
   ]
 }
