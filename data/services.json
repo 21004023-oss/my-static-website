@@ -5788,8 +5788,8 @@
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
         "cost_price": 35000,
-        "stock": 74,
-        "stock_text": "Còn 74",
+        "stock": 61,
+        "stock_text": "Còn 61",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.",
         "sources": {
@@ -5800,10 +5800,10 @@
             "updated": "04:50 23/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 29,
+            "stock": 16,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "08:13 22/10/2026"
+            "updated": "04:50 23/10/2026"
           },
           "piggyai99_bot": {
             "stock": 29,
@@ -5817,7 +5817,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 35000,
-          "stock": 29
+          "stock": 16
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -10101,6 +10101,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792705824941",
+      "time": "04:50 - 23/10/2026",
+      "name": "Apple ID 2FA Gmail",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 61,
+      "catKey": "gmail",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:2📦Tồnkhohiệntại:16💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792705818724",
       "time": "04:50 - 23/10/2026",
       "name": "Apple ID 2FA Gmail",
@@ -11389,20 +11400,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🧠100MCreditAPIClaude3Ngày-BHF➕Thêm:150📦Tồnkhohiệntại:292💰Giá:159.000đ"
-    },
-    {
-      "id": "hist-1792597848237",
-      "time": "22:50 - 21/10/2026",
-      "timestamp": 1792597848237,
-      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
-      "bot": "piggyai99_bot",
-      "shopStock": 48,
-      "addedQty": 5,
-      "price": 50000,
-      "stockAfter": 90,
-      "catKey": "google-veo",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:5📦Tồnkhohiệntại:48💰Giá:40.000đ"
     }
   ]
 }
