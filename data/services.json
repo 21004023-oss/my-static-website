@@ -238,6 +238,32 @@
         },
         "hidden": false,
         "cost_price": 170000
+      },
+      {
+        "id": "p-1792674841777",
+        "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
+        "price": 49000,
+        "cost_price": 39000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "1 Tháng",
+        "detail": "Gói Gmail Random ip 2010-2016 đã qua trial ytb bảo hành uy tín.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 8,
+            "cost_price": 39000,
+            "selling_price": 49000,
+            "updated": "20:14 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 39000,
+          "stock": 8
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=youtube.com&sz=64"
@@ -7727,6 +7753,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792674841777",
+      "time": "20:14 - 22/10/2026",
+      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
+      "bot": "sieuthistore_bot",
+      "price": 49000,
+      "costPrice": 39000,
+      "stockAfter": 8,
+      "catKey": "youtube",
+      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:5📦Tồnkhohiệntại:8💰Giá:39.000đ"
+    },
+    {
       "id": "hist-1792674837435",
       "time": "20:13 - 22/10/2026",
       "name": "Express VPN 3 Ngày BHF",
@@ -9090,20 +9127,6 @@
       "catKey": "social",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐CloneFacebookNoveryNameViệtKBH➕Thêm:30📦Tồnkhohiệntại:24💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1792580765476",
-      "time": "18:06 - 21/10/2026",
-      "timestamp": 1792580765476,
-      "name": "ChatGPT Go 1 Tháng - BH 10 Ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 16,
-      "addedQty": 15,
-      "price": 75000,
-      "stockAfter": 16,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTGo1Tháng-BH10Ngày➕Thêm:15📦Tồnkhohiệntại:16💰Giá:65.000đ"
     }
   ]
 }
