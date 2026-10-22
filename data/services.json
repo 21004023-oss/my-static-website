@@ -435,12 +435,12 @@
         "sources": {
           "taphoathomap_bot": {
             "stock": 30,
-            "cost_price": 230000,
-            "selling_price": 260000,
-            "updated": "00:24 22/10/2026"
+            "cost_price": 240000,
+            "selling_price": 270000,
+            "updated": "10:25 22/10/2026"
           }
         },
-        "cost_price": 230000,
+        "cost_price": 240000,
         "needs_review": true,
         "hidden": true
       },
@@ -7569,6 +7569,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792639504702",
+      "time": "10:25 - 22/10/2026",
+      "timestamp": 1792639504702,
+      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 30,
+      "addedQty": 31,
+      "price": 270000,
+      "stockAfter": 30,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:31📦Tồnkhohiệntại:30💰Giá:240.000đ"
+    },
+    {
       "id": "hist-1792639099918",
       "time": "10:18 - 22/10/2026",
       "timestamp": 1792639099918,
@@ -8953,20 +8967,6 @@
       "catKey": "adobe",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:3📦Tồnkhohiệntại:5💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1792557822721",
-      "time": "11:43 - 21/10/2026",
-      "timestamp": 1792557822721,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 12,
-      "addedQty": 15,
-      "price": 85000,
-      "stockAfter": 12,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:15📦Tồnkhohiệntại:12💰Giá:75.000đ"
     }
   ]
 }
