@@ -876,12 +876,11 @@ function closeMobileCats() {
 }
 
 function loadData() {
-  fetch('./data/services_public.json?t=' + new Date().getTime(), { cache: 'no-store' })
-  .then(res => {
-    if (res.ok) return res.json();
-    return fetch('./data/services.json?t=' + new Date().getTime(), { cache: 'no-store' }).then(r => r.json());
-  })
-    .then(r => r.json())
+  fetch('./data/services.json?t=' + new Date().getTime(), { cache: 'no-store' })
+    .then(r => {
+      if (!r.ok) throw new Error("HTTP error " + r.status);
+      return r.json();
+    })
     .then(data => {
       D = data || {};
       var keys = Object.keys(D).filter(function(k){ return k !== '_history'; });
