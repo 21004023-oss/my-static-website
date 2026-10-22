@@ -43,10 +43,10 @@
         "detail": "THỜI GIAN HOÀN THÀNH KHOẢNG 1 GIỜ HOẶC SỚM HƠN\n- Khách gửi tên gmail để được mời vào Family\n-KHÁCH CHỈ CẦN DÙNG 1 GMAIL DUY NHẤT CHO ĐẾN KHI HẾT HẠN GÓI ĐĂNG KÍ Ở BOT MÀ KHÔNG LO LỖI 12 THÁNG\n- Khách cần sử dụng VPN VIỆT NAM hoặc xóa hồ sơ thanh toán để có thể tham gia nhóm gia đình, sau đó có thể xem bình thường mà không cần phải sử dụng VPN VIETNAM\n- Sử dụng được ở mọi quốc gia trên thế giới\n-Không chấp nhận yêu cầu hủy gói đăng ký khi chưa hết hạn ở bot.\n-Sau khi BOT báo đã hoàn thành, hãy vào link  http://g.co/yourfamily bằng mail đăng ký, kiểm tra có lời mời, ấn tham gia\n- Youtube Premium gia hạn hàng tháng ổn định, mỗi tháng hệ thống sẽ gửi link để tham gia nhóm gia đình mới, 100% không lỗi 12 tháng, household\n-Dùng bên mình khi nào bị mất premium và nhận đủ 2 mail , 1 mail báo nhóm gia đình cũ không hoạt động và 1 mail có lời mời mới. Khi đã nhận đủ 2 mail  thì sẽ bắt đầu thoát nhóm gia đình cũ và tham gia nhóm gia đình mới\n-Không nhận mail đã từng fix 12 tháng, hoặc đang bị kẹt lỗi quét hộ gia đình\n-Link hướng dẫn cụ thể: https://docs.google.com/document/d/1Cjf5AsKj5ytHF4ixl_0rTBnY0lxtctJfghHJsAHX-pI/edit?tab=t.0",
         "sources": {
           "piggyai99_bot": {
+            "stock": 573,
             "cost_price": 95000,
             "selling_price": 105000,
-            "stock": -1,
-            "updated": "18:19 22/10/2026"
+            "updated": "19:00 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 90000,
@@ -67,7 +67,7 @@
           "cost_price": 90000,
           "stock": -1
         },
-        "import_note": "Nhập: @ntnshopre_bot"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 90,000đ)"
       },
       {
         "id": "yt-slot-6m",
@@ -13778,6 +13778,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792670423534",
+      "time": "19:00 - 22/10/2026",
+      "name": "Slot Youtube Premium 3 Tháng BHF",
+      "bot": "piggyai99_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": -1,
+      "catKey": "youtube",
+      "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:573💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1792669462441",
       "time": "18:44 - 22/10/2026",
       "name": "Express VPN 3 Ngày BHF",
@@ -15147,20 +15158,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPro100-1thángBH20ngày💰Giá:1800k📦Tồnkho:1tàikhoản📊Đãbán:5tàikhoản"
-    },
-    {
-      "id": "hist-1792434370458",
-      "time": "01:26 - 20/10/2026",
-      "timestamp": 1792434370458,
-      "name": "ChatGPT Plus GGPay 30D BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 18,
-      "addedQty": 0,
-      "price": 210000,
-      "stockAfter": 36,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H💰Giá:190k📦Tồnkho:18tàikhoản📊Đãbán:3.303tàikhoản💎Môtả:Kh"
     }
   ],
   "higgsfield-akool-seedance": {
