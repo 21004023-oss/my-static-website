@@ -4393,9 +4393,9 @@
         "id": "p-1792291938667",
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
-        "cost_price": 35000,
-        "stock": 72,
-        "stock_text": "Còn 72",
+        "cost_price": 50000,
+        "stock": 87,
+        "stock_text": "Còn 87",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.",
         "sources": {
@@ -4412,10 +4412,10 @@
             "updated": "08:13 22/10/2026"
           },
           "piggyai99_bot": {
-            "stock": 14,
+            "stock": 29,
             "cost_price": 50000,
             "selling_price": 60000,
-            "updated": "13:45 18/10/2026"
+            "updated": "08:13 22/10/2026"
           }
         },
         "hidden": true,
@@ -7506,6 +7506,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792631622286",
+      "time": "08:13 - 22/10/2026",
+      "timestamp": 1792631622286,
+      "name": "Apple ID 2FA Gmail",
+      "bot": "piggyai99_bot",
+      "shopStock": 29,
+      "addedQty": 2,
+      "price": 60000,
+      "stockAfter": 87,
+      "catKey": "gmail",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:2📦Tồnkhohiệntại:29💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1792631618655",
       "time": "08:13 - 22/10/2026",
       "timestamp": 1792631618655,
@@ -8890,20 +8904,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:20📦Tồnkhohiệntại:42💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1792554167466",
-      "time": "10:42 - 21/10/2026",
-      "timestamp": 1792554167466,
-      "name": "ChatGPT Go 1 Tháng - BH 10 Ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 9,
-      "addedQty": 1,
-      "price": 75000,
-      "stockAfter": 9,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTGo1Tháng-BH10Ngày➕Thêm:1📦Tồnkhohiệntại:9💰Giá:65.000đ"
     }
   ]
 }
