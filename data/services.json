@@ -7567,11 +7567,44 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792658293784",
+        "name": "Test",
+        "price": 15000,
+        "cost_price": 5000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Gói Test bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 2,
+            "cost_price": 5000,
+            "selling_price": 15000,
+            "updated": "15:38 22/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792658293784",
+      "time": "15:38 - 22/10/2026",
+      "timestamp": 1792658293784,
+      "name": "Test",
+      "bot": "piggyai99_bot",
+      "shopStock": 2,
+      "addedQty": 0,
+      "price": 15000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "Test💰Giá:5k📦Tồnkho:2tàikhoản📊Đãbán:0tàikhoản"
+    },
     {
       "id": "hist-1792642051786",
       "time": "11:07 - 22/10/2026",
@@ -8957,20 +8990,6 @@
       "catKey": "adobe",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "⭐FigmaProEdu1năm(BHF)💰Giá:110k📦Tồnkho:11tàikhoản📊Đãbán:66tàikhoản💎Môtả:🎨**FIGMAP"
-    },
-    {
-      "id": "hist-1792559912625",
-      "time": "12:18 - 21/10/2026",
-      "timestamp": 1792559912625,
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "shopStock": 11,
-      "addedQty": 6,
-      "price": 130000,
-      "stockAfter": 22,
-      "catKey": "adobe",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:6📦Tồnkhohiệntại:11💰Giá:110.000đ"
     }
   ]
 }
