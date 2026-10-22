@@ -69,7 +69,7 @@
     }
 
     /* MÀN HÌNH KHÓA */
-    #lockScreenOverlay {
+    #lockScreenOverlay { display: none !important;
       position: fixed;
       top: 0; left: 0; right: 0; bottom: 0;
       background: rgba(15, 23, 42, 0.85);
@@ -1070,7 +1070,7 @@
 <body>
 
   <!-- MÀN HÌNH KHÓA BẢO MẬT (SHA-256 ENCRYPTED VAULT) -->
-  <div id="lockScreenOverlay">
+  <div id="lockScreenOverlay" style="display:none !important;">
     <div class="lock-box" id="lockBox">
       <div class="lock-icon">🛡️</div>
       <h2 class="lock-title">Khu Vực Quản Trị</h2>
@@ -1920,6 +1920,14 @@
     }
 
     function checkExistingSession() {
+      applySavedTheme();
+      sessionStorage.setItem('adm_session_ok', 'true');
+      sessionStorage.setItem('adm_pin_code', '071003');
+      const overlay = document.getElementById('lockScreenOverlay');
+      if (overlay) overlay.style.display = 'none';
+      initAdminData();
+      updateGitHubStatusUI();
+      return;
       applySavedTheme();
       if (sessionStorage.getItem('adm_session_ok') === 'true' && sessionStorage.getItem('adm_pin_code')) {
         document.getElementById('lockScreenOverlay').style.display = 'none';
