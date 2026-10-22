@@ -340,7 +340,8 @@
         "source": "Cấp sẵn",
         "detail": "- Format: Email | Password | 2FA.\n- Bảo hành: 15 Ngày.\n- Tài khoản đã kiểm tra kỹ trước khi giao nên không bảo hành lỗi sai pass/2FA sau khi nhận.\n- Yêu cầu không thay đổi lại 2FA sau khi mua hàng và hãy chắc chắn rằng bạn đã lưu lại chúng.",
         "conflict_dismissed": true,
-        "cost_price": 240000
+        "cost_price": 240000,
+        "hidden": true
       },
       {
         "id": "gpt-plus-bhf",
