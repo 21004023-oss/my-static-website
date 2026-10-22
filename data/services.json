@@ -5788,8 +5788,8 @@
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
         "cost_price": 35000,
-        "stock": 61,
-        "stock_text": "Còn 61",
+        "stock": 48,
+        "stock_text": "Còn 48",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.",
         "sources": {
@@ -5806,10 +5806,10 @@
             "updated": "04:50 23/10/2026"
           },
           "piggyai99_bot": {
-            "stock": 29,
+            "stock": 16,
             "cost_price": 50000,
             "selling_price": 60000,
-            "updated": "08:13 22/10/2026"
+            "updated": "04:50 23/10/2026"
           }
         },
         "hidden": false,
@@ -10101,6 +10101,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792705828974",
+      "time": "04:50 - 23/10/2026",
+      "name": "Apple ID 2FA Gmail",
+      "bot": "piggyai99_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 48,
+      "catKey": "gmail",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:2📦Tồnkhohiệntại:16💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1792705824941",
       "time": "04:50 - 23/10/2026",
       "name": "Apple ID 2FA Gmail",
@@ -11386,20 +11397,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🧠20MCreditAPIClaude1Ngày-BHF➕Thêm:100📦Tồnkhohiệntại:274💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792599676011",
-      "time": "23:21 - 21/10/2026",
-      "timestamp": 1792599676011,
-      "name": "100M Credit API Claude 3 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 292,
-      "addedQty": 150,
-      "price": 179000,
-      "stockAfter": 292,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🧠100MCreditAPIClaude3Ngày-BHF➕Thêm:150📦Tồnkhohiệntại:292💰Giá:159.000đ"
     }
   ]
 }
