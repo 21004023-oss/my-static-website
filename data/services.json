@@ -7467,9 +7467,9 @@
         "id": "p-1792034135088",
         "name": "SURFSHARK VPN ANDROI/PC/IOS 7 NGÀY BHF",
         "price": 25000,
-        "stock": 14,
-        "stock_text": "Còn 14",
-        "duration": "1 Tháng",
+        "stock": 11,
+        "stock_text": "Còn 11",
+        "duration": "7 Ngày",
         "detail": "Surfshark VPN gói One 7 Ngày BHF login 5 thiết bị, login quá nhiều dẫn đến bị khoá tài khoản sẽ không được bảo hành\n- Chỉ bảo hành gói đăng kí\n- Định dạng: email|pass\n- Lấy mã tại https://mailtemp.vn/ hoặc Cutemail.us",
         "sources": {
           "ntnshopre_bot": {
@@ -7479,10 +7479,10 @@
             "selling_price": 25000
           },
           "taphoathomap_bot": {
-            "stock": 7,
+            "stock": 4,
             "cost_price": 15000,
-            "updated": "10:16 15/10/2026",
-            "selling_price": 25000
+            "selling_price": 25000,
+            "updated": "17:10 22/10/2026"
           }
         },
         "hidden": false,
@@ -7494,10 +7494,10 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 15000,
-          "stock": 7,
-          "updated": "10:15 15/10/2026"
+          "stock": 7
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 15,000đ)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 15,000đ)",
+        "needs_review": false
       },
       {
         "id": "p-1792043307697",
@@ -10658,6 +10658,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792663837226",
+      "time": "17:10 - 22/10/2026",
+      "name": "SurfShark VPN Androi/PC/IOS 7 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 11,
+      "catKey": "vpn",
+      "msgKey": "🦈SurfSharkVPNAndroi/PC/IOS7ngàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1792662002081",
       "time": "16:40 - 22/10/2026",
       "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
@@ -12003,20 +12014,6 @@
       "catKey": "canva",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🎨ADMINCANVAPRO1THÁNG100SLOTBHF➕Thêm:1📦Tồnkhohiệntại:3💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792437646045",
-      "time": "02:20 - 20/10/2026",
-      "timestamp": 1792437646045,
-      "name": "Meitu VIP 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 1,
-      "addedQty": 1,
-      "price": 40000,
-      "stockAfter": 2,
-      "catKey": "meitu-wink",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✨MeituVIP7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:30.000đ"
     }
   ]
 }
