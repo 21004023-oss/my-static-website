@@ -5664,16 +5664,16 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 35000,
         "cost_price": 15000,
-        "stock": 30,
-        "stock_text": "Còn 30",
+        "stock": 27,
+        "stock_text": "Còn 27",
         "duration": "3 Ngày",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 11,
+            "stock": 8,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "12:18 21/10/2026"
+            "updated": "20:13 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -7727,6 +7727,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792674832875",
+      "time": "20:13 - 22/10/2026",
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 27,
+      "catKey": "vpn",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:8💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1792674825506",
       "time": "20:13 - 22/10/2026",
       "name": "EXPRESS VPN 3 NGÀY BHF",
@@ -9096,20 +9107,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTGo1ThángBH3Ngày➕Thêm:14📦Tồnkhohiệntại:22💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1792580367193",
-      "time": "17:59 - 21/10/2026",
-      "timestamp": 1792580367193,
-      "name": "ChatGPT Go 1 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 27,
-      "addedQty": 21,
-      "price": 85000,
-      "stockAfter": 27,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTGo1Tháng-BHF➕Thêm:21📦Tồnkhohiệntại:27💰Giá:75.000đ"
     }
   ]
 }
