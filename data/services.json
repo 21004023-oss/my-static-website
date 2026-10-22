@@ -4872,11 +4872,11 @@
             "stock": 67,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "19:39 19/10/2026"
+            "updated": "07:24 22/10/2026"
           }
         },
         "hidden": true,
-        "cost_price": 45000,
+        "cost_price": 40000,
         "needs_review": true
       },
       {
@@ -7506,6 +7506,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792628680335",
+      "time": "07:24 - 22/10/2026",
+      "timestamp": 1792628680335,
+      "name": "Redeem Apple Music Individual 5 tháng BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "shopStock": 67,
+      "addedQty": 64,
+      "price": 50000,
+      "stockAfter": 134,
+      "catKey": "netflix",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐RedeemAppleMusicIndividual5thángBH1ngày➕Thêm:64📦Tồnkhohiệntại:67💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1792628675379",
       "time": "07:24 - 22/10/2026",
       "timestamp": 1792628675379,
@@ -8890,20 +8904,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTFreeGmailKBH➕Thêm:1080📦Tồnkhohiệntại:1098💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1792549797853",
-      "time": "09:29 - 21/10/2026",
-      "timestamp": 1792549797853,
-      "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
-      "bot": "taphoathomap_bot",
-      "shopStock": 1098,
-      "addedQty": 1080,
-      "price": 12000,
-      "stockAfter": 1098,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH➕Thêm:1080📦Tồnkhohiệntại:1098💰Giá:2.000đ"
     }
   ]
 }
