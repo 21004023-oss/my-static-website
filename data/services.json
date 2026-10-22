@@ -9735,11 +9735,48 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 115000
         }
+      },
+      {
+        "id": "p-1792684108410",
+        "name": "Slot Ultra Antigravity X5 Random 1TH BHF",
+        "price": 400000,
+        "cost_price": 350000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "1 Tháng",
+        "detail": "🛒 CÁCH ĐẶT HÀNG\n✅ Trước khi gửi Gmail:\n- Đóng hồ sơ thanh toán: https://payments.google.com/gp/w/home/settings\n- Kiểm tra Family: http://g.co/yourfamily\n❗ Gmail không được nằm trong Family khác.\n📩 BOT báo thành công → gửi Gmail cho Admin → vào link Family và bấm “Tham gia”.\n⚠️ LƯU Ý\n- Credit dùng chung, ngẫu nhiên 0–10.000. Shop chỉ bảo hành gói Ultra, không bảo hành credit.\n- Kích ULTRA = DONE, không bảo hành những tính năng khác\n- Tham gia trễ, credit bị dùng hết: Shop không chịu trách nhiệm.\n- Đổi Gmail : 5$ /1 lần ( hạn chế đổi mail vì family limit lời mời -)\n--------------\nXem hướng dẫn tham gia : https://drive.google.com/drive/folders/1KLpqDMJpHfEwD4146EaJaCBlNTMmuQO9?usp=drive_link\n⚠️GOOGLE đã dừng triển khai model Veo 3 Lower Priority, đọc kĩ cảnh báo này, shop sẽ không hoàn tiền.\n⏱️ Xử lý tối đa 24h từ lúc mua hàng , nếu đồng ý thì mua hàng, vì lượng đơn hàng lớn. Xin đừng hối thúc shop. Xin cảm ơn !",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 8,
+            "cost_price": 350000,
+            "selling_price": 400000,
+            "updated": "22:48 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 350000,
+          "stock": 8
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792684108410",
+      "time": "22:48 - 22/10/2026",
+      "name": "Slot Ultra Antigravity X5 Random 1TH BHF",
+      "bot": "taphoathomap_bot",
+      "price": 400000,
+      "costPrice": 350000,
+      "stockAfter": 8,
+      "catKey": "khac",
+      "msgKey": "🚀SlotUltraAntigravityX5Random1THBHF➕Thêm:1📦Tồnkhohiệntại:8💰Giá:350.000đ"
+    },
     {
       "id": "hist-1792684102469",
       "time": "22:48 - 22/10/2026",
@@ -11110,20 +11147,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTGo1ThángBH3Ngày➕Thêm:14📦Tồnkhohiệntại:22💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1792580367193",
-      "time": "17:59 - 21/10/2026",
-      "timestamp": 1792580367193,
-      "name": "ChatGPT Go 1 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 27,
-      "addedQty": 21,
-      "price": 85000,
-      "stockAfter": 27,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTGo1Tháng-BHF➕Thêm:21📦Tồnkhohiệntại:27💰Giá:75.000đ"
     }
   ]
 }
