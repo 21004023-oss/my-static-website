@@ -920,149 +920,264 @@
     }
   
     /* ========================================================
-       PHƯƠNG ÁN A: CLEAN BAR CHO CỘT GIÁ BÁN & CHÊNH LỆCH
+       MINIMALIST CLEAN TABLE DESIGN (USER SPECIFICATION)
+       1. Ít chữ: Bỏ mô tả dài trên bảng chính, chỉ giữ Tên gói & mã SKU nhỏ bên dưới.
+       2. Giá gọn: Giá bán to nổi bật + dòng phụ gom gọn Vốn & Lợi nhuận. Nút -5k/+5k chỉ hiện khi hover.
+       3. Tối giản: Nền trắng sạch, đường kẻ xám nhạt, màu nổi bật cho trạng thái, gộp Sửa/Xóa vào menu ⋯.
        ======================================================== */
-    .price-cell-clean {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      min-width: 260px;
-    }
-    .price-top-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 6px;
-      flex-wrap: nowrap;
-    }
-    .tbl-price-chips {
-      display: flex;
-      align-items: center;
-      gap: 2px;
-      flex-wrap: nowrap;
-      flex-shrink: 0;
-    }
-    .tbl-chip {
-      font-size: 9.5px;
-      font-weight: 700;
-      padding: 3px 5px;
-      border-radius: 4px;
-      border: 1px solid var(--card-border);
-      background: var(--card-bg);
-      color: var(--text-muted);
-      cursor: pointer;
-      transition: all 0.15s;
-      white-space: nowrap;
-      flex-shrink: 0;
-    }
-    .table-price-stepper {
-      display: inline-flex;
-      align-items: center;
-      background: var(--input-bg);
-      border: 1px solid var(--input-border);
-      border-radius: var(--radius-sm);
-      overflow: hidden;
-      box-shadow: var(--shadow-sm);
-    }
-    .tbl-step-btn {
-      background: var(--bg);
-      border: none;
-      padding: 5px 10px;
-      font-weight: 700;
+    .custom-table {
+      width: 100%;
+      border-collapse: collapse;
       font-size: 13px;
-      color: var(--text-muted);
-      cursor: pointer;
-      transition: all 0.15s;
+      background: var(--card-bg);
     }
-    .tbl-step-btn:hover {
-      background: var(--card-border);
+    .custom-table th {
+      background: var(--table-header);
+      padding: 11px 14px;
+      text-align: left;
+      font-weight: 700;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--card-border);
+      font-size: 11px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .custom-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--card-border);
+      vertical-align: middle;
       color: var(--text);
     }
-    .tbl-price-display {
-      padding: 5px 8px;
-      font-size: 13.5px;
-      font-weight: 800;
-      color: var(--primary);
-      border-left: 1px solid var(--card-border);
-      border-right: 1px solid var(--card-border);
-      cursor: pointer;
-      min-width: 84px;
-      text-align: center;
-      letter-spacing: -0.2px;
+    .custom-table tbody tr {
+      transition: background 0.15s ease;
     }
-    .tbl-price-chips {
+    .custom-table tbody tr:hover {
+      background: var(--table-row-hover);
+    }
+    .custom-table tr.row-hidden {
+      opacity: 0.55;
+      background: var(--input-bg);
+    }
+
+    /* 1. TÊN GÓI VÀ MÃ SKU NHỎ BÊN DƯỚI */
+    .plan-info-cell {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      min-width: 210px;
+    }
+    .plan-title-row {
       display: flex;
       align-items: center;
-      gap: 3px;
+      gap: 6px;
+      flex-wrap: wrap;
     }
-    .tbl-chip {
+    .plan-title-text {
+      font-weight: 700;
+      font-size: 13.5px;
+      color: var(--text);
+      line-height: 1.3;
+    }
+    .plan-sku-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      letter-spacing: 0.3px;
+      user-select: all;
+    }
+
+    /* 2. THU GỌN KHU VỰC GIÁ (NỔI BẬT + DÒNG PHỤ TINH GỌN) */
+    .price-minimal-box {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      min-width: 190px;
+    }
+    .price-minimal-top {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .price-highlight {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--text);
+      cursor: pointer;
+      letter-spacing: -0.2px;
+      padding: 1px 4px;
+      border-radius: 4px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .price-highlight:hover {
+      background: var(--primary-subtle);
+      color: var(--primary);
+    }
+    .price-hover-stepper {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.15s ease;
+    }
+    .custom-table tbody tr:hover .price-hover-stepper {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .tbl-step-chip {
       font-size: 10px;
       font-weight: 700;
-      padding: 4px 6px;
+      padding: 2px 5px;
+      border-radius: 4px;
+      border: 1px solid var(--card-border);
+      background: var(--card-bg);
+      cursor: pointer;
+      transition: all 0.15s;
+      user-select: none;
+      line-height: 1.2;
+    }
+    .tbl-step-chip.minus {
+      color: var(--rose);
+    }
+    .tbl-step-chip.minus:hover {
+      background: var(--rose-subtle);
+      border-color: rgba(225, 29, 72, 0.3);
+    }
+    .tbl-step-chip.plus {
+      color: var(--emerald);
+    }
+    .tbl-step-chip.plus:hover {
+      background: var(--emerald-subtle);
+      border-color: rgba(16, 185, 129, 0.3);
+    }
+    .price-minimal-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      flex-wrap: wrap;
+      line-height: 1.2;
+    }
+    .price-minimal-sub .sub-gain {
+      color: var(--emerald);
+      font-weight: 700;
+    }
+    .price-minimal-sub .sub-loss {
+      color: var(--rose);
+      font-weight: 700;
+    }
+    .price-minimal-sub .sub-bot {
+      display: inline-flex;
+      align-items: center;
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: var(--input-bg);
+      border: 1px solid var(--card-border);
+      padding: 0 4px;
+      border-radius: 3px;
+    }
+
+    /* BADGE THỜI HẠN */
+    .badge-duration {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: var(--input-bg);
+      border: 1px solid var(--card-border);
+      padding: 2px 7px;
       border-radius: 5px;
+      white-space: nowrap;
+    }
+
+    /* 3. MENU THAO TÁC ⋯ TINH GỌN (GỘP SỬA & XÓA) */
+    .action-dropdown-wrap {
+      position: relative;
+      display: inline-block;
+    }
+    .btn-action-more {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
       border: 1px solid var(--card-border);
       background: var(--card-bg);
       color: var(--text-muted);
-      cursor: pointer;
-      transition: all 0.15s;
-      white-space: nowrap;
-    }
-    .tbl-chip.minus { color: var(--rose); background: var(--rose-subtle); border-color: rgba(239, 68, 68, 0.2); }
-    .tbl-chip.minus:hover { background: rgba(239, 68, 68, 0.25); }
-    .tbl-chip.plus { color: var(--primary); background: var(--primary-subtle); border-color: rgba(2, 132, 199, 0.2); }
-    .tbl-chip.plus:hover { background: rgba(2, 132, 199, 0.25); }
-
-    /* PROFIT BAR CLEAN */
-    .profit-bar-clean {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 4px 8px;
-      border-radius: 6px;
-      font-size: 11px;
-    }
-    .profit-bar-clean.gain {
-      background: var(--emerald-subtle);
-      border: 1px solid rgba(16, 185, 129, 0.25);
-    }
-    .profit-bar-clean .cost-label {
-      color: var(--text-muted);
-      font-size: 11px;
-    }
-    .profit-bar-clean .gain-val {
-      color: var(--emerald);
+      font-size: 17px;
       font-weight: 800;
       display: inline-flex;
       align-items: center;
-      gap: 4px;
-    }
-    .profit-bar-clean .pct-badge {
-      background: rgba(16, 185, 129, 0.18);
-      color: #065f46;
-      padding: 1px 5px;
-      border-radius: 4px;
-      font-size: 10px;
-      font-weight: 700;
-    }
-    body.dark-theme .profit-bar-clean .pct-badge {
-      color: #a7f3d0;
-    }
-    .profit-bar-clean.even {
-      background: rgba(100, 116, 139, 0.08);
-      border: 1px solid var(--card-border);
-    }
-    .profit-bar-clean .even-val { color: var(--text-muted); font-weight: 600; }
-    .profit-bar-clean.loss {
-      background: var(--rose-subtle);
-      border: 1px solid rgba(239, 68, 68, 0.25);
-    }
-    .profit-bar-clean .loss-val { color: var(--rose); font-weight: 800; }
-    .profit-bar-clean.empty {
-      color: var(--text-muted);
-      font-size: 10.5px;
-      text-align: center;
       justify-content: center;
-      opacity: 0.6;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      line-height: 1;
+    }
+    .btn-action-more:hover {
+      background: var(--input-bg);
+      color: var(--text);
+      border-color: var(--input-border);
+      transform: scale(1.05);
+    }
+    .action-menu-popover {
+      position: absolute;
+      top: calc(100% + 4px);
+      right: 0;
+      min-width: 175px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 9px;
+      box-shadow: var(--shadow-lg);
+      padding: 4px;
+      z-index: 1050;
+      display: none;
+      flex-direction: column;
+      gap: 2px;
+      animation: popoverFadeIn 0.12s ease;
+    }
+    .action-menu-popover.show {
+      display: flex;
+    }
+    @keyframes popoverFadeIn {
+      from { opacity: 0; transform: translateY(-4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .action-popover-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text);
+      background: transparent;
+      border: none;
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+      transition: background 0.12s;
+    }
+    .action-popover-item:hover {
+      background: var(--table-row-hover);
+    }
+    .action-popover-item .icon {
+      font-size: 13px;
+      width: 16px;
+      text-align: center;
+    }
+    .action-popover-item.danger {
+      color: var(--rose);
+    }
+    .action-popover-item.danger:hover {
+      background: var(--rose-subtle);
+    }
+    .action-popover-divider {
+      height: 1px;
+      background: var(--card-border);
+      margin: 3px 0;
     }
 
   </style>
@@ -1259,12 +1374,12 @@
             <thead>
               <tr>
                 <th style="width:36px; text-align:center;">⠿</th>
-                <th>Tên Gói Sản Phẩm & Mô Tả</th>
-                <th style="width:190px;">Giá Bán & Chênh Lệch</th>
-                <th style="width:105px;">Tồn Kho</th>
-                <th style="width:100px;">Thời Hạn</th>
-                <th style="width:120px; text-align:center;">Hiển Thị</th>
-                <th style="text-align:right; width:140px;">Hành Động</th>
+                <th>Sản Phẩm</th>
+                <th style="width:220px;">Giá Bán</th>
+                <th style="width:100px;">Tồn Kho</th>
+                <th style="width:90px;">Thời Hạn</th>
+                <th style="width:115px; text-align:center;">Hiển Thị</th>
+                <th style="text-align:center; width:50px;">⋯</th>
               </tr>
             </thead>
             <tbody id="plansTableBody"></tbody>
@@ -2355,94 +2470,126 @@
         }
 
         const eyeBtn = isHidden ?
-          `<button class="btn-toggle-eye is-hidden" onclick="togglePlanVisibility(${idx}, '${catKey}')" title="Nhấp để hiển thị lại gói này lên Website">🙈 Đã ẩn (Hiện lại)</button>` :
+          `<button class="btn-toggle-eye is-hidden" onclick="togglePlanVisibility(${idx}, '${catKey}')" title="Nhấp để hiển thị lại gói này lên Website">🙈 Đã ẩn</button>` :
           `<button class="btn-toggle-eye" onclick="togglePlanVisibility(${idx}, '${catKey}')" title="Nhấp để tạm ẩn gói này khỏi Website">👁️ Đang hiện</button>`;
 
         const catLogoUrl = (servicesData[catKey] && servicesData[catKey].logo) ? servicesData[catKey].logo : '';
         const catBadgeLogoHtml = catLogoUrl ? `<img src="${catLogoUrl}" style="width:13px; height:13px; border-radius:3px; object-fit:cover; margin-right:4px;" onerror="this.style.display='none'">` : '';
 
         const catBadgeHtml = isGlobalSearch ?
-          `<span class="badge badge-source" style="margin-left:6px; background:rgba(99,102,241,0.15); color:var(--primary); font-size:10.5px; cursor:pointer; display:inline-flex; align-items:center;" onclick="selectCategoryDirectly('${catKey}')" title="Bấm để lọc riêng danh mục này">${catBadgeLogoHtml}${catName}</span>` : '';
+          `<span class="badge badge-source" style="margin-left:4px; background:rgba(99,102,241,0.12); color:var(--primary); font-size:10.5px; cursor:pointer; display:inline-flex; align-items:center;" onclick="selectCategoryDirectly('${catKey}')" title="Bấm để lọc riêng danh mục này">${catBadgeLogoHtml}${catName}</span>` : '';
+
+        // TÍNH TOÁN DÒNG PHỤ TINH GỌN (VỐN & LỢI NHUẬN + NGUỒN BOT)
+        const costPrice = getPlanCostPrice(p);
+        let costSublineHtml = '';
+        if (costPrice > 0) {
+          const diff = (p.price || 0) - costPrice;
+          const pct = ((diff / costPrice) * 100).toFixed(0);
+          const rawBot = (p.cheapest_source && p.cheapest_source.bot) ? p.cheapest_source.bot : (p.import_note || (p.source_bot || ''));
+          const cleanBot = rawBot ? (rawBot.startsWith('@') ? rawBot : (rawBot.startsWith('🛒') ? rawBot : `@${rawBot}`)) : '';
+          const botTag = cleanBot ? `<span class="sub-bot" title="Nguồn bot nhập rẻ nhất">${cleanBot}</span>` : '';
+          
+          if (diff > 0) {
+            costSublineHtml = `<span>Vốn: ${costPrice.toLocaleString('vi-VN')}đ</span> • <span class="sub-gain">Lời: +${diff.toLocaleString('vi-VN')}đ (+${pct}%)</span> ${botTag ? '• ' + botTag : ''}`;
+          } else if (diff === 0) {
+            costSublineHtml = `<span>Vốn: ${costPrice.toLocaleString('vi-VN')}đ</span> • <span style="color:var(--text-muted); font-weight:600;">Hòa vốn</span> ${botTag ? '• ' + botTag : ''}`;
+          } else {
+            costSublineHtml = `<span>Vốn: ${costPrice.toLocaleString('vi-VN')}đ</span> • <span class="sub-loss">Lỗ: ${diff.toLocaleString('vi-VN')}đ</span> ${botTag ? '• ' + botTag : ''}`;
+          }
+        } else {
+          costSublineHtml = `<span style="opacity:0.6;">(Chưa có giá vốn)</span>`;
+        }
+
+        const skuCode = p.id || `${catKey.toUpperCase()}-${String(idx + 1).padStart(3, '0')}`;
 
         tr.innerHTML = `
-          <td style="text-align:center; cursor:${(query || isGlobalSearch) ? 'default' : 'grab'}; color:var(--text-muted);">${(query || isGlobalSearch) ? '•' : '⠿'}</td>
+          <td style="text-align:center; cursor:${(query || isGlobalSearch) ? 'default' : 'grab'}; color:var(--text-light);">${(query || isGlobalSearch) ? '•' : '⠿'}</td>
           <td>
-            <div style="font-weight:700; color:var(--text); display:flex; align-items:center; flex-wrap:wrap; gap:4px;">
-              <span>${p.name}</span>
-              ${catBadgeHtml}
-              ${isHidden ? '<span class="badge badge-warning" style="font-size:10.5px;">🙈 Tạm ẩn</span>' : ''}
-              ${p.needs_review ? `
-                <span class="badge badge-out" style="font-size:10.5px; cursor:pointer;" onclick="openConflictDecisionModal('${catKey}', ${idx})" title="Nhấp để xem các mức giá đang xung đột và tự tay quyết định mức giá nào được xuất hiện trên Shop">⚡ Xung đột giá (Chọn giá hiện) ▾</span>
-              ` : ''}
-            </div>
-            <div style="font-size:11.5px; color:var(--text-muted); margin-top:3px; max-width:380px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
-              ${p.detail || 'Chưa có mô tả chi tiết'}
+            <div class="plan-info-cell">
+              <div class="plan-title-row">
+                <span class="plan-title-text">${p.name}</span>
+                ${catBadgeHtml}
+                ${isHidden ? '<span class="badge badge-warning" style="font-size:10px; padding:1px 5px;">🙈 Tạm ẩn</span>' : ''}
+                ${p.needs_review ? `
+                  <span class="badge badge-out" style="font-size:10px; cursor:pointer;" onclick="openConflictDecisionModal('${catKey}', ${idx})" title="Nhấp để xem các mức giá đang xung đột">⚡ Xung đột</span>
+                ` : ''}
+              </div>
+              <div class="plan-sku-sub">SKU: ${skuCode}</div>
             </div>
           </td>
           <td>
-            <div class="price-cell-clean">
-              <div class="price-top-row">
-                <div class="table-price-stepper">
-                  <button class="tbl-step-btn minus" title="Giảm 5.000đ" onclick="adjustPlanPrice(${idx}, -5000, '${catKey}')">−</button>
-                  <div class="tbl-price-display" onclick="quickEditPlanPrice(${idx}, '${catKey}')" title="Nhấp để gõ giá mới trực tiếp">
-                    <strong>${Number(p.price || 0).toLocaleString('vi-VN')}đ</strong>
-                  </div>
-                  <button class="tbl-step-btn plus" title="Tăng 5.000đ" onclick="adjustPlanPrice(${idx}, 5000, '${catKey}')">+</button>
-                </div>
-                <div class="tbl-price-chips">
-                  <button class="tbl-chip minus" title="Giảm 10.000đ" onclick="adjustPlanPrice(${idx}, -10000, '${catKey}')">-10k</button>
-                  <button class="tbl-chip minus" title="Giảm 5.000đ" onclick="adjustPlanPrice(${idx}, -5000, '${catKey}')">-5k</button>
-                  <button class="tbl-chip plus" title="Tăng 5.000đ" onclick="adjustPlanPrice(${idx}, 5000, '${catKey}')">+5k</button>
-                  <button class="tbl-chip plus" title="Tăng 10.000đ" onclick="adjustPlanPrice(${idx}, 10000, '${catKey}')">+10k</button>
+            <div class="price-minimal-box">
+              <div class="price-minimal-top">
+                <span class="price-highlight" onclick="quickEditPlanPrice(${idx}, '${catKey}')" title="Nhấp để gõ giá mới trực tiếp">
+                  ${Number(p.price || 0).toLocaleString('vi-VN')}đ
+                </span>
+                <div class="price-hover-stepper">
+                  <button class="tbl-step-chip minus" title="Giảm 5.000đ" onclick="adjustPlanPrice(${idx}, -5000, '${catKey}')">-5k</button>
+                  <button class="tbl-step-chip plus" title="Tăng 5.000đ" onclick="adjustPlanPrice(${idx}, 5000, '${catKey}')">+5k</button>
                 </div>
               </div>
-              ${(() => {
-                const costPrice = getPlanCostPrice(p);
-                if (costPrice > 0) {
-                  const diff = (p.price || 0) - costPrice;
-                  const pct = ((diff / costPrice) * 100).toFixed(1);
-                  if (diff > 0) {
-                    return `
-                      <div class="profit-bar-clean gain" title="Giá gốc: ${costPrice.toLocaleString('vi-VN')}đ • Lời: +${diff.toLocaleString('vi-VN')}đ">
-                        <span class="cost-label">Vốn: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong>${getBotBadgeHtml(p)}</span>
-                        <span class="gain-val">▲ Lời +${diff.toLocaleString('vi-VN')}đ <span class="pct-badge">+${pct}%</span></span>
-                      </div>
-                    `;
-                  } else if (diff === 0) {
-                    return `
-                      <div class="profit-bar-clean even" title="Giá bán bằng đúng giá gốc nhập kho">
-                        <span class="cost-label">Vốn: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong>${getBotBadgeHtml(p)}</span>
-                        <span class="even-val">Hòa vốn (0đ)</span>
-                      </div>
-                    `;
-                  } else {
-                    return `
-                      <div class="profit-bar-clean loss" title="Cảnh báo: Đang bán lỗ dưới giá nhập!">
-                        <span class="cost-label">Vốn: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong>${getBotBadgeHtml(p)}</span>
-                        <span class="loss-val">⚠️ Lỗ: ${diff.toLocaleString('vi-VN')}đ (${pct}%)</span>
-                      </div>
-                    `;
-                  }
-                }
-                return `
-                  <div class="profit-bar-clean empty">
-                    <span>(Chưa có giá nhập)</span>
-                  </div>
-                `;
-              })()}
+              <div class="price-minimal-sub">
+                ${costSublineHtml}
+              </div>
             </div>
           </td>
           <td>${stockBadge}</td>
-          <td><span class="badge badge-source">${p.duration || '1 Tháng'}</span></td>
+          <td><span class="badge-duration">${p.duration || '1 Tháng'}</span></td>
           <td style="text-align:center;">${eyeBtn}</td>
-          <td style="text-align:right;">
-            <button class="btn btn-outline" style="padding:4px 8px; font-size:11.5px;" onclick="openEditModal(${idx}, '${catKey}')">✏️ Sửa</button>
-            <button class="btn btn-danger" style="padding:4px 8px; font-size:11.5px;" onclick="deletePlan(${idx}, '${catKey}')">🗑️</button>
+          <td style="text-align:center; position:relative;">
+            <div class="action-dropdown-wrap">
+              <button type="button" class="btn-action-more" onclick="toggleRowActionMenu(event, '${catKey}', ${idx})" title="Tùy chọn thao tác">⋯</button>
+              <div class="action-menu-popover" id="rowActionMenu-${catKey}-${idx}">
+                <button type="button" class="action-popover-item" onclick="openEditModal(${idx}, '${catKey}'); closeAllActionMenus();">
+                  <span class="icon">✏️</span>
+                  <span>Chỉnh sửa chi tiết</span>
+                </button>
+                <button type="button" class="action-popover-item" onclick="quickEditPlanPrice(${idx}, '${catKey}'); closeAllActionMenus();">
+                  <span class="icon">⚡</span>
+                  <span>Điều chỉnh giá</span>
+                </button>
+                <button type="button" class="action-popover-item" onclick="quickRestockPlan(${idx}, '${catKey}'); closeAllActionMenus();">
+                  <span class="icon">📦</span>
+                  <span>Cập nhật kho</span>
+                </button>
+                <button type="button" class="action-popover-item" onclick="togglePlanVisibility(${idx}, '${catKey}'); closeAllActionMenus();">
+                  <span class="icon">${isHidden ? '👁️' : '🙈'}</span>
+                  <span>${isHidden ? 'Hiện lên Website' : 'Tạm ẩn khỏi Website'}</span>
+                </button>
+                <div class="action-popover-divider"></div>
+                <button type="button" class="action-popover-item danger" onclick="deletePlan(${idx}, '${catKey}'); closeAllActionMenus();">
+                  <span class="icon">🗑️</span>
+                  <span>Xóa sản phẩm</span>
+                </button>
+              </div>
+            </div>
           </td>
         `;
         tbody.appendChild(tr);
       });
     }
+
+    
+    function toggleRowActionMenu(event, catKey, idx) {
+      if (event) event.stopPropagation();
+      const menuId = `rowActionMenu-${catKey}-${idx}`;
+      const targetMenu = document.getElementById(menuId);
+      const isOpen = targetMenu && targetMenu.classList.contains('show');
+      closeAllActionMenus();
+      if (!isOpen && targetMenu) {
+        targetMenu.classList.add('show');
+      }
+    }
+
+    function closeAllActionMenus() {
+      document.querySelectorAll('.action-menu-popover.show').forEach(m => m.classList.remove('show'));
+    }
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.action-dropdown-wrap')) {
+        closeAllActionMenus();
+      }
+    });
 
     function clearGlobalSearch() {
       document.getElementById('filterInp').value = '';
