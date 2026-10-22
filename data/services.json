@@ -10626,11 +10626,48 @@
         "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 100,000đ)",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792661997906",
+        "name": "( Gói chính hãng ) ElevanLabs 131K Credit 1 Tháng (BH 3D)",
+        "price": 140000,
+        "cost_price": 120000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói ( Gói chính hãng ) ElevanLabs 131K Credit 1 Tháng (BH 3D) bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 0,
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "16:39 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 120000,
+          "stock": 0
+        },
+        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 120,000đ)",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792661997906",
+      "time": "16:39 - 22/10/2026",
+      "name": "( Gói chính hãng ) ElevanLabs 131K Credit 1 Tháng (BH 3D)",
+      "bot": "taphoathomap_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "🎙️(Góichínhhãng)ElevanLabs131KCredit1Tháng(BH3D)➕Thêm:1📦Tồnkhohiệntại:0💰Giá:120."
+    },
     {
       "id": "hist-1792661993340",
       "time": "16:39 - 22/10/2026",
@@ -11983,20 +12020,6 @@
       "catKey": "meitu-wink",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "✨MeituVIP7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792437239570",
-      "time": "02:13 - 20/10/2026",
-      "timestamp": 1792437239570,
-      "name": "ChatGPT Plus (Apple Pay) 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 35,
-      "addedQty": 30,
-      "price": 310000,
-      "stockAfter": 128,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus(ApplePay)1ThángBHF➕Thêm:30📦Tồnkhohiệntại:35💰Giá:280.000đ"
     }
   ]
 }
