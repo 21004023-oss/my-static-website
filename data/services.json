@@ -9840,11 +9840,48 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792687056776",
+        "name": "Lovable Lite 12 tháng - BH 2 Tháng",
+        "price": 200000,
+        "cost_price": 180000,
+        "stock": 20,
+        "stock_text": "Còn 20",
+        "duration": "1 Năm",
+        "detail": "Credit khởi tạo: Nhận ngay 300 credit (tín dụng) dùng một lần để bắt đầu xây dựng dự án.Credit hàng ngày: Cộng thêm 5 credit miễn phí mỗi ngày để duy trì việc chỉnh sửa và phát triển ứng dụng nhỏ.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 20,
+            "cost_price": 180000,
+            "selling_price": 200000,
+            "updated": "23:37 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 180000,
+          "stock": 20
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792687056776",
+      "time": "23:37 - 22/10/2026",
+      "name": "Lovable Lite 12 tháng - BH 2 Tháng",
+      "bot": "taphoathomap_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 20,
+      "catKey": "khac",
+      "msgKey": "⭐LovableLite12tháng-BH2Tháng➕Thêm:20📦Tồnkhohiệntại:20💰Giá:180.000đ"
+    },
     {
       "id": "hist-1792686639179",
       "time": "23:30 - 22/10/2026",
@@ -11194,20 +11231,6 @@
       "catKey": "khac",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "TàikhoảnNewtakeaiCredits19$starterPlan1tháng(BH24H)➕Thêm:20📦Tồnkhohiệntại:20💰Giá"
-    },
-    {
-      "id": "hist-1792586322143",
-      "time": "19:38 - 21/10/2026",
-      "timestamp": 1792586322143,
-      "name": "API Claude 50M Token 1 ngày BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 2,
-      "addedQty": 2,
-      "price": 65000,
-      "stockAfter": 2,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:55.000đ"
     }
   ]
 }
