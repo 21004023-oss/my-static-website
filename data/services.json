@@ -7101,6 +7101,25 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792636853826",
+        "name": "ACC ZOOM PRO 14 NGÀY BHF",
+        "price": 50000,
+        "cost_price": 40000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản cấp sẵn Zoom Pro 14 Ngày 100 members, hàng renew sau 14 ngày nên là khách hàng vui lòng không đổi pass\nĐịnh dạng: Email|Pass|Web Mail",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 2,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "09:40 22/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -7531,6 +7550,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792636853826",
+      "time": "09:40 - 22/10/2026",
+      "timestamp": 1792636853826,
+      "name": "ACC ZOOM PRO 14 NGÀY BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 2,
+      "addedQty": 2,
+      "price": 50000,
+      "stockAfter": 2,
+      "catKey": "work-dev",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "⭐ACCZOOMPRO14NGÀYBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:40.000đ"
+    },
     {
       "id": "hist-1792636835126",
       "time": "09:40 - 22/10/2026",
@@ -8916,20 +8949,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:185.000đ"
-    },
-    {
-      "id": "hist-1792554816665",
-      "time": "10:53 - 21/10/2026",
-      "timestamp": 1792554816665,
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 40,
-      "addedQty": 20,
-      "price": 260000,
-      "stockAfter": 40,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:20📦Tồnkhohiệntại:40💰Giá:230.000đ"
     }
   ]
 }
