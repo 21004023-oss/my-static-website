@@ -9876,11 +9876,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792687589350",
+        "name": "Redeem Apple Music Individual 5 tháng BH 1 ngày",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 42,
+        "stock_text": "Còn 42",
+        "duration": "1 Ngày",
+        "detail": "📋 Gói: Apple Music Cá nhân (Individual) -Thời hạn: 5 tháng -Hình thức: Kích hoạt trực tiếp trên tài khoản của bạn -Định dạng: Link kích hoạt chính thức -Không bảo hành sau khi đã kích hoạt thành công -Bảo hành link kích hoạt trong vòng 24 giờ -Cần sử dụng VPN Ấn Độ và thẻ để thanh toán -Sau khi thanh toán không hỗ trợ hoàn trả.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 42,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "23:46 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 25000,
+          "stock": 42
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792687589350",
+      "time": "23:46 - 22/10/2026",
+      "name": "Redeem Apple Music Individual 5 tháng BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 42,
+      "catKey": "khac",
+      "msgKey": "⭐RedeemAppleMusicIndividual5thángBH1ngày➕Thêm:42📦Tồnkhohiệntại:42💰Giá:25.000đ"
+    },
     {
       "id": "hist-1792687394867",
       "time": "23:43 - 22/10/2026",
@@ -11224,20 +11261,6 @@
       "catKey": "education",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐LinkGetOfferDuolingoSuper1nămBH24H➕Thêm:12📦Tồnkhohiệntại:17💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1792586938128",
-      "time": "19:48 - 21/10/2026",
-      "timestamp": 1792586938128,
-      "name": "Slot Youtube Premium 3 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 571,
-      "addedQty": 4,
-      "price": 105000,
-      "stockAfter": 571,
-      "catKey": "youtube",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:4📦Tồnkhohiệntại:571💰Giá:95.000đ"
     }
   ]
 }
