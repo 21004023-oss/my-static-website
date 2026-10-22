@@ -2929,6 +2929,25 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792655590705",
+        "name": "API CLAUDE 500$ TOKEN 1 THÁNG BHF",
+        "price": 280000,
+        "cost_price": 250000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Gói API CLAUDE 500$ TOKEN 1 THÁNG BHF bảo hành uy tín.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 1,
+            "cost_price": 250000,
+            "selling_price": 280000,
+            "updated": "14:53 22/10/2026"
+          }
+        },
+        "hidden": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64"
@@ -7575,6 +7594,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792655590705",
+      "time": "14:53 - 22/10/2026",
+      "timestamp": 1792655590705,
+      "name": "API CLAUDE 500$ TOKEN 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 1,
+      "addedQty": 1,
+      "price": 280000,
+      "stockAfter": 1,
+      "catKey": "api-claude-codex",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🧠APICLAUDE500$TOKEN1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:250.000đ"
+    },
+    {
       "id": "hist-1792655583308",
       "time": "14:53 - 22/10/2026",
       "timestamp": 1792655583308,
@@ -8959,20 +8992,6 @@
       "catKey": "vpn",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🚚ExpressVPN3NgàyBHF💰Giá:15k📦Tồnkho:11tàikhoản📊Đãbán:778tàikhoản💎Môtả:Địnhdạng:em"
-    },
-    {
-      "id": "hist-1792559937959",
-      "time": "12:18 - 21/10/2026",
-      "timestamp": 1792559937959,
-      "name": "VIP. Kling Ultra 4.0 26k credit 1 tháng BH 2 ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 38,
-      "addedQty": 0,
-      "price": 2600000,
-      "stockAfter": 38,
-      "catKey": "kling",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬VIP.KlingUltra4.026kcredit1thángBH2ngày💰Giá:2250k📦Tồnkho:38tàikhoản📊Đãbán:1tàik"
     }
   ]
 }
