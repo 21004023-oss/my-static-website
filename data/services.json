@@ -210,6 +210,32 @@
         },
         "import_note": "🛒 @ntnshopre_bot",
         "detail": "- vidIQ (1 channel Boost) – The Ultimate YouTube Assistant.\n- Cung cấp Email & Password tài khoản cá nhân VidIQ Boost.\n- Bảo hành full 1 tháng."
+      },
+      {
+        "id": "p-1792676246357",
+        "name": "Youtube Premium 3 Tháng - Bảo hành Full",
+        "price": 150000,
+        "cost_price": 130000,
+        "stock": 18,
+        "stock_text": "Còn 18",
+        "duration": "3 Tháng",
+        "detail": "Thời gian xử lý: khoảng 1 giờ hoặc sớm hơn.\n- Đăng ký: gửi địa chỉ Gmail để nhận lời mời. Dùng một Gmail duy nhất đến hết hạn gói trên bot.\n- Tham gia: khi bot báo hoàn thành, đăng nhập Gmail đã đăng ký tại g.co/yourfamily, kiểm tra lời mời và nhấn Tham gia.\n- Lần tham gia nhóm: cần dùng VPN Việt Nam hoặc xóa hồ sơ thanh toán theo hướng dẫn. Sau khi tham gia, có thể xem tại mọi quốc gia mà không cần VPN.\n- Gia hạn hằng tháng: hệ thống gửi lời mời vào nhóm Family mới mỗi tháng. Bên mình cam kết không gặp lỗi 12 tháng hoặc lỗi hộ gia đình trong thời hạn gói.\n- Khi chuyển nhóm: chỉ thoát nhóm ...\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–18):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 18,
+            "cost_price": 130000,
+            "selling_price": 150000,
+            "updated": "20:37 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 130000,
+          "stock": 18
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=youtube.com&sz=64"
@@ -9713,6 +9739,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792676246357",
+      "time": "20:37 - 22/10/2026",
+      "name": "Youtube Premium 3 Tháng - Bảo hành Full",
+      "bot": "khommo_market_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 18,
+      "catKey": "youtube",
+      "msgKey": "🛍️YoutubePremium3Tháng-BảohànhFull💲Giá:130.000VND💚Tồnkho:18tàikhoản📊Đãbán:2tàikh"
+    },
+    {
       "id": "hist-1792675905058",
       "time": "20:31 - 22/10/2026",
       "name": "Spotify Premium (IOS) 12 Tháng BHF",
@@ -11094,20 +11131,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:93📦Tồnkhohiệntại:56💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1792577828258",
-      "time": "17:17 - 21/10/2026",
-      "timestamp": 1792577828258,
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 27,
-      "addedQty": 9,
-      "price": 75000,
-      "stockAfter": 54,
-      "catKey": "capcut",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:65.000đ"
     }
   ]
 }
