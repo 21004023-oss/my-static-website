@@ -9767,13 +9767,13 @@
         "name": "Slot Ultra Antigravity X5 10k Credit Dùng Chung 1TH BHF",
         "price": 400000,
         "cost_price": 350000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": -1,
+        "stock_text": "Vô cực (∞)",
         "duration": "1 Tháng",
-        "detail": "Gói Slot Ultra Antigravity X5 10k Credit Dùng Chung 1TH BHF bảo hành uy tín.",
+        "detail": "-Thời gian done trong vòng 24h ( đủ 5 member add lần tránh người vào trước dùng trướcc )\n- Có Random Flow Credit (0 -> 10k Cre) dùng chung\n- Khách gửi mail để được mời vào Family\n- 20TB dung lượng Drive dùng chung.\n- Dùng được Gemini Ultra tại: https://gemini.google.com với Usage x5 lần gói Pro.\n- Quota cho các model Gemini trong Antigravity x3 lần., dùng chung với gia đình\n- Nếu khách có nhu cầu dùng Antigravity, chọn gói này (khuyến nghị)",
         "sources": {
           "piggyai99_bot": {
-            "stock": 8,
+            "stock": -1,
             "cost_price": 350000,
             "selling_price": 400000,
             "updated": "22:48 22/10/2026"
@@ -9782,7 +9782,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 350000,
-          "stock": 8
+          "stock": -1
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -9792,6 +9792,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792684116856",
+      "time": "22:48 - 22/10/2026",
+      "name": "Slot Ultra Antigravity X5 10k Credit Dùng Chung 1TH BHF",
+      "bot": "piggyai99_bot",
+      "price": 400000,
+      "costPrice": 350000,
+      "stockAfter": -1,
+      "catKey": "khac",
+      "msgKey": "🚀SlotUltraAntigravityX510kCreditDùngChung1THBHF💰Giá:350k📦Tồnkho:∞tàikhoản📊Đãbán:"
+    },
     {
       "id": "hist-1792684112528",
       "time": "22:48 - 22/10/2026",
@@ -11156,20 +11167,6 @@
       "catKey": "social",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐CloneFacebookNoveryNameViệtKBH➕Thêm:30📦Tồnkhohiệntại:24💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1792580765476",
-      "time": "18:06 - 21/10/2026",
-      "timestamp": 1792580765476,
-      "name": "ChatGPT Go 1 Tháng - BH 10 Ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 16,
-      "addedQty": 15,
-      "price": 75000,
-      "stockAfter": 16,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTGo1Tháng-BH10Ngày➕Thêm:15📦Tồnkhohiệntại:16💰Giá:65.000đ"
     }
   ]
 }
