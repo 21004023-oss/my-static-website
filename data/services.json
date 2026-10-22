@@ -22,7 +22,7 @@
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": -1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -46,10 +46,16 @@
             "cost_price": 95000,
             "selling_price": 105000,
             "stock": -1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 90000,
+            "selling_price": 100000,
+            "stock": -1,
+            "updated": "17:49 22/10/2026"
           }
         },
-        "cost_price": 95000,
+        "cost_price": 90000,
         "needs_review": false,
         "hidden": false,
         "signature": "youtube premium | slot | 3m | bh_3m",
@@ -57,16 +63,16 @@
         "normalized_duration": "3m",
         "normalized_warranty": "bh_3m",
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 95000,
+          "bot": "@ntnshopre_bot",
+          "cost_price": 90000,
           "stock": -1
         },
-        "import_note": "Ưu tiên nhập tại @piggyai99_bot (Vốn: 95,000đ | Kho: -1)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 90,000đ | Kho: -1)"
       },
       {
         "id": "yt-slot-6m",
         "name": "Slot YouTube Premium 6 Tháng BHF",
-        "price": 185000,
+        "price": 200000,
         "stock": -1,
         "stock_text": "Vô cực (∞)",
         "duration": "6 Tháng",
@@ -76,7 +82,13 @@
             "cost_price": 165000,
             "selling_price": 185000,
             "stock": -1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 180000,
+            "selling_price": 200000,
+            "stock": -1,
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 165000,
@@ -113,7 +125,13 @@
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": -1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 360000,
+            "selling_price": 410000,
+            "stock": -1,
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -188,7 +206,7 @@
       {
         "id": "p-1791926580507",
         "name": "Slot Youtube Premium 1 Năm BHF",
-        "price": 360000,
+        "price": 410000,
         "stock": -1,
         "stock_text": "Vô cực (∞)",
         "duration": "1 Năm",
@@ -199,7 +217,13 @@
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": -1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 360000,
+            "selling_price": 410000,
+            "stock": -1,
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 280000,
@@ -235,7 +259,7 @@
             "cost_price": 89000,
             "selling_price": 99000,
             "stock": 4,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -259,7 +283,7 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 106,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -280,8 +304,8 @@
         "id": "vidiq-boost-1m",
         "name": "VidIQ Boost YouTube Advanced Tools 1M",
         "price": 165000,
-        "stock": 0,
-        "stock_text": "Tạm hết hàng",
+        "stock": 23,
+        "stock_text": "Còn 23",
         "duration": "1 Tháng",
         "source": "Acc cá nhân",
         "detail": "- vidIQ (1 channel Boost) – The Ultimate YouTube Assistant.\n- Cung cấp Email & Password tài khoản cá nhân VidIQ Boost.\n- Bảo hành full 1 tháng.",
@@ -289,7 +313,23 @@
         "signature": "vidiq boost youtube advanced tools | general | 1m | none",
         "product_type": "general",
         "normalized_duration": "1m",
-        "normalized_warranty": "none"
+        "normalized_warranty": "none",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 145000,
+            "selling_price": 165000,
+            "stock": 23,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 145000,
+          "stock": 23
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 145,000đ | Kho: 23)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1792213686836",
@@ -416,13 +456,13 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 22,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 80000,
             "selling_price": 90000,
             "stock": 22,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 50000,
@@ -458,7 +498,7 @@
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": 16,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -489,7 +529,7 @@
             "cost_price": 119000,
             "selling_price": 139000,
             "stock": 19,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -651,19 +691,19 @@
             "cost_price": 240000,
             "selling_price": 270000,
             "stock": 51,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 20,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": 8,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 240000,
@@ -693,7 +733,7 @@
             "cost_price": 320000,
             "selling_price": 370000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 320000,
@@ -723,7 +763,7 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 120000,
@@ -796,7 +836,7 @@
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 29,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 300000,
@@ -826,7 +866,7 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 6,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 30000,
@@ -856,19 +896,19 @@
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 20,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": 8,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 240000,
             "selling_price": 270000,
             "stock": 51,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 240000,
@@ -898,7 +938,7 @@
             "cost_price": 75000,
             "selling_price": 85000,
             "stock": 51,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 75000,
@@ -928,7 +968,7 @@
             "cost_price": 320000,
             "selling_price": 370000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 320000,
@@ -958,7 +998,7 @@
             "cost_price": 75000,
             "selling_price": 85000,
             "stock": 27,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 75000,
@@ -1002,7 +1042,7 @@
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": 16,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 65000,
@@ -1032,7 +1072,7 @@
             "cost_price": 600000,
             "selling_price": 700000,
             "stock": 0,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 600000,
@@ -1062,7 +1102,7 @@
             "cost_price": 1800000,
             "selling_price": 2000000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 1800000,
@@ -1092,7 +1132,7 @@
             "cost_price": 265000,
             "selling_price": 295000,
             "stock": 34,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 265000,
@@ -1178,7 +1218,7 @@
             "cost_price": 320000,
             "selling_price": 370000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1208,19 +1248,19 @@
             "cost_price": 240000,
             "selling_price": 270000,
             "stock": 51,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 20,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": 8,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1250,19 +1290,19 @@
             "cost_price": 240000,
             "selling_price": 270000,
             "stock": 51,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 20,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": 8,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1383,19 +1423,19 @@
             "cost_price": 240000,
             "selling_price": 270000,
             "stock": 51,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 20,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": 8,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1425,7 +1465,7 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "stock": 27,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1455,7 +1495,7 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 6,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1485,19 +1525,19 @@
             "cost_price": 240000,
             "selling_price": 270000,
             "stock": 51,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 20,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": 8,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1527,7 +1567,7 @@
             "cost_price": 320000,
             "selling_price": 370000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1557,7 +1597,7 @@
             "cost_price": 75000,
             "selling_price": 85000,
             "stock": 27,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1587,7 +1627,7 @@
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 29,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1617,7 +1657,7 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "stock": 18,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1647,7 +1687,7 @@
             "cost_price": 95000,
             "selling_price": 105000,
             "stock": 10,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1677,7 +1717,7 @@
             "cost_price": 265000,
             "selling_price": 295000,
             "stock": 34,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1707,19 +1747,19 @@
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 20,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": 8,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 240000,
             "selling_price": 270000,
             "stock": 51,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1749,19 +1789,19 @@
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 20,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": 8,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 240000,
             "selling_price": 270000,
             "stock": 51,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1791,7 +1831,7 @@
             "cost_price": 265000,
             "selling_price": 295000,
             "stock": 34,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1821,7 +1861,7 @@
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 29,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1851,19 +1891,19 @@
             "cost_price": 240000,
             "selling_price": 270000,
             "stock": 51,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 20,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": 8,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1893,7 +1933,7 @@
             "cost_price": 119000,
             "selling_price": 139000,
             "stock": 19,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1923,7 +1963,7 @@
             "cost_price": 400000,
             "selling_price": 450000,
             "stock": -1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -1960,7 +2000,7 @@
             "cost_price": 265000,
             "selling_price": 295000,
             "stock": 41,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -2020,7 +2060,7 @@
             "cost_price": 350000,
             "selling_price": 400000,
             "stock": -1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -2050,7 +2090,7 @@
             "cost_price": 450000,
             "selling_price": 500000,
             "stock": 86,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -2080,7 +2120,7 @@
             "cost_price": 210000,
             "selling_price": 240000,
             "stock": 2,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2106,7 +2146,7 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "stock": 8,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2132,7 +2172,7 @@
             "cost_price": 215000,
             "selling_price": 245000,
             "stock": 41,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2158,7 +2198,7 @@
             "cost_price": 240000,
             "selling_price": 270000,
             "stock": 10,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2184,7 +2224,7 @@
             "cost_price": 230000,
             "selling_price": 260000,
             "stock": 12,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2210,7 +2250,7 @@
             "cost_price": 3300000,
             "selling_price": 3650000,
             "stock": 30,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2236,7 +2276,7 @@
             "cost_price": 4200000,
             "selling_price": 4800000,
             "stock": 30,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2262,7 +2302,7 @@
             "cost_price": 85000,
             "selling_price": 95000,
             "stock": 28,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2288,7 +2328,7 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 22,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2314,7 +2354,7 @@
             "cost_price": 430000,
             "selling_price": 480000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2340,7 +2380,7 @@
             "cost_price": 200000,
             "selling_price": 220000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2366,7 +2406,7 @@
             "cost_price": 1700000,
             "selling_price": 1900000,
             "stock": 20,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2392,7 +2432,7 @@
             "cost_price": 2300000,
             "selling_price": 2650000,
             "stock": 6,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2418,7 +2458,7 @@
             "cost_price": 2900000,
             "selling_price": 3250000,
             "stock": 17,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2444,7 +2484,7 @@
             "cost_price": 3100000,
             "selling_price": 3450000,
             "stock": 36,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2470,7 +2510,7 @@
             "cost_price": 7999000,
             "selling_price": 8999000,
             "stock": 30,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2496,7 +2536,7 @@
             "cost_price": 6200000,
             "selling_price": 6800000,
             "stock": 30,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2522,7 +2562,7 @@
             "cost_price": 350000,
             "selling_price": 400000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2548,7 +2588,7 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 349,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2587,7 +2627,7 @@
             "cost_price": 27000,
             "selling_price": 37000,
             "stock": 73,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2642,7 +2682,23 @@
         "signature": "veo 4 ultra x5 random credits | slot | 3m | bh_3m",
         "product_type": "slot",
         "normalized_duration": "3m",
-        "normalized_warranty": "bh_3m"
+        "normalized_warranty": "bh_3m",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 1000000,
+            "selling_price": 1100000,
+            "stock": -1,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 1000000,
+          "stock": -1
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 1,000,000đ | Kho: -1)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "veo3-slot-x5-3m",
@@ -2702,7 +2758,23 @@
         "signature": "veo 3 ultra x20 0 credit | slot | 1y | bh_1y",
         "product_type": "slot",
         "normalized_duration": "1y",
-        "normalized_warranty": "bh_1y"
+        "normalized_warranty": "bh_1y",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 2500000,
+            "selling_price": 2850000,
+            "stock": -1,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 2500000,
+          "stock": -1
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 2,500,000đ | Kho: -1)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "veo4-slot-1y",
@@ -2717,7 +2789,23 @@
         "signature": "veo 4 ultra x5 random credits | slot | 1y | bh_1y",
         "product_type": "slot",
         "normalized_duration": "1y",
-        "normalized_warranty": "bh_1y"
+        "normalized_warranty": "bh_1y",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 2500000,
+            "selling_price": 2850000,
+            "stock": -1,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 2500000,
+          "stock": -1
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 2,500,000đ | Kho: -1)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "veo4-slot-750k-cre",
@@ -2732,14 +2820,30 @@
         "signature": "veo 4 ultra x20 750k credits | slot | 1m | bh_1m",
         "product_type": "slot",
         "normalized_duration": "1m",
-        "normalized_warranty": "bh_1m"
+        "normalized_warranty": "bh_1m",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 5000000,
+            "selling_price": 5600000,
+            "stock": -1,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 5000000,
+          "stock": -1
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 5,000,000đ | Kho: -1)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "veo3-admin-fam-3m",
         "name": "Admin Fam GG Veo 3 Ultra x20 3 Tháng BHF",
         "price": 7100000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "3 Tháng",
         "source": "Cấp Quyền Admin Fam",
         "detail": "- KHÔNG CÓ MODEL LITE.\n- Sau khi mua, bot gửi 1 mail -> khách dùng mail cá nhân tạo Family rồi mời tài khoản bên shop vào.\n- Yêu cầu mail cá nhân trust tránh die.\n- Full tính năng gói Ultra (trừ YTB): 30TB dung lượng cá nhân (hoặc tự share cho 4 người khác cùng dùng), 25.000 Flow Credit renew mỗi tháng.\n- Bảo hành 3 tháng.",
@@ -2747,7 +2851,23 @@
         "signature": "admin fam gg veo 3 ultra x20 | general | 3m | bh_3m",
         "product_type": "general",
         "normalized_duration": "3m",
-        "normalized_warranty": "bh_3m"
+        "normalized_warranty": "bh_3m",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 6500000,
+            "selling_price": 7100000,
+            "stock": 0,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 6500000,
+          "stock": 0
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 6,500,000đ | Kho: 0)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1791942022221",
@@ -2781,7 +2901,7 @@
             "cost_price": 3700000,
             "selling_price": 4050000,
             "stock": -1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -2834,7 +2954,7 @@
             "cost_price": 900000,
             "selling_price": 1000000,
             "stock": 43,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -3136,13 +3256,13 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 10,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "needs_review": false,
@@ -3172,7 +3292,7 @@
             "cost_price": 27000,
             "selling_price": 37000,
             "stock": 73,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "needs_review": false,
@@ -3202,7 +3322,7 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 73,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "needs_review": false,
@@ -3266,7 +3386,7 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 10,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3320,7 +3440,7 @@
             "cost_price": 27000,
             "selling_price": 37000,
             "stock": 73,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -3350,7 +3470,7 @@
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 42,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -3380,13 +3500,13 @@
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 10,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -3417,7 +3537,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 16,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -3446,7 +3566,7 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -3477,7 +3597,7 @@
             "cost_price": 1150000,
             "selling_price": 1350000,
             "stock": 3,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3510,13 +3630,13 @@
             "cost_price": 5000,
             "selling_price": 15000,
             "stock": 133,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 5000,
             "selling_price": 15000,
             "stock": 64,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 5000,
@@ -3540,11 +3660,27 @@
         "stock_text": "Vô cực (∞)",
         "duration": "1 Năm",
         "detail": "- CANVA EDU ADD FAM 1 NĂM CHÍNH CHỦ.\n- BẢO HÀNH FULLTIME.\n- ORDER XONG GỬI MAIL CHO ADMIN HOÀN THÀNH TRONG 15 PHÚT.",
-        "cost_price": 20000,
+        "cost_price": 10000,
         "signature": "canva edu add fam | slot | 1y | none",
         "product_type": "slot",
         "normalized_duration": "1y",
-        "normalized_warranty": "none"
+        "normalized_warranty": "none",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "stock": -1,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 10000,
+          "stock": -1
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 10,000đ | Kho: -1)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "canva-slot-pro-1y",
@@ -3554,7 +3690,7 @@
         "stock_text": "Vô cực (∞)",
         "duration": "1 Năm",
         "detail": "- CANVA PRO ADD FAM 1 NĂM CHÍNH CHỦ.\n- BẢO HÀNH FULLTIME.\n- ORDER XONG GỬI MAIL CHO ADMIN XỬ LÝ TRONG 15 PHÚT.",
-        "cost_price": 80000,
+        "cost_price": 59000,
         "signature": "canva add fam | slot | 1y | none",
         "product_type": "slot",
         "normalized_duration": "1y",
@@ -3564,15 +3700,21 @@
             "cost_price": 80000,
             "selling_price": 90000,
             "stock": -1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 59000,
+            "selling_price": 69000,
+            "stock": -1,
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 80000,
+          "bot": "@ntnshopre_bot",
+          "cost_price": 59000,
           "stock": -1
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 80,000đ | Kho: -1)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 59,000đ | Kho: -1)",
         "hidden": false,
         "needs_review": false
       },
@@ -3580,8 +3722,8 @@
         "id": "canva-admin-50slot",
         "name": "Admin Canva Pro 1 Năm 50 Slot BHF",
         "price": 2850000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Năm",
         "source": "Tài khoản Admin",
         "detail": "- ADD 50 slot Canva Pro cho thành viên.\n- Thanh toán xong liên hệ trực tiếp Admin để nhận bàn giao tài khoản.",
@@ -3589,7 +3731,23 @@
         "signature": "admin canva 50 | slot | 1y | bh_1y",
         "product_type": "slot",
         "normalized_duration": "1y",
-        "normalized_warranty": "bh_1y"
+        "normalized_warranty": "bh_1y",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 2500000,
+            "selling_price": 2850000,
+            "stock": 3,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 2500000,
+          "stock": 3
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 2,500,000đ | Kho: 3)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1792438543204",
@@ -3605,7 +3763,7 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -3635,7 +3793,7 @@
             "cost_price": 85000,
             "selling_price": 95000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -3665,7 +3823,7 @@
             "cost_price": 1000,
             "selling_price": 11000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3691,7 +3849,7 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3717,7 +3875,7 @@
             "cost_price": 80000,
             "selling_price": 90000,
             "stock": 5,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -3750,7 +3908,7 @@
             "cost_price": 38000,
             "selling_price": 48000,
             "stock": 31,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 38000,
@@ -3771,8 +3929,8 @@
         "id": "capcut-12m",
         "name": "CapCut Pro 12 Tháng BHF",
         "price": 750000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "12 Tháng",
         "source": "Cấp TK/MK",
         "detail": "- Định dạng: Email | Pass.\n- Đăng nhập 1 Mobile + 1 PC, Credit random, tài khoản cá nhân.\n- Bảo hành đầy đủ toàn thời gian, lỗi 1 đổi 1.\n- Vi phạm các điều trên -> Mất bảo hành.",
@@ -3780,7 +3938,23 @@
         "signature": "capcut | general | 1y | bh_1y",
         "product_type": "general",
         "normalized_duration": "1y",
-        "normalized_warranty": "bh_1y"
+        "normalized_warranty": "bh_1y",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 650000,
+            "selling_price": 750000,
+            "stock": 0,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 650000,
+          "stock": 0
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 650,000đ | Kho: 0)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1791858786489",
@@ -3814,17 +3988,23 @@
         "id": "p-1791877845717",
         "name": "CAPCUT PRO 3 THÁNG BHF",
         "price": 205000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "3 Tháng",
         "detail": "Tài khoản Capcut Pro dạng team hạn sử dụng 90 ngày. • Có thể nhận tới 2000 Credit AI • Định dạng: Email | Pass • Login 1-2 thiết bị hạn chế login nhiều thiết bị. • Bảo hành 90 ngày, không bảo hành lỗi đăng nhập quá thường xuyên.\nTK tự động gia hạn mỗi tháng 1 lần đến khi đủ 1 tháng",
-        "cost_price": 185000,
+        "cost_price": 155000,
         "sources": {
           "sieuthistore_bot": {
             "cost_price": 185000,
             "selling_price": 205000,
             "stock": 7,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 155000,
+            "selling_price": 175000,
+            "stock": 5,
+            "updated": "17:49 22/10/2026"
           }
         },
         "needs_review": false,
@@ -3834,11 +4014,11 @@
         "normalized_duration": "3m",
         "normalized_warranty": "bh_3m",
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 185000,
-          "stock": 7
+          "bot": "@ntnshopre_bot",
+          "cost_price": 155000,
+          "stock": 5
         },
-        "import_note": "Ưu tiên nhập tại @sieuthistore_bot (Vốn: 185,000đ | Kho: 7)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 155,000đ | Kho: 5)"
       },
       {
         "id": "p-1791898468912",
@@ -3853,19 +4033,19 @@
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 27,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 33000,
             "selling_price": 43000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": 31,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 33000,
@@ -3895,13 +4075,13 @@
             "cost_price": 160000,
             "selling_price": 180000,
             "stock": 7,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 155000,
             "selling_price": 175000,
             "stock": 7,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 155000,
@@ -3921,16 +4101,32 @@
       {
         "id": "p-1791921267652",
         "name": "Capcut Pro Team 1 Tháng BHF",
-        "price": 70000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "price": 260000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Sản phẩm add team nên khách hàng vui lòng không change mail để tránh  văng team rớt PRO ( có thể trôi date )",
-        "cost_price": 60000,
+        "cost_price": 230000,
         "signature": "capcut team | general | 1m | bh_1m",
         "product_type": "general",
         "normalized_duration": "1m",
-        "normalized_warranty": "bh_1m"
+        "normalized_warranty": "bh_1m",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 230000,
+            "selling_price": 260000,
+            "stock": 0,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 230000,
+          "stock": 0
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 230,000đ | Kho: 0)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1792024624956",
@@ -3945,7 +4141,7 @@
             "cost_price": 60000,
             "selling_price": 70000,
             "stock": 9,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 60000,
@@ -3975,7 +4171,7 @@
             "cost_price": 290000,
             "selling_price": 320000,
             "stock": 6,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -4005,19 +4201,19 @@
             "cost_price": 33000,
             "selling_price": 43000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 27,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": 31,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -4047,19 +4243,19 @@
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": 31,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 27,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 33000,
             "selling_price": 43000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -4089,19 +4285,19 @@
             "cost_price": 33000,
             "selling_price": 43000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": 31,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 27,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -4131,19 +4327,19 @@
             "cost_price": 290000,
             "selling_price": 320000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 290000,
             "selling_price": 320000,
             "stock": 3,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 340000,
             "selling_price": 390000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -4173,19 +4369,19 @@
             "cost_price": 340000,
             "selling_price": 390000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 290000,
             "selling_price": 320000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 290000,
             "selling_price": 320000,
             "stock": 3,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -4215,19 +4411,19 @@
             "cost_price": 33000,
             "selling_price": 43000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": 31,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 27,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -4257,7 +4453,7 @@
             "cost_price": 130000,
             "selling_price": 150000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -4288,7 +4484,7 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "stock": 50,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4314,7 +4510,7 @@
             "cost_price": 60000,
             "selling_price": 70000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4340,7 +4536,7 @@
             "cost_price": 550000,
             "selling_price": 650000,
             "stock": 4,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4366,7 +4562,7 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "stock": 81,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4400,7 +4596,7 @@
             "cost_price": 310000,
             "selling_price": 360000,
             "stock": 41,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "signature": "chatgpt plus codex full | general | 1m | bh_1m",
@@ -4419,8 +4615,8 @@
         "id": "api-sim-us",
         "name": "Số Điện Thoại US + API Dùng Để Verify Codex",
         "price": 13000,
-        "stock": 89,
-        "stock_text": "Còn 89",
+        "stock": 86,
+        "stock_text": "Còn 86",
         "duration": "1 Lần",
         "source": "API SIM US",
         "detail": "- SỐ ĐIỆN THOẠI US + API DÙNG ĐỂ VERIFY CODEX.",
@@ -4428,14 +4624,30 @@
         "signature": "số điện thoại us api dùng để verify codex | api | 1m | none",
         "product_type": "api",
         "normalized_duration": "1m",
-        "normalized_warranty": "none"
+        "normalized_warranty": "none",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 3000,
+            "selling_price": 13000,
+            "stock": 86,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 3000,
+          "stock": 86
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 3,000đ | Kho: 86)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "api-claude-10m-1d",
         "name": "API 10M Token Claude 1 Ngày BHF",
         "price": 45000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 221,
+        "stock_text": "Còn 221",
         "duration": "1 Ngày",
         "source": "API Key",
         "detail": "- Model: Full model Claude Opus, Sonnet, Haiku.\n- Chế độ bảo hành: Hoàn tiền theo số lượng token khách chưa sử dụng nếu lỗi key.\n- Kênh thông báo: https://t.me/api_thongbao\n- Danh sách model và hướng dẫn: api.nghimmo.com/huongdan\n- Trang kiểm tra KEY: api.nghimmo.com/check",
@@ -4450,14 +4662,20 @@
             "selling_price": 45000,
             "stock": 10,
             "updated": "17:19 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "stock": 221,
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
+          "bot": "@ntnshopre_bot",
           "cost_price": 35000,
-          "stock": 10
+          "stock": 221
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 35,000đ | Kho: 10)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 35,000đ | Kho: 221)",
         "hidden": false,
         "needs_review": false
       },
@@ -4465,8 +4683,8 @@
         "id": "api-codex-10m-2d",
         "name": "10M Credit API Codex 2 Ngày BHF",
         "price": 45000,
-        "stock": 181,
-        "stock_text": "Còn 181",
+        "stock": 359,
+        "stock_text": "Còn 359",
         "duration": "2 Ngày",
         "source": "Teamsoclo",
         "detail": "- Model: gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna.\n- Hoàn tiền theo lượng token chưa dùng.\n- Base URL: https://gpt.teamsoclo.site/v1\n- HDSD: https://docs.teamsoclo.site/\n- Video: https://tinyurl.com/teamsoclovid\n- Kiểm tra KEY: https://gpt.teamsoclo.site/check\n- Đổi CDK thành Key tại: https://redeem.teamsoclo.site/\n- Kênh thông báo: https://t.me/teamsoclo",
@@ -4480,7 +4698,13 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 181,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "stock": 178,
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4496,8 +4720,8 @@
         "id": "api-codex-20m-2d",
         "name": "20M Credit API Codex 2 Ngày BHF",
         "price": 60000,
-        "stock": 181,
-        "stock_text": "Còn 181",
+        "stock": 359,
+        "stock_text": "Còn 359",
         "duration": "2 Ngày",
         "source": "Teamsoclo",
         "detail": "- Model: gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna.\n- Hoàn tiền theo token chưa dùng.\n- Base URL: https://gpt.teamsoclo.site/v1\n- HDSD: https://docs.teamsoclo.site/\n- Video: https://tinyurl.com/teamsoclovid\n- Trang kiểm tra KEY: https://gpt.teamsoclo.site/check\n- Đổi CDK tại: https://redeem.teamsoclo.site/",
@@ -4511,7 +4735,13 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 181,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "stock": 178,
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4527,8 +4757,8 @@
         "id": "api-codex-50m-1d",
         "name": "50M Credits API Codex 1 Ngày BHF",
         "price": 60000,
-        "stock": 186,
-        "stock_text": "Còn 186",
+        "stock": 127,
+        "stock_text": "Còn 127",
         "duration": "1 Ngày",
         "source": "Teamsoclo",
         "detail": "- Model: gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna.\n- Hoàn tiền theo lượng token khách chưa sử dụng.\n- Base URL: https://gpt.teamsoclo.site/v1\n- HDSD: https://docs.teamsoclo.site/\n- Đổi CDK tại: https://redeem.teamsoclo.site/",
@@ -4536,14 +4766,30 @@
         "signature": "credits api codex | api | 1d | bh_1d",
         "product_type": "api",
         "normalized_duration": "1d",
-        "normalized_warranty": "bh_1d"
+        "normalized_warranty": "bh_1d",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "stock": 127,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 50000,
+          "stock": 127
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 50,000đ | Kho: 127)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "api-codex-50m-2d",
         "name": "50M Credit API Codex 2 Ngày BHF",
         "price": 70000,
-        "stock": 181,
-        "stock_text": "Còn 181",
+        "stock": 359,
+        "stock_text": "Còn 359",
         "duration": "2 Ngày",
         "source": "Teamsoclo",
         "detail": "- Model: gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna.\n- Hạn dùng 48h.\n- Hoàn tiền theo số lượng token chưa sử dụng.\n- Base URL: https://gpt.teamsoclo.site/v1\n- HDSD: https://docs.teamsoclo.site/",
@@ -4557,7 +4803,13 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 181,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "stock": 178,
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4573,8 +4825,8 @@
         "id": "api-codex-100m-5d",
         "name": "100M Credit API Codex 5 Ngày BHF",
         "price": 105000,
-        "stock": 181,
-        "stock_text": "Còn 181",
+        "stock": 359,
+        "stock_text": "Còn 359",
         "duration": "5 Ngày",
         "source": "Teamsoclo",
         "detail": "- Model: gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna.\n- Hạn dùng 5 ngày.\n- Base URL: https://gpt.teamsoclo.site/v1\n- HDSD: https://docs.teamsoclo.site/\n- Trang kiểm tra KEY: https://gpt.teamsoclo.site/check\n- Đổi CDK tại: https://redeem.teamsoclo.site/",
@@ -4588,7 +4840,13 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 181,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "stock": 178,
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4604,8 +4862,8 @@
         "id": "api-claude-50m-1d",
         "name": "API 50M Token Claude 1 Ngày BHF",
         "price": 110000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 221,
+        "stock_text": "Còn 221",
         "duration": "1 Ngày",
         "source": "API Key",
         "detail": "- Model: Full model Claude Opus, Sonet, Haiku.\n- Hoàn tiền theo số lượng token khách chưa sử dụng.\n- Kênh thông báo: https://t.me/api_thongbao\n- Danh sách model và hướng dẫn: api.nghimmo.com/huongdan\n- Trang kiểm tra KEY: api.nghimmo.com/check",
@@ -4620,14 +4878,20 @@
             "selling_price": 45000,
             "stock": 10,
             "updated": "17:19 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "stock": 221,
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
+          "bot": "@ntnshopre_bot",
           "cost_price": 35000,
-          "stock": 10
+          "stock": 221
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 35,000đ | Kho: 10)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 35,000đ | Kho: 221)",
         "hidden": false,
         "needs_review": false
       },
@@ -4635,8 +4899,8 @@
         "id": "api-claude-vip-40m",
         "name": "API Claude VIP High Stable 40M Token 1 Ngày BHF",
         "price": 110000,
-        "stock": 33,
-        "stock_text": "Còn 33",
+        "stock": 21,
+        "stock_text": "Còn 21",
         "duration": "1 Ngày",
         "source": "Cursor Ultra",
         "detail": "- API Claude VIP High Stable — model trích xuất từ Cursor Ultra, dùng cho Claude Code và app hỗ trợ OpenAI/Anthropic.\n- Có Fable tốc độ cao, có opus-5.5.\n- Token ước tính: Fable 5M, Opus 5 10M, Sonnet 5 20M, Haiku 4.5 33M.\n- Hỗ trợ thêm Kimi K3, GLM 5.2, Grok 4.6 quy đổi tương đương Sonnet 5.\n- Độ ổn định cao, không gián đoạn, hạn dùng 24h.\n- Kích hoạt: https://daily.bddevlab.buzz/redeem.html\n- Fix lỗi: https://duc-dop-error-guide.pages.dev",
@@ -4644,18 +4908,34 @@
         "signature": "api claude high stable token | api | 1d | bh_1d",
         "product_type": "api",
         "normalized_duration": "1d",
-        "normalized_warranty": "bh_1d"
+        "normalized_warranty": "bh_1d",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "stock": 21,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 100000,
+          "stock": 21
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 100,000đ | Kho: 21)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "api-claude-100m-3d",
         "name": "API 100M Token Claude 3 Ngày BHF",
         "price": 169000,
-        "stock": 47,
-        "stock_text": "Còn 47",
+        "stock": 37,
+        "stock_text": "Còn 37",
         "duration": "3 Ngày",
         "source": "API Key",
         "detail": "- Model: Full model Claude Opus, Sonet, Haiku.\n- Hạn dùng 3 ngày.\n- Kênh thông báo: https://t.me/api_thongbao\n- Hỗ trợ: https://api.nghimmo.com/support\n- Danh sách model và hướng dẫn: api.nghimmo.com/huongdan\n- Trang kiểm tra KEY: api.nghimmo.com/check",
-        "cost_price": 149000,
+        "cost_price": 140000,
         "signature": "api token claude | api | 3d | bh_3d",
         "product_type": "api",
         "normalized_duration": "3d",
@@ -4666,14 +4946,20 @@
             "selling_price": 169000,
             "stock": 47,
             "updated": "17:19 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 140000,
+            "selling_price": 160000,
+            "stock": 37,
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 149000,
-          "stock": 47
+          "bot": "@ntnshopre_bot",
+          "cost_price": 140000,
+          "stock": 37
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 149,000đ | Kho: 47)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 140,000đ | Kho: 37)",
         "hidden": false,
         "needs_review": false
       },
@@ -4681,8 +4967,8 @@
         "id": "api-claude-200m-1d",
         "name": "API 200M Token Claude 1 Ngày BHF",
         "price": 209000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 221,
+        "stock_text": "Còn 221",
         "duration": "1 Ngày",
         "source": "API Key",
         "detail": "- Full model Claude Opus, Sonet, Haiku trong 24 giờ.\n- Hoàn tiền theo lượng token chưa dùng.\n- Kênh thông báo: https://t.me/api_thongbao\n- Trang kiểm tra KEY: api.nghimmo.com/check",
@@ -4697,14 +4983,20 @@
             "selling_price": 45000,
             "stock": 10,
             "updated": "17:19 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "stock": 221,
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
+          "bot": "@ntnshopre_bot",
           "cost_price": 35000,
-          "stock": 10
+          "stock": 221
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 35,000đ | Kho: 10)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 35,000đ | Kho: 221)",
         "hidden": false,
         "needs_review": false
       },
@@ -4712,12 +5004,12 @@
         "id": "api-claude-100m-1m",
         "name": "API Claude 100M 1 Tháng BHF",
         "price": 279000,
-        "stock": 300,
-        "stock_text": "Còn 300",
+        "stock": 36,
+        "stock_text": "Còn 36",
         "duration": "1 Tháng",
         "source": "Teamsoclo",
         "detail": "- Model: claude-fable-5, claude-fable-5-1, claude-haiku-4-5, claude-opus-4-6 -> 5-5, claude-sonnet-4-6 -> 5.\n- Hạn dùng 30 ngày.\n- Base URL: https://gpt.teamsoclo.site/\n- HDSD: https://docs.teamsoclo.site/\n- Video Claude Setup: https://tinyurl.com/teamsoclovidclaudesetup\n- Đổi CDK tại: https://redeem.teamsoclo.site/",
-        "cost_price": 35000,
+        "cost_price": 249000,
         "signature": "api claude | api | 1m | bh_1m",
         "product_type": "api",
         "normalized_duration": "1m",
@@ -4728,14 +5020,20 @@
             "selling_price": 45000,
             "stock": 300,
             "updated": "17:19 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 249000,
+            "selling_price": 279000,
+            "stock": 36,
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 35000,
-          "stock": 300
+          "bot": "@ntnshopre_bot",
+          "cost_price": 249000,
+          "stock": 36
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 35,000đ | Kho: 300)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 249,000đ | Kho: 36)",
         "hidden": false,
         "needs_review": false
       },
@@ -4758,7 +5056,7 @@
             "cost_price": 179000,
             "selling_price": 199000,
             "stock": 54,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -4774,12 +5072,12 @@
         "id": "api-claude-200m-1m",
         "name": "API Claude 200M 1 Tháng BHF",
         "price": 359000,
-        "stock": 300,
-        "stock_text": "Còn 300",
+        "stock": 36,
+        "stock_text": "Còn 36",
         "duration": "1 Tháng",
         "source": "Teamsoclo",
         "detail": "- Hạn dùng 30 ngày.\n- Base URL: https://gpt.teamsoclo.site/\n- Đổi CDK thành Key tại: https://redeem.teamsoclo.site/\n- Kênh thông báo: https://t.me/teamsoclo",
-        "cost_price": 35000,
+        "cost_price": 249000,
         "signature": "api claude | api | 1m | bh_1m",
         "product_type": "api",
         "normalized_duration": "1m",
@@ -4790,14 +5088,20 @@
             "selling_price": 45000,
             "stock": 300,
             "updated": "17:19 22/10/2026"
+          },
+          "ntnshopre_bot": {
+            "cost_price": 249000,
+            "selling_price": 279000,
+            "stock": 36,
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 35000,
-          "stock": 300
+          "bot": "@ntnshopre_bot",
+          "cost_price": 249000,
+          "stock": 36
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 35,000đ | Kho: 300)",
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 249,000đ | Kho: 36)",
         "hidden": false,
         "needs_review": false
       },
@@ -4805,8 +5109,8 @@
         "id": "api-claude-500m-1m",
         "name": "API Claude 500M Token 1 Tháng BHAF",
         "price": 489000,
-        "stock": 46,
-        "stock_text": "Còn 46",
+        "stock": 11,
+        "stock_text": "Còn 11",
         "duration": "1 Tháng",
         "source": "Teamsoclo",
         "detail": "- Dung lượng khủng 500M token cho team, hạn dùng 30 ngày.\n- Model: claude-fable-5, claude-haiku-4-5, claude-opus-5-5, claude-sonnet-5...\n- Base URL: https://gpt.teamsoclo.site/\n- HDSD: https://docs.teamsoclo.site/\n- Video Codex Setup: https://tinyurl.com/teamsoclovid\n- Đổi CDK tại: https://redeem.teamsoclo.site/",
@@ -4814,7 +5118,23 @@
         "signature": "api claude token bhaf | api | 1m | none",
         "product_type": "api",
         "normalized_duration": "1m",
-        "normalized_warranty": "none"
+        "normalized_warranty": "none",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 439000,
+            "selling_price": 489000,
+            "stock": 11,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 439000,
+          "stock": 11
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 439,000đ | Kho: 11)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1791866509062",
@@ -4872,7 +5192,7 @@
             "cost_price": 55000,
             "selling_price": 65000,
             "stock": 10,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 55000,
@@ -4902,7 +5222,7 @@
             "cost_price": 140000,
             "selling_price": 160000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 140000,
@@ -4932,7 +5252,7 @@
             "cost_price": 55000,
             "selling_price": 65000,
             "stock": 10,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 55000,
@@ -4976,7 +5296,7 @@
             "cost_price": 140000,
             "selling_price": 160000,
             "stock": 4,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 140000,
@@ -5082,7 +5402,7 @@
             "cost_price": 299000,
             "selling_price": 329000,
             "stock": 3,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -5112,7 +5432,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 10,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -5142,7 +5462,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 10,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -5203,13 +5523,13 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "stock": 38,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": 38,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -5239,7 +5559,7 @@
             "cost_price": 250000,
             "selling_price": 280000,
             "stock": 1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5265,7 +5585,7 @@
             "cost_price": 29000,
             "selling_price": 39000,
             "stock": 196,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5291,7 +5611,7 @@
             "cost_price": 159000,
             "selling_price": 179000,
             "stock": 107,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5314,8 +5634,8 @@
         "id": "api-deepseek-50",
         "name": "API DeepSeek $50 1 Tháng BHF",
         "price": 129000,
-        "stock": 61,
-        "stock_text": "Còn 61",
+        "stock": 50,
+        "stock_text": "Còn 50",
         "duration": "1 Tháng",
         "source": "Vibi.top",
         "detail": "- API DeepSeek — nổi bật với DeepSeek V4.1 Flash, cùng nhiều lựa chọn model trong một gói.\n- Hỗ trợ thêm Claude Opus 5.5, Sonnet 5, GPT-6 Sol, GPT-5.6 Terra, tạo ảnh GPT Image 2.5 Flare.\n- 1$ tương đương khoảng 1–2 triệu token.\n- Kích hoạt: truy cập vibi.top -> ví -> nhập mã đổi thưởng -> tạo khóa API.\n- HDSD: https://vibi.top/docs-setup/vi",
@@ -5323,14 +5643,30 @@
         "signature": "api deepseek 50 | api | 1m | bh_1m",
         "product_type": "api",
         "normalized_duration": "1m",
-        "normalized_warranty": "bh_1m"
+        "normalized_warranty": "bh_1m",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 109000,
+            "selling_price": 129000,
+            "stock": 50,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 109000,
+          "stock": 50
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 109,000đ | Kho: 50)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "api-deepseek-100",
         "name": "API DeepSeek $100 1 Tháng BHF",
         "price": 179000,
-        "stock": 26,
-        "stock_text": "Còn 26",
+        "stock": 34,
+        "stock_text": "Còn 34",
         "duration": "1 Tháng",
         "source": "Vibi.top",
         "detail": "- API DeepSeek V4.1 Flash hạn 1 tháng.\n- Hỗ trợ Claude Opus 5.5, Sonnet 5, GPT-6 Astra/Sol, Qwen 3.8 Flash, tạo ảnh GPT Image 2.5 Flare.\n- Kích hoạt mã đổi thưởng tại vibi.top.",
@@ -5338,7 +5674,23 @@
         "signature": "api deepseek 100 | api | 1m | bh_1m",
         "product_type": "api",
         "normalized_duration": "1m",
-        "normalized_warranty": "bh_1m"
+        "normalized_warranty": "bh_1m",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 159000,
+            "selling_price": 179000,
+            "stock": 34,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 159000,
+          "stock": 34
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 159,000đ | Kho: 34)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "api-cursor-400cre",
@@ -5361,13 +5713,13 @@
             "cost_price": 309000,
             "selling_price": 359000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 309000,
             "selling_price": 359000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "needs_review": false,
@@ -5398,19 +5750,19 @@
             "cost_price": 360000,
             "selling_price": 410000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 309000,
             "selling_price": 359000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 309000,
             "selling_price": 359000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "needs_review": false,
@@ -5439,19 +5791,19 @@
             "cost_price": 204000,
             "selling_price": 234000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 210000,
             "selling_price": 240000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 204000,
@@ -5481,19 +5833,19 @@
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 210000,
             "selling_price": 240000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 204000,
             "selling_price": 234000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -5523,19 +5875,19 @@
             "cost_price": 210000,
             "selling_price": 240000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 280000,
             "selling_price": 310000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 204000,
             "selling_price": 234000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -5563,8 +5915,8 @@
         "id": "grok-api-10m",
         "name": "Grok API 10M Credits 3 Ngày BHF",
         "price": 45000,
-        "stock": 127,
-        "stock_text": "Còn 127",
+        "stock": 80,
+        "stock_text": "Còn 80",
         "duration": "3 Ngày",
         "source": "Teamsoclo",
         "detail": "- Base URL: https://gpt.teamsoclo.site/v1\n- Model: grok-4.5, grok-4.6, grok-4.7.\n- Hạn dùng 3 ngày.\n- HDSD: https://docs.teamsoclo.site/\n- Trang kiểm tra KEY: https://gpt.teamsoclo.site/check\n- Đổi CDK tại: https://redeem.teamsoclo.site/",
@@ -5572,59 +5924,123 @@
         "signature": "grok api credits | api | 3d | bh_3d",
         "product_type": "api",
         "normalized_duration": "3d",
-        "normalized_warranty": "bh_3d"
+        "normalized_warranty": "bh_3d",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "stock": 80,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 35000,
+          "stock": 80
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 35,000đ | Kho: 80)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "grok-api-30m",
         "name": "Grok API 30M Credits 3 Ngày BHF",
         "price": 59000,
-        "stock": 44,
-        "stock_text": "Còn 44",
+        "stock": 80,
+        "stock_text": "Còn 80",
         "duration": "3 Ngày",
         "source": "Teamsoclo",
         "detail": "- Base URL: https://gpt.teamsoclo.site/v1\n- Model: grok-4.5, grok-4.6, grok-4.7.\n- Hạn dùng 3 ngày.\n- HDSD: https://docs.teamsoclo.site/\n- Video: https://tinyurl.com/teamsoclovid\n- Đổi CDK tại: https://redeem.teamsoclo.site/",
-        "cost_price": 49000,
+        "cost_price": 35000,
         "signature": "grok api credits | api | 3d | bh_3d",
         "product_type": "api",
         "normalized_duration": "3d",
-        "normalized_warranty": "bh_3d"
+        "normalized_warranty": "bh_3d",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "stock": 80,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 35000,
+          "stock": 80
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 35,000đ | Kho: 80)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "grok-api-50m",
         "name": "Grok API 50M Credits 3 Ngày BHF",
         "price": 95000,
-        "stock": 49,
-        "stock_text": "Còn 49",
+        "stock": 80,
+        "stock_text": "Còn 80",
         "duration": "3 Ngày",
         "source": "Teamsoclo",
         "detail": "- Base URL: https://gpt.teamsoclo.site/v1\n- Model: grok-4.5, grok-4.6, grok-4.7.\n- Hạn dùng 3 ngày.\n- Trang kiểm tra KEY: https://gpt.teamsoclo.site/check",
-        "cost_price": 85000,
+        "cost_price": 35000,
         "signature": "grok api credits | api | 3d | bh_3d",
         "product_type": "api",
         "normalized_duration": "3d",
-        "normalized_warranty": "bh_3d"
+        "normalized_warranty": "bh_3d",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "stock": 80,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 35000,
+          "stock": 80
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 35,000đ | Kho: 80)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "grok-super-7d",
         "name": "Grok Super 7 Ngày BHF",
-        "price": 110000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "price": 160000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "7 Ngày",
         "source": "Acc Hotmail cấp sẵn",
         "detail": "- Hàng Hotmail ổn định, khỏe.\n- Định dạng: Email - pass.\n- Hyper-Speed AI phản hồi thần tốc không hàng chờ.\n- Dữ liệu thời gian thực, Grok X-Mode tư duy thẳng thắn và sắc sảo.\n- Họa sĩ AI tạo ảnh cực nét.\n- Mở khóa tính năng VIP trải nghiệm trọn vẹn không quảng cáo trong 7 ngày.",
-        "cost_price": 100000,
+        "cost_price": 140000,
         "signature": "grok super | general | 7d | bh_7d",
         "product_type": "general",
         "normalized_duration": "7d",
-        "normalized_warranty": "bh_7d"
+        "normalized_warranty": "bh_7d",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 140000,
+            "selling_price": 160000,
+            "stock": 0,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 140000,
+          "stock": 0
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 140,000đ | Kho: 0)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "grok-api-100m",
         "name": "Grok API 100M Credits 5 Ngày BHF",
         "price": 169000,
-        "stock": 48,
-        "stock_text": "Còn 48",
+        "stock": 34,
+        "stock_text": "Còn 34",
         "duration": "5 Ngày",
         "detail": "- Dung lượng 100M credit, hạn dùng 5 ngày.\n- Base URL: https://gpt.teamsoclo.site/v1\n- Model: grok-4.5, grok-4.6, grok-4.7.\n- Đổi CDK tại: https://redeem.teamsoclo.site/",
         "hidden": false,
@@ -5632,22 +6048,53 @@
         "signature": "grok api credits | api | 1m | bh_1m",
         "product_type": "api",
         "normalized_duration": "1m",
-        "normalized_warranty": "bh_1m"
+        "normalized_warranty": "bh_1m",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 149000,
+            "selling_price": 169000,
+            "stock": 34,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 149000,
+          "stock": 34
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 149,000đ | Kho: 34)",
+        "needs_review": false
       },
       {
         "id": "grok-api-200m",
         "name": "Grok API 200M Credits 5 Ngày BHF",
         "price": 399000,
-        "stock": 50,
-        "stock_text": "Còn 50",
+        "stock": 34,
+        "stock_text": "Còn 34",
         "duration": "5 Ngày",
         "source": "Teamsoclo",
         "detail": "- Dung lượng khủng 200M credit, hạn 5 ngày.\n- Base URL: https://gpt.teamsoclo.site/v1\n- Model: grok-4.5, grok-4.6, grok-4.7.\n- Đổi CDK tại: https://redeem.teamsoclo.site/",
-        "cost_price": 349000,
+        "cost_price": 149000,
         "signature": "grok api credits | api | 1m | bh_1m",
         "product_type": "api",
         "normalized_duration": "1m",
-        "normalized_warranty": "bh_1m"
+        "normalized_warranty": "bh_1m",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 149000,
+            "selling_price": 169000,
+            "stock": 34,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 149000,
+          "stock": 34
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 149,000đ | Kho: 34)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "grok-cdk-super-3m",
@@ -5722,13 +6169,13 @@
             "cost_price": 180000,
             "selling_price": 200000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 109000,
             "selling_price": 129000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -5758,7 +6205,7 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": 13,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5784,7 +6231,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 25,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5810,7 +6257,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 80,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5836,7 +6283,7 @@
             "cost_price": 1150000,
             "selling_price": 1350000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5862,7 +6309,7 @@
             "cost_price": 700000,
             "selling_price": 800000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -5885,8 +6332,8 @@
         "id": "kling-65cre",
         "name": "Kling 65 Cre 1 Tháng BHF",
         "price": 28000,
-        "stock": 115,
-        "stock_text": "Còn 115",
+        "stock": 193,
+        "stock_text": "Còn 193",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
         "detail": "- Định dạng: TK|MK.\n- Tài khoản sẽ mất credit sau một thời gian và nên sử dụng ngay.\n- Bật tab ẩn danh hoặc xài Proxy (trên PC mỗi Profile là 1 acc Kling để làm song song nhiều video).\n- Không bảo hành lỗi Busy.",
@@ -5894,7 +6341,23 @@
         "signature": "kling 65 cre | general | 1m | bh_1m",
         "product_type": "general",
         "normalized_duration": "1m",
-        "normalized_warranty": "bh_1m"
+        "normalized_warranty": "bh_1m",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 3000,
+            "selling_price": 13000,
+            "stock": 193,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 3000,
+          "stock": 193
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 3,000đ | Kho: 193)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "kling-700cre",
@@ -5915,8 +6378,8 @@
         "id": "kling-1k-cre",
         "name": "Kling Stand Random Credits 1K-1K3 1 Tháng BHF",
         "price": 250000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
         "source": "Email login",
         "detail": "- TẤT CẢ ĐỀU ĐĂNG NHẬP BẰNG EMAIL NHÉ.\n- Credit random từ 1000 đến 1300 credits.\n- Bảo hành full 1 tháng.",
@@ -5924,7 +6387,23 @@
         "signature": "kling stand random credits 1k 1k3 | general | 1m | bh_1m",
         "product_type": "general",
         "normalized_duration": "1m",
-        "normalized_warranty": "bh_1m"
+        "normalized_warranty": "bh_1m",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 205000,
+            "selling_price": 235000,
+            "stock": 6,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 205000,
+          "stock": 6
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 205,000đ | Kho: 6)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1791864762051",
@@ -6029,7 +6508,7 @@
             "cost_price": 150000,
             "selling_price": 170000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 1,
@@ -6102,7 +6581,7 @@
             "cost_price": 150000,
             "selling_price": 170000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -6185,13 +6664,13 @@
             "cost_price": 650000,
             "selling_price": 750000,
             "stock": 3,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 600000,
             "selling_price": 700000,
             "stock": 4,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -6221,7 +6700,7 @@
             "cost_price": 2250000,
             "selling_price": 2600000,
             "stock": 38,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -6268,7 +6747,23 @@
         "signature": "spotify | slot | 6m | bh_6m",
         "product_type": "slot",
         "normalized_duration": "6m",
-        "normalized_warranty": "bh_6m"
+        "normalized_warranty": "bh_6m",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 190000,
+            "selling_price": 210000,
+            "stock": -1,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 190000,
+          "stock": -1
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 190,000đ | Kho: -1)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "spotify-slot-12m",
@@ -6283,7 +6778,23 @@
         "signature": "spotify premium | slot | 1y | bh_1y",
         "product_type": "slot",
         "normalized_duration": "1y",
-        "normalized_warranty": "bh_1y"
+        "normalized_warranty": "bh_1y",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 350000,
+            "selling_price": 400000,
+            "stock": -1,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 350000,
+          "stock": -1
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 350,000đ | Kho: -1)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1792144579625",
@@ -6359,7 +6870,7 @@
             "cost_price": 60000,
             "selling_price": 70000,
             "stock": 11,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -6395,7 +6906,23 @@
         "signature": "notion business ai | slot | 1m | bh_1m",
         "product_type": "slot",
         "normalized_duration": "1m",
-        "normalized_warranty": "bh_1m"
+        "normalized_warranty": "bh_1m",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "stock": -1,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 30000,
+          "stock": -1
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 30,000đ | Kho: -1)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "notion-plus-edu-2y",
@@ -6712,7 +7239,7 @@
             "cost_price": 260000,
             "selling_price": 290000,
             "stock": 14,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "signature": "chatgpt plus ggpay gmail bh | general | 1m | bh_20d",
@@ -6742,7 +7269,7 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 28,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 17,
@@ -6754,7 +7281,7 @@
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 135,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "needs_review": false,
@@ -6784,13 +7311,13 @@
             "cost_price": 39000,
             "selling_price": 49000,
             "stock": 49,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 36000,
             "selling_price": 46000,
             "stock": 49,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "needs_review": false,
@@ -6809,16 +7336,32 @@
         "id": "gmail-new-ytb",
         "name": "Gmail New Login All Có Trial YTB",
         "price": 45000,
-        "stock": 131,
-        "stock_text": "Còn 131",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "Vĩnh viễn",
         "detail": "- Định dạng: Mail | Pass.\n- Hàng có TRIAL YOUTUBE, có tỉ lệ có ưu đãi 0đ GEMINI PRO.\n- Hàng new ngâm 3-5 ngày rồi change info hoặc đổi thiết bị.\n- Bảo hành hỗ trợ đăng nhập trong 1H đầu, sau 1H không hỗ trợ với bất cứ lý do gì.",
         "price_verified": true,
-        "cost_price": 35000,
+        "cost_price": 18000,
         "signature": "gmail new login all có trial ytb | general | 1m | none",
         "product_type": "general",
         "normalized_duration": "1m",
-        "normalized_warranty": "none"
+        "normalized_warranty": "none",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 18000,
+            "selling_price": 28000,
+            "stock": 0,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 18000,
+          "stock": 0
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 18,000đ | Kho: 0)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "gmail-co-201x",
@@ -6840,7 +7383,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 75,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -6883,7 +7426,7 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 32,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 100,
@@ -6947,19 +7490,19 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 81,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 81,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 81,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "conflict_group": "gmail_new_login_all",
@@ -6991,19 +7534,19 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 81,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 81,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 81,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "conflict_group": "gmail_new_login_all",
@@ -7036,7 +7579,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 75,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 75,
@@ -7078,19 +7621,19 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 81,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 81,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 81,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -7121,7 +7664,7 @@
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 160,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -7152,13 +7695,13 @@
             "cost_price": 23000,
             "selling_price": 33000,
             "stock": 13,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 43000,
             "selling_price": 53000,
             "stock": 42,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 42,
@@ -7194,19 +7737,19 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 81,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 81,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 81,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -7236,19 +7779,19 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 81,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 81,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 81,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -7278,7 +7821,7 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 31,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 31,
@@ -7320,7 +7863,7 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 31,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -7350,7 +7893,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 202,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -7386,7 +7929,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 202,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -7416,7 +7959,7 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 153,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -7452,7 +7995,7 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 59,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -7482,7 +8025,7 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 59,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -7518,7 +8061,7 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 31,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -7616,7 +8159,7 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 3,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -7647,19 +8190,19 @@
             "cost_price": 49000,
             "selling_price": 59000,
             "stock": 29,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 29,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 29,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -7689,7 +8232,7 @@
             "cost_price": 33000,
             "selling_price": 43000,
             "stock": 0,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -7725,7 +8268,7 @@
             "cost_price": 36000,
             "selling_price": 46000,
             "stock": 0,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -7761,7 +8304,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 14,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 14,
@@ -7797,13 +8340,13 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 11,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 22000,
             "selling_price": 32000,
             "stock": 11,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -7834,7 +8377,7 @@
             "cost_price": 2000,
             "selling_price": 12000,
             "stock": 1069,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "signature": "chatgpt free hàng gmail | general | 1m | kbh",
@@ -7864,7 +8407,7 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "stock": 868,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "signature": "chatgpt free gmail | general | 1m | kbh",
@@ -7893,7 +8436,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 38,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -7923,7 +8466,7 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 38,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -7972,7 +8515,7 @@
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 8,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 300000,
@@ -8032,7 +8575,7 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 19,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -8153,7 +8696,7 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -8220,21 +8763,27 @@
             "cost_price": 90000,
             "updated": "03:08 16/10/2026",
             "selling_price": 100000
+          },
+          "ntnshopre_bot": {
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "stock": 1,
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 90000,
+        "cost_price": 80000,
         "signature": "tài khoản vieon | general | 3m | bh_3m",
         "product_type": "general",
         "normalized_duration": "3m",
         "normalized_warranty": "bh_3m",
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 90000,
-          "stock": 1,
-          "updated": "03:08 16/10/2026"
+          "bot": "@ntnshopre_bot",
+          "cost_price": 80000,
+          "stock": 1
         },
-        "import_note": "Ưu tiên nhập tại @sieuthistore_bot (Vốn: 90,000đ)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 80,000đ | Kho: 1)",
+        "needs_review": false
       },
       {
         "id": "p-1792094920635",
@@ -8250,22 +8799,27 @@
             "cost_price": 55000,
             "updated": "03:08 16/10/2026",
             "selling_price": 65000
+          },
+          "ntnshopre_bot": {
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "stock": 1,
+            "updated": "17:49 22/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "cost_price": 55000,
+        "hidden": false,
+        "needs_review": false,
+        "cost_price": 80000,
         "signature": "tài khoản vieon | general | 3m | bh_3m",
         "product_type": "general",
         "normalized_duration": "3m",
         "normalized_warranty": "bh_3m",
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 55000,
-          "stock": 1,
-          "updated": "03:08 16/10/2026"
+          "bot": "@ntnshopre_bot",
+          "cost_price": 80000,
+          "stock": 1
         },
-        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 55,000đ)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 80,000đ | Kho: 1)"
       },
       {
         "id": "p-1792123650725",
@@ -8280,7 +8834,7 @@
             "cost_price": 55000,
             "selling_price": 65000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 9,
@@ -8322,13 +8876,13 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 67,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 67,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -8358,13 +8912,13 @@
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 67,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 67,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -8400,7 +8954,7 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -8430,7 +8984,7 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -8522,7 +9076,7 @@
             "cost_price": 150000,
             "selling_price": 170000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -8552,7 +9106,7 @@
             "cost_price": 55000,
             "selling_price": 65000,
             "stock": 4,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -8583,7 +9137,7 @@
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 65000,
@@ -8613,7 +9167,7 @@
             "cost_price": 75000,
             "selling_price": 85000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 75000,
@@ -8674,13 +9228,13 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 6,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": 6,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 15000,
@@ -8769,7 +9323,7 @@
             "cost_price": 150000,
             "selling_price": 170000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -8799,7 +9353,7 @@
             "cost_price": 180000,
             "selling_price": 200000,
             "stock": 11,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -8829,7 +9383,7 @@
             "cost_price": 110000,
             "selling_price": 130000,
             "stock": 11,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -8866,7 +9420,7 @@
             "cost_price": 180000,
             "selling_price": 200000,
             "stock": 12,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -8892,7 +9446,7 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -8918,7 +9472,7 @@
             "cost_price": 700000,
             "selling_price": 800000,
             "stock": 53,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -8944,7 +9498,7 @@
             "cost_price": 350000,
             "selling_price": 400000,
             "stock": 51,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -8970,7 +9524,7 @@
             "cost_price": 950000,
             "selling_price": 1050000,
             "stock": 36,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -8996,7 +9550,7 @@
             "cost_price": 2500000,
             "selling_price": 2850000,
             "stock": 30,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -9022,7 +9576,7 @@
             "cost_price": 245000,
             "selling_price": 275000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -9048,7 +9602,7 @@
             "cost_price": 150000,
             "selling_price": 170000,
             "stock": 10,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -9074,7 +9628,7 @@
             "cost_price": 115000,
             "selling_price": 135000,
             "stock": 3,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -9100,7 +9654,7 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 48,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -9165,16 +9719,16 @@
         "id": "p-1791989249235",
         "name": "KASPERSKY PREMIUM + VPN 1 NĂM (BH 300 ngày)",
         "price": 185000,
-        "stock": 33,
-        "stock_text": "Còn 33",
+        "stock": 17,
+        "stock_text": "Còn 17",
         "duration": "1 Năm",
         "detail": "Định dạng Key:XXXXX-XXXXX-XXXXX-XXXX\nBảo hành 300 ngày\nĐối với khách Global: Cần kết nối VPN Fake ip/Proxy sang Việt Nam để kích hoạt lần đầu tiên.\nSau khi kích hoạt thành công, các lần sử dụng sau không cần dùng VPN Fake ip.\nThời hạn sử dụng:⏳ 01 năm (có thể trôi hạn vài tuần tùy thời điểm kích hoạt của nhà cung cấp).\nSố lượng thiết bị:💻 01 PC Windows\nkaspersky.com.vn/downloads/premium\nLưu ý: Khi tải Kaspersky Premium, thì VPN  sẽ được cài kèm theo phiên bản Premium.",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 33,
             "cost_price": 165000,
-            "updated": "06:02 15/10/2026",
-            "selling_price": 185000
+            "selling_price": 185000,
+            "stock": 17,
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 165000,
@@ -9185,10 +9739,11 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 165000,
-          "stock": 33,
-          "updated": "06:02 15/10/2026"
+          "stock": 17
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 165,000đ)"
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 165,000đ | Kho: 17)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1792003618063",
@@ -9232,13 +9787,13 @@
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": 7,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": 6,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -9268,7 +9823,7 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "stock": 22,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -9298,7 +9853,7 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 11,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -9334,7 +9889,7 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 11,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -9370,7 +9925,7 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 11,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -9400,19 +9955,19 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 12,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 18000,
             "selling_price": 28000,
             "stock": 12,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": 12,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -9442,19 +9997,19 @@
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": 12,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 18000,
             "selling_price": 28000,
             "stock": 12,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 12,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -9576,7 +10131,7 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": 0,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 14,
@@ -9612,7 +10167,7 @@
             "cost_price": 125000,
             "selling_price": 145000,
             "stock": 0,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -9642,19 +10197,19 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 11,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": 11,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": 7,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -9684,7 +10239,7 @@
             "cost_price": 80000,
             "selling_price": 90000,
             "stock": 14,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -9714,7 +10269,7 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "stock": 14,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -9798,15 +10353,31 @@
         "id": "p-1791959586384",
         "name": "COURSERA PREMIUM 12 THÁNG BẢO HÀN H24H",
         "price": 145000,
-        "stock": 26,
-        "stock_text": "Còn 26",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "12 THÁNG",
         "detail": "Định dạng: Email | Mật khẩu | 2FA\n+ Quyền truy cập Org+ Premium\n+ Tất cả các khóa học & chứng chỉ",
         "cost_price": 125000,
         "signature": "coursera premium bảo hàn h24h | general | 1y | none",
         "product_type": "general",
         "normalized_duration": "1y",
-        "normalized_warranty": "none"
+        "normalized_warranty": "none",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 125000,
+            "selling_price": 145000,
+            "stock": 4,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 125000,
+          "stock": 4
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 125,000đ | Kho: 4)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1792076682282",
@@ -9821,13 +10392,13 @@
             "cost_price": 20000,
             "selling_price": 30000,
             "stock": 17,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 9,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -9863,7 +10434,7 @@
             "cost_price": 90000,
             "selling_price": 100000,
             "stock": 7,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 7,
@@ -9899,7 +10470,7 @@
             "cost_price": 90000,
             "selling_price": 100000,
             "stock": 7,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -9935,7 +10506,7 @@
             "cost_price": 90000,
             "selling_price": 100000,
             "stock": 7,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -9965,13 +10536,13 @@
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 9,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 20000,
             "selling_price": 30000,
             "stock": 17,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -10038,13 +10609,13 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "needs_review": false,
@@ -10110,13 +10681,13 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 10,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 80000,
             "selling_price": 90000,
             "stock": 34,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 24,
@@ -10157,13 +10728,13 @@
             "cost_price": 80000,
             "selling_price": 90000,
             "stock": 34,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 10,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10188,13 +10759,13 @@
             "cost_price": 75000,
             "selling_price": 85000,
             "stock": 0,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 75000,
             "selling_price": 85000,
             "stock": 0,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cost_price": 75000,
@@ -10231,13 +10802,13 @@
             "cost_price": 80000,
             "selling_price": 90000,
             "stock": 34,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 10,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -10260,13 +10831,13 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -10451,13 +11022,13 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 13,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "ntnshopre_bot": {
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -10487,13 +11058,13 @@
             "cost_price": 165000,
             "selling_price": 185000,
             "stock": 4,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 210000,
             "selling_price": 240000,
             "stock": 4,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -10519,15 +11090,31 @@
         "id": "p-1791890057671",
         "name": "HEYGEN CREATOR 1 THÁNG ( BH 3 ngày)",
         "price": 450000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 THÁNG",
         "detail": "✔️ Hỗ trợ đa ngôn ngữ\n\n✔️ Xuất video chất lượng Full HD 1080p\n\n✔️ Phù hợp cho quảng cáo, bán hàng, đào tạo và sáng tạo nội dung mạng xã hội\n\n📦 Định dạng bàn giao: Email HeyGen | Mật khẩu (Chỉ bảo hành gói dịch vụ, không bảo hành các trường hợp sử dụng vi phạm chính sách)\n\n🛡️ Bảo hành: 1 ngày",
-        "cost_price": 400000,
+        "cost_price": 380000,
         "signature": "heygen creator bh | general | 1m | bh_3d",
         "product_type": "general",
         "normalized_duration": "1m",
-        "normalized_warranty": "bh_3d"
+        "normalized_warranty": "bh_3d",
+        "sources": {
+          "ntnshopre_bot": {
+            "cost_price": 380000,
+            "selling_price": 430000,
+            "stock": 0,
+            "updated": "17:49 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 380000,
+          "stock": 0
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 380,000đ | Kho: 0)",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1791885964384",
@@ -10543,7 +11130,7 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": 10,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "needs_review": false,
@@ -10572,7 +11159,7 @@
             "cost_price": 199000,
             "selling_price": 219000,
             "stock": 11,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -10602,7 +11189,7 @@
             "cost_price": 180000,
             "selling_price": 200000,
             "stock": 11,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -10675,7 +11262,7 @@
             "cost_price": 210000,
             "selling_price": 240000,
             "stock": 0,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "needs_review": false,
@@ -10705,7 +11292,7 @@
             "cost_price": 175000,
             "selling_price": 195000,
             "stock": 0,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "needs_review": false,
@@ -10837,13 +11424,13 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 90000,
             "selling_price": 100000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -10873,7 +11460,7 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -10903,13 +11490,13 @@
             "cost_price": 90000,
             "selling_price": 100000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -11066,7 +11653,7 @@
             "cost_price": 95000,
             "selling_price": 105000,
             "stock": 8,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -11128,7 +11715,7 @@
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": 30,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -11158,7 +11745,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 30,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -11188,7 +11775,7 @@
             "cost_price": 150000,
             "selling_price": 170000,
             "stock": 12,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -11225,7 +11812,7 @@
             "cost_price": 20000,
             "selling_price": 30000,
             "stock": 20,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "needs_review": false,
@@ -11254,13 +11841,13 @@
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": 182,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 30,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -11290,13 +11877,13 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 30,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 15000,
             "selling_price": 25000,
             "stock": 182,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -11332,7 +11919,7 @@
             "cost_price": 89000,
             "selling_price": 99000,
             "stock": 7,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -11453,7 +12040,7 @@
             "cost_price": 1500000,
             "selling_price": 1700000,
             "stock": 43,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -11483,7 +12070,7 @@
             "cost_price": 700000,
             "selling_price": 800000,
             "stock": 43,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -11513,7 +12100,7 @@
             "cost_price": 300000,
             "selling_price": 330000,
             "stock": 43,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -11543,7 +12130,7 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "stock": 43,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -11711,7 +12298,7 @@
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": 10,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -11741,19 +12328,19 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
             "cost_price": 60000,
             "selling_price": 70000,
             "stock": 10,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 45000,
             "selling_price": 55000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -11783,7 +12370,7 @@
             "cost_price": 40000,
             "selling_price": 50000,
             "stock": 2,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -11891,7 +12478,7 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "stock": 24,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -11921,7 +12508,7 @@
             "cost_price": 179000,
             "selling_price": 199000,
             "stock": 1,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -12196,7 +12783,7 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "stock": 6,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 8,
@@ -12232,7 +12819,7 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "stock": 6,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -12262,7 +12849,7 @@
             "cost_price": 80000,
             "selling_price": 90000,
             "stock": 4,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -12292,7 +12879,7 @@
             "cost_price": 180000,
             "selling_price": 200000,
             "stock": 5,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -12322,7 +12909,7 @@
             "cost_price": 110000,
             "selling_price": 130000,
             "stock": 4,
-            "updated": "17:19 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "hidden": false,
@@ -12352,7 +12939,7 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 41,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12369,8 +12956,8 @@
         "name": "ElevenLabs Redeem 131K Credit",
         "price": 69000,
         "cost_price": 59000,
-        "stock": 63,
-        "stock_text": "Còn 63",
+        "stock": 563,
+        "stock_text": "Còn 563",
         "duration": "1 Tháng",
         "detail": "Gói bản quyền ElevenLabs Redeem 131K Credit cấp nhanh chóng, bảo hành uy tín đúng mô tả.",
         "sources": {
@@ -12378,13 +12965,13 @@
             "cost_price": 59000,
             "selling_price": 69000,
             "stock": 63,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 59000,
             "selling_price": 69000,
             "stock": 500,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12410,7 +12997,7 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": 0,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12436,7 +13023,7 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "stock": 8,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12462,7 +13049,7 @@
             "cost_price": 115000,
             "selling_price": 135000,
             "stock": 20,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12488,7 +13075,7 @@
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12514,7 +13101,7 @@
             "cost_price": 165000,
             "selling_price": 185000,
             "stock": 2,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12540,7 +13127,7 @@
             "cost_price": 330000,
             "selling_price": 380000,
             "stock": 1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12566,7 +13153,7 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 374,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12592,7 +13179,7 @@
             "cost_price": 149000,
             "selling_price": 169000,
             "stock": 47,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12618,7 +13205,7 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "stock": 300,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12644,7 +13231,7 @@
             "cost_price": 179000,
             "selling_price": 199000,
             "stock": 54,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12670,7 +13257,7 @@
             "cost_price": 629000,
             "selling_price": 729000,
             "stock": 14,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12696,7 +13283,7 @@
             "cost_price": 619000,
             "selling_price": 719000,
             "stock": 9,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12722,7 +13309,7 @@
             "cost_price": 469000,
             "selling_price": 519000,
             "stock": 4,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12748,7 +13335,7 @@
             "cost_price": 1080000,
             "selling_price": 1280000,
             "stock": 8,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12774,7 +13361,7 @@
             "cost_price": 355000,
             "selling_price": 405000,
             "stock": 2,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12800,7 +13387,7 @@
             "cost_price": 369000,
             "selling_price": 419000,
             "stock": 25,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12826,7 +13413,7 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "stock": 173,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12852,7 +13439,7 @@
             "cost_price": 320000,
             "selling_price": 370000,
             "stock": 26,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12878,7 +13465,7 @@
             "cost_price": 169000,
             "selling_price": 189000,
             "stock": 50,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12904,7 +13491,7 @@
             "cost_price": 39000,
             "selling_price": 49000,
             "stock": 191,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12930,7 +13517,7 @@
             "cost_price": 229000,
             "selling_price": 259000,
             "stock": 5,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12956,7 +13543,7 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 28,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -12982,7 +13569,7 @@
             "cost_price": 529000,
             "selling_price": 629000,
             "stock": 5,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13008,7 +13595,7 @@
             "cost_price": 70000,
             "selling_price": 80000,
             "stock": 4,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13034,7 +13621,7 @@
             "cost_price": 450000,
             "selling_price": 500000,
             "stock": 10,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13060,7 +13647,7 @@
             "cost_price": 550000,
             "selling_price": 650000,
             "stock": 3,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13086,7 +13673,7 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 76,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13112,7 +13699,7 @@
             "cost_price": 450000,
             "selling_price": 500000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13138,7 +13725,7 @@
             "cost_price": 1650000,
             "selling_price": 1850000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13164,7 +13751,7 @@
             "cost_price": 4500000,
             "selling_price": 5100000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13190,7 +13777,7 @@
             "cost_price": 9200000,
             "selling_price": 10200000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13216,7 +13803,7 @@
             "cost_price": 370000,
             "selling_price": 420000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13242,7 +13829,7 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13268,7 +13855,7 @@
             "cost_price": 4100000,
             "selling_price": 4700000,
             "stock": 37,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13294,7 +13881,7 @@
             "cost_price": 6000000,
             "selling_price": 6600000,
             "stock": 37,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13320,7 +13907,7 @@
             "cost_price": 3300000,
             "selling_price": 3650000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13346,7 +13933,7 @@
             "cost_price": 350000,
             "selling_price": 400000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13372,7 +13959,7 @@
             "cost_price": 200000,
             "selling_price": 220000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13398,7 +13985,7 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13424,7 +14011,7 @@
             "cost_price": 70000,
             "selling_price": 80000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13450,7 +14037,7 @@
             "cost_price": 60000,
             "selling_price": 70000,
             "stock": 12,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13476,7 +14063,7 @@
             "cost_price": 69000,
             "selling_price": 79000,
             "stock": 19,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13502,7 +14089,7 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "stock": 16,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13528,7 +14115,7 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "stock": 6,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13554,7 +14141,7 @@
             "cost_price": 95000,
             "selling_price": 105000,
             "stock": 6,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13580,7 +14167,7 @@
             "cost_price": 2800000,
             "selling_price": 3150000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13606,7 +14193,7 @@
             "cost_price": 10,
             "selling_price": 10010,
             "stock": 1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13632,7 +14219,7 @@
             "cost_price": 450000,
             "selling_price": 500000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13658,7 +14245,7 @@
             "cost_price": 230000,
             "selling_price": 260000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13684,7 +14271,7 @@
             "cost_price": 60000,
             "selling_price": 70000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13710,7 +14297,7 @@
             "cost_price": 10,
             "selling_price": 10010,
             "stock": 1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13736,7 +14323,7 @@
             "cost_price": 10,
             "selling_price": 10010,
             "stock": 1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13762,7 +14349,7 @@
             "cost_price": 110000,
             "selling_price": 130000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13788,7 +14375,7 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13814,7 +14401,7 @@
             "cost_price": 150000,
             "selling_price": 170000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13840,7 +14427,7 @@
             "cost_price": 180000,
             "selling_price": 200000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13866,7 +14453,7 @@
             "cost_price": 210000,
             "selling_price": 240000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13892,7 +14479,7 @@
             "cost_price": 65000,
             "selling_price": 75000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13918,7 +14505,7 @@
             "cost_price": 75000,
             "selling_price": 85000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13944,7 +14531,7 @@
             "cost_price": 90000,
             "selling_price": 100000,
             "stock": -1,
-            "updated": "17:33 22/10/2026"
+            "updated": "17:49 22/10/2026"
           }
         },
         "cheapest_source": {
@@ -13955,59 +14542,11 @@
         "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 90,000đ | Kho: -1)",
         "hidden": false,
         "needs_review": false
-      },
-      {
-        "id": "p-1792665905316",
-        "name": "Test",
-        "price": 15000,
-        "cost_price": 5000,
-        "stock": 1,
-        "stock_text": "Còn 1",
-        "duration": "1 Tháng",
-        "detail": "Gói Test bảo hành uy tín.",
-        "sources": {
-          "piggyai99_bot": {
-            "stock": 1,
-            "cost_price": 5000,
-            "selling_price": 15000,
-            "updated": "17:45 22/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 5000,
-          "stock": 1
-        },
-        "import_note": "Ưu tiên nhập tại @piggyai99_bot (Vốn: 5,000đ)",
-        "hidden": false,
-        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
-    {
-      "id": "hist-1792665909777",
-      "time": "17:45 - 22/10/2026",
-      "name": "Test",
-      "bot": "piggyai99_bot",
-      "price": 15000,
-      "costPrice": 5000,
-      "stockAfter": 1,
-      "catKey": "khac",
-      "msgKey": "Test➕Thêm:2📦Tồnkhohiệntại:1💰Giá:5.000đ"
-    },
-    {
-      "id": "hist-1792665905316",
-      "time": "17:45 - 22/10/2026",
-      "name": "Test",
-      "bot": "piggyai99_bot",
-      "price": 15000,
-      "costPrice": 5000,
-      "stockAfter": 1,
-      "catKey": "khac",
-      "msgKey": "Test💰Giá:5k📦Tồnkho:1tàikhoản📊Đãbán:3tàikhoản"
-    },
     {
       "id": "hist-1792491251841",
       "time": "17:14 - 20/10/2026",
@@ -15379,6 +15918,34 @@
       "catKey": "kling",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬Kling1kcredits1thángBH24H➕Thêm:2📦Tồnkhohiệntại:2💰Giá:180.000đ"
+    },
+    {
+      "id": "hist-1792434259865",
+      "time": "01:24 - 20/10/2026",
+      "timestamp": 1792434259865,
+      "name": "Kling 1k  credits 1 tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 3,
+      "addedQty": 0,
+      "price": 200000,
+      "stockAfter": 3,
+      "catKey": "kling",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🎬Kling1kcredits1thángBH24H💰Giá:180k📦Tồnkho:3tàikhoản📊Đãbán:46tàikhoản"
+    },
+    {
+      "id": "hist-1792433633536",
+      "time": "01:13 - 20/10/2026",
+      "timestamp": 1792433633536,
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "shopStock": 41,
+      "addedQty": 47,
+      "price": 245000,
+      "stockAfter": 41,
+      "catKey": "chatgpt",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:47📦Tồnkhohiệntại:41💰Giá:215.000đ"
     }
   ]
 }
