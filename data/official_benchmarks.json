@@ -8,7 +8,10 @@
         "billing_period": "tháng",
         "max_slots": 5,
         "official_per_slot": 54600,
-        "shop_fair_slot_range": [65000, 75000],
+        "shop_fair_slot_range": [
+          65000,
+          75000
+        ],
         "slot_max_ceiling": 89000,
         "note": "Trang chủ 273.000đ/tháng chia 5 profile. 1 slot bán lẻ chỉ nên dao động 65k - 75k, tuyệt đối không được lên 175k."
       }
@@ -18,24 +21,43 @@
     "service_name": "YouTube Premium",
     "official_packages": [
       {
-        "plan_type": "Gói Gia Đình (Family)",
+        "plan_type": "Gói Slot Có Đổi Family (Tiết kiệm hàng tháng)",
         "official_price": 149000,
         "billing_period": "tháng",
         "max_slots": 5,
         "official_per_slot": 29800,
-        "shop_fair_slot_range": [30000, 35000],
+        "shop_fair_slot_range": [
+          30000,
+          35000
+        ],
         "slot_max_ceiling": 45000,
-        "note": "Trang chủ 149k/tháng chia 5 slot = ~30k/slot. Admin bot bán 45k/tháng, lẻ 1 slot bán 30k - 35k."
+        "note": "Cấp link đổi nhóm Family theo chu kỳ, tiết kiệm chi phí cho tài khoản còn lượt đổi Fam. Vốn: 90k/3thg, 165k/6thg, 280k/12thg (@piggyai99_bot / @ntnshopre_bot)."
       },
       {
-        "plan_type": "Gói Cá Nhân (Individual)",
-        "official_price": 79000,
+        "plan_type": "Gói Slot Cố Định (Không Đổi Fam - Suốt hạn)",
+        "official_price": 149000,
         "billing_period": "tháng",
-        "max_slots": 1,
-        "official_per_slot": 79000,
-        "shop_fair_slot_range": [50000, 65000],
-        "slot_max_ceiling": 79000,
-        "note": "Nâng cấp chính chủ 1 tài khoản."
+        "max_slots": 5,
+        "official_per_slot": 29800,
+        "shop_fair_slot_range": [
+          45000,
+          55000
+        ],
+        "slot_max_ceiling": 65000,
+        "note": "Cố định 1 nhóm gia đình duy nhất suốt 3, 6, 12 tháng không phải nhảy nhóm. Cực kỳ an toàn cho Gmail chính chủ. Vốn: 130k/3thg, 220k/6thg (@KhoMMO_Market_bot), 420k/12thg (@ntnshopre_bot)."
+      },
+      {
+        "plan_type": "Gói Admin Family 5 Slot (Chủ Gia Đình)",
+        "official_price": 149000,
+        "billing_period": "tháng",
+        "max_slots": 5,
+        "official_per_slot": 29800,
+        "shop_fair_slot_range": [
+          90000,
+          110000
+        ],
+        "slot_max_ceiling": 149000,
+        "note": "Tài khoản admin làm chủ gia đình tự add 5 thành viên. Vốn: 45k/1thg, 390k/3thg, 780k/6thg, 1.560k/12thg (@ntnshopre_bot)."
       }
     ]
   },
@@ -48,7 +70,10 @@
         "billing_period": "tháng",
         "max_slots": 6,
         "official_per_slot": 16500,
-        "shop_fair_slot_range": [25000, 35000],
+        "shop_fair_slot_range": [
+          25000,
+          35000
+        ],
         "slot_max_ceiling": 45000,
         "note": "Trang chủ 99k/tháng chia 6 người = 16.5k/slot. Bán lẻ 1 slot 25k - 35k."
       },
@@ -58,7 +83,10 @@
         "billing_period": "tháng",
         "max_slots": 1,
         "official_per_slot": 59000,
-        "shop_fair_slot_range": [35000, 45000],
+        "shop_fair_slot_range": [
+          35000,
+          45000
+        ],
         "slot_max_ceiling": 59000,
         "note": "Cá nhân chính chủ."
       }
@@ -73,7 +101,10 @@
         "billing_period": "tháng",
         "max_slots": 1,
         "official_per_slot": 520000,
-        "shop_fair_slot_range": [170000, 330000],
+        "shop_fair_slot_range": [
+          170000,
+          330000
+        ],
         "slot_max_ceiling": 450000,
         "note": "Trang chủ $20 (~520.000đ). Bot cấp acc/pay Gmail vốn 99k - 268k. Bán 170k - 330k."
       }
@@ -88,7 +119,10 @@
         "billing_period": "năm",
         "max_slots": 6,
         "official_per_slot": 281600,
-        "shop_fair_slot_range": [80000, 120000],
+        "shop_fair_slot_range": [
+          80000,
+          120000
+        ],
         "slot_max_ceiling": 180000,
         "note": "Trang chủ 1.690k/năm chia 6 = ~281k/slot/năm. Bot vốn 16.8k - 35k, bán 80k - 120k/năm."
       }
@@ -103,7 +137,10 @@
         "billing_period": "năm",
         "max_slots": 1,
         "official_per_slot": 1299000,
-        "shop_fair_slot_range": [70000, 110000],
+        "shop_fair_slot_range": [
+          70000,
+          110000
+        ],
         "slot_max_ceiling": 200000,
         "note": "Trang chủ 1.299k/năm. Bot slot add team vốn 9.9k - 40k, bán 70k - 105k/năm."
       }
@@ -118,7 +155,10 @@
         "billing_period": "tháng",
         "max_slots": 1,
         "official_per_slot": 199000,
-        "shop_fair_slot_range": [50000, 75000],
+        "shop_fair_slot_range": [
+          50000,
+          75000
+        ],
         "slot_max_ceiling": 120000,
         "note": "Trang chủ 199k/tháng. Bot cấp acc vốn 38.8k - 55k, bán 50k - 75k."
       }
@@ -133,7 +173,10 @@
         "billing_period": "tháng",
         "max_slots": 1,
         "official_per_slot": 490000,
-        "shop_fair_slot_range": [35000, 50000],
+        "shop_fair_slot_range": [
+          35000,
+          50000
+        ],
         "slot_max_ceiling": 80000,
         "note": "Trang chủ 490k/tháng. Bot link 18 tháng vốn 14.8k - 25k, shop bán 35k - 45k."
       }
@@ -148,7 +191,10 @@
         "billing_period": "năm",
         "max_slots": 6,
         "official_per_slot": 215000,
-        "shop_fair_slot_range": [45000, 65000],
+        "shop_fair_slot_range": [
+          45000,
+          65000
+        ],
         "slot_max_ceiling": 90000,
         "note": "Trang chủ 1.290k/năm chia 6 = 215k/slot. Bot vốn 19.8k - 25k, shop bán 45k - 60k/năm."
       }
@@ -163,7 +209,10 @@
         "billing_period": "tháng",
         "max_slots": 1,
         "official_per_slot": 1450000,
-        "shop_fair_slot_range": [75000, 110000],
+        "shop_fair_slot_range": [
+          75000,
+          110000
+        ],
         "slot_max_ceiling": 250000,
         "note": "Trang chủ ~1.450k/tháng. Bot 7D/1M vốn 35k - 50k, shop bán 75k - 95k."
       }
