@@ -496,25 +496,26 @@
         "id": "p-1791879689407",
         "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
         "price": 280000,
-        "stock": 51,
-        "stock_text": "Còn 51",
+        "stock": 40,
+        "stock_text": "Còn 40",
         "duration": "1 Tháng",
-        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Date radom 25 - 30 ngày\n4. Chỉ bảo hành tài khoản vô hiệu hóa, thay đổi thông tin lỗi - KBH\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n✅ Hiện tại, việc đổi PASS cần OTP nên không đổi được, còn nếu đổi 2FA có thể lỗi OTP gmail, khách hàng có thể cân nhắc không đổi và cứ việc dùng",
+        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Date radom 25 - 30 ngày\n4. Chỉ bảo hành tài khoản vô hiệu hóa, thay đổi thông tin lỗi - KBH\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n⚠️ Hiện tại, việc đổi PASS cần OTP nên không đổi được, còn nếu đổi 2FA có thể lỗi OTP gmail, khách hàng có thể cân nhắc không đổi và cứ việc dùng",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 51,
+            "stock": 40,
             "cost_price": 240000,
             "selling_price": 270000,
-            "updated": "14:54 22/10/2026"
+            "updated": "22:49 22/10/2026"
           }
         },
         "cost_price": 240000,
-        "needs_review": true,
-        "hidden": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "hidden": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 240000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 240000,
+          "stock": 40
         }
       },
       {
@@ -9793,6 +9794,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792684143201",
+      "time": "22:49 - 22/10/2026",
+      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 270000,
+      "costPrice": 240000,
+      "stockAfter": 40,
+      "catKey": "chatgpt",
+      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:35📦Tồnkhohiệntại:40💰Giá:240.000đ"
+    },
+    {
       "id": "hist-1792684116856",
       "time": "22:48 - 22/10/2026",
       "name": "Slot Ultra Antigravity X5 10k Credit Dùng Chung 1TH BHF",
@@ -11153,20 +11165,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH1H➕Thêm:9📦Tồnkhohiệntại:8💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1792580952353",
-      "time": "18:09 - 21/10/2026",
-      "timestamp": 1792580952353,
-      "name": "Clone Facebook Novery Name Việt KBH",
-      "bot": "sieuthistore_bot",
-      "shopStock": 24,
-      "addedQty": 30,
-      "price": 20000,
-      "stockAfter": 24,
-      "catKey": "social",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐CloneFacebookNoveryNameViệtKBH➕Thêm:30📦Tồnkhohiệntại:24💰Giá:10.000đ"
     }
   ]
 }
