@@ -134,12 +134,21 @@
         "id": "p-1791941158182",
         "name": "CODE KÍCH HOẠT YOUTUBE PREMIUM 3 THÁNG BẢO HÀNH FULL",
         "price": 99000,
-        "stock": 28,
-        "stock_text": "Còn 28",
-        "duration": "3 THÁNG",
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "3 Tháng",
         "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân\n- Cần fake VPN US\n- Link redeem code: https://www.youtube.com/redeem",
-        "hidden": false,
-        "cost_price": 89000
+        "hidden": true,
+        "cost_price": 89000,
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 4,
+            "cost_price": 89000,
+            "selling_price": 99000,
+            "updated": "10:07 22/10/2026"
+          }
+        },
+        "needs_review": true
       },
       {
         "id": "p-1792027014464",
@@ -7551,6 +7560,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792638468666",
+      "time": "10:07 - 22/10/2026",
+      "timestamp": 1792638468666,
+      "name": "CODE KÍCH HOẠT YOUTUBE PREMIUM 3 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "shopStock": 4,
+      "addedQty": 0,
+      "price": 99000,
+      "stockAfter": 4,
+      "catKey": "youtube",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "▶️CODEKÍCHHOẠTYOUTUBEPREMIUM3THÁNGBẢOHÀNHFULL💰Giá:89k📦Tồnkho:4tàikhoản📊Đãbán:17t"
+    },
+    {
       "id": "hist-1792638451547",
       "time": "10:07 - 22/10/2026",
       "timestamp": 1792638451547,
@@ -8935,20 +8958,6 @@
       "catKey": "vpn",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:12📦Tồnkhohiệntại:11💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792556825012",
-      "time": "11:27 - 21/10/2026",
-      "timestamp": 1792556825012,
-      "name": "VIP. Kling Ultra 4.0 26k credit 1 tháng BH 2 ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 38,
-      "addedQty": 36,
-      "price": 2600000,
-      "stockAfter": 38,
-      "catKey": "kling",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬VIP.KlingUltra4.026kcredit1thángBH2ngày➕Thêm:36📦Tồnkhohiệntại:38💰Giá:2.250.000đ"
     }
   ]
 }
