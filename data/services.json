@@ -8889,8 +8889,8 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 35000,
         "cost_price": 15000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "stock": 27,
+        "stock_text": "Còn 27",
         "duration": "3 Ngày",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/",
         "sources": {
@@ -8907,10 +8907,10 @@
             "updated": "18:19 22/10/2026"
           },
           "ntnshopre_bot": {
+            "stock": 8,
             "cost_price": 15000,
             "selling_price": 25000,
-            "stock": 3,
-            "updated": "18:19 22/10/2026"
+            "updated": "18:44 22/10/2026"
           }
         },
         "hidden": false,
@@ -13778,6 +13778,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792669451762",
+      "time": "18:44 - 22/10/2026",
+      "name": "EXPRESS VPN 3 NGÀY BHF",
+      "bot": "ntnshopre_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 27,
+      "catKey": "vpn",
+      "msgKey": "🚚EXPRESSVPN3NGÀYBHF➕Thêm:6📦Tồnkhohiệntại:8💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1792669446976",
       "time": "18:44 - 22/10/2026",
       "name": "Express VPN 3 Ngày BHF",
@@ -15156,20 +15167,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:17📦Tồnkhohiệntại:18💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1792434264846",
-      "time": "01:24 - 20/10/2026",
-      "timestamp": 1792434264846,
-      "name": "Kling 1k  credits 1 tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 2,
-      "addedQty": 2,
-      "price": 200000,
-      "stockAfter": 2,
-      "catKey": "kling",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬Kling1kcredits1thángBH24H➕Thêm:2📦Tồnkhohiệntại:2💰Giá:180.000đ"
     }
   ],
   "higgsfield-akool-seedance": {
