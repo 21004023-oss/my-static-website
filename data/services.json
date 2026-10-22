@@ -10600,11 +10600,48 @@
         "import_note": "Ưu tiên nhập tại @sieuthistore_bot (Vốn: 45,000đ)",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792661993340",
+        "name": "( Gói chính hãng ) CODE ElevanLabs 131K Credit 1 Tháng - KBH",
+        "price": 110000,
+        "cost_price": 100000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "1 Tháng",
+        "detail": "Gói ( Gói chính hãng ) CODE ElevanLabs 131K Credit 1 Tháng - KBH bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 8,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "16:39 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 100000,
+          "stock": 8
+        },
+        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 100,000đ)",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792661993340",
+      "time": "16:39 - 22/10/2026",
+      "name": "( Gói chính hãng ) CODE ElevanLabs 131K Credit 1 Tháng - KBH",
+      "bot": "taphoathomap_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 8,
+      "catKey": "khac",
+      "msgKey": "🎙️(Góichínhhãng)CODEElevanLabs131KCredit1Tháng-KBH➕Thêm:9📦Tồnkhohiệntại:8💰Giá:10"
+    },
     {
       "id": "hist-1792661988962",
       "time": "16:39 - 22/10/2026",
@@ -11960,20 +11997,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(ApplePay)1ThángBHF➕Thêm:30📦Tồnkhohiệntại:35💰Giá:280.000đ"
-    },
-    {
-      "id": "hist-1792436716572",
-      "time": "02:05 - 20/10/2026",
-      "timestamp": 1792436716572,
-      "name": "🔥Chatgpt Plus Vip 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 10,
-      "addedQty": 6,
-      "price": 260000,
-      "stockAfter": 10,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖🔥ChatgptPlusVip1thángBHF➕Thêm:6📦Tồnkhohiệntại:10💰Giá:230.000đ"
     }
   ]
 }
