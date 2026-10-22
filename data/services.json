@@ -6069,6 +6069,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792697363250",
+        "name": "HOTMAIL TRUSTED [IMAP/POP3/GRAPH API] BẢO HÀNH 3 NGÀY",
+        "price": 10550,
+        "cost_price": 550,
+        "stock": 1160,
+        "stock_text": "Còn 1160",
+        "duration": "3 Ngày",
+        "detail": "🌟 CAM KẾT CHẤT LƯỢNG:\n✅ Email mới 100%, khởi tạo sạch trên IP sạch.\n✅ Nguyên zin, chưa từng qua bất kỳ dịch vụ (FB, TikTok...).\n✅ Định dạng chuẩn, khớp mọi công cụ MMO.\n✅ Hệ thống tự động lọc trùng trước khi giao.\n🌟 CHẾ ĐỘ BẢO HÀNH:\n• Lỗi bao Die 1 Đổi 1.\n• Log in thành công hết bảo hành.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 1160,
+            "cost_price": 550,
+            "selling_price": 10550,
+            "updated": "02:29 23/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 550,
+          "stock": 1160
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -10013,6 +10039,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792697363250",
+      "time": "02:29 - 23/10/2026",
+      "name": "HOTMAIL TRUSTED [IMAP/POP3/GRAPH API] BẢO HÀNH 3 NGÀY",
+      "bot": "ntnshopre_bot",
+      "price": 10550,
+      "costPrice": 550,
+      "stockAfter": 1160,
+      "catKey": "gmail",
+      "msgKey": "⭐HOTMAILTRUSTED[IMAP/POP3/GRAPHAPI]BẢOHÀNH3NGÀY➕Thêm:799📦Tồnkhohiệntại:1160💰Giá:"
+    },
+    {
       "id": "hist-1792697359371",
       "time": "02:29 - 23/10/2026",
       "name": "Hotmail Trusted [IMAP/POP3/GRAPH API] - KBH",
@@ -11322,20 +11359,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🤖SLOTCHATGPTBUSINESSDÙNGCHUNG1THÁNGBHF➕Thêm:19📦Tồnkhohiệntại:19💰Giá:119.000đ"
-    },
-    {
-      "id": "hist-1792594889363",
-      "time": "22:01 - 21/10/2026",
-      "timestamp": 1792594889363,
-      "name": "Grok Plus 30 ngày Bh Login",
-      "bot": "sieuthistore_bot",
-      "shopStock": 13,
-      "addedQty": 13,
-      "price": 140000,
-      "stockAfter": 13,
-      "catKey": "grok",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⚡GrokPlus30ngàyBhLogin➕Thêm:13📦Tồnkhohiệntại:13💰Giá:120.000đ"
     }
   ]
 }
