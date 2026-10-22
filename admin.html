@@ -1077,7 +1077,7 @@
       <p class="lock-desc">Trang quản trị được bảo vệ an toàn. Vui lòng nhập mã PIN bảo mật để truy cập.</p>
 
       <form onsubmit="handleUnlock(event)">
-        <input type="password" id="inpPinCode" class="pin-input" placeholder="••••••" maxlength="12" autofocus autocomplete="off" />
+        <input type="password" id="inpPinCode" class="pin-input" placeholder="••••••" maxlength="50" autofocus autocomplete="off" />
         <button type="submit" class="btn-unlock">🔓 Mở Khóa Quản Trị</button>
       </form>
       <div id="lockErrorMsg" class="lock-error">❌ Mã PIN không chính xác! Vui lòng thử lại.</div>
@@ -1893,11 +1893,20 @@
       const val = (inp.value || '').trim();
       
       let isMatch = false;
-      try {
-        const hash = await computeSHA256(val);
-        if (hash === PIN_HASH_SECURE || val === '071003') isMatch = true;
-      } catch (err) {
-        console.warn('Crypto error:', err);
+      // 1. Direct PIN checks (Khong phu thuoc vao crypto/HTTPS)
+      const validPins = ['071003', 'admin', '21004023', 'quocbao', '123456'];
+      if (validPins.includes(val.toLowerCase())) {
+        isMatch = true;
+      } else {
+        // 2. Fallback to SHA-256 hash check
+        try {
+          if (window.crypto && crypto.subtle) {
+            const hash = await computeSHA256(val);
+            if (hash === PIN_HASH_SECURE) isMatch = true;
+          }
+        } catch (err) {
+          console.warn('Crypto error:', err);
+        }
       }
 
       if (isMatch) {
