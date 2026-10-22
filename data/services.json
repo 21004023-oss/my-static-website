@@ -6968,16 +6968,16 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 22,
+        "stock_text": "Còn 22",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 9,
+            "stock": 11,
             "cost_price": 15000,
-            "updated": "06:05 15/10/2026",
-            "selling_price": 25000
+            "selling_price": 25000,
+            "updated": "03:49 23/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 11,
@@ -6990,7 +6990,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 9
+          "stock": 11
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -10100,6 +10100,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792702151745",
+      "time": "03:49 - 23/10/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 22,
+      "catKey": "vpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:11📦Tồnkhohiệntại:11💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1792702145828",
       "time": "03:49 - 23/10/2026",
       "name": "NordVPN 3 Ngày BHF",
@@ -11394,20 +11405,6 @@
       "catKey": "muse-ai",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐GóiVIP1.APIMUSE-Tạo333video10s-10NgàyBHF➕Thêm:43📦Tồnkhohiệntại:43💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1792597672143",
-      "time": "22:47 - 21/10/2026",
-      "timestamp": 1792597672143,
-      "name": "Gói VIP 2. API MUSE - Tạo 2000 video 10s - 10 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 43,
-      "addedQty": 43,
-      "price": 330000,
-      "stockAfter": 43,
-      "catKey": "muse-ai",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐GóiVIP2.APIMUSE-Tạo2000video10s-10NgàyBHF➕Thêm:43📦Tồnkhohiệntại:43💰Giá:300.000đ"
     }
   ]
 }
