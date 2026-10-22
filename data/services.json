@@ -2238,16 +2238,16 @@
         "id": "p-1792094683588",
         "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
         "price": 75000,
-        "stock": 216,
-        "stock_text": "Còn 216",
+        "stock": 220,
+        "stock_text": "Còn 220",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "piggyai99_bot": {
-            "stock": 1,
+            "stock": 5,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "06:17 22/10/2026"
+            "updated": "10:07 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 215,
@@ -7551,6 +7551,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792638451547",
+      "time": "10:07 - 22/10/2026",
+      "timestamp": 1792638451547,
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 5,
+      "addedQty": 5,
+      "price": 43000,
+      "stockAfter": 220,
+      "catKey": "capcut",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1792637621182",
       "time": "09:53 - 22/10/2026",
       "timestamp": 1792637621182,
@@ -8935,20 +8949,6 @@
       "catKey": "kling",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬VIP.KlingUltra4.026kcredit1thángBH2ngày➕Thêm:36📦Tồnkhohiệntại:38💰Giá:2.250.000đ"
-    },
-    {
-      "id": "hist-1792556282598",
-      "time": "11:18 - 21/10/2026",
-      "timestamp": 1792556282598,
-      "name": "CapCut Pro Team 3 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 5,
-      "addedQty": 5,
-      "price": 175000,
-      "stockAfter": 17,
-      "catKey": "capcut",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:155.000đ"
     }
   ]
 }
