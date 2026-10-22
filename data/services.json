@@ -6967,10 +6967,10 @@
       {
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
-        "price": 25000,
-        "stock": 9,
-        "stock_text": "Còn 9",
-        "duration": "1 Tháng",
+        "price": 35000,
+        "stock": 20,
+        "stock_text": "Còn 20",
+        "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass",
         "sources": {
           "taphoathomap_bot": {
@@ -6978,14 +6978,23 @@
             "cost_price": 15000,
             "updated": "06:05 15/10/2026",
             "selling_price": 25000
+          },
+          "sieuthistore_bot": {
+            "stock": 11,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "03:49 23/10/2026"
           }
         },
         "cost_price": 15000,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 68000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
+          "stock": 9
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1792034135088",
@@ -10091,6 +10100,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792702145828",
+      "time": "03:49 - 23/10/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 20,
+      "catKey": "vpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:11📦Tồnkhohiệntại:11💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1792702065603",
       "time": "03:47 - 23/10/2026",
       "name": "( Gói chính hãng ) ElevanLabs 131K Credit 1 Tháng (BH 3D)",
@@ -11388,20 +11408,6 @@
       "catKey": "muse-ai",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐GóiVIP2.APIMUSE-Tạo2000video10s-10NgàyBHF➕Thêm:43📦Tồnkhohiệntại:43💰Giá:300.000đ"
-    },
-    {
-      "id": "hist-1792597547870",
-      "time": "22:45 - 21/10/2026",
-      "timestamp": 1792597547870,
-      "name": "Gói VIP 3. API MUSE - Tạo 6250 video 10s - 10 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 43,
-      "addedQty": 43,
-      "price": 800000,
-      "stockAfter": 43,
-      "catKey": "muse-ai",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐GóiVIP3.APIMUSE-Tạo6250video10s-10NgàyBHF➕Thêm:43📦Tồnkhohiệntại:43💰Giá:700.000đ"
     }
   ]
 }
