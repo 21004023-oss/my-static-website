@@ -5662,11 +5662,11 @@
       {
         "id": "p-1792307363682",
         "name": "Express VPN 3 Ngày BHF",
-        "price": 25000,
+        "price": 35000,
         "cost_price": 15000,
-        "stock": 29,
-        "stock_text": "Còn 29",
-        "duration": "1 Tháng",
+        "stock": 30,
+        "stock_text": "Còn 30",
+        "duration": "3 Ngày",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/",
         "sources": {
           "sieuthistore_bot": {
@@ -5682,14 +5682,20 @@
             "updated": "12:19 21/10/2026"
           },
           "ntnshopre_bot": {
-            "stock": 7,
+            "stock": 8,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "17:03 20/10/2026"
+            "updated": "20:13 22/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true
+        "hidden": false,
+        "needs_review": false,
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
+          "stock": 11
+        },
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792394257372",
@@ -7721,6 +7727,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792674820797",
+      "time": "20:13 - 22/10/2026",
+      "name": "EXPRESS VPN 3 NGÀY BHF",
+      "bot": "ntnshopre_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 30,
+      "catKey": "vpn",
+      "msgKey": "🚚EXPRESSVPN3NGÀYBHF💰Giá:15k📦Tồnkho:8tàikhoản📊Đãbán:789tàikhoản💎Môtả:Địnhdạng:ema"
+    },
+    {
       "id": "hist-1792674815521",
       "time": "20:13 - 22/10/2026",
       "name": "Slot Youtube Premium 3 Tháng BHF",
@@ -9096,20 +9113,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTGo1Tháng-BH3Ngày➕Thêm:14📦Tồnkhohiệntại:22💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792579871963",
-      "time": "17:51 - 21/10/2026",
-      "timestamp": 1792579871963,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 15,
-      "addedQty": 25,
-      "price": 85000,
-      "stockAfter": 15,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:25📦Tồnkhohiệntại:15💰Giá:75.000đ"
     }
   ]
 }
