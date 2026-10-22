@@ -10033,11 +10033,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792701456283",
+        "name": "( Gói chính hãng ) CODE ElevanLabs 131K Credit 1 Tháng - KBH",
+        "price": 110000,
+        "cost_price": 100000,
+        "stock": 12,
+        "stock_text": "Còn 12",
+        "duration": "1 Tháng",
+        "detail": "Mua về dùng luôn - không ôm , hỗ trợ 1H\nLưu Ý:\n- Khi điền thông tin đăng ký nên điền thông tin chuẩn chỉ để sử dụng được lâu dài\n- Đây là code kích - không phải acc\n- Cần thẻ để kích hoạt, không bh việc tt\n- Code ok = DONE",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 12,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "03:37 23/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 100000,
+          "stock": 12
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792701456283",
+      "time": "03:37 - 23/10/2026",
+      "name": "( Gói chính hãng ) CODE ElevanLabs 131K Credit 1 Tháng - KBH",
+      "bot": "taphoathomap_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 12,
+      "catKey": "khac",
+      "msgKey": "🎙️(Góichínhhãng)CODEElevanLabs131KCredit1Tháng-KBH➕Thêm:9📦Tồnkhohiệntại:12💰Giá:1"
+    },
     {
       "id": "hist-1792697363250",
       "time": "02:29 - 23/10/2026",
@@ -11345,20 +11382,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖TàikhoảnChatGPTdùngchung1thángBHF➕Thêm:19📦Tồnkhohiệntại:19💰Giá:119.000đ"
-    },
-    {
-      "id": "hist-1792596568318",
-      "time": "22:29 - 21/10/2026",
-      "timestamp": 1792596568318,
-      "name": "SLOT CHATGPT BUSINESS DÙNG CHUNG 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 19,
-      "addedQty": 19,
-      "price": 139000,
-      "stockAfter": 19,
-      "catKey": "chatgpt",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🤖SLOTCHATGPTBUSINESSDÙNGCHUNG1THÁNGBHF➕Thêm:19📦Tồnkhohiệntại:19💰Giá:119.000đ"
     }
   ]
 }
