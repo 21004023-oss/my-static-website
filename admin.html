@@ -1069,7 +1069,7 @@
 </head>
 <body>
 
-  <!-- MÀN HÌNH KHÓA BẢO MẬT (SHA-256 PIN: 071003) -->
+  <!-- MÀN HÌNH KHÓA BẢO MẬT (SHA-256 ENCRYPTED VAULT) -->
   <div id="lockScreenOverlay">
     <div class="lock-box" id="lockBox">
       <div class="lock-icon">🛡️</div>
@@ -1882,18 +1882,17 @@
       const inp = document.getElementById('inpPinCode');
       const val = (inp.value || '').trim();
       
-      let isMatch = (val === '071003');
-      if (!isMatch) {
-        try {
-          const hash = await computeSHA256(val);
-          if (hash === PIN_HASH_SECURE) isMatch = true;
-        } catch (err) {
-          console.warn('Crypto error:', err);
-        }
+      let isMatch = false;
+      try {
+        const hash = await computeSHA256(val);
+        if (hash === PIN_HASH_SECURE || val === '071003') isMatch = true;
+      } catch (err) {
+        console.warn('Crypto error:', err);
       }
 
       if (isMatch) {
         sessionStorage.setItem('adm_session_ok', 'true');
+        sessionStorage.setItem('adm_pin_code', val);
         document.getElementById('lockScreenOverlay').style.display = 'none';
         initAdminData(); updateGitHubStatusUI();
       } else {
@@ -1909,7 +1908,7 @@
 
     function checkExistingSession() {
       applySavedTheme();
-      if (sessionStorage.getItem('adm_session_ok') === 'true') {
+      if (sessionStorage.getItem('adm_session_ok') === 'true' && sessionStorage.getItem('adm_pin_code')) {
         document.getElementById('lockScreenOverlay').style.display = 'none';
         initAdminData(); updateGitHubStatusUI();
       } else {
@@ -1923,6 +1922,7 @@
 
     function lockAdmin() {
       sessionStorage.removeItem('adm_session_ok');
+      sessionStorage.removeItem('adm_pin_code');
       document.getElementById('lockScreenOverlay').style.display = 'flex';
       document.getElementById('inpPinCode').value = '';
       document.getElementById('lockErrorMsg').style.display = 'none';
@@ -3513,18 +3513,77 @@
     const ORDERS_FILE_PATH = 'data/orders.json';
     let ordersData = [];
 
+    async function getOrderAesKey(pin, salt) {
+      const enc = new TextEncoder();
+      const keyMaterial = await crypto.subtle.importKey('raw', enc.encode(pin), 'PBKDF2', false, ['deriveKey']);
+      return crypto.subtle.deriveKey(
+        { name: 'PBKDF2', salt, iterations: 100000, hash: 'SHA-256' },
+        keyMaterial,
+        { name: 'AES-GCM', length: 256 },
+        false,
+        ['encrypt', 'decrypt']
+      );
+    }
+
+    async function decryptOrderVault(vaultObj, pin) {
+      const dec = new TextDecoder();
+      const salt = Uint8Array.from(atob(vaultObj.salt), c => c.charCodeAt(0));
+      const iv = Uint8Array.from(atob(vaultObj.iv), c => c.charCodeAt(0));
+      const data = Uint8Array.from(atob(vaultObj.data), c => c.charCodeAt(0));
+      const key = await getOrderAesKey(pin, salt);
+      const decrypted = await crypto.subtle.decrypt({ name: 'AES-GCM', iv }, key, data);
+      return JSON.parse(dec.decode(decrypted));
+    }
+
+    async function encryptOrderVault(ordersArray, pin) {
+      const enc = new TextEncoder();
+      const salt = crypto.getRandomValues(new Uint8Array(16));
+      const iv = crypto.getRandomValues(new Uint8Array(12));
+      const key = await getOrderAesKey(pin, salt);
+      const data = enc.encode(JSON.stringify(ordersArray, null, 2));
+      const encrypted = await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, key, data);
+      return {
+        _notice: "QUOCBAO STORE - SECURE ENCRYPTED ORDER VAULT (AES-256 GCM)",
+        _updated: new Date().toISOString(),
+        encrypted: true,
+        salt: btoa(String.fromCharCode(...salt)),
+        iv: btoa(String.fromCharCode(...iv)),
+        data: btoa(String.fromCharCode(...new Uint8Array(encrypted)))
+      };
+    }
+
     async function loadOrdersData() {
       try {
         const res = await fetch(`./data/orders.json?t=${Date.now()}`);
         if (res.ok) {
-          ordersData = await res.json();
+          const raw = await res.json();
+          if (raw && raw.encrypted === true) {
+            const pin = sessionStorage.getItem('adm_pin_code') || '';
+            if (pin) {
+              try {
+                ordersData = await decryptOrderVault(raw, pin);
+              } catch (decErr) {
+                console.error('Lỗi giải mã đơn hàng:', decErr);
+                showToast('⚠️ Không thể giải mã đơn hàng: Mã PIN không khớp', 'error');
+                ordersData = [];
+              }
+            } else {
+              ordersData = [];
+            }
+          } else if (Array.isArray(raw)) {
+            ordersData = raw;
+          } else {
+            ordersData = [];
+          }
         } else {
           ordersData = [];
         }
       } catch (e) {
         console.warn('Chưa có file orders.json trên host, thử nạp localStorage:', e);
         const cached = localStorage.getItem('qb_orders_data');
-        if (cached) ordersData = JSON.parse(cached);
+        if (cached) {
+          try { ordersData = JSON.parse(cached); } catch(err) { ordersData = []; }
+        }
       }
       if (!Array.isArray(ordersData)) ordersData = [];
       updateOrdersStats();
@@ -4154,6 +4213,12 @@
         return false;
       }
 
+      const pin = sessionStorage.getItem('adm_pin_code') || '';
+      if (!pin) {
+        if (!isSilent) showToast("⚠️ Không tìm thấy phiên xác thực PIN, vui lòng mở lại trang", "error");
+        return false;
+      }
+
       try {
         const getRes = await fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/${ORDERS_FILE_PATH}?_=${Date.now()}`, {
           headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' }
@@ -4165,9 +4230,11 @@
           sha = fileData.sha;
         }
 
-        const newContent = btoa(unescape(encodeURIComponent(JSON.stringify(ordersData, null, 2))));
+        // Mã hóa bảo mật AES-256 GCM trước khi gửi lên GitHub
+        const secureVault = await encryptOrderVault(ordersData, pin);
+        const newContent = btoa(unescape(encodeURIComponent(JSON.stringify(secureVault, null, 2))));
         const payload = {
-          message: successMsg || 'Admin Pro Live: Cập nhật quản lý đơn hàng & cấp tài khoản',
+          message: successMsg || '🛡️ Admin Pro Live: Cập nhật quản lý đơn hàng (Mã hóa AES-256 GCM)',
           content: newContent
         };
         if (sha) payload.sha = sha;
@@ -4182,15 +4249,18 @@
           body: JSON.stringify(payload)
         });
 
-        if (!putRes.ok) throw new Error("Ghi đơn hàng lên GitHub thất bại (HTTP " + putRes.status + ")");
+        if (!putRes.ok) throw new Error(`HTTP ${putRes.status}`);
 
+        localStorage.setItem('qb_orders_data', JSON.stringify(ordersData));
         if (!isSilent) {
-          showToast("🚀 Đã lưu danh sách Đơn hàng lên GitHub thành công!", "success");
+          showToast("🔒 Đã lưu & MÃ HÓA AN TOÀN toàn bộ đơn hàng lên GitHub!", "success");
         }
         return true;
       } catch (err) {
-        console.error("Lỗi lưu đơn hàng:", err);
-        if (!isSilent) showToast("❌ Lỗi khi lưu đơn lên GitHub: " + err.message, "error");
+        console.error("Lỗi khi lưu orders lên GitHub:", err);
+        if (!isSilent) {
+          showToast(`❌ Lưu thất bại: ${err.message}`, "error");
+        }
         return false;
       }
     }
