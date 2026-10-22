@@ -210,6 +210,32 @@
         },
         "import_note": "🛒 @ntnshopre_bot",
         "detail": "- vidIQ (1 channel Boost) – The Ultimate YouTube Assistant.\n- Cung cấp Email & Password tài khoản cá nhân VidIQ Boost.\n- Bảo hành full 1 tháng."
+      },
+      {
+        "id": "p-1792677560085",
+        "name": "SLOT YOUTUBE PREMIUM 3 THÁNG BHF",
+        "price": 100000,
+        "cost_price": 90000,
+        "stock": -1,
+        "stock_text": "Vô cực (∞)",
+        "duration": "3 Tháng",
+        "detail": "- HÀNG KHÔNG ĐỔI FAM HÀNG THÁNG\n- Order theo hướng dẫn ở Bot.\n- Không tự ý rời fam khi chưa có thông báo từ Admin, Không bảo hành trường hợp khách bị die mail.\n- Hỗ trợ đổi mail trong 24h sau khi mua hàng, tránh ảnh hướng đến người khác\n- Hàng tháng Admin sẽ gia hạn nên sẽ có mail huỷ gói ưu đãi, ae cứ sử dụng bình thường.\n- Đóng HSTT tại:\nhttps://payments.google.com/gp/w/home/settings\n- Check xem đang có fam không tại:\nhttp://g.co/yourfamily",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": -1,
+            "cost_price": 90000,
+            "selling_price": 100000,
+            "updated": "20:59 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 90000,
+          "stock": -1
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=youtube.com&sz=64"
@@ -9689,6 +9715,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792677560085",
+      "time": "20:59 - 22/10/2026",
+      "name": "SLOT YOUTUBE PREMIUM 3 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": -1,
+      "catKey": "youtube",
+      "msgKey": "▶️SLOTYOUTUBEPREMIUM3THÁNGBHF💰Giá:90k📦Tồnkho:∞tàikhoản📊Đãbán:0tàikhoản💎Môtả:-HÀN"
+    },
+    {
       "id": "hist-1792677405883",
       "time": "20:56 - 22/10/2026",
       "name": "Nâng chính chủ ChatGPT Ver Students offer  Plus 4 Tháng  KBH",
@@ -11067,20 +11104,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:25📦Tồnkhohiệntại:15💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1792578642299",
-      "time": "17:30 - 21/10/2026",
-      "timestamp": 1792578642299,
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 56,
-      "addedQty": 93,
-      "price": 260000,
-      "stockAfter": 56,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:93📦Tồnkhohiệntại:56💰Giá:230.000đ"
     }
   ]
 }
