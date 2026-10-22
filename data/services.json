@@ -2655,16 +2655,16 @@
         "id": "p-1791925516429",
         "name": "API CODEX ASTRA6 50$ TOKEN 1THÁNG BHF",
         "price": 160000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "-API Codex 50$\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng\n- Có Astra 6\n-File hướng dẫn thiết lập và sử dụng: https://drive.google.com/drive/folders/1kMP3CutQ2ANDo5pKXw1Xe9kR2YXPhSSW?usp=drive_link",
         "sources": {
           "piggyai99_bot": {
-            "stock": 1,
+            "stock": 5,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "05:56 22/10/2026"
+            "updated": "09:53 22/10/2026"
           }
         },
         "cost_price": 140000,
@@ -7551,6 +7551,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792637621182",
+      "time": "09:53 - 22/10/2026",
+      "timestamp": 1792637621182,
+      "name": "API CODEX ASTRA6 50$ TOKEN 1THÁNG BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 5,
+      "addedQty": 5,
+      "price": 160000,
+      "stockAfter": 5,
+      "catKey": "api-claude-codex",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "⭐APICODEXASTRA650$TOKEN1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1792636853826",
       "time": "09:40 - 22/10/2026",
       "timestamp": 1792636853826,
@@ -8935,20 +8949,6 @@
       "catKey": "capcut",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:155.000đ"
-    },
-    {
-      "id": "hist-1792556275557",
-      "time": "11:17 - 21/10/2026",
-      "timestamp": 1792556275557,
-      "name": "CapCut Pro 3 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 5,
-      "addedQty": 5,
-      "price": 205000,
-      "stockAfter": 5,
-      "catKey": "capcut",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:185.000đ"
     }
   ]
 }
