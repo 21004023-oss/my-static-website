@@ -6043,6 +6043,32 @@
           "cost_price": 15000
         },
         "import_note": "🛒 @taphoathomap_bot"
+      },
+      {
+        "id": "p-1792697359371",
+        "name": "Hotmail Trusted [IMAP/POP3/GRAPH API] - KBH",
+        "price": 11000,
+        "cost_price": 1000,
+        "stock": 1160,
+        "stock_text": "Còn 1160",
+        "duration": "1 Tháng",
+        "detail": "🌟 CAM KẾT CHẤT LƯỢNG:\n✅ Email mới 100%, khởi tạo sạch trên IP sạch.\n✅ Nguyên zin, chưa từng qua bất kỳ dịch vụ (FB, TikTok...).\n✅ Định dạng chuẩn, khớp mọi công cụ MMO.\n✅ Hệ thống tự động lọc trùng trước khi giao.\n🌟 CHẾ ĐỘ BẢO HÀNH:\n• Lỗi bao Die 1 Đổi 1.\n• Log in thành công hết bảo hành.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 1160,
+            "cost_price": 1000,
+            "selling_price": 11000,
+            "updated": "02:29 23/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 1000,
+          "stock": 1160
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -9987,6 +10013,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792697359371",
+      "time": "02:29 - 23/10/2026",
+      "name": "Hotmail Trusted [IMAP/POP3/GRAPH API] - KBH",
+      "bot": "sieuthistore_bot",
+      "price": 11000,
+      "costPrice": 1000,
+      "stockAfter": 1160,
+      "catKey": "gmail",
+      "msgKey": "⭐HotmailTrusted[IMAP/POP3/GRAPHAPI]-KBH➕Thêm:799📦Tồnkhohiệntại:1160💰Giá:1.000đ"
+    },
+    {
       "id": "hist-1792692756160",
       "time": "01:12 - 23/10/2026",
       "name": "CHATGPT PLUS 1 THÁNG BHF",
@@ -11299,20 +11336,6 @@
       "catKey": "grok",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⚡GrokPlus30ngàyBhLogin➕Thêm:13📦Tồnkhohiệntại:13💰Giá:120.000đ"
-    },
-    {
-      "id": "hist-1792592601953",
-      "time": "21:23 - 21/10/2026",
-      "timestamp": 1792592601953,
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 51,
-      "addedQty": 34,
-      "price": 260000,
-      "stockAfter": 51,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:34📦Tồnkhohiệntại:51💰Giá:230.000đ"
     }
   ]
 }
