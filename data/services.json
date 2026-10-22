@@ -3195,8 +3195,8 @@
         "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
         "price": 75000,
         "cost_price": 33000,
-        "stock": 63,
-        "stock_text": "Còn 63",
+        "stock": 68,
+        "stock_text": "Còn 68",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
@@ -3207,10 +3207,10 @@
             "updated": "17:49 22/10/2026"
           },
           "piggyai99_bot": {
+            "stock": 10,
             "cost_price": 33000,
             "selling_price": 43000,
-            "stock": 5,
-            "updated": "17:49 22/10/2026"
+            "updated": "18:02 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 65000,
@@ -3222,9 +3222,9 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 33000,
-          "stock": 5
+          "stock": 10
         },
-        "import_note": "Ưu tiên nhập tại @piggyai99_bot (Vốn: 33,000đ | Kho: 5)",
+        "import_note": "Ưu tiên nhập tại @piggyai99_bot (Vốn: 33,000đ)",
         "hidden": false,
         "needs_review": false
       },
@@ -12137,6 +12137,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792666920855",
+      "time": "18:02 - 22/10/2026",
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "piggyai99_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 68,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1792666873604",
       "time": "18:01 - 22/10/2026",
       "name": "Test",
@@ -13515,20 +13526,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:17📦Tồnkhohiệntại:18💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1792434264846",
-      "time": "01:24 - 20/10/2026",
-      "timestamp": 1792434264846,
-      "name": "Kling 1k  credits 1 tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 2,
-      "addedQty": 2,
-      "price": 200000,
-      "stockAfter": 2,
-      "catKey": "kling",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬Kling1kcredits1thángBH24H➕Thêm:2📦Tồnkhohiệntại:2💰Giá:180.000đ"
     }
   ]
 }
