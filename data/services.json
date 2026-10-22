@@ -4393,9 +4393,9 @@
         "id": "p-1792291938667",
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
-        "cost_price": 49000,
-        "stock": 58,
-        "stock_text": "Còn 58",
+        "cost_price": 35000,
+        "stock": 72,
+        "stock_text": "Còn 72",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.",
         "sources": {
@@ -4406,10 +4406,10 @@
             "updated": "08:13 22/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 15,
+            "stock": 29,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "12:53 21/10/2026"
+            "updated": "08:13 22/10/2026"
           },
           "piggyai99_bot": {
             "stock": 14,
@@ -7506,6 +7506,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792631618655",
+      "time": "08:13 - 22/10/2026",
+      "timestamp": 1792631618655,
+      "name": "Apple ID 2FA Gmail",
+      "bot": "taphoathomap_bot",
+      "shopStock": 29,
+      "addedQty": 2,
+      "price": 45000,
+      "stockAfter": 72,
+      "catKey": "gmail",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:2📦Tồnkhohiệntại:29💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792631613288",
       "time": "08:13 - 22/10/2026",
       "timestamp": 1792631613288,
@@ -8890,20 +8904,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTGo1Tháng-BH10Ngày➕Thêm:1📦Tồnkhohiệntại:9💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1792553960315",
-      "time": "10:39 - 21/10/2026",
-      "timestamp": 1792553960315,
-      "name": "Chương trình giới thiệu bạn bè",
-      "bot": "ntnshopre_bot",
-      "shopStock": 0,
-      "addedQty": 0,
-      "price": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🎁Chươngtrìnhgiớithiệubạnbè•Chiasẻlinkbotkèmmãgiớithiệucủabạn.•Khingườiđượcmờiphá"
     }
   ]
 }
