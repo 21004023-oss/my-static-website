@@ -7939,16 +7939,16 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 35000,
         "cost_price": 15000,
-        "stock": 25,
-        "stock_text": "Còn 25",
-        "duration": "1 Tháng",
+        "stock": 22,
+        "stock_text": "Còn 22",
+        "duration": "3 Ngày",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/",
         "sources": {
           "sieuthistore_bot": {
+            "stock": 8,
             "cost_price": 25000,
             "selling_price": 35000,
-            "stock": 11,
-            "updated": "18:16 22/10/2026"
+            "updated": "18:33 22/10/2026"
           },
           "taphoathomap_bot": {
             "cost_price": 15000,
@@ -7970,11 +7970,11 @@
         "normalized_duration": "3d",
         "normalized_warranty": "bh_3d",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
+          "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 3
+          "stock": 11
         },
-        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 15,000đ | Kho: 3)"
+        "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 15,000đ)"
       },
       {
         "id": "p-1792394257372",
@@ -11853,6 +11853,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792668785502",
+      "time": "18:33 - 22/10/2026",
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 22,
+      "catKey": "vpn",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:8💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1792668220500",
       "time": "18:23 - 22/10/2026",
       "name": "LINK KÍCH HOẠT GEMINI PRO + GOOGLE ONE 5TB 18 THÁNG BẢO HÀNH 24H",
@@ -13231,20 +13242,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:17📦Tồnkhohiệntại:18💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1792434264846",
-      "time": "01:24 - 20/10/2026",
-      "timestamp": 1792434264846,
-      "name": "Kling 1k  credits 1 tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 2,
-      "addedQty": 2,
-      "price": 200000,
-      "stockAfter": 2,
-      "catKey": "kling",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎬Kling1kcredits1thángBH24H➕Thêm:2📦Tồnkhohiệntại:2💰Giá:180.000đ"
     }
   ]
 }
