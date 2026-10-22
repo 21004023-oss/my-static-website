@@ -1077,16 +1077,10 @@
       <p class="lock-desc">Trang quản trị được bảo vệ an toàn. Vui lòng nhập mã PIN bảo mật để truy cập.</p>
 
       <form onsubmit="handleUnlock(event)">
-        <input type="text" id="inpPinCode" class="pin-input" placeholder="Nhập: 071003" maxlength="50" autofocus autocomplete="off" style="text-align:center; letter-spacing:2px; font-weight:bold;" />
-        <button type="submit" class="btn-unlock" style="margin-top:10px;">🔓 Mở Khóa Quản Trị</button>
+        <input type="password" id="inpPinCode" class="pin-input" placeholder="••••••" maxlength="12" autofocus autocomplete="off" />
+        <button type="submit" class="btn-unlock">🔓 Mở Khóa Quản Trị</button>
       </form>
-      <div id="lockErrorMsg" class="lock-error" style="margin-top:8px;">❌ Mã PIN không chính xác! Vui lòng thử lại.</div>
-      
-      <div style="margin-top:14px; padding-top:12px; border-top:1px dashed var(--border-color, #e2e8f0);">
-        <button type="button" onclick="bypassUnlock()" style="background:none; border:none; color:var(--primary, #0284c7); font-size:12.5px; font-weight:600; cursor:pointer; display:inline-flex; align-items:center; gap:6px; text-decoration:underline;">
-          ⚡ Nhấp vào đây để mở khóa ngay lập tức (Bỏ qua mã PIN)
-        </button>
-      </div>
+      <div id="lockErrorMsg" class="lock-error">❌ Mã PIN không chính xác! Vui lòng thử lại.</div>
     </div>
   </div>
 
@@ -1755,9 +1749,6 @@
               <input type="checkbox" id="chkManualPriceEdit" onchange="toggleManualPriceEdit()" /> Sửa giá thủ công
             </label>
           </div>
-          <div id="orderImportSourceAlert" style="display:none; background:rgba(99,102,241,0.12); border:1px solid rgba(99,102,241,0.25); border-radius:6px; padding:6px 10px; margin-bottom:10px; font-size:12px; color:var(--text);">
-            <span id="orderImportSourceText">🛒 <strong>Nguồn nhập rẻ nhất:</strong> ...</span>
-          </div>
           <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:10px;">
             <div class="form-group" style="margin-bottom:0;">
               <label class="form-label" style="font-size:11.5px;">Tiền Khách Trả:</label>
@@ -1893,37 +1884,17 @@
       return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
     }
 
-    function bypassUnlock() {
-      sessionStorage.setItem('adm_session_ok', 'true');
-      sessionStorage.setItem('adm_pin_code', '071003');
-      const overlay = document.getElementById('lockScreenOverlay');
-      if (overlay) overlay.style.display = 'none';
-      initAdminData();
-      updateGitHubStatusUI();
-    }
-
     async function handleUnlock(e) {
       if (e) e.preventDefault();
       const inp = document.getElementById('inpPinCode');
-      let val = (inp.value || '').trim();
-      
-      // Clean accidental quotes, backticks, spaces from copy-paste
-      val = val.replace(/[`'"*\s]/g, '').toLowerCase();
+      const val = (inp.value || '').trim();
       
       let isMatch = false;
-      const validPins = ['071003', 'admin', '21004023', 'quocbao', '123456', '71003'];
-      if (!val || validPins.includes(val)) {
-        // If empty or matches any pin, allow unlock!
-        isMatch = true;
-      } else {
-        try {
-          if (window.crypto && crypto.subtle) {
-            const hash = await computeSHA256(val);
-            if (hash === PIN_HASH_SECURE) isMatch = true;
-          }
-        } catch (err) {
-          console.warn('Crypto error:', err);
-        }
+      try {
+        const hash = await computeSHA256(val);
+        if (hash === PIN_HASH_SECURE || val === '071003') isMatch = true;
+      } catch (err) {
+        console.warn('Crypto error:', err);
       }
 
       if (isMatch) {
@@ -1944,12 +1915,7 @@
 
     function checkExistingSession() {
       applySavedTheme();
-      const urlParams = new URLSearchParams(window.location.search);
-      if (urlParams.has('unlock') || urlParams.has('admin') || urlParams.has('pin')) {
-        bypassUnlock();
-        return;
-      }
-      if (sessionStorage.getItem('adm_session_ok') === 'true') {
+      if (sessionStorage.getItem('adm_session_ok') === 'true' && sessionStorage.getItem('adm_pin_code')) {
         document.getElementById('lockScreenOverlay').style.display = 'none';
         initAdminData(); updateGitHubStatusUI();
       } else {
@@ -2392,13 +2358,6 @@
                 <span class="badge badge-out" style="font-size:10.5px; cursor:pointer;" onclick="openConflictDecisionModal('${catKey}', ${idx})" title="Nhấp để xem các mức giá đang xung đột và tự tay quyết định mức giá nào được xuất hiện trên Shop">⚡ Xung đột giá (Chọn giá hiện) ▾</span>
               ` : ''}
             </div>
-            ${p.import_note ? `
-              <div style="margin-top:3px;">
-                <span class="badge" style="background:rgba(16,185,129,0.12); color:var(--emerald); border:1px solid rgba(16,185,129,0.25); font-size:10.5px; padding:2px 6px; border-radius:4px; display:inline-flex; align-items:center; gap:4px;" title="Nguồn nhập hàng ưu tiên">
-                  🛒 ${(p.import_note.match(/@[a-zA-Z0-9_]+/) || [p.import_note])[0]}
-                </span>
-              </div>
-            ` : ''}
             <div style="font-size:11.5px; color:var(--text-muted); margin-top:3px; max-width:380px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
               ${p.detail || 'Chưa có mô tả chi tiết'}
             </div>
@@ -3824,9 +3783,7 @@
             stock: p.stock !== undefined ? p.stock : -1,
             catKey: catKey,
             catName: catName,
-            catLogo: catLogo,
-            import_note: p.import_note || '',
-            cheapest_source: p.cheapest_source || null
+            catLogo: catLogo
           });
         });
       }
@@ -4057,21 +4014,6 @@
 
     function applyPlanPricingAndDuration(planName, price, cost) {
       document.getElementById('inpOrderPlanName').value = planName;
-
-      const allPlans = getAllAvailablePlans();
-      const planObj = allPlans.find(p => p.name.trim().toLowerCase() === planName.trim().toLowerCase()) || null;
-      
-      const alertEl = document.getElementById('orderImportSourceAlert');
-      const textEl = document.getElementById('orderImportSourceText');
-      if (alertEl && textEl) {
-        if (planObj && planObj.import_note) {
-          const botTag = (planObj.import_note.match(/@[a-zA-Z0-9_]+/) || [planObj.import_note])[0];
-          textEl.innerHTML = 💡 Nguồn nhập: <strong></strong>;
-          alertEl.style.display = 'block';
-        } else {
-          alertEl.style.display = 'none';
-        }
-      }
 
       let matchedPreset = null;
       const lowerName = planName.toLowerCase().replace(/\s+/g, ' ');
