@@ -3606,8 +3606,8 @@
         "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
         "price": 75000,
         "cost_price": 33000,
-        "stock": 63,
-        "stock_text": "Còn 63",
+        "stock": 80,
+        "stock_text": "Còn 80",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
@@ -3618,10 +3618,10 @@
             "updated": "18:19 22/10/2026"
           },
           "piggyai99_bot": {
+            "stock": 22,
             "cost_price": 33000,
             "selling_price": 43000,
-            "stock": 5,
-            "updated": "18:19 22/10/2026"
+            "updated": "18:43 22/10/2026"
           },
           "sieuthistore_bot": {
             "cost_price": 65000,
@@ -3633,9 +3633,9 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 33000,
-          "stock": 23
+          "stock": 22
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Ưu tiên nhập tại @piggyai99_bot (Vốn: 33,000đ)",
         "hidden": false,
         "needs_review": false
       },
@@ -13778,6 +13778,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792669401051",
+      "time": "18:43 - 22/10/2026",
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "piggyai99_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 80,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:12📦Tồnkhohiệntại:22💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1792491251841",
       "time": "17:14 - 20/10/2026",
       "timestamp": 1792491251841,
@@ -15162,20 +15173,6 @@
       "catKey": "kling",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎬Kling1kcredits1thángBH24H💰Giá:180k📦Tồnkho:3tàikhoản📊Đãbán:46tàikhoản"
-    },
-    {
-      "id": "hist-1792433633536",
-      "time": "01:13 - 20/10/2026",
-      "timestamp": 1792433633536,
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
-      "bot": "ntnshopre_bot",
-      "shopStock": 41,
-      "addedQty": 47,
-      "price": 245000,
-      "stockAfter": 41,
-      "catKey": "chatgpt",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:47📦Tồnkhohiệntại:41💰Giá:215.000đ"
     }
   ],
   "higgsfield-akool-seedance": {
