@@ -10568,11 +10568,48 @@
         "import_note": "Ưu tiên nhập tại @sieuthistore_bot (Vốn: 50,000đ)",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792661978317",
+        "name": "Link Gemini AI Pro 18 tháng",
+        "price": 55000,
+        "cost_price": 45000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "1 Tháng",
+        "detail": "Gói Link Gemini AI Pro 18 tháng bảo hành uy tín.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 10,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "16:39 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 45000,
+          "stock": 10
+        },
+        "import_note": "Ưu tiên nhập tại @sieuthistore_bot (Vốn: 45,000đ)",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792661978317",
+      "time": "16:39 - 22/10/2026",
+      "name": "Link Gemini AI Pro 18 tháng",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 10,
+      "catKey": "khac",
+      "msgKey": "☁️LinkGeminiAIPro18tháng➕Thêm:10📦Tồnkhohiệntại:10💰Giá:45.000đ"
+    },
     {
       "id": "hist-1792661973394",
       "time": "16:39 - 22/10/2026",
@@ -11937,20 +11974,6 @@
       "catKey": "higgsfield",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🎬HiggsfieldGenjutsu1thángBH1Ngày➕Thêm:21📦Tồnkhohiệntại:27💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1792434658621",
-      "time": "01:30 - 20/10/2026",
-      "timestamp": 1792434658621,
-      "name": "ChatGPT Pro 100 - 1 tháng BH 20 ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 3,
-      "addedQty": 1,
-      "price": 2000000,
-      "stockAfter": 3,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPro100-1thángBH20ngày➕Thêm:1📦Tồnkhohiệntại:3💰Giá:1.800.000đ"
     }
   ]
 }
