@@ -2868,16 +2868,16 @@
         "id": "p-1792094683588",
         "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
         "price": 75000,
-        "stock": 220,
-        "stock_text": "Còn 220",
+        "stock": 238,
+        "stock_text": "Còn 238",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "piggyai99_bot": {
-            "stock": 5,
+            "stock": 23,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "10:07 22/10/2026"
+            "updated": "21:38 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 215,
@@ -2886,14 +2886,15 @@
             "updated": "01:04 22/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cost_price": 33000,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 38800
+          "bot": "@piggyai99_bot",
+          "cost_price": 33000,
+          "stock": 23
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @piggyai99_bot"
       },
       {
         "id": "p-1792119807992",
@@ -9687,6 +9688,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792679922501",
+      "time": "21:38 - 22/10/2026",
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "piggyai99_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 238,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:2📦Tồnkhohiệntại:23💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1792655686636",
       "time": "14:54 - 22/10/2026",
       "timestamp": 1792655686636,
@@ -11071,20 +11083,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1792577772814",
-      "time": "17:16 - 21/10/2026",
-      "timestamp": 1792577772814,
-      "name": "CAPCUT PRO CÁ NHÂN 30 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 27,
-      "addedQty": 9,
-      "price": 50000,
-      "stockAfter": 38,
-      "catKey": "capcut",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:40.000đ"
     }
   ]
 }
