@@ -7,288 +7,209 @@
         "id": "yt-slot-1m",
         "name": "Slot YouTube Premium 1 Tháng BHF",
         "price": 30000,
-        "stock": -1,
-        "stock_text": "Vô cực (∞)",
-        "duration": "1 Tháng",
-        "detail": "Order xong gởi mail vào bot để được nâng cấp trong 15ph\nKhông tự ý rời nhóm gia đình, nếu rời sẽ không được bảo hành.\nHàng KHÔNG GIA HẠN ĐƯỢC",
-        "hidden": true,
         "cost_price": 15000,
-        "sources": {
-          "ntnshopre_bot": {
-            "stock": -1,
-            "cost_price": 15000,
-            "selling_price": 25000,
-            "updated": "10:08 22/10/2026"
-          }
-        },
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
-        "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 15000
-        }
-      },
-      {
-        "id": "yt-slot-3m",
-        "name": "Slot YouTube Premium 3 Tháng BHF",
-        "price": 105000,
+        "duration": "1 Tháng",
         "stock": -1,
         "stock_text": "Vô cực (∞)",
-        "duration": "3 Tháng",
-        "detail": "- HÀNG KHÔNG ĐỔI FAM HÀNG THÁNG\n- Order theo hướng dẫn ở Bot.\n- Không tự ý rời fam khi chưa có thông báo từ Admin, Không bảo hành trường hợp khách bị die mail.\n- Hỗ trợ đổi mail trong 24h sau khi mua hàng, tránh ảnh hướng đến người khác\n- Hàng tháng Admin sẽ gia hạn nên sẽ có mail huỷ gói ưu đãi, ae cứ sử dụng bình thường.\n- Đóng HSTT tại:\nhttps://payments.google.com/gp/w/home/settings\n- Check xem đang có fam không tại:\nhttp://g.co/yourfamily",
-        "sources": {
-          "piggyai99_bot": {
-            "stock": -1,
-            "cost_price": 95000,
-            "selling_price": 105000,
-            "updated": "20:22 22/10/2026"
-          },
-          "ntnshopre_bot": {
-            "stock": -1,
-            "cost_price": 90000,
-            "selling_price": 100000,
-            "updated": "20:23 22/10/2026"
-          }
-        },
-        "cost_price": 90000,
-        "needs_review": false,
         "hidden": false,
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 90000,
-          "stock": -1
+          "cost_price": 15000
         },
-        "import_note": "Nhập: @ntnshopre_bot"
+        "import_note": "🛒 @ntnshopre_bot",
+        "detail": "- Slot YouTube Premium 1 Tháng gói gia đình.\n- Order xong gửi email để được mời vào Family trong 15 phút.\n- Không tự ý rời nhóm gia đình.\n- Bảo hành full 1 tháng."
       },
       {
-        "id": "yt-slot-6m",
-        "name": "Slot YouTube Premium 6 Tháng BHF",
-        "price": 185000,
-        "stock": 553,
-        "stock_text": "Còn 553",
-        "duration": "6 Tháng",
-        "detail": "THỜI GIAN HOÀN THÀNH KHOẢNG 1 GIỜ HOẶC SỚM HƠN\n- Khách gửi tên gmail để được mời vào Family\n-KHÁCH CHỈ CẦN DÙNG 1 GMAIL DUY NHẤT CHO ĐẾN KHI HẾT HẠN GÓI ĐĂNG KÍ Ở BOT MÀ KHÔNG LO LỖI 12 THÁNG\n- Khách cần sử dụng VPN VIỆT NAM hoặc xóa hồ sơ thanh toán để có thể tham gia nhóm gia đình, sau đó có thể xem bình thường mà không cần phải sử dụng VPN VIETNAM\n- Sử dụng được ở mọi quốc gia trên thế giới\n-Không chấp nhận yêu cầu hủy gói đăng ký khi chưa hết hạn ở bot.\n-Sau khi BOT báo đã hoàn thành, hãy vào link  http://g.co/yourfamily bằng mail đăng ký, kiểm tra có lời mời, ấn tham gia\n- Youtube Premium gia hạn hàng tháng ổn định, mỗi tháng hệ thống sẽ gửi link để tham gia nhóm gia đình mới, 100% không lỗi 12 tháng, household\n-Dùng bên mình khi nào bị mất premium và nhận đủ 2 mail , 1 mail báo nhóm gia đình cũ không hoạt động và 1 mail có lời mời mới. Khi đã nhận đủ 2 mail  thì sẽ bắt đầu thoát nhóm gia đình cũ và tham gia nhóm gia đình mới\n-Không nhận mail đã từng fix 12 tháng, hoặc đang bị kẹt lỗi quét hộ gia đình\n-Link hướng dẫn cụ thể: https://docs.google.com/document/d/1Cjf5AsKj5ytHF4ixl_0rTBnY0lxtctJfghHJsAHX-pI/edit?tab=t.0",
-        "sources": {
-          "piggyai99_bot": {
-            "stock": 553,
-            "cost_price": 165000,
-            "updated": "02:41 18/10/2026",
-            "selling_price": 185000
-          }
+        "id": "yt-slot-3m-doi-fam",
+        "name": "Slot YouTube Premium 3 Tháng (Có Đổi Fam - Tiết Kiệm)",
+        "price": 105000,
+        "cost_price": 90000,
+        "duration": "3 Tháng",
+        "stock": -1,
+        "stock_text": "Vô cực (∞)",
+        "hidden": false,
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 90000
         },
+        "import_note": "🛒 @ntnshopre_bot",
+        "detail": "- HÀNG GIA HẠN HÀNG THÁNG (CÓ ĐỔI FAMILY).\n- Mỗi tháng hệ thống sẽ gửi link để tham gia nhóm gia đình mới, 100% không lỗi 12 tháng, không lỗi household.\n- Khách dùng 1 Gmail duy nhất suốt thời gian sử dụng.\n- Phù hợp cho Gmail còn lượt đổi nhóm Family hoặc Gmail phụ.\n- Nhận lời mời tại: g.co/yourfamily bằng mail đăng ký.\n- Bảo hành full thời gian sử dụng."
+      },
+      {
+        "id": "yt-slot-6m-doi-fam",
+        "name": "Slot YouTube Premium 6 Tháng (Có Đổi Fam - Tiết Kiệm)",
+        "price": 185000,
         "cost_price": 165000,
+        "duration": "6 Tháng",
+        "stock": -1,
+        "stock_text": "Vô cực (∞)",
+        "hidden": false,
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 165000
         },
-        "import_note": "🛒 @piggyai99_bot"
+        "import_note": "🛒 @piggyai99_bot",
+        "detail": "- HÀNG GIA HẠN HÀNG THÁNG (CÓ ĐỔI FAMILY).\n- Mỗi tháng hệ thống sẽ gửi link để tham gia nhóm gia đình mới, 100% không lỗi 12 tháng, không lỗi household.\n- Khách dùng 1 Gmail duy nhất suốt thời gian sử dụng.\n- Phù hợp cho Gmail còn lượt đổi nhóm Family hoặc Gmail phụ.\n- Nhận lời mời tại: g.co/yourfamily bằng mail đăng ký.\n- Bảo hành full thời gian sử dụng."
       },
       {
-        "id": "yt-slot-12m",
-        "name": "Slot YouTube Premium 12 Tháng BHF",
-        "price": 530000,
+        "id": "yt-slot-12m-doi-fam",
+        "name": "Slot YouTube Premium 12 Tháng (Có Đổi Fam - Tiết Kiệm)",
+        "price": 360000,
+        "cost_price": 280000,
+        "duration": "12 Tháng",
         "stock": -1,
         "stock_text": "Vô cực (∞)",
-        "duration": "12 Tháng",
-        "detail": "- HÀNG KHÔNG ĐỔI FAM HÀNG THÁNG.\n- Order theo hướng dẫn ở Bot.\n- Không tự ý rời fam khi chưa có thông báo từ Admin, không bảo hành trường hợp khách bị die mail. Hỗ trợ đổi mail trong 24h sau khi mua hàng.\n- Hàng tháng Admin sẽ gia hạn nên sẽ có mail huỷ gói ưu đãi, cứ sử dụng bình thường.\n- Đóng HSTT tại: payments.google.com/gp/w/home/settings.\n- Check fam tại: g.co/yourfamily.",
         "hidden": false,
-        "conflict_dismissed": true,
-        "cost_price": 280000,
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 280000
         },
-        "import_note": "🛒 @piggyai99_bot"
+        "import_note": "🛒 @piggyai99_bot",
+        "detail": "- HÀNG GIA HẠN HÀNG THÁNG (CÓ ĐỔI FAMILY).\n- Mỗi tháng hệ thống sẽ gửi link để tham gia nhóm gia đình mới, 100% không lỗi 12 tháng, không lỗi household.\n- Khách dùng 1 Gmail duy nhất suốt thời gian sử dụng.\n- Phù hợp cho Gmail còn lượt đổi nhóm Family hoặc Gmail phụ.\n- Nhận lời mời tại: g.co/yourfamily bằng mail đăng ký.\n- Bảo hành full thời gian sử dụng."
+      },
+      {
+        "id": "yt-slot-3m-khong-doi-fam",
+        "name": "Slot YouTube Premium 3 Tháng (Cố Định - Không Đổi Fam)",
+        "price": 155000,
+        "cost_price": 130000,
+        "duration": "3 Tháng",
+        "stock": -1,
+        "stock_text": "Sẵn hàng",
+        "hidden": false,
+        "cheapest_source": {
+          "bot": "@KhoMMO_Market_bot",
+          "cost_price": 130000
+        },
+        "import_note": "🛒 @KhoMMO_Market_bot",
+        "detail": "- HÀNG CỐ ĐỊNH 1 NHÓM FAMILY SUỐT THỜI GIAN SỬ DỤNG (KHÔNG ĐỔI FAM).\n- Add vào 1 nhóm Family cố định duy nhất, không phải nhảy nhóm hay đổi link hàng tháng.\n- CỰC KỲ PHÙ HỢP CHO GMAIL CHÍNH CHỦ, Gmail làm việc hoặc tài khoản đã hết lượt đổi nhóm Family của Google trong năm.\n- Admin gia hạn ổn định, an tâm sử dụng lâu dài không gián đoạn.\n- Không tự ý rời nhóm khi chưa có thông báo từ Admin.\n- Bảo hành Full thời gian sử dụng."
+      },
+      {
+        "id": "yt-slot-6m-khong-doi-fam",
+        "name": "Slot YouTube Premium 6 Tháng (Cố Định - Không Đổi Fam)",
+        "price": 269000,
+        "cost_price": 220000,
+        "duration": "6 Tháng",
+        "stock": -1,
+        "stock_text": "Sẵn hàng",
+        "hidden": false,
+        "cheapest_source": {
+          "bot": "@KhoMMO_Market_bot",
+          "cost_price": 220000
+        },
+        "import_note": "🛒 @KhoMMO_Market_bot",
+        "detail": "- HÀNG CỐ ĐỊNH 1 NHÓM FAMILY SUỐT THỜI GIAN SỬ DỤNG (KHÔNG ĐỔI FAM).\n- Add vào 1 nhóm Family cố định duy nhất, không phải nhảy nhóm hay đổi link hàng tháng.\n- CỰC KỲ PHÙ HỢP CHO GMAIL CHÍNH CHỦ, Gmail làm việc hoặc tài khoản đã hết lượt đổi nhóm Family của Google trong năm.\n- Admin gia hạn ổn định, an tâm sử dụng lâu dài không gián đoạn.\n- Không tự ý rời nhóm khi chưa có thông báo từ Admin.\n- Bảo hành Full thời gian sử dụng."
+      },
+      {
+        "id": "yt-slot-12m-khong-doi-fam",
+        "name": "Slot YouTube Premium 12 Tháng (Cố Định - Không Đổi Fam)",
+        "price": 530000,
+        "cost_price": 420000,
+        "duration": "12 Tháng",
+        "stock": -1,
+        "stock_text": "Sẵn hàng",
+        "hidden": false,
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 420000
+        },
+        "import_note": "🛒 @ntnshopre_bot",
+        "detail": "- HÀNG CỐ ĐỊNH 1 NHÓM FAMILY SUỐT THỜI GIAN SỬ DỤNG (KHÔNG ĐỔI FAM).\n- Add vào 1 nhóm Family cố định duy nhất, không phải nhảy nhóm hay đổi link hàng tháng.\n- CỰC KỲ PHÙ HỢP CHO GMAIL CHÍNH CHỦ, Gmail làm việc hoặc tài khoản đã hết lượt đổi nhóm Family của Google trong năm.\n- Admin gia hạn ổn định, an tâm sử dụng lâu dài không gián đoạn.\n- Không tự ý rời nhóm khi chưa có thông báo từ Admin.\n- Bảo hành Full thời gian sử dụng."
       },
       {
         "id": "yt-admin-1m",
         "name": "Admin YTB Premium 5 Slot 1 Tháng BHF",
         "price": 100000,
-        "stock": 108,
-        "stock_text": "Còn 108",
+        "cost_price": 45000,
         "duration": "1 Tháng",
-        "detail": "- Định dạng: Mail | Pass | 2FA.\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho anh em seller.\n- Bảo hành full gói trong quá trình sử dụng.\n- KHÔNG bảo hành ACC vì tuỳ vào cách bảo quản của mỗi người.",
+        "stock": 96,
+        "stock_text": "Còn 96",
         "hidden": false,
-        "cost_price": 15000,
-        "needs_review": false,
-        "import_note": "🛒 @ntnshopre_bot",
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 15000
-        }
+          "cost_price": 45000
+        },
+        "import_note": "🛒 @ntnshopre_bot",
+        "detail": "- Định dạng: Mail | Pass | 2FA.\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho anh em seller.\n- Bảo hành full gói trong quá trình sử dụng.\n- KHÔNG bảo hành ACC vì tuỳ vào cách bảo quản của mỗi người."
       },
       {
         "id": "yt-admin-3m",
         "name": "Admin YTB Premium 5 Slot 3 Tháng BHF",
         "price": 500000,
-        "stock": 98,
-        "stock_text": "Còn 98",
-        "duration": "3 Tháng",
-        "detail": "- Định dạng: Mail | Pass | 2fa\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho ae seller\n- Bảo hành full gói trong quá trình sử dụng, KHÔNG bảo hành ACC vì tuỳ vào cách bảo quản của mỗi người sử dụng\n- Lưu ý không đổi bất cứ Info nào của tài khoản để Admin có thể renew, bảo hành 1:1 trong 5h sau khi gia hạn thành công",
-        "hidden": false,
         "cost_price": 390000,
-        "import_note": "Nhập: @ntnshopre_bot",
+        "duration": "3 Tháng",
+        "stock": 100,
+        "stock_text": "Còn 100",
+        "hidden": false,
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 390000,
-          "stock": 98
+          "cost_price": 390000
         },
-        "sources": {
-          "ntnshopre_bot": {
-            "stock": 98,
-            "cost_price": 390000,
-            "selling_price": 440000,
-            "updated": "20:23 22/10/2026"
-          }
-        },
-        "needs_review": false
+        "import_note": "🛒 @ntnshopre_bot",
+        "detail": "- Định dạng: Mail | Pass | 2FA.\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho anh em seller.\n- Bảo hành full gói trong quá trình sử dụng.\n- Lưu ý không đổi bất cứ Info nào của tài khoản để Admin có thể renew."
       },
       {
         "id": "yt-admin-6m",
         "name": "Admin YTB Premium 5 Slot 6 Tháng BHF",
         "price": 940000,
+        "cost_price": 780000,
+        "duration": "6 Tháng",
         "stock": 112,
         "stock_text": "Còn 112",
-        "duration": "6 Tháng",
-        "detail": "- Định dạng: Mail | Pass | 2FA.\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho ae seller.\n- Bảo hành full gói trong quá trình sử dụng, KHÔNG bảo hành ACC.\n- Lưu ý không đổi bất cứ Info nào của tài khoản để Admin có thể renew.\n- Bảo hành 1:1 trong 5h sau khi gia hạn thành công.",
         "hidden": false,
-        "cost_price": 165000,
-        "import_note": "🛒 @piggyai99_bot",
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 165000
-        }
+          "bot": "@ntnshopre_bot",
+          "cost_price": 780000
+        },
+        "import_note": "🛒 @ntnshopre_bot",
+        "detail": "- Định dạng: Mail | Pass | 2FA.\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho anh em seller.\n- Bảo hành full gói trong quá trình sử dụng.\n- Lưu ý không đổi bất cứ Info nào của tài khoản để Admin có thể renew."
       },
       {
         "id": "yt-admin-12m",
         "name": "Admin YTB Premium 5 Slot 12 Tháng BHF",
         "price": 2000000,
+        "cost_price": 1560000,
+        "duration": "12 Tháng",
         "stock": 112,
         "stock_text": "Còn 112",
-        "duration": "12 Tháng",
-        "detail": "- Định dạng: Mail | Pass | 2FA.\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho ae seller.\n- Bảo hành full gói trong quá trình sử dụng, KHÔNG bảo hành ACC.\n- Lưu ý không đổi bất cứ Info nào của tài khoản để Admin có thể renew.\n- Bảo hành 1:1 trong 5h sau khi gia hạn thành công.",
         "hidden": false,
-        "cost_price": 280000,
-        "import_note": "🛒 @piggyai99_bot",
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 280000
-        }
-      },
-      {
-        "id": "p-1791926580507",
-        "name": "Slot Youtube Premium 1 Năm BHF",
-        "price": 360000,
-        "stock": 610,
-        "stock_text": "Còn 610",
-        "duration": "1 Năm",
-        "detail": "THỜI GIAN HOÀN THÀNH KHOẢNG 1 GiỜ HOẶC SỚM HƠN\n- Khách gửi tên gmail để được mời vào Family\n-KHÁCH CHỈ CẦN DÙNG 1 GMAIL DUY NHẤT CHO ĐẾN KHI HẾT HẠN GÓI ĐĂNG KÍ Ở BOT MÀ KHÔNG LO LỖI 12 THÁNG\n- Khách cần sử dụng VPN VIỆT NAM hoặc xóa hồ sơ thanh toán để có thể tham gia nhóm gia đình, sau đó có thể xem bình thường mà không cần phải sử dụng VPN VIETNAM\n- Sử dụng được ở mọi quốc gia trên thế giới\n-Không chấp nhận yêu cầu hủy gói đăng ký khi chưa hết hạn ở bot.\n-Sau khi BOT báo đã hoàn thành, hãy vào link  http://g.co/yourfamily bằng mail đăng ký, kiểm tra có lời mời, ấn tham gia\n- Youtube Premium gia hạn hàng tháng ổn định, mỗi tháng hệ thống sẽ gửi link để tham gia nhóm gia đình mới, 100% không lỗi 12 tháng, household\n-Dùng bên mình khi nào bị mất premium và nhận đủ 2 mail , 1 mail báo nhóm gia đình cũ không hoạt động và 1 mail có lời mời mới. Khi đã nhận đủ 2 mail  thì sẽ bắt đầu thoát nhóm gia đình cũ và tham gia nhóm gia đình mới\n-Không nhận mail đã từng fix 12 tháng, hoặc đang bị kẹt lỗi quét hộ gia đình\n-Link hướng dẫn cụ thể: https://docs.google.com/document/d/1Cjf5AsKj5ytHF4ixl_0rTBnY0lxtctJfghHJsAHX-pI/edit?tab=t.0",
-        "conflict_dismissed": true,
-        "sources": {
-          "piggyai99_bot": {
-            "stock": 610,
-            "cost_price": 280000,
-            "selling_price": 310000,
-            "updated": "19:14 21/10/2026"
-          }
+          "bot": "@ntnshopre_bot",
+          "cost_price": 1560000
         },
-        "cost_price": 280000,
-        "hidden": true,
-        "needs_review": true,
-        "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 280000
-        },
-        "import_note": "🛒 @piggyai99_bot"
+        "import_note": "🛒 @ntnshopre_bot",
+        "detail": "- Định dạng: Mail | Pass | 2FA.\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho anh em seller.\n- Bảo hành full gói trong quá trình sử dụng.\n- Lưu ý không đổi bất cứ Info nào của tài khoản để Admin có thể renew."
       },
       {
         "id": "p-1791941158182",
         "name": "CODE KÍCH HOẠT YOUTUBE PREMIUM 3 THÁNG BẢO HÀNH FULL",
         "price": 99000,
-        "stock": 4,
-        "stock_text": "Còn 4",
-        "duration": "3 Tháng",
-        "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân\n- Cần fake VPN US\n- Link redeem code: https://www.youtube.com/redeem",
-        "hidden": true,
         "cost_price": 89000,
-        "sources": {
-          "ntnshopre_bot": {
-            "stock": 4,
-            "cost_price": 89000,
-            "selling_price": 99000,
-            "updated": "10:07 22/10/2026"
-          }
-        },
-        "needs_review": true,
+        "duration": "3 Tháng",
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "hidden": false,
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 89000
         },
-        "import_note": "🛒 @ntnshopre_bot"
-      },
-      {
-        "id": "p-1792027014464",
-        "name": "ADMIN YTB PREMIUM  5 SLOT 1 THÁNG BẢO HÀNH FULL",
-        "price": 100000,
-        "stock": 106,
-        "stock_text": "Còn 106",
-        "duration": "1 Tháng",
-        "detail": "- Định dạng: Mail | Pass | 2fa\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho ae seller\n- Bảo hành full gói trong quá trình sử dụng, KHÔNG bảo hành ACC vì tuỳ vào cách bảo quản của mỗi người sử dụng",
-        "sources": {
-          "ntnshopre_bot": {
-            "stock": 106,
-            "cost_price": 45000,
-            "updated": "08:16 15/10/2026",
-            "selling_price": 55000
-          }
-        },
-        "hidden": true,
-        "cost_price": 45000,
-        "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 45000
-        },
-        "import_note": "🛒 @ntnshopre_bot"
+        "import_note": "🛒 @ntnshopre_bot",
+        "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân.\n- Cần fake VPN US khi nhập code.\n- Link redeem code: https://www.youtube.com/redeem"
       },
       {
         "id": "vidiq-boost-1m",
         "name": "VidIQ Boost YouTube Advanced Tools 1M",
         "price": 165000,
-        "stock": 0,
-        "stock_text": "Tạm hết hàng",
-        "duration": "1 Tháng",
-        "source": "Acc cá nhân",
-        "detail": "- vidIQ (1 channel Boost) – The Ultimate YouTube Assistant.\n- Cung cấp Email & Password tài khoản cá nhân VidIQ Boost.\n- Bảo hành full 1 tháng.",
         "cost_price": 145000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "duration": "1 Tháng",
+        "stock": 23,
+        "stock_text": "Còn 23",
+        "hidden": false,
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 145000
-        }
-      },
-      {
-        "id": "p-1792213686836",
-        "name": "Vidiq 1 tháng BH 20D",
-        "price": 190000,
-        "stock": 3,
-        "stock_text": "Còn 3",
-        "duration": "1 Tháng",
-        "detail": "Link hướng dẫn đăng nhập các tài khoản: https://www.youtube.com/playlist?list=PLnUweT-x0qNvstu8gyN8pdWoorvYZg7zb",
-        "sources": {
-          "taphoathomap_bot": {
-            "stock": 3,
-            "cost_price": 170000,
-            "updated": "12:08 17/10/2026",
-            "selling_price": 190000
-          }
         },
-        "hidden": false,
-        "cost_price": 170000,
         "import_note": "🛒 @ntnshopre_bot",
-        "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 170000
-        }
+        "detail": "- vidIQ (1 channel Boost) – The Ultimate YouTube Assistant.\n- Cung cấp Email & Password tài khoản cá nhân VidIQ Boost.\n- Bảo hành full 1 tháng."
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=youtube.com&sz=64"
@@ -575,26 +496,25 @@
         "id": "p-1791879689407",
         "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
         "price": 280000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 51,
+        "stock_text": "Còn 51",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Date radom 25 - 30 ngày\n4. Chỉ bảo hành tài khoản vô hiệu hóa, thay đổi thông tin lỗi - KBH\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n⚠️ Hiện tại, việc đổi PASS cần OTP nên không đổi được, còn nếu đổi 2FA có thể lỗi OTP gmail, khách hàng có thể cân nhắc không đổi và cứ việc dùng",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 20,
+            "stock": 51,
             "cost_price": 240000,
             "selling_price": 270000,
-            "updated": "20:25 22/10/2026"
+            "updated": "14:54 22/10/2026"
           }
         },
         "cost_price": 240000,
-        "needs_review": false,
-        "hidden": false,
-        "import_note": "Nhập: @taphoathomap_bot",
+        "needs_review": true,
+        "hidden": true,
+        "import_note": "🛒 @ntnshopre_bot",
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 240000,
-          "stock": 20
+          "bot": "@ntnshopre_bot",
+          "cost_price": 240000
         }
       },
       {
@@ -9767,50 +9687,6 @@
   },
   "_history": [
     {
-      "id": "hist-1792675504458",
-      "time": "20:25 - 22/10/2026",
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 270000,
-      "costPrice": 240000,
-      "stockAfter": 20,
-      "catKey": "chatgpt",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:25📦Tồnkhohiệntại:20💰Giá:240.000đ"
-    },
-    {
-      "id": "hist-1792675399356",
-      "time": "20:23 - 22/10/2026",
-      "name": "SLOT YOUTUBE PREMIUM 3 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": -1,
-      "catKey": "youtube",
-      "msgKey": "▶️SLOTYOUTUBEPREMIUM3THÁNGBHF💰Giá:90k📦Tồnkho:∞tàikhoản📊Đãbán:0tàikhoản💎Môtả:-HÀN"
-    },
-    {
-      "id": "hist-1792675391877",
-      "time": "20:23 - 22/10/2026",
-      "name": "ADMIN YTB PREMIUM 5 SLOT 3 THÁNG BẢO HÀNH FULL",
-      "bot": "ntnshopre_bot",
-      "price": 440000,
-      "costPrice": 390000,
-      "stockAfter": 98,
-      "catKey": "youtube",
-      "msgKey": "▶️ADMINYTBPREMIUM5SLOT3THÁNGBẢOHÀNHFULL💰Giá:390k📦Tồnkho:98tàikhoản📊Đãbán:14tàikh"
-    },
-    {
-      "id": "hist-1792675352729",
-      "time": "20:22 - 22/10/2026",
-      "name": "Slot Youtube Premium 3 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": -1,
-      "catKey": "youtube",
-      "msgKey": "▶️SlotYoutubePremium3ThángBHF💰Giá:95k📦Tồnkho:∞tàikhoản📊Đãbán:117tàikhoản💎Môtả:TH"
-    },
-    {
       "id": "hist-1792655686636",
       "time": "14:54 - 22/10/2026",
       "timestamp": 1792655686636,
@@ -11153,6 +11029,62 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTGo1Tháng-BH3Ngày➕Thêm:14📦Tồnkhohiệntại:22💰Giá:50.000đ"
+    },
+    {
+      "id": "hist-1792579871963",
+      "time": "17:51 - 21/10/2026",
+      "timestamp": 1792579871963,
+      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 15,
+      "addedQty": 25,
+      "price": 85000,
+      "stockAfter": 15,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:25📦Tồnkhohiệntại:15💰Giá:75.000đ"
+    },
+    {
+      "id": "hist-1792578642299",
+      "time": "17:30 - 21/10/2026",
+      "timestamp": 1792578642299,
+      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 56,
+      "addedQty": 93,
+      "price": 260000,
+      "stockAfter": 56,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:93📦Tồnkhohiệntại:56💰Giá:230.000đ"
+    },
+    {
+      "id": "hist-1792577828258",
+      "time": "17:17 - 21/10/2026",
+      "timestamp": 1792577828258,
+      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 27,
+      "addedQty": 9,
+      "price": 75000,
+      "stockAfter": 54,
+      "catKey": "capcut",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:65.000đ"
+    },
+    {
+      "id": "hist-1792577772814",
+      "time": "17:16 - 21/10/2026",
+      "timestamp": 1792577772814,
+      "name": "CAPCUT PRO CÁ NHÂN 30 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 27,
+      "addedQty": 9,
+      "price": 50000,
+      "stockAfter": 38,
+      "catKey": "capcut",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:40.000đ"
     }
   ]
 }
