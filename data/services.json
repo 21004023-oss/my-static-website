@@ -2535,6 +2535,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 1150000
         }
+      },
+      {
+        "id": "p-1792684102469",
+        "name": "Slot Veo3 Ultra Chung 10K Credits 1 tháng BHF",
+        "price": 400000,
+        "cost_price": 350000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "1 Tháng",
+        "detail": "-Thời gian done trong vòng 24h ( đủ 5 member add lần tránh người vào trước dùng trướcc )\n- Có Random Flow Credit (0 -> 10k Cre) dùng chung\n- Khách gửi mail để được mời vào Family\n- 20TB dung lượng Drive dùng chung.\n- Dùng được Gemini Ultra tại: https://gemini.google.com với Usage x5 lần gói Pro.\n- Quota cho các model Gemini trong Antigravity x3 lần., dùng chung với gia đình\n- Nếu khách có nhu cầu dùng Antigravity, chọn gói này (khuyến nghị)",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 8,
+            "cost_price": 350000,
+            "selling_price": 400000,
+            "updated": "22:48 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 350000,
+          "stock": 8
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64"
@@ -9715,6 +9741,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792684102469",
+      "time": "22:48 - 22/10/2026",
+      "name": "Slot Veo3 Ultra Chung 10K Credits 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 400000,
+      "costPrice": 350000,
+      "stockAfter": 8,
+      "catKey": "google-veo",
+      "msgKey": "🚀SlotVeo3UltraChung10KCredits1thángBHF➕Thêm:1📦Tồnkhohiệntại:8💰Giá:350.000đ"
+    },
+    {
       "id": "hist-1792683289932",
       "time": "22:34 - 22/10/2026",
       "name": "ChatGPT Go 1 Tháng - BHF",
@@ -11087,20 +11124,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTGo1Tháng-BHF➕Thêm:21📦Tồnkhohiệntại:27💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1792580081274",
-      "time": "17:54 - 21/10/2026",
-      "timestamp": 1792580081274,
-      "name": "ChatGPT Go 1 Tháng - BH 3 Ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 22,
-      "addedQty": 14,
-      "price": 60000,
-      "stockAfter": 26,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTGo1Tháng-BH3Ngày➕Thêm:14📦Tồnkhohiệntại:22💰Giá:50.000đ"
     }
   ]
 }
