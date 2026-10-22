@@ -10516,11 +10516,48 @@
         "import_note": "Ưu tiên nhập tại @piggyai99_bot (Vốn: 5,000đ)",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792661958719",
+        "name": "LINK GET GEMINI PRO 18 THÁNG BẢO HÀNH 24H",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 73,
+        "stock_text": "Còn 73",
+        "duration": "1 Ngày",
+        "detail": "Gói LINK GET GEMINI PRO 18 THÁNG BẢO HÀNH 24H bảo hành uy tín.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 73,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "16:39 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 25000,
+          "stock": 73
+        },
+        "import_note": "Ưu tiên nhập tại @ntnshopre_bot (Vốn: 25,000đ)",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792661958719",
+      "time": "16:39 - 22/10/2026",
+      "name": "LINK GET GEMINI PRO 18 THÁNG BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 73,
+      "catKey": "khac",
+      "msgKey": "☁️LINKGETGEMINIPRO18THÁNGBẢOHÀNH24H➕Thêm:80📦Tồnkhohiệntại:73💰Giá:25.000đ"
+    },
     {
       "id": "hist-1792661954035",
       "time": "16:39 - 22/10/2026",
@@ -11897,20 +11934,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:17📦Tồnkhohiệntại:18💰Giá:190.000đ"
-    },
-    {
-      "id": "hist-1792434362237",
-      "time": "01:26 - 20/10/2026",
-      "timestamp": 1792434362237,
-      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 18,
-      "addedQty": 17,
-      "price": 240000,
-      "stockAfter": 23,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:17📦Tồnkhohiệntại:18💰Giá:210.000đ"
     }
   ]
 }
