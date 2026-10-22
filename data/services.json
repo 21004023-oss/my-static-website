@@ -4622,6 +4622,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 60000
         }
+      },
+      {
+        "id": "p-1792675905058",
+        "name": "Spotify Premium (IOS) 12 Tháng BHF",
+        "price": 360000,
+        "cost_price": 310000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Năm",
+        "detail": "YÊU CẦU XEM HẾT VIDEO HƯỚNG DẪN CÀI ĐẶT CẤU HÌNH ĐỂ TRÁNH MẤT THỜI GIAN: https://duckystore.click/spotify\n⛔️ Chỉ hỗ trợ trên thiết bị IOS (Iphone/Ipad)\n✅ Có thể gia hạn được\n✅ Nghe mọi bài hát theo yêu cầu (On-Demand) không bị ép phát ngẫu nhiên.\n✅ Chuyển bài (Next/Prev) không giới hạn, tua nhạc tuỳ thích.\n✅ Chặn 100% quảng cáo âm thanh và banner chèn ngang.\n✅ Tự do chọn danh sách phát, album, nghệ sĩ không bị giới hạn.\n✅ Chất lượng âm thanh: Bật \"Rất cao\" (Very High) thoải mái trong Cài đặt app.\nGỬI UID VÀO BOT ĐỂ ĐƯỢC ADMIN DONE TRONG 5S",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 1,
+            "cost_price": 310000,
+            "selling_price": 360000,
+            "updated": "20:31 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 310000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=spotify.com&sz=64"
@@ -9687,6 +9713,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792675905058",
+      "time": "20:31 - 22/10/2026",
+      "name": "Spotify Premium (IOS) 12 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 360000,
+      "costPrice": 310000,
+      "stockAfter": 1,
+      "catKey": "spotify",
+      "msgKey": "⭐SpotifyPremium(IOS)12ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:310.000đ"
+    },
+    {
       "id": "hist-1792655686636",
       "time": "14:54 - 22/10/2026",
       "timestamp": 1792655686636,
@@ -11071,20 +11108,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1792577772814",
-      "time": "17:16 - 21/10/2026",
-      "timestamp": 1792577772814,
-      "name": "CAPCUT PRO CÁ NHÂN 30 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 27,
-      "addedQty": 9,
-      "price": 50000,
-      "stockAfter": 38,
-      "catKey": "capcut",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:40.000đ"
     }
   ]
 }
