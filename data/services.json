@@ -8889,8 +8889,8 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 35000,
         "cost_price": 15000,
-        "stock": 27,
-        "stock_text": "Còn 27",
+        "stock": 24,
+        "stock_text": "Còn 24",
         "duration": "3 Ngày",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/",
         "sources": {
@@ -8901,10 +8901,10 @@
             "updated": "18:44 22/10/2026"
           },
           "taphoathomap_bot": {
+            "stock": 8,
             "cost_price": 15000,
             "selling_price": 25000,
-            "stock": 11,
-            "updated": "18:19 22/10/2026"
+            "updated": "18:44 22/10/2026"
           },
           "ntnshopre_bot": {
             "stock": 8,
@@ -8922,7 +8922,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 11
+          "stock": 8
         },
         "import_note": "Ưu tiên nhập tại @taphoathomap_bot (Vốn: 15,000đ)"
       },
@@ -13778,6 +13778,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792669462441",
+      "time": "18:44 - 22/10/2026",
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 24,
+      "catKey": "vpn",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:8💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1792669456588",
       "time": "18:44 - 22/10/2026",
       "name": "EXPRESS VPN 3 NGÀY BHF",
@@ -15150,20 +15161,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H💰Giá:190k📦Tồnkho:18tàikhoản📊Đãbán:3.303tàikhoản💎Môtả:Kh"
-    },
-    {
-      "id": "hist-1792434366275",
-      "time": "01:26 - 20/10/2026",
-      "timestamp": 1792434366275,
-      "name": "ChatGPT Plus GGPay 30D BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 18,
-      "addedQty": 17,
-      "price": 210000,
-      "stockAfter": 36,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:17📦Tồnkhohiệntại:18💰Giá:190.000đ"
     }
   ],
   "higgsfield-akool-seedance": {
