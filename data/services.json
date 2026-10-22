@@ -7075,6 +7075,25 @@
           }
         },
         "hidden": false
+      },
+      {
+        "id": "p-1792636820134",
+        "name": "Zoom Pro 14 Ngày BHF",
+        "price": 55000,
+        "cost_price": 45000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản cấp sẵn Zoom Pro 14 Ngày 100 members, hàng renew sau 14 ngày nên là khách hàng vui lòng không đổi pass\nĐịnh dạng: Email|Pass|Web Mail",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 2,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "09:40 22/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -7505,6 +7524,20 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792636820134",
+      "time": "09:40 - 22/10/2026",
+      "timestamp": 1792636820134,
+      "name": "Zoom Pro 14 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 2,
+      "addedQty": 2,
+      "price": 55000,
+      "stockAfter": 2,
+      "catKey": "work-dev",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:45.000đ"
+    },
     {
       "id": "hist-1792635144955",
       "time": "09:12 - 22/10/2026",
@@ -8890,20 +8923,6 @@
       "catKey": "google-veo",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:50📦Tồnkhohiệntại:79💰Giá:27.000đ"
-    },
-    {
-      "id": "hist-1792554334389",
-      "time": "10:45 - 21/10/2026",
-      "timestamp": 1792554334389,
-      "name": "Link Gemini Pro 18 Tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 89,
-      "addedQty": 50,
-      "price": 37000,
-      "stockAfter": 89,
-      "catKey": "google-veo",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:50📦Tồnkhohiệntại:89💰Giá:27.000đ"
     }
   ]
 }
