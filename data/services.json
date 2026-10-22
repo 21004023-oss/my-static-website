@@ -7407,25 +7407,27 @@
         "id": "p-1792396908587",
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
-        "cost_price": 6400,
+        "cost_price": 7000,
         "stock": 3,
         "stock_text": "Còn 3",
-        "duration": "1 Tháng",
+        "duration": "3 Ngày",
         "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau",
         "sources": {
           "taphoathomap_bot": {
             "stock": 3,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "15:01 19/10/2026"
+            "updated": "06:03 23/10/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
-          "bot": "@KhoMMO_Market_bot",
-          "cost_price": 6400
+          "bot": "@taphoathomap_bot",
+          "cost_price": 7000,
+          "stock": 3
         },
-        "import_note": "🛒 @KhoMMO_Market_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792687635059",
@@ -10101,6 +10103,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792710193766",
+      "time": "06:03 - 23/10/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 3,
+      "catKey": "vpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:1📦Tồnkhohiệntại:3💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1792705828974",
       "time": "04:50 - 23/10/2026",
       "name": "Apple ID 2FA Gmail",
@@ -11383,20 +11396,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH➕Thêm:1000📦Tồnkhohiệntại:1069💰Giá:2.000đ"
-    },
-    {
-      "id": "hist-1792601762956",
-      "time": "23:56 - 21/10/2026",
-      "timestamp": 1792601762956,
-      "name": "20M Credit API Claude 1 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 274,
-      "addedQty": 100,
-      "price": 55000,
-      "stockAfter": 274,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🧠20MCreditAPIClaude1Ngày-BHF➕Thêm:100📦Tồnkhohiệntại:274💰Giá:45.000đ"
     }
   ]
 }
