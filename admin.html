@@ -1868,7 +1868,7 @@
       if (btn) btn.innerHTML = theme === 'light' ? '☀️ Giao Diện Sáng' : '🌙 Giao Diện Tối';
     }
 
-    // BẢO MẬT: CHẶN F12 & MÃ HÓA PIN (071003)
+    // BẢO MẬT: CHẶN F12 & MÃ HÓA PIN SHA-256 SECURE VAULT
     document.addEventListener('contextmenu', e => e.preventDefault());
     document.addEventListener('keydown', e => {
       if (
@@ -1894,20 +1894,19 @@
       const digits = val.replace(/[^0-9]/g, '');
       
       let isMatch = false;
-      if (digits === '071003' || val === '071003') {
-        isMatch = true;
-      } else {
-        try {
-          const hash = await computeSHA256(val);
-          if (hash === PIN_HASH_SECURE) isMatch = true;
-        } catch (err) {
-          console.warn('Crypto error:', err);
+      try {
+        const hashDigits = await computeSHA256(digits);
+        const hashVal = await computeSHA256(val);
+        if (hashDigits === PIN_HASH_SECURE || hashVal === PIN_HASH_SECURE) {
+          isMatch = true;
         }
+      } catch (err) {
+        console.warn('Crypto error:', err);
       }
 
       if (isMatch) {
         sessionStorage.setItem('adm_session_ok', 'true');
-        sessionStorage.setItem('adm_pin_code', '071003');
+        sessionStorage.setItem('adm_pin_code', val);
         document.getElementById('lockScreenOverlay').style.display = 'none';
         initAdminData();
         updateGitHubStatusUI();
@@ -3472,6 +3471,50 @@
         });
 
         if (!putRes.ok) throw new Error("Ghi file lên GitHub thất bại (" + putRes.status + ")!");
+
+        // BẢO MẬT: Tự động đồng bộ bản public sạch (đã ẩn giá vốn & nguồn bot) lên data/services_public.json
+        try {
+          const publicServices = {};
+          for (const [k, v] of Object.entries(servicesData)) {
+            if (k === '_history') continue;
+            publicServices[k] = {
+              name: v.name || k,
+              short: v.short || '',
+              logo: v.logo || '',
+              plans: (v.plans || []).map(p => ({
+                id: p.id,
+                name: p.name,
+                price: p.price,
+                stock: p.stock,
+                stock_text: p.stock_text,
+                duration: p.duration,
+                detail: p.detail,
+                hidden: p.hidden
+              }))
+            };
+          }
+          const publicContent = btoa(unescape(encodeURIComponent(JSON.stringify(publicServices, null, 2))));
+          const pubGetRes = await fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/data/services_public.json?_=${Date.now()}`, {
+            headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' }
+          });
+          let pubSha = null;
+          if (pubGetRes.ok) {
+            const pubData = await pubGetRes.json();
+            pubSha = pubData.sha;
+          }
+          const pubBody = {
+            message: 'Security Vault: Cập nhật dữ liệu công khai sạch (Bảo mật giá vốn & nguồn bot)',
+            content: publicContent
+          };
+          if (pubSha) pubBody.sha = pubSha;
+          await fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/data/services_public.json`, {
+            method: 'PUT',
+            headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+            body: JSON.stringify(pubBody)
+          });
+        } catch(pubErr) {
+          console.warn('Lưu public services file:', pubErr);
+        }
         
         const finalMsg = successMsg || "🎉 Đã lưu vĩnh viễn lên GitHub thành công!";
         showToast(finalMsg, "success");
