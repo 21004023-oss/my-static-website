@@ -1778,6 +1778,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792686639179",
+        "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 12H",
+        "price": 150000,
+        "cost_price": 130000,
+        "stock": 14,
+        "stock_text": "Còn 14",
+        "duration": "1 Tháng",
+        "detail": "- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 14,
+            "cost_price": 130000,
+            "selling_price": 150000,
+            "updated": "23:30 22/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 130000,
+          "stock": 14
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -9820,6 +9846,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792686639179",
+      "time": "23:30 - 22/10/2026",
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 12H",
+      "bot": "ntnshopre_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 14,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH12H➕Thêm:14📦Tồnkhohiệntại:14💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1792686383056",
       "time": "23:26 - 22/10/2026",
       "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
@@ -11171,20 +11208,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1792584884093",
-      "time": "19:14 - 21/10/2026",
-      "timestamp": 1792584884093,
-      "name": "Slot Youtube Premium 1 Năm BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 610,
-      "addedQty": 2,
-      "price": 310000,
-      "stockAfter": 610,
-      "catKey": "youtube",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "▶️SlotYoutubePremium1NămBHF➕Thêm:2📦Tồnkhohiệntại:610💰Giá:280.000đ"
     }
   ]
 }
