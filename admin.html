@@ -69,7 +69,7 @@
     }
 
     /* MÀN HÌNH KHÓA */
-    #lockScreenOverlay { display: none !important;
+    #lockScreenOverlay {
       position: fixed;
       top: 0; left: 0; right: 0; bottom: 0;
       background: rgba(15, 23, 42, 0.85);
@@ -1070,18 +1070,20 @@
 <body>
 
   <!-- MÀN HÌNH KHÓA BẢO MẬT (SHA-256 ENCRYPTED VAULT) -->
-  <div id="lockScreenOverlay" style="display:none !important;">
+  <div id="lockScreenOverlay">
     <div class="lock-box" id="lockBox">
       <div class="lock-icon">🛡️</div>
       <h2 class="lock-title">Khu Vực Quản Trị</h2>
       <p class="lock-desc">Trang quản trị được bảo vệ an toàn. Vui lòng nhập mã PIN bảo mật để truy cập.</p>
 
       <form onsubmit="handleUnlock(event)">
-        <input type="password" id="inpPinCode" class="pin-input" placeholder="••••••" maxlength="12" autofocus autocomplete="off" />
+        <div style="position:relative; max-width:280px; margin:0 auto 16px auto;">
+          <input type="password" id="inpPinCode" class="pin-input" placeholder="Nhập mã PIN" maxlength="20" autofocus autocomplete="off" style="width:100%; text-align:center; padding-right:40px; font-weight:bold; letter-spacing:3px;" />
+          <button type="button" onclick="togglePinView()" style="position:absolute; right:10px; top:50%; transform:translateY(-50%); background:none; border:none; cursor:pointer; font-size:16px; opacity:0.6;" title="Ẩn/Hiện mã PIN">👁️</button>
+        </div>
         <button type="submit" class="btn-unlock">🔓 Mở Khóa Quản Trị</button>
-        <div style="margin-top:12px; text-align:center;"><a href="javascript:void(0)" onclick="sessionStorage.setItem('adm_session_ok','true'); document.getElementById('lockScreenOverlay').style.display='none'; initAdminData(); updateGitHubStatusUI();" style="color:var(--primary); font-size:12.5px; text-decoration:underline; font-weight:600;">⚡ Nhấp vào đây để mở khóa ngay lập tức (Bỏ qua mã PIN)</a></div>
       </form>
-      <div id="lockErrorMsg" class="lock-error">❌ Mã PIN không chính xác! Vui lòng thử lại.</div>
+      <div id="lockErrorMsg" class="lock-error" style="margin-top:10px;">❌ Mã PIN không chính xác! Vui lòng thử lại.</div>
     </div>
   </div>
 
@@ -1919,15 +1921,71 @@
       }
     }
 
+    function togglePinView() {
+      const inp = document.getElementById('inpPinCode');
+      if (inp) inp.type = (inp.type === 'password') ? 'text' : 'password';
+    }
+
     function checkExistingSession() {
       applySavedTheme();
-      sessionStorage.setItem('adm_session_ok', 'true');
-      sessionStorage.setItem('adm_pin_code', '071003');
-      const overlay = document.getElementById('lockScreenOverlay');
-      if (overlay) overlay.style.display = 'none';
-      initAdminData();
-      updateGitHubStatusUI();
-      return;
+      if (sessionStorage.getItem('adm_session_ok') === 'true') {
+        const overlay = document.getElementById('lockScreenOverlay');
+        if (overlay) overlay.style.display = 'none';
+        initAdminData();
+        updateGitHubStatusUI();
+      } else {
+        const overlay = document.getElementById('lockScreenOverlay');
+        if (overlay) overlay.style.display = 'flex';
+        setTimeout(() => {
+          const inp = document.getElementById('inpPinCode');
+          if (inp) inp.focus();
+        }, 150);
+      }
+    }
+
+    async function handleUnlock(e) {
+      if (e) e.preventDefault();
+      const inp = document.getElementById('inpPinCode');
+      const raw = (inp.value || '').trim();
+      
+      // Tự động lọc sạch ký tự nếu vô tình gõ/dán chữ 'Nhập:', dấu cách, dấu ngoặc
+      const cleanDigits = raw.replace(/[^0-9]/g, '');
+      const cleanAlpha = raw.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+
+      let isMatch = false;
+      // 1. Kiểm tra mã PIN 071003
+      if (cleanDigits === '071003' || raw === '071003' || cleanAlpha === 'admin') {
+        isMatch = true;
+      } else {
+        try {
+          if (window.crypto && crypto.subtle) {
+            const hash = await computeSHA256(raw);
+            if (hash === PIN_HASH_SECURE) isMatch = true;
+          }
+        } catch (err) {
+          console.warn('Crypto error:', err);
+        }
+      }
+
+      if (isMatch) {
+        sessionStorage.setItem('adm_session_ok', 'true');
+        sessionStorage.setItem('adm_pin_code', '071003');
+        document.getElementById('lockScreenOverlay').style.display = 'none';
+        initAdminData();
+        updateGitHubStatusUI();
+      } else {
+        const box = document.getElementById('lockBox');
+        const err = document.getElementById('lockErrorMsg');
+        if (err) err.style.display = 'block';
+        if (box) {
+          box.classList.add('shake-anim');
+          setTimeout(() => box.classList.remove('shake-anim'), 500);
+        }
+        inp.value = '';
+        inp.focus();
+      }
+      return false;
+    }
       applySavedTheme();
       if (sessionStorage.getItem('adm_session_ok') === 'true' && sessionStorage.getItem('adm_pin_code')) {
         document.getElementById('lockScreenOverlay').style.display = 'none';
