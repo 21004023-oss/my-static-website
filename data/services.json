@@ -7624,16 +7624,16 @@
         "id": "p-1792205006619",
         "name": "Surfshark VPN One 7 Ngày BHF",
         "price": 45000,
-        "stock": 20,
-        "stock_text": "Còn 20",
-        "duration": "1 Tháng",
+        "stock": 12,
+        "stock_text": "Còn 12",
+        "duration": "7 Ngày",
         "detail": "Surfshark VPN gói One 7 Ngày BHF login 5 thiết bị, login quá nhiều dẫn đến bị khoá tài khoản sẽ không được bảo hành\n- Định dạng: email|pass\n- Web mail lấy code otp: https://get-opt.phh.info.vn/",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 20,
+            "stock": 12,
             "cost_price": 35000,
-            "updated": "09:43 17/10/2026",
-            "selling_price": 45000
+            "selling_price": 45000,
+            "updated": "16:39 22/10/2026"
           }
         },
         "hidden": false,
@@ -7645,10 +7645,10 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 35000,
-          "stock": 20,
-          "updated": "09:43 17/10/2026"
+          "stock": 12
         },
-        "import_note": "Ưu tiên nhập tại @sieuthistore_bot (Vốn: 35,000đ)"
+        "import_note": "Ưu tiên nhập tại @sieuthistore_bot (Vốn: 35,000đ)",
+        "needs_review": false
       },
       {
         "id": "p-1792205011820",
@@ -10574,6 +10574,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792661973394",
+      "time": "16:39 - 22/10/2026",
+      "name": "Surfshark VPN One 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 12,
+      "catKey": "vpn",
+      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792661968020",
       "time": "16:39 - 22/10/2026",
       "name": "Tiktok Đức (DE) - BH Login",
@@ -11940,20 +11951,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPro100-1thángBH20ngày➕Thêm:1📦Tồnkhohiệntại:3💰Giá:1.800.000đ"
-    },
-    {
-      "id": "hist-1792434653685",
-      "time": "01:30 - 20/10/2026",
-      "timestamp": 1792434653685,
-      "name": "ChatGPT Pro 100 - 1 tháng BH 20 ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 1,
-      "addedQty": 0,
-      "price": 2000000,
-      "stockAfter": 1,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPro100-1thángBH20ngày💰Giá:1800k📦Tồnkho:1tàikhoản📊Đãbán:5tàikhoản"
     }
   ]
 }
