@@ -876,7 +876,11 @@ function closeMobileCats() {
 }
 
 function loadData() {
-  fetch('./data/services.json?t=' + new Date().getTime(), { cache: 'no-store' })
+  fetch('./data/services_public.json?t=' + new Date().getTime(), { cache: 'no-store' })
+  .then(res => {
+    if (res.ok) return res.json();
+    return fetch('./data/services.json?t=' + new Date().getTime(), { cache: 'no-store' }).then(r => r.json());
+  })
     .then(r => r.json())
     .then(data => {
       D = data || {};
@@ -1190,5 +1194,54 @@ document.getElementById('searchInp').addEventListener('keydown', function(e) {
 
 document.addEventListener('DOMContentLoaded', loadData);
 </script>
+
+  <!-- QUOCBAO SECURITY VAULT - ANTI-INSPECT & ANTI-THEFT SHIELD -->
+  <style>
+    body {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    input, textarea, select {
+      -webkit-user-select: auto !important;
+      user-select: auto !important;
+    }
+  </style>
+  <script>
+    (function() {
+      // 1. Chặn chuột phải
+      document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+        return false;
+      });
+
+      // 2. Chặn F12 và tổ hợp phím kiểm tra mã nguồn
+      document.addEventListener('keydown', function(e) {
+        if (
+          e.key === 'F12' ||
+          (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i' || e.key === 'J' || e.key === 'j' || e.key === 'C' || e.key === 'c')) ||
+          (e.ctrlKey && (e.key === 'U' || e.key === 'u' || e.key === 'S' || e.key === 's'))
+        ) {
+          e.preventDefault();
+          return false;
+        }
+      });
+
+      // 3. Chặn kéo thả nội dung
+      document.addEventListener('dragstart', function(e) {
+        e.preventDefault();
+        return false;
+      });
+
+      // 4. Debugger & Console Trap
+      setInterval(function() {
+        if (window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160) {
+          console.clear();
+        }
+      }, 1000);
+    })();
+  </script>
+
 </body>
 </html>
