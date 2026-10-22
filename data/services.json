@@ -5078,6 +5078,25 @@
         },
         "hidden": true,
         "needs_review": true
+      },
+      {
+        "id": "p-1792655671150",
+        "name": "Tài khoản VieON VIP 10 ngày BHF",
+        "price": 20000,
+        "cost_price": 10000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Gói Tài khoản VieON VIP 10 ngày BHF bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "14:54 22/10/2026"
+          }
+        },
+        "hidden": false
       }
     ]
   },
@@ -7651,6 +7670,20 @@
   },
   "_history": [
     {
+      "id": "hist-1792655671150",
+      "time": "14:54 - 22/10/2026",
+      "timestamp": 1792655671150,
+      "name": "Tài khoản VieON VIP 10 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 1,
+      "addedQty": 1,
+      "price": 20000,
+      "stockAfter": 1,
+      "catKey": "netflix",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐TàikhoảnVieONVIP10ngàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1792655665294",
       "time": "14:54 - 22/10/2026",
       "timestamp": 1792655665294,
@@ -9035,20 +9068,6 @@
       "catKey": "capcut",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:10📦Tồnkhohiệntại:11💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792574336107",
-      "time": "16:18 - 21/10/2026",
-      "timestamp": 1792574336107,
-      "name": "( Gói chính hãng ) ElevanLabs 131 Credit 1 Tháng (BH 3D)",
-      "bot": "taphoathomap_bot",
-      "shopStock": 10,
-      "addedQty": 31,
-      "price": 140000,
-      "stockAfter": 10,
-      "catKey": "ai-video-voice",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎙️(Góichínhhãng)ElevanLabs131Credit1Tháng(BH3D)➕Thêm:31📦Tồnkhohiệntại:10💰Giá:120"
     }
   ]
 }
