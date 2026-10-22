@@ -1129,6 +1129,9 @@
       <button class="btn btn-success" onclick="exportToExcelCSV()">
         📊 Xuất Excel (CSV)
       </button>
+      <button class="btn btn-outline" style="border-color:#38bdf8; color:#38bdf8; font-weight:700;" onclick="openBenchmarkModal()" title="Xem Bảng Giá Chuẩn Trang Chủ & So Sánh 7 Bot Rẻ Nhất">
+        ⚖️ Bảng Chuẩn & Bot
+      </button>
       <button class="btn btn-purple" onclick="openBulkModal()">
         ⚡ Sửa Hàng Loạt
       </button>
@@ -2228,6 +2231,14 @@
       renderTable();
     }
 
+        function getBotBadgeHtml(p) {
+      if (!p) return '';
+      const bot = (p.cheapest_source && p.cheapest_source.bot) ? p.cheapest_source.bot : (p.import_note || '');
+      if (!bot) return '';
+      const cleanBot = bot.startsWith('🛒') ? bot : `🛒 ${bot}`;
+      return `<span style="display:inline-block; font-size:10.5px; font-weight:700; color:#10b981; background:rgba(16,185,129,0.12); padding:1px 6px; border-radius:4px; margin-left:5px; border:1px solid rgba(16,185,129,0.25); vertical-align:middle;" title="Nguồn mua bot rẻ nhất">${cleanBot}</span>`;
+    }
+
     function getPlanCostPrice(p) {
       if (!p) return 0;
       if (typeof p.cost_price === 'number' && p.cost_price > 0) return p.cost_price;
@@ -2394,21 +2405,21 @@
                   if (diff > 0) {
                     return `
                       <div class="profit-bar-clean gain" title="Giá gốc: ${costPrice.toLocaleString('vi-VN')}đ • Lời: +${diff.toLocaleString('vi-VN')}đ">
-                        <span class="cost-label">Vốn: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong></span>
+                        <span class="cost-label">Vốn: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong>${getBotBadgeHtml(p)}</span>
                         <span class="gain-val">▲ Lời +${diff.toLocaleString('vi-VN')}đ <span class="pct-badge">+${pct}%</span></span>
                       </div>
                     `;
                   } else if (diff === 0) {
                     return `
                       <div class="profit-bar-clean even" title="Giá bán bằng đúng giá gốc nhập kho">
-                        <span class="cost-label">Vốn: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong></span>
+                        <span class="cost-label">Vốn: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong>${getBotBadgeHtml(p)}</span>
                         <span class="even-val">Hòa vốn (0đ)</span>
                       </div>
                     `;
                   } else {
                     return `
                       <div class="profit-bar-clean loss" title="Cảnh báo: Đang bán lỗ dưới giá nhập!">
-                        <span class="cost-label">Vốn: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong></span>
+                        <span class="cost-label">Vốn: <strong>${costPrice.toLocaleString('vi-VN')}đ</strong>${getBotBadgeHtml(p)}</span>
                         <span class="loss-val">⚠️ Lỗ: ${diff.toLocaleString('vi-VN')}đ (${pct}%)</span>
                       </div>
                     `;
@@ -2815,7 +2826,7 @@
 
     function exportToExcelCSV() {
       const rows = [
-        ['Danh Mục', 'Tên Gói', 'Giá Bán (VNĐ)', 'Tồn Kho', 'Thời Hạn', 'Trạng Thái', 'Mô Tả & Bảo Hành']
+        ['Danh Mục', 'Tên Gói', 'Giá Vốn (VNĐ)', 'Giá Bán (VNĐ)', 'Nguồn Bot Rẻ Nhất', 'Tồn Kho', 'Thời Hạn', 'Trạng Thái', 'Mô Tả & Bảo Hành']
       ];
 
       for (const [catKey, val] of Object.entries(servicesData)) {
@@ -2824,10 +2835,14 @@
         const plans = val.plans || [];
         plans.forEach(p => {
           const status = p.hidden ? 'Đang ẩn' : (p.stock === 0 ? 'Hết hàng' : 'Đang bán');
+          const costPrice = getPlanCostPrice(p);
+          const botSource = (p.cheapest_source && p.cheapest_source.bot) ? p.cheapest_source.bot : (p.import_note || '');
           rows.push([
             catName,
             p.name || '',
+            costPrice || 0,
             p.price || 0,
+            botSource,
             p.stock === -1 ? 'Vô cực (∞)' : (p.stock || 0),
             p.duration || '',
             status,
@@ -4580,5 +4595,150 @@
     }
 
 </script>
+
+  <!-- MODAL BẢNG GIÁ CHUẨN & SO SÁNH 7 BOT -->
+  <div class="modal-overlay" id="benchmarkModal" style="z-index:99999;">
+    <div class="modal-content" style="max-width:960px; max-height:90vh; display:flex; flex-direction:column;">
+      <div class="modal-header" style="border-bottom:1px solid var(--border); padding:16px 20px;">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:24px;">⚖️</span>
+          <div>
+            <h3 style="margin:0; font-size:17px; font-weight:800; color:var(--text);">Bảng Giá Chuẩn Chính Thống & So Sánh 7 Bot</h3>
+            <p style="margin:3px 0 0 0; font-size:12px; color:var(--text-muted);">So sánh giá niêm yết trang chủ, giá chia 1 slot và giá vốn rẻ nhất từ 7 Bot Telegram</p>
+          </div>
+        </div>
+        <button class="btn-close" onclick="closeBenchmarkModal()">✕</button>
+      </div>
+
+      <div class="modal-body" style="padding:20px; overflow-y:auto; flex:1;">
+        <!-- Card quy tắc logic định giá -->
+        <div style="background:rgba(56,189,248,0.08); border:1px solid rgba(56,189,248,0.25); border-radius:10px; padding:14px 18px; margin-bottom:18px;">
+          <div style="font-weight:800; color:#0284c7; font-size:13.5px; margin-bottom:6px; display:flex; align-items:center; gap:6px;">
+            <span>💡</span> QUY TẮC ĐỊNH GIÁ CHUẨN LOGIC (YÊU CẦU 1)
+          </div>
+          <div style="font-size:12.5px; color:var(--text); line-height:1.6;">
+            • <strong>Gói Slot Dùng Chung:</strong> Bắt buộc tính dựa trên <em>(Giá Trang Chủ Chia Cho Số Slot)</em>. Tuyệt đối không được lấy giá bán vô lý (Ví dụ: Netflix 273k chia 5 người chỉ ~55k/slot thì giá bán shop chỉ từ <strong>65k - 75k</strong>, không thể bán 175k/slot).<br>
+            • <strong>Cập Nhật Khi Bot Tăng Giá:</strong> Nếu bot nguồn tăng giá, chỉ tăng giá bán theo tỷ lệ % hợp lý (+20% đến +35%) và chặn không vượt quá giá trần logic.<br>
+            • <strong>7 Bot Giám Sát:</strong> <code>@ntnshopre_bot</code>, <code>@piggyai99_bot</code>, <code>@shopxoainon_bot</code>, <code>@KhoMMO_Market_bot</code>, <code>@toki_shopmmo_bot</code>, <code>@sieuthistore_bot</code>, <code>@taphoathomap_bot</code>.
+          </div>
+        </div>
+
+        <!-- Bảng so sánh dữ liệu thực tế -->
+        <div style="overflow-x:auto;">
+          <table style="width:100%; border-collapse:collapse; font-size:12.5px;">
+            <thead>
+              <tr style="background:var(--table-header); border-bottom:2px solid var(--border); text-align:left;">
+                <th style="padding:10px 12px;">Dịch Vụ & Gói</th>
+                <th style="padding:10px 12px;">Trang Chủ (Full)</th>
+                <th style="padding:10px 12px; color:#38bdf8;">Chuẩn 1 Slot (Chia Đều)</th>
+                <th style="padding:10px 12px; color:#10b981;">Vốn Bot Rẻ Nhất</th>
+                <th style="padding:10px 12px;">Shop Đang Bán</th>
+                <th style="padding:10px 12px; text-align:center;">Trạng Thái Logic</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Netflix -->
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:10px 12px; font-weight:700;">🍿 Netflix Premium 4K (1 Tháng)</td>
+                <td style="padding:10px 12px;">273.000đ / tháng (5 profile)</td>
+                <td style="padding:10px 12px; color:#38bdf8; font-weight:700;">54.600đ / slot</td>
+                <td style="padding:10px 12px; color:#10b981; font-weight:700;">45.000đ <span style="font-size:10px; color:var(--text-muted);">(🛒 @ntnshopre_bot)</span></td>
+                <td style="padding:10px 12px; font-weight:800; color:var(--primary);">69.000đ</td>
+                <td style="padding:10px 12px; text-align:center;"><span class="badge badge-in">✅ Chuẩn Logic (+26%)</span></td>
+              </tr>
+              <!-- YouTube Family Slot -->
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:10px 12px; font-weight:700;">▶️ YouTube Premium 1 Slot 1 Tháng</td>
+                <td style="padding:10px 12px;">149.000đ / tháng (5 thành viên)</td>
+                <td style="padding:10px 12px; color:#38bdf8; font-weight:700;">29.800đ / slot</td>
+                <td style="padding:10px 12px; color:#10b981; font-weight:700;">15.000đ <span style="font-size:10px; color:var(--text-muted);">(🛒 @ntnshopre_bot)</span></td>
+                <td style="padding:10px 12px; font-weight:800; color:var(--primary);">30.000đ</td>
+                <td style="padding:10px 12px; text-align:center;"><span class="badge badge-in">✅ Chuẩn Logic (x2 Vốn)</span></td>
+              </tr>
+              <!-- YouTube Admin 5 Slot -->
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:10px 12px; font-weight:700;">▶️ YouTube Admin 5 Slot 1 Tháng</td>
+                <td style="padding:10px 12px;">149.000đ / tháng</td>
+                <td style="padding:10px 12px; color:var(--text-muted);">Nguyên chủ gia đình</td>
+                <td style="padding:10px 12px; color:#10b981; font-weight:700;">45.000đ <span style="font-size:10px; color:var(--text-muted);">(🛒 @ntnshopre_bot)</span></td>
+                <td style="padding:10px 12px; font-weight:800; color:var(--primary);">100.000đ</td>
+                <td style="padding:10px 12px; text-align:center;"><span class="badge badge-in">✅ Lời 55k (Rẻ hơn 33% trang chủ)</span></td>
+              </tr>
+              <!-- Spotify Family Slot -->
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:10px 12px; font-weight:700;">🎵 Spotify Premium 1 Slot 3 Tháng</td>
+                <td style="padding:10px 12px;">99.000đ / tháng (6 thành viên)</td>
+                <td style="padding:10px 12px; color:#38bdf8; font-weight:700;">16.500đ / slot / thg</td>
+                <td style="padding:10px 12px; color:#10b981; font-weight:700;">49.000đ / 3thg <span style="font-size:10px; color:var(--text-muted);">(🛒 @ntnshopre_bot)</span></td>
+                <td style="padding:10px 12px; font-weight:800; color:var(--primary);">49.000đ / 3thg</td>
+                <td style="padding:10px 12px; text-align:center;"><span class="badge badge-in">✅ Chuẩn Logic</span></td>
+              </tr>
+              <!-- Google Gemini Pro 18 Tháng -->
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:10px 12px; font-weight:700;">🤖 Gemini Pro & Drive 5TB 18 Tháng</td>
+                <td style="padding:10px 12px;">490.000đ / tháng (~8.8tr / 18thg)</td>
+                <td style="padding:10px 12px; color:var(--text-muted);">Cá nhân link add</td>
+                <td style="padding:10px 12px; color:#10b981; font-weight:700;">14.800đ <span style="font-size:10px; color:var(--text-muted);">(🛒 @shopxoainon_bot)</span></td>
+                <td style="padding:10px 12px; font-weight:800; color:var(--primary);">35.000đ</td>
+                <td style="padding:10px 12px; text-align:center;"><span class="badge badge-in">✅ Siêu rẻ (Shop Xoài Non)</span></td>
+              </tr>
+              <!-- CapCut Pro 30 Ngày -->
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:10px 12px; font-weight:700;">🎬 CapCut Pro 30 Ngày BHF</td>
+                <td style="padding:10px 12px;">199.000đ / tháng</td>
+                <td style="padding:10px 12px; color:var(--text-muted);">Cá nhân</td>
+                <td style="padding:10px 12px; color:#10b981; font-weight:700;">38.800đ <span style="font-size:10px; color:var(--text-muted);">(🛒 @shopxoainon_bot)</span></td>
+                <td style="padding:10px 12px; font-weight:800; color:var(--primary);">48.000đ</td>
+                <td style="padding:10px 12px; text-align:center;"><span class="badge badge-in">✅ Lời 10k</span></td>
+              </tr>
+              <!-- Muse AI 1 Tỷ Token -->
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:10px 12px; font-weight:700;">🧠 Muse AI 1 Tỉ Token</td>
+                <td style="padding:10px 12px;">$20 (~520.000đ)</td>
+                <td style="padding:10px 12px; color:var(--text-muted);">Buff Token</td>
+                <td style="padding:10px 12px; color:#10b981; font-weight:700;">11.000đ <span style="font-size:10px; color:var(--text-muted);">(🛒 @KhoMMO_Market_bot)</span></td>
+                <td style="padding:10px 12px; font-weight:800; color:var(--primary);">55.000đ</td>
+                <td style="padding:10px 12px; text-align:center;"><span class="badge badge-in">✅ Siêu rẻ (KhoMMO Market)</span></td>
+              </tr>
+              <!-- Microsoft 365 1 Năm -->
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:10px 12px; font-weight:700;">💼 Microsoft 365 Cá Nhân 1 Năm</td>
+                <td style="padding:10px 12px;">1.690.000đ / năm (Family chia 6)</td>
+                <td style="padding:10px 12px; color:#38bdf8; font-weight:700;">281.000đ / slot / năm</td>
+                <td style="padding:10px 12px; color:#10b981; font-weight:700;">16.800đ <span style="font-size:10px; color:var(--text-muted);">(🛒 @shopxoainon_bot)</span></td>
+                <td style="padding:10px 12px; font-weight:800; color:var(--primary);">54.000đ</td>
+                <td style="padding:10px 12px; text-align:center;"><span class="badge badge-in">✅ Tiết kiệm 97%</span></td>
+              </tr>
+              <!-- Duolingo Super 1 Năm -->
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:10px 12px; font-weight:700;">🦉 Duolingo Super 12 Tháng</td>
+                <td style="padding:10px 12px;">1.290.000đ / năm (Family chia 6)</td>
+                <td style="padding:10px 12px; color:#38bdf8; font-weight:700;">215.000đ / slot / năm</td>
+                <td style="padding:10px 12px; color:#10b981; font-weight:700;">19.800đ <span style="font-size:10px; color:var(--text-muted);">(🛒 @shopxoainon_bot)</span></td>
+                <td style="padding:10px 12px; font-weight:800; color:var(--primary);">49.000đ</td>
+                <td style="padding:10px 12px; text-align:center;"><span class="badge badge-in">✅ Chuẩn Logic</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="modal-footer" style="border-top:1px solid var(--border); padding:14px 20px; display:flex; justify-content:flex-end;">
+        <button class="btn btn-primary" onclick="closeBenchmarkModal()">Đã hiểu & Đóng</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openBenchmarkModal() {
+      const m = document.getElementById('benchmarkModal');
+      if (m) m.classList.add('active');
+    }
+    function closeBenchmarkModal() {
+      const m = document.getElementById('benchmarkModal');
+      if (m) m.classList.remove('active');
+    }
+  </script>
+
 </body>
 </html>
