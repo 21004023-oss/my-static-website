@@ -10205,10 +10205,10 @@
       {
         "id": "p-1792719528573",
         "name": "Link Gemini Pro 18 Tháng BH 24H",
-        "price": 45000,
+        "price": 70000,
         "cost_price": 35000,
-        "stock": 105,
-        "stock_text": "Còn 105",
+        "stock": 236,
+        "stock_text": "Còn 236",
         "duration": "1 Ngày",
         "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.",
         "sources": {
@@ -10217,6 +10217,12 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "updated": "08:38 23/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 131,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "09:16 23/10/2026"
           }
         },
         "cheapest_source": {
@@ -10232,6 +10238,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792721802052",
+      "time": "09:16 - 23/10/2026",
+      "name": "Link Gemini Pro 18 Tháng BH 24H",
+      "bot": "piggyai99_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 236,
+      "catKey": "khac",
+      "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:48📦Tồnkhohiệntại:131💰Giá:60.000đ"
+    },
     {
       "id": "hist-1792720679402",
       "time": "08:57 - 23/10/2026",
@@ -11491,20 +11508,6 @@
       "catKey": "vpn",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:23📦Tồnkhohiệntại:4💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792612321513",
-      "time": "02:52 - 22/10/2026",
-      "timestamp": 1792612321513,
-      "name": "Meitu SVip 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 0,
-      "addedQty": 10,
-      "price": 85000,
-      "stockAfter": 0,
-      "catKey": "meitu-wink",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✨MeituSVip1ThángBHF➕Thêm:10📦Tồnkhohiệntại:0💰Giá:75.000đ"
     }
   ]
 }
