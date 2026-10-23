@@ -252,22 +252,22 @@
         "name": "Link offer YOUTUBE PREMIUM 3 THÁNG - BH 24H",
         "price": 60000,
         "cost_price": 50000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "3 Tháng",
         "detail": "🎁 LINK YOUTUBE PREMIUM 3 THÁNG – GÓI CÁ NHÂN\n💎 THÔNG TIN SẢN PHẨM\n• Kích hoạt YouTube Premium 3 tháng qua link\n• Chỉ áp dụng cho tài khoản mới đủ điều kiện\n• Yêu cầu thêm thẻ thanh toán khi kích hoạt\n🔑 HƯỚNG DẪN KÍCH HOẠT\n① Sử dụng điện thoại và mở liên kết sau khi mua\n② Nếu không truy cập được, thử sử dụng VPN IP US\n③ Thêm thẻ thanh toán và hoàn tất kích hoạt\n⚠️ LƯU Ý\n• Đọc kỹ điều kiện trước khi mua hàng\n• Không đảm bảo áp dụng cho mọi tài khoản",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 20,
+            "stock": 9,
             "cost_price": 50000,
             "selling_price": 60000,
-            "updated": "16:21 23/10/2026"
+            "updated": "16:32 23/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 50000,
-          "stock": 20
+          "stock": 9
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -10099,6 +10099,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792747925227",
+      "time": "16:32 - 23/10/2026",
+      "name": "Link offer YOUTUBE PREMIUM 3 THÁNG - BH 24H",
+      "bot": "taphoathomap_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 9,
+      "catKey": "youtube",
+      "msgKey": "▶️LinkofferYOUTUBEPREMIUM3THÁNG-BH24H➕Thêm:10📦Tồnkhohiệntại:9💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1792747299517",
       "time": "16:21 - 23/10/2026",
       "name": "Link offer YOUTUBE PREMIUM 3 THÁNG - BHF",
@@ -11348,20 +11359,6 @@
       "catKey": "vpn",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "⭐KEYHMAAND/PC20-30DAYS💰Giá:10k📦Tồnkho:22tàikhoản📊Đãbán:619tàikhoản"
-    },
-    {
-      "id": "hist-1792618481925",
-      "time": "04:34 - 22/10/2026",
-      "timestamp": 1792618481925,
-      "name": "SURFSHARK VPN ONE 7 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 4,
-      "addedQty": 23,
-      "price": 28000,
-      "stockAfter": 12,
-      "catKey": "vpn",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🦈SURFSHARKVPNONE7NGÀYBHF➕Thêm:23📦Tồnkhohiệntại:4💰Giá:18.000đ"
     }
   ]
 }
