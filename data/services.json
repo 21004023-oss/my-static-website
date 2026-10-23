@@ -7209,6 +7209,32 @@
           "cost_price": 100000,
           "stock": 2
         }
+      },
+      {
+        "id": "p-1792785608237",
+        "name": "Adobe All Apps 14 Ngày BHF",
+        "price": 170000,
+        "cost_price": 150000,
+        "stock": 9,
+        "stock_text": "Còn 9",
+        "duration": "1 Tháng",
+        "detail": "Adobe All Apps 14D Add Teams sử dụng 2 thiết bị\nBảo hành trọn vòng đời sử dụng. HÀNG ĐẶT LÀM, ORDER XONG NHẮN TIN CHO ADMIN. DONE NHANH TRONG GIỜ HÀNH CHÍNH\nVui lòng không thay đổi thông tin tài khoản tránh bị dis khỏi Team",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 9,
+            "cost_price": 150000,
+            "selling_price": 170000,
+            "updated": "03:00 24/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 150000,
+          "stock": 9
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -10681,6 +10707,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792785608237",
+      "time": "03:00 - 24/10/2026",
+      "name": "Adobe All Apps 14 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 9,
+      "catKey": "adobe",
+      "msgKey": "🎨AdobeAllApps14NgàyBHF➕Thêm:5📦Tồnkhohiệntại:9💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1792782849367",
       "time": "02:14 - 24/10/2026",
       "name": "Gmail Random 200X~2023 Có 2FA",
@@ -11768,17 +11805,6 @@
       "stockAfter": 18,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:6📦Tồnkhohiệntại:16💰Giá:109.000đ"
-    },
-    {
-      "id": "hist-1792737145293",
-      "time": "13:32 - 23/10/2026",
-      "name": "GROK ULTRA 50X 1 THÁNG (BH 7D)",
-      "bot": "taphoathomap_bot",
-      "price": 2100000,
-      "costPrice": 1900000,
-      "stockAfter": 6,
-      "catKey": "grok",
-      "msgKey": "⚡GROKULTRA50X1THÁNG(BH7D)➕Thêm:6📦Tồnkhohiệntại:6💰Giá:1.900.000đ"
     }
   ]
 }
