@@ -4223,6 +4223,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 120000
         }
+      },
+      {
+        "id": "p-1792737135662",
+        "name": "GROK SUPER 15X 1 THÁNG (BH 7D)",
+        "price": 1100000,
+        "cost_price": 1000000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "🛡️ CURSOR|GROK SUPER 2 in 1\n🔥Hàng inapp IOS cực tốt, đa số khách sử dụng đủ 30 ngày\nLưu ý: Chính chủ chỉ áp dụng cho tài khoản có offer 50% Khách gửi tài khoản: Mail| pass grok |2fa (nếu có)\nĐể đăng nhập thuận tiện. đăng nhập qua google thì log out ra đặt lại pass grok.\nCần tài khoản cấp thì note cho shop\n📦 Done đơn trong 6 tiếng ( 9h - 23h )\n🛡️ Bảo hành: 7 ngày (Chỉ bảo hành gói dịch vụ, không bảo hành trường hợp sử dụng vi phạm chính sách)\n🛡️ Trường hợp không có tài khoản có offer, có thể mua đơn, sau đó yêu cầu admin cấp sẵn tài khoản",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 1000000,
+            "selling_price": 1100000,
+            "updated": "13:32 23/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 1000000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=x.ai&sz=64"
@@ -9761,6 +9787,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792737135662",
+      "time": "13:32 - 23/10/2026",
+      "name": "GROK SUPER 15X 1 THÁNG (BH 7D)",
+      "bot": "taphoathomap_bot",
+      "price": 1100000,
+      "costPrice": 1000000,
+      "stockAfter": 5,
+      "catKey": "grok",
+      "msgKey": "⚡GROKSUPER15X1THÁNG(BH7D)➕Thêm:5📦Tồnkhohiệntại:5💰Giá:1.000.000đ"
+    },
+    {
       "id": "hist-1792735688757",
       "time": "13:08 - 23/10/2026",
       "name": "Meitu SVIP 1 Tháng BHF",
@@ -11082,20 +11119,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:20📦Tồnkhohiệntại:36💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1792589800415",
-      "time": "20:36 - 21/10/2026",
-      "timestamp": 1792589800415,
-      "name": "CAPCUT PRO 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 36,
-      "addedQty": 20,
-      "price": 48000,
-      "stockAfter": 36,
-      "catKey": "capcut",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:20📦Tồnkhohiệntại:36💰Giá:38.000đ"
     }
   ]
 }
