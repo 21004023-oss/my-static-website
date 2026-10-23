@@ -182,18 +182,28 @@
       {
         "id": "p-1791941158182",
         "name": "CODE KÍCH HOẠT YOUTUBE PREMIUM 3 THÁNG BẢO HÀNH FULL",
-        "price": 99000,
-        "cost_price": 89000,
+        "price": 100000,
+        "cost_price": 90000,
         "duration": "3 Tháng",
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "hidden": false,
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 89000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 90000,
+          "stock": 8
         },
-        "import_note": "🛒 @ntnshopre_bot",
-        "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân\n- Cần fake VPN US\n- Link redeem code: https://www.youtube.com/redeem"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân - Cần fake VPN US - Link redeem code: https://www.youtube.com/redeem",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 8,
+            "cost_price": 90000,
+            "selling_price": 100000,
+            "updated": "12:05 23/10/2026"
+          }
+        },
+        "needs_review": false
       },
       {
         "id": "vidiq-boost-1m",
@@ -9724,6 +9734,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792731903462",
+      "time": "12:05 - 23/10/2026",
+      "name": "CODE KÍCH HOẠT YOUTUBE PREMIUM 3 THÁNG BẢO HÀNH FULL",
+      "bot": "taphoathomap_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 8,
+      "catKey": "youtube",
+      "msgKey": "▶️CODEKÍCHHOẠTYOUTUBEPREMIUM3THÁNGBẢOHÀNHFULL➕Thêm:8📦Tồnkhohiệntại:8💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1792730605483",
       "time": "11:43 - 23/10/2026",
       "name": "Meitu SVip+ 7 Ngày BHF",
@@ -11060,20 +11081,6 @@
       "catKey": "muse-ai",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐GóiVIP3.APIMUSE-Tạo6250video10s-1ThángBHF➕Thêm:5📦Tồnkhohiệntại:0💰Giá:700.000đ"
-    },
-    {
-      "id": "hist-1792587984129",
-      "time": "20:06 - 21/10/2026",
-      "timestamp": 1792587984129,
-      "name": "Gói VIP 1. API MUSE - Tạo 333 video 10s - 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 0,
-      "addedQty": 10,
-      "price": 110000,
-      "stockAfter": 0,
-      "catKey": "muse-ai",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐GóiVIP1.APIMUSE-Tạo333video10s-1ThángBHF➕Thêm:10📦Tồnkhohiệntại:0💰Giá:100.000đ"
     }
   ]
 }
