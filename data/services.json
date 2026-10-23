@@ -1843,24 +1843,26 @@
         "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
         "price": 260000,
         "cost_price": 230000,
-        "stock": 91,
-        "stock_text": "Còn 91",
+        "stock": 98,
+        "stock_text": "Còn 98",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 91,
+            "stock": 98,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "02:06 21/10/2026"
+            "updated": "00:52 24/10/2026"
           }
         },
         "hidden": false,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 230000
-        }
+          "bot": "@sieuthistore_bot",
+          "cost_price": 230000,
+          "stock": 98
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792581368152",
@@ -10611,6 +10613,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792777979750",
+      "time": "00:52 - 24/10/2026",
+      "name": "ChatGPT Plus (GGPay) 1 Tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 98,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:35📦Tồnkhohiệntại:98💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1792776830127",
       "time": "00:33 - 24/10/2026",
       "name": "Meitu SVip+ 7 Ngày BHF",
@@ -11698,17 +11711,6 @@
       "stockAfter": 5,
       "catKey": "microsoft",
       "msgKey": "⭐ADMINMS365PREMIUM1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792729698165",
-      "time": "11:28 - 23/10/2026",
-      "name": "Netflix Premium Extra 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 2,
-      "catKey": "netflix",
-      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:150.000đ"
     }
   ]
 }
