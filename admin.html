@@ -1180,7 +1180,305 @@
       margin: 3px 0;
     }
 
-  </style>
+  
+    /* ========================================================
+       HỘP GHÉP FAM (FAMILY BOXES & DRAG-AND-DROP SYSTEM)
+       ======================================================== */
+    .order-view-switcher {
+      display: inline-flex;
+      background: var(--input-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 9px;
+      padding: 3px;
+      gap: 4px;
+    }
+    .order-view-pill {
+      border: none;
+      background: transparent;
+      padding: 6px 14px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.18s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .order-view-pill.active {
+      background: var(--card-bg);
+      color: var(--primary);
+      box-shadow: var(--shadow-sm);
+    }
+    .order-view-pill:hover:not(.active) {
+      color: var(--text);
+    }
+
+    /* Layout 2 cột cho Kéo & Thả */
+    .fam-layout-container {
+      display: grid;
+      grid-template-columns: 310px 1fr;
+      gap: 16px;
+      margin-top: 14px;
+      align-items: start;
+    }
+    @media (max-width: 900px) {
+      .fam-layout-container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Cột Đơn Chờ Ghép (Unassigned Orders) */
+    .fam-unassigned-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-height: 80vh;
+      overflow-y: auto;
+      position: sticky;
+      top: 10px;
+    }
+    .fam-unassigned-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 8px;
+    }
+    .fam-unassigned-title {
+      font-size: 13.5px;
+      font-weight: 800;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Thẻ đơn hàng có thể kéo (Draggable Order Card) */
+    .fam-order-card {
+      background: var(--input-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      cursor: grab;
+      user-select: none;
+      transition: all 0.15s ease;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .fam-order-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-sm);
+      background: var(--card-bg);
+    }
+    .fam-order-card:active {
+      cursor: grabbing;
+    }
+    .fam-order-card.is-dragging {
+      opacity: 0.35;
+      transform: scale(0.97);
+      border-style: dashed;
+      border-color: var(--primary);
+    }
+    .fam-order-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .fam-order-id {
+      font-size: 11.5px;
+      font-weight: 800;
+      font-family: ui-monospace, monospace;
+      color: var(--primary);
+    }
+    .fam-order-price {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--emerald);
+    }
+    .fam-order-name {
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.3;
+    }
+    .fam-order-client {
+      font-size: 11px;
+      color: var(--text-muted);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    /* Cột Hộp Fam (Family Boxes Area) */
+    .fam-boxes-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .fam-boxes-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 10px 14px;
+    }
+    .fam-boxes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 14px;
+    }
+
+    /* Card Chiếc Hộp Fam (Box Card) */
+    .fam-box-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.2s ease;
+    }
+    .fam-box-card:hover {
+      box-shadow: var(--shadow-md);
+      border-color: rgba(99, 102, 241, 0.4);
+    }
+    .fam-box-head {
+      background: var(--table-header);
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--card-border);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .fam-box-head-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .fam-box-title {
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .fam-box-meta {
+      font-size: 11px;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    /* Danh sách slot trong Hộp Fam */
+    .fam-slots-list {
+      padding: 10px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      min-height: 140px;
+    }
+    
+    /* Slot đã có đơn */
+    .fam-slot-filled {
+      background: var(--input-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 7px;
+      padding: 8px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      transition: all 0.15s ease;
+      cursor: grab;
+    }
+    .fam-slot-filled:hover {
+      border-color: var(--primary);
+      background: var(--card-bg);
+    }
+    .fam-slot-filled-info {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      min-width: 0;
+      flex: 1;
+    }
+    .fam-slot-client-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .fam-slot-client-sub {
+      font-size: 10.5px;
+      color: var(--text-muted);
+      display: flex;
+      gap: 6px;
+    }
+    .btn-unassign-slot {
+      background: transparent;
+      border: none;
+      color: var(--text-light);
+      cursor: pointer;
+      font-size: 13px;
+      padding: 4px;
+      border-radius: 4px;
+      transition: all 0.15s;
+    }
+    .btn-unassign-slot:hover {
+      background: var(--rose-subtle);
+      color: var(--rose);
+    }
+
+    /* Slot trống Dropzone (Kéo thả vào đây) */
+    .fam-slot-dropzone {
+      border: 2px dashed var(--card-border);
+      border-radius: 7px;
+      padding: 10px;
+      text-align: center;
+      font-size: 11.5px;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: rgba(148, 163, 184, 0.04);
+      cursor: pointer;
+      transition: all 0.18s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+    .fam-slot-dropzone:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+      background: var(--primary-subtle);
+    }
+    .fam-slot-dropzone.drag-hover {
+      border-color: var(--emerald) !important;
+      background: var(--emerald-subtle) !important;
+      color: var(--emerald) !important;
+      transform: scale(1.02);
+      box-shadow: 0 0 10px rgba(16, 185, 129, 0.35);
+    }
+
+</style>
 </head>
 <body>
 
@@ -1495,8 +1793,19 @@
           </p>
         </div>
         <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
+          <div class="order-view-switcher">
+            <button type="button" class="order-view-pill active" id="btnViewFamilyBoxes" onclick="switchOrderView('boxes')">
+              📦 Hộp Ghép Fam (Kéo & Thả)
+            </button>
+            <button type="button" class="order-view-pill" id="btnViewOrderTable" onclick="switchOrderView('table')">
+              📋 Dạng Bảng Danh Sách
+            </button>
+          </div>
+          <button class="btn btn-purple" onclick="openFamilyBoxModal()" style="font-weight:700;">
+            ➕ Tạo Hộp Fam Mới
+          </button>
           <button id="btnOpenCreateOrder" class="btn btn-primary" onclick="openOrderModal()" style="font-weight:700;">
-            ➕ Tạo Đơn Cấp Acc Mới
+            ➕ Tạo Đơn Mới
           </button>
           <button class="btn btn-success" onclick="exportOrdersToExcelCSV()">
             📊 Xuất Excel (CSV)
@@ -1539,55 +1848,153 @@
         </div>
       </div>
 
-      <!-- Thanh Tìm Kiếm & Lọc Đơn Hàng -->
-      <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:14px; align-items:center;">
-        <input type="text" id="inpOrderSearch" class="search-input" style="flex:1; min-width:220px;" placeholder="🔍 Tìm theo Mã đơn, Email cấp khách, Tên gói, Sale..." oninput="renderOrdersTable()" />
-        <select id="selOrderFilterStatus" class="form-control" style="width:160px;" onchange="renderOrdersTable()">
-          <option value="">Tất cả trạng thái</option>
-          <option value="Đang hoạt động">✅ Đang hoạt động</option>
-          <option value="Đã hết hạn">⏳ Đã hết hạn</option>
-          <option value="Bảo hành/Đổi acc">🔄 Đổi acc / BH</option>
-          <option value="Đã hủy/Hoàn">❌ Hủy / Hoàn</option>
-        </select>
-        <select id="selOrderFilterSale" class="form-control" style="width:140px;" onchange="renderOrdersTable()">
-          <option value="">Tất cả Sale</option>
-        </select>
-        <select id="selOrderSort" class="form-control" style="width:195px; font-weight:600;" onchange="renderOrdersTable()">
-          <option value="date_desc">📅 Ngày thêm: Mới nhất trước</option>
-          <option value="date_asc">📅 Ngày thêm: Cũ nhất trước</option>
-          <option value="expire_asc">⏳ Hạn dùng: Sắp hết hạn</option>
-          <option value="price_desc">💵 Giá tiền: Cao nhất</option>
-          <option value="id_desc">🔢 Mã đơn: Mới nhất</option>
-        </select>
+      <!-- CHẾ ĐỘ 1: HỘP GHÉP FAM (KÉO & THẢ) -->
+      <div id="orderFamilyBoxView">
+        <div class="fam-layout-container">
+          <!-- CỘT TRÁI: ĐƠN CHỜ GHÉP VÀO FAM -->
+          <div class="fam-unassigned-panel">
+            <div class="fam-unassigned-head">
+              <div class="fam-unassigned-title">
+                <span>📥 Đơn Chờ Ghép Fam</span>
+                <span id="badgeUnassignedCount" class="badge badge-warning" style="font-size:11px;">0</span>
+              </div>
+            </div>
+            <input type="text" id="inpFamUnassignedSearch" class="search-input" placeholder="🔍 Tìm đơn chờ ghép..." oninput="renderFamilyBoxesView()" style="font-size:12px; padding:6px 10px;" />
+            <div id="famUnassignedList" style="display:flex; flex-direction:column; gap:8px;"></div>
+          </div>
+
+          <!-- CỘT PHẢI: CÁC CHIẾC HỘP FAM -->
+          <div class="fam-boxes-panel">
+            <div class="fam-boxes-toolbar">
+              <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                <span style="font-size:13px; font-weight:800; color:var(--text);">Các Hộp Family:</span>
+                <select id="selFamFilterCat" class="form-control" style="width:170px; font-size:12px; padding:4px 8px;" onchange="renderFamilyBoxesView()">
+                  <option value="all">🌟 Tất cả dịch vụ</option>
+                  <option value="YouTube Premium">📺 YouTube Premium</option>
+                  <option value="Netflix">🍿 Netflix Premium</option>
+                  <option value="Spotify">🎵 Spotify Family</option>
+                  <option value="Canva">🎨 Canva Team</option>
+                  <option value="Office 365">💼 Office 365</option>
+                </select>
+              </div>
+              <div style="display:flex; align-items:center; gap:10px; font-size:12px; color:var(--text-muted);">
+                <span>📦 <strong id="lblTotalFamCount" style="color:var(--text);">0</strong> Hộp Fam</span>
+                <span>•</span>
+                <span>👥 <strong id="lblTotalFilledSlots" style="color:var(--emerald);">0</strong> đã ghép</span>
+                <span>•</span>
+                <span>🟢 <strong id="lblTotalEmptySlots" style="color:var(--primary);">0</strong> slot trống</span>
+              </div>
+            </div>
+            <div id="famBoxesGrid" class="fam-boxes-grid"></div>
+          </div>
+        </div>
       </div>
 
-      <!-- Bảng Đơn Hàng -->
-      <div style="overflow-x:auto;">
-        <table class="custom-table" id="ordersTable">
-          <thead>
-            <tr>
-              <th>Mã Đơn</th>
-              <th style="cursor:pointer; user-select:none;" onclick="toggleOrderDateSort()" title="Bấm để đảo chiều sắp xếp Ngày Mua">Ngày Mua <span id="sortDateIcon" style="font-size:11px; color:var(--primary); margin-left:3px;">▼</span></th>
-              <th>Sản Phẩm / Gói</th>
-              <th>Tài Khoản Gmail Cấp</th>
-              <th>Mật Khẩu & 2FA</th>
-              <th>Hết Hạn</th>
-              <th>Tiền Thu</th>
-              <th>Shop Lời</th>
-              <th>Hoa Hồng Sale</th>
-              <th>Sale</th>
-              <th>Trạng Thái</th>
-              <th style="text-align:right;">Thao Tác</th>
-            </tr>
-          </thead>
-          <tbody id="ordersTableBody"></tbody>
-        </table>
+      <!-- CHẾ ĐỘ 2: BẢNG ĐƠN HÀNG TRUYỀN THỐNG -->
+      <div id="orderTableView" style="display:none;">
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:14px; align-items:center;">
+          <input type="text" id="inpOrderSearch" class="search-input" style="flex:1; min-width:220px;" placeholder="🔍 Tìm theo Mã đơn, Email cấp khách, Tên gói, Sale..." oninput="renderOrdersTable()" />
+          <select id="selOrderFilterStatus" class="form-control" style="width:160px;" onchange="renderOrdersTable()">
+            <option value="">Tất cả trạng thái</option>
+            <option value="Đang hoạt động">✅ Đang hoạt động</option>
+            <option value="Đã hết hạn">⏳ Đã hết hạn</option>
+            <option value="Bảo hành/Đổi acc">🔄 Đổi acc / BH</option>
+            <option value="Đã hủy/Hoàn">❌ Hủy / Hoàn</option>
+          </select>
+          <select id="selOrderFilterSale" class="form-control" style="width:140px;" onchange="renderOrdersTable()">
+            <option value="">Tất cả Sale</option>
+          </select>
+          <select id="selOrderSort" class="form-control" style="width:195px; font-weight:600;" onchange="renderOrdersTable()">
+            <option value="date_desc">📅 Ngày thêm: Mới nhất trước</option>
+            <option value="date_asc">📅 Ngày thêm: Cũ nhất trước</option>
+            <option value="expire_asc">⏳ Hạn dùng: Sắp hết hạn</option>
+            <option value="price_desc">💵 Giá tiền: Cao nhất</option>
+            <option value="id_desc">🔢 Mã đơn: Mới nhất</option>
+          </select>
+        </div>
+
+        <div style="overflow-x:auto;">
+          <table class="custom-table" id="ordersTable">
+            <thead>
+              <tr>
+                <th>Mã Đơn</th>
+                <th style="cursor:pointer; user-select:none;" onclick="toggleOrderDateSort()" title="Bấm để đảo chiều sắp xếp Ngày Mua">Ngày Mua <span id="sortDateIcon" style="font-size:11px; color:var(--primary); margin-left:3px;">▼</span></th>
+                <th>Sản Phẩm / Gói</th>
+                <th>Tài Khoản Gmail Cấp</th>
+                <th>Mật Khẩu & 2FA</th>
+                <th>Hết Hạn</th>
+                <th>Tiền Thu</th>
+                <th>Shop Lời</th>
+                <th>Hoa Hồng Sale</th>
+                <th>Sale</th>
+                <th>Trạng Thái</th>
+                <th style="text-align:right;">Thao Tác</th>
+              </tr>
+            </thead>
+            <tbody id="ordersTableBody"></tbody>
+          </table>
+        </div>
       </div>
     </div>
   </main>
 
   <!-- MODAL: SỬA HÀNG LOẠT -->
-  <div class="modal-overlay" id="bulkModal">
+  
+  <!-- MODAL: TẠO / CHỈNH SỬA HỘP FAM -->
+  <div class="modal-overlay" id="familyBoxModal">
+    <div class="modal-content" style="max-width:480px;">
+      <div class="modal-header">
+        <h3 id="famModalTitle">📦 Tạo Hộp Family Mới</h3>
+        <button class="btn btn-outline" style="padding:4px 8px;" onclick="closeFamilyBoxModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <form onsubmit="saveFamilyBoxEntry(event)">
+          <input type="hidden" id="inpFamId" value="" />
+          <div class="form-group">
+            <label class="form-label">Tên Hộp Fam (*):</label>
+            <input type="text" id="inpFamName" class="form-control" placeholder="Ví dụ: YouTube Fam #01, Netflix 4 Màn #01..." required />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Phân Loại Dịch Vụ:</label>
+              <select id="selFamCategory" class="form-control">
+                <option value="YouTube Premium">📺 YouTube Premium (5 Slot)</option>
+                <option value="Netflix">🍿 Netflix Premium (4 Màn)</option>
+                <option value="Spotify">🎵 Spotify Family (5-6 Slot)</option>
+                <option value="Canva">🎨 Canva Team</option>
+                <option value="Office 365">💼 Microsoft 365 Family</option>
+                <option value="Khác">📦 Dịch vụ khác</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Số Slot Tối Đa (*):</label>
+              <input type="number" id="inpFamMaxSlots" class="form-control" value="5" min="1" max="50" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Tài Khoản Email Chủ Fam:</label>
+              <input type="email" id="inpFamAdminEmail" class="form-control" placeholder="admin.fam@gmail.com" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Ngày Hết Hạn Fam:</label>
+              <input type="text" id="inpFamExpireDate" class="form-control" placeholder="DD/MM/YYYY" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Ghi Chú Nội Bộ / Mật khẩu chủ:</label>
+            <input type="text" id="inpFamNote" class="form-control" placeholder="Ghi chú nguồn mua bot, pass..." />
+          </div>
+          <div style="display:flex; justify-content:flex-end; gap:8px; margin-top:16px;">
+            <button type="button" class="btn btn-outline" onclick="closeFamilyBoxModal()">Hủy</button>
+            <button type="submit" class="btn btn-primary" style="font-weight:700;">💾 Lưu Hộp Fam</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<div class="modal-overlay" id="bulkModal">
     <div class="modal-content" style="max-width:500px;">
       <div class="modal-header">
         <h3>⚡ Chỉnh Sửa Hàng Loạt (Bulk Adjuster)</h3>
@@ -3789,6 +4196,9 @@
             } else {
               ordersData = [];
             }
+          } else if (raw && typeof raw === 'object' && raw.orders) {
+            ordersData = raw.orders || [];
+            familyBoxesData = raw.family_boxes || [];
           } else if (Array.isArray(raw)) {
             ordersData = raw;
           } else {
@@ -3801,12 +4211,21 @@
         console.warn('Chưa có file orders.json trên host, thử nạp localStorage:', e);
         const cached = localStorage.getItem('qb_orders_data');
         if (cached) {
-          try { ordersData = JSON.parse(cached); } catch(err) { ordersData = []; }
+          try { 
+            const parsed = JSON.parse(cached);
+            if (Array.isArray(parsed)) { ordersData = parsed; }
+            else if (parsed && parsed.orders) { ordersData = parsed.orders; familyBoxesData = parsed.family_boxes || []; }
+          } catch(err) { ordersData = []; }
+        }
+        const cachedFam = localStorage.getItem('qb_family_boxes_data');
+        if (cachedFam && (!familyBoxesData || familyBoxesData.length === 0)) {
+          try { familyBoxesData = JSON.parse(cachedFam); } catch(e) {}
         }
       }
       if (!Array.isArray(ordersData)) ordersData = [];
       updateOrdersStats();
       renderOrdersTable();
+      renderFamilyBoxesView();
       populateOrderPlanSelect();
     }
 
@@ -4312,6 +4731,494 @@
       if (lblCust) lblCust.innerText = cust.toLocaleString('vi-VN') + 'đ';
     }
 
+    
+    /* ========================================================
+       LOGIC HỘP GHÉP FAM (FAMILY BOXES SYSTEM)
+       ======================================================== */
+    let familyBoxesData = [];
+    let currentOrderView = 'boxes'; // 'boxes' hoặc 'table'
+    let draggedOrderId = null;
+
+    function switchOrderView(view) {
+      currentOrderView = view;
+      const btnBoxes = document.getElementById('btnViewFamilyBoxes');
+      const btnTable = document.getElementById('btnViewOrderTable');
+      const boxView = document.getElementById('orderFamilyBoxView');
+      const tableView = document.getElementById('orderTableView');
+
+      if (view === 'boxes') {
+        if (btnBoxes) btnBoxes.classList.add('active');
+        if (btnTable) btnTable.classList.remove('active');
+        if (boxView) boxView.style.display = 'block';
+        if (tableView) tableView.style.display = 'none';
+        renderFamilyBoxesView();
+      } else {
+        if (btnBoxes) btnBoxes.classList.remove('active');
+        if (btnTable) btnTable.classList.add('active');
+        if (boxView) boxView.style.display = 'none';
+        if (tableView) tableView.style.display = 'block';
+        renderOrdersTable();
+      }
+    }
+
+    function ensureDefaultFamilyBoxes() {
+      if (!familyBoxesData || familyBoxesData.length === 0) {
+        familyBoxesData = [
+          {
+            id: 'fam-ytb-01',
+            name: 'YouTube Fam #01',
+            category: 'YouTube Premium',
+            admin_email: 'chufam.ytb1@gmail.com',
+            expire_date: '28/11/2026',
+            max_slots: 5,
+            note: 'Fam chủ mua @ntnshopre_bot'
+          },
+          {
+            id: 'fam-ytb-02',
+            name: 'YouTube Fam #02',
+            category: 'YouTube Premium',
+            admin_email: 'chufam.ytb2@gmail.com',
+            expire_date: '15/12/2026',
+            max_slots: 5,
+            note: 'Fam chủ mua @piggyai99_bot'
+          },
+          {
+            id: 'fam-nflx-01',
+            name: 'Netflix 4 Màn #01',
+            category: 'Netflix',
+            admin_email: 'netflix.acc1@gmail.com',
+            expire_date: '20/11/2026',
+            max_slots: 4,
+            note: 'Tài khoản Premium 4K'
+          }
+        ];
+        localStorage.setItem('qb_family_boxes_data', JSON.stringify(familyBoxesData));
+      }
+    }
+
+    function renderFamilyBoxesView() {
+      ensureDefaultFamilyBoxes();
+      const unassignedContainer = document.getElementById('famUnassignedList');
+      const gridContainer = document.getElementById('famBoxesGrid');
+      if (!unassignedContainer || !gridContainer) return;
+
+      const unassignedSearch = (document.getElementById('inpFamUnassignedSearch')?.value || '').toLowerCase().trim();
+      const filterCat = document.getElementById('selFamFilterCat')?.value || 'all';
+
+      // 1. Phân loại đơn: Đơn chưa vào Fam vs Đơn đã vào Fam
+      const unassignedOrders = [];
+      const famAssignedMap = {}; // famId -> array of orders
+      familyBoxesData.forEach(fam => { famAssignedMap[fam.id] = []; });
+
+      ordersData.forEach(order => {
+        if (order.family_id && famAssignedMap[order.family_id]) {
+          famAssignedMap[order.family_id].push(order);
+        } else {
+          unassignedOrders.push(order);
+        }
+      });
+
+      // Render Cột Đơn Chờ Ghép
+      const badgeUnassigned = document.getElementById('badgeUnassignedCount');
+      if (badgeUnassigned) badgeUnassigned.innerText = unassignedOrders.length;
+
+      const filteredUnassigned = unassignedOrders.filter(o => {
+        if (!unassignedSearch) return true;
+        const s = `${o.id} ${o.plan_name} ${o.account}`.toLowerCase();
+        return s.includes(unassignedSearch);
+      });
+
+      if (filteredUnassigned.length === 0) {
+        unassignedContainer.innerHTML = `
+          <div style="text-align:center; padding:30px 10px; color:var(--text-muted); font-size:12px;">
+            <div style="font-size:24px; margin-bottom:6px;">🎉</div>
+            ${unassignedSearch ? 'Không tìm thấy đơn nào khớp từ khóa' : 'Tuyệt vời! Toàn bộ đơn hàng đã được nhét vào các Hộp Fam.'}
+          </div>
+        `;
+      } else {
+        unassignedContainer.innerHTML = filteredUnassigned.map(o => {
+          return `
+            <div class="fam-order-card" draggable="true" ondragstart="onOrderDragStart(event, '${o.id}')" ondragend="onOrderDragEnd(event)">
+              <div class="fam-order-card-top">
+                <span class="fam-order-id">⠿ ${o.id}</span>
+                <span class="fam-order-price">${Number(o.customer_price || 0).toLocaleString('vi-VN')}đ</span>
+              </div>
+              <div class="fam-order-name">${o.plan_name}</div>
+              <div class="fam-order-client">👤 ${o.account || 'Chưa điền email'}</div>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-top:4px;">
+                <span style="font-size:10px; color:var(--text-light);">⏳ Hạn: ${o.expire_date || 'Chưa set'}</span>
+                <select class="form-control" style="font-size:10.5px; padding:2px 6px; width:auto;" onchange="quickAssignOrderToFam('${o.id}', this.value)">
+                  <option value="">Ghép Fam ▾</option>
+                  ${familyBoxesData.map(f => `<option value="${f.id}">${f.name}</option>`).join('')}
+                </select>
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+
+      // 2. Render Cột Các Chiếc Hộp Fam
+      const visibleFams = familyBoxesData.filter(f => {
+        if (filterCat !== 'all' && f.category !== filterCat) return false;
+        return true;
+      });
+
+      let totalFilled = 0;
+      let totalEmpty = 0;
+
+      familyBoxesData.forEach(f => {
+        const assigned = famAssignedMap[f.id] || [];
+        totalFilled += assigned.length;
+        totalEmpty += Math.max(0, (f.max_slots || 5) - assigned.length);
+      });
+
+      const lblFamCount = document.getElementById('lblTotalFamCount');
+      if (lblFamCount) lblFamCount.innerText = familyBoxesData.length;
+      const lblFilled = document.getElementById('lblTotalFilledSlots');
+      if (lblFilled) lblFilled.innerText = totalFilled;
+      const lblEmpty = document.getElementById('lblTotalEmptySlots');
+      if (lblEmpty) lblEmpty.innerText = totalEmpty;
+
+      if (visibleFams.length === 0) {
+        gridContainer.innerHTML = `
+          <div style="grid-column:1/-1; text-align:center; padding:40px; color:var(--text-muted); background:var(--card-bg); border-radius:var(--radius); border:1px solid var(--card-border);">
+            <div style="font-size:28px; margin-bottom:8px;">📦</div>
+            <div style="font-size:14px; color:var(--text); font-weight:700;">Chưa có Hộp Fam nào</div>
+            <p style="font-size:12px; margin-top:4px;">Bấm nút bên trên để tạo Hộp Fam đầu tiên (ví dụ: YouTube Fam #01)</p>
+            <button class="btn btn-purple" style="margin-top:12px; font-weight:700;" onclick="openFamilyBoxModal()">➕ Tạo Hộp Fam Ngay</button>
+          </div>
+        `;
+        return;
+      }
+
+      gridContainer.innerHTML = visibleFams.map(fam => {
+        const assigned = famAssignedMap[fam.id] || [];
+        const maxSlots = fam.max_slots || 5;
+        const emptyCount = Math.max(0, maxSlots - assigned.length);
+        const isFull = emptyCount === 0;
+
+        let slotBadgeClass = 'badge-in';
+        let slotStatusText = `${assigned.length} / ${maxSlots} Slot`;
+        if (isFull) {
+          slotBadgeClass = 'badge-out';
+          slotStatusText = `ĐÃ ĐẦY (${assigned.length}/${maxSlots})`;
+        } else if (emptyCount === 1) {
+          slotBadgeClass = 'badge-warning';
+          slotStatusText = `Còn 1 slot (${assigned.length}/${maxSlots})`;
+        }
+
+        // Tạo danh sách các slot
+        let slotsHtml = '';
+        assigned.forEach((order, sIdx) => {
+          slotsHtml += `
+            <div class="fam-slot-filled" draggable="true" ondragstart="onOrderDragStart(event, '${order.id}')" ondragend="onOrderDragEnd(event)">
+              <div class="fam-slot-filled-info">
+                <div class="fam-slot-client-title">👤 Slot ${sIdx + 1}: ${order.account || order.id}</div>
+                <div class="fam-slot-client-sub">
+                  <span>#${order.id}</span>
+                  <span>•</span>
+                  <span>${order.plan_name}</span>
+                  <span>•</span>
+                  <span>${Number(order.customer_price || 0).toLocaleString('vi-VN')}đ</span>
+                </div>
+              </div>
+              <button class="btn-unassign-slot" onclick="unassignOrderFromFamily('${order.id}')" title="Rút đơn này ra khỏi Hộp Fam">✕</button>
+            </div>
+          `;
+        });
+
+        // Tạo các slot trống có hỗ trợ Dropzone
+        for (let i = 0; i < emptyCount; i++) {
+          const slotNum = assigned.length + i + 1;
+          slotsHtml += `
+            <div class="fam-slot-dropzone" 
+                 ondragover="onFamSlotDragOver(event)" 
+                 ondragleave="onFamSlotDragLeave(event)" 
+                 ondrop="onFamSlotDrop(event, '${fam.id}', ${slotNum})"
+                 onclick="openCreateOrderForFam('${fam.id}')"
+                 title="Kéo thả đơn hàng vào đây hoặc bấm để tạo đơn mới nhét vào slot">
+              <span>📥 Thả đơn vào Slot ${slotNum}</span>
+            </div>
+          `;
+        }
+
+        const catIcon = fam.category === 'YouTube Premium' ? '📺' : (fam.category === 'Netflix' ? '🍿' : (fam.category === 'Spotify' ? '🎵' : (fam.category === 'Canva' ? '🎨' : '📦')));
+
+        return `
+          <div class="fam-box-card" id="fam-card-${fam.id}">
+            <div class="fam-box-head">
+              <div class="fam-box-head-row">
+                <div class="fam-box-title">
+                  <span>${catIcon}</span>
+                  <span>${fam.name}</span>
+                </div>
+                <span class="badge ${slotBadgeClass}" style="font-size:11px;">${slotStatusText}</span>
+              </div>
+              <div class="fam-box-meta">
+                <span>🔑 <strong>${fam.admin_email || 'Chưa có email chủ'}</strong></span>
+                <span>•</span>
+                <span>⏳ Hạn: <strong>${fam.expire_date || 'Chưa set'}</strong></span>
+              </div>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-top:2px;">
+                <span style="font-size:10.5px; color:var(--text-muted);">${fam.note || ''}</span>
+                <div style="display:flex; gap:4px;">
+                  <button class="btn btn-outline" style="padding:2px 6px; font-size:10.5px;" onclick="copyFamilyClientEmails('${fam.id}')" title="Sao chép toàn bộ email khách trong Fam này để gửi mời Fam">📋 Copy Email</button>
+                  <button class="btn btn-outline" style="padding:2px 6px; font-size:10.5px;" onclick="openFamilyBoxModal('${fam.id}')" title="Sửa thông tin Hộp Fam">✏️ Sửa</button>
+                  <button class="btn btn-outline" style="padding:2px 6px; font-size:10.5px; color:var(--rose);" onclick="deleteFamilyBox('${fam.id}')" title="Xóa Hộp Fam này">🗑️</button>
+                </div>
+              </div>
+            </div>
+            <div class="fam-slots-list" ondragover="onFamSlotDragOver(event)" ondragleave="onFamSlotDragLeave(event)" ondrop="onFamSlotDrop(event, '${fam.id}')">
+              ${slotsHtml}
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      populateFamilySelectInModal();
+    }
+
+    // XỬ LÝ KÉO & THẢ (DRAG & DROP EVENTS)
+    function onOrderDragStart(e, orderId) {
+      draggedOrderId = orderId;
+      e.dataTransfer.setData('text/plain', orderId);
+      e.dataTransfer.effectAllowed = 'move';
+      if (e.target) e.target.classList.add('is-dragging');
+    }
+
+    function onOrderDragEnd(e) {
+      draggedOrderId = null;
+      if (e.target) e.target.classList.remove('is-dragging');
+      document.querySelectorAll('.fam-slot-dropzone.drag-hover').forEach(el => el.classList.remove('drag-hover'));
+    }
+
+    function onFamSlotDragOver(e) {
+      e.preventDefault();
+      e.dataTransfer.dropEffect = 'move';
+      const dropzone = e.target.closest('.fam-slot-dropzone') || e.target.closest('.fam-slots-list');
+      if (dropzone && !dropzone.classList.contains('drag-hover')) {
+        dropzone.classList.add('drag-hover');
+      }
+    }
+
+    function onFamSlotDragLeave(e) {
+      const dropzone = e.target.closest('.fam-slot-dropzone') || e.target.closest('.fam-slots-list');
+      if (dropzone) {
+        dropzone.classList.remove('drag-hover');
+      }
+    }
+
+    async function onFamSlotDrop(e, famId, slotNum = null) {
+      e.preventDefault();
+      document.querySelectorAll('.drag-hover').forEach(el => el.classList.remove('drag-hover'));
+      const orderId = e.dataTransfer.getData('text/plain') || draggedOrderId;
+      if (!orderId || !famId) return;
+
+      const order = ordersData.find(o => o.id === orderId);
+      const fam = familyBoxesData.find(f => f.id === famId);
+      if (!order || !fam) return;
+
+      // Kiểm tra xem Fam có đầy chưa
+      const currentAssigned = ordersData.filter(o => o.family_id === famId && o.id !== orderId);
+      if (currentAssigned.length >= (fam.max_slots || 5)) {
+        showToast(`⚠️ [${fam.name}] đã đầy (${fam.max_slots} slot)! Không thể nhét thêm.`, 'warning');
+        return;
+      }
+
+      order.family_id = famId;
+      order.family_slot = slotNum || (currentAssigned.length + 1);
+
+      showToast(`🎉 Đã nhét đơn ${order.id} vào [${fam.name}]!`, 'success');
+      renderFamilyBoxesView();
+      renderOrdersTable();
+      saveOrdersDirectToGitHub(true, `Nhét đơn ${order.id} vào Hộp ${fam.name}`);
+    }
+
+    function quickAssignOrderToFam(orderId, famId) {
+      if (!famId) return;
+      const order = ordersData.find(o => o.id === orderId);
+      const fam = familyBoxesData.find(f => f.id === famId);
+      if (!order || !fam) return;
+
+      const currentAssigned = ordersData.filter(o => o.family_id === famId && o.id !== orderId);
+      if (currentAssigned.length >= (fam.max_slots || 5)) {
+        showToast(`⚠️ [${fam.name}] đã đầy (${fam.max_slots} slot)!`, 'warning');
+        return;
+      }
+
+      order.family_id = famId;
+      showToast(`🎉 Đã nhét đơn ${order.id} vào [${fam.name}]!`, 'success');
+      renderFamilyBoxesView();
+      renderOrdersTable();
+      saveOrdersDirectToGitHub(true, `Nhét đơn ${order.id} vào Hộp ${fam.name}`);
+    }
+
+    function unassignOrderFromFamily(orderId) {
+      const order = ordersData.find(o => o.id === orderId);
+      if (!order) return;
+      order.family_id = '';
+      order.family_slot = null;
+      showToast(`Đã rút đơn ${order.id} ra khỏi Hộp Fam!`, 'info');
+      renderFamilyBoxesView();
+      renderOrdersTable();
+      saveOrdersDirectToGitHub(true, `Rút đơn ${order.id} khỏi Hộp Fam`);
+    }
+
+    function copyFamilyClientEmails(famId) {
+      const fam = familyBoxesData.find(f => f.id === famId);
+      if (!fam) return;
+      const assigned = ordersData.filter(o => o.family_id === famId);
+      const emails = assigned.map(o => o.account).filter(a => !!a && a.includes('@'));
+      if (emails.length === 0) {
+        showToast('Chưa có email khách nào trong Fam này!', 'info');
+        return;
+      }
+      const textToCopy = emails.join('\n');
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        showToast(`📋 Đã copy ${emails.length} email khách trong [${fam.name}] vào Clipboard!`, 'success');
+      }).catch(() => {
+        prompt('Copy danh sách email:', textToCopy);
+      });
+    }
+
+    function openCreateOrderForFam(famId) {
+      openOrderModal();
+      const sel = document.getElementById('selOrderFamilyId');
+      if (sel) sel.value = famId;
+    }
+
+    // CRUD HỘP FAM
+    function openFamilyBoxModal(famId = null) {
+      const modal = document.getElementById('familyBoxModal');
+      if (!modal) return;
+      const inpId = document.getElementById('inpFamId');
+      const inpName = document.getElementById('inpFamName');
+      const selCat = document.getElementById('selFamCategory');
+      const inpEmail = document.getElementById('inpFamAdminEmail');
+      const inpExp = document.getElementById('inpFamExpireDate');
+      const inpSlots = document.getElementById('inpFamMaxSlots');
+      const inpNote = document.getElementById('inpFamNote');
+      const title = document.getElementById('famModalTitle');
+
+      if (famId) {
+        const fam = familyBoxesData.find(f => f.id === famId);
+        if (fam) {
+          title.innerText = '✏️ Chỉnh Sửa Hộp Fam: ' + fam.name;
+          inpId.value = fam.id;
+          inpName.value = fam.name || '';
+          selCat.value = fam.category || 'YouTube Premium';
+          inpEmail.value = fam.admin_email || '';
+          inpExp.value = fam.expire_date || '';
+          inpSlots.value = fam.max_slots || 5;
+          inpNote.value = fam.note || '';
+        }
+      } else {
+        title.innerText = '📦 Tạo Hộp Family Mới';
+        inpId.value = '';
+        inpName.value = `YouTube Fam #${String(familyBoxesData.length + 1).padStart(2, '0')}`;
+        selCat.value = 'YouTube Premium';
+        inpEmail.value = '';
+        inpExp.value = '';
+        inpSlots.value = '5';
+        inpNote.value = '';
+      }
+
+      modal.classList.add('active');
+      modal.style.display = 'flex';
+    }
+
+    function closeFamilyBoxModal() {
+      const modal = document.getElementById('familyBoxModal');
+      if (modal) {
+        modal.classList.remove('active');
+        modal.style.display = 'none';
+      }
+    }
+
+    function saveFamilyBoxEntry(e) {
+      if (e) e.preventDefault();
+      const id = document.getElementById('inpFamId').value;
+      const name = (document.getElementById('inpFamName').value || '').trim();
+      const cat = document.getElementById('selFamCategory').value;
+      const email = (document.getElementById('inpFamAdminEmail').value || '').trim();
+      const exp = (document.getElementById('inpFamExpireDate').value || '').trim();
+      const slots = parseInt(document.getElementById('inpFamMaxSlots').value, 10) || 5;
+      const note = (document.getElementById('inpFamNote').value || '').trim();
+
+      if (!name) {
+        showToast('Vui lòng nhập tên Hộp Fam!', 'warning');
+        return;
+      }
+
+      if (id) {
+        const fam = familyBoxesData.find(f => f.id === id);
+        if (fam) {
+          fam.name = name;
+          fam.category = cat;
+          fam.admin_email = email;
+          fam.expire_date = exp;
+          fam.max_slots = slots;
+          fam.note = note;
+          showToast(`Đã cập nhật Hộp Fam [${name}]!`, 'success');
+        }
+      } else {
+        const newFam = {
+          id: 'fam-' + Date.now(),
+          name: name,
+          category: cat,
+          admin_email: email,
+          expire_date: exp,
+          max_slots: slots,
+          note: note
+        };
+        familyBoxesData.push(newFam);
+        showToast(`Đã tạo Hộp Fam [${name}] thành công!`, 'success');
+      }
+
+      localStorage.setItem('qb_family_boxes_data', JSON.stringify(familyBoxesData));
+      closeFamilyBoxModal();
+      renderFamilyBoxesView();
+      saveOrdersDirectToGitHub(true, `Cập nhật danh sách Hộp Fam (${name})`);
+    }
+
+    function deleteFamilyBox(famId) {
+      const fam = familyBoxesData.find(f => f.id === famId);
+      if (!fam) return;
+      if (!confirm(`Bạn có chắc chắn muốn xóa Hộp Fam "${fam.name}"? Các đơn trong hộp này sẽ trở về trạng thái đơn lẻ.`)) return;
+
+      // Hủy gán fam_id cho các đơn
+      ordersData.forEach(o => {
+        if (o.family_id === famId) {
+          o.family_id = '';
+          o.family_slot = null;
+        }
+      });
+
+      familyBoxesData = familyBoxesData.filter(f => f.id !== famId);
+      localStorage.setItem('qb_family_boxes_data', JSON.stringify(familyBoxesData));
+      showToast(`Đã xóa Hộp Fam "${fam.name}"!`, 'info');
+      renderFamilyBoxesView();
+      renderOrdersTable();
+      saveOrdersDirectToGitHub(true, `Đã xóa Hộp Fam ${fam.name}`);
+    }
+
+    function populateFamilySelectInModal() {
+      const sel = document.getElementById('selOrderFamilyId');
+      if (!sel) return;
+      const cur = sel.value;
+      sel.innerHTML = '<option value="">-- Đơn lẻ / Chưa vào Fam --</option>';
+
+      familyBoxesData.forEach(fam => {
+        const assigned = ordersData.filter(o => o.family_id === fam.id);
+        const emptyCount = Math.max(0, (fam.max_slots || 5) - assigned.length);
+        const opt = document.createElement('option');
+        opt.value = fam.id;
+        opt.innerText = `${fam.name} (${assigned.length}/${fam.max_slots || 5} slot - còn ${emptyCount} chỗ)`;
+        if (fam.id === cur) opt.selected = true;
+        sel.appendChild(opt);
+      });
+    }
+
     function openOrderModal(idx = -1) {
       const orderM = document.getElementById('orderModal');
       if (orderM) {
@@ -4355,6 +5262,8 @@
           document.getElementById('inpOrderSaleCommission').value = o.sale_commission || 0;
           document.getElementById('inpOrderSaleName').value = o.sale_name || 'Admin';
           document.getElementById('selOrderStatus').value = o.status || '✅ Đang hoạt động';
+          const selFam = document.getElementById('selOrderFamilyId');
+          if (selFam) selFam.value = o.family_id || '';
         } else {
           document.getElementById('orderModalTitle').innerText = '📦 Cấp Tài Khoản Đơn Hàng Mới';
           
@@ -4432,6 +5341,9 @@
 
       const shopProfit = Math.max(0, custPrice - saleComm);
 
+      const selFam = document.getElementById('selOrderFamilyId');
+      const famId = selFam ? selFam.value : '';
+
       const newOrder = {
         id: id,
         date: date,
@@ -4444,7 +5356,8 @@
         shop_profit: shopProfit,
         sale_commission: saleComm,
         sale_name: saleName,
-        status: status
+        status: status,
+        family_id: famId
       };
 
       if (idx >= 0 && ordersData[idx]) {
@@ -4491,8 +5404,9 @@
           sha = fileData.sha;
         }
 
-        // Mã hóa bảo mật AES-256 GCM trước khi gửi lên GitHub
-        const secureVault = await encryptOrderVault(ordersData, pin);
+        // Mã hóa bảo mật AES-256 GCM trước khi gửi lên GitHub (kèm cả Hộp Fam)
+        const vaultPayload = { orders: ordersData, family_boxes: familyBoxesData };
+        const secureVault = await encryptOrderVault(vaultPayload, pin);
         const newContent = btoa(unescape(encodeURIComponent(JSON.stringify(secureVault, null, 2))));
         const payload = {
           message: successMsg || '🛡️ Admin Pro Live: Cập nhật quản lý đơn hàng (Mã hóa AES-256 GCM)',
@@ -4513,6 +5427,7 @@
         if (!putRes.ok) throw new Error(`HTTP ${putRes.status}`);
 
         localStorage.setItem('qb_orders_data', JSON.stringify(ordersData));
+        localStorage.setItem('qb_family_boxes_data', JSON.stringify(familyBoxesData));
         if (!isSilent) {
           showToast("🔒 Đã lưu & MÃ HÓA AN TOÀN toàn bộ đơn hàng lên GitHub!", "success");
         }
