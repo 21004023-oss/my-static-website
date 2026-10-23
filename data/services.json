@@ -9955,11 +9955,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792744209660",
+        "name": "MUSE AI 1B TOKEN BẢO HÀNH ACITVE",
+        "price": 25000,
+        "cost_price": 15000,
+        "stock": 169,
+        "stock_text": "Còn 169",
+        "duration": "1 Tháng",
+        "detail": "Muse AI 1 Billion tokens - No warranty\n- Format: email\n- Email access: https://generator.email\n- Add the mail at the end of the link to read mailbox (ex: https://generator.email/abcd@mail.com)\n=========\nMuse AI 1 tỷ tokens - không bảo hành\n- Định dạng: email\n- Email access: https://generator.email\n- Thêm mail cần đọc vào cuối link trên (ví dụ: https://generator.email/abcd@mail.com)",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 169,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "15:30 23/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 15000,
+          "stock": 169
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792744209660",
+      "time": "15:30 - 23/10/2026",
+      "name": "MUSE AI 1B TOKEN BẢO HÀNH ACITVE",
+      "bot": "ntnshopre_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 169,
+      "catKey": "khac",
+      "msgKey": "⭐MUSEAI1BTOKENBẢOHÀNHACITVE➕Thêm:1📦Tồnkhohiệntại:169💰Giá:15.000đ"
+    },
     {
       "id": "hist-1792743758061",
       "time": "15:22 - 23/10/2026",
@@ -11240,20 +11277,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:64📦Tồnkhohiệntại:51💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1792602048980",
-      "time": "00:00 - 22/10/2026",
-      "timestamp": 1792602048980,
-      "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
-      "bot": "taphoathomap_bot",
-      "shopStock": 1069,
-      "addedQty": 1000,
-      "price": 12000,
-      "stockAfter": 1069,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH➕Thêm:1000📦Tồnkhohiệntại:1069💰Giá:2.000đ"
     }
   ]
 }
