@@ -5512,18 +5512,18 @@
         "id": "p-1791873309021",
         "name": "Gmail Random ip 2020-2024",
         "price": 55000,
-        "stock": 200,
-        "stock_text": "Còn 200",
+        "stock": 110,
+        "stock_text": "Còn 110",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|MKP|2FA (nếu có)\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "price_verified": true,
-        "cost_price": 15000,
+        "cost_price": 35000,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 100,
+            "stock": 10,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "20:58 19/10/2026"
+            "updated": "22:38 23/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 100,
@@ -5532,13 +5532,14 @@
             "updated": "20:58 19/10/2026"
           }
         },
-        "needs_review": true,
-        "hidden": true,
+        "needs_review": false,
+        "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 35000,
+          "stock": 100
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1791898506865",
@@ -10420,6 +10421,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792769924655",
+      "time": "22:38 - 23/10/2026",
+      "name": "Gmail Random ip 2020-2024",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 110,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandomip2020-2024➕Thêm:10📦Tồnkhohiệntại:10💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1792768941568",
       "time": "22:22 - 23/10/2026",
       "name": "Figma Pro Edu 1 năm (BHF)",
@@ -11546,20 +11558,6 @@
       "catKey": "google-veo",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🚀AdminVeo3Ultra10kCredit1ThángBH3Ngày➕Thêm:2📦Tồnkhohiệntại:3💰Giá:1.150.000đ"
-    },
-    {
-      "id": "hist-1792655606655",
-      "time": "14:53 - 22/10/2026",
-      "timestamp": 1792655606655,
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 13,
-      "addedQty": 0,
-      "price": 45000,
-      "stockAfter": 16,
-      "catKey": "meitu-wink",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✨MeituSVip+7NgàyBHF💰Giá:35k📦Tồnkho:13tàikhoản📊Đãbán:763tàikhoản💎Môtả:MeituSVIP(V"
     }
   ]
 }
