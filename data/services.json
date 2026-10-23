@@ -3634,26 +3634,27 @@
         "id": "p-1791898418611",
         "name": "API Claude 50M Token 1 ngày BHF",
         "price": 65000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 7,
+        "stock_text": "Còn 7",
         "duration": "1 Ngày",
         "detail": "-API Claude 50M-Hàng anthropic\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Base Url : https://api.opusapi.store/\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-File hướng dẫn sử dụng và thiết lập:\n+ENGLISH: https://docs.google.com/document/d/1-r0i4qkHToW3exdkJfUAzin78s_bRbYb4nnvchhvtjg/edit?usp=sharing\n+VIETNAM: https://docs.google.com/document/d/1rBLXYdzTHL5mvm6c8d4QN2c7qWh8Cjj8sgEEf-_Wzug/edit?usp=sharing",
         "sources": {
           "piggyai99_bot": {
-            "stock": 10,
+            "stock": 7,
             "cost_price": 55000,
             "selling_price": 65000,
-            "updated": "14:52 22/10/2026"
+            "updated": "19:43 23/10/2026"
           }
         },
-        "cost_price": 45000,
-        "needs_review": true,
-        "hidden": true,
+        "cost_price": 55000,
+        "needs_review": false,
+        "hidden": false,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 45000
+          "bot": "@piggyai99_bot",
+          "cost_price": 55000,
+          "stock": 7
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "Nhập: @piggyai99_bot"
       },
       {
         "id": "p-1791925516429",
@@ -10279,6 +10280,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792759412614",
+      "time": "19:43 - 23/10/2026",
+      "name": "API Claude 50M Token 1 ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 7,
+      "catKey": "api-claude-codex",
+      "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1792758784597",
       "time": "19:33 - 23/10/2026",
       "name": "Slot Youtube Premium 6 Tháng BHF",
@@ -11453,20 +11465,6 @@
       "catKey": "capcut",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:33.000đ"
-    },
-    {
-      "id": "hist-1792637621182",
-      "time": "09:53 - 22/10/2026",
-      "timestamp": 1792637621182,
-      "name": "API CODEX ASTRA6 50$ TOKEN 1THÁNG BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 5,
-      "addedQty": 5,
-      "price": 160000,
-      "stockAfter": 5,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "⭐APICODEXASTRA650$TOKEN1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:140.000đ"
     }
   ]
 }
