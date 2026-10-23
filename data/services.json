@@ -5975,25 +5975,26 @@
         "id": "p-1792268573325",
         "name": "ADMIN MS365 PREMIUM 1 THÁNG BHF",
         "price": 60000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 19,
+            "stock": 5,
             "cost_price": 50000,
             "selling_price": 60000,
-            "updated": "09:26 18/10/2026"
+            "updated": "11:35 23/10/2026"
           }
         },
-        "hidden": true,
+        "hidden": false,
         "cost_price": 50000,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 50000
+          "cost_price": 50000,
+          "stock": 5
         }
       },
       {
@@ -9665,6 +9666,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792730143225",
+      "time": "11:35 - 23/10/2026",
+      "name": "ADMIN MS365 PREMIUM 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 5,
+      "catKey": "microsoft",
+      "msgKey": "⭐ADMINMS365PREMIUM1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1792729698165",
       "time": "11:28 - 23/10/2026",
       "name": "Netflix Premium Extra 1 Tháng BHF",
@@ -11034,20 +11046,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTGo1ThángBH3Ngày➕Thêm:14📦Tồnkhohiệntại:22💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1792580367193",
-      "time": "17:59 - 21/10/2026",
-      "timestamp": 1792580367193,
-      "name": "ChatGPT Go 1 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 27,
-      "addedQty": 21,
-      "price": 85000,
-      "stockAfter": 27,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTGo1Tháng-BHF➕Thêm:21📦Tồnkhohiệntại:27💰Giá:75.000đ"
     }
   ]
 }
