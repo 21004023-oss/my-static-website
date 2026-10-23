@@ -4130,6 +4130,32 @@
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "needs_review": false
+      },
+      {
+        "id": "p-1792786934234",
+        "name": "100M Credit ZAPI Codex 1 Ngày - BHF",
+        "price": 95000,
+        "cost_price": 85000,
+        "stock": 16,
+        "stock_text": "Còn 16",
+        "duration": "1 Ngày",
+        "detail": "GÓI CODEX 100M CREDIT / 1 NGÀY\nDung lượng: 100M Credit\nThời hạn: 1 ngày\nTool cài đặt: https://github.com/k1n93r/ZendiKeySetup\nKiểm tra model sử dụng được ở: https://zendigikey.shop/pricing\nTrang kiểm tra KEY: https://zendigikey.shop/check\nĐổi CDK thành KEY: https://zendigikey.shop/check\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được : - Điều kiện : còn trong thời hạn bảo hành - Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 16,
+            "cost_price": 85000,
+            "selling_price": 95000,
+            "updated": "03:22 24/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 85000,
+          "stock": 16
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64"
@@ -10707,6 +10733,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792786934234",
+      "time": "03:22 - 24/10/2026",
+      "name": "100M Credit ZAPI Codex 1 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 16,
+      "catKey": "api-claude-codex",
+      "msgKey": "⭐100MCreditZAPICodex1Ngày-BHF➕Thêm:20📦Tồnkhohiệntại:16💰Giá:85.000đ"
+    },
+    {
       "id": "hist-1792785749002",
       "time": "03:02 - 24/10/2026",
       "name": "ACC ZOOM PRO 28 NGÀY BHF",
@@ -11794,17 +11831,6 @@
       "stockAfter": 14,
       "catKey": "meitu-wink",
       "msgKey": "⭐WinkVip30DBHF➕Thêm:5📦Tồnkhohiệntại:7💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1792743384410",
-      "time": "15:16 - 23/10/2026",
-      "name": "Wink Vip 30D BHF",
-      "bot": "sieuthistore_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 7,
-      "catKey": "meitu-wink",
-      "msgKey": "⭐WinkVip30DBHF➕Thêm:5📦Tồnkhohiệntại:7💰Giá:120.000đ"
     }
   ]
 }
