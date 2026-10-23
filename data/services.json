@@ -8141,8 +8141,8 @@
         "id": "p-1791917317024",
         "name": "Wink VIP+ 7 Ngày BHF",
         "price": 45000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 26,
+        "stock_text": "Còn 26",
         "duration": "7 Ngày",
         "detail": "Wink gói VIP+ 7 Ngày BHF 100 credits login 1 thiết bị,  nếu đăng nhập trên điện thoại lỗi thì có thể có thể dùng trên PC\n- Định dạng: (Email|Pass Hotmail|Pass Wink) Token\n- Pass Wink mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\nLink tải app Wink trên máy tính: https://wink.ai/vi\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI",
         "sources": {
@@ -8153,10 +8153,10 @@
             "updated": "04:44 24/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 13,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "22:40 23/10/2026"
+            "updated": "04:44 24/10/2026"
           }
         },
         "cost_price": 15000,
@@ -10837,6 +10837,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792791853683",
+      "time": "04:44 - 24/10/2026",
+      "name": "Wink VIP+ 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 26,
+      "catKey": "meitu-wink",
+      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:13💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792791846026",
       "time": "04:44 - 24/10/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -11924,17 +11935,6 @@
       "stockAfter": 20,
       "catKey": "chatgpt",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:1📦Tồnkhohiệntại:20💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1792745117433",
-      "time": "15:45 - 23/10/2026",
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 8,
-      "catKey": "meitu-wink",
-      "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
     }
   ]
 }
