@@ -7789,26 +7789,28 @@
       {
         "id": "p-1792061006617",
         "name": "Wink VIP 30 ngày BHF",
-        "price": 100000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "price": 140000,
+        "stock": 7,
+        "stock_text": "Còn 7",
         "duration": "1 Tháng",
-        "detail": "LƯU Ý: Chỉ sử dụng trên 01 thiết bị. Không chia sẻ tài khoản, không đổi mật khẩu/thông tin tài khoản. Trường hợp đăng nhập nhiều thiết bị hoặc vi phạm quy định sẽ không được bảo hành. Có lỗi vui lòng liên hệ shop để được hỗ trợ.( dùng cho ip)",
+        "detail": "Mở khóa full kho công cụ làm đẹp AI, tính năng làm nét video, xóa vật thể nâng cao, hiệu ứng chuyển cảnh VIP, xuất file chất lượng cao không logo\nLưu ý:\nTài khoản chỉ dành cho IOS\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 9,
-            "cost_price": 90000,
-            "updated": "17:43 15/10/2026",
-            "selling_price": 100000
+            "stock": 7,
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "15:16 23/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 90000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "cost_price": 120000,
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 90000
-        }
+          "bot": "@sieuthistore_bot",
+          "cost_price": 120000,
+          "stock": 7
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792061014664",
@@ -9926,6 +9928,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792743384410",
+      "time": "15:16 - 23/10/2026",
+      "name": "Wink Vip 30D BHF",
+      "bot": "sieuthistore_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 7,
+      "catKey": "meitu-wink",
+      "msgKey": "⭐WinkVip30DBHF➕Thêm:5📦Tồnkhohiệntại:7💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1792740565769",
       "time": "14:29 - 23/10/2026",
       "name": "API CLAUDE 500$ TOKEN 1 THÁNG BHF",
@@ -11223,20 +11236,6 @@
       "catKey": "muse-ai",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐GóiVIP2.APIMUSE-Tạo2000video10s-10NgàyBHF➕Thêm:43📦Tồnkhohiệntại:43💰Giá:300.000đ"
-    },
-    {
-      "id": "hist-1792597547870",
-      "time": "22:45 - 21/10/2026",
-      "timestamp": 1792597547870,
-      "name": "Gói VIP 3. API MUSE - Tạo 6250 video 10s - 10 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 43,
-      "addedQty": 43,
-      "price": 800000,
-      "stockAfter": 43,
-      "catKey": "muse-ai",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐GóiVIP3.APIMUSE-Tạo6250video10s-10NgàyBHF➕Thêm:43📦Tồnkhohiệntại:43💰Giá:700.000đ"
     }
   ]
 }
