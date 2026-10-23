@@ -5147,17 +5147,28 @@
         "id": "spotify-slot-6m",
         "name": "Slot Spotify 6 Tháng BHF",
         "price": 210000,
-        "stock": -1,
-        "stock_text": "Vô cực (∞)",
+        "stock": 241,
+        "stock_text": "Còn 241",
         "duration": "6 Tháng",
         "source": "Nâng chính chủ",
-        "detail": "- Nâng cấp trực tiếp trên tài khoản Spotify cá nhân, giữ nguyên playlist và dữ liệu.\n- Sử dụng ổn định trong 6 tháng, bảo hành full trong suốt thời gian sử dụng.\n- Cách đặt hàng: Thanh toán -> Gửi tài khoản và mật khẩu Spotify cho shop (có thể đặt tạm pass thành Spotify123@ để shop nâng nhanh).",
-        "cost_price": 140000,
+        "detail": "SPOTIFY PREMIUM 6 THÁNG\nMô tả sản phẩm\n* Nâng cấp trực tiếp trên tài khoản Spotify cá nhân.\n* Sử dụng ổn định trong 6 tháng.\n* Giữ nguyên tài khoản, playlist và dữ liệu cá nhân.\n* Bảo hành full trong suốt thời gian sử dụng.\nCách đặt hàng\n1. Thanh toán đơn hàng.\n2. Gửi tài khoản và mật khẩu Spotify cho admin để tiến hành nâng cấp.\nCách đặt lại mật khẩu Spotify\nNote: Khách hàng có thể đặt mật khẩu thành Spotify123@ để shop xử lý và nâng cấp nhanh hơn.\nBước 1: Truy cập:\nhttps://accounts.spotify.com/vi-VN/password-reset\nBước 2: Nhập email đang sử dụng để đăng nhập Spotify.\nBước 3: Kiểm tra hộp thư, mở email từ Spotify và làm theo hướng dẫn để tạo mật khẩu mới.\nLưu ý: Vui lòng kiểm tra chính xác thông tin tài khoản trước khi gửi để quá trình nâng cấp được xử lý nhanh chóng.",
+        "cost_price": 190000,
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 140000
+          "cost_price": 190000,
+          "stock": 241
         },
-        "import_note": "🛒 @ntnshopre_bot"
+        "import_note": "Nhập: @ntnshopre_bot",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 241,
+            "cost_price": 190000,
+            "selling_price": 210000,
+            "updated": "06:15 24/10/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "spotify-slot-12m",
@@ -10909,6 +10920,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792797302777",
+      "time": "06:15 - 24/10/2026",
+      "name": "SLOT SPOTIFY 6 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 210000,
+      "costPrice": 190000,
+      "stockAfter": 241,
+      "catKey": "spotify",
+      "msgKey": "⭐SLOTSPOTIFY6THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:241💰Giá:190.000đ"
+    },
+    {
       "id": "hist-1792796049536",
       "time": "05:54 - 24/10/2026",
       "name": "Key Window 10/11 Pro Byphone 20 năm BH 1 năm",
@@ -11996,17 +12018,6 @@
       "stockAfter": 37,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥ChatGPTPlus30D(BH20D)➕Thêm:11📦Tồnkhohiệntại:20💰Giá:250.000đ"
-    },
-    {
-      "id": "hist-1792749407749",
-      "time": "16:56 - 23/10/2026",
-      "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
-      "bot": "taphoathomap_bot",
-      "price": 145000,
-      "costPrice": 125000,
-      "stockAfter": 18,
-      "catKey": "kling",
-      "msgKey": "🎬KLING792-992cre1tháng(BH24h)➕Thêm:9📦Tồnkhohiệntại:9💰Giá:125.000đ"
     }
   ]
 }
