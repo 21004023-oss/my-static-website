@@ -3079,16 +3079,16 @@
         "id": "p-1792094683588",
         "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
         "price": 75000,
-        "stock": 220,
-        "stock_text": "Còn 220",
+        "stock": 226,
+        "stock_text": "Còn 226",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "piggyai99_bot": {
-            "stock": 5,
+            "stock": 11,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "10:07 22/10/2026"
+            "updated": "19:24 23/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 215,
@@ -3097,14 +3097,15 @@
             "updated": "01:04 22/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cost_price": 33000,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 38800
+          "bot": "@piggyai99_bot",
+          "cost_price": 33000,
+          "stock": 11
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @piggyai99_bot"
       },
       {
         "id": "p-1792119807992",
@@ -10252,6 +10253,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792758262124",
+      "time": "19:24 - 23/10/2026",
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "piggyai99_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 226,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:2📦Tồnkhohiệntại:11💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1792757093202",
       "time": "19:04 - 23/10/2026",
       "name": "CHATGPT PLUS 1 THÁNG BHF",
@@ -11432,20 +11444,6 @@
       "catKey": "work-dev",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "⭐ACCZOOMPRO14NGÀYBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792636835126",
-      "time": "09:40 - 22/10/2026",
-      "timestamp": 1792636835126,
-      "name": "Zoom Pro 14 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 2,
-      "addedQty": 2,
-      "price": 40000,
-      "stockAfter": 4,
-      "catKey": "work-dev",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:30.000đ"
     }
   ]
 }
