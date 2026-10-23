@@ -9662,11 +9662,48 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 115000
         }
+      },
+      {
+        "id": "p-1792730165226",
+        "name": "LINK GEMINI PRO + GG1 5TB 18 THÁNG BẢO HÀNH 24H",
+        "price": 50000,
+        "cost_price": 40000,
+        "stock": 71,
+        "stock_text": "Còn 71",
+        "duration": "1 Ngày",
+        "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 71,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "11:36 23/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 40000,
+          "stock": 71
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792730165226",
+      "time": "11:36 - 23/10/2026",
+      "name": "LINK GEMINI PRO + GG1 5TB 18 THÁNG BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 71,
+      "catKey": "khac",
+      "msgKey": "☁️LINKGEMINIPRO+GG15TB18THÁNGBẢOHÀNH24H➕Thêm:50📦Tồnkhohiệntại:71💰Giá:40.000đ"
+    },
     {
       "id": "hist-1792730148143",
       "time": "11:35 - 23/10/2026",
@@ -11031,20 +11068,6 @@
       "catKey": "social",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐CloneFacebookNoveryNameViệtKBH➕Thêm:30📦Tồnkhohiệntại:24💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1792580765476",
-      "time": "18:06 - 21/10/2026",
-      "timestamp": 1792580765476,
-      "name": "ChatGPT Go 1 Tháng - BH 10 Ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 16,
-      "addedQty": 15,
-      "price": 75000,
-      "stockAfter": 16,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTGo1Tháng-BH10Ngày➕Thêm:15📦Tồnkhohiệntại:16💰Giá:65.000đ"
     }
   ]
 }
