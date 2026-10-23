@@ -9986,9 +9986,9 @@
         "id": "p-1792744216616",
         "name": "Muse Ai  1B Token KBH",
         "price": 40000,
-        "cost_price": 30000,
-        "stock": 169,
-        "stock_text": "Còn 169",
+        "cost_price": 15000,
+        "stock": 338,
+        "stock_text": "Còn 338",
         "duration": "1 Tháng",
         "detail": "Muse AI 1 Billion tokens - No warranty\n- Format: email\n- Email access: https://generator.email\n- Add the mail at the end of the link to read mailbox (ex: https://generator.email/abcd@mail.com)\n=========\nMuse AI 1 tỷ tokens - không bảo hành\n- Định dạng: email\n- Email access: https://generator.email\n- Thêm mail cần đọc vào cuối link trên (ví dụ: https://generator.email/abcd@mail.com)",
         "sources": {
@@ -9997,14 +9997,20 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "updated": "15:30 23/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 169,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "15:30 23/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 30000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
           "stock": 169
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -10012,6 +10018,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792744222187",
+      "time": "15:30 - 23/10/2026",
+      "name": "Muse Ai  1B Token KBH",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 338,
+      "catKey": "khac",
+      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:1📦Tồnkhohiệntại:169💰Giá:15.000đ"
+    },
     {
       "id": "hist-1792744216616",
       "time": "15:30 - 23/10/2026",
@@ -11286,20 +11303,6 @@
       "catKey": "capcut",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:100📦Tồnkhohiệntại:215💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792603469028",
-      "time": "00:24 - 22/10/2026",
-      "timestamp": 1792603469028,
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 30,
-      "addedQty": 30,
-      "price": 260000,
-      "stockAfter": 30,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:30📦Tồnkhohiệntại:30💰Giá:230.000đ"
     }
   ]
 }
