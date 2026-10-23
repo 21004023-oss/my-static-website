@@ -8913,66 +8913,36 @@
        ======================================================== */
 
     /* ========================================================
-
        HỆ THỐNG MÀU SẮC ĐỒNG BỘ CHO HỘP FAM & ĐƠN HÀNG
-
+       Lưu ý: MÀU ĐỎ được giữ riêng cho trạng thái "ĐÃ ĐẦY", 
+       không dùng cho theme mặc định của hộp để tránh nhầm lẫn!
        ======================================================== */
-
     const FAM_PALETTE = [
-
-      { id: 'blue', name: 'Xanh Biển', hex: '#0284c7', bg: 'rgba(2, 132, 199, 0.12)', border: '#0284c7', lightBg: 'rgba(2, 132, 199, 0.05)' },
-
-      { id: 'purple', name: 'Tím Indigo', hex: '#8b5cf6', bg: 'rgba(139, 92, 246, 0.12)', border: '#8b5cf6', lightBg: 'rgba(139, 92, 246, 0.05)' },
-
-      { id: 'emerald', name: 'Xanh Lá', hex: '#10b981', bg: 'rgba(16, 185, 129, 0.12)', border: '#10b981', lightBg: 'rgba(16, 185, 129, 0.05)' },
-
-      { id: 'rose', name: 'Đỏ Hồng', hex: '#f43f5e', bg: 'rgba(244, 63, 94, 0.12)', border: '#f43f5e', lightBg: 'rgba(244, 63, 94, 0.05)' },
-
-      { id: 'amber', name: 'Vàng Cam', hex: '#f59e0b', bg: 'rgba(245, 158, 11, 0.12)', border: '#f59e0b', lightBg: 'rgba(245, 158, 11, 0.05)' },
-
-      { id: 'cyan', name: 'Xanh Cyan', hex: '#06b6d4', bg: 'rgba(6, 182, 212, 0.12)', border: '#06b6d4', lightBg: 'rgba(6, 182, 212, 0.05)' },
-
-      { id: 'fuchsia', name: 'Hồng Fuchsia', hex: '#d946ef', bg: 'rgba(217, 70, 239, 0.12)', border: '#d946ef', lightBg: 'rgba(217, 70, 239, 0.05)' },
-
-      { id: 'teal', name: 'Xanh Ngọc', hex: '#14b8a6', bg: 'rgba(20, 184, 166, 0.12)', border: '#14b8a6', lightBg: 'rgba(20, 184, 166, 0.05)' }
-
+      { id: 'blue', name: 'Xanh Biển', icon: '🔵', hex: '#0284c7', bg: 'rgba(2, 132, 199, 0.12)', border: '#0284c7', lightBg: 'rgba(2, 132, 199, 0.04)' },
+      { id: 'purple', name: 'Tím Indigo', icon: '🟣', hex: '#8b5cf6', bg: 'rgba(139, 92, 246, 0.12)', border: '#8b5cf6', lightBg: 'rgba(139, 92, 246, 0.04)' },
+      { id: 'emerald', name: 'Xanh Lá', icon: '🟢', hex: '#10b981', bg: 'rgba(16, 185, 129, 0.12)', border: '#10b981', lightBg: 'rgba(16, 185, 129, 0.04)' },
+      { id: 'amber', name: 'Vàng Cam', icon: '🟠', hex: '#f59e0b', bg: 'rgba(245, 158, 11, 0.12)', border: '#f59e0b', lightBg: 'rgba(245, 158, 11, 0.04)' },
+      { id: 'cyan', name: 'Xanh Cyan', icon: '🔷', hex: '#06b6d4', bg: 'rgba(6, 182, 212, 0.12)', border: '#06b6d4', lightBg: 'rgba(6, 182, 212, 0.04)' },
+      { id: 'fuchsia', name: 'Hồng Fuchsia', icon: '💖', hex: '#d946ef', bg: 'rgba(217, 70, 239, 0.12)', border: '#d946ef', lightBg: 'rgba(217, 70, 239, 0.04)' },
+      { id: 'teal', name: 'Xanh Ngọc', icon: '🐬', hex: '#14b8a6', bg: 'rgba(20, 184, 166, 0.12)', border: '#14b8a6', lightBg: 'rgba(20, 184, 166, 0.04)' },
+      { id: 'indigo', name: 'Xanh Indigo', icon: '🫐', hex: '#4f46e5', bg: 'rgba(79, 70, 229, 0.12)', border: '#4f46e5', lightBg: 'rgba(79, 70, 229, 0.04)' }
     ];
 
-
-
     function getFamilyColor(fam, index = 0) {
-
-      if (!fam) return { hex: '#64748b', bg: 'rgba(100,116,139,0.1)', border: '#64748b', lightBg: 'transparent' };
-
-      if (fam.color_id) {
-
+      if (!fam) return { hex: '#64748b', bg: 'rgba(100,116,139,0.1)', border: '#64748b', lightBg: 'transparent', icon: '📦' };
+      if (fam.color_id && fam.color_id !== 'auto') {
         const found = FAM_PALETTE.find(c => c.id === fam.color_id);
-
         if (found) return found;
-
       }
-
-      const cat = ((fam.category || '') + ' ' + (fam.name || '')).toLowerCase();
-
-      if (cat.includes('spotify')) return FAM_PALETTE[2]; // Emerald
-
-      if (cat.includes('netflix')) return FAM_PALETTE[3]; // Rose
-
-      if (cat.includes('canva')) return FAM_PALETTE[6]; // Fuchsia
-
-      if (cat.includes('office')) return FAM_PALETTE[4]; // Amber
-
-      if (cat.includes('youtube')) {
-
-        return index % 2 === 0 ? FAM_PALETTE[0] : FAM_PALETTE[1]; // Blue or Purple
-
+      // Gán màu quay vòng theo index để mỗi hộp LUÔN CÓ MÀU KHÁC NHAU,
+      // dù tất cả đều là Netflix hay YouTube!
+      let idx = index;
+      if (idx === undefined || idx === null || idx < 0) {
+        idx = (familyBoxesData ? familyBoxesData.findIndex(f => f.id === fam.id) : 0);
       }
-
-      return FAM_PALETTE[index % FAM_PALETTE.length];
-
+      if (idx < 0) idx = 0;
+      return FAM_PALETTE[idx % FAM_PALETTE.length];
     }
-
-
 
     let selectedFamFilterId = null; // Lọc bảng theo Hộp Fam nào (null = xem tất cả)
 
@@ -9068,125 +9038,74 @@
 
 
 
-      // Thẻ danh sách các Chiếc Hộp Fam Nhỏ (có gán màu sắc đồng bộ)
-
+      // Thẻ danh sách các Chiếc Hộp Fam Nhỏ (Mỗi hộp 1 màu riêng + Trạng thái ĐẦY / CÒN CHỖ cực kỳ tương phản)
       familyBoxesData.forEach((fam, fIdx) => {
-
         const assigned = famAssignedMap[fam.id] || [];
-
         const maxSlots = fam.max_slots || 5;
-
         const emptyCount = Math.max(0, maxSlots - assigned.length);
-
         const isFull = emptyCount === 0;
-
         const pct = Math.min(100, Math.round((assigned.length / maxSlots) * 100));
-
         const famColor = getFamilyColor(fam, fIdx);
 
-
-
-        let badgeClass = 'badge-in';
-
-        let badgeText = `${assigned.length}/${maxSlots}`;
-
+        // Phân biệt TRẠNG THÁI cực rõ:
+        // ĐẦY = ĐỎ ĐẬM CÓ Ổ KHÓA 🔒
+        // CÒN 1 CHỖ = VÀNG CAM ⚡
+        // CÒN NHIỀU CHỖ = XANH LÁ TƯƠI 🟢
+        let slotBadge = '';
+        let statusSubText = '';
         if (isFull) {
-
-          badgeClass = 'badge-out';
-
-          badgeText = `ĐẦY (${assigned.length}/${maxSlots})`;
-
+          slotBadge = `<span class="badge" style="background:#fee2e2; color:#b91c1c; border:1px solid #f87171; font-weight:800; font-size:11px; padding:2px 7px;">🔒 ĐÃ ĐẦY (${assigned.length}/${maxSlots})</span>`;
+          statusSubText = `<div style="font-size:10.5px; color:#ef4444; font-weight:700; margin-top:2px;">⛔ Kín slot - Không thể nhét thêm</div>`;
         } else if (emptyCount === 1) {
-
-          badgeClass = 'badge-warning';
-
-          badgeText = `Còn 1 chỗ`;
-
+          slotBadge = `<span class="badge" style="background:#fef3c7; color:#b45309; border:1px solid #f59e0b; font-weight:800; font-size:11px; padding:2px 7px;">⚡ Còn 1 chỗ (${assigned.length}/${maxSlots})</span>`;
+          statusSubText = `<div style="font-size:10.5px; color:#d97706; font-weight:600; margin-top:2px;">⚡ Sắp đầy, cần thêm 1 đơn</div>`;
         } else {
-
-          badgeText = `Còn ${emptyCount} chỗ`;
-
+          slotBadge = `<span class="badge" style="background:#d1fae5; color:#047857; border:1px solid #34d399; font-weight:800; font-size:11px; padding:2px 7px;">🟢 Trống ${emptyCount} chỗ (${assigned.length}/${maxSlots})</span>`;
+          statusSubText = `<div style="font-size:10.5px; color:#10b981; font-weight:600; margin-top:2px;">✅ Sẵn sàng nhận thêm ${emptyCount} đơn</div>`;
         }
 
-
-
         const isFamActive = (selectedFamFilterId === fam.id);
-
         const catIcon = fam.category === 'YouTube Premium' ? '📺' : (fam.category === 'Netflix' ? '🍿' : (fam.category === 'Spotify' ? '🎵' : (fam.category === 'Canva' ? '🎨' : '📦')));
 
-
-
         html += `
-
           <div class="mini-box-card ${isFamActive ? 'active-filter' : ''}" 
-
                id="mini-box-${fam.id}"
-
                onclick="selectFamFilter('${fam.id}')"
-
                ondragover="onMiniBoxDragOver(event)" 
-
                ondragleave="onMiniBoxDragLeave(event)" 
-
                ondrop="onMiniBoxDrop(event, '${fam.id}')"
-
-               style="border-top: 3.5px solid ${famColor.hex}; ${isFamActive ? `box-shadow: 0 0 0 2px ${famColor.hex}; background:${famColor.bg};` : ''}"
-
-               title="Kéo dòng đơn hàng dưới bảng thả vào đây để nhét vào [${fam.name}]">
-
+               style="border-top: 4px solid ${famColor.hex}; ${isFull ? 'background:rgba(254,242,242,0.4); border-color:rgba(248,113,113,0.3);' : ''} ${isFamActive ? `box-shadow: 0 0 0 2px ${famColor.hex}; background:${famColor.bg};` : ''}"
+               title="${isFull ? `Hộp [#${fIdx + 1} ${fam.name}] ĐÃ ĐẦY (${assigned.length}/${maxSlots})` : `Kéo dòng đơn thả vào đây để nhét vào [#${fIdx + 1} ${fam.name}] (Còn ${emptyCount} chỗ)`}">
             <div class="mini-box-head">
-
-              <span class="mini-box-title-text" style="color:${famColor.hex};">${catIcon} ${fam.name}</span>
-
-              <span class="badge ${badgeClass} mini-box-slots-badge" style="${!isFull ? `background:${famColor.bg}; color:${famColor.hex}; border:1px solid ${famColor.border};` : ''}">${badgeText}</span>
-
+              <span class="mini-box-title-text" style="color:${famColor.hex}; font-weight:800;">
+                <span style="background:${famColor.bg}; color:${famColor.hex}; border:1px solid ${famColor.border}; border-radius:4px; padding:1px 5px; font-size:10px; font-weight:800; margin-right:4px;">#${fIdx + 1}</span>
+                ${catIcon} ${fam.name}
+              </span>
+              ${slotBadge}
             </div>
-
             <div class="mini-box-meta">
-
               <span>🔑 ${fam.admin_email || 'Chưa set mail'}</span>
-
+              ${statusSubText}
             </div>
-
             <div class="mini-box-progress">
-
-              <div class="mini-box-progress-bar ${isFull ? 'full' : ''}" style="width: ${pct}%; background:${isFull ? 'var(--rose)' : famColor.hex};"></div>
-
+              <div class="mini-box-progress-bar" style="width: ${pct}%; background:${isFull ? '#ef4444' : famColor.hex};"></div>
             </div>
-
             <div class="mini-box-actions" onclick="event.stopPropagation()">
-
               <button type="button" class="mini-box-act-btn" onclick="copyFamilyClientEmails('${fam.id}')" title="Sao chép toàn bộ email khách trong hộp này">📋 Copy Mail</button>
-
               <button type="button" class="mini-box-act-btn" onclick="openFamilyBoxModal('${fam.id}')" title="Sửa thông tin Hộp">✏️ Sửa</button>
-
               <button type="button" class="mini-box-act-btn danger" onclick="deleteFamilyBox('${fam.id}')" title="Xóa Hộp này">🗑️</button>
-
             </div>
-
           </div>
-
         `;
-
       });
 
-
-
       // Nút Thêm Hộp Nhỏ Mới
-
       html += `
-
         <div class="btn-create-mini-box" onclick="openFamilyBoxModal()" title="Tạo thêm 1 chiếc hộp nhỏ mới">
-
           <span style="font-size:18px;">➕</span>
-
           <span>Tạo Hộp Mới</span>
-
         </div>
-
       `;
-
-
 
       container.innerHTML = html;
 
@@ -9613,42 +9532,36 @@
 
 
         const fam = o.family_id ? familyBoxesData.find(f => f.id === o.family_id) : null;
-
         let famColor = { hex: '#64748b', bg: 'rgba(100,116,139,0.1)', border: '#64748b', lightBg: 'transparent' };
-
         let famBadge = '';
-
         let rowStyle = '';
 
-
-
         if (fam) {
-
           const famIndex = familyBoxesData.findIndex(f => f.id === fam.id);
-
           famColor = getFamilyColor(fam, famIndex >= 0 ? famIndex : 0);
+          rowStyle = `border-left: 5px solid ${famColor.hex}; background: ${famColor.lightBg};`;
 
-          rowStyle = `border-left: 4.5px solid ${famColor.hex}; background: ${famColor.lightBg};`;
+          // Kiểm tra xem hộp này đã đầy hay chưa
+          const famAssignedCount = ordersData.filter(x => x.family_id === fam.id).length;
+          const famMax = fam.max_slots || 5;
+          const famIsFull = famAssignedCount >= famMax;
+          const famRemaining = Math.max(0, famMax - famAssignedCount);
+
+          const statusPill = famIsFull ? 
+            `<span class="badge" style="background:#fee2e2; color:#b91c1c; border:1px solid #fca5a5; font-size:9.5px; font-weight:800; padding:1px 5px;" title="Hộp này đã kín ${famMax}/${famMax} slot">🔒 Đủ</span>` :
+            `<span class="badge" style="background:#d1fae5; color:#047857; border:1px solid #6ee7b7; font-size:9.5px; font-weight:800; padding:1px 5px;" title="Hộp này còn ${famRemaining} chỗ trống">🟢 Còn ${famRemaining}</span>`;
 
           famBadge = `
-
-            <div style="display:flex; align-items:center; gap:5px; margin-top:3px; flex-wrap:nowrap;">
-
-              <span class="badge" style="background:${famColor.bg}; color:${famColor.hex}; border:1px solid ${famColor.border}; font-size:10.5px; font-weight:700; cursor:pointer;" onclick="selectFamFilter('${fam.id}')" title="Bấm để lọc riêng các đơn trong [${fam.name}]">
-
-                📦 ${fam.name}
-
+            <div style="display:flex; align-items:center; gap:4px; margin-top:3px; flex-wrap:nowrap;">
+              <span class="badge" style="background:${famColor.bg}; color:${famColor.hex}; border:1.5px solid ${famColor.border}; font-size:10.5px; font-weight:800; cursor:pointer;" onclick="selectFamFilter('${fam.id}')" title="Bấm để lọc riêng các đơn trong Hộp #${famIndex + 1} [${fam.name}]">
+                #${famIndex + 1} 📦 ${fam.name}
               </span>
-
+              ${statusPill}
               <button type="button" class="btn btn-outline" style="padding:1px 6px; font-size:10px; color:${famColor.hex}; border-color:${famColor.border}; border-radius:4px; line-height:1.2; font-weight:700;" onclick="unassignOrderFromFamily('${o.id}')" title="Rút đơn ${o.id} ra khỏi Hộp [${fam.name}]">✕ Rút</button>
-
             </div>
-
           `;
-
         } else {
-
-          rowStyle = `border-left: 4.5px solid transparent;`;
+          rowStyle = `border-left: 5px solid transparent;`;
 
           famBadge = `
 
@@ -10884,16 +10797,12 @@
 
         return `
 
-          <div class="fam-box-card" id="fam-card-${fam.id}" style="border-top: 4px solid ${famColor.hex};">
-
+          <div class="fam-box-card" id="fam-card-${fam.id}" style="border-top: 4.5px solid ${famColor.hex}; ${isFull ? 'border-color:rgba(239,68,68,0.3);' : ''}">
             <div class="fam-box-head">
-
               <div class="fam-box-head-row">
-
                 <div class="fam-box-title">
-
+                  <span style="background:${famColor.bg}; color:${famColor.hex}; border:1px solid ${famColor.border}; border-radius:4px; padding:1px 6px; font-size:11px; font-weight:800;">#${fIdx + 1}</span>
                   <span>${catIcon}</span>
-
                   <span style="color:${famColor.hex}; font-weight:800;">${fam.name}</span>
 
                 </div>
