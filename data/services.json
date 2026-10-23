@@ -220,6 +220,32 @@
         },
         "import_note": "🛒 @ntnshopre_bot",
         "detail": "- vidIQ (1 channel Boost) – The Ultimate YouTube Assistant.\n- Cung cấp Email & Password tài khoản cá nhân VidIQ Boost.\n- Bảo hành full 1 tháng."
+      },
+      {
+        "id": "p-1792732041542",
+        "name": "CODE YOUTUBE PREMIUM 3 THÁNG - BH 24H",
+        "price": 70000,
+        "cost_price": 60000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "3 Tháng",
+        "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân - Cần fake VPN US - Link redeem code: https://www.youtube.com/redeem",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 8,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "12:07 23/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 60000,
+          "stock": 8
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=youtube.com&sz=64"
@@ -9734,6 +9760,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792732041542",
+      "time": "12:07 - 23/10/2026",
+      "name": "CODE YOUTUBE PREMIUM 3 THÁNG - BH 24H",
+      "bot": "taphoathomap_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 8,
+      "catKey": "youtube",
+      "msgKey": "▶️CODEYOUTUBEPREMIUM3THÁNG-BH24H➕Thêm:8📦Tồnkhohiệntại:8💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1792731903462",
       "time": "12:05 - 23/10/2026",
       "name": "CODE KÍCH HOẠT YOUTUBE PREMIUM 3 THÁNG BẢO HÀNH FULL",
@@ -11067,20 +11104,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapcutPro1ThángBH30Ngày💰Giá:60k📦Tồnkho:9tàikhoản📊Đãbán:1.721tàikhoản"
-    },
-    {
-      "id": "hist-1792587989236",
-      "time": "20:06 - 21/10/2026",
-      "timestamp": 1792587989236,
-      "name": "Gói VIP 3. API MUSE - Tạo 6250 video 10s - 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 0,
-      "addedQty": 5,
-      "price": 800000,
-      "stockAfter": 0,
-      "catKey": "muse-ai",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐GóiVIP3.APIMUSE-Tạo6250video10s-1ThángBHF➕Thêm:5📦Tồnkhohiệntại:0💰Giá:700.000đ"
     }
   ]
 }
