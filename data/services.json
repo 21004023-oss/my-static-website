@@ -7050,25 +7050,26 @@
         "id": "p-1792508363624",
         "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
         "price": 65000,
-        "cost_price": 60000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "cost_price": 55000,
+        "stock": 39,
+        "stock_text": "Còn 39",
         "duration": "1 Tháng",
-        "detail": "✅Netflix 4K Premium bảo hành full 1 tháng sử dụng.\n✅Có web riêng lấy code, xác minh hộ gia đình v.v...\n✅Định dạng mail|pass|Profile riêng, mã pin riêng\n---Lưu ý: Sau khi nhập mail xong chọn mục NHẬN TRỢ GIÚP để nhập pass\n✅ Bảo hành full trong suốt thời gian sử dụng\nvào taikhoan24h.vn lấy otp",
+        "detail": "✅Netflix 4K Premium bảo hành full 1 tháng sử dụng.\n✅Có web riêng lấy code, xác minh hộ gia đình v.v...\n✅Định dạng mail|pass|Profile riêng, mã pin riêng\n---Lưu ý: Sau khi nhập mail xong chọn mục NHẬN TRỢ GIÚP để nhập pass\n✅ Bảo hành full trong suốt thời gian sử dụng",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1,
-            "cost_price": 60000,
-            "selling_price": 70000,
-            "updated": "09:11 21/10/2026"
+            "stock": 39,
+            "cost_price": 55000,
+            "selling_price": 65000,
+            "updated": "06:30 24/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 60000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 55000,
+          "stock": 39
         }
       },
       {
@@ -10931,6 +10932,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792798226710",
+      "time": "06:30 - 24/10/2026",
+      "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
+      "bot": "taphoathomap_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 39,
+      "catKey": "netflix",
+      "msgKey": "🎬[Slot]Netflix4KPremium1thángBảohànhfull➕Thêm:74📦Tồnkhohiệntại:39💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1792797810324",
       "time": "06:23 - 24/10/2026",
       "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
@@ -12018,17 +12030,6 @@
       "stockAfter": 15,
       "catKey": "youtube",
       "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:12📦Tồnkhohiệntại:15💰Giá:39.000đ"
-    },
-    {
-      "id": "hist-1792751662128",
-      "time": "17:34 - 23/10/2026",
-      "name": "KEY HMA AND/PC 20-30 DAYS",
-      "bot": "ntnshopre_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 16,
-      "catKey": "khac",
-      "msgKey": "⭐KEYHMAAND/PC20-30DAYS➕Thêm:12📦Tồnkhohiệntại:16💰Giá:10.000đ"
     }
   ]
 }
