@@ -10175,11 +10175,48 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792719528573",
+        "name": "Link Gemini Pro 18 Tháng BH 24H",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 105,
+        "stock_text": "Còn 105",
+        "duration": "1 Ngày",
+        "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 105,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "08:38 23/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 35000,
+          "stock": 105
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792719528573",
+      "time": "08:38 - 23/10/2026",
+      "name": "Link Gemini Pro 18 Tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 105,
+      "catKey": "khac",
+      "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:1📦Tồnkhohiệntại:105💰Giá:35.000đ"
+    },
     {
       "id": "hist-1792719520281",
       "time": "08:38 - 23/10/2026",
@@ -11448,20 +11485,6 @@
       "catKey": "capcut",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1792606492313",
-      "time": "01:14 - 22/10/2026",
-      "timestamp": 1792606492313,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 28,
-      "addedQty": 20,
-      "price": 95000,
-      "stockAfter": 28,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH24H➕Thêm:20📦Tồnkhohiệntại:28💰Giá:85.000đ"
     }
   ]
 }
