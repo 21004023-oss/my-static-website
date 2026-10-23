@@ -4632,25 +4632,26 @@
         "id": "p-1792171955948",
         "name": "Kling 790-1k Credit 1 tháng BH 1 Ngày",
         "price": 200000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "1 Tháng",
         "detail": "ACC KLING STAND RANDOM 700-750 CREDITS",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 9,
             "cost_price": 180000,
             "selling_price": 200000,
-            "updated": "09:25 18/10/2026"
+            "updated": "16:56 23/10/2026"
           }
         },
-        "hidden": true,
+        "hidden": false,
         "cost_price": 180000,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 180000
+          "bot": "@sieuthistore_bot",
+          "cost_price": 180000,
+          "stock": 9
         }
       },
       {
@@ -10100,6 +10101,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792749402622",
+      "time": "16:56 - 23/10/2026",
+      "name": "Kling 790-1k Credit 1 tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 9,
+      "catKey": "kling",
+      "msgKey": "🎬Kling790-1kCredit1thángBH1Ngày➕Thêm:9📦Tồnkhohiệntại:9💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1792749397799",
       "time": "16:56 - 23/10/2026",
       "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
@@ -11343,20 +11355,6 @@
       "catKey": "vpn",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🚚ExpressVPN12ThángKBH➕Thêm:1📦Tồnkhohiệntại:0💰Giá:120.000đ"
-    },
-    {
-      "id": "hist-1792620796897",
-      "time": "05:13 - 22/10/2026",
-      "timestamp": 1792620796897,
-      "name": "KEY HMA AND/PC 20-30 DAYS",
-      "bot": "ntnshopre_bot",
-      "shopStock": 22,
-      "addedQty": 50,
-      "price": 20000,
-      "stockAfter": 22,
-      "catKey": "vpn",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "⭐KEYHMAAND/PC20-30DAYS➕Thêm:50📦Tồnkhohiệntại:22💰Giá:10.000đ"
     }
   ]
 }
