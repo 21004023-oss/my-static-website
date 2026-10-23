@@ -10097,11 +10097,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792719235532",
+        "name": "Kimi Plus 1 tháng (BH 15D)",
+        "price": 460000,
+        "cost_price": 410000,
+        "stock": 7,
+        "stock_text": "Còn 7",
+        "duration": "1 Tháng",
+        "detail": "🔥Kimi Plus 1 tháng (BH 15D) ✔️Plus 2x Agents Credit 🔥Hàng inapp IOS cực tốt, đa số khách sử dụng đủ 30 ngày 📦 Khách gửi tài khoản: Mail |pass|2fa ( cài 2fa.live dưới dạng secret key). Cần tài khoản cấp sẵn note cho shop 📦 Oder: 1 -2 h 🛡️ Bảo hành: 15 ngày (Chỉ bảo hành gói dịch vụ, không bảo hành trường hợp sử dụng vi phạm chính sách)",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 7,
+            "cost_price": 410000,
+            "selling_price": 460000,
+            "updated": "08:33 23/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 410000,
+          "stock": 7
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792719235532",
+      "time": "08:33 - 23/10/2026",
+      "name": "Kimi Plus 1 tháng (BH 15D)",
+      "bot": "taphoathomap_bot",
+      "price": 460000,
+      "costPrice": 410000,
+      "stockAfter": 7,
+      "catKey": "khac",
+      "msgKey": "⭐KimiPlus1tháng(BH15D)➕Thêm:7📦Tồnkhohiệntại:7💰Giá:410.000đ"
+    },
     {
       "id": "hist-1792718603108",
       "time": "08:23 - 23/10/2026",
@@ -11379,20 +11416,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:30📦Tồnkhohiệntại:30💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1792602774582",
-      "time": "00:12 - 22/10/2026",
-      "timestamp": 1792602774582,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 51,
-      "addedQty": 64,
-      "price": 85000,
-      "stockAfter": 51,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:64📦Tồnkhohiệntại:51💰Giá:75.000đ"
     }
   ]
 }
