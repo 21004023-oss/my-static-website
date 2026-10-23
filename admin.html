@@ -1868,6 +1868,9 @@
             <div class="fam-boxes-toolbar">
               <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
                 <span style="font-size:13px; font-weight:800; color:var(--text);">Các Hộp Family:</span>
+                <button type="button" class="btn btn-outline" style="font-size:11.5px; padding:3px 9px; font-weight:700; border-color:var(--purple); color:var(--purple);" onclick="autoGroupOrdersByMatchingEmail()" title="Tự động quét tất cả các đơn có cùng email để gom vào chung 1 Hộp">
+                  ⚡ Tự Động Gom Đơn Trùng Email
+                </button>
                 <select id="selFamFilterCat" class="form-control" style="width:170px; font-size:12px; padding:4px 8px;" onchange="renderFamilyBoxesView()">
                   <option value="all">🌟 Tất cả dịch vụ</option>
                   <option value="YouTube Premium">📺 YouTube Premium</option>
@@ -4979,6 +4982,96 @@
     }
 
     // XỬ LÝ KÉO & THẢ (DRAG & DROP EVENTS)
+    
+    // TỰ ĐỘNG QUÉT & GOM CÁC ĐƠN TRÙNG EMAIL VÀO CHUNG 1 HỘP FAM
+    async function autoGroupOrdersByMatchingEmail() {
+      if (!ordersData || ordersData.length === 0) {
+        showToast("Chưa có đơn hàng nào trong hệ thống để quét!", "warning");
+        return;
+      }
+
+      // 1. Nhóm các đơn theo Email tài khoản
+      const emailMap = {};
+      ordersData.forEach(o => {
+        const rawEmail = (o.account || '').trim().toLowerCase();
+        // Kiểm tra định dạng email cơ bản
+        if (rawEmail && rawEmail.includes('@') && rawEmail.includes('.')) {
+          if (!emailMap[rawEmail]) emailMap[rawEmail] = [];
+          emailMap[rawEmail].push(o);
+        }
+      });
+
+      // Lọc ra các nhóm có từ 2 đơn trở lên HOẶC trùng với email chủ của 1 Hộp Fam
+      const candidateEmails = Object.keys(emailMap).filter(email => {
+        // Có từ 2 đơn trở lên
+        if (emailMap[email].length >= 2) return true;
+        // Hoặc trùng với email chủ của 1 Hộp Fam đã có
+        const matchFam = familyBoxesData.find(f => (f.admin_email || '').trim().toLowerCase() === email);
+        return !!matchFam;
+      });
+
+      if (candidateEmails.length === 0) {
+        showToast("🔍 Không tìm thấy đơn hàng nào có email trùng nhau cần gom nhóm!", "info");
+        return;
+      }
+
+      let totalGroupedOrders = 0;
+      let totalCreatedBoxes = 0;
+
+      candidateEmails.forEach(email => {
+        const orders = emailMap[email];
+        
+        // Kiểm tra xem đã có Hộp Fam nào gắn với email này chưa
+        let targetFam = familyBoxesData.find(f => 
+          (f.admin_email || '').trim().toLowerCase() === email ||
+          f.name.toLowerCase().includes(email)
+        );
+
+        // Nếu chưa có Hộp Fam nào, tự động tạo 1 Hộp mới cho email này
+        if (!targetFam) {
+          const firstOrder = orders[0];
+          let cat = 'Khác';
+          if (firstOrder.plan_name.toLowerCase().includes('youtube')) cat = 'YouTube Premium';
+          else if (firstOrder.plan_name.toLowerCase().includes('netflix')) cat = 'Netflix';
+          else if (firstOrder.plan_name.toLowerCase().includes('spotify')) cat = 'Spotify';
+          else if (firstOrder.plan_name.toLowerCase().includes('canva')) cat = 'Canva';
+          else if (firstOrder.plan_name.toLowerCase().includes('office')) cat = 'Office 365';
+
+          targetFam = {
+            id: 'fam-' + Date.now() + '-' + Math.floor(Math.random() * 1000),
+            name: `Hộp Fam [${email.split('@')[0]}]`,
+            category: cat,
+            admin_email: email,
+            expire_date: firstOrder.expire_date || '',
+            max_slots: Math.max(5, orders.length),
+            note: `Tự động gom ${orders.length} đơn có cùng email ${email}`
+          };
+          familyBoxesData.push(targetFam);
+          totalCreatedBoxes++;
+        }
+
+        // Gán tất cả các đơn này vào targetFam
+        orders.forEach((o, idx) => {
+          if (o.family_id !== targetFam.id) {
+            o.family_id = targetFam.id;
+            o.family_slot = idx + 1;
+            totalGroupedOrders++;
+          }
+        });
+      });
+
+      if (totalGroupedOrders > 0 || totalCreatedBoxes > 0) {
+        localStorage.setItem('qb_family_boxes_data', JSON.stringify(familyBoxesData));
+        localStorage.setItem('qb_orders_data', JSON.stringify(ordersData));
+        renderFamilyBoxesView();
+        renderOrdersTable();
+        showToast(`🎉 Đã gom thành công ${totalGroupedOrders} đơn chung email vào các Hộp Fam!`, "success");
+        await saveOrdersDirectToGitHub(true, `Tự động gom ${totalGroupedOrders} đơn trùng email vào Hộp Fam`);
+      } else {
+        showToast("Tất cả các đơn trùng email này đã nằm trong Hộp Fam rồi!", "info");
+      }
+    }
+
     function onOrderDragStart(e, orderId) {
       draggedOrderId = orderId;
       e.dataTransfer.setData('text/plain', orderId);
@@ -5029,6 +5122,29 @@
       order.family_slot = slotNum || (currentAssigned.length + 1);
 
       showToast(`🎉 Đã nhét đơn ${order.id} vào [${fam.name}]!`, 'success');
+
+      // Tự động kiểm tra xem còn đơn nào khác có cùng email không
+      const email = (order.account || '').trim().toLowerCase();
+      if (email && email.includes('@')) {
+        const remainingSameEmail = ordersData.filter(o => 
+          o.id !== order.id && 
+          !o.family_id && 
+          (o.account || '').trim().toLowerCase() === email
+        );
+        if (remainingSameEmail.length > 0) {
+          const emptyRemaining = (fam.max_slots || 5) - (currentAssigned.length + 1);
+          if (emptyRemaining > 0) {
+            const addCount = Math.min(emptyRemaining, remainingSameEmail.length);
+            if (confirm(`Phát hiện còn ${remainingSameEmail.length} đơn khác cũng có email "${email}".\n\nBạn có muốn tự động nhét ${addCount} đơn này vào Hộp [${fam.name}] luôn không?`)) {
+              for (let i = 0; i < addCount; i++) {
+                remainingSameEmail[i].family_id = famId;
+                remainingSameEmail[i].family_slot = currentAssigned.length + 2 + i;
+              }
+              showToast(`🎉 Đã tự động gom thêm ${addCount} đơn cùng email "${email}" vào [${fam.name}]!`, 'success');
+            }
+          }
+        }
+      }
       renderFamilyBoxesView();
       renderOrdersTable();
       saveOrdersDirectToGitHub(true, `Nhét đơn ${order.id} vào Hộp ${fam.name}`);
