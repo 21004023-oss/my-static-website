@@ -10206,17 +10206,17 @@
         "id": "p-1792719528573",
         "name": "Link Gemini Pro 18 Tháng BH 24H",
         "price": 70000,
-        "cost_price": 35000,
-        "stock": 236,
-        "stock_text": "Còn 236",
+        "cost_price": 40000,
+        "stock": 262,
+        "stock_text": "Còn 262",
         "duration": "1 Ngày",
         "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 105,
-            "cost_price": 35000,
-            "selling_price": 45000,
-            "updated": "08:38 23/10/2026"
+            "stock": 131,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "09:16 23/10/2026"
           },
           "piggyai99_bot": {
             "stock": 131,
@@ -10227,8 +10227,8 @@
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 35000,
-          "stock": 105
+          "cost_price": 40000,
+          "stock": 131
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -10238,6 +10238,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792721806685",
+      "time": "09:16 - 23/10/2026",
+      "name": "Link Gemini Pro 18 Tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 262,
+      "catKey": "khac",
+      "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:48📦Tồnkhohiệntại:131💰Giá:40.000đ"
+    },
     {
       "id": "hist-1792721802052",
       "time": "09:16 - 23/10/2026",
@@ -11494,20 +11505,6 @@
       "catKey": "vpn",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:23📦Tồnkhohiệntại:4💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792618470979",
-      "time": "04:34 - 22/10/2026",
-      "timestamp": 1792618470979,
-      "name": "Surfshark VPN One 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 4,
-      "addedQty": 23,
-      "price": 45000,
-      "stockAfter": 15,
-      "catKey": "vpn",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:23📦Tồnkhohiệntại:4💰Giá:35.000đ"
     }
   ]
 }
