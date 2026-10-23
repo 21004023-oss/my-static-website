@@ -6368,24 +6368,25 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 150000,
             "selling_price": 170000,
-            "updated": "11:47 20/10/2026"
+            "updated": "11:28 23/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 150000
+          "bot": "@sieuthistore_bot",
+          "cost_price": 150000,
+          "stock": 2
         }
       },
       {
@@ -9690,6 +9691,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792729698165",
+      "time": "11:28 - 23/10/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 2,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1792729548130",
       "time": "11:25 - 23/10/2026",
       "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
@@ -11062,20 +11074,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTGo1Tháng-BHF➕Thêm:21📦Tồnkhohiệntại:27💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1792580081274",
-      "time": "17:54 - 21/10/2026",
-      "timestamp": 1792580081274,
-      "name": "ChatGPT Go 1 Tháng - BH 3 Ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 22,
-      "addedQty": 14,
-      "price": 60000,
-      "stockAfter": 26,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTGo1Tháng-BH3Ngày➕Thêm:14📦Tồnkhohiệntại:22💰Giá:50.000đ"
     }
   ]
 }
