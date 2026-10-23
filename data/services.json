@@ -2901,16 +2901,16 @@
         "id": "p-1792119807992",
         "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
         "price": 75000,
-        "stock": 58,
-        "stock_text": "Còn 58",
+        "stock": 45,
+        "stock_text": "Còn 45",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 31,
+            "stock": 18,
             "cost_price": 65000,
             "selling_price": 75000,
-            "updated": "07:40 22/10/2026"
+            "updated": "11:39 23/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 27,
@@ -2919,14 +2919,15 @@
             "updated": "17:16 21/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "cost_price": 38800,
+        "hidden": false,
+        "needs_review": false,
+        "cost_price": 40000,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 38800
+          "bot": "@taphoathomap_bot",
+          "cost_price": 40000,
+          "stock": 27
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792125293833",
@@ -9723,6 +9724,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792730392782",
+      "time": "11:39 - 23/10/2026",
+      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 75000,
+      "costPrice": 65000,
+      "stockAfter": 45,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:16📦Tồnkhohiệntại:18💰Giá:65.000đ"
+    },
+    {
       "id": "hist-1792730287005",
       "time": "11:38 - 23/10/2026",
       "name": "CAPCUT PRO 1 THÁNG BHF",
@@ -11074,20 +11086,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1792584884093",
-      "time": "19:14 - 21/10/2026",
-      "timestamp": 1792584884093,
-      "name": "Slot Youtube Premium 1 Năm BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 610,
-      "addedQty": 2,
-      "price": 310000,
-      "stockAfter": 610,
-      "catKey": "youtube",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "▶️SlotYoutubePremium1NămBHF➕Thêm:2📦Tồnkhohiệntại:610💰Giá:280.000đ"
     }
   ]
 }
