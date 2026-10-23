@@ -5951,25 +5951,27 @@
         "id": "p-1792268569370",
         "name": "Admin Microsoft 365 Family 1 Tháng BHF",
         "price": 55000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 19,
+            "stock": 5,
             "cost_price": 45000,
-            "updated": "03:22 18/10/2026",
-            "selling_price": 55000
+            "selling_price": 55000,
+            "updated": "11:36 23/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 16800,
+        "cost_price": 45000,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 16800
+          "bot": "@sieuthistore_bot",
+          "cost_price": 45000,
+          "stock": 5
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @sieuthistore_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792268573325",
@@ -9694,6 +9696,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792730173352",
+      "time": "11:36 - 23/10/2026",
+      "name": "Admin Microsoft 365 Family 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 5,
+      "catKey": "microsoft",
+      "msgKey": "⭐AdminMicrosoft365Family1ThángBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1792730165226",
       "time": "11:36 - 23/10/2026",
       "name": "LINK GEMINI PRO + GG1 5TB 18 THÁNG BẢO HÀNH 24H",
@@ -11054,20 +11067,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH1H➕Thêm:9📦Tồnkhohiệntại:8💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1792580952353",
-      "time": "18:09 - 21/10/2026",
-      "timestamp": 1792580952353,
-      "name": "Clone Facebook Novery Name Việt KBH",
-      "bot": "sieuthistore_bot",
-      "shopStock": 24,
-      "addedQty": 30,
-      "price": 20000,
-      "stockAfter": 24,
-      "catKey": "social",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐CloneFacebookNoveryNameViệtKBH➕Thêm:30📦Tồnkhohiệntại:24💰Giá:10.000đ"
     }
   ]
 }
