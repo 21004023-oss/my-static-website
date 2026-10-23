@@ -10501,11 +10501,48 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792776256981",
+        "name": "Dreamina US 8k6 credit 7 ngày BH 3D",
+        "price": 830000,
+        "cost_price": 730000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "7 Ngày",
+        "detail": "Dùng được 34 video Seedance 2.0 720p 15s.\nModel Seedance 2.0, Seedance 2.5...\nModel ảnh: Seedream, Seedream 4.0, Seedream 4.5......",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 730000,
+            "selling_price": 830000,
+            "updated": "00:24 24/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 730000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792776256981",
+      "time": "00:24 - 24/10/2026",
+      "name": "Dreamina US 8k6 credit 7 ngày BH 3D",
+      "bot": "taphoathomap_bot",
+      "price": 830000,
+      "costPrice": 730000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "msgKey": "⭐DreaminaUS8k6credit7ngàyBH3D➕Thêm:1📦Tồnkhohiệntại:2💰Giá:730.000đ"
+    },
     {
       "id": "hist-1792775543152",
       "time": "00:12 - 24/10/2026",
@@ -11594,20 +11631,6 @@
       "stockAfter": 8,
       "catKey": "meitu-wink",
       "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792655686636",
-      "time": "14:54 - 22/10/2026",
-      "timestamp": 1792655686636,
-      "name": "Surfshark VPN One 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 12,
-      "addedQty": 12,
-      "price": 25000,
-      "stockAfter": 36,
-      "catKey": "vpn",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:15.000đ"
     }
   ]
 }
