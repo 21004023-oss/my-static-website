@@ -2902,25 +2902,26 @@
         "id": "p-1791877845717",
         "name": "CAPCUT PRO 3 THÁNG BHF",
         "price": 205000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 11,
+        "stock_text": "Còn 11",
         "duration": "3 Tháng",
         "detail": "Tài khoản Capcut Pro dạng team hạn sử dụng 90 ngày. • Có thể nhận tới 2000 Credit AI • Định dạng: Email | Pass • Login 1-2 thiết bị hạn chế login nhiều thiết bị. • Bảo hành 90 ngày, không bảo hành lỗi đăng nhập quá thường xuyên.\nTK tự động gia hạn mỗi tháng 1 lần đến khi đủ 1 tháng",
         "cost_price": 185000,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 7,
+            "stock": 11,
             "cost_price": 185000,
             "selling_price": 205000,
-            "updated": "14:00 21/10/2026"
+            "updated": "17:58 23/10/2026"
           }
         },
-        "needs_review": true,
-        "hidden": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "hidden": false,
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 185000
+          "bot": "@sieuthistore_bot",
+          "cost_price": 185000,
+          "stock": 11
         }
       },
       {
@@ -10186,6 +10187,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792753090447",
+      "time": "17:58 - 23/10/2026",
+      "name": "CapCut Pro 3 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 205000,
+      "costPrice": 185000,
+      "stockAfter": 11,
+      "catKey": "capcut",
+      "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:8📦Tồnkhohiệntại:11💰Giá:185.000đ"
+    },
+    {
       "id": "hist-1792752388516",
       "time": "17:46 - 23/10/2026",
       "name": "CHATGPT PLUS 1 THÁNG BHF",
@@ -11402,20 +11414,6 @@
       "catKey": "google-veo",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:5📦Tồnkhohiệntại:60💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792624668867",
-      "time": "06:17 - 22/10/2026",
-      "timestamp": 1792624668867,
-      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 1,
-      "addedQty": 12,
-      "price": 43000,
-      "stockAfter": 216,
-      "catKey": "capcut",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:12📦Tồnkhohiệntại:1💰Giá:33.000đ"
     }
   ]
 }
