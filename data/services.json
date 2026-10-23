@@ -5522,16 +5522,16 @@
         "id": "p-1792093859672",
         "name": "Gmail Random 200X~2023 Có 2FA",
         "price": 55000,
-        "stock": 62,
-        "stock_text": "Còn 62",
+        "stock": 70,
+        "stock_text": "Còn 70",
         "duration": "1 Tháng",
         "detail": "Định dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H - Login thành công hết bảo hành\n- Gmail đã nuôi khá lâu rồi nên gmail khá khoẻ\n+ Lưu ý:\n- Hãy dùng proxy , và IP máy riêng để login Gmail , tránh tình trạng GG quét hàng loạt.\n-Sau 48H hãy thay đổi thông , đá thiết bị cũ, Để bảo mật tài sản của mình. ( Gmail cổ điều bảo mật thông tin là quan trọng nhất )\n-Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 31,
+            "stock": 39,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "22:59 19/10/2026"
+            "updated": "09:50 23/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 31,
@@ -5540,14 +5540,15 @@
             "updated": "22:59 19/10/2026"
           }
         },
-        "hidden": true,
-        "cost_price": 15000,
-        "needs_review": true,
+        "hidden": false,
+        "cost_price": 35000,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 35000,
+          "stock": 31
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792093865277",
@@ -10239,6 +10240,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792723856999",
+      "time": "09:50 - 23/10/2026",
+      "name": "Gmail Random 200X~2023 Có 2FA",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 70,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:24📦Tồnkhohiệntại:39💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1792722571658",
       "time": "09:29 - 23/10/2026",
       "name": "Link Gemini Pro 18 Tháng BH 24H",
@@ -11485,20 +11497,6 @@
       "catKey": "vpn",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "⭐KEYHMAAND/PC20-30DAYS➕Thêm:50📦Tồnkhohiệntại:22💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1792620792523",
-      "time": "05:13 - 22/10/2026",
-      "timestamp": 1792620792523,
-      "name": "KEY HMA AND/PC 20-30 DAYS",
-      "bot": "ntnshopre_bot",
-      "shopStock": 22,
-      "addedQty": 0,
-      "price": 20000,
-      "stockAfter": 22,
-      "catKey": "vpn",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "⭐KEYHMAAND/PC20-30DAYS💰Giá:10k📦Tồnkho:22tàikhoản📊Đãbán:619tàikhoản"
     }
   ]
 }
