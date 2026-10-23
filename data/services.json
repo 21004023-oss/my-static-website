@@ -6031,8 +6031,8 @@
         "id": "p-1792192343631",
         "name": "Gmail random 5-10 tháng 2FA",
         "price": 55000,
-        "stock": 54,
-        "stock_text": "Còn 54",
+        "stock": 76,
+        "stock_text": "Còn 76",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2fa\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "sources": {
@@ -6043,10 +6043,10 @@
             "updated": "22:55 23/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 16,
+            "stock": 38,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "17:09 18/10/2026"
+            "updated": "22:55 23/10/2026"
           }
         },
         "hidden": false,
@@ -6055,7 +6055,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 25000,
-          "stock": 16
+          "stock": 38
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -10422,6 +10422,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792770926377",
+      "time": "22:55 - 23/10/2026",
+      "name": "Gmail random 5-10 tháng 2FA",
+      "bot": "taphoathomap_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 76,
+      "catKey": "gmail",
+      "msgKey": "📧Gmailrandom5-10tháng2FA➕Thêm:30📦Tồnkhohiệntại:38💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1792770920545",
       "time": "22:55 - 23/10/2026",
       "name": "Gmail random 5-10 tháng 2FA",
@@ -11536,20 +11547,6 @@
       "catKey": "vpn",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792655629203",
-      "time": "14:53 - 22/10/2026",
-      "timestamp": 1792655629203,
-      "name": "Gmail (New) -Login All",
-      "bot": "sieuthistore_bot",
-      "shopStock": 81,
-      "addedQty": 66,
-      "price": 45000,
-      "stockAfter": 273,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:66📦Tồnkhohiệntại:81💰Giá:35.000đ"
     }
   ]
 }
