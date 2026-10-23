@@ -8141,16 +8141,16 @@
         "id": "p-1791917317024",
         "name": "Wink VIP+ 7 Ngày BHF",
         "price": 45000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "7 Ngày",
         "detail": "Wink gói VIP+ 7 Ngày BHF 100 credits login 1 thiết bị,  nếu đăng nhập trên điện thoại lỗi thì có thể có thể dùng trên PC\n- Định dạng: (Email|Pass Hotmail|Pass Wink) Token\n- Pass Wink mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\nLink tải app Wink trên máy tính: https://wink.ai/vi\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 13,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "22:39 23/10/2026"
+            "updated": "04:44 24/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 2,
@@ -8166,7 +8166,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 2
+          "stock": 13
         }
       },
       {
@@ -10837,6 +10837,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792791846026",
+      "time": "04:44 - 24/10/2026",
+      "name": "Wink VIP+ 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 15,
+      "catKey": "meitu-wink",
+      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:13💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1792791642939",
       "time": "04:40 - 24/10/2026",
       "name": "Meitu SVip+ 7 Ngày BHF",
@@ -11924,17 +11935,6 @@
       "stockAfter": 8,
       "catKey": "meitu-wink",
       "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792744901955",
-      "time": "15:41 - 23/10/2026",
-      "name": "ChatGPT có offer PLUS 0$  1 tháng - KBH",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 1,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTcóofferPLUS0$1tháng-KBH➕Thêm:1📦Tồnkhohiệntại:1💰Giá:30.000đ"
     }
   ]
 }
