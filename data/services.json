@@ -10386,11 +10386,48 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792768361417",
+        "name": "( Gói chính hãng ) CODE ElevanLabs 131K Credit 1 Tháng - KBH",
+        "price": 110000,
+        "cost_price": 100000,
+        "stock": 25,
+        "stock_text": "Còn 25",
+        "duration": "1 Tháng",
+        "detail": "Mua về dùng luôn - không ôm , hỗ trợ 1H\nLưu Ý:\n- Khi điền thông tin đăng ký nên điền thông tin chuẩn chỉ để sử dụng được lâu dài\n- Đây là code kích - không phải acc\n- Cần thẻ để kích hoạt, không bh việc tt\n- Code ok = DONE",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 25,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "22:12 23/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 100000,
+          "stock": 25
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792768361417",
+      "time": "22:12 - 23/10/2026",
+      "name": "( Gói chính hãng ) CODE ElevanLabs 131K Credit 1 Tháng - KBH",
+      "bot": "taphoathomap_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 25,
+      "catKey": "khac",
+      "msgKey": "🎙️(Góichínhhãng)CODEElevanLabs131KCredit1Tháng-KBH➕Thêm:11📦Tồnkhohiệntại:25💰Giá:"
+    },
     {
       "id": "hist-1792767105358",
       "time": "21:51 - 23/10/2026",
@@ -11533,20 +11570,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1792655574253",
-      "time": "14:52 - 22/10/2026",
-      "timestamp": 1792655574253,
-      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
-      "bot": "piggyai99_bot",
-      "shopStock": 72,
-      "addedQty": 0,
-      "price": 50000,
-      "stockAfter": 114,
-      "catKey": "google-veo",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H💰Giá:40k📦Tồnkho:72tàikhoản📊Đãbán:3.097tàikhoản💎Môt"
     }
   ]
 }
