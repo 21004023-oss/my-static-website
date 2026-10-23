@@ -10283,24 +10283,26 @@
         "name": "Key Window 10/11 Pro Byphone 20 năm BH 1 năm",
         "price": 130000,
         "cost_price": 110000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "1 Năm",
         "detail": "✔️ Key chính hãng vĩnh viễn cho 1 máy tính Window. Active được cả win 10 Pro và 11 Pro\n✔️ Bảo hành active và lưu trữ key trong 1 tháng\n✔️ Hàng chính hãng không bị mất active khi đang sử dụng\n✔️ Active by phone có bot lấy CID nhanh chóng",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 12,
+            "stock": 18,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "21:09 19/10/2026"
+            "updated": "05:54 24/10/2026"
           }
         },
         "hidden": false,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 110000
-        }
+          "bot": "@sieuthistore_bot",
+          "cost_price": 110000,
+          "stock": 18
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792529382880",
@@ -10900,6 +10902,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792796043921",
+      "time": "05:54 - 24/10/2026",
+      "name": "Key Window 10/11 Pro Byphone 20 năm BH 1 năm",
+      "bot": "sieuthistore_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 18,
+      "catKey": "khac",
+      "msgKey": "⭐KeyWindow10/11ProByphone20nămBH1năm➕Thêm:10📦Tồnkhohiệntại:18💰Giá:110.000đ"
+    },
     {
       "id": "hist-1792795301659",
       "time": "05:41 - 24/10/2026",
@@ -11988,17 +12001,6 @@
       "stockAfter": 9,
       "catKey": "kling",
       "msgKey": "🎬Kling790-1kCredit1thángBH1Ngày➕Thêm:9📦Tồnkhohiệntại:9💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1792749397799",
-      "time": "16:56 - 23/10/2026",
-      "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
-      "bot": "ntnshopre_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 10,
-      "catKey": "kling",
-      "msgKey": "🎬KLING792-992cre1tháng(BH24h)➕Thêm:9📦Tồnkhohiệntại:9💰Giá:150.000đ"
     }
   ]
 }
