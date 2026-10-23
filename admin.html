@@ -1794,11 +1794,11 @@
         </div>
         <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
           <div class="order-view-switcher">
-            <button type="button" class="order-view-pill active" id="btnViewFamilyBoxes" onclick="switchOrderView('boxes')">
-              📦 Hộp Ghép Fam (Kéo & Thả)
+            <button type="button" class="order-view-pill active" id="btnViewOrderTable" onclick="switchOrderView('table')">
+              📋 Dạng Bảng Chi Tiết
             </button>
-            <button type="button" class="order-view-pill" id="btnViewOrderTable" onclick="switchOrderView('table')">
-              📋 Dạng Bảng Danh Sách
+            <button type="button" class="order-view-pill" id="btnViewFamilyBoxes" onclick="switchOrderView('boxes')">
+              📦 Hộp Ghép Fam (Kéo & Thả)
             </button>
           </div>
           <button class="btn btn-purple" onclick="openFamilyBoxModal()" style="font-weight:700;">
@@ -1849,7 +1849,7 @@
       </div>
 
       <!-- CHẾ ĐỘ 1: HỘP GHÉP FAM (KÉO & THẢ) -->
-      <div id="orderFamilyBoxView">
+      <div id="orderFamilyBoxView" style="display:none;">
         <div class="fam-layout-container">
           <!-- CỘT TRÁI: ĐƠN CHỜ GHÉP VÀO FAM -->
           <div class="fam-unassigned-panel">
@@ -1894,7 +1894,7 @@
       </div>
 
       <!-- CHẾ ĐỘ 2: BẢNG ĐƠN HÀNG TRUYỀN THỐNG -->
-      <div id="orderTableView" style="display:none;">
+      <div id="orderTableView" style="display:block;">
         <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:14px; align-items:center;">
           <input type="text" id="inpOrderSearch" class="search-input" style="flex:1; min-width:220px;" placeholder="🔍 Tìm theo Mã đơn, Email cấp khách, Tên gói, Sale..." oninput="renderOrdersTable()" />
           <select id="selOrderFilterStatus" class="form-control" style="width:160px;" onchange="renderOrdersTable()">
@@ -4190,7 +4190,16 @@
             const pin = sessionStorage.getItem('adm_pin_code') || '';
             if (pin) {
               try {
-                ordersData = await decryptOrderVault(raw, pin);
+                const dec = await decryptOrderVault(raw, pin);
+                if (dec && typeof dec === 'object' && !Array.isArray(dec) && dec.orders) {
+                  ordersData = dec.orders || [];
+                  familyBoxesData = dec.family_boxes || [];
+                } else if (Array.isArray(dec)) {
+                  ordersData = dec;
+                  familyBoxesData = [];
+                } else {
+                  ordersData = [];
+                }
               } catch (decErr) {
                 console.error('Lỗi giải mã đơn hàng:', decErr);
                 showToast('⚠️ Không thể giải mã đơn hàng: Mã PIN không khớp', 'error');
@@ -4739,7 +4748,7 @@
        LOGIC HỘP GHÉP FAM (FAMILY BOXES SYSTEM)
        ======================================================== */
     let familyBoxesData = [];
-    let currentOrderView = 'boxes'; // 'boxes' hoặc 'table'
+    let currentOrderView = 'table'; // Mặc định hiển thị bảng danh sách đơn hàng
     let draggedOrderId = null;
 
     function switchOrderView(view) {
