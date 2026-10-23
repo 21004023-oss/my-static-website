@@ -4042,6 +4042,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792737928332",
+        "name": "CURSOR SUPER 15X 1 THÁNG (BH 7D)",
+        "price": 1100000,
+        "cost_price": 1000000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "1 Tháng",
+        "detail": "🛡️ CURSOR|GROK SUPER 2 in 1\n🔥Hàng inapp IOS cực tốt, đa số khách sử dụng đủ 30 ngày\nLưu ý: Chính chủ chỉ áp dụng cho tài khoản có offer 50% Khách gửi tài khoản: Mail| pass grok |2fa (nếu có)\nĐể đăng nhập thuận tiện. đăng nhập qua google thì log out ra đặt lại pass grok.\nCần tài khoản cấp thì note cho shop\n📦 Done đơn trong 6 tiếng ( 9h - 23h )\n🛡️ Bảo hành: 7 ngày (Chỉ bảo hành gói dịch vụ, không bảo hành trường hợp sử dụng vi phạm chính sách)\n🛡️ Trường hợp không có tài khoản có offer, có thể mua đơn, sau đó yêu cầu admin cấp sẵn tài khoản",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 1000000,
+            "selling_price": 1100000,
+            "updated": "13:45 23/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 1000000,
+          "stock": 6
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=deepseek.com&sz=64"
@@ -9846,6 +9872,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792737928332",
+      "time": "13:45 - 23/10/2026",
+      "name": "CURSOR SUPER 15X 1 THÁNG (BH 7D)",
+      "bot": "taphoathomap_bot",
+      "price": 1100000,
+      "costPrice": 1000000,
+      "stockAfter": 6,
+      "catKey": "api-cursor-deepseek",
+      "msgKey": "🖱️CURSORSUPER15X1THÁNG(BH7D)➕Thêm:6📦Tồnkhohiệntại:6💰Giá:1.000.000đ"
+    },
+    {
       "id": "hist-1792737702097",
       "time": "13:41 - 23/10/2026",
       "name": "CURSOR PREMIUM 4X 1 THÁNG (BH 15D)",
@@ -11155,20 +11192,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🤖SLOTCHATGPTBUSINESSDÙNGCHUNG1THÁNGBHF➕Thêm:19📦Tồnkhohiệntại:19💰Giá:119.000đ"
-    },
-    {
-      "id": "hist-1792594889363",
-      "time": "22:01 - 21/10/2026",
-      "timestamp": 1792594889363,
-      "name": "Grok Plus 30 ngày Bh Login",
-      "bot": "sieuthistore_bot",
-      "shopStock": 13,
-      "addedQty": 13,
-      "price": 140000,
-      "stockAfter": 13,
-      "catKey": "grok",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⚡GrokPlus30ngàyBhLogin➕Thêm:13📦Tồnkhohiệntại:13💰Giá:120.000đ"
     }
   ]
 }
