@@ -1478,6 +1478,190 @@
       box-shadow: 0 0 10px rgba(16, 185, 129, 0.35);
     }
 
+
+    /* ========================================================
+       NHỮNG CÁI HỘP NHỎ NHỎ ĐỂ KÉO THẢ VÀO (COMPACT DROPZONE BOXES)
+       ======================================================== */
+    .mini-boxes-wrapper {
+      margin-bottom: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .mini-boxes-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .mini-boxes-title {
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .mini-boxes-bar {
+      display: flex;
+      gap: 12px;
+      overflow-x: auto;
+      padding: 8px 4px 14px 4px;
+      align-items: stretch;
+      scrollbar-width: thin;
+    }
+    .mini-box-card {
+      background: var(--card-bg);
+      border: 1.5px solid var(--card-border);
+      border-radius: 10px;
+      padding: 10px 13px;
+      min-width: 220px;
+      max-width: 250px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      user-select: none;
+      flex-shrink: 0;
+      box-shadow: var(--shadow-sm);
+    }
+    .mini-box-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+    .mini-box-card.active-filter {
+      border-color: var(--primary);
+      background: var(--primary-subtle);
+      box-shadow: 0 0 0 2px var(--primary);
+    }
+    /* Hiệu ứng khi kéo đơn hàng rê vào chiếc hộp nhỏ */
+    .mini-box-card.drag-over {
+      border-color: var(--emerald) !important;
+      background: var(--emerald-subtle) !important;
+      transform: scale(1.06) translateY(-4px) !important;
+      box-shadow: 0 8px 22px rgba(16, 185, 129, 0.4) !important;
+    }
+    .mini-box-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+    }
+    .mini-box-title-text {
+      font-size: 12.5px;
+      font-weight: 800;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .mini-box-slots-badge {
+      font-size: 10.5px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+    .mini-box-meta {
+      font-size: 10.5px;
+      color: var(--text-muted);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .mini-box-progress {
+      height: 4px;
+      background: var(--input-bg);
+      border-radius: 2px;
+      overflow: hidden;
+      margin-top: 3px;
+    }
+    .mini-box-progress-bar {
+      height: 100%;
+      background: var(--emerald);
+      border-radius: 2px;
+      transition: width 0.3s ease;
+    }
+    .mini-box-progress-bar.full {
+      background: var(--rose);
+    }
+    .mini-box-actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 4px;
+      padding-top: 4px;
+      border-top: 1px dashed var(--card-border);
+      font-size: 10.5px;
+    }
+    .mini-box-act-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 11px;
+      padding: 2px 4px;
+      border-radius: 4px;
+      transition: all 0.15s;
+    }
+    .mini-box-act-btn:hover {
+      color: var(--primary);
+      background: var(--input-bg);
+    }
+    .mini-box-act-btn.danger:hover {
+      color: var(--rose);
+      background: var(--rose-subtle);
+    }
+
+    /* Nút Tạo Hộp Nhỏ Mới */
+    .btn-create-mini-box {
+      border: 1.5px dashed var(--card-border);
+      border-radius: 10px;
+      background: rgba(148, 163, 184, 0.05);
+      min-width: 140px;
+      padding: 10px 14px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--primary);
+      cursor: pointer;
+      transition: all 0.18s ease;
+      flex-shrink: 0;
+    }
+    .btn-create-mini-box:hover {
+      border-color: var(--primary);
+      background: var(--primary-subtle);
+      transform: translateY(-2px);
+    }
+
+    /* Dòng đơn hàng có thể kéo */
+    .order-row-draggable {
+      cursor: grab;
+      user-select: none;
+      transition: background 0.15s;
+    }
+    .order-row-draggable:hover {
+      background: var(--table-row-hover);
+    }
+    .order-row-draggable:active {
+      cursor: grabbing;
+    }
+    .order-row-draggable.is-dragging {
+      opacity: 0.35;
+      background: var(--primary-subtle) !important;
+    }
+
 </style>
 </head>
 <body>
@@ -1793,14 +1977,6 @@
           </p>
         </div>
         <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
-          <div class="order-view-switcher">
-            <button type="button" class="order-view-pill active" id="btnViewOrderTable" onclick="switchOrderView('table')">
-              📋 Dạng Bảng Chi Tiết
-            </button>
-            <button type="button" class="order-view-pill" id="btnViewFamilyBoxes" onclick="switchOrderView('boxes')">
-              📦 Hộp Ghép Fam (Kéo & Thả)
-            </button>
-          </div>
           <button class="btn btn-purple" onclick="openFamilyBoxModal()" style="font-weight:700;">
             ➕ Tạo Hộp Fam Mới
           </button>
@@ -1848,52 +2024,27 @@
         </div>
       </div>
 
-      <!-- CHẾ ĐỘ 1: HỘP GHÉP FAM (KÉO & THẢ) -->
-      <div id="orderFamilyBoxView" style="display:none;">
-        <div class="fam-layout-container">
-          <!-- CỘT TRÁI: ĐƠN CHỜ GHÉP VÀO FAM -->
-          <div class="fam-unassigned-panel">
-            <div class="fam-unassigned-head">
-              <div class="fam-unassigned-title">
-                <span>📥 Đơn Chờ Ghép Fam</span>
-                <span id="badgeUnassignedCount" class="badge badge-warning" style="font-size:11px;">0</span>
-              </div>
-            </div>
-            <input type="text" id="inpFamUnassignedSearch" class="search-input" placeholder="🔍 Tìm đơn chờ ghép..." oninput="renderFamilyBoxesView()" style="font-size:12px; padding:6px 10px;" />
-            <div id="famUnassignedList" style="display:flex; flex-direction:column; gap:8px;"></div>
+            <!-- DÃY CÁC CHIẾC HỘP NHỎ NHỎ ĐỂ KÉO THẢ ĐƠN VÀO -->
+      <div class="mini-boxes-wrapper">
+        <div class="mini-boxes-header">
+          <div class="mini-boxes-title">
+            <span>📦 Các Hộp Nhỏ Ghép Fam (Kéo đơn dưới bảng thả vào):</span>
+            <span id="lblActiveFamFilterDesc" style="font-size:11px; font-weight:600; color:var(--primary); margin-left:6px;"></span>
           </div>
-
-          <!-- CỘT PHẢI: CÁC CHIẾC HỘP FAM -->
-          <div class="fam-boxes-panel">
-            <div class="fam-boxes-toolbar">
-              <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
-                <span style="font-size:13px; font-weight:800; color:var(--text);">Các Hộp Family:</span>
-                <button type="button" class="btn btn-outline" style="font-size:11.5px; padding:3px 9px; font-weight:700; border-color:var(--purple); color:var(--purple);" onclick="autoGroupOrdersByMatchingEmail()" title="Tự động quét tất cả các đơn có cùng email để gom vào chung 1 Hộp">
-                  ⚡ Tự Động Gom Đơn Trùng Email
-                </button>
-                <select id="selFamFilterCat" class="form-control" style="width:170px; font-size:12px; padding:4px 8px;" onchange="renderFamilyBoxesView()">
-                  <option value="all">🌟 Tất cả dịch vụ</option>
-                  <option value="YouTube Premium">📺 YouTube Premium</option>
-                  <option value="Netflix">🍿 Netflix Premium</option>
-                  <option value="Spotify">🎵 Spotify Family</option>
-                  <option value="Canva">🎨 Canva Team</option>
-                  <option value="Office 365">💼 Office 365</option>
-                </select>
-              </div>
-              <div style="display:flex; align-items:center; gap:10px; font-size:12px; color:var(--text-muted);">
-                <span>📦 <strong id="lblTotalFamCount" style="color:var(--text);">0</strong> Hộp Fam</span>
-                <span>•</span>
-                <span>👥 <strong id="lblTotalFilledSlots" style="color:var(--emerald);">0</strong> đã ghép</span>
-                <span>•</span>
-                <span>🟢 <strong id="lblTotalEmptySlots" style="color:var(--primary);">0</strong> slot trống</span>
-              </div>
-            </div>
-            <div id="famBoxesGrid" class="fam-boxes-grid"></div>
+          <div style="display:flex; align-items:center; gap:8px;">
+            <button type="button" class="btn btn-outline" style="font-size:11px; padding:3px 8px; font-weight:700; border-color:var(--purple); color:var(--purple);" onclick="autoGroupOrdersByMatchingEmail()" title="Tự động quét tất cả các đơn có cùng email để gom vào chung 1 Hộp">
+              ⚡ Tự Động Gom Đơn Trùng Email
+            </button>
+            <button type="button" class="btn btn-purple" style="font-size:11px; padding:3px 10px; font-weight:700;" onclick="openFamilyBoxModal()">
+              ➕ Tạo Hộp Mới
+            </button>
           </div>
         </div>
+        <div class="mini-boxes-bar" id="miniBoxesBarContainer">
+          <!-- Render danh sách các hộp nhỏ qua JS -->
+        </div>
       </div>
-
-      <!-- CHẾ ĐỘ 2: BẢNG ĐƠN HÀNG TRUYỀN THỐNG -->
+      <!-- BẢNG ĐƠN HÀNG CHI TIẾT -->
       <div id="orderTableView" style="display:block;">
         <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:14px; align-items:center;">
           <input type="text" id="inpOrderSearch" class="search-input" style="flex:1; min-width:220px;" placeholder="🔍 Tìm theo Mã đơn, Email cấp khách, Tên gói, Sale..." oninput="renderOrdersTable()" />
@@ -4236,8 +4387,8 @@
       }
       if (!Array.isArray(ordersData)) ordersData = [];
       updateOrdersStats();
+      renderMiniBoxesBar();
       renderOrdersTable();
-      renderFamilyBoxesView();
       populateOrderPlanSelect();
     }
 
@@ -4284,6 +4435,230 @@
       }
     }
 
+    
+    /* ========================================================
+       RENDER DÃY CÁC CHIẾC HỘP NHỎ NHỎ (MINI DROPZONE BOXES)
+       ======================================================== */
+    let selectedFamFilterId = null; // Lọc bảng theo Hộp Fam nào (null = xem tất cả)
+
+    function renderMiniBoxesBar() {
+      ensureDefaultFamilyBoxes();
+      const container = document.getElementById('miniBoxesBarContainer');
+      if (!container) return;
+
+      const famAssignedMap = {};
+      familyBoxesData.forEach(fam => { famAssignedMap[fam.id] = []; });
+      let unassignedCount = 0;
+
+      ordersData.forEach(order => {
+        if (order.family_id && famAssignedMap[order.family_id]) {
+          famAssignedMap[order.family_id].push(order);
+        } else {
+          unassignedCount++;
+        }
+      });
+
+      let html = '';
+
+      // Thẻ 1: Tất Cả Đơn (Nút Bỏ Lọc)
+      const isAllActive = (selectedFamFilterId === null);
+      html += `
+        <div class="mini-box-card ${isAllActive ? 'active-filter' : ''}" onclick="selectFamFilter(null)" style="min-width:140px; max-width:160px; justify-content:center; align-items:center; text-align:center;">
+          <div style="font-size:16px;">🌟</div>
+          <div style="font-size:12.5px; font-weight:800; color:var(--text); margin-top:2px;">Tất Cả Đơn</div>
+          <div style="font-size:11px; color:var(--text-muted);">${ordersData.length} đơn hàng</div>
+        </div>
+      `;
+
+      // Thẻ 2: Đơn Chưa Vào Fam
+      const isUnassignedActive = (selectedFamFilterId === 'unassigned');
+      html += `
+        <div class="mini-box-card ${isUnassignedActive ? 'active-filter' : ''}" 
+             onclick="selectFamFilter('unassigned')" 
+             ondragover="onMiniBoxDragOver(event)" 
+             ondragleave="onMiniBoxDragLeave(event)" 
+             ondrop="onMiniBoxDrop(event, '')" 
+             style="min-width:160px; max-width:180px; justify-content:center; align-items:center; text-align:center;"
+             title="Kéo đơn thả vào đây để rút đơn ra khỏi Fam">
+          <div style="font-size:16px;">📥</div>
+          <div style="font-size:12.5px; font-weight:800; color:var(--amber); margin-top:2px;">Chưa Vào Fam</div>
+          <div style="font-size:11px; color:var(--text-muted);">${unassignedCount} đơn lẻ</div>
+        </div>
+      `;
+
+      // Thẻ danh sách các Chiếc Hộp Fam Nhỏ
+      familyBoxesData.forEach(fam => {
+        const assigned = famAssignedMap[fam.id] || [];
+        const maxSlots = fam.max_slots || 5;
+        const emptyCount = Math.max(0, maxSlots - assigned.length);
+        const isFull = emptyCount === 0;
+        const pct = Math.min(100, Math.round((assigned.length / maxSlots) * 100));
+
+        let badgeClass = 'badge-in';
+        let badgeText = `${assigned.length}/${maxSlots}`;
+        if (isFull) {
+          badgeClass = 'badge-out';
+          badgeText = `ĐẦY (${assigned.length}/${maxSlots})`;
+        } else if (emptyCount === 1) {
+          badgeClass = 'badge-warning';
+          badgeText = `Còn 1 chỗ`;
+        } else {
+          badgeText = `Còn ${emptyCount} chỗ`;
+        }
+
+        const isFamActive = (selectedFamFilterId === fam.id);
+        const catIcon = fam.category === 'YouTube Premium' ? '📺' : (fam.category === 'Netflix' ? '🍿' : (fam.category === 'Spotify' ? '🎵' : (fam.category === 'Canva' ? '🎨' : '📦')));
+
+        html += `
+          <div class="mini-box-card ${isFamActive ? 'active-filter' : ''}" 
+               id="mini-box-${fam.id}"
+               onclick="selectFamFilter('${fam.id}')"
+               ondragover="onMiniBoxDragOver(event)" 
+               ondragleave="onMiniBoxDragLeave(event)" 
+               ondrop="onMiniBoxDrop(event, '${fam.id}')"
+               title="Kéo dòng đơn hàng dưới bảng thả vào đây để nhét vào [${fam.name}]">
+            <div class="mini-box-head">
+              <span class="mini-box-title-text">${catIcon} ${fam.name}</span>
+              <span class="badge ${badgeClass} mini-box-slots-badge">${badgeText}</span>
+            </div>
+            <div class="mini-box-meta">
+              <span>🔑 ${fam.admin_email || 'Chưa set mail'}</span>
+            </div>
+            <div class="mini-box-progress">
+              <div class="mini-box-progress-bar ${isFull ? 'full' : ''}" style="width: ${pct}%;"></div>
+            </div>
+            <div class="mini-box-actions" onclick="event.stopPropagation()">
+              <button type="button" class="mini-box-act-btn" onclick="copyFamilyClientEmails('${fam.id}')" title="Sao chép toàn bộ email khách trong hộp này">📋 Copy Mail</button>
+              <button type="button" class="mini-box-act-btn" onclick="openFamilyBoxModal('${fam.id}')" title="Sửa thông tin Hộp">✏️ Sửa</button>
+              <button type="button" class="mini-box-act-btn danger" onclick="deleteFamilyBox('${fam.id}')" title="Xóa Hộp này">🗑️</button>
+            </div>
+          </div>
+        `;
+      });
+
+      // Nút Thêm Hộp Nhỏ Mới
+      html += `
+        <div class="btn-create-mini-box" onclick="openFamilyBoxModal()" title="Tạo thêm 1 chiếc hộp nhỏ mới">
+          <span style="font-size:18px;">➕</span>
+          <span>Tạo Hộp Mới</span>
+        </div>
+      `;
+
+      container.innerHTML = html;
+
+      // Cập nhật mô tả bộ lọc đang chọn
+      const lblFilterDesc = document.getElementById('lblActiveFamFilterDesc');
+      if (lblFilterDesc) {
+        if (selectedFamFilterId === 'unassigned') {
+          lblFilterDesc.innerHTML = `• Đang lọc: <span style="color:var(--amber);">Đơn chưa vào Fam</span> <button class="btn btn-outline" style="font-size:10px; padding:1px 6px; margin-left:4px;" onclick="selectFamFilter(null)">✕ Xem tất cả</button>`;
+        } else if (selectedFamFilterId) {
+          const curFam = familyBoxesData.find(f => f.id === selectedFamFilterId);
+          lblFilterDesc.innerHTML = `• Đang lọc: <span style="color:var(--primary);">${curFam ? curFam.name : ''}</span> <button class="btn btn-outline" style="font-size:10px; padding:1px 6px; margin-left:4px;" onclick="selectFamFilter(null)">✕ Xem tất cả</button>`;
+        } else {
+          lblFilterDesc.innerText = '';
+        }
+      }
+    }
+
+    function selectFamFilter(famId) {
+      selectedFamFilterId = famId;
+      renderMiniBoxesBar();
+      renderOrdersTable();
+    }
+
+    // KÉO THẢ TỪ DÒNG ĐƠN HÀNG VÀO CÁC HỘP NHỎ
+    function onOrderRowDragStart(e, orderId) {
+      draggedOrderId = orderId;
+      e.dataTransfer.setData('text/plain', orderId);
+      e.dataTransfer.effectAllowed = 'move';
+      const tr = e.target.closest('tr');
+      if (tr) tr.classList.add('is-dragging');
+    }
+
+    function onOrderRowDragEnd(e) {
+      draggedOrderId = null;
+      document.querySelectorAll('tr.is-dragging').forEach(r => r.classList.remove('is-dragging'));
+      document.querySelectorAll('.mini-box-card.drag-over').forEach(b => b.classList.remove('drag-over'));
+    }
+
+    function onMiniBoxDragOver(e) {
+      e.preventDefault();
+      e.dataTransfer.dropEffect = 'move';
+      const card = e.target.closest('.mini-box-card');
+      if (card && !card.classList.contains('drag-over')) {
+        card.classList.add('drag-over');
+      }
+    }
+
+    function onMiniBoxDragLeave(e) {
+      const card = e.target.closest('.mini-box-card');
+      if (card) {
+        card.classList.remove('drag-over');
+      }
+    }
+
+    async function onMiniBoxDrop(e, famId) {
+      e.preventDefault();
+      document.querySelectorAll('.mini-box-card.drag-over').forEach(b => b.classList.remove('drag-over'));
+      const orderId = e.dataTransfer.getData('text/plain') || draggedOrderId;
+      if (!orderId) return;
+
+      const order = ordersData.find(o => o.id === orderId);
+      if (!order) return;
+
+      // Nếu kéo thả vào ô "Chưa vào Fam" (famId == '')
+      if (!famId) {
+        order.family_id = '';
+        order.family_slot = null;
+        showToast(`Đã rút đơn ${order.id} ra khỏi Hộp Fam!`, 'info');
+        renderMiniBoxesBar();
+        renderOrdersTable();
+        saveOrdersDirectToGitHub(true, `Rút đơn ${order.id} khỏi Hộp Fam`);
+        return;
+      }
+
+      const fam = familyBoxesData.find(f => f.id === famId);
+      if (!fam) return;
+
+      const currentAssigned = ordersData.filter(o => o.family_id === famId && o.id !== orderId);
+      if (currentAssigned.length >= (fam.max_slots || 5)) {
+        showToast(`⚠️ [${fam.name}] đã đầy (${fam.max_slots} slot)! Không thể nhét thêm.`, 'warning');
+        return;
+      }
+
+      order.family_id = famId;
+      order.family_slot = currentAssigned.length + 1;
+
+      showToast(`🎉 Đã nhét đơn ${order.id} vào [${fam.name}]!`, 'success');
+
+      // Tự động kiểm tra xem còn đơn nào khác có cùng email không
+      const email = (order.account || '').trim().toLowerCase();
+      if (email && email.includes('@')) {
+        const remainingSameEmail = ordersData.filter(o => 
+          o.id !== order.id && 
+          !o.family_id && 
+          (o.account || '').trim().toLowerCase() === email
+        );
+        if (remainingSameEmail.length > 0) {
+          const emptyRemaining = (fam.max_slots || 5) - (currentAssigned.length + 1);
+          if (emptyRemaining > 0) {
+            const addCount = Math.min(emptyRemaining, remainingSameEmail.length);
+            if (confirm(`Phát hiện còn ${remainingSameEmail.length} đơn khác cũng có email "${email}".\n\nBạn có muốn tự động nhét ${addCount} đơn này vào Hộp [${fam.name}] luôn không?`)) {
+              for (let i = 0; i < addCount; i++) {
+                remainingSameEmail[i].family_id = famId;
+                remainingSameEmail[i].family_slot = currentAssigned.length + 2 + i;
+              }
+              showToast(`🎉 Đã tự động gom thêm ${addCount} đơn cùng email vào [${fam.name}]!`, 'success');
+            }
+          }
+        }
+      }
+
+      renderMiniBoxesBar();
+      renderOrdersTable();
+      saveOrdersDirectToGitHub(true, `Nhét đơn ${order.id} vào Hộp ${fam.name}`);
+    }
+
     function renderOrdersTable() {
       const tbody = document.getElementById('ordersTableBody');
       if (!tbody) return;
@@ -4293,6 +4668,8 @@
       const filterSale = (document.getElementById('selOrderFilterSale')?.value || '').trim();
 
       const filtered = ordersData.map((order, idx) => ({ ...order, _origIdx: idx })).filter(item => {
+        if (selectedFamFilterId === 'unassigned' && item.family_id) return false;
+        if (selectedFamFilterId && selectedFamFilterId !== 'unassigned' && item.family_id !== selectedFamFilterId) return false;
         if (filterStatus && !item.status.includes(filterStatus)) return false;
         if (filterSale && item.sale_name !== filterSale) return false;
         if (search) {
@@ -4358,11 +4735,26 @@
         const safeAccount = (o.account || '').replace(/"/g, '&quot;');
         const safePass = (o.password_2fa || '').replace(/"/g, '&quot;');
 
+        const fam = o.family_id ? familyBoxesData.find(f => f.id === o.family_id) : null;
+        const famBadge = fam ? 
+          `<span class="badge" style="background:rgba(99,102,241,0.12); color:var(--primary); font-size:10px; cursor:pointer;" onclick="selectFamFilter('${fam.id}')" title="Bấm để lọc riêng Hộp [${fam.name}]">📦 ${fam.name}</span>` : 
+          `<span class="badge" style="background:var(--input-bg); color:var(--text-light); font-size:10px;">Chưa vào Fam</span>`;
+
         return `
-          <tr>
-            <td><strong style="color:var(--primary);">${o.id || '-'}</strong></td>
+          <tr class="order-row-draggable" draggable="true" ondragstart="onOrderRowDragStart(event, '${o.id}')" ondragend="onOrderRowDragEnd(event)" title="Kéo dòng này thả vào các hộp nhỏ ở trên để nhét vào Fam">
+            <td>
+              <div style="display:flex; align-items:center; gap:5px;">
+                <span style="color:var(--text-light); font-size:12px; cursor:grab;">⠿</span>
+                <strong style="color:var(--primary);">${o.id || '-'}</strong>
+              </div>
+            </td>
             <td style="font-size:12px; white-space:nowrap;">${o.date || '-'}</td>
-            <td><strong>${o.plan_name || '-'}</strong></td>
+            <td>
+              <div style="display:flex; flex-direction:column; gap:2px;">
+                <strong>${o.plan_name || '-'}</strong>
+                <div>${famBadge}</div>
+              </div>
+            </td>
             <td>
               <div style="display:flex; align-items:center; gap:6px;">
                 <code style="background:var(--table-header); padding:2px 6px; border-radius:4px; font-size:11.5px; color:var(--emerald);">${o.account || 'Chưa điền'}</code>
