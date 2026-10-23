@@ -891,25 +891,26 @@
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
         "price": 310000,
-        "stock": 41,
-        "stock_text": "Còn 41",
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "1 Tháng",
-        "detail": "🗣️ Mô tả:\n🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nThuê sim vẻ số tại: https://viotp.com/\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "detail": "🗣️ Mô tả:\n🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n6. Bảo hành đổi acc mới nếu die trước 7D.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ!\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 41,
-            "cost_price": 215000,
-            "selling_price": 245000,
-            "updated": "01:13 20/10/2026"
+            "stock": 9,
+            "cost_price": 265000,
+            "selling_price": 295000,
+            "updated": "16:08 23/10/2026"
           }
         },
-        "cost_price": 215000,
-        "needs_review": true,
-        "hidden": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "cost_price": 265000,
+        "needs_review": false,
+        "hidden": false,
+        "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 215000
+          "cost_price": 265000,
+          "stock": 9
         }
       },
       {
@@ -10046,6 +10047,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792746522224",
+      "time": "16:08 - 23/10/2026",
+      "name": "CHATGPT PLUS 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 295000,
+      "costPrice": 265000,
+      "stockAfter": 9,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:9💰Giá:265.000đ"
+    },
+    {
       "id": "hist-1792746518200",
       "time": "16:08 - 23/10/2026",
       "name": "ChatGPT Plus (Codex Full) 1 Tháng BHF",
@@ -11304,20 +11316,6 @@
       "catKey": "vpn",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:23📦Tồnkhohiệntại:4💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792612321513",
-      "time": "02:52 - 22/10/2026",
-      "timestamp": 1792612321513,
-      "name": "Meitu SVip 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 0,
-      "addedQty": 10,
-      "price": 85000,
-      "stockAfter": 0,
-      "catKey": "meitu-wink",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✨MeituSVip1ThángBHF➕Thêm:10📦Tồnkhohiệntại:0💰Giá:75.000đ"
     }
   ]
 }
