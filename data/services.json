@@ -3695,16 +3695,17 @@
             "stock": 5,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "09:53 22/10/2026"
+            "updated": "21:26 23/10/2026"
           }
         },
         "cost_price": 140000,
-        "needs_review": true,
-        "hidden": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "hidden": false,
+        "import_note": "Nhập: @piggyai99_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 140000
+          "bot": "@piggyai99_bot",
+          "cost_price": 140000,
+          "stock": 5
         }
       },
       {
@@ -10332,6 +10333,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792765593886",
+      "time": "21:26 - 23/10/2026",
+      "name": "API CODEX ASTRA6 50$ TOKEN 1THÁNG BHF",
+      "bot": "piggyai99_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 5,
+      "catKey": "api-claude-codex",
+      "msgKey": "⭐APICODEXASTRA650$TOKEN1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1792765518209",
       "time": "21:25 - 23/10/2026",
       "name": "Slot Youtube Premium 3 Tháng BHF",
@@ -11491,20 +11503,6 @@
       "catKey": "education",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "⭐LinkGetOfferDuolingoSuper1nămBH24giờ➕Thêm:9📦Tồnkhohiệntại:9💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792639504702",
-      "time": "10:25 - 22/10/2026",
-      "timestamp": 1792639504702,
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 30,
-      "addedQty": 31,
-      "price": 270000,
-      "stockAfter": 30,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:31📦Tồnkhohiệntại:30💰Giá:240.000đ"
     }
   ]
 }
