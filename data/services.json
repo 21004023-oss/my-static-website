@@ -5686,10 +5686,10 @@
         "id": "p-1792128240242",
         "name": "Gmail Việt 2020-2024",
         "price": 55000,
-        "stock": 1040,
-        "stock_text": "Còn 1040",
+        "stock": 564,
+        "stock_text": "Còn 564",
         "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|mkp|2FA (nếu có)\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
+        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "sources": {
           "taphoathomap_bot": {
             "stock": 520,
@@ -5698,20 +5698,21 @@
             "updated": "16:20 19/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 520,
+            "stock": 44,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "16:20 19/10/2026"
+            "updated": "15:17 23/10/2026"
           }
         },
-        "hidden": true,
-        "cost_price": 15000,
-        "needs_review": true,
+        "hidden": false,
+        "cost_price": 35000,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 35000,
+          "stock": 520
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792128243477",
@@ -9934,6 +9935,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792743461787",
+      "time": "15:17 - 23/10/2026",
+      "name": "Gmail Việt 2020-2024",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 564,
+      "catKey": "gmail",
+      "msgKey": "📧GmailViệt2020-2024➕Thêm:90📦Tồnkhohiệntại:44💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1792743395629",
       "time": "15:16 - 23/10/2026",
       "name": "Wink Vip 30D BHF",
@@ -11225,20 +11237,6 @@
       "catKey": "google-veo",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:5📦Tồnkhohiệntại:48💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792597682881",
-      "time": "22:48 - 21/10/2026",
-      "timestamp": 1792597682881,
-      "name": "Gói VIP 1. API MUSE - Tạo 333 video 10s - 10 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 43,
-      "addedQty": 43,
-      "price": 110000,
-      "stockAfter": 43,
-      "catKey": "muse-ai",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐GóiVIP1.APIMUSE-Tạo333video10s-10NgàyBHF➕Thêm:43📦Tồnkhohiệntại:43💰Giá:100.000đ"
     }
   ]
 }
