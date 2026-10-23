@@ -5835,8 +5835,8 @@
         "id": "p-1792128240242",
         "name": "Gmail Việt 2020-2024",
         "price": 55000,
-        "stock": 564,
-        "stock_text": "Còn 564",
+        "stock": 572,
+        "stock_text": "Còn 572",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "sources": {
@@ -5847,10 +5847,10 @@
             "updated": "16:20 19/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 44,
+            "stock": 52,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "15:17 23/10/2026"
+            "updated": "18:12 23/10/2026"
           }
         },
         "hidden": false,
@@ -10194,6 +10194,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792753936695",
+      "time": "18:12 - 23/10/2026",
+      "name": "Gmail Việt 2020-2024",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 572,
+      "catKey": "gmail",
+      "msgKey": "📧GmailViệt2020-2024➕Thêm:43📦Tồnkhohiệntại:52💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1792753102315",
       "time": "17:58 - 23/10/2026",
       "name": "CAPCUT PRO 3 THÁNG BHF",
@@ -11401,20 +11412,6 @@
       "catKey": "netflix",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐RedeemAppleMusicIndividual5thángBH1ngày➕Thêm:64📦Tồnkhohiệntại:67💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792628675379",
-      "time": "07:24 - 22/10/2026",
-      "timestamp": 1792628675379,
-      "name": "Redeem Apple Music Individual 5 tháng BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 67,
-      "addedQty": 64,
-      "price": 55000,
-      "stockAfter": 134,
-      "catKey": "netflix",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐RedeemAppleMusicIndividual5thángBH1ngày➕Thêm:64📦Tồnkhohiệntại:67💰Giá:45.000đ"
     }
   ]
 }
