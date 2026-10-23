@@ -6294,17 +6294,17 @@
         "id": "p-1792291938667",
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
-        "cost_price": 15000,
-        "stock": 87,
-        "stock_text": "Còn 87",
+        "cost_price": 35000,
+        "stock": 91,
+        "stock_text": "Còn 91",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 29,
+            "stock": 33,
             "cost_price": 49000,
             "selling_price": 59000,
-            "updated": "08:13 22/10/2026"
+            "updated": "06:49 24/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 29,
@@ -6319,13 +6319,14 @@
             "updated": "08:13 22/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 35000,
+          "stock": 29
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792402722954",
@@ -10932,6 +10933,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792799382695",
+      "time": "06:49 - 24/10/2026",
+      "name": "Apple ID 2FA Gmail",
+      "bot": "sieuthistore_bot",
+      "price": 59000,
+      "costPrice": 49000,
+      "stockAfter": 91,
+      "catKey": "gmail",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:16📦Tồnkhohiệntại:33💰Giá:49.000đ"
+    },
+    {
       "id": "hist-1792799109977",
       "time": "06:45 - 24/10/2026",
       "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
@@ -12019,17 +12031,6 @@
       "stockAfter": 14,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:14💰Giá:265.000đ"
-    },
-    {
-      "id": "hist-1792752383256",
-      "time": "17:46 - 23/10/2026",
-      "name": "ChatGPT Plus (Codex Full) 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 360000,
-      "costPrice": 310000,
-      "stockAfter": 14,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus(CodexFull)1ThángBHF➕Thêm:5📦Tồnkhohiệntại:14💰Giá:310.000đ"
     }
   ]
 }
