@@ -6295,8 +6295,8 @@
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
         "cost_price": 35000,
-        "stock": 91,
-        "stock_text": "Còn 91",
+        "stock": 95,
+        "stock_text": "Còn 95",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.",
         "sources": {
@@ -6307,10 +6307,10 @@
             "updated": "06:49 24/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 29,
+            "stock": 33,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "08:13 22/10/2026"
+            "updated": "06:49 24/10/2026"
           },
           "piggyai99_bot": {
             "stock": 29,
@@ -6324,7 +6324,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 35000,
-          "stock": 29
+          "stock": 33
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -10933,6 +10933,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792799388613",
+      "time": "06:49 - 24/10/2026",
+      "name": "Apple ID 2FA Gmail",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 95,
+      "catKey": "gmail",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:16📦Tồnkhohiệntại:33💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792799382695",
       "time": "06:49 - 24/10/2026",
       "name": "Apple ID 2FA Gmail",
@@ -12020,17 +12031,6 @@
       "stockAfter": 11,
       "catKey": "capcut",
       "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:8📦Tồnkhohiệntại:11💰Giá:185.000đ"
-    },
-    {
-      "id": "hist-1792752388516",
-      "time": "17:46 - 23/10/2026",
-      "name": "CHATGPT PLUS 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 295000,
-      "costPrice": 265000,
-      "stockAfter": 14,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:14💰Giá:265.000đ"
     }
   ]
 }
