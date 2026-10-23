@@ -5522,8 +5522,8 @@
         "id": "p-1792093859672",
         "name": "Gmail Random 200X~2023 Có 2FA",
         "price": 55000,
-        "stock": 70,
-        "stock_text": "Còn 70",
+        "stock": 78,
+        "stock_text": "Còn 78",
         "duration": "1 Tháng",
         "detail": "Định dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H - Login thành công hết bảo hành\n- Gmail đã nuôi khá lâu rồi nên gmail khá khoẻ\n+ Lưu ý:\n- Hãy dùng proxy , và IP máy riêng để login Gmail , tránh tình trạng GG quét hàng loạt.\n-Sau 48H hãy thay đổi thông , đá thiết bị cũ, Để bảo mật tài sản của mình. ( Gmail cổ điều bảo mật thông tin là quan trọng nhất )\n-Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/",
         "sources": {
@@ -5534,10 +5534,10 @@
             "updated": "09:50 23/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 31,
+            "stock": 39,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "22:59 19/10/2026"
+            "updated": "09:51 23/10/2026"
           }
         },
         "hidden": false,
@@ -5546,7 +5546,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 35000,
-          "stock": 31
+          "stock": 39
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -10240,6 +10240,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792723862396",
+      "time": "09:51 - 23/10/2026",
+      "name": "Gmail Random 200X~2023 Có 2FA",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 78,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:24📦Tồnkhohiệntại:39💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792723856999",
       "time": "09:50 - 23/10/2026",
       "name": "Gmail Random 200X~2023 Có 2FA",
@@ -11483,20 +11494,6 @@
       "catKey": "vpn",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🚚ExpressVPN12ThángKBH➕Thêm:1📦Tồnkhohiệntại:0💰Giá:120.000đ"
-    },
-    {
-      "id": "hist-1792620796897",
-      "time": "05:13 - 22/10/2026",
-      "timestamp": 1792620796897,
-      "name": "KEY HMA AND/PC 20-30 DAYS",
-      "bot": "ntnshopre_bot",
-      "shopStock": 22,
-      "addedQty": 50,
-      "price": 20000,
-      "stockAfter": 22,
-      "catKey": "vpn",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "⭐KEYHMAAND/PC20-30DAYS➕Thêm:50📦Tồnkhohiệntại:22💰Giá:10.000đ"
     }
   ]
 }
