@@ -9714,11 +9714,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792725569911",
+        "name": "REDEEM MINIMAX 100K CREDITS",
+        "price": 55000,
+        "cost_price": 45000,
+        "stock": 27,
+        "stock_text": "Còn 27",
+        "duration": "1 Tháng",
+        "detail": "Gói REDEEM MINIMAX 100K CREDITS bảo hành uy tín.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 27,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "10:19 23/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 45000,
+          "stock": 27
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792725569911",
+      "time": "10:19 - 23/10/2026",
+      "name": "REDEEM MINIMAX 100K CREDITS",
+      "bot": "ntnshopre_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 27,
+      "catKey": "khac",
+      "msgKey": "⭐REDEEMMINIMAX100KCREDITS➕Thêm:10📦Tồnkhohiệntại:27💰Giá:45.000đ"
+    },
     {
       "id": "hist-1792725564666",
       "time": "10:19 - 23/10/2026",
@@ -11095,20 +11132,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTGo1Tháng-BH3Ngày➕Thêm:14📦Tồnkhohiệntại:22💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792579871963",
-      "time": "17:51 - 21/10/2026",
-      "timestamp": 1792579871963,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 15,
-      "addedQty": 25,
-      "price": 85000,
-      "stockAfter": 15,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:25📦Tồnkhohiệntại:15💰Giá:75.000đ"
     }
   ]
 }
