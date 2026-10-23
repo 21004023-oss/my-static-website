@@ -407,7 +407,7 @@
         "id": "p-1792766077029",
         "name": "Gmail Random ip 2010-2016 trial youtube",
         "price": 60000,
-        "cost_price": 50000,
+        "cost_price": 45000,
         "stock": 0,
         "stock_text": "Hết hàng",
         "duration": "1 Tháng",
@@ -418,14 +418,20 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "updated": "21:34 23/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 0,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "21:34 23/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 50000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 45000,
           "stock": 0
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -10385,6 +10391,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792766088405",
+      "time": "21:34 - 23/10/2026",
+      "name": "Gmail Random ip 2010-2016 trial youtube",
+      "bot": "taphoathomap_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 0,
+      "catKey": "youtube",
+      "msgKey": "📧GmailRandomip2010-2016trialyoutube➕Thêm:9📦Tồnkhohiệntại:0💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1792766082106",
       "time": "21:34 - 23/10/2026",
       "name": "GMAIL TRIAL RANDOM DATE 201X",
@@ -11532,20 +11549,6 @@
       "catKey": "capcut",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✂️CapCutProTeam3Tháng-BHF💰Giá:160k📦Tồnkho:7tàikhoản📊Đãbán:179tàikhoản💎Môtả:Tàikh"
-    },
-    {
-      "id": "hist-1792642051786",
-      "time": "11:07 - 22/10/2026",
-      "timestamp": 1792642051786,
-      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
-      "bot": "piggyai99_bot",
-      "shopStock": 72,
-      "addedQty": 15,
-      "price": 50000,
-      "stockAfter": 114,
-      "catKey": "google-veo",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:15📦Tồnkhohiệntại:72💰Giá:40.000đ"
     }
   ]
 }
