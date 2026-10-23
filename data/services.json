@@ -2868,16 +2868,16 @@
         "id": "p-1792094683588",
         "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
         "price": 75000,
-        "stock": 229,
-        "stock_text": "Còn 229",
+        "stock": 220,
+        "stock_text": "Còn 220",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "piggyai99_bot": {
-            "stock": 14,
+            "stock": 5,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "10:19 23/10/2026"
+            "updated": "10:07 22/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 215,
@@ -2886,15 +2886,14 @@
             "updated": "01:04 22/10/2026"
           }
         },
-        "hidden": false,
-        "needs_review": false,
+        "hidden": true,
+        "needs_review": true,
         "cost_price": 33000,
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 33000,
-          "stock": 14
+          "bot": "@shopxoainon_bot",
+          "cost_price": 38800
         },
-        "import_note": "Nhập: @piggyai99_bot"
+        "import_note": "🛒 @shopxoainon_bot"
       },
       {
         "id": "p-1792119807992",
@@ -9682,135 +9681,11 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 115000
         }
-      },
-      {
-        "id": "p-1792725559059",
-        "name": "MiniMax Redeem 100K Credit",
-        "price": 90000,
-        "cost_price": 40000,
-        "stock": 54,
-        "stock_text": "Còn 54",
-        "duration": "1 Tháng",
-        "detail": "Tín dụng không giới hạn theo tháng\nKhông giới hạn thiết bị sử dụng\nCó thể chia sẻ nhiều người sử dụng\nChất lượng chuyển giọng nói cao hơn\nSử dụng Credit được thêm model ElevenLabs\nMiễn Phí Model CapCut\nRedeem Code Tại : https://genvoice.pro/",
-        "sources": {
-          "sieuthistore_bot": {
-            "stock": 27,
-            "cost_price": 80000,
-            "selling_price": 90000,
-            "updated": "10:19 23/10/2026"
-          },
-          "taphoathomap_bot": {
-            "stock": 27,
-            "cost_price": 40000,
-            "selling_price": 50000,
-            "updated": "10:19 23/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 40000,
-          "stock": 27
-        },
-        "import_note": "Nhập: @taphoathomap_bot",
-        "hidden": false,
-        "needs_review": false
-      },
-      {
-        "id": "p-1792725569911",
-        "name": "REDEEM MINIMAX 100K CREDITS",
-        "price": 55000,
-        "cost_price": 45000,
-        "stock": 27,
-        "stock_text": "Còn 27",
-        "duration": "1 Tháng",
-        "detail": "Tín dụng không giới hạn theo tháng\nKhông giới hạn thiết bị sử dụng\nCó thể chia sẻ nhiều người sử dụng\nChất lượng chuyển giọng nói cao hơn\nSử dụng Credit được thêm model ElevenLabs\nMiễn Phí Model CapCut\nRedeem Code Tại : https://genvoice.pro/",
-        "sources": {
-          "ntnshopre_bot": {
-            "stock": 27,
-            "cost_price": 45000,
-            "selling_price": 55000,
-            "updated": "10:19 23/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 45000,
-          "stock": 27
-        },
-        "import_note": "Nhập: @ntnshopre_bot",
-        "hidden": false,
-        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
-    {
-      "id": "hist-1792725579762",
-      "time": "10:19 - 23/10/2026",
-      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
-      "bot": "piggyai99_bot",
-      "price": 43000,
-      "costPrice": 33000,
-      "stockAfter": 229,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF💰Giá:33k📦Tồnkho:14tàikhoản📊Đãbán:440tàikhoản💎Môtả:CAPCUTP"
-    },
-    {
-      "id": "hist-1792725575762",
-      "time": "10:19 - 23/10/2026",
-      "name": "REDEEM MINIMAX 100K CREDITS",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 27,
-      "catKey": "khac",
-      "msgKey": "⭐REDEEMMINIMAX100KCREDITS💰Giá:45k📦Tồnkho:27tàikhoản📊Đãbán:48tàikhoản💎Môtả:Tíndụn"
-    },
-    {
-      "id": "hist-1792725569911",
-      "time": "10:19 - 23/10/2026",
-      "name": "REDEEM MINIMAX 100K CREDITS",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 27,
-      "catKey": "khac",
-      "msgKey": "⭐REDEEMMINIMAX100KCREDITS➕Thêm:10📦Tồnkhohiệntại:27💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792725564666",
-      "time": "10:19 - 23/10/2026",
-      "name": "MiniMax Redeem 100K Credit",
-      "bot": "taphoathomap_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 54,
-      "catKey": "khac",
-      "msgKey": "⭐MiniMaxRedeem100KCredit➕Thêm:10📦Tồnkhohiệntại:27💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792725559059",
-      "time": "10:19 - 23/10/2026",
-      "name": "MiniMax Redeem 100K Credit",
-      "bot": "sieuthistore_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 27,
-      "catKey": "khac",
-      "msgKey": "⭐MiniMaxRedeem100KCredit➕Thêm:10📦Tồnkhohiệntại:27💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1792725478838",
-      "time": "10:17 - 23/10/2026",
-      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
-      "bot": "piggyai99_bot",
-      "price": 43000,
-      "costPrice": 33000,
-      "stockAfter": 229,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:1📦Tồnkhohiệntại:14💰Giá:33.000đ"
-    },
     {
       "id": "hist-1792655686636",
       "time": "14:54 - 22/10/2026",
@@ -11126,6 +11001,90 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTGo1ThángBH3Ngày➕Thêm:14📦Tồnkhohiệntại:22💰Giá:80.000đ"
+    },
+    {
+      "id": "hist-1792580367193",
+      "time": "17:59 - 21/10/2026",
+      "timestamp": 1792580367193,
+      "name": "ChatGPT Go 1 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 27,
+      "addedQty": 21,
+      "price": 85000,
+      "stockAfter": 27,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTGo1Tháng-BHF➕Thêm:21📦Tồnkhohiệntại:27💰Giá:75.000đ"
+    },
+    {
+      "id": "hist-1792580081274",
+      "time": "17:54 - 21/10/2026",
+      "timestamp": 1792580081274,
+      "name": "ChatGPT Go 1 Tháng - BH 3 Ngày",
+      "bot": "taphoathomap_bot",
+      "shopStock": 22,
+      "addedQty": 14,
+      "price": 60000,
+      "stockAfter": 26,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTGo1Tháng-BH3Ngày➕Thêm:14📦Tồnkhohiệntại:22💰Giá:50.000đ"
+    },
+    {
+      "id": "hist-1792579871963",
+      "time": "17:51 - 21/10/2026",
+      "timestamp": 1792579871963,
+      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 15,
+      "addedQty": 25,
+      "price": 85000,
+      "stockAfter": 15,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:25📦Tồnkhohiệntại:15💰Giá:75.000đ"
+    },
+    {
+      "id": "hist-1792578642299",
+      "time": "17:30 - 21/10/2026",
+      "timestamp": 1792578642299,
+      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 56,
+      "addedQty": 93,
+      "price": 260000,
+      "stockAfter": 56,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:93📦Tồnkhohiệntại:56💰Giá:230.000đ"
+    },
+    {
+      "id": "hist-1792577828258",
+      "time": "17:17 - 21/10/2026",
+      "timestamp": 1792577828258,
+      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 27,
+      "addedQty": 9,
+      "price": 75000,
+      "stockAfter": 54,
+      "catKey": "capcut",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:65.000đ"
+    },
+    {
+      "id": "hist-1792577772814",
+      "time": "17:16 - 21/10/2026",
+      "timestamp": 1792577772814,
+      "name": "CAPCUT PRO CÁ NHÂN 30 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 27,
+      "addedQty": 9,
+      "price": 50000,
+      "stockAfter": 38,
+      "catKey": "capcut",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:40.000đ"
     }
   ]
 }
