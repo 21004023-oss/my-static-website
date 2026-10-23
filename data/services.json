@@ -9687,9 +9687,9 @@
         "id": "p-1792725559059",
         "name": "MiniMax Redeem 100K Credit",
         "price": 90000,
-        "cost_price": 80000,
-        "stock": 27,
-        "stock_text": "Còn 27",
+        "cost_price": 40000,
+        "stock": 54,
+        "stock_text": "Còn 54",
         "duration": "1 Tháng",
         "detail": "Tín dụng không giới hạn theo tháng\nKhông giới hạn thiết bị sử dụng\nCó thể chia sẻ nhiều người sử dụng\nChất lượng chuyển giọng nói cao hơn\nSử dụng Credit được thêm model ElevenLabs\nMiễn Phí Model CapCut\nRedeem Code Tại : https://genvoice.pro/",
         "sources": {
@@ -9698,14 +9698,20 @@
             "cost_price": 80000,
             "selling_price": 90000,
             "updated": "10:19 23/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 27,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "10:19 23/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 80000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 40000,
           "stock": 27
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -9713,6 +9719,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792725564666",
+      "time": "10:19 - 23/10/2026",
+      "name": "MiniMax Redeem 100K Credit",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 54,
+      "catKey": "khac",
+      "msgKey": "⭐MiniMaxRedeem100KCredit➕Thêm:10📦Tồnkhohiệntại:27💰Giá:40.000đ"
+    },
     {
       "id": "hist-1792725559059",
       "time": "10:19 - 23/10/2026",
@@ -11092,20 +11109,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:25📦Tồnkhohiệntại:15💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1792578642299",
-      "time": "17:30 - 21/10/2026",
-      "timestamp": 1792578642299,
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 56,
-      "addedQty": 93,
-      "price": 260000,
-      "stockAfter": 56,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:93📦Tồnkhohiệntại:56💰Giá:230.000đ"
     }
   ]
 }
