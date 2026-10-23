@@ -7405,9 +7405,9 @@
         "id": "p-1792205006619",
         "name": "Surfshark VPN One 7 Ngày BHF",
         "price": 45000,
-        "stock": 36,
-        "stock_text": "Còn 36",
-        "duration": "1 Tháng",
+        "stock": 33,
+        "stock_text": "Còn 33",
+        "duration": "7 Ngày",
         "detail": "Surfshark VPN gói One 7 Ngày BHF login 5 thiết bị, login quá nhiều dẫn đến bị khoá tài khoản sẽ không được bảo hành\n- Định dạng: email|pass\n- Web mail lấy code otp: https://get-opt.phh.info.vn/",
         "sources": {
           "sieuthistore_bot": {
@@ -7423,19 +7423,20 @@
             "updated": "14:54 22/10/2026"
           },
           "ntnshopre_bot": {
-            "stock": 12,
+            "stock": 9,
             "cost_price": 18000,
             "selling_price": 28000,
-            "updated": "14:53 22/10/2026"
+            "updated": "01:37 24/10/2026"
           }
         },
-        "hidden": true,
+        "hidden": false,
         "cost_price": 15000,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 15000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
+          "stock": 12
         }
       },
       {
@@ -10652,6 +10653,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792780625366",
+      "time": "01:37 - 24/10/2026",
+      "name": "SURFSHARK VPN ONE 7 NGÀY BHF",
+      "bot": "ntnshopre_bot",
+      "price": 28000,
+      "costPrice": 18000,
+      "stockAfter": 33,
+      "catKey": "vpn",
+      "msgKey": "🦈SURFSHARKVPNONE7NGÀYBHF➕Thêm:10📦Tồnkhohiệntại:9💰Giá:18.000đ"
+    },
+    {
       "id": "hist-1792780463545",
       "time": "01:34 - 24/10/2026",
       "name": "Meitu Vip+ 14D BHF",
@@ -11739,17 +11751,6 @@
       "stockAfter": 8,
       "catKey": "meitu-wink",
       "msgKey": "✨MeituSVip+7NgàyBHF💰Giá:35k📦Tồnkho:5tàikhoản📊Đãbán:804tàikhoản💎Môtả:MeituSVIP(VI"
-    },
-    {
-      "id": "hist-1792730599880",
-      "time": "11:43 - 23/10/2026",
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 260000,
-      "costPrice": 230000,
-      "stockAfter": 49,
-      "catKey": "chatgpt",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:1📦Tồnkhohiệntại:49💰Giá:230.000đ"
     }
   ]
 }
