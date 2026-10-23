@@ -976,16 +976,16 @@
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
         "price": 310000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "1 Tháng",
         "detail": "🗣️ Mô tả:\n🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n6. Bảo hành đổi acc mới nếu die trước 7D.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ!\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 9,
+            "stock": 14,
             "cost_price": 265000,
             "selling_price": 295000,
-            "updated": "16:08 23/10/2026"
+            "updated": "17:46 23/10/2026"
           }
         },
         "cost_price": 265000,
@@ -995,7 +995,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 265000,
-          "stock": 9
+          "stock": 14
         }
       },
       {
@@ -10186,6 +10186,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792752388516",
+      "time": "17:46 - 23/10/2026",
+      "name": "CHATGPT PLUS 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 295000,
+      "costPrice": 265000,
+      "stockAfter": 14,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:14💰Giá:265.000đ"
+    },
+    {
       "id": "hist-1792752383256",
       "time": "17:46 - 23/10/2026",
       "name": "ChatGPT Plus (Codex Full) 1 Tháng BHF",
@@ -11405,20 +11416,6 @@
       "catKey": "capcut",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:12📦Tồnkhohiệntại:1💰Giá:33.000đ"
-    },
-    {
-      "id": "hist-1792623371155",
-      "time": "05:56 - 22/10/2026",
-      "timestamp": 1792623371155,
-      "name": "API CODEX ASTRA6 50$ TOKEN 1THÁNG BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 1,
-      "addedQty": 1,
-      "price": 160000,
-      "stockAfter": 1,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "⭐APICODEXASTRA650$TOKEN1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:140.000đ"
     }
   ]
 }
