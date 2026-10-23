@@ -7951,16 +7951,16 @@
         "id": "p-1791917317024",
         "name": "Wink VIP+ 7 Ngày BHF",
         "price": 45000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "7 Ngày",
         "detail": "Wink gói VIP+ 7 Ngày BHF 100 credits login 1 thiết bị,  nếu đăng nhập trên điện thoại lỗi thì có thể có thể dùng trên PC\n- Định dạng: (Email|Pass Hotmail|Pass Wink) Token\n- Pass Wink mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\nLink tải app Wink trên máy tính: https://wink.ai/vi\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 2,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "11:42 23/10/2026"
+            "updated": "22:39 23/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 4,
@@ -7976,7 +7976,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 4
+          "stock": 2
         }
       },
       {
@@ -10421,6 +10421,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792769998078",
+      "time": "22:39 - 23/10/2026",
+      "name": "Wink VIP+ 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 6,
+      "catKey": "meitu-wink",
+      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:3📦Tồnkhohiệntại:2💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1792769924655",
       "time": "22:38 - 23/10/2026",
       "name": "Gmail Random ip 2020-2024",
@@ -11544,20 +11555,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🤖ChatGPTPlus(CodexFull)1ThángBHF➕Thêm:25📦Tồnkhohiệntại:41💰Giá:310.000đ"
-    },
-    {
-      "id": "hist-1792655614440",
-      "time": "14:53 - 22/10/2026",
-      "timestamp": 1792655614440,
-      "name": "Admin Veo3 Ultra 10k Credit 1 Tháng BH 3 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 3,
-      "addedQty": 2,
-      "price": 1350000,
-      "stockAfter": 3,
-      "catKey": "google-veo",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🚀AdminVeo3Ultra10kCredit1ThángBH3Ngày➕Thêm:2📦Tồnkhohiệntại:3💰Giá:1.150.000đ"
     }
   ]
 }
