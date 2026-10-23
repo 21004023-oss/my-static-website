@@ -10192,10 +10192,10 @@
       {
         "id": "p-1792751657549",
         "name": "KEY HMA AND/PC 20-30 DAYS",
-        "price": 20000,
+        "price": 25000,
         "cost_price": 10000,
-        "stock": 16,
-        "stock_text": "Còn 16",
+        "stock": 32,
+        "stock_text": "Còn 32",
         "duration": "1 Tháng",
         "detail": "Gói KEY HMA AND/PC 20-30 DAYS bảo hành uy tín.",
         "sources": {
@@ -10204,6 +10204,12 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "updated": "17:34 23/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 16,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "18:40 23/10/2026"
           }
         },
         "cheapest_source": {
@@ -10219,6 +10225,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792755649915",
+      "time": "18:40 - 23/10/2026",
+      "name": "KEY HMA AND/PC 20-30 DAYS",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 32,
+      "catKey": "khac",
+      "msgKey": "⭐KEYHMAAND/PC20-30DAYS💰Giá:15k📦Tồnkho:16tàikhoản📊Đãbán:637tàikhoản"
+    },
     {
       "id": "hist-1792754068423",
       "time": "18:14 - 23/10/2026",
@@ -11421,20 +11438,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:10📦Tồnkhohiệntại:31💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1792629567807",
-      "time": "07:39 - 22/10/2026",
-      "timestamp": 1792629567807,
-      "name": "CAPCUT PRO 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 31,
-      "addedQty": 10,
-      "price": 48000,
-      "stockAfter": 31,
-      "catKey": "capcut",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:10📦Tồnkhohiệntại:31💰Giá:38.000đ"
     }
   ]
 }
