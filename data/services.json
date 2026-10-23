@@ -4179,9 +4179,9 @@
         "id": "p-1792460560425",
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
-        "cost_price": 180000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "cost_price": 109000,
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành",
         "sources": {
@@ -4190,14 +4190,21 @@
             "cost_price": 180000,
             "selling_price": 200000,
             "updated": "11:46 20/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 16,
+            "cost_price": 109000,
+            "selling_price": 129000,
+            "updated": "13:39 23/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 180000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 109000,
+          "stock": 16
         }
       },
       {
@@ -9813,6 +9820,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792737592215",
+      "time": "13:39 - 23/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 18,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:6📦Tồnkhohiệntại:16💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1792737145293",
       "time": "13:32 - 23/10/2026",
       "name": "GROK ULTRA 50X 1 THÁNG (BH 7D)",
@@ -11128,20 +11146,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:34📦Tồnkhohiệntại:51💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1792592225576",
-      "time": "21:17 - 21/10/2026",
-      "timestamp": 1792592225576,
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 17,
-      "addedQty": 8,
-      "price": 260000,
-      "stockAfter": 17,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:8📦Tồnkhohiệntại:17💰Giá:230.000đ"
     }
   ]
 }
