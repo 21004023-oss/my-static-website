@@ -6001,25 +6001,27 @@
         "id": "p-1792268578812",
         "name": "Microsoft 365 Admin Family 1 Tháng BHF",
         "price": 40000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 19,
+            "stock": 5,
             "cost_price": 30000,
-            "updated": "03:22 18/10/2026",
-            "selling_price": 40000
+            "selling_price": 40000,
+            "updated": "11:35 23/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 16800,
+        "cost_price": 30000,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 16800
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
+          "stock": 5
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792356747202",
@@ -9666,6 +9668,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792730148143",
+      "time": "11:35 - 23/10/2026",
+      "name": "Microsoft 365 Admin Family 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 5,
+      "catKey": "microsoft",
+      "msgKey": "⭐Microsoft365AdminFamily1ThángBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1792730143225",
       "time": "11:35 - 23/10/2026",
       "name": "ADMIN MS365 PREMIUM 1 THÁNG BHF",
@@ -11032,20 +11045,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTGo1Tháng-BH10Ngày➕Thêm:15📦Tồnkhohiệntại:16💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1792580673223",
-      "time": "18:04 - 21/10/2026",
-      "timestamp": 1792580673223,
-      "name": "ChatGPT Go 1 Tháng BH 3 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 22,
-      "addedQty": 14,
-      "price": 90000,
-      "stockAfter": 44,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTGo1ThángBH3Ngày➕Thêm:14📦Tồnkhohiệntại:22💰Giá:80.000đ"
     }
   ]
 }
