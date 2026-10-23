@@ -5093,6 +5093,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792791076587",
+        "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
+        "price": 160000,
+        "cost_price": 140000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "1 Tháng",
+        "detail": "Gói Kling Standard 1200 credit 1TH BH 1 ngày bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 140000,
+            "selling_price": 160000,
+            "updated": "04:31 24/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 140000,
+          "stock": 6
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=64"
@@ -10811,6 +10837,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792791076587",
+      "time": "04:31 - 24/10/2026",
+      "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 6,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1200credit1THBH1ngày💰Giá:140k📦Tồnkho:6tàikhoản📊Đãbán:4tàikhoản"
+    },
+    {
       "id": "hist-1792791018251",
       "time": "04:30 - 24/10/2026",
       "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
@@ -11898,17 +11935,6 @@
       "stockAfter": 169,
       "catKey": "khac",
       "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:1📦Tồnkhohiệntại:169💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1792744209660",
-      "time": "15:30 - 23/10/2026",
-      "name": "MUSE AI 1B TOKEN BẢO HÀNH ACITVE",
-      "bot": "ntnshopre_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 169,
-      "catKey": "khac",
-      "msgKey": "⭐MUSEAI1BTOKENBẢOHÀNHACITVE➕Thêm:1📦Tồnkhohiệntại:169💰Giá:15.000đ"
     }
   ]
 }
