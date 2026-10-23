@@ -5174,17 +5174,28 @@
         "id": "spotify-slot-12m",
         "name": "Slot Spotify Premium 12 Tháng BHF",
         "price": 400000,
-        "stock": -1,
-        "stock_text": "Vô cực (∞)",
-        "duration": "12 Tháng",
+        "stock": 241,
+        "stock_text": "Còn 241",
+        "duration": "1 Năm",
         "source": "Nâng chính chủ",
-        "detail": "- Nâng cấp trực tiếp trên tài khoản Spotify cá nhân, giữ nguyên playlist và dữ liệu.\n- Sử dụng ổn định 12 tháng, bảo hành full suốt 1 năm.\n- Cách đặt hàng: Gửi tài khoản + pass cho shop (khuyến nghị đổi tạm thành Spotify123@).",
-        "cost_price": 250000,
+        "detail": "SPOTIFY PREMIUM 12 THÁNG\nMô tả sản phẩm\n* Nâng cấp trực tiếp trên tài khoản Spotify cá nhân.\n* Sử dụng ổn định trong 12 tháng.\n* Giữ nguyên tài khoản, playlist và dữ liệu cá nhân.\n* Bảo hành full trong suốt thời gian sử dụng.\nCách đặt hàng\n1. Thanh toán đơn hàng.\n2. Gửi tài khoản và mật khẩu Spotify cho admin để tiến hành nâng cấp.\nCách đặt lại mật khẩu Spotify\nNote: Khách hàng có thể đặt mật khẩu thành Spotify123@ để shop xử lý và nâng cấp nhanh hơn.\nBước 1: Truy cập:\nhttps://accounts.spotify.com/vi-VN/password-reset\nBước 2: Nhập email đang sử dụng để đăng nhập Spotify.\nBước 3: Kiểm tra hộp thư, mở email từ Spotify và làm theo hướng dẫn để tạo mật khẩu mới.\nLưu ý: Vui lòng kiểm tra chính xác thông tin tài khoản trước khi gửi để quá trình nâng cấp được xử lý nhanh chóng.",
+        "cost_price": 350000,
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 250000
+          "cost_price": 350000,
+          "stock": 241
         },
-        "import_note": "🛒 @ntnshopre_bot"
+        "import_note": "Nhập: @ntnshopre_bot",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 241,
+            "cost_price": 350000,
+            "selling_price": 400000,
+            "updated": "06:19 24/10/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1792144579625",
@@ -10920,6 +10931,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792797589673",
+      "time": "06:19 - 24/10/2026",
+      "name": "SLOT SPOTIFY PREMIUM 12 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 400000,
+      "costPrice": 350000,
+      "stockAfter": 241,
+      "catKey": "spotify",
+      "msgKey": "⭐SLOTSPOTIFYPREMIUM12THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:241💰Giá:350.000đ"
+    },
+    {
       "id": "hist-1792797302777",
       "time": "06:15 - 24/10/2026",
       "name": "SLOT SPOTIFY 6 THÁNG BHF",
@@ -12007,17 +12029,6 @@
       "stockAfter": 555,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTGmailTrialcóoffer1tháng-KBH➕Thêm:555📦Tồnkhohiệntại:555💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792750615654",
-      "time": "17:16 - 23/10/2026",
-      "name": "🔥 ChatGPT Plus  30D ( BH 20D )",
-      "bot": "piggyai99_bot",
-      "price": 280000,
-      "costPrice": 250000,
-      "stockAfter": 37,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥ChatGPTPlus30D(BH20D)➕Thêm:11📦Tồnkhohiệntại:20💰Giá:250.000đ"
     }
   ]
 }
