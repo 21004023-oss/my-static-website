@@ -671,25 +671,26 @@
         "id": "p-1791918068696",
         "name": "ChatGPT có offer PLUS 0$  1 tháng - KBH",
         "price": 40000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "detail": "🎁 CHATGPT FREE – OFFER PLUS 0$ / 1 THÁNG\n📂 Format: Email | Pass | 2FA\n✅ Gmail 100% có Offer, không có liên hệ Admin đổi.\n🌍 Fake IP khu vực hỗ trợ trước khi đăng nhập ( VietNam, Trung Quốc , ... )\n🔐 Khách tự đổi Pass & 2FA.\n⚠️ LƯU Ý:\n- Acc FREE, chưa kích hoạt Plus.\n- Khách tự thêm phương thức thanh toán, KHÔNG BH thanh toán.\n- Không thấy Offer: thử đổi IP hoặc đăng nhập web trên điện thoại.\n- Không hoàn tiền nếu không đọc kỹ hướng dẫn, trừ lỗi Shop.\n📌 ĐỌC KỸ TRƯỚC KHI MUA!",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 6,
+            "stock": 1,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "08:52 21/10/2026"
+            "updated": "15:41 23/10/2026"
           }
         },
         "cost_price": 30000,
-        "needs_review": true,
-        "hidden": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "hidden": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 30000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
+          "stock": 1
         }
       },
       {
@@ -10019,6 +10020,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792744901955",
+      "time": "15:41 - 23/10/2026",
+      "name": "ChatGPT có offer PLUS 0$  1 tháng - KBH",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 1,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTcóofferPLUS0$1tháng-KBH➕Thêm:1📦Tồnkhohiệntại:1💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1792744222187",
       "time": "15:30 - 23/10/2026",
       "name": "Muse Ai  1B Token KBH",
@@ -11289,20 +11301,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH24H➕Thêm:20📦Tồnkhohiệntại:28💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1792605877744",
-      "time": "01:04 - 22/10/2026",
-      "timestamp": 1792605877744,
-      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 215,
-      "addedQty": 100,
-      "price": 55000,
-      "stockAfter": 229,
-      "catKey": "capcut",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:100📦Tồnkhohiệntại:215💰Giá:45.000đ"
     }
   ]
 }
