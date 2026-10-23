@@ -6031,16 +6031,16 @@
         "id": "p-1792192343631",
         "name": "Gmail random 5-10 tháng 2FA",
         "price": 55000,
-        "stock": 32,
-        "stock_text": "Còn 32",
-        "duration": "10 Tháng",
+        "stock": 54,
+        "stock_text": "Còn 54",
+        "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2fa\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 16,
+            "stock": 38,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "17:09 18/10/2026"
+            "updated": "22:55 23/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 16,
@@ -6049,14 +6049,15 @@
             "updated": "17:09 18/10/2026"
           }
         },
-        "hidden": true,
-        "cost_price": 15000,
-        "needs_review": true,
+        "hidden": false,
+        "cost_price": 25000,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 25000,
+          "stock": 16
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792192349068",
@@ -10421,6 +10422,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792770920545",
+      "time": "22:55 - 23/10/2026",
+      "name": "Gmail random 5-10 tháng 2FA",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 54,
+      "catKey": "gmail",
+      "msgKey": "📧Gmailrandom5-10tháng2FA➕Thêm:30📦Tồnkhohiệntại:38💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1792770003707",
       "time": "22:40 - 23/10/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -11538,20 +11550,6 @@
       "catKey": "gmail",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:66📦Tồnkhohiệntại:81💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792655624031",
-      "time": "14:53 - 22/10/2026",
-      "timestamp": 1792655624031,
-      "name": "Tiktok Đức (DE) - BH Login",
-      "bot": "sieuthistore_bot",
-      "shopStock": 41,
-      "addedQty": 1,
-      "price": 60000,
-      "stockAfter": 41,
-      "catKey": "social",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🎵TiktokĐức(DE)-BHLogin➕Thêm:1📦Tồnkhohiệntại:41💰Giá:50.000đ"
     }
   ]
 }
