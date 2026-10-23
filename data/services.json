@@ -2725,25 +2725,32 @@
         "id": "p-1791877845717",
         "name": "CAPCUT PRO 3 THÁNG BHF",
         "price": 205000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 17,
+        "stock_text": "Còn 17",
         "duration": "3 Tháng",
-        "detail": "Tài khoản Capcut Pro dạng team hạn sử dụng 90 ngày. • Có thể nhận tới 2000 Credit AI • Định dạng: Email | Pass • Login 1-2 thiết bị hạn chế login nhiều thiết bị. • Bảo hành 90 ngày, không bảo hành lỗi đăng nhập quá thường xuyên.\nTK tự động gia hạn mỗi tháng 1 lần đến khi đủ 1 tháng",
-        "cost_price": 185000,
+        "detail": "- Định dạng: Email | Pass - Đăng nhập 1 Mobile + 1 PC, Credit random.\n- Tài khoản Pro không phải hàng Teams, không thay đổi thông tin đăng nhập để shop kiểm tra khi bảo hành.\n- Không bảo hành lỗi truy cập quá thường xuyên, spam login dẫn đến lỗi hạn chế quyền truy cập\n- Bảo hành đầy đủ toàn thời gian, lỗi 1 đổi 1, vi phạm các điều trên -> Mất bảo hành",
+        "cost_price": 150000,
         "sources": {
           "sieuthistore_bot": {
             "stock": 7,
             "cost_price": 185000,
             "selling_price": 205000,
             "updated": "14:00 21/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 10,
+            "cost_price": 150000,
+            "selling_price": 170000,
+            "updated": "10:41 23/10/2026"
           }
         },
-        "needs_review": true,
-        "hidden": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "hidden": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 185000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 150000,
+          "stock": 10
         }
       },
       {
@@ -9687,6 +9694,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792726884704",
+      "time": "10:41 - 23/10/2026",
+      "name": "🔥Capcut Pro 3 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 17,
+      "catKey": "capcut",
+      "msgKey": "✂️🔥CapcutPro3Tháng-BHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1792655686636",
       "time": "14:54 - 22/10/2026",
       "timestamp": 1792655686636,
@@ -11071,20 +11089,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1792577772814",
-      "time": "17:16 - 21/10/2026",
-      "timestamp": 1792577772814,
-      "name": "CAPCUT PRO CÁ NHÂN 30 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 27,
-      "addedQty": 9,
-      "price": 50000,
-      "stockAfter": 38,
-      "catKey": "capcut",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:40.000đ"
     }
   ]
 }
