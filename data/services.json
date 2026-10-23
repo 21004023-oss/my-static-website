@@ -10443,11 +10443,48 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792775531296",
+        "name": "Zoom Pro 28 Ngày BHF",
+        "price": 55000,
+        "cost_price": 45000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "Zoom Pro 100 members, 30 giờ mỗi cuộc họp\nĐịnh dạng: Email|Pass|Web mail\n📝 ✨ VÀI LƯU Ý QUAN TRỌNG  GỬI ĐẾN BẠN ✨\nCảm ơn bạn đã tin tưởng và nâng cấp tài khoản Zoom tại! Để quá trình sử dụng của bạn được suôn sẻ và nhận được hỗ trợ tốt nhất, bạn vui lòng lưu ý giúp shop vài điểm nhỏ sau nhé:\n🔑 Về mật khẩu tài khoản:\n- Để shop có thể hỗ trợ bạn tức thì khi có sự cố phát sinh, bạn vui lòng không thay đổi mật khẩu trong thời gian sử dụng gói cước. Nếu có thay đổi, bạn đừng quên báo lại mật khẩu mới cho shop nhé!\n📲 Về xác thực hai yếu tố (2FA):\n- Trong quá trình đăng nhập, nếu màn hình hiển thị yêu cầu xác thực 2 yếu tố, bạn chỉ cần chọn \"Bỏ qua\"…\n✨ Lưu ý về việc lấy code otp ở web, nếu check mail thấy mã 333333 thì các bác phải nhấn vào mã đó để ra nội dung chứa code chuẩn 6 số nhé, đừng nhập mã 333333 là sai nhé, nếu bị khóa đợi 30 phút nó mở lại",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "00:12 24/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 45000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792775531296",
+      "time": "00:12 - 24/10/2026",
+      "name": "Zoom Pro 28 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "msgKey": "⭐ZoomPro28NgàyBHF➕Thêm:5📦Tồnkhohiệntại:3💰Giá:45.000đ"
+    },
     {
       "id": "hist-1792775525920",
       "time": "00:12 - 24/10/2026",
@@ -11545,20 +11582,6 @@
       "catKey": "ai-video-voice",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎙️(Góichínhhãng)ElevanLabs131KCredit1Tháng(BH3D)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:120."
-    },
-    {
-      "id": "hist-1792655671150",
-      "time": "14:54 - 22/10/2026",
-      "timestamp": 1792655671150,
-      "name": "Tài khoản VieON VIP 10 ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 1,
-      "addedQty": 1,
-      "price": 20000,
-      "stockAfter": 1,
-      "catKey": "netflix",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐TàikhoảnVieONVIP10ngàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:10.000đ"
     }
   ]
 }
