@@ -402,6 +402,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792766077029",
+        "name": "Gmail Random ip 2010-2016 trial youtube",
+        "price": 60000,
+        "cost_price": 50000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|pass|mkp\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 0,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "21:34 23/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 50000,
+          "stock": 0
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=youtube.com&sz=64"
@@ -10333,6 +10359,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792766077029",
+      "time": "21:34 - 23/10/2026",
+      "name": "Gmail Random ip 2010-2016 trial youtube",
+      "bot": "sieuthistore_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 0,
+      "catKey": "youtube",
+      "msgKey": "📧GmailRandomip2010-2016trialyoutube➕Thêm:9📦Tồnkhohiệntại:0💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1792765648671",
       "time": "21:27 - 23/10/2026",
       "name": "Link Gemini AI Pro 18 tháng",
@@ -11486,20 +11523,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:39📦Tồnkhohiệntại:38💰Giá:240.000đ"
-    },
-    {
-      "id": "hist-1792640027832",
-      "time": "10:33 - 22/10/2026",
-      "timestamp": 1792640027832,
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 13,
-      "addedQty": 12,
-      "price": 45000,
-      "stockAfter": 16,
-      "catKey": "meitu-wink",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:13💰Giá:35.000đ"
     }
   ]
 }
