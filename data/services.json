@@ -4238,18 +4238,18 @@
         "id": "api-cursor-6500cre",
         "name": "API Cursor Pro 6500 Credits 1 Tháng BHF",
         "price": 410000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "source": "Key Cursor API",
         "detail": "Api Cursor Pro 6500 credit hạn sử dụng 1 tháng.\n-Credit: 6500\n-Hạn sử dụng: 1 tháng từ lúc active Key.\n-Bảo hành: 30 ngày.\n-File tài liệu chi tiết về cách sử dụng và setup sản phẩm: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1?usp=drive_link\n-Lưu ý: Sản phẩm là API,không phải tài khoản,không hỗ trợ hoàn trả nếu mua nhầm,không biết sử dụng.",
         "cost_price": 309000,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 360000,
             "selling_price": 410000,
-            "updated": "19:48 19/10/2026"
+            "updated": "06:59 24/10/2026"
           },
           "ntnshopre_bot": {
             "stock": 1,
@@ -4264,13 +4264,14 @@
             "updated": "19:49 19/10/2026"
           }
         },
-        "needs_review": true,
-        "hidden": true,
+        "needs_review": false,
+        "hidden": false,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 410000
+          "bot": "@ntnshopre_bot",
+          "cost_price": 309000,
+          "stock": 1
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "Nhập: @ntnshopre_bot"
       },
       {
         "id": "p-1791936211706",
@@ -10933,6 +10934,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792799991193",
+      "time": "06:59 - 24/10/2026",
+      "name": "API Cursor Pro 6500 Credits 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 410000,
+      "costPrice": 360000,
+      "stockAfter": 4,
+      "catKey": "api-cursor-deepseek",
+      "msgKey": "🖱️APICursorPro6500Credits1thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:360.000đ"
+    },
+    {
       "id": "hist-1792799392917",
       "time": "06:49 - 24/10/2026",
       "name": "Apple ID 2FA Gmail",
@@ -12020,17 +12032,6 @@
       "stockAfter": 22,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPRO3THÁNGBHF➕Thêm:8📦Tồnkhohiệntại:11💰Giá:155.000đ"
-    },
-    {
-      "id": "hist-1792753098009",
-      "time": "17:58 - 23/10/2026",
-      "name": "CapCut Pro Team 3 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 175000,
-      "costPrice": 155000,
-      "stockAfter": 18,
-      "catKey": "capcut",
-      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:8📦Tồnkhohiệntại:11💰Giá:155.000đ"
     }
   ]
 }
