@@ -7551,16 +7551,16 @@
         "id": "p-1792018974632",
         "name": "Meitu SVIP 1 Tháng BHF",
         "price": 85000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 28,
+        "stock_text": "Còn 28",
         "duration": "1 Tháng",
         "detail": "⚠️ LƯU Ý QUAN TRỌNG\n📱 Chỉ sử dụng trên 01 thiết bị iPhone/iOS\n🔐 Quy định sử dụng:\n• Đăng nhập trong vòng 30 phút kể từ lúc mua.\n• Không đăng xuất tài khoản sau khi đăng nhập.\n• Không chia sẻ tài khoản, không đổi mật khẩu/thông tin tài khoản.\n• Không đăng nhập nhiều thiết bị.\n➡️ Vi phạm bất kỳ quy định nào sẽ không được bảo hành.\n🍎 Hướng dẫn đăng nhập iPhone/iOS:\nThông thường không cần mã xác nhận. Chọn +852 hoặc +86, nhập SĐT + mật khẩu rồi đăng nhập.\n👆 Xem ảnh hướng dẫn đăng nhập phía trên.\n🛠 Nếu bị lỗi: chụp màn hình tình trạng lỗi ngay sau khi đăng nhập và gửi cho shop để được hỗ trợ.",
         "sources": {
           "piggyai99_bot": {
-            "stock": 0,
+            "stock": 14,
             "cost_price": 75000,
             "selling_price": 85000,
-            "updated": "02:51 22/10/2026"
+            "updated": "13:08 23/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 14,
@@ -7572,9 +7572,9 @@
         "cost_price": 75000,
         "needs_review": false,
         "hidden": false,
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
+          "bot": "@piggyai99_bot",
           "cost_price": 75000,
           "stock": 14
         }
@@ -9761,6 +9761,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792735688757",
+      "time": "13:08 - 23/10/2026",
+      "name": "Meitu SVIP 1 Tháng BHF",
+      "bot": "piggyai99_bot",
+      "price": 85000,
+      "costPrice": 75000,
+      "stockAfter": 28,
+      "catKey": "meitu-wink",
+      "msgKey": "✨MeituSVIP1ThángBHF➕Thêm:14📦Tồnkhohiệntại:14💰Giá:75.000đ"
+    },
+    {
       "id": "hist-1792735680024",
       "time": "13:08 - 23/10/2026",
       "name": "Meitu SVip 1 Tháng BHF",
@@ -11085,20 +11096,6 @@
       "catKey": "capcut",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:20📦Tồnkhohiệntại:36💰Giá:38.000đ"
-    },
-    {
-      "id": "hist-1792589588057",
-      "time": "20:33 - 21/10/2026",
-      "timestamp": 1792589588057,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 15,
-      "addedQty": 15,
-      "price": 85000,
-      "stockAfter": 15,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:15📦Tồnkhohiệntại:15💰Giá:75.000đ"
     }
   ]
 }
