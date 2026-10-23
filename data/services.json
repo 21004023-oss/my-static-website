@@ -7790,8 +7790,8 @@
         "id": "p-1792061006617",
         "name": "Wink VIP 30 ngày BHF",
         "price": 140000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "1 Tháng",
         "detail": "Mở khóa full kho công cụ làm đẹp AI, tính năng làm nét video, xóa vật thể nâng cao, hiệu ứng chuyển cảnh VIP, xuất file chất lượng cao không logo\nLưu ý:\nTài khoản chỉ dành cho IOS\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.",
         "sources": {
@@ -7800,14 +7800,20 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "updated": "15:16 23/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 7,
+            "cost_price": 70000,
+            "selling_price": 80000,
+            "updated": "15:16 23/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 120000,
-        "import_note": "Nhập: @sieuthistore_bot",
+        "cost_price": 70000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 120000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 70000,
           "stock": 7
         },
         "needs_review": false
@@ -9928,6 +9934,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792743395629",
+      "time": "15:16 - 23/10/2026",
+      "name": "Wink Vip 30D BHF",
+      "bot": "taphoathomap_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 14,
+      "catKey": "meitu-wink",
+      "msgKey": "⭐WinkVip30DBHF➕Thêm:5📦Tồnkhohiệntại:7💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1792743384410",
       "time": "15:16 - 23/10/2026",
       "name": "Wink Vip 30D BHF",
@@ -11222,20 +11239,6 @@
       "catKey": "muse-ai",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐GóiVIP1.APIMUSE-Tạo333video10s-10NgàyBHF➕Thêm:43📦Tồnkhohiệntại:43💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1792597672143",
-      "time": "22:47 - 21/10/2026",
-      "timestamp": 1792597672143,
-      "name": "Gói VIP 2. API MUSE - Tạo 2000 video 10s - 10 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 43,
-      "addedQty": 43,
-      "price": 330000,
-      "stockAfter": 43,
-      "catKey": "muse-ai",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐GóiVIP2.APIMUSE-Tạo2000video10s-10NgàyBHF➕Thêm:43📦Tồnkhohiệntại:43💰Giá:300.000đ"
     }
   ]
 }
