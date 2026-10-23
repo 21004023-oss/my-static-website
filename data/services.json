@@ -1848,6 +1848,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792750883873",
+        "name": "ChatGPT Gmail Trial có offer 1 tháng - KBH",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 555,
+        "stock_text": "Còn 555",
+        "duration": "1 Tháng",
+        "detail": "- Định dạng: Tài khoản | Mật khẩu | 2FA\n- Mật khẩu: CHATLGBT9999\n- Đuôi gmail.com hoặc googlemail.com, tài khoản 100% có offer, nếu không có liên hệ admin để đổi.\n- Cần chuyển VPN sang các nước sau để có trial: VietNam\n- Hỗ trợ vấn đề trong 1 giờ đầu khi mua hàng\n- Sau khi nâng gói PLUS bắt buộc khách hàng cuối PHẢI đổi MAIL, 2FA và MẬT KHẨU vì đây là mail OTP, không giữ mail gốc nên không cam kết bị back nếu như khách hàng KHÔNG đổi thông tin sau khi nâng gói.\n- LƯU Ý:\n+ Đây là tài khoản MIỄN PHÍ và có ưu đãi nhận miễn phí ChatGPT plus 1 tháng với giá ưu đãi 0đ\n+ Nếu không hiện Trial, vui lòng thử lại với ip, proxy khác hoặc sử dụng 5G\n+ Nếu không hiện đúng phương thức yêu cầu thì vui lòng tổng hợp số lượng acc lỗi gửi admin để đổi!!!\n---------\nVUI LÒNG ĐỌC KỸ MÔ TẢ TRƯỚC KHI MUA - KHÔNG HOÀN TIỀN VỚI BẤT KỲ LÝ DO NÀO KHÁC!!!!",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 555,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "17:21 23/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 25000,
+          "stock": 555
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -10108,6 +10134,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792750883873",
+      "time": "17:21 - 23/10/2026",
+      "name": "ChatGPT Gmail Trial có offer 1 tháng - KBH",
+      "bot": "taphoathomap_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 555,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGmailTrialcóoffer1tháng-KBH➕Thêm:555📦Tồnkhohiệntại:555💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1792750615654",
       "time": "17:16 - 23/10/2026",
       "name": "🔥 ChatGPT Plus  30D ( BH 20D )",
@@ -11342,20 +11379,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖CHATGPTPRO500$1tháng-BH3Ngày➕Thêm:30📦Tồnkhohiệntại:30💰Giá:3.300.000đ"
-    },
-    {
-      "id": "hist-1792622862431",
-      "time": "05:47 - 22/10/2026",
-      "timestamp": 1792622862431,
-      "name": "Chatgpt Pro 500$ 1 tháng BH 7D",
-      "bot": "taphoathomap_bot",
-      "shopStock": 30,
-      "addedQty": 30,
-      "price": 4800000,
-      "stockAfter": 30,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatgptPro500$1thángBH7D➕Thêm:30📦Tồnkhohiệntại:30💰Giá:4.200.000đ"
     }
   ]
 }
