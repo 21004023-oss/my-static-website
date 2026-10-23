@@ -6360,6 +6360,32 @@
           "cost_price": 15000
         },
         "import_note": "🛒 @taphoathomap_bot"
+      },
+      {
+        "id": "p-1792766082106",
+        "name": "GMAIL TRIAL RANDOM DATE 201X",
+        "price": 55000,
+        "cost_price": 45000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|pass|mkp\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 0,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "21:34 23/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 45000,
+          "stock": 0
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -10359,6 +10385,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792766082106",
+      "time": "21:34 - 23/10/2026",
+      "name": "GMAIL TRIAL RANDOM DATE 201X",
+      "bot": "ntnshopre_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 0,
+      "catKey": "gmail",
+      "msgKey": "📧GMAILTRIALRANDOMDATE201X➕Thêm:9📦Tồnkhohiệntại:0💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1792766077029",
       "time": "21:34 - 23/10/2026",
       "name": "Gmail Random ip 2010-2016 trial youtube",
@@ -11509,20 +11546,6 @@
       "catKey": "google-veo",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:15📦Tồnkhohiệntại:72💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792640895095",
-      "time": "10:48 - 22/10/2026",
-      "timestamp": 1792640895095,
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 38,
-      "addedQty": 39,
-      "price": 270000,
-      "stockAfter": 38,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:39📦Tồnkhohiệntại:38💰Giá:240.000đ"
     }
   ]
 }
