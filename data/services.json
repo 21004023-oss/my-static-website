@@ -6209,17 +6209,17 @@
         "id": "p-1792417336475",
         "name": "Gmail Random ip 7-10 ngày 2FA",
         "price": 45000,
-        "cost_price": 15000,
-        "stock": 27,
-        "stock_text": "Còn 27",
+        "cost_price": 25000,
+        "stock": 47,
+        "stock_text": "Còn 47",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2FA |  Bảo hành trong 24h, LOGIN xong hết BẢO HÀNH",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 13,
+            "stock": 33,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "20:42 19/10/2026"
+            "updated": "21:51 23/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 14,
@@ -6228,13 +6228,14 @@
             "updated": "20:42 19/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 25000,
+          "stock": 14
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792421622161",
@@ -10391,6 +10392,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792767105358",
+      "time": "21:51 - 23/10/2026",
+      "name": "Gmail Random ip 7-10 ngày 2FA",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 47,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandomip7-10ngày2FA➕Thêm:11📦Tồnkhohiệntại:33💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792766088405",
       "time": "21:34 - 23/10/2026",
       "name": "Gmail Random ip 2010-2016 trial youtube",
@@ -11535,20 +11547,6 @@
       "catKey": "google-veo",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H💰Giá:40k📦Tồnkho:72tàikhoản📊Đãbán:3.097tàikhoản💎Môt"
-    },
-    {
-      "id": "hist-1792655565434",
-      "time": "14:52 - 22/10/2026",
-      "timestamp": 1792655565434,
-      "name": "CapCut Pro Team 3 Tháng - BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 7,
-      "addedQty": 0,
-      "price": 180000,
-      "stockAfter": 14,
-      "catKey": "capcut",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "✂️CapCutProTeam3Tháng-BHF💰Giá:160k📦Tồnkho:7tàikhoản📊Đãbán:179tàikhoản💎Môtả:Tàikh"
     }
   ]
 }
