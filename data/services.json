@@ -496,16 +496,16 @@
         "id": "p-1791879689407",
         "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
         "price": 280000,
-        "stock": 50,
-        "stock_text": "Còn 50",
+        "stock": 49,
+        "stock_text": "Còn 49",
         "duration": "1 Tháng",
         "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. BH Live radom 25 - 30 ngày\n4. Chỉ bảo hành tài khoản vô hiệu hóa, thay đổi thông tin lỗi - KBH\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n⚠️ Hiện tại, việc đổi PASS cần OTP nên không đổi được, còn nếu đổi 2FA có thể lỗi OTP gmail, khách hàng có thể cân nhắc không đổi và cứ việc dùng",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 50,
+            "stock": 49,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "11:25 23/10/2026"
+            "updated": "11:43 23/10/2026"
           }
         },
         "cost_price": 230000,
@@ -515,7 +515,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 230000,
-          "stock": 50
+          "stock": 49
         }
       },
       {
@@ -9724,6 +9724,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792730599880",
+      "time": "11:43 - 23/10/2026",
+      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 49,
+      "catKey": "chatgpt",
+      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:1📦Tồnkhohiệntại:49💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1792730541990",
       "time": "11:42 - 23/10/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -11066,20 +11077,6 @@
       "catKey": "education",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐LinkGetOfferDuolingoSuper1nămBH24H➕Thêm:12📦Tồnkhohiệntại:17💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1792586938128",
-      "time": "19:48 - 21/10/2026",
-      "timestamp": 1792586938128,
-      "name": "Slot Youtube Premium 3 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 571,
-      "addedQty": 4,
-      "price": 105000,
-      "stockAfter": 571,
-      "catKey": "youtube",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:4📦Tồnkhohiệntại:571💰Giá:95.000đ"
     }
   ]
 }
