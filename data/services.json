@@ -2690,17 +2690,17 @@
         "id": "capcut-1m",
         "name": "CapCut Pro 1 Tháng BHF",
         "price": 48000,
-        "stock": 18,
-        "stock_text": "Còn 18",
+        "stock": 7,
+        "stock_text": "Còn 7",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 18,
+            "stock": 7,
             "cost_price": 38000,
             "selling_price": 48000,
-            "updated": "11:38 23/10/2026"
+            "updated": "15:17 23/10/2026"
           }
         },
         "cost_price": 38000,
@@ -2709,7 +2709,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 38000,
-          "stock": 18
+          "stock": 7
         },
         "import_note": "Nhập: @ntnshopre_bot"
       },
@@ -9935,6 +9935,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792743470865",
+      "time": "15:17 - 23/10/2026",
+      "name": "CAPCUT PRO 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 48000,
+      "costPrice": 38000,
+      "stockAfter": 7,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:8📦Tồnkhohiệntại:7💰Giá:38.000đ"
+    },
+    {
       "id": "hist-1792743461787",
       "time": "15:17 - 23/10/2026",
       "name": "Gmail Việt 2020-2024",
@@ -11223,20 +11234,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🧠100MCreditAPIClaude3Ngày-BHF➕Thêm:150📦Tồnkhohiệntại:292💰Giá:159.000đ"
-    },
-    {
-      "id": "hist-1792597848237",
-      "time": "22:50 - 21/10/2026",
-      "timestamp": 1792597848237,
-      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
-      "bot": "piggyai99_bot",
-      "shopStock": 48,
-      "addedQty": 5,
-      "price": 50000,
-      "stockAfter": 90,
-      "catKey": "google-veo",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:5📦Tồnkhohiệntại:48💰Giá:40.000đ"
     }
   ]
 }
