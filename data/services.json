@@ -9690,11 +9690,48 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792730190367",
+        "name": "Link Gemini Pro 18 Tháng BH 24H",
+        "price": 50000,
+        "cost_price": 40000,
+        "stock": 71,
+        "stock_text": "Còn 71",
+        "duration": "1 Ngày",
+        "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 71,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "11:36 23/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 40000,
+          "stock": 71
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792730190367",
+      "time": "11:36 - 23/10/2026",
+      "name": "Link Gemini Pro 18 Tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 71,
+      "catKey": "khac",
+      "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:50📦Tồnkhohiệntại:71💰Giá:40.000đ"
+    },
     {
       "id": "hist-1792730173352",
       "time": "11:36 - 23/10/2026",
@@ -11053,20 +11090,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH24H➕Thêm:26📦Tồnkhohiệntại:31💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1792581368152",
-      "time": "18:16 - 21/10/2026",
-      "timestamp": 1792581368152,
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 1H",
-      "bot": "ntnshopre_bot",
-      "shopStock": 8,
-      "addedQty": 9,
-      "price": 110000,
-      "stockAfter": 8,
-      "catKey": "chatgpt",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH1H➕Thêm:9📦Tồnkhohiệntại:8💰Giá:100.000đ"
     }
   ]
 }
