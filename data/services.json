@@ -6379,26 +6379,27 @@
         "id": "p-1792490607327",
         "name": "Gmail USA new log all thiết bị",
         "price": 45000,
-        "cost_price": 15000,
-        "stock": 38,
-        "stock_text": "Còn 38",
+        "cost_price": 35000,
+        "stock": 24,
+        "stock_text": "Còn 24",
         "duration": "1 Tháng",
         "detail": "Định dạng: Gmail | Pass - Gmail này cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone -Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll ) -Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/\n- BH 24h, log thành công hết BH",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 38,
+            "stock": 24,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "17:03 20/10/2026"
+            "updated": "02:08 24/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "bot": "@sieuthistore_bot",
+          "cost_price": 35000,
+          "stock": 24
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @sieuthistore_bot"
       },
       {
         "id": "p-1792490616334",
@@ -10679,6 +10680,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792782521740",
+      "time": "02:08 - 24/10/2026",
+      "name": "Gmail USA new log all thiết bị",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 24,
+      "catKey": "gmail",
+      "msgKey": "📧GmailUSAnewlogallthiếtbị➕Thêm:28📦Tồnkhohiệntại:24💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792781372746",
       "time": "01:49 - 24/10/2026",
       "name": "Slot Youtube Premium 6 Tháng BHF",
@@ -11766,17 +11778,6 @@
       "stockAfter": 28,
       "catKey": "meitu-wink",
       "msgKey": "✨MeituSVIP1ThángBHF➕Thêm:14📦Tồnkhohiệntại:14💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1792735680024",
-      "time": "13:08 - 23/10/2026",
-      "name": "Meitu SVip 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 85000,
-      "costPrice": 75000,
-      "stockAfter": 14,
-      "catKey": "meitu-wink",
-      "msgKey": "✨MeituSVip1ThángBHF➕Thêm:14📦Tồnkhohiệntại:14💰Giá:75.000đ"
     }
   ]
 }
