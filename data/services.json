@@ -10190,8 +10190,8 @@
         "name": "Muse Ai  1B Token KBH",
         "price": 40000,
         "cost_price": 15000,
-        "stock": 394,
-        "stock_text": "Còn 394",
+        "stock": 450,
+        "stock_text": "Còn 450",
         "duration": "1 Tháng",
         "detail": "Muse AI 1 Billion tokens - No warranty\n- Format: email\n- Email access: https://generator.email\n- Add the mail at the end of the link to read mailbox (ex: https://generator.email/abcd@mail.com)\n=========\nMuse AI 1 tỷ tokens - không bảo hành\n- Định dạng: email\n- Email access: https://generator.email\n- Thêm mail cần đọc vào cuối link trên (ví dụ: https://generator.email/abcd@mail.com)",
         "sources": {
@@ -10202,16 +10202,16 @@
             "updated": "20:48 23/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 169,
+            "stock": 225,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "15:30 23/10/2026"
+            "updated": "20:48 23/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 169
+          "stock": 225
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -10279,6 +10279,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792763338183",
+      "time": "20:48 - 23/10/2026",
+      "name": "Muse Ai  1B Token KBH",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 450,
+      "catKey": "khac",
+      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:1📦Tồnkhohiệntại:225💰Giá:15.000đ"
+    },
     {
       "id": "hist-1792763332846",
       "time": "20:48 - 23/10/2026",
@@ -11442,20 +11453,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:31📦Tồnkhohiệntại:30💰Giá:240.000đ"
-    },
-    {
-      "id": "hist-1792639099918",
-      "time": "10:18 - 22/10/2026",
-      "timestamp": 1792639099918,
-      "name": "CapCut Pro Team 3 Tháng - BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 7,
-      "addedQty": 7,
-      "price": 180000,
-      "stockAfter": 14,
-      "catKey": "capcut",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:160.000đ"
     }
   ]
 }
