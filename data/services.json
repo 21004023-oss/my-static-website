@@ -7431,16 +7431,16 @@
         "id": "p-1791917317024",
         "name": "Wink VIP+ 7 Ngày BHF",
         "price": 45000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "7 Ngày",
         "detail": "Wink gói VIP+ 7 Ngày BHF 100 credits login 1 thiết bị,  nếu đăng nhập trên điện thoại lỗi thì có thể có thể dùng trên PC\n- Định dạng: (Email|Pass Hotmail|Pass Wink) Token\n- Pass Wink mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\nLink tải app Wink trên máy tính: https://wink.ai/vi\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 4,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "11:25 23/10/2026"
+            "updated": "11:42 23/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 4,
@@ -7456,7 +7456,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 5
+          "stock": 4
         }
       },
       {
@@ -9724,6 +9724,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792730541990",
+      "time": "11:42 - 23/10/2026",
+      "name": "Wink VIP+ 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 8,
+      "catKey": "meitu-wink",
+      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:4💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1792730536957",
       "time": "11:42 - 23/10/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -11069,20 +11080,6 @@
       "catKey": "youtube",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:4📦Tồnkhohiệntại:571💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1792586738305",
-      "time": "19:45 - 21/10/2026",
-      "timestamp": 1792586738305,
-      "name": "Tài khoản Newtake ai Credits 19$ starter Plan 1 tháng ( BH 24H )",
-      "bot": "taphoathomap_bot",
-      "shopStock": 20,
-      "addedQty": 20,
-      "price": 135000,
-      "stockAfter": 20,
-      "catKey": "khac",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "TàikhoảnNewtakeaiCredits19$starterPlan1tháng(BH24H)➕Thêm:20📦Tồnkhohiệntại:20💰Giá"
     }
   ]
 }
