@@ -4600,8 +4600,8 @@
         "id": "p-1792171951020",
         "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
         "price": 170000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "1 Tháng",
         "detail": "ACC KLING STAND RANDOM 700-750 CREDITS",
         "sources": {
@@ -4612,10 +4612,10 @@
             "updated": "16:56 23/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 9,
             "cost_price": 125000,
-            "updated": "06:51 18/10/2026",
-            "selling_price": 145000
+            "selling_price": 145000,
+            "updated": "16:56 23/10/2026"
           }
         },
         "hidden": false,
@@ -4625,7 +4625,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 125000,
-          "stock": 1
+          "stock": 9
         }
       },
       {
@@ -10101,6 +10101,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792749407749",
+      "time": "16:56 - 23/10/2026",
+      "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
+      "bot": "taphoathomap_bot",
+      "price": 145000,
+      "costPrice": 125000,
+      "stockAfter": 18,
+      "catKey": "kling",
+      "msgKey": "🎬KLING792-992cre1tháng(BH24h)➕Thêm:9📦Tồnkhohiệntại:9💰Giá:125.000đ"
+    },
+    {
       "id": "hist-1792749402622",
       "time": "16:56 - 23/10/2026",
       "name": "Kling 790-1k Credit 1 tháng BH 1 Ngày",
@@ -11341,20 +11352,6 @@
       "catKey": "vpn",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🚚EXPRESSVPN12THÁNGBẢOHÀNHLOGIN➕Thêm:1📦Tồnkhohiệntại:0💰Giá:125.000đ"
-    },
-    {
-      "id": "hist-1792620855603",
-      "time": "05:14 - 22/10/2026",
-      "timestamp": 1792620855603,
-      "name": "Express VPN 12 Tháng KBH",
-      "bot": "sieuthistore_bot",
-      "shopStock": 0,
-      "addedQty": 1,
-      "price": 140000,
-      "stockAfter": 14,
-      "catKey": "vpn",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🚚ExpressVPN12ThángKBH➕Thêm:1📦Tồnkhohiệntại:0💰Giá:120.000đ"
     }
   ]
 }
