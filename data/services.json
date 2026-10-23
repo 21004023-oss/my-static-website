@@ -2937,16 +2937,16 @@
         "id": "p-1792119807992",
         "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
         "price": 75000,
-        "stock": 45,
-        "stock_text": "Còn 45",
+        "stock": 34,
+        "stock_text": "Còn 34",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 18,
+            "stock": 7,
             "cost_price": 65000,
             "selling_price": 75000,
-            "updated": "11:39 23/10/2026"
+            "updated": "15:19 23/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 27,
@@ -9935,6 +9935,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792743555968",
+      "time": "15:19 - 23/10/2026",
+      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 75000,
+      "costPrice": 65000,
+      "stockAfter": 34,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:8📦Tồnkhohiệntại:7💰Giá:65.000đ"
+    },
+    {
       "id": "hist-1792743470865",
       "time": "15:17 - 23/10/2026",
       "name": "CAPCUT PRO 1 THÁNG BHF",
@@ -11220,20 +11231,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🧠20MCreditAPIClaude1Ngày-BHF➕Thêm:100📦Tồnkhohiệntại:274💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792599676011",
-      "time": "23:21 - 21/10/2026",
-      "timestamp": 1792599676011,
-      "name": "100M Credit API Claude 3 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 292,
-      "addedQty": 150,
-      "price": 179000,
-      "stockAfter": 292,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🧠100MCreditAPIClaude3Ngày-BHF➕Thêm:150📦Tồnkhohiệntại:292💰Giá:159.000đ"
     }
   ]
 }
