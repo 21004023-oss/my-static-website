@@ -10336,10 +10336,10 @@
         "name": "Muse Ai  1B Token KBH",
         "price": 40000,
         "cost_price": 15000,
-        "stock": 338,
-        "stock_text": "Còn 338",
+        "stock": 380,
+        "stock_text": "Còn 380",
         "duration": "1 Tháng",
-        "detail": "Muse AI 1 Billion tokens - No warranty\n- Format: email\n- Email access: https://generator.email\n- Add the mail at the end of the link to read mailbox (ex: https://generator.email/abcd@mail.com)\n=========\nMuse AI 1 tỷ tokens - không bảo hành\n- Định dạng: email\n- Email access: https://generator.email\n- Thêm mail cần đọc vào cuối link trên (ví dụ: https://generator.email/abcd@mail.com)",
+        "detail": "1. Đăng nhập IP sạch\n2. Không thay đổi thông tin khi mua về và không kết nối fb\n3. Thắc mắc gì ib hỏi shop trc khi thao tác vs acc\n*Lưu ý chỉ bảo hành login 1 tiếng (đăng nhập được vô acc là hết bảo hành)\nCách đăng nhập:\nNhập mail vào muse sau đó điền mail vào 1 trong 3 web sau để lấy code (chắc chắn là vô được)\nhttps://generator.email/\nhttps://luuvan.site/?inbox=\nhttps://tmpmails.net/\nví dụ mail abc@aivn\nđiền webmail là:\nhttps://generator.email/abc@aivn hoặc\nhttps://luuvan.site/?inbox=abc@aivn",
         "sources": {
           "piggyai99_bot": {
             "stock": 169,
@@ -10352,6 +10352,12 @@
             "cost_price": 15000,
             "selling_price": 25000,
             "updated": "15:30 23/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 42,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "09:07 24/10/2026"
           }
         },
         "cheapest_source": {
@@ -10503,6 +10509,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792807633126",
+      "time": "09:07 - 24/10/2026",
+      "name": "Muse Ai 1B Token KBH",
+      "bot": "sieuthistore_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 380,
+      "catKey": "khac",
+      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:20📦Tồnkhohiệntại:42💰Giá:15.000đ"
+    },
     {
       "id": "hist-1792807365980",
       "time": "09:02 - 24/10/2026",
@@ -11609,20 +11626,6 @@
       "catKey": "google-veo",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:40📦Tồnkhohiệntại:76💰Giá:27.000đ"
-    },
-    {
-      "id": "hist-1792655654936",
-      "time": "14:54 - 22/10/2026",
-      "timestamp": 1792655654936,
-      "name": "MUSE.AI -31 TỶ TOKEN (KBH)",
-      "bot": "taphoathomap_bot",
-      "shopStock": 7,
-      "addedQty": 5,
-      "price": 99000,
-      "stockAfter": 7,
-      "catKey": "muse-ai",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐MUSE.AI-31TỶTOKEN(KBH)➕Thêm:5📦Tồnkhohiệntại:7💰Giá:89.000đ"
     }
   ]
 }
