@@ -3956,25 +3956,27 @@
         "id": "p-1792273003906",
         "name": "VIP 1.API 15M Token Claude 1 Ngày - BHF",
         "price": 45000,
-        "stock": 26,
-        "stock_text": "Còn 26",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Ngày",
         "detail": "💎 API Claude VIP High Stable — model trích xuất từ Cursor Ultra, dùng cho Claude Code và app hỗ trợ OpenAI/Anthropic.\n⚡ Có Fable tốc độ cao, có opus-5.5 ( nếu hết dùng model khác )\n🤖 Token ước tính: Fable 5M · Opus 5 10M · Sonnet 5 20M · Haiku 4.5 33M\n💠 Hỗ trợ thêm: Kimi K3 · GLM 5.2 · Grok 4.6, quy đổi tương đương Sonnet 5\n🛡️ Độ ổn định cao, không gián đoạn như bản Standard\n⏳ Hạn dùng: 24 giờ từ khi kích hoạt Key\n🔗 Hướng dẫn cài đặt và kích hoạt:\nhttps://daily.bddevlab.buzz/redeem.html\n🔗 Cách khắc phục lỗi :\nhttps://duc-dop-error-guide.pages.dev",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 26,
+            "stock": 16,
             "cost_price": 35000,
-            "updated": "04:36 18/10/2026",
-            "selling_price": 45000
+            "selling_price": 45000,
+            "updated": "09:35 24/10/2026"
           }
         },
         "hidden": false,
         "cost_price": 35000,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 45000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 35000,
+          "stock": 16
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792161713705",
@@ -10510,6 +10512,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792809343122",
+      "time": "09:35 - 24/10/2026",
+      "name": "VIP 1.API 15M Token Claude 1 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 16,
+      "catKey": "api-claude-codex",
+      "msgKey": "🧠VIP1.API15MTokenClaude1Ngày-BHF➕Thêm:15📦Tồnkhohiệntại:16💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1792807633126",
       "time": "09:07 - 24/10/2026",
       "name": "Muse Ai 1B Token KBH",
@@ -11612,20 +11625,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:10📦Tồnkhohiệntại:51💰Giá:240.000đ"
-    },
-    {
-      "id": "hist-1792655659985",
-      "time": "14:54 - 22/10/2026",
-      "timestamp": 1792655659985,
-      "name": "Link Gemini Pro 18 Tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 76,
-      "addedQty": 40,
-      "price": 37000,
-      "stockAfter": 76,
-      "catKey": "google-veo",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:40📦Tồnkhohiệntại:76💰Giá:27.000đ"
     }
   ]
 }
