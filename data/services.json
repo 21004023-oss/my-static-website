@@ -3040,17 +3040,17 @@
         "id": "p-1791877845717",
         "name": "CAPCUT PRO 3 THÁNG BHF",
         "price": 205000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "3 Tháng",
         "detail": "Tài khoản Capcut Pro dạng team hạn sử dụng 90 ngày. • Có thể nhận tới 2000 Credit AI • Định dạng: Email | Pass • Login 1-2 thiết bị hạn chế login nhiều thiết bị. • Bảo hành 90 ngày, không bảo hành lỗi đăng nhập quá thường xuyên.\nTK tự động gia hạn mỗi tháng 1 lần đến khi đủ 1 tháng",
         "cost_price": 155000,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 11,
+            "stock": 8,
             "cost_price": 185000,
             "selling_price": 205000,
-            "updated": "17:58 23/10/2026"
+            "updated": "09:46 24/10/2026"
           },
           "ntnshopre_bot": {
             "stock": 8,
@@ -10512,6 +10512,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792810014264",
+      "time": "09:46 - 24/10/2026",
+      "name": "CapCut Pro 3 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 205000,
+      "costPrice": 185000,
+      "stockAfter": 16,
+      "catKey": "capcut",
+      "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:4📦Tồnkhohiệntại:8💰Giá:185.000đ"
+    },
+    {
       "id": "hist-1792810008074",
       "time": "09:46 - 24/10/2026",
       "name": "CapCut Pro Team 3 Tháng - BHF",
@@ -11599,20 +11610,6 @@
       "stockAfter": 8,
       "catKey": "meitu-wink",
       "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792655686636",
-      "time": "14:54 - 22/10/2026",
-      "timestamp": 1792655686636,
-      "name": "Surfshark VPN One 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 12,
-      "addedQty": 12,
-      "price": 25000,
-      "stockAfter": 36,
-      "catKey": "vpn",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:15.000đ"
     }
   ]
 }
