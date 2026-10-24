@@ -4660,34 +4660,17 @@
         "id": "kling-65cre",
         "name": "Kling 65 Cre 1 Tháng BHF",
         "price": 28000,
-        "stock": 410,
-        "stock_text": "Còn 410",
+        "stock": 115,
+        "stock_text": "Còn 115",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
-        "detail": "Acc free được tặng credit",
-        "cost_price": 2000,
-        "import_note": "Nhập: @taphoathomap_bot",
+        "detail": "- Định dạng: TK|MK.\n- Tài khoản sẽ mất credit sau một thời gian và nên sử dụng ngay.\n- Bật tab ẩn danh hoặc xài Proxy (trên PC mỗi Profile là 1 acc Kling để làm song song nhiều video).\n- Không bảo hành lỗi Busy.",
+        "cost_price": 3000,
+        "import_note": "🛒 @ntnshopre_bot",
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 2000,
-          "stock": 205
-        },
-        "sources": {
-          "ntnshopre_bot": {
-            "stock": 205,
-            "cost_price": 3000,
-            "selling_price": 13000,
-            "updated": "07:47 24/10/2026"
-          },
-          "taphoathomap_bot": {
-            "stock": 205,
-            "cost_price": 2000,
-            "selling_price": 12000,
-            "updated": "07:48 24/10/2026"
-          }
-        },
-        "hidden": false,
-        "needs_review": false
+          "bot": "@ntnshopre_bot",
+          "cost_price": 3000
+        }
       },
       {
         "id": "kling-700cre",
@@ -4978,58 +4961,6 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 2250000
         }
-      },
-      {
-        "id": "p-1792802325315",
-        "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
-        "price": 160000,
-        "cost_price": 140000,
-        "stock": 6,
-        "stock_text": "Còn 6",
-        "duration": "1 Tháng",
-        "detail": "Gói Kling Standard 1200 credit 1TH BH 1 ngày bảo hành uy tín.",
-        "sources": {
-          "taphoathomap_bot": {
-            "stock": 6,
-            "cost_price": 140000,
-            "selling_price": 160000,
-            "updated": "07:38 24/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 140000,
-          "stock": 6
-        },
-        "import_note": "Nhập: @taphoathomap_bot",
-        "hidden": false,
-        "needs_review": false
-      },
-      {
-        "id": "p-1792802877168",
-        "name": "Kling 65 Credit 1 Tháng BHF",
-        "price": 14000,
-        "cost_price": 4000,
-        "stock": 205,
-        "stock_text": "Còn 205",
-        "duration": "1 Tháng",
-        "detail": "Tài Khoản sẽ mất credit sau một thời gian và nên sử dụng ngay\nLưu Ý Quan Trọng:\n❌  Bật tab ẩn danh hoặc Sài Proxy\n❌ Không bảo hành lỗi Busy\nHướng dẩn sử dụng\nĐịnh dạng: TK|MK phân cách bởi dấu \"|\"\n1. Trên máy tính :\nMỗi Profile là một acc Kling ai, làm Song Song nhiều video cùng lúc\n2. Trên điện thoại :\nLogin Tài khoản vào > Sử dụng hết Credit > Tắt bỏ tab đó >",
-        "sources": {
-          "sieuthistore_bot": {
-            "stock": 205,
-            "cost_price": 4000,
-            "selling_price": 14000,
-            "updated": "07:47 24/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 4000,
-          "stock": 205
-        },
-        "import_note": "Nhập: @sieuthistore_bot",
-        "hidden": false,
-        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=64"
@@ -7630,40 +7561,39 @@
       {
         "id": "p-1792307363682",
         "name": "Express VPN 3 Ngày BHF",
-        "price": 35000,
-        "cost_price": 15000,
-        "stock": 30,
-        "stock_text": "Còn 30",
-        "duration": "3 Ngày",
+        "price": 25000,
+        "cost_price": 6400,
+        "stock": 29,
+        "stock_text": "Còn 29",
+        "duration": "1 Tháng",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 10,
+            "stock": 11,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "07:42 24/10/2026"
+            "updated": "12:18 21/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 11,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "07:42 24/10/2026"
+            "updated": "12:19 21/10/2026"
           },
           "ntnshopre_bot": {
-            "stock": 10,
+            "stock": 7,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "07:42 24/10/2026"
+            "updated": "17:03 20/10/2026"
           }
         },
-        "hidden": false,
-        "needs_review": false,
+        "hidden": true,
+        "needs_review": true,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 15000,
-          "stock": 10
+          "bot": "@KhoMMO_Market_bot",
+          "cost_price": 6400
         },
-        "import_note": "Nhập: @taphoathomap_bot"
+        "import_note": "🛒 @KhoMMO_Market_bot"
       },
       {
         "id": "p-1792394257372",
@@ -8176,10 +8106,10 @@
         "id": "p-1792061006617",
         "name": "Wink VIP 30 ngày BHF",
         "price": 140000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "1 Tháng",
-        "detail": "✨ MỞ KHÓA FULL KHO CÔNG CỤ LÀM ĐẸP AI – VIP\n💎 TÍNH NĂNG NỔI BẬT\n• Mở khóa toàn bộ công cụ làm đẹp AI VIP.\n• Làm nét video, nâng cao chất lượng hình ảnh.\n• Xóa vật thể nâng cao bằng AI.\n• Kho hiệu ứng chuyển cảnh VIP đa dạng.\n• Xuất video chất lượng cao, không logo.\n📱 THIẾT BỊ HỖ TRỢ\n• Chỉ dành cho iOS (iPhone/iPad).\n• Chỉ sử dụng trên 1 thiết bị.\n⚠️ LƯU Ý QUAN TRỌNG\n• Date radom 12 - 14 ngày, hụt 1-2 khách hoan hỉ\n• Bắt buộc đăng nhập trong vòng 6 giờ sau khi mua.\n• Quá 6 giờ hoặc sang ngày hôm sau mới đăng nhập: TỪ CHỐI BẢO HÀNH.\n• Không đăng xuất, không chia sẻ tài khoản.\n• Vi phạm các điều kiện trên sẽ bị từ chối bảo hành.\n🚨 VUI LÒNG ĐỌC KỸ MÔ TẢ TRƯỚC KHI MUA ĐỂ TRÁNH TRANH CHẤP!",
+        "detail": "Mở khóa full kho công cụ làm đẹp AI, tính năng làm nét video, xóa vật thể nâng cao, hiệu ứng chuyển cảnh VIP, xuất file chất lượng cao không logo\nLưu ý:\nTài khoản chỉ dành cho IOS\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.",
         "sources": {
           "sieuthistore_bot": {
             "stock": 7,
@@ -8188,19 +8118,19 @@
             "updated": "15:16 23/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 5,
-            "cost_price": 30000,
-            "selling_price": 40000,
-            "updated": "08:19 24/10/2026"
+            "stock": 7,
+            "cost_price": 70000,
+            "selling_price": 80000,
+            "updated": "15:16 23/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 30000,
+        "cost_price": 70000,
         "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 30000,
-          "stock": 5
+          "cost_price": 70000,
+          "stock": 7
         },
         "needs_review": false
       },
@@ -10320,22 +10250,22 @@
         "name": "MUSE AI 1B TOKEN BẢO HÀNH ACITVE",
         "price": 25000,
         "cost_price": 15000,
-        "stock": 674,
-        "stock_text": "Còn 674",
+        "stock": 169,
+        "stock_text": "Còn 169",
         "duration": "1 Tháng",
         "detail": "Muse AI 1 Billion tokens - No warranty\n- Format: email\n- Email access: https://generator.email\n- Add the mail at the end of the link to read mailbox (ex: https://generator.email/abcd@mail.com)\n=========\nMuse AI 1 tỷ tokens - không bảo hành\n- Định dạng: email\n- Email access: https://generator.email\n- Thêm mail cần đọc vào cuối link trên (ví dụ: https://generator.email/abcd@mail.com)",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 674,
+            "stock": 169,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "08:09 24/10/2026"
+            "updated": "15:30 23/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 15000,
-          "stock": 674
+          "stock": 169
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
@@ -10346,28 +10276,28 @@
         "name": "Muse Ai  1B Token KBH",
         "price": 40000,
         "cost_price": 15000,
-        "stock": 1348,
-        "stock_text": "Còn 1348",
+        "stock": 338,
+        "stock_text": "Còn 338",
         "duration": "1 Tháng",
         "detail": "Muse AI 1 Billion tokens - No warranty\n- Format: email\n- Email access: https://generator.email\n- Add the mail at the end of the link to read mailbox (ex: https://generator.email/abcd@mail.com)\n=========\nMuse AI 1 tỷ tokens - không bảo hành\n- Định dạng: email\n- Email access: https://generator.email\n- Thêm mail cần đọc vào cuối link trên (ví dụ: https://generator.email/abcd@mail.com)",
         "sources": {
           "piggyai99_bot": {
-            "stock": 674,
+            "stock": 169,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "08:09 24/10/2026"
+            "updated": "15:30 23/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 674,
+            "stock": 169,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "08:09 24/10/2026"
+            "updated": "15:30 23/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 674
+          "stock": 169
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -10456,228 +10386,11 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
-      },
-      {
-        "id": "p-1792801910239",
-        "name": "TiktokVN 1kfl noshop nobuff live Studio",
-        "price": 179000,
-        "cost_price": 159000,
-        "stock": 5,
-        "stock_text": "Còn 5",
-        "duration": "1 Tháng",
-        "detail": "TIKTOK 1K FOLOW KHÔNG BUFF 📱 Hỗ trợ LIVE trên điện thoại. FL THẬT\nBH 24h login\n-Đăng nhập id và pass lấy mã tại hotmail.com hoặc mail.tm\nĐịnh dạng : id / pass / mail / mk mail\nhttps://dongvanfb.net/read_mail_box/",
-        "sources": {
-          "taphoathomap_bot": {
-            "stock": 5,
-            "cost_price": 159000,
-            "selling_price": 179000,
-            "updated": "07:31 24/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 159000,
-          "stock": 5
-        },
-        "import_note": "Nhập: @taphoathomap_bot",
-        "hidden": false,
-        "needs_review": false
-      },
-      {
-        "id": "p-1792801914755",
-        "name": "TiktokVN noshop CóLive(1KFLThật)",
-        "price": 199000,
-        "cost_price": 179000,
-        "stock": 5,
-        "stock_text": "Còn 5",
-        "duration": "1 Tháng",
-        "detail": "TIKTOK 1K FOLOW KHÔNG BUFF 📱 Hỗ trợ LIVE trên điện thoại. FL THẬT\nBH 24h login\n-Đăng nhập id và pass lấy mã tại hotmail.com hoặc mail.tm\nĐịnh dạng : id / pass / mail / mk mail\nhttps://dongvanfb.net/read_mail_box/",
-        "sources": {
-          "piggyai99_bot": {
-            "stock": 5,
-            "cost_price": 179000,
-            "selling_price": 199000,
-            "updated": "07:31 24/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 179000,
-          "stock": 5
-        },
-        "import_note": "Nhập: @piggyai99_bot",
-        "hidden": false,
-        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
-    {
-      "id": "hist-1792804757112",
-      "time": "08:19 - 24/10/2026",
-      "name": "Wink VIP  14 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 12,
-      "catKey": "meitu-wink",
-      "msgKey": "⭐WinkVIP14NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1792804197743",
-      "time": "08:09 - 24/10/2026",
-      "name": "MUSE AI 1B TOKEN BẢO HÀNH ACITVE",
-      "bot": "ntnshopre_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 674,
-      "catKey": "khac",
-      "msgKey": "⭐MUSEAI1BTOKENBẢOHÀNHACITVE➕Thêm:91📦Tồnkhohiệntại:674💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792804189028",
-      "time": "08:09 - 24/10/2026",
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 1348,
-      "catKey": "khac",
-      "msgKey": "⭐MuseAi1BTokenKBH💰Giá:15k📦Tồnkho:674tàikhoản📊Đãbán:1.871tàikhoản💎Môtả:MuseAI1Bil"
-    },
-    {
-      "id": "hist-1792804184679",
-      "time": "08:09 - 24/10/2026",
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 1348,
-      "catKey": "khac",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:91📦Tồnkhohiệntại:674💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792804179925",
-      "time": "08:09 - 24/10/2026",
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "piggyai99_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 843,
-      "catKey": "khac",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:91📦Tồnkhohiệntại:674💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1792802883699",
-      "time": "07:48 - 24/10/2026",
-      "name": "Kling 65 Cre 1th BHF",
-      "bot": "taphoathomap_bot",
-      "price": 12000,
-      "costPrice": 2000,
-      "stockAfter": 410,
-      "catKey": "kling",
-      "msgKey": "🎬Kling65Cre1thBHF➕Thêm:55📦Tồnkhohiệntại:205💰Giá:2.000đ"
-    },
-    {
-      "id": "hist-1792802877168",
-      "time": "07:47 - 24/10/2026",
-      "name": "Kling 65 Credit 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 14000,
-      "costPrice": 4000,
-      "stockAfter": 205,
-      "catKey": "kling",
-      "msgKey": "🎬Kling65Credit1ThángBHF➕Thêm:55📦Tồnkhohiệntại:205💰Giá:4.000đ"
-    },
-    {
-      "id": "hist-1792802870934",
-      "time": "07:47 - 24/10/2026",
-      "name": "KLING 65 CRE 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 13000,
-      "costPrice": 3000,
-      "stockAfter": 205,
-      "catKey": "kling",
-      "msgKey": "🎬KLING65CRE1THÁNGBHF➕Thêm:55📦Tồnkhohiệntại:205💰Giá:3.000đ"
-    },
-    {
-      "id": "hist-1792802573807",
-      "time": "07:42 - 24/10/2026",
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 30,
-      "catKey": "vpn",
-      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792802567293",
-      "time": "07:42 - 24/10/2026",
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 31,
-      "catKey": "vpn",
-      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792802561693",
-      "time": "07:42 - 24/10/2026",
-      "name": "EXPRESS VPN 3 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 32,
-      "catKey": "vpn",
-      "msgKey": "🚚EXPRESSVPN3NGÀYBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792802329825",
-      "time": "07:38 - 24/10/2026",
-      "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 6,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1200credit1THBH1ngày➕Thêm:1📦Tồnkhohiệntại:6💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1792802325315",
-      "time": "07:38 - 24/10/2026",
-      "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 6,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1200credit1THBH1ngày💰Giá:140k📦Tồnkho:6tàikhoản📊Đãbán:4tàikhoản"
-    },
-    {
-      "id": "hist-1792801914755",
-      "time": "07:31 - 24/10/2026",
-      "name": "TiktokVN noshop CóLive(1KFLThật)",
-      "bot": "piggyai99_bot",
-      "price": 199000,
-      "costPrice": 179000,
-      "stockAfter": 5,
-      "catKey": "khac",
-      "msgKey": "🎵TiktokVNnoshopCóLive(1KFLThật)➕Thêm:1📦Tồnkhohiệntại:5💰Giá:179.000đ"
-    },
-    {
-      "id": "hist-1792801910239",
-      "time": "07:31 - 24/10/2026",
-      "name": "TiktokVN 1kfl noshop nobuff live Studio",
-      "bot": "taphoathomap_bot",
-      "price": 179000,
-      "costPrice": 159000,
-      "stockAfter": 5,
-      "catKey": "khac",
-      "msgKey": "🎵TiktokVN1kflnoshopnobuffliveStudio➕Thêm:1📦Tồnkhohiệntại:5💰Giá:159.000đ"
-    },
     {
       "id": "hist-1792800516961",
       "time": "07:08 - 24/10/2026",
@@ -11624,6 +11337,216 @@
       "catKey": "netflix",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐TàikhoảnVieONVIP10ngàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:10.000đ"
+    },
+    {
+      "id": "hist-1792655665294",
+      "time": "14:54 - 22/10/2026",
+      "timestamp": 1792655665294,
+      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 51,
+      "addedQty": 10,
+      "price": 270000,
+      "stockAfter": 51,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:10📦Tồnkhohiệntại:51💰Giá:240.000đ"
+    },
+    {
+      "id": "hist-1792655659985",
+      "time": "14:54 - 22/10/2026",
+      "timestamp": 1792655659985,
+      "name": "Link Gemini Pro 18 Tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 76,
+      "addedQty": 40,
+      "price": 37000,
+      "stockAfter": 76,
+      "catKey": "google-veo",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:40📦Tồnkhohiệntại:76💰Giá:27.000đ"
+    },
+    {
+      "id": "hist-1792655654936",
+      "time": "14:54 - 22/10/2026",
+      "timestamp": 1792655654936,
+      "name": "MUSE.AI -31 TỶ TOKEN (KBH)",
+      "bot": "taphoathomap_bot",
+      "shopStock": 7,
+      "addedQty": 5,
+      "price": 99000,
+      "stockAfter": 7,
+      "catKey": "muse-ai",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "⭐MUSE.AI-31TỶTOKEN(KBH)➕Thêm:5📦Tồnkhohiệntại:7💰Giá:89.000đ"
+    },
+    {
+      "id": "hist-1792655650617",
+      "time": "14:54 - 22/10/2026",
+      "timestamp": 1792655650617,
+      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "shopStock": 45,
+      "addedQty": 15,
+      "price": 270000,
+      "stockAfter": 45,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:15📦Tồnkhohiệntại:45💰Giá:240.000đ"
+    },
+    {
+      "id": "hist-1792655640484",
+      "time": "14:54 - 22/10/2026",
+      "timestamp": 1792655640484,
+      "name": "Surfshark VPN One 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 12,
+      "addedQty": 12,
+      "price": 45000,
+      "stockAfter": 28,
+      "catKey": "vpn",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:35.000đ"
+    },
+    {
+      "id": "hist-1792655629203",
+      "time": "14:53 - 22/10/2026",
+      "timestamp": 1792655629203,
+      "name": "Gmail (New) -Login All",
+      "bot": "sieuthistore_bot",
+      "shopStock": 81,
+      "addedQty": 66,
+      "price": 45000,
+      "stockAfter": 273,
+      "catKey": "gmail",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:66📦Tồnkhohiệntại:81💰Giá:35.000đ"
+    },
+    {
+      "id": "hist-1792655624031",
+      "time": "14:53 - 22/10/2026",
+      "timestamp": 1792655624031,
+      "name": "Tiktok Đức (DE) - BH Login",
+      "bot": "sieuthistore_bot",
+      "shopStock": 41,
+      "addedQty": 1,
+      "price": 60000,
+      "stockAfter": 41,
+      "catKey": "social",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🎵TiktokĐức(DE)-BHLogin➕Thêm:1📦Tồnkhohiệntại:41💰Giá:50.000đ"
+    },
+    {
+      "id": "hist-1792655619263",
+      "time": "14:53 - 22/10/2026",
+      "timestamp": 1792655619263,
+      "name": "ChatGPT Plus (Codex Full) 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 41,
+      "addedQty": 25,
+      "price": 360000,
+      "stockAfter": 41,
+      "catKey": "chatgpt",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🤖ChatGPTPlus(CodexFull)1ThángBHF➕Thêm:25📦Tồnkhohiệntại:41💰Giá:310.000đ"
+    },
+    {
+      "id": "hist-1792655614440",
+      "time": "14:53 - 22/10/2026",
+      "timestamp": 1792655614440,
+      "name": "Admin Veo3 Ultra 10k Credit 1 Tháng BH 3 Ngày",
+      "bot": "sieuthistore_bot",
+      "shopStock": 3,
+      "addedQty": 2,
+      "price": 1350000,
+      "stockAfter": 3,
+      "catKey": "google-veo",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "🚀AdminVeo3Ultra10kCredit1ThángBH3Ngày➕Thêm:2📦Tồnkhohiệntại:3💰Giá:1.150.000đ"
+    },
+    {
+      "id": "hist-1792655606655",
+      "time": "14:53 - 22/10/2026",
+      "timestamp": 1792655606655,
+      "name": "Meitu SVip+ 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "shopStock": 13,
+      "addedQty": 0,
+      "price": 45000,
+      "stockAfter": 16,
+      "catKey": "meitu-wink",
+      "source": "Telegram @sieuthistore_bot",
+      "msgKey": "✨MeituSVip+7NgàyBHF💰Giá:35k📦Tồnkho:13tàikhoản📊Đãbán:763tàikhoản💎Môtả:MeituSVIP(V"
+    },
+    {
+      "id": "hist-1792655598063",
+      "time": "14:53 - 22/10/2026",
+      "timestamp": 1792655598063,
+      "name": "SURFSHARK VPN ONE 7 NGÀY BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 12,
+      "addedQty": 12,
+      "price": 28000,
+      "stockAfter": 20,
+      "catKey": "vpn",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🦈SURFSHARKVPNONE7NGÀYBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:18.000đ"
+    },
+    {
+      "id": "hist-1792655590705",
+      "time": "14:53 - 22/10/2026",
+      "timestamp": 1792655590705,
+      "name": "API CLAUDE 500$ TOKEN 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "shopStock": 1,
+      "addedQty": 1,
+      "price": 280000,
+      "stockAfter": 1,
+      "catKey": "api-claude-codex",
+      "source": "Telegram @ntnshopre_bot",
+      "msgKey": "🧠APICLAUDE500$TOKEN1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:250.000đ"
+    },
+    {
+      "id": "hist-1792655583308",
+      "time": "14:53 - 22/10/2026",
+      "timestamp": 1792655583308,
+      "name": "Gmail (New) -Login All",
+      "bot": "piggyai99_bot",
+      "shopStock": 81,
+      "addedQty": 66,
+      "price": 35000,
+      "stockAfter": 329,
+      "catKey": "gmail",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:66📦Tồnkhohiệntại:81💰Giá:25.000đ"
+    },
+    {
+      "id": "hist-1792655578947",
+      "time": "14:52 - 22/10/2026",
+      "timestamp": 1792655578947,
+      "name": "API Claude 50M Token 1 ngày BHF",
+      "bot": "piggyai99_bot",
+      "shopStock": 10,
+      "addedQty": 10,
+      "price": 65000,
+      "stockAfter": 10,
+      "catKey": "api-claude-codex",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:55.000đ"
+    },
+    {
+      "id": "hist-1792655574253",
+      "time": "14:52 - 22/10/2026",
+      "timestamp": 1792655574253,
+      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
+      "bot": "piggyai99_bot",
+      "shopStock": 72,
+      "addedQty": 0,
+      "price": 50000,
+      "stockAfter": 114,
+      "catKey": "google-veo",
+      "source": "Telegram @piggyai99_bot",
+      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H💰Giá:40k📦Tồnkho:72tàikhoản📊Đãbán:3.097tàikhoản💎Môt"
     }
   ]
 }
