@@ -10412,11 +10412,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792801914755",
+        "name": "TiktokVN noshop CóLive(1KFLThật)",
+        "price": 199000,
+        "cost_price": 179000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "TIKTOK 1K FOLOW KHÔNG BUFF 📱 Hỗ trợ LIVE trên điện thoại. FL THẬT\nBH 24h login\n-Đăng nhập id và pass lấy mã tại hotmail.com hoặc mail.tm\nĐịnh dạng : id / pass / mail / mk mail\nhttps://dongvanfb.net/read_mail_box/",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 5,
+            "cost_price": 179000,
+            "selling_price": 199000,
+            "updated": "07:31 24/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 179000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792801914755",
+      "time": "07:31 - 24/10/2026",
+      "name": "TiktokVN noshop CóLive(1KFLThật)",
+      "bot": "piggyai99_bot",
+      "price": 199000,
+      "costPrice": 179000,
+      "stockAfter": 5,
+      "catKey": "khac",
+      "msgKey": "🎵TiktokVNnoshopCóLive(1KFLThật)➕Thêm:1📦Tồnkhohiệntại:5💰Giá:179.000đ"
+    },
     {
       "id": "hist-1792801910239",
       "time": "07:31 - 24/10/2026",
@@ -11556,20 +11593,6 @@
       "catKey": "gmail",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:66📦Tồnkhohiệntại:81💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792655578947",
-      "time": "14:52 - 22/10/2026",
-      "timestamp": 1792655578947,
-      "name": "API Claude 50M Token 1 ngày BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 10,
-      "addedQty": 10,
-      "price": 65000,
-      "stockAfter": 10,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:55.000đ"
     }
   ]
 }
