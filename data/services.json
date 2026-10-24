@@ -4660,16 +4660,16 @@
         "id": "kling-65cre",
         "name": "Kling 65 Cre 1 Tháng BHF",
         "price": 28000,
-        "stock": 205,
-        "stock_text": "Còn 205",
+        "stock": 410,
+        "stock_text": "Còn 410",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
-        "detail": "Tài Khoản sẽ mất credit sau một thời gian và nên sử dụng ngay\nLưu Ý Quan Trọng:\n❌  Bật tab ẩn danh hoặc Sài Proxy\n❌ Không bảo hành lỗi Busy\nHướng dẩn sử dụng\nĐịnh dạng: TK|MK phân cách bởi dấu \"|\"\n1. Trên máy tính :\nMỗi Profile là một acc Kling ai, làm Song Song nhiều video cùng lúc\n2. Trên điện thoại :\nLogin Tài khoản vào > Sử dụng hết Credit > Tắt bỏ tab đó >",
-        "cost_price": 3000,
-        "import_note": "Nhập: @ntnshopre_bot",
+        "detail": "Acc free được tặng credit",
+        "cost_price": 2000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 3000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 2000,
           "stock": 205
         },
         "sources": {
@@ -4678,6 +4678,12 @@
             "cost_price": 3000,
             "selling_price": 13000,
             "updated": "07:47 24/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 205,
+            "cost_price": 2000,
+            "selling_price": 12000,
+            "updated": "07:48 24/10/2026"
           }
         },
         "hidden": false,
@@ -10508,6 +10514,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792802883699",
+      "time": "07:48 - 24/10/2026",
+      "name": "Kling 65 Cre 1th BHF",
+      "bot": "taphoathomap_bot",
+      "price": 12000,
+      "costPrice": 2000,
+      "stockAfter": 410,
+      "catKey": "kling",
+      "msgKey": "🎬Kling65Cre1thBHF➕Thêm:55📦Tồnkhohiệntại:205💰Giá:2.000đ"
+    },
+    {
       "id": "hist-1792802877168",
       "time": "07:47 - 24/10/2026",
       "name": "Kling 65 Credit 1 Tháng BHF",
@@ -11622,20 +11639,6 @@
       "catKey": "vpn",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792655629203",
-      "time": "14:53 - 22/10/2026",
-      "timestamp": 1792655629203,
-      "name": "Gmail (New) -Login All",
-      "bot": "sieuthistore_bot",
-      "shopStock": 81,
-      "addedQty": 66,
-      "price": 45000,
-      "stockAfter": 273,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:66📦Tồnkhohiệntại:81💰Giá:35.000đ"
     }
   ]
 }
