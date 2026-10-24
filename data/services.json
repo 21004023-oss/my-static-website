@@ -7905,6 +7905,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792805605852",
+        "name": "Coursera Premium cấp sẵn 12 tháng BH 7 ngày",
+        "price": 140000,
+        "cost_price": 120000,
+        "stock": 17,
+        "stock_text": "Còn 17",
+        "duration": "1 Năm",
+        "detail": "• Quyền truy cập Org+ Premium\n• Tất cả các khóa học & chứng chỉ\n• Email | Mật khẩu | 2FA\n• Bảo hành 7 ngày\n• Sử dụng https://2fa.live/ để lấy mã 2FA\nHướng dẫn nhận hàng / sử dụng:\n⚠️ Lưu ý: Không thể truy cập hộp thư email. Sau khi mua, bạn cần liên kết Gmail của mình, đồng thời phải đổi mật khẩu tài khoản và thêm phương thức 2FA của riêng bạn. Vì vậy, hãy ghi nhớ mật khẩu hoặc đổi sang mật khẩu mới và lưu giữ cẩn thận. Chúng tôi sẽ không hỗ trợ nếu bạn quên mật khẩu.\n⚡️ Bắt buộc đăng nhập tại đây:\nhttps://shorturl.at/Yu2ZX\n⚠️ Khi mua sản phẩm, bạn đồng ý với các điều khoản sau:\n• Không thay đổi email chính.\n• Gói Org+ Premium áp dụng chính sách bảo hành nghiêm ngặt trong 24 giờ.\n🎁 Nhận Gemini miễn phí 3 tháng bằng cách hoàn thành khóa học sau:\nhttps://www.coursera.org/professional-certificates/google-ai",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 17,
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "08:33 24/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 120000,
+          "stock": 17
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -10392,6 +10418,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792805605852",
+      "time": "08:33 - 24/10/2026",
+      "name": "Coursera Premium cấp sẵn 12 tháng BH 7 ngày",
+      "bot": "piggyai99_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 17,
+      "catKey": "education",
+      "msgKey": "⭐CourseraPremiumcấpsẵn12thángBH7ngày➕Thêm:14📦Tồnkhohiệntại:17💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1792805579222",
       "time": "08:32 - 24/10/2026",
       "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
@@ -11527,20 +11564,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🧠APICLAUDE500$TOKEN1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:250.000đ"
-    },
-    {
-      "id": "hist-1792655583308",
-      "time": "14:53 - 22/10/2026",
-      "timestamp": 1792655583308,
-      "name": "Gmail (New) -Login All",
-      "bot": "piggyai99_bot",
-      "shopStock": 81,
-      "addedQty": 66,
-      "price": 35000,
-      "stockAfter": 329,
-      "catKey": "gmail",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:66📦Tồnkhohiệntại:81💰Giá:25.000đ"
     }
   ]
 }
