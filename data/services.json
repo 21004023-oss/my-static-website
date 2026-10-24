@@ -7589,16 +7589,16 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 35000,
         "cost_price": 15000,
-        "stock": 32,
-        "stock_text": "Còn 32",
+        "stock": 31,
+        "stock_text": "Còn 31",
         "duration": "3 Ngày",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 11,
+            "stock": 10,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "12:18 21/10/2026"
+            "updated": "07:42 24/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -10471,6 +10471,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792802567293",
+      "time": "07:42 - 24/10/2026",
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 31,
+      "catKey": "vpn",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1792802561693",
       "time": "07:42 - 24/10/2026",
       "name": "EXPRESS VPN 3 NGÀY BHF",
@@ -11597,20 +11608,6 @@
       "catKey": "google-veo",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🚀AdminVeo3Ultra10kCredit1ThángBH3Ngày➕Thêm:2📦Tồnkhohiệntại:3💰Giá:1.150.000đ"
-    },
-    {
-      "id": "hist-1792655606655",
-      "time": "14:53 - 22/10/2026",
-      "timestamp": 1792655606655,
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 13,
-      "addedQty": 0,
-      "price": 45000,
-      "stockAfter": 16,
-      "catKey": "meitu-wink",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✨MeituSVip+7NgàyBHF💰Giá:35k📦Tồnkho:13tàikhoản📊Đãbán:763tàikhoản💎Môtả:MeituSVIP(V"
     }
   ]
 }
