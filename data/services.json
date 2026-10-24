@@ -7910,9 +7910,9 @@
         "id": "p-1792805605852",
         "name": "Coursera Premium cấp sẵn 12 tháng BH 7 ngày",
         "price": 140000,
-        "cost_price": 120000,
-        "stock": 17,
-        "stock_text": "Còn 17",
+        "cost_price": 95000,
+        "stock": 34,
+        "stock_text": "Còn 34",
         "duration": "1 Năm",
         "detail": "• Quyền truy cập Org+ Premium\n• Tất cả các khóa học & chứng chỉ\n• Email | Mật khẩu | 2FA\n• Bảo hành 7 ngày\n• Sử dụng https://2fa.live/ để lấy mã 2FA\nHướng dẫn nhận hàng / sử dụng:\n⚠️ Lưu ý: Không thể truy cập hộp thư email. Sau khi mua, bạn cần liên kết Gmail của mình, đồng thời phải đổi mật khẩu tài khoản và thêm phương thức 2FA của riêng bạn. Vì vậy, hãy ghi nhớ mật khẩu hoặc đổi sang mật khẩu mới và lưu giữ cẩn thận. Chúng tôi sẽ không hỗ trợ nếu bạn quên mật khẩu.\n⚡️ Bắt buộc đăng nhập tại đây:\nhttps://shorturl.at/Yu2ZX\n⚠️ Khi mua sản phẩm, bạn đồng ý với các điều khoản sau:\n• Không thay đổi email chính.\n• Gói Org+ Premium áp dụng chính sách bảo hành nghiêm ngặt trong 24 giờ.\n🎁 Nhận Gemini miễn phí 3 tháng bằng cách hoàn thành khóa học sau:\nhttps://www.coursera.org/professional-certificates/google-ai",
         "sources": {
@@ -7921,14 +7921,20 @@
             "cost_price": 120000,
             "selling_price": 140000,
             "updated": "08:33 24/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 17,
+            "cost_price": 95000,
+            "selling_price": 105000,
+            "updated": "08:33 24/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 120000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 95000,
           "stock": 17
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -10418,6 +10424,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792805611357",
+      "time": "08:33 - 24/10/2026",
+      "name": "Coursera Premium cấp sẵn 12 tháng BH 7 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 34,
+      "catKey": "education",
+      "msgKey": "⭐CourseraPremiumcấpsẵn12thángBH7ngày➕Thêm:14📦Tồnkhohiệntại:17💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1792805605852",
       "time": "08:33 - 24/10/2026",
       "name": "Coursera Premium cấp sẵn 12 tháng BH 7 ngày",
@@ -11550,20 +11567,6 @@
       "catKey": "vpn",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🦈SURFSHARKVPNONE7NGÀYBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:18.000đ"
-    },
-    {
-      "id": "hist-1792655590705",
-      "time": "14:53 - 22/10/2026",
-      "timestamp": 1792655590705,
-      "name": "API CLAUDE 500$ TOKEN 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 1,
-      "addedQty": 1,
-      "price": 280000,
-      "stockAfter": 1,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🧠APICLAUDE500$TOKEN1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:250.000đ"
     }
   ]
 }
