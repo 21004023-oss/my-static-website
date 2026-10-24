@@ -4238,8 +4238,8 @@
         "id": "api-cursor-6500cre",
         "name": "API Cursor Pro 6500 Credits 1 Tháng BHF",
         "price": 410000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
         "source": "Key Cursor API",
         "detail": "Api Cursor Pro 6500 credit hạn sử dụng 1 tháng.\n-Credit: 6500\n-Hạn sử dụng: 1 tháng từ lúc active Key.\n-Bảo hành: 30 ngày.\n-File tài liệu chi tiết về cách sử dụng và setup sản phẩm: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1?usp=drive_link\n-Lưu ý: Sản phẩm là API,không phải tài khoản,không hỗ trợ hoàn trả nếu mua nhầm,không biết sử dụng.",
@@ -4258,10 +4258,10 @@
             "updated": "07:00 24/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 309000,
             "selling_price": 359000,
-            "updated": "19:49 19/10/2026"
+            "updated": "07:00 24/10/2026"
           }
         },
         "needs_review": false,
@@ -10934,6 +10934,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792800057971",
+      "time": "07:00 - 24/10/2026",
+      "name": "API Cursor Pro 6500 Credits 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 359000,
+      "costPrice": 309000,
+      "stockAfter": 6,
+      "catKey": "api-cursor-deepseek",
+      "msgKey": "🖱️APICursorPro6500Credits1thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:309.000đ"
+    },
+    {
       "id": "hist-1792800018135",
       "time": "07:00 - 24/10/2026",
       "name": "API CURSOR PRO 6500 CREDITS 1 THÁNG BHF",
@@ -12021,17 +12032,6 @@
       "stockAfter": 575,
       "catKey": "youtube",
       "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:575💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1792753936695",
-      "time": "18:12 - 23/10/2026",
-      "name": "Gmail Việt 2020-2024",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 572,
-      "catKey": "gmail",
-      "msgKey": "📧GmailViệt2020-2024➕Thêm:43📦Tồnkhohiệntại:52💰Giá:45.000đ"
     }
   ]
 }
