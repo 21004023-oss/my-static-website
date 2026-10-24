@@ -4998,6 +4998,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792802877168",
+        "name": "Kling 65 Credit 1 Tháng BHF",
+        "price": 14000,
+        "cost_price": 4000,
+        "stock": 205,
+        "stock_text": "Còn 205",
+        "duration": "1 Tháng",
+        "detail": "Tài Khoản sẽ mất credit sau một thời gian và nên sử dụng ngay\nLưu Ý Quan Trọng:\n❌  Bật tab ẩn danh hoặc Sài Proxy\n❌ Không bảo hành lỗi Busy\nHướng dẩn sử dụng\nĐịnh dạng: TK|MK phân cách bởi dấu \"|\"\n1. Trên máy tính :\nMỗi Profile là một acc Kling ai, làm Song Song nhiều video cùng lúc\n2. Trên điện thoại :\nLogin Tài khoản vào > Sử dụng hết Credit > Tắt bỏ tab đó >",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 205,
+            "cost_price": 4000,
+            "selling_price": 14000,
+            "updated": "07:47 24/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 4000,
+          "stock": 205
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=64"
@@ -10482,6 +10508,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792802877168",
+      "time": "07:47 - 24/10/2026",
+      "name": "Kling 65 Credit 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 14000,
+      "costPrice": 4000,
+      "stockAfter": 205,
+      "catKey": "kling",
+      "msgKey": "🎬Kling65Credit1ThángBHF➕Thêm:55📦Tồnkhohiệntại:205💰Giá:4.000đ"
+    },
+    {
       "id": "hist-1792802870934",
       "time": "07:47 - 24/10/2026",
       "name": "KLING 65 CRE 1 THÁNG BHF",
@@ -11599,20 +11636,6 @@
       "catKey": "gmail",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:66📦Tồnkhohiệntại:81💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792655624031",
-      "time": "14:53 - 22/10/2026",
-      "timestamp": 1792655624031,
-      "name": "Tiktok Đức (DE) - BH Login",
-      "bot": "sieuthistore_bot",
-      "shopStock": 41,
-      "addedQty": 1,
-      "price": 60000,
-      "stockAfter": 41,
-      "catKey": "social",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🎵TiktokĐức(DE)-BHLogin➕Thêm:1📦Tồnkhohiệntại:41💰Giá:50.000đ"
     }
   ]
 }
