@@ -8176,10 +8176,10 @@
         "id": "p-1792061006617",
         "name": "Wink VIP 30 ngày BHF",
         "price": 140000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
-        "detail": "Mở khóa full kho công cụ làm đẹp AI, tính năng làm nét video, xóa vật thể nâng cao, hiệu ứng chuyển cảnh VIP, xuất file chất lượng cao không logo\nLưu ý:\nTài khoản chỉ dành cho IOS\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.",
+        "detail": "✨ MỞ KHÓA FULL KHO CÔNG CỤ LÀM ĐẸP AI – VIP\n💎 TÍNH NĂNG NỔI BẬT\n• Mở khóa toàn bộ công cụ làm đẹp AI VIP.\n• Làm nét video, nâng cao chất lượng hình ảnh.\n• Xóa vật thể nâng cao bằng AI.\n• Kho hiệu ứng chuyển cảnh VIP đa dạng.\n• Xuất video chất lượng cao, không logo.\n📱 THIẾT BỊ HỖ TRỢ\n• Chỉ dành cho iOS (iPhone/iPad).\n• Chỉ sử dụng trên 1 thiết bị.\n⚠️ LƯU Ý QUAN TRỌNG\n• Date radom 12 - 14 ngày, hụt 1-2 khách hoan hỉ\n• Bắt buộc đăng nhập trong vòng 6 giờ sau khi mua.\n• Quá 6 giờ hoặc sang ngày hôm sau mới đăng nhập: TỪ CHỐI BẢO HÀNH.\n• Không đăng xuất, không chia sẻ tài khoản.\n• Vi phạm các điều kiện trên sẽ bị từ chối bảo hành.\n🚨 VUI LÒNG ĐỌC KỸ MÔ TẢ TRƯỚC KHI MUA ĐỂ TRÁNH TRANH CHẤP!",
         "sources": {
           "sieuthistore_bot": {
             "stock": 7,
@@ -8188,19 +8188,19 @@
             "updated": "15:16 23/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 7,
-            "cost_price": 70000,
-            "selling_price": 80000,
-            "updated": "15:16 23/10/2026"
+            "stock": 5,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "08:19 24/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 70000,
+        "cost_price": 30000,
         "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 70000,
-          "stock": 7
+          "cost_price": 30000,
+          "stock": 5
         },
         "needs_review": false
       },
@@ -10514,6 +10514,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792804757112",
+      "time": "08:19 - 24/10/2026",
+      "name": "Wink VIP  14 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 12,
+      "catKey": "meitu-wink",
+      "msgKey": "⭐WinkVIP14NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1792804197743",
       "time": "08:09 - 24/10/2026",
       "name": "MUSE AI 1B TOKEN BẢO HÀNH ACITVE",
@@ -11613,20 +11624,6 @@
       "catKey": "netflix",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐TàikhoảnVieONVIP10ngàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1792655665294",
-      "time": "14:54 - 22/10/2026",
-      "timestamp": 1792655665294,
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 51,
-      "addedQty": 10,
-      "price": 270000,
-      "stockAfter": 51,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:10📦Tồnkhohiệntại:51💰Giá:240.000đ"
     }
   ]
 }
