@@ -10452,22 +10452,22 @@
         "name": "Elevenlabs creator 3 tháng (bh 2 tháng)",
         "price": 320000,
         "cost_price": 290000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "3 Tháng",
         "detail": "Êlevenlabs creator chính thống dùng trên web, gói creator 3 tháng tự gia hạn\nĐịnh dạng: mail| pass mail | pass 11labs\nAcc chưa pay lên gói, khi mua liên hệ bên mình để pay lên gói hoặc khách tự dùng thẻ pay, đã có offer 3 tháng 0$\nCó thể change mail",
         "sources": {
           "piggyai99_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 290000,
             "selling_price": 320000,
-            "updated": "08:51 24/10/2026"
+            "updated": "09:02 24/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 290000,
-          "stock": 1
+          "stock": 2
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -10503,6 +10503,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792807358789",
+      "time": "09:02 - 24/10/2026",
+      "name": "Elevenlabs creator 3 tháng (bh 2 tháng)",
+      "bot": "piggyai99_bot",
+      "price": 320000,
+      "costPrice": 290000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "msgKey": "🎙️Elevenlabscreator3tháng(bh2tháng)➕Thêm:1📦Tồnkhohiệntại:2💰Giá:290.000đ"
+    },
     {
       "id": "hist-1792806703330",
       "time": "08:51 - 24/10/2026",
@@ -11615,20 +11626,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:15📦Tồnkhohiệntại:45💰Giá:240.000đ"
-    },
-    {
-      "id": "hist-1792655640484",
-      "time": "14:54 - 22/10/2026",
-      "timestamp": 1792655640484,
-      "name": "Surfshark VPN One 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 12,
-      "addedQty": 12,
-      "price": 45000,
-      "stockAfter": 28,
-      "catKey": "vpn",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:35.000đ"
     }
   ]
 }
