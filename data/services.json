@@ -4660,17 +4660,28 @@
         "id": "kling-65cre",
         "name": "Kling 65 Cre 1 Tháng BHF",
         "price": 28000,
-        "stock": 115,
-        "stock_text": "Còn 115",
+        "stock": 205,
+        "stock_text": "Còn 205",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
-        "detail": "- Định dạng: TK|MK.\n- Tài khoản sẽ mất credit sau một thời gian và nên sử dụng ngay.\n- Bật tab ẩn danh hoặc xài Proxy (trên PC mỗi Profile là 1 acc Kling để làm song song nhiều video).\n- Không bảo hành lỗi Busy.",
+        "detail": "Tài Khoản sẽ mất credit sau một thời gian và nên sử dụng ngay\nLưu Ý Quan Trọng:\n❌  Bật tab ẩn danh hoặc Sài Proxy\n❌ Không bảo hành lỗi Busy\nHướng dẩn sử dụng\nĐịnh dạng: TK|MK phân cách bởi dấu \"|\"\n1. Trên máy tính :\nMỗi Profile là một acc Kling ai, làm Song Song nhiều video cùng lúc\n2. Trên điện thoại :\nLogin Tài khoản vào > Sử dụng hết Credit > Tắt bỏ tab đó >",
         "cost_price": 3000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 3000
-        }
+          "cost_price": 3000,
+          "stock": 205
+        },
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 205,
+            "cost_price": 3000,
+            "selling_price": 13000,
+            "updated": "07:47 24/10/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "kling-700cre",
@@ -10471,6 +10482,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792802870934",
+      "time": "07:47 - 24/10/2026",
+      "name": "KLING 65 CRE 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 13000,
+      "costPrice": 3000,
+      "stockAfter": 205,
+      "catKey": "kling",
+      "msgKey": "🎬KLING65CRE1THÁNGBHF➕Thêm:55📦Tồnkhohiệntại:205💰Giá:3.000đ"
+    },
+    {
       "id": "hist-1792802573807",
       "time": "07:42 - 24/10/2026",
       "name": "Express VPN 3 Ngày BHF",
@@ -11591,20 +11613,6 @@
       "catKey": "social",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🎵TiktokĐức(DE)-BHLogin➕Thêm:1📦Tồnkhohiệntại:41💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792655619263",
-      "time": "14:53 - 22/10/2026",
-      "timestamp": 1792655619263,
-      "name": "ChatGPT Plus (Codex Full) 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 41,
-      "addedQty": 25,
-      "price": 360000,
-      "stockAfter": 41,
-      "catKey": "chatgpt",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🤖ChatGPTPlus(CodexFull)1ThángBHF➕Thêm:25📦Tồnkhohiệntại:41💰Giá:310.000đ"
     }
   ]
 }
