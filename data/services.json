@@ -4961,6 +4961,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 2250000
         }
+      },
+      {
+        "id": "p-1792802325315",
+        "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
+        "price": 160000,
+        "cost_price": 140000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "1 Tháng",
+        "detail": "Gói Kling Standard 1200 credit 1TH BH 1 ngày bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 140000,
+            "selling_price": 160000,
+            "updated": "07:38 24/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 140000,
+          "stock": 6
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=64"
@@ -10444,6 +10470,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792802325315",
+      "time": "07:38 - 24/10/2026",
+      "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 6,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1200credit1THBH1ngày💰Giá:140k📦Tồnkho:6tàikhoản📊Đãbán:4tàikhoản"
+    },
+    {
       "id": "hist-1792801914755",
       "time": "07:31 - 24/10/2026",
       "name": "TiktokVN noshop CóLive(1KFLThật)",
@@ -11579,20 +11616,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "🧠APICLAUDE500$TOKEN1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:250.000đ"
-    },
-    {
-      "id": "hist-1792655583308",
-      "time": "14:53 - 22/10/2026",
-      "timestamp": 1792655583308,
-      "name": "Gmail (New) -Login All",
-      "bot": "piggyai99_bot",
-      "shopStock": 81,
-      "addedQty": 66,
-      "price": 35000,
-      "stockAfter": 329,
-      "catKey": "gmail",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:66📦Tồnkhohiệntại:81💰Giá:25.000đ"
     }
   ]
 }
