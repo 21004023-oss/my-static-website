@@ -3040,8 +3040,8 @@
         "id": "p-1791877845717",
         "name": "CAPCUT PRO 3 THÁNG BHF",
         "price": 205000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "stock": 19,
+        "stock_text": "Còn 19",
         "duration": "3 Tháng",
         "detail": "Tài khoản Capcut Pro dạng team hạn sử dụng 90 ngày. • Có thể nhận tới 2000 Credit AI • Định dạng: Email | Pass • Login 1-2 thiết bị hạn chế login nhiều thiết bị. • Bảo hành 90 ngày, không bảo hành lỗi đăng nhập quá thường xuyên.\nTK tự động gia hạn mỗi tháng 1 lần đến khi đủ 1 tháng",
         "cost_price": 155000,
@@ -3053,10 +3053,10 @@
             "updated": "17:58 23/10/2026"
           },
           "ntnshopre_bot": {
-            "stock": 11,
+            "stock": 8,
             "cost_price": 155000,
             "selling_price": 175000,
-            "updated": "17:58 23/10/2026"
+            "updated": "09:46 24/10/2026"
           }
         },
         "needs_review": false,
@@ -3065,7 +3065,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 155000,
-          "stock": 11
+          "stock": 8
         }
       },
       {
@@ -10512,6 +10512,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792810003214",
+      "time": "09:46 - 24/10/2026",
+      "name": "CAPCUT PRO 3 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 175000,
+      "costPrice": 155000,
+      "stockAfter": 19,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPRO3THÁNGBHF➕Thêm:4📦Tồnkhohiệntại:8💰Giá:155.000đ"
+    },
+    {
       "id": "hist-1792809701126",
       "time": "09:41 - 24/10/2026",
       "name": "Muse Ai 1B Token KBH",
@@ -11605,20 +11616,6 @@
       "catKey": "ai-video-voice",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎙️(Góichínhhãng)CODEElevanLabs131KCredit1Tháng-KBH➕Thêm:9📦Tồnkhohiệntại:9💰Giá:10"
-    },
-    {
-      "id": "hist-1792655675337",
-      "time": "14:54 - 22/10/2026",
-      "timestamp": 1792655675337,
-      "name": "( Gói chính hãng ) ElevanLabs 131K Credit 1 Tháng (BH 3D)",
-      "bot": "taphoathomap_bot",
-      "shopStock": 1,
-      "addedQty": 1,
-      "price": 140000,
-      "stockAfter": 1,
-      "catKey": "ai-video-voice",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🎙️(Góichínhhãng)ElevanLabs131KCredit1Tháng(BH3D)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:120."
     }
   ]
 }
