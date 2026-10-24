@@ -10472,11 +10472,48 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1792806703330",
+        "name": "( Gói chính hãng ) Elevenlabs creator 3 tháng (bh 2 tháng)",
+        "price": 310000,
+        "cost_price": 280000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "3 Tháng",
+        "detail": "Êlevenlabs creator chính thống dùng trên web, gói creator 3 tháng tự gia hạn\nĐịnh dạng: mail| pass mail | pass 11labs\nAcc chưa pay lên gói, khi mua liên hệ bên mình để pay lên gói hoặc khách tự dùng thẻ pay, đã có offer 3 tháng 0$\nCó thể change mail",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 280000,
+            "selling_price": 310000,
+            "updated": "08:51 24/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 280000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1792806703330",
+      "time": "08:51 - 24/10/2026",
+      "name": "( Gói chính hãng ) Elevenlabs creator 3 tháng (bh 2 tháng)",
+      "bot": "taphoathomap_bot",
+      "price": 310000,
+      "costPrice": 280000,
+      "stockAfter": 1,
+      "catKey": "khac",
+      "msgKey": "🎙️(Góichínhhãng)Elevenlabscreator3tháng(bh2tháng)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:280"
+    },
     {
       "id": "hist-1792806697432",
       "time": "08:51 - 24/10/2026",
@@ -11592,20 +11629,6 @@
       "catKey": "vpn",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792655629203",
-      "time": "14:53 - 22/10/2026",
-      "timestamp": 1792655629203,
-      "name": "Gmail (New) -Login All",
-      "bot": "sieuthistore_bot",
-      "shopStock": 81,
-      "addedQty": 66,
-      "price": 45000,
-      "stockAfter": 273,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:66📦Tồnkhohiệntại:81💰Giá:35.000đ"
     }
   ]
 }
