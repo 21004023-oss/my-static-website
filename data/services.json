@@ -3163,16 +3163,16 @@
         "id": "p-1792094683588",
         "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
         "price": 75000,
-        "stock": 226,
-        "stock_text": "Còn 226",
+        "stock": 227,
+        "stock_text": "Còn 227",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "piggyai99_bot": {
-            "stock": 11,
+            "stock": 12,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "19:24 23/10/2026"
+            "updated": "08:32 24/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 215,
@@ -3187,7 +3187,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 33000,
-          "stock": 11
+          "stock": 12
         },
         "import_note": "Nhập: @piggyai99_bot"
       },
@@ -10392,6 +10392,17 @@
   },
   "_history": [
     {
+      "id": "hist-1792805579222",
+      "time": "08:32 - 24/10/2026",
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "piggyai99_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 227,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1792804835297",
       "time": "08:20 - 24/10/2026",
       "name": "Wink VIP 30 Ngày  BHF",
@@ -11530,20 +11541,6 @@
       "catKey": "gmail",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:66📦Tồnkhohiệntại:81💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792655578947",
-      "time": "14:52 - 22/10/2026",
-      "timestamp": 1792655578947,
-      "name": "API Claude 50M Token 1 ngày BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 10,
-      "addedQty": 10,
-      "price": 65000,
-      "stockAfter": 10,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:55.000đ"
     }
   ]
 }
