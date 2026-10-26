@@ -11393,9 +11393,9 @@
         "id": "p-1793031110024",
         "name": "Zoom Pro 28 Ngày BHF",
         "price": 70000,
-        "cost_price": 60000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "cost_price": 45000,
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "Zoom Pro 100 members, 30 giờ mỗi cuộc họp\nĐịnh dạng: Email|Pass|Web mail\n📝 ✨ VÀI LƯU Ý QUAN TRỌNG  GỬI ĐẾN BẠN ✨\nCảm ơn bạn đã tin tưởng và nâng cấp tài khoản Zoom tại! Để quá trình sử dụng của bạn được suôn sẻ và nhận được hỗ trợ tốt nhất, bạn vui lòng lưu ý giúp shop vài điểm nhỏ sau nhé:\n🔑 Về mật khẩu tài khoản:\n- Để shop có thể hỗ trợ bạn tức thì khi có sự cố phát sinh, bạn vui lòng không thay đổi mật khẩu trong thời gian sử dụng gói cước. Nếu có thay đổi, bạn đừng quên báo lại mật khẩu mới cho shop nhé!\n📲 Về xác thực hai yếu tố (2FA):\n- Trong quá trình đăng nhập, nếu màn hình hiển thị yêu cầu xác thực 2 yếu tố, bạn chỉ cần chọn \"Bỏ qua\"…\n✨ Lưu ý về việc lấy code otp ở web, nếu check mail thấy mã 333333 thì các bác phải nhấn vào mã đó để ra nội dung chứa code chuẩn 6 số nhé, đừng nhập mã 333333 là sai nhé, nếu bị khóa đợi 30 phút nó mở lại",
         "sources": {
@@ -11404,14 +11404,20 @@
             "cost_price": 60000,
             "selling_price": 70000,
             "updated": "23:11 26/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "23:11 26/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 60000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 45000,
           "stock": 2
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -11419,6 +11425,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793031117944",
+      "time": "23:11 - 26/10/2026",
+      "name": "Zoom Pro 28 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 4,
+      "catKey": "khac",
+      "msgKey": "⭐ZoomPro28NgàyBHF➕Thêm:3📦Tồnkhohiệntại:2💰Giá:45.000đ"
+    },
     {
       "id": "hist-1793031110024",
       "time": "23:11 - 26/10/2026",
@@ -12507,17 +12524,6 @@
       "stockAfter": 4,
       "catKey": "khac",
       "msgKey": "🎵SUNOPREMIER1THÁNGBẢOHÀNH3NGÀY➕Thêm:2📦Tồnkhohiệntại:2💰Giá:485.000đ"
-    },
-    {
-      "id": "hist-1793014138169",
-      "time": "18:28 - 26/10/2026",
-      "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 80,
-      "catKey": "khac",
-      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:75📦Tồnkhohiệntại:80💰Giá:45.00"
     }
   ]
 }
