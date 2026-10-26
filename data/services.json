@@ -11113,11 +11113,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793018788621",
+        "name": "Suno Pro 1 tháng BH 2 Ngày",
+        "price": 165000,
+        "cost_price": 145000,
+        "stock": 31,
+        "stock_text": "Còn 31",
+        "duration": "1 Tháng",
+        "detail": "Mail - Pass - Mail khôi phục\nhttps://fviainboxes.com/",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 31,
+            "cost_price": 145000,
+            "selling_price": 165000,
+            "updated": "19:46 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 145000,
+          "stock": 31
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793018788621",
+      "time": "19:46 - 26/10/2026",
+      "name": "Suno Pro 1 tháng BH 2 Ngày",
+      "bot": "taphoathomap_bot",
+      "price": 165000,
+      "costPrice": 145000,
+      "stockAfter": 31,
+      "catKey": "khac",
+      "msgKey": "🎵SunoPro1thángBH2Ngày➕Thêm:3📦Tồnkhohiệntại:31💰Giá:145.000đ"
+    },
     {
       "id": "hist-1793018750644",
       "time": "19:45 - 26/10/2026",
@@ -12206,17 +12243,6 @@
       "stockAfter": 97,
       "catKey": "khac",
       "msgKey": "☁️LinkGeminiAIPro18tháng➕Thêm:50📦Tồnkhohiệntại:97💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1792759412614",
-      "time": "19:43 - 23/10/2026",
-      "name": "API Claude 50M Token 1 ngày BHF",
-      "bot": "piggyai99_bot",
-      "price": 65000,
-      "costPrice": 55000,
-      "stockAfter": 7,
-      "catKey": "api-claude-codex",
-      "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:55.000đ"
     }
   ]
 }
