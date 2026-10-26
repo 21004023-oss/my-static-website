@@ -4659,26 +4659,28 @@
       {
         "id": "p-1792594889363",
         "name": "Grok Plus 30 ngày Bh Login",
-        "price": 140000,
-        "cost_price": 120000,
-        "stock": 13,
-        "stock_text": "Còn 13",
+        "price": 160000,
+        "cost_price": 140000,
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 13,
-            "cost_price": 120000,
-            "selling_price": 140000,
-            "updated": "22:01 21/10/2026"
+            "stock": 16,
+            "cost_price": 140000,
+            "selling_price": 160000,
+            "updated": "18:34 26/10/2026"
           }
         },
         "hidden": false,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 120000
-        }
+          "bot": "@sieuthistore_bot",
+          "cost_price": 140000,
+          "stock": 16
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792737135662",
@@ -10793,6 +10795,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793014491161",
+      "time": "18:34 - 26/10/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 16,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:16📦Tồnkhohiệntại:16💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793014450423",
       "time": "18:34 - 26/10/2026",
       "name": "PureVPN 7 Ngày BHF",
@@ -11880,17 +11893,6 @@
       "stockAfter": 14,
       "catKey": "meitu-wink",
       "msgKey": "⭐WinkVip30DBHF➕Thêm:5📦Tồnkhohiệntại:7💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1792743384410",
-      "time": "15:16 - 23/10/2026",
-      "name": "Wink Vip 30D BHF",
-      "bot": "sieuthistore_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 7,
-      "catKey": "meitu-wink",
-      "msgKey": "⭐WinkVip30DBHF➕Thêm:5📦Tồnkhohiệntại:7💰Giá:120.000đ"
     }
   ]
 }
