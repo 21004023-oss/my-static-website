@@ -4934,6 +4934,32 @@
         "import_note": "Nhập: @shopxoainon_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793056626196",
+        "name": "Grok Super 1 ngày KBH",
+        "price": 100000,
+        "cost_price": 90000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Ngày",
+        "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 90000,
+            "selling_price": 100000,
+            "updated": "06:17 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 90000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=x.ai&sz=64"
@@ -12252,6 +12278,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793056626196",
+      "time": "06:17 - 27/10/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 5,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:5📦Tồnkhohiệntại:5💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1793056361319",
       "time": "06:12 - 27/10/2026",
       "name": "API CLAUDE 500$ TOKEN 1 THÁNG BHF",
@@ -13339,17 +13376,6 @@
       "stockAfter": 5,
       "catKey": "kling",
       "msgKey": "🎬KlingStandrandom800-1000credit1THBH1ngày➕Thêm:4📦Tồnkhohiệntại:5💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1793032093995",
-      "time": "23:28 - 26/10/2026",
-      "name": "Kling Stand random 800-1000 credit 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 5,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandrandom800-1000credit1THBH1ngày💰Giá:115k📦Tồnkho:5tàikhoản📊Đãbán:35tàik"
     }
   ]
 }
