@@ -6864,26 +6864,28 @@
       {
         "id": "p-1792094916011",
         "name": "Tài khoản VieON VIP 3 Tháng BHF",
-        "price": 100000,
+        "price": 140000,
         "stock": 1,
         "stock_text": "Còn 1",
         "duration": "3 Tháng",
-        "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời",
+        "detail": "Tài khoản đăng nhập 2 thiết bị và xem 1 thiết bị đồng thời\nXem tất cả phim VIP và phim PRO\nKhông đảm bảo sẽ xem được một số kênh truyền hình nước ngoài\nBảo hành toàn thời gian trường hợp không xem được phim, sai mật khẩu, quá thiết bị.",
         "sources": {
           "sieuthistore_bot": {
             "stock": 1,
-            "cost_price": 90000,
-            "updated": "03:08 16/10/2026",
-            "selling_price": 100000
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "22:45 26/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 90000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "cost_price": 120000,
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 90000
-        }
+          "bot": "@sieuthistore_bot",
+          "cost_price": 120000,
+          "stock": 1
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792094920635",
@@ -11163,6 +11165,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793029516212",
+      "time": "22:45 - 26/10/2026",
+      "name": "Tài khoản VieON VIP Pro 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 1,
+      "catKey": "netflix",
+      "msgKey": "⭐TàikhoảnVieONVIPPro3thángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1793029015142",
       "time": "22:36 - 26/10/2026",
       "name": "ChatGPT Go 1 Tháng - BHF",
@@ -12250,17 +12263,6 @@
       "stockAfter": 9,
       "catKey": "chatgpt",
       "msgKey": "🤖TàikhoảnChatGPTdùngchung1thángBHF💰Giá:119k📦Tồnkho:9tàikhoản📊Đãbán:408tàikhoản💎M"
-    },
-    {
-      "id": "hist-1792806636174",
-      "time": "08:50 - 24/10/2026",
-      "name": "Tài khoản ChatGPT dùng chung 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 139000,
-      "costPrice": 119000,
-      "stockAfter": 9,
-      "catKey": "chatgpt",
-      "msgKey": "🤖TàikhoảnChatGPTdùngchung1thángBHF➕Thêm:6📦Tồnkhohiệntại:9💰Giá:119.000đ"
     }
   ]
 }
