@@ -11412,11 +11412,48 @@
         "import_note": "Nhập: @shopxoainon_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793022466159",
+        "name": "Lovable Pro 30D BH 10D",
+        "price": 80000,
+        "cost_price": 70000,
+        "stock": 20,
+        "stock_text": "Còn 20",
+        "duration": "1 Tháng",
+        "detail": "Radom date 25 - 30 day\nLovable Pro có 110 credit, mỗi ngày cộng thêm 5 credit",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 20,
+            "cost_price": 70000,
+            "selling_price": 80000,
+            "updated": "20:47 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 70000,
+          "stock": 20
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793022466159",
+      "time": "20:47 - 26/10/2026",
+      "name": "Lovable Pro 30D BH 10D",
+      "bot": "taphoathomap_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 20,
+      "catKey": "khac",
+      "msgKey": "⭐LovablePro30DBH10D➕Thêm:20📦Tồnkhohiệntại:20💰Giá:70.000đ"
+    },
     {
       "id": "hist-1793021749921",
       "time": "20:35 - 26/10/2026",
@@ -12505,17 +12542,6 @@
       "stockAfter": 16,
       "catKey": "capcut",
       "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:4📦Tồnkhohiệntại:8💰Giá:185.000đ"
-    },
-    {
-      "id": "hist-1792810008074",
-      "time": "09:46 - 24/10/2026",
-      "name": "CapCut Pro Team 3 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 175000,
-      "costPrice": 155000,
-      "stockAfter": 15,
-      "catKey": "capcut",
-      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:4📦Tồnkhohiệntại:8💰Giá:155.000đ"
     }
   ]
 }
