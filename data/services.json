@@ -3191,16 +3191,16 @@
         "id": "p-1792094683588",
         "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
         "price": 75000,
-        "stock": 227,
-        "stock_text": "Còn 227",
+        "stock": 228,
+        "stock_text": "Còn 228",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "piggyai99_bot": {
-            "stock": 12,
+            "stock": 13,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "08:32 24/10/2026"
+            "updated": "18:28 26/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 215,
@@ -3215,7 +3215,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 33000,
-          "stock": 12
+          "stock": 13
         },
         "import_note": "Nhập: @piggyai99_bot"
       },
@@ -10538,6 +10538,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793014115558",
+      "time": "18:28 - 26/10/2026",
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "piggyai99_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 228,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:5📦Tồnkhohiệntại:13💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1793014111583",
       "time": "18:28 - 26/10/2026",
       "name": "Skillshare 30 Ngày BHF",
@@ -11625,17 +11636,6 @@
       "stockAfter": 5,
       "catKey": "microsoft",
       "msgKey": "⭐ADMINMS365PREMIUM1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792729698165",
-      "time": "11:28 - 23/10/2026",
-      "name": "Netflix Premium Extra 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 2,
-      "catKey": "netflix",
-      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:150.000đ"
     }
   ]
 }
