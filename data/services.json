@@ -11798,11 +11798,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793033799218",
+        "name": "Tài Khoản Tiktok South Korea ( KR )",
+        "price": 40000,
+        "cost_price": 30000,
+        "stock": 86,
+        "stock_text": "Còn 86",
+        "duration": "1 Tháng",
+        "detail": "Tài Khoản Tiktok South Korea ( KR ) Tạo Tháng 7/2025 Mail Live Có Oauth2 , Cookie",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 86,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "23:56 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
+          "stock": 86
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793033799218",
+      "time": "23:56 - 26/10/2026",
+      "name": "Tài Khoản Tiktok South Korea ( KR )",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 86,
+      "catKey": "khac",
+      "msgKey": "🎵TàiKhoảnTiktokSouthKorea(KR)➕Thêm:86📦Tồnkhohiệntại:86💰Giá:30.000đ"
+    },
     {
       "id": "hist-1793033793760",
       "time": "23:56 - 26/10/2026",
@@ -12891,17 +12928,6 @@
       "stockAfter": 0,
       "catKey": "grok",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!⚡GrokPlus1thángriêngtư-BHFvừađượcnhậpkho🔥📦Sốlượngcósẵn:6💵Giáchỉ:58."
-    },
-    {
-      "id": "hist-1793014885831",
-      "time": "18:41 - 26/10/2026",
-      "name": "Grok Plus 1 tháng riêng tư - BHF vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "grok",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!⚡GrokPlus1thángriêngtư-BHFvừađượcnhậpkho🔥📦Sốlượngcósẵn:5💵Giáchỉ:58."
     }
   ]
 }
