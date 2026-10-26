@@ -11548,11 +11548,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793024603893",
+        "name": "API Web Panel Freepik - Magnific Premium 1 Tháng BHF",
+        "price": 95000,
+        "cost_price": 85000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "1 Tháng",
+        "detail": "Web Panel giao diện đơn giản, thao tác nhanh: chỉ cần dán link tài nguyên/ảnh vào panel để xử lý và tải file.\nChức năng chính:\n- Tải file 1-click: Dán link Freepik hoặc Magnific là tải được ngay, không tốn thời gian đăng nhập tài khoản.\n- Tối ưu tốc độ: Giao diện siêu gọn, xử lý nhanh, cực kỳ tiện cho người cần tải nguyên liệu thiết kế liên tục.\n- Đúng nhu cầu: Chuyên dùng để get link và lấy file gốc nhanh nhất\n• Không bao gồm tính năng AI.\n•Tải 20 file / 1 ngày | Tải 600 file / 30 ngày",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 10,
+            "cost_price": 85000,
+            "selling_price": 95000,
+            "updated": "21:23 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 85000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793024603893",
+      "time": "21:23 - 26/10/2026",
+      "name": "API Web Panel Freepik - Magnific Premium 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 10,
+      "catKey": "khac",
+      "msgKey": "🖼️APIWebPanelFreepik-MagnificPremium1ThángBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:85.00"
+    },
     {
       "id": "hist-1793024137690",
       "time": "21:15 - 26/10/2026",
@@ -12641,17 +12678,6 @@
       "stockAfter": 20,
       "catKey": "khac",
       "msgKey": "⭐XBOXGAMEPASSULTIMATE1NĂMBẢOHÀNH1THÁNG➕Thêm:4📦Tồnkhohiệntại:18💰Giá:360.000đ"
-    },
-    {
-      "id": "hist-1793014143076",
-      "time": "18:29 - 26/10/2026",
-      "name": "SUNO PREMIER 1 THÁNG BẢO HÀNH 3 NGÀY",
-      "bot": "ntnshopre_bot",
-      "price": 535000,
-      "costPrice": 485000,
-      "stockAfter": 4,
-      "catKey": "khac",
-      "msgKey": "🎵SUNOPREMIER1THÁNGBẢOHÀNH3NGÀY➕Thêm:2📦Tồnkhohiệntại:2💰Giá:485.000đ"
     }
   ]
 }
