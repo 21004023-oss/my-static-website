@@ -11612,11 +11612,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793025446579",
+        "name": "Higgsfield Genjutsu  hạn 1 tháng KBH",
+        "price": 55000,
+        "cost_price": 45000,
+        "stock": 42,
+        "stock_text": "Còn 42",
+        "duration": "1 Tháng",
+        "detail": "💎 Mô tả:\n🎬 HIGGSFIELD – GENJUTSU\n✅ Gói Free Tạo 1 video bằng Motion,Swap Genjutsu\n🎥 Chất lượng:  480p or 720p| 30 giây/video\n⏳ Thời gian kết xuất: Khoảng 20 phút/video hoặc lâu hơn tùy chọn khung giờ và trạng thái máy chủ Higg.\nMua về nên Gen video luôn ko để lâu, không tắt đi bật lại nhiều lần khi đang Gen dễ bị mất slot\n🔐 Tài khoản dạng định dạng:\nTK Higgsfield | MK Higgsfield | Liên kết OTP\n✅ Video tạo web: https://higgsfield.ai/ai/video?model=genjutsu\n✅ HD login : điền tài khoản mật khẩu, nếu yêu cầu OTP thì click vào link OTP\nhttps://dongvanfb.net/read_mail_box/\n⚠️ Lưu ý : Vui lòng chờ đợi trong quá trình render video.\nNếu lâu chưa Gen có thể load lại trang",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 42,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "21:37 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 45000,
+          "stock": 42
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793025446579",
+      "time": "21:37 - 26/10/2026",
+      "name": "Higgsfield Genjutsu  hạn 1 tháng KBH",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 42,
+      "catKey": "khac",
+      "msgKey": "🎬HiggsfieldGenjutsuhạn1thángKBH➕Thêm:37📦Tồnkhohiệntại:42💰Giá:45.000đ"
+    },
     {
       "id": "hist-1793025330868",
       "time": "21:35 - 26/10/2026",
@@ -12705,17 +12742,6 @@
       "stockAfter": 51,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:18📦Tồnkhohiệntại:51💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1793014227051",
-      "time": "18:30 - 26/10/2026",
-      "name": "MiniMax Go Plan $22 1 Tháng (BH 20D)",
-      "bot": "taphoathomap_bot",
-      "price": 185000,
-      "costPrice": 165000,
-      "stockAfter": 5,
-      "catKey": "khac",
-      "msgKey": "⭐MiniMaxGoPlan$221Tháng(BH20D)➕Thêm:2📦Tồnkhohiệntại:5💰Giá:165.000đ"
     }
   ]
 }
