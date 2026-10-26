@@ -7538,8 +7538,8 @@
         "id": "p-1792193708584",
         "name": "Figma Pro Edu 1 năm (BHF)",
         "price": 130000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Năm",
         "detail": "🎨 **FIGMA PRO EDUCATION**\n✨ Gói Figma dành cho học tập, thiết kế UI/UX và làm việc nhóm.\n✅ Không giới hạn file\n✅ Prototype nâng cao\n✅ Team Library & Design System\n✅ Dev Mode / Handoff\n✅ Hỗ trợ các tính năng AI. 3000 AI credit\n✅ Phù hợp học tập, làm đồ án và thiết kế chuyên nghiệp\n📦 **Định dạng:**\nMAIL | PASS | PASSMAIL\nhttps://outlook.office.com/mail/\nKhông được thay đổi email sau khi đã nâng cấp*\n✅ Mua số lượng nhiều inbox admin giá tốt hơn",
         "sources": {
@@ -7550,10 +7550,10 @@
             "updated": "01:22 27/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 6,
             "cost_price": 100000,
             "selling_price": 110000,
-            "updated": "01:00 27/10/2026"
+            "updated": "01:22 27/10/2026"
           }
         },
         "hidden": false,
@@ -7563,7 +7563,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 100000,
-          "stock": 1
+          "stock": 6
         }
       }
     ]
@@ -12085,6 +12085,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793038932139",
+      "time": "01:22 - 27/10/2026",
+      "name": "Figma Pro Edu 1 năm (BHF)",
+      "bot": "taphoathomap_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 12,
+      "catKey": "adobe",
+      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:5📦Tồnkhohiệntại:6💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1793038925207",
       "time": "01:22 - 27/10/2026",
       "name": "Figma Pro Edu 1 năm (BHF)",
@@ -13172,17 +13183,6 @@
       "stockAfter": 15,
       "catKey": "meitu-wink",
       "msgKey": "✨MeituVip+30DBHF➕Thêm:1📦Tồnkhohiệntại:15💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1793028847462",
-      "time": "22:34 - 26/10/2026",
-      "name": "ChatGPT Plus 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 330000,
-      "costPrice": 300000,
-      "stockAfter": 36,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBHF➕Thêm:15📦Tồnkhohiệntại:9💰Giá:300.000đ"
     }
   ]
 }
