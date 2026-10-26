@@ -2038,6 +2038,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793014198433",
+        "name": "ChatGPT Plus UIP 1 Tháng KBH",
+        "price": 130000,
+        "cost_price": 110000,
+        "stock": 51,
+        "stock_text": "Còn 51",
+        "duration": "1 Tháng",
+        "detail": "Gói ChatGPT Plus UIP 1 Tháng KBH bảo hành uy tín.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 51,
+            "cost_price": 110000,
+            "selling_price": 130000,
+            "updated": "18:29 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 110000,
+          "stock": 51
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -10607,6 +10633,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793014198434",
+      "time": "18:29 - 26/10/2026",
+      "name": "ChatGPT Plus UIP 1 Tháng KBH",
+      "bot": "sieuthistore_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 51,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlusUIP1ThángKBH➕Thêm:18📦Tồnkhohiệntại:51💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793014194345",
       "time": "18:29 - 26/10/2026",
       "name": "CAPCUT PRO 1 THÁNG BHF",
@@ -11694,17 +11731,6 @@
       "stockAfter": 8,
       "catKey": "meitu-wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:4💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792730536957",
-      "time": "11:42 - 23/10/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 9,
-      "catKey": "meitu-wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:4💰Giá:35.000đ"
     }
   ]
 }
