@@ -4249,6 +4249,32 @@
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "needs_review": false
+      },
+      {
+        "id": "p-1793018687783",
+        "name": "API CLAUDE KIRO 100$  1 THÁNG  BHF",
+        "price": 260000,
+        "cost_price": 230000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "API Claude 100$-Hàng lấy từ Kiro AWS\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng\n-File hướng dẫn sử dụng và thiết lập:\nhttps://drive.google.com/drive/folders/1cDpZB5Of3bk7cz_1qxMWgy3nvHomCkN5?usp=drive_link",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 5,
+            "cost_price": 230000,
+            "selling_price": 260000,
+            "updated": "19:44 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 230000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64"
@@ -11067,6 +11093,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793018687783",
+      "time": "19:44 - 26/10/2026",
+      "name": "API CLAUDE KIRO 100$  1 THÁNG  BHF",
+      "bot": "piggyai99_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 5,
+      "catKey": "api-claude-codex",
+      "msgKey": "🧠APICLAUDEKIRO100$1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:5💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1793018574811",
       "time": "19:42 - 26/10/2026",
       "name": "CapCut Pro Team 3 Tháng - BHF",
@@ -12154,17 +12191,6 @@
       "stockAfter": 559,
       "catKey": "youtube",
       "msgKey": "▶️SlotYoutubePremium6ThángBHF➕Thêm:2📦Tồnkhohiệntại:559💰Giá:165.000đ"
-    },
-    {
-      "id": "hist-1792758262124",
-      "time": "19:24 - 23/10/2026",
-      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
-      "bot": "piggyai99_bot",
-      "price": 43000,
-      "costPrice": 33000,
-      "stockAfter": 226,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:2📦Tồnkhohiệntại:11💰Giá:33.000đ"
     }
   ]
 }
