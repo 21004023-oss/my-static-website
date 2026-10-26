@@ -3072,17 +3072,17 @@
         "id": "capcut-1m",
         "name": "CapCut Pro 1 Tháng BHF",
         "price": 48000,
-        "stock": 26,
-        "stock_text": "Còn 26",
+        "stock": 51,
+        "stock_text": "Còn 51",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 26,
+            "stock": 51,
             "cost_price": 38000,
             "selling_price": 48000,
-            "updated": "18:40 26/10/2026"
+            "updated": "21:43 26/10/2026"
           }
         },
         "cost_price": 38000,
@@ -3091,7 +3091,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 38000,
-          "stock": 26
+          "stock": 51
         },
         "import_note": "Nhập: @ntnshopre_bot"
       },
@@ -11042,6 +11042,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793025812667",
+      "time": "21:43 - 26/10/2026",
+      "name": "CAPCUT PRO 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 48000,
+      "costPrice": 38000,
+      "stockAfter": 51,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:16📦Tồnkhohiệntại:51💰Giá:38.000đ"
+    },
+    {
       "id": "hist-1793025723209",
       "time": "21:42 - 26/10/2026",
       "name": "Meitu Vip+ 14D BHF",
@@ -12129,17 +12140,6 @@
       "stockAfter": 80,
       "catKey": "khac",
       "msgKey": "☁️LINKGEMINIPRO+GG15TB18THÁNGBẢOHÀNH24➕Thêm:80📦Tồnkhohiệntại:80💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792755654550",
-      "time": "18:40 - 23/10/2026",
-      "name": "KEY HMA AND/PC 20-30 DAYS",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 32,
-      "catKey": "khac",
-      "msgKey": "⭐KEYHMAAND/PC20-30DAYS➕Thêm:12📦Tồnkhohiệntại:16💰Giá:15.000đ"
     }
   ]
 }
