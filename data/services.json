@@ -7936,6 +7936,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793015707120",
+        "name": "Adguard VPN 7 Ngày BHF",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "7 Ngày",
+        "detail": "Tài khoản Adguard VPN 7 Ngày BHF\nĐịnh dạng: Email|Pass|Web otp",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 5,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "18:55 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 35000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -10952,6 +10978,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793015707120",
+      "time": "18:55 - 26/10/2026",
+      "name": "Adguard VPN 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 5,
+      "catKey": "vpn",
+      "msgKey": "⭐AdguardVPN7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793015687349",
       "time": "18:54 - 26/10/2026",
       "name": "ChatGPT Plus 1 Tháng BH 1 Ngày",
@@ -12039,17 +12076,6 @@
       "stockAfter": 555,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTGmailTrialcóoffer1tháng-KBH➕Thêm:555📦Tồnkhohiệntại:555💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792750615654",
-      "time": "17:16 - 23/10/2026",
-      "name": "🔥 ChatGPT Plus  30D ( BH 20D )",
-      "bot": "piggyai99_bot",
-      "price": 280000,
-      "costPrice": 250000,
-      "stockAfter": 37,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥ChatGPTPlus30D(BH20D)➕Thêm:11📦Tồnkhohiệntại:20💰Giá:250.000đ"
     }
   ]
 }
