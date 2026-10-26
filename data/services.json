@@ -3280,16 +3280,16 @@
         "id": "p-1792150746914",
         "name": "CAPCUT TEAM 6 THÁNG  BHF",
         "price": 320000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "6 Tháng",
         "detail": "CAPCUT PRO TEAM RENEW – 180 NGÀY | BHF 📌 THÔNG TIN • Tài khoản CapCut Pro dạng Team, thời hạn 365 ngày tự động gia hạn hàng tháng. • Có thể nhận tới 2.000 AI Credits. • Định dạng: Email | Pass. • Khuyến nghị đăng nhập 1–2 thiết bị, hạn chế đăng nhập nhiều thiết bị. 🛡️ BẢO HÀNH • Bảo hành 180 ngày. • Hỗ trợ bảo hành tối đa 1 lần/tháng đối với lỗi đăng nhập do đăng nhập quá thường xuyên. ⚠️ LƯU Ý • Hạn chế đăng nhập/đăng xuất liên tục hoặc trên nhiều thiết bị. • Vui lòng kiểm tra tài khoản ngay sau khi nhận hàng",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 290000,
             "selling_price": 320000,
-            "updated": "23:48 19/10/2026"
+            "updated": "18:28 26/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 4,
@@ -3298,13 +3298,14 @@
             "selling_price": 320000
           }
         },
-        "hidden": true,
+        "hidden": false,
         "cost_price": 290000,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 290000
+          "cost_price": 290000,
+          "stock": 2
         }
       },
       {
@@ -10565,6 +10566,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793014133917",
+      "time": "18:28 - 26/10/2026",
+      "name": "CAPCUT TEAM 6 THÁNG  BHF",
+      "bot": "ntnshopre_bot",
+      "price": 320000,
+      "costPrice": 290000,
+      "stockAfter": 6,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTTEAM6THÁNGBHF➕Thêm:4📦Tồnkhohiệntại:2💰Giá:290.000đ"
+    },
+    {
       "id": "hist-1793014129401",
       "time": "18:28 - 26/10/2026",
       "name": "SUNO PREMIER 1 THÁNG (BH 3 NGÀY)",
@@ -11652,17 +11664,6 @@
       "stockAfter": 5,
       "catKey": "microsoft",
       "msgKey": "⭐AdminMicrosoft365Family1ThángBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792730165226",
-      "time": "11:36 - 23/10/2026",
-      "name": "LINK GEMINI PRO + GG1 5TB 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 71,
-      "catKey": "khac",
-      "msgKey": "☁️LINKGEMINIPRO+GG15TB18THÁNGBẢOHÀNH24H➕Thêm:50📦Tồnkhohiệntại:71💰Giá:40.000đ"
     }
   ]
 }
