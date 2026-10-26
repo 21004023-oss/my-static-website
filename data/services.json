@@ -2179,6 +2179,32 @@
         "import_note": "Nhập: @shopxoainon_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793020236145",
+        "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 12H",
+        "price": 105000,
+        "cost_price": 95000,
+        "stock": 17,
+        "stock_text": "Còn 17",
+        "duration": "1 Tháng",
+        "detail": "- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 17,
+            "cost_price": 95000,
+            "selling_price": 105000,
+            "updated": "20:10 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 95000,
+          "stock": 17
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -11250,6 +11276,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793020236145",
+      "time": "20:10 - 26/10/2026",
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 12H",
+      "bot": "ntnshopre_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 17,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH12H➕Thêm:17📦Tồnkhohiệntại:17💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1793019863663",
       "time": "20:04 - 26/10/2026",
       "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
@@ -12337,17 +12374,6 @@
       "stockAfter": 12,
       "catKey": "meitu-wink",
       "msgKey": "⭐WinkVIP30NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1792800516961",
-      "time": "07:08 - 24/10/2026",
-      "name": "Meitu Vip+ 14 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 65000,
-      "costPrice": 55000,
-      "stockAfter": 56,
-      "catKey": "meitu-wink",
-      "msgKey": "✨MeituVip+14NgàyBHF➕Thêm:10📦Tồnkhohiệntại:13💰Giá:55.000đ"
     }
   ]
 }
