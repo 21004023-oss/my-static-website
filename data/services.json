@@ -11277,11 +11277,48 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793030175682",
+        "name": "Tiktok Pháp (FR) - BH Login",
+        "price": 60000,
+        "cost_price": 50000,
+        "stock": 21,
+        "stock_text": "Còn 21",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|passtiktok|email|password|refresh_token|client_id|cookie  - Mail Live Đọc code qua OAuth2 - Bảo hành đăng nhập 1-1",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 21,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "22:56 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 50000,
+          "stock": 21
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793030175682",
+      "time": "22:56 - 26/10/2026",
+      "name": "Tiktok Pháp (FR) - BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 21,
+      "catKey": "khac",
+      "msgKey": "🎵TiktokPháp(FR)-BHLogin➕Thêm:21📦Tồnkhohiệntại:21💰Giá:50.000đ"
+    },
     {
       "id": "hist-1793030144373",
       "time": "22:55 - 26/10/2026",
@@ -12370,17 +12407,6 @@
       "stockAfter": 19,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPRO3THÁNGBHF➕Thêm:4📦Tồnkhohiệntại:8💰Giá:155.000đ"
-    },
-    {
-      "id": "hist-1792809701126",
-      "time": "09:41 - 24/10/2026",
-      "name": "Muse Ai 1B Token KBH",
-      "bot": "sieuthistore_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 379,
-      "catKey": "khac",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:20📦Tồnkhohiệntại:41💰Giá:15.000đ"
     }
   ]
 }
