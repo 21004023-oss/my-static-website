@@ -1087,17 +1087,23 @@
       {
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
-        "price": 310000,
-        "stock": 27,
-        "stock_text": "Còn 27",
+        "price": 330000,
+        "stock": 36,
+        "stock_text": "Còn 36",
         "duration": "1 Tháng",
-        "detail": "🗣️ Mô tả:\n🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n6. Bảo hành đổi acc mới nếu die trước 7D.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ!\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "detail": "- ChatGPT Plus 1 tháng BHF\n- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ",
         "sources": {
           "ntnshopre_bot": {
             "stock": 27,
             "cost_price": 265000,
             "selling_price": 295000,
             "updated": "19:04 23/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 9,
+            "cost_price": 300000,
+            "selling_price": 330000,
+            "updated": "22:34 26/10/2026"
           }
         },
         "cost_price": 265000,
@@ -11156,6 +11162,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793028847462",
+      "time": "22:34 - 26/10/2026",
+      "name": "ChatGPT Plus 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 330000,
+      "costPrice": 300000,
+      "stockAfter": 36,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus1ThángBHF➕Thêm:15📦Tồnkhohiệntại:9💰Giá:300.000đ"
+    },
+    {
       "id": "hist-1793028624620",
       "time": "22:30 - 26/10/2026",
       "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
@@ -12243,17 +12260,6 @@
       "stockAfter": 34,
       "catKey": "education",
       "msgKey": "⭐CourseraPremiumcấpsẵn12thángBH7ngày➕Thêm:14📦Tồnkhohiệntại:17💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1792805605852",
-      "time": "08:33 - 24/10/2026",
-      "name": "Coursera Premium cấp sẵn 12 tháng BH 7 ngày",
-      "bot": "piggyai99_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 17,
-      "catKey": "education",
-      "msgKey": "⭐CourseraPremiumcấpsẵn12thángBH7ngày➕Thêm:14📦Tồnkhohiệntại:17💰Giá:120.000đ"
     }
   ]
 }
