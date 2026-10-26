@@ -11218,11 +11218,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793019688129",
+        "name": "Higgsfield 60 credit 1 tháng BH 3 ngày",
+        "price": 60000,
+        "cost_price": 50000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "Gói Higgsfield 60 credit 1 tháng BH 3 ngày bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "20:01 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 50000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793019688129",
+      "time": "20:01 - 26/10/2026",
+      "name": "Higgsfield 60 credit 1 tháng BH 3 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 5,
+      "catKey": "khac",
+      "msgKey": "🎬Higgsfield60credit1thángBH3ngày💰Giá:50k📦Tồnkho:5tàikhoản📊Đãbán:0tàikhoản"
+    },
     {
       "id": "hist-1793019597270",
       "time": "19:59 - 26/10/2026",
@@ -12311,17 +12348,6 @@
       "stockAfter": 0,
       "catKey": "youtube",
       "msgKey": "📧GmailRandomip2010-2016trialyoutube➕Thêm:9📦Tồnkhohiệntại:0💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792765648671",
-      "time": "21:27 - 23/10/2026",
-      "name": "Link Gemini AI Pro 18 tháng",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 218,
-      "catKey": "khac",
-      "msgKey": "☁️LinkGeminiAIPro18tháng➕Thêm:67📦Tồnkhohiệntại:218💰Giá:65.000đ"
     }
   ]
 }
