@@ -3427,25 +3427,26 @@
         "id": "p-1792150750279",
         "name": "Capcut Pro Team 6 Tháng BHF",
         "price": 390000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "6 Tháng",
         "detail": "CAPCUT PRO TEAM RENEW – 180 NGÀY | BHF 📌 THÔNG TIN • Tài khoản CapCut Pro dạng Team, thời hạn 365 ngày tự động gia hạn hàng tháng. • Có thể nhận tới 2.000 AI Credits. • Định dạng: Email | Pass. • Khuyến nghị đăng nhập 1–2 thiết bị, hạn chế đăng nhập nhiều thiết bị. 🛡️ BẢO HÀNH • Bảo hành 180 ngày. • Hỗ trợ bảo hành tối đa 1 lần/tháng đối với lỗi đăng nhập do đăng nhập quá thường xuyên. ⚠️ LƯU Ý • Hạn chế đăng nhập/đăng xuất liên tục hoặc trên nhiều thiết bị. • Vui lòng kiểm tra tài khoản ngay sau khi nhận hàng",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 6,
             "cost_price": 340000,
             "selling_price": 390000,
-            "updated": "23:48 19/10/2026"
+            "updated": "19:38 26/10/2026"
           }
         },
-        "hidden": true,
+        "hidden": false,
         "cost_price": 340000,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 340000
+          "bot": "@sieuthistore_bot",
+          "cost_price": 340000,
+          "stock": 6
         }
       },
       {
@@ -11066,6 +11067,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793018330054",
+      "time": "19:38 - 26/10/2026",
+      "name": "Capcut Pro Team 6 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 390000,
+      "costPrice": 340000,
+      "stockAfter": 6,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutProTeam6ThángBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:340.000đ"
+    },
+    {
       "id": "hist-1793018325391",
       "time": "19:38 - 26/10/2026",
       "name": "CAPCUT TEAM 6 THÁNG  BHF",
@@ -12153,17 +12165,6 @@
       "stockAfter": 27,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBHF➕Thêm:10📦Tồnkhohiệntại:27💰Giá:265.000đ"
-    },
-    {
-      "id": "hist-1792756972418",
-      "time": "19:02 - 23/10/2026",
-      "name": "ChatGPT Plus (Codex Full) 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 360000,
-      "costPrice": 310000,
-      "stockAfter": 27,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus(CodexFull)1ThángBHF➕Thêm:10📦Tồnkhohiệntại:27💰Giá:310.000đ"
     }
   ]
 }
