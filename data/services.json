@@ -8666,24 +8666,25 @@
         "name": "Meitu Vip+ 14D BHF",
         "price": 40000,
         "cost_price": 30000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 26,
+        "stock_text": "Còn 26",
         "duration": "1 Tháng",
-        "detail": "🔥 MỞ KHÓA FULL TÍNH NĂNG VIP\n✅ Truy cập toàn bộ kho Filter VIP cao cấp.\n✅ Sử dụng các công cụ AI, xóa vật thể chuyên nghiệp.\n✅ Xuất video HD/4K sắc nét, không logo.\n⚠️ LƯU Ý QUAN TRỌNG – CHÍNH SÁCH BẢO HÀNH\n🔸 Bắt buộc đăng nhập trong vòng 6H kể từ khi mua. Quá thời gian trên, shop TỪ CHỐI BẢO HÀNH VỚI MỌI LÝ DO.\n🔸 Chỉ sử dụng trên 01 thiết bị duy nhất.\n🔸 KHÔNG đăng xuất, KHÔNG chia sẻ tài khoản cho người khác.\n❌ Vi phạm bất kỳ điều kiện nào trên, shop có quyền TỪ CHỐI BẢO HÀNH.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA ĐỂ TRÁNH TRANH CHẤP VỀ SAU!",
+        "detail": "🔥 MỞ KHÓA FULL TÍNH NĂNG VIP\n✅ Truy cập toàn bộ kho Filter VIP cao cấp.\n✅ Sử dụng các công cụ AI, xóa vật thể chuyên nghiệp.\n✅ Xuất video HD/4K sắc nét, không logo.\n⚠️ LƯU Ý QUAN TRỌNG – CHÍNH SÁCH BẢO HÀNH\n🔸 Date radom 12 - 14 day, hụt 1-2 ngày mong KH hoan hỉ\n🔸 Bắt buộc đăng nhập trong vòng 6H kể từ khi mua. Quá thời gian trên, shop TỪ CHỐI BẢO HÀNH VỚI MỌI LÝ DO.\n🔸 Chỉ sử dụng trên 01 thiết bị duy nhất.\n🔸 KHÔNG đăng xuất, KHÔNG chia sẻ tài khoản cho người khác.\n❌ Vi phạm bất kỳ điều kiện nào trên, shop có quyền TỪ CHỐI BẢO HÀNH.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA ĐỂ TRÁNH TRANH CHẤP VỀ SAU!",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 26,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "09:17 21/10/2026"
+            "updated": "21:42 26/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 30000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
+          "stock": 26
         }
       }
     ]
@@ -11041,6 +11042,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793025723209",
+      "time": "21:42 - 26/10/2026",
+      "name": "Meitu Vip+ 14D BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 26,
+      "catKey": "meitu-wink",
+      "msgKey": "✨MeituVip+14DBHF➕Thêm:6📦Tồnkhohiệntại:26💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793025717133",
       "time": "21:41 - 26/10/2026",
       "name": "Meitu Vip+ 30D  BHF",
@@ -12128,17 +12140,6 @@
       "stockAfter": 32,
       "catKey": "khac",
       "msgKey": "⭐KEYHMAAND/PC20-30DAYS➕Thêm:12📦Tồnkhohiệntại:16💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792755649915",
-      "time": "18:40 - 23/10/2026",
-      "name": "KEY HMA AND/PC 20-30 DAYS",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 32,
-      "catKey": "khac",
-      "msgKey": "⭐KEYHMAAND/PC20-30DAYS💰Giá:15k📦Tồnkho:16tàikhoản📊Đãbán:637tàikhoản"
     }
   ]
 }
