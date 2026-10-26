@@ -8958,6 +8958,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 30000
         }
+      },
+      {
+        "id": "p-1793023074940",
+        "name": "Meitu Vip 7 days riêng tư - BHF vừa được nhập kho 🔥",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Meitu Vip 7 days riêng tư - BHF vừa được nhập kho 🔥 bảo hành uy tín.",
+        "sources": {
+          "shopxoainon_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "20:57 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@shopxoainon_bot",
+          "cost_price": 0,
+          "stock": 0
+        },
+        "import_note": "Nhập: @shopxoainon_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11496,6 +11522,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793023074940",
+      "time": "20:57 - 26/10/2026",
+      "name": "Meitu Vip 7 days riêng tư - BHF vừa được nhập kho 🔥",
+      "bot": "shopxoainon_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "meitu-wink",
+      "msgKey": "🎉HÀNGMỚIVỀKỆ!👑MeituVip7daysriêngtư-BHFvừađượcnhậpkho🔥📦Sốlượngcósẵn:10💵Giáchỉ:9.5"
+    },
+    {
       "id": "hist-1793022902002",
       "time": "20:55 - 26/10/2026",
       "name": "📦 Gói Gemini Pro & Drive 5TB 18 Tháng Chính Chủ (dùng ngay trong 5p) vừa được nhập kho 🔥",
@@ -12583,17 +12620,6 @@
       "stockAfter": 228,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:5📦Tồnkhohiệntại:13💰Giá:33.000đ"
-    },
-    {
-      "id": "hist-1793014111583",
-      "time": "18:28 - 26/10/2026",
-      "name": "Skillshare 30 Ngày BHF",
-      "bot": "piggyai99_bot",
-      "price": 850000,
-      "costPrice": 750000,
-      "stockAfter": 5,
-      "catKey": "khac",
-      "msgKey": "⭐Skillshare30NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:750.000đ"
     }
   ]
 }
