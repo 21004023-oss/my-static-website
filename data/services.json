@@ -5928,16 +5928,16 @@
         "id": "p-1792093859672",
         "name": "Gmail Random 200X~2023 Có 2FA",
         "price": 55000,
-        "stock": 62,
-        "stock_text": "Còn 62",
+        "stock": 31,
+        "stock_text": "Còn 31",
         "duration": "1 Tháng",
         "detail": "Định dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H - Login thành công hết bảo hành\n- Gmail đã nuôi khá lâu rồi nên gmail khá khoẻ\n+ Lưu ý:\n- Hãy dùng proxy , và IP máy riêng để login Gmail , tránh tình trạng GG quét hàng loạt.\n-Sau 48H hãy thay đổi thông , đá thiết bị cũ, Để bảo mật tài sản của mình. ( Gmail cổ điều bảo mật thông tin là quan trọng nhất )\n-Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 31,
+            "stock": 0,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "22:59 19/10/2026"
+            "updated": "18:31 26/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 31,
@@ -5946,14 +5946,15 @@
             "updated": "22:59 19/10/2026"
           }
         },
-        "hidden": true,
-        "cost_price": 15000,
-        "needs_review": true,
+        "hidden": false,
+        "cost_price": 35000,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 35000,
+          "stock": 31
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792093865277",
@@ -10768,6 +10769,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793014305979",
+      "time": "18:31 - 26/10/2026",
+      "name": "Gmail Random 200X~2023 Có 2FA",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 31,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:3📦Tồnkhohiệntại:0💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793014284616",
       "time": "18:31 - 26/10/2026",
       "name": "PureVPN 7 Ngày BHF",
@@ -11855,17 +11867,6 @@
       "stockAfter": 6,
       "catKey": "api-cursor-deepseek",
       "msgKey": "🖱️CURSORSUPER15X1THÁNG(BH7D)➕Thêm:6📦Tồnkhohiệntại:6💰Giá:1.000.000đ"
-    },
-    {
-      "id": "hist-1792737702097",
-      "time": "13:41 - 23/10/2026",
-      "name": "CURSOR PREMIUM 4X 1 THÁNG (BH 15D)",
-      "bot": "taphoathomap_bot",
-      "price": 460000,
-      "costPrice": 410000,
-      "stockAfter": 5,
-      "catKey": "api-cursor-deepseek",
-      "msgKey": "🖱️CURSORPREMIUM4X1THÁNG(BH15D)➕Thêm:5📦Tồnkhohiệntại:5💰Giá:410.000đ"
     }
   ]
 }
