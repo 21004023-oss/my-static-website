@@ -5605,8 +5605,8 @@
         "id": "p-gmail-new-25k",
         "name": "Gmail (New) -Login All",
         "price": 45000,
-        "stock": 273,
-        "stock_text": "Còn 273",
+        "stock": 321,
+        "stock_text": "Còn 321",
         "duration": "1 Tháng",
         "detail": "GMAIL New TRÂU BÒ - Login All thiết bị\nĐịnh dạng : Gmail | Pass | mail khôi phục\nBẢO HÀNH LOGIN LẦN ĐẦU 24H ( very phone, sai pass) được bảo hành - login thành công là hết Bảo hành\n- Gmail New cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\n💎 Mô tả:\n🇻🇳Mô tả: Login Lỗi Pass- Very Phone- Được Bảo hành Login 24H - login thành công là hết Bảo hành\nĐịnh dạng: Gmail | Pass | Gmail khôi phục| 2FA (nếu có )\n- Gmail này cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\n-Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/",
         "sources": {
@@ -5623,22 +5623,23 @@
             "updated": "14:53 22/10/2026"
           },
           "piggyai99_bot": {
-            "stock": 81,
+            "stock": 129,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "14:53 22/10/2026"
+            "updated": "18:28 26/10/2026"
           }
         },
         "conflict_group": "gmail_new_login_all",
         "price_verified": true,
-        "cost_price": 15000,
-        "needs_review": true,
-        "hidden": true,
+        "cost_price": 25000,
+        "needs_review": false,
+        "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 25000,
+          "stock": 111
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-gmail-new-35k",
@@ -10538,6 +10539,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793014119982",
+      "time": "18:28 - 26/10/2026",
+      "name": "Gmail (New) -Login All",
+      "bot": "piggyai99_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 321,
+      "catKey": "gmail",
+      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:129📦Tồnkhohiệntại:129💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793014115558",
       "time": "18:28 - 26/10/2026",
       "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
@@ -11625,17 +11637,6 @@
       "stockAfter": 5,
       "catKey": "microsoft",
       "msgKey": "⭐Microsoft365AdminFamily1ThángBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1792730143225",
-      "time": "11:35 - 23/10/2026",
-      "name": "ADMIN MS365 PREMIUM 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 5,
-      "catKey": "microsoft",
-      "msgKey": "⭐ADMINMS365PREMIUM1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:50.000đ"
     }
   ]
 }
