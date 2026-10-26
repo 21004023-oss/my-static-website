@@ -5200,22 +5200,22 @@
         "name": "Kling Stand random 800-1000 credit 1TH BH 1 ngày",
         "price": 135000,
         "cost_price": 115000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "Gói Kling Stand random 800-1000 credit 1TH BH 1 ngày bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 5,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "23:11 26/10/2026"
+            "updated": "23:28 26/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 1
+          "stock": 5
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -11485,6 +11485,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793032093995",
+      "time": "23:28 - 26/10/2026",
+      "name": "Kling Stand random 800-1000 credit 1TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 5,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandrandom800-1000credit1THBH1ngày💰Giá:115k📦Tồnkho:5tàikhoản📊Đãbán:35tàik"
+    },
+    {
       "id": "hist-1793031818746",
       "time": "23:23 - 26/10/2026",
       "name": "Galaxy Play Siêu Việt 90 ngày BHF",
@@ -12572,17 +12583,6 @@
       "stockAfter": 111,
       "catKey": "capcut",
       "msgKey": "✂️CapcutPro500credit7DBH6D➕Thêm:2📦Tồnkhohiệntại:111💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1793014217474",
-      "time": "18:30 - 26/10/2026",
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 53,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:19📦Tồnkhohiệntại:26💰Giá:65.000đ"
     }
   ]
 }
