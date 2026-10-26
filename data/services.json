@@ -11574,11 +11574,48 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793024609626",
+        "name": "Freepik - Magnific Premium API Web Panel 30D BHF",
+        "price": 80000,
+        "cost_price": 70000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "1 Tháng",
+        "detail": "Web Panel giao diện đơn giản, thao tác nhanh: chỉ cần dán link tài nguyên/ảnh vào panel để xử lý và tải file.\nChức năng chính:\n- Tải file 1-click: Dán link Freepik hoặc Magnific là tải được ngay, không tốn thời gian đăng nhập tài khoản.\n- Tối ưu tốc độ: Giao diện siêu gọn, xử lý nhanh, cực kỳ tiện cho người cần tải nguyên liệu thiết kế liên tục.\n- Đúng nhu cầu: Chuyên dùng để get link và lấy file gốc nhanh nhất\n• Không bao gồm tính năng AI.\n•Tải 20 file / 1 ngày | Tải 600 file / 30 ngày",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 10,
+            "cost_price": 70000,
+            "selling_price": 80000,
+            "updated": "21:23 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 70000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793024609626",
+      "time": "21:23 - 26/10/2026",
+      "name": "Freepik - Magnific Premium API Web Panel 30D BHF",
+      "bot": "taphoathomap_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 10,
+      "catKey": "khac",
+      "msgKey": "🖼️Freepik-MagnificPremiumAPIWebPanel30DBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:70.000đ"
+    },
     {
       "id": "hist-1793024603893",
       "time": "21:23 - 26/10/2026",
@@ -12667,17 +12704,6 @@
       "stockAfter": 26,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:19📦Tồnkhohiệntại:26💰Giá:38.000đ"
-    },
-    {
-      "id": "hist-1793014189462",
-      "time": "18:29 - 26/10/2026",
-      "name": "XBOX GAME PASS ULTIMATE 1 NĂM BẢO HÀNH 1 THÁNG",
-      "bot": "ntnshopre_bot",
-      "price": 410000,
-      "costPrice": 360000,
-      "stockAfter": 20,
-      "catKey": "khac",
-      "msgKey": "⭐XBOXGAMEPASSULTIMATE1NĂMBẢOHÀNH1THÁNG➕Thêm:4📦Tồnkhohiệntại:18💰Giá:360.000đ"
     }
   ]
 }
