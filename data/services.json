@@ -5135,16 +5135,16 @@
         "name": "Kling Pro 3k3 Credit 1 Tháng BH 7 Ngày",
         "price": 750000,
         "cost_price": 600000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "1 Tháng",
         "detail": "áp dụng bảo hành /7 ko phải /30\nKhách lưu ý",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 4,
+            "stock": 5,
             "cost_price": 650000,
             "selling_price": 750000,
-            "updated": "06:50 21/10/2026"
+            "updated": "22:25 26/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 4,
@@ -5153,12 +5153,13 @@
             "updated": "06:50 21/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 600000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 600000,
+          "stock": 4
         }
       },
       {
@@ -11103,6 +11104,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793028309208",
+      "time": "22:25 - 26/10/2026",
+      "name": "Kling Pro 3k3 Credit 1 Tháng BH 7 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 750000,
+      "costPrice": 650000,
+      "stockAfter": 9,
+      "catKey": "kling",
+      "msgKey": "🎬KlingPro3k3Credit1ThángBH7Ngày➕Thêm:5📦Tồnkhohiệntại:5💰Giá:650.000đ"
+    },
+    {
       "id": "hist-1793028280794",
       "time": "22:24 - 26/10/2026",
       "name": "Link Gemini Pro 18 Tháng",
@@ -12190,17 +12202,6 @@
       "stockAfter": 0,
       "catKey": "youtube",
       "msgKey": "📧GmailRandomip2010-2016trialyoutube➕Thêm:9📦Tồnkhohiệntại:0💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1792766082106",
-      "time": "21:34 - 23/10/2026",
-      "name": "GMAIL TRIAL RANDOM DATE 201X",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 0,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILTRIALRANDOMDATE201X➕Thêm:9📦Tồnkhohiệntại:0💰Giá:45.000đ"
     }
   ]
 }
