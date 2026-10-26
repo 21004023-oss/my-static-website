@@ -11422,7 +11422,7 @@
         "id": "p-1793031110024",
         "name": "Zoom Pro 28 Ngày BHF",
         "price": 70000,
-        "cost_price": 45000,
+        "cost_price": 30000,
         "stock": 6,
         "stock_text": "Còn 6",
         "duration": "1 Tháng",
@@ -11436,9 +11436,9 @@
           },
           "taphoathomap_bot": {
             "stock": 2,
-            "cost_price": 45000,
-            "selling_price": 55000,
-            "updated": "23:11 26/10/2026"
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "00:06 27/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 2,
@@ -11449,7 +11449,7 @@
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 45000,
+          "cost_price": 30000,
           "stock": 2
         },
         "import_note": "Nhập: @taphoathomap_bot",
@@ -11868,6 +11868,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793034378139",
+      "time": "00:06 - 27/10/2026",
+      "name": "Zoom Pro 14 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 6,
+      "catKey": "khac",
+      "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:30.000đ"
+    },
     {
       "id": "hist-1793034373713",
       "time": "00:06 - 27/10/2026",
@@ -12956,17 +12967,6 @@
       "stockAfter": 121,
       "catKey": "khac",
       "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:60📦Tồnkhohiệntại:121💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1793015707120",
-      "time": "18:55 - 26/10/2026",
-      "name": "Adguard VPN 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 5,
-      "catKey": "vpn",
-      "msgKey": "⭐AdguardVPN7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
     }
   ]
 }
