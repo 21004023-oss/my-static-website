@@ -8648,8 +8648,8 @@
         "id": "p-1791925962704",
         "name": "MEITU VIP+ 1 THÁNG BHF",
         "price": 90000,
-        "stock": 52,
-        "stock_text": "Còn 52",
+        "stock": 69,
+        "stock_text": "Còn 69",
         "duration": "1 Tháng",
         "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.",
         "sources": {
@@ -8666,20 +8666,20 @@
             "updated": "21:30 26/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 13,
-            "cost_price": 55000,
-            "selling_price": 65000,
-            "updated": "07:08 24/10/2026"
+            "stock": 30,
+            "cost_price": 70000,
+            "selling_price": 80000,
+            "updated": "21:30 26/10/2026"
           }
         },
-        "cost_price": 55000,
+        "cost_price": 60000,
         "needs_review": false,
         "hidden": false,
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 55000,
-          "stock": 13
+          "bot": "@taphoathomap_bot",
+          "cost_price": 60000,
+          "stock": 9
         }
       },
       {
@@ -11618,6 +11618,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793025058924",
+      "time": "21:30 - 26/10/2026",
+      "name": "Meitu Vip+ 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 69,
+      "catKey": "meitu-wink",
+      "msgKey": "✨MeituVip+1ThángBHF➕Thêm:26📦Tồnkhohiệntại:30💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793025050431",
       "time": "21:30 - 26/10/2026",
       "name": "Meitu Vip+ 30D BHF",
@@ -12705,17 +12716,6 @@
       "stockAfter": 53,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:19📦Tồnkhohiệntại:26💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793014212761",
-      "time": "18:30 - 26/10/2026",
-      "name": "Key Window 10/11 Pro Byphone 20 năm BH 1 năm",
-      "bot": "sieuthistore_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 12,
-      "catKey": "khac",
-      "msgKey": "⭐KeyWindow10/11ProByphone20nămBH1năm➕Thêm:5📦Tồnkhohiệntại:12💰Giá:110.000đ"
     }
   ]
 }
