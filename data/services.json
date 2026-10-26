@@ -11452,9 +11452,9 @@
         "id": "p-1793031813295",
         "name": "GALAXY PLAY SIÊU VIỆT 3 THÁNG BHF",
         "price": 130000,
-        "cost_price": 110000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "cost_price": 95000,
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "3 Tháng",
         "detail": "1 Slot galaxy play Siêu Việt xem phim bộ + phim thuê châu á\nĐăng nhập và xem trên 1 thiết bị\nKhông đổi pass, pin và tên profile\nBảo hành 90 ngày",
         "sources": {
@@ -11463,14 +11463,20 @@
             "cost_price": 110000,
             "selling_price": 130000,
             "updated": "23:23 26/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 95000,
+            "selling_price": 105000,
+            "updated": "23:23 26/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 110000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 95000,
           "stock": 1
         },
-        "import_note": "Nhập: @ntnshopre_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -11478,6 +11484,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793031818746",
+      "time": "23:23 - 26/10/2026",
+      "name": "Galaxy Play Siêu Việt 90 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "msgKey": "⭐GalaxyPlaySiêuViệt90ngàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:95.000đ"
+    },
     {
       "id": "hist-1793031813295",
       "time": "23:23 - 26/10/2026",
@@ -12566,17 +12583,6 @@
       "stockAfter": 53,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:19📦Tồnkhohiệntại:26💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793014212761",
-      "time": "18:30 - 26/10/2026",
-      "name": "Key Window 10/11 Pro Byphone 20 năm BH 1 năm",
-      "bot": "sieuthistore_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 12,
-      "catKey": "khac",
-      "msgKey": "⭐KeyWindow10/11ProByphone20nămBH1năm➕Thêm:5📦Tồnkhohiệntại:12💰Giá:110.000đ"
     }
   ]
 }
