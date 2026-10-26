@@ -121,15 +121,25 @@
         "price": 100000,
         "cost_price": 45000,
         "duration": "1 Tháng",
-        "stock": 96,
-        "stock_text": "Còn 96",
+        "stock": 89,
+        "stock_text": "Còn 89",
         "hidden": false,
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 45000
+          "cost_price": 45000,
+          "stock": 89
         },
-        "import_note": "🛒 @ntnshopre_bot",
-        "detail": "- Định dạng: Mail | Pass | 2FA.\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho anh em seller.\n- Bảo hành full gói trong quá trình sử dụng.\n- KHÔNG bảo hành ACC vì tuỳ vào cách bảo quản của mỗi người."
+        "import_note": "Nhập: @ntnshopre_bot",
+        "detail": "- Định dạng: Mail | Pass | 2fa\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho ae seller\n- Bảo hành full gói trong quá trình sử dụng, KHÔNG bảo hành ACC vì tuỳ vào cách bảo quản của mỗi người sử dụng",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 89,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "19:37 26/10/2026"
+          }
+        },
+        "needs_review": false
       },
       {
         "id": "yt-admin-3m",
@@ -11030,6 +11040,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793018255912",
+      "time": "19:37 - 26/10/2026",
+      "name": "ADMIN YTB PREMIUM  5 SLOT 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 89,
+      "catKey": "youtube",
+      "msgKey": "▶️ADMINYTBPREMIUM5SLOT1THÁNGBẢOHÀNHFULL💰Giá:45k📦Tồnkho:89tàikhoản📊Đãbán:23tàikho"
+    },
+    {
       "id": "hist-1793018251500",
       "time": "19:37 - 26/10/2026",
       "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
@@ -12117,17 +12138,6 @@
       "stockAfter": 32,
       "catKey": "khac",
       "msgKey": "⭐KEYHMAAND/PC20-30DAYS➕Thêm:12📦Tồnkhohiệntại:16💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792755649915",
-      "time": "18:40 - 23/10/2026",
-      "name": "KEY HMA AND/PC 20-30 DAYS",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 32,
-      "catKey": "khac",
-      "msgKey": "⭐KEYHMAAND/PC20-30DAYS💰Giá:15k📦Tồnkho:16tàikhoản📊Đãbán:637tàikhoản"
     }
   ]
 }
