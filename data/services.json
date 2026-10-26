@@ -7804,6 +7804,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793014284616",
+        "name": "PureVPN 7 Ngày BHF",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "7 Ngày",
+        "detail": "Tài khoản PureVPN 7 Ngày gói Max BHF\nĐịnh dạng: Email|Pass",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 4,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "18:31 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 35000,
+          "stock": 4
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -10742,6 +10768,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793014284616",
+      "time": "18:31 - 26/10/2026",
+      "name": "PureVPN 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 4,
+      "catKey": "vpn",
+      "msgKey": "⭐PureVPN7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:4💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793014276241",
       "time": "18:31 - 26/10/2026",
       "name": "Norton VPN Ultimate 7 Ngày BHF",
@@ -11829,17 +11866,6 @@
       "stockAfter": 5,
       "catKey": "api-cursor-deepseek",
       "msgKey": "🖱️CURSORPREMIUM4X1THÁNG(BH15D)➕Thêm:5📦Tồnkhohiệntại:5💰Giá:410.000đ"
-    },
-    {
-      "id": "hist-1792737592215",
-      "time": "13:39 - 23/10/2026",
-      "name": "Grok Plus 30 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 129000,
-      "costPrice": 109000,
-      "stockAfter": 18,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:6📦Tồnkhohiệntại:16💰Giá:109.000đ"
     }
   ]
 }
