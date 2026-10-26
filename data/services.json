@@ -4759,6 +4759,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793014885831",
+        "name": "Grok Plus 1 tháng riêng tư - BHF vừa được nhập kho 🔥",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Grok Plus 1 tháng riêng tư - BHF vừa được nhập kho 🔥 bảo hành uy tín.",
+        "sources": {
+          "shopxoainon_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "18:41 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@shopxoainon_bot",
+          "cost_price": 0,
+          "stock": 0
+        },
+        "import_note": "Nhập: @shopxoainon_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=x.ai&sz=64"
@@ -10795,6 +10821,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793014885831",
+      "time": "18:41 - 26/10/2026",
+      "name": "Grok Plus 1 tháng riêng tư - BHF vừa được nhập kho 🔥",
+      "bot": "shopxoainon_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "grok",
+      "msgKey": "🎉HÀNGMỚIVỀKỆ!⚡GrokPlus1thángriêngtư-BHFvừađượcnhậpkho🔥📦Sốlượngcósẵn:5💵Giáchỉ:58."
+    },
+    {
       "id": "hist-1793014880844",
       "time": "18:41 - 26/10/2026",
       "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
@@ -11882,17 +11919,6 @@
       "stockAfter": 9,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus(CodexFull)1ThángBHF➕Thêm:2📦Tồnkhohiệntại:9💰Giá:310.000đ"
-    },
-    {
-      "id": "hist-1792745368186",
-      "time": "15:49 - 23/10/2026",
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 260000,
-      "costPrice": 230000,
-      "stockAfter": 20,
-      "catKey": "chatgpt",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:1📦Tồnkhohiệntại:20💰Giá:230.000đ"
     }
   ]
 }
