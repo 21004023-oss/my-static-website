@@ -3250,17 +3250,17 @@
         "id": "capcut-1m",
         "name": "CapCut Pro 1 Tháng BHF",
         "price": 48000,
-        "stock": 28,
-        "stock_text": "Còn 28",
+        "stock": 40,
+        "stock_text": "Còn 40",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 28,
+            "stock": 40,
             "cost_price": 38000,
             "selling_price": 48000,
-            "updated": "20:21 26/10/2026"
+            "updated": "20:59 26/10/2026"
           }
         },
         "cost_price": 38000,
@@ -3269,7 +3269,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 38000,
-          "stock": 28
+          "stock": 40
         },
         "import_note": "Nhập: @ntnshopre_bot"
       },
@@ -11522,6 +11522,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793023198054",
+      "time": "20:59 - 26/10/2026",
+      "name": "CAPCUT PRO 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 48000,
+      "costPrice": 38000,
+      "stockAfter": 40,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:14📦Tồnkhohiệntại:40💰Giá:38.000đ"
+    },
+    {
       "id": "hist-1793023074940",
       "time": "20:57 - 26/10/2026",
       "name": "Meitu Vip 7 days riêng tư - BHF vừa được nhập kho 🔥",
@@ -12609,17 +12620,6 @@
       "stockAfter": 321,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:129📦Tồnkhohiệntại:129💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1793014115558",
-      "time": "18:28 - 26/10/2026",
-      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
-      "bot": "piggyai99_bot",
-      "price": 43000,
-      "costPrice": 33000,
-      "stockAfter": 228,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:5📦Tồnkhohiệntại:13💰Giá:33.000đ"
     }
   ]
 }
