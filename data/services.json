@@ -10560,11 +10560,48 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793014138169",
+        "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
+        "price": 55000,
+        "cost_price": 45000,
+        "stock": 80,
+        "stock_text": "Còn 80",
+        "duration": "1 Ngày",
+        "detail": "Gói LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H bảo hành uy tín.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 80,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "18:28 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 45000,
+          "stock": 80
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793014138169",
+      "time": "18:28 - 26/10/2026",
+      "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 80,
+      "catKey": "khac",
+      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:75📦Tồnkhohiệntại:80💰Giá:45.00"
+    },
     {
       "id": "hist-1793014133917",
       "time": "18:28 - 26/10/2026",
@@ -11653,17 +11690,6 @@
       "stockAfter": 71,
       "catKey": "khac",
       "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:50📦Tồnkhohiệntại:71💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792730173352",
-      "time": "11:36 - 23/10/2026",
-      "name": "Admin Microsoft 365 Family 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 5,
-      "catKey": "microsoft",
-      "msgKey": "⭐AdminMicrosoft365Family1ThángBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:45.000đ"
     }
   ]
 }
