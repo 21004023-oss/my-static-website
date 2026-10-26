@@ -8939,7 +8939,7 @@
         "id": "p-1792472374619",
         "name": "Meitu Vip+ 90D BHF",
         "price": 240000,
-        "cost_price": 210000,
+        "cost_price": 165000,
         "stock": 8,
         "stock_text": "Còn 8",
         "duration": "3 Tháng",
@@ -8949,7 +8949,7 @@
             "stock": 4,
             "cost_price": 165000,
             "selling_price": 185000,
-            "updated": "11:59 20/10/2026"
+            "updated": "21:27 26/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 4,
@@ -8958,12 +8958,13 @@
             "updated": "11:59 20/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 210000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 165000,
+          "stock": 4
         }
       },
       {
@@ -11606,6 +11607,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793024859457",
+      "time": "21:27 - 26/10/2026",
+      "name": "Meitu Vip+ 90D BHF",
+      "bot": "taphoathomap_bot",
+      "price": 185000,
+      "costPrice": 165000,
+      "stockAfter": 8,
+      "catKey": "meitu-wink",
+      "msgKey": "✨MeituVip+90DBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:165.000đ"
+    },
+    {
       "id": "hist-1793024609626",
       "time": "21:23 - 26/10/2026",
       "name": "Freepik - Magnific Premium API Web Panel 30D BHF",
@@ -12693,17 +12705,6 @@
       "stockAfter": 51,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusUIP1ThángKBH➕Thêm:18📦Tồnkhohiệntại:51💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1793014194345",
-      "time": "18:29 - 26/10/2026",
-      "name": "CAPCUT PRO 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 48000,
-      "costPrice": 38000,
-      "stockAfter": 26,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:19📦Tồnkhohiệntại:26💰Giá:38.000đ"
     }
   ]
 }
