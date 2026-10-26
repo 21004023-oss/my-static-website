@@ -8686,16 +8686,27 @@
         "id": "p-1791925999209",
         "name": "Meitu Vip+ 30D BHF",
         "price": 90000,
-        "stock": 12,
-        "stock_text": "Còn 12",
-        "duration": "30D",
+        "stock": 30,
+        "stock_text": "Còn 30",
+        "duration": "1 Tháng",
         "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.",
-        "cost_price": 70000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "cost_price": 59000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 70000
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 59000,
+          "stock": 30
+        },
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 30,
+            "cost_price": 59000,
+            "selling_price": 69000,
+            "updated": "21:30 26/10/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1792018974632",
@@ -11607,6 +11618,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793025050431",
+      "time": "21:30 - 26/10/2026",
+      "name": "Meitu Vip+ 30D BHF",
+      "bot": "taphoathomap_bot",
+      "price": 69000,
+      "costPrice": 59000,
+      "stockAfter": 30,
+      "catKey": "meitu-wink",
+      "msgKey": "✨MeituVip+30DBHF➕Thêm:26📦Tồnkhohiệntại:30💰Giá:59.000đ"
+    },
+    {
       "id": "hist-1793025046101",
       "time": "21:30 - 26/10/2026",
       "name": "MEITU VIP+ 1 THÁNG BHF",
@@ -12694,17 +12716,6 @@
       "stockAfter": 12,
       "catKey": "khac",
       "msgKey": "⭐KeyWindow10/11ProByphone20nămBH1năm➕Thêm:5📦Tồnkhohiệntại:12💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1793014207647",
-      "time": "18:30 - 26/10/2026",
-      "name": "ChatGPT Plus UIP 1 Tháng KBH",
-      "bot": "sieuthistore_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 51,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusUIP1ThángKBH➕Thêm:30📦Tồnkhohiệntại:51💰Giá:110.000đ"
     }
   ]
 }
