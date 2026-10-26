@@ -2055,13 +2055,13 @@
         "name": "ChatGPT Plus UIP 1 Tháng KBH",
         "price": 130000,
         "cost_price": 110000,
-        "stock": 52,
-        "stock_text": "Còn 52",
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "1 Tháng",
-        "detail": "Gói ChatGPT Plus UIP 1 Tháng KBH bảo hành uy tín.",
+        "detail": "🔐 Tài khoản riêng tư — Được đổi Pass & 2FA.\n📂 Định dạng: Email | Pass | 2FA\n✅ Hàng Pay UPI Ấn Độ - Siêu khỏe\n🚀 Sử dụng Codex thoải mái (khách tự xác minh SĐT).\n⚠️ LƯU Ý QUAN TRỌNG\n1. Không được sử dụng 9Router.\n2. Chỉ hỗ trợ đăng nhập trong 30 phút kể từ lúc mua. Quá thời gian, Shop từ chối hỗ trợ mọi lý do.\n3. BẮT BUỘC đổi 2FA ngay sau khi mua. Không đổi dẫn đến lỗi/mất tài khoản → Shop không chịu trách nhiệm.\n4. Thao tác đổi 2FA phải nhanh chóng. Lỗi OTP Gmail trong quá trình đổi → Không bảo hành (xem video hướng dẫn).\n5. Không hỗ trợ OTP Email vì Gmail được thuê sử dụng một lần.\n🎥 HƯỚNG DẪN ĐỔI 2FA\nhttps://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 52,
+            "stock": 15,
             "cost_price": 110000,
             "selling_price": 130000,
             "updated": "20:15 26/10/2026"
@@ -2070,7 +2070,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 110000,
-          "stock": 52
+          "stock": 15
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -11328,6 +11328,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793020508885",
+      "time": "20:15 - 26/10/2026",
+      "name": "ChatGPT Plus UIP 1 Tháng KBH",
+      "bot": "sieuthistore_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 15,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlusUIP1ThángKBH💰Giá:110k📦Tồnkho:15tàikhoản📊Đãbán:86tàikhoản💎Môtả:🔐Tàikh"
+    },
+    {
       "id": "hist-1793020505129",
       "time": "20:15 - 26/10/2026",
       "name": "ChatGPT Plus UIP 1 Tháng KBH",
@@ -12415,17 +12426,6 @@
       "stockAfter": 9,
       "catKey": "chatgpt",
       "msgKey": "🤖TàikhoảnChatGPTdùngchung1thángBHF💰Giá:119k📦Tồnkho:9tàikhoản📊Đãbán:408tàikhoản💎M"
-    },
-    {
-      "id": "hist-1792806636174",
-      "time": "08:50 - 24/10/2026",
-      "name": "Tài khoản ChatGPT dùng chung 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 139000,
-      "costPrice": 119000,
-      "stockAfter": 9,
-      "catKey": "chatgpt",
-      "msgKey": "🤖TàikhoảnChatGPTdùngchung1thángBHF➕Thêm:6📦Tồnkhohiệntại:9💰Giá:119.000đ"
     }
   ]
 }
