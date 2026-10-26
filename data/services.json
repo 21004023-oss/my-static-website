@@ -7962,6 +7962,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793016679903",
+        "name": "Hotspot Shield VPN 7 Ngày BHF",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "7 Ngày",
+        "detail": "Định dạng: Email|Pass",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 4,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "19:11 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 35000,
+          "stock": 4
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11004,6 +11030,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793016679903",
+      "time": "19:11 - 26/10/2026",
+      "name": "Hotspot Shield VPN 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 4,
+      "catKey": "vpn",
+      "msgKey": "⭐HotspotShieldVPN7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:4💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793016601477",
       "time": "19:10 - 26/10/2026",
       "name": "ADMIN MS365 PREMIUM 1 THÁNG BHF",
@@ -12091,17 +12128,6 @@
       "stockAfter": 22,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPRO3THÁNGBHF➕Thêm:8📦Tồnkhohiệntại:11💰Giá:155.000đ"
-    },
-    {
-      "id": "hist-1792753098009",
-      "time": "17:58 - 23/10/2026",
-      "name": "CapCut Pro Team 3 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 175000,
-      "costPrice": 155000,
-      "stockAfter": 18,
-      "catKey": "capcut",
-      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:8📦Tồnkhohiệntại:11💰Giá:155.000đ"
     }
   ]
 }
