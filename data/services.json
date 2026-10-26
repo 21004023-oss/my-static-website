@@ -4361,8 +4361,8 @@
         "id": "api-cursor-6500cre",
         "name": "API Cursor Pro 6500 Credits 1 Tháng BHF",
         "price": 410000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
         "source": "Key Cursor API",
         "detail": "Api Cursor Pro 6500 credit hạn sử dụng 1 tháng.\n-Credit: 6500\n-Hạn sử dụng: 1 tháng từ lúc active Key.\n-Bảo hành: 30 ngày.\n-File tài liệu chi tiết về cách sử dụng và setup sản phẩm: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1?usp=drive_link\n-Lưu ý: Sản phẩm là API,không phải tài khoản,không hỗ trợ hoàn trả nếu mua nhầm,không biết sử dụng.",
@@ -4375,10 +4375,10 @@
             "updated": "23:02 26/10/2026"
           },
           "ntnshopre_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 309000,
             "selling_price": 359000,
-            "updated": "19:49 19/10/2026"
+            "updated": "23:03 26/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 2,
@@ -4392,7 +4392,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 309000,
-          "stock": 1
+          "stock": 2
         },
         "import_note": "Nhập: @ntnshopre_bot"
       },
@@ -11342,6 +11342,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793030603459",
+      "time": "23:03 - 26/10/2026",
+      "name": "API CURSOR PRO 6500 CREDITS 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 359000,
+      "costPrice": 309000,
+      "stockAfter": 6,
+      "catKey": "api-cursor-deepseek",
+      "msgKey": "🖱️APICURSORPRO6500CREDITS1THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:309.000đ"
+    },
+    {
       "id": "hist-1793030592349",
       "time": "23:03 - 26/10/2026",
       "name": "API Cursor Pro 6500 Credits 1 tháng BHF",
@@ -12429,17 +12440,6 @@
       "stockAfter": 5,
       "catKey": "khac",
       "msgKey": "⭐Skillshare30NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:750.000đ"
-    },
-    {
-      "id": "hist-1793014106772",
-      "time": "18:28 - 26/10/2026",
-      "name": "Slot Youtube Premium 6 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 185000,
-      "costPrice": 165000,
-      "stockAfter": 563,
-      "catKey": "youtube",
-      "msgKey": "▶️SlotYoutubePremium6ThángBHF➕Thêm:2📦Tồnkhohiệntại:563💰Giá:165.000đ"
     }
   ]
 }
