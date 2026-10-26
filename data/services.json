@@ -7778,6 +7778,32 @@
           "cost_price": 6400
         },
         "import_note": "🛒 @KhoMMO_Market_bot"
+      },
+      {
+        "id": "p-1793014276241",
+        "name": "Norton VPN Ultimate 7 Ngày BHF",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "7 Ngày",
+        "detail": "Norton VPN Ultimate 7 Ngày BHF, log 5 thiết bị\nĐịnh dạng: Email|Pass|Web mail\n(Đăng nhập thì các bác nhập email trước xong chọn Use password và nhập pass bot gửi nhập vào là ok nha)",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 5,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "18:31 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 35000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -10716,6 +10742,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793014276241",
+      "time": "18:31 - 26/10/2026",
+      "name": "Norton VPN Ultimate 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 5,
+      "catKey": "vpn",
+      "msgKey": "⭐NortonVPNUltimate7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793014240586",
       "time": "18:30 - 26/10/2026",
       "name": "Trái Ác Quỷ Blox Fruits Roblox ( RANDOM )",
@@ -11803,17 +11840,6 @@
       "stockAfter": 18,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:6📦Tồnkhohiệntại:16💰Giá:109.000đ"
-    },
-    {
-      "id": "hist-1792737145293",
-      "time": "13:32 - 23/10/2026",
-      "name": "GROK ULTRA 50X 1 THÁNG (BH 7D)",
-      "bot": "taphoathomap_bot",
-      "price": 2100000,
-      "costPrice": 1900000,
-      "stockAfter": 6,
-      "catKey": "grok",
-      "msgKey": "⚡GROKULTRA50X1THÁNG(BH7D)➕Thêm:6📦Tồnkhohiệntại:6💰Giá:1.900.000đ"
     }
   ]
 }
