@@ -7733,16 +7733,16 @@
         "id": "p-1792205006619",
         "name": "Surfshark VPN One 7 Ngày BHF",
         "price": 45000,
-        "stock": 36,
-        "stock_text": "Còn 36",
-        "duration": "1 Tháng",
+        "stock": 33,
+        "stock_text": "Còn 33",
+        "duration": "7 Ngày",
         "detail": "Surfshark VPN gói One 7 Ngày BHF login 5 thiết bị, login quá nhiều dẫn đến bị khoá tài khoản sẽ không được bảo hành\n- Định dạng: email|pass\n- Web mail lấy code otp: https://get-opt.phh.info.vn/",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 12,
+            "stock": 9,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "14:54 22/10/2026"
+            "updated": "23:14 26/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 12,
@@ -7757,13 +7757,14 @@
             "updated": "14:53 22/10/2026"
           }
         },
-        "hidden": true,
+        "hidden": false,
         "cost_price": 15000,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 15000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
+          "stock": 12
         }
       },
       {
@@ -11452,6 +11453,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793031295229",
+      "time": "23:14 - 26/10/2026",
+      "name": "Surfshark VPN One 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 33,
+      "catKey": "vpn",
+      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793031124663",
       "time": "23:12 - 26/10/2026",
       "name": "ACC ZOOM PRO 28 NGÀY BHF",
@@ -12539,17 +12551,6 @@
       "stockAfter": 26,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:19📦Tồnkhohiệntại:26💰Giá:38.000đ"
-    },
-    {
-      "id": "hist-1793014189462",
-      "time": "18:29 - 26/10/2026",
-      "name": "XBOX GAME PASS ULTIMATE 1 NĂM BẢO HÀNH 1 THÁNG",
-      "bot": "ntnshopre_bot",
-      "price": 410000,
-      "costPrice": 360000,
-      "stockAfter": 20,
-      "catKey": "khac",
-      "msgKey": "⭐XBOXGAMEPASSULTIMATE1NĂMBẢOHÀNH1THÁNG➕Thêm:4📦Tồnkhohiệntại:18💰Giá:360.000đ"
     }
   ]
 }
