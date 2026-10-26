@@ -2205,6 +2205,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793020910920",
+        "name": "Nâng chính chủ ChatGPT PLUS 4 tháng - bh 24h",
+        "price": 750000,
+        "cost_price": 650000,
+        "stock": 13,
+        "stock_text": "Còn 13",
+        "duration": "1 Ngày",
+        "detail": "- Xác minh + thanh toán tài khoản chính chủ lên PLUS 4 tháng\nLưu ý : Chỉ cần gửi tk pass 2fa cho shop, phải là tài khoản free, không cần tk mới",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 13,
+            "cost_price": 650000,
+            "selling_price": 750000,
+            "updated": "20:21 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 650000,
+          "stock": 13
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -11354,6 +11380,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793020910920",
+      "time": "20:21 - 26/10/2026",
+      "name": "Nâng chính chủ ChatGPT PLUS 4 tháng - bh 24h",
+      "bot": "taphoathomap_bot",
+      "price": 750000,
+      "costPrice": 650000,
+      "stockAfter": 13,
+      "catKey": "chatgpt",
+      "msgKey": "🤖NângchínhchủChatGPTPLUS4tháng-bh24h➕Thêm:13📦Tồnkhohiệntại:13💰Giá:650.000đ"
+    },
+    {
       "id": "hist-1793020902308",
       "time": "20:21 - 26/10/2026",
       "name": "CAPCUT PRO 1 THÁNG BHF",
@@ -12441,17 +12478,6 @@
       "stockAfter": 1,
       "catKey": "khac",
       "msgKey": "🎙️(Góichínhhãng)Elevenlabscreator3tháng(bh2tháng)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:280"
-    },
-    {
-      "id": "hist-1792806697432",
-      "time": "08:51 - 24/10/2026",
-      "name": "Elevenlabs creator 3 tháng (bh 2 tháng)",
-      "bot": "piggyai99_bot",
-      "price": 320000,
-      "costPrice": 290000,
-      "stockAfter": 1,
-      "catKey": "khac",
-      "msgKey": "🎙️Elevenlabscreator3tháng(bh2tháng)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:290.000đ"
     }
   ]
 }
