@@ -11746,11 +11746,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793033787403",
+        "name": "TIKTOK ĐỨC (DE)",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 86,
+        "stock_text": "Còn 86",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|passtiktok|email|password|refresh_token|client_id|mailkp|cookie  - Mail Live Đọc code qua OAuth2 - Bảo hành đăng nhập 1-1",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 86,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "23:56 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 25000,
+          "stock": 86
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793033787403",
+      "time": "23:56 - 26/10/2026",
+      "name": "TIKTOK ĐỨC (DE)",
+      "bot": "taphoathomap_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 86,
+      "catKey": "khac",
+      "msgKey": "🎵TIKTOKĐỨC(DE)➕Thêm:86📦Tồnkhohiệntại:86💰Giá:25.000đ"
+    },
     {
       "id": "hist-1793033781891",
       "time": "23:56 - 26/10/2026",
@@ -12839,17 +12876,6 @@
       "stockAfter": 150,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF💰Giá:45k📦Tồnkho:137tàikhoản📊Đãbán:815tàikhoản💎Môtả:✨CAPCU"
-    },
-    {
-      "id": "hist-1793014874864",
-      "time": "18:41 - 26/10/2026",
-      "name": "Grok Plus 30 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 129000,
-      "costPrice": 109000,
-      "stockAfter": 8,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyKBH💰Giá:109k📦Tồnkho:6tàikhoản📊Đãbán:186tàikhoản💎Môtả:Mail|PassĐượ"
     }
   ]
 }
