@@ -7790,9 +7790,9 @@
         "id": "p-1793014276241",
         "name": "Norton VPN Ultimate 7 Ngày BHF",
         "price": 45000,
-        "cost_price": 20000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "cost_price": 15000,
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "7 Ngày",
         "detail": "Norton VPN Ultimate 7 Ngày BHF, log 5 thiết bị\nĐịnh dạng: Email|Pass|Web mail\n(Đăng nhập thì các bác nhập email trước xong chọn Use password và nhập pass bot gửi nhập vào là ok nha)",
         "sources": {
@@ -7807,14 +7807,20 @@
             "cost_price": 20000,
             "selling_price": 30000,
             "updated": "18:31 26/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "18:34 26/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 20000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
           "stock": 5
         },
-        "import_note": "Nhập: @ntnshopre_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -10781,6 +10787,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793014444595",
+      "time": "18:34 - 26/10/2026",
+      "name": "Norton VPN Ultimate 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 15,
+      "catKey": "vpn",
+      "msgKey": "⭐NortonVPNUltimate7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793014371931",
       "time": "18:32 - 26/10/2026",
       "name": "Gmail Random 200X~2023 Có 2FA",
@@ -11868,17 +11885,6 @@
       "stockAfter": 1,
       "catKey": "api-claude-codex",
       "msgKey": "🧠APICLAUDE500$TOKEN1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:250.000đ"
-    },
-    {
-      "id": "hist-1792738701449",
-      "time": "13:58 - 23/10/2026",
-      "name": "GROK PREMIUM 4X 1 THÁNG (BH 15D)",
-      "bot": "taphoathomap_bot",
-      "price": 460000,
-      "costPrice": 410000,
-      "stockAfter": 6,
-      "catKey": "grok",
-      "msgKey": "⚡GROKPREMIUM4X1THÁNG(BH15D)➕Thêm:6📦Tồnkhohiệntại:6💰Giá:410.000đ"
     }
   ]
 }
