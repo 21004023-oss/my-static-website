@@ -12051,10 +12051,10 @@
       {
         "id": "p-1793037800323",
         "name": "JetBrain Edu 1 năm (BHF)",
-        "price": 60000,
+        "price": 80000,
         "cost_price": 50000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Năm",
         "detail": "💻 JETBRAINS EDUCATION\n✨ Gói JetBrains dành cho học tập, lập trình và phát triển phần mềm.\n✅ Sử dụng bộ IDE JetBrains\n✅ IntelliJ IDEA, PyCharm, WebStorm, CLion, Rider...\n✅ Đầy đủ tính năng phục vụ code chuyên nghiệp\n✅ Phù hợp sinh viên, giáo viên và người học lập trình\n✅ Hỗ trợ nhiều ngôn ngữ và nền tảng phát triển\n🚀 Tối ưu cho học tập, làm bài tập, đồ án và lập trình chuyên sâu.\n📦 **Định dạng:**\nMAIL | PASS JETBRAINS | PASS MAIL\n✅ Mua số lượng nhiều inbox admin giá tốt hơn",
         "sources": {
@@ -12062,6 +12062,12 @@
             "stock": 6,
             "cost_price": 50000,
             "selling_price": 60000,
+            "updated": "01:03 27/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 6,
+            "cost_price": 70000,
+            "selling_price": 80000,
             "updated": "01:03 27/10/2026"
           }
         },
@@ -12078,6 +12084,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793037805281",
+      "time": "01:03 - 27/10/2026",
+      "name": "JetBrain Edu 1 năm (BHF)",
+      "bot": "piggyai99_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 12,
+      "catKey": "khac",
+      "msgKey": "⭐JetBrainEdu1năm(BHF)➕Thêm:4📦Tồnkhohiệntại:6💰Giá:70.000đ"
+    },
     {
       "id": "hist-1793037800323",
       "time": "01:03 - 27/10/2026",
@@ -13166,17 +13183,6 @@
       "stockAfter": 9,
       "catKey": "kling",
       "msgKey": "🎬KlingPro3k3Credit1ThángBH7Ngày➕Thêm:5📦Tồnkhohiệntại:5💰Giá:650.000đ"
-    },
-    {
-      "id": "hist-1793028280794",
-      "time": "22:24 - 26/10/2026",
-      "name": "Link Gemini Pro 18 Tháng",
-      "bot": "sieuthistore_bot",
-      "price": 65000,
-      "costPrice": 55000,
-      "stockAfter": 178,
-      "catKey": "khac",
-      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:100📦Tồnkhohiệntại:178💰Giá:55.000đ"
     }
   ]
 }
