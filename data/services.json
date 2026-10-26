@@ -8675,17 +8675,17 @@
           },
           "taphoathomap_bot": {
             "stock": 5,
-            "cost_price": 60000,
-            "selling_price": 70000,
-            "updated": "08:20 24/10/2026"
+            "cost_price": 70000,
+            "selling_price": 80000,
+            "updated": "00:02 27/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 60000,
+        "cost_price": 70000,
         "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 60000,
+          "cost_price": 70000,
           "stock": 5
         },
         "needs_review": false
@@ -11862,6 +11862,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793034141699",
+      "time": "00:02 - 27/10/2026",
+      "name": "Wink Vip 30D BHF",
+      "bot": "taphoathomap_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 10,
+      "catKey": "meitu-wink",
+      "msgKey": "⭐WinkVip30DBHF➕Thêm:6📦Tồnkhohiệntại:5💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793034137060",
       "time": "00:02 - 27/10/2026",
       "name": "Wink Vip 30D BHF",
@@ -12949,17 +12960,6 @@
       "stockAfter": 0,
       "catKey": "chatgpt",
       "msgKey": "📣ThôngbáotừAdmin:🚨FLASHSALECHATGPTPLUS–GIẢMGIÁCỰCSỐC!🔥💎PLUS1THÁNG–BH6H💰Giáhiệntạ"
-    },
-    {
-      "id": "hist-1793015112754",
-      "time": "18:45 - 26/10/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 107,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH24H➕Thêm:9📦Tồnkhohiệntại:63💰Giá:100.000đ"
     }
   ]
 }
