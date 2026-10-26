@@ -5194,6 +5194,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 2250000
         }
+      },
+      {
+        "id": "p-1793031067567",
+        "name": "Kling Stand random 800-1000 credit 1TH BH 1 ngày",
+        "price": 135000,
+        "cost_price": 115000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Gói Kling Stand random 800-1000 credit 1TH BH 1 ngày bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 115000,
+            "selling_price": 135000,
+            "updated": "23:11 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 115000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=64"
@@ -11342,6 +11368,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793031067567",
+      "time": "23:11 - 26/10/2026",
+      "name": "Kling Stand random 800-1000 credit 1TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 1,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandrandom800-1000credit1THBH1ngày💰Giá:115k📦Tồnkho:1tàikhoản📊Đãbán:35tàik"
+    },
+    {
       "id": "hist-1793031038207",
       "time": "23:10 - 26/10/2026",
       "name": "Dreamina Advanced 21k cre 1 tháng bh 3 ngày",
@@ -12429,17 +12466,6 @@
       "stockAfter": 321,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:129📦Tồnkhohiệntại:129💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1793014115558",
-      "time": "18:28 - 26/10/2026",
-      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
-      "bot": "piggyai99_bot",
-      "price": 43000,
-      "costPrice": 33000,
-      "stockAfter": 228,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:5📦Tồnkhohiệntại:13💰Giá:33.000đ"
     }
   ]
 }
