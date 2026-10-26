@@ -5326,6 +5326,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793041904011",
+        "name": "Kling Stand Random 1k - 1k5 Credit 1 Tháng BHF",
+        "price": 260000,
+        "cost_price": 230000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "TẤT CẢ ĐỀU ĐĂNG NHẬP BẰNG EMAIL NHÉ",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 2,
+            "cost_price": 230000,
+            "selling_price": 260000,
+            "updated": "02:11 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 230000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=64"
@@ -12163,6 +12189,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793041904011",
+      "time": "02:11 - 27/10/2026",
+      "name": "Kling Stand Random 1k - 1k5 Credit 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 2,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandRandom1k-1k5Credit1ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1793040100737",
       "time": "01:41 - 27/10/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -13250,17 +13287,6 @@
       "stockAfter": 0,
       "catKey": "capcut",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!🎬CapcutPro30dfullDate-BHFvừađượcnhậpkho🔥📦Sốlượngcósẵn:48💵Giáchỉ:38."
-    },
-    {
-      "id": "hist-1793029786370",
-      "time": "22:49 - 26/10/2026",
-      "name": "VIEON VIP 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 38000,
-      "costPrice": 28000,
-      "stockAfter": 1,
-      "catKey": "netflix",
-      "msgKey": "⭐VIEONVIP1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:28.000đ"
     }
   ]
 }
