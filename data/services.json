@@ -3272,25 +3272,33 @@
         "id": "p-1792036835013",
         "name": "CAPCUT PRO 6 THÁNG BHF",
         "price": 320000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "6 Tháng",
-        "detail": "- Định dạng: Email | Pass - Đăng nhập 1 Mobile + 1 PC, Credit random.\n- Tài khoản Pro Renew không phải hàng Teams, không thay đổi thông tin đăng nhập để shop kiểm tra khi bảo hành.\n- Không bảo hành lỗi truy cập quá thường xuyên, spam login dẫn đến lỗi hạn chế quyền truy cập\n- Bảo hành đầy đủ toàn thời gian, lỗi 1 đổi 1, vi phạm các điều trên -> Mất bảo hành",
+        "detail": "- Định dạng: Email | Pass - Đăng nhập 1 Mobile + 1 PC, Credit random.\n- Tài khoản Pro không phải hàng Teams, không thay đổi thông tin đăng nhập để shop kiểm tra khi bảo hành.\n- Không bảo hành lỗi truy cập quá thường xuyên, spam login dẫn đến lỗi hạn chế quyền truy cập\n- Bảo hành đầy đủ toàn thời gian, lỗi 1 đổi 1, vi phạm các điều trên -> Mất bảo hành",
         "sources": {
           "ntnshopre_bot": {
             "stock": 6,
             "cost_price": 290000,
             "updated": "11:00 15/10/2026",
             "selling_price": 320000
+          },
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 290000,
+            "selling_price": 320000,
+            "updated": "22:10 26/10/2026"
           }
         },
         "hidden": false,
         "cost_price": 290000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 290000
-        }
+          "cost_price": 290000,
+          "stock": 6
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792094683588",
@@ -11069,6 +11077,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793027403144",
+      "time": "22:10 - 26/10/2026",
+      "name": "🔥Capcut Pro 6 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 320000,
+      "costPrice": 290000,
+      "stockAfter": 12,
+      "catKey": "capcut",
+      "msgKey": "✂️🔥CapcutPro6Tháng-BHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:290.000đ"
+    },
+    {
       "id": "hist-1793027052134",
       "time": "22:04 - 26/10/2026",
       "name": "Capcut Pro 30d full Date - BHF vừa được nhập kho 🔥",
@@ -12156,17 +12175,6 @@
       "stockAfter": 614,
       "catKey": "youtube",
       "msgKey": "▶️SlotYoutubePremium1NămBHF➕Thêm:2📦Tồnkhohiệntại:614💰Giá:280.000đ"
-    },
-    {
-      "id": "hist-1792763955791",
-      "time": "20:59 - 23/10/2026",
-      "name": "Link Gemini AI Pro 18 tháng",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 97,
-      "catKey": "khac",
-      "msgKey": "☁️LinkGeminiAIPro18tháng➕Thêm:50📦Tồnkhohiệntại:97💰Giá:65.000đ"
     }
   ]
 }
