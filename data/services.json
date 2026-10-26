@@ -10533,11 +10533,48 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793014129401",
+        "name": "SUNO PREMIER 1 THÁNG (BH 3 NGÀY)",
+        "price": 490000,
+        "cost_price": 440000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Gói SUNO PREMIER 1 THÁNG (BH 3 NGÀY) bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 2,
+            "cost_price": 440000,
+            "selling_price": 490000,
+            "updated": "18:28 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 440000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793014129401",
+      "time": "18:28 - 26/10/2026",
+      "name": "SUNO PREMIER 1 THÁNG (BH 3 NGÀY)",
+      "bot": "piggyai99_bot",
+      "price": 490000,
+      "costPrice": 440000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "msgKey": "🎵SUNOPREMIER1THÁNG(BH3NGÀY)➕Thêm:2📦Tồnkhohiệntại:2💰Giá:440.000đ"
+    },
     {
       "id": "hist-1793014119982",
       "time": "18:28 - 26/10/2026",
@@ -11626,17 +11663,6 @@
       "stockAfter": 71,
       "catKey": "khac",
       "msgKey": "☁️LINKGEMINIPRO+GG15TB18THÁNGBẢOHÀNH24H➕Thêm:50📦Tồnkhohiệntại:71💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792730148143",
-      "time": "11:35 - 23/10/2026",
-      "name": "Microsoft 365 Admin Family 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 5,
-      "catKey": "microsoft",
-      "msgKey": "⭐Microsoft365AdminFamily1ThángBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:30.000đ"
     }
   ]
 }
