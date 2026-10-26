@@ -2243,6 +2243,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793022775909",
+        "name": "ChatGPT Plus Apple Pay Gmail 30D - BHF",
+        "price": 300000,
+        "cost_price": 270000,
+        "stock": 59,
+        "stock_text": "Còn 59",
+        "duration": "1 Tháng",
+        "detail": "📌 QUÝ KHÁCH VUI LÒNG ĐỌC KỸ MÔ TẢ TRƯỚC KHI MUA HÀNG!\nChatGPT Plus Apple Pay địa chỉ thanh toán Việt Nam, tài khoản Gmail, mỗi acc 1 thẻ khác nhau, bao không trùng thẻ, siêu bền\n📌 Định dạng:\nTK | MK GPT | 2FA\n🔐 Lấy mã xác thực:\n🌐 Truy cập https://2fa.live để lấy mã 2FA (OTP) đăng nhập.\n📝 Lưu ý & chính sách bảo hành:\n⚠️ Không bảo hành Codex, sử dụng các Tool Codex bên thứ 3.\nTất cả tài khoản đều được kiểm tra kỹ thông tin đăng nhập trước khi đưa lên bot, nên không có tình trạng sai thông tin đăng nhập.\n❗ Sau 15 phút kể từ khi giao hàng shop miễn trừ trách nhiệm trường hợp báo tài khoản bị sai thông tin đăng nhập.\n🔐 Khách hàng KHÔNG CẦN THAY ĐỔI thông tin đăng nhập.\n⚠️ Không bảo hành các VẤN ĐỀ VỀ BẢO MẬT nếu khách hàng thay đổi thông tin đăng nhập như: Change Password, 2FA, Change Email dẫn đến bị xác minh code về mail và không truy cập được tài khoản nữa. (VẪN BẢO HÀNH FULL GÓI VÀ DIE ACC BÌNH THƯỜNG)",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 59,
+            "cost_price": 270000,
+            "selling_price": 300000,
+            "updated": "20:52 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 270000,
+          "stock": 59
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -11470,6 +11496,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793022775909",
+      "time": "20:52 - 26/10/2026",
+      "name": "ChatGPT Plus Apple Pay Gmail 30D - BHF",
+      "bot": "piggyai99_bot",
+      "price": 300000,
+      "costPrice": 270000,
+      "stockAfter": 59,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlusApplePayGmail30D-BHF➕Thêm:7📦Tồnkhohiệntại:59💰Giá:270.000đ"
+    },
+    {
       "id": "hist-1793022769589",
       "time": "20:52 - 26/10/2026",
       "name": "Capcut Pro 7 Ngày BH 6 Ngày",
@@ -12557,17 +12594,6 @@
       "stockAfter": 563,
       "catKey": "youtube",
       "msgKey": "▶️SlotYoutubePremium6ThángBHF➕Thêm:2📦Tồnkhohiệntại:563💰Giá:165.000đ"
-    },
-    {
-      "id": "hist-1792811288054",
-      "time": "10:08 - 24/10/2026",
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 51,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:10📦Tồnkhohiệntại:24💰Giá:65.000đ"
     }
   ]
 }
