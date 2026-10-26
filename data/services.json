@@ -7784,9 +7784,9 @@
         "id": "p-1793014276241",
         "name": "Norton VPN Ultimate 7 Ngày BHF",
         "price": 45000,
-        "cost_price": 35000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "cost_price": 20000,
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "7 Ngày",
         "detail": "Norton VPN Ultimate 7 Ngày BHF, log 5 thiết bị\nĐịnh dạng: Email|Pass|Web mail\n(Đăng nhập thì các bác nhập email trước xong chọn Use password và nhập pass bot gửi nhập vào là ok nha)",
         "sources": {
@@ -7795,14 +7795,20 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "updated": "18:31 26/10/2026"
+          },
+          "ntnshopre_bot": {
+            "stock": 5,
+            "cost_price": 20000,
+            "selling_price": 30000,
+            "updated": "18:31 26/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 35000,
+          "bot": "@ntnshopre_bot",
+          "cost_price": 20000,
           "stock": 5
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -10769,6 +10775,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793014312118",
+      "time": "18:31 - 26/10/2026",
+      "name": "NORTON VPN ULTIMATE 7 NGÀY BHF",
+      "bot": "ntnshopre_bot",
+      "price": 30000,
+      "costPrice": 20000,
+      "stockAfter": 10,
+      "catKey": "vpn",
+      "msgKey": "⭐NORTONVPNULTIMATE7NGÀYBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:20.000đ"
+    },
+    {
       "id": "hist-1793014305979",
       "time": "18:31 - 26/10/2026",
       "name": "Gmail Random 200X~2023 Có 2FA",
@@ -11856,17 +11873,6 @@
       "stockAfter": 5,
       "catKey": "api-cursor-deepseek",
       "msgKey": "🖱️CURSORULTRA50X1THÁNG(BH7D)➕Thêm:5📦Tồnkhohiệntại:5💰Giá:1.900.000đ"
-    },
-    {
-      "id": "hist-1792737928332",
-      "time": "13:45 - 23/10/2026",
-      "name": "CURSOR SUPER 15X 1 THÁNG (BH 7D)",
-      "bot": "taphoathomap_bot",
-      "price": 1100000,
-      "costPrice": 1000000,
-      "stockAfter": 6,
-      "catKey": "api-cursor-deepseek",
-      "msgKey": "🖱️CURSORSUPER15X1THÁNG(BH7D)➕Thêm:6📦Tồnkhohiệntại:6💰Giá:1.000.000đ"
     }
   ]
 }
