@@ -3432,6 +3432,32 @@
           "cost_price": 2500
         },
         "import_note": "🛒 @toki_shopmmo_bot"
+      },
+      {
+        "id": "p-1793014222546",
+        "name": "Capcut Pro 500 credit 7D BH 6D",
+        "price": 20000,
+        "cost_price": 10000,
+        "stock": 111,
+        "stock_text": "Còn 111",
+        "duration": "7 Ngày",
+        "detail": "Gói Capcut Pro 500 credit 7D BH 6D bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 111,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "18:30 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 10000,
+          "stock": 111
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=capcut.com&sz=64"
@@ -10636,6 +10662,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793014222546",
+      "time": "18:30 - 26/10/2026",
+      "name": "Capcut Pro 500 credit 7D BH 6D",
+      "bot": "taphoathomap_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 111,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutPro500credit7DBH6D➕Thêm:2📦Tồnkhohiệntại:111💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1793014217474",
       "time": "18:30 - 26/10/2026",
       "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
@@ -11723,17 +11760,6 @@
       "stockAfter": 7,
       "catKey": "youtube",
       "msgKey": "▶️CODEYOUTUBEPREMIUM3THÁNG-BH24H➕Thêm:1📦Tồnkhohiệntại:7💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1792732041542",
-      "time": "12:07 - 23/10/2026",
-      "name": "CODE YOUTUBE PREMIUM 3 THÁNG - BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 8,
-      "catKey": "youtube",
-      "msgKey": "▶️CODEYOUTUBEPREMIUM3THÁNG-BH24H➕Thêm:8📦Tồnkhohiệntại:8💰Giá:60.000đ"
     }
   ]
 }
