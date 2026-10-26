@@ -10684,11 +10684,48 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793014240586",
+        "name": "Trái Ác Quỷ Blox Fruits Roblox ( RANDOM )",
+        "price": 90000,
+        "cost_price": 80000,
+        "stock": 43,
+        "stock_text": "Còn 43",
+        "duration": "1 Tháng",
+        "detail": "Gói Trái Ác Quỷ Blox Fruits Roblox ( RANDOM ) bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 43,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "18:30 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 80000,
+          "stock": 43
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793014240586",
+      "time": "18:30 - 26/10/2026",
+      "name": "Trái Ác Quỷ Blox Fruits Roblox ( RANDOM )",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 43,
+      "catKey": "khac",
+      "msgKey": "⭐TráiÁcQuỷBloxFruitsRoblox(RANDOM)➕Thêm:8📦Tồnkhohiệntại:43💰Giá:80.000đ"
+    },
     {
       "id": "hist-1793014236214",
       "time": "18:30 - 26/10/2026",
@@ -11777,17 +11814,6 @@
       "stockAfter": 6,
       "catKey": "grok",
       "msgKey": "⚡GROKULTRA50X1THÁNG(BH7D)➕Thêm:6📦Tồnkhohiệntại:6💰Giá:1.900.000đ"
-    },
-    {
-      "id": "hist-1792737135662",
-      "time": "13:32 - 23/10/2026",
-      "name": "GROK SUPER 15X 1 THÁNG (BH 7D)",
-      "bot": "taphoathomap_bot",
-      "price": 1100000,
-      "costPrice": 1000000,
-      "stockAfter": 5,
-      "catKey": "grok",
-      "msgKey": "⚡GROKSUPER15X1THÁNG(BH7D)➕Thêm:5📦Tồnkhohiệntại:5💰Giá:1.000.000đ"
     }
   ]
 }
