@@ -3281,26 +3281,27 @@
         "id": "p-1792024624956",
         "name": "Capcut Pro 1 Tháng BH 30 Ngày",
         "price": 70000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
         "detail": "Gói Capcut Pro 1 Tháng BH 30 Ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 9,
+            "stock": 3,
             "cost_price": 60000,
             "selling_price": 70000,
-            "updated": "20:08 21/10/2026"
+            "updated": "00:04 27/10/2026"
           }
         },
-        "cost_price": 38800,
-        "needs_review": true,
-        "hidden": true,
+        "cost_price": 60000,
+        "needs_review": false,
+        "hidden": false,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 38800
+          "bot": "@sieuthistore_bot",
+          "cost_price": 60000,
+          "stock": 3
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @sieuthistore_bot"
       },
       {
         "id": "p-1792036835013",
@@ -11862,6 +11863,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793034244420",
+      "time": "00:04 - 27/10/2026",
+      "name": "Capcut Pro 1 Tháng BH 30 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 3,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutPro1ThángBH30Ngày💰Giá:60k📦Tồnkho:3tàikhoản📊Đãbán:1.802tàikhoản"
+    },
+    {
       "id": "hist-1793034146176",
       "time": "00:02 - 27/10/2026",
       "name": "Wink Vip 30D BHF",
@@ -12949,17 +12961,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "⚡SảnphẩmnổibậttạiTokiShopMMO📦ACCONTCHATGPTK12Date2028💰125.000đ📦Khohiệntại:7🔥Đãbá"
-    },
-    {
-      "id": "hist-1793015479552",
-      "time": "18:51 - 26/10/2026",
-      "name": "Dreamina Advanced 21k cre 1 tháng bh 3 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 1300000,
-      "costPrice": 1100000,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "msgKey": "⭐DreaminaAdvanced21kcre1thángbh3ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:1.100.000đ"
     }
   ]
 }
