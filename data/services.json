@@ -2117,6 +2117,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793015687349",
+        "name": "ChatGPT Plus 1 Tháng BH 1 Ngày",
+        "price": 150000,
+        "cost_price": 130000,
+        "stock": 63,
+        "stock_text": "Còn 63",
+        "duration": "1 Tháng",
+        "detail": "🔐 Tài khoản riêng tư — Được đổi Pass & 2FA.\n📂 Định dạng: Email | Pass | 2FA\n✅ Hàng Pay UPI Ấn Độ - Siêu khỏe\n🚀 Sử dụng Codex thoải mái (khách tự xác minh SĐT).\n⚠️ LƯU Ý QUAN TRỌNG\n1. Không được sử dụng 9Router.\n2. Chỉ hỗ trợ đăng nhập trong 30 phút kể từ lúc mua. Quá thời gian, Shop từ chối hỗ trợ mọi lý do.\n3. BẮT BUỘC đổi 2FA ngay sau khi mua. Không đổi dẫn đến lỗi/mất tài khoản → Shop không chịu trách nhiệm.\n4. Thao tác đổi 2FA phải nhanh chóng. Lỗi OTP Gmail trong quá trình đổi → Không bảo hành (xem video hướng dẫn).\n5. Không hỗ trợ OTP Email vì Gmail được thuê sử dụng một lần.\n🎥 HƯỚNG DẪN ĐỔI 2FA\nhttps://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 63,
+            "cost_price": 130000,
+            "selling_price": 150000,
+            "updated": "18:54 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 130000,
+          "stock": 63
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -10926,6 +10952,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793015687349",
+      "time": "18:54 - 26/10/2026",
+      "name": "ChatGPT Plus 1 Tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 63,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus1ThángBH1Ngày➕Thêm:9📦Tồnkhohiệntại:63💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1793015650040",
       "time": "18:54 - 26/10/2026",
       "name": "Sản phẩm nổi bật tại Toki Shop MMO",
@@ -12013,17 +12050,6 @@
       "stockAfter": 37,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥ChatGPTPlus30D(BH20D)➕Thêm:11📦Tồnkhohiệntại:20💰Giá:250.000đ"
-    },
-    {
-      "id": "hist-1792749407749",
-      "time": "16:56 - 23/10/2026",
-      "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
-      "bot": "taphoathomap_bot",
-      "price": 145000,
-      "costPrice": 125000,
-      "stockAfter": 18,
-      "catKey": "kling",
-      "msgKey": "🎬KLING792-992cre1tháng(BH24h)➕Thêm:9📦Tồnkhohiệntại:9💰Giá:125.000đ"
     }
   ]
 }
