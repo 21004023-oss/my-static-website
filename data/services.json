@@ -7015,8 +7015,8 @@
         "id": "p-1792211632076",
         "name": "Tài khoản VieON VIP 30 ngày BHF",
         "price": 45000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời",
         "sources": {
@@ -7025,15 +7025,23 @@
             "cost_price": 35000,
             "updated": "12:58 17/10/2026",
             "selling_price": 45000
+          },
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 20000,
+            "selling_price": 30000,
+            "updated": "22:49 26/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 35000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "cost_price": 20000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 35000
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 20000,
+          "stock": 1
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792211638987",
@@ -11223,6 +11231,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793029780015",
+      "time": "22:49 - 26/10/2026",
+      "name": "Tài khoản VieON VIP 30 ngày bhf",
+      "bot": "taphoathomap_bot",
+      "price": 30000,
+      "costPrice": 20000,
+      "stockAfter": 4,
+      "catKey": "netflix",
+      "msgKey": "⭐TàikhoảnVieONVIP30ngàybhf➕Thêm:1📦Tồnkhohiệntại:1💰Giá:20.000đ"
+    },
+    {
       "id": "hist-1793029686410",
       "time": "22:48 - 26/10/2026",
       "name": "Netflix Premium Extra 1 Tháng BHF",
@@ -12310,17 +12329,6 @@
       "stockAfter": 2,
       "catKey": "khac",
       "msgKey": "🎙️Elevenlabscreator3tháng(bh2tháng)➕Thêm:1📦Tồnkhohiệntại:2💰Giá:290.000đ"
-    },
-    {
-      "id": "hist-1792806703330",
-      "time": "08:51 - 24/10/2026",
-      "name": "( Gói chính hãng ) Elevenlabs creator 3 tháng (bh 2 tháng)",
-      "bot": "taphoathomap_bot",
-      "price": 310000,
-      "costPrice": 280000,
-      "stockAfter": 1,
-      "catKey": "khac",
-      "msgKey": "🎙️(Góichínhhãng)Elevenlabscreator3tháng(bh2tháng)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:280"
     }
   ]
 }
