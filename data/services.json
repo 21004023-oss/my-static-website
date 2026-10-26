@@ -2937,6 +2937,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 1150000
         }
+      },
+      {
+        "id": "p-1793018750644",
+        "name": "giảm giá SLOT VEO3 (Antigravity )x20 Ultra 25K credit SLOT 1TH BH 30D",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói giảm giá SLOT VEO3 (Antigravity )x20 Ultra 25K credit SLOT 1TH BH 30D bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "19:45 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 0,
+          "stock": 0
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64"
@@ -11093,6 +11119,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793018750644",
+      "time": "19:45 - 26/10/2026",
+      "name": "giảm giá SLOT VEO3 (Antigravity )x20 Ultra 25K credit SLOT 1TH BH 30D",
+      "bot": "piggyai99_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "google-veo",
+      "msgKey": "📣ThôngbáotừAdmin:giảmgiáSLOTVEO3(Antigravity)x20Ultra25KcreditSLOT1THBH30D"
+    },
+    {
       "id": "hist-1793018687783",
       "time": "19:44 - 26/10/2026",
       "name": "API CLAUDE KIRO 100$  1 THÁNG  BHF",
@@ -12180,17 +12217,6 @@
       "stockAfter": 7,
       "catKey": "api-claude-codex",
       "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1792758784597",
-      "time": "19:33 - 23/10/2026",
-      "name": "Slot Youtube Premium 6 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 185000,
-      "costPrice": 165000,
-      "stockAfter": 559,
-      "catKey": "youtube",
-      "msgKey": "▶️SlotYoutubePremium6ThángBHF➕Thêm:2📦Tồnkhohiệntại:559💰Giá:165.000đ"
     }
   ]
 }
