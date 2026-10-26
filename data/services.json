@@ -10506,11 +10506,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793014111583",
+        "name": "Skillshare 30 Ngày BHF",
+        "price": 850000,
+        "cost_price": 750000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "Gói Skillshare 30 Ngày BHF bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 5,
+            "cost_price": 750000,
+            "selling_price": 850000,
+            "updated": "18:28 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 750000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793014111583",
+      "time": "18:28 - 26/10/2026",
+      "name": "Skillshare 30 Ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 850000,
+      "costPrice": 750000,
+      "stockAfter": 5,
+      "catKey": "khac",
+      "msgKey": "⭐Skillshare30NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:750.000đ"
+    },
     {
       "id": "hist-1793014106772",
       "time": "18:28 - 26/10/2026",
@@ -11599,17 +11636,6 @@
       "stockAfter": 2,
       "catKey": "netflix",
       "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1792729548130",
-      "time": "11:25 - 23/10/2026",
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 260000,
-      "costPrice": 230000,
-      "stockAfter": 50,
-      "catKey": "chatgpt",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:1📦Tồnkhohiệntại:50💰Giá:230.000đ"
     }
   ]
 }
