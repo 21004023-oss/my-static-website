@@ -10821,22 +10821,22 @@
         "name": "MUSE AI 1B TOKEN BẢO HÀNH ACITVE",
         "price": 25000,
         "cost_price": 15000,
-        "stock": 169,
-        "stock_text": "Còn 169",
+        "stock": 563,
+        "stock_text": "Còn 563",
         "duration": "1 Tháng",
-        "detail": "Muse AI 1 Billion tokens - No warranty\n- Format: email\n- Email access: https://generator.email\n- Add the mail at the end of the link to read mailbox (ex: https://generator.email/abcd@mail.com)\n=========\nMuse AI 1 tỷ tokens - không bảo hành\n- Định dạng: email\n- Email access: https://generator.email\n- Thêm mail cần đọc vào cuối link trên (ví dụ: https://generator.email/abcd@mail.com)",
+        "detail": "Muse AI 1 Billion tokens - No warranty\n- Format: email | Link get code",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 169,
+            "stock": 563,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "15:30 23/10/2026"
+            "updated": "00:11 27/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 15000,
-          "stock": 169
+          "stock": 563
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
@@ -11868,6 +11868,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793034699532",
+      "time": "00:11 - 27/10/2026",
+      "name": "MUSE AI 1B TOKEN BẢO HÀNH ACITVE",
+      "bot": "ntnshopre_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 563,
+      "catKey": "khac",
+      "msgKey": "⭐MUSEAI1BTOKENBẢOHÀNHACITVE➕Thêm:1000📦Tồnkhohiệntại:563💰Giá:15.000đ"
+    },
     {
       "id": "hist-1793034691859",
       "time": "00:11 - 27/10/2026",
@@ -12956,17 +12967,6 @@
       "stockAfter": 4,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:2💰Giá:109.000đ"
-    },
-    {
-      "id": "hist-1793016124078",
-      "time": "19:02 - 26/10/2026",
-      "name": "Grok Plus 30 ngày BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 2,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:2💰Giá:140.000đ"
     }
   ]
 }
