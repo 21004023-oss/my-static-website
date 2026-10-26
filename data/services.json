@@ -6642,16 +6642,16 @@
         "id": "p-1792268569370",
         "name": "Admin Microsoft 365 Family 1 Tháng BHF",
         "price": 55000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "1 Tháng",
         "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 5,
+            "stock": 9,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "11:36 23/10/2026"
+            "updated": "19:09 26/10/2026"
           }
         },
         "hidden": false,
@@ -6659,7 +6659,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 45000,
-          "stock": 5
+          "stock": 9
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "needs_review": false
@@ -11004,6 +11004,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793016591979",
+      "time": "19:09 - 26/10/2026",
+      "name": "Admin Microsoft 365 Family 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 9,
+      "catKey": "microsoft",
+      "msgKey": "⭐AdminMicrosoft365Family1ThángBHF➕Thêm:5📦Tồnkhohiệntại:9💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793016128823",
       "time": "19:02 - 26/10/2026",
       "name": "Grok Plus 30 ngày KBH",
@@ -12091,17 +12102,6 @@
       "stockAfter": 14,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:14💰Giá:265.000đ"
-    },
-    {
-      "id": "hist-1792752383256",
-      "time": "17:46 - 23/10/2026",
-      "name": "ChatGPT Plus (Codex Full) 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 360000,
-      "costPrice": 310000,
-      "stockAfter": 14,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus(CodexFull)1ThángBHF➕Thêm:5📦Tồnkhohiệntại:14💰Giá:310.000đ"
     }
   ]
 }
