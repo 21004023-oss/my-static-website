@@ -10972,11 +10972,48 @@
         "import_note": "Nhập: @toki_shopmmo_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793015944943",
+        "name": "Link Gemini Pro 18 Tháng",
+        "price": 65000,
+        "cost_price": 55000,
+        "stock": 121,
+        "stock_text": "Còn 121",
+        "duration": "1 Tháng",
+        "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 121,
+            "cost_price": 55000,
+            "selling_price": 65000,
+            "updated": "18:59 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 55000,
+          "stock": 121
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793015944943",
+      "time": "18:59 - 26/10/2026",
+      "name": "Link Gemini Pro 18 Tháng",
+      "bot": "sieuthistore_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 121,
+      "catKey": "khac",
+      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:60📦Tồnkhohiệntại:121💰Giá:55.000đ"
+    },
     {
       "id": "hist-1793015707120",
       "time": "18:55 - 26/10/2026",
@@ -12065,17 +12102,6 @@
       "stockAfter": 16,
       "catKey": "khac",
       "msgKey": "⭐KEYHMAAND/PC20-30DAYS💰Giá:10k📦Tồnkho:16tàikhoản📊Đãbán:637tàikhoản"
-    },
-    {
-      "id": "hist-1792750883873",
-      "time": "17:21 - 23/10/2026",
-      "name": "ChatGPT Gmail Trial có offer 1 tháng - KBH",
-      "bot": "taphoathomap_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 555,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTGmailTrialcóoffer1tháng-KBH➕Thêm:555📦Tồnkhohiệntại:555💰Giá:25.000đ"
     }
   ]
 }
