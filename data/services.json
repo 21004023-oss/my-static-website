@@ -10254,24 +10254,26 @@
         "name": "MiniMax Go Plan $22 1 Tháng (BH 20D)",
         "price": 185000,
         "cost_price": 165000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "Gói MiniMax Go Plan $22, thời hạn 1 tháng.\nBảo hành 20 ngày.\nĐịnh dạng: Email | Pass | Link đọc code\nLink đăng nhập: https://platform.minimax.io/login",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 5,
             "cost_price": 165000,
             "selling_price": 185000,
-            "updated": "04:06 21/10/2026"
+            "updated": "18:30 26/10/2026"
           }
         },
         "hidden": false,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 165000
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 165000,
+          "stock": 5
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792572904127",
@@ -10661,6 +10663,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793014227051",
+      "time": "18:30 - 26/10/2026",
+      "name": "MiniMax Go Plan $22 1 Tháng (BH 20D)",
+      "bot": "taphoathomap_bot",
+      "price": 185000,
+      "costPrice": 165000,
+      "stockAfter": 5,
+      "catKey": "khac",
+      "msgKey": "⭐MiniMaxGoPlan$221Tháng(BH20D)➕Thêm:2📦Tồnkhohiệntại:5💰Giá:165.000đ"
+    },
     {
       "id": "hist-1793014222546",
       "time": "18:30 - 26/10/2026",
@@ -11749,17 +11762,6 @@
       "stockAfter": 14,
       "catKey": "meitu-wink",
       "msgKey": "✨MeituSVip1ThángBHF➕Thêm:14📦Tồnkhohiệntại:14💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1792733078383",
-      "time": "12:24 - 23/10/2026",
-      "name": "CODE YOUTUBE PREMIUM 3 THÁNG - BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 7,
-      "catKey": "youtube",
-      "msgKey": "▶️CODEYOUTUBEPREMIUM3THÁNG-BH24H➕Thêm:1📦Tồnkhohiệntại:7💰Giá:60.000đ"
     }
   ]
 }
