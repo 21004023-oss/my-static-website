@@ -7217,6 +7217,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793029786370",
+        "name": "VIEON VIP 1 THÁNG BHF",
+        "price": 38000,
+        "cost_price": 28000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 1,
+            "cost_price": 28000,
+            "selling_price": 38000,
+            "updated": "22:49 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 28000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11231,6 +11257,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793029786370",
+      "time": "22:49 - 26/10/2026",
+      "name": "VIEON VIP 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 38000,
+      "costPrice": 28000,
+      "stockAfter": 1,
+      "catKey": "netflix",
+      "msgKey": "⭐VIEONVIP1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:28.000đ"
+    },
+    {
       "id": "hist-1793029780015",
       "time": "22:49 - 26/10/2026",
       "name": "Tài khoản VieON VIP 30 ngày bhf",
@@ -12318,17 +12355,6 @@
       "stockAfter": 2,
       "catKey": "khac",
       "msgKey": "🎙️(Góichínhhãng)Elevenlabscreator3tháng(bh2tháng)➕Thêm:1📦Tồnkhohiệntại:2💰Giá:280"
-    },
-    {
-      "id": "hist-1792807358789",
-      "time": "09:02 - 24/10/2026",
-      "name": "Elevenlabs creator 3 tháng (bh 2 tháng)",
-      "bot": "piggyai99_bot",
-      "price": 320000,
-      "costPrice": 290000,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "msgKey": "🎙️Elevenlabscreator3tháng(bh2tháng)➕Thêm:1📦Tồnkhohiệntại:2💰Giá:290.000đ"
     }
   ]
 }
