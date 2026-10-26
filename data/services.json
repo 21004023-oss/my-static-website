@@ -11139,11 +11139,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793019141613",
+        "name": "Gợi ý sản phẩm dành cho bạn",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Gợi ý sản phẩm dành cho bạn bảo hành uy tín.",
+        "sources": {
+          "toki_shopmmo_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "19:52 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@toki_shopmmo_bot",
+          "cost_price": 0,
+          "stock": 0
+        },
+        "import_note": "Nhập: @toki_shopmmo_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793019141613",
+      "time": "19:52 - 26/10/2026",
+      "name": "Gợi ý sản phẩm dành cho bạn",
+      "bot": "toki_shopmmo_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "🛒Gợiýsảnphẩmdànhchobạn📦DiscordNitroBoost1ThángChínhChủ–GiáTốt,KíchHoạtNhanh,BảoH"
+    },
     {
       "id": "hist-1793018922380",
       "time": "19:48 - 26/10/2026",
@@ -12232,17 +12269,6 @@
       "stockAfter": 169,
       "catKey": "khac",
       "msgKey": "☁️LinkGeminiAIPro18tháng➕Thêm:45📦Tồnkhohiệntại:169💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1792764428768",
-      "time": "21:07 - 23/10/2026",
-      "name": "Slot Youtube Premium 1 Năm BHF",
-      "bot": "piggyai99_bot",
-      "price": 310000,
-      "costPrice": 280000,
-      "stockAfter": 614,
-      "catKey": "youtube",
-      "msgKey": "▶️SlotYoutubePremium1NămBHF➕Thêm:2📦Tồnkhohiệntại:614💰Giá:280.000đ"
     }
   ]
 }
