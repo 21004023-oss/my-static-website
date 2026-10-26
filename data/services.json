@@ -11512,11 +11512,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793033224323",
+        "name": "Tài Khoản Tiktok VN ( Việt Nam )",
+        "price": 20000,
+        "cost_price": 10000,
+        "stock": 343,
+        "stock_text": "Còn 343",
+        "duration": "1 Tháng",
+        "detail": "Tạo Phone Liên Kết Hotmail _ Outlock ON 2FA ĐÃ TẠO 2-3 Tuần ( 21-9-2026 )\nĐịnh dạng tài khoản : user|pass|2fa|mail|pass|token|id|mailkhoiphuc|quocgia",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 343,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "23:47 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 10000,
+          "stock": 343
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793033224323",
+      "time": "23:47 - 26/10/2026",
+      "name": "Tài Khoản Tiktok VN ( Việt Nam )",
+      "bot": "taphoathomap_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 343,
+      "catKey": "khac",
+      "msgKey": "🎵TàiKhoảnTiktokVN(ViệtNam)➕Thêm:343📦Tồnkhohiệntại:343💰Giá:10.000đ"
+    },
     {
       "id": "hist-1793033155784",
       "time": "23:45 - 26/10/2026",
@@ -12605,17 +12642,6 @@
       "stockAfter": 31,
       "catKey": "gmail",
       "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:3📦Tồnkhohiệntại:0💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793014312118",
-      "time": "18:31 - 26/10/2026",
-      "name": "NORTON VPN ULTIMATE 7 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "price": 30000,
-      "costPrice": 20000,
-      "stockAfter": 10,
-      "catKey": "vpn",
-      "msgKey": "⭐NORTONVPNULTIMATE7NGÀYBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:20.000đ"
     }
   ]
 }
