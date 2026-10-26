@@ -10868,11 +10868,48 @@
         "import_note": "Nhập: @shopxoainon_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793015479552",
+        "name": "Dreamina Advanced 21k cre 1 tháng bh 3 ngày",
+        "price": 1300000,
+        "cost_price": 1100000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "LOG TRỰC TIẾP TẠI\nhttps://dreamina.capcut.com/ai-tool/home",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 1100000,
+            "selling_price": 1300000,
+            "updated": "18:51 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 1100000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793015479552",
+      "time": "18:51 - 26/10/2026",
+      "name": "Dreamina Advanced 21k cre 1 tháng bh 3 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 1300000,
+      "costPrice": 1100000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "msgKey": "⭐DreaminaAdvanced21kcre1thángbh3ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:1.100.000đ"
+    },
     {
       "id": "hist-1793015369118",
       "time": "18:49 - 26/10/2026",
@@ -11961,17 +11998,6 @@
       "stockAfter": 9,
       "catKey": "kling",
       "msgKey": "🎬Kling790-1kCredit1thángBH1Ngày➕Thêm:9📦Tồnkhohiệntại:9💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1792749397799",
-      "time": "16:56 - 23/10/2026",
-      "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
-      "bot": "ntnshopre_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 10,
-      "catKey": "kling",
-      "msgKey": "🎬KLING792-992cre1tháng(BH24h)➕Thêm:9📦Tồnkhohiệntại:9💰Giá:150.000đ"
     }
   ]
 }
