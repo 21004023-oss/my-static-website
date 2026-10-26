@@ -4629,8 +4629,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 18,
-        "stock_text": "Còn 18",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành",
         "sources": {
@@ -4641,10 +4641,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 16,
+            "stock": 6,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "18:35 26/10/2026"
+            "updated": "18:41 26/10/2026"
           }
         },
         "hidden": false,
@@ -4653,7 +4653,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 16
+          "stock": 6
         }
       },
       {
@@ -10795,6 +10795,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793014874864",
+      "time": "18:41 - 26/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 8,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH💰Giá:109k📦Tồnkho:6tàikhoản📊Đãbán:186tàikhoản💎Môtả:Mail|PassĐượ"
+    },
+    {
       "id": "hist-1793014871176",
       "time": "18:41 - 26/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -11882,17 +11893,6 @@
       "stockAfter": 8,
       "catKey": "meitu-wink",
       "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792744901955",
-      "time": "15:41 - 23/10/2026",
-      "name": "ChatGPT có offer PLUS 0$  1 tháng - KBH",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 1,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTcóofferPLUS0$1tháng-KBH➕Thêm:1📦Tồnkhohiệntại:1💰Giá:30.000đ"
     }
   ]
 }
