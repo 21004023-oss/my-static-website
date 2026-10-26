@@ -7679,26 +7679,27 @@
       {
         "id": "p-1792261855714",
         "name": "Proton VPN 14-28 Ngày BHF",
-        "price": 55000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "price": 65000,
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "- Tài khoản Proton VPN 14 Ngày (iOS, Android, PC) 10 Thiết bị BHF 14 ngày\n- Định dạng: Email:Pass",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 5,
-            "cost_price": 45000,
-            "selling_price": 55000,
-            "updated": "01:38 19/10/2026"
+            "stock": 4,
+            "cost_price": 55000,
+            "selling_price": 65000,
+            "updated": "21:57 26/10/2026"
           }
         },
-        "hidden": true,
-        "cost_price": 45000,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "cost_price": 55000,
+        "needs_review": false,
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 45000
+          "bot": "@sieuthistore_bot",
+          "cost_price": 55000,
+          "stock": 4
         }
       },
       {
@@ -11042,6 +11043,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793026637902",
+      "time": "21:57 - 26/10/2026",
+      "name": "Proton VPN 14-28 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 4,
+      "catKey": "vpn",
+      "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793026187577",
       "time": "21:49 - 26/10/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -12129,17 +12141,6 @@
       "stockAfter": 27,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:27💰Giá:265.000đ"
-    },
-    {
-      "id": "hist-1792757082728",
-      "time": "19:04 - 23/10/2026",
-      "name": "ChatGPT Plus (Codex Full) 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 360000,
-      "costPrice": 310000,
-      "stockAfter": 27,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus(CodexFull)1ThángBHF➕Thêm:5📦Tồnkhohiệntại:27💰Giá:310.000đ"
     }
   ]
 }
