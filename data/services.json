@@ -8277,9 +8277,9 @@
         "id": "p-1793023206475",
         "name": "Express VPN 3 ngày 10 thiết bị BHF",
         "price": 45000,
-        "cost_price": 35000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "cost_price": 15000,
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "3 Ngày",
         "detail": "Định dạng: email|pass , pass là activation key luôn\nLấy code tại: Cutemail.us",
         "sources": {
@@ -8288,14 +8288,20 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "updated": "21:00 26/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "21:00 26/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 35000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
           "stock": 5
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -11548,6 +11554,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793023229432",
+      "time": "21:00 - 26/10/2026",
+      "name": "Express VPN 10 thiết bị 3 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 10,
+      "catKey": "vpn",
+      "msgKey": "🚚ExpressVPN10thiếtbị3ngàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793023220591",
       "time": "21:00 - 26/10/2026",
       "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
@@ -12635,17 +12652,6 @@
       "stockAfter": 80,
       "catKey": "khac",
       "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:75📦Tồnkhohiệntại:80💰Giá:45.00"
-    },
-    {
-      "id": "hist-1793014133917",
-      "time": "18:28 - 26/10/2026",
-      "name": "CAPCUT TEAM 6 THÁNG  BHF",
-      "bot": "ntnshopre_bot",
-      "price": 320000,
-      "costPrice": 290000,
-      "stockAfter": 6,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTTEAM6THÁNGBHF➕Thêm:4📦Tồnkhohiệntại:2💰Giá:290.000đ"
     }
   ]
 }
