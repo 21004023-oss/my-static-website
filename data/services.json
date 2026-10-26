@@ -4714,16 +4714,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 12,
+            "stock": 2,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "18:41 26/10/2026"
+            "updated": "19:02 26/10/2026"
           }
         },
         "hidden": false,
@@ -4731,7 +4731,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 12
+          "stock": 2
         },
         "needs_review": false
       },
@@ -11004,6 +11004,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793016124078",
+      "time": "19:02 - 26/10/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 2,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:2💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793015949314",
       "time": "18:59 - 26/10/2026",
       "name": "Link Gemini Pro 18 Tháng BH 24H",
@@ -12091,17 +12102,6 @@
       "stockAfter": 15,
       "catKey": "youtube",
       "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:12📦Tồnkhohiệntại:15💰Giá:39.000đ"
-    },
-    {
-      "id": "hist-1792751662128",
-      "time": "17:34 - 23/10/2026",
-      "name": "KEY HMA AND/PC 20-30 DAYS",
-      "bot": "ntnshopre_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 16,
-      "catKey": "khac",
-      "msgKey": "⭐KEYHMAAND/PC20-30DAYS➕Thêm:12📦Tồnkhohiệntại:16💰Giá:10.000đ"
     }
   ]
 }
