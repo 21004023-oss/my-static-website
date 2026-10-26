@@ -4917,16 +4917,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 16,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "19:02 26/10/2026"
+            "updated": "20:33 26/10/2026"
           }
         },
         "hidden": false,
@@ -4934,7 +4934,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 2
+          "stock": 16
         },
         "needs_review": false
       },
@@ -11415,6 +11415,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793021591011",
+      "time": "20:33 - 26/10/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 16,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:16📦Tồnkhohiệntại:16💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793021389044",
       "time": "20:29 - 26/10/2026",
       "name": "Netflix Premium Extra 1 Tháng BHF",
@@ -12502,17 +12513,6 @@
       "stockAfter": 16,
       "catKey": "api-claude-codex",
       "msgKey": "🧠VIP1.API15MTokenClaude1Ngày-BHF➕Thêm:15📦Tồnkhohiệntại:16💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792807633126",
-      "time": "09:07 - 24/10/2026",
-      "name": "Muse Ai 1B Token KBH",
-      "bot": "sieuthistore_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 380,
-      "catKey": "khac",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:20📦Tồnkhohiệntại:42💰Giá:15.000đ"
     }
   ]
 }
