@@ -7310,6 +7310,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 10000
         }
+      },
+      {
+        "id": "p-1793021389044",
+        "name": "Netflix Premium Extra 1 Tháng BHF",
+        "price": 170000,
+        "cost_price": 150000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 1,
+            "cost_price": 150000,
+            "selling_price": 170000,
+            "updated": "20:29 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 150000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11389,6 +11415,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793021389044",
+      "time": "20:29 - 26/10/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 1,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793021333230",
       "time": "20:28 - 26/10/2026",
       "name": "ChatGPT Go 1 Tháng  BHF",
@@ -12476,17 +12513,6 @@
       "stockAfter": 380,
       "catKey": "khac",
       "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:20📦Tồnkhohiệntại:42💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792807365980",
-      "time": "09:02 - 24/10/2026",
-      "name": "( Gói chính hãng ) Elevenlabs creator 3 tháng (bh 2 tháng)",
-      "bot": "taphoathomap_bot",
-      "price": 310000,
-      "costPrice": 280000,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "msgKey": "🎙️(Góichínhhãng)Elevenlabscreator3tháng(bh2tháng)➕Thêm:1📦Tồnkhohiệntại:2💰Giá:280"
     }
   ]
 }
