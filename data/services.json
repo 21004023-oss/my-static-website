@@ -11483,10 +11483,10 @@
       {
         "id": "p-1793032376699",
         "name": "Galaxy Play VIP 30 ngày BHF",
-        "price": 60000,
+        "price": 95000,
         "cost_price": 50000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "1 Slot galaxy play Vip xem all phim\nĐăng nhập và xem trên 1 thiết bị\nKhông đổi pass, pin và tên profile\nBảo hành 30 ngày",
         "sources": {
@@ -11495,6 +11495,12 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "updated": "23:32 26/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 2,
+            "cost_price": 85000,
+            "selling_price": 95000,
+            "updated": "23:33 26/10/2026"
           }
         },
         "cheapest_source": {
@@ -11510,6 +11516,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793032380878",
+      "time": "23:33 - 26/10/2026",
+      "name": "Galaxy Play VIP 30 ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 4,
+      "catKey": "khac",
+      "msgKey": "⭐GalaxyPlayVIP30ngàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:85.000đ"
+    },
     {
       "id": "hist-1793032376699",
       "time": "23:32 - 26/10/2026",
@@ -12598,17 +12615,6 @@
       "stockAfter": 36,
       "catKey": "khac",
       "msgKey": "⭐XBOXGAMEPASSULTIMATE-1NĂM(BH1Tháng)➕Thêm:4📦Tồnkhohiệntại:18💰Giá:370.000đ"
-    },
-    {
-      "id": "hist-1793014231731",
-      "time": "18:30 - 26/10/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
-      "bot": "taphoathomap_bot",
-      "price": 85000,
-      "costPrice": 75000,
-      "stockAfter": 51,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:18📦Tồnkhohiệntại:51💰Giá:75.000đ"
     }
   ]
 }
