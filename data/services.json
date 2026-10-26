@@ -3967,26 +3967,27 @@
         "id": "p-1791958427941",
         "name": "API Claude 100M Token 1 ngày BHF",
         "price": 110000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Ngày",
         "detail": "-API Claude 100M-Hàng anthropic\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Base Url : https://api.opusapi.store/\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-File hướng dẫn sử dụng và thiết lập:\n+ENGLISH: https://docs.google.com/document/d/1-r0i4qkHToW3exdkJfUAzin78s_bRbYb4nnvchhvtjg/edit?usp=sharing\n+VIETNAM: https://docs.google.com/document/d/1rBLXYdzTHL5mvm6c8d4QN2c7qWh8Cjj8sgEEf-_Wzug/edit?usp=sharing",
         "sources": {
           "piggyai99_bot": {
-            "stock": 2,
+            "stock": 5,
             "cost_price": 100000,
             "selling_price": 110000,
-            "updated": "17:09 18/10/2026"
+            "updated": "19:55 26/10/2026"
           }
         },
-        "cost_price": 45000,
-        "needs_review": true,
-        "hidden": true,
+        "cost_price": 100000,
+        "needs_review": false,
+        "hidden": false,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 45000
+          "bot": "@piggyai99_bot",
+          "cost_price": 100000,
+          "stock": 5
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "Nhập: @piggyai99_bot"
       },
       {
         "id": "p-1791993142500",
@@ -11197,6 +11198,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793019358767",
+      "time": "19:55 - 26/10/2026",
+      "name": "API Claude 100M Token 1 ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 5,
+      "catKey": "api-claude-codex",
+      "msgKey": "🧠APIClaude100MToken1ngàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1793019312266",
       "time": "19:55 - 26/10/2026",
       "name": "Chatgpt plus 1 tháng pay PIX riêng tư - Bh24h vừa được nhập kho 🔥",
@@ -12284,17 +12296,6 @@
       "stockAfter": 5,
       "catKey": "api-claude-codex",
       "msgKey": "⭐APICODEXASTRA650$TOKEN1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1792765518209",
-      "time": "21:25 - 23/10/2026",
-      "name": "Slot Youtube Premium 3 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 577,
-      "catKey": "youtube",
-      "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:577💰Giá:95.000đ"
     }
   ]
 }
