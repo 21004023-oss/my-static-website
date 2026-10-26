@@ -10538,10 +10538,10 @@
       {
         "id": "p-1793014129401",
         "name": "SUNO PREMIER 1 THÁNG (BH 3 NGÀY)",
-        "price": 490000,
+        "price": 535000,
         "cost_price": 440000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "Gói SUNO PREMIER 1 THÁNG (BH 3 NGÀY) bảo hành uy tín.",
         "sources": {
@@ -10550,6 +10550,12 @@
             "cost_price": 440000,
             "selling_price": 490000,
             "updated": "18:28 26/10/2026"
+          },
+          "ntnshopre_bot": {
+            "stock": 2,
+            "cost_price": 485000,
+            "selling_price": 535000,
+            "updated": "18:29 26/10/2026"
           }
         },
         "cheapest_source": {
@@ -10591,6 +10597,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793014143076",
+      "time": "18:29 - 26/10/2026",
+      "name": "SUNO PREMIER 1 THÁNG BẢO HÀNH 3 NGÀY",
+      "bot": "ntnshopre_bot",
+      "price": 535000,
+      "costPrice": 485000,
+      "stockAfter": 4,
+      "catKey": "khac",
+      "msgKey": "🎵SUNOPREMIER1THÁNGBẢOHÀNH3NGÀY➕Thêm:2📦Tồnkhohiệntại:2💰Giá:485.000đ"
+    },
     {
       "id": "hist-1793014138169",
       "time": "18:28 - 26/10/2026",
@@ -11679,17 +11696,6 @@
       "stockAfter": 18,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:16📦Tồnkhohiệntại:18💰Giá:38.000đ"
-    },
-    {
-      "id": "hist-1792730190367",
-      "time": "11:36 - 23/10/2026",
-      "name": "Link Gemini Pro 18 Tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 71,
-      "catKey": "khac",
-      "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:50📦Tồnkhohiệntại:71💰Giá:40.000đ"
     }
   ]
 }
