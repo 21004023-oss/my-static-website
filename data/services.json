@@ -10990,8 +10990,8 @@
         "name": "Muse Ai  1B Token KBH",
         "price": 40000,
         "cost_price": 15000,
-        "stock": 2150,
-        "stock_text": "Còn 2150",
+        "stock": 3133,
+        "stock_text": "Còn 3133",
         "duration": "1 Tháng",
         "detail": "Muse AI 1 Billion tokens - No warranty\n- Format: email | Link get code",
         "sources": {
@@ -11002,10 +11002,10 @@
             "updated": "06:01 27/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 563,
+            "stock": 1546,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "00:11 27/10/2026"
+            "updated": "06:02 27/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 41,
@@ -11017,7 +11017,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 563
+          "stock": 1546
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -12252,6 +12252,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793055722905",
+      "time": "06:02 - 27/10/2026",
+      "name": "Muse Ai  1B Token KBH",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 3133,
+      "catKey": "khac",
+      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:1📦Tồnkhohiệntại:1546💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793055716792",
       "time": "06:01 - 27/10/2026",
       "name": "Muse Ai  1B Token KBH",
@@ -13339,17 +13350,6 @@
       "stockAfter": 67,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥VIP.ChatgptPlusApplePay1thángBHF➕Thêm:50📦Tồnkhohiệntại:67💰Giá:200.000đ"
-    },
-    {
-      "id": "hist-1793031316381",
-      "time": "23:15 - 26/10/2026",
-      "name": "Surfshark VPN One 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 27,
-      "catKey": "vpn",
-      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:15.000đ"
     }
   ]
 }
