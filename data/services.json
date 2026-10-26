@@ -11479,11 +11479,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793032376699",
+        "name": "Galaxy Play VIP 30 ngày BHF",
+        "price": 60000,
+        "cost_price": 50000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "1 Slot galaxy play Vip xem all phim\nĐăng nhập và xem trên 1 thiết bị\nKhông đổi pass, pin và tên profile\nBảo hành 30 ngày",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "23:32 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 50000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793032376699",
+      "time": "23:32 - 26/10/2026",
+      "name": "Galaxy Play VIP 30 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "msgKey": "⭐GalaxyPlayVIP30ngàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:50.000đ"
+    },
     {
       "id": "hist-1793032098130",
       "time": "23:28 - 26/10/2026",
@@ -12572,17 +12609,6 @@
       "stockAfter": 51,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:18📦Tồnkhohiệntại:51💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1793014227051",
-      "time": "18:30 - 26/10/2026",
-      "name": "MiniMax Go Plan $22 1 Tháng (BH 20D)",
-      "bot": "taphoathomap_bot",
-      "price": 185000,
-      "costPrice": 165000,
-      "stockAfter": 5,
-      "catKey": "khac",
-      "msgKey": "⭐MiniMaxGoPlan$221Tháng(BH20D)➕Thêm:2📦Tồnkhohiệntại:5💰Giá:165.000đ"
     }
   ]
 }
