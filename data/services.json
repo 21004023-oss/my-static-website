@@ -2064,6 +2064,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793014231731",
+        "name": "CHAT GPT PLUS 1 tháng - BH 6H",
+        "price": 85000,
+        "cost_price": 75000,
+        "stock": 51,
+        "stock_text": "Còn 51",
+        "duration": "1 Tháng",
+        "detail": "Gói CHAT GPT PLUS 1 tháng - BH 6H bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 51,
+            "cost_price": 75000,
+            "selling_price": 85000,
+            "updated": "18:30 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 75000,
+          "stock": 51
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -10664,6 +10690,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793014231731",
+      "time": "18:30 - 26/10/2026",
+      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
+      "bot": "taphoathomap_bot",
+      "price": 85000,
+      "costPrice": 75000,
+      "stockAfter": 51,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:18📦Tồnkhohiệntại:51💰Giá:75.000đ"
+    },
+    {
       "id": "hist-1793014227051",
       "time": "18:30 - 26/10/2026",
       "name": "MiniMax Go Plan $22 1 Tháng (BH 20D)",
@@ -11751,17 +11788,6 @@
       "stockAfter": 28,
       "catKey": "meitu-wink",
       "msgKey": "✨MeituSVIP1ThángBHF➕Thêm:14📦Tồnkhohiệntại:14💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1792735680024",
-      "time": "13:08 - 23/10/2026",
-      "name": "Meitu SVip 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 85000,
-      "costPrice": 75000,
-      "stockAfter": 14,
-      "catKey": "meitu-wink",
-      "msgKey": "✨MeituSVip1ThángBHF➕Thêm:14📦Tồnkhohiệntại:14💰Giá:75.000đ"
     }
   ]
 }
