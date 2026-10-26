@@ -10187,15 +10187,17 @@
             "stock": 12,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "21:09 19/10/2026"
+            "updated": "18:30 26/10/2026"
           }
         },
         "hidden": false,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 110000
-        }
+          "bot": "@sieuthistore_bot",
+          "cost_price": 110000,
+          "stock": 12
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792529382880",
@@ -10633,6 +10635,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793014212761",
+      "time": "18:30 - 26/10/2026",
+      "name": "Key Window 10/11 Pro Byphone 20 năm BH 1 năm",
+      "bot": "sieuthistore_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 12,
+      "catKey": "khac",
+      "msgKey": "⭐KeyWindow10/11ProByphone20nămBH1năm➕Thêm:5📦Tồnkhohiệntại:12💰Giá:110.000đ"
+    },
     {
       "id": "hist-1793014207647",
       "time": "18:30 - 26/10/2026",
@@ -11721,17 +11734,6 @@
       "stockAfter": 8,
       "catKey": "youtube",
       "msgKey": "▶️CODEKÍCHHOẠTYOUTUBEPREMIUM3THÁNGBẢOHÀNHFULL➕Thêm:8📦Tồnkhohiệntại:8💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1792730605483",
-      "time": "11:43 - 23/10/2026",
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 8,
-      "catKey": "meitu-wink",
-      "msgKey": "✨MeituSVip+7NgàyBHF💰Giá:35k📦Tồnkho:5tàikhoản📊Đãbán:804tàikhoản💎Môtả:MeituSVIP(VI"
     }
   ]
 }
