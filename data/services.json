@@ -11251,11 +11251,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793030144373",
+        "name": "ADMIN GEMINI PRO + GOOGLE ONE 5TB 6 THÁNG BẢO HÀNH 24H",
+        "price": 170000,
+        "cost_price": 150000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "6 Tháng",
+        "detail": "- Định dạng: Mail | Pass | 2fa\n- Add được 5 slot cùng hưởng Gemini Pro + GG 5TB trong 6 tháng\n- Bảo hành 24h, khách mua về tự thay đổi thông tin bảo quản tài khoản.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 10,
+            "cost_price": 150000,
+            "selling_price": 170000,
+            "updated": "22:55 26/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 150000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793030144373",
+      "time": "22:55 - 26/10/2026",
+      "name": "ADMIN GEMINI PRO + GOOGLE ONE 5TB 6 THÁNG BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 10,
+      "catKey": "khac",
+      "msgKey": "☁️ADMINGEMINIPRO+GOOGLEONE5TB6THÁNGBẢOHÀNH24H➕Thêm:10📦Tồnkhohiệntại:10💰Giá:150.0"
+    },
     {
       "id": "hist-1793030133924",
       "time": "22:55 - 26/10/2026",
@@ -12344,17 +12381,6 @@
       "stockAfter": 379,
       "catKey": "khac",
       "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:20📦Tồnkhohiệntại:41💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1792809512846",
-      "time": "09:38 - 24/10/2026",
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 245000,
-      "costPrice": 215000,
-      "stockAfter": 92,
-      "catKey": "chatgpt",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:1📦Tồnkhohiệntại:92💰Giá:215.000đ"
     }
   ]
 }
