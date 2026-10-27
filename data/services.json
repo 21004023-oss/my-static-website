@@ -5009,22 +5009,22 @@
         "name": "Grok Super 1 ngày KBH",
         "price": 100000,
         "cost_price": 90000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Ngày",
         "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 6,
+            "stock": 5,
             "cost_price": 90000,
             "selling_price": 100000,
-            "updated": "08:44 27/10/2026"
+            "updated": "09:00 27/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 90000,
-          "stock": 6
+          "stock": 5
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -12399,6 +12399,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793066455785",
+      "time": "09:00 - 27/10/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 5,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:1📦Tồnkhohiệntại:5💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1793066391693",
       "time": "08:59 - 27/10/2026",
       "name": "seedance 2.5 1 tháng BH 4D",
@@ -13486,17 +13497,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "⚡SảnphẩmnổibậttạiTokiShopMMO📦158KDecorDiscord/ProfileEffectGiáRẻ(DạngLogin)–SởHữ"
-    },
-    {
-      "id": "hist-1793033607235",
-      "time": "23:53 - 26/10/2026",
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 83,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:11📦Tồnkhohiệntại:56💰Giá:65.000đ"
     }
   ]
 }
