@@ -6571,16 +6571,16 @@
         "id": "p-1792192343631",
         "name": "Gmail random 5-10 tháng 2FA",
         "price": 55000,
-        "stock": 32,
-        "stock_text": "Còn 32",
-        "duration": "10 Tháng",
+        "stock": 17,
+        "stock_text": "Còn 17",
+        "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2fa\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 16,
+            "stock": 1,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "17:09 18/10/2026"
+            "updated": "11:02 27/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 16,
@@ -6589,14 +6589,15 @@
             "updated": "17:09 18/10/2026"
           }
         },
-        "hidden": true,
-        "cost_price": 15000,
-        "needs_review": true,
+        "hidden": false,
+        "cost_price": 25000,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 25000,
+          "stock": 16
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792192349068",
@@ -12546,6 +12547,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793073747456",
+      "time": "11:02 - 27/10/2026",
+      "name": "Gmail random 5-10 tháng 2FA",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 17,
+      "catKey": "gmail",
+      "msgKey": "📧Gmailrandom5-10tháng2FA➕Thêm:1📦Tồnkhohiệntại:1💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793073714555",
       "time": "11:01 - 27/10/2026",
       "name": "MUSE AI 31 TỶ TOKEN KBH vừa được nhập kho 🔥",
@@ -13633,17 +13645,6 @@
       "stockAfter": 43,
       "catKey": "khac",
       "msgKey": "⭐NângchínhchủRUNWAYSTANDARD1THÁNG(BH15Ngày)➕Thêm:43📦Tồnkhohiệntại:43💰Giá:280.000"
-    },
-    {
-      "id": "hist-1793035686183",
-      "time": "00:28 - 27/10/2026",
-      "name": "Nâng chính chủ RUNWAY MAX 1 THÁNG (BH 7 NGÀY)",
-      "bot": "taphoathomap_bot",
-      "price": 1490000,
-      "costPrice": 1290000,
-      "stockAfter": 43,
-      "catKey": "khac",
-      "msgKey": "⭐NângchínhchủRUNWAYMAX1THÁNG(BH7NGÀY)➕Thêm:43📦Tồnkhohiệntại:43💰Giá:1.290.000đ"
     }
   ]
 }
