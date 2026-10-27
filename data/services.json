@@ -3106,6 +3106,32 @@
           "cost_price": 2500
         },
         "import_note": "🛒 @toki_shopmmo_bot"
+      },
+      {
+        "id": "p-1793122933396",
+        "name": "Capcut Pro 30d full Date - BHF vừa được nhập kho 🔥",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Capcut Pro 30d full Date - BHF vừa được nhập kho 🔥 bảo hành uy tín.",
+        "sources": {
+          "shopxoainon_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "00:42 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@shopxoainon_bot",
+          "cost_price": 0,
+          "stock": 0
+        },
+        "import_note": "Nhập: @shopxoainon_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=capcut.com&sz=64"
@@ -10051,6 +10077,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793122933396",
+      "time": "00:42 - 28/10/2026",
+      "name": "Capcut Pro 30d full Date - BHF vừa được nhập kho 🔥",
+      "bot": "shopxoainon_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "capcut",
+      "msgKey": "🎉HÀNGMỚIVỀKỆ!🎬CapcutPro30dfullDate-BHFvừađượcnhậpkho🔥📦Sốlượngcósẵn:48💵Giáchỉ:38."
+    },
+    {
       "id": "hist-1793122835244",
       "time": "00:40 - 28/10/2026",
       "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
@@ -11426,20 +11463,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTGo1Tháng-BH3Ngày➕Thêm:14📦Tồnkhohiệntại:22💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792579871963",
-      "time": "17:51 - 21/10/2026",
-      "timestamp": 1792579871963,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 15,
-      "addedQty": 25,
-      "price": 85000,
-      "stockAfter": 15,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:25📦Tồnkhohiệntại:15💰Giá:75.000đ"
     }
   ]
 }
