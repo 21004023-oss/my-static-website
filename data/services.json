@@ -13126,11 +13126,48 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793088378972",
+        "name": "Chung sức Liên Quân ( 3 Rương )",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 110,
+        "stock_text": "Còn 110",
+        "duration": "1 Tháng",
+        "detail": "Thanh toán đơn hàng thành công\nVui lòng gửi mã đúng để tiến hành nạp\nDone trong 1-2p",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 110,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "15:06 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 25000,
+          "stock": 110
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793088378972",
+      "time": "15:06 - 27/10/2026",
+      "name": "Chung sức Liên Quân ( 3 Rương )",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 110,
+      "catKey": "khac",
+      "msgKey": "ChungsứcLiênQuân(3Rương)➕Thêm:110📦Tồnkhohiệntại:110💰Giá:25.000đ"
+    },
     {
       "id": "hist-1793088254702",
       "time": "15:04 - 27/10/2026",
@@ -14219,17 +14256,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!📦GóiGeminiPro&Drive5TB18ThángChínhchủvừađượcnhậpkho🔥📦Sốlượngcòn:171"
-    },
-    {
-      "id": "hist-1793077270495",
-      "time": "12:01 - 27/10/2026",
-      "name": "MUSE AI 1 TỶ TOKEN KBH vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI1TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:50💵Giáchỉ:6.800đ🎁Khu"
     }
   ]
 }
