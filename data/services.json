@@ -13558,11 +13558,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793119162109",
+        "name": "DANH SÁCH SẢN PHẨM",
+        "price": 155400,
+        "cost_price": 135400,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói DANH SÁCH SẢN PHẨM bảo hành uy tín.",
+        "sources": {
+          "shopxoainon_bot": {
+            "stock": 0,
+            "cost_price": 135400,
+            "selling_price": 155400,
+            "updated": "23:39 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@shopxoainon_bot",
+          "cost_price": 135400,
+          "stock": 0
+        },
+        "import_note": "Nhập: @shopxoainon_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793119162109",
+      "time": "23:39 - 27/10/2026",
+      "name": "DANH SÁCH SẢN PHẨM",
+      "bot": "shopxoainon_bot",
+      "price": 155400,
+      "costPrice": 135400,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "🛒DANHSÁCHSẢNPHẨM━━━━━━━━━━━━━━━━🧠Chatgptplus1thángpayPIXriêngtư-Bh24h├Giá:135.40"
+    },
     {
       "id": "hist-1793119154087",
       "time": "23:39 - 27/10/2026",
@@ -14651,17 +14688,6 @@
       "stockAfter": 3,
       "catKey": "khac",
       "msgKey": "⭐TV360Standard3thángBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1793110163271",
-      "time": "21:09 - 27/10/2026",
-      "name": "📦 Gói Gemini Pro & Drive 5TB 18 Tháng Chính Chủ (dùng ngay trong 5p) vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐📦GóiGeminiPro&Drive5TB18ThángChínhChủ(dùngngaytrong5p)vừađượcnhậpk"
     }
   ]
 }
