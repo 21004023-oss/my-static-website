@@ -3367,6 +3367,32 @@
         "import_note": "Nhập: @shopxoainon_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793114579785",
+        "name": "Admin Canva Edu 500 slot 3 năm BH 1 năm",
+        "price": 400000,
+        "cost_price": 350000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Năm",
+        "detail": "📜 CÁC ĐIỀU KHOẢN & ĐIỀU KIỆN (T&C): Vui lòng sao chép toàn bộ định dạng tài khoản và nhập vào công cụ tại https://outlookreader.my.id/ để truy cập hộp thư Outlook/Hotmail của bạn mà không cần phải đăng nhập trực tiếp. Điều khoản • Tài khoản cá nhân (riêng tư) • Đăng nhập tối đa trên 3 thiết bị • Tương thích với mọi thiết bị • Hỗ trợ mời tối đa 500 người dùng • Sử dụng tài khoản hợp lý (tránh đăng nhập quá mức) • Không hoàn tiền (không hoàn lại phí sau khi quá trình kích hoạt đã được xác nhận thành công). Chính sách bảo hành • Bảo hành 1 năm đối với tài khoản  • Yêu cầu cung cấp bằng chứng khi khiếu nại (ảnh chụp màn hình/video) • Chế độ bảo hành sẽ mất hiệu lực nếu vi phạm các Điều khoản & Điều kiện (T&C) • Chế độ bảo hành sẽ mất hiệu lực nếu phương thức truy cập này bị ngừng cung cấp hoặc không còn hoạt động",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 350000,
+            "selling_price": 400000,
+            "updated": "22:22 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 350000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=canva.com&sz=64"
@@ -13451,6 +13477,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793114579785",
+      "time": "22:22 - 27/10/2026",
+      "name": "Admin Canva Edu 500 slot 3 năm BH 1 năm",
+      "bot": "taphoathomap_bot",
+      "price": 400000,
+      "costPrice": 350000,
+      "stockAfter": 5,
+      "catKey": "canva",
+      "msgKey": "🎨AdminCanvaEdu500slot3nămBH1năm➕Thêm:5📦Tồnkhohiệntại:5💰Giá:350.000đ"
+    },
+    {
       "id": "hist-1793114401950",
       "time": "22:20 - 27/10/2026",
       "name": "Tài khoản VieON VIP 3 Tháng BHF",
@@ -14538,17 +14575,6 @@
       "stockAfter": 78,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusApplePayGmail30D-BHF➕Thêm:22📦Tồnkhohiệntại:78💰Giá:270.000đ"
-    },
-    {
-      "id": "hist-1793104884923",
-      "time": "19:41 - 27/10/2026",
-      "name": "Netflix Premium Extra 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 2,
-      "catKey": "netflix",
-      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:150.000đ"
     }
   ]
 }
