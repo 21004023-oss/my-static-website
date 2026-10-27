@@ -7723,6 +7723,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793103688366",
+        "name": "SLOT riêng tư Netflix Premium 4K 1TH (BHF)",
+        "price": 100000,
+        "cost_price": 90000,
+        "stock": 17,
+        "stock_text": "Còn 17",
+        "duration": "1 Tháng",
+        "detail": "Netflix Premium 4K – Slot riêng tư 1 tháng (BHF)\nTài khoản Netflix Premium hỗ trợ chất lượng hình ảnh lên đến 4K Ultra HD (tùy nội dung và thiết bị). Sản phẩm cung cấp 1 slot sử dụng riêng trong thời hạn 1 tháng. Phù hợp với nhu cầu giải trí, xem phim và chương trình truyền hình trực tuyến.\nThông tin sản phẩm:\n- Dịch vụ: Netflix Premium\n- Chất lượng:Tối đa 4K Ultra HD\n- Loại: Slot riêng tư\n- Thời hạn: 1 tháng\n- Ghi chú: Vui lòng kiểm tra điều kiện sử dụng, thiết bị hỗ trợ và chính sách bảo hành của người bán trước khi đặt mua.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 17,
+            "cost_price": 90000,
+            "selling_price": 100000,
+            "updated": "19:21 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 90000,
+          "stock": 17
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12961,6 +12987,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793103688366",
+      "time": "19:21 - 27/10/2026",
+      "name": "SLOT riêng tư Netflix Premium 4K 1TH (BHF)",
+      "bot": "piggyai99_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 17,
+      "catKey": "netflix",
+      "msgKey": "🎬SLOTriêngtưNetflixPremium4K1TH(BHF)➕Thêm:5📦Tồnkhohiệntại:17💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1793103592554",
       "time": "19:19 - 27/10/2026",
       "name": "Grok Plus 30 ngày KBH",
@@ -14048,17 +14085,6 @@
       "stockAfter": 6,
       "catKey": "grok",
       "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:5📦Tồnkhohiệntại:6💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1793072542113",
-      "time": "10:42 - 27/10/2026",
-      "name": "MUSE AI 1 TỶ TOKEN KBH vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI1TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:10💵Giáchỉ:9.800đ🎁Khu"
     }
   ]
 }
