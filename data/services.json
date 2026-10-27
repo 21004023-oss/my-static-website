@@ -5203,22 +5203,22 @@
         "name": "Super GROK 1 Ngày - KBH",
         "price": 85000,
         "cost_price": 75000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Ngày",
-        "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua",
+        "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết, CHANGE = KBH\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 6,
             "cost_price": 75000,
             "selling_price": 85000,
-            "updated": "13:48 27/10/2026"
+            "updated": "14:03 27/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 75000,
-          "stock": 1
+          "stock": 6
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -12866,6 +12866,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793084599901",
+      "time": "14:03 - 27/10/2026",
+      "name": "Super GROK 1 Ngày - KBH",
+      "bot": "taphoathomap_bot",
+      "price": 85000,
+      "costPrice": 75000,
+      "stockAfter": 6,
+      "catKey": "grok",
+      "msgKey": "⚡SuperGROK1Ngày-KBH➕Thêm:5📦Tồnkhohiệntại:6💰Giá:75.000đ"
+    },
+    {
       "id": "hist-1793083929671",
       "time": "13:52 - 27/10/2026",
       "name": "GALAXY PLAY SIÊU VIỆT 3 THÁNG BHF",
@@ -13953,17 +13964,6 @@
       "stockAfter": 100,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)-Loginphone💰Giá:23k📦Tồnkho:50tàikhoản📊Đãbán:2.338tàikhoản💎Môtả:Bảohàn"
-    },
-    {
-      "id": "hist-1793072488876",
-      "time": "10:41 - 27/10/2026",
-      "name": "Gmail (New) -Login phone",
-      "bot": "piggyai99_bot",
-      "price": 33000,
-      "costPrice": 23000,
-      "stockAfter": 100,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)-Loginphone➕Thêm:50📦Tồnkhohiệntại:50💰Giá:23.000đ"
     }
   ]
 }
