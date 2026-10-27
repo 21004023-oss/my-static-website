@@ -5865,6 +5865,32 @@
           "cost_price": 11000
         },
         "import_note": "🛒 @KhoMMO_Market_bot"
+      },
+      {
+        "id": "p-1793125829365",
+        "name": "MUSE AI 31 TỶ TOKEN KBH vừa được nhập kho 🔥",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói MUSE AI 31 TỶ TOKEN KBH vừa được nhập kho 🔥 bảo hành uy tín.",
+        "sources": {
+          "shopxoainon_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "01:30 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@shopxoainon_bot",
+          "cost_price": 0,
+          "stock": 0
+        },
+        "import_note": "Nhập: @shopxoainon_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -10499,6 +10525,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793125829365",
+      "time": "01:30 - 28/10/2026",
+      "name": "MUSE AI 31 TỶ TOKEN KBH vừa được nhập kho 🔥",
+      "bot": "shopxoainon_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "muse-ai",
+      "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI31TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:20💵Giáchỉ:29.000đ🎁K"
+    },
+    {
       "id": "hist-1793125821462",
       "time": "01:30 - 28/10/2026",
       "name": "Spotify Premium (IOS) 3TH BHF",
@@ -11763,20 +11800,6 @@
       "catKey": "meitu-wink",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✨MeituSVIP1ThángBHF➕Thêm:10📦Tồnkhohiệntại:0💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1792606858594",
-      "time": "01:20 - 22/10/2026",
-      "timestamp": 1792606858594,
-      "name": "CapCut Pro Team 3 Tháng - BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 12,
-      "addedQty": 12,
-      "price": 180000,
-      "stockAfter": 19,
-      "catKey": "capcut",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:160.000đ"
     }
   ]
 }
