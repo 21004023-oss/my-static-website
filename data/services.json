@@ -3260,8 +3260,8 @@
         "id": "p-1791919210876",
         "name": "CapCut Pro Team 3 Tháng - BHF",
         "price": 180000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "3 Tháng",
         "detail": "Tài khoản Capcut Pro dạng team hạn sử dụng 90 ngày. • Có thể nhận tới 2000 Credit AI • Định dạng: Email | Pass • Login 1-2 thiết bị hạn chế login nhiều thiết bị. • Bảo hành 90 ngày, không bảo hành lỗi đăng nhập quá thường xuyên.\nTK tự động gia hạn mỗi tháng 1 lần đến khi đủ 1 tháng",
         "sources": {
@@ -3272,10 +3272,10 @@
             "updated": "14:52 22/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 8,
+            "stock": 3,
             "cost_price": 155000,
             "selling_price": 175000,
-            "updated": "09:46 24/10/2026"
+            "updated": "07:08 27/10/2026"
           }
         },
         "cost_price": 155000,
@@ -3285,7 +3285,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 155000,
-          "stock": 8
+          "stock": 3
         }
       },
       {
@@ -12336,6 +12336,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793059716859",
+      "time": "07:08 - 27/10/2026",
+      "name": "CapCut Pro Team 3 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 175000,
+      "costPrice": 155000,
+      "stockAfter": 10,
+      "catKey": "capcut",
+      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:155.000đ"
+    },
+    {
       "id": "hist-1793059712287",
       "time": "07:08 - 27/10/2026",
       "name": "CapCut Pro 3 Tháng BHF",
@@ -13423,17 +13434,6 @@
       "stockAfter": 22,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTGo1Tháng-BH3Ngày➕Thêm:1📦Tồnkhohiệntại:0💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793032733492",
-      "time": "23:38 - 26/10/2026",
-      "name": "Gmail Random 200X~2023 Có 2FA",
-      "bot": "taphoathomap_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 90,
-      "catKey": "gmail",
-      "msgKey": "📧GmailRandom200X~2023Có2FA💰Giá:35k📦Tồnkho:45tàikhoản📊Đãbán:4.375tàikhoản💎Môtả:Đị"
     }
   ]
 }
