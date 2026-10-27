@@ -8427,16 +8427,16 @@
         "id": "p-1792088127430",
         "name": "Grammarly AI Pro 1 Tháng BHF",
         "price": 100000,
-        "stock": 21,
-        "stock_text": "Còn 21",
+        "stock": 17,
+        "stock_text": "Còn 17",
         "duration": "1 Tháng",
-        "detail": "Grammarly Pro có AI 1 Tháng BHF\nĐịnh dạng: Email|Pass\n・　Viết lại toàn bộ câu chỉ với một cú nhấp chuột\n・　Dễ dàng điều chỉnh văn phong và giọng điệu bài viết\n・　Viết tiếng Anh trôi chảy và tự nhiên hơn\n・　Gợi ý cá nhân hóa không giới hạn\n・　Phát hiện đạo văn và nội dung do AI tạo ra\n・　Tạo nội dung với 2.000 lượt prompt AI\n-Chú ý: Không thay đổi thêm thắt bất kỳ cái gì vào tài khoản, nếu vi phạm sẽ không được bảo hành",
+        "detail": "Grammarly Pro có AI 1 Tháng BHF\nĐịnh dạng: Email|Pass\n・　Viết lại toàn bộ câu chỉ với một cú nhấp chuột\n・　Dễ dàng điều chỉnh văn phong và giọng điệu bài viết\n・　Viết tiếng Anh trôi chảy và tự nhiên hơn\n・　Gợi ý cá nhân hóa không giới hạn\n・　Phát hiện đạo văn và nội dung do AI tạo ra\n・　Tạo nội dung với 2.000 lượt prompt AI\n-Chú ý: Không thay đổi thêm thắt bất kỳ cái gì vào tài khoản, nếu vi phạm sẽ không được bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 7,
+            "stock": 3,
             "cost_price": 80000,
-            "updated": "00:45 18/10/2026",
-            "selling_price": 90000
+            "selling_price": 90000,
+            "updated": "01:36 28/10/2026"
           },
           "piggyai99_bot": {
             "stock": 7,
@@ -8451,13 +8451,14 @@
             "selling_price": 80000
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "cost_price": 90000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "cost_price": 70000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 90000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 70000,
+          "stock": 7
         }
       },
       {
@@ -10558,6 +10559,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793126183341",
+      "time": "01:36 - 28/10/2026",
+      "name": "Grammarly AI Pro 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 17,
+      "catKey": "grammarly",
+      "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:3💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1793126118372",
       "time": "01:35 - 28/10/2026",
       "name": "Spotify Premium (IOS) 1TH BHF",
@@ -11804,20 +11816,6 @@
       "catKey": "vpn",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "⭐KEYHMAAND/PC20-30DAYS➕Thêm:50📦Tồnkhohiệntại:22💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1792620792523",
-      "time": "05:13 - 22/10/2026",
-      "timestamp": 1792620792523,
-      "name": "KEY HMA AND/PC 20-30 DAYS",
-      "bot": "ntnshopre_bot",
-      "shopStock": 22,
-      "addedQty": 0,
-      "price": 20000,
-      "stockAfter": 22,
-      "catKey": "vpn",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "⭐KEYHMAAND/PC20-30DAYS💰Giá:10k📦Tồnkho:22tàikhoản📊Đãbán:619tàikhoản"
     }
   ]
 }
