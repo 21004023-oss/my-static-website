@@ -7917,22 +7917,22 @@
         "name": "Slot Netflix UHD 4K Premium 1 Tháng BHF",
         "price": 140000,
         "cost_price": 120000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "Netflix Premium 4K – Slot riêng tư 1 tháng (BHF)\nTài khoản Netflix Premium hỗ trợ chất lượng hình ảnh lên đến 4K Ultra HD (tùy nội dung và thiết bị). Sản phẩm cung cấp 1 slot sử dụng riêng trong thời hạn 1 tháng. Phù hợp với nhu cầu giải trí, xem phim và chương trình truyền hình trực tuyến.\nThông tin sản phẩm:\n- Dịch vụ: Netflix Premium\n- Chất lượng:Tối đa 4K Ultra HD\n- Loại: Slot riêng tư\n- Thời hạn: 1 tháng\n- Ghi chú: Vui lòng kiểm tra điều kiện sử dụng, thiết bị hỗ trợ và chính sách bảo hành của người bán trước khi đặt mua.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 5,
+            "stock": 10,
             "cost_price": 120000,
             "selling_price": 140000,
-            "updated": "14:40 27/10/2026"
+            "updated": "15:13 27/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 120000,
-          "stock": 5
+          "stock": 10
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -13184,6 +13184,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793088807790",
+      "time": "15:13 - 27/10/2026",
+      "name": "Slot Netflix UHD 4K Premium 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 10,
+      "catKey": "netflix",
+      "msgKey": "🎬SlotNetflixUHD4KPremium1ThángBHF➕Thêm:5📦Tồnkhohiệntại:10💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1793088803431",
       "time": "15:13 - 27/10/2026",
       "name": "SLOT riêng tư Netflix Premium 4K 1TH (BHF)",
@@ -14271,17 +14282,6 @@
       "stockAfter": 14,
       "catKey": "capcut",
       "msgKey": "✂️🔥CapcutPro6Tháng-BHF➕Thêm:5📦Tồnkhohiệntại:8💰Giá:290.000đ"
-    },
-    {
-      "id": "hist-1793077335133",
-      "time": "12:02 - 27/10/2026",
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 16,
-      "catKey": "meitu-wink",
-      "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:13💰Giá:35.000đ"
     }
   ]
 }
