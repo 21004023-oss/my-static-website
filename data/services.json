@@ -12567,11 +12567,48 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793074259053",
+        "name": "HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày",
+        "price": 750000,
+        "cost_price": 650000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Gói HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 650000,
+            "selling_price": 750000,
+            "updated": "11:10 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 650000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793074259053",
+      "time": "11:10 - 27/10/2026",
+      "name": "HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 750000,
+      "costPrice": 650000,
+      "stockAfter": 1,
+      "catKey": "khac",
+      "msgKey": "🎬HIGGPlus600-700CRE1ThángBH3ngày💰Giá:650k📦Tồnkho:1tàikhoản📊Đãbán:98tàikhoản"
+    },
     {
       "id": "hist-1793074254377",
       "time": "11:10 - 27/10/2026",
@@ -13660,17 +13697,6 @@
       "stockAfter": 67,
       "catKey": "vpn",
       "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:29💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793037012096",
-      "time": "00:50 - 27/10/2026",
-      "name": "SURFSHARK VPN ONE 7 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "price": 28000,
-      "costPrice": 18000,
-      "stockAfter": 57,
-      "catKey": "vpn",
-      "msgKey": "🦈SURFSHARKVPNONE7NGÀYBHF💰Giá:18k📦Tồnkho:19tàikhoản📊Đãbán:1.204tàikhoản💎Môtả:Surf"
     }
   ]
 }
