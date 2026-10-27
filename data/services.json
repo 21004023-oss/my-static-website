@@ -6680,17 +6680,17 @@
         "id": "p-1792402722954",
         "name": "Gmail (New) -Login phone",
         "price": 43000,
-        "cost_price": 15000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "cost_price": 33000,
+        "stock": 50,
+        "stock_text": "Còn 50",
         "duration": "1 Tháng",
         "detail": "Bảo hành login 24H- Login thành công là hết BH\nGmail Login bằng Điện thoại ( Ngâm 1 thời gian có thể login đc pc bình thường )\n-Cách lượt quét QR : Đăng nhập bằng ứng dụng gmail sẽ hạ chế quét QR.\n- Định dạng : Gmail | Pass | mail khôi phục",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 50,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "06:34 20/10/2026"
+            "updated": "10:41 27/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -6699,13 +6699,14 @@
             "updated": "06:35 20/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "bot": "@sieuthistore_bot",
+          "cost_price": 33000,
+          "stock": 50
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @sieuthistore_bot"
       },
       {
         "id": "p-1792404466054",
@@ -12479,6 +12480,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793072484053",
+      "time": "10:41 - 27/10/2026",
+      "name": "Gmail (New) -Login phone",
+      "bot": "sieuthistore_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 50,
+      "catKey": "gmail",
+      "msgKey": "📧Gmail(New)-Loginphone➕Thêm:50📦Tồnkhohiệntại:50💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1793072122305",
       "time": "10:35 - 27/10/2026",
       "name": "MUSE AI 31 TỶ TOKEN KBH vừa được nhập kho 🔥",
@@ -13566,17 +13578,6 @@
       "stockAfter": 6,
       "catKey": "khac",
       "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793034247579",
-      "time": "00:04 - 27/10/2026",
-      "name": "Capcut Pro 1 Tháng BH 30 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 3,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutPro1ThángBH30Ngày➕Thêm:7📦Tồnkhohiệntại:3💰Giá:60.000đ"
     }
   ]
 }
