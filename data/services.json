@@ -5764,6 +5764,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793111607162",
+        "name": "Kling 65 Credit 1 Tháng BHF",
+        "price": 14000,
+        "cost_price": 4000,
+        "stock": 190,
+        "stock_text": "Còn 190",
+        "duration": "1 Tháng",
+        "detail": "Tài Khoản sẽ mất credit sau một thời gian và nên sử dụng ngay\nLưu Ý Quan Trọng:\n❌  Bật tab ẩn danh hoặc Sài Proxy\n❌ Không bảo hành lỗi Busy\nHướng dẩn sử dụng\nĐịnh dạng: TK|MK phân cách bởi dấu \"|\"\n1. Trên máy tính :\nMỗi Profile là một acc Kling ai, làm Song Song nhiều video cùng lúc\n2. Trên điện thoại :\nLogin Tài khoản vào > Sử dụng hết Credit > Tắt bỏ tab đó >",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 190,
+            "cost_price": 4000,
+            "selling_price": 14000,
+            "updated": "21:33 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 4000,
+          "stock": 190
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=64"
@@ -13341,6 +13367,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793111607162",
+      "time": "21:33 - 27/10/2026",
+      "name": "Kling 65 Credit 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 14000,
+      "costPrice": 4000,
+      "stockAfter": 190,
+      "catKey": "kling",
+      "msgKey": "🎬Kling65Credit1ThángBHF➕Thêm:120📦Tồnkhohiệntại:190💰Giá:4.000đ"
+    },
+    {
       "id": "hist-1793111391109",
       "time": "21:29 - 27/10/2026",
       "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
@@ -14428,17 +14465,6 @@
       "stockAfter": 183,
       "catKey": "gmail",
       "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:129📦Tồnkhohiệntại:135💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793101408840",
-      "time": "18:43 - 27/10/2026",
-      "name": "Gói Gemini Pro & Drive 5TB 18 Tháng Chính chủ vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!📦GóiGeminiPro&Drive5TB18ThángChínhchủvừađượcnhậpkho🔥📦Sốlượngcósẵn:2"
     }
   ]
 }
