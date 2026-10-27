@@ -8170,6 +8170,32 @@
           "cost_price": 100000,
           "stock": 14
         }
+      },
+      {
+        "id": "p-1793110030296",
+        "name": "Adobe All Apps 7 Ngày BHF",
+        "price": 160000,
+        "cost_price": 140000,
+        "stock": 18,
+        "stock_text": "Còn 18",
+        "duration": "7 Ngày",
+        "detail": "- Adobe All Apps 7D Add Teams sử dụng 2 thiết bị\n- Bảo hành trọn vòng đời sử dụng. HÀNG ĐẶT LÀM, ORDER XONG NHẮN TIN CHO ADMIN. DONE NHANH TRONG GIỜ HÀNH CHÍNH\n- Vui lòng không thay đổi thông tin tài khoản tránh bị dis khỏi Team\n- Tài khoản lỗi do team có vấn đề vui lòng nhắn tin admin kèm EMAIL để được hỗ trợ. Sau khi được hỗ trợ hãy logout sau đó login lại vào Adobe và sử dụng như bình thường. Vì Adobe có thể quét bất chợt nên vui lòng hoàn hỉ, Admin sẽ luôn xử lý sớm nhất trong giờ làm việc!",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 18,
+            "cost_price": 140000,
+            "selling_price": 160000,
+            "updated": "21:07 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 140000,
+          "stock": 18
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13245,6 +13271,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793110030296",
+      "time": "21:07 - 27/10/2026",
+      "name": "Adobe All Apps 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 18,
+      "catKey": "adobe",
+      "msgKey": "🎨AdobeAllApps7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:18💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793109954719",
       "time": "21:05 - 27/10/2026",
       "name": "MUSE AI 31 TỶ TOKEN KBH vừa được nhập kho 🔥",
@@ -14332,17 +14369,6 @@
       "stockAfter": 27,
       "catKey": "khac",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1thángKBH➕Thêm:7📦Tồnkhohiệntại:27💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793099218249",
-      "time": "18:06 - 27/10/2026",
-      "name": "Slot Youtube Premium 3 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 597,
-      "catKey": "youtube",
-      "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:597💰Giá:95.000đ"
     }
   ]
 }
