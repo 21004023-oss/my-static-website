@@ -7885,6 +7885,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793086818617",
+        "name": "SLOT riêng tư Netflix Premium 4K 1TH  (BHF)",
+        "price": 79000,
+        "cost_price": 69000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "Netflix Premium 4K – Slot riêng tư 1 tháng (BHF)\nTài khoản Netflix Premium hỗ trợ chất lượng hình ảnh lên đến 4K Ultra HD (tùy nội dung và thiết bị). Sản phẩm cung cấp 1 slot sử dụng riêng trong thời hạn 1 tháng. Phù hợp với nhu cầu giải trí, xem phim và chương trình truyền hình trực tuyến.\nThông tin sản phẩm:\n- Dịch vụ: Netflix Premium\n- Chất lượng:Tối đa 4K Ultra HD\n- Loại: Slot riêng tư\n- Thời hạn: 1 tháng\n- Ghi chú: Vui lòng kiểm tra điều kiện sử dụng, thiết bị hỗ trợ và chính sách bảo hành của người bán trước khi đặt mua.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 69000,
+            "selling_price": 79000,
+            "updated": "14:40 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 69000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13022,6 +13048,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793086818617",
+      "time": "14:40 - 27/10/2026",
+      "name": "SLOT riêng tư Netflix Premium 4K 1TH  (BHF)",
+      "bot": "taphoathomap_bot",
+      "price": 79000,
+      "costPrice": 69000,
+      "stockAfter": 5,
+      "catKey": "netflix",
+      "msgKey": "🎬SLOTriêngtưNetflixPremium4K1TH(BHF)➕Thêm:5📦Tồnkhohiệntại:5💰Giá:69.000đ"
+    },
+    {
       "id": "hist-1793086813819",
       "time": "14:40 - 27/10/2026",
       "name": "Slot Netflix UHD 4K Premium 1 Tháng BHF",
@@ -14109,17 +14146,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI31TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:10💵Giáchỉ:29.000đ🎁K"
-    },
-    {
-      "id": "hist-1793074773048",
-      "time": "11:19 - 27/10/2026",
-      "name": "ChatGPT Plus Apple Pay Gmail 30D - BHF",
-      "bot": "piggyai99_bot",
-      "price": 300000,
-      "costPrice": 270000,
-      "stockAfter": 77,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusApplePayGmail30D-BHF➕Thêm:52📦Tồnkhohiệntại:77💰Giá:270.000đ"
     }
   ]
 }
