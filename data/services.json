@@ -13271,11 +13271,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793110417768",
+        "name": "TV360 Standard 3 tháng BHF",
+        "price": 100000,
+        "cost_price": 90000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "3 Tháng",
+        "detail": "TV360 Standard xem C1, WC, VTV, VTVCab, phim bộ, phim độc quyền\nĐăng nhập và sử dụng trên 1 thiết bị\nBảo hành toàn thời gian",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 3,
+            "cost_price": 90000,
+            "selling_price": 100000,
+            "updated": "21:13 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 90000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793110417768",
+      "time": "21:13 - 27/10/2026",
+      "name": "TV360 Standard 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "msgKey": "⭐TV360Standard3thángBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:90.000đ"
+    },
     {
       "id": "hist-1793110163271",
       "time": "21:09 - 27/10/2026",
@@ -14364,17 +14401,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI1TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:100💵Giáchỉ:5.900đ🎁Kh"
-    },
-    {
-      "id": "hist-1793099912410",
-      "time": "18:18 - 27/10/2026",
-      "name": "Gmail random new",
-      "bot": "sieuthistore_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 52,
-      "catKey": "gmail",
-      "msgKey": "📧Gmailrandomnew➕Thêm:2📦Tồnkhohiệntại:41💰Giá:25.000đ"
     }
   ]
 }
