@@ -7513,10 +7513,10 @@
       {
         "id": "p-1792508363624",
         "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
-        "price": 65000,
+        "price": 85000,
         "cost_price": 55000,
-        "stock": 35,
-        "stock_text": "Còn 35",
+        "stock": 70,
+        "stock_text": "Còn 70",
         "duration": "1 Tháng",
         "detail": "✅Netflix 4K Premium bảo hành full 1 tháng sử dụng.\n✅Có web riêng lấy code, xác minh hộ gia đình v.v...\n✅Định dạng mail|pass|Profile riêng, mã pin riêng\n---Lưu ý: Sau khi nhập mail xong chọn mục NHẬN TRỢ GIÚP để nhập pass\n✅ Bảo hành full trong suốt thời gian sử dụng",
         "sources": {
@@ -7524,6 +7524,12 @@
             "stock": 35,
             "cost_price": 55000,
             "selling_price": 65000,
+            "updated": "17:47 27/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 35,
+            "cost_price": 75000,
+            "selling_price": 85000,
             "updated": "17:47 27/10/2026"
           }
         },
@@ -12742,6 +12748,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793098050352",
+      "time": "17:47 - 27/10/2026",
+      "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
+      "bot": "piggyai99_bot",
+      "price": 85000,
+      "costPrice": 75000,
+      "stockAfter": 70,
+      "catKey": "netflix",
+      "msgKey": "🎬[Slot]Netflix4KPremium1thángBảohànhfull➕Thêm:35📦Tồnkhohiệntại:35💰Giá:75.000đ"
+    },
+    {
       "id": "hist-1793098042036",
       "time": "17:47 - 27/10/2026",
       "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
@@ -13829,17 +13846,6 @@
       "stockAfter": 4,
       "catKey": "kling",
       "msgKey": "🎬KlingStandRandom1k-1k5Credit1ThángBHF➕Thêm:2📦Tồnkhohiệntại:4💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1793044223509",
-      "time": "02:50 - 27/10/2026",
-      "name": "Hàng đang có sẵn trong kho",
-      "bot": "toki_shopmmo_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "📦Hàngđangcósẵntrongkho📦DiscordNitroBoost1NămChínhChủ–GiáTốt,KíchHoạtNhanh,BảoHàn"
     }
   ]
 }
