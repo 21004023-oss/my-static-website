@@ -12860,11 +12860,48 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793085589676",
+        "name": "TV360 Standard 3 tháng BHF",
+        "price": 90000,
+        "cost_price": 80000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "3 Tháng",
+        "detail": "TV360 Standard xem C1, WC, VTV, VTVCab, phim bộ, phim độc quyền\nĐăng nhập và sử dụng trên 1 thiết bị\nBảo hành toàn thời gian",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "14:19 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 80000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793085589676",
+      "time": "14:19 - 27/10/2026",
+      "name": "TV360 Standard 3 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "msgKey": "⭐TV360Standard3thángBHF➕Thêm:1📦Tồnkhohiệntại:3💰Giá:80.000đ"
+    },
     {
       "id": "hist-1793084599901",
       "time": "14:03 - 27/10/2026",
@@ -13953,17 +13990,6 @@
       "stockAfter": 82,
       "catKey": "khac",
       "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:50📦Tồnkhohiệntại:82💰Giá:45.00"
-    },
-    {
-      "id": "hist-1793072493354",
-      "time": "10:41 - 27/10/2026",
-      "name": "Gmail (New) -Login phone",
-      "bot": "piggyai99_bot",
-      "price": 33000,
-      "costPrice": 23000,
-      "stockAfter": 100,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)-Loginphone💰Giá:23k📦Tồnkho:50tàikhoản📊Đãbán:2.338tàikhoản💎Môtả:Bảohàn"
     }
   ]
 }
