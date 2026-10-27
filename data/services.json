@@ -5180,11 +5180,11 @@
         "id": "kling-65cre",
         "name": "Kling 65 Cre 1 Tháng BHF",
         "price": 28000,
-        "stock": 177,
-        "stock_text": "Còn 177",
+        "stock": 354,
+        "stock_text": "Còn 354",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
-        "detail": "Acc free được tặng credit",
+        "detail": "Tài Khoản sẽ mất credit sau một thời gian và nên sử dụng ngay\nLưu Ý Quan Trọng:\n❌  Bật tab ẩn danh hoặc Sài Proxy\n❌ Không bảo hành lỗi Busy\nHướng dẩn sử dụng\nĐịnh dạng: TK|MK phân cách bởi dấu \"|\"\n1. Trên máy tính :\nMỗi Profile là một acc Kling ai, làm Song Song nhiều video cùng lúc\n2. Trên điện thoại :\nLogin Tài khoản vào > Sử dụng hết Credit > Tắt bỏ tab đó >",
         "cost_price": 2000,
         "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
@@ -5198,6 +5198,12 @@
             "cost_price": 2000,
             "selling_price": 12000,
             "updated": "12:44 27/10/2026"
+          },
+          "ntnshopre_bot": {
+            "stock": 177,
+            "cost_price": 3000,
+            "selling_price": 13000,
+            "updated": "12:45 27/10/2026"
           }
         },
         "hidden": false,
@@ -12805,6 +12811,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793079903713",
+      "time": "12:45 - 27/10/2026",
+      "name": "KLING 65 CRE 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 13000,
+      "costPrice": 3000,
+      "stockAfter": 354,
+      "catKey": "kling",
+      "msgKey": "🎬KLING65CRE1THÁNGBHF➕Thêm:81📦Tồnkhohiệntại:177💰Giá:3.000đ"
+    },
+    {
       "id": "hist-1793079897819",
       "time": "12:44 - 27/10/2026",
       "name": "Kling 65 Cre 1th BHF",
@@ -13892,17 +13909,6 @@
       "stockAfter": 2,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProTeam12ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:600.000đ"
-    },
-    {
-      "id": "hist-1793059602056",
-      "time": "07:06 - 27/10/2026",
-      "name": "Muse AI 31B Token KBH",
-      "bot": "sieuthistore_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 24,
-      "catKey": "khac",
-      "msgKey": "⭐MuseAI31BTokenKBH➕Thêm:5📦Tồnkhohiệntại:24💰Giá:80.000đ"
     }
   ]
 }
