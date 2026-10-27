@@ -5295,17 +5295,28 @@
         "id": "kling-65cre",
         "name": "Kling 65 Cre 1 Tháng BHF",
         "price": 28000,
-        "stock": 115,
-        "stock_text": "Còn 115",
+        "stock": 190,
+        "stock_text": "Còn 190",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
-        "detail": "- Định dạng: TK|MK.\n- Tài khoản sẽ mất credit sau một thời gian và nên sử dụng ngay.\n- Bật tab ẩn danh hoặc xài Proxy (trên PC mỗi Profile là 1 acc Kling để làm song song nhiều video).\n- Không bảo hành lỗi Busy.",
+        "detail": "Tài Khoản sẽ mất credit sau một thời gian và nên sử dụng ngay\nLưu Ý Quan Trọng:\n❌  Bật tab ẩn danh hoặc Sài Proxy\n❌ Không bảo hành lỗi Busy\nHướng dẩn sử dụng\nĐịnh dạng: TK|MK phân cách bởi dấu \"|\"\n1. Trên máy tính :\nMỗi Profile là một acc Kling ai, làm Song Song nhiều video cùng lúc\n2. Trên điện thoại :\nLogin Tài khoản vào > Sử dụng hết Credit > Tắt bỏ tab đó >",
         "cost_price": 3000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 3000
-        }
+          "cost_price": 3000,
+          "stock": 190
+        },
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 190,
+            "cost_price": 3000,
+            "selling_price": 13000,
+            "updated": "21:33 27/10/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "kling-700cre",
@@ -13367,6 +13378,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793111613466",
+      "time": "21:33 - 27/10/2026",
+      "name": "KLING 65 CRE 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 13000,
+      "costPrice": 3000,
+      "stockAfter": 190,
+      "catKey": "kling",
+      "msgKey": "🎬KLING65CRE1THÁNGBHF➕Thêm:120📦Tồnkhohiệntại:190💰Giá:3.000đ"
+    },
+    {
       "id": "hist-1793111607162",
       "time": "21:33 - 27/10/2026",
       "name": "Kling 65 Credit 1 Tháng BHF",
@@ -14454,17 +14476,6 @@
       "stockAfter": 302,
       "catKey": "gmail",
       "msgKey": "📧GmailRandom200X~2023Có2FA💰Giá:35k📦Tồnkho:135tàikhoản📊Đãbán:4.440tàikhoản💎Môtả:Đ"
-    },
-    {
-      "id": "hist-1793101689811",
-      "time": "18:48 - 27/10/2026",
-      "name": "Gmail Random 200X~2023 Có 2FA",
-      "bot": "piggyai99_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 183,
-      "catKey": "gmail",
-      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:129📦Tồnkhohiệntại:135💰Giá:35.000đ"
     }
   ]
 }
