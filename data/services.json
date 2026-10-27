@@ -8441,10 +8441,10 @@
       {
         "id": "p-1793075855952",
         "name": "Express VPN 1 Tháng BH 15D",
-        "price": 60000,
+        "price": 85000,
         "cost_price": 50000,
-        "stock": 13,
-        "stock_text": "Còn 13",
+        "stock": 26,
+        "stock_text": "Còn 26",
         "duration": "1 Tháng",
         "detail": "- Định đạng: TK|MK - No OTP\n- Sử dụng 1-4 thiết bị, login là sử dụng\n- Vui lòng đọc kĩ trước khi mua hàng!",
         "sources": {
@@ -8452,6 +8452,12 @@
             "stock": 13,
             "cost_price": 50000,
             "selling_price": 60000,
+            "updated": "11:37 27/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 13,
+            "cost_price": 75000,
+            "selling_price": 85000,
             "updated": "11:37 27/10/2026"
           }
         },
@@ -12625,6 +12631,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793075860117",
+      "time": "11:37 - 27/10/2026",
+      "name": "Express VPN 1 Tháng BH 15 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 85000,
+      "costPrice": 75000,
+      "stockAfter": 26,
+      "catKey": "vpn",
+      "msgKey": "🚚ExpressVPN1ThángBH15Ngày➕Thêm:11📦Tồnkhohiệntại:13💰Giá:75.000đ"
+    },
+    {
       "id": "hist-1793075855952",
       "time": "11:37 - 27/10/2026",
       "name": "Express VPN 1 Tháng BH 15D",
@@ -13712,17 +13729,6 @@
       "stockAfter": 6,
       "catKey": "khac",
       "msgKey": "⭐JetBrainEdu1năm(BHF)➕Thêm:4📦Tồnkhohiệntại:6💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1793037616355",
-      "time": "01:00 - 27/10/2026",
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 2,
-      "catKey": "adobe",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:110.000đ"
     }
   ]
 }
