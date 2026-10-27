@@ -7715,25 +7715,34 @@
       {
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
-        "price": 25000,
-        "stock": 9,
-        "stock_text": "Còn 9",
-        "duration": "1 Tháng",
-        "detail": "Định dạng: Email|Pass",
+        "price": 35000,
+        "stock": 13,
+        "stock_text": "Còn 13",
+        "duration": "3 Ngày",
+        "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
             "stock": 9,
             "cost_price": 15000,
             "updated": "06:05 15/10/2026",
             "selling_price": 25000
+          },
+          "sieuthistore_bot": {
+            "stock": 4,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "02:05 28/10/2026"
           }
         },
         "cost_price": 15000,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 68000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
+          "stock": 9
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1792089898144",
@@ -10657,6 +10666,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793127919905",
+      "time": "02:05 - 28/10/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 13,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793127458330",
       "time": "01:57 - 28/10/2026",
       "name": "HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày",
@@ -11864,20 +11884,6 @@
       "catKey": "netflix",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐RedeemAppleMusicIndividual5thángBH1ngày➕Thêm:64📦Tồnkhohiệntại:67💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1792628675379",
-      "time": "07:24 - 22/10/2026",
-      "timestamp": 1792628675379,
-      "name": "Redeem Apple Music Individual 5 tháng BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 67,
-      "addedQty": 64,
-      "price": 55000,
-      "stockAfter": 134,
-      "catKey": "netflix",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐RedeemAppleMusicIndividual5thángBH1ngày➕Thêm:64📦Tồnkhohiệntại:67💰Giá:45.000đ"
     }
   ]
 }
