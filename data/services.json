@@ -7851,22 +7851,22 @@
         "name": "VIEON VIP 1 THÁNG BHF",
         "price": 38000,
         "cost_price": 28000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 28000,
             "selling_price": 38000,
-            "updated": "21:02 27/10/2026"
+            "updated": "21:24 27/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 28000,
-          "stock": 1
+          "stock": 2
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
@@ -13341,6 +13341,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793111054488",
+      "time": "21:24 - 27/10/2026",
+      "name": "VIEON VIP 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 38000,
+      "costPrice": 28000,
+      "stockAfter": 2,
+      "catKey": "netflix",
+      "msgKey": "⭐VIEONVIP1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:28.000đ"
+    },
+    {
       "id": "hist-1793111041968",
       "time": "21:24 - 27/10/2026",
       "name": "Tài khoản VieON VIP 30 ngày bhf",
@@ -14428,17 +14439,6 @@
       "stockAfter": 2,
       "catKey": "khac",
       "msgKey": "⭐DreaminaUS8k6credit7ngàyBH3D➕Thêm:1📦Tồnkhohiệntại:2💰Giá:730.000đ"
-    },
-    {
-      "id": "hist-1793100548201",
-      "time": "18:29 - 27/10/2026",
-      "name": "Higgsfield Genjutsu 1 tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 65,
-      "catKey": "khac",
-      "msgKey": "🎬HiggsfieldGenjutsu1thángBH1Ngày➕Thêm:30📦Tồnkhohiệntại:65💰Giá:65.000đ"
     }
   ]
 }
