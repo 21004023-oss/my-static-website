@@ -8437,6 +8437,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793075855952",
+        "name": "Express VPN 1 Tháng BH 15D",
+        "price": 60000,
+        "cost_price": 50000,
+        "stock": 13,
+        "stock_text": "Còn 13",
+        "duration": "1 Tháng",
+        "detail": "- Định đạng: TK|MK - No OTP\n- Sử dụng 1-4 thiết bị, login là sử dụng\n- Vui lòng đọc kĩ trước khi mua hàng!",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 13,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "11:37 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 50000,
+          "stock": 13
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12599,6 +12625,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793075855952",
+      "time": "11:37 - 27/10/2026",
+      "name": "Express VPN 1 Tháng BH 15D",
+      "bot": "taphoathomap_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 13,
+      "catKey": "vpn",
+      "msgKey": "🚚ExpressVPN1ThángBH15D➕Thêm:11📦Tồnkhohiệntại:13💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1793075165082",
       "time": "11:26 - 27/10/2026",
       "name": "🔥 Chatgpt Plus Pay Tiền Thật 1 tháng BHF",
@@ -13686,17 +13723,6 @@
       "stockAfter": 2,
       "catKey": "adobe",
       "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1793037611162",
-      "time": "01:00 - 27/10/2026",
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "taphoathomap_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 12,
-      "catKey": "adobe",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:100.000đ"
     }
   ]
 }
