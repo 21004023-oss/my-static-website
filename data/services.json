@@ -3918,6 +3918,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 1150000
         }
+      },
+      {
+        "id": "p-1793124382543",
+        "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
+        "price": 55000,
+        "cost_price": 45000,
+        "stock": 131,
+        "stock_text": "Còn 131",
+        "duration": "1 Ngày",
+        "detail": "Gói LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H bảo hành uy tín.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 131,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "01:06 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 45000,
+          "stock": 131
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -10314,6 +10340,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793124382543",
+      "time": "01:06 - 28/10/2026",
+      "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 131,
+      "catKey": "google-veo",
+      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:25📦Tồnkhohiệntại:131💰Giá:45.0"
+    },
+    {
       "id": "hist-1793124378308",
       "time": "01:06 - 28/10/2026",
       "name": "EXPRESS VPN 3 NGÀY BHF",
@@ -11689,20 +11726,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTGo1Tháng-BH3Ngày➕Thêm:14📦Tồnkhohiệntại:22💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1792579871963",
-      "time": "17:51 - 21/10/2026",
-      "timestamp": 1792579871963,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 15,
-      "addedQty": 25,
-      "price": 85000,
-      "stockAfter": 15,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:25📦Tồnkhohiệntại:15💰Giá:75.000đ"
     }
   ]
 }
