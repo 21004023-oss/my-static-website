@@ -828,6 +828,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793125755176",
+        "name": "Spotify Premium (IOS) 3TH BHF",
+        "price": 95000,
+        "cost_price": 85000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "3 Tháng",
+        "detail": "- YÊU CẦU XEM HẾT VIDEO HƯỚNG DẪN CÀI ĐẶT CẤU HÌNH ĐỂ TRÁNH MẤT THỜI GIAN: https://duckystore.click/spotify\n- Video hướng dẫn nếu bị lỗi next nhạc https://drive.google.com/drive/folders/1v4e7gdvWFlf9Av36XudTZUYU8pp-RAOB\n⛔️ Chỉ hỗ trợ trên thiết bị IOS (Iphone/Ipad)\n✅ Có thể gia hạn được\n✅ Nghe mọi bài hát theo yêu cầu (On-Demand) không bị ép phát ngẫu nhiên.\n✅ Chuyển bài (Next/Prev) không giới hạn, tua nhạc tuỳ thích.\n✅ Chặn 100% quảng cáo âm thanh và banner chèn ngang.\n✅ Tự do chọn danh sách phát, album, nghệ sĩ không bị giới hạn.\nGỬI UID VÀO BOT ĐỂ ĐƯỢC ADMIN DONE TRONG 5S",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 85000,
+            "selling_price": 95000,
+            "updated": "01:29 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 85000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -10473,6 +10499,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793125755176",
+      "time": "01:29 - 28/10/2026",
+      "name": "Spotify Premium (IOS) 3TH BHF",
+      "bot": "taphoathomap_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 2,
+      "catKey": "spotify",
+      "msgKey": "⭐SpotifyPremium(IOS)3THBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:85.000đ"
+    },
+    {
       "id": "hist-1793125749004",
       "time": "01:29 - 28/10/2026",
       "name": "Spotify Premium (IOS) 6TH BHF",
@@ -11752,20 +11789,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:64📦Tồnkhohiệntại:51💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1792602048980",
-      "time": "00:00 - 22/10/2026",
-      "timestamp": 1792602048980,
-      "name": "ChatGPT Free ( hàng GMAIL ) - KBH",
-      "bot": "taphoathomap_bot",
-      "shopStock": 1069,
-      "addedQty": 1000,
-      "price": 12000,
-      "stockAfter": 1069,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTFree(hàngGMAIL)-KBH➕Thêm:1000📦Tồnkhohiệntại:1069💰Giá:2.000đ"
     }
   ]
 }
