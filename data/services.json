@@ -13505,11 +13505,48 @@
         "import_note": "Nhập: @toki_shopmmo_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793117221311",
+        "name": "Gamma Plus 1 Tháng (BH 20D)",
+        "price": 135000,
+        "cost_price": 115000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Tháng",
+        "detail": "Gamma Plus 1 Tháng (BH 25D)\n1.000 tín dụng hàng tháng\nTạo tối đa 100 số slide cho mỗi câu hỏi\nXóa nhãn hiệu Gamma\nMô hình hình ảnh AI tiên tiến\nđịnh dạng : tài khoản | pass | link đọc code",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 4,
+            "cost_price": 115000,
+            "selling_price": 135000,
+            "updated": "23:07 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 115000,
+          "stock": 4
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793117221311",
+      "time": "23:07 - 27/10/2026",
+      "name": "Gamma Plus 1 Tháng (BH 20D)",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 4,
+      "catKey": "khac",
+      "msgKey": "⭐GammaPlus1Tháng(BH20D)➕Thêm:4📦Tồnkhohiệntại:4💰Giá:115.000đ"
+    },
     {
       "id": "hist-1793117183823",
       "time": "23:06 - 27/10/2026",
@@ -14598,17 +14635,6 @@
       "stockAfter": 6,
       "catKey": "meitu-wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793108370237",
-      "time": "20:39 - 27/10/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 9,
-      "catKey": "meitu-wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:35.000đ"
     }
   ]
 }
