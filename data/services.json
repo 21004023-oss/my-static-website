@@ -3632,6 +3632,32 @@
         "import_note": "Nhập: @shopxoainon_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793059698526",
+        "name": "Capcut Pro Team 12 Tháng BHF",
+        "price": 700000,
+        "cost_price": 600000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Năm",
+        "detail": "CAPCUT PRO TEAM  RENEW  – 365 NGÀY  | BHF 📌 THÔNG TIN • Tài khoản CapCut Pro dạng Team, thời hạn 365 ngày tự động gia hạn hàng tháng. • Có thể nhận tới 2.000 AI Credits. • Định dạng: Email | Pass. • Khuyến nghị đăng nhập 1–2 thiết bị, hạn chế đăng nhập nhiều thiết bị. 🛡️ BẢO HÀNH • Bảo hành 365 ngày. • Hỗ trợ bảo hành tối đa 1 lần/tháng đối với lỗi đăng nhập do đăng nhập quá thường xuyên. ⚠️ LƯU Ý • Hạn chế đăng nhập/đăng xuất liên tục hoặc trên nhiều thiết bị. • Vui lòng kiểm tra tài khoản ngay sau khi nhận hàng",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 2,
+            "cost_price": 600000,
+            "selling_price": 700000,
+            "updated": "07:08 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 600000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=capcut.com&sz=64"
@@ -12304,6 +12330,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793059698526",
+      "time": "07:08 - 27/10/2026",
+      "name": "Capcut Pro Team 12 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 700000,
+      "costPrice": 600000,
+      "stockAfter": 2,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutProTeam12ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:600.000đ"
+    },
+    {
       "id": "hist-1793059602056",
       "time": "07:06 - 27/10/2026",
       "name": "Muse AI 31B Token KBH",
@@ -13391,17 +13428,6 @@
       "stockAfter": 4,
       "catKey": "khac",
       "msgKey": "⭐GalaxyPlayVIP30ngàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1793032376699",
-      "time": "23:32 - 26/10/2026",
-      "name": "Galaxy Play VIP 30 ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "msgKey": "⭐GalaxyPlayVIP30ngàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:50.000đ"
     }
   ]
 }
