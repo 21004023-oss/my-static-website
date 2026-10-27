@@ -2677,6 +2677,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793124374312",
+        "name": "[CDK] THUÊ SỐ NHẬN OTP CODEX 24H KBH",
+        "price": 20000,
+        "cost_price": 10000,
+        "stock": 261,
+        "stock_text": "Còn 261",
+        "duration": "1 Ngày",
+        "detail": "• Tuỳ chọn sử dụng VN hoặc US\n• Tỉ lệ nhận mã (US) cao hơn (VN)\n• Tự động hóa 100%, nhận OTP trực tiếp ngay trên Web.\n1. Bấm Xác nhận mua hàng để nhận CDK và web CDK\n2. Nhập SĐT vào trang xác minh OpenAI Codex / ChatGPT.\n3. Mã OTP sẽ tự động hiển thị trên tin nhắn của Web ngay khi có tin nhắn về.\n• Nếu OpenAI/Codex từ chối SĐT (hoặc báo gửi qua WhatsApp), quý khách vui lòng bấm thuê số khác.\n• Số bị từ chối (không nhận OTP) sẽ được hệ thống tự động hoàn CDK sau 2 phút hoặc quý khách huỷ trên web\nWeb: https://sms.teamsoclo.site/\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 261,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "01:06 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 10000,
+          "stock": 261
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -10287,6 +10313,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793124374312",
+      "time": "01:06 - 28/10/2026",
+      "name": "[CDK] THUÊ SỐ NHẬN OTP CODEX 24H KBH",
+      "bot": "piggyai99_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 261,
+      "catKey": "chatgpt",
+      "msgKey": "🤖[CDK]THUÊSỐNHẬNOTPCODEX24HKBH💰Giá:10k📦Tồnkho:261tàikhoản📊Đãbán:899tàikhoản💎Môtả"
+    },
+    {
       "id": "hist-1793124368900",
       "time": "01:06 - 28/10/2026",
       "name": "ChatGPT Plus Apple Pay Gmail 30D - BHF",
@@ -11668,20 +11705,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:93📦Tồnkhohiệntại:56💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1792577828258",
-      "time": "17:17 - 21/10/2026",
-      "timestamp": 1792577828258,
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 27,
-      "addedQty": 9,
-      "price": 75000,
-      "stockAfter": 54,
-      "catKey": "capcut",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:65.000đ"
     }
   ]
 }
