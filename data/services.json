@@ -13089,9 +13089,9 @@
         "id": "p-1793105273425",
         "name": "Kahoot Plus Gold 7 Ngày BHF",
         "price": 55000,
-        "cost_price": 45000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "cost_price": 30000,
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "7 Ngày",
         "detail": "Kahoot Plus Gold 7 Ngày Trial BHF 200 thành viên\nĐịnh dạng: Email|Pass",
         "sources": {
@@ -13100,14 +13100,20 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "updated": "19:47 27/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "19:47 27/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 45000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
           "stock": 3
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -13115,6 +13121,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793105277613",
+      "time": "19:47 - 27/10/2026",
+      "name": "Kahoot Plus Gold 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 6,
+      "catKey": "khac",
+      "msgKey": "⭐KahootPlusGold7NgàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:30.000đ"
+    },
     {
       "id": "hist-1793105273425",
       "time": "19:47 - 27/10/2026",
@@ -14203,17 +14220,6 @@
       "stockAfter": 73,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥ChatgptPlusPayTiềnThật1thángBHF➕Thêm:1📦Tồnkhohiệntại:73💰Giá:220.000đ"
-    },
-    {
-      "id": "hist-1793074960503",
-      "time": "11:22 - 27/10/2026",
-      "name": "MUSE AI 31 TỶ TOKEN KBH vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI31TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:10💵Giáchỉ:29.000đ🎁K"
     }
   ]
 }
