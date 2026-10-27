@@ -1125,16 +1125,16 @@
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
         "price": 330000,
-        "stock": 80,
-        "stock_text": "Còn 80",
+        "stock": 69,
+        "stock_text": "Còn 69",
         "duration": "1 Tháng",
         "detail": "- ChatGPT Plus 1 tháng BHF\n- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 40,
+            "stock": 29,
             "cost_price": 200000,
             "selling_price": 220000,
-            "updated": "17:51 27/10/2026"
+            "updated": "21:33 27/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 40,
@@ -1150,7 +1150,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 200000,
-          "stock": 40
+          "stock": 29
         }
       },
       {
@@ -13384,6 +13384,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793111627986",
+      "time": "21:33 - 27/10/2026",
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "price": 220000,
+      "costPrice": 200000,
+      "stockAfter": 69,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:9📦Tồnkhohiệntại:29💰Giá:200.000đ"
+    },
+    {
       "id": "hist-1793111621889",
       "time": "21:33 - 27/10/2026",
       "name": "Kling 65 Cre 1th BHF",
@@ -14471,17 +14482,6 @@
       "stockAfter": 56,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥VIP.ChatgptPlusApplePay1thángBHF➕Thêm:48📦Tồnkhohiệntại:56💰Giá:200.000đ"
-    },
-    {
-      "id": "hist-1793101775454",
-      "time": "18:49 - 27/10/2026",
-      "name": "📦 Gói Gemini Pro & Drive 5TB 18 Tháng Chính Chủ (dùng ngay trong 5p) vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐📦GóiGeminiPro&Drive5TB18ThángChínhChủ(dùngngaytrong5p)vừađượcnhậpk"
     }
   ]
 }
