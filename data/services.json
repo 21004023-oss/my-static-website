@@ -8582,16 +8582,16 @@
         "id": "p-1792261855714",
         "name": "Proton VPN 14-28 Ngày BHF",
         "price": 65000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "- Tài khoản Proton VPN 14 Ngày (iOS, Android, PC) 10 Thiết bị BHF 14 ngày\n- Định dạng: Email:Pass",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 6,
+            "stock": 4,
             "cost_price": 55000,
             "selling_price": 65000,
-            "updated": "02:44 27/10/2026"
+            "updated": "22:05 27/10/2026"
           }
         },
         "hidden": false,
@@ -8601,7 +8601,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 55000,
-          "stock": 6
+          "stock": 4
         }
       },
       {
@@ -13419,6 +13419,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793113531404",
+      "time": "22:05 - 27/10/2026",
+      "name": "Proton VPN 14-28 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 4,
+      "catKey": "vpn",
+      "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793113319870",
       "time": "22:01 - 27/10/2026",
       "name": "Tài khoản VieON VIP 30 ngày bhf",
@@ -14506,17 +14517,6 @@
       "stockAfter": 12,
       "catKey": "vpn",
       "msgKey": "🚚ExpressVPN1ThángBHF➕Thêm:10📦Tồnkhohiệntại:12💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1793104431783",
-      "time": "19:33 - 27/10/2026",
-      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 52,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:120k📦Tồnkho:52tàikhoản📊Đãbán:55tàikhoản"
     }
   ]
 }
