@@ -5624,6 +5624,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793104427022",
+        "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
+        "price": 140000,
+        "cost_price": 120000,
+        "stock": 52,
+        "stock_text": "Còn 52",
+        "duration": "1 Tháng",
+        "detail": "Gói Kling Standard 1000 credit 1 TH BH 1 ngày bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 52,
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "19:33 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 120000,
+          "stock": 52
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=klingai.com&sz=64"
@@ -13020,6 +13046,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793104427022",
+      "time": "19:33 - 27/10/2026",
+      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 52,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000credit1THBH1ngày➕Thêm:20📦Tồnkhohiệntại:52💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1793104422326",
       "time": "19:33 - 27/10/2026",
       "name": "Kling Standard 1k Credit 1 Tháng BH 1 ngày",
@@ -14107,17 +14144,6 @@
       "stockAfter": 22,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTGo1Tháng-BH3Ngày➕Thêm:1📦Tồnkhohiệntại:0💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793073747456",
-      "time": "11:02 - 27/10/2026",
-      "name": "Gmail random 5-10 tháng 2FA",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 17,
-      "catKey": "gmail",
-      "msgKey": "📧Gmailrandom5-10tháng2FA➕Thêm:1📦Tồnkhohiệntại:1💰Giá:45.000đ"
     }
   ]
 }
