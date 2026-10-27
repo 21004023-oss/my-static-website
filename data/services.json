@@ -12847,11 +12847,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793100089489",
+        "name": "Pitpit AI 8k6 cre 1TH BH 3 ngày",
+        "price": 850000,
+        "cost_price": 750000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Sử dụng tất cả model Seedance.\nLogin email:  https://www.pippit.ai/home",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 750000,
+            "selling_price": 850000,
+            "updated": "18:21 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 750000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793100089489",
+      "time": "18:21 - 27/10/2026",
+      "name": "Pitpit AI 8k6 cre 1TH BH 3 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 850000,
+      "costPrice": 750000,
+      "stockAfter": 1,
+      "catKey": "khac",
+      "msgKey": "⭐PitpitAI8k6cre1THBH3ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:750.000đ"
+    },
     {
       "id": "hist-1793100024564",
       "time": "18:20 - 27/10/2026",
@@ -13940,17 +13977,6 @@
       "stockAfter": 52,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus(CodexFull)1ThángBHF➕Thêm:19📦Tồnkhohiệntại:52💰Giá:310.000đ"
-    },
-    {
-      "id": "hist-1793059725339",
-      "time": "07:08 - 27/10/2026",
-      "name": "CAPCUT PRO 3 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 175000,
-      "costPrice": 155000,
-      "stockAfter": 6,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPRO3THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:155.000đ"
     }
   ]
 }
