@@ -10019,11 +10019,48 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 115000
         }
+      },
+      {
+        "id": "p-1793122824245",
+        "name": "Chương trình giới thiệu bạn bè",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Chương trình giới thiệu bạn bè bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "00:40 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 0,
+          "stock": 0
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793122824245",
+      "time": "00:40 - 28/10/2026",
+      "name": "Chương trình giới thiệu bạn bè",
+      "bot": "taphoathomap_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "🎁Chươngtrìnhgiớithiệubạnbè•Chiasẻlinkbotkèmmãgiớithiệucủabạn.•Khingườiđượcmờiphá"
+    },
     {
       "id": "hist-1792655686636",
       "time": "14:54 - 22/10/2026",
@@ -11409,20 +11446,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1792577772814",
-      "time": "17:16 - 21/10/2026",
-      "timestamp": 1792577772814,
-      "name": "CAPCUT PRO CÁ NHÂN 30 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 27,
-      "addedQty": 9,
-      "price": 50000,
-      "stockAfter": 38,
-      "catKey": "capcut",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:27💰Giá:40.000đ"
     }
   ]
 }
