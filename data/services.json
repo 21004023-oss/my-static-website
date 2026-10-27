@@ -13688,11 +13688,48 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793121336308",
+        "name": "Proxy VietNam Tĩnh, Riêng Tư IPV6 Hạn 3 ngày (không gia hạn được)",
+        "price": 10079,
+        "cost_price": 79,
+        "stock": 9999,
+        "stock_text": "Còn 9999",
+        "duration": "3 Ngày",
+        "detail": "Định dạng : Host:Port:Username:Password\nCam kết proxy trên web là proxy private chỉ cung cấp cho 1 người duy nhất\n- Loại IP V6 nên mọi người check kĩ các app,web hỗ trợ v6 nhé . Chủ yếu dùng nuôi FB,...\nSố lượng mua tối thiểu: 10 sản phẩm.\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–9999):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 9999,
+            "cost_price": 79,
+            "selling_price": 10079,
+            "updated": "00:15 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 79,
+          "stock": 9999
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793121336308",
+      "time": "00:15 - 28/10/2026",
+      "name": "Proxy VietNam Tĩnh, Riêng Tư IPV6 Hạn 3 ngày (không gia hạn được)",
+      "bot": "khommo_market_bot",
+      "price": 10079,
+      "costPrice": 79,
+      "stockAfter": 9999,
+      "catKey": "khac",
+      "msgKey": "🛍️ProxyVietNamTĩnh,RiêngTưIPV6Hạn3ngày(khônggiahạnđược)💲Giá:79VND💚Tồnkho:9999tài"
+    },
     {
       "id": "hist-1793121319688",
       "time": "00:15 - 28/10/2026",
@@ -14781,17 +14818,6 @@
       "stockAfter": 2,
       "catKey": "netflix",
       "msgKey": "⭐VIEONVIP1THÁNGBHF💰Giá:28k📦Tồnkho:2tàikhoản📊Đãbán:17tàikhoản💎Môtả:TàikhoảnVieONV"
-    },
-    {
-      "id": "hist-1793111054488",
-      "time": "21:24 - 27/10/2026",
-      "name": "VIEON VIP 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 38000,
-      "costPrice": 28000,
-      "stockAfter": 2,
-      "catKey": "netflix",
-      "msgKey": "⭐VIEONVIP1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:28.000đ"
     }
   ]
 }
