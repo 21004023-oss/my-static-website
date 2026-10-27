@@ -12864,10 +12864,10 @@
       {
         "id": "p-1793085589676",
         "name": "TV360 Standard 3 tháng BHF",
-        "price": 90000,
+        "price": 100000,
         "cost_price": 80000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "3 Tháng",
         "detail": "TV360 Standard xem C1, WC, VTV, VTVCab, phim bộ, phim độc quyền\nĐăng nhập và sử dụng trên 1 thiết bị\nBảo hành toàn thời gian",
         "sources": {
@@ -12875,6 +12875,12 @@
             "stock": 3,
             "cost_price": 80000,
             "selling_price": 90000,
+            "updated": "14:19 27/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 3,
+            "cost_price": 90000,
+            "selling_price": 100000,
             "updated": "14:19 27/10/2026"
           }
         },
@@ -12891,6 +12897,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793085593613",
+      "time": "14:19 - 27/10/2026",
+      "name": "TV360 Standard 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 6,
+      "catKey": "khac",
+      "msgKey": "⭐TV360Standard3thángBHF➕Thêm:1📦Tồnkhohiệntại:3💰Giá:90.000đ"
+    },
     {
       "id": "hist-1793085589676",
       "time": "14:19 - 27/10/2026",
@@ -13979,17 +13996,6 @@
       "stockAfter": 82,
       "catKey": "khac",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:50📦Tồnkhohiệntại:82💰Giá:37.000đ"
-    },
-    {
-      "id": "hist-1793072526166",
-      "time": "10:42 - 27/10/2026",
-      "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 82,
-      "catKey": "khac",
-      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:50📦Tồnkhohiệntại:82💰Giá:45.00"
     }
   ]
 }
