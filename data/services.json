@@ -10021,32 +10021,6 @@
         }
       },
       {
-        "id": "p-1793122824245",
-        "name": "Chương trình giới thiệu bạn bè",
-        "price": 0,
-        "cost_price": 0,
-        "stock": 0,
-        "stock_text": "Hết hàng",
-        "duration": "1 Tháng",
-        "detail": "Gói Chương trình giới thiệu bạn bè bảo hành uy tín.",
-        "sources": {
-          "taphoathomap_bot": {
-            "stock": 0,
-            "cost_price": 0,
-            "selling_price": 0,
-            "updated": "00:40 28/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 0,
-          "stock": 0
-        },
-        "import_note": "Nhập: @taphoathomap_bot",
-        "hidden": false,
-        "needs_review": false
-      },
-      {
         "id": "p-1793122829087",
         "name": "Chào mừng đến với Tạp Hóa Thỏ Mập!",
         "price": 200000,
@@ -10097,48 +10071,11 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
-      },
-      {
-        "id": "p-1793122883511",
-        "name": "Gói Gemini Pro & Drive 5TB 18 Tháng Chính chủ vừa được nhập kho 🔥",
-        "price": 0,
-        "cost_price": 0,
-        "stock": 0,
-        "stock_text": "Hết hàng",
-        "duration": "1 Tháng",
-        "detail": "Gói Gói Gemini Pro & Drive 5TB 18 Tháng Chính chủ vừa được nhập kho 🔥 bảo hành uy tín.",
-        "sources": {
-          "shopxoainon_bot": {
-            "stock": 0,
-            "cost_price": 0,
-            "selling_price": 0,
-            "updated": "00:41 28/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 0,
-          "stock": 0
-        },
-        "import_note": "Nhập: @shopxoainon_bot",
-        "hidden": false,
-        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
-    {
-      "id": "hist-1793122883511",
-      "time": "00:41 - 28/10/2026",
-      "name": "Gói Gemini Pro & Drive 5TB 18 Tháng Chính chủ vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!📦GóiGeminiPro&Drive5TB18ThángChínhchủvừađượcnhậpkho🔥📦Sốlượngcòn:130"
-    },
     {
       "id": "hist-1793122835244",
       "time": "00:40 - 28/10/2026",
@@ -11515,6 +11452,20 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTGo1Tháng-BH3Ngày➕Thêm:14📦Tồnkhohiệntại:22💰Giá:50.000đ"
+    },
+    {
+      "id": "hist-1792579871963",
+      "time": "17:51 - 21/10/2026",
+      "timestamp": 1792579871963,
+      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
+      "bot": "taphoathomap_bot",
+      "shopStock": 15,
+      "addedQty": 25,
+      "price": 85000,
+      "stockAfter": 15,
+      "catKey": "chatgpt",
+      "source": "Telegram @taphoathomap_bot",
+      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:25📦Tồnkhohiệntại:15💰Giá:75.000đ"
     }
   ]
 }
