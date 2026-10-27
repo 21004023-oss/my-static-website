@@ -6544,27 +6544,28 @@
         "id": "p-1792035072787",
         "name": "GMAIL TRIAL RANDOM DATE 202X",
         "price": 50000,
-        "stock": 172,
-        "stock_text": "Còn 172",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 172,
+            "stock": 0,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "21:57 19/10/2026"
+            "updated": "16:53 27/10/2026"
           }
         },
-        "hidden": true,
+        "hidden": false,
         "price_verified": true,
-        "cost_price": 15000,
-        "needs_review": true,
+        "cost_price": 40000,
+        "needs_review": false,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "bot": "@ntnshopre_bot",
+          "cost_price": 40000,
+          "stock": 0
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @ntnshopre_bot"
       },
       {
         "id": "p-1792043489127",
@@ -13237,6 +13238,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793094798782",
+      "time": "16:53 - 27/10/2026",
+      "name": "GMAIL TRIAL RANDOM DATE 202X",
+      "bot": "ntnshopre_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 0,
+      "catKey": "gmail",
+      "msgKey": "📧GMAILTRIALRANDOMDATE202X➕Thêm:12📦Tồnkhohiệntại:0💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1793094757330",
       "time": "16:52 - 27/10/2026",
       "name": "Dreamina US 8k6 credit 7 ngày BH 3D",
@@ -14324,17 +14336,6 @@
       "stockAfter": 289,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:51📦Tồnkhohiệntại:79💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1793080512552",
-      "time": "12:55 - 27/10/2026",
-      "name": "ChatGPT Plus 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 49,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBH1Ngày➕Thêm:49📦Tồnkhohiệntại:49💰Giá:130.000đ"
     }
   ]
 }
