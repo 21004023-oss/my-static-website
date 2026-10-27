@@ -5295,16 +5295,16 @@
         "id": "kling-65cre",
         "name": "Kling 65 Cre 1 Tháng BHF",
         "price": 28000,
-        "stock": 190,
-        "stock_text": "Còn 190",
+        "stock": 380,
+        "stock_text": "Còn 380",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
-        "detail": "Tài Khoản sẽ mất credit sau một thời gian và nên sử dụng ngay\nLưu Ý Quan Trọng:\n❌  Bật tab ẩn danh hoặc Sài Proxy\n❌ Không bảo hành lỗi Busy\nHướng dẩn sử dụng\nĐịnh dạng: TK|MK phân cách bởi dấu \"|\"\n1. Trên máy tính :\nMỗi Profile là một acc Kling ai, làm Song Song nhiều video cùng lúc\n2. Trên điện thoại :\nLogin Tài khoản vào > Sử dụng hết Credit > Tắt bỏ tab đó >",
-        "cost_price": 3000,
-        "import_note": "Nhập: @ntnshopre_bot",
+        "detail": "Acc free được tặng credit",
+        "cost_price": 2000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 3000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 2000,
           "stock": 190
         },
         "sources": {
@@ -5312,6 +5312,12 @@
             "stock": 190,
             "cost_price": 3000,
             "selling_price": 13000,
+            "updated": "21:33 27/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 190,
+            "cost_price": 2000,
+            "selling_price": 12000,
             "updated": "21:33 27/10/2026"
           }
         },
@@ -13378,6 +13384,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793111621889",
+      "time": "21:33 - 27/10/2026",
+      "name": "Kling 65 Cre 1th BHF",
+      "bot": "taphoathomap_bot",
+      "price": 12000,
+      "costPrice": 2000,
+      "stockAfter": 380,
+      "catKey": "kling",
+      "msgKey": "🎬Kling65Cre1thBHF➕Thêm:120📦Tồnkhohiệntại:190💰Giá:2.000đ"
+    },
+    {
       "id": "hist-1793111613466",
       "time": "21:33 - 27/10/2026",
       "name": "KLING 65 CRE 1 THÁNG BHF",
@@ -14465,17 +14482,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐📦GóiGeminiPro&Drive5TB18ThángChínhChủ(dùngngaytrong5p)vừađượcnhậpk"
-    },
-    {
-      "id": "hist-1793101696240",
-      "time": "18:48 - 27/10/2026",
-      "name": "Gmail Random 200X~2023 Có 2FA",
-      "bot": "taphoathomap_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 302,
-      "catKey": "gmail",
-      "msgKey": "📧GmailRandom200X~2023Có2FA💰Giá:35k📦Tồnkho:135tàikhoản📊Đãbán:4.440tàikhoản💎Môtả:Đ"
     }
   ]
 }
