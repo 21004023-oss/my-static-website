@@ -4965,16 +4965,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 9,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "19:02 26/10/2026"
+            "updated": "12:15 27/10/2026"
           }
         },
         "hidden": false,
@@ -4982,7 +4982,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 2
+          "stock": 9
         },
         "needs_review": false
       },
@@ -12715,6 +12715,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793078156137",
+      "time": "12:15 - 27/10/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 9,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:9📦Tồnkhohiệntại:9💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793078149755",
       "time": "12:15 - 27/10/2026",
       "name": "SLOT VEO3 Ultra x20 – Dùng riêng 12K5 Credit – 1 Tháng BHF",
@@ -13802,17 +13813,6 @@
       "stockAfter": 12,
       "catKey": "khac",
       "msgKey": "⭐ZoomPro28NgàyBHF➕Thêm:6📦Tồnkhohiệntại:8💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793042629772",
-      "time": "02:23 - 27/10/2026",
-      "name": "Acc cấp Zoom Pro 28 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 8,
-      "catKey": "khac",
-      "msgKey": "⭐AcccấpZoomPro28NgàyBHF➕Thêm:6📦Tồnkhohiệntại:8💰Giá:65.000đ"
     }
   ]
 }
