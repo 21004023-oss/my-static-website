@@ -3015,6 +3015,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 1150000
         }
+      },
+      {
+        "id": "p-1793078073551",
+        "name": "SLOT VEO3 Ultra x20 – 0 Credit – 1 Tháng BHF",
+        "price": 420000,
+        "cost_price": 370000,
+        "stock": 14,
+        "stock_text": "Còn 14",
+        "duration": "1 Tháng",
+        "detail": "🛒 CÁCH ĐẶT HÀNG\n✅ Trước khi gửi Gmail:\n- Đóng hồ sơ thanh toán: https://payments.google.com/gp/w/home/settings\n- Kiểm tra Family: http://g.co/yourfamily\n❗ Gmail không được nằm trong Family khác.\n📩 BOT báo thành công → gửi Gmail cho Admin → vào link Family và bấm “Tham gia”.\n⚠️ LƯU Ý\n- Kích ULTRA = DONE, không bảo hành những tính năng khác\n- Đổi Gmail : 5$ /1 lần ( hạn chế đổi mail vì family limit lời mời )\n--------------\nXem hướng dẫn tham gia : https://drive.google.com/drive/folders/1KLpqDMJpHfEwD4146EaJaCBlNTMmuQO9?usp=drive_link\n⚠️GOOGLE đã dừng triển khai model Veo 3 Lower Priority, đọc kĩ cảnh báo này, shop sẽ không hoàn tiền.\n⏱️ Xử lý tối đa 24h từ lúc mua hàng , nếu đồng ý thì mua hàng, vì lượng đơn hàng lớn. Xin đừng hối thúc shop. Xin cảm ơn !",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 14,
+            "cost_price": 370000,
+            "selling_price": 420000,
+            "updated": "12:14 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 370000,
+          "stock": 14
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64"
@@ -12663,6 +12689,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793078073551",
+      "time": "12:14 - 27/10/2026",
+      "name": "SLOT VEO3 Ultra x20 – 0 Credit – 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 420000,
+      "costPrice": 370000,
+      "stockAfter": 14,
+      "catKey": "google-veo",
+      "msgKey": "🚀SLOTVEO3Ultrax20–0Credit–1ThángBHF➕Thêm:14📦Tồnkhohiệntại:14💰Giá:370.000đ"
+    },
+    {
       "id": "hist-1793077994813",
       "time": "12:13 - 27/10/2026",
       "name": "MUSE AI 31 TỶ TOKEN KBH vừa được nhập kho 🔥",
@@ -13750,17 +13787,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!📦GóiGeminiPro&Drive5TB18ThángChínhchủvừađượcnhậpkho🔥📦Sốlượngcósẵn:2"
-    },
-    {
-      "id": "hist-1793041908543",
-      "time": "02:11 - 27/10/2026",
-      "name": "KLING STAND RANDOM CREDITS 1K-1K3 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 235000,
-      "costPrice": 205000,
-      "stockAfter": 2,
-      "catKey": "kling",
-      "msgKey": "🎬KLINGSTANDRANDOMCREDITS1K-1K31THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:205.000đ"
     }
   ]
 }
