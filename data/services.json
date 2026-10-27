@@ -7800,9 +7800,9 @@
         "id": "p-1793085832292",
         "name": "Youku Vip 30 ngày BHF",
         "price": 60000,
-        "cost_price": 35000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "cost_price": 25000,
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
         "detail": "Tài khoản youku vip dùng 1 thiết bị (1 slot)\nKhách hàng được đăng nhập tối đa 2 thiết bị, và xem 1 thiết bị đồng thời\nBảo hành toàn thời gian đăng ký",
         "sources": {
@@ -7817,14 +7817,20 @@
             "cost_price": 50000,
             "selling_price": 60000,
             "updated": "14:23 27/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 4,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "14:31 27/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 35000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 25000,
           "stock": 4
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -12990,6 +12996,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793086305017",
+      "time": "14:31 - 27/10/2026",
+      "name": "Youku Vip 30 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 12,
+      "catKey": "netflix",
+      "msgKey": "⭐YoukuVip30ngàyBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793085943271",
       "time": "14:25 - 27/10/2026",
       "name": "CHAT GPT PLUS 1 tháng - BH 6H",
@@ -14077,17 +14094,6 @@
       "stockAfter": 1,
       "catKey": "khac",
       "msgKey": "🎬HIGGPlus600-700CRE1ThángBH3ngày💰Giá:650k📦Tồnkho:1tàikhoản📊Đãbán:98tàikhoản"
-    },
-    {
-      "id": "hist-1793074254377",
-      "time": "11:10 - 27/10/2026",
-      "name": "Higgsfield Plus 600-900 Credits 1 tháng BH 3 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 790000,
-      "costPrice": 690000,
-      "stockAfter": 1,
-      "catKey": "khac",
-      "msgKey": "🎬HiggsfieldPlus600-900Credits1thángBH3ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:690.000đ"
     }
   ]
 }
