@@ -13584,11 +13584,48 @@
         "import_note": "Nhập: @shopxoainon_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793119193316",
+        "name": "Chào mừng đến với Tạp Hóa Thỏ Mập!",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "trước khi mua.\n💰 Lỗi từ Shop: Hoàn tiền theo thời hạn BH còn lại.\n📌 RF = Giá mua ÷ Tổng ngày BH × Số ngày BH còn lại.\n🛠 Gặp lỗi? Gửi Mã đơn + Ảnh lỗi để được hỗ trợ.\n💬 Admin: @taphoathomap\n📢 Thông báo: @bangtinthomap\n❤️ Cảm ơn bạn đã tin tưởng và ủng hộ Shop!",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "23:39 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 0,
+          "stock": 0
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793119193316",
+      "time": "23:39 - 27/10/2026",
+      "name": "Chào mừng đến với Tạp Hóa Thỏ Mập!",
+      "bot": "taphoathomap_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "🐰ChàomừngđếnvớiTạpHóaThỏMập!💎Uytínhàngđầu–Hỗtrợtậntâm–Phảnhồinhanhchóng!🤖Muahàng"
+    },
     {
       "id": "hist-1793119184509",
       "time": "23:39 - 27/10/2026",
@@ -14677,17 +14714,6 @@
       "stockAfter": 82,
       "catKey": "gmail",
       "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:20📦Tồnkhohiệntại:20💰Giá:33.000đ"
-    },
-    {
-      "id": "hist-1793110421967",
-      "time": "21:13 - 27/10/2026",
-      "name": "TV360 Standard 3 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 6,
-      "catKey": "khac",
-      "msgKey": "⭐TV360Standard3thángBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:80.000đ"
     }
   ]
 }
