@@ -4715,6 +4715,32 @@
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "needs_review": false
+      },
+      {
+        "id": "p-1793122683051",
+        "name": "[CDK] THUÊ SỐ NHẬN OTP CODEX 24H KBH",
+        "price": 20000,
+        "cost_price": 10000,
+        "stock": 261,
+        "stock_text": "Còn 261",
+        "duration": "1 Ngày",
+        "detail": "• Tuỳ chọn sử dụng VN hoặc US\n• Tỉ lệ nhận mã (US) cao hơn (VN)\n• Tự động hóa 100%, nhận OTP trực tiếp ngay trên Web.\n1. Bấm Xác nhận mua hàng để nhận CDK và web CDK\n2. Nhập SĐT vào trang xác minh OpenAI Codex / ChatGPT.\n3. Mã OTP sẽ tự động hiển thị trên tin nhắn của Web ngay khi có tin nhắn về.\n• Nếu OpenAI/Codex từ chối SĐT (hoặc báo gửi qua WhatsApp), quý khách vui lòng bấm thuê số khác.\n• Số bị từ chối (không nhận OTP) sẽ được hệ thống tự động hoàn CDK sau 2 phút hoặc quý khách huỷ trên web\nWeb: https://sms.teamsoclo.site/\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 261,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "00:38 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 10000,
+          "stock": 261
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64"
@@ -13772,6 +13798,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793122683051",
+      "time": "00:38 - 28/10/2026",
+      "name": "[CDK] THUÊ SỐ NHẬN OTP CODEX 24H KBH",
+      "bot": "piggyai99_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 261,
+      "catKey": "api-claude-codex",
+      "msgKey": "🤖[CDK]THUÊSỐNHẬNOTPCODEX24HKBH💰Giá:10k📦Tồnkho:261tàikhoản📊Đãbán:899tàikhoản💎Môtả"
+    },
+    {
       "id": "hist-1793121830735",
       "time": "00:23 - 28/10/2026",
       "name": "ChatGPT Plus Apple Pay Gmail 30D - BHF",
@@ -14859,17 +14896,6 @@
       "stockAfter": 190,
       "catKey": "kling",
       "msgKey": "🎬KLING65CRE1THÁNGBHF➕Thêm:120📦Tồnkhohiệntại:190💰Giá:3.000đ"
-    },
-    {
-      "id": "hist-1793111607162",
-      "time": "21:33 - 27/10/2026",
-      "name": "Kling 65 Credit 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 14000,
-      "costPrice": 4000,
-      "stockAfter": 190,
-      "catKey": "kling",
-      "msgKey": "🎬Kling65Credit1ThángBHF➕Thêm:120📦Tồnkhohiệntại:190💰Giá:4.000đ"
     }
   ]
 }
