@@ -10389,10 +10389,47 @@
         "import_note": "Nhập: @shopxoainon_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793124742641",
+        "name": "Gợi ý sản phẩm dành cho bạn",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Gợi ý sản phẩm dành cho bạn bảo hành uy tín.",
+        "sources": {
+          "toki_shopmmo_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "01:12 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@toki_shopmmo_bot",
+          "cost_price": 0,
+          "stock": 0
+        },
+        "import_note": "Nhập: @toki_shopmmo_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793124742641",
+      "time": "01:12 - 28/10/2026",
+      "name": "Gợi ý sản phẩm dành cho bạn",
+      "bot": "toki_shopmmo_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "🛒Gợiýsảnphẩmdànhchobạn📦131KDecorDiscord/ProfileEffectGiáRẻ(DạngLogin)–SởHữuVĩnhV"
+    },
     {
       "id": "hist-1793124460752",
       "time": "01:07 - 28/10/2026",
@@ -11718,20 +11755,6 @@
       "catKey": "capcut",
       "source": "Telegram @ntnshopre_bot",
       "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:20📦Tồnkhohiệntại:36💰Giá:38.000đ"
-    },
-    {
-      "id": "hist-1792589588057",
-      "time": "20:33 - 21/10/2026",
-      "timestamp": 1792589588057,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 15,
-      "addedQty": 15,
-      "price": 85000,
-      "stockAfter": 15,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:15📦Tồnkhohiệntại:15💰Giá:75.000đ"
     }
   ]
 }
