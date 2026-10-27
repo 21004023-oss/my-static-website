@@ -4949,13 +4949,13 @@
         "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1200 credit 1TH BH 1 ngày bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 3,
+            "stock": 4,
             "cost_price": 140000,
             "selling_price": 160000,
             "updated": "05:05 28/10/2026"
@@ -4964,7 +4964,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 140000,
-          "stock": 3
+          "stock": 4
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -10852,6 +10852,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793138759835",
+      "time": "05:05 - 28/10/2026",
+      "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 4,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1200credit1THBH1ngày💰Giá:140k📦Tồnkho:4tàikhoản📊Đãbán:12tàikhoản✏️V"
+    },
+    {
       "id": "hist-1793138753974",
       "time": "05:05 - 28/10/2026",
       "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
@@ -11996,20 +12007,6 @@
       "catKey": "google-veo",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H💰Giá:40k📦Tồnkho:72tàikhoản📊Đãbán:3.097tàikhoản💎Môt"
-    },
-    {
-      "id": "hist-1792655565434",
-      "time": "14:52 - 22/10/2026",
-      "timestamp": 1792655565434,
-      "name": "CapCut Pro Team 3 Tháng - BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 7,
-      "addedQty": 0,
-      "price": 180000,
-      "stockAfter": 14,
-      "catKey": "capcut",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "✂️CapCutProTeam3Tháng-BHF💰Giá:160k📦Tồnkho:7tàikhoản📊Đãbán:179tàikhoản💎Môtả:Tàikh"
     }
   ]
 }
