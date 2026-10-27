@@ -5230,16 +5230,16 @@
         "id": "p-1792171955948",
         "name": "Kling 790-1k Credit 1 tháng BH 1 Ngày",
         "price": 200000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "ACC KLING STAND RANDOM 700-750 CREDITS",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 9,
+            "stock": 10,
             "cost_price": 180000,
             "selling_price": 200000,
-            "updated": "16:56 23/10/2026"
+            "updated": "09:19 27/10/2026"
           }
         },
         "hidden": false,
@@ -5249,7 +5249,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 180000,
-          "stock": 9
+          "stock": 10
         }
       },
       {
@@ -12425,6 +12425,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793067540921",
+      "time": "09:19 - 27/10/2026",
+      "name": "Kling 790-1k Credit 1 tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 10,
+      "catKey": "kling",
+      "msgKey": "🎬Kling790-1kCredit1thángBH1Ngày➕Thêm:10📦Tồnkhohiệntại:10💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1793066774128",
       "time": "09:06 - 27/10/2026",
       "name": "Netflix Premium Extra 1 Tháng BHF",
@@ -13512,17 +13523,6 @@
       "stockAfter": 86,
       "catKey": "khac",
       "msgKey": "🎵TIKTOKĐỨC(DE)➕Thêm:86📦Tồnkhohiệntại:86💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1793033781891",
-      "time": "23:56 - 26/10/2026",
-      "name": "TIKTOK PHÁP",
-      "bot": "taphoathomap_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 86,
-      "catKey": "khac",
-      "msgKey": "🎵TIKTOKPHÁP➕Thêm:86📦Tồnkhohiệntại:86💰Giá:25.000đ"
     }
   ]
 }
