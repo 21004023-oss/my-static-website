@@ -12367,11 +12367,48 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793066391693",
+        "name": "seedance 2.5 1 tháng BH 4D",
+        "price": 109000,
+        "cost_price": 99000,
+        "stock": 20,
+        "stock_text": "Còn 20",
+        "duration": "1 Tháng",
+        "detail": "rendar.ai gói 12$ rendar.ai rendar.ai\n40 token được làm mới hàng ngày\n6.000 token mỗi tháng\nTạo từ 1 đến 4 hình ảnh cho mỗi yêu cầu\nChờ hàng đợi tối đa 5 tác vụ tạo hình ảnh và video đang hoạt động (tổng cộng)\nTạo đồng thời 2 tác vụ\nLưu trữ tối đa 10.000 hình ảnh và video trong bộ sưu tập cá nhân\nLịch sử tạo đầy đủ có sẵn trong thời gian đăng ký\nTruy cập không giới hạn vào các công cụ chỉnh sửa.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 20,
+            "cost_price": 99000,
+            "selling_price": 109000,
+            "updated": "08:59 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 99000,
+          "stock": 20
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793066391693",
+      "time": "08:59 - 27/10/2026",
+      "name": "seedance 2.5 1 tháng BH 4D",
+      "bot": "taphoathomap_bot",
+      "price": 109000,
+      "costPrice": 99000,
+      "stockAfter": 20,
+      "catKey": "khac",
+      "msgKey": "⭐seedance2.51thángBH4D➕Thêm:20📦Tồnkhohiệntại:20💰Giá:99.000đ"
+    },
     {
       "id": "hist-1793066358168",
       "time": "08:59 - 27/10/2026",
@@ -13460,17 +13497,6 @@
       "stockAfter": 83,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:11📦Tồnkhohiệntại:56💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793033596405",
-      "time": "23:53 - 26/10/2026",
-      "name": "CAPCUT PRO 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 48000,
-      "costPrice": 38000,
-      "stockAfter": 56,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:11📦Tồnkhohiệntại:56💰Giá:38.000đ"
     }
   ]
 }
