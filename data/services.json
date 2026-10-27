@@ -4986,8 +4986,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành",
         "sources": {
@@ -4998,10 +4998,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 9,
+            "stock": 14,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "12:16 27/10/2026"
+            "updated": "13:18 27/10/2026"
           }
         },
         "hidden": false,
@@ -5010,7 +5010,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 9
+          "stock": 14
         }
       },
       {
@@ -12811,6 +12811,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793081913538",
+      "time": "13:18 - 27/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 16,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:13📦Tồnkhohiệntại:14💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793081909698",
       "time": "13:18 - 27/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -13898,17 +13909,6 @@
       "stockAfter": 2,
       "catKey": "netflix",
       "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1793066677835",
-      "time": "09:04 - 27/10/2026",
-      "name": "Capcut Pro 500 credit 7D BH 6D",
-      "bot": "taphoathomap_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 599,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutPro500credit7DBH6D➕Thêm:600📦Tồnkhohiệntại:599💰Giá:10.000đ"
     }
   ]
 }
