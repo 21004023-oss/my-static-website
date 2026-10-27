@@ -5180,17 +5180,28 @@
         "id": "kling-65cre",
         "name": "Kling 65 Cre 1 Tháng BHF",
         "price": 28000,
-        "stock": 115,
-        "stock_text": "Còn 115",
+        "stock": 177,
+        "stock_text": "Còn 177",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
-        "detail": "- Định dạng: TK|MK.\n- Tài khoản sẽ mất credit sau một thời gian và nên sử dụng ngay.\n- Bật tab ẩn danh hoặc xài Proxy (trên PC mỗi Profile là 1 acc Kling để làm song song nhiều video).\n- Không bảo hành lỗi Busy.",
-        "cost_price": 3000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "detail": "Acc free được tặng credit",
+        "cost_price": 2000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 3000
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 2000,
+          "stock": 177
+        },
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 177,
+            "cost_price": 2000,
+            "selling_price": 12000,
+            "updated": "12:44 27/10/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "kling-700cre",
@@ -12794,6 +12805,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793079897819",
+      "time": "12:44 - 27/10/2026",
+      "name": "Kling 65 Cre 1th BHF",
+      "bot": "taphoathomap_bot",
+      "price": 12000,
+      "costPrice": 2000,
+      "stockAfter": 177,
+      "catKey": "kling",
+      "msgKey": "🎬Kling65Cre1thBHF➕Thêm:81📦Tồnkhohiệntại:177💰Giá:2.000đ"
+    },
+    {
       "id": "hist-1793079892772",
       "time": "12:44 - 27/10/2026",
       "name": "Kling 65 Credit 1 Tháng BHF",
@@ -13881,17 +13903,6 @@
       "stockAfter": 24,
       "catKey": "khac",
       "msgKey": "⭐MuseAI31BTokenKBH➕Thêm:5📦Tồnkhohiệntại:24💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1793056626196",
-      "time": "06:17 - 27/10/2026",
-      "name": "Grok Super 1 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 5,
-      "catKey": "grok",
-      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:5📦Tồnkhohiệntại:5💰Giá:90.000đ"
     }
   ]
 }
