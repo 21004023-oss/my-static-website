@@ -6552,27 +6552,28 @@
         "id": "p-1792035072787",
         "name": "GMAIL TRIAL RANDOM DATE 202X",
         "price": 50000,
-        "stock": 172,
-        "stock_text": "Còn 172",
+        "stock": 25,
+        "stock_text": "Còn 25",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 172,
+            "stock": 25,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "21:57 19/10/2026"
+            "updated": "21:59 27/10/2026"
           }
         },
-        "hidden": true,
+        "hidden": false,
         "price_verified": true,
-        "cost_price": 15000,
-        "needs_review": true,
+        "cost_price": 40000,
+        "needs_review": false,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "bot": "@ntnshopre_bot",
+          "cost_price": 40000,
+          "stock": 25
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @ntnshopre_bot"
       },
       {
         "id": "p-1792043489127",
@@ -13418,6 +13419,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793113175237",
+      "time": "21:59 - 27/10/2026",
+      "name": "GMAIL TRIAL RANDOM DATE 202X",
+      "bot": "ntnshopre_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 25,
+      "catKey": "gmail",
+      "msgKey": "📧GMAILTRIALRANDOMDATE202X➕Thêm:25📦Tồnkhohiệntại:25💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1793113170392",
       "time": "21:59 - 27/10/2026",
       "name": "MUSE AI 1 TỶ TOKEN KBH vừa được nhập kho 🔥",
@@ -14505,17 +14517,6 @@
       "stockAfter": 7,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1kCredit1ThángBH1ngày💰Giá:180k📦Tồnkho:7tàikhoản📊Đãbán:55tàikhoản"
-    },
-    {
-      "id": "hist-1793104141565",
-      "time": "19:29 - 27/10/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng BH 1h",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 23,
-      "catKey": "khac",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1thángBH1h💰Giá:30k📦Tồnkho:23tàikhoản📊Đãbán:333tàikhoản💎Môt"
     }
   ]
 }
