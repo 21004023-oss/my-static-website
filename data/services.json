@@ -12272,11 +12272,48 @@
         "import_note": "Nhập: @toki_shopmmo_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793059602056",
+        "name": "Muse AI 31B Token KBH",
+        "price": 90000,
+        "cost_price": 80000,
+        "stock": 24,
+        "stock_text": "Còn 24",
+        "duration": "1 Tháng",
+        "detail": "-Token 31B\n-Định dạng: Mail | Link đọc code mail\n-Bảo hành: Login check acc ok = hoàn tất BH.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 24,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "07:06 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 80000,
+          "stock": 24
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793059602056",
+      "time": "07:06 - 27/10/2026",
+      "name": "Muse AI 31B Token KBH",
+      "bot": "sieuthistore_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 24,
+      "catKey": "khac",
+      "msgKey": "⭐MuseAI31BTokenKBH➕Thêm:5📦Tồnkhohiệntại:24💰Giá:80.000đ"
+    },
     {
       "id": "hist-1793056626196",
       "time": "06:17 - 27/10/2026",
@@ -13365,17 +13402,6 @@
       "stockAfter": 2,
       "catKey": "khac",
       "msgKey": "⭐GalaxyPlayVIP30ngàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1793032098130",
-      "time": "23:28 - 26/10/2026",
-      "name": "Kling Stand random 800-1000 credit 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 5,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandrandom800-1000credit1THBH1ngày➕Thêm:4📦Tồnkhohiệntại:5💰Giá:115.000đ"
     }
   ]
 }
