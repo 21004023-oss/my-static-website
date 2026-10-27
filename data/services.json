@@ -434,6 +434,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793107904743",
+        "name": "CODE YouTube Premium gói cá nhân (thời hạn 3 tháng) BHF",
+        "price": 109000,
+        "cost_price": 99000,
+        "stock": 13,
+        "stock_text": "Còn 13",
+        "duration": "3 Tháng",
+        "detail": "❞ Mô tả:\n• Yêu cầu phương thức thanh toán để kích hoạt\n• Trang đổi mã: https://www.youtube.com/redeem\n• Dùng thử — chỉ hoạt động trên tài khoản không có gói cước trước đó/đang hoạt động\n• Bảo hành toàn bộ sau khi kích hoạt (3 tháng)\n• Phải được đổi trong vòng 7 ngày kể từ ngày mua\n• Dùng VPN các quốc gia được phép để sử dụng mã redeem\n• Danh sách các quốc gia được phép:\nPL; IN; BE; AR; ID; CA; DK; IT; MX; FR; AE; NL;\nZA; BR; TR; US; SE; AU; DE; GB; ES; CH; HK\nHÃY MUA KHI BẠN BIẾT SỬ DỤNG( ĐÂY LÀ GÓI FREE 3 THÁNG BẠN PHẢI THANH TOÁN, VÀ SAU ĐÓ CÓ THỂ HỦY HỒ SƠ THANH TOÁN ĐI TRÁNH TRỪ TIỀN)",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 13,
+            "cost_price": 99000,
+            "selling_price": 109000,
+            "updated": "20:31 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 99000,
+          "stock": 13
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=youtube.com&sz=64"
@@ -13206,6 +13232,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793107904743",
+      "time": "20:31 - 27/10/2026",
+      "name": "CODE YouTube Premium gói cá nhân (thời hạn 3 tháng) BHF",
+      "bot": "taphoathomap_bot",
+      "price": 109000,
+      "costPrice": 99000,
+      "stockAfter": 13,
+      "catKey": "youtube",
+      "msgKey": "▶️CODEYouTubePremiumgóicánhân(thờihạn3tháng)BHF➕Thêm:13📦Tồnkhohiệntại:13💰Giá:99."
+    },
+    {
       "id": "hist-1793107876424",
       "time": "20:31 - 27/10/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -14293,17 +14330,6 @@
       "stockAfter": 11,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:9📦Tồnkhohiệntại:9💰Giá:109.000đ"
-    },
-    {
-      "id": "hist-1793078156137",
-      "time": "12:15 - 27/10/2026",
-      "name": "Grok Plus 30 ngày BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 9,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:9📦Tồnkhohiệntại:9💰Giá:140.000đ"
     }
   ]
 }
