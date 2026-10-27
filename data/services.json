@@ -6874,17 +6874,17 @@
         "id": "p-1792421622161",
         "name": "Gmail random new",
         "price": 35000,
-        "cost_price": 15000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "cost_price": 22000,
+        "stock": 52,
+        "stock_text": "Còn 52",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 11,
+            "stock": 41,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "11:46 20/10/2026"
+            "updated": "18:18 27/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -6893,13 +6893,14 @@
             "updated": "09:41 20/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 22000,
+          "stock": 11
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "gpt-free-gmail-12k-unified",
@@ -12826,6 +12827,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793099912410",
+      "time": "18:18 - 27/10/2026",
+      "name": "Gmail random new",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 52,
+      "catKey": "gmail",
+      "msgKey": "📧Gmailrandomnew➕Thêm:2📦Tồnkhohiệntại:41💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793099872845",
       "time": "18:17 - 27/10/2026",
       "name": "Tài Khoản Netflix Premium 2 ngày BHF",
@@ -13913,17 +13925,6 @@
       "stockAfter": 10,
       "catKey": "capcut",
       "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:155.000đ"
-    },
-    {
-      "id": "hist-1793059712287",
-      "time": "07:08 - 27/10/2026",
-      "name": "CapCut Pro 3 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 205000,
-      "costPrice": 185000,
-      "stockAfter": 11,
-      "catKey": "capcut",
-      "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:185.000đ"
     }
   ]
 }
