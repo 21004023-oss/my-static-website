@@ -7734,18 +7734,18 @@
       {
         "id": "p-1792307363682",
         "name": "Express VPN 3 Ngày BHF",
-        "price": 35000,
+        "price": 40000,
         "cost_price": 15000,
-        "stock": 28,
-        "stock_text": "Còn 28",
+        "stock": 23,
+        "stock_text": "Còn 23",
         "duration": "3 Ngày",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 11,
-            "cost_price": 25000,
-            "selling_price": 35000,
-            "updated": "12:18 21/10/2026"
+            "stock": 6,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "01:06 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -10340,6 +10340,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793124402478",
+      "time": "01:06 - 28/10/2026",
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 23,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793124396993",
       "time": "01:06 - 28/10/2026",
       "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
@@ -11703,20 +11714,6 @@
       "catKey": "social",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐CloneFacebookNoveryNameViệtKBH➕Thêm:30📦Tồnkhohiệntại:24💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1792580765476",
-      "time": "18:06 - 21/10/2026",
-      "timestamp": 1792580765476,
-      "name": "ChatGPT Go 1 Tháng - BH 10 Ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 16,
-      "addedQty": 15,
-      "price": 75000,
-      "stockAfter": 16,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTGo1Tháng-BH10Ngày➕Thêm:15📦Tồnkhohiệntại:16💰Giá:65.000đ"
     }
   ]
 }
