@@ -8546,16 +8546,16 @@
         "id": "p-1792261855714",
         "name": "Proton VPN 14-28 Ngày BHF",
         "price": 65000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "- Tài khoản Proton VPN 14 Ngày (iOS, Android, PC) 10 Thiết bị BHF 14 ngày\n- Định dạng: Email:Pass",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 6,
+            "stock": 5,
             "cost_price": 55000,
             "selling_price": 65000,
-            "updated": "02:44 27/10/2026"
+            "updated": "16:07 27/10/2026"
           }
         },
         "hidden": false,
@@ -8565,7 +8565,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 55000,
-          "stock": 6
+          "stock": 5
         }
       },
       {
@@ -13211,6 +13211,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793092069079",
+      "time": "16:07 - 27/10/2026",
+      "name": "Proton VPN 14-28 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 5,
+      "catKey": "vpn",
+      "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:5💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793091734529",
       "time": "16:02 - 27/10/2026",
       "name": "Dreamina US 8k6 credit 7 ngày BH 3D",
@@ -14298,17 +14309,6 @@
       "stockAfter": 354,
       "catKey": "kling",
       "msgKey": "🎬KLING65CRE1THÁNGBHF➕Thêm:81📦Tồnkhohiệntại:177💰Giá:3.000đ"
-    },
-    {
-      "id": "hist-1793079897819",
-      "time": "12:44 - 27/10/2026",
-      "name": "Kling 65 Cre 1th BHF",
-      "bot": "taphoathomap_bot",
-      "price": 12000,
-      "costPrice": 2000,
-      "stockAfter": 177,
-      "catKey": "kling",
-      "msgKey": "🎬Kling65Cre1thBHF➕Thêm:81📦Tồnkhohiệntại:177💰Giá:2.000đ"
     }
   ]
 }
