@@ -9052,8 +9052,8 @@
         "id": "p-1792043489127",
         "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
         "price": 53000,
-        "stock": 97,
-        "stock_text": "Còn 97",
+        "stock": 55,
+        "stock_text": "Còn 55",
         "duration": "6 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2fa | Passkey\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL TRIAL RANDOM IP  DATE  6 THÁNG\n- Lấy mã Google Authentic / 2fa ở 2fa.live",
         "sources": {
@@ -9070,20 +9070,21 @@
             "updated": "15:47 19/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 42,
+            "stock": 0,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "15:48 19/10/2026"
+            "updated": "01:38 28/10/2026"
           }
         },
-        "hidden": true,
-        "cost_price": 15000,
-        "needs_review": true,
+        "hidden": false,
+        "cost_price": 23000,
+        "needs_review": false,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "bot": "@ntnshopre_bot",
+          "cost_price": 23000,
+          "stock": 13
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @ntnshopre_bot"
       },
       {
         "id": "p-1792058056145",
@@ -10585,6 +10586,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793126287802",
+      "time": "01:38 - 28/10/2026",
+      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
+      "bot": "taphoathomap_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 55,
+      "catKey": "gmail",
+      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:1📦Tồnkhohiệntại:0💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1793126227301",
       "time": "01:37 - 28/10/2026",
       "name": "ChatGPT Plus UIP 1 Tháng KBH",
@@ -11816,20 +11828,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlus4Tháng-BH10Ngày➕Thêm:43📦Tồnkhohiệntại:0💰Giá:600.000đ"
-    },
-    {
-      "id": "hist-1792622925656",
-      "time": "05:48 - 22/10/2026",
-      "timestamp": 1792622925656,
-      "name": "CHATGPT PRO 500$ 1 tháng - BH 3 Ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 30,
-      "addedQty": 30,
-      "price": 3650000,
-      "stockAfter": 30,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖CHATGPTPRO500$1tháng-BH3Ngày➕Thêm:30📦Tồnkhohiệntại:30💰Giá:3.300.000đ"
     }
   ]
 }
