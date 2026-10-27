@@ -10448,13 +10448,13 @@
         "name": "THÔNG TIN SẢN PHẨM",
         "price": 0,
         "cost_price": 0,
-        "stock": 45,
-        "stock_text": "Còn 45",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Gói THÔNG TIN SẢN PHẨM bảo hành uy tín.",
         "sources": {
           "shopxoainon_bot": {
-            "stock": 45,
+            "stock": 0,
             "cost_price": 0,
             "selling_price": 0,
             "updated": "01:29 28/10/2026"
@@ -10498,6 +10498,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793125768717",
+      "time": "01:29 - 28/10/2026",
+      "name": "THÔNG TIN SẢN PHẨM",
+      "bot": "shopxoainon_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "🛍️THÔNGTINSẢNPHẨM━━━━━━━━━━━━━━━━🌐MUSEAI31TỶTOKENKBH✨TàikhoảnMuseAIsởhữusẵn31TỶT"
+    },
     {
       "id": "hist-1793125764835",
       "time": "01:29 - 28/10/2026",
@@ -11769,20 +11780,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH24H➕Thêm:20📦Tồnkhohiệntại:28💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1792605877744",
-      "time": "01:04 - 22/10/2026",
-      "timestamp": 1792605877744,
-      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 215,
-      "addedQty": 100,
-      "price": 55000,
-      "stockAfter": 229,
-      "catKey": "capcut",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:100📦Tồnkhohiệntại:215💰Giá:45.000đ"
     }
   ]
 }
