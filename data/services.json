@@ -7313,16 +7313,16 @@
         "id": "p-1791917317024",
         "name": "Wink VIP+ 7 Ngày BHF",
         "price": 45000,
-        "stock": 28,
-        "stock_text": "Còn 28",
-        "duration": "1 Tháng",
-        "detail": "Wink gói VIP+ 7 Ngày BHF 100 credits login 1 thiết bị,  nếu đăng nhập trên điện thoại lỗi thì có thể có thể dùng trên PC\n- Định dạng: (Email|Pass Hotmail|Pass Wink) Token\n- Pass Wink mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\nLink tải app Wink trên máy tính: https://wink.ai/vi\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU TÀI KHOẢN VẪN CÒN GÓI",
+        "stock": 32,
+        "stock_text": "Còn 32",
+        "duration": "7 Ngày",
+        "detail": "Wink gói VIP+ 7 Ngày BHF 100 credits login 1 thiết bị,  nếu đăng nhập trên điện thoại lỗi thì có thể có thể dùng trên PC\n- Định dạng: (Email|Pass Hotmail|Pass Wink) Token\n- Pass Wink mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\nLink tải app Wink trên máy tính: https://wink.ai/vi\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 3,
+            "stock": 7,
             "cost_price": 15000,
-            "updated": "08:54 16/10/2026",
-            "selling_price": 25000
+            "selling_price": 25000,
+            "updated": "01:07 28/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 25,
@@ -7331,13 +7331,14 @@
             "selling_price": 45000
           }
         },
-        "cost_price": 35000,
-        "hidden": true,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "cost_price": 15000,
+        "hidden": false,
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 35000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
+          "stock": 7
         }
       },
       {
@@ -10393,6 +10394,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793124451235",
+      "time": "01:07 - 28/10/2026",
+      "name": "Wink VIP+ 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 32,
+      "catKey": "wink",
+      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793124445543",
       "time": "01:07 - 28/10/2026",
       "name": "THÔNG TIN SẢN PHẨM",
@@ -11726,20 +11738,6 @@
       "catKey": "capcut",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✂️CapcutPro1ThángBH30Ngày💰Giá:60k📦Tồnkho:9tàikhoản📊Đãbán:1.721tàikhoản"
-    },
-    {
-      "id": "hist-1792587989236",
-      "time": "20:06 - 21/10/2026",
-      "timestamp": 1792587989236,
-      "name": "Gói VIP 3. API MUSE - Tạo 6250 video 10s - 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 0,
-      "addedQty": 5,
-      "price": 800000,
-      "stockAfter": 0,
-      "catKey": "muse-ai",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐GóiVIP3.APIMUSE-Tạo6250video10s-1ThángBHF➕Thêm:5📦Tồnkhohiệntại:0💰Giá:700.000đ"
     }
   ]
 }
