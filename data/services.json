@@ -9637,6 +9637,32 @@
           "cost_price": 30000,
           "stock": 26
         }
+      },
+      {
+        "id": "p-1793089975220",
+        "name": "Meitu Vip 7 days riêng tư - BHF vừa được nhập kho 🔥",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Meitu Vip 7 days riêng tư - BHF vừa được nhập kho 🔥 bảo hành uy tín.",
+        "sources": {
+          "shopxoainon_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "15:32 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@shopxoainon_bot",
+          "cost_price": 0,
+          "stock": 0
+        },
+        "import_note": "Nhập: @shopxoainon_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13185,6 +13211,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793089975220",
+      "time": "15:32 - 27/10/2026",
+      "name": "Meitu Vip 7 days riêng tư - BHF vừa được nhập kho 🔥",
+      "bot": "shopxoainon_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "meitu-wink",
+      "msgKey": "🎉HÀNGMỚIVỀKỆ!👑MeituVip7daysriêngtư-BHFvừađượcnhậpkho🔥📦Sốlượngcósẵn:11💵Giáchỉ:9.5"
+    },
+    {
       "id": "hist-1793089821464",
       "time": "15:30 - 27/10/2026",
       "name": "Gmail random new",
@@ -14272,17 +14309,6 @@
       "stockAfter": 3868,
       "catKey": "khac",
       "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:20📦Tồnkhohiệntại:20💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793078324850",
-      "time": "12:18 - 27/10/2026",
-      "name": "ADMIN FULL FAM VEO 3 x20 Credit 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 2700000,
-      "costPrice": 2350000,
-      "stockAfter": 9,
-      "catKey": "google-veo",
-      "msgKey": "🚀ADMINFULLFAMVEO3x20Credit1ThángBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:2.350.000đ"
     }
   ]
 }
