@@ -3344,16 +3344,16 @@
         "id": "p-1792024624956",
         "name": "Capcut Pro 1 Tháng BH 30 Ngày",
         "price": 70000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "Gói Capcut Pro 1 Tháng BH 30 Ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 3,
+            "stock": 10,
             "cost_price": 60000,
             "selling_price": 70000,
-            "updated": "00:04 27/10/2026"
+            "updated": "09:35 27/10/2026"
           }
         },
         "cost_price": 60000,
@@ -3362,7 +3362,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 60000,
-          "stock": 3
+          "stock": 10
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -12425,6 +12425,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793068513256",
+      "time": "09:35 - 27/10/2026",
+      "name": "Capcut Pro 1 Tháng BH 30 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 10,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutPro1ThángBH30Ngày💰Giá:60k📦Tồnkho:10tàikhoản📊Đãbán:1.804tàikhoản"
+    },
+    {
       "id": "hist-1793067546789",
       "time": "09:19 - 27/10/2026",
       "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
@@ -13512,17 +13523,6 @@
       "stockAfter": 86,
       "catKey": "khac",
       "msgKey": "🎵TàiKhoảnTiktokSouthKorea(KR)➕Thêm:86📦Tồnkhohiệntại:86💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793033793760",
-      "time": "23:56 - 26/10/2026",
-      "name": "Tài Khoản Tiktok Nhật Bản ( JP )",
-      "bot": "taphoathomap_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 86,
-      "catKey": "khac",
-      "msgKey": "🎵TàiKhoảnTiktokNhậtBản(JP)➕Thêm:86📦Tồnkhohiệntại:86💰Giá:25.000đ"
     }
   ]
 }
