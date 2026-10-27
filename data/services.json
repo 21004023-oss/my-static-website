@@ -6680,9 +6680,9 @@
         "id": "p-1792402722954",
         "name": "Gmail (New) -Login phone",
         "price": 43000,
-        "cost_price": 33000,
-        "stock": 50,
-        "stock_text": "Còn 50",
+        "cost_price": 23000,
+        "stock": 100,
+        "stock_text": "Còn 100",
         "duration": "1 Tháng",
         "detail": "Bảo hành login 24H- Login thành công là hết BH\nGmail Login bằng Điện thoại ( Ngâm 1 thời gian có thể login đc pc bình thường )\n-Cách lượt quét QR : Đăng nhập bằng ứng dụng gmail sẽ hạ chế quét QR.\n- Định dạng : Gmail | Pass | mail khôi phục",
         "sources": {
@@ -6697,16 +6697,22 @@
             "cost_price": 23000,
             "selling_price": 33000,
             "updated": "06:35 20/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 50,
+            "cost_price": 23000,
+            "selling_price": 33000,
+            "updated": "10:41 27/10/2026"
           }
         },
         "hidden": false,
         "needs_review": false,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 33000,
+          "bot": "@piggyai99_bot",
+          "cost_price": 23000,
           "stock": 50
         },
-        "import_note": "Nhập: @sieuthistore_bot"
+        "import_note": "Nhập: @piggyai99_bot"
       },
       {
         "id": "p-1792404466054",
@@ -12480,6 +12486,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793072488876",
+      "time": "10:41 - 27/10/2026",
+      "name": "Gmail (New) -Login phone",
+      "bot": "piggyai99_bot",
+      "price": 33000,
+      "costPrice": 23000,
+      "stockAfter": 100,
+      "catKey": "gmail",
+      "msgKey": "📧Gmail(New)-Loginphone➕Thêm:50📦Tồnkhohiệntại:50💰Giá:23.000đ"
+    },
+    {
       "id": "hist-1793072484053",
       "time": "10:41 - 27/10/2026",
       "name": "Gmail (New) -Login phone",
@@ -13567,17 +13584,6 @@
       "stockAfter": 6,
       "catKey": "khac",
       "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793034373713",
-      "time": "00:06 - 27/10/2026",
-      "name": "Zoom Pro 14 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 6,
-      "catKey": "khac",
-      "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:45.000đ"
     }
   ]
 }
