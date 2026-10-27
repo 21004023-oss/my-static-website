@@ -7616,8 +7616,8 @@
         "id": "p-1792218961522",
         "name": "Youku Vip 3 tháng BHF",
         "price": 95000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "3 Tháng",
         "detail": "Tài khoản youku vip dùng 1 thiết bị (1 slot)\nKhách hàng được đăng nhập tối đa 2 thiết bị, và xem 1 thiết bị đồng thời\nBảo hành toàn thời gian đăng ký",
         "sources": {
@@ -7626,14 +7626,20 @@
             "cost_price": 85000,
             "selling_price": 95000,
             "updated": "14:23 27/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "14:23 27/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 85000,
-        "import_note": "Nhập: @sieuthistore_bot",
+        "cost_price": 50000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 85000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 50000,
           "stock": 3
         },
         "needs_review": false
@@ -12926,6 +12932,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793085826629",
+      "time": "14:23 - 27/10/2026",
+      "name": "Youku Vip 3 tháng bhf",
+      "bot": "taphoathomap_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 6,
+      "catKey": "netflix",
+      "msgKey": "⭐YoukuVip3thángbhf➕Thêm:3📦Tồnkhohiệntại:3💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1793085816490",
       "time": "14:23 - 27/10/2026",
       "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 5 NGÀY",
@@ -14013,17 +14030,6 @@
       "stockAfter": 17,
       "catKey": "gmail",
       "msgKey": "📧Gmailrandom5-10tháng2FA➕Thêm:1📦Tồnkhohiệntại:1💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793073714555",
-      "time": "11:01 - 27/10/2026",
-      "name": "MUSE AI 31 TỶ TOKEN KBH vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI31TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:3💵Giáchỉ:29.000đ🎁Kh"
     }
   ]
 }
