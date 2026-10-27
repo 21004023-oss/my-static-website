@@ -6407,25 +6407,27 @@
         "id": "p-1792101992916",
         "name": "Gmail Cổ Random 2010~2022",
         "price": 55000,
-        "stock": 330,
-        "stock_text": "Còn 330",
+        "stock": 400,
+        "stock_text": "Còn 400",
         "duration": "1 Tháng",
-        "detail": "🇻🇳Mô tả: Login Lỗi Pass- Very Phone- Được Bảo hành Login 24H - login thành công là hết Bảo hành\nĐịnh dạng: Gmail | Pass | Gmail khôi phục| 2FA (nếu có )\n- Gmail này cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\n✅ Cần chọn nước Gmail inbox Admin ( chỉ áp dụng cho đơn mua số lượng)",
+        "detail": "🇻🇳Mô tả: Login Lỗi Pass- Very Phone- Được Bảo hành Login 24H - login thành công là hết Bảo hành\nĐịnh dạng: Gmail | Pass | Gmail khôi phục| 2FA (nếu có )\n- Gmail này cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\n-Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/",
         "sources": {
           "piggyai99_bot": {
-            "stock": 330,
+            "stock": 400,
             "cost_price": 35000,
-            "updated": "05:43 16/10/2026",
-            "selling_price": 45000
+            "selling_price": 45000,
+            "updated": "10:49 27/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 15000,
+        "cost_price": 35000,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "bot": "@piggyai99_bot",
+          "cost_price": 35000,
+          "stock": 400
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @piggyai99_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792102069973",
@@ -12512,6 +12514,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793072960432",
+      "time": "10:49 - 27/10/2026",
+      "name": "Gmail Cổ Random 2010~2022",
+      "bot": "piggyai99_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 400,
+      "catKey": "gmail",
+      "msgKey": "📧GmailCổRandom2010~2022➕Thêm:400📦Tồnkhohiệntại:400💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793072935078",
       "time": "10:48 - 27/10/2026",
       "name": "Runway 9500 credit 1 Tháng BH 3 Ngày",
@@ -13599,17 +13612,6 @@
       "stockAfter": 43,
       "catKey": "khac",
       "msgKey": "⭐KeyGPMLOGINCHÍNHHÃNG7Ngày-BHF➕Thêm:43📦Tồnkhohiệntại:43💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793034930101",
-      "time": "00:15 - 27/10/2026",
-      "name": "KEY GPM LOGIN CHÍNH HÃNG VĨNH VIỄN - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 1700000,
-      "costPrice": 1500000,
-      "stockAfter": 43,
-      "catKey": "khac",
-      "msgKey": "⭐KEYGPMLOGINCHÍNHHÃNGVĨNHVIỄN-BHF➕Thêm:43📦Tồnkhohiệntại:43💰Giá:1.500.000đ"
     }
   ]
 }
