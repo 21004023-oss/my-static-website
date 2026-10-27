@@ -1001,25 +1001,34 @@
       {
         "id": "p-1791951111143",
         "name": "ChatGPT Go 1 Tháng BHF",
-        "price": 110000,
-        "stock": 16,
-        "stock_text": "Còn 16",
+        "price": 150000,
+        "stock": 35,
+        "stock_text": "Còn 35",
         "duration": "1 Tháng",
-        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n2. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n3. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "detail": "👉 Format: Email | Password | 2FA\n👉 Bảo hành Full: 30 Ngày\n👉 Quy định bảo hành:\n- Bảo hành cả trong trường hợp die acc hoặc mất gói\n- Tài khoản trước khi đưa lên BOT đã kiểm tra kỹ lưỡng nên KHÔNG BẢO HÀNH MỌI TRƯỜNG HỢP KHÁC (ví dụ như sai password, sai 2FA...)\n⚠️ Sau khi mua hàng yêu cầu thay đổi lại 2FA và hãy chắc chắn rằng bạn đã lưu lại chúng ĐỌC KỸ THÔNG TIN TRƯỚC KHI MUA HÀNG! TRÁNH NHỮNG TRANH CHẤP SAU KHI MUA HÀNG.",
         "sources": {
           "taphoathomap_bot": {
             "stock": 16,
             "cost_price": 100000,
             "updated": "22:17 15/10/2026",
             "selling_price": 110000
+          },
+          "sieuthistore_bot": {
+            "stock": 19,
+            "cost_price": 130000,
+            "selling_price": 150000,
+            "updated": "20:32 27/10/2026"
           }
         },
         "cost_price": 100000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 100000
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 100000,
+          "stock": 16
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1791959666899",
@@ -13232,6 +13241,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793107943530",
+      "time": "20:32 - 27/10/2026",
+      "name": "ChatGPT Go 1 Tháng  BHF",
+      "bot": "sieuthistore_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 35,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1ThángBHF➕Thêm:10📦Tồnkhohiệntại:19💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1793107904743",
       "time": "20:31 - 27/10/2026",
       "name": "CODE YouTube Premium gói cá nhân (thời hạn 3 tháng) BHF",
@@ -14319,17 +14339,6 @@
       "stockAfter": 9,
       "catKey": "google-veo",
       "msgKey": "🚀ADMINFULLFAMVEO3x20Credit1ThángBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:2.350.000đ"
-    },
-    {
-      "id": "hist-1793078177525",
-      "time": "12:16 - 27/10/2026",
-      "name": "Grok Plus 30 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 129000,
-      "costPrice": 109000,
-      "stockAfter": 11,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:9📦Tồnkhohiệntại:9💰Giá:109.000đ"
     }
   ]
 }
