@@ -10368,13 +10368,13 @@
         "name": "THÔNG TIN SẢN PHẨM",
         "price": 0,
         "cost_price": 0,
-        "stock": 45,
-        "stock_text": "Còn 45",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Gói THÔNG TIN SẢN PHẨM bảo hành uy tín.",
         "sources": {
           "shopxoainon_bot": {
-            "stock": 45,
+            "stock": 0,
             "cost_price": 0,
             "selling_price": 0,
             "updated": "01:07 28/10/2026"
@@ -10392,6 +10392,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793124445543",
+      "time": "01:07 - 28/10/2026",
+      "name": "THÔNG TIN SẢN PHẨM",
+      "bot": "shopxoainon_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "🛍️THÔNGTINSẢNPHẨM━━━━━━━━━━━━━━━━🌐MUSEAI31TỶTOKENKBH✨TàikhoảnMuseAIsởhữusẵn31TỶT"
+    },
     {
       "id": "hist-1793124441253",
       "time": "01:07 - 28/10/2026",
@@ -11729,20 +11740,6 @@
       "catKey": "muse-ai",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐GóiVIP3.APIMUSE-Tạo6250video10s-1ThángBHF➕Thêm:5📦Tồnkhohiệntại:0💰Giá:700.000đ"
-    },
-    {
-      "id": "hist-1792587984129",
-      "time": "20:06 - 21/10/2026",
-      "timestamp": 1792587984129,
-      "name": "Gói VIP 1. API MUSE - Tạo 333 video 10s - 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 0,
-      "addedQty": 10,
-      "price": 110000,
-      "stockAfter": 0,
-      "catKey": "muse-ai",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐GóiVIP1.APIMUSE-Tạo333video10s-1ThángBHF➕Thêm:10📦Tồnkhohiệntại:0💰Giá:100.000đ"
     }
   ]
 }
