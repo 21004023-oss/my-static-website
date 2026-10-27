@@ -3206,26 +3206,27 @@
         "id": "p-1792438548398",
         "name": "Admin Canva Pro Business 100 Slot 1 Tháng BHF",
         "price": 95000,
-        "cost_price": 9900,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "cost_price": 85000,
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "detail": "• Tài khoản Admin Canva Pro Business (Add tối đa 100 thành viên).\n• Thời hạn sử dụng: 1 tháng.\n• Bảo hành Fulltime (đôi khi có thể trôi date 1–2 ngày).\nĐịnh dạng nhận hàng:\n• Email | Lấy Code.\nHướng dẫn đăng nhập:\n• Đăng nhập bằng Email (không chọn Đăng nhập bằng Google hoặc tài khoản khác).\n• Lấy mã xác minh (OTP) tại: dongvanfb.net/read_mail_box/.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 1,
             "cost_price": 85000,
             "selling_price": 95000,
-            "updated": "17:14 20/10/2026"
+            "updated": "19:26 27/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 9900
+          "bot": "@sieuthistore_bot",
+          "cost_price": 85000,
+          "stock": 1
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @sieuthistore_bot"
       },
       {
         "id": "p-1793102444445",
@@ -12993,6 +12994,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793103990059",
+      "time": "19:26 - 27/10/2026",
+      "name": "Admin Canva Pro Business 100 Slot 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 1,
+      "catKey": "canva",
+      "msgKey": "🎨AdminCanvaProBusiness100Slot1ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:85.000đ"
+    },
+    {
       "id": "hist-1793103844630",
       "time": "19:24 - 27/10/2026",
       "name": "Grok Plus 1 tháng riêng tư - BHF vừa được nhập kho 🔥",
@@ -14080,17 +14092,6 @@
       "stockAfter": 400,
       "catKey": "gmail",
       "msgKey": "📧GmailCổRandom2010~2022➕Thêm:400📦Tồnkhohiệntại:400💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793072935078",
-      "time": "10:48 - 27/10/2026",
-      "name": "Runway 9500 credit 1 Tháng BH 3 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 820000,
-      "costPrice": 720000,
-      "stockAfter": 3,
-      "catKey": "khac",
-      "msgKey": "⭐Runway9500credit1ThángBH3Ngày➕Thêm:3📦Tồnkhohiệntại:3💰Giá:720.000đ"
     }
   ]
 }
