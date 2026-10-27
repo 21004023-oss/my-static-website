@@ -8730,9 +8730,9 @@
         "id": "p-1793104593730",
         "name": "Express VPN 1 Tháng BHF",
         "price": 105000,
-        "cost_price": 95000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "cost_price": 60000,
+        "stock": 24,
+        "stock_text": "Còn 24",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Email | Pass\n- Plan: Random Basic, Advanced, Pro\n- Đăng nhập và sử dụng qua App Express VPN",
         "sources": {
@@ -8741,14 +8741,20 @@
             "cost_price": 95000,
             "selling_price": 105000,
             "updated": "19:36 27/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 12,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "19:36 27/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 95000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 60000,
           "stock": 12
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -13072,6 +13078,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793104597783",
+      "time": "19:36 - 27/10/2026",
+      "name": "🔥Express VPN 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 24,
+      "catKey": "vpn",
+      "msgKey": "🚚🔥ExpressVPN1ThángBHF➕Thêm:10📦Tồnkhohiệntại:12💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1793104593730",
       "time": "19:36 - 27/10/2026",
       "name": "Express VPN 1 Tháng BHF",
@@ -14159,17 +14176,6 @@
       "stockAfter": 1,
       "catKey": "api-claude-codex",
       "msgKey": "🧠APICLAUDE500$TOKEN1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:250.000đ"
-    },
-    {
-      "id": "hist-1793073937923",
-      "time": "11:05 - 27/10/2026",
-      "name": "MUSE AI 31 TỶ TOKEN KBH vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI31TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:2💵Giáchỉ:29.000đ🎁Kh"
     }
   ]
 }
