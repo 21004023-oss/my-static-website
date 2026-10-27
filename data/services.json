@@ -9114,8 +9114,8 @@
         "id": "p-1792088127430",
         "name": "Grammarly AI Pro 1 Tháng BHF",
         "price": 100000,
-        "stock": 21,
-        "stock_text": "Còn 21",
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "1 Tháng",
         "detail": "Grammarly Pro có AI 1 Tháng BHF\nĐịnh dạng: Email|Pass\n・　Viết lại toàn bộ câu chỉ với một cú nhấp chuột\n・　Dễ dàng điều chỉnh văn phong và giọng điệu bài viết\n・　Viết tiếng Anh trôi chảy và tự nhiên hơn\n・　Gợi ý cá nhân hóa không giới hạn\n・　Phát hiện đạo văn và nội dung do AI tạo ra\n・　Tạo nội dung với 2.000 lượt prompt AI\n-Chú ý: Không thay đổi thêm thắt bất kỳ cái gì vào tài khoản, nếu vi phạm sẽ không được bảo hành",
         "sources": {
@@ -9132,19 +9132,20 @@
             "selling_price": 100000
           },
           "taphoathomap_bot": {
-            "stock": 7,
+            "stock": 4,
             "cost_price": 70000,
-            "updated": "00:45 18/10/2026",
-            "selling_price": 80000
+            "selling_price": 80000,
+            "updated": "23:24 27/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "cost_price": 90000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "cost_price": 70000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 90000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 70000,
+          "stock": 4
         }
       },
       {
@@ -13537,6 +13538,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793118294192",
+      "time": "23:24 - 27/10/2026",
+      "name": "Grammarly AI Pro 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 18,
+      "catKey": "education",
+      "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793118094285",
       "time": "23:21 - 27/10/2026",
       "name": "Link Gemini Pro 18 Tháng BH 24H",
@@ -14624,17 +14636,6 @@
       "stockAfter": 20,
       "catKey": "adobe",
       "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:9📦Tồnkhohiệntại:14💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1793109744135",
-      "time": "21:02 - 27/10/2026",
-      "name": "VIEON VIP 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 38000,
-      "costPrice": 28000,
-      "stockAfter": 1,
-      "catKey": "netflix",
-      "msgKey": "⭐VIEONVIP1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:28.000đ"
     }
   ]
 }
