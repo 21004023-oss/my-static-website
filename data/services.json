@@ -6969,11 +6969,11 @@
         "id": "p-1792404466054",
         "name": "Gmail (New) 2FA-Login All",
         "price": 46000,
-        "cost_price": 36000,
-        "stock": 41,
-        "stock_text": "Còn 41",
+        "cost_price": 30000,
+        "stock": 56,
+        "stock_text": "Còn 56",
         "duration": "1 Tháng",
-        "detail": "Gói Gmail (New) 2FA-Login All bảo hành uy tín.",
+        "detail": "GMAIL TRÂU BÒ - Login All thiết bị\nĐịnh dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H ( very phone, sai pass) được bảo hành- login thành công là hết Bảo hành\n- Gmail New cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\nĐÃ CHECK LIVE TRƯỚC KHI BÁN",
         "sources": {
           "sieuthistore_bot": {
             "stock": 41,
@@ -6986,16 +6986,22 @@
             "cost_price": 26000,
             "selling_price": 36000,
             "updated": "17:07 19/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 15,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "20:17 27/10/2026"
           }
         },
         "hidden": false,
         "needs_review": false,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 36000,
-          "stock": 41
+          "bot": "@piggyai99_bot",
+          "cost_price": 30000,
+          "stock": 15
         },
-        "import_note": "Nhập: @sieuthistore_bot"
+        "import_note": "Nhập: @piggyai99_bot"
       },
       {
         "id": "p-1792417336475",
@@ -13200,6 +13206,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793107077256",
+      "time": "20:17 - 27/10/2026",
+      "name": "Gmail (New) 2FA-Login All",
+      "bot": "piggyai99_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 56,
+      "catKey": "gmail",
+      "msgKey": "📧Gmail(New)2FA-LoginAll➕Thêm:15📦Tồnkhohiệntại:15💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793107042411",
       "time": "20:17 - 27/10/2026",
       "name": "ChatGPT Plus (Codex Full) 1 Tháng  BHF",
@@ -14287,17 +14304,6 @@
       "stockAfter": 3511,
       "catKey": "khac",
       "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:498📦Tồnkhohiệntại:1924💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793077878107",
-      "time": "12:11 - 27/10/2026",
-      "name": "MUSE AI 31 TỈ TOEKN BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 95000,
-      "costPrice": 85000,
-      "stockAfter": 20,
-      "catKey": "khac",
-      "msgKey": "⭐MUSEAI31TỈTOEKNBẢOHÀNH24H➕Thêm:20📦Tồnkhohiệntại:20💰Giá:85.000đ"
     }
   ]
 }
