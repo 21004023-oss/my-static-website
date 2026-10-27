@@ -7121,25 +7121,27 @@
         "id": "p-1792543942976",
         "name": "CAPCUT PRO TEAM 7 NGÀY BHF",
         "price": 20000,
-        "cost_price": 2500,
-        "stock": 50,
-        "stock_text": "Còn 50",
-        "duration": "1 Tháng",
-        "detail": "-Định dạng: Email | Pass\n-Lưu Ý Khi Sử Dụng :\nAE đăng nhập bằng email + pass vào điện thoại có thể sử dụng trên cả thoại và Pc\n-Bảo hành gói. Nếu acc bị mất Pro\n-Để sử dụng ổn định ae nên đăng nhập 1 hoặc 2 thiết bị\n-AE mua thì đưa cho khách dùng luôn nhé không dược log thêm nó tính thiết bị rất gắt\n-Nếu ae cố tình đăng nhập nhiều thiết bị dẫn đến tài khoản không đăng nhập bị lỗi truy cập thường xuyên hoặc limit thiết bị thì sẽ không được bảo hành nhé",
+        "cost_price": 10000,
+        "stock": 40,
+        "stock_text": "Còn 40",
+        "duration": "7 Ngày",
+        "detail": "-Định dạng: Email | Pass\n-Lưu Ý Khi Sử Dụng :\nAE đăng nhập bằng email + pass vào điện thoại có thể sử dụng trên cả thoại và Pc\n-Bảo hành gói. Nếu acc bị mất Pro\n-Để sử dụng ổn định ae nên đăng nhập 1 hoặc 2 thiết bị\n-AE mua thì đưa cho khách dùng luôn nhé không dược log thêm nó tính thiết bị rất gắt\n-Nếu ae cố tình đăng nhập nhiều thiết bị dẫn đến tài khoản không đăng nhập bị lỗi truy cập thường xuyên hoặc limit thiết bị thì sẽ không được bảo hành nhé\n🎁 Khuyến mãi:\n- Mua từ 10 giá 9k\n- Mua từ 50 giá 8k\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 50,
+            "stock": 40,
             "cost_price": 10000,
             "selling_price": 20000,
-            "updated": "07:52 21/10/2026"
+            "updated": "06:49 28/10/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
-          "bot": "@toki_shopmmo_bot",
-          "cost_price": 2500
+          "bot": "@ntnshopre_bot",
+          "cost_price": 10000,
+          "stock": 40
         },
-        "import_note": "🛒 @toki_shopmmo_bot"
+        "import_note": "Nhập: @ntnshopre_bot",
+        "needs_review": false
       }
     ]
   },
@@ -10878,6 +10880,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793144971633",
+      "time": "06:49 - 28/10/2026",
+      "name": "CAPCUT PRO TEAM 7 NGÀY BHF",
+      "bot": "ntnshopre_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 40,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROTEAM7NGÀYBHF➕Thêm:40📦Tồnkhohiệntại:40💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1793144946608",
       "time": "06:49 - 28/10/2026",
       "name": "Sản phẩm đang được nhiều khách quan tâm",
@@ -12007,20 +12020,6 @@
       "catKey": "meitu-wink",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "✨MeituSVip+7NgàyBHF💰Giá:35k📦Tồnkho:13tàikhoản📊Đãbán:763tàikhoản💎Môtả:MeituSVIP(V"
-    },
-    {
-      "id": "hist-1792655598063",
-      "time": "14:53 - 22/10/2026",
-      "timestamp": 1792655598063,
-      "name": "SURFSHARK VPN ONE 7 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "shopStock": 12,
-      "addedQty": 12,
-      "price": 28000,
-      "stockAfter": 20,
-      "catKey": "vpn",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🦈SURFSHARKVPNONE7NGÀYBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:18.000đ"
     }
   ]
 }
