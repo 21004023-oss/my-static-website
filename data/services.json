@@ -10650,7 +10650,7 @@
             "stock": 3,
             "cost_price": 650000,
             "selling_price": 750000,
-            "updated": "02:08 28/10/2026"
+            "updated": "02:09 28/10/2026"
           }
         },
         "cheapest_source": {
@@ -10665,6 +10665,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793128140690",
+      "time": "02:09 - 28/10/2026",
+      "name": "HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 750000,
+      "costPrice": 650000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "msgKey": "🎬HIGGPlus600-700CRE1ThángBH3ngày➕Thêm:3📦Tồnkhohiệntại:3💰Giá:650.000đ"
+    },
     {
       "id": "hist-1793128136060",
       "time": "02:08 - 28/10/2026",
@@ -11861,20 +11872,6 @@
       "catKey": "gmail",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐AppleID2FAGmail➕Thêm:2📦Tồnkhohiệntại:29💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1792631613288",
-      "time": "08:13 - 22/10/2026",
-      "timestamp": 1792631613288,
-      "name": "Apple ID 2FA Gmail",
-      "bot": "sieuthistore_bot",
-      "shopStock": 29,
-      "addedQty": 2,
-      "price": 59000,
-      "stockAfter": 58,
-      "catKey": "gmail",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐AppleID2FAGmail➕Thêm:2📦Tồnkhohiệntại:29💰Giá:49.000đ"
     }
   ]
 }
