@@ -11007,22 +11007,24 @@
         "cost_price": 100000,
         "stock": 8,
         "stock_text": "Còn 8",
-        "duration": "1 Tháng",
+        "duration": "7 Ngày",
         "detail": "Định Dạng Key: XXXXX-XXXXX-XXXXX-XXXXX\nBảo hành 7 ngày\nNhập trực tiếp vào thiết bị là xong\nSử dụng vĩnh viễn, nhưng nếu cài lại Windows thì khoảng 10% khả năng mất bản quyền\nLink tải: https://www.microsoft.com/en-us/software-download/windows11\nKHÁCH ĐANG Ở BẢN HOME: Đầu tiên, nhập key mẫu dưới đây để nâng cấp TỪ BẢN HOME lên bản Pro:\nXPN43-XP7KQ-KMH2P-Q3P93-2WF9G\nSau khi nâng cấp xong, nhập key bạn đã mua trong đơn hàng để kích hoạt là hoàn tất.",
         "sources": {
           "ntnshopre_bot": {
             "stock": 8,
             "cost_price": 100000,
             "selling_price": 110000,
-            "updated": "04:30 19/10/2026"
+            "updated": "18:23 27/10/2026"
           }
         },
         "hidden": false,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 100000
-        }
+          "cost_price": 100000,
+          "stock": 8
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792389461315",
@@ -12879,6 +12881,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793100216074",
+      "time": "18:23 - 27/10/2026",
+      "name": "KEY WINDOWS 10/11 PRO RETAIL ONLINE BH 7 NGÀY",
+      "bot": "ntnshopre_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 8,
+      "catKey": "khac",
+      "msgKey": "⭐KEYWINDOWS10/11PRORETAILONLINEBH7NGÀY➕Thêm:2📦Tồnkhohiệntại:8💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1793100124899",
       "time": "18:22 - 27/10/2026",
       "name": "MUSE AI 31 TỶ TOKEN KBH vừa được nhập kho 🔥",
@@ -13966,17 +13979,6 @@
       "stockAfter": 34,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusApplePayGmail30D-BHF➕Thêm:10📦Tồnkhohiệntại:34💰Giá:270.000đ"
-    },
-    {
-      "id": "hist-1793064288059",
-      "time": "08:24 - 27/10/2026",
-      "name": "Capcut Pro 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 30,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutPro7NgàyBHF➕Thêm:30📦Tồnkhohiệntại:30💰Giá:10.000đ"
     }
   ]
 }
