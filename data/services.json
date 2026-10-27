@@ -2257,6 +2257,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793106745240",
+        "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 12H",
+        "price": 105000,
+        "cost_price": 95000,
+        "stock": 15,
+        "stock_text": "Còn 15",
+        "duration": "1 Tháng",
+        "detail": "- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 15,
+            "cost_price": 95000,
+            "selling_price": 105000,
+            "updated": "20:12 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 95000,
+          "stock": 15
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -13148,6 +13174,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793106745240",
+      "time": "20:12 - 27/10/2026",
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 12H",
+      "bot": "ntnshopre_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 15,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH12H➕Thêm:15📦Tồnkhohiệntại:15💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1793106670685",
       "time": "20:11 - 27/10/2026",
       "name": "Higgsfield Genjutsu  hạn 1 tháng BH 1h",
@@ -14235,17 +14272,6 @@
       "stockAfter": 14,
       "catKey": "capcut",
       "msgKey": "✂️🔥CapcutPro3Tháng-BHF➕Thêm:8📦Tồnkhohiệntại:8💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1793077430697",
-      "time": "12:03 - 27/10/2026",
-      "name": "🔥Capcut Pro 6 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 320000,
-      "costPrice": 290000,
-      "stockAfter": 14,
-      "catKey": "capcut",
-      "msgKey": "✂️🔥CapcutPro6Tháng-BHF➕Thêm:5📦Tồnkhohiệntại:8💰Giá:290.000đ"
     }
   ]
 }
