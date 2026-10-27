@@ -2351,6 +2351,32 @@
         "import_note": "Nhập: @shopxoainon_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793120850104",
+        "name": "ChatGPT Gmail Offer -50% 3 Tháng ( Plan Free )",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 15,
+        "stock_text": "Còn 15",
+        "duration": "3 Tháng",
+        "detail": "Acc Plan Free , Gmail / Google Mail . Có mã giảm giá -50% cho 3 tháng gói Plus\nĐịnh dạng : Gmail | Pass | 2FA\n- Mạng dạng OTP 1 lần. Về tự bảo quản acc . Change acc + Add Passkey tránh tranh chấp sau này.\nHướng dẫn change acc  : https://t.me/khommo_thongbao/53\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–15):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 15,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "00:07 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 25000,
+          "stock": 15
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -13642,6 +13668,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793120850104",
+      "time": "00:07 - 28/10/2026",
+      "name": "ChatGPT Gmail Offer -50% 3 Tháng ( Plan Free )",
+      "bot": "khommo_market_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 15,
+      "catKey": "chatgpt",
+      "msgKey": "🛍️ChatGPTGmailOffer-50%3Tháng(PlanFree)💲Giá:25.000VND💚Tồnkho:15tàikhoản📊Đãbán:21"
+    },
+    {
       "id": "hist-1793120597715",
       "time": "00:03 - 28/10/2026",
       "name": "MUSE AI 31 TỈ TOEKN BẢO HÀNH 24H",
@@ -14729,17 +14766,6 @@
       "stockAfter": 30,
       "catKey": "meitu-wink",
       "msgKey": "✨MeituVip+7DBH5D➕Thêm:15📦Tồnkhohiệntại:15💰Giá:18.000đ"
-    },
-    {
-      "id": "hist-1793110648258",
-      "time": "21:17 - 27/10/2026",
-      "name": "Meitu Vip+ 7D BH 5D",
-      "bot": "piggyai99_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 15,
-      "catKey": "meitu-wink",
-      "msgKey": "✨MeituVip+7DBH5D➕Thêm:15📦Tồnkhohiệntại:15💰Giá:25.000đ"
     }
   ]
 }
