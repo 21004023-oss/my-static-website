@@ -8886,6 +8886,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793088582850",
+        "name": "Express VPN 25-30 Ngày BHF",
+        "price": 80000,
+        "cost_price": 70000,
+        "stock": 12,
+        "stock_text": "Còn 12",
+        "duration": "1 Tháng",
+        "detail": "- Key ExpressVPN hạn sử dụng 25-30 ngày.\n- Định dạng: mail|pass|key\n- Hỗ trợ PC|Adr|Ios\n- Sử dụng tối đa 5 thiết bị",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 12,
+            "cost_price": 70000,
+            "selling_price": 80000,
+            "updated": "15:09 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 70000,
+          "stock": 12
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13158,6 +13184,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793088582850",
+      "time": "15:09 - 27/10/2026",
+      "name": "Express VPN 25-30 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 12,
+      "catKey": "vpn",
+      "msgKey": "🚚ExpressVPN25-30NgàyBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793088378972",
       "time": "15:06 - 27/10/2026",
       "name": "Chung sức Liên Quân ( 3 Rương )",
@@ -14245,17 +14282,6 @@
       "stockAfter": 161,
       "catKey": "khac",
       "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:100📦Tồnkhohiệntại:161💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1793077308847",
-      "time": "12:01 - 27/10/2026",
-      "name": "Gói Gemini Pro & Drive 5TB 18 Tháng Chính chủ vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!📦GóiGeminiPro&Drive5TB18ThángChínhchủvừađượcnhậpkho🔥📦Sốlượngcòn:171"
     }
   ]
 }
