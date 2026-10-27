@@ -1975,22 +1975,22 @@
         "name": "ChatGPT Plus (Codex Full) 1 Tháng BHF",
         "price": 360000,
         "cost_price": 310000,
-        "stock": 27,
-        "stock_text": "Còn 27",
+        "stock": 52,
+        "stock_text": "Còn 52",
         "duration": "1 Tháng",
         "detail": "🗣️ Mô tả:\n🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n6. Bảo hành đổi acc mới nếu die trước 7D.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ!\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 27,
+            "stock": 52,
             "cost_price": 310000,
             "selling_price": 360000,
-            "updated": "19:04 23/10/2026"
+            "updated": "07:16 27/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 310000,
-          "stock": 27
+          "stock": 52
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -12336,6 +12336,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793060217609",
+      "time": "07:16 - 27/10/2026",
+      "name": "ChatGPT Plus (Codex Full) 1 Tháng  BHF",
+      "bot": "sieuthistore_bot",
+      "price": 360000,
+      "costPrice": 310000,
+      "stockAfter": 52,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus(CodexFull)1ThángBHF➕Thêm:19📦Tồnkhohiệntại:52💰Giá:310.000đ"
+    },
+    {
       "id": "hist-1793059725339",
       "time": "07:08 - 27/10/2026",
       "name": "CAPCUT PRO 3 THÁNG BHF",
@@ -13423,17 +13434,6 @@
       "stockAfter": 301,
       "catKey": "khac",
       "msgKey": "🎵[HOTNEW]-TIKTOKVIỆTNUÔIPHONECÓLIVEĐIỆNTHOẠIRandomFollow-Video-Tim➕Thêm:301📦Tồnk"
-    },
-    {
-      "id": "hist-1793033224323",
-      "time": "23:47 - 26/10/2026",
-      "name": "Tài Khoản Tiktok VN ( Việt Nam )",
-      "bot": "taphoathomap_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 343,
-      "catKey": "khac",
-      "msgKey": "🎵TàiKhoảnTiktokVN(ViệtNam)➕Thêm:343📦Tồnkhohiệntại:343💰Giá:10.000đ"
     }
   ]
 }
