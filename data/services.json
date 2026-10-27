@@ -7530,16 +7530,16 @@
         "id": "p-1792094916011",
         "name": "Tài khoản VieON VIP 3 Tháng BHF",
         "price": 140000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "3 Tháng",
         "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
-            "cost_price": 120000,
-            "selling_price": 140000,
-            "updated": "21:15 27/10/2026"
+            "stock": 3,
+            "cost_price": 90000,
+            "selling_price": 100000,
+            "updated": "22:20 27/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 3,
@@ -13451,6 +13451,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793114401950",
+      "time": "22:20 - 27/10/2026",
+      "name": "Tài khoản VieON VIP 3 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 6,
+      "catKey": "netflix",
+      "msgKey": "⭐TàikhoảnVieONVIP3ThángBHF➕Thêm:1📦Tồnkhohiệntại:3💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1793114397228",
       "time": "22:19 - 27/10/2026",
       "name": "Tài khoản VieON VIP 3 tháng bhf",
@@ -14538,17 +14549,6 @@
       "stockAfter": 2,
       "catKey": "netflix",
       "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1793104607121",
-      "time": "19:36 - 27/10/2026",
-      "name": "EXPRESS VPN 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 48,
-      "catKey": "vpn",
-      "msgKey": "🚚EXPRESSVPN1THÁNGBHF➕Thêm:10📦Tồnkhohiệntại:12💰Giá:65.000đ"
     }
   ]
 }
