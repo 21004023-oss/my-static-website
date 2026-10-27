@@ -3379,17 +3379,17 @@
         "id": "capcut-1m",
         "name": "CapCut Pro 1 Tháng BHF",
         "price": 48000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 44,
+        "stock_text": "Còn 44",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 19,
+            "stock": 44,
             "cost_price": 38000,
             "selling_price": 48000,
-            "updated": "19:59 27/10/2026"
+            "updated": "21:52 27/10/2026"
           }
         },
         "cost_price": 38000,
@@ -3398,7 +3398,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 38000,
-          "stock": 19
+          "stock": 44
         },
         "import_note": "Nhập: @ntnshopre_bot"
       },
@@ -13418,6 +13418,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793112766384",
+      "time": "21:52 - 27/10/2026",
+      "name": "CAPCUT PRO 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 48000,
+      "costPrice": 38000,
+      "stockAfter": 44,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:16📦Tồnkhohiệntại:44💰Giá:38.000đ"
+    },
+    {
       "id": "hist-1793112731051",
       "time": "21:52 - 27/10/2026",
       "name": "Higgsfield Genjutsu tạo được 1 Video 30s 720p",
@@ -14505,17 +14516,6 @@
       "stockAfter": 0,
       "catKey": "grok",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!⚡GrokPlus1thángriêngtư-BHFvừađượcnhậpkho🔥📦Sốlượngcósẵn:27💵Giáchỉ:68"
-    },
-    {
-      "id": "hist-1793103696065",
-      "time": "19:21 - 27/10/2026",
-      "name": "SLOT riêng tư Netflix Premium 4K 1TH  (BHF)",
-      "bot": "taphoathomap_bot",
-      "price": 79000,
-      "costPrice": 69000,
-      "stockAfter": 34,
-      "catKey": "netflix",
-      "msgKey": "🎬SLOTriêngtưNetflixPremium4K1TH(BHF)➕Thêm:5📦Tồnkhohiệntại:17💰Giá:69.000đ"
     }
   ]
 }
