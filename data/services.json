@@ -5362,8 +5362,8 @@
         "id": "kling-1k-cre",
         "name": "Kling Stand Random Credits 1K-1K3 1 Tháng BHF",
         "price": 250000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
         "source": "Email login",
         "detail": "TẤT CẢ ĐỀU ĐĂNG NHẬP BẰNG EMAIL NHÉ",
@@ -5372,14 +5372,14 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 205000,
-          "stock": 4
+          "stock": 6
         },
         "sources": {
           "ntnshopre_bot": {
-            "stock": 4,
+            "stock": 6,
             "cost_price": 205000,
             "selling_price": 235000,
-            "updated": "03:31 27/10/2026"
+            "updated": "15:54 27/10/2026"
           }
         },
         "hidden": false,
@@ -13211,6 +13211,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793091253870",
+      "time": "15:54 - 27/10/2026",
+      "name": "KLING STAND RANDOM CREDITS 1K-1K3 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 235000,
+      "costPrice": 205000,
+      "stockAfter": 6,
+      "catKey": "kling",
+      "msgKey": "🎬KLINGSTANDRANDOMCREDITS1K-1K31THÁNGBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:205.000đ"
+    },
+    {
       "id": "hist-1793091249848",
       "time": "15:54 - 27/10/2026",
       "name": "Kling Stand Random 1k - 1k5 Credit 1 Tháng BHF",
@@ -14298,17 +14309,6 @@
       "stockAfter": 20,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥ChatGPTPlus30D(BH20D)➕Thêm:5📦Tồnkhohiệntại:5💰Giá:250.000đ"
-    },
-    {
-      "id": "hist-1793079636203",
-      "time": "12:40 - 27/10/2026",
-      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 290000,
-      "costPrice": 260000,
-      "stockAfter": 18,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:5📦Tồnkhohiệntại:5💰Giá:260.000đ"
     }
   ]
 }
