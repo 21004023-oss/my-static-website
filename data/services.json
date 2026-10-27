@@ -12486,13 +12486,13 @@
         "name": "Runway 9500 credit 1 Tháng BH 3 Ngày",
         "price": 820000,
         "cost_price": 720000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
         "detail": "Gói Runway 9500 credit 1 Tháng BH 3 Ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 3,
             "cost_price": 720000,
             "selling_price": 820000,
             "updated": "10:48 27/10/2026"
@@ -12501,7 +12501,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 720000,
-          "stock": 1
+          "stock": 3
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -12511,6 +12511,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793072935078",
+      "time": "10:48 - 27/10/2026",
+      "name": "Runway 9500 credit 1 Tháng BH 3 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 820000,
+      "costPrice": 720000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "msgKey": "⭐Runway9500credit1ThángBH3Ngày➕Thêm:3📦Tồnkhohiệntại:3💰Giá:720.000đ"
+    },
     {
       "id": "hist-1793072930900",
       "time": "10:48 - 27/10/2026",
@@ -13599,17 +13610,6 @@
       "stockAfter": 43,
       "catKey": "khac",
       "msgKey": "⭐KEYGPMLOGINCHÍNHHÃNGVĨNHVIỄN-BHF➕Thêm:43📦Tồnkhohiệntại:43💰Giá:1.500.000đ"
-    },
-    {
-      "id": "hist-1793034713611",
-      "time": "00:11 - 27/10/2026",
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 1678,
-      "catKey": "khac",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:1000📦Tồnkhohiệntại:563💰Giá:15.000đ"
     }
   ]
 }
