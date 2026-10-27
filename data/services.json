@@ -12131,22 +12131,22 @@
         "name": "Link Gemini Pro 18 Tháng",
         "price": 65000,
         "cost_price": 55000,
-        "stock": 161,
-        "stock_text": "Còn 161",
+        "stock": 109,
+        "stock_text": "Còn 109",
         "duration": "1 Tháng",
         "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 161,
+            "stock": 109,
             "cost_price": 55000,
             "selling_price": 65000,
-            "updated": "12:01 27/10/2026"
+            "updated": "23:15 27/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 55000,
-          "stock": 161
+          "stock": 109
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -13537,6 +13537,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793117722563",
+      "time": "23:15 - 27/10/2026",
+      "name": "Link Gemini Pro 18 Tháng",
+      "bot": "sieuthistore_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 109,
+      "catKey": "khac",
+      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:3📦Tồnkhohiệntại:109💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793117662271",
       "time": "23:14 - 27/10/2026",
       "name": "ChatGPT Plus UIP 1 Tháng KBH",
@@ -14624,17 +14635,6 @@
       "stockAfter": 104,
       "catKey": "gmail",
       "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:20📦Tồnkhohiệntại:20💰Giá:23.000đ"
-    },
-    {
-      "id": "hist-1793109295443",
-      "time": "20:54 - 27/10/2026",
-      "name": "ChatGPT Plus UIP 1 Tháng KBH",
-      "bot": "sieuthistore_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 22,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusUIP1ThángKBH➕Thêm:1📦Tồnkhohiệntại:22💰Giá:110.000đ"
     }
   ]
 }
