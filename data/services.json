@@ -5604,13 +5604,13 @@
         "name": "Kling Standard 1k Credit 1 Tháng BH 1 ngày",
         "price": 200000,
         "cost_price": 180000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 52,
+        "stock_text": "Còn 52",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1k Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 7,
+            "stock": 52,
             "cost_price": 180000,
             "selling_price": 200000,
             "updated": "19:33 27/10/2026"
@@ -5619,7 +5619,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 180000,
-          "stock": 7
+          "stock": 52
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -13020,6 +13020,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793104422326",
+      "time": "19:33 - 27/10/2026",
+      "name": "Kling Standard 1k Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 52,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1kCredit1ThángBH1ngày➕Thêm:20📦Tồnkhohiệntại:52💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1793104417989",
       "time": "19:33 - 27/10/2026",
       "name": "Kling Standard 1k Credit 1 Tháng BH 1 ngày",
@@ -14107,17 +14118,6 @@
       "stockAfter": 17,
       "catKey": "gmail",
       "msgKey": "📧Gmailrandom5-10tháng2FA➕Thêm:1📦Tồnkhohiệntại:1💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793073714555",
-      "time": "11:01 - 27/10/2026",
-      "name": "MUSE AI 31 TỶ TOKEN KBH vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI31TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:3💵Giáchỉ:29.000đ🎁Kh"
     }
   ]
 }
