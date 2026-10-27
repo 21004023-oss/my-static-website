@@ -7827,6 +7827,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793085901586",
+        "name": "Tài Khoản Netflix Premium 2 ngày BHF",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Gói Tài Khoản Netflix Premium 2 ngày BHF bảo hành uy tín.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 2,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "14:25 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 35000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12964,6 +12990,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793085901586",
+      "time": "14:25 - 27/10/2026",
+      "name": "Tài Khoản Netflix Premium 2 ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 2,
+      "catKey": "netflix",
+      "msgKey": "🎬TàiKhoảnNetflixPremium2ngàyBHF💰Giá:35k📦Tồnkho:2tàikhoản📊Đãbán:40tàikhoản"
+    },
+    {
       "id": "hist-1793085838829",
       "time": "14:23 - 27/10/2026",
       "name": "Youku Vip 30 ngày BHF",
@@ -14051,17 +14088,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI31TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:2💵Giáchỉ:29.000đ🎁Kh"
-    },
-    {
-      "id": "hist-1793073922533",
-      "time": "11:05 - 27/10/2026",
-      "name": "🔥 Chatgpt Plus Pay Tiền Thật 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 73,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥ChatgptPlusPayTiềnThật1thángBHF➕Thêm:49📦Tồnkhohiệntại:73💰Giá:220.000đ"
     }
   ]
 }
