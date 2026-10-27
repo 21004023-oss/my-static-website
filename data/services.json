@@ -5040,17 +5040,28 @@
       {
         "id": "p-1791890057671",
         "name": "HEYGEN CREATOR 1 THÁNG ( BH 3 ngày)",
-        "price": 450000,
-        "stock": 3,
-        "stock_text": "Còn 3",
-        "duration": "1 THÁNG",
-        "detail": "✔️ Hỗ trợ đa ngôn ngữ\n\n✔️ Xuất video chất lượng Full HD 1080p\n\n✔️ Phù hợp cho quảng cáo, bán hàng, đào tạo và sáng tạo nội dung mạng xã hội\n\n📦 Định dạng bàn giao: Email HeyGen | Mật khẩu (Chỉ bảo hành gói dịch vụ, không bảo hành các trường hợp sử dụng vi phạm chính sách)\n\n🛡️ Bảo hành: 1 ngày",
-        "cost_price": 400000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "price": 460000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "✔️ Hỗ trợ đa ngôn ngữ\n✔️ Xuất video chất lượng Full HD 1080p\n✔️ Phù hợp cho quảng cáo, bán hàng, đào tạo và sáng tạo nội dung mạng xã hội\n📦 Định dạng bàn giao: Email HeyGen | Mật khẩu (Chỉ bảo hành gói dịch vụ, không bảo hành các trường hợp sử dụng vi phạm chính sách)\n🛡️ Bảo hành: 1 ngày\n✏️",
+        "cost_price": 410000,
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 400000
-        }
+          "bot": "@sieuthistore_bot",
+          "cost_price": 410000,
+          "stock": 2
+        },
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 2,
+            "cost_price": 410000,
+            "selling_price": 460000,
+            "updated": "01:56 28/10/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -10588,6 +10599,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793127385993",
+      "time": "01:56 - 28/10/2026",
+      "name": "HEYGEN CREATOR 1 THÁNG ( BH 3 ngày)",
+      "bot": "sieuthistore_bot",
+      "price": 460000,
+      "costPrice": 410000,
+      "stockAfter": 2,
+      "catKey": "heygen",
+      "msgKey": "🎥HEYGENCREATOR1THÁNG(BH3ngày)➕Thêm:2📦Tồnkhohiệntại:2💰Giá:410.000đ"
+    },
+    {
       "id": "hist-1793126362978",
       "time": "01:39 - 28/10/2026",
       "name": "Link Gemini Pro 18 Tháng",
@@ -11810,20 +11832,6 @@
       "catKey": "api-claude-codex",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "⭐APICODEXASTRA650$TOKEN1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1792623332412",
-      "time": "05:55 - 22/10/2026",
-      "timestamp": 1792623332412,
-      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 1,
-      "addedQty": 0,
-      "price": 43000,
-      "stockAfter": 216,
-      "catKey": "capcut",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF💰Giá:33k📦Tồnkho:1tàikhoản📊Đãbán:426tàikhoản💎Môtả:CAPCUTPR"
     }
   ]
 }
