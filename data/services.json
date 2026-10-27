@@ -8967,6 +8967,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793114305115",
+        "name": "PIA VPN 7 Ngày BHF",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "7 Ngày",
+        "detail": "Định dạng: Username|Pass",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 5,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "22:18 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 35000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13419,6 +13445,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793114305115",
+      "time": "22:18 - 27/10/2026",
+      "name": "PIA VPN 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 5,
+      "catKey": "vpn",
+      "msgKey": "⭐PIAVPN7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793113531404",
       "time": "22:05 - 27/10/2026",
       "name": "Proton VPN 14-28 Ngày BHF",
@@ -14506,17 +14543,6 @@
       "stockAfter": 24,
       "catKey": "vpn",
       "msgKey": "🚚🔥ExpressVPN1ThángBHF➕Thêm:10📦Tồnkhohiệntại:12💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793104593730",
-      "time": "19:36 - 27/10/2026",
-      "name": "Express VPN 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 12,
-      "catKey": "vpn",
-      "msgKey": "🚚ExpressVPN1ThángBHF➕Thêm:10📦Tồnkhohiệntại:12💰Giá:95.000đ"
     }
   ]
 }
