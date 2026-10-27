@@ -183,24 +183,30 @@
         "id": "p-1791941158182",
         "name": "CODE KÍCH HOẠT YOUTUBE PREMIUM 3 THÁNG BẢO HÀNH FULL",
         "price": 100000,
-        "cost_price": 90000,
+        "cost_price": 89000,
         "duration": "3 Tháng",
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 28,
+        "stock_text": "Còn 28",
         "hidden": false,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 90000,
-          "stock": 8
+          "bot": "@ntnshopre_bot",
+          "cost_price": 89000,
+          "stock": 20
         },
-        "import_note": "Nhập: @taphoathomap_bot",
-        "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân - Cần fake VPN US - Link redeem code: https://www.youtube.com/redeem",
+        "import_note": "Nhập: @ntnshopre_bot",
+        "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân\n- Cần fake VPN US\n- Link redeem code: https://www.youtube.com/redeem",
         "sources": {
           "taphoathomap_bot": {
             "stock": 8,
             "cost_price": 90000,
             "selling_price": 100000,
             "updated": "12:05 23/10/2026"
+          },
+          "ntnshopre_bot": {
+            "stock": 20,
+            "cost_price": 89000,
+            "selling_price": 99000,
+            "updated": "17:16 27/10/2026"
           }
         },
         "needs_review": false
@@ -13245,6 +13251,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793096213116",
+      "time": "17:16 - 27/10/2026",
+      "name": "CODE KÍCH HOẠT YOUTUBE PREMIUM 3 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "price": 99000,
+      "costPrice": 89000,
+      "stockAfter": 28,
+      "catKey": "youtube",
+      "msgKey": "▶️CODEKÍCHHOẠTYOUTUBEPREMIUM3THÁNGBẢOHÀNHFULL➕Thêm:1📦Tồnkhohiệntại:20💰Giá:89.000"
+    },
+    {
       "id": "hist-1793095969574",
       "time": "17:12 - 27/10/2026",
       "name": "Grok Plus 1 tháng riêng tư - BHF vừa được nhập kho 🔥",
@@ -14332,17 +14349,6 @@
       "stockAfter": 81,
       "catKey": "khac",
       "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:50📦Tồnkhohiệntại:81💰Giá:45.00"
-    },
-    {
-      "id": "hist-1793080813925",
-      "time": "13:00 - 27/10/2026",
-      "name": "Gmail (New) -Login All",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 279,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)-LoginAll💰Giá:35k📦Tồnkho:71tàikhoản📊Đãbán:12.727tàikhoản💎Môtả:GMAILNe"
     }
   ]
 }
