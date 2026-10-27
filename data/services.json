@@ -7943,16 +7943,16 @@
         "name": "SLOT riêng tư Netflix Premium 4K 1TH  (BHF)",
         "price": 100000,
         "cost_price": 69000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "Netflix Premium 4K – Slot riêng tư 1 tháng (BHF)\nTài khoản Netflix Premium hỗ trợ chất lượng hình ảnh lên đến 4K Ultra HD (tùy nội dung và thiết bị). Sản phẩm cung cấp 1 slot sử dụng riêng trong thời hạn 1 tháng. Phù hợp với nhu cầu giải trí, xem phim và chương trình truyền hình trực tuyến.\nThông tin sản phẩm:\n- Dịch vụ: Netflix Premium\n- Chất lượng:Tối đa 4K Ultra HD\n- Loại: Slot riêng tư\n- Thời hạn: 1 tháng\n- Ghi chú: Vui lòng kiểm tra điều kiện sử dụng, thiết bị hỗ trợ và chính sách bảo hành của người bán trước khi đặt mua.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 10,
             "cost_price": 69000,
             "selling_price": 79000,
-            "updated": "14:40 27/10/2026"
+            "updated": "15:13 27/10/2026"
           },
           "piggyai99_bot": {
             "stock": 10,
@@ -7964,7 +7964,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 69000,
-          "stock": 5
+          "stock": 10
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -13184,6 +13184,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793088818174",
+      "time": "15:13 - 27/10/2026",
+      "name": "SLOT riêng tư Netflix Premium 4K 1TH  (BHF)",
+      "bot": "taphoathomap_bot",
+      "price": 79000,
+      "costPrice": 69000,
+      "stockAfter": 20,
+      "catKey": "netflix",
+      "msgKey": "🎬SLOTriêngtưNetflixPremium4K1TH(BHF)➕Thêm:5📦Tồnkhohiệntại:10💰Giá:69.000đ"
+    },
+    {
       "id": "hist-1793088812542",
       "time": "15:13 - 27/10/2026",
       "name": "Slot Netflix UHD 4K Premium 1 Tháng BHF",
@@ -14271,17 +14282,6 @@
       "stockAfter": 16,
       "catKey": "capcut",
       "msgKey": "✂️🔥CapcutPro6Tháng-BHF➕Thêm:2📦Tồnkhohiệntại:10💰Giá:290.000đ"
-    },
-    {
-      "id": "hist-1793077855239",
-      "time": "12:10 - 27/10/2026",
-      "name": "🔥Capcut Pro 3 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 14,
-      "catKey": "capcut",
-      "msgKey": "✂️🔥CapcutPro3Tháng-BHF➕Thêm:8📦Tồnkhohiệntại:8💰Giá:150.000đ"
     }
   ]
 }
