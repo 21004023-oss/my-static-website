@@ -9638,7 +9638,7 @@
         "id": "p-1792472374619",
         "name": "Meitu Vip+ 90D BHF",
         "price": 240000,
-        "cost_price": 210000,
+        "cost_price": 165000,
         "stock": 8,
         "stock_text": "Còn 8",
         "duration": "3 Tháng",
@@ -9648,7 +9648,7 @@
             "stock": 4,
             "cost_price": 165000,
             "selling_price": 185000,
-            "updated": "11:59 20/10/2026"
+            "updated": "21:40 27/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 4,
@@ -9657,12 +9657,13 @@
             "updated": "11:59 20/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 210000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 165000,
+          "stock": 4
         }
       },
       {
@@ -13385,6 +13386,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793112057140",
+      "time": "21:40 - 27/10/2026",
+      "name": "Meitu Vip+ 90D BHF",
+      "bot": "taphoathomap_bot",
+      "price": 185000,
+      "costPrice": 165000,
+      "stockAfter": 8,
+      "catKey": "meitu-wink",
+      "msgKey": "✨MeituVip+90DBHF➕Thêm:2📦Tồnkhohiệntại:4💰Giá:165.000đ"
+    },
+    {
       "id": "hist-1793112046169",
       "time": "21:40 - 27/10/2026",
       "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
@@ -14472,17 +14484,6 @@
       "stockAfter": 4,
       "catKey": "khac",
       "msgKey": "⭐PitpitAI8k6cre1THBH3ngày➕Thêm:3📦Tồnkhohiệntại:4💰Giá:750.000đ"
-    },
-    {
-      "id": "hist-1793102577150",
-      "time": "19:02 - 27/10/2026",
-      "name": "Dreamina Basic 1k7 credit 1th BH 12ngày",
-      "bot": "taphoathomap_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "⭐DreaminaBasic1k7credit1thBH12ngày➕Thêm:1📦Tồnkhohiệntại:0💰Giá:140.000đ"
     }
   ]
 }
