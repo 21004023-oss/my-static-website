@@ -10362,10 +10362,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793124436473",
+        "name": "THÔNG TIN SẢN PHẨM",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 79,
+        "stock_text": "Còn 79",
+        "duration": "1 Tháng",
+        "detail": "Gói THÔNG TIN SẢN PHẨM bảo hành uy tín.",
+        "sources": {
+          "shopxoainon_bot": {
+            "stock": 79,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "01:07 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@shopxoainon_bot",
+          "cost_price": 0,
+          "stock": 79
+        },
+        "import_note": "Nhập: @shopxoainon_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793124436473",
+      "time": "01:07 - 28/10/2026",
+      "name": "THÔNG TIN SẢN PHẨM",
+      "bot": "shopxoainon_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 79,
+      "catKey": "khac",
+      "msgKey": "🛍️THÔNGTINSẢNPHẨM━━━━━━━━━━━━━━━━📦GóiGeminiPro&Drive5TB18ThángChínhchủ💾Dunglượng"
+    },
     {
       "id": "hist-1793124431816",
       "time": "01:07 - 28/10/2026",
@@ -11709,20 +11746,6 @@
       "catKey": "education",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐LinkGetOfferDuolingoSuper1nămBH24H➕Thêm:12📦Tồnkhohiệntại:17💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1792586938128",
-      "time": "19:48 - 21/10/2026",
-      "timestamp": 1792586938128,
-      "name": "Slot Youtube Premium 3 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 571,
-      "addedQty": 4,
-      "price": 105000,
-      "stockAfter": 571,
-      "catKey": "youtube",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:4📦Tồnkhohiệntại:571💰Giá:95.000đ"
     }
   ]
 }
