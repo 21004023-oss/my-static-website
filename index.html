@@ -232,95 +232,108 @@
     .section-header h2 { font-size: 18px; font-weight: 800; color: var(--text-main); }
     .section-header span { font-size: 13px; color: var(--text-muted); font-weight: 600; }
 
+    /* LƯỚI BENTO GRID GỌN GÀNG, THOÁNG MẮT */
+    #plansContainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+      gap: 14px;
+    }
+
     .plan-card {
       background: var(--card-bg);
-      border: 1px solid rgba(226, 232, 240, 0.9);
+      border: 1px solid #e2e8f0;
       border-radius: 14px;
-      margin-bottom: 12px;
       cursor: pointer;
-      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04), 0 1px 2px rgba(15, 23, 42, 0.02);
-      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       position: relative;
+      overflow: hidden;
     }
     .plan-card:hover {
       border-color: #cbd5e1;
-      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08), 0 3px 8px rgba(15, 23, 42, 0.04);
+      box-shadow: 0 8px 22px rgba(15, 23, 42, 0.07);
       transform: translateY(-2px);
     }
     .plan-card.selected {
       border-color: var(--primary);
-      box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.25), 0 8px 20px rgba(16, 185, 129, 0.08);
+      box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.22), 0 8px 20px rgba(16, 185, 129, 0.08);
     }
     .plan-card.selected::before {
       content: '';
       position: absolute;
-      left: 0;
       top: 0;
-      bottom: 0;
-      width: 4px;
+      left: 0;
+      right: 0;
+      height: 3.5px;
       background: var(--primary);
     }
 
     .plan-card-body {
-      padding: 16px 20px;
+      padding: 16px;
       display: flex;
+      flex-direction: column;
       justify-content: space-between;
-      align-items: center;
-      gap: 16px;
+      gap: 12px;
+      flex: 1;
     }
     .plan-card-header-left {
       display: flex;
-      align-items: center;
-      gap: 14px;
-      flex: 1;
-      min-width: 0;
+      align-items: flex-start;
+      gap: 12px;
     }
     .plan-card-logo {
-      width: 40px;
-      height: 40px;
-      border-radius: 10px;
+      width: 38px;
+      height: 38px;
+      border-radius: 9px;
       object-fit: cover;
       flex-shrink: 0;
       background: #ffffff;
-      padding: 4px;
+      padding: 3px;
       border: 1px solid #e2e8f0;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-      transition: transform 0.2s ease;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+      margin-top: 2px;
     }
     .plan-card:hover .plan-card-logo {
-      transform: scale(1.06);
+      transform: scale(1.05);
     }
     .plan-card-logo-placeholder {
-      width: 40px;
-      height: 40px;
-      border-radius: 10px;
+      width: 38px;
+      height: 38px;
+      border-radius: 9px;
       background: #f1f5f9;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 16px;
+      font-size: 15px;
       color: #64748b;
       flex-shrink: 0;
+      margin-top: 2px;
     }
 
     .plan-card .p-left { flex: 1; min-width: 0; }
     .plan-title {
-      font-size: 15px;
+      font-size: 14.5px;
       font-weight: 700;
       color: var(--text-main);
       line-height: 1.4;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
     .plan-sub {
       display: flex;
       flex-wrap: wrap;
-      gap: 7px;
+      gap: 6px;
       margin-top: 8px;
     }
     .tag {
-      font-size: 11.5px;
+      font-size: 11px;
       font-weight: 600;
-      padding: 2.5px 8px;
+      padding: 2.5px 7px;
       border-radius: 6px;
       background: #f1f5f9;
       color: #475569;
@@ -336,19 +349,37 @@
       border: 1px solid #fecaca;
     }
 
-    .plan-card .p-right { text-align: right; flex-shrink: 0; }
-    .plan-price { font-size: 18px; font-weight: 800; color: var(--primary-dark); }
-    .view-btn {
-      margin-top: 5px;
-      font-size: 12px;
-      font-weight: 700;
-      color: var(--text-muted);
+    .plan-card-bottom {
       display: flex;
       align-items: center;
-      justify-content: flex-end;
-      gap: 4px;
+      justify-content: space-between;
+      padding-top: 10px;
+      border-top: 1px dashed #e2e8f0;
+      margin-top: auto;
     }
-    .plan-card.selected .view-btn { color: var(--primary-dark); }
+    .plan-price { font-size: 17px; font-weight: 800; color: var(--primary-dark); }
+    .view-btn {
+      font-size: 12px;
+      font-weight: 700;
+      color: #64748b;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      transition: all 0.15s ease;
+    }
+    .plan-card:hover .view-btn {
+      color: var(--text-main);
+      background: #e2e8f0;
+    }
+    .plan-card.selected .view-btn {
+      color: #fff;
+      background: var(--primary-dark);
+      border-color: var(--primary-dark);
+    }
 
     .plan-accordion { display: none; }
 
@@ -1218,9 +1249,9 @@ function createPlanCard(catName, p, catKey) {
           </div>
         </div>
       </div>
-      <div class="p-right">
+      <div class="plan-card-bottom">
         <div class="plan-price">${money(p.price)}</div>
-        <div class="view-btn">Chi tiết ▾</div>
+        <div class="view-btn">Xem chi tiết ▾</div>
       </div>
     </div>
 
