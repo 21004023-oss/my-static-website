@@ -13271,11 +13271,48 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793097301789",
+        "name": "Suno Pro 1 tháng BH 2 Ngày",
+        "price": 145000,
+        "cost_price": 125000,
+        "stock": 24,
+        "stock_text": "Còn 24",
+        "duration": "1 Tháng",
+        "detail": "Mail - Pass - Mail khôi phục\nhttps://fviainboxes.com/",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 24,
+            "cost_price": 125000,
+            "selling_price": 145000,
+            "updated": "17:35 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 125000,
+          "stock": 24
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793097301789",
+      "time": "17:35 - 27/10/2026",
+      "name": "Suno Pro 1 tháng BH 2 Ngày",
+      "bot": "taphoathomap_bot",
+      "price": 145000,
+      "costPrice": 125000,
+      "stockAfter": 24,
+      "catKey": "khac",
+      "msgKey": "🎵SunoPro1thángBH2Ngày➕Thêm:1📦Tồnkhohiệntại:24💰Giá:125.000đ"
+    },
     {
       "id": "hist-1793097185181",
       "time": "17:33 - 27/10/2026",
@@ -14364,17 +14401,6 @@
       "stockAfter": 3,
       "catKey": "grok",
       "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:1📦Tồnkhohiệntại:3💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1793081913538",
-      "time": "13:18 - 27/10/2026",
-      "name": "Grok Plus 30 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 129000,
-      "costPrice": 109000,
-      "stockAfter": 16,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:13📦Tồnkhohiệntại:14💰Giá:109.000đ"
     }
   ]
 }
