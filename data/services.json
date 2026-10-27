@@ -6428,8 +6428,8 @@
         "id": "p-1792093859672",
         "name": "Gmail Random 200X~2023 Có 2FA",
         "price": 55000,
-        "stock": 64,
-        "stock_text": "Còn 64",
+        "stock": 48,
+        "stock_text": "Còn 48",
         "duration": "1 Tháng",
         "detail": "Định dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H - Login thành công hết bảo hành\n- Gmail đã nuôi khá lâu rồi nên gmail khá khoẻ\n+ Lưu ý:\n- Hãy dùng proxy , và IP máy riêng để login Gmail , tránh tình trạng GG quét hàng loạt.\n-Sau 48H hãy thay đổi thông , đá thiết bị cũ, Để bảo mật tài sản của mình. ( Gmail cổ điều bảo mật thông tin là quan trọng nhất )\n-Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/",
         "sources": {
@@ -6440,10 +6440,10 @@
             "updated": "00:11 27/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 32,
+            "stock": 16,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "00:11 27/10/2026"
+            "updated": "17:43 27/10/2026"
           },
           "piggyai99_bot": {
             "stock": 0,
@@ -6458,7 +6458,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 35000,
-          "stock": 32
+          "stock": 16
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -12741,6 +12741,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793097807855",
+      "time": "17:43 - 27/10/2026",
+      "name": "Gmail Random 200X~2023 Có 2FA",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 48,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:26📦Tồnkhohiệntại:16💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793079180880",
       "time": "12:33 - 27/10/2026",
       "name": "Muse Ai 1B Token KBH",
@@ -13828,17 +13839,6 @@
       "stockAfter": 16,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥ChatGPTPlus30D(BH20D)➕Thêm:2📦Tồnkhohiệntại:3💰Giá:250.000đ"
-    },
-    {
-      "id": "hist-1793043706776",
-      "time": "02:41 - 27/10/2026",
-      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 290000,
-      "costPrice": 260000,
-      "stockAfter": 33,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:2📦Tồnkhohiệntại:3💰Giá:260.000đ"
     }
   ]
 }
