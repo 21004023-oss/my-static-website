@@ -1089,16 +1089,16 @@
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
         "price": 330000,
-        "stock": 36,
-        "stock_text": "Còn 36",
+        "stock": 49,
+        "stock_text": "Còn 49",
         "duration": "1 Tháng",
         "detail": "- ChatGPT Plus 1 tháng BHF\n- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 27,
-            "cost_price": 265000,
-            "selling_price": 295000,
-            "updated": "19:04 23/10/2026"
+            "stock": 40,
+            "cost_price": 200000,
+            "selling_price": 220000,
+            "updated": "17:51 27/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 9,
@@ -1107,14 +1107,14 @@
             "updated": "22:34 26/10/2026"
           }
         },
-        "cost_price": 265000,
+        "cost_price": 200000,
         "needs_review": false,
         "hidden": false,
         "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 265000,
-          "stock": 27
+          "cost_price": 200000,
+          "stock": 40
         }
       },
       {
@@ -12748,6 +12748,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793098279456",
+      "time": "17:51 - 27/10/2026",
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "price": 220000,
+      "costPrice": 200000,
+      "stockAfter": 49,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:12📦Tồnkhohiệntại:40💰Giá:200.000đ"
+    },
+    {
       "id": "hist-1793098050352",
       "time": "17:47 - 27/10/2026",
       "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
@@ -13835,17 +13846,6 @@
       "stockAfter": 4,
       "catKey": "kling",
       "msgKey": "🎬KLINGSTANDRANDOMCREDITS1K-1K31THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:4💰Giá:205.000đ"
-    },
-    {
-      "id": "hist-1793046699035",
-      "time": "03:31 - 27/10/2026",
-      "name": "Kling Stand Random 1k - 1k5 Credit 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 260000,
-      "costPrice": 230000,
-      "stockAfter": 4,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandRandom1k-1k5Credit1ThángBHF➕Thêm:2📦Tồnkhohiệntại:4💰Giá:230.000đ"
     }
   ]
 }
