@@ -7488,22 +7488,22 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 150000,
             "selling_price": 170000,
-            "updated": "22:48 26/10/2026"
+            "updated": "09:06 27/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 1
+          "stock": 2
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -12425,6 +12425,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793066774128",
+      "time": "09:06 - 27/10/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 2,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793066677835",
       "time": "09:04 - 27/10/2026",
       "name": "Capcut Pro 500 credit 7D BH 6D",
@@ -13512,17 +13523,6 @@
       "stockAfter": 86,
       "catKey": "khac",
       "msgKey": "🎵TIKTOKPHÁP➕Thêm:86📦Tồnkhohiệntại:86💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1793033776076",
-      "time": "23:56 - 26/10/2026",
-      "name": "TIKTOK VIỆT NAM – 1000 FOLLOW",
-      "bot": "taphoathomap_bot",
-      "price": 190000,
-      "costPrice": 170000,
-      "stockAfter": 90,
-      "catKey": "khac",
-      "msgKey": "🎵TIKTOKVIỆTNAM–1000FOLLOW➕Thêm:86📦Tồnkhohiệntại:90💰Giá:170.000đ"
     }
   ]
 }
