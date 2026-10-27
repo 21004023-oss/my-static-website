@@ -7489,13 +7489,13 @@
         "stock": 4,
         "stock_text": "Còn 4",
         "duration": "3 Tháng",
-        "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời",
+        "detail": "Tài khoản đăng nhập 2 thiết bị và xem 1 thiết bị đồng thời\nXem tất cả phim VIP và phim PRO\nKhông đảm bảo sẽ xem được một số kênh truyền hình nước ngoài\nBảo hành toàn thời gian trường hợp không xem được phim, sai mật khẩu, quá thiết bị.",
         "sources": {
           "sieuthistore_bot": {
             "stock": 2,
-            "cost_price": 90000,
-            "selling_price": 100000,
-            "updated": "19:44 27/10/2026"
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "21:15 27/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 2,
@@ -13309,6 +13309,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793110552550",
+      "time": "21:15 - 27/10/2026",
+      "name": "Tài khoản VieON VIP Pro 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 4,
+      "catKey": "netflix",
+      "msgKey": "⭐TàikhoảnVieONVIPPro3thángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1793110547416",
       "time": "21:15 - 27/10/2026",
       "name": "VIEON VIP 3 THÁNG BHF",
@@ -14396,17 +14407,6 @@
       "stockAfter": 8,
       "catKey": "khac",
       "msgKey": "⭐KEYWINDOWS10/11PRORETAILONLINEBH7NGÀY➕Thêm:2📦Tồnkhohiệntại:8💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1793100124899",
-      "time": "18:22 - 27/10/2026",
-      "name": "MUSE AI 31 TỶ TOKEN KBH vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI31TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:30💵Giáchỉ:29.000đ🎁K"
     }
   ]
 }
