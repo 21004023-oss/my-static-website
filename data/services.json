@@ -5018,16 +5018,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 9,
+            "stock": 14,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "12:15 27/10/2026"
+            "updated": "13:18 27/10/2026"
           }
         },
         "hidden": false,
@@ -5035,7 +5035,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 9
+          "stock": 14
         },
         "needs_review": false
       },
@@ -12811,6 +12811,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793081909698",
+      "time": "13:18 - 27/10/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 14,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:13📦Tồnkhohiệntại:14💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793081583770",
       "time": "13:13 - 27/10/2026",
       "name": "🔥 Chatgpt Plus Pay Tiền Thật 1 tháng BHF",
@@ -13898,17 +13909,6 @@
       "stockAfter": 599,
       "catKey": "capcut",
       "msgKey": "✂️CapcutPro500credit7DBH6D➕Thêm:600📦Tồnkhohiệntại:599💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1793066661997",
-      "time": "09:04 - 27/10/2026",
-      "name": "Capcut Pro 7 Ngày BH 6 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 23000,
-      "costPrice": 13000,
-      "stockAfter": 599,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutPro7NgàyBH6Ngày➕Thêm:600📦Tồnkhohiệntại:599💰Giá:13.000đ"
     }
   ]
 }
