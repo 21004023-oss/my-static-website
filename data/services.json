@@ -7795,6 +7795,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793085832292",
+        "name": "Youku Vip 30 ngày BHF",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản youku vip dùng 1 thiết bị (1 slot)\nKhách hàng được đăng nhập tối đa 2 thiết bị, và xem 1 thiết bị đồng thời\nBảo hành toàn thời gian đăng ký",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 4,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "14:23 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 35000,
+          "stock": 4
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12932,6 +12958,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793085832292",
+      "time": "14:23 - 27/10/2026",
+      "name": "Youku Vip 30 ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 4,
+      "catKey": "netflix",
+      "msgKey": "⭐YoukuVip30ngàyBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793085826629",
       "time": "14:23 - 27/10/2026",
       "name": "Youku Vip 3 tháng bhf",
@@ -14019,17 +14056,6 @@
       "stockAfter": 22,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTGo1Tháng-BH3Ngày➕Thêm:1📦Tồnkhohiệntại:0💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793073747456",
-      "time": "11:02 - 27/10/2026",
-      "name": "Gmail random 5-10 tháng 2FA",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 17,
-      "catKey": "gmail",
-      "msgKey": "📧Gmailrandom5-10tháng2FA➕Thêm:1📦Tồnkhohiệntại:1💰Giá:45.000đ"
     }
   ]
 }
