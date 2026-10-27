@@ -13100,11 +13100,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793088254701",
+        "name": "Chung sức Liên Quân ( 1 Rương SS )",
+        "price": 25000,
+        "cost_price": 15000,
+        "stock": 90,
+        "stock_text": "Còn 90",
+        "duration": "1 Tháng",
+        "detail": "Thanh toán đơn hàng thành công\nVui lòng gửi mã đúng để tiến hành nạp\nDone trong 1-2p",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 90,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "15:04 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 15000,
+          "stock": 90
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793088254702",
+      "time": "15:04 - 27/10/2026",
+      "name": "Chung sức Liên Quân ( 1 Rương SS )",
+      "bot": "sieuthistore_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 90,
+      "catKey": "khac",
+      "msgKey": "ChungsứcLiênQuân(1RươngSS)➕Thêm:90📦Tồnkhohiệntại:90💰Giá:15.000đ"
+    },
     {
       "id": "hist-1793087641197",
       "time": "14:54 - 27/10/2026",
@@ -14193,17 +14230,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI1TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:50💵Giáchỉ:6.800đ🎁Khu"
-    },
-    {
-      "id": "hist-1793076864168",
-      "time": "11:54 - 27/10/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 15,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:8📦Tồnkhohiệntại:15💰Giá:70.000đ"
     }
   ]
 }
