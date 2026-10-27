@@ -1125,10 +1125,10 @@
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
         "price": 330000,
-        "stock": 58,
-        "stock_text": "Còn 58",
+        "stock": 113,
+        "stock_text": "Còn 113",
         "duration": "1 Tháng",
-        "detail": "- ChatGPT Plus 1 tháng BHF\n- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ",
+        "detail": "🔐 Tài khoản riêng tư — Được đổi Pass & 2FA.\n📂 Định dạng: Email | Pass | 2FA\n✅ Hàng Pay UPI Ấn Độ - Siêu khỏe\n🚀 Sử dụng Codex thoải mái (khách tự xác minh SĐT).\n⚠️ LƯU Ý QUAN TRỌNG\n1. Không được sử dụng 9Router.\n2. Đổi 2FA ngay sau khi mua. Không đổi dẫn đến lỗi/mất tài khoản → Shop không chịu trách nhiệm.\n3. Thao tác đổi 2FA phải nhanh chóng. Lỗi OTP Gmail trong quá trình đổi → Không bảo hành (xem video hướng dẫn).\n🚨 Tài khoản đã kiểm tra trước khi bán, nên ai mà đăng nhập kêu bị OTP gmail thì đừng có nhắn tin, lỗi đổi 2fa otp gmail shop không hỗ trợ. Bạn có thể cân nhắc đổi hoặc không, shop chỉ muốn hợp tác với người trung thực, có trách nhiệm.\n🎥 HƯỚNG DẪN ĐỔI 2FA\nhttps://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
         "sources": {
           "ntnshopre_bot": {
             "stock": 29,
@@ -1141,16 +1141,22 @@
             "cost_price": 300000,
             "selling_price": 330000,
             "updated": "21:35 27/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 55,
+            "cost_price": 160000,
+            "selling_price": 180000,
+            "updated": "22:41 27/10/2026"
           }
         },
-        "cost_price": 200000,
+        "cost_price": 160000,
         "needs_review": false,
         "hidden": false,
-        "import_note": "Nhập: @ntnshopre_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 200000,
-          "stock": 29
+          "bot": "@taphoathomap_bot",
+          "cost_price": 160000,
+          "stock": 55
         }
       },
       {
@@ -13478,6 +13484,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793115710910",
+      "time": "22:41 - 27/10/2026",
+      "name": "🔥SALE . Chatgpt Plus  1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 180000,
+      "costPrice": 160000,
+      "stockAfter": 113,
+      "catKey": "chatgpt",
+      "msgKey": "🤖🔥SALE.ChatgptPlus1thángBHF➕Thêm:55📦Tồnkhohiệntại:55💰Giá:160.000đ"
+    },
+    {
       "id": "hist-1793115688528",
       "time": "22:41 - 27/10/2026",
       "name": "CAPCUT PRO 1 THÁNG BHF",
@@ -14565,17 +14582,6 @@
       "stockAfter": 36,
       "catKey": "khac",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1thángBH1h➕Thêm:13📦Tồnkhohiệntại:36💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793106664840",
-      "time": "20:11 - 27/10/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng KBH",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 36,
-      "catKey": "khac",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1thángKBH➕Thêm:13📦Tồnkhohiệntại:36💰Giá:45.000đ"
     }
   ]
 }
