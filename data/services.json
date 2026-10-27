@@ -4969,6 +4969,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793138782988",
+        "name": "Kling Stand random 800-1000 credit 1TH BH 1 ngày",
+        "price": 135000,
+        "cost_price": 115000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Gói Kling Stand random 800-1000 credit 1TH BH 1 ngày bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 115000,
+            "selling_price": 135000,
+            "updated": "05:06 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 115000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -10852,6 +10878,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793138782988",
+      "time": "05:06 - 28/10/2026",
+      "name": "Kling Stand random 800-1000 credit 1TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 2,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandrandom800-1000credit1THBH1ngày💰Giá:115k📦Tồnkho:2tàikhoản📊Đãbán:40tàik"
+    },
+    {
       "id": "hist-1793138763794",
       "time": "05:06 - 28/10/2026",
       "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
@@ -11990,20 +12027,6 @@
       "catKey": "gmail",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:66📦Tồnkhohiệntại:81💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1792655578947",
-      "time": "14:52 - 22/10/2026",
-      "timestamp": 1792655578947,
-      "name": "API Claude 50M Token 1 ngày BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 10,
-      "addedQty": 10,
-      "price": 65000,
-      "stockAfter": 10,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:55.000đ"
     }
   ]
 }
