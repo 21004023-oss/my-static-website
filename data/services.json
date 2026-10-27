@@ -7636,8 +7636,8 @@
         "id": "p-1792211632076",
         "name": "Tài khoản VieON VIP 30 ngày BHF",
         "price": 45000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời",
         "sources": {
@@ -7648,10 +7648,10 @@
             "selling_price": 45000
           },
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 20000,
             "selling_price": 30000,
-            "updated": "21:02 27/10/2026"
+            "updated": "21:24 27/10/2026"
           }
         },
         "hidden": false,
@@ -7660,7 +7660,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 20000,
-          "stock": 1
+          "stock": 2
         },
         "needs_review": false
       },
@@ -13341,6 +13341,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793111041968",
+      "time": "21:24 - 27/10/2026",
+      "name": "Tài khoản VieON VIP 30 ngày bhf",
+      "bot": "taphoathomap_bot",
+      "price": 30000,
+      "costPrice": 20000,
+      "stockAfter": 5,
+      "catKey": "netflix",
+      "msgKey": "⭐TàikhoảnVieONVIP30ngàybhf➕Thêm:1📦Tồnkhohiệntại:2💰Giá:20.000đ"
+    },
+    {
       "id": "hist-1793110673594",
       "time": "21:17 - 27/10/2026",
       "name": "Meitu Vip+ 7D BH 5D",
@@ -14428,17 +14439,6 @@
       "stockAfter": 65,
       "catKey": "khac",
       "msgKey": "🎬HiggsfieldGenjutsu1thángBH1Ngày➕Thêm:30📦Tồnkhohiệntại:65💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793100523838",
-      "time": "18:28 - 27/10/2026",
-      "name": "Key Office 2021 Pro Plus Vĩnh viễn BH 7 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 79000,
-      "costPrice": 69000,
-      "stockAfter": 6,
-      "catKey": "microsoft",
-      "msgKey": "⭐KeyOffice2021ProPlusVĩnhviễnBH7ngày➕Thêm:3📦Tồnkhohiệntại:6💰Giá:69.000đ"
     }
   ]
 }
