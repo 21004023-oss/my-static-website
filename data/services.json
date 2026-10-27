@@ -12577,22 +12577,22 @@
         "name": "Muse AI 31B Token KBH",
         "price": 90000,
         "cost_price": 80000,
-        "stock": 24,
-        "stock_text": "Còn 24",
+        "stock": 11,
+        "stock_text": "Còn 11",
         "duration": "1 Tháng",
         "detail": "-Token 31B\n-Định dạng: Mail | Link đọc code mail\n-Bảo hành: Login check acc ok = hoàn tất BH.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 24,
+            "stock": 11,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "07:06 27/10/2026"
+            "updated": "13:09 27/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 80000,
-          "stock": 24
+          "stock": 11
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -12810,6 +12810,17 @@
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793081345305",
+      "time": "13:09 - 27/10/2026",
+      "name": "Muse AI 31B Token KBH",
+      "bot": "sieuthistore_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 11,
+      "catKey": "khac",
+      "msgKey": "⭐MuseAI31BTokenKBH➕Thêm:10📦Tồnkhohiệntại:11💰Giá:80.000đ"
+    },
     {
       "id": "hist-1793080895068",
       "time": "13:01 - 27/10/2026",
@@ -13898,17 +13909,6 @@
       "stockAfter": 20,
       "catKey": "khac",
       "msgKey": "⭐seedance2.51thángBH4D➕Thêm:20📦Tồnkhohiệntại:20💰Giá:99.000đ"
-    },
-    {
-      "id": "hist-1793066358168",
-      "time": "08:59 - 27/10/2026",
-      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 189,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:100📦Tồnkhohiệntại:176💰Giá:45.000đ"
     }
   ]
 }
