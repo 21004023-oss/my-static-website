@@ -3405,17 +3405,17 @@
         "id": "capcut-1m",
         "name": "CapCut Pro 1 Tháng BHF",
         "price": 48000,
-        "stock": 44,
-        "stock_text": "Còn 44",
+        "stock": 41,
+        "stock_text": "Còn 41",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 44,
+            "stock": 41,
             "cost_price": 38000,
             "selling_price": 48000,
-            "updated": "21:52 27/10/2026"
+            "updated": "22:41 27/10/2026"
           }
         },
         "cost_price": 38000,
@@ -3424,7 +3424,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 38000,
-          "stock": 44
+          "stock": 41
         },
         "import_note": "Nhập: @ntnshopre_bot"
       },
@@ -13478,6 +13478,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793115688528",
+      "time": "22:41 - 27/10/2026",
+      "name": "CAPCUT PRO 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 48000,
+      "costPrice": 38000,
+      "stockAfter": 41,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:16📦Tồnkhohiệntại:41💰Giá:38.000đ"
+    },
+    {
       "id": "hist-1793115683960",
       "time": "22:41 - 27/10/2026",
       "name": "Capcut Pro Team 6 Tháng BHF",
@@ -14565,17 +14576,6 @@
       "stockAfter": 36,
       "catKey": "khac",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1thángKBH➕Thêm:13📦Tồnkhohiệntại:36💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793106508996",
-      "time": "20:08 - 27/10/2026",
-      "name": "ChatGPT Plus GGPay Gmail 1 Tháng BH 1D",
-      "bot": "piggyai99_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 3,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusGGPayGmail1ThángBH1D➕Thêm:2📦Tồnkhohiệntại:3💰Giá:220.000đ"
     }
   ]
 }
