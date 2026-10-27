@@ -7514,25 +7514,26 @@
         "id": "p-1792508363624",
         "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
         "price": 65000,
-        "cost_price": 60000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "cost_price": 55000,
+        "stock": 35,
+        "stock_text": "Còn 35",
         "duration": "1 Tháng",
-        "detail": "✅Netflix 4K Premium bảo hành full 1 tháng sử dụng.\n✅Có web riêng lấy code, xác minh hộ gia đình v.v...\n✅Định dạng mail|pass|Profile riêng, mã pin riêng\n---Lưu ý: Sau khi nhập mail xong chọn mục NHẬN TRỢ GIÚP để nhập pass\n✅ Bảo hành full trong suốt thời gian sử dụng\nvào taikhoan24h.vn lấy otp",
+        "detail": "✅Netflix 4K Premium bảo hành full 1 tháng sử dụng.\n✅Có web riêng lấy code, xác minh hộ gia đình v.v...\n✅Định dạng mail|pass|Profile riêng, mã pin riêng\n---Lưu ý: Sau khi nhập mail xong chọn mục NHẬN TRỢ GIÚP để nhập pass\n✅ Bảo hành full trong suốt thời gian sử dụng",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1,
-            "cost_price": 60000,
-            "selling_price": 70000,
-            "updated": "09:11 21/10/2026"
+            "stock": 35,
+            "cost_price": 55000,
+            "selling_price": 65000,
+            "updated": "17:47 27/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 60000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 55000,
+          "stock": 35
         }
       },
       {
@@ -12741,6 +12742,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793098042036",
+      "time": "17:47 - 27/10/2026",
+      "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
+      "bot": "taphoathomap_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 35,
+      "catKey": "netflix",
+      "msgKey": "🎬[Slot]Netflix4KPremium1thángBảohànhfull➕Thêm:35📦Tồnkhohiệntại:35💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793097960095",
       "time": "17:46 - 27/10/2026",
       "name": "ChatGPT Plus Apple Pay Gmail 30D - BHF",
@@ -13828,17 +13840,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "📦Hàngđangcósẵntrongkho📦DiscordNitroBoost1NămChínhChủ–GiáTốt,KíchHoạtNhanh,BảoHàn"
-    },
-    {
-      "id": "hist-1793043860944",
-      "time": "02:44 - 27/10/2026",
-      "name": "Proton VPN 14-28 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 65000,
-      "costPrice": 55000,
-      "stockAfter": 6,
-      "catKey": "vpn",
-      "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:6💰Giá:55.000đ"
     }
   ]
 }
