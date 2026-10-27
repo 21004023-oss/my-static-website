@@ -7530,10 +7530,10 @@
         "id": "p-1792094916011",
         "name": "Tài khoản VieON VIP 3 Tháng BHF",
         "price": 140000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "3 Tháng",
-        "detail": "Tài khoản đăng nhập 2 thiết bị và xem 1 thiết bị đồng thời\nXem tất cả phim VIP và phim PRO\nKhông đảm bảo sẽ xem được một số kênh truyền hình nước ngoài\nBảo hành toàn thời gian trường hợp không xem được phim, sai mật khẩu, quá thiết bị.",
+        "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời",
         "sources": {
           "sieuthistore_bot": {
             "stock": 2,
@@ -7542,19 +7542,19 @@
             "updated": "21:15 27/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 2,
-            "cost_price": 70000,
-            "selling_price": 80000,
-            "updated": "21:15 27/10/2026"
+            "stock": 3,
+            "cost_price": 55000,
+            "selling_price": 65000,
+            "updated": "22:19 27/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 70000,
+        "cost_price": 55000,
         "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 70000,
-          "stock": 2
+          "cost_price": 55000,
+          "stock": 3
         },
         "needs_review": false
       },
@@ -13451,6 +13451,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793114397228",
+      "time": "22:19 - 27/10/2026",
+      "name": "Tài khoản VieON VIP 3 tháng bhf",
+      "bot": "taphoathomap_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 5,
+      "catKey": "netflix",
+      "msgKey": "⭐TàikhoảnVieONVIP3thángbhf➕Thêm:1📦Tồnkhohiệntại:3💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793114322225",
       "time": "22:18 - 27/10/2026",
       "name": "PIA VPN 7 Ngày BHF",
@@ -14538,17 +14549,6 @@
       "stockAfter": 48,
       "catKey": "vpn",
       "msgKey": "🚚EXPRESSVPN1THÁNGBHF➕Thêm:10📦Tồnkhohiệntại:12💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793104602345",
-      "time": "19:36 - 27/10/2026",
-      "name": "🔥Express VPN 1 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 36,
-      "catKey": "vpn",
-      "msgKey": "🚚🔥ExpressVPN1ThángBHF➕Thêm:10📦Tồnkhohiệntại:12💰Giá:80.000đ"
     }
   ]
 }
