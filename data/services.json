@@ -414,8 +414,8 @@
         "name": "Gmail Random ip 2010-2016 trial youtube",
         "price": 60000,
         "cost_price": 45000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 169,
+        "stock_text": "Còn 169",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|mkp\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "sources": {
@@ -426,16 +426,16 @@
             "updated": "21:34 23/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 169,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "21:34 23/10/2026"
+            "updated": "17:32 27/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 45000,
-          "stock": 0
+          "stock": 169
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -13251,6 +13251,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793097128437",
+      "time": "17:32 - 27/10/2026",
+      "name": "Gmail Random ip 2010-2016 trial youtube",
+      "bot": "taphoathomap_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 169,
+      "catKey": "youtube",
+      "msgKey": "📧GmailRandomip2010-2016trialyoutube➕Thêm:433📦Tồnkhohiệntại:169💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793097123150",
       "time": "17:32 - 27/10/2026",
       "name": "GMAIL TRIAL RANDOM DATE 201X",
@@ -14338,17 +14349,6 @@
       "stockAfter": 20,
       "catKey": "meitu-wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793081351566",
-      "time": "13:09 - 27/10/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 22,
-      "catKey": "meitu-wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:15.000đ"
     }
   ]
 }
