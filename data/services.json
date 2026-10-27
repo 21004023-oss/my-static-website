@@ -2814,6 +2814,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793126227301",
+        "name": "ChatGPT Plus UIP 1 Tháng KBH",
+        "price": 130000,
+        "cost_price": 110000,
+        "stock": 24,
+        "stock_text": "Còn 24",
+        "duration": "1 Tháng",
+        "detail": "🔐 Tài khoản riêng tư — Được đổi Pass & 2FA.\n📂 Định dạng: Email | Pass | 2FA\n✅ Hàng Pay UPI Ấn Độ - Siêu khỏe\n🚀 Sử dụng Codex thoải mái (khách tự xác minh SĐT).\n⚠️ LƯU Ý QUAN TRỌNG\n1. Không được sử dụng 9Router.\n2. Đổi 2FA ngay sau khi mua. Không đổi dẫn đến lỗi/mất tài khoản → Shop không chịu trách nhiệm.\n3. Thao tác đổi 2FA phải nhanh chóng. Lỗi OTP Gmail trong quá trình đổi → Không bảo hành (xem video hướng dẫn).\n🚨 Tài khoản đã kiểm tra trước khi bán, nên ai mà đăng nhập kêu bị OTP gmail thì đừng có nhắn tin, lỗi đổi 2fa otp gmail shop không hỗ trợ. Bạn có thể cân nhắc đổi hoặc không, shop chỉ muốn hợp tác với người trung thực, có trách nhiệm.\n🎥 HƯỚNG DẪN ĐỔI 2FA\nhttps://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 24,
+            "cost_price": 110000,
+            "selling_price": 130000,
+            "updated": "01:37 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 110000,
+          "stock": 24
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -10559,6 +10585,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793126227301",
+      "time": "01:37 - 28/10/2026",
+      "name": "ChatGPT Plus UIP 1 Tháng KBH",
+      "bot": "sieuthistore_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 24,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlusUIP1ThángKBH➕Thêm:4📦Tồnkhohiệntại:24💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793126217478",
       "time": "01:36 - 28/10/2026",
       "name": "Grammarly AI Pro 1 Tháng BHF",
@@ -11793,20 +11830,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖CHATGPTPRO500$1tháng-BH3Ngày➕Thêm:30📦Tồnkhohiệntại:30💰Giá:3.300.000đ"
-    },
-    {
-      "id": "hist-1792622862431",
-      "time": "05:47 - 22/10/2026",
-      "timestamp": 1792622862431,
-      "name": "Chatgpt Pro 500$ 1 tháng BH 7D",
-      "bot": "taphoathomap_bot",
-      "shopStock": 30,
-      "addedQty": 30,
-      "price": 4800000,
-      "stockAfter": 30,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatgptPro500$1thángBH7D➕Thêm:30📦Tồnkhohiệntại:30💰Giá:4.200.000đ"
     }
   ]
 }
