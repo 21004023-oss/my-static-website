@@ -8725,6 +8725,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793104593730",
+        "name": "Express VPN 1 Tháng BHF",
+        "price": 105000,
+        "cost_price": 95000,
+        "stock": 12,
+        "stock_text": "Còn 12",
+        "duration": "1 Tháng",
+        "detail": "- Định dạng: Email | Pass\n- Plan: Random Basic, Advanced, Pro\n- Đăng nhập và sử dụng qua App Express VPN",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 12,
+            "cost_price": 95000,
+            "selling_price": 105000,
+            "updated": "19:36 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 95000,
+          "stock": 12
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13046,6 +13072,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793104593730",
+      "time": "19:36 - 27/10/2026",
+      "name": "Express VPN 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 12,
+      "catKey": "vpn",
+      "msgKey": "🚚ExpressVPN1ThángBHF➕Thêm:10📦Tồnkhohiệntại:12💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1793104431783",
       "time": "19:33 - 27/10/2026",
       "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
@@ -14133,17 +14170,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI31TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:2💵Giáchỉ:29.000đ🎁Kh"
-    },
-    {
-      "id": "hist-1793073922533",
-      "time": "11:05 - 27/10/2026",
-      "name": "🔥 Chatgpt Plus Pay Tiền Thật 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 73,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥ChatgptPlusPayTiềnThật1thángBHF➕Thêm:49📦Tồnkhohiệntại:73💰Giá:220.000đ"
     }
   ]
 }
