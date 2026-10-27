@@ -12234,22 +12234,22 @@
         "name": "ADMIN GEMINI PRO + GOOGLE ONE 5TB 6 THÁNG BẢO HÀNH 24H",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "6 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2fa\n- Add được 5 slot cùng hưởng Gemini Pro + GG 5TB trong 6 tháng\n- Bảo hành 24h, khách mua về tự thay đổi thông tin bảo quản tài khoản.",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 10,
+            "stock": 5,
             "cost_price": 150000,
             "selling_price": 170000,
-            "updated": "22:55 26/10/2026"
+            "updated": "22:44 27/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 150000,
-          "stock": 10
+          "stock": 5
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
@@ -13484,6 +13484,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793115842708",
+      "time": "22:44 - 27/10/2026",
+      "name": "ADMIN GEMINI PRO + GOOGLE ONE 5TB 6 THÁNG BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 5,
+      "catKey": "khac",
+      "msgKey": "☁️ADMINGEMINIPRO+GOOGLEONE5TB6THÁNGBẢOHÀNH24H➕Thêm:5📦Tồnkhohiệntại:5💰Giá:150.000"
+    },
+    {
       "id": "hist-1793115758287",
       "time": "22:42 - 27/10/2026",
       "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
@@ -14571,17 +14582,6 @@
       "stockAfter": 0,
       "catKey": "chatgpt",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!🧠Chatgptplus1thángpayPIXriêngtư-Bh24hvừađượcnhậpkho🔥📦Sốlượngcósẵn:9"
-    },
-    {
-      "id": "hist-1793106745240",
-      "time": "20:12 - 27/10/2026",
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 12H",
-      "bot": "ntnshopre_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 15,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH12H➕Thêm:15📦Tồnkhohiệntại:15💰Giá:95.000đ"
     }
   ]
 }
