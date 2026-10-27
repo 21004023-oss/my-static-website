@@ -7332,6 +7332,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793121820770",
+        "name": "Gmail Cổ 2FA 2023-2025",
+        "price": 43000,
+        "cost_price": 33000,
+        "stock": 20,
+        "stock_text": "Còn 20",
+        "duration": "1 Tháng",
+        "detail": "- GMAIL VIỆT TRÂU 2FA\n- Định dạng: Mk|Tk|2Fa\n- Bao change thông tin\n- Bảo hành 48 giờ login, (sai pass, sai 2fa,), ngâm 24h rồi hãy change để tránh bị die\nĐÃ CHECK LIVE TRƯỚC KHI BÁN\nKHÁCH MUA VỀ NHỚ CHANGE THÔNG TIN NHÉ, ĐỜI KHÔNG TIN ĐƯỢC AI ĐÂU\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 20,
+            "cost_price": 33000,
+            "selling_price": 43000,
+            "updated": "00:23 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 33000,
+          "stock": 20
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=gmail.com&sz=64"
@@ -13746,6 +13772,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793121820770",
+      "time": "00:23 - 28/10/2026",
+      "name": "Gmail Cổ 2FA 2023-2025",
+      "bot": "taphoathomap_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 20,
+      "catKey": "gmail",
+      "msgKey": "📧GmailCổ2FA2023-2025➕Thêm:20📦Tồnkhohiệntại:20💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1793121694323",
       "time": "00:21 - 28/10/2026",
       "name": "Link Gemini Pro 18 Tháng BH 24H",
@@ -14833,17 +14870,6 @@
       "stockAfter": 91,
       "catKey": "khac",
       "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:25📦Tồnkhohiệntại:91💰Giá:45.00"
-    },
-    {
-      "id": "hist-1793111378655",
-      "time": "21:29 - 27/10/2026",
-      "name": "MUSE.AI -31 TỶ TOKEN (KBH)",
-      "bot": "taphoathomap_bot",
-      "price": 99000,
-      "costPrice": 89000,
-      "stockAfter": 6,
-      "catKey": "khac",
-      "msgKey": "⭐MUSE.AI-31TỶTOKEN(KBH)➕Thêm:1📦Tồnkhohiệntại:6💰Giá:89.000đ"
     }
   ]
 }
