@@ -5753,22 +5753,22 @@
         "name": "Kling Stand Random 1k - 1k5 Credit 1 Tháng BHF",
         "price": 260000,
         "cost_price": 230000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "TẤT CẢ ĐỀU ĐĂNG NHẬP BẰNG EMAIL NHÉ",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 6,
+            "stock": 8,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "15:54 27/10/2026"
+            "updated": "16:36 27/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 230000,
-          "stock": 6
+          "stock": 8
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -13237,6 +13237,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793093766450",
+      "time": "16:36 - 27/10/2026",
+      "name": "Kling Stand Random 1k - 1k5 Credit 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 8,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandRandom1k-1k5Credit1ThángBHF➕Thêm:2📦Tồnkhohiệntại:8💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1793093537134",
       "time": "16:32 - 27/10/2026",
       "name": "Chatgpt plus 1 tháng pay PIX riêng tư - Bh24h vừa được nhập kho 🔥",
@@ -14324,17 +14335,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI31TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:55💵Giáchỉ:29.000đ🎁K"
-    },
-    {
-      "id": "hist-1793080117716",
-      "time": "12:48 - 27/10/2026",
-      "name": "Muse Ai 1B Token KBH",
-      "bot": "sieuthistore_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 3926,
-      "catKey": "khac",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:50📦Tồnkhohiệntại:78💰Giá:15.000đ"
     }
   ]
 }
