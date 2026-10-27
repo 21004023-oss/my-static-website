@@ -4831,17 +4831,18 @@
             "stock": 2,
             "cost_price": 210000,
             "selling_price": 240000,
-            "updated": "18:30 19/10/2026"
+            "updated": "22:59 27/10/2026"
           }
         },
         "cost_price": 204000,
-        "needs_review": true,
-        "hidden": true,
+        "needs_review": false,
+        "hidden": false,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 410000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 204000,
+          "stock": 2
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792108522126",
@@ -13484,6 +13485,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793116750163",
+      "time": "22:59 - 27/10/2026",
+      "name": "API CURSOR PRO 2600 CREDITS 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 240000,
+      "costPrice": 210000,
+      "stockAfter": 6,
+      "catKey": "api-cursor-deepseek",
+      "msgKey": "🖱️APICURSORPRO2600CREDITS1THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:210.000đ"
+    },
+    {
       "id": "hist-1793116431077",
       "time": "22:53 - 27/10/2026",
       "name": "Higgsfield Genjutsu hạn 30 ngày BH 24H",
@@ -14571,17 +14583,6 @@
       "stockAfter": 12,
       "catKey": "meitu-wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793107872139",
-      "time": "20:31 - 27/10/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 18,
-      "catKey": "meitu-wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:35.000đ"
     }
   ]
 }
