@@ -7799,22 +7799,22 @@
         "name": "VIEON VIP 3 THÁNG BHF",
         "price": 90000,
         "cost_price": 80000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "3 Tháng",
         "detail": "Tài khoản đăng nhập 2 thiết bị và xem 1 thiết bị đồng thời\nXem tất cả phim VIP và phim PRO\nKhông đảm bảo sẽ xem được một số kênh truyền hình nước ngoài\nBảo hành toàn thời gian trường hợp không xem được phim, sai mật khẩu, quá thiết bị.",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "22:45 26/10/2026"
+            "updated": "21:15 27/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 80000,
-          "stock": 1
+          "stock": 2
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
@@ -13309,6 +13309,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793110547416",
+      "time": "21:15 - 27/10/2026",
+      "name": "VIEON VIP 3 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 2,
+      "catKey": "netflix",
+      "msgKey": "⭐VIEONVIP3THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1793110467454",
       "time": "21:14 - 27/10/2026",
       "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
@@ -14396,17 +14407,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI31TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:30💵Giáchỉ:29.000đ🎁K"
-    },
-    {
-      "id": "hist-1793100089489",
-      "time": "18:21 - 27/10/2026",
-      "name": "Pitpit AI 8k6 cre 1TH BH 3 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 850000,
-      "costPrice": 750000,
-      "stockAfter": 1,
-      "catKey": "khac",
-      "msgKey": "⭐PitpitAI8k6cre1THBH3ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:750.000đ"
     }
   ]
 }
