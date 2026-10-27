@@ -3637,9 +3637,9 @@
         "id": "p-1793059698526",
         "name": "Capcut Pro Team 12 Tháng BHF",
         "price": 700000,
-        "cost_price": 600000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "cost_price": 550000,
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Năm",
         "detail": "CAPCUT PRO TEAM  RENEW  – 365 NGÀY  | BHF 📌 THÔNG TIN • Tài khoản CapCut Pro dạng Team, thời hạn 365 ngày tự động gia hạn hàng tháng. • Có thể nhận tới 2.000 AI Credits. • Định dạng: Email | Pass. • Khuyến nghị đăng nhập 1–2 thiết bị, hạn chế đăng nhập nhiều thiết bị. 🛡️ BẢO HÀNH • Bảo hành 365 ngày. • Hỗ trợ bảo hành tối đa 1 lần/tháng đối với lỗi đăng nhập do đăng nhập quá thường xuyên. ⚠️ LƯU Ý • Hạn chế đăng nhập/đăng xuất liên tục hoặc trên nhiều thiết bị. • Vui lòng kiểm tra tài khoản ngay sau khi nhận hàng",
         "sources": {
@@ -3648,14 +3648,20 @@
             "cost_price": 600000,
             "selling_price": 700000,
             "updated": "07:08 27/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 550000,
+            "selling_price": 650000,
+            "updated": "07:08 27/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 600000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 550000,
           "stock": 2
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -12330,6 +12336,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793059702424",
+      "time": "07:08 - 27/10/2026",
+      "name": "Capcut Pro Team 12 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 650000,
+      "costPrice": 550000,
+      "stockAfter": 4,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutProTeam12Tháng-BHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:550.000đ"
+    },
+    {
       "id": "hist-1793059698526",
       "time": "07:08 - 27/10/2026",
       "name": "Capcut Pro Team 12 Tháng BHF",
@@ -13417,17 +13434,6 @@
       "stockAfter": 60,
       "catKey": "gmail",
       "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:41📦Tồnkhohiệntại:45💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793032380878",
-      "time": "23:33 - 26/10/2026",
-      "name": "Galaxy Play VIP 30 ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 95000,
-      "costPrice": 85000,
-      "stockAfter": 4,
-      "catKey": "khac",
-      "msgKey": "⭐GalaxyPlayVIP30ngàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:85.000đ"
     }
   ]
 }
