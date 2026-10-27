@@ -13084,11 +13084,48 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793105273425",
+        "name": "Kahoot Plus Gold 7 Ngày BHF",
+        "price": 55000,
+        "cost_price": 45000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "7 Ngày",
+        "detail": "Kahoot Plus Gold 7 Ngày Trial BHF 200 thành viên\nĐịnh dạng: Email|Pass",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 3,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "19:47 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 45000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64"
   },
   "_history": [
+    {
+      "id": "hist-1793105273425",
+      "time": "19:47 - 27/10/2026",
+      "name": "Kahoot Plus Gold 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "msgKey": "⭐KahootPlusGold7NgàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:45.000đ"
+    },
     {
       "id": "hist-1793105072181",
       "time": "19:44 - 27/10/2026",
@@ -14177,17 +14214,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI31TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:10💵Giáchỉ:29.000đ🎁K"
-    },
-    {
-      "id": "hist-1793074773048",
-      "time": "11:19 - 27/10/2026",
-      "name": "ChatGPT Plus Apple Pay Gmail 30D - BHF",
-      "bot": "piggyai99_bot",
-      "price": 300000,
-      "costPrice": 270000,
-      "stockAfter": 77,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusApplePayGmail30D-BHF➕Thêm:52📦Tồnkhohiệntại:77💰Giá:270.000đ"
     }
   ]
 }
