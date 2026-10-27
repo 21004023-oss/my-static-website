@@ -5037,22 +5037,22 @@
         "name": "Grok Super 1 ngày KBH",
         "price": 100000,
         "cost_price": 90000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Ngày",
         "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 6,
+            "stock": 3,
             "cost_price": 90000,
             "selling_price": 100000,
-            "updated": "10:42 27/10/2026"
+            "updated": "11:38 27/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 90000,
-          "stock": 6
+          "stock": 3
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -12631,6 +12631,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793075920885",
+      "time": "11:38 - 27/10/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 3,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:1📦Tồnkhohiệntại:3💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1793075860117",
       "time": "11:37 - 27/10/2026",
       "name": "Express VPN 1 Tháng BH 15 Ngày",
@@ -13718,17 +13729,6 @@
       "stockAfter": 12,
       "catKey": "khac",
       "msgKey": "⭐JetBrainEdu1năm(BHF)➕Thêm:4📦Tồnkhohiệntại:6💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1793037800323",
-      "time": "01:03 - 27/10/2026",
-      "name": "JetBrain Edu 1 năm (BHF)",
-      "bot": "taphoathomap_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 6,
-      "catKey": "khac",
-      "msgKey": "⭐JetBrainEdu1năm(BHF)➕Thêm:4📦Tồnkhohiệntại:6💰Giá:50.000đ"
     }
   ]
 }
