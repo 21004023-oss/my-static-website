@@ -9646,6 +9646,32 @@
           "cost_price": 30000,
           "stock": 26
         }
+      },
+      {
+        "id": "p-1793110648258",
+        "name": "Meitu Vip+ 7D BH 5D",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 15,
+        "stock_text": "Còn 15",
+        "duration": "7 Ngày",
+        "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 15,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "21:17 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 25000,
+          "stock": 15
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13309,6 +13335,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793110648258",
+      "time": "21:17 - 27/10/2026",
+      "name": "Meitu Vip+ 7D BH 5D",
+      "bot": "piggyai99_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 15,
+      "catKey": "meitu-wink",
+      "msgKey": "✨MeituVip+7DBH5D➕Thêm:15📦Tồnkhohiệntại:15💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793110558546",
       "time": "21:15 - 27/10/2026",
       "name": "Tài khoản VieON VIP PRO 3 tháng bhf",
@@ -14396,17 +14433,6 @@
       "stockAfter": 16,
       "catKey": "khac",
       "msgKey": "⭐KeyWindows10/11ProRetailOnlineVĩnhviễnBH7ngày➕Thêm:2📦Tồnkhohiệntại:8💰Giá:89.000"
-    },
-    {
-      "id": "hist-1793100220308",
-      "time": "18:23 - 27/10/2026",
-      "name": "Key Windows 10/11 Pro Retail Online Vĩnh viễn BH 7 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 16,
-      "catKey": "khac",
-      "msgKey": "⭐KeyWindows10/11ProRetailOnlineVĩnhviễnBH7ngày➕Thêm:2📦Tồnkhohiệntại:8💰Giá:100.00"
     }
   ]
 }
