@@ -9812,25 +9812,27 @@
         "id": "p-1792265296447",
         "name": "ACC ZOOM PRO 28 NGÀY BHF",
         "price": 85000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
-        "detail": "Zoom Pro 100 members, 30 giờ mỗi cuộc họp\nĐịnh dạng: Email|Pass|Web mail\n📝 ✨ VÀI LƯU Ý QUAN TRỌNG  GỬI ĐẾN BẠN ✨\nCảm ơn bạn đã tin tưởng và nâng cấp tài khoản Zoom tại! Để quá trình sử dụng của bạn được suôn sẻ và nhận được hỗ trợ tốt nhất, bạn vui lòng lưu ý giúp shop vài điểm nhỏ sau nhé:\n🔑 Về mật khẩu tài khoản:\n- Để shop có thể hỗ trợ bạn tức thì khi có sự cố phát sinh, bạn vui lòng không thay đổi mật khẩu trong thời gian sử dụng gói cước. Nếu có thay đổi, bạn đừng quên báo lại mật khẩu mới cho shop nhé!\n📲 Về xác thực hai yếu tố (2FA):\n- Trong quá trình đăng nhập, nếu màn hình hiển thị yêu cầu xác thực 2 yếu tố, bạn chỉ cần chọn \"Bỏ qua\"…\n✨ Lưu ý về việc lấy code otp ở web, nếu check mail thấy mã 333333 thì các bác phải nhấn vào mã đó để ra nội dung chứa code chuẩn 6 số nhé, đừng nhập mã 333333 là sai nhé, nếu bị khóa đợi 30 phút nó mở lại",
+        "detail": "Zoom Pro 100 members, 30 giờ mỗi cuộc họp\nĐịnh dạng: Email|Pass|Web mail\n📝 ✨ VÀI LƯU Ý QUAN TRỌNG  GỬI ĐẾN BẠN ✨\nCảm ơn bạn đã tin tưởng và nâng cấp tài khoản Zoom tại! Để quá trình sử dụng của bạn được suôn sẻ và nhận được hỗ trợ tốt nhất, bạn vui lòng lưu ý giúp shop vài điểm nhỏ sau nhé:\n🔑 Về mật khẩu tài khoản:\n- Để shop có thể hỗ trợ bạn tức thì khi có sự cố phát sinh, bạn vui lòng không thay đổi mật khẩu trong thời gian sử dụng gói cước. Nếu có thay đổi, bạn đừng quên báo lại mật khẩu mới cho shop nhé!\n📲 Về xác thực hai yếu tố (2FA):\n- Trong quá trình đăng nhập, nếu màn hình hiển thị yêu cầu xác thực 2 yếu tố, bạn chỉ cần chọn \"Bỏ qua\"…\n✨ Lưu ý về việc lấy code otp ở web, nếu check mail thấy mã 333333 thì các bác phải nhấn vào mã đó để ra nội dung chứa code chuẩn 6 số nhé, đừng nhập mã 333333 là sai nhé, nếu bị khóa đợi 30 phút nó mở lại\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 10,
+            "stock": 4,
             "cost_price": 75000,
-            "updated": "02:28 18/10/2026",
-            "selling_price": 85000
+            "selling_price": 85000,
+            "updated": "02:12 28/10/2026"
           }
         },
         "hidden": false,
         "cost_price": 75000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 75000
-        }
+          "cost_price": 75000,
+          "stock": 4
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792380877722",
@@ -10667,6 +10669,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793128344107",
+      "time": "02:12 - 28/10/2026",
+      "name": "ACC ZOOM PRO 28 NGÀY BHF",
+      "bot": "ntnshopre_bot",
+      "price": 85000,
+      "costPrice": 75000,
+      "stockAfter": 4,
+      "catKey": "zoom",
+      "msgKey": "⭐ACCZOOMPRO28NGÀYBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:75.000đ"
+    },
     {
       "id": "hist-1793128337840",
       "time": "02:12 - 28/10/2026",
@@ -11851,20 +11864,6 @@
       "catKey": "work-dev",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1792636820134",
-      "time": "09:40 - 22/10/2026",
-      "timestamp": 1792636820134,
-      "name": "Zoom Pro 14 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 2,
-      "addedQty": 2,
-      "price": 55000,
-      "stockAfter": 2,
-      "catKey": "work-dev",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:45.000đ"
     }
   ]
 }
