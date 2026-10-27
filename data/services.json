@@ -7643,6 +7643,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793099867979",
+        "name": "Tài Khoản Netflix Premium 2 ngày BHF",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Gói Tài Khoản Netflix Premium 2 ngày BHF bảo hành uy tín.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 2,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "18:17 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 35000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12800,6 +12826,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793099867979",
+      "time": "18:17 - 27/10/2026",
+      "name": "Tài Khoản Netflix Premium 2 ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 2,
+      "catKey": "netflix",
+      "msgKey": "🎬TàiKhoảnNetflixPremium2ngàyBHF💰Giá:35k📦Tồnkho:2tàikhoản📊Đãbán:41tàikhoản"
+    },
+    {
       "id": "hist-1793099652728",
       "time": "18:14 - 27/10/2026",
       "name": "API CLAUDE 500$ TOKEN 1 THÁNG BHF",
@@ -13887,17 +13924,6 @@
       "stockAfter": 4,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProTeam12Tháng-BHF💰Giá:550k📦Tồnkho:2tàikhoản📊Đãbán:113tàikhoản💎Môtả:CAPC"
-    },
-    {
-      "id": "hist-1793059702424",
-      "time": "07:08 - 27/10/2026",
-      "name": "Capcut Pro Team 12 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 650000,
-      "costPrice": 550000,
-      "stockAfter": 4,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProTeam12Tháng-BHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:550.000đ"
     }
   ]
 }
