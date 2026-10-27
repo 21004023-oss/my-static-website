@@ -8060,14 +8060,14 @@
         "price": 45000,
         "stock": 10,
         "stock_text": "Còn 10",
-        "duration": "1 Tháng",
+        "duration": "7 Ngày",
         "detail": "Photoroom 7 ngày gói Max\nĐịnh dạng: Email|Web mail",
         "sources": {
           "sieuthistore_bot": {
             "stock": 5,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "18:07 19/10/2026"
+            "updated": "21:36 27/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 5,
@@ -8077,12 +8077,13 @@
           }
         },
         "cost_price": 15000,
-        "needs_review": true,
-        "hidden": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "hidden": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 15000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
+          "stock": 5
         }
       },
       {
@@ -13384,6 +13385,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793111797651",
+      "time": "21:36 - 27/10/2026",
+      "name": "Photoroom Max 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 10,
+      "catKey": "adobe",
+      "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793111754977",
       "time": "21:35 - 27/10/2026",
       "name": "ChatGPT Plus 1 Tháng BHF",
@@ -14471,17 +14483,6 @@
       "stockAfter": 123,
       "catKey": "khac",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:50📦Tồnkhohiệntại:123💰Giá:34.000đ"
-    },
-    {
-      "id": "hist-1793102178112",
-      "time": "18:56 - 27/10/2026",
-      "name": "Capcut Pro 30d full Date - BHF vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "capcut",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!🎬CapcutPro30dfullDate-BHFvừađượcnhậpkho🔥📦Sốlượngcósẵn:27💵Giáchỉ:38."
     }
   ]
 }
