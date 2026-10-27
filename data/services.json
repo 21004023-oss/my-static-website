@@ -3817,26 +3817,27 @@
         "id": "p-1791948360081",
         "name": "Link Gemini Pro 18 Tháng BH 24H",
         "price": 40000,
-        "stock": 76,
-        "stock_text": "Còn 76",
+        "stock": 88,
+        "stock_text": "Còn 88",
         "duration": "1 Ngày",
-        "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.",
-        "hidden": true,
-        "cost_price": 14800,
+        "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.\n✏️",
+        "hidden": false,
+        "cost_price": 29000,
         "sources": {
           "taphoathomap_bot": {
-            "stock": 76,
-            "cost_price": 27000,
-            "selling_price": 37000,
-            "updated": "14:54 22/10/2026"
+            "stock": 88,
+            "cost_price": 29000,
+            "selling_price": 39000,
+            "updated": "01:39 28/10/2026"
           }
         },
-        "needs_review": true,
+        "needs_review": false,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 14800
+          "bot": "@taphoathomap_bot",
+          "cost_price": 29000,
+          "stock": 88
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1791948345889",
@@ -10586,6 +10587,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793126358327",
+      "time": "01:39 - 28/10/2026",
+      "name": "Link Gemini Pro 18 Tháng BH 24H",
+      "bot": "taphoathomap_bot",
+      "price": 39000,
+      "costPrice": 29000,
+      "stockAfter": 88,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:13📦Tồnkhohiệntại:88💰Giá:29.000đ"
+    },
+    {
       "id": "hist-1793126287802",
       "time": "01:38 - 28/10/2026",
       "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
@@ -11814,20 +11826,6 @@
       "catKey": "capcut",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:33.000đ"
-    },
-    {
-      "id": "hist-1792623322299",
-      "time": "05:55 - 22/10/2026",
-      "timestamp": 1792623322299,
-      "name": "ChatGPT Plus 4 Tháng - BH 10 Ngày",
-      "bot": "taphoathomap_bot",
-      "shopStock": 0,
-      "addedQty": 43,
-      "price": 700000,
-      "stockAfter": 0,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlus4Tháng-BH10Ngày➕Thêm:43📦Tồnkhohiệntại:0💰Giá:600.000đ"
     }
   ]
 }
