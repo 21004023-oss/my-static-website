@@ -4986,8 +4986,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 17,
+        "stock_text": "Còn 17",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành",
         "sources": {
@@ -4998,10 +4998,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 9,
+            "stock": 15,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "12:16 27/10/2026"
+            "updated": "19:19 27/10/2026"
           }
         },
         "hidden": false,
@@ -5010,7 +5010,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 9
+          "stock": 15
         }
       },
       {
@@ -12961,6 +12961,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793103592554",
+      "time": "19:19 - 27/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 17,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:6📦Tồnkhohiệntại:15💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793103588116",
       "time": "19:19 - 27/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -14048,17 +14059,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI1TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:10💵Giáchỉ:9.800đ🎁Khu"
-    },
-    {
-      "id": "hist-1793072531366",
-      "time": "10:42 - 27/10/2026",
-      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 47000,
-      "costPrice": 37000,
-      "stockAfter": 82,
-      "catKey": "khac",
-      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:50📦Tồnkhohiệntại:82💰Giá:37.000đ"
     }
   ]
 }
