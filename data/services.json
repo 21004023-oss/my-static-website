@@ -10665,10 +10665,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793129485768",
+        "name": "Sản phẩm đang được nhiều khách quan tâm",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Sản phẩm đang được nhiều khách quan tâm bảo hành uy tín.",
+        "sources": {
+          "toki_shopmmo_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "02:31 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@toki_shopmmo_bot",
+          "cost_price": 0,
+          "stock": 0
+        },
+        "import_note": "Nhập: @toki_shopmmo_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793129485768",
+      "time": "02:31 - 28/10/2026",
+      "name": "Sản phẩm đang được nhiều khách quan tâm",
+      "bot": "toki_shopmmo_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "🔥Sảnphẩmđangđượcnhiềukháchquantâm📦92KDecorDiscord/ProfileEffectGiáRẻ(DạngLogin)–"
+    },
     {
       "id": "hist-1793128352769",
       "time": "02:12 - 28/10/2026",
@@ -11844,20 +11881,6 @@
       "catKey": "capcut",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:33.000đ"
-    },
-    {
-      "id": "hist-1792637621182",
-      "time": "09:53 - 22/10/2026",
-      "timestamp": 1792637621182,
-      "name": "API CODEX ASTRA6 50$ TOKEN 1THÁNG BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 5,
-      "addedQty": 5,
-      "price": 160000,
-      "stockAfter": 5,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "⭐APICODEXASTRA650$TOKEN1THÁNGBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:140.000đ"
     }
   ]
 }
