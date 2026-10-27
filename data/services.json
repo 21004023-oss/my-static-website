@@ -9114,8 +9114,8 @@
         "id": "p-1792088127430",
         "name": "Grammarly AI Pro 1 Tháng BHF",
         "price": 100000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
         "detail": "Grammarly Pro có AI 1 Tháng BHF\nĐịnh dạng: Email|Pass\n・　Viết lại toàn bộ câu chỉ với một cú nhấp chuột\n・　Dễ dàng điều chỉnh văn phong và giọng điệu bài viết\n・　Viết tiếng Anh trôi chảy và tự nhiên hơn\n・　Gợi ý cá nhân hóa không giới hạn\n・　Phát hiện đạo văn và nội dung do AI tạo ra\n・　Tạo nội dung với 2.000 lượt prompt AI\n-Chú ý: Không thay đổi thêm thắt bất kỳ cái gì vào tài khoản, nếu vi phạm sẽ không được bảo hành",
         "sources": {
@@ -9126,10 +9126,10 @@
             "updated": "23:25 27/10/2026"
           },
           "piggyai99_bot": {
-            "stock": 7,
+            "stock": 4,
             "cost_price": 90000,
-            "updated": "00:45 18/10/2026",
-            "selling_price": 100000
+            "selling_price": 100000,
+            "updated": "23:25 27/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 4,
@@ -13538,6 +13538,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793118310336",
+      "time": "23:25 - 27/10/2026",
+      "name": "Grammarly AI Pro 1 Tháng BHF",
+      "bot": "piggyai99_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 12,
+      "catKey": "education",
+      "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1793118304199",
       "time": "23:25 - 27/10/2026",
       "name": "Grammarly AI Pro 1 Tháng BHF",
@@ -14625,17 +14636,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI31TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:20💵Giáchỉ:29.000đ🎁K"
-    },
-    {
-      "id": "hist-1793109779967",
-      "time": "21:02 - 27/10/2026",
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 28,
-      "catKey": "adobe",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:9📦Tồnkhohiệntại:14💰Giá:110.000đ"
     }
   ]
 }
