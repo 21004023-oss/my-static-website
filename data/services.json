@@ -7104,16 +7104,16 @@
         "name": "Gmail random new",
         "price": 35000,
         "cost_price": 22000,
-        "stock": 56,
-        "stock_text": "Còn 56",
+        "stock": 54,
+        "stock_text": "Còn 54",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 45,
+            "stock": 43,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "15:30 27/10/2026"
+            "updated": "16:44 27/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -13237,6 +13237,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793094240620",
+      "time": "16:44 - 27/10/2026",
+      "name": "Gmail random new",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 54,
+      "catKey": "gmail",
+      "msgKey": "📧Gmailrandomnew➕Thêm:3📦Tồnkhohiệntại:43💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793094137004",
       "time": "16:42 - 27/10/2026",
       "name": "Kling Pro 3k3 Credit 1 Tháng BH 7 Ngày",
@@ -14324,17 +14335,6 @@
       "stockAfter": 16,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusUIP1ThángKBH➕Thêm:11📦Tồnkhohiệntại:16💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1793080480169",
-      "time": "12:54 - 27/10/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 16,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:11📦Tồnkhohiệntại:16💰Giá:70.000đ"
     }
   ]
 }
