@@ -7918,22 +7918,22 @@
         "name": "Slot Netflix UHD 4K Premium 1 Tháng BHF",
         "price": 140000,
         "cost_price": 120000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "1 Tháng",
         "detail": "Netflix Premium 4K – Slot riêng tư 1 tháng (BHF)\nTài khoản Netflix Premium hỗ trợ chất lượng hình ảnh lên đến 4K Ultra HD (tùy nội dung và thiết bị). Sản phẩm cung cấp 1 slot sử dụng riêng trong thời hạn 1 tháng. Phù hợp với nhu cầu giải trí, xem phim và chương trình truyền hình trực tuyến.\nThông tin sản phẩm:\n- Dịch vụ: Netflix Premium\n- Chất lượng:Tối đa 4K Ultra HD\n- Loại: Slot riêng tư\n- Thời hạn: 1 tháng\n- Ghi chú: Vui lòng kiểm tra điều kiện sử dụng, thiết bị hỗ trợ và chính sách bảo hành của người bán trước khi đặt mua.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 10,
+            "stock": 14,
             "cost_price": 120000,
             "selling_price": 140000,
-            "updated": "15:13 27/10/2026"
+            "updated": "15:45 27/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 120000,
-          "stock": 10
+          "stock": 14
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -13211,6 +13211,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793090724241",
+      "time": "15:45 - 27/10/2026",
+      "name": "Slot Netflix UHD 4K Premium 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 14,
+      "catKey": "netflix",
+      "msgKey": "🎬SlotNetflixUHD4KPremium1ThángBHF➕Thêm:5📦Tồnkhohiệntại:14💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1793090645378",
       "time": "15:44 - 27/10/2026",
       "name": "🔥Capcut Pro 6 Tháng - BHF",
@@ -14298,17 +14309,6 @@
       "stockAfter": 52,
       "catKey": "khac",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:1📦Tồnkhohiệntại:52💰Giá:37.000đ"
-    },
-    {
-      "id": "hist-1793078654804",
-      "time": "12:24 - 27/10/2026",
-      "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 52,
-      "catKey": "khac",
-      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:1📦Tồnkhohiệntại:52💰Giá:45.000"
     }
   ]
 }
