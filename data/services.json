@@ -5041,15 +5041,15 @@
         "id": "p-1791890057671",
         "name": "HEYGEN CREATOR 1 THÁNG ( BH 3 ngày)",
         "price": 460000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "✔️ Hỗ trợ đa ngôn ngữ\n✔️ Xuất video chất lượng Full HD 1080p\n✔️ Phù hợp cho quảng cáo, bán hàng, đào tạo và sáng tạo nội dung mạng xã hội\n📦 Định dạng bàn giao: Email HeyGen | Mật khẩu (Chỉ bảo hành gói dịch vụ, không bảo hành các trường hợp sử dụng vi phạm chính sách)\n🛡️ Bảo hành: 1 ngày\n✏️",
-        "cost_price": 410000,
-        "import_note": "Nhập: @sieuthistore_bot",
+        "cost_price": 380000,
+        "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 410000,
+          "bot": "@ntnshopre_bot",
+          "cost_price": 380000,
           "stock": 2
         },
         "sources": {
@@ -5057,6 +5057,12 @@
             "stock": 2,
             "cost_price": 410000,
             "selling_price": 460000,
+            "updated": "01:56 28/10/2026"
+          },
+          "ntnshopre_bot": {
+            "stock": 2,
+            "cost_price": 380000,
+            "selling_price": 430000,
             "updated": "01:56 28/10/2026"
           }
         },
@@ -10599,6 +10605,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793127391346",
+      "time": "01:56 - 28/10/2026",
+      "name": "HEYGEN CREATOR 1 THÁNG ( BH 3 ngày)",
+      "bot": "ntnshopre_bot",
+      "price": 430000,
+      "costPrice": 380000,
+      "stockAfter": 4,
+      "catKey": "heygen",
+      "msgKey": "🎥HEYGENCREATOR1THÁNG(BH3ngày)➕Thêm:2📦Tồnkhohiệntại:2💰Giá:380.000đ"
+    },
+    {
       "id": "hist-1793127385993",
       "time": "01:56 - 28/10/2026",
       "name": "HEYGEN CREATOR 1 THÁNG ( BH 3 ngày)",
@@ -11818,20 +11835,6 @@
       "catKey": "capcut",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:12📦Tồnkhohiệntại:1💰Giá:33.000đ"
-    },
-    {
-      "id": "hist-1792623371155",
-      "time": "05:56 - 22/10/2026",
-      "timestamp": 1792623371155,
-      "name": "API CODEX ASTRA6 50$ TOKEN 1THÁNG BHF",
-      "bot": "piggyai99_bot",
-      "shopStock": 1,
-      "addedQty": 1,
-      "price": 160000,
-      "stockAfter": 1,
-      "catKey": "api-claude-codex",
-      "source": "Telegram @piggyai99_bot",
-      "msgKey": "⭐APICODEXASTRA650$TOKEN1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:140.000đ"
     }
   ]
 }
