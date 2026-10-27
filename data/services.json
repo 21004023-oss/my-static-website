@@ -10448,16 +10448,16 @@
         "name": "THÔNG TIN SẢN PHẨM",
         "price": 0,
         "cost_price": 0,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 79,
+        "stock_text": "Còn 79",
         "duration": "1 Tháng",
         "detail": "Gói THÔNG TIN SẢN PHẨM bảo hành uy tín.",
         "sources": {
           "shopxoainon_bot": {
-            "stock": 0,
+            "stock": 79,
             "cost_price": 0,
             "selling_price": 0,
-            "updated": "01:07 28/10/2026"
+            "updated": "01:29 28/10/2026"
           }
         },
         "cheapest_source": {
@@ -10498,6 +10498,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793125760157",
+      "time": "01:29 - 28/10/2026",
+      "name": "THÔNG TIN SẢN PHẨM",
+      "bot": "shopxoainon_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 79,
+      "catKey": "khac",
+      "msgKey": "🛍️THÔNGTINSẢNPHẨM━━━━━━━━━━━━━━━━📦GóiGeminiPro&Drive5TB18ThángChínhchủ💾Dunglượng"
+    },
     {
       "id": "hist-1793125755176",
       "time": "01:29 - 28/10/2026",
@@ -11775,20 +11786,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:30📦Tồnkhohiệntại:30💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1792602774582",
-      "time": "00:12 - 22/10/2026",
-      "timestamp": 1792602774582,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 6H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 51,
-      "addedQty": 64,
-      "price": 85000,
-      "stockAfter": 51,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:64📦Tồnkhohiệntại:51💰Giá:75.000đ"
     }
   ]
 }
