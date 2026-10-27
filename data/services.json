@@ -3175,16 +3175,27 @@
         "id": "p-1791858786489",
         "name": "CAPCUT 7D  BH 7D",
         "price": 30000,
-        "stock": 3,
-        "stock_text": "Còn 3",
-        "duration": "7D",
-        "detail": "CapCut Pro/Team 7D \nTHÔNG TIN SẢN PHẨM \n1. Tài khoản Pro Team hạn 1 tháng \n2. Đăng nhập tối đa 2 thiết bị (PC / Điện thoại). \n3. Không rời khỏi Space để tránh mất Pro. \n4. Không bảo hành lỗi truy cập thường xuyên. \n✅Định dạng nhận hàng: Email | Mật khẩu",
-        "cost_price": 2500,
+        "stock": 30,
+        "stock_text": "Còn 30",
+        "duration": "7 Ngày",
+        "detail": "Capcut Pro 1. Định dạng tài khoản: Email | Mật khẩu 2. Login bằng điện thoại: Mở app, chọn Sign in with Email. 3. Login bằng PC: Sau khi login vào điện thoại thì tiến hành quét mã QR để đăng nhập cho PC. - iOS: Ngay trong Capcut mục TÔI > Quét QR. - Android: Phải cập nhật Capcut lên bản mới nhất mới có tính năng quét QR trong app.",
+        "cost_price": 10000,
         "cheapest_source": {
-          "bot": "@toki_shopmmo_bot",
-          "cost_price": 2500
+          "bot": "@taphoathomap_bot",
+          "cost_price": 10000,
+          "stock": 30
         },
-        "import_note": "🛒 @toki_shopmmo_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 30,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "08:24 27/10/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1791861112063",
@@ -12336,6 +12347,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793064288059",
+      "time": "08:24 - 27/10/2026",
+      "name": "Capcut Pro 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 30,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutPro7NgàyBHF➕Thêm:30📦Tồnkhohiệntại:30💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1793060217609",
       "time": "07:16 - 27/10/2026",
       "name": "ChatGPT Plus (Codex Full) 1 Tháng  BHF",
@@ -13423,17 +13445,6 @@
       "stockAfter": 215,
       "catKey": "khac",
       "msgKey": "🎵[SiêuGiảmGiáHômnay]-TIKTOKVIỆTCóLIVEĐIỆNTHOẠIRandomFollow-Video-Tim➕Thêm:215📦Tồ"
-    },
-    {
-      "id": "hist-1793033341363",
-      "time": "23:49 - 26/10/2026",
-      "name": "[ HOT NEW] - TIKTOK VIỆT NUÔI PHONE CÓ LIVE ĐIỆN THOẠI Random Follow - Video - Tim",
-      "bot": "taphoathomap_bot",
-      "price": 85000,
-      "costPrice": 75000,
-      "stockAfter": 301,
-      "catKey": "khac",
-      "msgKey": "🎵[HOTNEW]-TIKTOKVIỆTNUÔIPHONECÓLIVEĐIỆNTHOẠIRandomFollow-Video-Tim➕Thêm:301📦Tồnk"
     }
   ]
 }
