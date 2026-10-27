@@ -815,6 +815,13 @@ function getPlanLogo(catKey, planName) {
   if (/hotmail|outlook/i.test(name)) return 'https://www.google.com/s2/favicons?domain=outlook.com&sz=64';
   if (/telegram|tele|bot tele/i.test(name)) return 'https://www.google.com/s2/favicons?domain=telegram.org&sz=64';
   if (/mb\s*bank/i.test(name)) return 'https://www.google.com/s2/favicons?domain=mbbank.com.vn&sz=64';
+  if (/memrise/i.test(name)) return 'https://www.google.com/s2/favicons?domain=memrise.com&sz=64';
+  if (/discord/i.test(name)) return 'https://www.google.com/s2/favicons?domain=discord.com&sz=64';
+  if (/xbox/i.test(name)) return 'https://www.google.com/s2/favicons?domain=xbox.com&sz=64';
+  if (/linkedin/i.test(name)) return 'https://www.google.com/s2/favicons?domain=linkedin.com&sz=64';
+  if (/lovable/i.test(name)) return 'https://www.google.com/s2/favicons?domain=lovable.dev&sz=64';
+  if (/beautycam/i.test(name)) return 'https://www.google.com/s2/favicons?domain=meitu.com&sz=64';
+  if (/icloud|apple/i.test(name)) return 'https://www.google.com/s2/favicons?domain=apple.com&sz=64';
 
   if (D[catKey] && D[catKey].logo) return D[catKey].logo;
   if (LOGO[catKey]) return LOGO[catKey];
