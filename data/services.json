@@ -7799,10 +7799,10 @@
       {
         "id": "p-1793085832292",
         "name": "Youku Vip 30 ngày BHF",
-        "price": 45000,
+        "price": 60000,
         "cost_price": 35000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "Tài khoản youku vip dùng 1 thiết bị (1 slot)\nKhách hàng được đăng nhập tối đa 2 thiết bị, và xem 1 thiết bị đồng thời\nBảo hành toàn thời gian đăng ký",
         "sources": {
@@ -7810,6 +7810,12 @@
             "stock": 4,
             "cost_price": 35000,
             "selling_price": 45000,
+            "updated": "14:23 27/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 4,
+            "cost_price": 50000,
+            "selling_price": 60000,
             "updated": "14:23 27/10/2026"
           }
         },
@@ -12958,6 +12964,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793085838829",
+      "time": "14:23 - 27/10/2026",
+      "name": "Youku Vip 30 ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 8,
+      "catKey": "netflix",
+      "msgKey": "⭐YoukuVip30ngàyBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1793085832292",
       "time": "14:23 - 27/10/2026",
       "name": "Youku Vip 30 ngày BHF",
@@ -14045,17 +14062,6 @@
       "stockAfter": 73,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥ChatgptPlusPayTiềnThật1thángBHF➕Thêm:49📦Tồnkhohiệntại:73💰Giá:220.000đ"
-    },
-    {
-      "id": "hist-1793073895879",
-      "time": "11:04 - 27/10/2026",
-      "name": "ChatGPT Go 1 Tháng - BH 3 Ngày",
-      "bot": "taphoathomap_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 22,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTGo1Tháng-BH3Ngày➕Thêm:1📦Tồnkhohiệntại:0💰Giá:60.000đ"
     }
   ]
 }
