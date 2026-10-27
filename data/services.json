@@ -7223,6 +7223,32 @@
           "cost_price": 16800
         },
         "import_note": "🛒 @shopxoainon_bot"
+      },
+      {
+        "id": "p-1793100523838",
+        "name": "Key Office 2021 Pro Plus Vĩnh viễn BH 7 ngày",
+        "price": 79000,
+        "cost_price": 69000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "7 Ngày",
+        "detail": "Định dạng Key: XXXXX-XXXXX-XXXXX-XXXXX\nLink tải: https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/en-US/ProPlus2021Retail.img\n(Quý khách có thể tải bộ cài từ trang chính thức của hãng hoặc nguồn uy tín. Chỉ cần chọn đúng phiên bản tương ứng với key là có thể kích hoạt được ạ)\nBảo hành: 7 ngày\nSử dụng vĩnh viễn\" nhưng nếu cài lại Windows thì có khoảng 10% khả Năng bị mất bản quyền.\nChỉ Active trên hệ điều hành Windows PC",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 69000,
+            "selling_price": 79000,
+            "updated": "18:28 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 69000,
+          "stock": 6
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=64"
@@ -12882,6 +12908,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793100523838",
+      "time": "18:28 - 27/10/2026",
+      "name": "Key Office 2021 Pro Plus Vĩnh viễn BH 7 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 79000,
+      "costPrice": 69000,
+      "stockAfter": 6,
+      "catKey": "microsoft",
+      "msgKey": "⭐KeyOffice2021ProPlusVĩnhviễnBH7ngày➕Thêm:3📦Tồnkhohiệntại:6💰Giá:69.000đ"
+    },
+    {
       "id": "hist-1793100225447",
       "time": "18:23 - 27/10/2026",
       "name": "Key Windows 10/11 Pro Retail Online Vĩnh viễn BH 7 ngày",
@@ -13969,17 +14006,6 @@
       "stockAfter": 189,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:100📦Tồnkhohiệntại:176💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793065472631",
-      "time": "08:44 - 27/10/2026",
-      "name": "Grok Super 1 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 6,
-      "catKey": "grok",
-      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:1📦Tồnkhohiệntại:6💰Giá:90.000đ"
     }
   ]
 }
