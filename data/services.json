@@ -10335,10 +10335,47 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 115000
         }
+      },
+      {
+        "id": "p-1793124411843",
+        "name": "Pitpit AI 8k6 cre 1TH BH 3 ngày",
+        "price": 850000,
+        "cost_price": 750000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "Sử dụng tất cả model Seedance.\nLogin email:  https://www.pippit.ai/home\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 750000,
+            "selling_price": 850000,
+            "updated": "01:06 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 750000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793124411843",
+      "time": "01:06 - 28/10/2026",
+      "name": "Pitpit AI 8k6 cre 1TH BH 3 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 850000,
+      "costPrice": 750000,
+      "stockAfter": 5,
+      "catKey": "khac",
+      "msgKey": "⭐PitpitAI8k6cre1THBH3ngày➕Thêm:2📦Tồnkhohiệntại:5💰Giá:750.000đ"
+    },
     {
       "id": "hist-1793124407118",
       "time": "01:06 - 28/10/2026",
@@ -11697,20 +11734,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH24H➕Thêm:26📦Tồnkhohiệntại:31💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1792581368152",
-      "time": "18:16 - 21/10/2026",
-      "timestamp": 1792581368152,
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 1H",
-      "bot": "ntnshopre_bot",
-      "shopStock": 8,
-      "addedQty": 9,
-      "price": 110000,
-      "stockAfter": 8,
-      "catKey": "chatgpt",
-      "source": "Telegram @ntnshopre_bot",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH1H➕Thêm:9📦Tồnkhohiệntại:8💰Giá:100.000đ"
     }
   ]
 }
