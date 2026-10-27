@@ -7077,17 +7077,17 @@
         "id": "p-1792421622161",
         "name": "Gmail random new",
         "price": 35000,
-        "cost_price": 15000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "cost_price": 22000,
+        "stock": 56,
+        "stock_text": "Còn 56",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 11,
+            "stock": 45,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "11:46 20/10/2026"
+            "updated": "15:30 27/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -7096,13 +7096,14 @@
             "updated": "09:41 20/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 22000,
+          "stock": 11
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "gpt-free-gmail-12k-unified",
@@ -13184,6 +13185,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793089821464",
+      "time": "15:30 - 27/10/2026",
+      "name": "Gmail random new",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 56,
+      "catKey": "gmail",
+      "msgKey": "📧Gmailrandomnew➕Thêm:35📦Tồnkhohiệntại:45💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793089212956",
       "time": "15:20 - 27/10/2026",
       "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
@@ -14271,17 +14283,6 @@
       "stockAfter": 9,
       "catKey": "google-veo",
       "msgKey": "🚀ADMINFULLFAMVEO3x20Credit1ThángBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:2.350.000đ"
-    },
-    {
-      "id": "hist-1793078177525",
-      "time": "12:16 - 27/10/2026",
-      "name": "Grok Plus 30 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 129000,
-      "costPrice": 109000,
-      "stockAfter": 11,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:9📦Tồnkhohiệntại:9💰Giá:109.000đ"
     }
   ]
 }
