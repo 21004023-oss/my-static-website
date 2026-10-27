@@ -7313,8 +7313,8 @@
         "id": "p-1791917317024",
         "name": "Wink VIP+ 7 Ngày BHF",
         "price": 45000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "7 Ngày",
         "detail": "Wink gói VIP+ 7 Ngày BHF 100 credits login 1 thiết bị,  nếu đăng nhập trên điện thoại lỗi thì có thể có thể dùng trên PC\n- Định dạng: (Email|Pass Hotmail|Pass Wink) Token\n- Pass Wink mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\nLink tải app Wink trên máy tính: https://wink.ai/vi\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI\n✏️",
         "sources": {
@@ -7325,7 +7325,7 @@
             "updated": "01:07 28/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 7,
+            "stock": 3,
             "cost_price": 35000,
             "selling_price": 45000,
             "updated": "01:07 28/10/2026"
@@ -10394,6 +10394,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793124460752",
+      "time": "01:07 - 28/10/2026",
+      "name": "Wink VIP+ 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 10,
+      "catKey": "wink",
+      "msgKey": "⭐WinkVIP+7NgàyBHF💰Giá:35k📦Tồnkho:3tàikhoản📊Đãbán:2.703tàikhoản💎Môtả:WinkgóiVIP+7"
+    },
+    {
       "id": "hist-1793124456090",
       "time": "01:07 - 28/10/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -11721,20 +11732,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH6H➕Thêm:15📦Tồnkhohiệntại:15💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1792588085297",
-      "time": "20:08 - 21/10/2026",
-      "timestamp": 1792588085297,
-      "name": "Capcut Pro 1 Tháng BH 30 Ngày",
-      "bot": "sieuthistore_bot",
-      "shopStock": 9,
-      "addedQty": 10,
-      "price": 70000,
-      "stockAfter": 9,
-      "catKey": "capcut",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✂️CapcutPro1ThángBH30Ngày➕Thêm:10📦Tồnkhohiệntại:9💰Giá:60.000đ"
     }
   ]
 }
