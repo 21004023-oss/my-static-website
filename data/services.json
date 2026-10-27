@@ -3489,8 +3489,8 @@
         "id": "p-1791877845717",
         "name": "CAPCUT PRO 3 THÁNG BHF",
         "price": 205000,
-        "stock": 16,
-        "stock_text": "Còn 16",
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "3 Tháng",
         "detail": "- Định dạng: Email | Pass - Đăng nhập 1 Mobile + 1 PC, Credit random.\n- Tài khoản Pro không phải hàng Teams, không thay đổi thông tin đăng nhập để shop kiểm tra khi bảo hành.\n- Không bảo hành lỗi truy cập quá thường xuyên, spam login dẫn đến lỗi hạn chế quyền truy cập\n- Bảo hành đầy đủ toàn thời gian, lỗi 1 đổi 1, vi phạm các điều trên -> Mất bảo hành",
         "cost_price": 150000,
@@ -3502,10 +3502,10 @@
             "updated": "22:32 27/10/2026"
           },
           "ntnshopre_bot": {
-            "stock": 3,
+            "stock": 5,
             "cost_price": 155000,
             "selling_price": 175000,
-            "updated": "07:08 27/10/2026"
+            "updated": "22:32 27/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 8,
@@ -13477,6 +13477,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793115146819",
+      "time": "22:32 - 27/10/2026",
+      "name": "CAPCUT PRO 3 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 175000,
+      "costPrice": 155000,
+      "stockAfter": 18,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPRO3THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:5💰Giá:155.000đ"
+    },
+    {
       "id": "hist-1793115142012",
       "time": "22:32 - 27/10/2026",
       "name": "CapCut Pro 3 Tháng BHF",
@@ -14564,17 +14575,6 @@
       "stockAfter": 47,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:1📦Tồnkhohiệntại:20💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793105929145",
-      "time": "19:58 - 27/10/2026",
-      "name": "CAPCUT PRO 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 48000,
-      "costPrice": 38000,
-      "stockAfter": 20,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:20💰Giá:38.000đ"
     }
   ]
 }
