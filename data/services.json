@@ -7590,25 +7590,27 @@
         "id": "p-1792218961522",
         "name": "Youku Vip 3 tháng BHF",
         "price": 95000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "3 Tháng",
         "detail": "Tài khoản youku vip dùng 1 thiết bị (1 slot)\nKhách hàng được đăng nhập tối đa 2 thiết bị, và xem 1 thiết bị đồng thời\nBảo hành toàn thời gian đăng ký",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 3,
             "cost_price": 85000,
-            "updated": "13:36 17/10/2026",
-            "selling_price": 95000
+            "selling_price": 95000,
+            "updated": "14:23 27/10/2026"
           }
         },
         "hidden": false,
         "cost_price": 85000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 85000
-        }
+          "bot": "@sieuthistore_bot",
+          "cost_price": 85000,
+          "stock": 3
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792218966910",
@@ -12898,6 +12900,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793085807508",
+      "time": "14:23 - 27/10/2026",
+      "name": "Youku Vip 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 3,
+      "catKey": "netflix",
+      "msgKey": "⭐YoukuVip3thángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:85.000đ"
+    },
+    {
       "id": "hist-1793085796680",
       "time": "14:23 - 27/10/2026",
       "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
@@ -13985,17 +13998,6 @@
       "stockAfter": 11,
       "catKey": "khac",
       "msgKey": "☁️SLOTGEMINIPRO+GOOGLEONE5TB6THÁNGBHF➕Thêm:11📦Tồnkhohiệntại:11💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793073655744",
-      "time": "11:00 - 27/10/2026",
-      "name": "SLOT GEMINI PRO + GOOGLE ONE 5TB 6 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 11,
-      "catKey": "khac",
-      "msgKey": "☁️SLOTGEMINIPRO+GOOGLEONE5TB6THÁNGBHF💰Giá:60k📦Tồnkho:11tàikhoản📊Đãbán:0tàikhoản"
     }
   ]
 }
