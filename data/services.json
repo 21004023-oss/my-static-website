@@ -8175,9 +8175,9 @@
         "id": "p-1793110030296",
         "name": "Adobe All Apps 7 Ngày BHF",
         "price": 160000,
-        "cost_price": 140000,
-        "stock": 18,
-        "stock_text": "Còn 18",
+        "cost_price": 105000,
+        "stock": 36,
+        "stock_text": "Còn 36",
         "duration": "7 Ngày",
         "detail": "- Adobe All Apps 7D Add Teams sử dụng 2 thiết bị\n- Bảo hành trọn vòng đời sử dụng. HÀNG ĐẶT LÀM, ORDER XONG NHẮN TIN CHO ADMIN. DONE NHANH TRONG GIỜ HÀNH CHÍNH\n- Vui lòng không thay đổi thông tin tài khoản tránh bị dis khỏi Team\n- Tài khoản lỗi do team có vấn đề vui lòng nhắn tin admin kèm EMAIL để được hỗ trợ. Sau khi được hỗ trợ hãy logout sau đó login lại vào Adobe và sử dụng như bình thường. Vì Adobe có thể quét bất chợt nên vui lòng hoàn hỉ, Admin sẽ luôn xử lý sớm nhất trong giờ làm việc!",
         "sources": {
@@ -8186,14 +8186,20 @@
             "cost_price": 140000,
             "selling_price": 160000,
             "updated": "21:07 27/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 18,
+            "cost_price": 105000,
+            "selling_price": 125000,
+            "updated": "21:07 27/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 140000,
+          "bot": "@piggyai99_bot",
+          "cost_price": 105000,
           "stock": 18
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -13271,6 +13277,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793110034132",
+      "time": "21:07 - 27/10/2026",
+      "name": "Adobe All Apps 7 Ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 125000,
+      "costPrice": 105000,
+      "stockAfter": 36,
+      "catKey": "adobe",
+      "msgKey": "🎨AdobeAllApps7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:18💰Giá:105.000đ"
+    },
+    {
       "id": "hist-1793110030296",
       "time": "21:07 - 27/10/2026",
       "name": "Adobe All Apps 7 Ngày BHF",
@@ -14358,17 +14375,6 @@
       "stockAfter": 27,
       "catKey": "khac",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1thángBH1h➕Thêm:7📦Tồnkhohiệntại:27💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793099449655",
-      "time": "18:10 - 27/10/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng KBH",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 27,
-      "catKey": "khac",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1thángKBH➕Thêm:7📦Tồnkhohiệntại:27💰Giá:45.000đ"
     }
   ]
 }
