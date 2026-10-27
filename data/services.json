@@ -8600,6 +8600,32 @@
         "import_note": "Nhập: @shopxoainon_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793132967041",
+        "name": "Memrise Pro gói trọn đời chính chủ vừa được nhập kho 🔥",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Memrise Pro gói trọn đời chính chủ vừa được nhập kho 🔥 bảo hành uy tín.",
+        "sources": {
+          "shopxoainon_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "03:29 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@shopxoainon_bot",
+          "cost_price": 0,
+          "stock": 0
+        },
+        "import_note": "Nhập: @shopxoainon_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -10800,6 +10826,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793132967041",
+      "time": "03:29 - 28/10/2026",
+      "name": "Memrise Pro gói trọn đời chính chủ vừa được nhập kho 🔥",
+      "bot": "shopxoainon_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "memrise",
+      "msgKey": "🎉HÀNGMỚIVỀKỆ!🧩MemriseProgóitrọnđờichínhchủvừađượcnhậpkho🔥📦Sốlượngcósẵn:2💵Giáchỉ:"
+    },
+    {
       "id": "hist-1793132584502",
       "time": "03:23 - 28/10/2026",
       "name": "Tài khoản Canva Pro 1 tháng vừa được nhập kho 🔥",
@@ -11953,20 +11990,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:39📦Tồnkhohiệntại:38💰Giá:240.000đ"
-    },
-    {
-      "id": "hist-1792640027832",
-      "time": "10:33 - 22/10/2026",
-      "timestamp": 1792640027832,
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 13,
-      "addedQty": 12,
-      "price": 45000,
-      "stockAfter": 16,
-      "catKey": "meitu-wink",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:13💰Giá:35.000đ"
     }
   ]
 }
