@@ -678,7 +678,73 @@
         border-radius: 8px;
       }
     }
-  </style>
+  
+    /* TỐI ƯU THANH DANH MỤC: TÌM NHANH & TAB LỌC NHÓM */
+    .cat-search-box {
+      margin-bottom: 8px;
+      position: relative;
+    }
+    .cat-search-box input {
+      width: 100%;
+      padding: 7px 10px 7px 28px;
+      font-size: 12.5px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: #f8fafc;
+      color: var(--text-main);
+      outline: none;
+      transition: all 0.2s ease;
+    }
+    .cat-search-box input:focus {
+      background: #fff;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.15);
+    }
+    .cat-search-box svg {
+      position: absolute;
+      left: 9px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 13px;
+      height: 13px;
+      color: #94a3b8;
+      pointer-events: none;
+    }
+    .cat-group-pills {
+      display: flex;
+      gap: 5px;
+      overflow-x: auto;
+      padding-bottom: 8px;
+      margin-bottom: 8px;
+      scrollbar-width: none;
+    }
+    .cat-group-pills::-webkit-scrollbar { display: none; }
+    .cat-group-pill {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3.5px 8.5px;
+      border-radius: 99px;
+      border: 1px solid var(--border);
+      background: #f1f5f9;
+      color: var(--text-muted);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.15s ease;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .cat-group-pill:hover {
+      background: #e2e8f0;
+      color: var(--text-main);
+    }
+    .cat-group-pill.active {
+      background: #0f172a;
+      border-color: #0f172a;
+      color: #fff;
+      box-shadow: 0 2px 6px rgba(15, 23, 42, 0.2);
+    }
+</style>
 </head>
 <body>
 
@@ -698,7 +764,27 @@
 <main class="layout">
   <!-- CỘT 1: DANH MỤC -->
   <aside class="col-cats">
-    <h2 class="desktop-cat-title">Danh mục dịch vụ</h2>
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; padding:0 4px;">
+      <h2 class="desktop-cat-title" style="margin-bottom:0; padding-bottom:0; border-bottom:none;">Danh mục (<span id="catTotalDisplay">57</span>)</h2>
+    </div>
+
+    <!-- Ô TÌM NHANH THƯƠNG HIỆU -->
+    <div class="cat-search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <input type="text" id="catFilterInp" placeholder="🔍 Lọc nhanh hãng (Figma, Duo, Net...)" oninput="onFilterCat(this.value)" />
+    </div>
+
+    <!-- TAB LỌC NHÓM LỚN -->
+    <div class="cat-group-pills" id="catGroupPills">
+      <button class="cat-group-pill active" onclick="setCatGroup('all', this)">⚡ Tất cả</button>
+      <button class="cat-group-pill" onclick="setCatGroup('ai', this)">🤖 AI</button>
+      <button class="cat-group-pill" onclick="setCatGroup('media', this)">🎬 Phim & Nhạc</button>
+      <button class="cat-group-pill" onclick="setCatGroup('design', this)">🎨 Đồ Họa</button>
+      <button class="cat-group-pill" onclick="setCatGroup('study', this)">🎓 Học Tập</button>
+      <button class="cat-group-pill" onclick="setCatGroup('vpn', this)">🛡️ VPN</button>
+      <button class="cat-group-pill" onclick="setCatGroup('office', this)">💼 Office & Dev</button>
+      <button class="cat-group-pill" onclick="setCatGroup('game', this)">🎮 Game & MXH</button>
+    </div>
 
     <div class="mobile-cat-toggle" onclick="toggleMobileCats()">
       <div class="m-cat-left">
@@ -946,6 +1032,33 @@ function render() {
   renderDetail();
 }
 
+
+var curGroup = 'all';
+var catFilterKw = '';
+
+var CAT_GROUPS = {
+  'all': null,
+  'ai': ['chatgpt', 'claude', 'google-veo', 'cursor', 'lovable', 'deepseek', 'grok', 'kling', 'elevenlabs', 'heygen', 'higgsfield', 'akool', 'seedance', 'muse-ai', 'gamma', 'notion', 'suno', 'genspark', 'voiceai'],
+  'media': ['netflix', 'vieon', 'amazon-prime', 'youku', 'youtube', 'vidiq', 'spotify'],
+  'design': ['canva', 'capcut', 'adobe', 'figma', 'photoroom', 'meitu', 'wink', 'beautycam'],
+  'study': ['duolingo', 'coursera', 'memrise', 'grammarly', 'skillshare'],
+  'vpn': ['nordvpn', 'expressvpn', 'surfshark', 'protonvpn', 'hma-vpn', 'kaspersky'],
+  'office': ['microsoft', 'gmail', 'hotmail', 'jetbrains', 'zoom', 'linkedin'],
+  'game': ['discord', 'xbox', 'apple-services', 'tiktok', 'locket', 'bot-tele', 'khac']
+};
+
+function setCatGroup(grp, btn) {
+  curGroup = grp;
+  document.querySelectorAll('.cat-group-pill').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  renderCategories();
+}
+
+function onFilterCat(val) {
+  catFilterKw = (val || '').trim().toLowerCase();
+  renderCategories();
+}
+
 function renderCategories() {
   var c = document.getElementById('catsContainer');
   c.innerHTML = '';
@@ -955,7 +1068,30 @@ function renderCategories() {
     mName.textContent = D[curCat].name;
   }
 
-  Object.keys(D).filter(function(k){ return k !== '_history'; }).forEach(k => {
+  var validKeys = Object.keys(D).filter(function(k){ return k !== '_history'; });
+  
+  // Filter by Group
+  if (curGroup !== 'all' && CAT_GROUPS[curGroup]) {
+    validKeys = validKeys.filter(function(k){ return CAT_GROUPS[curGroup].includes(k); });
+  }
+
+  // Filter by Search Keyword
+  if (catFilterKw) {
+    validKeys = validKeys.filter(function(k){
+      var itName = (D[k].name || '').toLowerCase();
+      return itName.includes(catFilterKw) || k.toLowerCase().includes(catFilterKw);
+    });
+  }
+
+  var countDisplay = document.getElementById('catTotalDisplay');
+  if (countDisplay) countDisplay.textContent = validKeys.length;
+
+  if (validKeys.length === 0) {
+    c.innerHTML = '<div style="padding:20px 10px;text-align:center;font-size:12.5px;color:#94a3b8">Không tìm thấy hãng phù hợp</div>';
+    return;
+  }
+
+  validKeys.forEach(k => {
     var it = D[k];
     var btn = document.createElement('button');
     btn.className = 'cat-item' + (k === curCat && !kw ? ' active' : '');
