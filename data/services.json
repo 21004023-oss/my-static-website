@@ -2283,6 +2283,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793087281665",
+        "name": "ChatGPT Gmail Offer -50% 3 Tháng ( Plan Free )",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 17,
+        "stock_text": "Còn 17",
+        "duration": "3 Tháng",
+        "detail": "Acc Plan Free , Gmail / Google Mail . Có mã giảm giá -50% cho 3 tháng gói Plus\nĐịnh dạng : Gmail | Pass | 2FA\n- Mạng dạng OTP 1 lần. Về tự bảo quản acc . Change acc + Add Passkey tránh tranh chấp sau này.\nHướng dẫn change acc  : https://t.me/khommo_thongbao/53\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–17):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 17,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "14:48 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 25000,
+          "stock": 17
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -13054,6 +13080,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793087281665",
+      "time": "14:48 - 27/10/2026",
+      "name": "ChatGPT Gmail Offer -50% 3 Tháng ( Plan Free )",
+      "bot": "khommo_market_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 17,
+      "catKey": "chatgpt",
+      "msgKey": "🛍️ChatGPTGmailOffer-50%3Tháng(PlanFree)💲Giá:25.000VND💚Tồnkho:17tàikhoản📊Đãbán:19"
+    },
+    {
       "id": "hist-1793087163642",
       "time": "14:46 - 27/10/2026",
       "name": "Json ChatGPT Plus New Reset Token Codex KBH",
@@ -14141,17 +14178,6 @@
       "stockAfter": 15,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusUIP1ThángKBH➕Thêm:8📦Tồnkhohiệntại:15💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1793075920885",
-      "time": "11:38 - 27/10/2026",
-      "name": "Grok Super 1 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 3,
-      "catKey": "grok",
-      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:1📦Tồnkhohiệntại:3💰Giá:90.000đ"
     }
   ]
 }
