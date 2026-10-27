@@ -2257,6 +2257,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793085816490",
+        "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 5 NGÀY",
+        "price": 195000,
+        "cost_price": 175000,
+        "stock": 22,
+        "stock_text": "Còn 22",
+        "duration": "1 Tháng",
+        "detail": "Gói CHAT GPT PLUS 1 THÁNG BẢO HÀNH 5 NGÀY bảo hành uy tín.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 22,
+            "cost_price": 175000,
+            "selling_price": 195000,
+            "updated": "14:23 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 175000,
+          "stock": 22
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ],
     "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
@@ -12900,6 +12926,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793085816490",
+      "time": "14:23 - 27/10/2026",
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 5 NGÀY",
+      "bot": "ntnshopre_bot",
+      "price": 195000,
+      "costPrice": 175000,
+      "stockAfter": 22,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH5NGÀY➕Thêm:22📦Tồnkhohiệntại:22💰Giá:175.000đ"
+    },
+    {
       "id": "hist-1793085807508",
       "time": "14:23 - 27/10/2026",
       "name": "Youku Vip 3 tháng BHF",
@@ -13987,17 +14024,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI31TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:3💵Giáchỉ:29.000đ🎁Kh"
-    },
-    {
-      "id": "hist-1793073659712",
-      "time": "11:00 - 27/10/2026",
-      "name": "SLOT GEMINI PRO + GOOGLE ONE 5TB 6 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 11,
-      "catKey": "khac",
-      "msgKey": "☁️SLOTGEMINIPRO+GOOGLEONE5TB6THÁNGBHF➕Thêm:11📦Tồnkhohiệntại:11💰Giá:60.000đ"
     }
   ]
 }
