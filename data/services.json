@@ -7859,6 +7859,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793086813819",
+        "name": "Slot Netflix UHD 4K Premium 1 Tháng BHF",
+        "price": 140000,
+        "cost_price": 120000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "Netflix Premium 4K – Slot riêng tư 1 tháng (BHF)\nTài khoản Netflix Premium hỗ trợ chất lượng hình ảnh lên đến 4K Ultra HD (tùy nội dung và thiết bị). Sản phẩm cung cấp 1 slot sử dụng riêng trong thời hạn 1 tháng. Phù hợp với nhu cầu giải trí, xem phim và chương trình truyền hình trực tuyến.\nThông tin sản phẩm:\n- Dịch vụ: Netflix Premium\n- Chất lượng:Tối đa 4K Ultra HD\n- Loại: Slot riêng tư\n- Thời hạn: 1 tháng\n- Ghi chú: Vui lòng kiểm tra điều kiện sử dụng, thiết bị hỗ trợ và chính sách bảo hành của người bán trước khi đặt mua.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 5,
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "14:40 27/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 120000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12996,6 +13022,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793086813819",
+      "time": "14:40 - 27/10/2026",
+      "name": "Slot Netflix UHD 4K Premium 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 5,
+      "catKey": "netflix",
+      "msgKey": "🎬SlotNetflixUHD4KPremium1ThángBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1793086607216",
       "time": "14:36 - 27/10/2026",
       "name": "MUSE.AI -31 TỶ TOKEN (KBH)",
@@ -14083,17 +14120,6 @@
       "stockAfter": 77,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusApplePayGmail30D-BHF➕Thêm:52📦Tồnkhohiệntại:77💰Giá:270.000đ"
-    },
-    {
-      "id": "hist-1793074338897",
-      "time": "11:12 - 27/10/2026",
-      "name": "MUSE AI 1 TỶ TOKEN KBH vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI1TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:12💵Giáchỉ:8.800đ🎁Khu"
     }
   ]
 }
