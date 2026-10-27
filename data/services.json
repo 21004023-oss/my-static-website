@@ -10641,22 +10641,22 @@
         "name": "HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày",
         "price": 750000,
         "cost_price": 650000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
         "detail": "Gói HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 3,
             "cost_price": 650000,
             "selling_price": 750000,
-            "updated": "01:57 28/10/2026"
+            "updated": "02:08 28/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 650000,
-          "stock": 4
+          "stock": 3
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -10665,6 +10665,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793128136060",
+      "time": "02:08 - 28/10/2026",
+      "name": "HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 750000,
+      "costPrice": 650000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "msgKey": "🎬HIGGPlus600-700CRE1ThángBH3ngày💰Giá:650k📦Tồnkho:3tàikhoản📊Đãbán:99tàikhoản✏️Vui"
+    },
     {
       "id": "hist-1793128043193",
       "time": "02:07 - 28/10/2026",
@@ -11864,20 +11875,6 @@
       "catKey": "gmail",
       "source": "Telegram @sieuthistore_bot",
       "msgKey": "⭐AppleID2FAGmail➕Thêm:2📦Tồnkhohiệntại:29💰Giá:49.000đ"
-    },
-    {
-      "id": "hist-1792629625122",
-      "time": "07:40 - 22/10/2026",
-      "timestamp": 1792629625122,
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 31,
-      "addedQty": 10,
-      "price": 75000,
-      "stockAfter": 58,
-      "catKey": "capcut",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:10📦Tồnkhohiệntại:31💰Giá:65.000đ"
     }
   ]
 }
