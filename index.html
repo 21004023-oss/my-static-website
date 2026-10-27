@@ -775,6 +775,60 @@
       color: #fff;
       box-shadow: 0 2px 6px rgba(15, 23, 42, 0.2);
     }
+
+    /* MINIMALIST CARD BOTTOM (CHUẨN SHADCN / GITHUB REPO) */
+    .plan-card-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 10px;
+      border-top: 1px solid #f1f5f9;
+      margin-top: auto;
+    }
+    .plan-price {
+      font-size: 16.5px;
+      font-weight: 800;
+      color: #059669;
+      letter-spacing: -0.01em;
+    }
+    .status-active-badge {
+      font-size: 11px;
+      font-weight: 700;
+      color: #059669;
+      background: #ecfdf5;
+      padding: 2.5px 8px;
+      border-radius: 99px;
+      border: 1px solid #a7f3d0;
+    }
+    .status-hover-hint {
+      font-size: 11.5px;
+      font-weight: 600;
+      color: #94a3b8;
+      opacity: 0;
+      transition: opacity 0.15s ease;
+    }
+    .plan-card:hover .status-hover-hint {
+      opacity: 1;
+      color: #475569;
+    }
+
+    /* CÂN ĐỐI TOPBAR TÌM KIẾM CANH GIỮA */
+    .topbar-content {
+      max-width: 1600px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 240px minmax(280px, 520px) 240px;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+    @media (max-width: 900px) {
+      .topbar-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    }
 </style>
 </head>
 <body>
@@ -1251,7 +1305,9 @@ function createPlanCard(catName, p, catKey) {
       </div>
       <div class="plan-card-bottom">
         <div class="plan-price">${money(p.price)}</div>
-        <div class="view-btn">Xem chi tiết ▾</div>
+        <div class="card-status-indicator">
+          ${isSelected ? '<span class="status-active-badge">Đang xem</span>' : '<span class="status-hover-hint">Bấm xem →</span>'}
+        </div>
       </div>
     </div>
 
