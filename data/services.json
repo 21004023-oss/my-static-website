@@ -834,22 +834,22 @@
         "name": "Spotify Premium (IOS) 3TH BHF",
         "price": 95000,
         "cost_price": 85000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": -1,
+        "stock_text": "Vô cực (∞)",
         "duration": "3 Tháng",
         "detail": "- YÊU CẦU XEM HẾT VIDEO HƯỚNG DẪN CÀI ĐẶT CẤU HÌNH ĐỂ TRÁNH MẤT THỜI GIAN: https://duckystore.click/spotify\n- Video hướng dẫn nếu bị lỗi next nhạc https://drive.google.com/drive/folders/1v4e7gdvWFlf9Av36XudTZUYU8pp-RAOB\n⛔️ Chỉ hỗ trợ trên thiết bị IOS (Iphone/Ipad)\n✅ Có thể gia hạn được\n✅ Nghe mọi bài hát theo yêu cầu (On-Demand) không bị ép phát ngẫu nhiên.\n✅ Chuyển bài (Next/Prev) không giới hạn, tua nhạc tuỳ thích.\n✅ Chặn 100% quảng cáo âm thanh và banner chèn ngang.\n✅ Tự do chọn danh sách phát, album, nghệ sĩ không bị giới hạn.\nGỬI UID VÀO BOT ĐỂ ĐƯỢC ADMIN DONE TRONG 5S",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": -1,
             "cost_price": 85000,
             "selling_price": 95000,
-            "updated": "01:29 28/10/2026"
+            "updated": "01:30 28/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 85000,
-          "stock": 2
+          "stock": -1
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -10499,6 +10499,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793125821462",
+      "time": "01:30 - 28/10/2026",
+      "name": "Spotify Premium (IOS) 3TH BHF",
+      "bot": "taphoathomap_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": -1,
+      "catKey": "spotify",
+      "msgKey": "⭐SpotifyPremium(IOS)3THBHF💰Giá:85k📦Tồnkho:∞tàikhoản📊Đãbán:1tàikhoản💎Môtả:-YÊUCẦU"
+    },
+    {
       "id": "hist-1793125768717",
       "time": "01:29 - 28/10/2026",
       "name": "THÔNG TIN SẢN PHẨM",
@@ -11766,20 +11777,6 @@
       "catKey": "capcut",
       "source": "Telegram @piggyai99_bot",
       "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1792606492313",
-      "time": "01:14 - 22/10/2026",
-      "timestamp": 1792606492313,
-      "name": "ChatGPT Plus K12 Edu 2 năm - BH 24H",
-      "bot": "taphoathomap_bot",
-      "shopStock": 28,
-      "addedQty": 20,
-      "price": 95000,
-      "stockAfter": 28,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖ChatGPTPlusK12Edu2năm-BH24H➕Thêm:20📦Tồnkhohiệntại:28💰Giá:85.000đ"
     }
   ]
 }
