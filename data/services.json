@@ -10828,6 +10828,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 40000
         }
+      },
+      {
+        "id": "p-1793174998607",
+        "name": "Zoom Pro chính chủ 6 tháng (BHF)",
+        "price": 450000,
+        "cost_price": 400000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "6 Tháng",
+        "detail": "Zoom Pro chính chủ: 100 members, 30 giờ mỗi cuộc họp 📦 Khách hàng gửi tài khoản định dạng: Mail|Pass|2FA. Thêm 2fa tại: https://zoom.us/profile. tại phần xác minh 2 bước thêm Authenticator App dạng scretkey 🛡️ Yêu cầu không thay đổi thông tin trong quá trình sử dụng để tool tự động gia hạn sau mỗi 14 ngày. 🔥 Cần tài khoản cấp sẵn thì note cho shop",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 400000,
+            "selling_price": 450000,
+            "updated": "15:09 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 400000,
+          "stock": 6
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11758,6 +11784,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793174998607",
+      "time": "15:09 - 28/10/2026",
+      "name": "Zoom Pro chính chủ 6 tháng (BHF)",
+      "bot": "taphoathomap_bot",
+      "price": 450000,
+      "costPrice": 400000,
+      "stockAfter": 6,
+      "catKey": "zoom",
+      "msgKey": "⭐ZoomProchínhchủ6tháng(BHF)➕Thêm:6📦Tồnkhohiệntại:6💰Giá:400.000đ"
+    },
     {
       "id": "hist-1793174963190",
       "time": "15:09 - 28/10/2026",
@@ -12846,17 +12883,6 @@
       "stockAfter": 70,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:13📦Tồnkhohiệntại:70💰Giá:24.000đ"
-    },
-    {
-      "id": "hist-1793161682491",
-      "time": "11:28 - 28/10/2026",
-      "name": "Link Gemini Pro 18 Tháng",
-      "bot": "sieuthistore_bot",
-      "price": 65000,
-      "costPrice": 55000,
-      "stockAfter": 70,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:13📦Tồnkhohiệntại:70💰Giá:55.000đ"
     }
   ]
 }
