@@ -5714,8 +5714,8 @@
         "id": "p-1792198254519",
         "name": "Muse Ai 1B Token KBH",
         "price": 55000,
-        "stock": 1038,
-        "stock_text": "Còn 1038",
+        "stock": 1894,
+        "stock_text": "Còn 1894",
         "duration": "1 Tháng",
         "detail": "Muse AI 1 Billion tokens - No warranty\n- Format: email | Link get code\n✏️",
         "sources": {
@@ -5729,6 +5729,12 @@
             "stock": 856,
             "cost_price": 30000,
             "selling_price": 40000,
+            "updated": "08:12 28/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 856,
+            "cost_price": 15000,
+            "selling_price": 25000,
             "updated": "08:12 28/10/2026"
           }
         },
@@ -10945,6 +10951,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793149930456",
+      "time": "08:12 - 28/10/2026",
+      "name": "Muse Ai  1B Token KBH",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 1894,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:1📦Tồnkhohiệntại:856💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793149924548",
       "time": "08:12 - 28/10/2026",
       "name": "Muse Ai  1B Token KBH",
@@ -12053,20 +12070,6 @@
       "catKey": "muse-ai",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "⭐MUSE.AI-31TỶTOKEN(KBH)➕Thêm:5📦Tồnkhohiệntại:7💰Giá:89.000đ"
-    },
-    {
-      "id": "hist-1792655650617",
-      "time": "14:54 - 22/10/2026",
-      "timestamp": 1792655650617,
-      "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 45,
-      "addedQty": 15,
-      "price": 270000,
-      "stockAfter": 45,
-      "catKey": "chatgpt",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:15📦Tồnkhohiệntại:45💰Giá:240.000đ"
     }
   ]
 }
