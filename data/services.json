@@ -11498,10 +11498,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793167368952",
+        "name": "Hàng đang có sẵn trong kho",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Hàng đang có sẵn trong kho bảo hành uy tín.",
+        "sources": {
+          "toki_shopmmo_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "13:02 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@toki_shopmmo_bot",
+          "cost_price": 0,
+          "stock": 0
+        },
+        "import_note": "Nhập: @toki_shopmmo_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793167368952",
+      "time": "13:02 - 28/10/2026",
+      "name": "Hàng đang có sẵn trong kho",
+      "bot": "toki_shopmmo_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "📦Hàngđangcósẵntrongkho📦158KDecorDiscord/ProfileEffectGiáRẻ(DạngLogin)–SởHữuVĩnhV"
+    },
     {
       "id": "hist-1793167242904",
       "time": "13:00 - 28/10/2026",
@@ -12590,17 +12627,6 @@
       "stockAfter": 44,
       "catKey": "expressvpn",
       "msgKey": "🚚🔥ExpressVPN1ThángBHF➕Thêm:1📦Tồnkhohiệntại:11💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793153487811",
-      "time": "09:11 - 28/10/2026",
-      "name": "Express VPN 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 33,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN1ThángBHF➕Thêm:1📦Tồnkhohiệntại:11💰Giá:95.000đ"
     }
   ]
 }
