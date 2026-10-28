@@ -7092,7 +7092,7 @@
         "stock": 5,
         "stock_text": "Còn 5",
         "duration": "6 Tháng",
-        "detail": "CAPCUT PRO TEAM RENEW – 180 NGÀY | BHF 📌 THÔNG TIN • Tài khoản CapCut Pro dạng Team, thời hạn 365 ngày tự động gia hạn hàng tháng. • Có thể nhận tới 2.000 AI Credits. • Định dạng: Email | Pass. • Khuyến nghị đăng nhập 1–2 thiết bị, hạn chế đăng nhập nhiều thiết bị. 🛡️ BẢO HÀNH • Bảo hành 180 ngày. • Hỗ trợ bảo hành tối đa 1 lần/tháng đối với lỗi đăng nhập do đăng nhập quá thường xuyên. ⚠️ LƯU Ý • Hạn chế đăng nhập/đăng xuất liên tục hoặc trên nhiều thiết bị. • Vui lòng kiểm tra tài khoản ngay sau khi nhận hàng",
+        "detail": "CAPCUT PRO TEAM RENEW – 180 NGÀY | BHF 📌 THÔNG TIN • Tài khoản CapCut Pro dạng Team, thời hạn 365 ngày tự động gia hạn hàng tháng. • Có thể nhận tới 2.000 AI Credits. • Định dạng: Email | Pass. • Khuyến nghị đăng nhập 1–2 thiết bị, hạn chế đăng nhập nhiều thiết bị. 🛡️ BẢO HÀNH • Bảo hành 180 ngày. • Hỗ trợ bảo hành tối đa 1 lần/tháng đối với lỗi đăng nhập do đăng nhập quá thường xuyên. ⚠️ LƯU Ý • Hạn chế đăng nhập/đăng xuất liên tục hoặc trên nhiều thiết bị. • Vui lòng kiểm tra tài khoản ngay sau khi nhận hàng\n✏️",
         "sources": {
           "ntnshopre_bot": {
             "stock": 1,
@@ -7103,17 +7103,18 @@
           "taphoathomap_bot": {
             "stock": 4,
             "cost_price": 290000,
-            "updated": "21:47 17/10/2026",
-            "selling_price": 320000
+            "selling_price": 320000,
+            "updated": "09:09 28/10/2026"
           }
         },
-        "hidden": true,
+        "hidden": false,
         "cost_price": 290000,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 290000
+          "cost_price": 290000,
+          "stock": 1
         }
       },
       {
@@ -10986,6 +10987,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793153345178",
+      "time": "09:09 - 28/10/2026",
+      "name": "CAPCUT TEAM 6 THÁNG  BHF",
+      "bot": "taphoathomap_bot",
+      "price": 320000,
+      "costPrice": 290000,
+      "stockAfter": 5,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTTEAM6THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:4💰Giá:290.000đ"
+    },
+    {
       "id": "hist-1793153336502",
       "time": "09:08 - 28/10/2026",
       "name": "CAPCUT PRO 3 THÁNG BHF",
@@ -12073,17 +12085,6 @@
       "stockAfter": 130,
       "catKey": "google-veo",
       "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:3📦Tồnkhohiệntại:130💰Giá:45.00"
-    },
-    {
-      "id": "hist-1793124386995",
-      "time": "01:06 - 28/10/2026",
-      "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 131,
-      "catKey": "google-veo",
-      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H💰Giá:45k📦Tồnkho:131tàikhoản📊Đãbán:6"
     }
   ]
 }
