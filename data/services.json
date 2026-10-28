@@ -5537,13 +5537,13 @@
         "name": "Kling Standard 1k Credit 1 Tháng BH 1 ngày",
         "price": 200000,
         "cost_price": 180000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 54,
+        "stock_text": "Còn 54",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1k Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 10,
+            "stock": 54,
             "cost_price": 180000,
             "selling_price": 200000,
             "updated": "21:03 28/10/2026"
@@ -5552,7 +5552,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 180000,
-          "stock": 10
+          "stock": 54
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -12287,6 +12287,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793196190356",
+      "time": "21:03 - 28/10/2026",
+      "name": "Kling Standard 1k Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 54,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1kCredit1ThángBH1ngày➕Thêm:30📦Tồnkhohiệntại:54💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1793196185957",
       "time": "21:03 - 28/10/2026",
       "name": "Kling Standard 1k Credit 1 Tháng BH 1 ngày",
@@ -13374,17 +13385,6 @@
       "stockAfter": 47,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+1ThángBHF➕Thêm:17📦Tồnkhohiệntại:19💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1793186093690",
-      "time": "18:14 - 28/10/2026",
-      "name": "MEITU VIP+ 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 52,
-      "catKey": "meitu",
-      "msgKey": "✨MEITUVIP+1THÁNGBHF➕Thêm:17📦Tồnkhohiệntại:19💰Giá:80.000đ"
     }
   ]
 }
