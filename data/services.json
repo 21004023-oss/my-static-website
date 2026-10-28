@@ -4918,13 +4918,13 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 26,
-        "stock_text": "Còn 26",
+        "stock": 11,
+        "stock_text": "Còn 11",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 26,
+            "stock": 11,
             "cost_price": 140000,
             "selling_price": 160000,
             "updated": "16:05 28/10/2026"
@@ -4935,7 +4935,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 26
+          "stock": 11
         },
         "needs_review": false
       },
@@ -11922,6 +11922,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793178354048",
+      "time": "16:05 - 28/10/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 11,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin💰Giá:140k📦Tồnkho:11tàikhoản📊Đãbán:263tàikhoản💎Môtả:Mail|Pa"
+    },
+    {
       "id": "hist-1793178349729",
       "time": "16:05 - 28/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -13009,17 +13020,6 @@
       "stockAfter": 2,
       "catKey": "netflix",
       "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1793165604486",
-      "time": "12:33 - 28/10/2026",
-      "name": "Gợi ý sản phẩm dành cho bạn",
-      "bot": "toki_shopmmo_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "🛒Gợiýsảnphẩmdànhchobạn📦105KDecorDiscord/ProfileEffectGiáRẻ(DạngLogin)–SởHữuVĩnhV"
     }
   ]
 }
