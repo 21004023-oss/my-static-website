@@ -9836,8 +9836,8 @@
         "id": "p-1792088127430",
         "name": "Grammarly AI Pro 1 Tháng BHF",
         "price": 100000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
         "detail": "Grammarly Pro có AI 1 Tháng BHF\nĐịnh dạng: Email|Pass\n・　Viết lại toàn bộ câu chỉ với một cú nhấp chuột\n・　Dễ dàng điều chỉnh văn phong và giọng điệu bài viết\n・　Viết tiếng Anh trôi chảy và tự nhiên hơn\n・　Gợi ý cá nhân hóa không giới hạn\n・　Phát hiện đạo văn và nội dung do AI tạo ra\n・　Tạo nội dung với 2.000 lượt prompt AI\n-Chú ý: Không thay đổi thêm thắt bất kỳ cái gì vào tài khoản, nếu vi phạm sẽ không được bảo hành\n✏️",
         "sources": {
@@ -9848,10 +9848,10 @@
             "updated": "03:03 29/10/2026"
           },
           "piggyai99_bot": {
-            "stock": 3,
+            "stock": 4,
             "cost_price": 90000,
             "selling_price": 100000,
-            "updated": "01:36 28/10/2026"
+            "updated": "03:03 29/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 4,
@@ -12557,6 +12557,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793217802482",
+      "time": "03:03 - 29/10/2026",
+      "name": "Grammarly AI Pro 1 Tháng BHF",
+      "bot": "piggyai99_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 12,
+      "catKey": "grammarly",
+      "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1793217798300",
       "time": "03:03 - 29/10/2026",
       "name": "Grammarly AI Pro 1 Tháng BHF",
@@ -13644,17 +13655,6 @@
       "stockAfter": 50,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥VIP.ChatgptPlusApplePay1thángBHF➕Thêm:50📦Tồnkhohiệntại:50💰Giá:200.000đ"
-    },
-    {
-      "id": "hist-1793200599424",
-      "time": "22:16 - 28/10/2026",
-      "name": "CHỌN PHƯƠNG THỨC THANH TOÁN",
-      "bot": "shopxoainon_bot",
-      "price": 24800,
-      "costPrice": 14800,
-      "stockAfter": 5,
-      "catKey": "khac",
-      "msgKey": "💳CHỌNPHƯƠNGTHỨCTHANHTOÁN━━━━━━━━━━━━━━━━📦GóiGeminiPro&Drive5TB18ThángChínhchủ📊Số"
     }
   ]
 }
