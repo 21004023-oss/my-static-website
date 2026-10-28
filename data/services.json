@@ -100,17 +100,17 @@
       {
         "id": "p-1792094916011",
         "name": "Tài khoản VieON VIP 3 Tháng BHF",
-        "price": 100000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "price": 140000,
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "3 Tháng",
-        "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời\n✏️",
+        "detail": "Tài khoản đăng nhập 2 thiết bị và xem 1 thiết bị đồng thời\nXem tất cả phim VIP và phim PRO\nKhông đảm bảo sẽ xem được một số kênh truyền hình nước ngoài\nBảo hành toàn thời gian trường hợp không xem được phim, sai mật khẩu, quá thiết bị.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 3,
-            "cost_price": 90000,
-            "selling_price": 100000,
-            "updated": "11:25 28/10/2026"
+            "stock": 1,
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "22:10 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 3,
@@ -12055,6 +12055,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793200209667",
+      "time": "22:10 - 28/10/2026",
+      "name": "Tài khoản VieON VIP Pro 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 4,
+      "catKey": "vieon",
+      "msgKey": "⭐TàikhoảnVieONVIPPro3thángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1793200157320",
       "time": "22:09 - 28/10/2026",
       "name": "GMAIL US CỔ DATE 201X-202X 2FA",
@@ -13142,17 +13153,6 @@
       "stockAfter": 20,
       "catKey": "microsoft",
       "msgKey": "⭐KeyMicrosoftoffice2024ProPlus10nămBH1năm➕Thêm:10📦Tồnkhohiệntại:20💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793192266429",
-      "time": "19:57 - 28/10/2026",
-      "name": "Slot Youtube Premium 6 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 185000,
-      "costPrice": 165000,
-      "stockAfter": 567,
-      "catKey": "youtube",
-      "msgKey": "▶️SlotYoutubePremium6ThángBHF➕Thêm:2📦Tồnkhohiệntại:567💰Giá:165.000đ"
     }
   ]
 }
