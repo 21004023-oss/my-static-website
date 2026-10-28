@@ -7843,10 +7843,10 @@
         "id": "p-1791919210876",
         "name": "CapCut Pro Team 3 Tháng - BHF",
         "price": 180000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 7,
+        "stock_text": "Còn 7",
         "duration": "3 Tháng",
-        "detail": "Tài khoản Capcut Pro dạng team hạn sử dụng 90 ngày. • Có thể nhận tới 2000 Credit AI • Định dạng: Email | Pass • Login 1-2 thiết bị hạn chế login nhiều thiết bị. • Bảo hành 90 ngày, không bảo hành lỗi đăng nhập quá thường xuyên.\nTK tự động gia hạn mỗi tháng 1 lần đến khi đủ 1 tháng\n✏️",
+        "detail": "Tài khoản Capcut Pro dạng team hạn sử dụng 90 ngày. • Có thể nhận tới 2000 Credit AI • Định dạng: Email | Pass • Login 1-2 thiết bị hạn chế login nhiều thiết bị. • Bảo hành 90 ngày, không bảo hành lỗi đăng nhập quá thường xuyên.\nTK tự động gia hạn mỗi tháng 1 lần đến khi đủ 1 tháng",
         "sources": {
           "piggyai99_bot": {
             "stock": 7,
@@ -7855,20 +7855,20 @@
             "updated": "14:52 22/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 0,
             "cost_price": 155000,
             "selling_price": 175000,
-            "updated": "15:37 28/10/2026"
+            "updated": "06:02 29/10/2026"
           }
         },
-        "cost_price": 155000,
+        "cost_price": 160000,
         "needs_review": false,
         "hidden": false,
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 155000,
-          "stock": 5
+          "bot": "@piggyai99_bot",
+          "cost_price": 160000,
+          "stock": 7
         }
       },
       {
@@ -12763,6 +12763,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793228568418",
+      "time": "06:02 - 29/10/2026",
+      "name": "CapCut Pro Team 3 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 175000,
+      "costPrice": 155000,
+      "stockAfter": 7,
+      "catKey": "capcut",
+      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:3📦Tồnkhohiệntại:0💰Giá:155.000đ"
+    },
+    {
       "id": "hist-1793228319654",
       "time": "05:58 - 29/10/2026",
       "name": "CAPCUT TEAM 6 THÁNG  BHF",
@@ -13850,17 +13861,6 @@
       "stockAfter": 13,
       "catKey": "jetbrains",
       "msgKey": "⭐JetBrainEdu1năm(BHF)➕Thêm:9📦Tồnkhohiệntại:10💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1793215211931",
-      "time": "02:20 - 29/10/2026",
-      "name": "PureVPN 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 12,
-      "catKey": "khac",
-      "msgKey": "⭐PureVPN7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:15.000đ"
     }
   ]
 }
