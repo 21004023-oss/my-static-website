@@ -11243,16 +11243,16 @@
         "id": "p-1792141367157",
         "name": "JetBrain Edu 1 năm (BHF)",
         "price": 90000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 19,
+        "stock_text": "Còn 19",
         "duration": "1 Năm",
         "detail": "💻 JETBRAINS EDUCATION\n✨ Gói JetBrains dành cho học tập, lập trình và phát triển phần mềm.\n✅ Sử dụng bộ IDE JetBrains\n✅ IntelliJ IDEA, PyCharm, WebStorm, CLion, Rider...\n✅ Đầy đủ tính năng phục vụ code chuyên nghiệp\n✅ Phù hợp sinh viên, giáo viên và người học lập trình\n✅ Hỗ trợ nhiều ngôn ngữ và nền tảng phát triển\n🚀 Tối ưu cho học tập, làm bài tập, đồ án và lập trình chuyên sâu.\n📦 **Định dạng:**\nMAIL | PASS JETBRAINS | PASS MAIL\n✅ Mua số lượng nhiều inbox admin giá tốt hơn\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 9,
             "cost_price": 50000,
             "selling_price": 60000,
-            "updated": "02:21 29/10/2026"
+            "updated": "03:35 29/10/2026"
           },
           "piggyai99_bot": {
             "stock": 10,
@@ -11268,7 +11268,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 50000,
-          "stock": 10
+          "stock": 9
         }
       }
     ]
@@ -12583,6 +12583,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793219713573",
+      "time": "03:35 - 29/10/2026",
+      "name": "JetBrain Edu 1 năm (BHF)",
+      "bot": "taphoathomap_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 19,
+      "catKey": "jetbrains",
+      "msgKey": "⭐JetBrainEdu1năm(BHF)➕Thêm:9📦Tồnkhohiệntại:9💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1793219325888",
       "time": "03:28 - 29/10/2026",
       "name": "Meitu SVip+ 7 Ngày BHF",
@@ -13670,17 +13681,6 @@
       "stockAfter": 2744,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:78📦Tồnkhohiệntại:73💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793201054567",
-      "time": "22:24 - 28/10/2026",
-      "name": "GMAIL US CỔ DATE 201X-202X 2FA",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 444,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILUSCỔDATE201X-202X2FA💰Giá:45k📦Tồnkho:148tàikhoản📊Đãbán:5.222tàikhoản💎Môtả:-"
     }
   ]
 }
