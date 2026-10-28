@@ -614,18 +614,18 @@
         "id": "p-gmail-2020-2023-unified",
         "name": "Gmail Random ip 2020-2023 trial youtube",
         "price": 60000,
-        "cost_price": 15000,
-        "stock": 576,
-        "stock_text": "Còn 576",
-        "duration": "Ngẫu nhiên",
-        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành",
-        "hidden": true,
+        "cost_price": 40000,
+        "stock": 59,
+        "stock_text": "Còn 59",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành\n✏️",
+        "hidden": false,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 17,
+            "stock": 25,
             "cost_price": 50000,
             "selling_price": 60000,
-            "updated": "23:58 18/10/2026"
+            "updated": "19:14 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 17,
@@ -640,12 +640,13 @@
             "updated": "23:58 18/10/2026"
           }
         },
-        "needs_review": true,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 40000,
+          "stock": 17
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-gmail-2010-2016-unified",
@@ -12261,6 +12262,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793189661109",
+      "time": "19:14 - 28/10/2026",
+      "name": "Gmail Random ip 2020-2023 trial youtube",
+      "bot": "sieuthistore_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 59,
+      "catKey": "youtube",
+      "msgKey": "📧GmailRandomip2020-2023trialyoutube➕Thêm:25📦Tồnkhohiệntại:25💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1793189656812",
       "time": "19:14 - 28/10/2026",
       "name": "GMAIL TRIAL RANDOM DATE 202X",
@@ -13348,17 +13360,6 @@
       "stockAfter": 110,
       "catKey": "google-veo",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:1📦Tồnkhohiệntại:38💰Giá:22.000đ"
-    },
-    {
-      "id": "hist-1793179500649",
-      "time": "16:25 - 28/10/2026",
-      "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 38,
-      "catKey": "google-veo",
-      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:1📦Tồnkhohiệntại:38💰Giá:45.000"
     }
   ]
 }
