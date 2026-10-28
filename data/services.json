@@ -12498,10 +12498,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793215588683",
+        "name": "Kahoot Plus Gold 7 Ngày BHF",
+        "price": 55000,
+        "cost_price": 45000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "7 Ngày",
+        "detail": "Kahoot Plus Gold 7 Ngày Trial BHF 200 thành viên\nĐịnh dạng: Email|Pass\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 8,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "02:26 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 45000,
+          "stock": 8
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793215588683",
+      "time": "02:26 - 29/10/2026",
+      "name": "Kahoot Plus Gold 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 8,
+      "catKey": "khac",
+      "msgKey": "⭐KahootPlusGold7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:8💰Giá:45.000đ"
+    },
     {
       "id": "hist-1793215580119",
       "time": "02:26 - 29/10/2026",
@@ -13590,17 +13627,6 @@
       "stockAfter": 3,
       "catKey": "vieon",
       "msgKey": "⭐TàikhoảnVieONVIPPro3thángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:120.000đ"
-    },
-    {
-      "id": "hist-1793200220005",
-      "time": "22:10 - 28/10/2026",
-      "name": "Tài khoản VieON VIP PRO 3 tháng bhf",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 2,
-      "catKey": "vieon",
-      "msgKey": "⭐TàikhoảnVieONVIPPRO3thángbhf➕Thêm:1📦Tồnkhohiệntại:1💰Giá:70.000đ"
     }
   ]
 }
