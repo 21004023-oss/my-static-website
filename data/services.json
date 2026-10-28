@@ -4153,16 +4153,16 @@
         "id": "p-1792256292426",
         "name": "Link Gemini Pro 18 Tháng",
         "price": 65000,
-        "stock": 70,
-        "stock_text": "Còn 70",
+        "stock": 48,
+        "stock_text": "Còn 48",
         "duration": "1 Tháng",
         "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 70,
+            "stock": 48,
             "cost_price": 55000,
             "selling_price": 65000,
-            "updated": "11:28 28/10/2026"
+            "updated": "12:09 28/10/2026"
           }
         },
         "hidden": false,
@@ -4171,7 +4171,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 55000,
-          "stock": 70
+          "stock": 48
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -11394,6 +11394,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793164177175",
+      "time": "12:09 - 28/10/2026",
+      "name": "Link Gemini Pro 18 Tháng",
+      "bot": "sieuthistore_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 48,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:55📦Tồnkhohiệntại:48💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793164170834",
       "time": "12:09 - 28/10/2026",
       "name": "Link Gemini Pro 18 Tháng BH 24H",
@@ -12481,17 +12492,6 @@
       "stockAfter": 3,
       "catKey": "kling",
       "msgKey": "🎬KlingStandrandom800-1000credit1THBH1ngày➕Thêm:2📦Tồnkhohiệntại:3💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1793145764437",
-      "time": "07:02 - 28/10/2026",
-      "name": "Kling Stand random 800-1000 credit 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 3,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandrandom800-1000credit1THBH1ngày💰Giá:115k📦Tồnkho:3tàikhoản📊Đãbán:41tàik"
     }
   ]
 }
