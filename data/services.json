@@ -8508,9 +8508,9 @@
         "id": "p-1793178746256",
         "name": "Wink Vip 3 Tháng BHF",
         "price": 280000,
-        "cost_price": 250000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "cost_price": 200000,
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "3 Tháng",
         "detail": "- Tài khoản chỉ dành cho IOS\nMở khóa full kho công cụ làm đẹp AI, tính năng làm nét video, xóa vật thể nâng cao, hiệu ứng chuyển cảnh VIP, xuất file chất lượng cao không logo\nLưu ý:\nChỉ đăng nhập trên 1 thiết bị, phát hiện đăng nhập nhiều thiết bị, sẽ kích và không bảo hành\n✏️",
         "sources": {
@@ -8519,14 +8519,20 @@
             "cost_price": 250000,
             "selling_price": 280000,
             "updated": "16:12 28/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 200000,
+            "selling_price": 220000,
+            "updated": "16:12 28/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 250000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 200000,
           "stock": 1
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -11975,6 +11981,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793178750941",
+      "time": "16:12 - 28/10/2026",
+      "name": "Wink Vip 90D BHF",
+      "bot": "taphoathomap_bot",
+      "price": 220000,
+      "costPrice": 200000,
+      "stockAfter": 2,
+      "catKey": "wink",
+      "msgKey": "⭐WinkVip90DBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:200.000đ"
+    },
+    {
       "id": "hist-1793178746256",
       "time": "16:12 - 28/10/2026",
       "name": "Wink Vip 3 Tháng BHF",
@@ -13062,17 +13079,6 @@
       "stockAfter": 0,
       "catKey": "google-veo",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!📦GóiGeminiPro&Drive5TB18ThángChínhchủvừađượcnhậpkho🔥📦Sốlượngcòn:86💵"
-    },
-    {
-      "id": "hist-1793166543156",
-      "time": "12:49 - 28/10/2026",
-      "name": "Gmail Việt 2020-2024",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 550,
-      "catKey": "gmail",
-      "msgKey": "📧GmailViệt2020-2024➕Thêm:1📦Tồnkhohiệntại:30💰Giá:45.000đ"
     }
   ]
 }
