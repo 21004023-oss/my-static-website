@@ -48,21 +48,22 @@
         "stock": 1,
         "stock_text": "Còn 1",
         "duration": "1 Tháng",
-        "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm",
+        "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
         "sources": {
           "sieuthistore_bot": {
             "stock": 1,
             "cost_price": 150000,
             "selling_price": 170000,
-            "updated": "11:47 20/10/2026"
+            "updated": "11:22 28/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 150000
+          "bot": "@sieuthistore_bot",
+          "cost_price": 150000,
+          "stock": 1
         }
       },
       {
@@ -11307,6 +11308,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793161327256",
+      "time": "11:22 - 28/10/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 1,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793161202523",
       "time": "11:20 - 28/10/2026",
       "name": "Link Gemini Pro 18 Tháng BH 24H",
@@ -12394,17 +12406,6 @@
       "stockAfter": 3,
       "catKey": "khac",
       "msgKey": "🎬HIGGPlus600-700CRE1ThángBH3ngày➕Thêm:3📦Tồnkhohiệntại:3💰Giá:650.000đ"
-    },
-    {
-      "id": "hist-1793128136060",
-      "time": "02:08 - 28/10/2026",
-      "name": "HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 750000,
-      "costPrice": 650000,
-      "stockAfter": 3,
-      "catKey": "khac",
-      "msgKey": "🎬HIGGPlus600-700CRE1ThángBH3ngày💰Giá:650k📦Tồnkho:3tàikhoản📊Đãbán:99tàikhoản✏️Vui"
     }
   ]
 }
