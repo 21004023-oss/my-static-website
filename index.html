@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="vi">
 <head>
   <meta charset="UTF-8" />
@@ -810,7 +810,7 @@
     .plan-price {
       font-size: 16.5px;
       font-weight: 800;
-      color: #059669;
+      color: #0f172a;
       letter-spacing: -0.01em;
     }
     .status-active-badge {
@@ -1008,6 +1008,171 @@
       .mobile-floating-zalo { display: none !important; }
     }
 
+
+    /* ============================================================ */
+    /* VISUAL IMPROVEMENTS - INJECTED CSS                           */
+    /* ============================================================ */
+
+    /* Trust Bar */
+    .trust-bar {
+      background: linear-gradient(90deg, #059669, #10b981, #0284c7);
+      color: #fff;
+      padding: 7px 24px;
+      font-size: 12.5px;
+      font-weight: 600;
+      overflow: hidden;
+    }
+    .trust-bar-inner {
+      max-width: 1600px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .trust-sep { opacity: 0.5; }
+    @media (max-width: 768px) {
+      .trust-bar { padding: 6px 12px; font-size: 11px; }
+      .trust-bar-inner { gap: 8px; }
+      .trust-sep { display: none; }
+    }
+
+    /* Brand tagline */
+    .brand-tagline {
+      font-size: 10.5px;
+      font-weight: 500;
+      color: rgba(255,255,255,0.55);
+      margin: 0;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    @media (max-width: 768px) { .brand-tagline { display: none; } }
+
+    /* Plan snippet */
+    .plan-snippet {
+      font-size: 11.5px;
+      color: #64748b;
+      line-height: 1.4;
+      margin-top: 4px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+    }
+
+    /* Section header improvements */
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      padding: 0 2px;
+      border-bottom: 2px solid #f1f5f9;
+      padding-bottom: 10px;
+    }
+    .section-header h2 {
+      font-size: 17px;
+      font-weight: 800;
+      color: #0f172a;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-header span {
+      font-size: 12px;
+      color: #94a3b8;
+      background: #f1f5f9;
+      padding: 3px 10px;
+      border-radius: 99px;
+      font-weight: 600;
+    }
+
+    /* Col-detail improvements */
+    .col-detail {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.03);
+      position: sticky;
+      top: 96px;
+      max-height: calc(100vh - 120px);
+      overflow-y: auto;
+      scrollbar-width: thin;
+    }
+    .detail-price-val {
+      font-size: 24px;
+      font-weight: 900;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .detail-price-box {
+      margin: 12px 0 16px;
+      padding: 12px 16px;
+      background: linear-gradient(135deg, #f0fdf4, #ecfdf5);
+      border-radius: 10px;
+      border: 1px solid #a7f3d0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    /* Desc-box improvements */
+    .desc-box {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 14px 16px;
+      font-size: 13px;
+      line-height: 1.9;
+      color: #334155;
+      white-space: pre-line;
+      word-break: break-word;
+      max-height: 380px;
+      overflow-y: auto;
+    }
+    .desc-box-line {
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+      padding: 1px 0;
+    }
+
+    /* Cat-item hover improvements */
+    .cat-item:hover {
+      background: #f1f5f9;
+      transform: translateX(3px);
+      color: #0f172a;
+    }
+    .cat-item.active {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(15,23,42,0.2);
+    }
+
+    /* Mobile floating Zalo button */
+    @media (max-width: 768px) {
+      .mobile-floating-zalo {
+        display: flex;
+        position: fixed;
+        bottom: 20px;
+        right: 16px;
+        z-index: 999;
+        background: linear-gradient(135deg, #10b981, #059669);
+        color: #ffffff;
+        padding: 12px 18px;
+        border-radius: 999px;
+        font-size: 13.5px;
+        font-weight: 700;
+        box-shadow: 0 6px 24px rgba(16, 185, 129, 0.5), 0 2px 8px rgba(0,0,0,0.15);
+        text-decoration: none;
+        align-items: center;
+        gap: 8px;
+        letter-spacing: -0.01em;
+        border: 2px solid rgba(255,255,255,0.3);
+      }
+    }
 </style>
 </head>
 <body>
@@ -1024,7 +1189,17 @@
     </div>
   </div>
 </header>
-
+<div class="trust-bar">
+  <div class="trust-bar-inner">
+    <span>&#10003; K&#237;ch ho&#7841;t trong 5 ph&#250;t</span>
+    <span class="trust-sep">&#183;</span>
+    <span>&#128737;&#65039; B&#7843;o h&#224;nh 100%</span>
+    <span class="trust-sep">&#183;</span>
+    <span>&#9889; H&#417;n 400+ g&#243;i d&#7883;ch v&#7909; s&#7889;</span>
+    <span class="trust-sep">&#183;</span>
+    <span>&#128172; H&#7895; tr&#7907; Zalo 24/7</span>
+  </div>
+</div>
 <main class="layout">
   <!-- CỘT 1: DANH MỤC -->
   <aside class="col-cats">
@@ -1481,6 +1656,7 @@ function createPlanCard(catName, p, catKey) {
             ${p.source ? `<span class="tag">🛡️ ${p.source}</span>` : ''}
             ${stockHtml}
           </div>
+          ${p.detail ? "<div class=\"plan-snippet\">" + p.detail.replace(/[\*\_\[\]]/g,'').substring(0,55).trim() + "...</div>" : ''}
         </div>
       </div>
       <div class="plan-card-bottom">
