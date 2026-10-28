@@ -101,8 +101,8 @@
         "id": "p-1792094916011",
         "name": "Tài khoản VieON VIP 3 Tháng BHF",
         "price": 140000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "3 Tháng",
         "detail": "Tài khoản đăng nhập 2 thiết bị và xem 1 thiết bị đồng thời\nXem tất cả phim VIP và phim PRO\nKhông đảm bảo sẽ xem được một số kênh truyền hình nước ngoài\nBảo hành toàn thời gian trường hợp không xem được phim, sai mật khẩu, quá thiết bị.\n✏️",
         "sources": {
@@ -113,19 +113,19 @@
             "updated": "22:10 28/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 3,
-            "cost_price": 55000,
-            "selling_price": 65000,
-            "updated": "11:26 28/10/2026"
+            "stock": 1,
+            "cost_price": 70000,
+            "selling_price": 80000,
+            "updated": "22:10 28/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 55000,
+        "cost_price": 70000,
         "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 55000,
-          "stock": 3
+          "cost_price": 70000,
+          "stock": 1
         },
         "needs_review": false
       },
@@ -12081,6 +12081,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793200220005",
+      "time": "22:10 - 28/10/2026",
+      "name": "Tài khoản VieON VIP PRO 3 tháng bhf",
+      "bot": "taphoathomap_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 2,
+      "catKey": "vieon",
+      "msgKey": "⭐TàikhoảnVieONVIPPRO3thángbhf➕Thêm:1📦Tồnkhohiệntại:1💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793200215516",
       "time": "22:10 - 28/10/2026",
       "name": "VIEON VIP 3 THÁNG BHF",
@@ -13168,17 +13179,6 @@
       "stockAfter": 85,
       "catKey": "google-veo",
       "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:1📦Tồnkhohiệntại:85💰Giá:45.000"
-    },
-    {
-      "id": "hist-1793192398858",
-      "time": "19:59 - 28/10/2026",
-      "name": "Adobe Express Premium 12 tháng  KBH",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 8,
-      "catKey": "adobe",
-      "msgKey": "🎨AdobeExpressPremium12thángKBH➕Thêm:10📦Tồnkhohiệntại:8💰Giá:45.000đ"
     }
   ]
 }
