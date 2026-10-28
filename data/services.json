@@ -7163,22 +7163,22 @@
         "name": "Suno Pro 1TH BH 1 ngày",
         "price": 135000,
         "cost_price": 115000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "Mail | Pass | Mail khôi phục\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 10,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "15:39 28/10/2026"
+            "updated": "20:23 28/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 5
+          "stock": 10
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -12351,6 +12351,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793193818809",
+      "time": "20:23 - 28/10/2026",
+      "name": "Suno Pro 1TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 10,
+      "catKey": "suno",
+      "msgKey": "🎵SunoPro1THBH1ngày➕Thêm:5📦Tồnkhohiệntại:10💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1793193751107",
       "time": "20:22 - 28/10/2026",
       "name": "ChatGPT Plus UIP 1 Tháng KBH",
@@ -13438,17 +13449,6 @@
       "stockAfter": 464,
       "catKey": "claude",
       "msgKey": "🧠VIP2.API50MTokenClaude1Ngày-BHF💰Giá:75k📦Tồnkho:464tàikhoản📊Đãbán:1.330tàikhoản💎"
-    },
-    {
-      "id": "hist-1793183817802",
-      "time": "17:36 - 28/10/2026",
-      "name": "VIP 2.API 50M Token Claude 1 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 85000,
-      "costPrice": 75000,
-      "stockAfter": 603,
-      "catKey": "claude",
-      "msgKey": "🧠VIP2.API50MTokenClaude1Ngày-BHF➕Thêm:500📦Tồnkhohiệntại:603💰Giá:75.000đ"
     }
   ]
 }
