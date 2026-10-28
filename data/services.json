@@ -6094,25 +6094,27 @@
         "id": "p-1792655654936",
         "name": "MUSE.AI -31 TỶ TOKEN (KBH)",
         "price": 99000,
-        "cost_price": 11000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "cost_price": 65000,
+        "stock": 25,
+        "stock_text": "Còn 25",
         "duration": "1 Tháng",
-        "detail": "Gói MUSE.AI -31 TỶ TOKEN (KBH) bảo hành uy tín.",
+        "detail": "-Có thể tạo ảnh- tạo video\nĐỊNH DẠNG : TÀI KHOẢN | LINK MAIL LẤY CODE\n⚠️ LƯU Ý SỬ DỤNG & CHÍNH SÁCH BẢO HÀNH\n1. Đăng nhập IP sạch: Vui lòng chỉ đăng nhập bằng IP, proxy Mỹ để tránh lỗi acc\n2. Không đổi thông tin: Giữ nguyên toàn bộ thông tin tài khoản khi nhận và tuyệt đối không liên kết với Facebook.\n📌 Lưu ý bảo hành:\nShop chỉ bảo hành login Check token đủ là hết bảo hành\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 7,
-            "cost_price": 89000,
-            "selling_price": 99000,
-            "updated": "14:54 22/10/2026"
+            "stock": 25,
+            "cost_price": 65000,
+            "selling_price": 75000,
+            "updated": "09:11 28/10/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
-          "bot": "@KhoMMO_Market_bot",
-          "cost_price": 11000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 65000,
+          "stock": 25
         },
-        "import_note": "🛒 @KhoMMO_Market_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "needs_review": false
       },
       {
         "id": "p-1793125829365",
@@ -10988,6 +10990,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793153470536",
+      "time": "09:11 - 28/10/2026",
+      "name": "MUSE.AI -31 TỶ TOKEN (KBH)",
+      "bot": "taphoathomap_bot",
+      "price": 75000,
+      "costPrice": 65000,
+      "stockAfter": 25,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MUSE.AI-31TỶTOKEN(KBH)➕Thêm:20📦Tồnkhohiệntại:25💰Giá:65.000đ"
+    },
+    {
       "id": "hist-1793153349636",
       "time": "09:09 - 28/10/2026",
       "name": "Capcut Pro Team 6 Tháng BHF",
@@ -12075,17 +12088,6 @@
       "stockAfter": 23,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793124396993",
-      "time": "01:06 - 28/10/2026",
-      "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 130,
-      "catKey": "google-veo",
-      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H💰Giá:45k📦Tồnkho:130tàikhoản📊Đãbán:6"
     }
   ]
 }
