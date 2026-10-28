@@ -9155,16 +9155,16 @@
         "id": "p-1792089905786",
         "name": "NORD VPN 10 thiết bị 7 ngày BHF",
         "price": 45000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "7 Ngày",
         "detail": "- Nord Vpn dùng 10 thiết bị 7 ngày bhf\n- Định dạng tk|mk dùng được android ios pc\n- Lấy code tại wed https://mailtemp.vn/ hoặc cutemail.us\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 7,
+            "stock": 8,
             "cost_price": 20000,
             "selling_price": 30000,
-            "updated": "21:08 28/10/2026"
+            "updated": "05:01 29/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 7,
@@ -9178,7 +9178,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 20000,
-          "stock": 7
+          "stock": 8
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -12719,6 +12719,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793224891357",
+      "time": "05:01 - 29/10/2026",
+      "name": "NORD VPN 10 thiết bị 7 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 30000,
+      "costPrice": 20000,
+      "stockAfter": 15,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NORDVPN10thiếtbị7ngàyBHF➕Thêm:12📦Tồnkhohiệntại:8💰Giá:20.000đ"
+    },
+    {
       "id": "hist-1793224635473",
       "time": "04:57 - 29/10/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -13806,17 +13817,6 @@
       "stockAfter": 37,
       "catKey": "expressvpn",
       "msgKey": "🚚🔥ExpressVPN1ThángBHF➕Thêm:1📦Tồnkhohiệntại:9💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1793206263964",
-      "time": "23:51 - 28/10/2026",
-      "name": "EXPRESS VPN 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 39,
-      "catKey": "expressvpn",
-      "msgKey": "🚚EXPRESSVPN1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:9💰Giá:65.000đ"
     }
   ]
 }
