@@ -101,8 +101,8 @@
         "id": "p-1792094916011",
         "name": "Tài khoản VieON VIP 3 Tháng BHF",
         "price": 100000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "3 Tháng",
         "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời\n✏️",
         "sources": {
@@ -111,14 +111,20 @@
             "cost_price": 90000,
             "selling_price": 100000,
             "updated": "11:25 28/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 55000,
+            "selling_price": 65000,
+            "updated": "11:25 28/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 90000,
-        "import_note": "Nhập: @sieuthistore_bot",
+        "cost_price": 55000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 90000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 55000,
           "stock": 3
         },
         "needs_review": false
@@ -11310,6 +11316,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793161557193",
+      "time": "11:25 - 28/10/2026",
+      "name": "Tài khoản VieON VIP 3 tháng bhf",
+      "bot": "taphoathomap_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 6,
+      "catKey": "vieon",
+      "msgKey": "⭐TàikhoảnVieONVIP3thángbhf➕Thêm:1📦Tồnkhohiệntại:3💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793161553211",
       "time": "11:25 - 28/10/2026",
       "name": "Tài khoản VieON VIP 3 Tháng BHF",
@@ -12397,17 +12414,6 @@
       "stockAfter": 14,
       "catKey": "zoom",
       "msgKey": "⭐ZoomPro28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793128329969",
-      "time": "02:12 - 28/10/2026",
-      "name": "Acc cấp Zoom Pro 28 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 4,
-      "catKey": "zoom",
-      "msgKey": "⭐AcccấpZoomPro28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:65.000đ"
     }
   ]
 }
