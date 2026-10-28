@@ -11199,21 +11199,23 @@
         "stock": 2,
         "stock_text": "Còn 2",
         "duration": "1 Tháng",
-        "detail": "Tài khoản cấp sẵn Zoom Pro 14 Ngày 100 members, hàng renew sau 14 ngày nên là khách hàng vui lòng không đổi pass\nĐịnh dạng: Email|Pass|Web Mail",
+        "detail": "Tài khoản cấp sẵn Zoom Pro 14 Ngày 100 members, hàng renew sau 14 ngày nên là khách hàng vui lòng không đổi pass\nĐịnh dạng: Email|Pass|Web Mail\n✏️",
         "sources": {
           "ntnshopre_bot": {
             "stock": 2,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "09:40 22/10/2026"
+            "updated": "18:33 28/10/2026"
           }
         },
         "hidden": false,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 40000
-        }
+          "cost_price": 40000,
+          "stock": 2
+        },
+        "needs_review": false
       },
       {
         "id": "p-1793174998607",
@@ -12224,6 +12226,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793187205574",
+      "time": "18:33 - 28/10/2026",
+      "name": "ACC ZOOM PRO 14 NGÀY BHF",
+      "bot": "ntnshopre_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 2,
+      "catKey": "zoom",
+      "msgKey": "⭐ACCZOOMPRO14NGÀYBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:40.000đ"
+    },
     {
       "id": "hist-1793187199685",
       "time": "18:33 - 28/10/2026",
@@ -13312,17 +13325,6 @@
       "stockAfter": 5,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTVerStudentsofferPlus4ThángKBH➕Thêm:5📦Tồnkhohiệntại:5💰Giá:450.000đ"
-    },
-    {
-      "id": "hist-1793177812579",
-      "time": "15:56 - 28/10/2026",
-      "name": "Capcut Pro 1 Tháng BH 30 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 2,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutPro1ThángBH30Ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:60.000đ"
     }
   ]
 }
