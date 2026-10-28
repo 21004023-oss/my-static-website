@@ -5218,16 +5218,16 @@
         "id": "p-1792171951020",
         "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
         "price": 170000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 7,
+        "stock_text": "Còn 7",
         "duration": "1 Tháng",
-        "detail": "ACC KLING STAND RANDOM 700-750 CREDITS",
+        "detail": "ACC KLING STAND RANDOM 700-750 CREDITS\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 1,
+            "stock": 6,
             "cost_price": 150000,
             "selling_price": 170000,
-            "updated": "13:34 18/10/2026"
+            "updated": "20:07 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 1,
@@ -5236,13 +5236,14 @@
             "selling_price": 145000
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "cost_price": 150000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "cost_price": 125000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 150000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 125000,
+          "stock": 1
         }
       },
       {
@@ -12350,6 +12351,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793192867865",
+      "time": "20:07 - 28/10/2026",
+      "name": "KLING 792-992 cre 1 tháng ( BH 24h )",
+      "bot": "ntnshopre_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 7,
+      "catKey": "kling",
+      "msgKey": "🎬KLING792-992cre1tháng(BH24h)➕Thêm:5📦Tồnkhohiệntại:6💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793192863372",
       "time": "20:07 - 28/10/2026",
       "name": "Kling 790-1k Credit 1 tháng BH 1 Ngày",
@@ -13437,17 +13449,6 @@
       "stockAfter": 4,
       "catKey": "kling",
       "msgKey": "🎬KlingStandrandom800-1000credit1THBH1ngày➕Thêm:4📦Tồnkhohiệntại:4💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1793183043362",
-      "time": "17:24 - 28/10/2026",
-      "name": "Kling Stand random 800-1000 credit 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 4,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandrandom800-1000credit1THBH1ngày💰Giá:115k📦Tồnkho:4tàikhoản📊Đãbán:44tàik"
     }
   ]
 }
