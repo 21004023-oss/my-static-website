@@ -11846,24 +11846,26 @@
         "name": "Tài khoản Newtake ai Credits 19$ starter Plan 1 tháng ( BH 24H )",
         "price": 135000,
         "cost_price": 115000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 65,
+        "stock_text": "Còn 65",
         "duration": "1 Tháng",
-        "detail": "Tài khoản https://www.newtake.ai/ 2K Credits 19$ starter Plan\nTạo video AI siêu nhanh!\n✅ Model hot Seedance 2.5 + Kling 3.0\n✅ Tạo video cinematic, anime\n🔗 Đăng nhập bằng email: https://www.newtake.ai/\n📧 Định dạng: email|Link lấy code|",
+        "detail": "Tài khoản https://www.newtake.ai/ 2K Credits 19$ starter Plan\nTạo video AI siêu nhanh!\n✅ Model hot Seedance 2.5 + Kling 3.0\n✅ Tạo video cinematic, anime\n🔗 Đăng nhập bằng email: https://www.newtake.ai/\n📧 Định dạng: email|Link lấy code|\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 20,
+            "stock": 65,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "19:45 21/10/2026"
+            "updated": "17:35 28/10/2026"
           }
         },
         "hidden": false,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 115000
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 115000,
+          "stock": 65
+        },
+        "needs_review": false
       },
       {
         "id": "p-1793124411843",
@@ -12134,6 +12136,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793183742985",
+      "time": "17:35 - 28/10/2026",
+      "name": "Tài khoản Newtake ai Credits 19$ starter Plan 1 tháng ( BH 24H )",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 65,
+      "catKey": "khac",
+      "msgKey": "TàikhoảnNewtakeaiCredits19$starterPlan1tháng(BH24H)➕Thêm:66📦Tồnkhohiệntại:65💰Giá"
+    },
     {
       "id": "hist-1793183513671",
       "time": "17:31 - 28/10/2026",
@@ -13222,17 +13235,6 @@
       "stockAfter": 0,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusUIP1ThángKBH➕Thêm:9📦Tồnkhohiệntại:0💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1793171732073",
-      "time": "14:15 - 28/10/2026",
-      "name": "HMA VPN Androi/PC/IOS 30 ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 12,
-      "catKey": "hma-vpn",
-      "msgKey": "⭐HMAVPNAndroi/PC/IOS30ngàyBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:35.000đ"
     }
   ]
 }
