@@ -11444,10 +11444,47 @@
         "import_note": "Nhập: @toki_shopmmo_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793166872000",
+        "name": "Iqiyi Cao Cấp 1 Tháng BHF",
+        "price": 48000,
+        "cost_price": 38000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "Slot iqiyi cấp sẵn xem 1 thiết bị đồng thời\nbảo hành full gói 1 tháng\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 38000,
+            "selling_price": 48000,
+            "updated": "12:54 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 38000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793166872000",
+      "time": "12:54 - 28/10/2026",
+      "name": "Iqiyi Cao Cấp 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 48000,
+      "costPrice": 38000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "msgKey": "⭐IqiyiCaoCấp1ThángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:38.000đ"
+    },
     {
       "id": "hist-1793166686050",
       "time": "12:51 - 28/10/2026",
@@ -12536,17 +12573,6 @@
       "stockAfter": 25,
       "catKey": "muse-ai",
       "msgKey": "⭐MUSE.AI-31TỶTOKEN(KBH)➕Thêm:20📦Tồnkhohiệntại:25💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793153349636",
-      "time": "09:09 - 28/10/2026",
-      "name": "Capcut Pro Team 6 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 390000,
-      "costPrice": 340000,
-      "stockAfter": 4,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProTeam6ThángBHF➕Thêm:2📦Tồnkhohiệntại:4💰Giá:340.000đ"
     }
   ]
 }
