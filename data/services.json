@@ -5112,6 +5112,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793159499689",
+        "name": "Kling Ultra 50k credit 1TH BH 2D",
+        "price": 2550000,
+        "cost_price": 2200000,
+        "stock": 41,
+        "stock_text": "Còn 41",
+        "duration": "1 Tháng",
+        "detail": "- Hàng không sẵn, order trả trong 3-5 tiếng\nLưu ý: Cân nhắc trước khi mua, đã mua là shop sẽ ghi nhận đơn hàng và bấm thanh toán. Sẽ không hoàn tiền sau khi mua\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 41,
+            "cost_price": 2200000,
+            "selling_price": 2550000,
+            "updated": "10:51 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 2200000,
+          "stock": 41
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11173,6 +11199,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793159499689",
+      "time": "10:51 - 28/10/2026",
+      "name": "Kling Ultra 50k credit 1TH BH 2D",
+      "bot": "taphoathomap_bot",
+      "price": 2550000,
+      "costPrice": 2200000,
+      "stockAfter": 41,
+      "catKey": "kling",
+      "msgKey": "🎬KlingUltra50kcredit1THBH2D➕Thêm:41📦Tồnkhohiệntại:41💰Giá:2.200.000đ"
+    },
+    {
       "id": "hist-1793159462817",
       "time": "10:51 - 28/10/2026",
       "name": "Link Gemini Pro 18 Tháng",
@@ -12260,17 +12297,6 @@
       "stockAfter": 0,
       "catKey": "muse-ai",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI31TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:20💵Giáchỉ:29.000đ🎁K"
-    },
-    {
-      "id": "hist-1793125821462",
-      "time": "01:30 - 28/10/2026",
-      "name": "Spotify Premium (IOS) 3TH BHF",
-      "bot": "taphoathomap_bot",
-      "price": 95000,
-      "costPrice": 85000,
-      "stockAfter": -1,
-      "catKey": "spotify",
-      "msgKey": "⭐SpotifyPremium(IOS)3THBHF💰Giá:85k📦Tồnkho:∞tàikhoản📊Đãbán:1tàikhoản💎Môtả:-YÊUCẦU"
     }
   ]
 }
