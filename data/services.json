@@ -8259,9 +8259,9 @@
         "id": "p-1793153475761",
         "name": "🔥Express VPN 1 Tháng BHF",
         "price": 105000,
-        "cost_price": 65000,
-        "stock": 33,
-        "stock_text": "Còn 33",
+        "cost_price": 60000,
+        "stock": 44,
+        "stock_text": "Còn 44",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Email | Pass\n- Plan: Random Basic, Advanced, Pro\n- Đăng nhập và sử dụng qua App Express VPN\n✏️",
         "sources": {
@@ -8282,14 +8282,20 @@
             "cost_price": 95000,
             "selling_price": 105000,
             "updated": "09:11 28/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 11,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "09:11 28/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 65000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 60000,
           "stock": 11
         },
-        "import_note": "Nhập: @ntnshopre_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -11028,6 +11034,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793153492943",
+      "time": "09:11 - 28/10/2026",
+      "name": "🔥Express VPN 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 44,
+      "catKey": "expressvpn",
+      "msgKey": "🚚🔥ExpressVPN1ThángBHF➕Thêm:1📦Tồnkhohiệntại:11💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1793153487811",
       "time": "09:11 - 28/10/2026",
       "name": "Express VPN 1 Tháng BHF",
@@ -12115,17 +12132,6 @@
       "stockAfter": 202,
       "catKey": "google-veo",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:3📦Tồnkhohiệntại:130💰Giá:29.000đ"
-    },
-    {
-      "id": "hist-1793124415806",
-      "time": "01:06 - 28/10/2026",
-      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 39000,
-      "costPrice": 29000,
-      "stockAfter": 203,
-      "catKey": "google-veo",
-      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H💰Giá:29k📦Tồnkho:131tàikhoản📊Đãbán:6.674tàikhoản💎Mô"
     }
   ]
 }
