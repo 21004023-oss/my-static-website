@@ -1172,25 +1172,26 @@
         "id": "p-1791879689407",
         "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
         "price": 280000,
-        "stock": 51,
-        "stock_text": "Còn 51",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
-        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Date radom 25 - 30 ngày\n4. Chỉ bảo hành tài khoản vô hiệu hóa, thay đổi thông tin lỗi - KBH\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n✅ Hiện tại, việc đổi PASS cần OTP nên không đổi được, còn nếu đổi 2FA có thể lỗi OTP gmail, khách hàng có thể cân nhắc không đổi và cứ việc dùng",
+        "detail": "🔐 Tài khoản riêng tư — Được đổi Pass & 2FA.\n📂 Định dạng: Email | Pass | 2FA\n🚀 Sử dụng Codex thoải mái (khách tự xác minh SĐT).\n⚠️ LƯU Ý QUAN TRỌNG\n1. Không được sử dụng 9Router.\n2. Đổi 2FA ngay sau khi mua. Không đổi dẫn đến lỗi/mất tài khoản → Shop không chịu trách nhiệm.\n3. Thao tác đổi 2FA phải nhanh chóng. Lỗi OTP Gmail trong quá trình đổi → Không bảo hành (xem video hướng dẫn).\n🚨 Tài khoản đã kiểm tra trước khi bán, nên ai mà đăng nhập kêu bị OTP gmail thì đừng có nhắn tin, lỗi đổi 2fa otp gmail shop không hỗ trợ. Bạn có thể cân nhắc đổi hoặc không, shop chỉ muốn hợp tác với người trung thực, có trách nhiệm.\n🎥 HƯỚNG DẪN ĐỔI 2FA\nhttps://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link\n🎁 Khuyến mãi:\n- Mua từ 50 giá 180k\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 51,
-            "cost_price": 240000,
-            "selling_price": 270000,
-            "updated": "14:54 22/10/2026"
+            "stock": 20,
+            "cost_price": 200000,
+            "selling_price": 220000,
+            "updated": "08:59 28/10/2026"
           }
         },
-        "cost_price": 240000,
-        "needs_review": true,
-        "hidden": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "cost_price": 200000,
+        "needs_review": false,
+        "hidden": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 240000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 200000,
+          "stock": 20
         }
       },
       {
@@ -10977,6 +10978,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793152776949",
+      "time": "08:59 - 28/10/2026",
+      "name": "🔥VIP . Chatgpt Plus Apple Pay 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 220000,
+      "costPrice": 200000,
+      "stockAfter": 20,
+      "catKey": "chatgpt",
+      "msgKey": "🤖🔥VIP.ChatgptPlusApplePay1thángBHF➕Thêm:20📦Tồnkhohiệntại:20💰Giá:200.000đ"
+    },
+    {
       "id": "hist-1793150827411",
       "time": "08:27 - 28/10/2026",
       "name": "ChatGPT Plus UIP 1 Tháng KBH",
@@ -12073,20 +12085,6 @@
       "catKey": "ai-video-voice",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🎙️(Góichínhhãng)ElevanLabs131KCredit1Tháng(BH3D)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:120."
-    },
-    {
-      "id": "hist-1792655671150",
-      "time": "14:54 - 22/10/2026",
-      "timestamp": 1792655671150,
-      "name": "Tài khoản VieON VIP 10 ngày BHF",
-      "bot": "taphoathomap_bot",
-      "shopStock": 1,
-      "addedQty": 1,
-      "price": 20000,
-      "stockAfter": 1,
-      "catKey": "netflix",
-      "source": "Telegram @taphoathomap_bot",
-      "msgKey": "⭐TàikhoảnVieONVIP10ngàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:10.000đ"
     }
   ]
 }
