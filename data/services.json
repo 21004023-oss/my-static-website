@@ -11924,23 +11924,29 @@
         "id": "p-1791952453245",
         "name": "Tiktok Việt ngâm trên 1 Năm",
         "price": 95000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Năm",
         "detail": "ĐỊNH DẠNG : ID | Pass | Email | Pass Email\nBẢO HÀNH SAI THÔNG TIN - ĐÌNH CHỈ -Trong ( 24H)\nTIKTOK VIỆT ĐÃ NGÂM 1 NĂM BẤT TỬ , HÀNG CỰC HIẾM , HÀNG NUÔI PHONE SẠCH UP CLIP REAL KHÔNG DÙNG TOOL 10 - 2000 Theo Dõi Thật 100% KHÔNG BUFF - Trong Kênh Có CLIP - XÂY KÊNH DỄ LÊN VIEW - CAM KẾT BÊN MÌNH CHƯA LỌC HÀNG , CÓ NHIỀU NICK RẤT NGON ĐÃ LÊN XU HƯỚNG SẴN\n- Lấy code đăng nhập mã tại : hotmail.com\n✏️",
-        "cost_price": 85000,
+        "cost_price": 60000,
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 85000,
-          "stock": 3
+          "bot": "@taphoathomap_bot",
+          "cost_price": 60000,
+          "stock": 2
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "sources": {
           "piggyai99_bot": {
             "stock": 3,
             "cost_price": 85000,
             "selling_price": 95000,
             "updated": "09:18 28/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "05:49 29/10/2026"
           }
         },
         "hidden": false,
@@ -12744,6 +12750,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793227769886",
+      "time": "05:49 - 29/10/2026",
+      "name": "Tiktok Việt ngâm trên 1 Năm",
+      "bot": "taphoathomap_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 5,
+      "catKey": "tiktok",
+      "msgKey": "🎵TiktokViệtngâmtrên1Năm➕Thêm:3📦Tồnkhohiệntại:2💰Giá:60.000đ"
+    },
     {
       "id": "hist-1793227439169",
       "time": "05:43 - 29/10/2026",
@@ -13832,17 +13849,6 @@
       "stockAfter": 577,
       "catKey": "gmail",
       "msgKey": "📧GmailViệt2020-2024➕Thêm:57📦Tồnkhohiệntại:57💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793207811081",
-      "time": "00:16 - 29/10/2026",
-      "name": "Gmail random new",
-      "bot": "sieuthistore_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 40,
-      "catKey": "gmail",
-      "msgKey": "📧Gmailrandomnew➕Thêm:7📦Tồnkhohiệntại:29💰Giá:25.000đ"
     }
   ]
 }
