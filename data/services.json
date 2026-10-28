@@ -5187,8 +5187,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 36,
-        "stock_text": "Còn 36",
+        "stock": 26,
+        "stock_text": "Còn 26",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -5199,10 +5199,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 34,
+            "stock": 24,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "23:57 28/10/2026"
+            "updated": "06:26 29/10/2026"
           }
         },
         "hidden": false,
@@ -5211,7 +5211,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 34
+          "stock": 24
         }
       },
       {
@@ -12763,6 +12763,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793229971218",
+      "time": "06:26 - 29/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 26,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:24💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793229390471",
       "time": "06:16 - 29/10/2026",
       "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
@@ -13850,17 +13861,6 @@
       "stockAfter": 9,
       "catKey": "microsoft",
       "msgKey": "⭐Microsoft365AdminFamily1ThángBHF➕Thêm:5📦Tồnkhohiệntại:9💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793216597853",
-      "time": "02:43 - 29/10/2026",
-      "name": "Photoroom Max 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 10,
-      "catKey": "photoroom",
-      "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:15.000đ"
     }
   ]
 }
