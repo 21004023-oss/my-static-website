@@ -12408,10 +12408,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793208027226",
+        "name": "Dreamina Advanced 21k cre 1 tháng bh 3 ngày",
+        "price": 1300000,
+        "cost_price": 1100000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "LOG TRỰC TIẾP TẠI\nhttps://dreamina.capcut.com/ai-tool/home\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 1100000,
+            "selling_price": 1300000,
+            "updated": "00:20 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 1100000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793208027226",
+      "time": "00:20 - 29/10/2026",
+      "name": "Dreamina Advanced 21k cre 1 tháng bh 3 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 1300000,
+      "costPrice": 1100000,
+      "stockAfter": 1,
+      "catKey": "khac",
+      "msgKey": "⭐DreaminaAdvanced21kcre1thángbh3ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:1.100.000đ"
+    },
     {
       "id": "hist-1793207874747",
       "time": "00:17 - 29/10/2026",
@@ -13500,17 +13537,6 @@
       "stockAfter": 145,
       "catKey": "google-veo",
       "msgKey": "☁️🔥LinkGeminiPro18ThángBH12H➕Thêm:50📦Tồnkhohiệntại:75💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1793198758644",
-      "time": "21:45 - 28/10/2026",
-      "name": "Higgfield GenJutsu 720p 1th BH 1h",
-      "bot": "taphoathomap_bot",
-      "price": 39000,
-      "costPrice": 29000,
-      "stockAfter": 59,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggfieldGenJutsu720p1thBH1h💰Giá:29k📦Tồnkho:59tàikhoản📊Đãbán:560tàikhoản💎Môtả:T"
     }
   ]
 }
