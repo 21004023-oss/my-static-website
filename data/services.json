@@ -8138,6 +8138,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 150000
         }
+      },
+      {
+        "id": "p-1793192398858",
+        "name": "Adobe Express Premium 12 tháng  KBH",
+        "price": 55000,
+        "cost_price": 45000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "1 Năm",
+        "detail": "• Link chỉ dành cho tài khoản chưa từng tạo Adobe\n• Không cần thêm phương thức thanh toán\n• Lưu ý đây là bản Adobe Express\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 8,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "19:59 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 45000,
+          "stock": 8
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12323,6 +12349,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793192398858",
+      "time": "19:59 - 28/10/2026",
+      "name": "Adobe Express Premium 12 tháng  KBH",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 8,
+      "catKey": "adobe",
+      "msgKey": "🎨AdobeExpressPremium12thángKBH➕Thêm:10📦Tồnkhohiệntại:8💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793192325369",
       "time": "19:58 - 28/10/2026",
       "name": "Key Microsoft office 2024 Pro Plus 10 năm BH 1 năm",
@@ -13410,17 +13447,6 @@
       "stockAfter": 0,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)2FA-LoginAll➕Thêm:3📦Tồnkhohiệntại:0💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793182265335",
-      "time": "17:11 - 28/10/2026",
-      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 32000,
-      "costPrice": 22000,
-      "stockAfter": 150,
-      "catKey": "google-veo",
-      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:50📦Tồnkhohiệntại:78💰Giá:22.000đ"
     }
   ]
 }
