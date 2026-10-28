@@ -4498,9 +4498,9 @@
         "id": "p-1793180345574",
         "name": "🔥 Link Gemini Pro 18 Tháng BH 12H",
         "price": 65000,
-        "cost_price": 55000,
-        "stock": 65,
-        "stock_text": "Còn 65",
+        "cost_price": 22000,
+        "stock": 130,
+        "stock_text": "Còn 130",
         "duration": "1 Tháng",
         "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.\n✏️",
         "sources": {
@@ -4509,14 +4509,20 @@
             "cost_price": 55000,
             "selling_price": 65000,
             "updated": "16:39 28/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 65,
+            "cost_price": 22000,
+            "selling_price": 32000,
+            "updated": "16:39 28/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 55000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 22000,
           "stock": 65
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -12118,6 +12124,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793180350825",
+      "time": "16:39 - 28/10/2026",
+      "name": "🔥 Link Gemini Pro 18 Tháng BH 12H",
+      "bot": "taphoathomap_bot",
+      "price": 32000,
+      "costPrice": 22000,
+      "stockAfter": 130,
+      "catKey": "google-veo",
+      "msgKey": "☁️🔥LinkGeminiPro18ThángBH12H➕Thêm:3📦Tồnkhohiệntại:65💰Giá:22.000đ"
+    },
+    {
       "id": "hist-1793180345574",
       "time": "16:39 - 28/10/2026",
       "name": "🔥 Link Gemini Pro 18 Tháng BH 12H",
@@ -13205,17 +13222,6 @@
       "stockAfter": 26,
       "catKey": "microsoft",
       "msgKey": "⭐KeyMicrosoftoffice2024ProPlus10nămBH1năm➕Thêm:10📦Tồnkhohiệntại:26💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793168651114",
-      "time": "13:24 - 28/10/2026",
-      "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 59,
-      "catKey": "google-veo",
-      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:1📦Tồnkhohiệntại:59💰Giá:45.000"
     }
   ]
 }
