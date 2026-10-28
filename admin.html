@@ -17,6 +17,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <style>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
 
     :root[data-theme="light"] {
 
@@ -3326,6 +3328,397 @@
 
 
 
+
+/* ==========================================================================
+   ✨ ULTRA-MODERN SAAS UI REFINEMENT (100% PURE CSS - ZERO LOGIC CHANGE)
+   ========================================================================== */
+
+* {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  box-sizing: border-box;
+}
+
+body {
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Slim Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.6);
+}
+
+/* 1. Header & Brand */
+.admin-header {
+  backdrop-filter: blur(12px) !important;
+  background: rgba(255, 255, 255, 0.88) !important;
+  border-bottom: 1px solid var(--card-border) !important;
+  padding: 12px 24px !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04) !important;
+}
+:root[data-theme="dark"] .admin-header {
+  background: rgba(30, 41, 59, 0.92) !important;
+}
+
+.brand-wrap .brand-logo {
+  width: 38px !important;
+  height: 38px !important;
+  border-radius: 10px !important;
+  background: linear-gradient(135deg, #0284c7, #2563eb) !important;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.brand-text h1 {
+  font-size: 17px !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.02em !important;
+}
+.brand-text p {
+  font-size: 11.5px !important;
+  font-weight: 500 !important;
+  color: var(--text-muted) !important;
+}
+
+/* 2. Topbar Buttons */
+.header-actions {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  flex-wrap: wrap !important;
+}
+
+.header-actions .btn {
+  border-radius: 10px !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  padding: 7px 14px !important;
+  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05) !important;
+}
+
+.header-actions .btn:hover {
+  transform: translateY(-1.5px) !important;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08) !important;
+}
+
+.header-actions #btnSaveGitHub {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8) !important;
+  color: #ffffff !important;
+  border: none !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35) !important;
+}
+.header-actions #btnSaveGitHub:hover {
+  background: linear-gradient(135deg, #1d4ed8, #1e40af) !important;
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.45) !important;
+}
+
+/* 3. KPI Stat Cards (Bento SaaS Style) */
+.stats-grid {
+  gap: 14px !important;
+  padding: 18px 24px 8px 24px !important;
+}
+
+.stat-card {
+  border-radius: 16px !important;
+  border: 1px solid var(--card-border) !important;
+  background: var(--card-bg) !important;
+  padding: 16px 18px !important;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04) !important;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px -4px rgba(0,0,0,0.08) !important;
+  border-color: rgba(37, 99, 235, 0.4) !important;
+}
+
+.stat-info p {
+  font-size: 11.5px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.04em !important;
+  color: var(--text-muted) !important;
+  margin-bottom: 6px !important;
+}
+
+.stat-info h3 {
+  font-size: 26px !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.03em !important;
+}
+
+.stat-icon {
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 12px !important;
+  font-size: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* 4. Segmented Control Tabs */
+.tab-bar {
+  background: var(--card-bg) !important;
+  border: 1px solid var(--card-border) !important;
+  border-radius: 14px !important;
+  padding: 5px !important;
+  margin: 12px 24px !important;
+  gap: 6px !important;
+  display: inline-flex !important;
+  flex-wrap: wrap !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04) !important;
+}
+
+.tab-btn {
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 8px 16px !important;
+  font-size: 12.5px !important;
+  font-weight: 600 !important;
+  color: var(--text-muted) !important;
+  background: transparent !important;
+  transition: all 0.18s ease !important;
+  cursor: pointer !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.tab-btn:hover {
+  color: var(--text) !important;
+  background: rgba(148, 163, 184, 0.12) !important;
+}
+
+.tab-btn.active {
+  background: var(--primary) !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  box-shadow: 0 2px 8px rgba(2, 132, 199, 0.35) !important;
+}
+
+.tab-badge {
+  font-size: 10.5px !important;
+  font-weight: 700 !important;
+  padding: 2px 7px !important;
+  border-radius: 999px !important;
+  background: rgba(0, 0, 0, 0.15) !important;
+  color: inherit !important;
+}
+.tab-btn:not(.active) .tab-badge {
+  background: rgba(148, 163, 184, 0.2) !important;
+  color: var(--text-muted) !important;
+}
+
+/* 5. Sidebar Danh Mục (57 Hãng) */
+.cat-sidebar {
+  border-radius: 16px !important;
+  border: 1px solid var(--card-border) !important;
+  background: var(--card-bg) !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04) !important;
+  overflow: hidden !important;
+}
+
+.sidebar-head {
+  padding: 14px 16px !important;
+  border-bottom: 1px solid var(--card-border) !important;
+}
+.sidebar-head h4 {
+  font-size: 13.5px !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.01em !important;
+}
+
+.sidebar-search-inp {
+  width: 100% !important;
+  padding: 7px 12px !important;
+  border-radius: 10px !important;
+  border: 1px solid var(--card-border) !important;
+  background: var(--input-bg) !important;
+  color: var(--text) !important;
+  font-size: 12px !important;
+  outline: none !important;
+  transition: all 0.15s ease !important;
+}
+.sidebar-search-inp:focus {
+  border-color: var(--primary) !important;
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15) !important;
+}
+
+.cat-list {
+  max-height: calc(100vh - 280px) !important;
+  overflow-y: auto !important;
+  padding: 8px !important;
+}
+
+.cat-item {
+  border-radius: 10px !important;
+  padding: 8px 12px !important;
+  font-size: 12.5px !important;
+  font-weight: 500 !important;
+  margin-bottom: 2px !important;
+  transition: all 0.15s ease !important;
+  border: 1px solid transparent !important;
+}
+
+.cat-item:hover {
+  background: rgba(148, 163, 184, 0.1) !important;
+}
+
+.cat-item.active {
+  background: var(--primary-subtle) !important;
+  color: var(--primary) !important;
+  font-weight: 700 !important;
+  border-color: rgba(2, 132, 199, 0.25) !important;
+}
+
+.cat-count {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  padding: 2px 7px !important;
+  border-radius: 999px !important;
+  background: rgba(148, 163, 184, 0.2) !important;
+}
+.cat-item.active .cat-count {
+  background: var(--primary) !important;
+  color: #ffffff !important;
+}
+
+/* 6. Product Table Modernization */
+.catalog-main {
+  border-radius: 16px !important;
+  border: 1px solid var(--card-border) !important;
+  background: var(--card-bg) !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04) !important;
+  overflow: hidden !important;
+}
+
+.table-toolbar {
+  padding: 16px 20px !important;
+  border-bottom: 1px solid var(--card-border) !important;
+  background: var(--card-bg) !important;
+}
+
+.custom-table thead th {
+  background: var(--table-header) !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  color: var(--text-muted) !important;
+  padding: 12px 14px !important;
+  border-bottom: 1px solid var(--card-border) !important;
+}
+
+.custom-table tbody td {
+  padding: 12px 14px !important;
+  border-bottom: 1px solid var(--card-border) !important;
+  vertical-align: middle !important;
+}
+
+.custom-table tbody tr:hover {
+  background: var(--table-row-hover) !important;
+}
+
+/* Price Cell Elegance */
+.price-highlight {
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  color: var(--text) !important;
+  cursor: pointer !important;
+}
+
+.tbl-step-chip {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  padding: 2px 7px !important;
+  border-radius: 6px !important;
+  border: 1px solid var(--card-border) !important;
+  background: var(--card-bg) !important;
+  cursor: pointer !important;
+  transition: all 0.12s ease !important;
+}
+.tbl-step-chip:hover {
+  background: var(--primary) !important;
+  color: #fff !important;
+  border-color: var(--primary) !important;
+}
+.tbl-step-chip:active {
+  transform: scale(0.92) !important;
+}
+
+/* Visibility Eye Toggle Pill */
+.btn-toggle-eye {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  padding: 4px 10px !important;
+  border-radius: 999px !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+}
+.btn-toggle-eye:not(.is-hidden) {
+  background: rgba(16, 185, 129, 0.12) !important;
+  color: #059669 !important;
+  border: 1px solid rgba(16, 185, 129, 0.3) !important;
+}
+.btn-toggle-eye:not(.is-hidden):hover {
+  background: #059669 !important;
+  color: #ffffff !important;
+}
+.btn-toggle-eye.is-hidden {
+  background: rgba(245, 158, 11, 0.12) !important;
+  color: #d97706 !important;
+  border: 1px solid rgba(245, 158, 11, 0.3) !important;
+}
+.btn-toggle-eye.is-hidden:hover {
+  background: #d97706 !important;
+  color: #ffffff !important;
+}
+
+/* 7. Modal Elegance */
+.modal-overlay {
+  backdrop-filter: blur(8px) !important;
+  background: rgba(15, 23, 42, 0.55) !important;
+}
+
+.modal-content {
+  border-radius: 20px !important;
+  border: 1px solid var(--card-border) !important;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.25) !important;
+  overflow: hidden !important;
+}
+
+.modal-header {
+  padding: 16px 20px !important;
+  border-bottom: 1px solid var(--card-border) !important;
+}
+.modal-header h3 {
+  font-size: 15.5px !important;
+  font-weight: 800 !important;
+}
+
+/* Lock Screen Vault */
+.lock-box {
+  border-radius: 24px !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35) !important;
+}
+
 </style>
 
 </head>
@@ -3612,6 +4005,12 @@
 
           <button class="btn btn-primary" style="padding:4px 8px; font-size:11px;" onclick="openAddCatModal()">➕ Thêm</button>
 
+        </div>
+
+        
+        <div class="sidebar-search-wrap" style="padding: 0 12px 10px;">
+          <input type="text" id="catSearchInp" placeholder="🔍 Tìm nhanh 57 danh mục..." oninput="filterSidebarCategories(this.value)" 
+                 class="sidebar-search-inp" autocomplete="off" />
         </div>
 
         <div class="cat-list" id="catList">
@@ -5691,6 +6090,21 @@
     }
 
 
+
+    
+    function filterSidebarCategories(q) {
+      const cleanQ = typeof removeVietnameseTones === 'function' ? removeVietnameseTones((q || '').toLowerCase().trim()) : (q || '').toLowerCase().trim();
+      const items = document.querySelectorAll('#catList .cat-item');
+      items.forEach(item => {
+        if (item.innerText.includes('Tất cả sản phẩm')) {
+          item.style.display = cleanQ ? 'none' : 'flex';
+          return;
+        }
+        const text = typeof removeVietnameseTones === 'function' ? removeVietnameseTones(item.innerText.toLowerCase()) : item.innerText.toLowerCase();
+        item.style.display = text.includes(cleanQ) ? 'flex' : 'none';
+      });
+    }
+    window.filterSidebarCategories = filterSidebarCategories;
 
     function renderCategories() {
 
