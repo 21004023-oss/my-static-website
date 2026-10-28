@@ -11241,8 +11241,8 @@
         "id": "p-1792141367157",
         "name": "JetBrain Edu 1 năm (BHF)",
         "price": 90000,
-        "stock": 13,
-        "stock_text": "Còn 13",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Năm",
         "detail": "💻 JETBRAINS EDUCATION\n✨ Gói JetBrains dành cho học tập, lập trình và phát triển phần mềm.\n✅ Sử dụng bộ IDE JetBrains\n✅ IntelliJ IDEA, PyCharm, WebStorm, CLion, Rider...\n✅ Đầy đủ tính năng phục vụ code chuyên nghiệp\n✅ Phù hợp sinh viên, giáo viên và người học lập trình\n✅ Hỗ trợ nhiều ngôn ngữ và nền tảng phát triển\n🚀 Tối ưu cho học tập, làm bài tập, đồ án và lập trình chuyên sâu.\n📦 **Định dạng:**\nMAIL | PASS JETBRAINS | PASS MAIL\n✅ Mua số lượng nhiều inbox admin giá tốt hơn\n✏️",
         "sources": {
@@ -11253,10 +11253,10 @@
             "updated": "02:21 29/10/2026"
           },
           "piggyai99_bot": {
-            "stock": 3,
+            "stock": 10,
             "cost_price": 70000,
             "selling_price": 80000,
-            "updated": "13:55 28/10/2026"
+            "updated": "02:21 29/10/2026"
           }
         },
         "hidden": false,
@@ -12503,6 +12503,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793215303585",
+      "time": "02:21 - 29/10/2026",
+      "name": "JetBrain Edu 1 năm (BHF)",
+      "bot": "piggyai99_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 20,
+      "catKey": "jetbrains",
+      "msgKey": "⭐JetBrainEdu1năm(BHF)➕Thêm:9📦Tồnkhohiệntại:10💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793215298283",
       "time": "02:21 - 29/10/2026",
       "name": "JetBrain Edu 1 năm (BHF)",
@@ -13590,17 +13601,6 @@
       "stockAfter": 249,
       "catKey": "gmail",
       "msgKey": "📧GMAILUSCỔDATE201X-202X2FA➕Thêm:18📦Tồnkhohiệntại:18💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793200148492",
-      "time": "22:09 - 28/10/2026",
-      "name": "Galaxy Play Siêu Việt 90 ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 4,
-      "catKey": "khac",
-      "msgKey": "⭐GalaxyPlaySiêuViệt90ngàyBHF💰Giá:95k📦Tồnkho:2tàikhoản📊Đãbán:25tàikhoản💎Môtả:1Slo"
     }
   ]
 }
