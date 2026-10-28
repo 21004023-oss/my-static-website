@@ -4631,6 +4631,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793205775210",
+        "name": "ADMIN GEMINI PRO + GOOGLE ONE 5TB 6 THÁNG BẢO HÀNH 24H",
+        "price": 170000,
+        "cost_price": 150000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "6 Tháng",
+        "detail": "- Định dạng: Mail | Pass | 2fa\n- Add được 5 slot cùng hưởng Gemini Pro + GG 5TB trong 6 tháng\n- Bảo hành 24h, khách mua về tự thay đổi thông tin bảo quản tài khoản.\n✏️",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 8,
+            "cost_price": 150000,
+            "selling_price": 170000,
+            "updated": "23:42 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 150000,
+          "stock": 8
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12361,6 +12387,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793205775210",
+      "time": "23:42 - 28/10/2026",
+      "name": "ADMIN GEMINI PRO + GOOGLE ONE 5TB 6 THÁNG BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 8,
+      "catKey": "google-veo",
+      "msgKey": "☁️ADMINGEMINIPRO+GOOGLEONE5TB6THÁNGBẢOHÀNH24H➕Thêm:3📦Tồnkhohiệntại:8💰Giá:150.000"
+    },
+    {
       "id": "hist-1793205757676",
       "time": "23:42 - 28/10/2026",
       "name": "🔥VIP . Chatgpt Plus Apple Pay 1 tháng BHF",
@@ -13448,17 +13485,6 @@
       "stockAfter": 18,
       "catKey": "meitu",
       "msgKey": "✨(OnlyAndroid)MeituVip+30DBHF➕Thêm:1📦Tồnkhohiệntại:18💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1793197564539",
-      "time": "21:26 - 28/10/2026",
-      "name": "( Only Android  ) Meitu Vip+ 30D  BHF",
-      "bot": "taphoathomap_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 18,
-      "catKey": "meitu",
-      "msgKey": "✨(OnlyAndroid)MeituVip+30DBHF💰Giá:50k📦Tồnkho:18tàikhoản📊Đãbán:56tàikhoản💎Môtả:🔥M"
     }
   ]
 }
