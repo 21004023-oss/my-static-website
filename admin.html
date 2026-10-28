@@ -3719,6 +3719,232 @@ body {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35) !important;
 }
 
+
+/* ====================================================================
+   MODERN DESKTOP SAAS DASHBOARD (LINEAR / STRIPE CLEAN DESIGN SYSTEM)
+   ==================================================================== */
+
+/* Slim Alert Banners */
+#noTokenWarningBanner, .conflict-alert-banner {
+  padding: 6px 18px !important;
+  font-size: 12px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+  border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+  line-height: 1.4 !important;
+}
+
+/* Header & Dropdown */
+.admin-header {
+  padding: 10px 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100 !important;
+  backdrop-filter: blur(16px) !important;
+  border-bottom: 1px solid var(--card-border) !important;
+}
+
+.header-actions {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.header-dropdown-wrap {
+  position: relative !important;
+  display: inline-block !important;
+}
+
+.dropdown-menu-saas {
+  position: absolute !important;
+  right: 0 !important;
+  top: calc(100% + 6px) !important;
+  background: var(--card-bg) !important;
+  border: 1px solid var(--card-border) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15) !important;
+  min-width: 230px !important;
+  padding: 6px !important;
+  display: none;
+  flex-direction: column !important;
+  gap: 2px !important;
+  z-index: 9999 !important;
+  animation: dropdownFadeIn 0.15s ease-out !important;
+}
+
+.dropdown-menu-saas.show {
+  display: flex !important;
+}
+
+@keyframes dropdownFadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.dropdown-item-saas {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  padding: 9px 12px !important;
+  font-size: 12.5px !important;
+  font-weight: 600 !important;
+  color: var(--text) !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 8px !important;
+  text-align: left !important;
+  width: 100% !important;
+  cursor: pointer !important;
+  transition: all 0.12s ease !important;
+}
+
+.dropdown-item-saas:hover {
+  background: var(--table-row-hover, rgba(148, 163, 184, 0.12)) !important;
+  color: var(--primary) !important;
+}
+
+.dropdown-divider-saas {
+  height: 1px !important;
+  background: var(--card-border) !important;
+  margin: 4px 6px !important;
+}
+
+/* KPI Metric Strip (Space-Saving 42px Bar) */
+.kpi-strip {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding: 8px 24px !important;
+  background: var(--card-bg) !important;
+  border-bottom: 1px solid var(--card-border) !important;
+  overflow-x: auto !important;
+}
+
+.kpi-chip {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding: 5px 12px !important;
+  border-radius: 8px !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  background: var(--input-bg, rgba(241, 245, 249, 0.7)) !important;
+  border: 1px solid var(--card-border) !important;
+  color: var(--text-muted) !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+  white-space: nowrap !important;
+}
+
+.kpi-chip:hover {
+  border-color: var(--primary) !important;
+  background: var(--primary-subtle, rgba(2, 132, 199, 0.08)) !important;
+  color: var(--text) !important;
+}
+
+.kpi-chip strong {
+  font-size: 13.5px !important;
+  font-weight: 800 !important;
+  color: var(--text) !important;
+}
+
+.kpi-chip.kpi-active strong { color: var(--emerald) !important; }
+.kpi-chip.kpi-hidden strong { color: var(--amber) !important; }
+.kpi-chip.kpi-out strong { color: var(--rose) !important; }
+.kpi-chip.kpi-alert strong { color: #f43f5e !important; }
+
+/* Navigation Tab Bar */
+.tab-bar {
+  margin: 10px 24px 6px 24px !important;
+  padding: 4px !important;
+}
+
+/* Category Sidebar & Catalog Table Viewport */
+.main-wrap {
+  padding: 6px 24px 20px 24px !important;
+}
+
+.cat-list {
+  max-height: calc(100vh - 235px) !important;
+}
+
+.catalog-main {
+  display: flex !important;
+  flex-direction: column !important;
+  max-height: calc(100vh - 235px) !important;
+}
+
+.table-scroll-container {
+  overflow-y: auto !important;
+  overflow-x: auto !important;
+  flex: 1 !important;
+  max-height: calc(100vh - 330px) !important;
+}
+
+.custom-table thead th {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 10 !important;
+  background: var(--table-header) !important;
+}
+
+/* Compact Toolbar */
+.table-toolbar {
+  padding: 10px 16px !important;
+  border-bottom: 1px solid var(--card-border) !important;
+}
+
+.toolbar-filter-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 12px !important;
+  flex-wrap: wrap !important;
+}
+
+.status-pills-group {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+  background: var(--input-bg, rgba(241, 245, 249, 0.6)) !important;
+  padding: 3px !important;
+  border-radius: 10px !important;
+  border: 1px solid var(--card-border) !important;
+}
+
+.status-pill-item {
+  border: none !important;
+  background: transparent !important;
+  padding: 4px 10px !important;
+  border-radius: 7px !important;
+  font-size: 11.5px !important;
+  font-weight: 600 !important;
+  color: var(--text-muted) !important;
+  cursor: pointer !important;
+  transition: all 0.14s ease !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+}
+
+.status-pill-item:hover {
+  color: var(--text) !important;
+  background: rgba(148, 163, 184, 0.15) !important;
+}
+
+.status-pill-item.active {
+  background: var(--card-bg) !important;
+  color: var(--text) !important;
+  font-weight: 700 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+
 </style>
 
 </head>
@@ -3824,131 +4050,80 @@ body {
 
 
     <div class="header-actions">
+      <!-- Nút xem Web -->
+      <a href="index.html" target="_blank" class="btn btn-outline" style="padding:6px 12px; font-size:12px; font-weight:600;" title="Mở trang chủ khách hàng">
+        👁️ Xem Web
+      </a>
 
-      <!-- Nút đổi Theme -->
-
-      <button class="btn btn-outline" id="btnThemeToggle" onclick="toggleTheme()" title="Đổi màu giao diện Sáng / Tối">
-
-        ☀️ Giao Diện Sáng
-
-      </button>
-
-
-
-      <button class="btn btn-primary" id="btnSaveGitHub" onclick="saveDirectToGitHub(false)">
-
+      <!-- Nút Lưu GitHub (Primary Action) -->
+      <button class="btn btn-primary" id="btnSaveGitHub" onclick="saveDirectToGitHub(false)" style="padding:7px 16px; font-size:12.5px; font-weight:700;">
         🚀 Lưu lên GitHub
-
       </button>
 
-      <button class="btn btn-success" onclick="exportToExcelCSV()">
+      <!-- Dropdown Tiện ích & Cài đặt (Gom 6 nút phụ) -->
+      <div class="header-dropdown-wrap">
+        <button class="btn btn-outline" id="btnToolsDropdown" onclick="toggleToolsDropdown(event)" style="padding:6px 12px; font-size:12px; font-weight:600; display:inline-flex; align-items:center; gap:6px;">
+          <span>⚙️ Tiện Ích & Dữ Liệu</span>
+          <span style="font-size:10px; opacity:0.7;">▼</span>
+        </button>
 
-        📊 Xuất Excel (CSV)
+        <div class="dropdown-menu-saas" id="toolsDropdownMenu">
+          <button class="dropdown-item-saas" onclick="openBulkModal(); toggleToolsDropdown();">
+            <span>⚡</span> <span>Sửa Hàng Loạt</span>
+          </button>
+          <button class="dropdown-item-saas" onclick="exportToExcelCSV(); toggleToolsDropdown();">
+            <span>📊</span> <span>Xuất Excel (CSV)</span>
+          </button>
+          <button class="dropdown-item-saas" onclick="openBenchmarkModal(); toggleToolsDropdown();">
+            <span>⚖️</span> <span>Bảng Chuẩn & 7 Bot</span>
+          </button>
+          <div class="dropdown-divider-saas"></div>
+          <button class="dropdown-item-saas" onclick="openTokenModal(); toggleToolsDropdown();">
+            <span>🔑</span> <span>Cài Đặt Token GitHub</span>
+          </button>
+          <button class="dropdown-item-saas" onclick="triggerImportFile(); toggleToolsDropdown();">
+            <span>📁</span> <span>Nạp Dữ Liệu (JSON)</span>
+          </button>
+          <button class="dropdown-item-saas" onclick="downloadJSON(); toggleToolsDropdown();">
+            <span>💾</span> <span>Sao Lưu (Tải JSON)</span>
+          </button>
+        </div>
+      </div>
 
+      <!-- Theme & Khóa -->
+      <button class="btn btn-outline" id="btnThemeToggle" onclick="toggleTheme()" title="Đổi màu giao diện Sáng / Tối" style="padding:6px 10px; font-size:13px;">
+        ☀️
       </button>
 
-      <button class="btn btn-outline" style="border-color:#38bdf8; color:#38bdf8; font-weight:700;" onclick="openBenchmarkModal()" title="Xem Bảng Giá Chuẩn Trang Chủ & So Sánh 7 Bot Rẻ Nhất">
-
-        ⚖️ Bảng Chuẩn & Bot
-
+      <button class="btn btn-outline" style="padding:6px 10px; font-size:13px; color:var(--rose); border-color:rgba(244,63,94,0.3);" title="Khóa màn hình quản trị" onclick="lockAdmin()">
+        🔒
       </button>
-
-      <button class="btn btn-purple" onclick="openBulkModal()">
-
-        ⚡ Sửa Hàng Loạt
-
-      </button>
-
-      <button class="btn btn-outline" style="padding:8px 10px;" title="Cài đặt Token" onclick="openTokenModal()">⚙️ Token</button>
-
-      <button class="btn btn-outline" onclick="triggerImportFile()">📁 Nạp JSON</button>
-
-      <button class="btn btn-outline" onclick="downloadJSON()">💾 Tải JSON</button>
-
-      <a href="index.html" target="_blank" class="btn btn-outline" style="color:var(--primary); border-color:var(--primary);">👁️ Xem Web</a>
-
-      <button class="btn btn-danger" style="padding:8px 10px;" title="Khóa màn hình" onclick="lockAdmin()">🔒</button>
-
     </div>
-
   </header>
 
 
 
-  <!-- 2. KPI STATS CARDS -->
-
-  <section class="stats-grid">
-
-    <div class="stat-card" style="cursor:pointer;" onclick="setStatusFilter('all')" title="Nhấp để xem toàn bộ sản phẩm">
-
-      <div class="stat-info">
-
-        <p>Tổng sản phẩm</p>
-
-        <h3 id="statTotalPlans">0</h3>
-
-      </div>
-
-      <div class="stat-icon stat-blue">📦</div>
-
+  <!-- 2. KPI STATS STRIP (SPACE SAVING 42px BAR) -->
+  <section class="kpi-strip">
+    <div class="kpi-chip" onclick="setStatusFilter('all')" title="Nhấp để xem toàn bộ sản phẩm">
+      <span>📦 Tổng gói:</span> <strong id="statTotalPlans">0</strong>
     </div>
 
-    <div class="stat-card" style="cursor:pointer;" onclick="setStatusFilter('visible')" title="Nhấp để lọc các gói Đang Bán (Hiện trên Web)">
-
-      <div class="stat-info">
-
-        <p>Đang bán (Hiện)</p>
-
-        <h3 id="statInStock" style="color:var(--emerald);">0</h3>
-
-      </div>
-
-      <div class="stat-icon stat-green">✅</div>
-
+    <div class="kpi-chip kpi-active" onclick="setStatusFilter('visible')" title="Nhấp để lọc các gói Đang Bán (Hiện trên Web)">
+      <span style="color:var(--emerald);">●</span> <span>Đang bán:</span> <strong id="statInStock">0</strong>
     </div>
 
-    <div class="stat-card" style="cursor:pointer;" onclick="setStatusFilter('hidden')" title="Nhấp để lọc các gói Đang Tạm Ẩn">
-
-      <div class="stat-info">
-
-        <p>Đang tạm ẩn</p>
-
-        <h3 id="statHidden" style="color:var(--amber);">0</h3>
-
-      </div>
-
-      <div class="stat-icon stat-gray">🙈</div>
-
+    <div class="kpi-chip kpi-hidden" onclick="setStatusFilter('hidden')" title="Nhấp để lọc các gói Đang Tạm Ẩn">
+      <span style="color:var(--amber);">●</span> <span>Tạm ẩn:</span> <strong id="statHidden">0</strong>
     </div>
 
-    <div class="stat-card" style="cursor:pointer;" onclick="setStatusFilter('outofstock')" title="Nhấp để lọc các gói Hết Hàng (Kho = 0)">
-
-      <div class="stat-info">
-
-        <p>Hết hàng (Kho = 0)</p>
-
-        <h3 id="statOutStock" style="color:var(--rose);">0</h3>
-
-      </div>
-
-      <div class="stat-icon stat-red">⚠️</div>
-
+    <div class="kpi-chip kpi-out" onclick="setStatusFilter('outofstock')" title="Nhấp để lọc các gói Hết Hàng (Kho = 0)">
+      <span style="color:var(--rose);">●</span> <span>Hết hàng:</span> <strong id="statOutStock">0</strong>
     </div>
 
-    <div class="stat-card" style="cursor:pointer;" onclick="switchTab('audit')" title="Nhấp để mở Bộ Soát Lỗi Xung Đột Giá">
-
-      <div class="stat-info">
-
-        <p>Xung đột giá / Nghi vấn</p>
-
-        <h3 id="statPriceAlerts" style="color:var(--rose);">0</h3>
-
-      </div>
-
-      <div class="stat-icon stat-amber">🔍</div>
-
+    <div class="kpi-chip kpi-alert" onclick="switchTab('audit')" title="Nhấp để mở Bộ Soát Lỗi Xung Đột Giá">
+      <span style="color:#f43f5e;">⚡</span> <span>Xung đột / Cần duyệt:</span> <strong id="statPriceAlerts">0</strong>
     </div>
-
   </section>
 
 
@@ -4025,86 +4200,55 @@ body {
 
       <section class="catalog-main">
 
-        <div class="table-toolbar" style="flex-direction:column; align-items:stretch; gap:12px;">
-
-          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
-
-            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
-
-              <h2 id="currentCategoryTitle" style="font-size:16px; font-weight:800;">Danh mục</h2>
-
-              <button class="btn btn-outline" style="padding:4px 8px; font-size:11px;" onclick="openEditCatModal()">✏️ Sửa mục</button>
-
-              <button class="btn btn-danger" style="padding:4px 8px; font-size:11px;" onclick="deleteCurrentCat()">🗑️ Xóa</button>
-
-              <button class="btn btn-purple" style="padding:4px 8px; font-size:11px;" onclick="autoCategorizeCurrentList()">⚡ Quét phân loại</button>
-
+        <div class="table-toolbar" style="padding:10px 18px; border-bottom:1px solid var(--card-border);">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:8px;">
+            <!-- Category Title & Subtle Quick Actions -->
+            <div style="display:flex; align-items:center; gap:8px;">
+              <h2 id="currentCategoryTitle" style="font-size:16px; font-weight:800; letter-spacing:-0.02em; margin:0; color:var(--text);">Danh mục</h2>
+              <div style="display:flex; align-items:center; gap:4px; margin-left:6px;">
+                <button class="btn btn-outline" style="padding:3px 8px; font-size:11px; border-radius:6px;" onclick="openEditCatModal()" title="Đổi tên hoặc biểu tượng danh mục">✏️ Sửa mục</button>
+                <button class="btn btn-outline" style="padding:3px 8px; font-size:11px; border-radius:6px; color:#6366f1; border-color:rgba(99,102,241,0.3);" onclick="autoCategorizeCurrentList()" title="Quét tự động chuyển các gói phù hợp vào danh mục này">⚡ Quét phân loại</button>
+                <button class="btn btn-outline" style="padding:3px 8px; font-size:11px; border-radius:6px; color:var(--rose); border-color:rgba(244,63,94,0.3);" onclick="deleteCurrentCat()" title="Xóa danh mục này">🗑️</button>
+              </div>
             </div>
 
-
-
+            <!-- Fast Search & Add Plan -->
             <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
-
               <div style="position:relative; display:inline-flex; align-items:center;">
+                <input type="text" id="filterInp" class="sidebar-search-inp" style="min-width:300px; padding:6px 28px 6px 12px; font-size:12px;" placeholder="🔍 Tìm toàn bộ kho (hỗ trợ có dấu & không dấu)..." oninput="handleAdminSearchInput()" onkeydown="if(event.key==='Enter')handleAdminSearchInput(true)" />
+                <button id="btnAdminClearSearch" onclick="clearAdminSearch()" style="position:absolute; right:8px; background:none; border:none; color:var(--text-muted); cursor:pointer; font-size:12px; display:none;" title="Xóa tìm kiếm">✕</button>
+              </div>
+              <button class="btn btn-primary" onclick="openAddModal()" style="padding:6px 14px; font-size:12px; font-weight:700; white-space:nowrap;">➕ Thêm Gói Mới</button>
+            </div>
+          </div>
 
-        <input type="text" id="filterInp" class="search-input" style="min-width:320px; padding-right:28px;" placeholder="🔍 Tìm toàn bộ kho (hỗ trợ có dấu & không dấu)..." oninput="handleAdminSearchInput()" onkeydown="if(event.key==='Enter')handleAdminSearchInput(true)" />
-
-        <button id="btnAdminClearSearch" onclick="clearAdminSearch()" style="position:absolute; right:8px; background:none; border:none; color:var(--text-muted); cursor:pointer; font-size:12px; display:none;" title="Xóa tìm kiếm">✕</button>
-
-      </div>
-
-              <button class="btn btn-primary" onclick="openAddModal()">➕ Thêm Gói Mới</button>
-
+          <!-- THANH LỌC TRẠNG THÁI HIỆN ĐẠI (STATUS FILTER PILLS) -->
+          <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap;">
+            <div class="filter-pills" style="display:inline-flex; align-items:center; gap:4px; background:var(--input-bg, rgba(241,245,249,0.7)); padding:3px; border-radius:8px; border:1px solid var(--card-border);">
+              <button class="pill-btn active" id="pillFilter-all" onclick="setStatusFilter('all')" style="border-radius:6px; padding:4px 10px; font-size:11.5px; font-weight:600;">
+                Tất cả (<span id="pillCount-all">0</span>)
+              </button>
+              <button class="pill-btn" id="pillFilter-visible" onclick="setStatusFilter('visible')" style="border-radius:6px; padding:4px 10px; font-size:11.5px; font-weight:600;">
+                <span style="color:var(--emerald);">●</span> Đang hiện (<span id="pillCount-visible">0</span>)
+              </button>
+              <button class="pill-btn" id="pillFilter-hidden" onclick="setStatusFilter('hidden')" style="border-radius:6px; padding:4px 10px; font-size:11.5px; font-weight:600;">
+                <span style="color:var(--amber);">●</span> Tạm ẩn (<span id="pillCount-hidden">0</span>)
+              </button>
+              <button class="pill-btn" id="pillFilter-outofstock" onclick="setStatusFilter('outofstock')" style="border-radius:6px; padding:4px 10px; font-size:11.5px; font-weight:600;">
+                <span style="color:var(--rose);">●</span> Hết hàng (<span id="pillCount-outofstock">0</span>)
+              </button>
+              <button class="pill-btn" id="pillFilter-needsreview" onclick="setStatusFilter('needsreview')" style="border-radius:6px; padding:4px 10px; font-size:11.5px; font-weight:600;">
+                <span style="color:#a855f7;">●</span> Cần duyệt giá (<span id="pillCount-needsreview">0</span>)
+              </button>
             </div>
 
+            <div style="font-size:11px; color:var(--text-muted); opacity:0.8;">
+              💡 <em>Kéo thả dòng để sắp xếp vị trí hiển thị trên Web</em>
+            </div>
           </div>
-
-
-
-          <!-- THANH LỌC TRẠNG THÁI NHANH (TẤT CẢ / ĐANG HIỆN / ĐANG ẨN / HẾT HÀNG / CẦN DUYỆT) -->
-
-          <div class="filter-pills" style="padding-top:8px; border-top:1px dashed var(--card-border);">
-
-            <span style="font-size:12px; font-weight:700; color:var(--text-muted); margin-right:4px;">Lọc trạng thái:</span>
-
-            <button class="pill-btn active" id="pillFilter-all" onclick="setStatusFilter('all')">
-
-              🔘 Tất cả (<span id="pillCount-all">0</span>)
-
-            </button>
-
-            <button class="pill-btn" id="pillFilter-visible" onclick="setStatusFilter('visible')">
-
-              👁️ Đang hiện (<span id="pillCount-visible">0</span>)
-
-            </button>
-
-            <button class="pill-btn pill-amber" id="pillFilter-hidden" onclick="setStatusFilter('hidden')">
-
-              🙈 Đang tạm ẩn (<span id="pillCount-hidden">0</span>)
-
-            </button>
-
-            <button class="pill-btn pill-rose" id="pillFilter-outofstock" onclick="setStatusFilter('outofstock')">
-
-              ⚠️ Hết hàng (<span id="pillCount-outofstock">0</span>)
-
-            </button>
-
-            <button class="pill-btn pill-purple" id="pillFilter-needsreview" onclick="setStatusFilter('needsreview')">
-
-              🚨 Cần duyệt giá (<span id="pillCount-needsreview">0</span>)
-
-            </button>
-
-          </div>
-
         </div>
 
-
-
-        <div style="overflow-x:auto;">
-
+        <div class="table-scroll-container" style="overflow:auto; max-height:calc(100vh - 240px);">
           <table class="custom-table">
 
             <thead>
@@ -13335,6 +13479,23 @@ function handleAdminSearchInput(immediate = false) {
 
 
 
+<script>
+// ==========================================
+// SAAS DESKTOP DROPDOWN UTILITY LISTENER
+// ==========================================
+function toggleToolsDropdown(e) {
+  if (e) e.stopPropagation();
+  const m = document.getElementById('toolsDropdownMenu');
+  if (m) m.classList.toggle('show');
+}
+window.addEventListener('click', function(e) {
+  const m = document.getElementById('toolsDropdownMenu');
+  const b = document.getElementById('btnToolsDropdown');
+  if (m && b && !b.contains(e.target) && !m.contains(e.target)) {
+    m.classList.remove('show');
+  }
+});
+</script>
 </body>
 
 </html>
