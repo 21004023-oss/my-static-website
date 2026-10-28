@@ -5117,16 +5117,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 47,
-        "stock_text": "Còn 47",
+        "stock": 34,
+        "stock_text": "Còn 34",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 47,
+            "stock": 34,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "19:44 28/10/2026"
+            "updated": "23:57 28/10/2026"
           }
         },
         "hidden": false,
@@ -5134,7 +5134,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 47
+          "stock": 34
         },
         "needs_review": false
       },
@@ -12413,6 +12413,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793206651137",
+      "time": "23:57 - 28/10/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 34,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:34💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793206491755",
       "time": "23:54 - 28/10/2026",
       "name": "🔥 Link Gemini Pro 18 Tháng BH 12H",
@@ -13500,17 +13511,6 @@
       "stockAfter": 34,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+30DBHF➕Thêm:17📦Tồnkhohiệntại:17💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1793198629825",
-      "time": "21:43 - 28/10/2026",
-      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
-      "bot": "piggyai99_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 108,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:150k📦Tồnkho:54tàikhoản📊Đãbán:82tàikhoản✏️"
     }
   ]
 }
