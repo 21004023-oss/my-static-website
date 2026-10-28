@@ -7349,26 +7349,27 @@
         "id": "p-1792024624956",
         "name": "Capcut Pro 1 Tháng BH 30 Ngày",
         "price": 70000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "detail": "Gói Capcut Pro 1 Tháng BH 30 Ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 9,
+            "stock": 1,
             "cost_price": 60000,
             "selling_price": 70000,
-            "updated": "20:08 21/10/2026"
+            "updated": "13:19 28/10/2026"
           }
         },
-        "cost_price": 38800,
-        "needs_review": true,
-        "hidden": true,
+        "cost_price": 60000,
+        "needs_review": false,
+        "hidden": false,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 38800
+          "bot": "@sieuthistore_bot",
+          "cost_price": 60000,
+          "stock": 1
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @sieuthistore_bot"
       },
       {
         "id": "p-1792036835013",
@@ -11555,6 +11556,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793168396563",
+      "time": "13:19 - 28/10/2026",
+      "name": "Capcut Pro 1 Tháng BH 30 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 1,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutPro1ThángBH30Ngày💰Giá:60k📦Tồnkho:1tàikhoản📊Đãbán:1.824tàikhoản✏️Vuilòngn"
+    },
+    {
       "id": "hist-1793168377453",
       "time": "13:19 - 28/10/2026",
       "name": "Pitpit AI 8k6 cre 1TH BH 3 ngày",
@@ -12642,17 +12654,6 @@
       "stockAfter": 9,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusUIP1ThángKBH➕Thêm:9📦Tồnkhohiệntại:9💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1793158058870",
-      "time": "10:27 - 28/10/2026",
-      "name": "Link Gemini Pro 18 Tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 36000,
-      "costPrice": 26000,
-      "stockAfter": 59,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:5📦Tồnkhohiệntại:59💰Giá:26.000đ"
     }
   ]
 }
