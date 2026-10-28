@@ -7590,16 +7590,16 @@
         "id": "p-1792094683588",
         "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
         "price": 75000,
-        "stock": 217,
-        "stock_text": "Còn 217",
+        "stock": 221,
+        "stock_text": "Còn 221",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 2,
+            "stock": 6,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "16:27 28/10/2026"
+            "updated": "16:37 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 215,
@@ -7614,7 +7614,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 33000,
-          "stock": 2
+          "stock": 6
         },
         "import_note": "Nhập: @piggyai99_bot"
       },
@@ -12092,6 +12092,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793180248316",
+      "time": "16:37 - 28/10/2026",
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "piggyai99_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 221,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:4📦Tồnkhohiệntại:6💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1793180140555",
       "time": "16:35 - 28/10/2026",
       "name": "Grok Plus 1 tháng riêng tư - BH7D vừa được nhập kho 🔥",
@@ -13179,17 +13190,6 @@
       "stockAfter": 131,
       "catKey": "google-veo",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:1📦Tồnkhohiệntại:59💰Giá:22.000đ"
-    },
-    {
-      "id": "hist-1793168519086",
-      "time": "13:21 - 28/10/2026",
-      "name": "ChatGPT Plus 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 22,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBH1Ngày➕Thêm:7📦Tồnkhohiệntại:22💰Giá:130.000đ"
     }
   ]
 }
