@@ -2570,24 +2570,25 @@
         "name": "ChatGPT Plus (Codex Full) 1 Tháng BHF",
         "price": 380000,
         "cost_price": 310000,
-        "stock": 41,
-        "stock_text": "Còn 41",
+        "stock": 26,
+        "stock_text": "Còn 26",
         "duration": "1 Tháng",
-        "detail": "🗣️ Mô tả:\n🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nThuê sim vẻ số tại: https://viotp.com/\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
-        "hidden": true,
+        "detail": "🗣️ Mô tả\n🔐 Acc riêng tư — được đổi 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n6. Bảo hành đổi acc mới nếu die trước 7D.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ!\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link\n✏️",
+        "hidden": false,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 41,
+            "stock": 26,
             "cost_price": 310000,
             "selling_price": 360000,
-            "updated": "14:53 22/10/2026"
+            "updated": "21:54 28/10/2026"
           }
         },
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 310000
+          "bot": "@sieuthistore_bot",
+          "cost_price": 310000,
+          "stock": 26
         }
       },
       {
@@ -12016,6 +12017,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793199255980",
+      "time": "21:54 - 28/10/2026",
+      "name": "ChatGPT Plus (Codex Full) 1 Tháng  BHF",
+      "bot": "sieuthistore_bot",
+      "price": 360000,
+      "costPrice": 310000,
+      "stockAfter": 26,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus(CodexFull)1ThángBHF➕Thêm:10📦Tồnkhohiệntại:26💰Giá:310.000đ"
+    },
+    {
       "id": "hist-1793199190136",
       "time": "21:53 - 28/10/2026",
       "name": "Slot Youtube Premium 3 Tháng BHF",
@@ -13103,17 +13115,6 @@
       "stockAfter": 0,
       "catKey": "protonvpn",
       "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:0💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1793190722432",
-      "time": "19:32 - 28/10/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng BH 1h",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 52,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1thángBH1h➕Thêm:15📦Tồnkhohiệntại:52💰Giá:30.000đ"
     }
   ]
 }
