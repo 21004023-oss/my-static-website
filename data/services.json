@@ -4999,6 +4999,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793180140555",
+        "name": "Grok Plus 1 tháng riêng tư - BH7D vừa được nhập kho 🔥",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Grok Plus 1 tháng riêng tư - BH7D vừa được nhập kho 🔥 bảo hành uy tín.",
+        "sources": {
+          "shopxoainon_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "16:35 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@shopxoainon_bot",
+          "cost_price": 0,
+          "stock": 0
+        },
+        "import_note": "Nhập: @shopxoainon_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12066,6 +12092,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793180140555",
+      "time": "16:35 - 28/10/2026",
+      "name": "Grok Plus 1 tháng riêng tư - BH7D vừa được nhập kho 🔥",
+      "bot": "shopxoainon_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "grok",
+      "msgKey": "🎉HÀNGMỚIVỀKỆ!⚡GrokPlus1thángriêngtư-BH7Dvừađượcnhậpkho🔥📦Sốlượngcósẵn:10💵Giáchỉ:6"
+    },
+    {
       "id": "hist-1793180044464",
       "time": "16:34 - 28/10/2026",
       "name": "Gmail Random 200X~2023 Có 2FA",
@@ -13153,17 +13190,6 @@
       "stockAfter": 22,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1ThángBH1Ngày➕Thêm:7📦Tồnkhohiệntại:22💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1793168400507",
-      "time": "13:20 - 28/10/2026",
-      "name": "Capcut Pro 1 Tháng BH 30 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 1,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutPro1ThángBH30Ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:60.000đ"
     }
   ]
 }
