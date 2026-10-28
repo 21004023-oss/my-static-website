@@ -12193,10 +12193,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793187077048",
+        "name": "Vừa có đợt cập nhật lớn về thêm các sản phẩm mới và giảm giá các sản phẩm cũ mời mọi người bấm vào bot xem nhé",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Vừa có đợt cập nhật lớn về thêm các sản phẩm mới và giảm giá các sản phẩm cũ mời mọi người bấm vào bot xem nhé bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 0,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "18:31 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 0,
+          "stock": 0
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793187077048",
+      "time": "18:31 - 28/10/2026",
+      "name": "Vừa có đợt cập nhật lớn về thêm các sản phẩm mới và giảm giá các sản phẩm cũ mời mọi người bấm vào bot xem nhé",
+      "bot": "piggyai99_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "📣ThôngbáotừAdmin:Vừacóđợtcậpnhậtlớnvềthêmcácsảnphẩmmớivàgiảmgiácácsảnphẩmcũmờimọ"
+    },
     {
       "id": "hist-1793186889979",
       "time": "18:28 - 28/10/2026",
@@ -13285,17 +13322,6 @@
       "stockAfter": 52,
       "catKey": "google-veo",
       "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:40📦Tồnkhohiệntại:52💰Giá:45.00"
-    },
-    {
-      "id": "hist-1793177380820",
-      "time": "15:49 - 28/10/2026",
-      "name": "Hàng đang có sẵn trong kho",
-      "bot": "toki_shopmmo_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "📦Hàngđangcósẵntrongkho📦111KDecorDiscord/ProfileEffectGiáRẻ(DạngLogin)–SởHữuVĩnhV"
     }
   ]
 }
