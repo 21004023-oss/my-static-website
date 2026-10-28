@@ -7161,10 +7161,10 @@
       {
         "id": "p-1793176775226",
         "name": "Suno Pro 1TH BH 1 ngày",
-        "price": 135000,
+        "price": 160000,
         "cost_price": 115000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "Mail | Pass | Mail khôi phục\n✏️",
         "sources": {
@@ -7172,6 +7172,12 @@
             "stock": 10,
             "cost_price": 115000,
             "selling_price": 135000,
+            "updated": "20:23 28/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 10,
+            "cost_price": 140000,
+            "selling_price": 160000,
             "updated": "20:23 28/10/2026"
           }
         },
@@ -12351,6 +12357,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793193823788",
+      "time": "20:23 - 28/10/2026",
+      "name": "Suno Pro 1TH BH 1 ngày",
+      "bot": "piggyai99_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 20,
+      "catKey": "suno",
+      "msgKey": "🎵SunoPro1THBH1ngày➕Thêm:5📦Tồnkhohiệntại:10💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793193818809",
       "time": "20:23 - 28/10/2026",
       "name": "Suno Pro 1TH BH 1 ngày",
@@ -13438,17 +13455,6 @@
       "stockAfter": 623,
       "catKey": "claude",
       "msgKey": "🧠API50MTokenClaude1NgàyBHF💰Giá:85k📦Tồnkho:20tàikhoản📊Đãbán:1.330tàikhoản💎Môtả:Kê"
-    },
-    {
-      "id": "hist-1793183821546",
-      "time": "17:37 - 28/10/2026",
-      "name": "VIP 2.API 50M Token Claude 1 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 85000,
-      "costPrice": 75000,
-      "stockAfter": 464,
-      "catKey": "claude",
-      "msgKey": "🧠VIP2.API50MTokenClaude1Ngày-BHF💰Giá:75k📦Tồnkho:464tàikhoản📊Đãbán:1.330tàikhoản💎"
     }
   ]
 }
