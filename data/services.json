@@ -10660,6 +10660,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793177068780",
+        "name": "Gmail 2020-2024 đã qua ads",
+        "price": 52000,
+        "cost_price": 42000,
+        "stock": 195,
+        "stock_text": "Còn 195",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|pass|mkp|2FA Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành\nMail đã qua ads ae làm dịch vụ liên quan đến ads vui lòng không mua\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 195,
+            "cost_price": 42000,
+            "selling_price": 52000,
+            "updated": "15:44 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 42000,
+          "stock": 195
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11895,6 +11921,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793177068780",
+      "time": "15:44 - 28/10/2026",
+      "name": "Gmail 2020-2024 đã qua ads",
+      "bot": "sieuthistore_bot",
+      "price": 52000,
+      "costPrice": 42000,
+      "stockAfter": 195,
+      "catKey": "gmail",
+      "msgKey": "📧Gmail2020-2024đãquaads➕Thêm:198📦Tồnkhohiệntại:195💰Giá:42.000đ"
+    },
+    {
       "id": "hist-1793177052986",
       "time": "15:44 - 28/10/2026",
       "name": "ChatGPT Plus UIP 1 Tháng KBH",
@@ -12982,17 +13019,6 @@
       "stockAfter": 0,
       "catKey": "google-veo",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!📦GóiGeminiPro&Drive5TB18ThángChínhchủvừađượcnhậpkho🔥📦Sốlượngcósẵn:2"
-    },
-    {
-      "id": "hist-1793163806935",
-      "time": "12:03 - 28/10/2026",
-      "name": "Netflix Premium Extra 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 0,
-      "catKey": "netflix",
-      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:0💰Giá:150.000đ"
     }
   ]
 }
