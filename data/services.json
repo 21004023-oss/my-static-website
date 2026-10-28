@@ -10746,6 +10746,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793178925613",
+        "name": "Gmail Cổ 2FA 2023-2025",
+        "price": 43000,
+        "cost_price": 33000,
+        "stock": 15,
+        "stock_text": "Còn 15",
+        "duration": "1 Tháng",
+        "detail": "- GMAIL VIỆT TRÂU 2FA\n- Định dạng: Mk|Tk|2Fa\n- Bao change thông tin\n- Bảo hành 48 giờ login, (sai pass, sai 2fa,), ngâm 24h rồi hãy change để tránh bị die\nĐÃ CHECK LIVE TRƯỚC KHI BÁN\nKHÁCH MUA VỀ NHỚ CHANGE THÔNG TIN NHÉ, ĐỜI KHÔNG TIN ĐƯỢC AI ĐÂU\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 15,
+            "cost_price": 33000,
+            "selling_price": 43000,
+            "updated": "16:15 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 33000,
+          "stock": 15
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11981,6 +12007,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793178925613",
+      "time": "16:15 - 28/10/2026",
+      "name": "Gmail Cổ 2FA 2023-2025",
+      "bot": "taphoathomap_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 15,
+      "catKey": "gmail",
+      "msgKey": "📧GmailCổ2FA2023-2025➕Thêm:15📦Tồnkhohiệntại:15💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1793178827014",
       "time": "16:13 - 28/10/2026",
       "name": "Slot Youtube Premium 3 Tháng BHF",
@@ -13068,17 +13105,6 @@
       "stockAfter": 599,
       "catKey": "youtube",
       "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:599💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1793167094829",
-      "time": "12:58 - 28/10/2026",
-      "name": "Higgsfield Genjutsu 1 tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 49,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsu1thángBH1Ngày➕Thêm:35📦Tồnkhohiệntại:49💰Giá:65.000đ"
     }
   ]
 }
