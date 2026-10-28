@@ -12352,10 +12352,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793194422150",
+        "name": "CHỌN PHƯƠNG THỨC THANH TOÁN",
+        "price": 25900,
+        "cost_price": 15900,
+        "stock": 173,
+        "stock_text": "Còn 173",
+        "duration": "1 Tháng",
+        "detail": "Gói CHỌN PHƯƠNG THỨC THANH TOÁN bảo hành uy tín.",
+        "sources": {
+          "shopxoainon_bot": {
+            "stock": 173,
+            "cost_price": 15900,
+            "selling_price": 25900,
+            "updated": "20:33 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@shopxoainon_bot",
+          "cost_price": 15900,
+          "stock": 173
+        },
+        "import_note": "Nhập: @shopxoainon_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793194422150",
+      "time": "20:33 - 28/10/2026",
+      "name": "CHỌN PHƯƠNG THỨC THANH TOÁN",
+      "bot": "shopxoainon_bot",
+      "price": 25900,
+      "costPrice": 15900,
+      "stockAfter": 173,
+      "catKey": "khac",
+      "msgKey": "💳CHỌNPHƯƠNGTHỨCTHANHTOÁN━━━━━━━━━━━━━━━━📦GóiGeminiPro&Drive5TB18ThángChínhchủ📊Số"
+    },
     {
       "id": "hist-1793194349781",
       "time": "20:32 - 28/10/2026",
@@ -13444,17 +13481,6 @@
       "stockAfter": 0,
       "catKey": "google-veo",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!📦GóiGeminiPro&Drive5TB18ThángChínhchủvừađượcnhậpkho🔥📦Sốlượngcósẵn:3"
-    },
-    {
-      "id": "hist-1793184513289",
-      "time": "17:48 - 28/10/2026",
-      "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 97,
-      "catKey": "google-veo",
-      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H💰Giá:45k📦Tồnkho:97tàikhoản📊Đãbán:7."
     }
   ]
 }
