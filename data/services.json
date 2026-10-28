@@ -10998,16 +10998,16 @@
         "name": "Gmail random new",
         "price": 35000,
         "cost_price": 22000,
-        "stock": 61,
-        "stock_text": "Còn 61",
+        "stock": 40,
+        "stock_text": "Còn 40",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 50,
+            "stock": 29,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "22:47 28/10/2026"
+            "updated": "00:16 29/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -12413,6 +12413,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793207811081",
+      "time": "00:16 - 29/10/2026",
+      "name": "Gmail random new",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 40,
+      "catKey": "gmail",
+      "msgKey": "📧Gmailrandomnew➕Thêm:7📦Tồnkhohiệntại:29💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793207625002",
       "time": "00:13 - 29/10/2026",
       "name": "MUSE AI 1B TOKEN BẢO HÀNH ACITVE",
@@ -13500,17 +13511,6 @@
       "stockAfter": 132,
       "catKey": "google-veo",
       "msgKey": "☁️🔥LinkGeminiPro18ThángBH12H➕Thêm:50📦Tồnkhohiệntại:75💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1793198739664",
-      "time": "21:45 - 28/10/2026",
-      "name": "Higgsfield Genjutsu tạo được 1 Video 30s 720p",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 58,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsutạođược1Video30s720p💰Giá:35k📦Tồnkho:58tàikhoản📊Đãbán:560tàikh"
     }
   ]
 }
