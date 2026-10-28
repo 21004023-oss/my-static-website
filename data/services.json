@@ -4306,6 +4306,32 @@
         "import_note": "Nhập: @shopxoainon_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793163764665",
+        "name": "SLOT VEO3 Ultra x5 – Random Credit – 1 Tháng BHF",
+        "price": 330000,
+        "cost_price": 300000,
+        "stock": 12,
+        "stock_text": "Còn 12",
+        "duration": "1 Tháng",
+        "detail": "🛒 CÁCH ĐẶT HÀNG\n✅ Trước khi gửi Gmail:\n- Đóng hồ sơ thanh toán: https://payments.google.com/gp/w/home/settings\n- Kiểm tra Family: http://g.co/yourfamily\n❗ Gmail không được nằm trong Family khác.\n📩 BOT báo thành công → gửi Gmail cho Admin → vào link Family và bấm “Tham gia”.\n⚠️ LƯU Ý\n- Credit dùng chung, ngẫu nhiên 0–10.000. Shop chỉ bảo hành gói Ultra, không bảo hành credit.\n- Kích ULTRA = DONE, không bảo hành những tính năng khác\n- Tham gia trễ, credit bị dùng hết: Shop không chịu trách nhiệm.\n- Đổi Gmail : 5$ /1 lần ( hạn chế đổi mail vì family limit lời mời -)\n--------------\nXem hướng dẫn tham gia : https://drive.google.com/drive/folders/1KLpqDMJpHfEwD4146EaJaCBlNTMmuQO9?usp=drive_link\n⚠️GOOGLE đã dừng triển khai model Veo 3 Lower Priority, đọc kĩ cảnh báo này, shop sẽ không hoàn tiền.\n⏱️ Xử lý tối đa 24h từ lúc mua hàng , nếu đồng ý thì mua hàng, vì lượng đơn hàng lớn. Xin đừng hối thúc shop. Xin cảm ơn !",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 12,
+            "cost_price": 300000,
+            "selling_price": 330000,
+            "updated": "12:02 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 300000,
+          "stock": 12
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11368,6 +11394,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793163764666",
+      "time": "12:02 - 28/10/2026",
+      "name": "SLOT VEO3 Ultra x5 – Random Credit – 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 330000,
+      "costPrice": 300000,
+      "stockAfter": 12,
+      "catKey": "google-veo",
+      "msgKey": "🚀SLOTVEO3Ultrax5–RandomCredit–1ThángBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:300.000đ"
+    },
+    {
       "id": "hist-1793163706126",
       "time": "12:01 - 28/10/2026",
       "name": "Muse Ai  1B Token KBH",
@@ -12455,17 +12492,6 @@
       "stockAfter": 2,
       "catKey": "kling",
       "msgKey": "🎬KlingStandrandom800-1000credit1THBH1ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1793138782988",
-      "time": "05:06 - 28/10/2026",
-      "name": "Kling Stand random 800-1000 credit 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 2,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandrandom800-1000credit1THBH1ngày💰Giá:115k📦Tồnkho:2tàikhoản📊Đãbán:40tàik"
     }
   ]
 }
