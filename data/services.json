@@ -1097,26 +1097,27 @@
         "id": "gpt-biz-shared",
         "name": "Slot ChatGPT Business Dùng Chung 1 Tháng BHF",
         "price": 139000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 26,
+        "stock_text": "Còn 26",
         "duration": "1 Tháng",
         "source": "Workspace Dùng Chung",
-        "detail": "- ChatGPT Business cấp sẵn tháng, dùng ổn định gia hạn được, không bị đổi team.\n- Bảo hành full 1 tháng.\n- Định dạng: Mail + Pass (lấy mã nhắn admin).\n- Dùng cố định 1 thiết bị, không đổi Pass và mã 2FA.\n- Không hợp nhất 2 không gian làm việc.\n- Dùng được cho Codex (hạn mức dùng chung).\n- Model mạnh hơn Plus: có model Chat GPT Pro, hạn mức cao hơn gói cá nhân.\n- Tự lưu dữ liệu cá nhân, không xoá chat/project của người khác.",
+        "detail": "✅ ChatGPT Business dùng chung cấp sẵn tháng (dùng ổn định gia hạn được, không bị đổi team) Bảo hành full 1 tháng\n✅Dùng 1 thiết bị cố định không được đổi thông tin Pass, Mã  2Fa  vi phạm sẽ không bảo hành\n✅ Định dạng tài khoản: Tên Mail, Khi đăng nhập sẽ có mã về mail,  Để lấy mã nhắn trực tiếp cho admin\n✅ Không hợp nhất 2 không gian vi phạm không bảo hành\n✅ Không dùng được, không bảo hành Codex, 9router hạn mức usage là dùng chung nên mọi người cân nhắc\n✅ Không bảo hành dữ liệu nên lưu dữ liệu quan trọng về, không được xóa đoạn chat,project của người khác\n✅ Model mạnh hơn Plus: Giới hạn nhiều hơn gói cá nhân, có model Chat GPT Pro\n🛡️ CHÍNH SÁCH BẢO HÀNH\n- Bảo hành Full-time trong quá trình sử dụng, Chỉ hoàn tiền khi Shop không bảo hành được gói cho khách\n✅ Tính năng Chatgpt Business\n- Truy cập các model ChatGPT mạnh với hạn mức cao hơn.\n- Không gian làm việc riêng cho đội nhóm/doanh nghiệp.\n- Kết nối công cụ như Google Drive, Microsoft 365, Slack, GitHub…\n-Hỗ trợ viết nội dung, nghiên cứu, phân tích dữ liệu, tạo tài liệu và tự động hóa công việc.\n✏️",
         "cost_price": 119000,
         "sources": {
           "ntnshopre_bot": {
-            "stock": 19,
+            "stock": 26,
             "cost_price": 119000,
             "selling_price": 139000,
-            "updated": "22:29 21/10/2026"
+            "updated": "14:43 28/10/2026"
           }
         },
-        "needs_review": true,
-        "hidden": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "hidden": false,
+        "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 119000
+          "cost_price": 119000,
+          "stock": 26
         }
       },
       {
@@ -11750,6 +11751,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793173409146",
+      "time": "14:43 - 28/10/2026",
+      "name": "SLOT CHATGPT BUSINESS DÙNG CHUNG 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 139000,
+      "costPrice": 119000,
+      "stockAfter": 26,
+      "catKey": "chatgpt",
+      "msgKey": "🤖SLOTCHATGPTBUSINESSDÙNGCHUNG1THÁNGBHF➕Thêm:18📦Tồnkhohiệntại:26💰Giá:119.000đ"
+    },
+    {
       "id": "hist-1793173122643",
       "time": "14:38 - 28/10/2026",
       "name": "VIP 2.API 50M Token Claude 1 Ngày - BHF",
@@ -12837,17 +12849,6 @@
       "stockAfter": 3,
       "catKey": "vieon",
       "msgKey": "⭐TàikhoảnVieONVIP3ThángBHF➕Thêm:1📦Tồnkhohiệntại:3💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1793161327256",
-      "time": "11:22 - 28/10/2026",
-      "name": "Netflix Premium Extra 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 1,
-      "catKey": "netflix",
-      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:150.000đ"
     }
   ]
 }
