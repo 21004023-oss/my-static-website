@@ -11276,10 +11276,47 @@
         "import_note": "Nhập: @toki_shopmmo_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793161191272",
+        "name": "FLASH SALE - GIẢM GIÁ SỐC!",
+        "price": 0,
+        "cost_price": 0,
+        "stock": 26,
+        "stock_text": "Còn 26",
+        "duration": "1 Tháng",
+        "detail": "Gói FLASH SALE - GIẢM GIÁ SỐC! bảo hành uy tín.",
+        "sources": {
+          "toki_shopmmo_bot": {
+            "stock": 26,
+            "cost_price": 0,
+            "selling_price": 0,
+            "updated": "11:19 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@toki_shopmmo_bot",
+          "cost_price": 0,
+          "stock": 26
+        },
+        "import_note": "Nhập: @toki_shopmmo_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793161191272",
+      "time": "11:19 - 28/10/2026",
+      "name": "FLASH SALE - GIẢM GIÁ SỐC!",
+      "bot": "toki_shopmmo_bot",
+      "price": 0,
+      "costPrice": 0,
+      "stockAfter": 26,
+      "catKey": "khac",
+      "msgKey": "🔥FLASHSALE-GIẢMGIÁSỐC!📦1LINKGETGEMINIPRO18THÁNGBẢOHÀNH24H💸Giágốc:35.000đ🏷️Giảmng"
+    },
     {
       "id": "hist-1793159972494",
       "time": "10:59 - 28/10/2026",
@@ -12368,17 +12405,6 @@
       "stockAfter": 8,
       "catKey": "nordvpn",
       "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793127919905",
-      "time": "02:05 - 28/10/2026",
-      "name": "NordVPN 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 13,
-      "catKey": "nordvpn",
-      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:25.000đ"
     }
   ]
 }
