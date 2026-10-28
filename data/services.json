@@ -10251,16 +10251,16 @@
         "id": "p-1792093859672",
         "name": "Gmail Random 200X~2023 Có 2FA",
         "price": 55000,
-        "stock": 62,
-        "stock_text": "Còn 62",
+        "stock": 35,
+        "stock_text": "Còn 35",
         "duration": "1 Tháng",
-        "detail": "Định dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H - Login thành công hết bảo hành\n- Gmail đã nuôi khá lâu rồi nên gmail khá khoẻ\n+ Lưu ý:\n- Hãy dùng proxy , và IP máy riêng để login Gmail , tránh tình trạng GG quét hàng loạt.\n-Sau 48H hãy thay đổi thông , đá thiết bị cũ, Để bảo mật tài sản của mình. ( Gmail cổ điều bảo mật thông tin là quan trọng nhất )\n-Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/",
+        "detail": "Định dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H - Login thành công hết bảo hành\n- Gmail đã nuôi khá lâu rồi nên gmail khá khoẻ\n+ Lưu ý:\n- Hãy dùng proxy , và IP máy riêng để login Gmail , tránh tình trạng GG quét hàng loạt.\n-Sau 48H hãy thay đổi thông , đá thiết bị cũ, Để bảo mật tài sản của mình. ( Gmail cổ điều bảo mật thông tin là quan trọng nhất )\n-Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 31,
+            "stock": 4,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "22:59 19/10/2026"
+            "updated": "16:34 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 31,
@@ -10269,14 +10269,15 @@
             "updated": "22:59 19/10/2026"
           }
         },
-        "hidden": true,
-        "cost_price": 15000,
-        "needs_review": true,
+        "hidden": false,
+        "cost_price": 35000,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 35000,
+          "stock": 31
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792093865277",
@@ -12059,6 +12060,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793180040299",
+      "time": "16:34 - 28/10/2026",
+      "name": "Gmail Random 200X~2023 Có 2FA",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 35,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:4📦Tồnkhohiệntại:4💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793179734835",
       "time": "16:28 - 28/10/2026",
       "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
@@ -13146,17 +13158,6 @@
       "stockAfter": 1,
       "catKey": "capcut",
       "msgKey": "✂️CapcutPro1ThángBH30Ngày💰Giá:60k📦Tồnkho:1tàikhoản📊Đãbán:1.824tàikhoản✏️Vuilòngn"
-    },
-    {
-      "id": "hist-1793168377453",
-      "time": "13:19 - 28/10/2026",
-      "name": "Pitpit AI 8k6 cre 1TH BH 3 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 850000,
-      "costPrice": 750000,
-      "stockAfter": 8,
-      "catKey": "khac",
-      "msgKey": "⭐PitpitAI8k6cre1THBH3ngày➕Thêm:3📦Tồnkhohiệntại:8💰Giá:750.000đ"
     }
   ]
 }
