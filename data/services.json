@@ -954,19 +954,19 @@
       {
         "id": "gpt-plus-24h-unified",
         "name": "ChatGPT Plus 30 Ngày (BH 24H)",
-        "price": 210000,
-        "cost_price": 85000,
-        "stock": 265,
-        "stock_text": "Còn 265",
-        "duration": "30 Ngày",
-        "detail": "- Tài khoản ChatGPT Giáo Viên (K12) cấp BH 24h.\n- Format: TK | MK | 2FA.\n- Quota Codex của K12 dùng ngon ngang Plus, thích hợp bào Codex giá rẻ.\n- Family đã live gần tháng, độ bền rất cao.\n- Không bảo hành ver số Codex.\n- Link HDSD: https://docs.google.com/document/d/1XcODdzlQJyeJbzXt61mEMYbkDv_xctY9d52-KihtH5I\n- Video hướng dẫn: https://youtu.be/pm_YgRIjUTg.",
-        "hidden": true,
+        "price": 240000,
+        "cost_price": 100000,
+        "stock": 51,
+        "stock_text": "Còn 51",
+        "duration": "1 Tháng",
+        "detail": "🔐 Tài khoản riêng tư — Được đổi Pass & 2FA.\n📂 Định dạng: Email | Pass | 2FA\n✅ Hàng Pay UPI Ấn Độ - Siêu khỏe\n🚀 Sử dụng Codex thoải mái (khách tự xác minh SĐT).\n⚠️ LƯU Ý QUAN TRỌNG\n1. Không được sử dụng 9Router.\n2. Đổi 2FA ngay sau khi mua. Không đổi dẫn đến lỗi/mất tài khoản → Shop không chịu trách nhiệm.\n3. Thao tác đổi 2FA phải nhanh chóng. Lỗi OTP Gmail trong quá trình đổi → Không bảo hành (xem video hướng dẫn).\n🚨 Tài khoản đã kiểm tra trước khi bán, nên ai mà đăng nhập kêu bị OTP gmail thì đừng có nhắn tin, lỗi đổi 2fa otp gmail shop không hỗ trợ. Bạn có thể cân nhắc đổi hoặc không, shop chỉ muốn hợp tác với người trung thực, có trách nhiệm.\n🎥 HƯỚNG DẪN ĐỔI 2FA\nhttps://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link\n🎁 Khuyến mãi:\n- Mua từ 10 giá 90k\n✏️",
+        "hidden": false,
         "sources": {
           "taphoathomap_bot": {
-            "stock": 23,
-            "cost_price": 85000,
-            "updated": "21:59 16/10/2026",
-            "selling_price": 95000
+            "stock": 7,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "10:46 28/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 44,
@@ -975,11 +975,12 @@
             "updated": "03:22 20/10/2026"
           }
         },
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 85000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 100000,
+          "stock": 7
         }
       },
       {
@@ -11146,6 +11147,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793159201110",
+      "time": "10:46 - 28/10/2026",
+      "name": "CHAT GPT PLUS 1 tháng - BH 24H",
+      "bot": "taphoathomap_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 51,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1tháng-BH24H➕Thêm:7📦Tồnkhohiệntại:7💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1793158964365",
       "time": "10:42 - 28/10/2026",
       "name": "Higgfield GenJutsu 720p 1th BH 1h",
@@ -12233,17 +12245,6 @@
       "stockAfter": 2,
       "catKey": "spotify",
       "msgKey": "⭐SpotifyPremium(IOS)3THBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1793125749004",
-      "time": "01:29 - 28/10/2026",
-      "name": "Spotify Premium (IOS) 6TH BHF",
-      "bot": "taphoathomap_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": -1,
-      "catKey": "spotify",
-      "msgKey": "⭐SpotifyPremium(IOS)6THBHF💰Giá:150k📦Tồnkho:∞tàikhoản📊Đãbán:0tàikhoản💎Môtả:-YÊUCẦ"
     }
   ]
 }
