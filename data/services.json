@@ -10675,11 +10675,11 @@
         "id": "p-1792404466054",
         "name": "Gmail (New) 2FA-Login All",
         "price": 46000,
-        "cost_price": 15000,
+        "cost_price": 30000,
         "stock": 0,
         "stock_text": "Hết hàng",
         "duration": "1 Tháng",
-        "detail": "Gói Gmail (New) 2FA-Login All bảo hành uy tín.",
+        "detail": "GMAIL TRÂU BÒ - Login All thiết bị\nĐịnh dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H ( very phone, sai pass) được bảo hành- login thành công là hết Bảo hành\n- Gmail New cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\nĐÃ CHECK LIVE TRƯỚC KHI BÁN",
         "sources": {
           "sieuthistore_bot": {
             "stock": 0,
@@ -10689,18 +10689,19 @@
           },
           "taphoathomap_bot": {
             "stock": 0,
-            "cost_price": 26000,
-            "selling_price": 36000,
-            "updated": "17:07 19/10/2026"
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "17:13 28/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 30000,
+          "stock": 0
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792417336475",
@@ -12134,6 +12135,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793182424420",
+      "time": "17:13 - 28/10/2026",
+      "name": "Gmail (New) 2FA-Login All",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 0,
+      "catKey": "gmail",
+      "msgKey": "📧Gmail(New)2FA-LoginAll➕Thêm:3📦Tồnkhohiệntại:0💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793182265335",
       "time": "17:11 - 28/10/2026",
       "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
@@ -13221,17 +13233,6 @@
       "stockAfter": 3,
       "catKey": "jetbrains",
       "msgKey": "⭐JetBrainEdu1năm(BHF)➕Thêm:3📦Tồnkhohiệntại:3💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1793170118168",
-      "time": "13:48 - 28/10/2026",
-      "name": "Higgfield GenJutsu 720p 1th BH 1h",
-      "bot": "taphoathomap_bot",
-      "price": 39000,
-      "costPrice": 29000,
-      "stockAfter": 49,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggfieldGenJutsu720p1thBH1h💰Giá:29k📦Tồnkho:49tàikhoản📊Đãbán:543tàikhoản💎Môtả:T"
     }
   ]
 }
