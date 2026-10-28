@@ -5086,6 +5086,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793159417871",
+        "name": "Kling Ultra 5k credit 1TH BH 2D",
+        "price": 550000,
+        "cost_price": 500000,
+        "stock": 41,
+        "stock_text": "Còn 41",
+        "duration": "1 Tháng",
+        "detail": "- Hàng không sẵn, order trả trong 3-5 tiếng\nLưu ý: Cân nhắc trước khi mua, đã mua là shop sẽ ghi nhận đơn hàng và bấm thanh toán. Sẽ không hoàn tiền sau khi mua\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 41,
+            "cost_price": 500000,
+            "selling_price": 550000,
+            "updated": "10:50 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 500000,
+          "stock": 41
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11147,6 +11173,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793159417871",
+      "time": "10:50 - 28/10/2026",
+      "name": "Kling Ultra 5k credit 1TH BH 2D",
+      "bot": "taphoathomap_bot",
+      "price": 550000,
+      "costPrice": 500000,
+      "stockAfter": 41,
+      "catKey": "kling",
+      "msgKey": "🎬KlingUltra5kcredit1THBH2D➕Thêm:41📦Tồnkhohiệntại:41💰Giá:500.000đ"
+    },
+    {
       "id": "hist-1793159206245",
       "time": "10:46 - 28/10/2026",
       "name": "CHAT GPT PLUS 1 tháng - BH 6H",
@@ -12234,17 +12271,6 @@
       "stockAfter": 45,
       "catKey": "khac",
       "msgKey": "🛍️THÔNGTINSẢNPHẨM━━━━━━━━━━━━━━━━🎬CapcutPro30dfullDate-BHFEmail|PassHiệnFullDate"
-    },
-    {
-      "id": "hist-1793125760157",
-      "time": "01:29 - 28/10/2026",
-      "name": "THÔNG TIN SẢN PHẨM",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 79,
-      "catKey": "khac",
-      "msgKey": "🛍️THÔNGTINSẢNPHẨM━━━━━━━━━━━━━━━━📦GóiGeminiPro&Drive5TB18ThángChínhchủ💾Dunglượng"
     }
   ]
 }
