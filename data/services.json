@@ -8254,6 +8254,32 @@
           "cost_price": 6400
         },
         "import_note": "🛒 @KhoMMO_Market_bot"
+      },
+      {
+        "id": "p-1793153475761",
+        "name": "🔥Express VPN 1 Tháng BHF",
+        "price": 90000,
+        "cost_price": 80000,
+        "stock": 11,
+        "stock_text": "Còn 11",
+        "duration": "1 Tháng",
+        "detail": "- Định dạng: Email | Pass\n- Plan: Random Basic, Advanced, Pro\n- Đăng nhập và sử dụng qua App Express VPN\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 11,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "09:11 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 80000,
+          "stock": 11
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -10990,6 +11016,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793153475761",
+      "time": "09:11 - 28/10/2026",
+      "name": "🔥Express VPN 1 Tháng BHF",
+      "bot": "piggyai99_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 11,
+      "catKey": "expressvpn",
+      "msgKey": "🚚🔥ExpressVPN1ThángBHF➕Thêm:1📦Tồnkhohiệntại:11💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1793153470536",
       "time": "09:11 - 28/10/2026",
       "name": "MUSE.AI -31 TỶ TOKEN (KBH)",
@@ -12077,17 +12114,6 @@
       "stockAfter": 23,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPN3NgàyBHF💰Giá:30k📦Tồnkho:6tàikhoản📊Đãbán:833tàikhoản💎Môtả:Địnhdạng:ema"
-    },
-    {
-      "id": "hist-1793124402478",
-      "time": "01:06 - 28/10/2026",
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 23,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:30.000đ"
     }
   ]
 }
