@@ -5249,25 +5249,26 @@
         "id": "p-1792171955948",
         "name": "Kling 790-1k Credit 1 tháng BH 1 Ngày",
         "price": 200000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
-        "detail": "ACC KLING STAND RANDOM 700-750 CREDITS",
+        "detail": "ACC KLING STAND RANDOM 700-750 CREDITS\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 6,
             "cost_price": 180000,
             "selling_price": 200000,
-            "updated": "09:25 18/10/2026"
+            "updated": "20:07 28/10/2026"
           }
         },
-        "hidden": true,
+        "hidden": false,
         "cost_price": 180000,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 180000
+          "bot": "@sieuthistore_bot",
+          "cost_price": 180000,
+          "stock": 6
         }
       },
       {
@@ -12349,6 +12350,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793192863372",
+      "time": "20:07 - 28/10/2026",
+      "name": "Kling 790-1k Credit 1 tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 6,
+      "catKey": "kling",
+      "msgKey": "🎬Kling790-1kCredit1thángBH1Ngày➕Thêm:5📦Tồnkhohiệntại:6💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1793192851701",
       "time": "20:07 - 28/10/2026",
       "name": "Gmail Random 200X~2023 Có 2FA",
@@ -13436,17 +13448,6 @@
       "stockAfter": 4,
       "catKey": "kling",
       "msgKey": "🎬KlingStandrandom800-1000credit1THBH1ngày💰Giá:115k📦Tồnkho:4tàikhoản📊Đãbán:44tàik"
-    },
-    {
-      "id": "hist-1793182629332",
-      "time": "17:17 - 28/10/2026",
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 57,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:10📦Tồnkhohiệntại:30💰Giá:65.000đ"
     }
   ]
 }
