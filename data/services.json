@@ -11656,9 +11656,9 @@
         "id": "p-1793171618383",
         "name": "PIA VPN 7 Ngày BHF",
         "price": 45000,
-        "cost_price": 35000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "cost_price": 15000,
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "7 Ngày",
         "detail": "Định dạng: Username|Pass\n✏️",
         "sources": {
@@ -11667,20 +11667,37 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "updated": "14:13 28/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 7,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "14:13 28/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 35000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
           "stock": 7
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793171623460",
+      "time": "14:13 - 28/10/2026",
+      "name": "PIA VPN 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 14,
+      "catKey": "khac",
+      "msgKey": "⭐PIAVPN7NgàyBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:15.000đ"
+    },
     {
       "id": "hist-1793171618383",
       "time": "14:13 - 28/10/2026",
@@ -12769,17 +12786,6 @@
       "stockAfter": 89,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18ThángBH24H💰Giá:24k📦Tồnkho:89tàikhoản📊Đãbán:10.500tàikhoản💎Môtả:"
-    },
-    {
-      "id": "hist-1793159695742",
-      "time": "10:54 - 28/10/2026",
-      "name": "GMAIL TRIAL RANDOM DATE 201X",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 189,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILTRIALRANDOMDATE201X💰Giá:45k📦Tồnkho:189tàikhoản📊Đãbán:41.415tàikhoản💎Môtả:Đ"
     }
   ]
 }
