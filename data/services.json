@@ -12240,10 +12240,47 @@
         "import_note": "Nhập: @shopxoainon_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793203168951",
+        "name": "VIP 1 – KEY Tạo Ảnh 2K + 330 Video 720P - 1 Tháng BH 15 Ngày",
+        "price": 110000,
+        "cost_price": 100000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "🎬 VIP 1 – KEY TẠO ẢNH 2K + 330 VIDEO 720P\n💎 THÔNG TIN GÓI\n- Thời hạn: 30 ngày | Bảo hành: 15 ngày\n- Chất lượng video: 720P | Ảnh: 2K\n- Video 10 giây: 333 lượt | 20 giây: 166 lượt\n- Video 30 giây: 111 lượt | 60 giây: 55 lượt\n- Khung hình video: 16:9 & 9:16\n- Khung hình ảnh: 16:9, 9:16, 1:1, 4:3, 3:4\n🚀 TÍNH NĂNG NỔI BẬT\n- Tạo ảnh AI từ văn bản hoặc hình ảnh có sẵn.\n- Tạo video AI từ văn bản hoặc hình ảnh.\n- Hỗ trợ tạo tối đa 2 video cùng lúc.\n- Tùy chọn thời lượng video từ 10–60 giây.\n- Sử dụng trực tiếp trên website bằng mã Key.\n⚠️ LƯU Ý QUAN TRỌNG\n- Video càng dài càng tiêu hao nhiều lượt.\n- Chỉ trừ số dư khi tạo video thành công.\n- Không bảo hành số dư chưa dùng khi gói hết hạn.\n- Key lỗi trong thời gian bảo hành: Hoàn tiền theo số dư chưa sử dụng.\n- Tốc độ xử lý phụ thuộc vào hệ thống.\n- Sau khi đặt hàng, vui lòng nhắn Admin để nhận Key.\n🌐 TRANG SỬ DỤNG:\nhttps://muse.careflow-demo.online/playground\n📌 LƯU Ý ĐÂY LÀ API TỪ MUSE - Không phải SEEDANCE - ĐỌC KỸ MÔ TẢ TRƯỚC KHI MUA!\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "22:59 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 100000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793203168951",
+      "time": "22:59 - 28/10/2026",
+      "name": "VIP 1 – KEY Tạo Ảnh 2K + 330 Video 720P - 1 Tháng BH 15 Ngày",
+      "bot": "taphoathomap_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "msgKey": "VIP1–KEYTạoẢnh2K+330Video720P-1ThángBH15Ngày➕Thêm:3📦Tồnkhohiệntại:3💰Giá:100.000đ"
+    },
     {
       "id": "hist-1793202832004",
       "time": "22:53 - 28/10/2026",
@@ -13332,17 +13369,6 @@
       "stockAfter": 54,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1kCredit1ThángBH1ngày➕Thêm:30📦Tồnkhohiệntại:54💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1793196185957",
-      "time": "21:03 - 28/10/2026",
-      "name": "Kling Standard 1k Credit 1 Tháng BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 10,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1kCredit1ThángBH1ngày💰Giá:180k📦Tồnkho:10tàikhoản📊Đãbán:82tàikhoản✏"
     }
   ]
 }
