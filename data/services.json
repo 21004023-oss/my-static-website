@@ -8428,17 +8428,17 @@
         "id": "p-1792472374619",
         "name": "Meitu Vip+ 90D BHF",
         "price": 240000,
-        "cost_price": 210000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "cost_price": 165000,
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "3 Tháng",
-        "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.",
+        "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 6,
             "cost_price": 165000,
             "selling_price": 185000,
-            "updated": "11:59 20/10/2026"
+            "updated": "18:00 28/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 4,
@@ -8447,12 +8447,13 @@
             "updated": "11:59 20/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 210000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 165000,
+          "stock": 6
         }
       },
       {
@@ -12190,6 +12191,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793185231036",
+      "time": "18:00 - 28/10/2026",
+      "name": "Meitu Vip+ 90D BHF",
+      "bot": "taphoathomap_bot",
+      "price": 185000,
+      "costPrice": 165000,
+      "stockAfter": 10,
+      "catKey": "meitu",
+      "msgKey": "✨MeituVip+90DBHF➕Thêm:3📦Tồnkhohiệntại:6💰Giá:165.000đ"
+    },
+    {
       "id": "hist-1793185139392",
       "time": "17:58 - 28/10/2026",
       "name": "🔥 Link Gemini Pro 18 Tháng BH 12H",
@@ -13277,17 +13289,6 @@
       "stockAfter": 462,
       "catKey": "gmail",
       "msgKey": "📧GMAILUSCỔDATE201X-202X2FA➕Thêm:103📦Tồnkhohiệntại:0💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793174170731",
-      "time": "14:56 - 28/10/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 39,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:40📦Tồnkhohiệntại:39💰Giá:70.000đ"
     }
   ]
 }
