@@ -4814,8 +4814,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -4826,10 +4826,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 14,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "12:19 28/10/2026"
+            "updated": "13:57 28/10/2026"
           }
         },
         "hidden": false,
@@ -4838,7 +4838,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 10
+          "stock": 14
         }
       },
       {
@@ -11655,6 +11655,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793170655688",
+      "time": "13:57 - 28/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 16,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:10📦Tồnkhohiệntại:14💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793170650643",
       "time": "13:57 - 28/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -12742,17 +12753,6 @@
       "stockAfter": 33,
       "catKey": "youtube",
       "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:9📦Tồnkhohiệntại:33💰Giá:46.000đ"
-    },
-    {
-      "id": "hist-1793159665415",
-      "time": "10:54 - 28/10/2026",
-      "name": "GMAIL TRIAL RANDOM DATE 201X",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 189,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILTRIALRANDOMDATE201X➕Thêm:319📦Tồnkhohiệntại:189💰Giá:45.000đ"
     }
   ]
 }
