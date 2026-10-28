@@ -392,6 +392,9 @@
       box-shadow: var(--shadow-sm);
       position: sticky;
       top: 96px;
+      max-height: calc(100vh - 120px);
+      overflow-y: auto;
+      scrollbar-width: thin;
     }
     .detail-title {
       font-size: 18px;
@@ -743,13 +746,11 @@
     }
     .cat-group-pills {
       display: flex;
+      flex-wrap: wrap;
       gap: 5px;
-      overflow-x: auto;
-      padding-bottom: 8px;
-      margin-bottom: 8px;
-      scrollbar-width: none;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
     }
-    .cat-group-pills::-webkit-scrollbar { display: none; }
     .cat-group-pill {
       font-size: 11px;
       font-weight: 700;
@@ -856,7 +857,7 @@
     <!-- Ô TÌM NHANH THƯƠNG HIỆU -->
     <div class="cat-search-box">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-      <input type="text" id="catFilterInp" placeholder="🔍 Lọc nhanh hãng (Figma, Duo, Net...)" oninput="onFilterCat(this.value)" />
+      <input type="text" id="catFilterInp" placeholder="🔍 Tìm nhanh hãng (Netflix, AI...)" oninput="onFilterCat(this.value)" />
     </div>
 
     <!-- TAB LỌC NHÓM LỚN -->
