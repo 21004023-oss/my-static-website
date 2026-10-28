@@ -12023,9 +12023,9 @@
         "id": "p-1793199967176",
         "name": "GALAXY PLAY SIÊU VIỆT 3 THÁNG BHF",
         "price": 130000,
-        "cost_price": 110000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "cost_price": 95000,
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "3 Tháng",
         "detail": "1 Slot galaxy play Siêu Việt xem phim bộ + phim thuê châu á\nĐăng nhập và xem trên 1 thiết bị\nKhông đổi pass, pin và tên profile\nBảo hành 90 ngày\n✏️",
         "sources": {
@@ -12034,20 +12034,37 @@
             "cost_price": 110000,
             "selling_price": 130000,
             "updated": "22:06 28/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 95000,
+            "selling_price": 105000,
+            "updated": "22:06 28/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 110000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 95000,
           "stock": 1
         },
-        "import_note": "Nhập: @ntnshopre_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793199973104",
+      "time": "22:06 - 28/10/2026",
+      "name": "Galaxy Play Siêu Việt 90 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "msgKey": "⭐GalaxyPlaySiêuViệt90ngàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:95.000đ"
+    },
     {
       "id": "hist-1793199967176",
       "time": "22:06 - 28/10/2026",
@@ -13136,17 +13153,6 @@
       "stockAfter": 49,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:38📦Tồnkhohiệntại:47💰Giá:109.000đ"
-    },
-    {
-      "id": "hist-1793191465632",
-      "time": "19:44 - 28/10/2026",
-      "name": "Grok Plus 30 ngày BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 47,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:38📦Tồnkhohiệntại:47💰Giá:140.000đ"
     }
   ]
 }
