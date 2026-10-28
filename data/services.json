@@ -3090,11 +3090,11 @@
         "id": "api-claude-50m-1d",
         "name": "API 50M Token Claude 1 Ngày BHF",
         "price": 110000,
-        "stock": 605,
-        "stock_text": "Còn 605",
+        "stock": 1210,
+        "stock_text": "Còn 1210",
         "duration": "1 Ngày",
         "source": "API Key",
-        "detail": "Kênh thông báo : https://t.me/api_thongbao\nHỗ trợ / Support : https://api.nghimmo.com/support\nDanh sách model, và hướng dẫn : api.nghimmo.com/huongdan\nModel : Full model Claude Opus, Sonet, Haiku\nTrang kiểm tra KEY : api.nghimmo.com/check\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
+        "detail": "Kênh thông báo : https://t.me/api_thongbao\nDanh sách model, và hướng dẫn : api.nghimmo.com/huongdan\nModel : Full model Claude Opus, Sonet, Haiku\nTrang kiểm tra KEY : api.nghimmo.com/check\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
         "cost_price": 85000,
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
@@ -3107,6 +3107,12 @@
             "stock": 605,
             "cost_price": 85000,
             "selling_price": 95000,
+            "updated": "14:38 28/10/2026"
+          },
+          "ntnshopre_bot": {
+            "stock": 605,
+            "cost_price": 100000,
+            "selling_price": 110000,
             "updated": "14:38 28/10/2026"
           }
         },
@@ -11718,6 +11724,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793173117872",
+      "time": "14:38 - 28/10/2026",
+      "name": "API 50M TOKEN  CLAUDE 1 NGÀY BHF",
+      "bot": "ntnshopre_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 1210,
+      "catKey": "claude",
+      "msgKey": "🧠API50MTOKENCLAUDE1NGÀYBHF➕Thêm:500📦Tồnkhohiệntại:605💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1793173113287",
       "time": "14:38 - 28/10/2026",
       "name": "API 50M Token Claude 1 Ngày BHF",
@@ -12805,17 +12822,6 @@
       "stockAfter": 76,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:55📦Tồnkhohiệntại:76💰Giá:24.000đ"
-    },
-    {
-      "id": "hist-1793161196744",
-      "time": "11:19 - 28/10/2026",
-      "name": "Link Gemini Pro 18 Tháng",
-      "bot": "sieuthistore_bot",
-      "price": 65000,
-      "costPrice": 55000,
-      "stockAfter": 76,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:55📦Tồnkhohiệntại:76💰Giá:55.000đ"
     }
   ]
 }
