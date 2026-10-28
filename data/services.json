@@ -10162,6 +10162,32 @@
           "cost_price": 15000
         },
         "import_note": "🛒 @taphoathomap_bot"
+      },
+      {
+        "id": "p-1793159665415",
+        "name": "GMAIL TRIAL RANDOM DATE 201X",
+        "price": 55000,
+        "cost_price": 45000,
+        "stock": 189,
+        "stock_text": "Còn 189",
+        "duration": "1 Tháng",
+        "detail": "Gói GMAIL TRIAL RANDOM DATE 201X bảo hành uy tín.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 189,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "10:54 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 45000,
+          "stock": 189
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11227,6 +11253,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793159665415",
+      "time": "10:54 - 28/10/2026",
+      "name": "GMAIL TRIAL RANDOM DATE 201X",
+      "bot": "ntnshopre_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 189,
+      "catKey": "gmail",
+      "msgKey": "📧GMAILTRIALRANDOMDATE201X➕Thêm:319📦Tồnkhohiệntại:189💰Giá:45.000đ"
+    },
     {
       "id": "hist-1793159660770",
       "time": "10:54 - 28/10/2026",
@@ -12315,17 +12352,6 @@
       "stockAfter": 1,
       "catKey": "spotify",
       "msgKey": "⭐SpotifyPremium(IOS)1THBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793125941392",
-      "time": "01:32 - 28/10/2026",
-      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 290000,
-      "costPrice": 260000,
-      "stockAfter": 20,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày💰Giá:260k📦Tồnkho:4tàikhoản📊Đãbán:237tàikhoản💎Môtả:👉Hàn"
     }
   ]
 }
