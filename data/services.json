@@ -6899,10 +6899,10 @@
         "id": "p-1791919210876",
         "name": "CapCut Pro Team 3 Tháng - BHF",
         "price": 180000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 11,
+        "stock_text": "Còn 11",
         "duration": "3 Tháng",
-        "detail": "Tài khoản Capcut Pro dạng team hạn sử dụng 90 ngày. • Có thể nhận tới 2000 Credit AI • Định dạng: Email | Pass • Login 1-2 thiết bị hạn chế login nhiều thiết bị. • Bảo hành 90 ngày, không bảo hành lỗi đăng nhập quá thường xuyên.\nTK tự động gia hạn mỗi tháng 1 lần đến khi đủ 1 tháng",
+        "detail": "Tài khoản Capcut Pro dạng team hạn sử dụng 90 ngày. • Có thể nhận tới 2000 Credit AI • Định dạng: Email | Pass • Login 1-2 thiết bị hạn chế login nhiều thiết bị. • Bảo hành 90 ngày, không bảo hành lỗi đăng nhập quá thường xuyên.\nTK tự động gia hạn mỗi tháng 1 lần đến khi đủ 1 tháng\n✏️",
         "sources": {
           "piggyai99_bot": {
             "stock": 7,
@@ -6911,19 +6911,20 @@
             "updated": "14:52 22/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 7,
+            "stock": 4,
             "cost_price": 155000,
             "selling_price": 175000,
-            "updated": "14:00 21/10/2026"
+            "updated": "09:08 28/10/2026"
           }
         },
-        "cost_price": 160000,
-        "needs_review": true,
-        "hidden": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "cost_price": 155000,
+        "needs_review": false,
+        "hidden": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 160000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 155000,
+          "stock": 4
         }
       },
       {
@@ -10978,6 +10979,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793153326104",
+      "time": "09:08 - 28/10/2026",
+      "name": "CapCut Pro Team 3 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 175000,
+      "costPrice": 155000,
+      "stockAfter": 11,
+      "catKey": "capcut",
+      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:155.000đ"
+    },
+    {
       "id": "hist-1793152985440",
       "time": "09:03 - 28/10/2026",
       "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
@@ -12065,17 +12077,6 @@
       "stockAfter": 28,
       "catKey": "expressvpn",
       "msgKey": "🚚EXPRESSVPN3NGÀYBHF💰Giá:15k📦Tồnkho:6tàikhoản📊Đãbán:833tàikhoản💎Môtả:Địnhdạng:ema"
-    },
-    {
-      "id": "hist-1793124374312",
-      "time": "01:06 - 28/10/2026",
-      "name": "[CDK] THUÊ SỐ NHẬN OTP CODEX 24H KBH",
-      "bot": "piggyai99_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 261,
-      "catKey": "chatgpt",
-      "msgKey": "🤖[CDK]THUÊSỐNHẬNOTPCODEX24HKBH💰Giá:10k📦Tồnkho:261tàikhoản📊Đãbán:899tàikhoản💎Môtả"
     }
   ]
 }
