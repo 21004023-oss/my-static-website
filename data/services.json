@@ -8892,25 +8892,27 @@
         "id": "p-1792089898144",
         "name": "NORD VPN 7 NGÀY 10 THIẾT BỊ BHF",
         "price": 35000,
-        "stock": 11,
-        "stock_text": "Còn 11",
-        "duration": "1 Tháng",
+        "stock": 7,
+        "stock_text": "Còn 7",
+        "duration": "7 Ngày",
         "detail": "- Nord Vpn dùng 10 thiết bị 7 ngày bhf\n- Định dạng tk|mk dùng được android ios pc\n- Lấy code tại wed https://mailtemp.vn/ hoặc cutemail.us",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 11,
+            "stock": 7,
             "cost_price": 25000,
-            "updated": "01:44 16/10/2026",
-            "selling_price": 35000
+            "selling_price": 35000,
+            "updated": "21:08 28/10/2026"
           }
         },
         "hidden": false,
         "cost_price": 25000,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 68000
+          "bot": "@ntnshopre_bot",
+          "cost_price": 25000,
+          "stock": 7
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @ntnshopre_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792089905786",
@@ -12322,6 +12324,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793196538065",
+      "time": "21:08 - 28/10/2026",
+      "name": "NORD VPN 7 NGÀY 10 THIẾT BỊ BHF",
+      "bot": "ntnshopre_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 7,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NORDVPN7NGÀY10THIẾTBỊBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793196533233",
       "time": "21:08 - 28/10/2026",
       "name": "NORD VPN 10 thiết bị 7 ngày BHF",
@@ -13409,17 +13422,6 @@
       "stockAfter": 35,
       "catKey": "khac",
       "msgKey": "⭐PIAVPN7NgàyBHF➕Thêm:7📦Tồnkhohiệntại:6💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793186482845",
-      "time": "18:21 - 28/10/2026",
-      "name": "MUSE AI 1B TOKEN BẢO HÀNH ACITVE",
-      "bot": "ntnshopre_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 2641,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MUSEAI1BTOKENBẢOHÀNHACITVE➕Thêm:1📦Tồnkhohiệntại:2641💰Giá:15.000đ"
     }
   ]
 }
