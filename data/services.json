@@ -10094,8 +10094,8 @@
         "id": "p-1792119419529",
         "name": "GMAIL US CỔ DATE 201X-202X 2FA",
         "price": 60000,
-        "stock": 364,
-        "stock_text": "Còn 364",
+        "stock": 596,
+        "stock_text": "Còn 596",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Mail | Pass | Mail khôi phục | 2fa\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL US CỔ DATE 201X TRIAL CÓ 2FA\n✏️",
         "sources": {
@@ -10109,6 +10109,12 @@
             "stock": 232,
             "cost_price": 50000,
             "selling_price": 60000,
+            "updated": "13:33 28/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 232,
+            "cost_price": 45000,
+            "selling_price": 55000,
             "updated": "13:33 28/10/2026"
           }
         },
@@ -11641,6 +11647,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793169221255",
+      "time": "13:33 - 28/10/2026",
+      "name": "GMAIL US CỔ DATE 201X-202X 2FA",
+      "bot": "taphoathomap_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 596,
+      "catKey": "gmail",
+      "msgKey": "📧GMAILUSCỔDATE201X-202X2FA➕Thêm:100📦Tồnkhohiệntại:232💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793169216553",
       "time": "13:33 - 28/10/2026",
       "name": "GMAIL US CỔ DATE 201X-202X 2FA",
@@ -12728,17 +12745,6 @@
       "stockAfter": 28,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:14📦Tồnkhohiệntại:28💰Giá:38.000đ"
-    },
-    {
-      "id": "hist-1793158700995",
-      "time": "10:38 - 28/10/2026",
-      "name": "Sản phẩm đang được nhiều khách quan tâm",
-      "bot": "toki_shopmmo_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "🔥Sảnphẩmđangđượcnhiềukháchquantâm📦141KDecorDiscord/ProfileEffectGiáRẻ(DạngLogin)"
     }
   ]
 }
