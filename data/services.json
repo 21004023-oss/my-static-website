@@ -8961,16 +8961,16 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 5,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "02:05 28/10/2026"
+            "updated": "02:05 29/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 5,
@@ -8983,7 +8983,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 4
+          "stock": 5
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -12439,6 +12439,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793214347489",
+      "time": "02:05 - 29/10/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 10,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793214341509",
       "time": "02:05 - 29/10/2026",
       "name": "NordVPN 3 Ngày BHF",
@@ -13526,17 +13537,6 @@
       "stockAfter": 397,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:165📦Tồnkhohiệntại:180💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793199626244",
-      "time": "22:00 - 28/10/2026",
-      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
-      "bot": "sieuthistore_bot",
-      "price": 56000,
-      "costPrice": 46000,
-      "stockAfter": 200,
-      "catKey": "youtube",
-      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:200📦Tồnkhohiệntại:200💰Giá:46.000đ"
     }
   ]
 }
