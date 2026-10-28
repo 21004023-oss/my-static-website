@@ -10057,25 +10057,27 @@
         "id": "p-1792268578812",
         "name": "Microsoft 365 Admin Family 1 Tháng BHF",
         "price": 40000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "1 Tháng",
-        "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com",
+        "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 19,
+            "stock": 9,
             "cost_price": 30000,
-            "updated": "03:22 18/10/2026",
-            "selling_price": 40000
+            "selling_price": 40000,
+            "updated": "02:43 29/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 16800,
+        "cost_price": 30000,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 16800
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
+          "stock": 9
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792356747202",
@@ -12529,6 +12531,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793216616485",
+      "time": "02:43 - 29/10/2026",
+      "name": "Microsoft 365 Admin Family 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 9,
+      "catKey": "microsoft",
+      "msgKey": "⭐Microsoft365AdminFamily1ThángBHF➕Thêm:5📦Tồnkhohiệntại:9💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793216597853",
       "time": "02:43 - 29/10/2026",
       "name": "Photoroom Max 7 Ngày BHF",
@@ -13616,17 +13629,6 @@
       "stockAfter": 2,
       "catKey": "vieon",
       "msgKey": "⭐VIEONVIP3THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1793200279315",
-      "time": "22:11 - 28/10/2026",
-      "name": "Tài khoản VieON VIP PRO 3 tháng bhf",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 4,
-      "catKey": "vieon",
-      "msgKey": "⭐TàikhoảnVieONVIPPRO3thángbhf➕Thêm:1📦Tồnkhohiệntại:2💰Giá:70.000đ"
     }
   ]
 }
