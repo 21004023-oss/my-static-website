@@ -7579,6 +7579,32 @@
           "cost_price": 9900
         },
         "import_note": "🛒 @shopxoainon_bot"
+      },
+      {
+        "id": "p-1793222733209",
+        "name": "Canva Pro 30 Ngày BHF",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản Canva Pro slot add team business, bảo hành fulltime (đôi khi có thể trôi date 1-2 ngày )\n-Định dạng: Email|Pass mail\n-Đăng nhập Canva bằng email trực tiếp, nhập email xong nó đòi code thì dùng link token vào https://dongvanfb.net/read_mail_box/ dán code vào nhấn Đọc hòm thư để lấy code\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "04:25 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 35000,
+          "stock": 6
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12617,6 +12643,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793222733209",
+      "time": "04:25 - 29/10/2026",
+      "name": "Canva Pro 30 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 6,
+      "catKey": "canva",
+      "msgKey": "🎨CanvaPro30NgàyBHF➕Thêm:4📦Tồnkhohiệntại:6💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793222202906",
       "time": "04:16 - 29/10/2026",
       "name": "Netflix Premium Extra 30 Ngày BHF",
@@ -13704,17 +13741,6 @@
       "stockAfter": 58,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:15📦Tồnkhohiệntại:31💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793204158174",
-      "time": "23:15 - 28/10/2026",
-      "name": "CAPCUT PRO 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 48000,
-      "costPrice": 38000,
-      "stockAfter": 31,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:15📦Tồnkhohiệntại:31💰Giá:38.000đ"
     }
   ]
 }
