@@ -11303,22 +11303,22 @@
         "name": "Gmail Cổ 2FA 2023-2025",
         "price": 43000,
         "cost_price": 33000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
-        "detail": "- GMAIL VIỆT TRÂU 2FA\n- Định dạng: Mk|Tk|2Fa\n- Bao change thông tin\n- Bảo hành 48 giờ login, (sai pass, sai 2fa,), ngâm 24h rồi hãy change để tránh bị die\nĐÃ CHECK LIVE TRƯỚC KHI BÁN\nKHÁCH MUA VỀ NHỚ CHANGE THÔNG TIN NHÉ, ĐỜI KHÔNG TIN ĐƯỢC AI ĐÂU",
+        "detail": "- GMAIL VIỆT TRÂU 2FA\n- Định dạng: Mk|Tk|2Fa\n- Bao change thông tin\n- Bảo hành 48 giờ login, (sai pass, sai 2fa,), ngâm 24h rồi hãy change để tránh bị die\nĐÃ CHECK LIVE TRƯỚC KHI BÁN\nKHÁCH MUA VỀ NHỚ CHANGE THÔNG TIN NHÉ, ĐỜI KHÔNG TIN ĐƯỢC AI ĐÂU\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 1,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "21:23 28/10/2026"
+            "updated": "05:43 29/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 33000,
-          "stock": 0
+          "stock": 1
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -12745,6 +12745,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793227439169",
+      "time": "05:43 - 29/10/2026",
+      "name": "Gmail Cổ 2FA 2023-2025",
+      "bot": "taphoathomap_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 1,
+      "catKey": "gmail",
+      "msgKey": "📧GmailCổ2FA2023-2025➕Thêm:1📦Tồnkhohiệntại:1💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1793226814426",
       "time": "05:33 - 29/10/2026",
       "name": "🔥 ChatGPT Plus  30D ( BH 20D )",
@@ -13832,17 +13843,6 @@
       "stockAfter": 40,
       "catKey": "gmail",
       "msgKey": "📧Gmailrandomnew➕Thêm:7📦Tồnkhohiệntại:29💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1793207625002",
-      "time": "00:13 - 29/10/2026",
-      "name": "MUSE AI 1B TOKEN BẢO HÀNH ACITVE",
-      "bot": "ntnshopre_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 101,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MUSEAI1BTOKENBẢOHÀNHACITVE➕Thêm:50📦Tồnkhohiệntại:101💰Giá:15.000đ"
     }
   ]
 }
