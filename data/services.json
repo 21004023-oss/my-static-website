@@ -4987,16 +4987,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 47,
+        "stock_text": "Còn 47",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 11,
+            "stock": 47,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "16:05 28/10/2026"
+            "updated": "19:44 28/10/2026"
           }
         },
         "hidden": false,
@@ -5004,7 +5004,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 11
+          "stock": 47
         },
         "needs_review": false
       },
@@ -12289,6 +12289,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793191465632",
+      "time": "19:44 - 28/10/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 47,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:38📦Tồnkhohiệntại:47💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793191414212",
       "time": "19:43 - 28/10/2026",
       "name": "Link Duolingo 1 năm KBH",
@@ -13376,17 +13387,6 @@
       "stockAfter": 34,
       "catKey": "google-veo",
       "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:1📦Tồnkhohiệntại:34💰Giá:45.000"
-    },
-    {
-      "id": "hist-1793181262347",
-      "time": "16:54 - 28/10/2026",
-      "name": "Photoroom Max 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 10,
-      "catKey": "photoroom",
-      "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:15.000đ"
     }
   ]
 }
