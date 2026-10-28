@@ -8259,9 +8259,9 @@
         "id": "p-1793153475761",
         "name": "🔥Express VPN 1 Tháng BHF",
         "price": 90000,
-        "cost_price": 80000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "cost_price": 65000,
+        "stock": 22,
+        "stock_text": "Còn 22",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Email | Pass\n- Plan: Random Basic, Advanced, Pro\n- Đăng nhập và sử dụng qua App Express VPN\n✏️",
         "sources": {
@@ -8270,14 +8270,20 @@
             "cost_price": 80000,
             "selling_price": 90000,
             "updated": "09:11 28/10/2026"
+          },
+          "ntnshopre_bot": {
+            "stock": 11,
+            "cost_price": 65000,
+            "selling_price": 75000,
+            "updated": "09:11 28/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 80000,
+          "bot": "@ntnshopre_bot",
+          "cost_price": 65000,
           "stock": 11
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -11016,6 +11022,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793153481578",
+      "time": "09:11 - 28/10/2026",
+      "name": "EXPRESS VPN 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 75000,
+      "costPrice": 65000,
+      "stockAfter": 22,
+      "catKey": "expressvpn",
+      "msgKey": "🚚EXPRESSVPN1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:11💰Giá:65.000đ"
+    },
+    {
       "id": "hist-1793153475761",
       "time": "09:11 - 28/10/2026",
       "name": "🔥Express VPN 1 Tháng BHF",
@@ -12103,17 +12120,6 @@
       "stockAfter": 5,
       "catKey": "khac",
       "msgKey": "⭐PitpitAI8k6cre1THBH3ngày➕Thêm:2📦Tồnkhohiệntại:5💰Giá:750.000đ"
-    },
-    {
-      "id": "hist-1793124407118",
-      "time": "01:06 - 28/10/2026",
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 23,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN3NgàyBHF💰Giá:30k📦Tồnkho:6tàikhoản📊Đãbán:833tàikhoản💎Môtả:Địnhdạng:ema"
     }
   ]
 }
