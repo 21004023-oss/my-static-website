@@ -8429,8 +8429,8 @@
         "name": "Meitu Vip+ 90D BHF",
         "price": 240000,
         "cost_price": 165000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "3 Tháng",
         "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.\n✏️",
         "sources": {
@@ -8444,6 +8444,12 @@
             "stock": 6,
             "cost_price": 210000,
             "selling_price": 240000,
+            "updated": "18:00 28/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 6,
+            "cost_price": 180000,
+            "selling_price": 200000,
             "updated": "18:00 28/10/2026"
           }
         },
@@ -12191,6 +12197,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793185251367",
+      "time": "18:00 - 28/10/2026",
+      "name": "Meitu Vip+ 90D BHF",
+      "bot": "piggyai99_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 18,
+      "catKey": "meitu",
+      "msgKey": "✨MeituVip+90DBHF➕Thêm:3📦Tồnkhohiệntại:6💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1793185245494",
       "time": "18:00 - 28/10/2026",
       "name": "Meitu Vip+ 3 Tháng BHF",
@@ -13278,17 +13295,6 @@
       "stockAfter": 7,
       "catKey": "zoom",
       "msgKey": "⭐ZoomProchínhchủ3tháng(BHF)➕Thêm:7📦Tồnkhohiệntại:7💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1793174998607",
-      "time": "15:09 - 28/10/2026",
-      "name": "Zoom Pro chính chủ 6 tháng (BHF)",
-      "bot": "taphoathomap_bot",
-      "price": 450000,
-      "costPrice": 400000,
-      "stockAfter": 6,
-      "catKey": "zoom",
-      "msgKey": "⭐ZoomProchínhchủ6tháng(BHF)➕Thêm:6📦Tồnkhohiệntại:6💰Giá:400.000đ"
     }
   ]
 }
