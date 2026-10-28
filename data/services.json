@@ -4644,25 +4644,32 @@
         "id": "p-1792460560425",
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
-        "cost_price": 180000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "cost_price": 109000,
+        "stock": 19,
+        "stock_text": "Còn 19",
         "duration": "1 Tháng",
-        "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành",
+        "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
             "stock": 2,
             "cost_price": 180000,
             "selling_price": 200000,
             "updated": "11:46 20/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 17,
+            "cost_price": 109000,
+            "selling_price": 129000,
+            "updated": "10:32 28/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 180000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 109000,
+          "stock": 17
         }
       },
       {
@@ -11109,6 +11116,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793158335105",
+      "time": "10:32 - 28/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 19,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:17📦Tồnkhohiệntại:17💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793158328968",
       "time": "10:32 - 28/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -12196,17 +12214,6 @@
       "stockAfter": 23,
       "catKey": "expressvpn",
       "msgKey": "🚚EXPRESSVPN3NGÀYBHF💰Giá:15k📦Tồnkho:6tàikhoản📊Đãbán:833tàikhoản💎Môtả:Địnhdạng:ema"
-    },
-    {
-      "id": "hist-1793125702202",
-      "time": "01:28 - 28/10/2026",
-      "name": "[CDK] THUÊ SỐ NHẬN OTP CODEX 24H KBH",
-      "bot": "piggyai99_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 261,
-      "catKey": "chatgpt",
-      "msgKey": "🤖[CDK]THUÊSỐNHẬNOTPCODEX24HKBH💰Giá:10k📦Tồnkho:261tàikhoản📊Đãbán:899tàikhoản💎Môtả"
     }
   ]
 }
