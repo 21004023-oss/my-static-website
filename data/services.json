@@ -7454,16 +7454,16 @@
         "id": "p-1792024624956",
         "name": "Capcut Pro 1 Tháng BH 30 Ngày",
         "price": 70000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "Gói Capcut Pro 1 Tháng BH 30 Ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 60000,
             "selling_price": 70000,
-            "updated": "13:20 28/10/2026"
+            "updated": "15:56 28/10/2026"
           }
         },
         "cost_price": 60000,
@@ -7472,7 +7472,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 60000,
-          "stock": 1
+          "stock": 2
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -11922,6 +11922,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793177807843",
+      "time": "15:56 - 28/10/2026",
+      "name": "Capcut Pro 1 Tháng BH 30 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 2,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutPro1ThángBH30Ngày💰Giá:60k📦Tồnkho:2tàikhoản📊Đãbán:1.825tàikhoản✏️Vuilòngn"
+    },
+    {
       "id": "hist-1793177799064",
       "time": "15:56 - 28/10/2026",
       "name": "Gói Gemini Pro & Drive 5TB 18 Tháng Chính chủ vừa được nhập kho 🔥",
@@ -13009,17 +13020,6 @@
       "stockAfter": 12,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:10💰Giá:109.000đ"
-    },
-    {
-      "id": "hist-1793164752351",
-      "time": "12:19 - 28/10/2026",
-      "name": "Grok Plus 30 ngày BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 10,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:10💰Giá:140.000đ"
     }
   ]
 }
