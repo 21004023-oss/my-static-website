@@ -234,6 +234,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 10000
         }
+      },
+      {
+        "id": "p-1793179206155",
+        "name": "VIEON VIP 1 THÁNG BHF",
+        "price": 38000,
+        "cost_price": 28000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời\n✏️",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 1,
+            "cost_price": 28000,
+            "selling_price": 38000,
+            "updated": "16:20 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 28000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12032,6 +12058,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793179206156",
+      "time": "16:20 - 28/10/2026",
+      "name": "VIEON VIP 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 38000,
+      "costPrice": 28000,
+      "stockAfter": 1,
+      "catKey": "vieon",
+      "msgKey": "⭐VIEONVIP1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:28.000đ"
+    },
+    {
       "id": "hist-1793179202247",
       "time": "16:20 - 28/10/2026",
       "name": "Tài khoản VieON VIP 30 ngày bhf",
@@ -13119,17 +13156,6 @@
       "stockAfter": 0,
       "catKey": "google-veo",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!📦GóiGeminiPro&Drive5TB18ThángChínhchủvừađượcnhậpkho🔥📦Sốlượngcósẵn:2"
-    },
-    {
-      "id": "hist-1793167536619",
-      "time": "13:05 - 28/10/2026",
-      "name": "ChatGPT Plus UIP 1 Tháng KBH",
-      "bot": "sieuthistore_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 12,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusUIP1ThángKBH➕Thêm:7📦Tồnkhohiệntại:12💰Giá:110.000đ"
     }
   ]
 }
