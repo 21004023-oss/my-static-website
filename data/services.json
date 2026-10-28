@@ -7405,10 +7405,10 @@
       {
         "id": "p-1793176775226",
         "name": "Suno Pro 1TH BH 1 ngày",
-        "price": 160000,
+        "price": 170000,
         "cost_price": 115000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 40,
+        "stock_text": "Còn 40",
         "duration": "1 Tháng",
         "detail": "Mail | Pass | Mail khôi phục\n✏️",
         "sources": {
@@ -7423,6 +7423,12 @@
             "cost_price": 140000,
             "selling_price": 160000,
             "updated": "20:23 28/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 20,
+            "cost_price": 150000,
+            "selling_price": 170000,
+            "updated": "04:50 29/10/2026"
           }
         },
         "cheapest_source": {
@@ -12713,6 +12719,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793224244729",
+      "time": "04:50 - 29/10/2026",
+      "name": "Suno Pro 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 40,
+      "catKey": "suno",
+      "msgKey": "🎵SunoPro1ThángBH1ngày➕Thêm:20📦Tồnkhohiệntại:20💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793223867826",
       "time": "04:44 - 29/10/2026",
       "name": "API MUSE TẠO 333 VIDEO 10s 1 THÁNG BHF",
@@ -13800,17 +13817,6 @@
       "stockAfter": 8,
       "catKey": "google-veo",
       "msgKey": "☁️ADMINGEMINIPRO+GOOGLEONE5TB6THÁNGBẢOHÀNH24H➕Thêm:3📦Tồnkhohiệntại:8💰Giá:150.000"
-    },
-    {
-      "id": "hist-1793205757676",
-      "time": "23:42 - 28/10/2026",
-      "name": "🔥VIP . Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 220000,
-      "costPrice": 200000,
-      "stockAfter": 110,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥VIP.ChatgptPlusApplePay1thángBHF➕Thêm:70📦Tồnkhohiệntại:110💰Giá:200.000đ"
     }
   ]
 }
