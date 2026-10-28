@@ -8961,25 +8961,27 @@
         "id": "p-1792217933454",
         "name": "HMA VPN Androi/PC/IOS 30 ngày BHF",
         "price": 45000,
-        "stock": 23,
-        "stock_text": "Còn 23",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
-        "detail": "HMA VPN 30 ngày dùng được Ios, Androi, Pc 5 thiết bị BHF\nChé độ bảo hành của Shop:\n- Thời gian bảo hành: Bảo hành trọn thời gian sử dụng\n- Bảo hành đủ thời gian theo gói quý khách đăng ký, nếu lỗi sẽ được cấp lại hoặc đổi gói mới (hoặc hoàn tiền số ngày còn lại nếu lỗi không fix được)\n- Chúc Quý Khách dùng ứng dụng vui vẻ ❤️",
+        "detail": "HMA VPN 30 ngày dùng được Ios, Androi, Pc 5 thiết bị BHF\nChé độ bảo hành của Shop:\n- Thời gian bảo hành: Bảo hành trọn thời gian sử dụng\n- Bảo hành đủ thời gian theo gói quý khách đăng ký, nếu lỗi sẽ được cấp lại hoặc đổi gói mới (hoặc hoàn tiền số ngày còn lại nếu lỗi không fix được)\n- Chúc Quý Khách dùng ứng dụng vui vẻ ❤️\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 23,
+            "stock": 12,
             "cost_price": 35000,
-            "updated": "13:18 17/10/2026",
-            "selling_price": 45000
+            "selling_price": 45000,
+            "updated": "14:15 28/10/2026"
           }
         },
         "hidden": false,
         "cost_price": 35000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 35000
-        }
+          "bot": "@sieuthistore_bot",
+          "cost_price": 35000,
+          "stock": 12
+        },
+        "needs_review": false
       }
     ]
   },
@@ -11688,6 +11690,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793171732073",
+      "time": "14:15 - 28/10/2026",
+      "name": "HMA VPN Androi/PC/IOS 30 ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 12,
+      "catKey": "hma-vpn",
+      "msgKey": "⭐HMAVPNAndroi/PC/IOS30ngàyBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793171623460",
       "time": "14:13 - 28/10/2026",
       "name": "PIA VPN 7 Ngày BHF",
@@ -12775,17 +12788,6 @@
       "stockAfter": 33,
       "catKey": "youtube",
       "msgKey": "📧GmailRandomip2010-2016đãquatrialytb💰Giá:46k📦Tồnkho:33tàikhoản📊Đãbán:15.223tàikh"
-    },
-    {
-      "id": "hist-1793159700739",
-      "time": "10:55 - 28/10/2026",
-      "name": "Link Gemini Pro 18 Tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 34000,
-      "costPrice": 24000,
-      "stockAfter": 89,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGeminiPro18ThángBH24H💰Giá:24k📦Tồnkho:89tàikhoản📊Đãbán:10.500tàikhoản💎Môtả:"
     }
   ]
 }
