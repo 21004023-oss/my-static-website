@@ -5219,16 +5219,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 34,
-        "stock_text": "Còn 34",
+        "stock": 24,
+        "stock_text": "Còn 24",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 34,
+            "stock": 24,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "23:57 28/10/2026"
+            "updated": "06:26 29/10/2026"
           }
         },
         "hidden": false,
@@ -5236,7 +5236,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 34
+          "stock": 24
         },
         "needs_review": false
       },
@@ -12763,6 +12763,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793229975893",
+      "time": "06:26 - 29/10/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 24,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:24💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793229971218",
       "time": "06:26 - 29/10/2026",
       "name": "Grok Plus 30 ngày KBH",
@@ -13850,17 +13861,6 @@
       "stockAfter": 35,
       "catKey": "khac",
       "msgKey": "💬THUÊBOTTELGRAMBINANCEĐỂĐÁUAPI➕Thêm:1📦Tồnkhohiệntại:35💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1793216616485",
-      "time": "02:43 - 29/10/2026",
-      "name": "Microsoft 365 Admin Family 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 9,
-      "catKey": "microsoft",
-      "msgKey": "⭐Microsoft365AdminFamily1ThángBHF➕Thêm:5📦Tồnkhohiệntại:9💰Giá:30.000đ"
     }
   ]
 }
