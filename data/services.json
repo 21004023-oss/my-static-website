@@ -7564,16 +7564,16 @@
         "id": "p-1792094683588",
         "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
         "price": 75000,
-        "stock": 220,
-        "stock_text": "Còn 220",
+        "stock": 217,
+        "stock_text": "Còn 217",
         "duration": "1 Tháng",
-        "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
+        "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 5,
+            "stock": 2,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "10:07 22/10/2026"
+            "updated": "16:27 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 215,
@@ -7582,14 +7582,15 @@
             "updated": "01:04 22/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cost_price": 33000,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 38800
+          "bot": "@piggyai99_bot",
+          "cost_price": 33000,
+          "stock": 2
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @piggyai99_bot"
       },
       {
         "id": "p-1792119807992",
@@ -12058,6 +12059,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793179661468",
+      "time": "16:27 - 28/10/2026",
+      "name": "CAPCUT PRO CÁ NHÂN 30D BHF",
+      "bot": "piggyai99_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 217,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30DBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1793179504377",
       "time": "16:25 - 28/10/2026",
       "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
@@ -13145,17 +13157,6 @@
       "stockAfter": 59,
       "catKey": "google-veo",
       "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:30📦Tồnkhohiệntại:59💰Giá:45.00"
-    },
-    {
-      "id": "hist-1793168205363",
-      "time": "13:16 - 28/10/2026",
-      "name": "Slot Gemini Pro +5TB Google One 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 41,
-      "catKey": "google-veo",
-      "msgKey": "☁️SlotGeminiPro+5TBGoogleOne1thángBHF➕Thêm:34📦Tồnkhohiệntại:41💰Giá:70.000đ"
     }
   ]
 }
