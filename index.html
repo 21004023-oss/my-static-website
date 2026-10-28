@@ -904,33 +904,9 @@
       transform: scale(0.98);
     }
 
-    .btn-copy-order {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      width: 100%;
-      background: #f8fafc;
-      color: #334155;
-      font-weight: 600;
-      font-size: 13px;
-      padding: 10px 14px;
-      border-radius: 10px;
-      border: 1px solid var(--border);
-      cursor: pointer;
-      transition: all 0.18s ease;
-      font-family: inherit;
-    }
-    .btn-copy-order:hover {
-      background: #f1f5f9;
-      color: #0f172a;
-      border-color: #cbd5e1;
-      transform: translateY(-1px);
-    }
-    .btn-copy-order:active {
-      transform: scale(0.98);
-      background: #e2e8f0;
-    }
+    
+    
+    
 
     /* TOAST COPY NOTIFICATION */
     .toast-copy-box {
@@ -1002,10 +978,7 @@
         font-size: 14px;
         padding: 13px 16px;
       }
-      .plan-accordion .btn-copy-order {
-        font-size: 13px;
-        padding: 11px 16px;
-      }
+      .plan-accordion 
 
       /* Sticky bottom quick contact pill on mobile */
       .mobile-floating-zalo {
@@ -1531,14 +1504,10 @@ function createPlanCard(catName, p, catKey) {
       </div>
 
       <div class="action-btn-group">
-        <a href="https://zalo.me/${ZALO}?text=${zaloMsg}" target="_blank" rel="noreferrer" class="btn-buy-zalo">
+        <a href="https://zalo.me/${ZALO}?text=${zaloMsg}" target="_blank" rel="noreferrer" class="btn-buy-zalo" onclick="handleAutoCopyAndOpenZalo(event, '${escapeJsString(p.name)}', '${p.price}', '${escapeJsString(catName)}')">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.03 2 11c0 2.87 1.5 5.43 3.86 7.03V22l3.8-2.09c.74.2 1.52.31 2.34.31 5.52 0 10-4.03 10-9s-4.48-9-10-9zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg>
-          <span>Nhắn Zalo Đặt Mua (${money(p.price)})</span>
+          <span>Đặt Mua Qua Zalo (${money(p.price)})</span>
         </a>
-        <button type="button" class="btn-copy-order" onclick="event.stopPropagation(); copyOrderMessage('${escapeJsString(p.name)}', '${p.price}', '${escapeJsString(catName)}')">
-          <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"></path></svg>
-          <span>📋 Sao Chép Tin Nhắn Đặt Mua</span>
-        </button>
       </div>
     </div>
   `;
@@ -1616,14 +1585,10 @@ function renderDetail(catName) {
     </div>
 
     <div class="action-btn-group">
-      <a href="https://zalo.me/${ZALO}?text=${zaloMsg}" target="_blank" rel="noreferrer" class="btn-buy-zalo">
+      <a href="https://zalo.me/${ZALO}?text=${zaloMsg}" target="_blank" rel="noreferrer" class="btn-buy-zalo" onclick="handleAutoCopyAndOpenZalo(event, '${escapeJsString(p.name)}', '${p.price}', '${escapeJsString(catName)}')">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.03 2 11c0 2.87 1.5 5.43 3.86 7.03V22l3.8-2.09c.74.2 1.52.31 2.34.31 5.52 0 10-4.03 10-9s-4.48-9-10-9zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg>
-        <span>Nhắn Zalo Đặt Mua (${money(p.price)})</span>
+        <span>Đặt Mua Qua Zalo (${money(p.price)})</span>
       </a>
-      <button type="button" class="btn-copy-order" onclick="copyOrderMessage('${escapeJsString(p.name)}', '${p.price}', '${escapeJsString(catName)}')">
-        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"></path></svg>
-        <span>📋 Sao Chép Tin Nhắn Đặt Mua</span>
-      </button>
     </div>
   `;
 }
@@ -1783,6 +1748,22 @@ function showToastCopy(msg) {
   window._toastTimer = setTimeout(function() {
     toast.classList.remove('show');
   }, 3500);
+}
+
+
+// TỰ ĐỘNG SAO CHÉP KHI BẤM NÚT ZALO
+function handleAutoCopyAndOpenZalo(e, planName, price, catName) {
+  var pStr = typeof money === 'function' ? money(price) : (Number(price).toLocaleString('vi-VN') + 'đ');
+  var msg = 'Chào shop Quốc Bảo, mình muốn mua gói: ' + planName + ' (' + pStr + '). Tư vấn kích hoạt giúp mình nhé!';
+  
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(msg).catch(function() {
+      fallbackCopyText(msg);
+    });
+  } else {
+    fallbackCopyText(msg);
+  }
+  showToastCopy('✅ Đã sao chép nội dung đơn hàng! Đang mở Zalo...');
 }
 
 </script>
