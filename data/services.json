@@ -9573,6 +9573,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 100000
         }
+      },
+      {
+        "id": "p-1793168966971",
+        "name": "Key Microsoft office 2024 Pro Plus 10 năm BH 1 năm",
+        "price": 70000,
+        "cost_price": 60000,
+        "stock": 26,
+        "stock_text": "Còn 26",
+        "duration": "1 Năm",
+        "detail": "✔️Key chính hãng bản 2024 Pro plus cho 1 máy tính Window vĩnh viễn (Not MAC)\n✔️Hổ trợ BH active và lưu trữ key 1 tháng\n✔️ Key chính hãng trọn đời nên không bị mất hay rớt gói trong suốt quá trình sử dụng\n✔️ Cần bản thấp hơn như 16/19/2021 nhắn cho admin\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 26,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "13:29 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 60000,
+          "stock": 26
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11556,6 +11582,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793168966971",
+      "time": "13:29 - 28/10/2026",
+      "name": "Key Microsoft office 2024 Pro Plus 10 năm BH 1 năm",
+      "bot": "taphoathomap_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 26,
+      "catKey": "microsoft",
+      "msgKey": "⭐KeyMicrosoftoffice2024ProPlus10nămBH1năm➕Thêm:10📦Tồnkhohiệntại:26💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1793168651114",
       "time": "13:24 - 28/10/2026",
       "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
@@ -12643,17 +12680,6 @@
       "stockAfter": 19,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:17📦Tồnkhohiệntại:17💰Giá:109.000đ"
-    },
-    {
-      "id": "hist-1793158328968",
-      "time": "10:32 - 28/10/2026",
-      "name": "Grok Plus 30 ngày BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 17,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:17📦Tồnkhohiệntại:17💰Giá:140.000đ"
     }
   ]
 }
