@@ -4682,8 +4682,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -4694,10 +4694,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 17,
+            "stock": 14,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "10:32 28/10/2026"
+            "updated": "11:26 28/10/2026"
           }
         },
         "hidden": false,
@@ -4706,7 +4706,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 17
+          "stock": 14
         }
       },
       {
@@ -11316,6 +11316,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793161567414",
+      "time": "11:26 - 28/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 16,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:14💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793161561847",
       "time": "11:26 - 28/10/2026",
       "name": "Tài khoản VieON VIP 3 tháng bhf",
@@ -12403,17 +12414,6 @@
       "stockAfter": 4,
       "catKey": "zoom",
       "msgKey": "⭐ACCZOOMPRO28NGÀYBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1793128337840",
-      "time": "02:12 - 28/10/2026",
-      "name": "Zoom Pro 28 Ngày BHF",
-      "bot": "piggyai99_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 14,
-      "catKey": "zoom",
-      "msgKey": "⭐ZoomPro28NgàyBHF💰Giá:60k📦Tồnkho:4tàikhoản📊Đãbán:414tàikhoản💎Môtả:ZoomPro100memb"
     }
   ]
 }
