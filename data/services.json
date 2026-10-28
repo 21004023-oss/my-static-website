@@ -4886,8 +4886,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 23,
-        "stock_text": "Còn 23",
+        "stock": 28,
+        "stock_text": "Còn 28",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -4898,10 +4898,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 21,
+            "stock": 26,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "14:34 28/10/2026"
+            "updated": "16:05 28/10/2026"
           }
         },
         "hidden": false,
@@ -4910,7 +4910,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 21
+          "stock": 26
         }
       },
       {
@@ -11922,6 +11922,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793178345197",
+      "time": "16:05 - 28/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 28,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:10📦Tồnkhohiệntại:26💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793177987094",
       "time": "15:59 - 28/10/2026",
       "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
@@ -13009,17 +13020,6 @@
       "stockAfter": 323,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:102📦Tồnkhohiệntại:106💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1793165407218",
-      "time": "12:30 - 28/10/2026",
-      "name": "Gmail (New) -Login All",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 298,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:102📦Tồnkhohiệntại:106💰Giá:35.000đ"
     }
   ]
 }
