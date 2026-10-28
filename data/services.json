@@ -12024,16 +12024,16 @@
         "name": "GALAXY PLAY SIÊU VIỆT 3 THÁNG BHF",
         "price": 130000,
         "cost_price": 95000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "3 Tháng",
         "detail": "1 Slot galaxy play Siêu Việt xem phim bộ + phim thuê châu á\nĐăng nhập và xem trên 1 thiết bị\nKhông đổi pass, pin và tên profile\nBảo hành 90 ngày\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "22:06 28/10/2026"
+            "updated": "22:08 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 1,
@@ -12054,6 +12054,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793200139758",
+      "time": "22:08 - 28/10/2026",
+      "name": "GALAXY PLAY SIÊU VIỆT 3 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "msgKey": "⭐GALAXYPLAYSIÊUVIỆT3THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:110.000đ"
+    },
     {
       "id": "hist-1793199973104",
       "time": "22:06 - 28/10/2026",
@@ -13142,17 +13153,6 @@
       "stockAfter": 49,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH💰Giá:109k📦Tồnkho:47tàikhoản📊Đãbán:280tàikhoản💎Môtả:Mail|PassĐư"
-    },
-    {
-      "id": "hist-1793191470342",
-      "time": "19:44 - 28/10/2026",
-      "name": "Grok Plus 30 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 129000,
-      "costPrice": 109000,
-      "stockAfter": 49,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:38📦Tồnkhohiệntại:47💰Giá:109.000đ"
     }
   ]
 }
