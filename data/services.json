@@ -5557,6 +5557,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793196196276",
+        "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
+        "price": 140000,
+        "cost_price": 120000,
+        "stock": 54,
+        "stock_text": "Còn 54",
+        "duration": "1 Tháng",
+        "detail": "Gói Kling Standard 1000 credit 1 TH BH 1 ngày bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 54,
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "21:03 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 120000,
+          "stock": 54
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12287,6 +12313,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793196196276",
+      "time": "21:03 - 28/10/2026",
+      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 54,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:120k📦Tồnkho:54tàikhoản📊Đãbán:82tàikhoản✏️"
+    },
+    {
       "id": "hist-1793196190356",
       "time": "21:03 - 28/10/2026",
       "name": "Kling Standard 1k Credit 1 Tháng BH 1 ngày",
@@ -13374,17 +13411,6 @@
       "stockAfter": 22,
       "catKey": "microsoft",
       "msgKey": "⭐Microsoft365cánhân1NămBH3tháng➕Thêm:10📦Tồnkhohiệntại:10💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1793186098049",
-      "time": "18:14 - 28/10/2026",
-      "name": "Meitu Vip+ 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 47,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+1ThángBHF➕Thêm:17📦Tồnkhohiệntại:19💰Giá:70.000đ"
     }
   ]
 }
