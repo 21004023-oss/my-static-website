@@ -11422,16 +11422,16 @@
         "name": "ACC ZOOM PRO 14 NGÀY BHF",
         "price": 50000,
         "cost_price": 40000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
         "detail": "Tài khoản cấp sẵn Zoom Pro 14 Ngày 100 members, hàng renew sau 14 ngày nên là khách hàng vui lòng không đổi pass\nĐịnh dạng: Email|Pass|Web Mail\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 2,
+            "stock": 3,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "20:11 28/10/2026"
+            "updated": "03:38 29/10/2026"
           }
         },
         "hidden": false,
@@ -11439,7 +11439,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 40000,
-          "stock": 2
+          "stock": 3
         },
         "needs_review": false
       },
@@ -12583,6 +12583,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793219896876",
+      "time": "03:38 - 29/10/2026",
+      "name": "ACC ZOOM PRO 14 NGÀY BHF",
+      "bot": "ntnshopre_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 3,
+      "catKey": "zoom",
+      "msgKey": "⭐ACCZOOMPRO14NGÀYBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1793219888959",
       "time": "03:38 - 29/10/2026",
       "name": "Zoom Pro 14 Ngày BHF",
@@ -13670,17 +13681,6 @@
       "stockAfter": 56,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥VIP.ChatgptPlusApplePay1thángBHF➕Thêm:20📦Tồnkhohiệntại:56💰Giá:200.000đ"
-    },
-    {
-      "id": "hist-1793201164075",
-      "time": "22:26 - 28/10/2026",
-      "name": "MUSE AI 1B TOKEN BẢO HÀNH ACITVE",
-      "bot": "ntnshopre_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 73,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MUSEAI1BTOKENBẢOHÀNHACITVE➕Thêm:78📦Tồnkhohiệntại:73💰Giá:15.000đ"
     }
   ]
 }
