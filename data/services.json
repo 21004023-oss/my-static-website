@@ -8497,16 +8497,16 @@
         "id": "p-1791917317024",
         "name": "Wink VIP+ 7 Ngày BHF",
         "price": 45000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "7 Ngày",
         "detail": "Wink gói VIP+ 7 Ngày BHF 100 credits login 1 thiết bị,  nếu đăng nhập trên điện thoại lỗi thì có thể có thể dùng trên PC\n- Định dạng: (Email|Pass Hotmail|Pass Wink) Token\n- Pass Wink mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\nLink tải app Wink trên máy tính: https://wink.ai/vi\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 7,
+            "stock": 3,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "01:07 28/10/2026"
+            "updated": "18:10 28/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 3,
@@ -8522,7 +8522,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 7
+          "stock": 3
         }
       },
       {
@@ -12197,6 +12197,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793185824271",
+      "time": "18:10 - 28/10/2026",
+      "name": "Wink VIP+ 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 6,
+      "catKey": "wink",
+      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:4📦Tồnkhohiệntại:3💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793185819542",
       "time": "18:10 - 28/10/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -13284,17 +13295,6 @@
       "stockAfter": 10,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPRO3THÁNGBHF➕Thêm:4📦Tồnkhohiệntại:5💰Giá:155.000đ"
-    },
-    {
-      "id": "hist-1793176643395",
-      "time": "15:37 - 28/10/2026",
-      "name": "CapCut Pro 3 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 205000,
-      "costPrice": 185000,
-      "stockAfter": 9,
-      "catKey": "capcut",
-      "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:4📦Tồnkhohiệntại:5💰Giá:185.000đ"
     }
   ]
 }
