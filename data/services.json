@@ -4955,8 +4955,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 28,
-        "stock_text": "Còn 28",
+        "stock": 49,
+        "stock_text": "Còn 49",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -4967,10 +4967,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 26,
+            "stock": 47,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "16:05 28/10/2026"
+            "updated": "19:44 28/10/2026"
           }
         },
         "hidden": false,
@@ -4979,7 +4979,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 26
+          "stock": 47
         }
       },
       {
@@ -12289,6 +12289,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793191470342",
+      "time": "19:44 - 28/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 49,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:38📦Tồnkhohiệntại:47💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793191465632",
       "time": "19:44 - 28/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -13376,17 +13387,6 @@
       "stockAfter": 106,
       "catKey": "google-veo",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:1📦Tồnkhohiệntại:34💰Giá:22.000đ"
-    },
-    {
-      "id": "hist-1793181768944",
-      "time": "17:02 - 28/10/2026",
-      "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 34,
-      "catKey": "google-veo",
-      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:1📦Tồnkhohiệntại:34💰Giá:45.000"
     }
   ]
 }
