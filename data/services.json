@@ -286,6 +286,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793200893934",
+        "name": "Tài Khoản VieON VIP 12 tháng BHF",
+        "price": 180000,
+        "cost_price": 160000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Năm",
+        "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 1,
+            "cost_price": 160000,
+            "selling_price": 180000,
+            "updated": "22:21 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 160000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12107,6 +12133,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793200893934",
+      "time": "22:21 - 28/10/2026",
+      "name": "Tài Khoản VieON VIP 12 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 180000,
+      "costPrice": 160000,
+      "stockAfter": 1,
+      "catKey": "vieon",
+      "msgKey": "⭐TàiKhoảnVieONVIP12thángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:160.000đ"
+    },
+    {
       "id": "hist-1793200604553",
       "time": "22:16 - 28/10/2026",
       "name": "🔥VIP . Chatgpt Plus Apple Pay 1 tháng BHF",
@@ -13194,17 +13231,6 @@
       "stockAfter": 4,
       "catKey": "zoom",
       "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793193001028",
-      "time": "20:10 - 28/10/2026",
-      "name": "Gói Gemini Pro & Drive 5TB 18 Tháng Chính chủ vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "google-veo",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!📦GóiGeminiPro&Drive5TB18ThángChínhchủvừađượcnhậpkho🔥📦Sốlượngcósẵn:3"
     }
   ]
 }
