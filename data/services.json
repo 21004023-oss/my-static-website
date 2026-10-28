@@ -5838,6 +5838,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793165080771",
+        "name": "Higgsfield Genjutsu  hạn 1 tháng BH 1h",
+        "price": 40000,
+        "cost_price": 30000,
+        "stock": 41,
+        "stock_text": "Còn 41",
+        "duration": "1 Tháng",
+        "detail": "💎 Mô tả:\n🎬 HIGGSFIELD – GENJUTSU\n✅ Gói Free Tạo 1 video bằng Motion,Swap Genjutsu\n🎥 Chất lượng:  480p or 720p| 30 giây/video\n⏳ Thời gian kết xuất: Khoảng 20 phút/video hoặc lâu hơn tùy chọn khung giờ và trạng thái máy chủ Higg.\nMua về nên Gen video luôn ko để lâu, không tắt đi bật lại nhiều lần khi đang Gen dễ bị mất slot\n🔐 Tài khoản dạng định dạng:\nTK Higgsfield | MK Higgsfield | Liên kết OTP\n✅ Video tạo web: https://higgsfield.ai/ai/video?model=genjutsu\n✅ HD login : điền tài khoản mật khẩu, nếu yêu cầu OTP thì click vào link OTP\nhttps://dongvanfb.net/read_mail_box/\n⚠️ Lưu ý : Vui lòng chờ đợi trong quá trình render video.\nNếu lâu chưa Gen có thể load lại trang\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 41,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "12:24 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
+          "stock": 41
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11421,6 +11447,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793165080771",
+      "time": "12:24 - 28/10/2026",
+      "name": "Higgsfield Genjutsu  hạn 1 tháng BH 1h",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 41,
+      "catKey": "higgsfield",
+      "msgKey": "🎬HiggsfieldGenjutsuhạn1thángBH1h➕Thêm:11📦Tồnkhohiệntại:41💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793165076022",
       "time": "12:24 - 28/10/2026",
       "name": "Higgsfield Genjutsu  hạn 1 tháng KBH",
@@ -12508,17 +12545,6 @@
       "stockAfter": 10,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusUIP1ThángKBH➕Thêm:10📦Tồnkhohiệntại:10💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1793150793987",
-      "time": "08:26 - 28/10/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 10,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:10📦Tồnkhohiệntại:10💰Giá:70.000đ"
     }
   ]
 }
