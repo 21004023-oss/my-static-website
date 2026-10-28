@@ -1682,25 +1682,26 @@
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
         "price": 310000,
-        "stock": 41,
-        "stock_text": "Còn 41",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
-        "detail": "🗣️ Mô tả:\n🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Tài khoản bào Codex thoải mái ( khách chủ động ver số )\n2. Không được dùng 9router\n3. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n4. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n5. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nThuê sim vẻ số tại: https://viotp.com/\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "detail": "- ChatGPT Plus 1 tháng BHF\n- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 41,
-            "cost_price": 215000,
-            "selling_price": 245000,
-            "updated": "01:13 20/10/2026"
+            "stock": 10,
+            "cost_price": 200000,
+            "selling_price": 220000,
+            "updated": "21:06 28/10/2026"
           }
         },
-        "cost_price": 215000,
-        "needs_review": true,
-        "hidden": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "cost_price": 200000,
+        "needs_review": false,
+        "hidden": false,
+        "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 215000
+          "cost_price": 200000,
+          "stock": 10
         }
       },
       {
@@ -12319,6 +12320,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793196387973",
+      "time": "21:06 - 28/10/2026",
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "price": 220000,
+      "costPrice": 200000,
+      "stockAfter": 10,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:10📦Tồnkhohiệntại:10💰Giá:200.000đ"
+    },
+    {
       "id": "hist-1793196213428",
       "time": "21:03 - 28/10/2026",
       "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
@@ -13406,17 +13418,6 @@
       "stockAfter": 5336,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi1BTokenKBH💰Giá:15k📦Tồnkho:2641tàikhoản📊Đãbán:10.112tàikhoản💎Môtả:MuseAI1B"
-    },
-    {
-      "id": "hist-1793186470851",
-      "time": "18:21 - 28/10/2026",
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 5336,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:1📦Tồnkhohiệntại:2641💰Giá:15.000đ"
     }
   ]
 }
