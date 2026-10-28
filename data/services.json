@@ -10094,26 +10094,27 @@
         "id": "p-1792119419529",
         "name": "GMAIL US CỔ DATE 201X-202X 2FA",
         "price": 55000,
-        "stock": 153,
-        "stock_text": "Còn 153",
+        "stock": 132,
+        "stock_text": "Còn 132",
         "duration": "1 Tháng",
-        "detail": "- Định dạng: Mail | Pass | Mail khôi phục | 2fa\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL US CỔ DATE 201X TRIAL CÓ 2FA",
+        "detail": "- Định dạng: Mail | Pass | Mail khôi phục | 2fa\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL US CỔ DATE 201X TRIAL CÓ 2FA\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 153,
+            "stock": 132,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "15:11 19/10/2026"
+            "updated": "13:32 28/10/2026"
           }
         },
-        "hidden": true,
-        "cost_price": 15000,
-        "needs_review": true,
+        "hidden": false,
+        "cost_price": 45000,
+        "needs_review": false,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "bot": "@ntnshopre_bot",
+          "cost_price": 45000,
+          "stock": 132
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @ntnshopre_bot"
       },
       {
         "id": "p-1792128240242",
@@ -11634,6 +11635,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793169132401",
+      "time": "13:32 - 28/10/2026",
+      "name": "GMAIL US CỔ DATE 201X-202X 2FA",
+      "bot": "ntnshopre_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 132,
+      "catKey": "gmail",
+      "msgKey": "📧GMAILUSCỔDATE201X-202X2FA➕Thêm:100📦Tồnkhohiệntại:132💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793169019034",
       "time": "13:30 - 28/10/2026",
       "name": "Capcut Pro 500 credit 7D BH 6D",
@@ -12721,17 +12733,6 @@
       "stockAfter": 55,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:8📦Tồnkhohiệntại:55💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1793158424920",
-      "time": "10:33 - 28/10/2026",
-      "name": "Link Gemini Pro 18 Tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 36000,
-      "costPrice": 26000,
-      "stockAfter": 55,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:8📦Tồnkhohiệntại:55💰Giá:26.000đ"
     }
   ]
 }
