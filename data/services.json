@@ -3255,26 +3255,27 @@
         "id": "p-1791898418611",
         "name": "API Claude 50M Token 1 ngày BHF",
         "price": 65000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Ngày",
-        "detail": "-API Claude 50M-Hàng anthropic\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Base Url : https://api.opusapi.store/\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-File hướng dẫn sử dụng và thiết lập:\n+ENGLISH: https://docs.google.com/document/d/1-r0i4qkHToW3exdkJfUAzin78s_bRbYb4nnvchhvtjg/edit?usp=sharing\n+VIETNAM: https://docs.google.com/document/d/1rBLXYdzTHL5mvm6c8d4QN2c7qWh8Cjj8sgEEf-_Wzug/edit?usp=sharing",
+        "detail": "-API Claude 50M-Hàng anthropic\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Base Url : https://api.opusapi.store/\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-File hướng dẫn sử dụng và thiết lập:\n+ENGLISH: https://docs.google.com/document/d/1-r0i4qkHToW3exdkJfUAzin78s_bRbYb4nnvchhvtjg/edit?usp=sharing\n+VIETNAM: https://docs.google.com/document/d/1rBLXYdzTHL5mvm6c8d4QN2c7qWh8Cjj8sgEEf-_Wzug/edit?usp=sharing\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 10,
+            "stock": 3,
             "cost_price": 55000,
             "selling_price": 65000,
-            "updated": "14:52 22/10/2026"
+            "updated": "13:00 28/10/2026"
           }
         },
-        "cost_price": 45000,
-        "needs_review": true,
-        "hidden": true,
+        "cost_price": 55000,
+        "needs_review": false,
+        "hidden": false,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 45000
+          "bot": "@piggyai99_bot",
+          "cost_price": 55000,
+          "stock": 3
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "Nhập: @piggyai99_bot"
       },
       {
         "id": "p-1791958427941",
@@ -11502,6 +11503,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793167242904",
+      "time": "13:00 - 28/10/2026",
+      "name": "API Claude 50M Token 1 ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 3,
+      "catKey": "claude",
+      "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793167230225",
       "time": "13:00 - 28/10/2026",
       "name": "Slot Youtube Premium 3 Tháng BHF",
@@ -12589,17 +12601,6 @@
       "stockAfter": 33,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPN1ThángBHF➕Thêm:1📦Tồnkhohiệntại:11💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1793153481578",
-      "time": "09:11 - 28/10/2026",
-      "name": "EXPRESS VPN 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 22,
-      "catKey": "expressvpn",
-      "msgKey": "🚚EXPRESSVPN1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:11💰Giá:65.000đ"
     }
   ]
 }
