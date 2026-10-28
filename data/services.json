@@ -4806,25 +4806,27 @@
         "id": "p-1792082467665",
         "name": "Kling Ultra 26k credit 1TH BH 2D",
         "price": 1700000,
-        "stock": 32,
-        "stock_text": "Còn 32",
+        "stock": 58,
+        "stock_text": "Còn 58",
         "duration": "1 Tháng",
-        "detail": "- Hàng không sẵn, order trả trong 3-5 tiếng\nLưu ý: Cân nhắc trước khi mua, đã mua là shop sẽ ghi nhận đơn hàng và bấm thanh toán. Sẽ không hoàn tiền sau khi mua",
+        "detail": "- Hàng không sẵn, order trả trong 3-5 tiếng\nLưu ý: Cân nhắc trước khi mua, đã mua là shop sẽ ghi nhận đơn hàng và bấm thanh toán. Sẽ không hoàn tiền sau khi mua\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 32,
-            "cost_price": 1500000,
-            "updated": "23:41 15/10/2026",
-            "selling_price": 1700000
+            "stock": 58,
+            "cost_price": 1200000,
+            "selling_price": 1400000,
+            "updated": "10:51 28/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 1500000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "cost_price": 1200000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 1500000
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 1200000,
+          "stock": 58
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792146735154",
@@ -11199,6 +11201,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793159504827",
+      "time": "10:51 - 28/10/2026",
+      "name": "Kling Ultra 26k credit 1TH BH 2D",
+      "bot": "taphoathomap_bot",
+      "price": 1400000,
+      "costPrice": 1200000,
+      "stockAfter": 58,
+      "catKey": "kling",
+      "msgKey": "🎬KlingUltra26kcredit1THBH2D➕Thêm:41📦Tồnkhohiệntại:58💰Giá:1.200.000đ"
+    },
+    {
       "id": "hist-1793159499689",
       "time": "10:51 - 28/10/2026",
       "name": "Kling Ultra 50k credit 1TH BH 2D",
@@ -12286,17 +12299,6 @@
       "stockAfter": 23,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥ChatGPTPlus30D(BH20D)➕Thêm:6📦Tồnkhohiệntại:6💰Giá:250.000đ"
-    },
-    {
-      "id": "hist-1793125829365",
-      "time": "01:30 - 28/10/2026",
-      "name": "MUSE AI 31 TỶ TOKEN KBH vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "muse-ai",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!🌐MUSEAI31TỶTOKENKBHvừađượcnhậpkho🔥📦Sốlượngcósẵn:20💵Giáchỉ:29.000đ🎁K"
     }
   ]
 }
