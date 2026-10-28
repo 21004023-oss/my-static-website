@@ -8218,6 +8218,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793225838566",
+        "name": "Capcut Pro 7-10 Ngày BHF",
+        "price": 25000,
+        "cost_price": 15000,
+        "stock": 23,
+        "stock_text": "Còn 23",
+        "duration": "1 Tháng",
+        "detail": "Capcut Pro 1. Định dạng tài khoản: Email | Mật khẩu 2. Login bằng điện thoại: Mở app, chọn Sign in with Email. 3. Login bằng PC: Sau khi login vào điện thoại thì tiến hành quét mã QR để đăng nhập cho PC. - iOS: Ngay trong Capcut mục TÔI > Quét QR. - Android: Phải cập nhật Capcut lên bản mới nhất mới có tính năng quét QR trong app.\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 23,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "05:17 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 15000,
+          "stock": 23
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12719,6 +12745,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793225838566",
+      "time": "05:17 - 29/10/2026",
+      "name": "Capcut Pro 7-10 Ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 23,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutPro7-10NgàyBHF➕Thêm:42📦Tồnkhohiệntại:23💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793225833843",
       "time": "05:17 - 29/10/2026",
       "name": "Capcut Pro 7 Ngày BHF",
@@ -13806,17 +13843,6 @@
       "stockAfter": 16,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP14NgàyBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793206666663",
-      "time": "23:57 - 28/10/2026",
-      "name": "Proton VPN 14-28 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 65000,
-      "costPrice": 55000,
-      "stockAfter": 4,
-      "catKey": "protonvpn",
-      "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:55.000đ"
     }
   ]
 }
