@@ -10707,8 +10707,8 @@
         "id": "p-1792093859672",
         "name": "Gmail Random 200X~2023 Có 2FA",
         "price": 55000,
-        "stock": 138,
-        "stock_text": "Còn 138",
+        "stock": 175,
+        "stock_text": "Còn 175",
         "duration": "1 Tháng",
         "detail": "Định dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H - Login thành công hết bảo hành\n- Gmail đã nuôi khá lâu rồi nên gmail khá khoẻ\n+ Lưu ý:\n- Hãy dùng proxy , và IP máy riêng để login Gmail , tránh tình trạng GG quét hàng loạt.\n-Sau 48H hãy thay đổi thông , đá thiết bị cũ, Để bảo mật tài sản của mình. ( Gmail cổ điều bảo mật thông tin là quan trọng nhất )\n-Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/\n✏️",
         "sources": {
@@ -10719,10 +10719,10 @@
             "updated": "20:07 28/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 65,
+            "stock": 102,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "20:07 28/10/2026"
+            "updated": "05:15 29/10/2026"
           },
           "piggyai99_bot": {
             "stock": 8,
@@ -10737,7 +10737,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 35000,
-          "stock": 65
+          "stock": 102
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -12719,6 +12719,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793225741587",
+      "time": "05:15 - 29/10/2026",
+      "name": "Gmail Random 200X~2023 Có 2FA",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 175,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:107📦Tồnkhohiệntại:102💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793225392579",
       "time": "05:09 - 29/10/2026",
       "name": "🔥 Link Gemini Pro 18 Tháng BH 12H",
@@ -13806,17 +13817,6 @@
       "stockAfter": 34,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:34💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1793206491755",
-      "time": "23:54 - 28/10/2026",
-      "name": "🔥 Link Gemini Pro 18 Tháng BH 12H",
-      "bot": "taphoathomap_bot",
-      "price": 30000,
-      "costPrice": 20000,
-      "stockAfter": 203,
-      "catKey": "google-veo",
-      "msgKey": "☁️🔥LinkGeminiPro18ThángBH12H➕Thêm:80📦Tồnkhohiệntại:133💰Giá:20.000đ"
     }
   ]
 }
