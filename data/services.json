@@ -10797,17 +10797,17 @@
         "id": "p-1792417336475",
         "name": "Gmail Random ip 7-10 ngày 2FA",
         "price": 45000,
-        "cost_price": 15000,
-        "stock": 27,
-        "stock_text": "Còn 27",
+        "cost_price": 25000,
+        "stock": 58,
+        "stock_text": "Còn 58",
         "duration": "1 Tháng",
-        "detail": "- Định dạng: Mail | Pass | 2FA |  Bảo hành trong 24h, LOGIN xong hết BẢO HÀNH",
+        "detail": "- Định dạng: Mail | Pass | 2FA |  Bảo hành trong 24h, LOGIN xong hết BẢO HÀNH\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 13,
+            "stock": 44,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "20:42 19/10/2026"
+            "updated": "22:34 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 14,
@@ -10816,13 +10816,14 @@
             "updated": "20:42 19/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 25000,
+          "stock": 14
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792421622161",
@@ -12192,6 +12193,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793201664536",
+      "time": "22:34 - 28/10/2026",
+      "name": "Gmail Random ip 7-10 ngày 2FA",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 58,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandomip7-10ngày2FA➕Thêm:36📦Tồnkhohiệntại:44💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793201519036",
       "time": "22:31 - 28/10/2026",
       "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
@@ -13279,17 +13291,6 @@
       "stockAfter": 3,
       "catKey": "zoom",
       "msgKey": "⭐ACCZOOMPRO28NGÀYBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:75.000đ"
-    },
-    {
-      "id": "hist-1793194479032",
-      "time": "20:34 - 28/10/2026",
-      "name": "Acc cấp Zoom Pro 28 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 3,
-      "catKey": "zoom",
-      "msgKey": "⭐AcccấpZoomPro28NgàyBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:65.000đ"
     }
   ]
 }
