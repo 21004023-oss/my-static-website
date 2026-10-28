@@ -10160,8 +10160,8 @@
         "id": "p-1792119419529",
         "name": "GMAIL US CỔ DATE 201X-202X 2FA",
         "price": 60000,
-        "stock": 462,
-        "stock_text": "Còn 462",
+        "stock": 231,
+        "stock_text": "Còn 231",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Mail | Pass | Mail khôi phục | 2fa\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL US CỔ DATE 201X TRIAL CÓ 2FA",
         "sources": {
@@ -10172,10 +10172,10 @@
             "updated": "15:09 28/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 231,
+            "stock": 0,
             "cost_price": 50000,
             "selling_price": 60000,
-            "updated": "13:45 28/10/2026"
+            "updated": "15:12 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 231,
@@ -11811,6 +11811,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793175122593",
+      "time": "15:12 - 28/10/2026",
+      "name": "GMAIL US CỔ DATE 201X-202X 2FA",
+      "bot": "sieuthistore_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 231,
+      "catKey": "gmail",
+      "msgKey": "📧GMAILUSCỔDATE201X-202X2FA➕Thêm:103📦Tồnkhohiệntại:0💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1793175051670",
       "time": "15:10 - 28/10/2026",
       "name": "Zoom Pro chính chủ 3 tháng (BHF)",
@@ -12898,17 +12909,6 @@
       "stockAfter": 16,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:15📦Tồnkhohiệntại:16💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1793161693984",
-      "time": "11:28 - 28/10/2026",
-      "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 74,
-      "catKey": "google-veo",
-      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:50📦Tồnkhohiệntại:74💰Giá:45.00"
     }
   ]
 }
