@@ -4359,6 +4359,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793168205363",
+        "name": "Slot Gemini Pro +5TB Google One 1 tháng BHF",
+        "price": 80000,
+        "cost_price": 70000,
+        "stock": 41,
+        "stock_text": "Còn 41",
+        "duration": "1 Tháng",
+        "detail": "Slot Gemini Pro +5TB Google One dùng được antigravity - Khách gửi tên gmail để được mời vào Family Tính năng nổi bật: ✅ Sử dụng Gemini AI nâng cao ✅ Hỗ trợ viết bài, dịch thuật, tóm tắt tài liệu ✅ Deep Research giúp nghiên cứu chuyên sâu ✅ Tạo và chỉnh sửa hình ảnh bằng AI ✅ Hỗ trợ tạo video AI với Google Flow ✅ NotebookLM nâng cao để học tập và phân tích tài liệu ✅ Tích hợp với Gmail, Google Docs, Google Drive ✅ Tặng kèm 5 TB lưu trữ Google One ✅ Họp google meet dùng được 24h, các tinh năng nâng cao",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 41,
+            "cost_price": 70000,
+            "selling_price": 80000,
+            "updated": "13:16 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 70000,
+          "stock": 41
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11529,6 +11555,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793168205363",
+      "time": "13:16 - 28/10/2026",
+      "name": "Slot Gemini Pro +5TB Google One 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 41,
+      "catKey": "google-veo",
+      "msgKey": "☁️SlotGeminiPro+5TBGoogleOne1thángBHF➕Thêm:34📦Tồnkhohiệntại:41💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793168037315",
       "time": "13:13 - 28/10/2026",
       "name": "🔥 ChatGPT Plus  30D ( BH 20D )",
@@ -12616,17 +12653,6 @@
       "stockAfter": 100,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥ChatgptPlusPayTiềnThật1thángBHF➕Thêm:100📦Tồnkhohiệntại:100💰Giá:220.000đ"
-    },
-    {
-      "id": "hist-1793154367013",
-      "time": "09:26 - 28/10/2026",
-      "name": "Express VPN 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 42,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN1ThángBHF💰Giá:95k📦Tồnkho:10tàikhoản📊Đãbán:72tàikhoản💎Môtả:-Địnhdạng:E"
     }
   ]
 }
