@@ -12471,9 +12471,9 @@
         "id": "p-1793215195424",
         "name": "PureVPN 7 Ngày BHF",
         "price": 45000,
-        "cost_price": 35000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "cost_price": 15000,
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "7 Ngày",
         "detail": "Tài khoản PureVPN 7 Ngày gói Max BHF\nĐịnh dạng: Email|Pass\n✏️",
         "sources": {
@@ -12482,20 +12482,37 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "updated": "02:19 29/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "02:20 29/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 35000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
           "stock": 6
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793215211931",
+      "time": "02:20 - 29/10/2026",
+      "name": "PureVPN 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 12,
+      "catKey": "khac",
+      "msgKey": "⭐PureVPN7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:15.000đ"
+    },
     {
       "id": "hist-1793215195424",
       "time": "02:19 - 29/10/2026",
@@ -13584,17 +13601,6 @@
       "stockAfter": 4,
       "catKey": "khac",
       "msgKey": "⭐GalaxyPlaySiêuViệt90ngàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1793200139758",
-      "time": "22:08 - 28/10/2026",
-      "name": "GALAXY PLAY SIÊU VIỆT 3 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 3,
-      "catKey": "khac",
-      "msgKey": "⭐GALAXYPLAYSIÊUVIỆT3THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:110.000đ"
     }
   ]
 }
