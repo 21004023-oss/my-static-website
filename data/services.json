@@ -4064,16 +4064,16 @@
         "id": "p-1792256292426",
         "name": "Link Gemini Pro 18 Tháng",
         "price": 65000,
-        "stock": 59,
-        "stock_text": "Còn 59",
+        "stock": 55,
+        "stock_text": "Còn 55",
         "duration": "1 Tháng",
         "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 59,
+            "stock": 55,
             "cost_price": 55000,
             "selling_price": 65000,
-            "updated": "10:27 28/10/2026"
+            "updated": "10:33 28/10/2026"
           }
         },
         "hidden": false,
@@ -4082,7 +4082,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 55000,
-          "stock": 59
+          "stock": 55
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -11116,6 +11116,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793158428855",
+      "time": "10:33 - 28/10/2026",
+      "name": "Link Gemini Pro 18 Tháng",
+      "bot": "sieuthistore_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 55,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:8📦Tồnkhohiệntại:55💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793158424920",
       "time": "10:33 - 28/10/2026",
       "name": "Link Gemini Pro 18 Tháng BH 24H",
@@ -12203,17 +12214,6 @@
       "stockAfter": 130,
       "catKey": "google-veo",
       "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:3📦Tồnkhohiệntại:130💰Giá:45.00"
-    },
-    {
-      "id": "hist-1793125716116",
-      "time": "01:28 - 28/10/2026",
-      "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 131,
-      "catKey": "google-veo",
-      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H💰Giá:45k📦Tồnkho:131tàikhoản📊Đãbán:6"
     }
   ]
 }
