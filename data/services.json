@@ -4336,16 +4336,16 @@
         "id": "p-1792256292426",
         "name": "Link Gemini Pro 18 Tháng",
         "price": 65000,
-        "stock": 84,
-        "stock_text": "Còn 84",
+        "stock": 79,
+        "stock_text": "Còn 79",
         "duration": "1 Tháng",
         "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 84,
+            "stock": 79,
             "cost_price": 55000,
             "selling_price": 65000,
-            "updated": "13:33 28/10/2026"
+            "updated": "22:43 28/10/2026"
           }
         },
         "hidden": false,
@@ -4354,7 +4354,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 55000,
-          "stock": 84
+          "stock": 79
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -12193,6 +12193,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793202203624",
+      "time": "22:43 - 28/10/2026",
+      "name": "Link Gemini Pro 18 Tháng",
+      "bot": "sieuthistore_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 79,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:50📦Tồnkhohiệntại:79💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793201929833",
       "time": "22:38 - 28/10/2026",
       "name": "Muse Ai 1B Token KBH",
@@ -13280,17 +13291,6 @@
       "stockAfter": 7,
       "catKey": "zoom",
       "msgKey": "⭐ZoomPro28NgàyBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793194487684",
-      "time": "20:34 - 28/10/2026",
-      "name": "ACC ZOOM PRO 28 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "price": 85000,
-      "costPrice": 75000,
-      "stockAfter": 3,
-      "catKey": "zoom",
-      "msgKey": "⭐ACCZOOMPRO28NGÀYBHF💰Giá:75k📦Tồnkho:3tàikhoản📊Đãbán:418tàikhoản💎Môtả:ZoomPro100m"
     }
   ]
 }
