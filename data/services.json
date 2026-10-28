@@ -10372,25 +10372,27 @@
         "id": "p-1792101992916",
         "name": "Gmail Cổ Random 2010~2022",
         "price": 55000,
-        "stock": 330,
-        "stock_text": "Còn 330",
+        "stock": 517,
+        "stock_text": "Còn 517",
         "duration": "1 Tháng",
-        "detail": "🇻🇳Mô tả: Login Lỗi Pass- Very Phone- Được Bảo hành Login 24H - login thành công là hết Bảo hành\nĐịnh dạng: Gmail | Pass | Gmail khôi phục| 2FA (nếu có )\n- Gmail này cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\n✅ Cần chọn nước Gmail inbox Admin ( chỉ áp dụng cho đơn mua số lượng)",
+        "detail": "🇻🇳Mô tả: Login Lỗi Pass- Very Phone- Được Bảo hành Login 24H - login thành công là hết Bảo hành\nĐịnh dạng: Gmail | Pass | Gmail khôi phục| 2FA (nếu có )\n- Gmail này cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\n-Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 330,
+            "stock": 517,
             "cost_price": 35000,
-            "updated": "05:43 16/10/2026",
-            "selling_price": 45000
+            "selling_price": 45000,
+            "updated": "16:44 28/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 15000,
+        "cost_price": 35000,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "bot": "@piggyai99_bot",
+          "cost_price": 35000,
+          "stock": 517
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @piggyai99_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792102069973",
@@ -12124,6 +12126,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793180699982",
+      "time": "16:44 - 28/10/2026",
+      "name": "Gmail Cổ Random 2010~2022",
+      "bot": "piggyai99_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 517,
+      "catKey": "gmail",
+      "msgKey": "📧GmailCổRandom2010~2022➕Thêm:500📦Tồnkhohiệntại:517💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793180368220",
       "time": "16:39 - 28/10/2026",
       "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
@@ -13211,17 +13224,6 @@
       "stockAfter": 132,
       "catKey": "gmail",
       "msgKey": "📧GMAILUSCỔDATE201X-202X2FA➕Thêm:100📦Tồnkhohiệntại:132💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793169019034",
-      "time": "13:30 - 28/10/2026",
-      "name": "Capcut Pro 500 credit 7D BH 6D",
-      "bot": "taphoathomap_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 154,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutPro500credit7DBH6D➕Thêm:200📦Tồnkhohiệntại:154💰Giá:10.000đ"
     }
   ]
 }
