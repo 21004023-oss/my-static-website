@@ -8503,6 +8503,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 15000
         }
+      },
+      {
+        "id": "p-1793178746256",
+        "name": "Wink Vip 3 Tháng BHF",
+        "price": 280000,
+        "cost_price": 250000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "3 Tháng",
+        "detail": "- Tài khoản chỉ dành cho IOS\nMở khóa full kho công cụ làm đẹp AI, tính năng làm nét video, xóa vật thể nâng cao, hiệu ứng chuyển cảnh VIP, xuất file chất lượng cao không logo\nLưu ý:\nChỉ đăng nhập trên 1 thiết bị, phát hiện đăng nhập nhiều thiết bị, sẽ kích và không bảo hành\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 1,
+            "cost_price": 250000,
+            "selling_price": 280000,
+            "updated": "16:12 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 250000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11949,6 +11975,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793178746256",
+      "time": "16:12 - 28/10/2026",
+      "name": "Wink Vip 3 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 280000,
+      "costPrice": 250000,
+      "stockAfter": 1,
+      "catKey": "wink",
+      "msgKey": "⭐WinkVip3ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:250.000đ"
+    },
+    {
       "id": "hist-1793178690931",
       "time": "16:11 - 28/10/2026",
       "name": "Capcut Pro 30d full Date - BHF vừa được nhập kho 🔥",
@@ -13036,17 +13073,6 @@
       "stockAfter": 550,
       "catKey": "gmail",
       "msgKey": "📧GmailViệt2020-2024➕Thêm:1📦Tồnkhohiệntại:30💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793166146370",
-      "time": "12:42 - 28/10/2026",
-      "name": "Higgfield GenJutsu 720p 1th BH 1h",
-      "bot": "taphoathomap_bot",
-      "price": 39000,
-      "costPrice": 29000,
-      "stockAfter": 50,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggfieldGenJutsu720p1thBH1h➕Thêm:3📦Tồnkhohiệntại:50💰Giá:29.000đ"
     }
   ]
 }
