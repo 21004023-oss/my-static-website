@@ -3206,6 +3206,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793221308814",
+        "name": "ChatGPT (Apple Pay) 1 Tháng BH 1 Ngày",
+        "price": 200000,
+        "cost_price": 180000,
+        "stock": 11,
+        "stock_text": "Còn 11",
+        "duration": "1 Tháng",
+        "detail": "📌 Định dạng:\nTK | MK GPT | 2FA\n📌  Chính sách bảo hành:\n• Bảo hành 15 phút về vấn đề mật khẩu và 2FA\n• Bảo hành 24H: Hỗ trợ 1 đổi 1 nếu tài khoản bị Deleted/Deactivated.\n🚫 CẢNH BÁO: Gần đây có nhiều Trường hợp khách đổi 2fa rồi báo sai 2fa nhằm gian lận lấy thêm acc, Các shop chú ý nhé\n🔐 Lấy mã xác thực:\n🌐 Truy cập https://2fa.live để lấy mã 2FA (OTP) đăng nhập.\n📝 Lưu ý:\n⚠️ KBH Codex, Tool xoay Codex.\n✅ Yêu cầu Quý khách mua về đổi 2FA luôn\n❗️ Shop không hỗ trợ lấy lại tài khoản vì GPT đổi mật khẩu không cần lấy code ở mail , ae tự bảo quản tài khoản của mình nhé\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 11,
+            "cost_price": 180000,
+            "selling_price": 200000,
+            "updated": "04:01 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 180000,
+          "stock": 11
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12585,6 +12611,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793221308814",
+      "time": "04:01 - 29/10/2026",
+      "name": "ChatGPT (Apple Pay) 1 Tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 11,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPT(ApplePay)1ThángBH1Ngày➕Thêm:3📦Tồnkhohiệntại:11💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1793221204656",
       "time": "04:00 - 29/10/2026",
       "name": "Figma Pro Edu 1 năm (BHF)",
@@ -13672,17 +13709,6 @@
       "stockAfter": 126,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:57📦Tồnkhohiệntại:126💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1793202684542",
-      "time": "22:51 - 28/10/2026",
-      "name": "COMBO 5 SLOT VEO4 x20 Ultra 25K credit SLOT 1TH BHF",
-      "bot": "taphoathomap_bot",
-      "price": 2650000,
-      "costPrice": 2300000,
-      "stockAfter": 5,
-      "catKey": "google-veo",
-      "msgKey": "🚀COMBO5SLOTVEO4x20Ultra25KcreditSLOT1THBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:2.300.000đ"
     }
   ]
 }
