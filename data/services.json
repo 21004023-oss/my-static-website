@@ -8268,8 +8268,8 @@
         "name": "🔥Express VPN 1 Tháng BHF",
         "price": 105000,
         "cost_price": 60000,
-        "stock": 43,
-        "stock_text": "Còn 43",
+        "stock": 42,
+        "stock_text": "Còn 42",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Email | Pass\n- Plan: Random Basic, Advanced, Pro\n- Đăng nhập và sử dụng qua App Express VPN\n✏️",
         "sources": {
@@ -8286,10 +8286,10 @@
             "updated": "09:25 28/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 11,
+            "stock": 10,
             "cost_price": 95000,
             "selling_price": 105000,
-            "updated": "09:11 28/10/2026"
+            "updated": "09:25 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -11053,6 +11053,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793154350950",
+      "time": "09:25 - 28/10/2026",
+      "name": "Express VPN 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 42,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN1ThángBHF➕Thêm:1📦Tồnkhohiệntại:10💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1793154346559",
       "time": "09:25 - 28/10/2026",
       "name": "EXPRESS VPN 1 THÁNG BHF",
@@ -12140,17 +12151,6 @@
       "stockAfter": 45,
       "catKey": "khac",
       "msgKey": "🛍️THÔNGTINSẢNPHẨM━━━━━━━━━━━━━━━━🎬CapcutPro30dfullDate-BHFEmail|PassHiệnFullDate"
-    },
-    {
-      "id": "hist-1793124436473",
-      "time": "01:07 - 28/10/2026",
-      "name": "THÔNG TIN SẢN PHẨM",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 79,
-      "catKey": "khac",
-      "msgKey": "🛍️THÔNGTINSẢNPHẨM━━━━━━━━━━━━━━━━📦GóiGeminiPro&Drive5TB18ThángChínhchủ💾Dunglượng"
     }
   ]
 }
