@@ -11128,6 +11128,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 5000
         }
+      },
+      {
+        "id": "p-1793205651253",
+        "name": "Outlook Trusted - 6 tháng - KBH",
+        "price": 10500,
+        "cost_price": 500,
+        "stock": 638,
+        "stock_text": "Còn 638",
+        "duration": "6 Tháng",
+        "detail": "🌟 CAM KẾT CHẤT LƯỢNG:\n✅ Email mới 100%, khởi tạo sạch trên IP sạch.\n✅ Nguyên zin, chưa từng qua bất kỳ dịch vụ (FB, TikTok...).\n✅ Định dạng chuẩn, khớp mọi công cụ MMO.\n✅ Hệ thống tự động lọc trùng trước khi giao.\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 638,
+            "cost_price": 500,
+            "selling_price": 10500,
+            "updated": "23:40 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 500,
+          "stock": 638
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12335,6 +12361,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793205651253",
+      "time": "23:40 - 28/10/2026",
+      "name": "Outlook Trusted - 6 tháng - KBH",
+      "bot": "taphoathomap_bot",
+      "price": 10500,
+      "costPrice": 500,
+      "stockAfter": 638,
+      "catKey": "hotmail",
+      "msgKey": "⭐OutlookTrusted-6tháng-KBH➕Thêm:317📦Tồnkhohiệntại:638💰Giá:500đ"
+    },
+    {
       "id": "hist-1793205068313",
       "time": "23:31 - 28/10/2026",
       "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
@@ -13422,17 +13459,6 @@
       "stockAfter": 39,
       "catKey": "google-veo",
       "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:40📦Tồnkhohiệntại:39💰Giá:45.00"
-    },
-    {
-      "id": "hist-1793197455361",
-      "time": "21:24 - 28/10/2026",
-      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 32000,
-      "costPrice": 22000,
-      "stockAfter": 111,
-      "catKey": "google-veo",
-      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:40📦Tồnkhohiệntại:39💰Giá:22.000đ"
     }
   ]
 }
