@@ -607,19 +607,19 @@
       {
         "id": "p-gmail-2010-2016-unified",
         "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
-        "price": 49000,
-        "cost_price": 15000,
-        "stock": 98,
-        "stock_text": "Còn 98",
-        "duration": "Ngẫu nhiên",
+        "price": 56000,
+        "cost_price": 46000,
+        "stock": 33,
+        "stock_text": "Còn 33",
+        "duration": "1 Tháng",
         "detail": "Định dạng username|pass|mkp|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
-        "hidden": true,
+        "hidden": false,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 0,
-            "cost_price": 39000,
-            "selling_price": 49000,
-            "updated": "03:21 19/10/2026"
+            "stock": 33,
+            "cost_price": 46000,
+            "selling_price": 56000,
+            "updated": "10:54 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -628,12 +628,13 @@
             "updated": "03:21 19/10/2026"
           }
         },
-        "needs_review": true,
+        "needs_review": false,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "bot": "@sieuthistore_bot",
+          "cost_price": 46000,
+          "stock": 33
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @sieuthistore_bot"
       },
       {
         "id": "gmail-new-ytb",
@@ -11254,6 +11255,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793159670186",
+      "time": "10:54 - 28/10/2026",
+      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
+      "bot": "sieuthistore_bot",
+      "price": 56000,
+      "costPrice": 46000,
+      "stockAfter": 33,
+      "catKey": "youtube",
+      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:9📦Tồnkhohiệntại:33💰Giá:46.000đ"
+    },
+    {
       "id": "hist-1793159665415",
       "time": "10:54 - 28/10/2026",
       "name": "GMAIL TRIAL RANDOM DATE 201X",
@@ -12341,17 +12353,6 @@
       "stockAfter": -1,
       "catKey": "spotify",
       "msgKey": "⭐SpotifyPremium(IOS)1THBHF💰Giá:30k📦Tồnkho:∞tàikhoản📊Đãbán:0tàikhoản💎Môtả:-YÊUCẦU"
-    },
-    {
-      "id": "hist-1793126112243",
-      "time": "01:35 - 28/10/2026",
-      "name": "Spotify Premium (IOS) 1TH BHF",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 1,
-      "catKey": "spotify",
-      "msgKey": "⭐SpotifyPremium(IOS)1THBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:30.000đ"
     }
   ]
 }
