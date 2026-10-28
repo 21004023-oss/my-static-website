@@ -1681,9 +1681,9 @@
       {
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
-        "price": 310000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "price": 330000,
+        "stock": 19,
+        "stock_text": "Còn 19",
         "duration": "1 Tháng",
         "detail": "- ChatGPT Plus 1 tháng BHF\n- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ\n✏️",
         "sources": {
@@ -1692,6 +1692,12 @@
             "cost_price": 200000,
             "selling_price": 220000,
             "updated": "21:06 28/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 9,
+            "cost_price": 300000,
+            "selling_price": 330000,
+            "updated": "21:09 28/10/2026"
           }
         },
         "cost_price": 200000,
@@ -12330,6 +12336,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793196589894",
+      "time": "21:09 - 28/10/2026",
+      "name": "ChatGPT Plus 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 330000,
+      "costPrice": 300000,
+      "stockAfter": 19,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus1ThángBHF➕Thêm:10📦Tồnkhohiệntại:9💰Giá:300.000đ"
+    },
+    {
       "id": "hist-1793196550497",
       "time": "21:09 - 28/10/2026",
       "name": "NORD VPN 10 thiết bị 7 ngày BHF",
@@ -13417,17 +13434,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "📣ThôngbáotừAdmin:Vừacóđợtcậpnhậtlớnvềthêmcácsảnphẩmmớivàgiảmgiácácsảnphẩmcũmờimọ"
-    },
-    {
-      "id": "hist-1793186889979",
-      "time": "18:28 - 28/10/2026",
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 8,
-      "catKey": "meitu",
-      "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
     }
   ]
 }
