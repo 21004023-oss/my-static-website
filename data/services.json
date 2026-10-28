@@ -6880,16 +6880,16 @@
         "name": "Gói VIP 1. API MUSE - Tạo 333 video - 1 tháng BH 15 Ngày",
         "price": 180000,
         "cost_price": 100000,
-        "stock": 30,
-        "stock_text": "Còn 30",
+        "stock": 40,
+        "stock_text": "Còn 40",
         "duration": "1 Tháng",
         "detail": "🎬 API MUSE VIP 1 – AI VIDEO GENERATOR\n💎 THÔNG TIN GÓI\n• 10s: 333 video | 20s: 166 video\n• 30s: 111 video | 60s: 55 video\n• Chất lượng 720p | Khung hình 16:9 & 9:16\n🚀 TÍNH NĂNG\n• Text-to-Video & Image-to-Video\n• Tạo tối đa 2 video đồng thời\n• Tùy chọn thời lượng 10s – 60s\n• Sử dụng trực tiếp trên website\n⚠️ LƯU Ý\n• Video dài tiêu hao nhiều lượt hơn\n• Video thành công mới trừ số dư\n• Không bảo hành số video chưa sử dụng khi gói hết hạn\n• Key lỗi: Hoàn tiền theo số dư chưa dùng (trong thời hạn gói)\n• Tốc độ xử lý phụ thuộc hệ thống\n🌐 https://muse.careflow-demo.online/playground\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 20,
             "cost_price": 100000,
             "selling_price": 110000,
-            "updated": "23:06 28/10/2026"
+            "updated": "23:08 28/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 20,
@@ -6901,7 +6901,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 100000,
-          "stock": 10
+          "stock": 20
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -12329,6 +12329,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793203722326",
+      "time": "23:08 - 28/10/2026",
+      "name": "Gói VIP 1. API MUSE - Tạo 333 video - 1 tháng BH 15 Ngày",
+      "bot": "taphoathomap_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 40,
+      "catKey": "muse-ai",
+      "msgKey": "⭐GóiVIP1.APIMUSE-Tạo333video-1thángBH15Ngày➕Thêm:10📦Tồnkhohiệntại:20💰Giá:100.000"
+    },
+    {
       "id": "hist-1793203707288",
       "time": "23:08 - 28/10/2026",
       "name": "VIP 1 – KEY Tạo Ảnh 2K + 330 Video 720P - 1 Tháng BH 15 Ngày",
@@ -13416,17 +13427,6 @@
       "stockAfter": 7,
       "catKey": "nordvpn",
       "msgKey": "🛡️NORDVPN7NGÀY10THIẾTBỊBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1793196533233",
-      "time": "21:08 - 28/10/2026",
-      "name": "NORD VPN 10 thiết bị 7 ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 30000,
-      "costPrice": 20000,
-      "stockAfter": 7,
-      "catKey": "nordvpn",
-      "msgKey": "🛡️NORDVPN10thiếtbị7ngàyBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:20.000đ"
     }
   ]
 }
