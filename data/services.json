@@ -4814,8 +4814,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 16,
-        "stock_text": "Còn 16",
+        "stock": 23,
+        "stock_text": "Còn 23",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -4826,10 +4826,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 14,
+            "stock": 21,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "13:57 28/10/2026"
+            "updated": "14:34 28/10/2026"
           }
         },
         "hidden": false,
@@ -4838,7 +4838,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 14
+          "stock": 21
         }
       },
       {
@@ -11707,6 +11707,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793172894981",
+      "time": "14:34 - 28/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 23,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:9📦Tồnkhohiệntại:21💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793172890143",
       "time": "14:34 - 28/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -12794,17 +12805,6 @@
       "stockAfter": 26,
       "catKey": "khac",
       "msgKey": "🔥FLASHSALE-GIẢMGIÁSỐC!📦1LINKGETGEMINIPRO18THÁNGBẢOHÀNH24H💸Giágốc:35.000đ🏷️Giảmng"
-    },
-    {
-      "id": "hist-1793159972494",
-      "time": "10:59 - 28/10/2026",
-      "name": "HEYGEN CREATOR 1 THÁNG ( BH 3 ngày)",
-      "bot": "ntnshopre_bot",
-      "price": 430000,
-      "costPrice": 380000,
-      "stockAfter": 6,
-      "catKey": "heygen",
-      "msgKey": "🎥HEYGENCREATOR1THÁNG(BH3ngày)💰Giá:380k📦Tồnkho:3tàikhoản📊Đãbán:206tàikhoản💎Môtả:✔"
     }
   ]
 }
