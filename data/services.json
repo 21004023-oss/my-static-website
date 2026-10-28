@@ -612,14 +612,14 @@
         "stock": 33,
         "stock_text": "Còn 33",
         "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|mkp|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
+        "detail": "Định dạng username|pass|mkp|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành\n✏️",
         "hidden": false,
         "sources": {
           "sieuthistore_bot": {
             "stock": 33,
             "cost_price": 46000,
             "selling_price": 56000,
-            "updated": "10:54 28/10/2026"
+            "updated": "10:55 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -11281,6 +11281,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793159705181",
+      "time": "10:55 - 28/10/2026",
+      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
+      "bot": "sieuthistore_bot",
+      "price": 56000,
+      "costPrice": 46000,
+      "stockAfter": 33,
+      "catKey": "youtube",
+      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb💰Giá:46k📦Tồnkho:33tàikhoản📊Đãbán:15.223tàikh"
+    },
+    {
       "id": "hist-1793159700739",
       "time": "10:55 - 28/10/2026",
       "name": "Link Gemini Pro 18 Tháng BH 24H",
@@ -12368,17 +12379,6 @@
       "stockAfter": 88,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:13📦Tồnkhohiệntại:88💰Giá:29.000đ"
-    },
-    {
-      "id": "hist-1793126287802",
-      "time": "01:38 - 28/10/2026",
-      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
-      "bot": "taphoathomap_bot",
-      "price": 43000,
-      "costPrice": 33000,
-      "stockAfter": 55,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:1📦Tồnkhohiệntại:0💰Giá:33.000đ"
     }
   ]
 }
