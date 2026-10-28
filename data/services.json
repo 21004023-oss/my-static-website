@@ -10402,16 +10402,16 @@
         "name": "Gmail random new",
         "price": 35000,
         "cost_price": 22000,
-        "stock": 45,
-        "stock_text": "Còn 45",
+        "stock": 41,
+        "stock_text": "Còn 41",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 34,
+            "stock": 30,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "12:12 28/10/2026"
+            "updated": "14:00 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -11655,6 +11655,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793170834551",
+      "time": "14:00 - 28/10/2026",
+      "name": "Gmail random new",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 41,
+      "catKey": "gmail",
+      "msgKey": "📧Gmailrandomnew➕Thêm:1📦Tồnkhohiệntại:30💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793170816366",
       "time": "14:00 - 28/10/2026",
       "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
@@ -12742,17 +12753,6 @@
       "stockAfter": 89,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:74📦Tồnkhohiệntại:89💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1793159682220",
-      "time": "10:54 - 28/10/2026",
-      "name": "KLING ULTRA 26K CREDITS 1 THÁNG BẢO HÀNH 2 NGÀY",
-      "bot": "ntnshopre_bot",
-      "price": 1700000,
-      "costPrice": 1500000,
-      "stockAfter": 58,
-      "catKey": "kling",
-      "msgKey": "🎬KLINGULTRA26KCREDITS1THÁNGBẢOHÀNH2NGÀY➕Thêm:41📦Tồnkhohiệntại:58💰Giá:1.500.000đ"
     }
   ]
 }
