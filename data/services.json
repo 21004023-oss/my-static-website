@@ -5324,13 +5324,13 @@
         "stock": 8,
         "stock_text": "Còn 8",
         "duration": "1 Tháng",
-        "detail": "áp dụng bảo hành /7 ko phải /30\nKhách lưu ý",
+        "detail": "áp dụng bảo hành /7 ko phải /30\nKhách lưu ý\n✏️",
         "sources": {
           "sieuthistore_bot": {
             "stock": 4,
             "cost_price": 650000,
             "selling_price": 750000,
-            "updated": "06:50 21/10/2026"
+            "updated": "19:22 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 4,
@@ -5339,12 +5339,13 @@
             "updated": "06:50 21/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 600000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 600000,
+          "stock": 4
         }
       },
       {
@@ -12262,6 +12263,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793190153137",
+      "time": "19:22 - 28/10/2026",
+      "name": "Kling Pro 3k3 Credit 1 Tháng BH 7 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 750000,
+      "costPrice": 650000,
+      "stockAfter": 8,
+      "catKey": "kling",
+      "msgKey": "🎬KlingPro3k3Credit1ThángBH7Ngày➕Thêm:4📦Tồnkhohiệntại:4💰Giá:650.000đ"
+    },
+    {
       "id": "hist-1793189953380",
       "time": "19:19 - 28/10/2026",
       "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
@@ -13349,17 +13361,6 @@
       "stockAfter": 0,
       "catKey": "grok",
       "msgKey": "🎉HÀNGMỚIVỀKỆ!⚡GrokPlus1thángriêngtư-BH7Dvừađượcnhậpkho🔥📦Sốlượngcósẵn:10💵Giáchỉ:6"
-    },
-    {
-      "id": "hist-1793180044464",
-      "time": "16:34 - 28/10/2026",
-      "name": "Gmail Random 200X~2023 Có 2FA",
-      "bot": "piggyai99_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 39,
-      "catKey": "gmail",
-      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:4📦Tồnkhohiệntại:4💰Giá:35.000đ"
     }
   ]
 }
