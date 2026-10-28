@@ -12167,8 +12167,8 @@
         "name": "PIA VPN 7 Ngày BHF",
         "price": 45000,
         "cost_price": 15000,
-        "stock": 35,
-        "stock_text": "Còn 35",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "7 Ngày",
         "detail": "Định dạng: Username|Pass\n✏️",
         "sources": {
@@ -12179,16 +12179,16 @@
             "updated": "18:22 28/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 29,
+            "stock": 6,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "15:48 28/10/2026"
+            "updated": "18:22 28/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 29
+          "stock": 6
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -12197,6 +12197,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793186560035",
+      "time": "18:22 - 28/10/2026",
+      "name": "PIA VPN 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 12,
+      "catKey": "khac",
+      "msgKey": "⭐PIAVPN7NgàyBHF➕Thêm:7📦Tồnkhohiệntại:6💰Giá:15.000đ"
+    },
     {
       "id": "hist-1793186550417",
       "time": "18:22 - 28/10/2026",
@@ -13285,17 +13296,6 @@
       "stockAfter": 36,
       "catKey": "khac",
       "msgKey": "⭐PIAVPN7NgàyBHF➕Thêm:28📦Tồnkhohiệntại:29💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793177226355",
-      "time": "15:47 - 28/10/2026",
-      "name": "ChatGPT Ver Students offer  Plus 4 Tháng  KBH",
-      "bot": "taphoathomap_bot",
-      "price": 500000,
-      "costPrice": 450000,
-      "stockAfter": 11,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTVerStudentsofferPlus4ThángKBH➕Thêm:11📦Tồnkhohiệntại:11💰Giá:450.000đ"
     }
   ]
 }
