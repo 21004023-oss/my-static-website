@@ -4047,7 +4047,7 @@ body {
 
               <div style="position:relative; display:inline-flex; align-items:center;">
 
-        <input type="text" id="filterInp" class="search-input" style="min-width:320px; padding-right:28px;" placeholder="🔍 Tìm toàn bộ kho (hỗ trợ có dấu & không dấu)..." oninput="handleAdminSearchInput()" />
+        <input type="text" id="filterInp" class="search-input" style="min-width:320px; padding-right:28px;" placeholder="🔍 Tìm toàn bộ kho (hỗ trợ có dấu & không dấu)..." oninput="handleAdminSearchInput()" onkeydown="if(event.key==='Enter')handleAdminSearchInput(true)" />
 
         <button id="btnAdminClearSearch" onclick="clearAdminSearch()" style="position:absolute; right:8px; background:none; border:none; color:var(--text-muted); cursor:pointer; font-size:12px; display:none;" title="Xóa tìm kiếm">✕</button>
 
@@ -6092,17 +6092,21 @@ body {
 
 
     
+    let _sidebarFilterTimer = null;
     function filterSidebarCategories(q) {
-      const cleanQ = typeof removeVietnameseTones === 'function' ? removeVietnameseTones((q || '').toLowerCase().trim()) : (q || '').toLowerCase().trim();
-      const items = document.querySelectorAll('#catList .cat-item');
-      items.forEach(item => {
-        if (item.innerText.includes('Tất cả sản phẩm')) {
-          item.style.display = cleanQ ? 'none' : 'flex';
-          return;
-        }
-        const text = typeof removeVietnameseTones === 'function' ? removeVietnameseTones(item.innerText.toLowerCase()) : item.innerText.toLowerCase();
-        item.style.display = text.includes(cleanQ) ? 'flex' : 'none';
-      });
+      clearTimeout(_sidebarFilterTimer);
+      _sidebarFilterTimer = setTimeout(() => {
+        const cleanQ = typeof removeVietnameseTones === 'function' ? removeVietnameseTones((q || '').toLowerCase().trim()) : (q || '').toLowerCase().trim();
+        const items = document.querySelectorAll('#catList .cat-item');
+        items.forEach(item => {
+          if (item.innerText.includes('Tất cả sản phẩm')) {
+            item.style.display = cleanQ ? 'none' : 'flex';
+            return;
+          }
+          const text = typeof removeVietnameseTones === 'function' ? removeVietnameseTones(item.innerText.toLowerCase()) : item.innerText.toLowerCase();
+          item.style.display = text.includes(cleanQ) ? 'flex' : 'none';
+        });
+      }, 50);
     }
     window.filterSidebarCategories = filterSidebarCategories;
 
@@ -12651,17 +12655,23 @@ body {
 
 
 
-    function handleAdminSearchInput() {
+    let _adminSearchTimer = null;
+function handleAdminSearchInput(immediate = false) {
+  const q = (document.getElementById('filterInp')?.value || '').trim();
+  const btn = document.getElementById('btnAdminClearSearch');
+  if (btn) btn.style.display = q.length > 0 ? 'block' : 'none';
 
-      const q = (document.getElementById('filterInp')?.value || '').trim();
+  if (immediate) {
+    clearTimeout(_adminSearchTimer);
+    renderTable();
+    return;
+  }
 
-      const btn = document.getElementById('btnAdminClearSearch');
-
-      if (btn) btn.style.display = q.length > 0 ? 'block' : 'none';
-
-      renderTable();
-
-    }
+  clearTimeout(_adminSearchTimer);
+  _adminSearchTimer = setTimeout(() => {
+    renderTable();
+  }, 90);
+}
 
 
 
@@ -12673,7 +12683,7 @@ body {
 
         inp.value = '';
 
-        handleAdminSearchInput();
+        handleAdminSearchInput(true);
 
         inp.focus();
 
