@@ -12434,10 +12434,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793214860824",
+        "name": "IPVanish VPN 7 Ngày BHF",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "7 Ngày",
+        "detail": "Tài khoản IPVanish VPN 7 Ngày BHF\nĐịnh dạng: Email|Pass\nWeb mail: https://get-opt.phh.info.vn\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 5,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "02:14 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 35000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793214860824",
+      "time": "02:14 - 29/10/2026",
+      "name": "IPVanish VPN 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 5,
+      "catKey": "khac",
+      "msgKey": "⭐IPVanishVPN7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
+    },
     {
       "id": "hist-1793214347489",
       "time": "02:05 - 29/10/2026",
@@ -13526,17 +13563,6 @@
       "stockAfter": 466,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:165📦Tồnkhohiệntại:180💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1793199770006",
-      "time": "22:02 - 28/10/2026",
-      "name": "Gmail (New) -Login All",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 397,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:165📦Tồnkhohiệntại:180💰Giá:35.000đ"
     }
   ]
 }
