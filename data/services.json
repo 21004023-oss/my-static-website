@@ -10200,17 +10200,17 @@
         "id": "p-1792421622161",
         "name": "Gmail random new",
         "price": 35000,
-        "cost_price": 15000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "cost_price": 22000,
+        "stock": 45,
+        "stock_text": "Còn 45",
         "duration": "1 Tháng",
-        "detail": "Định dạng username|pass Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành",
+        "detail": "Định dạng username|pass Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 11,
+            "stock": 34,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "11:46 20/10/2026"
+            "updated": "12:12 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -10219,13 +10219,14 @@
             "updated": "09:41 20/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 22000,
+          "stock": 11
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792490607327",
@@ -11394,6 +11395,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793164356062",
+      "time": "12:12 - 28/10/2026",
+      "name": "Gmail random new",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 45,
+      "catKey": "gmail",
+      "msgKey": "📧Gmailrandomnew➕Thêm:2📦Tồnkhohiệntại:34💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793164196625",
       "time": "12:09 - 28/10/2026",
       "name": "Tài khoản Canva Pro 1 tháng vừa được nhập kho 🔥",
@@ -12481,17 +12493,6 @@
       "stockAfter": 856,
       "catKey": "muse-ai",
       "msgKey": "⭐MUSEAI1BTOKENBẢOHÀNHACITVE➕Thêm:1📦Tồnkhohiệntại:856💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793147314555",
-      "time": "07:28 - 28/10/2026",
-      "name": "Sản phẩm nổi bật tại Toki Shop MMO",
-      "bot": "toki_shopmmo_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "khac",
-      "msgKey": "⚡SảnphẩmnổibậttạiTokiShopMMO📦131KDecorDiscord/ProfileEffectGiáRẻ(DạngLogin)–SởHữ"
     }
   ]
 }
