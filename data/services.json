@@ -266,22 +266,22 @@
         "name": "VIEON VIP 3 THÁNG BHF",
         "price": 90000,
         "cost_price": 80000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "3 Tháng",
         "detail": "Tài khoản đăng nhập 2 thiết bị và xem 1 thiết bị đồng thời\nXem tất cả phim VIP và phim PRO\nKhông đảm bảo sẽ xem được một số kênh truyền hình nước ngoài\nBảo hành toàn thời gian trường hợp không xem được phim, sai mật khẩu, quá thiết bị.\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "22:10 28/10/2026"
+            "updated": "22:11 28/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 80000,
-          "stock": 1
+          "stock": 2
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
@@ -12081,6 +12081,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793200285512",
+      "time": "22:11 - 28/10/2026",
+      "name": "VIEON VIP 3 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 2,
+      "catKey": "vieon",
+      "msgKey": "⭐VIEONVIP3THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1793200279315",
       "time": "22:11 - 28/10/2026",
       "name": "Tài khoản VieON VIP PRO 3 tháng bhf",
@@ -13168,17 +13179,6 @@
       "stockAfter": 104,
       "catKey": "gmail",
       "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:66📦Tồnkhohiệntại:65💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793192589362",
-      "time": "20:03 - 28/10/2026",
-      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 32000,
-      "costPrice": 22000,
-      "stockAfter": 157,
-      "catKey": "google-veo",
-      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H💰Giá:22k📦Tồnkho:85tàikhoản📊Đãbán:7.317tàikhoản💎Môt"
     }
   ]
 }
