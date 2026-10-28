@@ -9730,8 +9730,8 @@
         "id": "p-1791865941592",
         "name": "Microsoft 365 cá nhân 1 năm BH 3 tháng",
         "price": 60000,
-        "stock": 24,
-        "stock_text": "Còn 24",
+        "stock": 22,
+        "stock_text": "Còn 22",
         "duration": "1 Năm",
         "detail": "🔥 Tài khoản cấp sẵn. Tự động cập nhật mật khẩu khi lần đầu đăng nhập. Microsoft 365 dùng  được 5 thiết bị - 1 năm. Tải và đăng nhập vào ứng dụng M365 để sử dụng.\n✏️",
         "cost_price": 40000,
@@ -9743,10 +9743,10 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 12,
+            "stock": 10,
             "cost_price": 50000,
             "selling_price": 60000,
-            "updated": "14:28 28/10/2026"
+            "updated": "18:19 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 12,
@@ -12198,6 +12198,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793186353770",
+      "time": "18:19 - 28/10/2026",
+      "name": "Microsoft 365 cá nhân 1 Năm BH 3 tháng",
+      "bot": "sieuthistore_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 22,
+      "catKey": "microsoft",
+      "msgKey": "⭐Microsoft365cánhân1NămBH3tháng➕Thêm:10📦Tồnkhohiệntại:10💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1793186098049",
       "time": "18:14 - 28/10/2026",
       "name": "Meitu Vip+ 1 Tháng BHF",
@@ -13285,17 +13296,6 @@
       "stockAfter": 10,
       "catKey": "heygen",
       "msgKey": "🎥HeygenCreator1thBH3D💰Giá:400k📦Tồnkho:4tàikhoản📊Đãbán:10tàikhoản✏️Vuilòngnhậpsốl"
-    },
-    {
-      "id": "hist-1793176775226",
-      "time": "15:39 - 28/10/2026",
-      "name": "Suno Pro 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 5,
-      "catKey": "suno",
-      "msgKey": "🎵SunoPro1THBH1ngày➕Thêm:5📦Tồnkhohiệntại:5💰Giá:115.000đ"
     }
   ]
 }
