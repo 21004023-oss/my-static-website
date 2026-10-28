@@ -10560,8 +10560,8 @@
         "id": "p-1792141367157",
         "name": "JetBrain Edu 1 năm (BHF)",
         "price": 90000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Năm",
         "detail": "💻 JETBRAINS EDUCATION\n✨ Gói JetBrains dành cho học tập, lập trình và phát triển phần mềm.\n✅ Sử dụng bộ IDE JetBrains\n✅ IntelliJ IDEA, PyCharm, WebStorm, CLion, Rider...\n✅ Đầy đủ tính năng phục vụ code chuyên nghiệp\n✅ Phù hợp sinh viên, giáo viên và người học lập trình\n✅ Hỗ trợ nhiều ngôn ngữ và nền tảng phát triển\n🚀 Tối ưu cho học tập, làm bài tập, đồ án và lập trình chuyên sâu.\n📦 **Định dạng:**\nMAIL | PASS JETBRAINS | PASS MAIL\n✅ Mua số lượng nhiều inbox admin giá tốt hơn\n✏️",
         "sources": {
@@ -10569,6 +10569,12 @@
             "stock": 3,
             "cost_price": 50000,
             "selling_price": 60000,
+            "updated": "13:55 28/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 3,
+            "cost_price": 70000,
+            "selling_price": 80000,
             "updated": "13:55 28/10/2026"
           }
         },
@@ -11648,6 +11654,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793170549890",
+      "time": "13:55 - 28/10/2026",
+      "name": "JetBrain Edu 1 năm (BHF)",
+      "bot": "piggyai99_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 6,
+      "catKey": "jetbrains",
+      "msgKey": "⭐JetBrainEdu1năm(BHF)➕Thêm:3📦Tồnkhohiệntại:3💰Giá:70.000đ"
+    },
     {
       "id": "hist-1793170544179",
       "time": "13:55 - 28/10/2026",
@@ -12736,17 +12753,6 @@
       "stockAfter": 189,
       "catKey": "youtube",
       "msgKey": "📧GmailRandomip2010-2016trialyoutube➕Thêm:319📦Tồnkhohiệntại:189💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793159510853",
-      "time": "10:51 - 28/10/2026",
-      "name": "VIP. Kling Ultra 4.0 26k credit 1 tháng BH 2 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 1900000,
-      "costPrice": 1700000,
-      "stockAfter": 79,
-      "catKey": "kling",
-      "msgKey": "🎬VIP.KlingUltra4.026kcredit1thángBH2ngày➕Thêm:41📦Tồnkhohiệntại:79💰Giá:1.700.000đ"
     }
   ]
 }
