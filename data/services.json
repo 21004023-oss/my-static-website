@@ -2656,25 +2656,26 @@
         "id": "p-1791925516429",
         "name": "API CODEX ASTRA6 50$ TOKEN 1THÁNG BHF",
         "price": 160000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
-        "detail": "-API Codex 50$\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng\n- Có Astra 6\n-File hướng dẫn thiết lập và sử dụng: https://drive.google.com/drive/folders/1kMP3CutQ2ANDo5pKXw1Xe9kR2YXPhSSW?usp=drive_link",
+        "detail": "-API Codex 50$\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng\n- Có Astra 6\n-File hướng dẫn thiết lập và sử dụng: https://drive.google.com/drive/folders/1kMP3CutQ2ANDo5pKXw1Xe9kR2YXPhSSW?usp=drive_link\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 5,
+            "stock": 2,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "09:53 22/10/2026"
+            "updated": "17:05 28/10/2026"
           }
         },
         "cost_price": 140000,
-        "needs_review": true,
-        "hidden": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "hidden": false,
+        "import_note": "Nhập: @piggyai99_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 140000
+          "bot": "@piggyai99_bot",
+          "cost_price": 140000,
+          "stock": 2
         }
       },
       {
@@ -12133,6 +12134,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793181928985",
+      "time": "17:05 - 28/10/2026",
+      "name": "API CODEX ASTRA6 50$ TOKEN 1THÁNG BHF",
+      "bot": "piggyai99_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 2,
+      "catKey": "chatgpt",
+      "msgKey": "⭐APICODEXASTRA650$TOKEN1THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793181773811",
       "time": "17:02 - 28/10/2026",
       "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
@@ -13220,17 +13232,6 @@
       "stockAfter": 595,
       "catKey": "gmail",
       "msgKey": "📧GMAILUSCỔDATE201X-202X2FA➕Thêm:100📦Tồnkhohiệntại:231💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1793169771509",
-      "time": "13:42 - 28/10/2026",
-      "name": "🔥 Chatgpt Plus Pay Tiền Thật 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 73,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥ChatgptPlusPayTiềnThật1thángBHF➕Thêm:46📦Tồnkhohiệntại:73💰Giá:220.000đ"
     }
   ]
 }
