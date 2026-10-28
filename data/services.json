@@ -11873,9 +11873,9 @@
         "id": "p-1792418943720",
         "name": "Key Window 10/11 Pro Byphone 20 năm BH 1 năm",
         "price": 130000,
-        "cost_price": 110000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "cost_price": 89000,
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Năm",
         "detail": "✔️ Key chính hãng vĩnh viễn cho 1 máy tính Window. Active được cả win 10 Pro và 11 Pro\n✔️ Bảo hành active và lưu trữ key trong 1 tháng\n✔️ Hàng chính hãng không bị mất active khi đang sử dụng\n✔️ Active by phone có bot lấy CID nhanh chóng\n✏️",
         "sources": {
@@ -11884,13 +11884,19 @@
             "cost_price": 110000,
             "selling_price": 130000,
             "updated": "19:57 28/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 15,
+            "cost_price": 89000,
+            "selling_price": 99000,
+            "updated": "19:57 28/10/2026"
           }
         },
         "hidden": false,
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 110000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 89000,
           "stock": 15
         },
         "needs_review": false
@@ -12290,6 +12296,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793192235808",
+      "time": "19:57 - 28/10/2026",
+      "name": "Key Window 10/11 Pro Byphone 20 năm BH 1 năm",
+      "bot": "taphoathomap_bot",
+      "price": 99000,
+      "costPrice": 89000,
+      "stockAfter": 30,
+      "catKey": "khac",
+      "msgKey": "⭐KeyWindow10/11ProByphone20nămBH1năm➕Thêm:10📦Tồnkhohiệntại:15💰Giá:89.000đ"
+    },
     {
       "id": "hist-1793192229812",
       "time": "19:57 - 28/10/2026",
@@ -13378,17 +13395,6 @@
       "stockAfter": 56,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusApplePayGmail30D-BHF➕Thêm:12📦Tồnkhohiệntại:56💰Giá:270.000đ"
-    },
-    {
-      "id": "hist-1793182128426",
-      "time": "17:08 - 28/10/2026",
-      "name": "🔥VIP . Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 220000,
-      "costPrice": 200000,
-      "stockAfter": 40,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥VIP.ChatgptPlusApplePay1thángBHF➕Thêm:30📦Tồnkhohiệntại:40💰Giá:200.000đ"
     }
   ]
 }
