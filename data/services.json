@@ -9393,17 +9393,28 @@
       {
         "id": "p-1791865941592",
         "name": "Microsoft 365 cá nhân 1 năm BH 3 tháng",
-        "price": 54000,
-        "stock": 4,
-        "stock_text": "Còn 4",
-        "duration": "1 năm",
-        "detail": "Gói Microsoft 365 cá nhân 1 năm BH 3 tháng bảo hành uy tín.",
-        "cost_price": 16800,
+        "price": 60000,
+        "stock": 12,
+        "stock_text": "Còn 12",
+        "duration": "1 Năm",
+        "detail": "🔥 Tài khoản cấp sẵn. Tự động cập nhật mật khẩu khi lần đầu đăng nhập. Microsoft 365 dùng  được 5 thiết bị - 1 năm. Tải và đăng nhập vào ứng dụng M365 để sử dụng.\n✏️",
+        "cost_price": 50000,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 16800
+          "bot": "@sieuthistore_bot",
+          "cost_price": 50000,
+          "stock": 12
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @sieuthistore_bot",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 12,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "14:28 28/10/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1791915198168",
@@ -11690,6 +11701,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793172521426",
+      "time": "14:28 - 28/10/2026",
+      "name": "Microsoft 365 cá nhân 1 Năm BH 3 tháng",
+      "bot": "sieuthistore_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 12,
+      "catKey": "microsoft",
+      "msgKey": "⭐Microsoft365cánhân1NămBH3tháng➕Thêm:10📦Tồnkhohiệntại:12💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1793172207000",
       "time": "14:23 - 28/10/2026",
       "name": "Muse Ai  1B Token KBH",
@@ -12777,17 +12799,6 @@
       "stockAfter": 5,
       "catKey": "heygen",
       "msgKey": "🎥HEYGENCREATOR1THÁNG(BH3ngày)➕Thêm:1📦Tồnkhohiệntại:3💰Giá:410.000đ"
-    },
-    {
-      "id": "hist-1793159727900",
-      "time": "10:55 - 28/10/2026",
-      "name": "Kling Ultra 50k credit 1TH BH 2D",
-      "bot": "taphoathomap_bot",
-      "price": 2550000,
-      "costPrice": 2200000,
-      "stockAfter": 41,
-      "catKey": "kling",
-      "msgKey": "🎬KlingUltra50kcredit1THBH2D➕Thêm:41📦Tồnkhohiệntại:41💰Giá:2.200.000đ"
     }
   ]
 }
