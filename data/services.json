@@ -10830,16 +10830,16 @@
         "name": "Gmail random new",
         "price": 35000,
         "cost_price": 22000,
-        "stock": 41,
-        "stock_text": "Còn 41",
+        "stock": 61,
+        "stock_text": "Còn 61",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 30,
+            "stock": 50,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "14:00 28/10/2026"
+            "updated": "22:47 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -12193,6 +12193,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793202458299",
+      "time": "22:47 - 28/10/2026",
+      "name": "Gmail random new",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 61,
+      "catKey": "gmail",
+      "msgKey": "📧Gmailrandomnew➕Thêm:40📦Tồnkhohiệntại:50💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793202213153",
       "time": "22:43 - 28/10/2026",
       "name": "🔥 Link Gemini Pro 18 Tháng BH 12H",
@@ -13280,17 +13291,6 @@
       "stockAfter": 26,
       "catKey": "khac",
       "msgKey": "🎉SẢNPHẨMMỚIVỪALÊNKỆ!📦1LINKGETGEMINIPRO18THÁNGBẢOHÀNH24H📦Tồnkhohiệntại:26💰Giágốc:"
-    },
-    {
-      "id": "hist-1793195029466",
-      "time": "20:43 - 28/10/2026",
-      "name": "Gói Gemini Pro & Drive 5TB 18 Tháng Chính chủ vừa được nhập kho 🔥",
-      "bot": "shopxoainon_bot",
-      "price": 0,
-      "costPrice": 0,
-      "stockAfter": 0,
-      "catKey": "google-veo",
-      "msgKey": "🎉HÀNGMỚIVỀKỆ!📦GóiGeminiPro&Drive5TB18ThángChínhchủvừađượcnhậpkho🔥📦Sốlượngcósẵn:3"
     }
   ]
 }
