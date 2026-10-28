@@ -12270,6 +12270,32 @@
         "needs_review": false
       },
       {
+        "id": "p-1793194422150",
+        "name": "CHỌN PHƯƠNG THỨC THANH TOÁN",
+        "price": 25900,
+        "cost_price": 15900,
+        "stock": 173,
+        "stock_text": "Còn 173",
+        "duration": "1 Tháng",
+        "detail": "Gói CHỌN PHƯƠNG THỨC THANH TOÁN bảo hành uy tín.",
+        "sources": {
+          "shopxoainon_bot": {
+            "stock": 173,
+            "cost_price": 15900,
+            "selling_price": 25900,
+            "updated": "20:33 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@shopxoainon_bot",
+          "cost_price": 15900,
+          "stock": 173
+        },
+        "import_note": "Nhập: @shopxoainon_bot",
+        "hidden": false,
+        "needs_review": false
+      },
+      {
         "id": "p-1793171618383",
         "name": "PIA VPN 7 Ngày BHF",
         "price": 45000,
@@ -12324,32 +12350,6 @@
           "stock": 3
         },
         "import_note": "Nhập: @taphoathomap_bot",
-        "hidden": false,
-        "needs_review": false
-      },
-      {
-        "id": "p-1793194422150",
-        "name": "CHỌN PHƯƠNG THỨC THANH TOÁN",
-        "price": 25900,
-        "cost_price": 15900,
-        "stock": 173,
-        "stock_text": "Còn 173",
-        "duration": "1 Tháng",
-        "detail": "Gói CHỌN PHƯƠNG THỨC THANH TOÁN bảo hành uy tín.",
-        "sources": {
-          "shopxoainon_bot": {
-            "stock": 173,
-            "cost_price": 15900,
-            "selling_price": 25900,
-            "updated": "20:33 28/10/2026"
-          }
-        },
-        "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 15900,
-          "stock": 173
-        },
-        "import_note": "Nhập: @shopxoainon_bot",
         "hidden": false,
         "needs_review": false
       }
