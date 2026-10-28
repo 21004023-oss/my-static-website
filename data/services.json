@@ -11891,10 +11891,10 @@
         "name": "PIA VPN 7 Ngày BHF",
         "price": 45000,
         "cost_price": 15000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 36,
+        "stock_text": "Còn 36",
         "duration": "7 Ngày",
-        "detail": "Định dạng: Username|Pass\n✏️",
+        "detail": "PIA VPN 7 Ngày BHF\nĐịnh dạng: Use name / Pass\n✏️",
         "sources": {
           "sieuthistore_bot": {
             "stock": 7,
@@ -11903,16 +11903,16 @@
             "updated": "14:13 28/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 7,
+            "stock": 29,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "14:13 28/10/2026"
+            "updated": "15:48 28/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 7
+          "stock": 29
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -11921,6 +11921,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793177305476",
+      "time": "15:48 - 28/10/2026",
+      "name": "PIA VPN 7 Ngày  BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 36,
+      "catKey": "khac",
+      "msgKey": "⭐PIAVPN7NgàyBHF➕Thêm:28📦Tồnkhohiệntại:29💰Giá:15.000đ"
+    },
     {
       "id": "hist-1793177226355",
       "time": "15:47 - 28/10/2026",
@@ -13009,17 +13020,6 @@
       "stockAfter": 48,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:55📦Tồnkhohiệntại:48💰Giá:24.000đ"
-    },
-    {
-      "id": "hist-1793164132039",
-      "time": "12:08 - 28/10/2026",
-      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
-      "bot": "sieuthistore_bot",
-      "price": 56000,
-      "costPrice": 46000,
-      "stockAfter": 80,
-      "catKey": "youtube",
-      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:50📦Tồnkhohiệntại:80💰Giá:46.000đ"
     }
   ]
 }
