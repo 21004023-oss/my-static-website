@@ -7630,6 +7630,32 @@
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "needs_review": false
+      },
+      {
+        "id": "p-1793169013116",
+        "name": "Capcut Pro 7 Ngày BH 6 Ngày",
+        "price": 23000,
+        "cost_price": 13000,
+        "stock": 154,
+        "stock_text": "Còn 154",
+        "duration": "7 Ngày",
+        "detail": "Capcut Pro 6-7d. Định dạng tài khoản: Email | Mật khẩu 2. Login bằng điện thoại: Mở app, chọn Sign in with Email. 3. Login bằng PC: Sau khi login vào điện thoại thì tiến hành quét mã QR để đăng nhập cho PC. - iOS: Ngay trong Capcut mục TÔI > Quét QR. - Android: Phải cập nhật Capcut lên bản mới nhất mới có tính năng quét QR trong app. Không bảo hành đăng nhập quá thường xuyên.\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 154,
+            "cost_price": 13000,
+            "selling_price": 23000,
+            "updated": "13:30 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 13000,
+          "stock": 154
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11582,6 +11608,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793169013116",
+      "time": "13:30 - 28/10/2026",
+      "name": "Capcut Pro 7 Ngày BH 6 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 23000,
+      "costPrice": 13000,
+      "stockAfter": 154,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutPro7NgàyBH6Ngày➕Thêm:200📦Tồnkhohiệntại:154💰Giá:13.000đ"
+    },
+    {
       "id": "hist-1793168966971",
       "time": "13:29 - 28/10/2026",
       "name": "Key Microsoft office 2024 Pro Plus 10 năm BH 1 năm",
@@ -12669,17 +12706,6 @@
       "stockAfter": 30,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥ChatgptPlusPayTiềnThật1thángBHF➕Thêm:100📦Tồnkhohiệntại:30💰Giá:220.000đ"
-    },
-    {
-      "id": "hist-1793158335105",
-      "time": "10:32 - 28/10/2026",
-      "name": "Grok Plus 30 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 129000,
-      "costPrice": 109000,
-      "stockAfter": 19,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:17📦Tồnkhohiệntại:17💰Giá:109.000đ"
     }
   ]
 }
