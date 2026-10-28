@@ -9493,6 +9493,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 30000
         }
+      },
+      {
+        "id": "p-1793191414212",
+        "name": "Link Duolingo 1 năm KBH",
+        "price": 55000,
+        "cost_price": 45000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "1 Năm",
+        "detail": "✅ Bạn sẽ nhận được liên kết kích hoạt Duolingo Super thời hạn 12 tháng!\n✅ Không cần dùng thẻ để kích hoạt.\n✅ Chỉ cần dán liên kết vào trình duyệt, đăng nhập vào tài khoản của bạn và nhấn vào nút nhận ưu đãi (CLAIM OFFER)!\n✅ Chỉ bảo hành active thành công cho 1 tài khoản\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 8,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "19:43 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 45000,
+          "stock": 8
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12263,6 +12289,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793191414212",
+      "time": "19:43 - 28/10/2026",
+      "name": "Link Duolingo 1 năm KBH",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 8,
+      "catKey": "duolingo",
+      "msgKey": "⭐LinkDuolingo1nămKBH➕Thêm:10📦Tồnkhohiệntại:8💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793191374694",
       "time": "19:42 - 28/10/2026",
       "name": "MUSE AI 1 TỶ TOKEN KBH vừa được nhập kho 🔥",
@@ -13350,17 +13387,6 @@
       "stockAfter": 10,
       "catKey": "photoroom",
       "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793181256155",
-      "time": "16:54 - 28/10/2026",
-      "name": "Photoroom Max 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 10,
-      "catKey": "photoroom",
-      "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
     }
   ]
 }
