@@ -6844,27 +6844,28 @@
         "id": "capcut-1m",
         "name": "CapCut Pro 1 Tháng BHF",
         "price": 48000,
-        "stock": 31,
-        "stock_text": "Còn 31",
+        "stock": 28,
+        "stock_text": "Còn 28",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
-        "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
+        "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 31,
+            "stock": 28,
             "cost_price": 38000,
             "selling_price": 48000,
-            "updated": "07:39 22/10/2026"
+            "updated": "10:38 28/10/2026"
           }
         },
         "cost_price": 38000,
-        "needs_review": true,
-        "hidden": true,
+        "needs_review": false,
+        "hidden": false,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 38800
+          "bot": "@ntnshopre_bot",
+          "cost_price": 38000,
+          "stock": 28
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @ntnshopre_bot"
       },
       {
         "id": "capcut-12m",
@@ -11116,6 +11117,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793158712422",
+      "time": "10:38 - 28/10/2026",
+      "name": "CAPCUT PRO 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 48000,
+      "costPrice": 38000,
+      "stockAfter": 28,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPRO1THÁNGBHF➕Thêm:14📦Tồnkhohiệntại:28💰Giá:38.000đ"
+    },
+    {
       "id": "hist-1793158700995",
       "time": "10:38 - 28/10/2026",
       "name": "Sản phẩm đang được nhiều khách quan tâm",
@@ -12203,17 +12215,6 @@
       "stockAfter": 23,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPN3NgàyBHF💰Giá:30k📦Tồnkho:6tàikhoản📊Đãbán:833tàikhoản💎Môtả:Địnhdạng:ema"
-    },
-    {
-      "id": "hist-1793125724620",
-      "time": "01:28 - 28/10/2026",
-      "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 130,
-      "catKey": "google-veo",
-      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H💰Giá:45k📦Tồnkho:130tàikhoản📊Đãbán:6"
     }
   ]
 }
