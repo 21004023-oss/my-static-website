@@ -8258,10 +8258,10 @@
       {
         "id": "p-1793153475761",
         "name": "🔥Express VPN 1 Tháng BHF",
-        "price": 90000,
+        "price": 105000,
         "cost_price": 65000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "stock": 33,
+        "stock_text": "Còn 33",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Email | Pass\n- Plan: Random Basic, Advanced, Pro\n- Đăng nhập và sử dụng qua App Express VPN\n✏️",
         "sources": {
@@ -8275,6 +8275,12 @@
             "stock": 11,
             "cost_price": 65000,
             "selling_price": 75000,
+            "updated": "09:11 28/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 11,
+            "cost_price": 95000,
+            "selling_price": 105000,
             "updated": "09:11 28/10/2026"
           }
         },
@@ -11022,6 +11028,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793153487811",
+      "time": "09:11 - 28/10/2026",
+      "name": "Express VPN 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 33,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN1ThángBHF➕Thêm:1📦Tồnkhohiệntại:11💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1793153481578",
       "time": "09:11 - 28/10/2026",
       "name": "EXPRESS VPN 1 THÁNG BHF",
@@ -12109,17 +12126,6 @@
       "stockAfter": 203,
       "catKey": "google-veo",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H💰Giá:29k📦Tồnkho:131tàikhoản📊Đãbán:6.674tàikhoản💎Mô"
-    },
-    {
-      "id": "hist-1793124411843",
-      "time": "01:06 - 28/10/2026",
-      "name": "Pitpit AI 8k6 cre 1TH BH 3 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 850000,
-      "costPrice": 750000,
-      "stockAfter": 5,
-      "catKey": "khac",
-      "msgKey": "⭐PitpitAI8k6cre1THBH3ngày➕Thêm:2📦Tồnkhohiệntại:5💰Giá:750.000đ"
     }
   ]
 }
