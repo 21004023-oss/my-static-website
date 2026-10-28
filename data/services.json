@@ -10221,17 +10221,17 @@
         "id": "p-1791936082491",
         "name": "GMAIL CỔ DATE 201X- 2022",
         "price": 55000,
-        "stock": 225,
-        "stock_text": "Còn 225",
+        "stock": 250,
+        "stock_text": "Còn 250",
         "duration": "1 Tháng",
-        "detail": "- Định dạng: Mail | Pass | Mail khôi phục  | 2fa\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL RANDOM DATE 201X- 202X\n- Link check DATE mail: https://www.youtube.com/watch?v=Cer8zHUhnB4",
+        "detail": "- Định dạng: Mail | Pass | Mail khôi phục  | 2fa\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL RANDOM DATE 201X- 202X\n- Link check DATE mail: https://www.youtube.com/watch?v=Cer8zHUhnB4\n✏️",
         "price_verified": true,
         "sources": {
           "ntnshopre_bot": {
-            "stock": 75,
+            "stock": 100,
             "cost_price": 35000,
-            "updated": "20:55 17/10/2026",
-            "selling_price": 45000
+            "selling_price": 45000,
+            "updated": "22:31 28/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 75,
@@ -10246,14 +10246,15 @@
             "selling_price": 49000
           }
         },
-        "needs_review": true,
-        "cost_price": 15000,
-        "hidden": true,
+        "needs_review": false,
+        "cost_price": 35000,
+        "hidden": false,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "bot": "@ntnshopre_bot",
+          "cost_price": 35000,
+          "stock": 100
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @ntnshopre_bot"
       },
       {
         "id": "p-1792034167129",
@@ -12191,6 +12192,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793201474131",
+      "time": "22:31 - 28/10/2026",
+      "name": "GMAIL CỔ DATE 201X- 2022",
+      "bot": "ntnshopre_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 250,
+      "catKey": "gmail",
+      "msgKey": "📧GMAILCỔDATE201X-2022➕Thêm:100📦Tồnkhohiệntại:100💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793201224767",
       "time": "22:27 - 28/10/2026",
       "name": "🔥VIP . Chatgpt Plus Apple Pay 1 tháng BHF",
@@ -13278,17 +13290,6 @@
       "stockAfter": 14,
       "catKey": "youtube",
       "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:13📦Tồnkhohiệntại:14💰Giá:46.000đ"
-    },
-    {
-      "id": "hist-1793194292884",
-      "time": "20:31 - 28/10/2026",
-      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
-      "bot": "sieuthistore_bot",
-      "price": 56000,
-      "costPrice": 46000,
-      "stockAfter": 1,
-      "catKey": "youtube",
-      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:1📦Tồnkhohiệntại:1💰Giá:46.000đ"
     }
   ]
 }
