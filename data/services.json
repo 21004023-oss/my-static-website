@@ -5085,8 +5085,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 49,
-        "stock_text": "Còn 49",
+        "stock": 36,
+        "stock_text": "Còn 36",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -5097,10 +5097,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 47,
+            "stock": 34,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "19:44 28/10/2026"
+            "updated": "23:57 28/10/2026"
           }
         },
         "hidden": false,
@@ -5109,7 +5109,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 47
+          "stock": 34
         }
       },
       {
@@ -12413,6 +12413,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793206656102",
+      "time": "23:57 - 28/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 36,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:34💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793206651137",
       "time": "23:57 - 28/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -13500,17 +13511,6 @@
       "stockAfter": 34,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+30DBHF💰Giá:80k📦Tồnkho:17tàikhoản📊Đãbán:48tàikhoản💎Môtả:🔥MỞKHÓAFULLTÍNH"
-    },
-    {
-      "id": "hist-1793198633545",
-      "time": "21:43 - 28/10/2026",
-      "name": "Meitu Vip+ 30D  BHF",
-      "bot": "piggyai99_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 34,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+30DBHF➕Thêm:17📦Tồnkhohiệntại:17💰Giá:80.000đ"
     }
   ]
 }
