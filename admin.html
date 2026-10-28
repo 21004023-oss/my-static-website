@@ -3945,6 +3945,275 @@ body {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
 }
 
+
+/* ================================================================
+   ENTERPRISE SAAS DESIGN SYSTEM POLISH (LINEAR / STRIPE STYLE)
+   ================================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+body, button, input, select, textarea, table {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  letter-spacing: -0.01em !important;
+}
+
+/* 1. Slim & Non-Intrusive Banners */
+#noTokenWarningBanner {
+  background: #fffbeb !important;
+  color: #92400e !important;
+  border-bottom: 1px solid #fde68a !important;
+  padding: 6px 20px !important;
+  font-size: 11.5px !important;
+  font-weight: 500 !important;
+}
+#noTokenWarningBanner strong {
+  font-weight: 700 !important;
+}
+#noTokenWarningBanner .btn-warning {
+  background: #fef3c7 !important;
+  color: #92400e !important;
+  border: 1px solid #fcd34d !important;
+  padding: 3px 8px !important;
+  font-size: 11px !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+}
+.conflict-alert-banner {
+  background: #fff1f2 !important;
+  color: #9f1239 !important;
+  border-bottom: 1px solid #fecdd3 !important;
+  padding: 6px 20px !important;
+  font-size: 11.5px !important;
+  font-weight: 500 !important;
+}
+.conflict-alert-banner strong {
+  font-weight: 700 !important;
+}
+.conflict-alert-banner .btn-danger {
+  background: #ffe4e6 !important;
+  color: #be123c !important;
+  border: 1px solid #fda4af !important;
+  padding: 3px 8px !important;
+  font-size: 11px !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+}
+
+/* 2. Top Header Polish */
+.admin-header {
+  background: #ffffff !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+  padding: 10px 24px !important;
+}
+.brand-wrap .brand-logo {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 8px !important;
+  font-size: 16px !important;
+  background: #0f172a !important;
+  box-shadow: none !important;
+}
+.brand-text h1 {
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  letter-spacing: -0.02em !important;
+}
+.brand-text p {
+  font-size: 11px !important;
+  color: #64748b !important;
+}
+
+/* 3. KPI Strip Polish */
+.kpi-strip {
+  background: #f8fafc !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+  padding: 6px 24px !important;
+  gap: 6px !important;
+}
+.kpi-chip {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 6px !important;
+  padding: 4px 10px !important;
+  font-size: 11.5px !important;
+  font-weight: 500 !important;
+  color: #475569 !important;
+  transition: all 0.15s ease !important;
+}
+.kpi-chip:hover {
+  border-color: #cbd5e1 !important;
+  background: #f1f5f9 !important;
+}
+.kpi-chip strong {
+  font-size: 12.5px !important;
+  font-weight: 800 !important;
+}
+
+/* 4. Tab Bar Polish */
+.tab-bar {
+  background: #f1f5f9 !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 8px !important;
+  padding: 3px !important;
+  margin: 8px 24px 4px 24px !important;
+  gap: 4px !important;
+}
+.tab-btn {
+  border-radius: 6px !important;
+  padding: 6px 14px !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  color: #64748b !important;
+}
+.tab-btn:hover {
+  color: #0f172a !important;
+  background: rgba(255, 255, 255, 0.6) !important;
+}
+.tab-btn.active {
+  background: #0f172a !important;
+  color: #ffffff !important;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.15) !important;
+}
+.tab-badge {
+  font-size: 10px !important;
+  padding: 1px 6px !important;
+  border-radius: 99px !important;
+}
+
+/* 5. Clean Data Table */
+.custom-table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+}
+.custom-table thead th {
+  padding: 9px 14px !important;
+  font-size: 10.5px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  color: #64748b !important;
+  background: #f8fafc !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+}
+.custom-table tbody td {
+  padding: 8px 14px !important;
+  font-size: 12.5px !important;
+  border-bottom: 1px solid #f1f5f9 !important;
+  vertical-align: middle !important;
+}
+.custom-table tbody tr:hover {
+  background: #f8fafc !important;
+}
+
+/* 6. Product Cell Typography */
+.plan-title-text {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  color: #0f172a !important;
+  line-height: 1.4 !important;
+}
+.plan-sku-sub {
+  font-size: 10.5px !important;
+  color: #94a3b8 !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace !important;
+  margin-top: 1px !important;
+}
+
+/* 7. Price Cell */
+.price-highlight {
+  font-size: 14.5px !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+}
+.price-minimal-sub {
+  font-size: 11px !important;
+  color: #64748b !important;
+  margin-top: 2px !important;
+}
+
+/* 8. Modern Status Badges */
+.btn-toggle-eye {
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  padding: 3px 8px !important;
+  border-radius: 6px !important;
+  border: 1px solid #a7f3d0 !important;
+  background: #ecfdf5 !important;
+  color: #059669 !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
+  transition: all 0.15s ease !important;
+}
+.btn-toggle-eye:hover {
+  background: #d1fae5 !important;
+}
+.btn-toggle-eye.is-hidden {
+  background: #f1f5f9 !important;
+  border-color: #e2e8f0 !important;
+  color: #64748b !important;
+}
+.btn-toggle-eye.is-hidden:hover {
+  background: #e2e8f0 !important;
+}
+
+.badge {
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  padding: 2px 7px !important;
+  border-radius: 5px !important;
+  white-space: nowrap !important;
+}
+.badge-in {
+  background: #ecfdf5 !important;
+  color: #059669 !important;
+  border: 1px solid #a7f3d0 !important;
+}
+.badge-out {
+  background: #fef2f2 !important;
+  color: #dc2626 !important;
+  border: 1px solid #fecaca !important;
+}
+.badge-duration {
+  background: #f8fafc !important;
+  color: #475569 !important;
+  border: 1px solid #e2e8f0 !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  padding: 2px 7px !important;
+  border-radius: 5px !important;
+}
+
+/* 9. Stepper buttons */
+.tbl-step-chip {
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  padding: 1.5px 5px !important;
+  border-radius: 4px !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+/* 10. Sidebar Categories */
+.cat-item {
+  border-radius: 6px !important;
+  padding: 6px 10px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  margin-bottom: 1px !important;
+}
+.cat-item:hover {
+  background: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+.cat-item.active {
+  background: #0f172a !important;
+  color: #ffffff !important;
+}
+.cat-count {
+  font-size: 10.5px !important;
+  padding: 1px 6px !important;
+  border-radius: 99px !important;
+}
+
 </style>
 
 </head>
