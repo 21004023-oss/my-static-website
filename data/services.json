@@ -12024,8 +12024,8 @@
         "name": "GALAXY PLAY SIÊU VIỆT 3 THÁNG BHF",
         "price": 130000,
         "cost_price": 95000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "3 Tháng",
         "detail": "1 Slot galaxy play Siêu Việt xem phim bộ + phim thuê châu á\nĐăng nhập và xem trên 1 thiết bị\nKhông đổi pass, pin và tên profile\nBảo hành 90 ngày\n✏️",
         "sources": {
@@ -12036,16 +12036,16 @@
             "updated": "22:08 28/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 95000,
             "selling_price": 105000,
-            "updated": "22:06 28/10/2026"
+            "updated": "22:09 28/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 95000,
-          "stock": 1
+          "stock": 2
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -12054,6 +12054,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793200144072",
+      "time": "22:09 - 28/10/2026",
+      "name": "Galaxy Play Siêu Việt 90 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 4,
+      "catKey": "khac",
+      "msgKey": "⭐GalaxyPlaySiêuViệt90ngàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:95.000đ"
+    },
     {
       "id": "hist-1793200139758",
       "time": "22:08 - 28/10/2026",
@@ -13142,17 +13153,6 @@
       "stockAfter": 15,
       "catKey": "khac",
       "msgKey": "⭐KeyWindow10/11ProByphone20nămBH1năm➕Thêm:10📦Tồnkhohiệntại:15💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1793191475102",
-      "time": "19:44 - 28/10/2026",
-      "name": "Grok Plus 30 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 129000,
-      "costPrice": 109000,
-      "stockAfter": 49,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyKBH💰Giá:109k📦Tồnkho:47tàikhoản📊Đãbán:280tàikhoản💎Môtả:Mail|PassĐư"
     }
   ]
 }
