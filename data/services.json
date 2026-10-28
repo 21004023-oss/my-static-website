@@ -7656,6 +7656,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793169019034",
+        "name": "Capcut Pro 500 credit 7D BH 6D",
+        "price": 20000,
+        "cost_price": 10000,
+        "stock": 154,
+        "stock_text": "Còn 154",
+        "duration": "7 Ngày",
+        "detail": "Capcut Pro 6-7d. Định dạng tài khoản: Email | Mật khẩu 2. Login bằng điện thoại: Mở app, chọn Sign in with Email. 3. Login bằng PC: Sau khi login vào điện thoại thì tiến hành quét mã QR để đăng nhập cho PC. - iOS: Ngay trong Capcut mục TÔI > Quét QR. - Android: Phải cập nhật Capcut lên bản mới nhất mới có tính năng quét QR trong app. Không bảo hành đăng nhập quá thường xuyên.\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 154,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "13:30 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 10000,
+          "stock": 154
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11608,6 +11634,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793169019034",
+      "time": "13:30 - 28/10/2026",
+      "name": "Capcut Pro 500 credit 7D BH 6D",
+      "bot": "taphoathomap_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 154,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutPro500credit7DBH6D➕Thêm:200📦Tồnkhohiệntại:154💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1793169013116",
       "time": "13:30 - 28/10/2026",
       "name": "Capcut Pro 7 Ngày BH 6 Ngày",
@@ -12695,17 +12732,6 @@
       "stockAfter": 55,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18ThángBH24H➕Thêm:8📦Tồnkhohiệntại:55💰Giá:26.000đ"
-    },
-    {
-      "id": "hist-1793158372616",
-      "time": "10:32 - 28/10/2026",
-      "name": "🔥 Chatgpt Plus Pay Tiền Thật 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 30,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥ChatgptPlusPayTiềnThật1thángBHF➕Thêm:100📦Tồnkhohiệntại:30💰Giá:220.000đ"
     }
   ]
 }
