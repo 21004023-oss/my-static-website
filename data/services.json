@@ -3582,22 +3582,22 @@
         "name": "VIP 2.API 50M Token Claude 1 Ngày - BHF",
         "price": 85000,
         "cost_price": 75000,
-        "stock": 603,
-        "stock_text": "Còn 603",
+        "stock": 464,
+        "stock_text": "Còn 464",
         "duration": "1 Ngày",
         "detail": "Kênh thông báo : https://t.me/api_thongbao\nHỗ trợ / Support : https://api.nghimmo.com/support\nDanh sách model, và hướng dẫn : api.nghimmo.com/huongdan\nModel : Full model Claude Opus, Sonet, Haiku\nTrang kiểm tra KEY : api.nghimmo.com/check\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 603,
+            "stock": 464,
             "cost_price": 75000,
             "selling_price": 85000,
-            "updated": "17:36 28/10/2026"
+            "updated": "17:37 28/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 75000,
-          "stock": 603
+          "stock": 464
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -12137,6 +12137,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793183821546",
+      "time": "17:37 - 28/10/2026",
+      "name": "VIP 2.API 50M Token Claude 1 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 85000,
+      "costPrice": 75000,
+      "stockAfter": 464,
+      "catKey": "claude",
+      "msgKey": "🧠VIP2.API50MTokenClaude1Ngày-BHF💰Giá:75k📦Tồnkho:464tàikhoản📊Đãbán:1.330tàikhoản💎"
+    },
+    {
       "id": "hist-1793183817802",
       "time": "17:36 - 28/10/2026",
       "name": "VIP 2.API 50M Token Claude 1 Ngày - BHF",
@@ -13224,17 +13235,6 @@
       "stockAfter": 12,
       "catKey": "microsoft",
       "msgKey": "⭐Microsoft365cánhân1NămBH3tháng➕Thêm:10📦Tồnkhohiệntại:12💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1793172207000",
-      "time": "14:23 - 28/10/2026",
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 5490,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:1📦Tồnkhohiệntại:2718💰Giá:15.000đ"
     }
   ]
 }
