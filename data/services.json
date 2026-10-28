@@ -12167,16 +12167,16 @@
         "name": "PIA VPN 7 Ngày BHF",
         "price": 45000,
         "cost_price": 15000,
-        "stock": 36,
-        "stock_text": "Còn 36",
+        "stock": 35,
+        "stock_text": "Còn 35",
         "duration": "7 Ngày",
-        "detail": "PIA VPN 7 Ngày BHF\nĐịnh dạng: Use name / Pass\n✏️",
+        "detail": "Định dạng: Username|Pass\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 7,
+            "stock": 6,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "14:13 28/10/2026"
+            "updated": "18:22 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 29,
@@ -12197,6 +12197,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793186550417",
+      "time": "18:22 - 28/10/2026",
+      "name": "PIA VPN 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 35,
+      "catKey": "khac",
+      "msgKey": "⭐PIAVPN7NgàyBHF➕Thêm:7📦Tồnkhohiệntại:6💰Giá:35.000đ"
+    },
     {
       "id": "hist-1793186482845",
       "time": "18:21 - 28/10/2026",
@@ -13285,17 +13296,6 @@
       "stockAfter": 11,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTVerStudentsofferPlus4ThángKBH➕Thêm:11📦Tồnkhohiệntại:11💰Giá:450.000đ"
-    },
-    {
-      "id": "hist-1793177068780",
-      "time": "15:44 - 28/10/2026",
-      "name": "Gmail 2020-2024 đã qua ads",
-      "bot": "sieuthistore_bot",
-      "price": 52000,
-      "costPrice": 42000,
-      "stockAfter": 195,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail2020-2024đãquaads➕Thêm:198📦Tồnkhohiệntại:195💰Giá:42.000đ"
     }
   ]
 }
