@@ -12552,10 +12552,47 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793218557272",
+        "name": "Scribd Premium 1 Tháng  BHF",
+        "price": 55000,
+        "cost_price": 45000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "1 Tháng",
+        "detail": "- Scribd Premium Trial 1 tháng chỉ tải được 2 file, đọc file ko giới hạn, nên khách hàng lưu ý trước khi mua nhé\n- Tài khoản cũng dùng chung được với SlideShare\nĐịnh dạng: Email | Pass\n- Web mail: tinyhost.shop\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 6,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "03:15 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 45000,
+          "stock": 6
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793218557272",
+      "time": "03:15 - 29/10/2026",
+      "name": "Scribd Premium 1 Tháng  BHF",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 6,
+      "catKey": "khac",
+      "msgKey": "⭐ScribdPremium1ThángBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:45.000đ"
+    },
     {
       "id": "hist-1793218419396",
       "time": "03:13 - 29/10/2026",
@@ -13644,17 +13681,6 @@
       "stockAfter": 2,
       "catKey": "vieon",
       "msgKey": "⭐TàiKhoảnVieONVIP12thángBHF💰Giá:155k📦Tồnkho:1tàikhoản📊Đãbán:6tàikhoản💎Môtả:Tàikh"
-    },
-    {
-      "id": "hist-1793200898291",
-      "time": "22:21 - 28/10/2026",
-      "name": "Tài Khoản VieON VIP 12 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 175000,
-      "costPrice": 155000,
-      "stockAfter": 2,
-      "catKey": "vieon",
-      "msgKey": "⭐TàiKhoảnVieONVIP12thángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:155.000đ"
     }
   ]
 }
