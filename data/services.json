@@ -4368,25 +4368,25 @@
         "id": "p-1792256292426",
         "name": "Link Gemini Pro 18 Tháng",
         "price": 65000,
-        "stock": 126,
-        "stock_text": "Còn 126",
+        "stock": 133,
+        "stock_text": "Còn 133",
         "duration": "1 Tháng",
         "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 126,
-            "cost_price": 55000,
-            "selling_price": 65000,
-            "updated": "22:53 28/10/2026"
+            "stock": 133,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "23:54 28/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 55000,
+        "cost_price": 45000,
         "needs_review": false,
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
-          "cost_price": 55000,
-          "stock": 126
+          "cost_price": 45000,
+          "stock": 133
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -12413,6 +12413,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793206481899",
+      "time": "23:54 - 28/10/2026",
+      "name": "Link Gemini Pro 18 Tháng",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 133,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:80📦Tồnkhohiệntại:133💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793206278256",
       "time": "23:51 - 28/10/2026",
       "name": "Express VPN 1 Tháng BHF",
@@ -13500,17 +13511,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🛒DANHSÁCHSẢNPHẨM━━━━━━━━━━━━━━━━🧠ChatGPTPlus1thángriêngtưUPI-KBH├Giá:68.800đ└Kho"
-    },
-    {
-      "id": "hist-1793198228492",
-      "time": "21:37 - 28/10/2026",
-      "name": "Higgfield GenJutsu 720p 1th BH 1h",
-      "bot": "taphoathomap_bot",
-      "price": 39000,
-      "costPrice": 29000,
-      "stockAfter": 59,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggfieldGenJutsu720p1thBH1h➕Thêm:9📦Tồnkhohiệntại:59💰Giá:29.000đ"
     }
   ]
 }
