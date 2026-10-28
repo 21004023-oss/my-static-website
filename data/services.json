@@ -4846,16 +4846,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 10,
+            "stock": 14,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "12:19 28/10/2026"
+            "updated": "13:57 28/10/2026"
           }
         },
         "hidden": false,
@@ -4863,7 +4863,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 10
+          "stock": 14
         },
         "needs_review": false
       },
@@ -11655,6 +11655,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793170650643",
+      "time": "13:57 - 28/10/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 14,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:10📦Tồnkhohiệntại:14💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793170549890",
       "time": "13:55 - 28/10/2026",
       "name": "JetBrain Edu 1 năm (BHF)",
@@ -12742,17 +12753,6 @@
       "stockAfter": 189,
       "catKey": "gmail",
       "msgKey": "📧GMAILTRIALRANDOMDATE201X➕Thêm:319📦Tồnkhohiệntại:189💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793159660770",
-      "time": "10:54 - 28/10/2026",
-      "name": "Gmail Random ip 2010-2016 trial youtube",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 189,
-      "catKey": "youtube",
-      "msgKey": "📧GmailRandomip2010-2016trialyoutube➕Thêm:319📦Tồnkhohiệntại:189💰Giá:45.000đ"
     }
   ]
 }
