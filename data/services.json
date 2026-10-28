@@ -8916,25 +8916,27 @@
         "id": "p-1792089905786",
         "name": "NORD VPN 10 thiết bị 7 ngày BHF",
         "price": 45000,
-        "stock": 11,
-        "stock_text": "Còn 11",
-        "duration": "1 Tháng",
-        "detail": "- Nord Vpn dùng 10 thiết bị 7 ngày bhf\n- Định dạng tk|mk dùng được android ios pc\n- Lấy code tại wed https://mailtemp.vn/ hoặc cutemail.us",
+        "stock": 7,
+        "stock_text": "Còn 7",
+        "duration": "7 Ngày",
+        "detail": "- Nord Vpn dùng 10 thiết bị 7 ngày bhf\n- Định dạng tk|mk dùng được android ios pc\n- Lấy code tại wed https://mailtemp.vn/ hoặc cutemail.us\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 11,
+            "stock": 7,
             "cost_price": 20000,
-            "updated": "01:45 16/10/2026",
-            "selling_price": 30000
+            "selling_price": 30000,
+            "updated": "21:08 28/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 35000,
+        "cost_price": 20000,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 68000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 20000,
+          "stock": 7
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792089911145",
@@ -12320,6 +12322,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793196533233",
+      "time": "21:08 - 28/10/2026",
+      "name": "NORD VPN 10 thiết bị 7 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 30000,
+      "costPrice": 20000,
+      "stockAfter": 7,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NORDVPN10thiếtbị7ngàyBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:20.000đ"
+    },
+    {
       "id": "hist-1793196387973",
       "time": "21:06 - 28/10/2026",
       "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
@@ -13407,17 +13420,6 @@
       "stockAfter": 2641,
       "catKey": "muse-ai",
       "msgKey": "⭐MUSEAI1BTOKENBẢOHÀNHACITVE➕Thêm:1📦Tồnkhohiệntại:2641💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793186475806",
-      "time": "18:21 - 28/10/2026",
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 5336,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH💰Giá:15k📦Tồnkho:2641tàikhoản📊Đãbán:10.112tàikhoản💎Môtả:MuseAI1B"
     }
   ]
 }
