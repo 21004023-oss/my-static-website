@@ -45,16 +45,16 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
-        "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
+        "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 0,
             "cost_price": 150000,
             "selling_price": 170000,
-            "updated": "11:22 28/10/2026"
+            "updated": "12:03 28/10/2026"
           }
         },
         "hidden": false,
@@ -63,7 +63,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 1
+          "stock": 0
         }
       },
       {
@@ -11394,6 +11394,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793163806935",
+      "time": "12:03 - 28/10/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 0,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:0💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793163764666",
       "time": "12:02 - 28/10/2026",
       "name": "SLOT VEO3 Ultra x5 – Random Credit – 1 Tháng BHF",
@@ -12481,17 +12492,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🔥Sảnphẩmđangđượcnhiềukháchquantâm📦189KDecorDiscord/ProfileEffectGiáRẻ(DạngLogin)"
-    },
-    {
-      "id": "hist-1793138787685",
-      "time": "05:06 - 28/10/2026",
-      "name": "Kling Stand random 800-1000 credit 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 2,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandrandom800-1000credit1THBH1ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:115.000đ"
     }
   ]
 }
