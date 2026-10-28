@@ -10160,16 +10160,16 @@
         "id": "p-1792119419529",
         "name": "GMAIL US CỔ DATE 201X-202X 2FA",
         "price": 60000,
-        "stock": 594,
-        "stock_text": "Còn 594",
+        "stock": 462,
+        "stock_text": "Còn 462",
         "duration": "1 Tháng",
-        "detail": "- Định dạng: Mail | Pass | Mail khôi phục | 2fa\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL US CỔ DATE 201X TRIAL CÓ 2FA\n✏️",
+        "detail": "- Định dạng: Mail | Pass | Mail khôi phục | 2fa\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL US CỔ DATE 201X TRIAL CÓ 2FA",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 132,
+            "stock": 0,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "13:32 28/10/2026"
+            "updated": "15:09 28/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 231,
@@ -10188,11 +10188,11 @@
         "cost_price": 45000,
         "needs_review": false,
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
+          "bot": "@taphoathomap_bot",
           "cost_price": 45000,
-          "stock": 132
+          "stock": 231
         },
-        "import_note": "Nhập: @ntnshopre_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792128240242",
@@ -11759,6 +11759,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793174963190",
+      "time": "15:09 - 28/10/2026",
+      "name": "GMAIL US CỔ DATE 201X-202X 2FA",
+      "bot": "ntnshopre_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 462,
+      "catKey": "gmail",
+      "msgKey": "📧GMAILUSCỔDATE201X-202X2FA➕Thêm:103📦Tồnkhohiệntại:0💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793174170731",
       "time": "14:56 - 28/10/2026",
       "name": "CHAT GPT PLUS 1 tháng - BH 6H",
@@ -12846,17 +12857,6 @@
       "stockAfter": 70,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:13📦Tồnkhohiệntại:70💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1793161576782",
-      "time": "11:26 - 28/10/2026",
-      "name": "Grok Plus 30 ngày BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 11,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyBHLogin💰Giá:140k📦Tồnkho:11tàikhoản📊Đãbán:246tàikhoản💎Môtả:Mail|Pa"
     }
   ]
 }
