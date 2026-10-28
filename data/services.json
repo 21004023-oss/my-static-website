@@ -9986,10 +9986,10 @@
         "id": "p-1792128240242",
         "name": "Gmail Việt 2020-2024",
         "price": 55000,
-        "stock": 1040,
-        "stock_text": "Còn 1040",
+        "stock": 550,
+        "stock_text": "Còn 550",
         "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|mkp|2FA (nếu có)\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
+        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành\n✏️",
         "sources": {
           "taphoathomap_bot": {
             "stock": 520,
@@ -9998,20 +9998,21 @@
             "updated": "16:20 19/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 520,
+            "stock": 30,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "16:20 19/10/2026"
+            "updated": "12:49 28/10/2026"
           }
         },
-        "hidden": true,
-        "cost_price": 15000,
-        "needs_review": true,
+        "hidden": false,
+        "cost_price": 35000,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 35000,
+          "stock": 520
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792128243477",
@@ -11448,6 +11449,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793166543156",
+      "time": "12:49 - 28/10/2026",
+      "name": "Gmail Việt 2020-2024",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 550,
+      "catKey": "gmail",
+      "msgKey": "📧GmailViệt2020-2024➕Thêm:1📦Tồnkhohiệntại:30💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793166146370",
       "time": "12:42 - 28/10/2026",
       "name": "Higgfield GenJutsu 720p 1th BH 1h",
@@ -12535,17 +12547,6 @@
       "stockAfter": 5,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTTEAM6THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:4💰Giá:290.000đ"
-    },
-    {
-      "id": "hist-1793153336502",
-      "time": "09:08 - 28/10/2026",
-      "name": "CAPCUT PRO 3 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 175000,
-      "costPrice": 155000,
-      "stockAfter": 8,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPRO3THÁNGBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:155.000đ"
     }
   ]
 }
