@@ -11138,22 +11138,22 @@
         "name": "Gmail Cổ 2FA 2023-2025",
         "price": 43000,
         "cost_price": 33000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
-        "detail": "- GMAIL VIỆT TRÂU 2FA\n- Định dạng: Mk|Tk|2Fa\n- Bao change thông tin\n- Bảo hành 48 giờ login, (sai pass, sai 2fa,), ngâm 24h rồi hãy change để tránh bị die\nĐÃ CHECK LIVE TRƯỚC KHI BÁN\nKHÁCH MUA VỀ NHỚ CHANGE THÔNG TIN NHÉ, ĐỜI KHÔNG TIN ĐƯỢC AI ĐÂU\n✏️",
+        "detail": "- GMAIL VIỆT TRÂU 2FA\n- Định dạng: Mk|Tk|2Fa\n- Bao change thông tin\n- Bảo hành 48 giờ login, (sai pass, sai 2fa,), ngâm 24h rồi hãy change để tránh bị die\nĐÃ CHECK LIVE TRƯỚC KHI BÁN\nKHÁCH MUA VỀ NHỚ CHANGE THÔNG TIN NHÉ, ĐỜI KHÔNG TIN ĐƯỢC AI ĐÂU",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 15,
+            "stock": 0,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "16:15 28/10/2026"
+            "updated": "21:23 28/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 33000,
-          "stock": 15
+          "stock": 0
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -12380,6 +12380,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793197388960",
+      "time": "21:23 - 28/10/2026",
+      "name": "Gmail Cổ 2FA 2023-2025",
+      "bot": "taphoathomap_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 0,
+      "catKey": "gmail",
+      "msgKey": "📧GmailCổ2FA2023-2025➕Thêm:1📦Tồnkhohiệntại:0💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1793197279273",
       "time": "21:21 - 28/10/2026",
       "name": "🔥 Link Gemini Pro 18 Tháng BH 12H",
@@ -13467,17 +13478,6 @@
       "stockAfter": 7,
       "catKey": "capcut",
       "msgKey": "✂️CapcutPro1ThángBH30Ngày➕Thêm:4📦Tồnkhohiệntại:7💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793187485571",
-      "time": "18:38 - 28/10/2026",
-      "name": "ACC ZOOM PRO 28 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "price": 85000,
-      "costPrice": 75000,
-      "stockAfter": 3,
-      "catKey": "zoom",
-      "msgKey": "⭐ACCZOOMPRO28NGÀYBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:75.000đ"
     }
   ]
 }
