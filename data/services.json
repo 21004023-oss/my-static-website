@@ -6993,6 +6993,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 180000
         }
+      },
+      {
+        "id": "p-1793176775226",
+        "name": "Suno Pro 1TH BH 1 ngày",
+        "price": 135000,
+        "cost_price": 115000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "Mail | Pass | Mail khôi phục\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 115000,
+            "selling_price": 135000,
+            "updated": "15:39 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 115000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -11837,6 +11863,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793176775226",
+      "time": "15:39 - 28/10/2026",
+      "name": "Suno Pro 1TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 5,
+      "catKey": "suno",
+      "msgKey": "🎵SunoPro1THBH1ngày➕Thêm:5📦Tồnkhohiệntại:5💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1793176658728",
       "time": "15:37 - 28/10/2026",
       "name": "CapCut Pro Team 3 Tháng - BHF",
@@ -12924,17 +12961,6 @@
       "stockAfter": 10,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusGGPayGmail1ThángBH1D➕Thêm:8📦Tồnkhohiệntại:10💰Giá:220.000đ"
-    },
-    {
-      "id": "hist-1793163183406",
-      "time": "11:53 - 28/10/2026",
-      "name": "ChatGPT Plus Apple Pay Gmail 30D - BHF",
-      "bot": "piggyai99_bot",
-      "price": 300000,
-      "costPrice": 270000,
-      "stockAfter": 54,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusApplePayGmail30D-BHF➕Thêm:15📦Tồnkhohiệntại:54💰Giá:270.000đ"
     }
   ]
 }
