@@ -12466,10 +12466,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793215195424",
+        "name": "PureVPN 7 Ngày BHF",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "7 Ngày",
+        "detail": "Tài khoản PureVPN 7 Ngày gói Max BHF\nĐịnh dạng: Email|Pass\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 6,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "02:19 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 35000,
+          "stock": 6
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793215195424",
+      "time": "02:19 - 29/10/2026",
+      "name": "PureVPN 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 6,
+      "catKey": "khac",
+      "msgKey": "⭐PureVPN7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:35.000đ"
+    },
     {
       "id": "hist-1793215016357",
       "time": "02:16 - 29/10/2026",
@@ -13558,17 +13595,6 @@
       "stockAfter": 3,
       "catKey": "khac",
       "msgKey": "⭐GALAXYPLAYSIÊUVIỆT3THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1793199973104",
-      "time": "22:06 - 28/10/2026",
-      "name": "Galaxy Play Siêu Việt 90 ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "msgKey": "⭐GalaxyPlaySiêuViệt90ngàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:95.000đ"
     }
   ]
 }
