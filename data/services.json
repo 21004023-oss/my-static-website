@@ -10520,8 +10520,8 @@
         "id": "p-1792119419529",
         "name": "GMAIL US CỔ DATE 201X-202X 2FA",
         "price": 60000,
-        "stock": 397,
-        "stock_text": "Còn 397",
+        "stock": 527,
+        "stock_text": "Còn 527",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Mail | Pass | Mail khôi phục | 2fa\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL US CỔ DATE 201X TRIAL CÓ 2FA\n✏️",
         "sources": {
@@ -10532,10 +10532,10 @@
             "updated": "22:22 28/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 18,
+            "stock": 148,
             "cost_price": 50000,
             "selling_price": 60000,
-            "updated": "22:13 28/10/2026"
+            "updated": "22:24 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 231,
@@ -12191,6 +12191,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793201047456",
+      "time": "22:24 - 28/10/2026",
+      "name": "GMAIL US CỔ DATE 201X-202X 2FA",
+      "bot": "sieuthistore_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 527,
+      "catKey": "gmail",
+      "msgKey": "📧GMAILUSCỔDATE201X-202X2FA➕Thêm:130📦Tồnkhohiệntại:148💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1793200977823",
       "time": "22:22 - 28/10/2026",
       "name": "GMAIL US CỔ DATE 201X-202X 2FA",
@@ -13278,17 +13289,6 @@
       "stockAfter": 20,
       "catKey": "suno",
       "msgKey": "🎵SunoPro1THBH1ngày➕Thêm:5📦Tồnkhohiệntại:10💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1793193818809",
-      "time": "20:23 - 28/10/2026",
-      "name": "Suno Pro 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 10,
-      "catKey": "suno",
-      "msgKey": "🎵SunoPro1THBH1ngày➕Thêm:5📦Tồnkhohiệntại:10💰Giá:115.000đ"
     }
   ]
 }
