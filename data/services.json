@@ -3174,6 +3174,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793202583958",
+        "name": "ChatGPT Plus UPI 1 Tháng KBH",
+        "price": 110000,
+        "cost_price": 100000,
+        "stock": 11,
+        "stock_text": "Còn 11",
+        "duration": "1 Tháng",
+        "detail": "Bảo hành trong vòng 15 phút với các lỗi phổ biến (sai pass/2fa...). 12 giờ đối với tài khoản bị khoá (deactivated_account)\nWarranty 15 min for common error (invalid password/2fa). 12 hours for account got deactivated.\nVui lòng thay đổi thông tin tài khoản để tránh bị scan acc.\nPlease change your account infomation to avoid invaild account.\nSHOP KHÔNG HỖ TRỢ LẤY LẠI PASS/2FA\nNOT SUPPORTING REGEN 2FA/PASSWORD\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 11,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "22:49 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 100000,
+          "stock": 11
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12193,6 +12219,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793202583958",
+      "time": "22:49 - 28/10/2026",
+      "name": "ChatGPT Plus UPI 1 Tháng KBH",
+      "bot": "sieuthistore_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 11,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlusUPI1ThángKBH➕Thêm:11📦Tồnkhohiệntại:11💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1793202552694",
       "time": "22:49 - 28/10/2026",
       "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
@@ -13280,17 +13317,6 @@
       "stockAfter": 4,
       "catKey": "wink",
       "msgKey": "⭐WinkVip3ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:250.000đ"
-    },
-    {
-      "id": "hist-1793195930127",
-      "time": "20:58 - 28/10/2026",
-      "name": "Wink Vip 90D BHF",
-      "bot": "taphoathomap_bot",
-      "price": 220000,
-      "costPrice": 200000,
-      "stockAfter": 3,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVip90DBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:200.000đ"
     }
   ]
 }
