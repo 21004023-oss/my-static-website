@@ -7107,16 +7107,16 @@
         "id": "p-1792119807992",
         "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
         "price": 75000,
-        "stock": 58,
-        "stock_text": "Còn 58",
+        "stock": 55,
+        "stock_text": "Còn 55",
         "duration": "1 Tháng",
-        "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
+        "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 31,
+            "stock": 28,
             "cost_price": 65000,
             "selling_price": 75000,
-            "updated": "07:40 22/10/2026"
+            "updated": "10:38 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 27,
@@ -7125,14 +7125,15 @@
             "updated": "17:16 21/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "cost_price": 38800,
+        "hidden": false,
+        "needs_review": false,
+        "cost_price": 40000,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 38800
+          "bot": "@taphoathomap_bot",
+          "cost_price": 40000,
+          "stock": 27
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792125293833",
@@ -11117,6 +11118,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793158721912",
+      "time": "10:38 - 28/10/2026",
+      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 75000,
+      "costPrice": 65000,
+      "stockAfter": 55,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:14📦Tồnkhohiệntại:28💰Giá:65.000đ"
+    },
+    {
       "id": "hist-1793158712422",
       "time": "10:38 - 28/10/2026",
       "name": "CAPCUT PRO 1 THÁNG BHF",
@@ -12204,17 +12216,6 @@
       "stockAfter": 5,
       "catKey": "meitu",
       "msgKey": "✨MeituSVip+7NgàyBHF💰Giá:35k📦Tồnkho:2tàikhoản📊Đãbán:963tàikhoản💎Môtả:MeituSVIP(VI"
-    },
-    {
-      "id": "hist-1793125729963",
-      "time": "01:28 - 28/10/2026",
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 23,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN3NgàyBHF💰Giá:30k📦Tồnkho:6tàikhoản📊Đãbán:833tàikhoản💎Môtả:Địnhdạng:ema"
     }
   ]
 }
