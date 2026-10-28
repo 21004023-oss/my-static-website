@@ -653,17 +653,17 @@
         "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
         "price": 56000,
         "cost_price": 46000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 200,
+        "stock_text": "Còn 200",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|mkp|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành\n✏️",
         "hidden": false,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 14,
+            "stock": 200,
             "cost_price": 46000,
             "selling_price": 56000,
-            "updated": "20:32 28/10/2026"
+            "updated": "22:00 28/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -676,7 +676,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 46000,
-          "stock": 14
+          "stock": 200
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -12023,6 +12023,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793199626244",
+      "time": "22:00 - 28/10/2026",
+      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
+      "bot": "sieuthistore_bot",
+      "price": 56000,
+      "costPrice": 46000,
+      "stockAfter": 200,
+      "catKey": "youtube",
+      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:200📦Tồnkhohiệntại:200💰Giá:46.000đ"
+    },
+    {
       "id": "hist-1793199264781",
       "time": "21:54 - 28/10/2026",
       "name": "ChatGPT Plus 1 Tháng BHF",
@@ -13110,17 +13121,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🛒Gợiýsảnphẩmdànhchobạn📦189KDecorDiscord/ProfileEffectGiáRẻ(DạngLogin)–SởHữuVĩnhV"
-    },
-    {
-      "id": "hist-1793191221081",
-      "time": "19:40 - 28/10/2026",
-      "name": "ChatGPT Plus UIP 1 Tháng KBH",
-      "bot": "sieuthistore_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 9,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusUIP1ThángKBH➕Thêm:9📦Tồnkhohiệntại:9💰Giá:110.000đ"
     }
   ]
 }
