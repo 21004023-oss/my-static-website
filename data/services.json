@@ -5016,25 +5016,26 @@
         "id": "p-1792556825012",
         "name": "VIP. Kling Ultra 4.0 26k credit 1 tháng BH 2 ngày",
         "price": 2600000,
-        "cost_price": 2250000,
-        "stock": 38,
-        "stock_text": "Còn 38",
+        "cost_price": 1700000,
+        "stock": 79,
+        "stock_text": "Còn 79",
         "duration": "1 Tháng",
-        "detail": "- Hàng không sẵn, order trả trong 3-5 tiếng\nLưu ý: Cân nhắc trước khi mua, đã mua là shop sẽ ghi nhận đơn hàng và bấm thanh toán. Sẽ không hoàn tiền sau khi mua\n- Sử dụng model mới nhất Kling 4.0 Flash",
+        "detail": "- Hàng không sẵn, order trả trong 3-5 tiếng\nLưu ý: Cân nhắc trước khi mua, đã mua là shop sẽ ghi nhận đơn hàng và bấm thanh toán. Sẽ không hoàn tiền sau khi mua\n- Sử dụng model mới nhất Kling 4.0\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 38,
-            "cost_price": 2250000,
-            "selling_price": 2600000,
-            "updated": "12:18 21/10/2026"
+            "stock": 79,
+            "cost_price": 1700000,
+            "selling_price": 1900000,
+            "updated": "10:51 28/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 2250000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 1700000,
+          "stock": 79
         }
       },
       {
@@ -11201,6 +11202,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793159510853",
+      "time": "10:51 - 28/10/2026",
+      "name": "VIP. Kling Ultra 4.0 26k credit 1 tháng BH 2 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 1900000,
+      "costPrice": 1700000,
+      "stockAfter": 79,
+      "catKey": "kling",
+      "msgKey": "🎬VIP.KlingUltra4.026kcredit1thángBH2ngày➕Thêm:41📦Tồnkhohiệntại:79💰Giá:1.700.000đ"
+    },
+    {
       "id": "hist-1793159504827",
       "time": "10:51 - 28/10/2026",
       "name": "Kling Ultra 26k credit 1TH BH 2D",
@@ -12288,17 +12300,6 @@
       "stockAfter": 22,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:6📦Tồnkhohiệntại:6💰Giá:260.000đ"
-    },
-    {
-      "id": "hist-1793125931729",
-      "time": "01:32 - 28/10/2026",
-      "name": "🔥 ChatGPT Plus  30D ( BH 20D )",
-      "bot": "piggyai99_bot",
-      "price": 280000,
-      "costPrice": 250000,
-      "stockAfter": 23,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥ChatGPTPlus30D(BH20D)➕Thêm:6📦Tồnkhohiệntại:6💰Giá:250.000đ"
     }
   ]
 }
