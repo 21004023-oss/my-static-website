@@ -4669,8 +4669,8 @@
         "name": "ADMIN GEMINI PRO + GOOGLE ONE 5TB 6 THÁNG BẢO HÀNH 24H",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "6 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2fa\n- Add được 5 slot cùng hưởng Gemini Pro + GG 5TB trong 6 tháng\n- Bảo hành 24h, khách mua về tự thay đổi thông tin bảo quản tài khoản.\n✏️",
         "sources": {
@@ -4679,6 +4679,12 @@
             "cost_price": 150000,
             "selling_price": 170000,
             "updated": "23:42 28/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 8,
+            "cost_price": 150000,
+            "selling_price": 170000,
+            "updated": "04:25 29/10/2026"
           }
         },
         "cheapest_source": {
@@ -12643,6 +12649,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793222756664",
+      "time": "04:25 - 29/10/2026",
+      "name": "ADMIN GEMINI PRO + GOOGLE ONE 5TB 6 THÁNG BẢO HÀNH 24H",
+      "bot": "taphoathomap_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 16,
+      "catKey": "google-veo",
+      "msgKey": "☁️ADMINGEMINIPRO+GOOGLEONE5TB6THÁNGBẢOHÀNH24H➕Thêm:3📦Tồnkhohiệntại:8💰Giá:150.000"
+    },
+    {
       "id": "hist-1793222733209",
       "time": "04:25 - 29/10/2026",
       "name": "Canva Pro 30 Ngày BHF",
@@ -13730,17 +13747,6 @@
       "stockAfter": 48,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:12📦Tồnkhohiệntại:13💰Giá:200.000đ"
-    },
-    {
-      "id": "hist-1793204167162",
-      "time": "23:16 - 28/10/2026",
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 58,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:15📦Tồnkhohiệntại:31💰Giá:65.000đ"
     }
   ]
 }
