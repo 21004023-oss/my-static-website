@@ -12401,10 +12401,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793198252138",
+        "name": "DANH SÁCH SẢN PHẨM",
+        "price": 78800,
+        "cost_price": 68800,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói DANH SÁCH SẢN PHẨM bảo hành uy tín.",
+        "sources": {
+          "shopxoainon_bot": {
+            "stock": 0,
+            "cost_price": 68800,
+            "selling_price": 78800,
+            "updated": "21:37 28/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@shopxoainon_bot",
+          "cost_price": 68800,
+          "stock": 0
+        },
+        "import_note": "Nhập: @shopxoainon_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793198252138",
+      "time": "21:37 - 28/10/2026",
+      "name": "DANH SÁCH SẢN PHẨM",
+      "bot": "shopxoainon_bot",
+      "price": 78800,
+      "costPrice": 68800,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "🛒DANHSÁCHSẢNPHẨM━━━━━━━━━━━━━━━━🧠ChatGPTPlus1thángriêngtưUPI-KBH├Giá:68.800đ└Kho"
+    },
     {
       "id": "hist-1793198228492",
       "time": "21:37 - 28/10/2026",
@@ -13493,17 +13530,6 @@
       "stockAfter": 150,
       "catKey": "google-veo",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:1📦Tồnkhohiệntại:78💰Giá:22.000đ"
-    },
-    {
-      "id": "hist-1793189163063",
-      "time": "19:06 - 28/10/2026",
-      "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 78,
-      "catKey": "google-veo",
-      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:1📦Tồnkhohiệntại:78💰Giá:45.000"
     }
   ]
 }
