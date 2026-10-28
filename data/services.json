@@ -5714,26 +5714,33 @@
         "id": "p-1792198254519",
         "name": "Muse Ai 1B Token KBH",
         "price": 55000,
-        "stock": 182,
-        "stock_text": "Còn 182",
+        "stock": 1038,
+        "stock_text": "Còn 1038",
         "duration": "1 Tháng",
-        "detail": "Muse Ai 1 Token KBH\nMail | link nhận code",
+        "detail": "Muse AI 1 Billion tokens - No warranty\n- Format: email | Link get code\n✏️",
         "sources": {
           "sieuthistore_bot": {
             "stock": 182,
             "cost_price": 15000,
             "selling_price": 25000,
             "updated": "14:56 21/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 856,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "08:12 28/10/2026"
           }
         },
-        "hidden": true,
-        "cost_price": 11000,
-        "needs_review": true,
+        "hidden": false,
+        "cost_price": 15000,
+        "needs_review": false,
         "cheapest_source": {
-          "bot": "@KhoMMO_Market_bot",
-          "cost_price": 11000
+          "bot": "@sieuthistore_bot",
+          "cost_price": 15000,
+          "stock": 182
         },
-        "import_note": "🛒 @KhoMMO_Market_bot"
+        "import_note": "Nhập: @sieuthistore_bot"
       },
       {
         "id": "p-1792198259840",
@@ -10938,6 +10945,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793149924548",
+      "time": "08:12 - 28/10/2026",
+      "name": "Muse Ai  1B Token KBH",
+      "bot": "piggyai99_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 1038,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:1📦Tồnkhohiệntại:856💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793149920079",
       "time": "08:12 - 28/10/2026",
       "name": "MUSE AI 1B TOKEN BẢO HÀNH ACITVE",
@@ -12049,20 +12067,6 @@
       "catKey": "chatgpt",
       "source": "Telegram @taphoathomap_bot",
       "msgKey": "🤖VIP.ChatgptPlusApplePay1thángBHF➕Thêm:15📦Tồnkhohiệntại:45💰Giá:240.000đ"
-    },
-    {
-      "id": "hist-1792655640484",
-      "time": "14:54 - 22/10/2026",
-      "timestamp": 1792655640484,
-      "name": "Surfshark VPN One 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "shopStock": 12,
-      "addedQty": 12,
-      "price": 45000,
-      "stockAfter": 28,
-      "catKey": "vpn",
-      "source": "Telegram @sieuthistore_bot",
-      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:35.000đ"
     }
   ]
 }
