@@ -3728,13 +3728,15 @@ body {
 #noTokenWarningBanner, .conflict-alert-banner {
   padding: 6px 18px !important;
   font-size: 12px !important;
-  display: flex !important;
   align-items: center !important;
   justify-content: space-between !important;
   border-radius: 0 !important;
   margin: 0 !important;
   border-bottom: 1px solid rgba(0,0,0,0.1) !important;
   line-height: 1.4 !important;
+}
+#noTokenWarningBanner[style*="none"], .conflict-alert-banner[style*="none"] {
+  display: none !important;
 }
 
 /* Header & Dropdown */
@@ -4288,11 +4290,12 @@ body, button, input, select, textarea, table {
 
     </div>
 
-    <button class="btn btn-danger" style="padding:4px 10px; font-size:11.5px;" onclick="switchTab('audit')">
-
-      🔍 Xem & Đồng Bộ Ngay
-
-    </button>
+    <div style="display:flex; align-items:center; gap:6px;">
+      <button class="btn btn-danger" style="padding:4px 10px; font-size:11.5px;" onclick="switchTab('audit')">
+        🔍 Xem & Đồng Bộ Ngay
+      </button>
+      <button onclick="document.getElementById('conflictAlertBanner').style.setProperty('display', 'none', 'important')" style="background:none; border:none; color:inherit; font-size:14px; cursor:pointer; padding:2px 6px; opacity:0.7;" title="Tắt thông báo này">✕</button>
+    </div>
 
   </div>
 
@@ -5884,7 +5887,7 @@ body, button, input, select, textarea, table {
 
         if (text) text.innerHTML = '<span style="color:var(--emerald);">🟢 GitHub: Đã kết nối (Auto-Save Bật)</span>';
 
-        if (banner) banner.style.display = 'none';
+        if (banner) banner.style.setProperty('display', 'none', 'important');
 
       } else {
 
@@ -6256,7 +6259,7 @@ body, button, input, select, textarea, table {
 
       } else {
 
-        banner.style.display = 'none';
+        banner.style.setProperty('display', 'none', 'important');
 
       }
 
@@ -7483,7 +7486,7 @@ body, button, input, select, textarea, table {
 
       } else {
 
-        banner.style.display = 'none';
+        banner.style.setProperty('display', 'none', 'important');
 
       }
 
@@ -9143,7 +9146,7 @@ body, button, input, select, textarea, table {
 
       closeTokenModal();
 
-      document.getElementById('noTokenWarningBanner').style.display = t ? 'none' : 'flex';
+      const _nb = document.getElementById('noTokenWarningBanner'); if (_nb) { if (t) { _nb.style.setProperty('display', 'none', 'important'); } else { _nb.style.setProperty('display', 'flex', 'important'); } }
 
       showToast("✅ Đã lưu GitHub Token vào trình duyệt!", "success");
 
