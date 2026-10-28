@@ -3238,6 +3238,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793222881898",
+        "name": "VIP 1.API 10M Token Codex 1 Ngày - BHF",
+        "price": 40000,
+        "cost_price": 30000,
+        "stock": 46,
+        "stock_text": "Còn 46",
+        "duration": "1 Ngày",
+        "detail": "-> Lưu ý codex hiện tại đang lỗi do server chat gpt ae cân nhắc trước khi dử dụng !\n-> Please note that the Codex is currently malfunctioning due to issues with the ChatGPT server; please consider this before using it.\nKênh thông báo : https://t.me/api_thongbao\nGói 10M Token/ 1 ngày\nBase URL : https://api.nghimmo.com/v1\nModel : gpt-5.6 (sol-terra) mới nhất, gpt-5.5, gpt-5.4,...\nFull model, và hướng dẫn : api.nghimmo.com/huongdan\nTrang kiểm tra KEY : api.nghimmo.com/check\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 46,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "04:28 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
+          "stock": 46
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12649,6 +12675,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793222881898",
+      "time": "04:28 - 29/10/2026",
+      "name": "VIP 1.API 10M Token Codex 1 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 46,
+      "catKey": "chatgpt",
+      "msgKey": "⭐VIP1.API10MTokenCodex1Ngày-BHF➕Thêm:50📦Tồnkhohiệntại:46💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793222756664",
       "time": "04:25 - 29/10/2026",
       "name": "ADMIN GEMINI PRO + GOOGLE ONE 5TB 6 THÁNG BẢO HÀNH 24H",
@@ -13736,17 +13773,6 @@
       "stockAfter": 50,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:50📦Tồnkhohiệntại:50💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1793204383440",
-      "time": "23:19 - 28/10/2026",
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
-      "bot": "ntnshopre_bot",
-      "price": 220000,
-      "costPrice": 200000,
-      "stockAfter": 48,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:12📦Tồnkhohiệntại:13💰Giá:200.000đ"
     }
   ]
 }
