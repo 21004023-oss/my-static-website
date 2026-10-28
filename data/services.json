@@ -10520,16 +10520,16 @@
         "id": "p-1792119419529",
         "name": "GMAIL US CỔ DATE 201X-202X 2FA",
         "price": 60000,
-        "stock": 267,
-        "stock_text": "Còn 267",
+        "stock": 397,
+        "stock_text": "Còn 397",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Mail | Pass | Mail khôi phục | 2fa\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL US CỔ DATE 201X TRIAL CÓ 2FA\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 18,
+            "stock": 148,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "22:09 28/10/2026"
+            "updated": "22:22 28/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 18,
@@ -10550,7 +10550,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 45000,
-          "stock": 18
+          "stock": 148
         },
         "import_note": "Nhập: @ntnshopre_bot"
       },
@@ -12191,6 +12191,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793200977823",
+      "time": "22:22 - 28/10/2026",
+      "name": "GMAIL US CỔ DATE 201X-202X 2FA",
+      "bot": "ntnshopre_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 397,
+      "catKey": "gmail",
+      "msgKey": "📧GMAILUSCỔDATE201X-202X2FA➕Thêm:130📦Tồnkhohiệntại:148💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793200971453",
       "time": "22:22 - 28/10/2026",
       "name": "Giảm giá 10 Slot VEO3 (Antigravity )x20 Ultra random credit SLOT 1TH BH 30D mọi người vào bot mua nhanh kẻo hết nhé",
@@ -13278,17 +13289,6 @@
       "stockAfter": 10,
       "catKey": "suno",
       "msgKey": "🎵SunoPro1THBH1ngày➕Thêm:5📦Tồnkhohiệntại:10💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1793193751107",
-      "time": "20:22 - 28/10/2026",
-      "name": "ChatGPT Plus UIP 1 Tháng KBH",
-      "bot": "sieuthistore_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 16,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusUIP1ThángKBH➕Thêm:10📦Tồnkhohiệntại:16💰Giá:110.000đ"
     }
   ]
 }
