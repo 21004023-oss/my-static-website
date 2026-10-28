@@ -11390,8 +11390,8 @@
         "name": "Zoom Pro 14 Ngày BHF",
         "price": 55000,
         "cost_price": 30000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
         "detail": "Tài khoản cấp sẵn Zoom Pro 14 Ngày 100 members, hàng renew sau 14 ngày nên là khách hàng vui lòng không đổi pass\nĐịnh dạng: Email|Pass|Web Mail\n✏️",
         "sources": {
@@ -11402,10 +11402,10 @@
             "updated": "03:38 29/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 3,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "20:11 28/10/2026"
+            "updated": "03:39 29/10/2026"
           }
         },
         "hidden": false,
@@ -11414,7 +11414,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 30000,
-          "stock": 2
+          "stock": 3
         }
       },
       {
@@ -12583,6 +12583,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793219988754",
+      "time": "03:39 - 29/10/2026",
+      "name": "Zoom Pro 14 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 6,
+      "catKey": "zoom",
+      "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793219896876",
       "time": "03:38 - 29/10/2026",
       "name": "ACC ZOOM PRO 14 NGÀY BHF",
@@ -13670,17 +13681,6 @@
       "stockAfter": 250,
       "catKey": "gmail",
       "msgKey": "📧GMAILCỔDATE201X-2022➕Thêm:100📦Tồnkhohiệntại:100💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793201224767",
-      "time": "22:27 - 28/10/2026",
-      "name": "🔥VIP . Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 220000,
-      "costPrice": 200000,
-      "stockAfter": 56,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥VIP.ChatgptPlusApplePay1thángBHF➕Thêm:20📦Tồnkhohiệntại:56💰Giá:200.000đ"
     }
   ]
 }
