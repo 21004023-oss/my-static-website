@@ -9475,23 +9475,23 @@
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
         "cost_price": 7000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "3 Ngày",
         "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 6,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "07:40 29/10/2026"
+            "updated": "08:29 29/10/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 7000,
-          "stock": 4
+          "stock": 6
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -12875,6 +12875,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793237355935",
+      "time": "08:29 - 29/10/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 6,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:2📦Tồnkhohiệntại:6💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1793237342736",
       "time": "08:29 - 29/10/2026",
       "name": "Microsoft 365 Admin Premium 1 Tháng BHF",
@@ -13962,17 +13973,6 @@
       "stockAfter": 18,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793220884566",
-      "time": "03:54 - 29/10/2026",
-      "name": "EXPRESS VPN 3 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 23,
-      "catKey": "expressvpn",
-      "msgKey": "🚚EXPRESSVPN3NGÀYBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:15.000đ"
     }
   ]
 }
