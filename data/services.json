@@ -3178,13 +3178,13 @@
         "name": "ChatGPT Plus 1 Tháng BH 1 Ngày",
         "price": 150000,
         "cost_price": 130000,
-        "stock": 50,
-        "stock_text": "Còn 50",
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "1 Tháng",
         "detail": "🔐 Tài khoản riêng tư — Được đổi Pass & 2FA.\n📂 Định dạng: Email | Pass | 2FA\n✅ Hàng Pay UPI Ấn Độ - Siêu khỏe\n🚀 Sử dụng Codex thoải mái (khách tự xác minh SĐT).\n⚠️ LƯU Ý QUAN TRỌNG\n1. Không được sử dụng 9Router.\n2. Đổi 2FA ngay sau khi mua. Không đổi dẫn đến lỗi/mất tài khoản → Shop không chịu trách nhiệm.\n3. Thao tác đổi 2FA phải nhanh chóng. Lỗi OTP Gmail trong quá trình đổi → Không bảo hành (xem video hướng dẫn).\n🚨 Tài khoản đã kiểm tra trước khi bán, nên ai mà đăng nhập kêu bị OTP gmail thì đừng có nhắn tin, lỗi đổi 2fa otp gmail shop không hỗ trợ. Bạn có thể cân nhắc đổi hoặc không, shop chỉ muốn hợp tác với người trung thực, có trách nhiệm.\n🎥 HƯỚNG DẪN ĐỔI 2FA\nhttps://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 50,
+            "stock": 15,
             "cost_price": 130000,
             "selling_price": 150000,
             "updated": "14:17 29/10/2026"
@@ -3193,7 +3193,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 130000,
-          "stock": 50
+          "stock": 15
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -13265,6 +13265,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793258225079",
+      "time": "14:17 - 29/10/2026",
+      "name": "ChatGPT Plus 1 tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 15,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus1thángBH1ngày💰Giá:130k📦Tồnkho:15tàikhoản📊Đãbán:423tàikhoản💎Môtả:🔐Tài"
+    },
+    {
       "id": "hist-1793258220912",
       "time": "14:17 - 29/10/2026",
       "name": "ChatGPT Plus 1 tháng BH 1 ngày",
@@ -14352,17 +14363,6 @@
       "stockAfter": 5,
       "catKey": "kling",
       "msgKey": "🎬KlingPro3K-4KCredits1thángBH7ngày➕Thêm:5📦Tồnkhohiệntại:5💰Giá:670.000đ"
-    },
-    {
-      "id": "hist-1793244342878",
-      "time": "10:25 - 29/10/2026",
-      "name": "Lovable Pro 30D BH 10D",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 29,
-      "catKey": "lovable",
-      "msgKey": "⭐LovablePro30DBH10D➕Thêm:1📦Tồnkhohiệntại:17💰Giá:70.000đ"
     }
   ]
 }
