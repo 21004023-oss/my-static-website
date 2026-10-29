@@ -4620,16 +4620,16 @@
         "id": "p-1792256292426",
         "name": "Link Gemini Pro 18 Tháng",
         "price": 70000,
-        "stock": 89,
-        "stock_text": "Còn 89",
+        "stock": 103,
+        "stock_text": "Còn 103",
         "duration": "1 Tháng",
         "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 89,
+            "stock": 103,
             "cost_price": 60000,
             "selling_price": 70000,
-            "updated": "19:28 29/10/2026"
+            "updated": "19:36 29/10/2026"
           }
         },
         "hidden": false,
@@ -4638,7 +4638,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 60000,
-          "stock": 89
+          "stock": 103
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -13522,6 +13522,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793277406642",
+      "time": "19:36 - 29/10/2026",
+      "name": "Link Gemini Pro 18 Tháng",
+      "bot": "sieuthistore_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 103,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:15📦Tồnkhohiệntại:103💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1793276973195",
       "time": "19:29 - 29/10/2026",
       "name": "🔥SALE . Chatgpt Plus  1 tháng BHF",
@@ -14609,17 +14620,6 @@
       "stockAfter": 13,
       "catKey": "meitu",
       "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793266208821",
-      "time": "16:30 - 29/10/2026",
-      "name": "Discord Nitro 1M Token KBH",
-      "bot": "taphoathomap_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 76,
-      "catKey": "discord",
-      "msgKey": "⭐DiscordNitro1MTokenKBH💰Giá:35k📦Tồnkho:76tàikhoản📊Đãbán:4tàikhoản💎Môtả:-Địnhdạng"
     }
   ]
 }
