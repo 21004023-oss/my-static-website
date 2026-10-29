@@ -5947,21 +5947,23 @@
         "stock": 1,
         "stock_text": "Còn 1",
         "duration": "1 Tháng",
-        "detail": "Gói ( Gói chính hãng ) ElevanLabs 131K Credit 1 Tháng (BH 3D) bảo hành uy tín.",
+        "detail": "Login bằng Email Định dạng Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
             "stock": 1,
             "cost_price": 120000,
             "selling_price": 140000,
-            "updated": "14:54 22/10/2026"
+            "updated": "08:40 29/10/2026"
           }
         },
         "hidden": false,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 120000
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 120000,
+          "stock": 1
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792655680559",
@@ -12886,6 +12888,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793238053971",
+      "time": "08:40 - 29/10/2026",
+      "name": "( Gói chính hãng ) ElevanLabs 131K Credit 1 Tháng (BH 3D)",
+      "bot": "taphoathomap_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 1,
+      "catKey": "elevenlabs",
+      "msgKey": "🎙️(Góichínhhãng)ElevanLabs131KCredit1Tháng(BH3D)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:120."
+    },
+    {
       "id": "hist-1793238003993",
       "time": "08:40 - 29/10/2026",
       "name": "Surfshark VPN  Random 5-7 Ngày BHF",
@@ -13973,17 +13986,6 @@
       "stockAfter": 7,
       "catKey": "figma",
       "msgKey": "⭐FigmaProEducation1nămBHF➕Thêm:6📦Tồnkhohiệntại:7💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1793221191820",
-      "time": "03:59 - 29/10/2026",
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 18,
-      "catKey": "figma",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:6📦Tồnkhohiệntại:7💰Giá:110.000đ"
     }
   ]
 }
