@@ -9123,8 +9123,8 @@
         "id": "p-1791925999209",
         "name": "Meitu Vip+ 30D BHF",
         "price": 90000,
-        "stock": 30,
-        "stock_text": "Còn 30",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.\n✏️",
         "cost_price": 59000,
@@ -9132,14 +9132,14 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 59000,
-          "stock": 12
+          "stock": 2
         },
         "sources": {
           "taphoathomap_bot": {
-            "stock": 12,
+            "stock": 2,
             "cost_price": 59000,
             "selling_price": 69000,
-            "updated": "17:12 29/10/2026"
+            "updated": "21:19 29/10/2026"
           },
           "piggyai99_bot": {
             "stock": 18,
@@ -13583,6 +13583,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793283583889",
+      "time": "21:19 - 29/10/2026",
+      "name": "Meitu Vip+ 30D BHF",
+      "bot": "taphoathomap_bot",
+      "price": 69000,
+      "costPrice": 59000,
+      "stockAfter": 20,
+      "catKey": "meitu",
+      "msgKey": "✨MeituVip+30DBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:59.000đ"
+    },
+    {
       "id": "hist-1793283544813",
       "time": "21:19 - 29/10/2026",
       "name": "Meitu Vip+ 1 Tháng BHF",
@@ -14670,17 +14681,6 @@
       "stockAfter": 243,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1tháng-BH24H➕Thêm:99📦Tồnkhohiệntại:99💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1793273008405",
-      "time": "18:23 - 29/10/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 51,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:15📦Tồnkhohiệntại:31💰Giá:70.000đ"
     }
   ]
 }
