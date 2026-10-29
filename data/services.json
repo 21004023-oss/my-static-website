@@ -11373,8 +11373,8 @@
         "name": "Gmail (New) 2FA-Login All",
         "price": 46000,
         "cost_price": 30000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 36,
+        "stock_text": "Còn 36",
         "duration": "1 Tháng",
         "detail": "GMAIL TRÂU BÒ - Login All thiết bị\nĐịnh dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H ( very phone, sai pass) được bảo hành- login thành công là hết Bảo hành\n- Gmail New cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\nĐÃ CHECK LIVE TRƯỚC KHI BÁN\n✏️",
         "sources": {
@@ -11385,10 +11385,10 @@
             "updated": "09:49 29/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 16,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "17:13 28/10/2026"
+            "updated": "12:42 29/10/2026"
           },
           "piggyai99_bot": {
             "stock": 10,
@@ -11400,11 +11400,11 @@
         "hidden": false,
         "needs_review": false,
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
+          "bot": "@taphoathomap_bot",
           "cost_price": 30000,
-          "stock": 10
+          "stock": 16
         },
-        "import_note": "Nhập: @piggyai99_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792417336475",
@@ -13127,6 +13127,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793252548326",
+      "time": "12:42 - 29/10/2026",
+      "name": "Gmail (New) 2FA-Login All",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 36,
+      "catKey": "gmail",
+      "msgKey": "📧Gmail(New)2FA-LoginAll➕Thêm:16📦Tồnkhohiệntại:16💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793252397653",
       "time": "12:39 - 29/10/2026",
       "name": "ChatGPT Go 1 Tháng BHF",
@@ -14214,17 +14225,6 @@
       "stockAfter": 356,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:76📦Tồnkhohiệntại:156💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793238082297",
-      "time": "08:41 - 29/10/2026",
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 330,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:76📦Tồnkhohiệntại:156💰Giá:15.000đ"
     }
   ]
 }
