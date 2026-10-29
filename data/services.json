@@ -45,16 +45,16 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 115000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 7,
+        "stock_text": "Còn 7",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 6,
             "cost_price": 150000,
             "selling_price": 170000,
-            "updated": "04:16 29/10/2026"
+            "updated": "09:11 29/10/2026"
           },
           "piggyai99_bot": {
             "stock": 1,
@@ -12889,6 +12889,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793239903648",
+      "time": "09:11 - 29/10/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 7,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793239476017",
       "time": "09:04 - 29/10/2026",
       "name": "Capcut Pro 7 Ngày BHF",
@@ -13976,17 +13987,6 @@
       "stockAfter": 46,
       "catKey": "chatgpt",
       "msgKey": "⭐VIP1.API10MTokenCodex1Ngày-BHF➕Thêm:50📦Tồnkhohiệntại:46💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793222756664",
-      "time": "04:25 - 29/10/2026",
-      "name": "ADMIN GEMINI PRO + GOOGLE ONE 5TB 6 THÁNG BẢO HÀNH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 16,
-      "catKey": "google-veo",
-      "msgKey": "☁️ADMINGEMINIPRO+GOOGLEONE5TB6THÁNGBẢOHÀNH24H➕Thêm:3📦Tồnkhohiệntại:8💰Giá:150.000"
     }
   ]
 }
