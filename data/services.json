@@ -5265,8 +5265,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 26,
-        "stock_text": "Còn 26",
+        "stock": 23,
+        "stock_text": "Còn 23",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -5277,10 +5277,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 24,
+            "stock": 21,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "08:37 29/10/2026"
+            "updated": "09:42 29/10/2026"
           }
         },
         "hidden": false,
@@ -5289,7 +5289,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 24
+          "stock": 21
         }
       },
       {
@@ -12915,6 +12915,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793241753313",
+      "time": "09:42 - 29/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 23,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:21💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793241748770",
       "time": "09:42 - 29/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -14002,17 +14013,6 @@
       "stockAfter": 12,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:4📦Tồnkhohiệntại:6💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793224309574",
-      "time": "04:51 - 29/10/2026",
-      "name": "Suno Pro 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 60,
-      "catKey": "suno",
-      "msgKey": "🎵SunoPro1THBH1ngày➕Thêm:20📦Tồnkhohiệntại:20💰Giá:115.000đ"
     }
   ]
 }
