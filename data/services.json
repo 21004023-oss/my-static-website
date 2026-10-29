@@ -6444,6 +6444,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793301618623",
+        "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
+        "price": 260000,
+        "cost_price": 230000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "1 Tháng",
+        "detail": "TẤT CẢ ĐỀU ĐĂNG NHẬP BẰNG EMAIL NHÉ\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 6,
+            "cost_price": 230000,
+            "selling_price": 260000,
+            "updated": "02:20 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 230000,
+          "stock": 6
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14047,6 +14073,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793301618623",
+      "time": "02:20 - 30/10/2026",
+      "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 6,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1100-1300Credits1thángBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1793301456206",
       "time": "02:17 - 30/10/2026",
       "name": "ChatGPT Plus 1 Tháng KBH",
@@ -15134,17 +15171,6 @@
       "stockAfter": 66,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000credit1THBH1ngày➕Thêm:12📦Tồnkhohiệntại:12💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1793293613170",
-      "time": "00:06 - 30/10/2026",
-      "name": "TiktokVN LiveStudio 1KFL THẬT",
-      "bot": "taphoathomap_bot",
-      "price": 260000,
-      "costPrice": 230000,
-      "stockAfter": 3,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokVNLiveStudio1KFLTHẬT💰Giá:230k📦Tồnkho:3tàikhoản📊Đãbán:3tàikhoản💎Môtả:TIKTO"
     }
   ],
   "vidiq": {
