@@ -6119,6 +6119,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793269554318",
+        "name": "Kling Stand random 600-800 credit 1TH BH 1 ngày",
+        "price": 125000,
+        "cost_price": 105000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "Gói Kling Stand random 600-800 credit 1TH BH 1 ngày bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 105000,
+            "selling_price": 125000,
+            "updated": "17:25 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 105000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13395,6 +13421,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793269554318",
+      "time": "17:25 - 29/10/2026",
+      "name": "Kling Stand random 600-800 credit 1TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 125000,
+      "costPrice": 105000,
+      "stockAfter": 3,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandrandom600-800credit1THBH1ngày💰Giá:105k📦Tồnkho:3tàikhoản📊Đãbán:56tàikh"
+    },
+    {
       "id": "hist-1793269529567",
       "time": "17:25 - 29/10/2026",
       "name": "CHAT GPT PLUS 1 tháng - BH 6H",
@@ -14482,17 +14519,6 @@
       "stockAfter": 1801,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:1📦Tồnkhohiệntại:873💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793253902634",
-      "time": "13:05 - 29/10/2026",
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "piggyai99_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 1806,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:1📦Tồnkhohiệntại:873💰Giá:30.000đ"
     }
   ]
 }
