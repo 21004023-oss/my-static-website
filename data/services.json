@@ -9550,16 +9550,27 @@
         "id": "p-1791970773837",
         "name": "Surfshark VPN  Random 5-7 Ngày BHF",
         "price": 22222,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "7 Ngày",
-        "detail": "📝 Mô tả:\n- Đăng nhập tối đa 10 thiết bị Androi/PC/IOS/Extention\n📦 Các tính năng chính của Surfshark VPN Starter:\n- Đổi IP, ẩn IP thật\n- Mã hóa kết nối Internet\n- Kết nối không giới hạn thiết bị\n- Server tại nhiều quốc gia\n- Kill Switch chống lộ IP\n- Split Tunneling / Bypasser\n- MultiHop qua 2 server\n- Rotating IP tự đổi IP\n- CleanWeb chặn quảng cáo, tracker\n- Alternative ID tạo email/danh tính thay thế\n• 📦Nhận đi đơn cho AE CTV giao đơn trong ngày nếu cần sll thì đặt trước cho shop hoặc liên hệ shop nhé",
+        "detail": "📝 Mô tả:\n- Đăng nhập tối đa 10 thiết bị Androi/PC/IOS/Extention\n📦 Các tính năng chính của Surfshark VPN Starter:\n- Đổi IP, ẩn IP thật\n- Mã hóa kết nối Internet\n- Kết nối không giới hạn thiết bị\n- Server tại nhiều quốc gia\n- Kill Switch chống lộ IP\n- Split Tunneling / Bypasser\n- MultiHop qua 2 server\n- Rotating IP tự đổi IP\n- CleanWeb chặn quảng cáo, tracker\n- Alternative ID tạo email/danh tính thay thế\n• 📦Nhận đi đơn cho AE CTV giao đơn trong ngày nếu cần sll thì đặt trước cho shop hoặc liên hệ shop nhé\n✏️",
         "cost_price": 12222,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 12222
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 12222,
+          "stock": 1
+        },
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 12222,
+            "selling_price": 22222,
+            "updated": "08:40 29/10/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1792034135088",
@@ -12875,6 +12886,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793238003993",
+      "time": "08:40 - 29/10/2026",
+      "name": "Surfshark VPN  Random 5-7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 22222,
+      "costPrice": 12222,
+      "stockAfter": 1,
+      "catKey": "surfshark",
+      "msgKey": "🦈SurfsharkVPNRandom5-7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:12.222đ"
+    },
+    {
       "id": "hist-1793237864031",
       "time": "08:37 - 29/10/2026",
       "name": "Grok Plus 30 ngày KBH",
@@ -13962,17 +13984,6 @@
       "stockAfter": 18,
       "catKey": "figma",
       "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:6📦Tồnkhohiệntại:7💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1793221131451",
-      "time": "03:58 - 29/10/2026",
-      "name": "Zoom Pro 28 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 11,
-      "catKey": "zoom",
-      "msgKey": "⭐ZoomPro28NgàyBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:45.000đ"
     }
   ]
 }
