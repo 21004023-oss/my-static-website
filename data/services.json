@@ -9475,23 +9475,23 @@
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
         "cost_price": 7000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "3 Ngày",
         "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 4,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "07:25 29/10/2026"
+            "updated": "07:40 29/10/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 7000,
-          "stock": 2
+          "stock": 4
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -12817,6 +12817,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793234440155",
+      "time": "07:40 - 29/10/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 4,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:2📦Tồnkhohiệntại:4💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1793234402306",
       "time": "07:40 - 29/10/2026",
       "name": "CapCut Pro Team 3 Tháng - BHF",
@@ -13904,17 +13915,6 @@
       "stockAfter": 5,
       "catKey": "zoom",
       "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793219718877",
-      "time": "03:35 - 29/10/2026",
-      "name": "JetBrain Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 18,
-      "catKey": "jetbrains",
-      "msgKey": "⭐JetBrainEdu1năm(BHF)➕Thêm:9📦Tồnkhohiệntại:9💰Giá:70.000đ"
     }
   ]
 }
