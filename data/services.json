@@ -5191,6 +5191,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793300490835",
+        "name": "[Slot] Gemini Pro , GG 5TB Hạn 1 Năm, Bảo hành 3 tháng",
+        "price": 80000,
+        "cost_price": 70000,
+        "stock": 98,
+        "stock_text": "Còn 98",
+        "duration": "1 Năm",
+        "detail": "Full ưu đãi GG : Veo3 1K, NotebookLM, Gemini Pro , Tặng kèm GG Drive 5TB 1 năm .\nBảo hành gói 3 tháng , Nâng chính chủ dạng add vào family\n- Sau mua sẽ cấp một đường link , mọi người vào link nhập mail cần nâng là được nhé .\nTime hoàn thành đơn khoảng 1 giờ. Có thể nhanh hoặc chậm hơn chút mong cả nhà thông cảm\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–98):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 98,
+            "cost_price": 70000,
+            "selling_price": 80000,
+            "updated": "02:01 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 70000,
+          "stock": 98
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14021,6 +14047,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793300490835",
+      "time": "02:01 - 30/10/2026",
+      "name": "[Slot] Gemini Pro , GG 5TB Hạn 1 Năm, Bảo hành 3 tháng",
+      "bot": "khommo_market_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 98,
+      "catKey": "google-veo",
+      "msgKey": "🛍️[Slot]GeminiPro,GG5TBHạn1Năm,Bảohành3tháng💲Giá:70.000VND💚Tồnkho:98tàikhoản📊Đãb"
+    },
+    {
       "id": "hist-1793299958162",
       "time": "01:52 - 30/10/2026",
       "name": "I Love PDF Premium 1 Năm BH 1 Ngày",
@@ -15108,17 +15145,6 @@
       "stockAfter": 45,
       "catKey": "meitu",
       "msgKey": "✨MEITUVIP+1THÁNGBHF➕Thêm:18📦Tồnkhohiệntại:18💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1793293548008",
-      "time": "00:05 - 30/10/2026",
-      "name": "API CLAUDE VIP HIGH STABLE 40M TOKEN 1 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 30,
-      "catKey": "claude",
-      "msgKey": "🧠APICLAUDEVIPHIGHSTABLE40MTOKEN1NGÀYBHF💰Giá:100k📦Tồnkho:30tàikhoản📊Đãbán:209tàik"
     }
   ],
   "vidiq": {
