@@ -9345,6 +9345,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793283477988",
+        "name": "Meitu Vip+ 7D BH 5D",
+        "price": 28000,
+        "cost_price": 18000,
+        "stock": 9,
+        "stock_text": "Còn 9",
+        "duration": "7 Ngày",
+        "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 9,
+            "cost_price": 18000,
+            "selling_price": 28000,
+            "updated": "21:17 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 18000,
+          "stock": 9
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13551,6 +13577,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793283477988",
+      "time": "21:17 - 29/10/2026",
+      "name": "Meitu Vip+ 7D BH 5D",
+      "bot": "taphoathomap_bot",
+      "price": 28000,
+      "costPrice": 18000,
+      "stockAfter": 9,
+      "catKey": "meitu",
+      "msgKey": "✨MeituVip+7DBH5D➕Thêm:9📦Tồnkhohiệntại:9💰Giá:18.000đ"
+    },
+    {
       "id": "hist-1793282844654",
       "time": "21:07 - 29/10/2026",
       "name": "ACC ZOOM PRO 14 NGÀY BHF",
@@ -14638,17 +14675,6 @@
       "stockAfter": 2,
       "catKey": "elevenlabs",
       "msgKey": "🎙️ElevenlabsCreator131kCredit30D(BH2D)💰Giá:160k📦Tồnkho:2tàikhoản📊Đãbán:8tàikhoản"
-    },
-    {
-      "id": "hist-1793272675222",
-      "time": "18:17 - 29/10/2026",
-      "name": "HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 750000,
-      "costPrice": 650000,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "msgKey": "🎬HIGGPlus600-700CRE1ThángBH3ngày➕Thêm:1📦Tồnkhohiệntại:2💰Giá:650.000đ"
     }
   ]
 }
