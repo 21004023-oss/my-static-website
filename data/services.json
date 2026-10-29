@@ -6260,6 +6260,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 100000
         }
+      },
+      {
+        "id": "p-1793268147845",
+        "name": "Elevenlabs Creator 131k Credit 30D (BH 2D)",
+        "price": 180000,
+        "cost_price": 160000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "📝 Mô tả: ElevenLabs Creator gói 1 tháng. Có 131K credit chính hãng\nSử dụng code ElevenLabs tỉ lệ rớt gói là 0%\n📋 Định dạng: Mail|Pass|Pass Mail\n(Tài khoản đã được kiểm tra kĩ càng, khách tự bảo quản sau khi mua)\n📝 Đăng nhập vào là sử dụng được ngay!",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 0,
+            "cost_price": 160000,
+            "selling_price": 180000,
+            "updated": "17:02 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 160000,
+          "stock": 0
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13343,6 +13369,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793268147845",
+      "time": "17:02 - 29/10/2026",
+      "name": "Elevenlabs Creator 131k Credit 30D (BH 2D)",
+      "bot": "piggyai99_bot",
+      "price": 180000,
+      "costPrice": 160000,
+      "stockAfter": 0,
+      "catKey": "elevenlabs",
+      "msgKey": "🎙️ElevenlabsCreator131kCredit30D(BH2D)➕Thêm:2📦Tồnkhohiệntại:0💰Giá:160.000đ"
+    },
+    {
       "id": "hist-1793268004267",
       "time": "17:00 - 29/10/2026",
       "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
@@ -14430,17 +14467,6 @@
       "stockAfter": 72,
       "catKey": "google-veo",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:5📦Tồnkhohiệntại:0💰Giá:46.000đ"
-    },
-    {
-      "id": "hist-1793251268954",
-      "time": "12:21 - 29/10/2026",
-      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
-      "bot": "sieuthistore_bot",
-      "price": 56000,
-      "costPrice": 46000,
-      "stockAfter": 198,
-      "catKey": "youtube",
-      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:198📦Tồnkhohiệntại:198💰Giá:46.000đ"
     }
   ]
 }
