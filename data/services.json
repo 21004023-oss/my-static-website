@@ -8194,8 +8194,8 @@
         "id": "p-1791877845717",
         "name": "CAPCUT PRO 3 THÁNG BHF",
         "price": 205000,
-        "stock": 13,
-        "stock_text": "Còn 13",
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "3 Tháng",
         "detail": "Tài khoản Capcut Pro dạng team hạn sử dụng 90 ngày. • Có thể nhận tới 2000 Credit AI • Định dạng: Email | Pass • Login 1-2 thiết bị hạn chế login nhiều thiết bị. • Bảo hành 90 ngày, không bảo hành lỗi đăng nhập quá thường xuyên.\nTK tự động gia hạn mỗi tháng 1 lần đến khi đủ 1 tháng\n✏️",
         "cost_price": 155000,
@@ -8207,10 +8207,10 @@
             "updated": "18:18 29/10/2026"
           },
           "ntnshopre_bot": {
-            "stock": 4,
+            "stock": 9,
             "cost_price": 155000,
             "selling_price": 175000,
-            "updated": "13:08 29/10/2026"
+            "updated": "18:18 29/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -8225,7 +8225,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 155000,
-          "stock": 4
+          "stock": 9
         }
       },
       {
@@ -13427,6 +13427,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793272688061",
+      "time": "18:18 - 29/10/2026",
+      "name": "CAPCUT PRO 3 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 175000,
+      "costPrice": 155000,
+      "stockAfter": 18,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPRO3THÁNGBHF➕Thêm:8📦Tồnkhohiệntại:9💰Giá:155.000đ"
+    },
+    {
       "id": "hist-1793272684244",
       "time": "18:18 - 29/10/2026",
       "name": "CapCut Pro 3 Tháng BHF",
@@ -14514,17 +14525,6 @@
       "stockAfter": 190,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1tháng-BH24H➕Thêm:50📦Tồnkhohiệntại:50💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1793257919972",
-      "time": "14:11 - 29/10/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 51,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:22📦Tồnkhohiệntại:30💰Giá:70.000đ"
     }
   ]
 }
