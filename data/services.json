@@ -4568,16 +4568,16 @@
         "id": "p-1792256292426",
         "name": "Link Gemini Pro 18 Tháng",
         "price": 70000,
-        "stock": 51,
-        "stock_text": "Còn 51",
+        "stock": 61,
+        "stock_text": "Còn 61",
         "duration": "1 Tháng",
         "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 51,
+            "stock": 61,
             "cost_price": 60000,
             "selling_price": 70000,
-            "updated": "14:25 29/10/2026"
+            "updated": "16:45 29/10/2026"
           }
         },
         "hidden": false,
@@ -4586,7 +4586,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 60000,
-          "stock": 51
+          "stock": 61
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -13317,6 +13317,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793267100576",
+      "time": "16:45 - 29/10/2026",
+      "name": "Link Gemini Pro 18 Tháng",
+      "bot": "sieuthistore_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 61,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:2📦Tồnkhohiệntại:61💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1793267095636",
       "time": "16:44 - 29/10/2026",
       "name": "🔥 Link Gemini Pro 18 Tháng KBH",
@@ -14404,17 +14415,6 @@
       "stockAfter": 96,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:2📦Tồnkhohiệntại:96💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793249943316",
-      "time": "11:59 - 29/10/2026",
-      "name": "KLING 1K2-1K5 CREDITS 1 THÁNG BẢO HÀNH 10 DAYS",
-      "bot": "ntnshopre_bot",
-      "price": 215000,
-      "costPrice": 195000,
-      "stockAfter": 1,
-      "catKey": "kling",
-      "msgKey": "🎬KLING1K2-1K5CREDITS1THÁNGBẢOHÀNH10DAYS➕Thêm:1📦Tồnkhohiệntại:1💰Giá:195.000đ"
     }
   ]
 }
