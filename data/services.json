@@ -10925,16 +10925,16 @@
         "id": "p-1792035072787",
         "name": "GMAIL TRIAL RANDOM DATE 202X",
         "price": 50000,
-        "stock": 25,
-        "stock_text": "Còn 25",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành\n✏️",
+        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h, login hết bảo hành",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 25,
+            "stock": 0,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "09:54 29/10/2026"
+            "updated": "13:07 29/10/2026"
           }
         },
         "hidden": false,
@@ -10944,7 +10944,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 40000,
-          "stock": 25
+          "stock": 0
         },
         "import_note": "Nhập: @ntnshopre_bot"
       },
@@ -13160,6 +13160,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793254057361",
+      "time": "13:07 - 29/10/2026",
+      "name": "GMAIL TRIAL RANDOM DATE 202X",
+      "bot": "ntnshopre_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 0,
+      "catKey": "gmail",
+      "msgKey": "📧GMAILTRIALRANDOMDATE202X➕Thêm:31📦Tồnkhohiệntại:0💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1793254002346",
       "time": "13:06 - 29/10/2026",
       "name": "Gmail Việt 2020-2024",
@@ -14247,17 +14258,6 @@
       "stockAfter": 39,
       "catKey": "chatgpt",
       "msgKey": "🤖TàikhoảnChatGPTBusinessdùngchung1THBHF➕Thêm:18📦Tồnkhohiệntại:39💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1793240196285",
-      "time": "09:16 - 29/10/2026",
-      "name": "SLOT CHATGPT BUSINESS DÙNG CHUNG 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 139000,
-      "costPrice": 119000,
-      "stockAfter": 39,
-      "catKey": "chatgpt",
-      "msgKey": "🤖SLOTCHATGPTBUSINESSDÙNGCHUNG1THÁNGBHF➕Thêm:18📦Tồnkhohiệntại:39💰Giá:119.000đ"
     }
   ]
 }
