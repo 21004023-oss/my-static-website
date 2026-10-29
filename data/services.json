@@ -5853,6 +5853,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793244465844",
+        "name": "Kling Pro 3K-4K Credits 1 tháng BH 7 ngày",
+        "price": 770000,
+        "cost_price": 670000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "áp dụng bảo hành /7 ko phải /30\nKhách lưu ý\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 5,
+            "cost_price": 670000,
+            "selling_price": 770000,
+            "updated": "10:27 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 670000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12944,6 +12970,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793244465844",
+      "time": "10:27 - 29/10/2026",
+      "name": "Kling Pro 3K-4K Credits 1 tháng BH 7 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 770000,
+      "costPrice": 670000,
+      "stockAfter": 5,
+      "catKey": "kling",
+      "msgKey": "🎬KlingPro3K-4KCredits1thángBH7ngày➕Thêm:5📦Tồnkhohiệntại:5💰Giá:670.000đ"
+    },
+    {
       "id": "hist-1793244342878",
       "time": "10:25 - 29/10/2026",
       "name": "Lovable Pro 30D BH 10D",
@@ -14031,17 +14068,6 @@
       "stockAfter": 36,
       "catKey": "expressvpn",
       "msgKey": "🚚EXPRESSVPN1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:9💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793228084406",
-      "time": "05:54 - 29/10/2026",
-      "name": "Express VPN 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 36,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN1ThángBHF➕Thêm:1📦Tồnkhohiệntại:9💰Giá:95.000đ"
     }
   ]
 }
