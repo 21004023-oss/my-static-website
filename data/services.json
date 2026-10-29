@@ -5045,8 +5045,8 @@
         "price": 180000,
         "original_price": 600000,
         "cost_price": 70000,
-        "stock": 29,
-        "stock_text": "Còn 29",
+        "stock": 46,
+        "stock_text": "Còn 46",
         "duration": "1 Tháng",
         "detail": "Radom date 25 - 30 day\nLovable Pro có 110 credit, mỗi ngày cộng thêm 5 credit\n✏️",
         "sources": {
@@ -5060,6 +5060,12 @@
             "cost_price": 70000,
             "selling_price": 80000,
             "updated": "10:25 29/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 17,
+            "cost_price": 110000,
+            "selling_price": 130000,
+            "updated": "10:34 29/10/2026"
           }
         },
         "cheapest_source": {
@@ -12996,6 +13002,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793244884222",
+      "time": "10:34 - 29/10/2026",
+      "name": "Lovable Pro 30D BH 10D",
+      "bot": "piggyai99_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 46,
+      "catKey": "lovable",
+      "msgKey": "⭐LovablePro30DBH10D➕Thêm:1📦Tồnkhohiệntại:17💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793244664321",
       "time": "10:31 - 29/10/2026",
       "name": "Meitu SVip+ 7 Ngày BHF",
@@ -14083,17 +14100,6 @@
       "stockAfter": 36,
       "catKey": "expressvpn",
       "msgKey": "🚚🔥ExpressVPN1ThángBHF💰Giá:80k📦Tồnkho:9tàikhoản📊Đãbán:74tàikhoản💎Môtả:-Địnhdạng:E"
-    },
-    {
-      "id": "hist-1793228097379",
-      "time": "05:54 - 29/10/2026",
-      "name": "🔥Express VPN 1 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 36,
-      "catKey": "expressvpn",
-      "msgKey": "🚚🔥ExpressVPN1ThángBHF➕Thêm:1📦Tồnkhohiệntại:9💰Giá:80.000đ"
     }
   ]
 }
