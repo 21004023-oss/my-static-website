@@ -8958,8 +8958,8 @@
         "id": "p-1791925962704",
         "name": "MEITU VIP+ 1 THÁNG BHF",
         "price": 90000,
-        "stock": 40,
-        "stock_text": "Còn 40",
+        "stock": 33,
+        "stock_text": "Còn 33",
         "duration": "1 Tháng",
         "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.\n✏️",
         "sources": {
@@ -8970,10 +8970,10 @@
             "updated": "21:45 18/10/2026"
           },
           "ntnshopre_bot": {
-            "stock": 19,
+            "stock": 12,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "18:14 28/10/2026"
+            "updated": "17:11 29/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 12,
@@ -13369,6 +13369,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793268671690",
+      "time": "17:11 - 29/10/2026",
+      "name": "MEITU VIP+ 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 33,
+      "catKey": "meitu",
+      "msgKey": "✨MEITUVIP+1THÁNGBHF➕Thêm:17📦Tồnkhohiệntại:12💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1793268667398",
       "time": "17:11 - 29/10/2026",
       "name": "Meitu Vip+ 1 Tháng BHF",
@@ -14456,17 +14467,6 @@
       "stockAfter": 82,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥VIP.ChatgptPlusApplePay1thángBHF➕Thêm:30📦Tồnkhohiệntại:82💰Giá:200.000đ"
-    },
-    {
-      "id": "hist-1793252553380",
-      "time": "12:42 - 29/10/2026",
-      "name": "Gmail (New) 2FA-Login All",
-      "bot": "sieuthistore_bot",
-      "price": 46000,
-      "costPrice": 36000,
-      "stockAfter": 42,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)2FA-LoginAll➕Thêm:16📦Tồnkhohiệntại:16💰Giá:36.000đ"
     }
   ]
 }
