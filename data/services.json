@@ -5969,16 +5969,16 @@
         "id": "p-1792171955948",
         "name": "Kling 790-1k Credit 1 tháng BH 1 Ngày",
         "price": 200000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "ACC KLING STAND RANDOM 700-750 CREDITS\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 6,
+            "stock": 2,
             "cost_price": 180000,
             "selling_price": 200000,
-            "updated": "20:07 28/10/2026"
+            "updated": "04:22 30/10/2026"
           }
         },
         "hidden": false,
@@ -5988,7 +5988,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 180000,
-          "stock": 6
+          "stock": 2
         }
       },
       {
@@ -14101,6 +14101,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793308923845",
+      "time": "04:22 - 30/10/2026",
+      "name": "Kling 790-1k Credit 1 tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 2,
+      "catKey": "kling",
+      "msgKey": "🎬Kling790-1kCredit1thángBH1Ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1793308808322",
       "time": "04:20 - 30/10/2026",
       "name": "Tiktok Việt ngâm trên 1 Năm",
@@ -15188,17 +15199,6 @@
       "stockAfter": 54,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:150k📦Tồnkho:27tàikhoản📊Đãbán:140tàikhoản✏"
-    },
-    {
-      "id": "hist-1793295620970",
-      "time": "00:40 - 30/10/2026",
-      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 39,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1000credit1THBH1ngày➕Thêm:20📦Tồnkhohiệntại:27💰Giá:120.000đ"
     }
   ],
   "vidiq": {
