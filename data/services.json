@@ -8958,10 +8958,10 @@
         "id": "p-1791925962704",
         "name": "MEITU VIP+ 1 THÁNG BHF",
         "price": 90000,
-        "stock": 46,
-        "stock_text": "Còn 46",
+        "stock": 40,
+        "stock_text": "Còn 40",
         "duration": "1 Tháng",
-        "detail": "🔥 MỞ KHÓA FULL TÍNH NĂNG VIP\n✅ Truy cập toàn bộ kho Filter VIP cao cấp.\n✅ Sử dụng các công cụ AI, xóa vật thể chuyên nghiệp.\n✅ Xuất video HD/4K sắc nét, không logo.\n⚠️ LƯU Ý QUAN TRỌNG – CHÍNH SÁCH BẢO HÀNH\n🔸 Date radom ,hụt 1-2 ngày mong KH hoan hỉ\n🔸 Bắt buộc đăng nhập trong vòng 6H kể từ khi mua. Quá thời gian trên, shop TỪ CHỐI BẢO HÀNH VỚI MỌI LÝ DO.\n🔸 Chỉ sử dụng trên 01 thiết bị duy nhất Android - Check login quá 1 thiết bị - Kích không hoàn tiền - Sai hệ điều hành không hoàn tiền\n🔸 KHÔNG đăng xuất, KHÔNG chia sẻ tài khoản cho người khác.\n❌ Vi phạm bất kỳ điều kiện nào trên, shop có quyền TỪ CHỐI BẢO HÀNH.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA ĐỂ TRÁNH TRANH CHẤP VỀ SAU!\n✏️",
+        "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.\n✏️",
         "sources": {
           "taphoathomap_bot": {
             "stock": 9,
@@ -8976,20 +8976,20 @@
             "updated": "18:14 28/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 18,
-            "cost_price": 55000,
-            "selling_price": 65000,
-            "updated": "21:14 28/10/2026"
+            "stock": 12,
+            "cost_price": 70000,
+            "selling_price": 80000,
+            "updated": "17:11 29/10/2026"
           }
         },
-        "cost_price": 55000,
+        "cost_price": 60000,
         "needs_review": false,
         "hidden": false,
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 55000,
-          "stock": 18
+          "bot": "@taphoathomap_bot",
+          "cost_price": 60000,
+          "stock": 9
         }
       },
       {
@@ -13369,6 +13369,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793268667398",
+      "time": "17:11 - 29/10/2026",
+      "name": "Meitu Vip+ 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 40,
+      "catKey": "meitu",
+      "msgKey": "✨MeituVip+1ThángBHF➕Thêm:17📦Tồnkhohiệntại:12💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793268561759",
       "time": "17:09 - 29/10/2026",
       "name": "Gmail Random ip 7-10 ngày 2FA",
@@ -14456,17 +14467,6 @@
       "stockAfter": 42,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)2FA-LoginAll➕Thêm:16📦Tồnkhohiệntại:16💰Giá:36.000đ"
-    },
-    {
-      "id": "hist-1793252548326",
-      "time": "12:42 - 29/10/2026",
-      "name": "Gmail (New) 2FA-Login All",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 36,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)2FA-LoginAll➕Thêm:16📦Tồnkhohiệntại:16💰Giá:30.000đ"
     }
   ]
 }
