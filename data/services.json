@@ -9189,16 +9189,16 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 17,
-        "stock_text": "Còn 17",
+        "stock": 24,
+        "stock_text": "Còn 24",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 12,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "03:20 29/10/2026"
+            "updated": "09:02 29/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 12,
@@ -9211,7 +9211,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 5
+          "stock": 12
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -12889,6 +12889,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793239352786",
+      "time": "09:02 - 29/10/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 24,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:8📦Tồnkhohiệntại:12💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793239346731",
       "time": "09:02 - 29/10/2026",
       "name": "NordVPN 3 Ngày BHF",
@@ -13976,17 +13987,6 @@
       "stockAfter": 1,
       "catKey": "netflix",
       "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1793222100949",
-      "time": "04:15 - 29/10/2026",
-      "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 32000,
-      "costPrice": 22000,
-      "stockAfter": 72,
-      "catKey": "google-veo",
-      "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:50📦Tồnkhohiệntại:0💰Giá:22.000đ"
     }
   ]
 }
