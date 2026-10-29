@@ -10459,6 +10459,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793237334901",
+        "name": "Microsoft 365 Admin Premium 1 Tháng BHF",
+        "price": 65000,
+        "cost_price": 55000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "1 Tháng",
+        "detail": "Microsoft 365 Admin Premium 1 Tháng BHF, bao gồm toàn bộ các tính năng của gói· Microsoft 365 Family, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 8,
+            "cost_price": 55000,
+            "selling_price": 65000,
+            "updated": "08:28 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 55000,
+          "stock": 8
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12843,6 +12869,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793237334901",
+      "time": "08:28 - 29/10/2026",
+      "name": "Microsoft 365 Admin Premium 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 8,
+      "catKey": "microsoft",
+      "msgKey": "⭐Microsoft365AdminPremium1ThángBHF➕Thêm:1📦Tồnkhohiệntại:8💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793235536482",
       "time": "07:58 - 29/10/2026",
       "name": "Autodesk cá nhân 1 năm (BHF)",
@@ -13930,17 +13967,6 @@
       "stockAfter": 12,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793220562164",
-      "time": "03:49 - 29/10/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 9,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:35.000đ"
     }
   ]
 }
