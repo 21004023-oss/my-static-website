@@ -4620,16 +4620,16 @@
         "id": "p-1792256292426",
         "name": "Link Gemini Pro 18 Tháng",
         "price": 70000,
-        "stock": 71,
-        "stock_text": "Còn 71",
+        "stock": 103,
+        "stock_text": "Còn 103",
         "duration": "1 Tháng",
         "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 71,
+            "stock": 103,
             "cost_price": 60000,
             "selling_price": 70000,
-            "updated": "17:52 29/10/2026"
+            "updated": "18:04 29/10/2026"
           }
         },
         "hidden": false,
@@ -4638,7 +4638,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 60000,
-          "stock": 71
+          "stock": 103
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -13427,6 +13427,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793271842435",
+      "time": "18:04 - 29/10/2026",
+      "name": "Link Gemini Pro 18 Tháng",
+      "bot": "sieuthistore_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 103,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:50📦Tồnkhohiệntại:103💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1793271152848",
       "time": "17:52 - 29/10/2026",
       "name": "LINK GEMINI PRO + GOOGLE ONE 5TB 18 THÁNG BẢO HÀNH ACTIVE",
@@ -14514,17 +14525,6 @@
       "stockAfter": 9,
       "catKey": "zoom",
       "msgKey": "⭐AcccấpZoomPro28NgàyBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793256299944",
-      "time": "13:44 - 29/10/2026",
-      "name": "Zoom Pro 28 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 13,
-      "catKey": "zoom",
-      "msgKey": "⭐ZoomPro28NgàyBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:45.000đ"
     }
   ]
 }
