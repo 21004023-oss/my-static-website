@@ -12927,22 +12927,22 @@
         "name": "HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày",
         "price": 750000,
         "cost_price": 650000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "Gói HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 4,
             "cost_price": 650000,
             "selling_price": 750000,
-            "updated": "18:17 29/10/2026"
+            "updated": "19:14 29/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 650000,
-          "stock": 2
+          "stock": 4
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -13469,6 +13469,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793276044801",
+      "time": "19:14 - 29/10/2026",
+      "name": "HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 750000,
+      "costPrice": 650000,
+      "stockAfter": 4,
+      "catKey": "khac",
+      "msgKey": "🎬HIGGPlus600-700CRE1ThángBH3ngày💰Giá:650k📦Tồnkho:4tàikhoản📊Đãbán:104tàikhoản✏️Vu"
+    },
     {
       "id": "hist-1793275630214",
       "time": "19:07 - 29/10/2026",
@@ -14557,17 +14568,6 @@
       "stockAfter": 85,
       "catKey": "google-veo",
       "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNHACTIVE➕Thêm:2📦Tồnkhohiệntại:85💰Giá:50."
-    },
-    {
-      "id": "hist-1793258726561",
-      "time": "14:25 - 29/10/2026",
-      "name": "Link Gemini Pro 18 Tháng",
-      "bot": "sieuthistore_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 51,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGeminiPro18Tháng💰Giá:60k📦Tồnkho:51tàikhoản📊Đãbán:11.690tàikhoản💎Môtả:📦Định"
     }
   ]
 }
