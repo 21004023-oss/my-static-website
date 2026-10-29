@@ -5314,8 +5314,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 23,
-        "stock_text": "Còn 23",
+        "stock": 19,
+        "stock_text": "Còn 19",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -5326,10 +5326,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 21,
+            "stock": 17,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "09:42 29/10/2026"
+            "updated": "11:22 29/10/2026"
           }
         },
         "hidden": false,
@@ -5338,7 +5338,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 21
+          "stock": 17
         }
       },
       {
@@ -13040,6 +13040,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793247774403",
+      "time": "11:22 - 29/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 19,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:17💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793247558132",
       "time": "11:19 - 29/10/2026",
       "name": "🔥 Link Gemini Pro 18 Tháng KBH",
@@ -14127,17 +14138,6 @@
       "stockAfter": 2,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:7.000đ"
-    },
-    {
-      "id": "hist-1793233154309",
-      "time": "07:19 - 29/10/2026",
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 304,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:100📦Tồnkhohiệntại:130💰Giá:15.000đ"
     }
   ]
 }
