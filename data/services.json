@@ -9189,8 +9189,8 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 24,
-        "stock_text": "Còn 24",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
@@ -9201,10 +9201,10 @@
             "updated": "09:02 29/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 12,
+            "stock": 18,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "09:02 29/10/2026"
+            "updated": "09:03 29/10/2026"
           }
         },
         "cost_price": 15000,
@@ -12889,6 +12889,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793239394671",
+      "time": "09:03 - 29/10/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 30,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:18💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793239352786",
       "time": "09:02 - 29/10/2026",
       "name": "NordVPN 3 Ngày BHF",
@@ -13976,17 +13987,6 @@
       "stockAfter": 2,
       "catKey": "netflix",
       "msgKey": "🎬NetflixPremiumExtra30NgàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1793222193457",
-      "time": "04:16 - 29/10/2026",
-      "name": "Netflix Premium Extra 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 1,
-      "catKey": "netflix",
-      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:150.000đ"
     }
   ]
 }
