@@ -11235,9 +11235,9 @@
         "id": "p-1792404466054",
         "name": "Gmail (New) 2FA-Login All",
         "price": 46000,
-        "cost_price": 36000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "cost_price": 30000,
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "GMAIL TRÂU BÒ - Login All thiết bị\nĐịnh dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H ( very phone, sai pass) được bảo hành- login thành công là hết Bảo hành\n- Gmail New cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone\n-Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll )\nĐÃ CHECK LIVE TRƯỚC KHI BÁN\n✏️",
         "sources": {
@@ -11252,16 +11252,22 @@
             "cost_price": 30000,
             "selling_price": 40000,
             "updated": "17:13 28/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 10,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "09:50 29/10/2026"
           }
         },
         "hidden": false,
         "needs_review": false,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 36000,
+          "bot": "@piggyai99_bot",
+          "cost_price": 30000,
           "stock": 10
         },
-        "import_note": "Nhập: @sieuthistore_bot"
+        "import_note": "Nhập: @piggyai99_bot"
       },
       {
         "id": "p-1792417336475",
@@ -12926,6 +12932,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793242200804",
+      "time": "09:50 - 29/10/2026",
+      "name": "Gmail (New) 2FA-Login All",
+      "bot": "piggyai99_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 20,
+      "catKey": "gmail",
+      "msgKey": "📧Gmail(New)2FA-LoginAll➕Thêm:10📦Tồnkhohiệntại:10💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793242196510",
       "time": "09:49 - 29/10/2026",
       "name": "Gmail (New) 2FA-Login All",
@@ -14013,17 +14030,6 @@
       "stockAfter": 16,
       "catKey": "nordvpn",
       "msgKey": "🛡️NORDVPN10thiếtbị7ngàyBHF➕Thêm:12📦Tồnkhohiệntại:8💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793224895785",
-      "time": "05:01 - 29/10/2026",
-      "name": "NORD VPN 7 NGÀY 10 THIẾT BỊ BHF",
-      "bot": "ntnshopre_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 8,
-      "catKey": "nordvpn",
-      "msgKey": "🛡️NORDVPN7NGÀY10THIẾTBỊBHF➕Thêm:12📦Tồnkhohiệntại:8💰Giá:25.000đ"
     }
   ]
 }
