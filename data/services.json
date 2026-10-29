@@ -9422,25 +9422,27 @@
         "id": "p-1792396908587",
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
-        "cost_price": 6400,
-        "stock": 3,
-        "stock_text": "Còn 3",
-        "duration": "1 Tháng",
-        "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau",
+        "cost_price": 7000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "3 Ngày",
+        "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 3,
+            "stock": 2,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "15:01 19/10/2026"
+            "updated": "07:25 29/10/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
-          "bot": "@KhoMMO_Market_bot",
-          "cost_price": 6400
+          "bot": "@taphoathomap_bot",
+          "cost_price": 7000,
+          "stock": 2
         },
-        "import_note": "🛒 @KhoMMO_Market_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "needs_review": false
       },
       {
         "id": "p-1793153475761",
@@ -12763,6 +12765,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793233508428",
+      "time": "07:25 - 29/10/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 2,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1793233154309",
       "time": "07:19 - 29/10/2026",
       "name": "Muse Ai  1B Token KBH",
@@ -13850,17 +13863,6 @@
       "stockAfter": 12,
       "catKey": "grammarly",
       "msgKey": "⭐GrammarlyAIPro1ThángBHF💰Giá:90k📦Tồnkho:4tàikhoản📊Đãbán:127tàikhoản💎Môtả:Grammar"
-    },
-    {
-      "id": "hist-1793217802482",
-      "time": "03:03 - 29/10/2026",
-      "name": "Grammarly AI Pro 1 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 12,
-      "catKey": "grammarly",
-      "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:90.000đ"
     }
   ]
 }
