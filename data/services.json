@@ -13666,10 +13666,47 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793291858213",
+        "name": "TV360 Standard 3 tháng BHF",
+        "price": 90000,
+        "cost_price": 80000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "3 Tháng",
+        "detail": "Gói TV360 Standard 3 tháng BHF bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "23:37 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 80000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793291858213",
+      "time": "23:37 - 29/10/2026",
+      "name": "TV360 Standard 3 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "msgKey": "⭐TV360Standard3thángBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:80.000đ"
+    },
     {
       "id": "hist-1793291853259",
       "time": "23:37 - 29/10/2026",
@@ -14758,17 +14795,6 @@
       "stockAfter": 125,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:100📦Tồnkhohiệntại:125💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793280569277",
-      "time": "20:29 - 29/10/2026",
-      "name": "Link Gemini Pro 18 Tháng",
-      "bot": "sieuthistore_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 35,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:6📦Tồnkhohiệntại:35💰Giá:60.000đ"
     }
   ],
   "vidiq": {
