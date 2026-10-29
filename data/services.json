@@ -3432,6 +3432,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793269121731",
+        "name": "ChatGPT Gmail Offer -50% 2 Tháng ( Plan Free )",
+        "price": 30000,
+        "cost_price": 20000,
+        "stock": 26,
+        "stock_text": "Còn 26",
+        "duration": "2 Tháng",
+        "detail": "Acc Plan Free , Gmail / Google Mail . Có mã giảm giá -50% cho 2 tháng gói Plus\nĐịnh dạng : Gmail | Pass | 2FA\n- Mạng dạng OTP 1 lần. Về tự bảo quản acc . Change acc + Add Passkey tránh tranh chấp sau này.\nHướng dẫn change acc  : https://t.me/khommo_thongbao/53\nƯu đãi theo số lượng:\n• Mua từ 10 sản phẩm: 17K/1 (giảm 15%)\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–26):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 26,
+            "cost_price": 20000,
+            "selling_price": 30000,
+            "updated": "17:18 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 20000,
+          "stock": 26
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13369,6 +13395,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793269121731",
+      "time": "17:18 - 29/10/2026",
+      "name": "ChatGPT Gmail Offer -50% 2 Tháng ( Plan Free )",
+      "bot": "khommo_market_bot",
+      "price": 30000,
+      "costPrice": 20000,
+      "stockAfter": 26,
+      "catKey": "chatgpt",
+      "msgKey": "🛍️ChatGPTGmailOffer-50%2Tháng(PlanFree)💲Giá:20.000VND💚Tồnkho:26tàikhoản📊Đãbán:6t"
+    },
+    {
       "id": "hist-1793269054045",
       "time": "17:17 - 29/10/2026",
       "name": "Link Gemini Pro 18 Tháng",
@@ -14456,17 +14493,6 @@
       "stockAfter": 3,
       "catKey": "khac",
       "msgKey": "🎬HIGGPlus600-700CRE1ThángBH3ngày💰Giá:650k📦Tồnkho:3tàikhoản📊Đãbán:102tàikhoản✏️Vu"
-    },
-    {
-      "id": "hist-1793253139276",
-      "time": "12:52 - 29/10/2026",
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 1811,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:1628📦Tồnkhohiệntại:878💰Giá:15.000đ"
     }
   ]
 }
