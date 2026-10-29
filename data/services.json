@@ -1784,16 +1784,16 @@
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
         "price": 330000,
-        "stock": 48,
-        "stock_text": "Còn 48",
+        "stock": 85,
+        "stock_text": "Còn 85",
         "duration": "1 Tháng",
         "detail": "- ChatGPT Plus 1 tháng BHF\n- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 13,
-            "cost_price": 200000,
-            "selling_price": 220000,
-            "updated": "23:19 28/10/2026"
+            "stock": 50,
+            "cost_price": 190000,
+            "selling_price": 210000,
+            "updated": "11:50 29/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 9,
@@ -1808,14 +1808,14 @@
             "updated": "21:54 28/10/2026"
           }
         },
-        "cost_price": 200000,
+        "cost_price": 190000,
         "needs_review": false,
         "hidden": false,
         "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 200000,
-          "stock": 13
+          "cost_price": 190000,
+          "stock": 50
         }
       },
       {
@@ -13040,6 +13040,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793249414685",
+      "time": "11:50 - 29/10/2026",
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "price": 210000,
+      "costPrice": 190000,
+      "stockAfter": 85,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:50📦Tồnkhohiệntại:50💰Giá:190.000đ"
+    },
+    {
       "id": "hist-1793248750508",
       "time": "11:39 - 29/10/2026",
       "name": "🔥VIP . Chatgpt Plus Apple Pay 1 tháng BHF",
@@ -14127,17 +14138,6 @@
       "stockAfter": 5,
       "catKey": "capcut",
       "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:185.000đ"
-    },
-    {
-      "id": "hist-1793234388571",
-      "time": "07:39 - 29/10/2026",
-      "name": "ChatGPT GOOGLEMAIL FREE Trial có offer 1 tháng - KBH",
-      "bot": "taphoathomap_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 812,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTGOOGLEMAILFREETrialcóoffer1tháng-KBH💰Giá:10k📦Tồnkho:812tàikhoản📊Đãbán:10"
     }
   ]
 }
