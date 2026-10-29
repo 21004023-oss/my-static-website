@@ -6303,13 +6303,13 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 27,
+        "stock_text": "Còn 27",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 15,
+            "stock": 27,
             "cost_price": 150000,
             "selling_price": 170000,
             "updated": "00:40 30/10/2026"
@@ -6318,7 +6318,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 15
+          "stock": 27
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -13868,6 +13868,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793295642940",
+      "time": "00:40 - 30/10/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 27,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:20📦Tồnkhohiệntại:27💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793295638529",
       "time": "00:40 - 30/10/2026",
       "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
@@ -14955,17 +14966,6 @@
       "stockAfter": 30,
       "catKey": "claude",
       "msgKey": "🧠APICLAUDEVIPHIGHSTABLE40MTOKEN1NGÀYBHF💰Giá:100k📦Tồnkho:30tàikhoản📊Đãbán:209tàik"
-    },
-    {
-      "id": "hist-1793293101321",
-      "time": "23:58 - 29/10/2026",
-      "name": "Tiktok Việt ngâm trên 1 Năm",
-      "bot": "piggyai99_bot",
-      "price": 95000,
-      "costPrice": 85000,
-      "stockAfter": 4,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokViệtngâmtrên1Năm➕Thêm:2📦Tồnkhohiệntại:2💰Giá:85.000đ"
     }
   ],
   "vidiq": {
