@@ -3833,22 +3833,24 @@
         "stock": 30,
         "stock_text": "Còn 30",
         "duration": "1 Ngày",
-        "detail": "💎 API Claude VIP High Stable — model trích xuất từ Cursor Ultra, dùng cho Claude Code và app hỗ trợ OpenAI/Anthropic.\n⚡ Có Fable tốc độ cao, có opus-5.5 ( nếu hết dùng model khác )\n🤖 Token ước tính: Fable 5M · Opus 5 10M · Sonnet 5 20M · Haiku 4.5 33M\n💠 Hỗ trợ thêm: Kimi K3 · GLM 5.2 · Grok 4.6, quy đổi tương đương Sonnet 5\n🛡️ Độ ổn định cao, không gián đoạn như bản Standard\n⏳ Hạn dùng: 24 giờ từ khi kích hoạt Key\n🔗 Hướng dẫn cài đặt và kích hoạt:\nhttps://daily.bddevlab.buzz/redeem.html\n🔗 Cách khắc phục lỗi :\nhttps://duc-dop-error-guide.pages.dev",
+        "detail": "💎 API Claude VIP High Stable — model trích xuất từ Cursor Ultra, dùng cho Claude Code và app hỗ trợ OpenAI/Anthropic.\n⚡ Có Fable tốc độ cao, có opus-5.5 ( nếu hết dùng model khác )\n🤖 Token ước tính: Fable 5M · Opus 5 10M · Sonnet 5 20M · Haiku 4.5 33M\n💠 Hỗ trợ thêm: Kimi K3 · GLM 5.2 · Grok 4.6, quy đổi tương đương Sonnet 5\n🛡️ Độ ổn định cao, không gián đoạn như bản Standard\n⏳ Hạn dùng: 24 giờ từ khi kích hoạt Key\n🔗 Hướng dẫn cài đặt và kích hoạt:\nhttps://daily.bddevlab.buzz/redeem.html\n🔗 Cách khắc phục lỗi :\nhttps://duc-dop-error-guide.pages.dev\n✏️",
         "sources": {
           "taphoathomap_bot": {
             "stock": 30,
             "cost_price": 70000,
-            "updated": "15:22 17/10/2026",
-            "selling_price": 80000
+            "selling_price": 80000,
+            "updated": "23:42 29/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 45000,
+        "cost_price": 70000,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 45000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 70000,
+          "stock": 30
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792273003906",
@@ -13699,6 +13701,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793292145822",
+      "time": "23:42 - 29/10/2026",
+      "name": "VIP 1.API 40M Token Claude 1 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 30,
+      "catKey": "claude",
+      "msgKey": "🧠VIP1.API40MTokenClaude1Ngày-BHF➕Thêm:20📦Tồnkhohiệntại:30💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793292135251",
       "time": "23:42 - 29/10/2026",
       "name": "VIP 1.API 15M Token Claude 1 Ngày - BHF",
@@ -14786,17 +14799,6 @@
       "stockAfter": 125,
       "catKey": "google-veo",
       "msgKey": "☁️🔥LinkGeminiPro18ThángKBH➕Thêm:100📦Tồnkhohiệntại:125💰Giá:43.000đ"
-    },
-    {
-      "id": "hist-1793280581694",
-      "time": "20:29 - 29/10/2026",
-      "name": "🔥 Link Gemini Pro 18 Tháng KBH",
-      "bot": "taphoathomap_bot",
-      "price": 53000,
-      "costPrice": 43000,
-      "stockAfter": 35,
-      "catKey": "google-veo",
-      "msgKey": "☁️🔥LinkGeminiPro18ThángKBH➕Thêm:6📦Tồnkhohiệntại:35💰Giá:43.000đ"
     }
   ],
   "vidiq": {
