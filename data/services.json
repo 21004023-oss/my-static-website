@@ -899,6 +899,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793299136460",
+        "name": "[Not Family] Youtube Premium Chính chủ 3 tháng BHF",
+        "price": 170000,
+        "cost_price": 150000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "3 Tháng",
+        "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân\n- Cần fake VPN US\n- Link redeem code: https://www.youtube.com/redeem\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 10,
+            "cost_price": 150000,
+            "selling_price": 170000,
+            "updated": "01:38 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 150000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13931,6 +13957,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793299136460",
+      "time": "01:38 - 30/10/2026",
+      "name": "[Not Family] Youtube Premium Chính chủ 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 10,
+      "catKey": "youtube",
+      "msgKey": "▶️[NotFamily]YoutubePremiumChínhchủ3thángBHF➕Thêm:2📦Tồnkhohiệntại:10💰Giá:150.000"
+    },
+    {
       "id": "hist-1793299051896",
       "time": "01:37 - 30/10/2026",
       "name": "ChatGPT Plus GGPay Gmail 1 Tháng BH 1D",
@@ -15018,17 +15055,6 @@
       "stockAfter": 61,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:30📦Tồnkhohiệntại:61💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793293382456",
-      "time": "00:03 - 30/10/2026",
-      "name": "Meitu Vip+ 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 45,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+1ThángBHF💰Giá:70k📦Tồnkho:18tàikhoản📊Đãbán:1.688tàikhoản💎Môtả:Mởkhóaful"
     }
   ],
   "vidiq": {
