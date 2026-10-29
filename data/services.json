@@ -647,11 +647,11 @@
       {
         "id": "p-1791941158182",
         "name": "CODE KÍCH HOẠT YOUTUBE PREMIUM 3 THÁNG BẢO HÀNH FULL",
-        "price": 99000,
+        "price": 109000,
         "cost_price": 89000,
         "duration": "3 Tháng",
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 21,
+        "stock_text": "Còn 21",
         "hidden": false,
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
@@ -659,13 +659,19 @@
           "stock": 11
         },
         "import_note": "Nhập: @ntnshopre_bot",
-        "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân\n- Cần fake VPN US\n- Link redeem code: https://www.youtube.com/redeem",
+        "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân\n- Cần fake VPN US\n- Link redeem code: https://www.youtube.com/redeem\n✏️",
         "sources": {
           "ntnshopre_bot": {
             "stock": 11,
             "cost_price": 89000,
             "selling_price": 99000,
             "updated": "23:36 29/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 10,
+            "cost_price": 99000,
+            "selling_price": 109000,
+            "updated": "01:39 30/10/2026"
           }
         },
         "needs_review": false
@@ -13957,6 +13963,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793299142577",
+      "time": "01:39 - 30/10/2026",
+      "name": "CODE KÍCH HOẠT YOUTUBE PREMIUM 3 THÁNG BẢO HÀNH FULL",
+      "bot": "taphoathomap_bot",
+      "price": 109000,
+      "costPrice": 99000,
+      "stockAfter": 21,
+      "catKey": "youtube",
+      "msgKey": "▶️CODEKÍCHHOẠTYOUTUBEPREMIUM3THÁNGBẢOHÀNHFULL➕Thêm:2📦Tồnkhohiệntại:10💰Giá:99.000"
+    },
+    {
       "id": "hist-1793299136460",
       "time": "01:38 - 30/10/2026",
       "name": "[Not Family] Youtube Premium Chính chủ 3 tháng BHF",
@@ -15044,17 +15061,6 @@
       "stockAfter": 69,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:13📦Tồnkhohiệntại:42💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793293387351",
-      "time": "00:03 - 30/10/2026",
-      "name": "Link Gemini Pro 18 Tháng",
-      "bot": "sieuthistore_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 61,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:30📦Tồnkhohiệntại:61💰Giá:60.000đ"
     }
   ],
   "vidiq": {
