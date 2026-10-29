@@ -5346,16 +5346,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 21,
-        "stock_text": "Còn 21",
+        "stock": 17,
+        "stock_text": "Còn 17",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 21,
+            "stock": 17,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "09:42 29/10/2026"
+            "updated": "11:23 29/10/2026"
           }
         },
         "hidden": false,
@@ -5363,7 +5363,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 21
+          "stock": 17
         },
         "needs_review": false
       },
@@ -13040,6 +13040,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793247780281",
+      "time": "11:23 - 29/10/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 17,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:17💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793247774403",
       "time": "11:22 - 29/10/2026",
       "name": "Grok Plus 30 ngày KBH",
@@ -14127,17 +14138,6 @@
       "stockAfter": 47,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1thángBH1h➕Thêm:3📦Tồnkhohiệntại:47💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793233508428",
-      "time": "07:25 - 29/10/2026",
-      "name": "Express VPN Random 2-3 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 17000,
-      "costPrice": 7000,
-      "stockAfter": 2,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:7.000đ"
     }
   ]
 }
