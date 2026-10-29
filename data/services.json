@@ -7597,22 +7597,22 @@
         "name": "Muse AI 31B Token KBH",
         "price": 90000,
         "cost_price": 80000,
-        "stock": 54,
-        "stock_text": "Còn 54",
+        "stock": 35,
+        "stock_text": "Còn 35",
         "duration": "1 Tháng",
         "detail": "-Token 31B\n-Định dạng: Mail | Link đọc code mail\n-Bảo hành: Login check acc ok = hoàn tất BH.\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 54,
+            "stock": 35,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "17:56 28/10/2026"
+            "updated": "01:28 30/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 80000,
-          "stock": 54
+          "stock": 35
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -13894,6 +13894,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793298526560",
+      "time": "01:28 - 30/10/2026",
+      "name": "Muse AI 31B Token KBH",
+      "bot": "piggyai99_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 35,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAI31BTokenKBH➕Thêm:55📦Tồnkhohiệntại:35💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1793298287624",
       "time": "01:24 - 30/10/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -14981,17 +14992,6 @@
       "stockAfter": 45,
       "catKey": "meitu",
       "msgKey": "✨MEITUVIP+1THÁNGBHF➕Thêm:18📦Tồnkhohiệntại:18💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1793293355322",
-      "time": "00:02 - 30/10/2026",
-      "name": "API CLAUDE VIP HIGH STABLE 40M TOKEN 1 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 30,
-      "catKey": "claude",
-      "msgKey": "🧠APICLAUDEVIPHIGHSTABLE40MTOKEN1NGÀYBHF💰Giá:100k📦Tồnkho:30tàikhoản📊Đãbán:209tàik"
     }
   ],
   "vidiq": {
