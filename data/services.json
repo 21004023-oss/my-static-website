@@ -9200,8 +9200,8 @@
         "id": "p-1791925999209",
         "name": "Meitu Vip+ 30D BHF",
         "price": 90000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 36,
+        "stock_text": "Còn 36",
         "duration": "1 Tháng",
         "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.\n✏️",
         "cost_price": 59000,
@@ -9209,14 +9209,14 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 59000,
-          "stock": 2
+          "stock": 18
         },
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 18,
             "cost_price": 59000,
             "selling_price": 69000,
-            "updated": "21:19 29/10/2026"
+            "updated": "23:45 29/10/2026"
           },
           "piggyai99_bot": {
             "stock": 18,
@@ -13712,6 +13712,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793292335587",
+      "time": "23:45 - 29/10/2026",
+      "name": "Meitu Vip+ 30D BHF",
+      "bot": "taphoathomap_bot",
+      "price": 69000,
+      "costPrice": 59000,
+      "stockAfter": 36,
+      "catKey": "meitu",
+      "msgKey": "✨MeituVip+30DBHF➕Thêm:18📦Tồnkhohiệntại:18💰Giá:59.000đ"
+    },
+    {
       "id": "hist-1793292303240",
       "time": "23:45 - 29/10/2026",
       "name": "Meitu Vip+ 1 Tháng BHF",
@@ -14799,17 +14810,6 @@
       "stockAfter": 10,
       "catKey": "claude",
       "msgKey": "🧠APIClaude50MToken1ngàyBHF💰Giá:45k📦Tồnkho:10tàikhoản📊Đãbán:85tàikhoản💎Môtả:-APIC"
-    },
-    {
-      "id": "hist-1793281374528",
-      "time": "20:42 - 29/10/2026",
-      "name": "API Claude 50M Token 1 ngày BHF",
-      "bot": "piggyai99_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 10,
-      "catKey": "claude",
-      "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:45.000đ"
     }
   ],
   "vidiq": {
