@@ -4837,6 +4837,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793245654872",
+        "name": "🔥 Link Gemini Pro 18 Tháng KBH",
+        "price": 50000,
+        "cost_price": 40000,
+        "stock": 106,
+        "stock_text": "Còn 106",
+        "duration": "1 Tháng",
+        "detail": "BH đến khi kết thúc ưu đãi\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 106,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "10:47 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 40000,
+          "stock": 106
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13002,6 +13028,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793245654872",
+      "time": "10:47 - 29/10/2026",
+      "name": "🔥 Link Gemini Pro 18 Tháng KBH",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 106,
+      "catKey": "google-veo",
+      "msgKey": "☁️🔥LinkGeminiPro18ThángKBH➕Thêm:90📦Tồnkhohiệntại:106💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1793245271760",
       "time": "10:41 - 29/10/2026",
       "name": "Muse Ai  1B Token KBH",
@@ -14089,17 +14126,6 @@
       "stockAfter": 6,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTTEAM6THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:290.000đ"
-    },
-    {
-      "id": "hist-1793228312224",
-      "time": "05:58 - 29/10/2026",
-      "name": "Capcut Pro Team 6 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 390000,
-      "costPrice": 340000,
-      "stockAfter": 2,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProTeam6ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:340.000đ"
     }
   ]
 }
