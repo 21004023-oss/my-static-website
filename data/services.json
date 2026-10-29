@@ -12119,6 +12119,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793266208821",
+        "name": "Discord Nitro 1M Token KBH",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 76,
+        "stock_text": "Còn 76",
+        "duration": "1 Tháng",
+        "detail": "- Định dạng: TK_MK_MAIL-MK_TOKEN 2FA\n- Token là dạng tài khoản Nitro Discord có sẵn 2 boost, thời hạn 27-31 Ngày\n- KHÔNG đăng nhập bằng TK MK  và  hãy đảm bảo bạn biết cách sử dụng token\n- Bảo hành login ( không có nitro )\n- Không bảo hành ( verify - reverify, không bảo hành các đợt quét của discord )\n- Nên sử dụng ngay sau khi mua để tránh quét\n⚠️ Lưu ý: Tài khoản FA sẽ log được mail và ngược lại, đối với tài khoản FA, khi log mail vui lòng FakeIP\n- Video hướng dẫn: https://youtu.be/gpkCnYDO47Y\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 76,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "16:30 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 35000,
+          "stock": 76
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13291,6 +13317,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793266208821",
+      "time": "16:30 - 29/10/2026",
+      "name": "Discord Nitro 1M Token KBH",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 76,
+      "catKey": "discord",
+      "msgKey": "⭐DiscordNitro1MTokenKBH💰Giá:35k📦Tồnkho:76tàikhoản📊Đãbán:4tàikhoản💎Môtả:-Địnhdạng"
+    },
+    {
       "id": "hist-1793266115894",
       "time": "16:28 - 29/10/2026",
       "name": "Higgfield GenJutsu 720p 1th BH 1h",
@@ -14378,17 +14415,6 @@
       "stockAfter": 85,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:50📦Tồnkhohiệntại:50💰Giá:190.000đ"
-    },
-    {
-      "id": "hist-1793248750508",
-      "time": "11:39 - 29/10/2026",
-      "name": "🔥VIP . Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 220000,
-      "costPrice": 200000,
-      "stockAfter": 57,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥VIP.ChatgptPlusApplePay1thángBHF➕Thêm:50📦Tồnkhohiệntại:57💰Giá:200.000đ"
     }
   ]
 }
