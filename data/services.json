@@ -7884,16 +7884,16 @@
         "name": "Admin Canva Pro Business 100 Slot 1 Tháng BHF",
         "price": 95000,
         "cost_price": 85000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "detail": "• Tài khoản Admin Canva Pro Business (Add tối đa 100 thành viên).\n• Thời hạn sử dụng: 1 tháng.\n• Bảo hành Fulltime (đôi khi có thể trôi date 1–2 ngày).\nĐịnh dạng nhận hàng:\n• Email | Lấy Code.\nHướng dẫn đăng nhập:\n• Đăng nhập bằng Email (không chọn Đăng nhập bằng Google hoặc tài khoản khác).\n• Lấy mã xác minh (OTP) tại: dongvanfb.net/read_mail_box/.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 1,
             "cost_price": 85000,
             "selling_price": 95000,
-            "updated": "11:28 29/10/2026"
+            "updated": "12:51 29/10/2026"
           }
         },
         "hidden": false,
@@ -7901,7 +7901,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 85000,
-          "stock": 2
+          "stock": 1
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -13159,6 +13159,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793253063774",
+      "time": "12:51 - 29/10/2026",
+      "name": "Admin Canva Pro Business 100 Slot 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 1,
+      "catKey": "canva",
+      "msgKey": "🎨AdminCanvaProBusiness100Slot1ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:85.000đ"
+    },
+    {
       "id": "hist-1793252843895",
       "time": "12:47 - 29/10/2026",
       "name": "🔥SALE . Chatgpt Plus  1 tháng BHF",
@@ -14246,17 +14257,6 @@
       "stockAfter": 30,
       "catKey": "nordvpn",
       "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:18💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1793239352786",
-      "time": "09:02 - 29/10/2026",
-      "name": "NordVPN 3 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 24,
-      "catKey": "nordvpn",
-      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:8📦Tồnkhohiệntại:12💰Giá:15.000đ"
     }
   ]
 }
