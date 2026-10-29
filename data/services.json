@@ -3458,6 +3458,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793281738695",
+        "name": "ChatGPT Pro 100$ - 1 tháng BH 3 Ngày",
+        "price": 1300000,
+        "cost_price": 1100000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản Chatgpt Pro 100$ đăng kí chính hãng - siêu trâu - bền bỉ - chất lượng\n-Thời hạn bảo hành 3 ngày\n- NOTE: đây là tài khoản trả phí chính hãng - k phải tài khoản trial free dùng thử nên độ bền là rất cao . Bảo hành gói mọi lỗi lầm từ acc cũng như từ nguồn , không bảo hành đối với các trường hợp khách lạm dụng bào , cắm tools bên thứ 3,... vi phạm chính sách Openai dẫn đến lỗi\n- Thời gian done hàng có thể lâu hơn 1 chút vì đây là hàng làm , không có sẵn , mong quý khách hoan hỉ !\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 6,
+            "cost_price": 1100000,
+            "selling_price": 1300000,
+            "updated": "20:48 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 1100000,
+          "stock": 6
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13525,6 +13551,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793281738695",
+      "time": "20:48 - 29/10/2026",
+      "name": "ChatGPT Pro 100$ - 1 tháng BH 3 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 1300000,
+      "costPrice": 1100000,
+      "stockAfter": 6,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPro100$-1thángBH3Ngày➕Thêm:5📦Tồnkhohiệntại:6💰Giá:1.100.000đ"
+    },
+    {
       "id": "hist-1793281479437",
       "time": "20:44 - 29/10/2026",
       "name": "🔥 LINK GEMINI AI PRO 18 Tháng BH 24H",
@@ -14612,17 +14649,6 @@
       "stockAfter": 14,
       "catKey": "muse-ai",
       "msgKey": "⭐MUSE.AI-31TỶTOKEN(KBH)➕Thêm:10📦Tồnkhohiệntại:14💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793269997120",
-      "time": "17:33 - 29/10/2026",
-      "name": "Kling Stand random 800-1000 credit 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 8,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandrandom800-1000credit1THBH1ngày💰Giá:115k📦Tồnkho:4tàikhoản📊Đãbán:48tàik"
     }
   ]
 }
