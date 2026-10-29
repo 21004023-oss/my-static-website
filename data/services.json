@@ -6324,22 +6324,22 @@
         "name": "Elevenlabs Creator 131k Credit 30D (BH 2D)",
         "price": 180000,
         "cost_price": 160000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
-        "detail": "📝 Mô tả: ElevenLabs Creator gói 1 tháng. Có 131K credit chính hãng\nSử dụng code ElevenLabs tỉ lệ rớt gói là 0%\n📋 Định dạng: Mail|Pass|Pass Mail\n(Tài khoản đã được kiểm tra kĩ càng, khách tự bảo quản sau khi mua)\n📝 Đăng nhập vào là sử dụng được ngay!",
+        "detail": "📝 Mô tả: ElevenLabs Creator gói 1 tháng. Có 131K credit chính hãng\nSử dụng code ElevenLabs tỉ lệ rớt gói là 0%\n📋 Định dạng: Mail|Pass|Pass Mail\n(Tài khoản đã được kiểm tra kĩ càng, khách tự bảo quản sau khi mua)\n📝 Đăng nhập vào là sử dụng được ngay!\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 0,
+            "stock": 2,
             "cost_price": 160000,
             "selling_price": 180000,
-            "updated": "17:02 29/10/2026"
+            "updated": "18:17 29/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 160000,
-          "stock": 0
+          "stock": 2
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -13427,6 +13427,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793272662463",
+      "time": "18:17 - 29/10/2026",
+      "name": "Elevenlabs Creator 131k Credit 30D (BH 2D)",
+      "bot": "piggyai99_bot",
+      "price": 180000,
+      "costPrice": 160000,
+      "stockAfter": 2,
+      "catKey": "elevenlabs",
+      "msgKey": "🎙️ElevenlabsCreator131kCredit30D(BH2D)➕Thêm:2📦Tồnkhohiệntại:2💰Giá:160.000đ"
+    },
+    {
       "id": "hist-1793271920229",
       "time": "18:05 - 29/10/2026",
       "name": "Slot Youtube Premium 3 Tháng BHF",
@@ -14514,17 +14525,6 @@
       "stockAfter": 14,
       "catKey": "surfshark",
       "msgKey": "🦈SurfSharkVPNAndroi/PC/IOS7ngàyBHF💰Giá:15k📦Tồnkho:7tàikhoản📊Đãbán:177tàikhoản💎Mô"
-    },
-    {
-      "id": "hist-1793256531697",
-      "time": "13:48 - 29/10/2026",
-      "name": "SurfShark VPN Androi/PC/IOS 7 ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 14,
-      "catKey": "surfshark",
-      "msgKey": "🦈SurfSharkVPNAndroi/PC/IOS7ngàyBHF➕Thêm:6📦Tồnkhohiệntại:7💰Giá:15.000đ"
     }
   ]
 }
