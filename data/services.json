@@ -5491,13 +5491,13 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 29,
-        "stock_text": "Còn 29",
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 29,
+            "stock": 15,
             "cost_price": 140000,
             "selling_price": 160000,
             "updated": "19:39 29/10/2026"
@@ -5508,7 +5508,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 29
+          "stock": 15
         },
         "needs_review": false
       },
@@ -13522,6 +13522,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793277594137",
+      "time": "19:39 - 29/10/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 15,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin💰Giá:140k📦Tồnkho:15tàikhoản📊Đãbán:328tàikhoản💎Môtả:Mail|Pa"
+    },
+    {
       "id": "hist-1793277589349",
       "time": "19:39 - 29/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -14609,17 +14620,6 @@
       "stockAfter": 61,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:2📦Tồnkhohiệntại:61💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793267095636",
-      "time": "16:44 - 29/10/2026",
-      "name": "🔥 Link Gemini Pro 18 Tháng KBH",
-      "bot": "taphoathomap_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 61,
-      "catKey": "google-veo",
-      "msgKey": "☁️🔥LinkGeminiPro18ThángKBH➕Thêm:2📦Tồnkhohiệntại:61💰Giá:40.000đ"
     }
   ]
 }
