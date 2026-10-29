@@ -13155,10 +13155,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793255494115",
+        "name": "Acc Kiro Dev Power 200$ 1 tháng ( BHF )",
+        "price": 3750000,
+        "cost_price": 3400000,
+        "stock": 13,
+        "stock_text": "Còn 13",
+        "duration": "1 Tháng",
+        "detail": "Acc Kiro Dev Power 200$. Kiro là một công cụ lập trình bằng AI (giống Cursor), bạn mô tả muốn làm gì, AI tự viết và sửa code. Có đủ các model hiện nay của Claude (Opus 5.5, sonet 5.5,..., hiện chưa mở Fable 5.1). Acc có 10.000 credit tương đương khoảng 850M-1B token full opus 5.5\nBảo hành full gói thời gian sử dụng. Ko bảo hành do người dùng vi phạm policys\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 13,
+            "cost_price": 3400000,
+            "selling_price": 3750000,
+            "updated": "13:31 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 3400000,
+          "stock": 13
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793255494115",
+      "time": "13:31 - 29/10/2026",
+      "name": "Acc Kiro Dev Power 200$ 1 tháng ( BHF )",
+      "bot": "piggyai99_bot",
+      "price": 3750000,
+      "costPrice": 3400000,
+      "stockAfter": 13,
+      "catKey": "khac",
+      "msgKey": "⭐AccKiroDevPower200$1tháng(BHF)➕Thêm:3📦Tồnkhohiệntại:13💰Giá:3.400.000đ"
+    },
     {
       "id": "hist-1793254107577",
       "time": "13:08 - 29/10/2026",
@@ -14247,17 +14284,6 @@
       "stockAfter": 296,
       "catKey": "gmail",
       "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:3📦Tồnkhohiệntại:97💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793241562408",
-      "time": "09:39 - 29/10/2026",
-      "name": "Gmail Random 200X~2023 Có 2FA",
-      "bot": "piggyai99_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 301,
-      "catKey": "gmail",
-      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:3📦Tồnkhohiệntại:97💰Giá:35.000đ"
     }
   ]
 }
