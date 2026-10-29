@@ -10441,15 +10441,15 @@
         "id": "p-1791865941592",
         "name": "Microsoft 365 cá nhân 1 năm BH 3 tháng",
         "price": 60000,
-        "stock": 32,
-        "stock_text": "Còn 32",
+        "stock": 44,
+        "stock_text": "Còn 44",
         "duration": "1 Năm",
         "detail": "🔥 Tài khoản cấp sẵn. Tự động cập nhật mật khẩu khi lần đầu đăng nhập. Microsoft 365 dùng  được 5 thiết bị - 1 năm. Tải và đăng nhập vào ứng dụng M365 để sử dụng.\n✏️",
         "cost_price": 40000,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 40000,
-          "stock": 10
+          "stock": 22
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "sources": {
@@ -10460,10 +10460,10 @@
             "updated": "14:32 29/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 22,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "18:19 28/10/2026"
+            "updated": "14:32 29/10/2026"
           }
         },
         "hidden": false,
@@ -13265,6 +13265,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793259141093",
+      "time": "14:32 - 29/10/2026",
+      "name": "Microsoft 365 cá nhân 1 năm BH 3 tháng",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 44,
+      "catKey": "microsoft",
+      "msgKey": "⭐Microsoft365cánhân1nămBH3tháng➕Thêm:20📦Tồnkhohiệntại:22💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1793259134472",
       "time": "14:32 - 29/10/2026",
       "name": "Microsoft 365 cá nhân 1 Năm BH 3 tháng",
@@ -14352,17 +14363,6 @@
       "stockAfter": 55,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:20📦Tồnkhohiệntại:21💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1793246499138",
-      "time": "11:01 - 29/10/2026",
-      "name": "CAPCUT TEAM 6 THÁNG  BHF",
-      "bot": "ntnshopre_bot",
-      "price": 320000,
-      "costPrice": 290000,
-      "stockAfter": 9,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTTEAM6THÁNGBHF➕Thêm:3📦Tồnkhohiệntại:5💰Giá:290.000đ"
     }
   ]
 }
