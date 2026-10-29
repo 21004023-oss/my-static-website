@@ -13707,10 +13707,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793293018019",
+        "name": "Hotspot Shield VPN Random 5-7 Ngày BHF",
+        "price": 25000,
+        "cost_price": 15000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "7 Ngày",
+        "detail": "Gói Hotspot Shield VPN Random 5-7 Ngày BHF bảo hành uy tín.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 2,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "23:56 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 15000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793293018019",
+      "time": "23:56 - 29/10/2026",
+      "name": "Hotspot Shield VPN Random 5-7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "msgKey": "⭐HotspotShieldVPNRandom5-7NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:15.000đ"
+    },
     {
       "id": "hist-1793293013372",
       "time": "23:56 - 29/10/2026",
@@ -14799,17 +14836,6 @@
       "stockAfter": 5,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProTeam6ThángBHF💰Giá:340k📦Tồnkho:5tàikhoản📊Đãbán:413tàikhoản💎Môtả:CAPCUT"
-    },
-    {
-      "id": "hist-1793282209756",
-      "time": "20:56 - 29/10/2026",
-      "name": "Capcut Pro Team 6 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 390000,
-      "costPrice": 340000,
-      "stockAfter": 5,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProTeam6ThángBHF➕Thêm:6📦Tồnkhohiệntại:5💰Giá:340.000đ"
     }
   ],
   "vidiq": {
