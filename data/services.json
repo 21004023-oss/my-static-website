@@ -3328,6 +3328,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793234383797",
+        "name": "ChatGPT GOOGLEMAIL FREE Trial có offer 1 tháng - KBH",
+        "price": 20000,
+        "cost_price": 10000,
+        "stock": 812,
+        "stock_text": "Còn 812",
+        "duration": "1 Tháng",
+        "detail": "Gói ChatGPT GOOGLEMAIL FREE Trial có offer 1 tháng - KBH bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 812,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "07:39 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 10000,
+          "stock": 812
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -12791,6 +12817,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793234383797",
+      "time": "07:39 - 29/10/2026",
+      "name": "ChatGPT GOOGLEMAIL FREE Trial có offer 1 tháng - KBH",
+      "bot": "taphoathomap_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 812,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGOOGLEMAILFREETrialcóoffer1tháng-KBH➕Thêm:20📦Tồnkhohiệntại:812💰Giá:10.00"
+    },
+    {
       "id": "hist-1793234378741",
       "time": "07:39 - 29/10/2026",
       "name": "ChatGPT Offer Trial Plus 1 tháng (Chưa Pay)",
@@ -13878,17 +13915,6 @@
       "stockAfter": 10,
       "catKey": "nordvpn",
       "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793218668359",
-      "time": "03:17 - 29/10/2026",
-      "name": "NordVPN 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 10,
-      "catKey": "nordvpn",
-      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:25.000đ"
     }
   ]
 }
