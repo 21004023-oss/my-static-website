@@ -9856,16 +9856,16 @@
         "id": "p-1792261855714",
         "name": "Proton VPN 14-28 Ngày BHF",
         "price": 65000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
-        "detail": "- Tài khoản Proton VPN 14 Ngày (iOS, Android, PC) 10 Thiết bị BHF 14 ngày\n- Định dạng: Email:Pass\n✏️",
+        "detail": "- Tài khoản Proton VPN 14 Ngày (iOS, Android, PC) 10 Thiết bị BHF 14 ngày\n- Định dạng: Email:Pass",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 0,
             "cost_price": 55000,
             "selling_price": 65000,
-            "updated": "11:53 29/10/2026"
+            "updated": "12:17 29/10/2026"
           }
         },
         "hidden": false,
@@ -9875,7 +9875,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 55000,
-          "stock": 2
+          "stock": 0
         }
       }
     ]
@@ -13066,6 +13066,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793251025764",
+      "time": "12:17 - 29/10/2026",
+      "name": "Proton VPN 14-28 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 0,
+      "catKey": "protonvpn",
+      "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:3📦Tồnkhohiệntại:0💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793251018238",
       "time": "12:16 - 29/10/2026",
       "name": "🔥 Link Gemini Pro 18 Tháng KBH",
@@ -14153,17 +14164,6 @@
       "stockAfter": 64,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggfieldGenJutsu720p1thBH1h➕Thêm:9📦Tồnkhohiệntại:64💰Giá:29.000đ"
-    },
-    {
-      "id": "hist-1793237744129",
-      "time": "08:35 - 29/10/2026",
-      "name": "Higgsfield Genjutsu tạo được 1 Video 30s 720p",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 64,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsutạođược1Video30s720p➕Thêm:9📦Tồnkhohiệntại:64💰Giá:35.000đ"
     }
   ]
 }
