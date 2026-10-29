@@ -3668,25 +3668,25 @@
         "id": "p-1791898418611",
         "name": "API Claude 50M Token 1 ngày BHF",
         "price": 65000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Ngày",
         "detail": "-API Claude 50M-Hàng anthropic\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Base Url : https://api.opusapi.store/\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-File hướng dẫn sử dụng và thiết lập:\n+ENGLISH: https://docs.google.com/document/d/1-r0i4qkHToW3exdkJfUAzin78s_bRbYb4nnvchhvtjg/edit?usp=sharing\n+VIETNAM: https://docs.google.com/document/d/1rBLXYdzTHL5mvm6c8d4QN2c7qWh8Cjj8sgEEf-_Wzug/edit?usp=sharing\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 3,
-            "cost_price": 55000,
-            "selling_price": 65000,
-            "updated": "13:00 28/10/2026"
+            "stock": 10,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "19:26 29/10/2026"
           }
         },
-        "cost_price": 55000,
+        "cost_price": 45000,
         "needs_review": false,
         "hidden": false,
         "cheapest_source": {
           "bot": "@piggyai99_bot",
-          "cost_price": 55000,
-          "stock": 3
+          "cost_price": 45000,
+          "stock": 10
         },
         "import_note": "Nhập: @piggyai99_bot"
       },
@@ -13522,6 +13522,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793276812005",
+      "time": "19:26 - 29/10/2026",
+      "name": "API Claude 50M Token 1 ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 10,
+      "catKey": "claude",
+      "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793276728777",
       "time": "19:25 - 29/10/2026",
       "name": "Pitpit AI 8k6 Credit 1 Tháng BH 3 ngày",
@@ -14609,17 +14620,6 @@
       "stockAfter": 69,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsutạođược1Video30s720p💰Giá:35k📦Tồnkho:69tàikhoản📊Đãbán:580tàikh"
-    },
-    {
-      "id": "hist-1793266099908",
-      "time": "16:28 - 29/10/2026",
-      "name": "Higgfield GenJutsu 720p 1th BH 1h",
-      "bot": "taphoathomap_bot",
-      "price": 39000,
-      "costPrice": 29000,
-      "stockAfter": 197,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggfieldGenJutsu720p1thBH1h➕Thêm:105📦Tồnkhohiệntại:197💰Giá:29.000đ"
     }
   ]
 }
