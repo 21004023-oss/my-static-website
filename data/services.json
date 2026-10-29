@@ -5574,17 +5574,28 @@
         "id": "kling-65cre",
         "name": "Kling 65 Cre 1 Tháng BHF",
         "price": 28000,
-        "stock": 115,
-        "stock_text": "Còn 115",
+        "stock": 164,
+        "stock_text": "Còn 164",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
-        "detail": "- Định dạng: TK|MK.\n- Tài khoản sẽ mất credit sau một thời gian và nên sử dụng ngay.\n- Bật tab ẩn danh hoặc xài Proxy (trên PC mỗi Profile là 1 acc Kling để làm song song nhiều video).\n- Không bảo hành lỗi Busy.",
-        "cost_price": 3000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "detail": "Acc free được tặng credit\n✏️",
+        "cost_price": 2000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 3000
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 2000,
+          "stock": 164
+        },
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 164,
+            "cost_price": 2000,
+            "selling_price": 12000,
+            "updated": "19:02 29/10/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "kling-700cre",
@@ -13453,6 +13464,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793275338168",
+      "time": "19:02 - 29/10/2026",
+      "name": "Kling 65 Cre 1th BHF",
+      "bot": "taphoathomap_bot",
+      "price": 12000,
+      "costPrice": 2000,
+      "stockAfter": 164,
+      "catKey": "kling",
+      "msgKey": "🎬Kling65Cre1thBHF➕Thêm:50📦Tồnkhohiệntại:164💰Giá:2.000đ"
+    },
+    {
       "id": "hist-1793275333005",
       "time": "19:02 - 29/10/2026",
       "name": "Kling 65 Credit 1 Tháng BHF",
@@ -14540,17 +14562,6 @@
       "stockAfter": 38,
       "catKey": "chatgpt",
       "msgKey": "🤖TàikhoảnChatGPTdùngchung1thángBHF➕Thêm:3📦Tồnkhohiệntại:38💰Giá:119.000đ"
-    },
-    {
-      "id": "hist-1793258641404",
-      "time": "14:24 - 29/10/2026",
-      "name": "Tài khoản ChatGPT Business dùng chung 1TH BHF",
-      "bot": "piggyai99_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 38,
-      "catKey": "chatgpt",
-      "msgKey": "🤖TàikhoảnChatGPTBusinessdùngchung1THBHF➕Thêm:3📦Tồnkhohiệntại:38💰Giá:130.000đ"
     }
   ]
 }
