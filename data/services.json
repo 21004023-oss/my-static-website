@@ -4700,9 +4700,9 @@
         "id": "p-1793180345574",
         "name": "🔥 Link Gemini Pro 18 Tháng BH 12H",
         "price": 65000,
-        "cost_price": 55000,
-        "stock": 70,
-        "stock_text": "Còn 70",
+        "cost_price": 26000,
+        "stock": 219,
+        "stock_text": "Còn 219",
         "duration": "1 Tháng",
         "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.\n✏️",
         "sources": {
@@ -4713,18 +4713,18 @@
             "updated": "21:45 28/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 0,
-            "cost_price": 20000,
-            "selling_price": 30000,
-            "updated": "05:09 29/10/2026"
+            "stock": 149,
+            "cost_price": 26000,
+            "selling_price": 36000,
+            "updated": "08:46 29/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 55000,
-          "stock": 70
+          "bot": "@taphoathomap_bot",
+          "cost_price": 26000,
+          "stock": 149
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -12888,6 +12888,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793238385231",
+      "time": "08:46 - 29/10/2026",
+      "name": "🔥 Link Gemini Pro 18 Tháng BH 12H",
+      "bot": "taphoathomap_bot",
+      "price": 36000,
+      "costPrice": 26000,
+      "stockAfter": 219,
+      "catKey": "google-veo",
+      "msgKey": "☁️🔥LinkGeminiPro18ThángBH12H➕Thêm:150📦Tồnkhohiệntại:149💰Giá:26.000đ"
+    },
+    {
       "id": "hist-1793238086560",
       "time": "08:41 - 29/10/2026",
       "name": "Muse Ai  1B Token KBH",
@@ -13975,17 +13986,6 @@
       "stockAfter": 222,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:40📦Tồnkhohiệntại:79💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793221849166",
-      "time": "04:10 - 29/10/2026",
-      "name": "Gmail random new",
-      "bot": "sieuthistore_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 40,
-      "catKey": "gmail",
-      "msgKey": "📧Gmailrandomnew➕Thêm:7📦Tồnkhohiệntại:29💰Giá:25.000đ"
     }
   ]
 }
