@@ -7816,26 +7816,27 @@
         "id": "p-1792438548398",
         "name": "Admin Canva Pro Business 100 Slot 1 Tháng BHF",
         "price": 95000,
-        "cost_price": 9900,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "cost_price": 85000,
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
-        "detail": "• Tài khoản Admin Canva Pro Business (Add tối đa 100 thành viên).\n• Thời hạn sử dụng: 1 tháng.\n• Bảo hành Fulltime (đôi khi có thể trôi date 1–2 ngày).\nĐịnh dạng nhận hàng:\n• Email | Lấy Code.\nHướng dẫn đăng nhập:\n• Đăng nhập bằng Email (không chọn Đăng nhập bằng Google hoặc tài khoản khác).\n• Lấy mã xác minh (OTP) tại: dongvanfb.net/read_mail_box/.",
+        "detail": "• Tài khoản Admin Canva Pro Business (Add tối đa 100 thành viên).\n• Thời hạn sử dụng: 1 tháng.\n• Bảo hành Fulltime (đôi khi có thể trôi date 1–2 ngày).\nĐịnh dạng nhận hàng:\n• Email | Lấy Code.\nHướng dẫn đăng nhập:\n• Đăng nhập bằng Email (không chọn Đăng nhập bằng Google hoặc tài khoản khác).\n• Lấy mã xác minh (OTP) tại: dongvanfb.net/read_mail_box/.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 1,
             "cost_price": 85000,
             "selling_price": 95000,
-            "updated": "17:14 20/10/2026"
+            "updated": "10:59 29/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 9900
+          "bot": "@sieuthistore_bot",
+          "cost_price": 85000,
+          "stock": 1
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @sieuthistore_bot"
       },
       {
         "id": "p-1793222733209",
@@ -13039,6 +13040,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793246357235",
+      "time": "10:59 - 29/10/2026",
+      "name": "Admin Canva Pro Business 100 Slot 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 1,
+      "catKey": "canva",
+      "msgKey": "🎨AdminCanvaProBusiness100Slot1ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:85.000đ"
+    },
+    {
       "id": "hist-1793246286574",
       "time": "10:58 - 29/10/2026",
       "name": "ACC CHAT GPT BUSINESS 30 D (BH 1D)",
@@ -14126,17 +14138,6 @@
       "stockAfter": 72,
       "catKey": "google-veo",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:4📦Tồnkhohiệntại:0💰Giá:22.000đ"
-    },
-    {
-      "id": "hist-1793229148080",
-      "time": "06:12 - 29/10/2026",
-      "name": "LINK GEMINI PRO + GOOGLEONE 5TB 18 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 30000,
-      "costPrice": 20000,
-      "stockAfter": 0,
-      "catKey": "google-veo",
-      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:4📦Tồnkhohiệntại:0💰Giá:20.000đ"
     }
   ]
 }
