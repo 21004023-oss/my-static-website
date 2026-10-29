@@ -6151,6 +6151,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793275333005",
+        "name": "Kling 65 Credit 1 Tháng BHF",
+        "price": 14000,
+        "cost_price": 4000,
+        "stock": 164,
+        "stock_text": "Còn 164",
+        "duration": "1 Tháng",
+        "detail": "Tài Khoản sẽ mất credit sau một thời gian và nên sử dụng ngay\nLưu Ý Quan Trọng:\n❌  Bật tab ẩn danh hoặc Sài Proxy\n❌ Không bảo hành lỗi Busy\nHướng dẩn sử dụng\nĐịnh dạng: TK|MK phân cách bởi dấu \"|\"\n1. Trên máy tính :\nMỗi Profile là một acc Kling ai, làm Song Song nhiều video cùng lúc\n2. Trên điện thoại :\nLogin Tài khoản vào > Sử dụng hết Credit > Tắt bỏ tab đó >",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 164,
+            "cost_price": 4000,
+            "selling_price": 14000,
+            "updated": "19:02 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 4000,
+          "stock": 164
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13427,6 +13453,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793275333005",
+      "time": "19:02 - 29/10/2026",
+      "name": "Kling 65 Credit 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 14000,
+      "costPrice": 4000,
+      "stockAfter": 164,
+      "catKey": "kling",
+      "msgKey": "🎬Kling65Credit1ThángBHF➕Thêm:50📦Tồnkhohiệntại:164💰Giá:4.000đ"
+    },
+    {
       "id": "hist-1793275065782",
       "time": "18:57 - 29/10/2026",
       "name": "Muse Ai  1B Token KBH",
@@ -14514,17 +14551,6 @@
       "stockAfter": 38,
       "catKey": "chatgpt",
       "msgKey": "🤖TàikhoảnChatGPTBusinessdùngchung1THBHF➕Thêm:3📦Tồnkhohiệntại:38💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1793258496248",
-      "time": "14:21 - 29/10/2026",
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 6H",
-      "bot": "ntnshopre_bot",
-      "price": 95000,
-      "costPrice": 85000,
-      "stockAfter": 56,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH6H➕Thêm:22📦Tồnkhohiệntại:26💰Giá:85.000đ"
     }
   ]
 }
