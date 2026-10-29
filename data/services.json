@@ -6256,6 +6256,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793291825036",
+        "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+        "price": 170000,
+        "cost_price": 150000,
+        "stock": 12,
+        "stock_text": "Còn 12",
+        "duration": "1 Tháng",
+        "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 12,
+            "cost_price": 150000,
+            "selling_price": 170000,
+            "updated": "23:37 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 150000,
+          "stock": 12
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13645,6 +13671,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793291825036",
+      "time": "23:37 - 29/10/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 12,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:12📦Tồnkhohiệntại:12💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793291820333",
       "time": "23:37 - 29/10/2026",
       "name": "Gmail Cổ Random 2010~2022",
@@ -14732,17 +14769,6 @@
       "stockAfter": 60,
       "catKey": "suno",
       "msgKey": "🎵SunoPro1THBH1ngày➕Thêm:20📦Tồnkhohiệntại:20💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1793280514278",
-      "time": "20:28 - 29/10/2026",
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "piggyai99_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 1446,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:307📦Tồnkhohiệntại:834💰Giá:30.000đ"
     }
   ],
   "vidiq": {
