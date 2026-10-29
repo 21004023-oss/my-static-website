@@ -11427,16 +11427,16 @@
         "id": "p-1792119419529",
         "name": "GMAIL US CỔ DATE 201X-202X 2FA",
         "price": 60000,
-        "stock": 444,
-        "stock_text": "Còn 444",
+        "stock": 486,
+        "stock_text": "Còn 486",
         "duration": "1 Tháng",
         "detail": "- Định dạng: Mail | Pass | Mail khôi phục | 2fa\n- Bảo hành LOGIN trong 24h, LOGIN xong hết BẢO HÀNH\n- GMAIL US CỔ DATE 201X TRIAL CÓ 2FA\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 148,
+            "stock": 190,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "22:22 28/10/2026"
+            "updated": "21:26 29/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 148,
@@ -11457,7 +11457,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 45000,
-          "stock": 148
+          "stock": 190
         },
         "import_note": "Nhập: @ntnshopre_bot"
       },
@@ -13583,6 +13583,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793283960561",
+      "time": "21:26 - 29/10/2026",
+      "name": "GMAIL US CỔ DATE 201X-202X 2FA",
+      "bot": "ntnshopre_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 486,
+      "catKey": "gmail",
+      "msgKey": "📧GMAILUSCỔDATE201X-202X2FA➕Thêm:100📦Tồnkhohiệntại:190💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793283869212",
       "time": "21:24 - 29/10/2026",
       "name": "Vidiq 1 tháng BH 20D",
@@ -14670,17 +14681,6 @@
       "stockAfter": 47,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:15📦Tồnkhohiệntại:27💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1793274304703",
-      "time": "18:45 - 29/10/2026",
-      "name": "🔥VIP . Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 220000,
-      "costPrice": 200000,
-      "stockAfter": 29,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥VIP.ChatgptPlusApplePay1thángBHF➕Thêm:29📦Tồnkhohiệntại:29💰Giá:200.000đ"
     }
   ],
   "vidiq": {
