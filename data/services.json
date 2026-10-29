@@ -5485,8 +5485,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 31,
-        "stock_text": "Còn 31",
+        "stock": 29,
+        "stock_text": "Còn 29",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -5497,10 +5497,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 29,
+            "stock": 27,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "19:39 29/10/2026"
+            "updated": "20:59 29/10/2026"
           }
         },
         "hidden": false,
@@ -5509,7 +5509,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 29
+          "stock": 27
         }
       },
       {
@@ -13551,6 +13551,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793282370346",
+      "time": "20:59 - 29/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 29,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:20📦Tồnkhohiệntại:27💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793282353684",
       "time": "20:59 - 29/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -14638,17 +14649,6 @@
       "stockAfter": 103,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:50📦Tồnkhohiệntại:103💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793271152848",
-      "time": "17:52 - 29/10/2026",
-      "name": "LINK GEMINI PRO + GOOGLE ONE 5TB 18 THÁNG BẢO HÀNH ACTIVE",
-      "bot": "ntnshopre_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 71,
-      "catKey": "google-veo",
-      "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNHACTIVE➕Thêm:50📦Tồnkhohiệntại:71💰Giá:50"
     }
   ]
 }
