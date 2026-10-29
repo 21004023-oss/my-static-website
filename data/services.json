@@ -5044,24 +5044,30 @@
         "name": "Lovable Pro 20 Ngày (Bảo Hành 10 Ngày)",
         "price": 180000,
         "original_price": 600000,
-        "cost_price": 100000,
-        "stock": 12,
-        "stock_text": "Còn 12",
-        "duration": "20 Ngày",
-        "detail": "Công cụ AI lập trình web full-stack số 1 hiện nay (Lovable.dev), tạo web app hoàn chỉnh trong vài phút.",
+        "cost_price": 70000,
+        "stock": 29,
+        "stock_text": "Còn 29",
+        "duration": "1 Tháng",
+        "detail": "Radom date 25 - 30 day\nLovable Pro có 110 credit, mỗi ngày cộng thêm 5 credit\n✏️",
         "sources": {
           "ntnshopre_bot": {
             "cost_price": 100000,
             "selling_price": 180000,
             "stock": 12
+          },
+          "taphoathomap_bot": {
+            "stock": 17,
+            "cost_price": 70000,
+            "selling_price": 80000,
+            "updated": "10:25 29/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 100000,
-          "stock": 12
+          "bot": "@taphoathomap_bot",
+          "cost_price": 70000,
+          "stock": 17
         },
-        "import_note": "Nhập: @ntnshopre_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -12938,6 +12944,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793244342878",
+      "time": "10:25 - 29/10/2026",
+      "name": "Lovable Pro 30D BH 10D",
+      "bot": "taphoathomap_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 29,
+      "catKey": "lovable",
+      "msgKey": "⭐LovablePro30DBH10D➕Thêm:1📦Tồnkhohiệntại:17💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793244304872",
       "time": "10:25 - 29/10/2026",
       "name": "GMAIL TRIAL RANDOM DATE 201X",
@@ -14025,17 +14042,6 @@
       "stockAfter": 36,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPN1ThángBHF➕Thêm:1📦Tồnkhohiệntại:9💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1793228066736",
-      "time": "05:54 - 29/10/2026",
-      "name": "🔥Capcut Pro 6 Tháng - BHF",
-      "bot": "piggyai99_bot",
-      "price": 360000,
-      "costPrice": 310000,
-      "stockAfter": 9,
-      "catKey": "capcut",
-      "msgKey": "✂️🔥CapcutPro6Tháng-BHF➕Thêm:2📦Tồnkhohiệntại:0💰Giá:310.000đ"
     }
   ]
 }
