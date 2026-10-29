@@ -650,15 +650,25 @@
         "price": 99000,
         "cost_price": 89000,
         "duration": "3 Tháng",
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 11,
+        "stock_text": "Còn 11",
         "hidden": false,
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 89000
+          "cost_price": 89000,
+          "stock": 11
         },
-        "import_note": "🛒 @ntnshopre_bot",
-        "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân\n- Cần fake VPN US\n- Link redeem code: https://www.youtube.com/redeem"
+        "import_note": "Nhập: @ntnshopre_bot",
+        "detail": "- Code kích hoạt YTB Premium 3 tháng gói cá nhân\n- Cần fake VPN US\n- Link redeem code: https://www.youtube.com/redeem",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 11,
+            "cost_price": 89000,
+            "selling_price": 99000,
+            "updated": "23:36 29/10/2026"
+          }
+        },
+        "needs_review": false
       },
       {
         "id": "vidiq-boost-1m",
@@ -13635,6 +13645,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793291804548",
+      "time": "23:36 - 29/10/2026",
+      "name": "CODE KÍCH HOẠT YOUTUBE PREMIUM 3 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "price": 99000,
+      "costPrice": 89000,
+      "stockAfter": 11,
+      "catKey": "youtube",
+      "msgKey": "▶️CODEKÍCHHOẠTYOUTUBEPREMIUM3THÁNGBẢOHÀNHFULL➕Thêm:2📦Tồnkhohiệntại:11💰Giá:89.000"
+    },
+    {
       "id": "hist-1793291800276",
       "time": "23:36 - 29/10/2026",
       "name": "Tiktok Việt ngâm trên 1 Năm",
@@ -14722,17 +14743,6 @@
       "stockAfter": 76,
       "catKey": "google-veo",
       "msgKey": "☁️🔥LINKGEMINIAIPRO18ThángBH24H➕Thêm:5📦Tồnkhohiệntại:4💰Giá:46.000đ"
-    },
-    {
-      "id": "hist-1793278560908",
-      "time": "19:56 - 29/10/2026",
-      "name": "Key Windows 10/11 Pro Retail Online Vĩnh viễn BH 7 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 99000,
-      "costPrice": 89000,
-      "stockAfter": 30,
-      "catKey": "microsoft",
-      "msgKey": "⭐KeyWindows10/11ProRetailOnlineVĩnhviễnBH7ngày➕Thêm:27📦Tồnkhohiệntại:15💰Giá:89.0"
     }
   ],
   "vidiq": {
