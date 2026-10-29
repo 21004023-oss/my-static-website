@@ -4620,16 +4620,16 @@
         "id": "p-1792256292426",
         "name": "Link Gemini Pro 18 Tháng",
         "price": 70000,
-        "stock": 48,
-        "stock_text": "Còn 48",
+        "stock": 90,
+        "stock_text": "Còn 90",
         "duration": "1 Tháng",
         "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 48,
+            "stock": 90,
             "cost_price": 60000,
             "selling_price": 70000,
-            "updated": "19:48 29/10/2026"
+            "updated": "19:50 29/10/2026"
           }
         },
         "hidden": false,
@@ -4638,7 +4638,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 60000,
-          "stock": 48
+          "stock": 90
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -13522,6 +13522,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793278257718",
+      "time": "19:50 - 29/10/2026",
+      "name": "Link Gemini Pro 18 Tháng",
+      "bot": "sieuthistore_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 90,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:1📦Tồnkhohiệntại:90💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1793278253496",
       "time": "19:50 - 29/10/2026",
       "name": "🔥 Link Gemini Pro 18 Tháng KBH",
@@ -14609,17 +14620,6 @@
       "stockAfter": 19,
       "catKey": "chatgpt",
       "msgKey": "🛍️ChatGPTGmailOffer-50%3Tháng(PlanFree)💲Giá:25.000VND💚Tồnkho:19tàikhoản📊Đãbán:51"
-    },
-    {
-      "id": "hist-1793267424614",
-      "time": "16:50 - 29/10/2026",
-      "name": "🔥 ChatGPT Plus  30D ( BH 20D )",
-      "bot": "piggyai99_bot",
-      "price": 280000,
-      "costPrice": 250000,
-      "stockAfter": 33,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥ChatGPTPlus30D(BH20D)➕Thêm:4📦Tồnkhohiệntại:12💰Giá:250.000đ"
     }
   ]
 }
