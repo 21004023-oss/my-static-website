@@ -1867,16 +1867,27 @@
         "id": "p-1791992912064",
         "name": "ACC CHAT GPT BUSINESS 30 D (BH 1D)",
         "price": 240000,
-        "stock": 8,
-        "stock_text": "Còn 8",
-        "duration": "30 D",
-        "detail": "Tài khoản chat gpt business 1 tháng - bảo hành 1 ngày\n- Định dạng: mail | pass | 2FA\n- 2FA SITE: https://2fa.live\n- ĐỔI PASS/ 2FA ĐỂ BẢO MẬT TÀI KHOẢN\n- KHÔNG ĐƯỢC ADD MEMBER VÀO WORLPLACE. Vi phạm auto kick và không hoàn tiền.",
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản chat gpt business 1 tháng - bảo hành 1 ngày\n- Định dạng: mail | pass | 2FA\n- 2FA SITE: https://2fa.live\n- ĐỔI PASS/ 2FA ĐỂ BẢO MẬT TÀI KHOẢN\n- KHÔNG ĐƯỢC ADD MEMBER VÀO WORLPLACE. Vi phạm auto kick và không hoàn tiền.\n✏️",
         "cost_price": 210000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 210000
-        }
+          "bot": "@piggyai99_bot",
+          "cost_price": 210000,
+          "stock": 3
+        },
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 3,
+            "cost_price": 210000,
+            "selling_price": 240000,
+            "updated": "10:58 29/10/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1792034129865",
@@ -13028,6 +13039,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793246286574",
+      "time": "10:58 - 29/10/2026",
+      "name": "ACC CHAT GPT BUSINESS 30 D (BH 1D)",
+      "bot": "piggyai99_bot",
+      "price": 240000,
+      "costPrice": 210000,
+      "stockAfter": 3,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ACCCHATGPTBUSINESS30D(BH1D)➕Thêm:3📦Tồnkhohiệntại:3💰Giá:210.000đ"
+    },
+    {
       "id": "hist-1793246140029",
       "time": "10:55 - 29/10/2026",
       "name": "🔥 Link Gemini Pro 18 Tháng KBH",
@@ -14115,17 +14137,6 @@
       "stockAfter": 0,
       "catKey": "google-veo",
       "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNH24H➕Thêm:4📦Tồnkhohiệntại:0💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1793228577302",
-      "time": "06:02 - 29/10/2026",
-      "name": "CAPCUT PRO 3 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 175000,
-      "costPrice": 155000,
-      "stockAfter": 0,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPRO3THÁNGBHF➕Thêm:3📦Tồnkhohiệntại:0💰Giá:155.000đ"
     }
   ]
 }
