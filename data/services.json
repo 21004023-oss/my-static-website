@@ -7817,16 +7817,16 @@
         "name": "Admin Canva Pro Business 100 Slot 1 Tháng BHF",
         "price": 95000,
         "cost_price": 85000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "• Tài khoản Admin Canva Pro Business (Add tối đa 100 thành viên).\n• Thời hạn sử dụng: 1 tháng.\n• Bảo hành Fulltime (đôi khi có thể trôi date 1–2 ngày).\nĐịnh dạng nhận hàng:\n• Email | Lấy Code.\nHướng dẫn đăng nhập:\n• Đăng nhập bằng Email (không chọn Đăng nhập bằng Google hoặc tài khoản khác).\n• Lấy mã xác minh (OTP) tại: dongvanfb.net/read_mail_box/.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 85000,
             "selling_price": 95000,
-            "updated": "10:59 29/10/2026"
+            "updated": "11:28 29/10/2026"
           }
         },
         "hidden": false,
@@ -7834,7 +7834,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 85000,
-          "stock": 1
+          "stock": 2
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -13040,6 +13040,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793248127736",
+      "time": "11:28 - 29/10/2026",
+      "name": "Admin Canva Pro Business 100 Slot 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 2,
+      "catKey": "canva",
+      "msgKey": "🎨AdminCanvaProBusiness100Slot1ThángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:85.000đ"
+    },
+    {
       "id": "hist-1793247780281",
       "time": "11:23 - 29/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -14127,17 +14138,6 @@
       "stockAfter": 47,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1thángKBH➕Thêm:3📦Tồnkhohiệntại:47💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793233585970",
-      "time": "07:26 - 29/10/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng BH 1h",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 47,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1thángBH1h➕Thêm:3📦Tồnkhohiệntại:47💰Giá:30.000đ"
     }
   ]
 }
