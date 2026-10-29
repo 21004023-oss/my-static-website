@@ -4648,19 +4648,12 @@ body, button, input, select, textarea, table {
           <thead>
 
             <tr>
-
-              <th>Danh Mục</th>
-
-              <th>Tên Sản Phẩm</th>
-
-              <th>Giá Hiện Tại</th>
-
-              <th>Giá Đề Xuất / Cảnh Báo</th>
-
-              <th>Tồn Kho</th>
-
-              <th style="text-align:right;">Chỉnh Sửa Nhanh</th>
-
+              <th style="width:140px;">Danh Mục</th>
+              <th style="min-width:280px;">Tên Sản Phẩm</th>
+              <th style="width:130px; text-align:right;">Giá Hiện Tại</th>
+              <th style="width:180px; text-align:right;">Giá Đề Xuất / Cảnh Báo</th>
+              <th style="width:110px; text-align:center;">Tồn Kho</th>
+              <th style="width:140px; text-align:right;">Chỉnh Sửa Nhanh</th>
             </tr>
 
           </thead>
@@ -4712,21 +4705,13 @@ body, button, input, select, textarea, table {
           <thead>
 
             <tr>
-
-              <th>Thời Gian</th>
-
-              <th>Sản Phẩm</th>
-
-              <th>Số Lượng Thêm</th>
-
-              <th>Giá Bán</th>
-
-              <th>Kho Sau Thêm</th>
-
-              <th>Nguồn</th>
-
-              <th style="text-align:right;">Thao Tác</th>
-
+              <th style="width:140px;">Thời Gian</th>
+              <th style="min-width:280px;">Sản Phẩm</th>
+              <th style="width:120px; text-align:center;">Số Lượng Thêm</th>
+              <th style="width:120px; text-align:right;">Giá Bán</th>
+              <th style="width:120px; text-align:center;">Kho Sau Thêm</th>
+              <th style="width:110px; text-align:center;">Nguồn</th>
+              <th style="width:140px; text-align:right;">Thao Tác</th>
             </tr>
 
           </thead>
@@ -8355,37 +8340,21 @@ body, button, input, select, textarea, table {
 
 
         tr.innerHTML = `
-
-          <td><span style="color:var(--text-muted); font-size:12px;">${h.time || 'N/A'}</span></td>
-
-          <td>
-
+          <td style="width:140px; white-space:nowrap;"><span style="color:var(--text-muted); font-size:12px;">${h.time || 'N/A'}</span></td>
+          <td style="min-width:280px;">
             <div style="font-weight:700; color:var(--text); display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
-
               <span style="text-decoration:underline; text-decoration-style:dotted;">${h.name}</span>
-
               ${catName ? `<span class="badge badge-source" style="font-size:10px; padding:2px 5px;">📁 ${catName}</span>` : ''}
-
             </div>
-
           </td>
-
-          <td><span class="badge badge-in">+${h.addedQty || 0}</span></td>
-
-          <td><strong style="color:var(--primary);">${Number(h.price || 0).toLocaleString('vi-VN')}đ</strong></td>
-
-          <td>Còn ${h.stockAfter !== undefined ? h.stockAfter : 'N/A'}</td>
-
-          <td><span class="badge badge-source">${h.source || 'Bot'}</span></td>
-
-          <td style="text-align:right; white-space:nowrap;">
-
+          <td style="width:120px; text-align:center;"><span class="badge badge-in">+${h.addedQty || 0}</span></td>
+          <td style="width:120px; text-align:right;"><strong style="color:var(--text); font-weight:700;">${Number(h.price || 0).toLocaleString('vi-VN')}đ</strong></td>
+          <td style="width:120px; text-align:center;"><span class="badge badge-duration">Còn ${h.stockAfter !== undefined ? h.stockAfter : 'N/A'}</span></td>
+          <td style="width:110px; text-align:center;"><span class="badge badge-source">${h.source || 'Bot'}</span></td>
+          <td style="width:140px; text-align:right; white-space:nowrap;">
             <button class="btn btn-primary" style="padding:4px 9px; font-size:11px; margin-right:4px;" title="Xem vị trí sản phẩm trong kho">📍 Xem vị trí</button>
-
             <button class="btn btn-danger btn-del-hist" style="padding:4px 8px; font-size:11px;" title="Xóa dòng lịch sử này">🗑️</button>
-
           </td>
-
         `;
 
 
