@@ -4594,16 +4594,16 @@
         "id": "p-1792256292426",
         "name": "Link Gemini Pro 18 Tháng",
         "price": 70000,
-        "stock": 70,
-        "stock_text": "Còn 70",
+        "stock": 39,
+        "stock_text": "Còn 39",
         "duration": "1 Tháng",
         "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 70,
+            "stock": 39,
             "cost_price": 60000,
             "selling_price": 70000,
-            "updated": "16:47 29/10/2026"
+            "updated": "17:11 29/10/2026"
           }
         },
         "hidden": false,
@@ -4612,7 +4612,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 60000,
-          "stock": 70
+          "stock": 39
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -13369,6 +13369,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793268696045",
+      "time": "17:11 - 29/10/2026",
+      "name": "Link Gemini Pro 18 Tháng",
+      "bot": "sieuthistore_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 39,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:30📦Tồnkhohiệntại:39💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1793268676855",
       "time": "17:11 - 29/10/2026",
       "name": "MEITU VIP+ 1 THÁNG BHF",
@@ -14456,17 +14467,6 @@
       "stockAfter": 119,
       "catKey": "google-veo",
       "msgKey": "☁️🔥LinkGeminiPro18ThángKBH➕Thêm:2📦Tồnkhohiệntại:119💰Giá:43.000đ"
-    },
-    {
-      "id": "hist-1793252699912",
-      "time": "12:44 - 29/10/2026",
-      "name": "Link Gemini Pro 18 Tháng",
-      "bot": "sieuthistore_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 119,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:2📦Tồnkhohiệntại:119💰Giá:60.000đ"
     }
   ]
 }
