@@ -1671,24 +1671,33 @@
         "id": "p-1791951111143",
         "name": "ChatGPT Go 1 Tháng BHF",
         "price": 110000,
-        "stock": 16,
-        "stock_text": "Còn 16",
+        "stock": 32,
+        "stock_text": "Còn 32",
         "duration": "1 Tháng",
-        "detail": "🔐 Acc riêng tư — được đổi Pass & 2FA thoải mái\n📂 Format: Email | Pass | 2FA\n✅ Tài khoản đã được kiểm tra Pass & 2FA trước khi bán.\n⚠️ LƯU Ý:\n1. Chỉ hỗ trợ đăng nhập trong 30 phút từ lúc mua. Sau 30 phút, Shop dừng hỗ trợ với mọi lý do.\n2. Khách phải đổi 2FA ngay sau khi mua. Nếu không đổi và tài khoản phát sinh lỗi/mất quyền truy cập → Shop không chịu trách nhiệm. Thao tác đổi 2FA phải nhanh, nếu lỗi OTP gmail shop không bảo hành ( Xem video ở dưới )\n3. Không hỗ trợ OTP Email do Gmail được thuê dùng 1 lần.\n📌 VUI LÒNG ĐỌC KỸ TRƯỚC KHI MUA — TRÁNH TRANH CHẤP KHÔNG ĐÁNG CÓ.\nHướng dẫn đổi 2fa : https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link",
+        "detail": "👉 Format: Email | Password | 2FA\n👉 Bảo hành Full: 30 Ngày\n👉 Quy định bảo hành:\n- Bảo hành cả trong trường hợp die acc hoặc mất gói\n- Tài khoản trước khi đưa lên BOT đã kiểm tra kỹ lưỡng nên KHÔNG BẢO HÀNH MỌI TRƯỜNG HỢP KHÁC (ví dụ như sai password, sai 2FA...)\n⚠️ Sau khi mua hàng yêu cầu thay đổi lại 2FA và hãy chắc chắn rằng bạn đã lưu lại chúng ĐỌC KỸ THÔNG TIN TRƯỚC KHI MUA HÀNG! TRÁNH NHỮNG TRANH CHẤP SAU KHI MUA HÀNG.\n✏️",
         "sources": {
           "taphoathomap_bot": {
             "stock": 16,
             "cost_price": 100000,
             "updated": "22:17 15/10/2026",
             "selling_price": 110000
+          },
+          "sieuthistore_bot": {
+            "stock": 16,
+            "cost_price": 90000,
+            "selling_price": 100000,
+            "updated": "12:39 29/10/2026"
           }
         },
-        "cost_price": 100000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "cost_price": 90000,
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 100000
-        }
+          "bot": "@sieuthistore_bot",
+          "cost_price": 90000,
+          "stock": 16
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1791959666899",
@@ -13118,6 +13127,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793252397653",
+      "time": "12:39 - 29/10/2026",
+      "name": "ChatGPT Go 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 32,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1ThángBHF➕Thêm:10📦Tồnkhohiệntại:16💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1793251472517",
       "time": "12:24 - 29/10/2026",
       "name": "Leonardo AI Ultimate 80$ 1 tháng (BH 2D)",
@@ -14205,17 +14225,6 @@
       "stockAfter": 330,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:76📦Tồnkhohiệntại:156💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793238076373",
-      "time": "08:41 - 29/10/2026",
-      "name": "MUSE AI 1B TOKEN BẢO HÀNH ACITVE",
-      "bot": "ntnshopre_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 156,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MUSEAI1BTOKENBẢOHÀNHACITVE➕Thêm:76📦Tồnkhohiệntại:156💰Giá:15.000đ"
     }
   ]
 }
