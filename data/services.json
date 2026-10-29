@@ -330,22 +330,22 @@
         "name": "VIEON VIP 12 THÁNG BHF",
         "price": 195000,
         "cost_price": 175000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Năm",
         "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 175000,
             "selling_price": 195000,
-            "updated": "16:28 29/10/2026"
+            "updated": "22:08 29/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 175000,
-          "stock": 1
+          "stock": 2
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
@@ -13635,6 +13635,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793286524703",
+      "time": "22:08 - 29/10/2026",
+      "name": "VIEON VIP 12 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 195000,
+      "costPrice": 175000,
+      "stockAfter": 2,
+      "catKey": "vieon",
+      "msgKey": "⭐VIEONVIP12THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:175.000đ"
+    },
+    {
       "id": "hist-1793285492513",
       "time": "21:51 - 29/10/2026",
       "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
@@ -14722,17 +14733,6 @@
       "stockAfter": 1,
       "catKey": "khac",
       "msgKey": "⭐PitpitAI8k6Credit1ThángBH3ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:790.000đ"
-    },
-    {
-      "id": "hist-1793276719939",
-      "time": "19:25 - 29/10/2026",
-      "name": "Pitpit AI 8k6 cre 1TH BH 3 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 850000,
-      "costPrice": 750000,
-      "stockAfter": 1,
-      "catKey": "khac",
-      "msgKey": "⭐PitpitAI8k6cre1THBH3ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:750.000đ"
     }
   ],
   "vidiq": {
