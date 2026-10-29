@@ -3694,25 +3694,25 @@
         "id": "p-1791958427941",
         "name": "API Claude 100M Token 1 ngày BHF",
         "price": 110000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Ngày",
         "detail": "-API Claude 100M-Hàng anthropic\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Base Url : https://api.opusapi.store/\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-File hướng dẫn sử dụng và thiết lập:\n+ENGLISH: https://docs.google.com/document/d/1-r0i4qkHToW3exdkJfUAzin78s_bRbYb4nnvchhvtjg/edit?usp=sharing\n+VIETNAM: https://docs.google.com/document/d/1rBLXYdzTHL5mvm6c8d4QN2c7qWh8Cjj8sgEEf-_Wzug/edit?usp=sharing\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 4,
-            "cost_price": 100000,
-            "selling_price": 110000,
-            "updated": "16:07 28/10/2026"
+            "stock": 3,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "17:50 29/10/2026"
           }
         },
-        "cost_price": 100000,
+        "cost_price": 80000,
         "needs_review": false,
         "hidden": false,
         "cheapest_source": {
           "bot": "@piggyai99_bot",
-          "cost_price": 100000,
-          "stock": 4
+          "cost_price": 80000,
+          "stock": 3
         },
         "import_note": "Nhập: @piggyai99_bot"
       },
@@ -13427,6 +13427,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793271057499",
+      "time": "17:50 - 29/10/2026",
+      "name": "API Claude 100M Token 1 ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 3,
+      "catKey": "claude",
+      "msgKey": "🧠APIClaude100MToken1ngàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1793270851091",
       "time": "17:47 - 29/10/2026",
       "name": "LINK GEMINI PRO + GOOGLE ONE 5TB 18 THÁNG BẢO HÀNH ACTIVE",
@@ -14514,17 +14525,6 @@
       "stockAfter": 1,
       "catKey": "google-veo",
       "msgKey": "🚀SLOTVEO3ULTRAX2012K5CREDITS1THÁNGBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:950.000đ"
-    },
-    {
-      "id": "hist-1793256137401",
-      "time": "13:42 - 29/10/2026",
-      "name": "Muse Ai 1B Token KBH",
-      "bot": "sieuthistore_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 1775,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:29📦Tồnkhohiệntại:29💰Giá:15.000đ"
     }
   ]
 }
