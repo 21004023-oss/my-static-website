@@ -11140,17 +11140,17 @@
         "id": "p-1792291938667",
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
-        "cost_price": 15000,
-        "stock": 87,
-        "stock_text": "Còn 87",
+        "cost_price": 35000,
+        "stock": 89,
+        "stock_text": "Còn 89",
         "duration": "1 Tháng",
-        "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.",
+        "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 29,
+            "stock": 31,
             "cost_price": 49000,
             "selling_price": 59000,
-            "updated": "08:13 22/10/2026"
+            "updated": "08:48 29/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 29,
@@ -11165,13 +11165,14 @@
             "updated": "08:13 22/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "cost_price": 35000,
+          "stock": 29
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792402722954",
@@ -12888,6 +12889,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793238533654",
+      "time": "08:48 - 29/10/2026",
+      "name": "Apple ID 2FA Gmail",
+      "bot": "sieuthistore_bot",
+      "price": 59000,
+      "costPrice": 49000,
+      "stockAfter": 89,
+      "catKey": "gmail",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:30📦Tồnkhohiệntại:31💰Giá:49.000đ"
+    },
+    {
       "id": "hist-1793238385231",
       "time": "08:46 - 29/10/2026",
       "name": "🔥 Link Gemini Pro 18 Tháng BH 12H",
@@ -13975,17 +13987,6 @@
       "stockAfter": 202,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:40📦Tồnkhohiệntại:79💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793221935976",
-      "time": "04:12 - 29/10/2026",
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 222,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:40📦Tồnkhohiệntại:79💰Giá:15.000đ"
     }
   ]
 }
