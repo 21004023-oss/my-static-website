@@ -9085,8 +9085,8 @@
         "id": "p-1791925962704",
         "name": "MEITU VIP+ 1 THÁNG BHF",
         "price": 90000,
-        "stock": 33,
-        "stock_text": "Còn 33",
+        "stock": 23,
+        "stock_text": "Còn 23",
         "duration": "1 Tháng",
         "detail": "Mở khóa full kho Filter VIP, công cụ AI, xóa vật thể, xuất file HD/4K không logo.\nLưu ý:\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.\n✏️",
         "sources": {
@@ -9097,10 +9097,10 @@
             "updated": "21:45 18/10/2026"
           },
           "ntnshopre_bot": {
-            "stock": 12,
+            "stock": 2,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "17:11 29/10/2026"
+            "updated": "21:18 29/10/2026"
           },
           "sieuthistore_bot": {
             "stock": 12,
@@ -13583,6 +13583,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793283537893",
+      "time": "21:18 - 29/10/2026",
+      "name": "MEITU VIP+ 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 23,
+      "catKey": "meitu",
+      "msgKey": "✨MEITUVIP+1THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1793283483976",
       "time": "21:18 - 29/10/2026",
       "name": "Meitu Vip+ 7 Ngày BH 5 Ngày",
@@ -14670,17 +14681,6 @@
       "stockAfter": 18,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPRO3THÁNGBHF➕Thêm:8📦Tồnkhohiệntại:9💰Giá:155.000đ"
-    },
-    {
-      "id": "hist-1793272684244",
-      "time": "18:18 - 29/10/2026",
-      "name": "CapCut Pro 3 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 205000,
-      "costPrice": 185000,
-      "stockAfter": 13,
-      "catKey": "capcut",
-      "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:8📦Tồnkhohiệntại:9💰Giá:185.000đ"
     }
   ]
 }
