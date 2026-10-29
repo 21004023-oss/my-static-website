@@ -10799,16 +10799,16 @@
         "name": "Key Windows 10/11 Pro Retail Online Vĩnh viễn BH 7 ngày",
         "price": 110000,
         "cost_price": 89000,
-        "stock": 16,
-        "stock_text": "Còn 16",
-        "duration": "1 Tháng",
+        "stock": 23,
+        "stock_text": "Còn 23",
+        "duration": "7 Ngày",
         "detail": "Định Dạng Key: XXXXX-XXXXX-XXXXX-XXXXX\nBảo hành 7 ngày\nNhập trực tiếp vào thiết bị là xong\nSử dụng vĩnh viễn, nhưng nếu cài lại Windows thì khoảng 10% khả năng mất bản quyền\nLink tải: https://www.microsoft.com/en-us/software-download/windows11\nKHÁCH ĐANG Ở BẢN HOME: Đầu tiên, nhập key mẫu dưới đây để nâng cấp TỪ BẢN HOME lên bản Pro:\nXPN43-XP7KQ-KMH2P-Q3P93-2WF9G\nSau khi nâng cấp xong, nhập key bạn đã mua trong đơn hàng để kích hoạt là hoàn tất.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 8,
+            "stock": 15,
             "cost_price": 100000,
             "selling_price": 110000,
-            "updated": "04:30 19/10/2026"
+            "updated": "19:55 29/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 8,
@@ -10817,12 +10817,13 @@
             "updated": "04:30 19/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 89000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 89000,
+          "stock": 8
         }
       },
       {
@@ -13524,6 +13525,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793278551342",
+      "time": "19:55 - 29/10/2026",
+      "name": "Key Windows 10/11 Pro Retail Online Vĩnh viễn BH 7 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 23,
+      "catKey": "microsoft",
+      "msgKey": "⭐KeyWindows10/11ProRetailOnlineVĩnhviễnBH7ngày➕Thêm:27📦Tồnkhohiệntại:15💰Giá:100."
+    },
+    {
       "id": "hist-1793278546804",
       "time": "19:55 - 29/10/2026",
       "name": "KEY WINDOWS 10/11 PRO RETAIL ONLINE BH 7 NGÀY",
@@ -14611,17 +14623,6 @@
       "stockAfter": 22,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+3ThángBHF➕Thêm:4📦Tồnkhohiệntại:8💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1793268210883",
-      "time": "17:03 - 29/10/2026",
-      "name": "Meitu Vip+ 90D BHF",
-      "bot": "taphoathomap_bot",
-      "price": 185000,
-      "costPrice": 165000,
-      "stockAfter": 20,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+90DBHF➕Thêm:4📦Tồnkhohiệntại:8💰Giá:165.000đ"
     }
   ]
 }
