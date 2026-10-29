@@ -3406,6 +3406,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793267666225",
+        "name": "ChatGPT Gmail Offer -50% 3 Tháng ( Plan Free )",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 19,
+        "stock_text": "Còn 19",
+        "duration": "3 Tháng",
+        "detail": "Acc Plan Free , Gmail / Google Mail . Có mã giảm giá -50% cho 3 tháng gói Plus\nĐịnh dạng : Gmail | Pass | 2FA\n- Mạng dạng OTP 1 lần. Về tự bảo quản acc . Change acc + Add Passkey tránh tranh chấp sau này.\nHướng dẫn change acc  : https://t.me/khommo_thongbao/53\nƯu đãi theo số lượng:\n• Mua từ 10 sản phẩm: 21.250đ/1 (giảm 15%)\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–19):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 19,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "16:54 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 25000,
+          "stock": 19
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -13317,6 +13343,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793267666225",
+      "time": "16:54 - 29/10/2026",
+      "name": "ChatGPT Gmail Offer -50% 3 Tháng ( Plan Free )",
+      "bot": "khommo_market_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 19,
+      "catKey": "chatgpt",
+      "msgKey": "🛍️ChatGPTGmailOffer-50%3Tháng(PlanFree)💲Giá:25.000VND💚Tồnkho:19tàikhoản📊Đãbán:51"
+    },
+    {
       "id": "hist-1793267424614",
       "time": "16:50 - 29/10/2026",
       "name": "🔥 ChatGPT Plus  30D ( BH 20D )",
@@ -14404,17 +14441,6 @@
       "stockAfter": 143,
       "catKey": "google-veo",
       "msgKey": "☁️🔥LinkGeminiPro18ThángKBH➕Thêm:2📦Tồnkhohiệntại:143💰Giá:43.000đ"
-    },
-    {
-      "id": "hist-1793251025764",
-      "time": "12:17 - 29/10/2026",
-      "name": "Proton VPN 14-28 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 65000,
-      "costPrice": 55000,
-      "stockAfter": 0,
-      "catKey": "protonvpn",
-      "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:3📦Tồnkhohiệntại:0💰Giá:55.000đ"
     }
   ]
 }
