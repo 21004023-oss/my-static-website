@@ -11141,8 +11141,8 @@
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
         "cost_price": 35000,
-        "stock": 91,
-        "stock_text": "Còn 91",
+        "stock": 93,
+        "stock_text": "Còn 93",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.\n✏️",
         "sources": {
@@ -11159,10 +11159,10 @@
             "updated": "08:48 29/10/2026"
           },
           "piggyai99_bot": {
-            "stock": 29,
+            "stock": 31,
             "cost_price": 50000,
             "selling_price": 60000,
-            "updated": "08:13 22/10/2026"
+            "updated": "08:49 29/10/2026"
           }
         },
         "hidden": false,
@@ -12889,6 +12889,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793238544723",
+      "time": "08:49 - 29/10/2026",
+      "name": "Apple ID 2FA Gmail",
+      "bot": "piggyai99_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 93,
+      "catKey": "gmail",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:30📦Tồnkhohiệntại:31💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1793238538462",
       "time": "08:48 - 29/10/2026",
       "name": "Apple ID 2FA Gmail",
@@ -13976,17 +13987,6 @@
       "stockAfter": 79,
       "catKey": "muse-ai",
       "msgKey": "⭐MUSEAI1BTOKENBẢOHÀNHACITVE➕Thêm:40📦Tồnkhohiệntại:79💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793221945765",
-      "time": "04:12 - 29/10/2026",
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "piggyai99_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 202,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH💰Giá:30k📦Tồnkho:79tàikhoản📊Đãbán:10.244tàikhoản💎Môtả:MuseAI1Bil"
     }
   ]
 }
