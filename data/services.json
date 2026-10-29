@@ -4553,16 +4553,16 @@
         "id": "p-1792256292426",
         "name": "Link Gemini Pro 18 Tháng",
         "price": 70000,
-        "stock": 96,
-        "stock_text": "Còn 96",
+        "stock": 194,
+        "stock_text": "Còn 194",
         "duration": "1 Tháng",
         "detail": "📦 Định dạng: Link Ưu Đãi\n⚠️ Lưu ý:\n- Sản phẩm này không bảo hành,dán link lên là nhận được gói .\n• Link nhận gói Gemini AI Pro hạn 18 tháng.\n• Không cần thêm thẻ, không cần sử dụng vpn.\n• Mua về chỉ cần login gmail -> dán link -> kích hoạt gói.\n• Bảo hành 24 giờ mua về sử dụng liền không bảo hành những trường hợp ngâm link quá 24h kể từ lúc mua.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 96,
+            "stock": 194,
             "cost_price": 60000,
             "selling_price": 70000,
-            "updated": "12:09 29/10/2026"
+            "updated": "12:16 29/10/2026"
           }
         },
         "hidden": false,
@@ -4571,7 +4571,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 60000,
-          "stock": 96
+          "stock": 194
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -13066,6 +13066,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793251009646",
+      "time": "12:16 - 29/10/2026",
+      "name": "Link Gemini Pro 18 Tháng",
+      "bot": "sieuthistore_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 194,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:100📦Tồnkhohiệntại:194💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1793250591375",
       "time": "12:09 - 29/10/2026",
       "name": "🔥 Link Gemini Pro 18 Tháng KBH",
@@ -14153,17 +14164,6 @@
       "stockAfter": 16,
       "catKey": "microsoft",
       "msgKey": "⭐Microsoft365AdminPremium1ThángBHF➕Thêm:1📦Tồnkhohiệntại:8💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793237334901",
-      "time": "08:28 - 29/10/2026",
-      "name": "Microsoft 365 Admin Premium 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 65000,
-      "costPrice": 55000,
-      "stockAfter": 8,
-      "catKey": "microsoft",
-      "msgKey": "⭐Microsoft365AdminPremium1ThángBHF➕Thêm:1📦Tồnkhohiệntại:8💰Giá:55.000đ"
     }
   ]
 }
