@@ -13583,6 +13583,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793283869212",
+      "time": "21:24 - 29/10/2026",
+      "name": "Vidiq 1 tháng BH 20D",
+      "bot": "taphoathomap_bot",
+      "price": 190000,
+      "costPrice": 170000,
+      "stockAfter": 3,
+      "catKey": "vidiq",
+      "msgKey": "▶️Vidiq1thángBH20D➕Thêm:3📦Tồnkhohiệntại:3💰Giá:170.000đ"
+    },
+    {
       "id": "hist-1793283583889",
       "time": "21:19 - 29/10/2026",
       "name": "Meitu Vip+ 30D BHF",
@@ -14670,17 +14681,37 @@
       "stockAfter": 29,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥VIP.ChatgptPlusApplePay1thángBHF➕Thêm:29📦Tồnkhohiệntại:29💰Giá:200.000đ"
-    },
-    {
-      "id": "hist-1793273015647",
-      "time": "18:23 - 29/10/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 243,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH24H➕Thêm:99📦Tồnkhohiệntại:99💰Giá:100.000đ"
     }
-  ]
+  ],
+  "vidiq": {
+    "name": "VIDIQ",
+    "plans": [
+      {
+        "id": "p-1793283869212",
+        "name": "Vidiq 1 tháng BH 20D",
+        "price": 190000,
+        "cost_price": 170000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "Link hướng dẫn đăng nhập các tài khoản: https://www.youtube.com/playlist?list=PLnUweT-x0qNvstu8gyN8pdWoorvYZg7zb\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 170000,
+            "selling_price": 190000,
+            "updated": "21:24 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 170000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
+      }
+    ]
+  }
 }
