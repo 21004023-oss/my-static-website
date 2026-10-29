@@ -298,8 +298,8 @@
         "name": "Tài Khoản VieON VIP 12 tháng BHF",
         "price": 180000,
         "cost_price": 155000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Năm",
         "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời\n✏️",
         "sources": {
@@ -310,16 +310,16 @@
             "updated": "22:08 29/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 155000,
             "selling_price": 175000,
-            "updated": "22:21 28/10/2026"
+            "updated": "22:08 29/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 155000,
-          "stock": 1
+          "stock": 2
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -13635,6 +13635,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793286535973",
+      "time": "22:08 - 29/10/2026",
+      "name": "Tài Khoản VieON VIP 12 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 175000,
+      "costPrice": 155000,
+      "stockAfter": 4,
+      "catKey": "vieon",
+      "msgKey": "⭐TàiKhoảnVieONVIP12thángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:155.000đ"
+    },
+    {
       "id": "hist-1793286529833",
       "time": "22:08 - 29/10/2026",
       "name": "Tài Khoản VieON VIP 12 tháng BHF",
@@ -14722,17 +14733,6 @@
       "stockAfter": 10,
       "catKey": "claude",
       "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793276728777",
-      "time": "19:25 - 29/10/2026",
-      "name": "Pitpit AI 8k6 Credit 1 Tháng BH 3 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 890000,
-      "costPrice": 790000,
-      "stockAfter": 1,
-      "catKey": "khac",
-      "msgKey": "⭐PitpitAI8k6Credit1ThángBH3ngày💰Giá:790k📦Tồnkho:1tàikhoản📊Đãbán:8tàikhoản💎Môtả:S"
     }
   ],
   "vidiq": {
