@@ -3215,22 +3215,22 @@
         "name": "ChatGPT Plus UPI 1 Tháng KBH",
         "price": 110000,
         "cost_price": 100000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "Bảo hành trong vòng 15 phút với các lỗi phổ biến (sai pass/2fa...). 12 giờ đối với tài khoản bị khoá (deactivated_account)\nWarranty 15 min for common error (invalid password/2fa). 12 hours for account got deactivated.\nVui lòng thay đổi thông tin tài khoản để tránh bị scan acc.\nPlease change your account infomation to avoid invaild account.\nSHOP KHÔNG HỖ TRỢ LẤY LẠI PASS/2FA\nNOT SUPPORTING REGEN 2FA/PASSWORD\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 12,
+            "stock": 8,
             "cost_price": 100000,
             "selling_price": 110000,
-            "updated": "23:30 28/10/2026"
+            "updated": "11:16 29/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 100000,
-          "stock": 12
+          "stock": 8
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -13040,6 +13040,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793247408057",
+      "time": "11:16 - 29/10/2026",
+      "name": "ChatGPT Plus UPI 1 Tháng KBH",
+      "bot": "sieuthistore_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 8,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlusUPI1ThángKBH➕Thêm:8📦Tồnkhohiệntại:8💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1793247298696",
       "time": "11:14 - 29/10/2026",
       "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 6H",
@@ -14127,17 +14138,6 @@
       "stockAfter": 130,
       "catKey": "muse-ai",
       "msgKey": "⭐MUSEAI1BTOKENBẢOHÀNHACITVE➕Thêm:100📦Tồnkhohiệntại:130💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793233057822",
-      "time": "07:17 - 29/10/2026",
-      "name": "Muse Ai  1B Token KBH",
-      "bot": "piggyai99_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 246,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:100📦Tồnkhohiệntại:130💰Giá:30.000đ"
     }
   ]
 }
