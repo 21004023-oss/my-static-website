@@ -10453,8 +10453,8 @@
         "id": "p-1792061006617",
         "name": "Wink VIP 30 ngày BHF",
         "price": 100000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "1 Tháng",
         "detail": "Mở khóa full kho công cụ làm đẹp AI, tính năng làm nét video, xóa vật thể nâng cao, hiệu ứng chuyển cảnh VIP, xuất file chất lượng cao không logo\nLưu ý:\nTài khoản chỉ dành cho IOS\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.\n✏️",
         "sources": {
@@ -10465,10 +10465,10 @@
             "updated": "04:12 31/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 9,
             "cost_price": 70000,
             "selling_price": 80000,
-            "updated": "11:55 29/10/2026"
+            "updated": "04:12 31/10/2026"
           }
         },
         "hidden": false,
@@ -10477,7 +10477,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 70000,
-          "stock": 10
+          "stock": 9
         },
         "needs_review": false
       },
@@ -15156,6 +15156,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793394770510",
+      "time": "04:12 - 31/10/2026",
+      "name": "Wink Vip 30D BHF",
+      "bot": "taphoathomap_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 18,
+      "catKey": "wink",
+      "msgKey": "⭐WinkVip30DBHF➕Thêm:10📦Tồnkhohiệntại:9💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793394758355",
       "time": "04:12 - 31/10/2026",
       "name": "Wink Vip 30 Ngày BHF",
@@ -16243,17 +16254,6 @@
       "stockAfter": 50,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:4📦Tồnkhohiệntại:50💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1793375517898",
-      "time": "22:51 - 30/10/2026",
-      "name": "ChatGPT (Apple Pay) 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 7,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPT(ApplePay)1ThángBH1Ngày➕Thêm:6📦Tồnkhohiệntại:7💰Giá:180.000đ"
     }
   ],
   "vidiq": {
