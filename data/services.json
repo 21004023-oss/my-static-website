@@ -6973,6 +6973,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793369837279",
+        "name": "Kling Standard 800 credit 1TH Bh 1 ngày",
+        "price": 140000,
+        "cost_price": 120000,
+        "stock": 13,
+        "stock_text": "Còn 13",
+        "duration": "1 Tháng",
+        "detail": "Gói Kling Standard 800 credit 1TH Bh 1 ngày bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 13,
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "21:17 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 120000,
+          "stock": 13
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14856,6 +14882,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793369837279",
+      "time": "21:17 - 30/10/2026",
+      "name": "Kling Standard 800 credit 1TH Bh 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 13,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard800credit1THBh1ngày💰Giá:120k📦Tồnkho:13tàikhoản📊Đãbán:6tàikhoản✏️Vu"
+    },
+    {
       "id": "hist-1793369711784",
       "time": "21:15 - 30/10/2026",
       "name": "Kling Standard 1400 credit 1TH Bh 1 ngày",
@@ -15943,17 +15980,6 @@
       "stockAfter": 14,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+7DBH5D➕Thêm:5📦Tồnkhohiệntại:5💰Giá:18.000đ"
-    },
-    {
-      "id": "hist-1793353813319",
-      "time": "16:50 - 30/10/2026",
-      "name": "ChatGPT Offer Trial Plus 1 tháng (Chưa Pay)",
-      "bot": "sieuthistore_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 1176,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTOfferTrialPlus1tháng(ChưaPay)➕Thêm:444📦Tồnkhohiệntại:1176💰Giá:15.000đ"
     }
   ],
   "vidiq": {
