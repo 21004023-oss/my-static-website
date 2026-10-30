@@ -7803,22 +7803,22 @@
         "name": "Muse AI 31B Token KBH",
         "price": 90000,
         "cost_price": 80000,
-        "stock": 35,
-        "stock_text": "Còn 35",
+        "stock": 51,
+        "stock_text": "Còn 51",
         "duration": "1 Tháng",
         "detail": "-Token 31B\n-Định dạng: Mail | Link đọc code mail\n-Bảo hành: Login check acc ok = hoàn tất BH.\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 35,
+            "stock": 51,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "01:28 30/10/2026"
+            "updated": "09:49 30/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 80000,
-          "stock": 35
+          "stock": 51
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -14244,6 +14244,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793328576465",
+      "time": "09:49 - 30/10/2026",
+      "name": "Muse AI 31B Token KBH",
+      "bot": "piggyai99_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 51,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAI31BTokenKBH➕Thêm:25📦Tồnkhohiệntại:51💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1793328329038",
       "time": "09:45 - 30/10/2026",
       "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
@@ -15331,17 +15342,6 @@
       "stockAfter": 50,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:120k📦Tồnkho:25tàikhoản📊Đãbán:142tàikhoản✏"
-    },
-    {
-      "id": "hist-1793299522917",
-      "time": "01:45 - 30/10/2026",
-      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 50,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1000credit1THBH1ngày➕Thêm:12📦Tồnkhohiệntại:25💰Giá:120.000đ"
     }
   ],
   "vidiq": {
