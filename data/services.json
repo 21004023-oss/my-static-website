@@ -6140,22 +6140,22 @@
         "name": "Grok Premium 14 Ngày BH 1 Ngày",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Ngày",
         "detail": "• Grok Premium 14 ngày,\n• Định dạng: Mail|Pass\n-Lưu ý: Sau khi mua hàng vui lòng Chage + đổi mật khẩu, shop chỉ hỗ trợ bảo hành nếu rớt gói, còn các vấn đề khác shop không hỗ trợ ạ. Hỗ trợ sai pass trong vòng 12H sau khi nhận hàng. Nếu quá shop xin phép không bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 14,
+            "stock": 20,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "03:48 30/10/2026"
+            "updated": "16:13 30/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 14
+          "stock": 20
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -14616,6 +14616,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793351596602",
+      "time": "16:13 - 30/10/2026",
+      "name": "Grok Premium 14 Ngày BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 20,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPremium14NgàyBH1Ngày➕Thêm:20📦Tồnkhohiệntại:20💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793350561535",
       "time": "15:56 - 30/10/2026",
       "name": "Muse Ai  1B Token KBH",
@@ -15703,17 +15714,6 @@
       "stockAfter": 10,
       "catKey": "meitu",
       "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793336235711",
-      "time": "11:57 - 30/10/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 12,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF💰Giá:15k📦Tồnkho:6tàikhoản📊Đãbán:2.751tàikhoản💎Môtả:WinkgóiVIP+7"
     }
   ],
   "vidiq": {
