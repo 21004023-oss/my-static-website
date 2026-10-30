@@ -1670,16 +1670,16 @@
         "id": "p-1791909483397",
         "name": "ChatGPT Plus ( GG Pay) 1 Tháng BH 1 Ngày",
         "price": 270000,
-        "stock": 34,
-        "stock_text": "Còn 34",
+        "stock": 25,
+        "stock_text": "Còn 25",
         "duration": "1 Tháng",
         "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 34,
+            "stock": 25,
             "cost_price": 180000,
             "selling_price": 200000,
-            "updated": "17:18 30/10/2026"
+            "updated": "18:35 30/10/2026"
           }
         },
         "cost_price": 180000,
@@ -1687,7 +1687,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 180000,
-          "stock": 34
+          "stock": 25
         },
         "hidden": false,
         "needs_review": false
@@ -14746,6 +14746,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793360154405",
+      "time": "18:35 - 30/10/2026",
+      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 25,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:10📦Tồnkhohiệntại:25💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1793359477582",
       "time": "18:24 - 30/10/2026",
       "name": "Capcut Pro 500 credit 7D BH 6D",
@@ -15833,17 +15844,6 @@
       "stockAfter": 500,
       "catKey": "claude",
       "msgKey": "🧠API200MTokenClaude1NgàyBHF➕Thêm:500📦Tồnkhohiệntại:500💰Giá:190.000đ"
-    },
-    {
-      "id": "hist-1793341532723",
-      "time": "13:25 - 30/10/2026",
-      "name": "VIP 2.API 200M Token Claude 1 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 199000,
-      "costPrice": 179000,
-      "stockAfter": 500,
-      "catKey": "claude",
-      "msgKey": "🧠VIP2.API200MTokenClaude1Ngày-BHF➕Thêm:500📦Tồnkhohiệntại:500💰Giá:179.000đ"
     }
   ],
   "vidiq": {
