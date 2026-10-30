@@ -3699,6 +3699,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793337892256",
+        "name": "API 200M Token Codex 1 Ngày BHF",
+        "price": 210000,
+        "cost_price": 190000,
+        "stock": 555,
+        "stock_text": "Còn 555",
+        "duration": "1 Ngày",
+        "detail": "Base URL : https://gpt.teamsoclo.site/v1\nModel : gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 555,
+            "cost_price": 190000,
+            "selling_price": 210000,
+            "updated": "12:24 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 190000,
+          "stock": 555
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14313,6 +14339,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793337892256",
+      "time": "12:24 - 30/10/2026",
+      "name": "API 200M Token Codex 1 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 210000,
+      "costPrice": 190000,
+      "stockAfter": 555,
+      "catKey": "chatgpt",
+      "msgKey": "⭐API200MTokenCodex1NgàyBHF➕Thêm:200📦Tồnkhohiệntại:555💰Giá:190.000đ"
+    },
+    {
       "id": "hist-1793337734214",
       "time": "12:22 - 30/10/2026",
       "name": "[Astra] API 20M Token Codex 1 Ngày BHF",
@@ -15400,17 +15437,6 @@
       "stockAfter": 95,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1ThángBHF➕Thêm:5📦Tồnkhohiệntại:16💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1793305712377",
-      "time": "03:28 - 30/10/2026",
-      "name": "ChatGPT Plus 1 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 280000,
-      "costPrice": 250000,
-      "stockAfter": 89,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBHF➕Thêm:5📦Tồnkhohiệntại:16💰Giá:250.000đ"
     }
   ],
   "vidiq": {
