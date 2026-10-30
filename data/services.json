@@ -1067,26 +1067,34 @@
       {
         "id": "p-1792144579625",
         "name": "Link kích hoạt Spotify Premium 3 Tháng KBH",
-        "price": 35000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "price": 70000,
+        "stock": 60,
+        "stock_text": "Còn 60",
         "duration": "3 Tháng",
-        "detail": "✨ Kích hoạt Premium ngay trên tài khoản của bạn\n🆕 Yêu cầu tài khoản mới / tài khoản đủ điều kiện, VPN Ấn Độ trước rồi click vào LINK để kích hoạt\n🎵 Dùng trọn 3 tháng Premium\n⛓ Link không hết hạn cho tới khi được sử dụng, và không bảo hành tài khoản sau khi kích hoạt\n💘 CÁCH KÍCH HOẠT:\n1⃣ Mở link kích hoạt bằng trình duyệt Chrome\n2⃣ Đăng nhập / Tạo một tài khoản Spotify mới\n3⃣ Hoàn tất phần thiết lập thanh toán theo yêu cầu\n4⃣ Kích hoạt và tận hưởng Premium\n🔔 Tài khoản đã từng dùng Premium / bản dùng thử có thể không sử dụng được\n💡 Nếu kích hoạt thất bại → Thử lại bằng một tài khoản mới\n* ĐÃ KIỂM TRA TẤT CẢ CÁC LINK ĐỀU HOẠT ĐỘNG SAU KHI VPN, KHÔNG GIẢI QUYẾT CÁC VẤN ĐỀ TÀI KHOẢN KHÁCH LỖI, THẺ CỦA KHÁCH KHÔNG TỰ PAY ĐƯỢC. CÂN NHẮC TRƯỚC KHI MUA\n🌎 VPN Ấn Độ để kích hoạt, sử dụng VPN ổn định như Nord, SurfShark\nƯu tiên dùng PC để kích hoạt",
+        "detail": "✨ Kích hoạt Premium ngay trên tài khoản của bạn\n🆕 Yêu cầu tài khoản mới / tài khoản đủ điều kiện, VPN Ấn Độ trước rồi click vào LINK để kích hoạt\n🎵 Dùng trọn 3 tháng Premium\n⛓ Link không hết hạn cho tới khi được sử dụng, và không bảo hành tài khoản sau khi kích hoạt\n💘 CÁCH KÍCH HOẠT:\n1⃣ Mở link kích hoạt bằng trình duyệt Chrome\n2⃣ Đăng nhập / Tạo một tài khoản Spotify mới\n3⃣ Hoàn tất phần thiết lập thanh toán theo yêu cầu\n4⃣ Kích hoạt và tận hưởng Premium\n🔔 Tài khoản đã từng dùng Premium / bản dùng thử có thể không sử dụng được\n💡 Nếu kích hoạt thất bại → Thử lại bằng một tài khoản mới, ĐÃ KIỂM TRA TẤT CẢ CÁC LINK ĐỀU HOẠT ĐỘNG SAU KHI VPN, KHÔNG GIẢI QUYẾT CÁC VẤN ĐỀ TÀI KHOẢN KHÁCH LỖI, THẺ CỦA KHÁCH KHÔNG TỰ PAY ĐƯỢC. CÂN NHẮC TRƯỚC KHI MUA\n🌎 VPN Ấn Độ để kích hoạt, sử dụng VPN ổn định như Nord, SurfShark\n✏️",
         "sources": {
           "taphoathomap_bot": {
             "stock": 20,
             "cost_price": 25000,
             "updated": "16:56 16/10/2026",
             "selling_price": 35000
+          },
+          "piggyai99_bot": {
+            "stock": 40,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "11:17 30/10/2026"
           }
         },
         "hidden": false,
         "cost_price": 25000,
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 49000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 25000,
+          "stock": 20
         },
-        "import_note": "🛒 @ntnshopre_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792309664458",
@@ -14247,6 +14255,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793333849362",
+      "time": "11:17 - 30/10/2026",
+      "name": "Link kích hoạt Spotify Premium 3 Tháng KBH",
+      "bot": "piggyai99_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 60,
+      "catKey": "spotify",
+      "msgKey": "⭐LinkkíchhoạtSpotifyPremium3ThángKBH➕Thêm:40📦Tồnkhohiệntại:40💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1793333736517",
       "time": "11:15 - 30/10/2026",
       "name": "Surfshark VPN One 7 Ngày BHF",
@@ -15334,17 +15353,6 @@
       "stockAfter": 431,
       "catKey": "gmail",
       "msgKey": "📧GMAILUSCỔDATE201X-202X2FA➕Thêm:66📦Tồnkhohiệntại:142💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793301142472",
-      "time": "02:12 - 30/10/2026",
-      "name": "GMAIL US CỔ DATE 201X-202X 2FA",
-      "bot": "sieuthistore_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 439,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILUSCỔDATE201X-202X2FA➕Thêm:66📦Tồnkhohiệntại:142💰Giá:50.000đ"
     }
   ],
   "vidiq": {
