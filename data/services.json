@@ -14663,10 +14663,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793352866569",
+        "name": "OPENART PLUS 1 THÁNG -  [BH 1 NGÀY]",
+        "price": 450000,
+        "cost_price": 400000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "LOGIN BẰNG EMAIL NHÉ\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 400000,
+            "selling_price": 450000,
+            "updated": "16:34 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 400000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793352866569",
+      "time": "16:34 - 30/10/2026",
+      "name": "OPENART PLUS 1 THÁNG -  [BH 1 NGÀY]",
+      "bot": "taphoathomap_bot",
+      "price": 450000,
+      "costPrice": 400000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "msgKey": "⭐OPENARTPLUS1THÁNG-[BH1NGÀY]➕Thêm:1📦Tồnkhohiệntại:3💰Giá:400.000đ"
+    },
     {
       "id": "hist-1793352802473",
       "time": "16:33 - 30/10/2026",
@@ -15755,17 +15792,6 @@
       "stockAfter": 20,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:3📦Tồnkhohiệntại:7💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793337153227",
-      "time": "12:12 - 30/10/2026",
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 17,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:3📦Tồnkhohiệntại:7💰Giá:30.000đ"
     }
   ],
   "vidiq": {
