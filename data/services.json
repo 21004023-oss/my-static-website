@@ -8705,16 +8705,16 @@
         "id": "p-1792024624956",
         "name": "Capcut Pro 1 Tháng BH 30 Ngày",
         "price": 70000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "1 Tháng",
         "detail": "Gói Capcut Pro 1 Tháng BH 30 Ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 10,
+            "stock": 15,
             "cost_price": 60000,
             "selling_price": 70000,
-            "updated": "19:21 29/10/2026"
+            "updated": "09:37 30/10/2026"
           }
         },
         "cost_price": 60000,
@@ -8723,7 +8723,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 60000,
-          "stock": 10
+          "stock": 15
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -14185,6 +14185,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793327844129",
+      "time": "09:37 - 30/10/2026",
+      "name": "Capcut Pro 1 Tháng BH 30 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 15,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutPro1ThángBH30Ngày💰Giá:60k📦Tồnkho:15tàikhoản📊Đãbán:1.855tàikhoản✏️Vuilòng"
+    },
+    {
       "id": "hist-1793327733954",
       "time": "09:35 - 30/10/2026",
       "name": "Muse Ai  1B Token KBH",
@@ -15272,17 +15283,6 @@
       "stockAfter": 500,
       "catKey": "claude",
       "msgKey": "🧠API100MTokenClaude3NgàyBHF➕Thêm:500📦Tồnkhohiệntại:500💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1793298526560",
-      "time": "01:28 - 30/10/2026",
-      "name": "Muse AI 31B Token KBH",
-      "bot": "piggyai99_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 35,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAI31BTokenKBH➕Thêm:55📦Tồnkhohiệntại:35💰Giá:80.000đ"
     }
   ],
   "vidiq": {
