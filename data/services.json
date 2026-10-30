@@ -6901,13 +6901,13 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 14,
+            "stock": 16,
             "cost_price": 150000,
             "selling_price": 170000,
             "updated": "21:01 30/10/2026"
@@ -6916,7 +6916,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 14
+          "stock": 16
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -14824,6 +14824,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793368880167",
+      "time": "21:01 - 30/10/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 16,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:14📦Tồnkhohiệntại:16💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793368874043",
       "time": "21:01 - 30/10/2026",
       "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
@@ -15911,17 +15922,6 @@
       "stockAfter": 31,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAI31BTokenKBH➕Thêm:5📦Tồnkhohiệntại:31💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1793352553101",
-      "time": "16:29 - 30/10/2026",
-      "name": "Gmail Cổ 2FA 2023-2025",
-      "bot": "taphoathomap_bot",
-      "price": 43000,
-      "costPrice": 33000,
-      "stockAfter": 5,
-      "catKey": "gmail",
-      "msgKey": "📧GmailCổ2FA2023-2025➕Thêm:5📦Tồnkhohiệntại:5💰Giá:33.000đ"
     }
   ],
   "vidiq": {
