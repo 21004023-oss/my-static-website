@@ -4008,6 +4008,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793384731056",
+        "name": "ChatGPT Go 1 Tháng (BH 28D)",
+        "price": 105000,
+        "cost_price": 95000,
+        "stock": 27,
+        "stock_text": "Còn 27",
+        "duration": "1 Tháng",
+        "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 27,
+            "cost_price": 95000,
+            "selling_price": 105000,
+            "updated": "01:25 31/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 95000,
+          "stock": 27
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -15104,6 +15130,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793384731056",
+      "time": "01:25 - 31/10/2026",
+      "name": "ChatGPT Go 1 Tháng (BH 28D)",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 27,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:15📦Tồnkhohiệntại:27💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1793384434210",
       "time": "01:20 - 31/10/2026",
       "name": "TiktokVN LiveStudio 1KFL THẬT",
@@ -16191,17 +16228,6 @@
       "stockAfter": 14,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày💰Giá:150k📦Tồnkho:14tàikhoản📊Đãbán:195t"
-    },
-    {
-      "id": "hist-1793368254682",
-      "time": "20:50 - 30/10/2026",
-      "name": "Kling Pro 3K-4K Credits 1 tháng BH 7 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 770000,
-      "costPrice": 670000,
-      "stockAfter": 4,
-      "catKey": "kling",
-      "msgKey": "🎬KlingPro3K-4KCredits1thángBH7ngày➕Thêm:4📦Tồnkhohiệntại:4💰Giá:670.000đ"
     }
   ],
   "vidiq": {
