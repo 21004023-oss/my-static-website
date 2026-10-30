@@ -45,8 +45,8 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 115000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
         "sources": {
@@ -57,10 +57,10 @@
             "updated": "09:11 29/10/2026"
           },
           "piggyai99_bot": {
-            "stock": 6,
+            "stock": 2,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "09:11 29/10/2026"
+            "updated": "08:46 30/10/2026"
           }
         },
         "hidden": false,
@@ -69,7 +69,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 115000,
-          "stock": 6
+          "stock": 2
         }
       },
       {
@@ -14127,6 +14127,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793324772580",
+      "time": "08:46 - 30/10/2026",
+      "name": "Netflix Premium Extra 30 Ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 8,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra30NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1793324246191",
       "time": "08:37 - 30/10/2026",
       "name": "Muse Ai 1B Token KBH",
@@ -15214,17 +15225,6 @@
       "stockAfter": 3,
       "catKey": "tiktok",
       "msgKey": "🎵TiktokVNLiveStudio1KFLTHẬT➕Thêm:1📦Tồnkhohiệntại:3💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1793296480285",
-      "time": "00:54 - 30/10/2026",
-      "name": "Elevenlabs Creator 131k Credit 30D (BH 2D)",
-      "bot": "piggyai99_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 3,
-      "catKey": "elevenlabs",
-      "msgKey": "🎙️ElevenlabsCreator131kCredit30D(BH2D)➕Thêm:3📦Tồnkhohiệntại:3💰Giá:160.000đ"
     }
   ],
   "vidiq": {
