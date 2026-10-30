@@ -45,16 +45,16 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 115000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 1,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "22:14 30/10/2026"
+            "updated": "06:23 31/10/2026"
           },
           "piggyai99_bot": {
             "stock": 2,
@@ -15395,6 +15395,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793402609165",
+      "time": "06:23 - 31/10/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 3,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:2📦Tồnkhohiệntại:1💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793402584517",
       "time": "06:23 - 31/10/2026",
       "name": "VIP 2. API 500M Token Claude 1 Ngày - BHF",
@@ -16482,17 +16493,6 @@
       "stockAfter": 16,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:8💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793385196456",
-      "time": "01:33 - 31/10/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 16,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:8💰Giá:35.000đ"
     }
   ],
   "vidiq": {
