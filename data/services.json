@@ -3820,6 +3820,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793346765058",
+        "name": "VIP 1.GPT CODEX  20M ASTRA 2 Ngày BHF",
+        "price": 60000,
+        "cost_price": 50000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "1 Tháng",
+        "detail": "🔑 API key GPT CODEX — dùng cho Claude Code & app tương thích OpenAI/Anthropic.\n💎 Một key dùng được mọi model đang bật trong group CLAUDE-FABLE, tính gộp input + output + cache.\n⚡️ Giao key tức thì kèm hướng dẫn cấu hình.\nInput + output + cache (cache read và cache write) tính chung một hạn mức.\n⚠️ Dung lượng token là ước tính; cache write tính cao hơn một chút nên thực nhận có thể thấp hơn. Key dừng khi hết hạn hoặc dùng hết token, tùy điều kiện nào đến trước.\n🔗 Hướng dẫn cài đặt và kích hoạt:\nhttps://daily.bddevlab.buzz/redeem.html\n🔗 Cách khắc phục lỗi :\nhttps://duc-dop-error-guide.pages.dev\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 10,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "14:52 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 50000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14538,6 +14564,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793346765058",
+      "time": "14:52 - 30/10/2026",
+      "name": "VIP 1.GPT CODEX  20M ASTRA 2 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 10,
+      "catKey": "chatgpt",
+      "msgKey": "🤖VIP1.GPTCODEX20MASTRA2NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1793346753485",
       "time": "14:52 - 30/10/2026",
       "name": "VIP 1.GPT CODEX  100M ASTRA 1 Ngày BHF",
@@ -15625,17 +15662,6 @@
       "stockAfter": 17,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1ThángKBH➕Thêm:16📦Tồnkhohiệntại:17💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1793330157368",
-      "time": "10:15 - 30/10/2026",
-      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 30,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:1📦Tồnkhohiệntại:30💰Giá:180.000đ"
     }
   ],
   "vidiq": {
