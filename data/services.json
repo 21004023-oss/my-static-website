@@ -3725,6 +3725,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793337898049",
+        "name": "200M Credit API Codex 1 Ngày - BHF",
+        "price": 130000,
+        "cost_price": 110000,
+        "stock": 555,
+        "stock_text": "Còn 555",
+        "duration": "1 Ngày",
+        "detail": "Gói 200M Credit API Codex 1 Ngày - BHF bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 555,
+            "cost_price": 110000,
+            "selling_price": 130000,
+            "updated": "12:24 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 110000,
+          "stock": 555
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14339,6 +14365,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793337898049",
+      "time": "12:24 - 30/10/2026",
+      "name": "200M Credit API Codex 1 Ngày - BHF",
+      "bot": "piggyai99_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 555,
+      "catKey": "chatgpt",
+      "msgKey": "⭐200MCreditAPICodex1Ngày-BHF➕Thêm:200📦Tồnkhohiệntại:555💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793337892256",
       "time": "12:24 - 30/10/2026",
       "name": "API 200M Token Codex 1 Ngày BHF",
@@ -15426,17 +15463,6 @@
       "stockAfter": 89,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1ThángBHF💰Giá:230k📦Tồnkho:10tàikhoản📊Đãbán:2.164tàikhoản💎Môtả:🗣️Môtả"
-    },
-    {
-      "id": "hist-1793305717248",
-      "time": "03:28 - 30/10/2026",
-      "name": "ChatGPT Plus 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 260000,
-      "costPrice": 230000,
-      "stockAfter": 95,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBHF➕Thêm:5📦Tồnkhohiệntại:16💰Giá:230.000đ"
     }
   ],
   "vidiq": {
