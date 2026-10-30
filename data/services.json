@@ -6224,13 +6224,13 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 20,
+            "stock": 16,
             "cost_price": 140000,
             "selling_price": 160000,
             "updated": "23:31 30/10/2026"
@@ -6241,7 +6241,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 20
+          "stock": 16
         },
         "needs_review": false
       },
@@ -15020,6 +15020,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793377882580",
+      "time": "23:31 - 30/10/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 16,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin💰Giá:140k📦Tồnkho:16tàikhoản📊Đãbán:365tàikhoản💎Môtả:Mail|Pa"
+    },
+    {
       "id": "hist-1793377877105",
       "time": "23:31 - 30/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -16107,17 +16118,6 @@
       "stockAfter": 148,
       "catKey": "gmail",
       "msgKey": "📧GmailUSAnew💰Giá:35k📦Tồnkho:55tàikhoản📊Đãbán:2.355tàikhoản💎Môtả:Địnhdạng:Gmail|P"
-    },
-    {
-      "id": "hist-1793362616800",
-      "time": "19:16 - 30/10/2026",
-      "name": "Gmail USA new",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 148,
-      "catKey": "gmail",
-      "msgKey": "📧GmailUSAnew➕Thêm:50📦Tồnkhohiệntại:55💰Giá:35.000đ"
     }
   ],
   "vidiq": {
