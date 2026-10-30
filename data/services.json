@@ -6191,23 +6191,23 @@
         "id": "p-1793338774107",
         "name": "GROK  PREMIUM + GROK BOT 4X 14D BH 3D",
         "price": 130000,
-        "cost_price": 110000,
-        "stock": 13,
-        "stock_text": "Còn 13",
+        "cost_price": 100000,
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "3 Ngày",
         "detail": "Mua hàng chỉ dùng - không thay đổi bất cứ gì - check có thay đổi không bảo hành\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 13,
-            "cost_price": 110000,
-            "selling_price": 130000,
-            "updated": "15:03 30/10/2026"
+            "stock": 9,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "18:39 30/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 110000,
-          "stock": 13
+          "cost_price": 100000,
+          "stock": 9
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -14746,6 +14746,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793360380194",
+      "time": "18:39 - 30/10/2026",
+      "name": "GROK  PREMIUM + GROK BOT 4X 14D BH 3D",
+      "bot": "taphoathomap_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 9,
+      "catKey": "grok",
+      "msgKey": "⚡GROKPREMIUM+GROKBOT4X14DBH3D➕Thêm:6📦Tồnkhohiệntại:9💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1793360154405",
       "time": "18:35 - 30/10/2026",
       "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
@@ -15833,17 +15844,6 @@
       "stockAfter": 593,
       "catKey": "chatgpt",
       "msgKey": "⭐20MCreditAPICodex1Tháng-BHF➕Thêm:200📦Tồnkhohiệntại:593💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793341540676",
-      "time": "13:25 - 30/10/2026",
-      "name": "API 200M Token Claude 1 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 210000,
-      "costPrice": 190000,
-      "stockAfter": 500,
-      "catKey": "claude",
-      "msgKey": "🧠API200MTokenClaude1NgàyBHF➕Thêm:500📦Tồnkhohiệntại:500💰Giá:190.000đ"
     }
   ],
   "vidiq": {
