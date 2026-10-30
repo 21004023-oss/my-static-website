@@ -3730,9 +3730,9 @@
         "id": "p-1793337898049",
         "name": "200M Credit API Codex 1 Ngày - BHF",
         "price": 130000,
-        "cost_price": 110000,
-        "stock": 555,
-        "stock_text": "Còn 555",
+        "cost_price": 109000,
+        "stock": 1110,
+        "stock_text": "Còn 1110",
         "duration": "1 Ngày",
         "detail": "Gói 200M Credit API Codex 1 Ngày - BHF bảo hành uy tín.",
         "sources": {
@@ -3741,14 +3741,20 @@
             "cost_price": 110000,
             "selling_price": 130000,
             "updated": "12:24 30/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 555,
+            "cost_price": 109000,
+            "selling_price": 129000,
+            "updated": "12:25 30/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 110000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 109000,
           "stock": 555
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -14365,6 +14371,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793337902885",
+      "time": "12:25 - 30/10/2026",
+      "name": "200M Credit API Codex 1 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 1110,
+      "catKey": "chatgpt",
+      "msgKey": "⭐200MCreditAPICodex1Ngày-BHF➕Thêm:200📦Tồnkhohiệntại:555💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793337898049",
       "time": "12:24 - 30/10/2026",
       "name": "200M Credit API Codex 1 Ngày - BHF",
@@ -15452,17 +15469,6 @@
       "stockAfter": 75,
       "catKey": "gmail",
       "msgKey": "📧Gmail2020-2024đãquaads➕Thêm:62📦Tồnkhohiệntại:75💰Giá:42.000đ"
-    },
-    {
-      "id": "hist-1793305722890",
-      "time": "03:28 - 30/10/2026",
-      "name": "ChatGPT Plus 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 260000,
-      "costPrice": 230000,
-      "stockAfter": 89,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBHF💰Giá:230k📦Tồnkho:10tàikhoản📊Đãbán:2.164tàikhoản💎Môtả:🗣️Môtả"
     }
   ],
   "vidiq": {
