@@ -3641,6 +3641,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793337470644",
+        "name": "[CDK] Số Codex 1 Ngày KBH",
+        "price": 25000,
+        "cost_price": 15000,
+        "stock": 661,
+        "stock_text": "Còn 661",
+        "duration": "1 Ngày",
+        "detail": "• Tuỳ chọn sử dụng VN hoặc US\n• Tỉ lệ nhận mã (US) cao hơn (VN)\n• Tự động hóa 100%, nhận OTP trực tiếp ngay trên Web.\n1. Bấm Xác nhận mua hàng để nhận CDK và web CDK\n2. Nhập SĐT vào trang xác minh OpenAI Codex / ChatGPT.\n3. Mã OTP sẽ tự động hiển thị trên tin nhắn của Web ngay khi có tin nhắn về.\n• Nếu OpenAI/Codex từ chối SĐT (hoặc báo gửi qua WhatsApp), quý khách vui lòng bấm thuê số khác.\n• Số bị từ chối (không nhận OTP) sẽ được hệ thống tự động hoàn CDK sau 2 phút hoặc quý khách huỷ trên web\nWeb: https://sms.teamsoclo.site/\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 661,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "12:17 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 15000,
+          "stock": 661
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14255,6 +14281,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793337470645",
+      "time": "12:17 - 30/10/2026",
+      "name": "[CDK] Số Codex 1 Ngày KBH",
+      "bot": "sieuthistore_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 661,
+      "catKey": "chatgpt",
+      "msgKey": "🤖[CDK]SốCodex1NgàyKBH➕Thêm:500📦Tồnkhohiệntại:661💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793337403650",
       "time": "12:16 - 30/10/2026",
       "name": "Muse Ai  1B Token KBH",
@@ -15342,17 +15379,6 @@
       "stockAfter": 7,
       "catKey": "figma",
       "msgKey": "⭐FigmaProEducation2NămBH1Năm➕Thêm:5📦Tồnkhohiệntại:7💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1793303409447",
-      "time": "02:50 - 30/10/2026",
-      "name": "Admin Canva Pro Business 100 Slot 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 95000,
-      "costPrice": 85000,
-      "stockAfter": 0,
-      "catKey": "canva",
-      "msgKey": "🎨AdminCanvaProBusiness100Slot1ThángBHF➕Thêm:1📦Tồnkhohiệntại:0💰Giá:85.000đ"
     }
   ],
   "vidiq": {
