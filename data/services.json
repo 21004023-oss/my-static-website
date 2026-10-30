@@ -6354,13 +6354,13 @@
         "name": "Grok Premium 14 Ngày BH 1 Ngày",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 66,
-        "stock_text": "Còn 66",
+        "stock": 21,
+        "stock_text": "Còn 21",
         "duration": "1 Ngày",
         "detail": "• Grok Premium 14 ngày,\n• Định dạng: Mail|Pass\n-Lưu ý: Sau khi mua hàng vui lòng Chage + đổi mật khẩu, shop chỉ hỗ trợ bảo hành nếu rớt gói, còn các vấn đề khác shop không hỗ trợ ạ. Hỗ trợ sai pass trong vòng 12H sau khi nhận hàng. Nếu quá shop xin phép không bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 66,
+            "stock": 21,
             "cost_price": 140000,
             "selling_price": 160000,
             "updated": "03:59 31/10/2026"
@@ -6369,7 +6369,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 66
+          "stock": 21
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -15156,6 +15156,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793393997560",
+      "time": "03:59 - 31/10/2026",
+      "name": "Grok Premium 14 Ngày BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 21,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPremium14NgàyBH1Ngày💰Giá:140k📦Tồnkho:21tàikhoản📊Đãbán:66tàikhoản💎Môtả:•Grok"
+    },
+    {
       "id": "hist-1793393993631",
       "time": "03:59 - 31/10/2026",
       "name": "Grok Premium 14 Ngày BH 1 Ngày",
@@ -16243,17 +16254,6 @@
       "stockAfter": 92,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:25📦Tồnkhohiệntại:65💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793373843016",
-      "time": "22:24 - 30/10/2026",
-      "name": "Gmail Random ip 7-10 ngày 2FA",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 79,
-      "catKey": "gmail",
-      "msgKey": "📧GmailRandomip7-10ngày2FA➕Thêm:1📦Tồnkhohiệntại:65💰Giá:35.000đ"
     }
   ],
   "vidiq": {
