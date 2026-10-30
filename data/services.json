@@ -11714,25 +11714,27 @@
         "id": "p-1792268569370",
         "name": "Admin Microsoft 365 Family 1 Tháng BHF",
         "price": 55000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
-        "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com",
+        "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 19,
+            "stock": 12,
             "cost_price": 45000,
-            "updated": "03:22 18/10/2026",
-            "selling_price": 55000
+            "selling_price": 55000,
+            "updated": "23:01 30/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 16800,
+        "cost_price": 45000,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 16800
+          "bot": "@sieuthistore_bot",
+          "cost_price": 45000,
+          "stock": 12
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @sieuthistore_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792268573325",
@@ -14986,6 +14988,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793376066998",
+      "time": "23:01 - 30/10/2026",
+      "name": "Admin Microsoft 365 Family 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 12,
+      "catKey": "microsoft",
+      "msgKey": "⭐AdminMicrosoft365Family1ThángBHF➕Thêm:9📦Tồnkhohiệntại:12💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793375867179",
       "time": "22:57 - 30/10/2026",
       "name": "Gmail Việt 2020-2024",
@@ -16073,17 +16086,6 @@
       "stockAfter": 244,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1tháng-BH24H➕Thêm:100📦Tồnkhohiệntại:100💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1793360910190",
-      "time": "18:48 - 30/10/2026",
-      "name": "seedance 2.5 1 tháng BH 5D",
-      "bot": "taphoathomap_bot",
-      "price": 109000,
-      "costPrice": 99000,
-      "stockAfter": 17,
-      "catKey": "seedance",
-      "msgKey": "⭐seedance2.51thángBH5D➕Thêm:17📦Tồnkhohiệntại:17💰Giá:99.000đ"
     }
   ],
   "vidiq": {
