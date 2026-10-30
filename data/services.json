@@ -9570,6 +9570,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793347118511",
+        "name": "Slot Adobe All Apps 1 Tháng BHF",
+        "price": 300000,
+        "cost_price": 270000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "ADD TEAM CHÍNH CHỦ GIA HẠN ĐƯỢC.\n!!! VIP: KHÁCH HÀNG CÓ THỂ CHỦ ĐỘNG BẢO HÀNH !!!\nMua hàng gửi mail và vui lòng chờ đợi Admin thêm bạn vào Team\nAdobe Full Apps Full tính năng Credit sử dụng AI\n- Tài khoản lỗi do team có vấn đề vui lòng truy cập đường dẫn phía dưới, nhập email đã đăng kí, sau đó chọn \"Press here to change to active organization\" -> đợi được add vào Team mới -> logout login lại sử dụng như bình thường:\nhttps://reseller.ado-besoft.com/status",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 1,
+            "cost_price": 270000,
+            "selling_price": 300000,
+            "updated": "14:58 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 270000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14564,6 +14590,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793347118511",
+      "time": "14:58 - 30/10/2026",
+      "name": "Slot Adobe All Apps 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 300000,
+      "costPrice": 270000,
+      "stockAfter": 1,
+      "catKey": "adobe",
+      "msgKey": "🎨SlotAdobeAllApps1ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:270.000đ"
+    },
+    {
       "id": "hist-1793346897228",
       "time": "14:54 - 30/10/2026",
       "name": "EXPRESS VPN 3 NGÀY BHF",
@@ -15651,17 +15688,6 @@
       "stockAfter": 54,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:29📦Tồnkhohiệntại:54💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1793331256379",
-      "time": "10:34 - 30/10/2026",
-      "name": "ChatGPT Plus 1 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 280000,
-      "costPrice": 250000,
-      "stockAfter": 111,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBHF➕Thêm:20📦Tồnkhohiệntại:24💰Giá:250.000đ"
     }
   ],
   "vidiq": {
