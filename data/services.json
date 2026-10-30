@@ -9826,9 +9826,9 @@
         "id": "p-1793401245613",
         "name": "Capcut Pro Team 12 Tháng BHF",
         "price": 700000,
-        "cost_price": 600000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "cost_price": 550000,
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Năm",
         "detail": "CAPCUT PRO TEAM  RENEW  – 365 NGÀY  | BHF 📌 THÔNG TIN • Tài khoản CapCut Pro dạng Team, thời hạn 365 ngày tự động gia hạn hàng tháng. • Có thể nhận tới 2.000 AI Credits. • Định dạng: Email | Pass. • Khuyến nghị đăng nhập 1–2 thiết bị, hạn chế đăng nhập nhiều thiết bị. 🛡️ BẢO HÀNH • Bảo hành 365 ngày. • Hỗ trợ bảo hành tối đa 1 lần/tháng đối với lỗi đăng nhập do đăng nhập quá thường xuyên. ⚠️ LƯU Ý • Hạn chế đăng nhập/đăng xuất liên tục hoặc trên nhiều thiết bị. • Vui lòng kiểm tra tài khoản ngay sau khi nhận hàng\n✏️",
         "sources": {
@@ -9837,14 +9837,20 @@
             "cost_price": 600000,
             "selling_price": 700000,
             "updated": "06:00 31/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 550000,
+            "selling_price": 650000,
+            "updated": "06:00 31/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 600000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 550000,
           "stock": 1
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -15285,6 +15291,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793401250440",
+      "time": "06:00 - 31/10/2026",
+      "name": "Capcut Pro Team 12 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 650000,
+      "costPrice": 550000,
+      "stockAfter": 2,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutProTeam12Tháng-BHF➕Thêm:2📦Tồnkhohiệntại:1💰Giá:550.000đ"
+    },
+    {
       "id": "hist-1793401245613",
       "time": "06:00 - 31/10/2026",
       "name": "Capcut Pro Team 12 Tháng BHF",
@@ -16372,17 +16389,6 @@
       "stockAfter": 18,
       "catKey": "grok",
       "msgKey": "⚡GROKPREMIUM+GROKBOT4X14DBH3D➕Thêm:10📦Tồnkhohiệntại:18💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1793383328875",
-      "time": "01:02 - 31/10/2026",
-      "name": "GROK  PREMIUM + GROK BOT 4X 14D BH 3D",
-      "bot": "taphoathomap_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 19,
-      "catKey": "grok",
-      "msgKey": "⚡GROKPREMIUM+GROKBOT4X14DBH3D➕Thêm:10📦Tồnkhohiệntại:19💰Giá:100.000đ"
     }
   ],
   "vidiq": {
