@@ -8884,6 +8884,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 90000
         }
+      },
+      {
+        "id": "p-1793397461675",
+        "name": "Notion Plus 1 năm (BHF)",
+        "price": 130000,
+        "cost_price": 110000,
+        "stock": 7,
+        "stock_text": "Còn 7",
+        "duration": "1 Năm",
+        "detail": "📚 **NOTION PLUS EDU**\n✨ Có thể gia hạn được thêm\n✨ Không gian học tập và làm việc thông minh\n✅ Không giới hạn trang & nội dung\n✅ Hỗ trợ Notion AI theo quyền lợi tài khoản\n🚀 Tất cả trong một nơi: ghi chú, lập kế hoạch, quản lý kiến thức và dự án.\n📦 Định dạng: MAIL | PASS | 2FA\n* Không được thay đổi email. Mua về thay đổi mật khẩu để bảo mật (tự bảo quản)\n*gói PLUS chỉ áp dụng cho 1 workspace. Nếu xoá workspace plus đi thì sẽ mất gói (không bảo hành)\n✅ Mua số lượng nhiều inbox admin giá tốt hơn\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 7,
+            "cost_price": 110000,
+            "selling_price": 130000,
+            "updated": "04:57 31/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 110000,
+          "stock": 7
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -15208,6 +15234,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793397461675",
+      "time": "04:57 - 31/10/2026",
+      "name": "Notion Plus 1 năm (BHF)",
+      "bot": "piggyai99_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 7,
+      "catKey": "notion",
+      "msgKey": "⭐NotionPlus1năm(BHF)➕Thêm:6📦Tồnkhohiệntại:7💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793397321355",
       "time": "04:55 - 31/10/2026",
       "name": "ChatGPT Plus 1 Tháng (Codex Full ) BHF",
@@ -16295,17 +16332,6 @@
       "stockAfter": 1257,
       "catKey": "gmail",
       "msgKey": "📧GmailCổRandom2010~2022➕Thêm:500📦Tồnkhohiệntại:654💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793378002639",
-      "time": "23:33 - 30/10/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 57,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:30📦Tồnkhohiệntại:37💰Giá:70.000đ"
     }
   ],
   "vidiq": {
