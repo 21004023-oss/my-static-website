@@ -4202,25 +4202,27 @@
         "id": "p-1792599676011",
         "name": "100M Credit API Claude 3 Ngày - BHF",
         "price": 179000,
-        "cost_price": 45000,
-        "stock": 292,
-        "stock_text": "Còn 292",
-        "duration": "100 Tháng",
-        "detail": "Base URL : https://gpt.teamsoclo.site/\nModel : claude-fable-5, claude-fable-5-1, claude-haiku-4-5, claude-opus-4-6, claude-opus-4-7, claude-opus-4-8, claude-opus-5, claude-opus-5-5, claude-sonnet-4-6, claude-sonnet-5\nHDSD: https://docs.teamsoclo.site/\nVideo Codex Setup: https://tinyurl.com/teamsoclovid\nVideo Claude Setup:\nhttps://tinyurl.com/teamsoclovidclaudesetup\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng",
+        "cost_price": 159000,
+        "stock": 690,
+        "stock_text": "Còn 690",
+        "duration": "3 Ngày",
+        "detail": "Base URL : https://gpt.teamsoclo.site/\nModel : claude-fable-5, claude-fable-5-1, claude-haiku-4-5, claude-opus-4-6, claude-opus-4-7, claude-opus-4-8, claude-opus-5, claude-opus-5-5, claude-sonnet-4-6, claude-sonnet-5\nHDSD: https://docs.teamsoclo.site/\nVideo Codex Setup: https://tinyurl.com/teamsoclovid\nVideo Claude Setup:\nhttps://tinyurl.com/teamsoclovidclaudesetup\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 292,
+            "stock": 690,
             "cost_price": 159000,
             "selling_price": 179000,
-            "updated": "23:21 21/10/2026"
+            "updated": "13:14 30/10/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 45000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 159000,
+          "stock": 690
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792601762956",
@@ -14462,6 +14464,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793340844822",
+      "time": "13:14 - 30/10/2026",
+      "name": "100M Credit API Claude 3 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 179000,
+      "costPrice": 159000,
+      "stockAfter": 690,
+      "catKey": "claude",
+      "msgKey": "🧠100MCreditAPIClaude3Ngày-BHF➕Thêm:200📦Tồnkhohiệntại:690💰Giá:159.000đ"
+    },
+    {
       "id": "hist-1793340642582",
       "time": "13:10 - 30/10/2026",
       "name": "1B Credit API Claude 7 Ngày - BHF",
@@ -15549,17 +15562,6 @@
       "stockAfter": 2,
       "catKey": "kling",
       "msgKey": "🎬Kling790-1kCredit1thángBH1Ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1793308808322",
-      "time": "04:20 - 30/10/2026",
-      "name": "Tiktok Việt ngâm trên 1 Năm",
-      "bot": "piggyai99_bot",
-      "price": 95000,
-      "costPrice": 85000,
-      "stockAfter": 2,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokViệtngâmtrên1Năm➕Thêm:1📦Tồnkhohiệntại:1💰Giá:85.000đ"
     }
   ],
   "vidiq": {
