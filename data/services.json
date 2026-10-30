@@ -3924,6 +3924,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793375492257",
+        "name": "[CDK] Thuê Số OTP Codex/GPT 30D BH 24H",
+        "price": 20000,
+        "cost_price": 10000,
+        "stock": 92,
+        "stock_text": "Còn 92",
+        "duration": "1 Tháng",
+        "detail": "🎁 HD nhận mã:\n1. Mở dịch vụ cần xác minh đến bước nhập số điện thoại.\n2. Mở link → bấm \"Nhận\" → Copy số điện thoại.\n3. Dán số vào dịch vụ, bấm gửi mã.\n4. Giữ trang mở, mã sẽ tự hiện → Copy và nhập vào dịch vụ.\nMỗi link chỉ nhận 1 mã. Lỡ đóng trang thì mở lại link để xem lại mã.\nLưu ý: số chỉ thuê/dùng 1 lần\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 92,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "22:51 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 10000,
+          "stock": 92
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14960,6 +14986,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793375492258",
+      "time": "22:51 - 30/10/2026",
+      "name": "[CDK] Thuê Số OTP Codex/GPT 30D BH 24H",
+      "bot": "piggyai99_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 92,
+      "catKey": "chatgpt",
+      "msgKey": "🤖[CDK]ThuêSốOTPCodex/GPT30DBH24H➕Thêm:2📦Tồnkhohiệntại:92💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1793375437845",
       "time": "22:50 - 30/10/2026",
       "name": "[CDK] Thuê Số OTP Gmail 30D BH 24H",
@@ -16047,17 +16084,6 @@
       "stockAfter": 73,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:41📦Tồnkhohiệntại:53💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1793360380194",
-      "time": "18:39 - 30/10/2026",
-      "name": "GROK  PREMIUM + GROK BOT 4X 14D BH 3D",
-      "bot": "taphoathomap_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 9,
-      "catKey": "grok",
-      "msgKey": "⚡GROKPREMIUM+GROKBOT4X14DBH3D➕Thêm:6📦Tồnkhohiệntại:9💰Giá:100.000đ"
     }
   ],
   "vidiq": {
