@@ -12594,16 +12594,16 @@
         "name": "Gmail random new",
         "price": 35000,
         "cost_price": 22000,
-        "stock": 33,
-        "stock_text": "Còn 33",
+        "stock": 53,
+        "stock_text": "Còn 53",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 22,
+            "stock": 42,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "17:53 30/10/2026"
+            "updated": "18:45 30/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -14746,6 +14746,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793360703839",
+      "time": "18:45 - 30/10/2026",
+      "name": "Gmail random new",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 53,
+      "catKey": "gmail",
+      "msgKey": "📧Gmailrandomnew➕Thêm:20📦Tồnkhohiệntại:42💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793360541584",
       "time": "18:42 - 30/10/2026",
       "name": "ChatGPT Plus 1 Tháng KBH",
@@ -15833,17 +15844,6 @@
       "stockAfter": 1102,
       "catKey": "claude",
       "msgKey": "🧠VIP2.API100MTokenClaude1Ngày-BHF➕Thêm:500📦Tồnkhohiệntại:1102💰Giá:99.000đ"
-    },
-    {
-      "id": "hist-1793341986247",
-      "time": "13:33 - 30/10/2026",
-      "name": "API 100M Token Claude 1 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 1102,
-      "catKey": "claude",
-      "msgKey": "🧠API100MTokenClaude1NgàyBHF➕Thêm:500📦Tồnkhohiệntại:1102💰Giá:130.000đ"
     }
   ],
   "vidiq": {
