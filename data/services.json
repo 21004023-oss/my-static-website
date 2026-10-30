@@ -4665,6 +4665,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793402250633",
+        "name": "API 1B (1 tỉ) Token Claude 30 Ngày - BH7D",
+        "price": 1280000,
+        "cost_price": 1080000,
+        "stock": 507,
+        "stock_text": "Còn 507",
+        "duration": "1 Tháng",
+        "detail": "--- Nhà cung cấp API Đầu Tiên và uy tín Hàng Đầu - ĐÃ CÓ ĐĂNG KÍ KINH DOANH ---\nKênh thông báo : https://t.me/api_thongbao\nHộp thư hỗ trợ  : https://api.nghimmo.com/support\nDanh sách model, và hướng dẫn : api.nghimmo.com/huongdan\nLink nạp thêm token cho key : https://api.nghimmo.com/redeem\nModel : Full model Claude Fable, Opus, Sonet, Haiku\nTrang kiểm tra KEY : api.nghimmo.com/check\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 507,
+            "cost_price": 1080000,
+            "selling_price": 1280000,
+            "updated": "06:17 31/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 1080000,
+          "stock": 507
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -15343,6 +15369,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793402250633",
+      "time": "06:17 - 31/10/2026",
+      "name": "API 1B (1 tỉ) Token Claude 30 Ngày - BH7D",
+      "bot": "taphoathomap_bot",
+      "price": 1280000,
+      "costPrice": 1080000,
+      "stockAfter": 507,
+      "catKey": "claude",
+      "msgKey": "🧠API1B(1tỉ)TokenClaude30Ngày-BH7D➕Thêm:500📦Tồnkhohiệntại:507💰Giá:1.080.000đ"
+    },
+    {
       "id": "hist-1793402091557",
       "time": "06:14 - 31/10/2026",
       "name": "Open Art 4K credit 30D BH 24H",
@@ -16430,17 +16467,6 @@
       "stockAfter": 27,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:15📦Tồnkhohiệntại:27💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1793384434210",
-      "time": "01:20 - 31/10/2026",
-      "name": "TiktokVN LiveStudio 1KFL THẬT",
-      "bot": "taphoathomap_bot",
-      "price": 260000,
-      "costPrice": 230000,
-      "stockAfter": 5,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokVNLiveStudio1KFLTHẬT➕Thêm:1📦Tồnkhohiệntại:5💰Giá:230.000đ"
     }
   ],
   "vidiq": {
