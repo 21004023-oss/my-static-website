@@ -10173,9 +10173,9 @@
         "id": "p-1793328196390",
         "name": "Code NordVPN 10 thiết bị 3 tháng BHF",
         "price": 205000,
-        "cost_price": 185000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "cost_price": 170000,
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "3 Tháng",
         "detail": "-Nord VPN 10 thiết bị\n-Hạn gói: 3 tháng\n-Bảo hành: 3 tháng.\n✏️",
         "sources": {
@@ -10184,14 +10184,20 @@
             "cost_price": 185000,
             "selling_price": 205000,
             "updated": "09:43 30/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 170000,
+            "selling_price": 190000,
+            "updated": "09:43 30/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 185000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 170000,
           "stock": 5
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -14238,6 +14244,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793328207140",
+      "time": "09:43 - 30/10/2026",
+      "name": "Code NordVPN 10 thiết bị 3 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 190000,
+      "costPrice": 170000,
+      "stockAfter": 10,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️CodeNordVPN10thiếtbị3thángBHF➕Thêm:4📦Tồnkhohiệntại:5💰Giá:170.000đ"
+    },
+    {
       "id": "hist-1793328202092",
       "time": "09:43 - 30/10/2026",
       "name": "Code Nord VPN 10 thiết bị 3 tháng BHF",
@@ -15325,17 +15342,6 @@
       "stockAfter": 52,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000credit1THBH1ngày➕Thêm:12📦Tồnkhohiệntại:25💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1793299512366",
-      "time": "01:45 - 30/10/2026",
-      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
-      "bot": "piggyai99_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 52,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:150k📦Tồnkho:25tàikhoản📊Đãbán:142tàikhoản✏"
     }
   ],
   "vidiq": {
