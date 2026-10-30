@@ -7546,6 +7546,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793357082661",
+        "name": "Higgsfield 60 credit 1 tháng BH 3 ngày",
+        "price": 50000,
+        "cost_price": 40000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "Gói Higgsfield 60 credit 1 tháng BH 3 ngày bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "17:44 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 40000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14720,6 +14746,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793357082661",
+      "time": "17:44 - 30/10/2026",
+      "name": "Higgsfield 60 credit 1 tháng BH 3 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 5,
+      "catKey": "higgsfield",
+      "msgKey": "🎬Higgsfield60credit1thángBH3ngày💰Giá:40k📦Tồnkho:5tàikhoản📊Đãbán:5tàikhoản✏️Vuilò"
+    },
+    {
       "id": "hist-1793357041198",
       "time": "17:44 - 30/10/2026",
       "name": "Gmail cổ + Kênh cổ trắng youtube 2020-2022",
@@ -15807,17 +15844,6 @@
       "stockAfter": 220,
       "catKey": "chatgpt",
       "msgKey": "⭐1000MCreditAPICodex1Tháng-BHF➕Thêm:200📦Tồnkhohiệntại:220💰Giá:759.000đ"
-    },
-    {
-      "id": "hist-1793338909366",
-      "time": "12:41 - 30/10/2026",
-      "name": "Tài khoản Newtake ai Credits 19$ starter Plan 1 tháng ( BH 24H )",
-      "bot": "taphoathomap_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 68,
-      "catKey": "khac",
-      "msgKey": "TàikhoảnNewtakeaiCredits19$starterPlan1tháng(BH24H)➕Thêm:33📦Tồnkhohiệntại:68💰Giá"
     }
   ],
   "vidiq": {
