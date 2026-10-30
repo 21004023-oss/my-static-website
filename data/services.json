@@ -4034,6 +4034,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793404243266",
+        "name": "1B Credit API Codex 14 Ngày - BHF",
+        "price": 839000,
+        "cost_price": 739000,
+        "stock": 298,
+        "stock_text": "Còn 298",
+        "duration": "1 Tháng",
+        "detail": "Base URL : https://gpt.teamsoclo.site/v1\nModel : gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 298,
+            "cost_price": 739000,
+            "selling_price": 839000,
+            "updated": "06:50 31/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 739000,
+          "stock": 298
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -15395,6 +15421,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793404243267",
+      "time": "06:50 - 31/10/2026",
+      "name": "1B Credit API Codex 14 Ngày - BHF",
+      "bot": "piggyai99_bot",
+      "price": 839000,
+      "costPrice": 739000,
+      "stockAfter": 298,
+      "catKey": "chatgpt",
+      "msgKey": "⭐1BCreditAPICodex14Ngày-BHF➕Thêm:200📦Tồnkhohiệntại:298💰Giá:739.000đ"
+    },
+    {
       "id": "hist-1793403297767",
       "time": "06:34 - 31/10/2026",
       "name": "10M Credit API Codex 1 Tháng - BHF",
@@ -16482,17 +16519,6 @@
       "stockAfter": 7,
       "catKey": "zoom",
       "msgKey": "⭐ZoomPro28NgàyBHF💰Giá:45k📦Tồnkho:3tàikhoản📊Đãbán:451tàikhoản💎Môtả:ZoomPro100memb"
-    },
-    {
-      "id": "hist-1793385367057",
-      "time": "01:36 - 31/10/2026",
-      "name": "Zoom Pro 28 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 7,
-      "catKey": "zoom",
-      "msgKey": "⭐ZoomPro28NgàyBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:45.000đ"
     }
   ],
   "vidiq": {
