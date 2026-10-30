@@ -12897,6 +12897,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793375437844",
+        "name": "[CDK] Thuê Số OTP Gmail 30D BH 24H",
+        "price": 20000,
+        "cost_price": 10000,
+        "stock": 49,
+        "stock_text": "Còn 49",
+        "duration": "1 Tháng",
+        "detail": "🎁 HD nhận mã:\n1. Mở dịch vụ cần xác minh đến bước nhập số điện thoại.\n2. Mở link → bấm \"Nhận\" → Copy số điện thoại.\n3. Dán số vào dịch vụ, bấm gửi mã.\n4. Giữ trang mở, mã sẽ tự hiện → Copy và nhập vào dịch vụ.\nMỗi link chỉ nhận 1 mã. Lỡ đóng trang thì mở lại link để xem lại mã.\nLưu ý: số chỉ thuê/dùng 1 lần\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 49,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "22:50 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 10000,
+          "stock": 49
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14934,6 +14960,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793375437845",
+      "time": "22:50 - 30/10/2026",
+      "name": "[CDK] Thuê Số OTP Gmail 30D BH 24H",
+      "bot": "piggyai99_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 49,
+      "catKey": "gmail",
+      "msgKey": "📧[CDK]ThuêSốOTPGmail30DBH24H➕Thêm:1📦Tồnkhohiệntại:49💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1793375227316",
       "time": "22:47 - 30/10/2026",
       "name": "Gmail Việt 2020-2024",
@@ -16021,17 +16058,6 @@
       "stockAfter": 9,
       "catKey": "grok",
       "msgKey": "⚡GROKPREMIUM+GROKBOT4X14DBH3D➕Thêm:6📦Tồnkhohiệntại:9💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1793360154405",
-      "time": "18:35 - 30/10/2026",
-      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 25,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:10📦Tồnkhohiệntại:25💰Giá:180.000đ"
     }
   ],
   "vidiq": {
