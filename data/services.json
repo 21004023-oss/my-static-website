@@ -12426,10 +12426,10 @@
         "id": "p-1792128240242",
         "name": "Gmail Việt 2020-2024",
         "price": 55000,
-        "stock": 523,
-        "stock_text": "Còn 523",
+        "stock": 520,
+        "stock_text": "Còn 520",
         "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành\n✏️",
+        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "sources": {
           "taphoathomap_bot": {
             "stock": 520,
@@ -12438,10 +12438,10 @@
             "updated": "16:20 19/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 3,
+            "stock": 0,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "19:13 30/10/2026"
+            "updated": "21:22 30/10/2026"
           }
         },
         "hidden": false,
@@ -14882,6 +14882,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793370165199",
+      "time": "21:22 - 30/10/2026",
+      "name": "Gmail Việt 2020-2024",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 520,
+      "catKey": "gmail",
+      "msgKey": "📧GmailViệt2020-2024➕Thêm:1📦Tồnkhohiệntại:0💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793369841784",
       "time": "21:17 - 30/10/2026",
       "name": "Kling Standard 800 credit 1TH Bh 1 ngày",
@@ -15969,17 +15980,6 @@
       "stockAfter": 10,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+7NgàyBH5Ngày💰Giá:25k📦Tồnkho:5tàikhoản📊Đãbán:529tàikhoản💎Môtả:Mởkhóaful"
-    },
-    {
-      "id": "hist-1793354757016",
-      "time": "17:05 - 30/10/2026",
-      "name": "Meitu Vip+ 7 Ngày BH 5 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 10,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+7NgàyBH5Ngày➕Thêm:5📦Tồnkhohiệntại:5💰Giá:25.000đ"
     }
   ],
   "vidiq": {
