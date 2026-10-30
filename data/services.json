@@ -6056,8 +6056,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -6068,10 +6068,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 8,
+            "stock": 4,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "09:12 30/10/2026"
+            "updated": "17:55 30/10/2026"
           }
         },
         "hidden": false,
@@ -6080,7 +6080,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 8
+          "stock": 4
         }
       },
       {
@@ -14746,6 +14746,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793357757940",
+      "time": "17:55 - 30/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 6,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:5📦Tồnkhohiệntại:4💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793357753257",
       "time": "17:55 - 30/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -15833,17 +15844,6 @@
       "stockAfter": 88,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsuhạn30ngàyBH24H➕Thêm:21📦Tồnkhohiệntại:44💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1793339388302",
-      "time": "12:49 - 30/10/2026",
-      "name": "Higgsfield Genjutsu hạn 30 ngày BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 87,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn30ngàyBH24H➕Thêm:21📦Tồnkhohiệntại:44💰Giá:30.000đ"
     }
   ],
   "vidiq": {
