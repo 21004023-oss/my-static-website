@@ -10057,6 +10057,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793401401537",
+        "name": "Adobe All Apps 14 Ngày BHF",
+        "price": 185000,
+        "cost_price": 165000,
+        "stock": 31,
+        "stock_text": "Còn 31",
+        "duration": "1 Tháng",
+        "detail": "- Adobe All Apps 14D Add Teams sử dụng 2 thiết bị\n!!! VIP: KHÁCH HÀNG CÓ THỂ CHỦ ĐỘNG BẢO HÀNH !!!\n- Bảo hành trọn vòng đời sử dụng. HÀNG ĐẶT LÀM, ORDER XONG NHẮN TIN CHO ADMIN. DONE NHANH TRONG GIỜ HÀNH CHÍNH\n- Vui lòng không thay đổi thông tin tài khoản tránh bị dis khỏi Team\n- Tài khoản lỗi do team có vấn đề vui lòng truy cập đường dẫn phía dưới, nhập email đã đăng kí, sau đó chọn \"Press here to change to active organization\" -> đợi được add vào Team mới -> logout login lại sử dụng như bình thường:\nhttps://reseller.ado-besoft.com/status\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 31,
+            "cost_price": 165000,
+            "selling_price": 185000,
+            "updated": "06:03 31/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 165000,
+          "stock": 31
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -15291,6 +15317,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793401401537",
+      "time": "06:03 - 31/10/2026",
+      "name": "Adobe All Apps 14 Ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 185000,
+      "costPrice": 165000,
+      "stockAfter": 31,
+      "catKey": "adobe",
+      "msgKey": "🎨AdobeAllApps14NgàyBHF➕Thêm:20📦Tồnkhohiệntại:31💰Giá:165.000đ"
+    },
+    {
       "id": "hist-1793401255465",
       "time": "06:00 - 31/10/2026",
       "name": "Capcut Pro Team 12 Tháng - BHF",
@@ -16378,17 +16415,6 @@
       "stockAfter": 8,
       "catKey": "khac",
       "msgKey": "⭐OpenArt4KCredit1ThángBH1Ngày➕Thêm:7📦Tồnkhohiệntại:8💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1793383645309",
-      "time": "01:07 - 31/10/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 61,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:13📦Tồnkhohiệntại:41💰Giá:70.000đ"
     }
   ],
   "vidiq": {
