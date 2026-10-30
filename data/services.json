@@ -11765,16 +11765,16 @@
         "id": "p-1792268578812",
         "name": "Microsoft 365 Admin Family 1 Tháng BHF",
         "price": 40000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
         "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 9,
+            "stock": 12,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "02:43 29/10/2026"
+            "updated": "23:01 30/10/2026"
           }
         },
         "hidden": false,
@@ -11782,7 +11782,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 30000,
-          "stock": 9
+          "stock": 12
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -14988,6 +14988,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793376073178",
+      "time": "23:01 - 30/10/2026",
+      "name": "Microsoft 365 Admin Family 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 12,
+      "catKey": "microsoft",
+      "msgKey": "⭐Microsoft365AdminFamily1ThángBHF➕Thêm:9📦Tồnkhohiệntại:12💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793376066998",
       "time": "23:01 - 30/10/2026",
       "name": "Admin Microsoft 365 Family 1 Tháng BHF",
@@ -16075,17 +16086,6 @@
       "stockAfter": 50,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1tháng-BH3Ngày➕Thêm:50📦Tồnkhohiệntại:50💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1793360991901",
-      "time": "18:49 - 30/10/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 244,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH24H➕Thêm:100📦Tồnkhohiệntại:100💰Giá:100.000đ"
     }
   ],
   "vidiq": {
