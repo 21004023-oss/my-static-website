@@ -4388,6 +4388,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793341841628",
+        "name": "API 500M Token Claude 7 Ngày - BHF",
+        "price": 519000,
+        "cost_price": 469000,
+        "stock": 518,
+        "stock_text": "Còn 518",
+        "duration": "7 Ngày",
+        "detail": "--- Nhà cung cấp API Đầu Tiên và uy tín Hàng Đầu - ĐÃ CÓ ĐĂNG KÍ KINH DOANH ---\nKênh thông báo : https://t.me/api_thongbao\nHộp thư hỗ trợ  : https://api.nghimmo.com/support\nDanh sách model, và hướng dẫn : api.nghimmo.com/huongdan\nLink nạp thêm token cho key : https://api.nghimmo.com/redeem\nModel : Full model Claude Fable, Opus, Sonet, Haiku\nTrang kiểm tra KEY : api.nghimmo.com/check\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 518,
+            "cost_price": 469000,
+            "selling_price": 519000,
+            "updated": "13:30 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 469000,
+          "stock": 518
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14475,6 +14501,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793341841628",
+      "time": "13:30 - 30/10/2026",
+      "name": "API 500M Token Claude 7 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 519000,
+      "costPrice": 469000,
+      "stockAfter": 518,
+      "catKey": "claude",
+      "msgKey": "🧠API500MTokenClaude7Ngày-BHF➕Thêm:500📦Tồnkhohiệntại:518💰Giá:469.000đ"
+    },
+    {
       "id": "hist-1793341545286",
       "time": "13:25 - 30/10/2026",
       "name": "20M Credit API Codex 1 Tháng - BHF",
@@ -15562,17 +15599,6 @@
       "stockAfter": 8,
       "catKey": "netflix",
       "msgKey": "🎬NetflixPremiumExtra30NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1793324246191",
-      "time": "08:37 - 30/10/2026",
-      "name": "Muse Ai 1B Token KBH",
-      "bot": "sieuthistore_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 965,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:50📦Tồnkhohiệntại:69💰Giá:15.000đ"
     }
   ],
   "vidiq": {
