@@ -14053,22 +14053,22 @@
         "name": "Iqiyi Cao Cấp 1 Tháng BHF",
         "price": 48000,
         "cost_price": 38000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "Slot iqiyi cấp sẵn xem 1 thiết bị đồng thời\nbảo hành full gói 1 tháng\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 3,
+            "stock": 2,
             "cost_price": 38000,
             "selling_price": 48000,
-            "updated": "21:15 28/10/2026"
+            "updated": "22:07 30/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 38000,
-          "stock": 3
+          "stock": 2
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -14933,6 +14933,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793372862357",
+      "time": "22:07 - 30/10/2026",
+      "name": "Iqiyi Cao Cấp 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 48000,
+      "costPrice": 38000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "msgKey": "⭐IqiyiCaoCấp1ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:38.000đ"
+    },
     {
       "id": "hist-1793372576020",
       "time": "22:02 - 30/10/2026",
@@ -16021,17 +16032,6 @@
       "stockAfter": 35,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+1ThángBHF➕Thêm:8📦Tồnkhohiệntại:8💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1793358166471",
-      "time": "18:02 - 30/10/2026",
-      "name": "MUSE.AI -31 TỶ TOKEN (KBH)",
-      "bot": "piggyai99_bot",
-      "price": 65000,
-      "costPrice": 55000,
-      "stockAfter": 20,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MUSE.AI-31TỶTOKEN(KBH)➕Thêm:3📦Tồnkhohiệntại:10💰Giá:55.000đ"
     }
   ],
   "vidiq": {
