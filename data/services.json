@@ -3667,6 +3667,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793337724374",
+        "name": "[Astra] API 20M Token Codex 1 Ngày - BHF",
+        "price": 85000,
+        "cost_price": 75000,
+        "stock": 610,
+        "stock_text": "Còn 610",
+        "duration": "1 Ngày",
+        "detail": "[Astra] API 20M Token Codex 1 Ngày - BHF\nBase URL : https://gpt.teamsoclo.site/v1\nModel : gpt-astra\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 610,
+            "cost_price": 75000,
+            "selling_price": 85000,
+            "updated": "12:22 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 75000,
+          "stock": 610
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14281,6 +14307,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793337724374",
+      "time": "12:22 - 30/10/2026",
+      "name": "[Astra] API 20M Token Codex 1 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 85000,
+      "costPrice": 75000,
+      "stockAfter": 610,
+      "catKey": "chatgpt",
+      "msgKey": "⭐[Astra]API20MTokenCodex1Ngày-BHF➕Thêm:200📦Tồnkhohiệntại:610💰Giá:75.000đ"
+    },
+    {
       "id": "hist-1793337475234",
       "time": "12:17 - 30/10/2026",
       "name": "[CDK] THUÊ SỐ NHẬN OTP CODEX 24H KBH",
@@ -15368,17 +15405,6 @@
       "stockAfter": 12,
       "catKey": "zoom",
       "msgKey": "⭐ZoomPro28NgàyBHF➕Thêm:5📦Tồnkhohiệntại:8💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793304054137",
-      "time": "03:00 - 30/10/2026",
-      "name": "Acc cấp Zoom Pro 28 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 8,
-      "catKey": "zoom",
-      "msgKey": "⭐AcccấpZoomPro28NgàyBHF➕Thêm:5📦Tồnkhohiệntại:8💰Giá:65.000đ"
     }
   ],
   "vidiq": {
