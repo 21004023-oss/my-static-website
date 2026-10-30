@@ -14903,10 +14903,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793371664073",
+        "name": "Tài Khoản X Cổ 2009-2022 US Trâu Bò-BH24H",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 16,
+        "stock_text": "Còn 16",
+        "duration": "1 Tháng",
+        "detail": "Gói Tài Khoản X Cổ 2009-2022 US Trâu Bò-BH24H bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 16,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "21:47 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 35000,
+          "stock": 16
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793371664073",
+      "time": "21:47 - 30/10/2026",
+      "name": "Tài Khoản X Cổ 2009-2022 US Trâu Bò-BH24H",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 16,
+      "catKey": "khac",
+      "msgKey": "⭐TàiKhoảnXCổ2009-2022USTrâuBò-BH24H➕Thêm:15📦Tồnkhohiệntại:16💰Giá:35.000đ"
+    },
     {
       "id": "hist-1793371076221",
       "time": "21:37 - 30/10/2026",
@@ -15995,17 +16032,6 @@
       "stockAfter": 10,
       "catKey": "khac",
       "msgKey": "TàikhoảnNewtakeaiCredits19$starterPlan1tháng(BH24H)➕Thêm:10📦Tồnkhohiệntại:10💰Giá"
-    },
-    {
-      "id": "hist-1793356106193",
-      "time": "17:28 - 30/10/2026",
-      "name": "🔥VIP . Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 63,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥VIP.ChatgptPlusApplePay1thángBHF➕Thêm:41📦Tồnkhohiệntại:63💰Giá:160.000đ"
     }
   ],
   "vidiq": {
