@@ -7901,25 +7901,27 @@
         "id": "p-1792193309121",
         "name": "Seedance 2.5 1 tháng BH 5 Ngày",
         "price": 150000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "1 Tháng",
         "detail": "rendar.ai gói 12$\n40 token được làm mới hàng ngày\n6.000 token mỗi tháng\nTạo từ 1 đến 4 hình ảnh cho mỗi yêu cầu\nChờ hàng đợi tối đa 5 tác vụ tạo hình ảnh và video đang hoạt động (tổng cộng)\nTạo đồng thời 2 tác vụ\nLưu trữ tối đa 10.000 hình ảnh và video trong bộ sưu tập cá nhân\nLịch sử tạo đầy đủ có sẵn trong thời gian đăng ký\nTruy cập không giới hạn vào các công cụ chỉnh sửa.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 5,
-            "cost_price": 130000,
-            "updated": "06:28 17/10/2026",
-            "selling_price": 150000
+            "stock": 9,
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "00:31 31/10/2026"
           }
         },
         "hidden": false,
-        "cost_price": 130000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "cost_price": 120000,
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 130000
-        }
+          "bot": "@sieuthistore_bot",
+          "cost_price": 120000,
+          "stock": 9
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792193313918",
@@ -15020,6 +15022,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793381500402",
+      "time": "00:31 - 31/10/2026",
+      "name": "Seedance 2.5 1 tháng BH 5 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 9,
+      "catKey": "seedance",
+      "msgKey": "⭐Seedance2.51thángBH5Ngày➕Thêm:1📦Tồnkhohiệntại:9💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1793381495554",
       "time": "00:31 - 31/10/2026",
       "name": "seedance 2.5 1 tháng BH 5D",
@@ -16107,17 +16120,6 @@
       "stockAfter": 5212,
       "catKey": "khac",
       "msgKey": "⭐🔥MinimaxRedeem131KCredit➕Thêm:5000📦Tồnkhohiệntại:5212💰Giá:59.000đ"
-    },
-    {
-      "id": "hist-1793365481479",
-      "time": "20:04 - 30/10/2026",
-      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
-      "bot": "taphoathomap_bot",
-      "price": 43000,
-      "costPrice": 33000,
-      "stockAfter": 102,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:1📦Tồnkhohiệntại:30💰Giá:33.000đ"
     }
   ],
   "vidiq": {
