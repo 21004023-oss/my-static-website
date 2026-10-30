@@ -12594,16 +12594,16 @@
         "name": "Gmail random new",
         "price": 35000,
         "cost_price": 22000,
-        "stock": 40,
-        "stock_text": "Còn 40",
+        "stock": 33,
+        "stock_text": "Còn 33",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 29,
+            "stock": 22,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "04:10 29/10/2026"
+            "updated": "17:53 30/10/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -14746,6 +14746,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793357581774",
+      "time": "17:53 - 30/10/2026",
+      "name": "Gmail random new",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 33,
+      "catKey": "gmail",
+      "msgKey": "📧Gmailrandomnew➕Thêm:20📦Tồnkhohiệntại:22💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793357087508",
       "time": "17:44 - 30/10/2026",
       "name": "Higgsfield 60 credit 1 tháng BH 3 ngày",
@@ -15833,17 +15844,6 @@
       "stockAfter": 636,
       "catKey": "claude",
       "msgKey": "🧠20MCreditAPIClaude1Ngày-BHF➕Thêm:200📦Tồnkhohiệntại:636💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793339031668",
-      "time": "12:43 - 30/10/2026",
-      "name": "Tài khoản Newtake ai Credits 19$ starter Plan 1 tháng ( BH 24H )",
-      "bot": "taphoathomap_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 68,
-      "catKey": "khac",
-      "msgKey": "TàikhoảnNewtakeaiCredits19$starterPlan1tháng(BH24H)➕Thêm:26📦Tồnkhohiệntại:68💰Giá"
     }
   ],
   "vidiq": {
