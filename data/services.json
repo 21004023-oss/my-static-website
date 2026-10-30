@@ -6108,8 +6108,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -6120,10 +6120,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 14,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "17:55 30/10/2026"
+            "updated": "20:19 30/10/2026"
           }
         },
         "hidden": false,
@@ -6132,7 +6132,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 4
+          "stock": 14
         }
       },
       {
@@ -14824,6 +14824,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793366398593",
+      "time": "20:19 - 30/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 16,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:13📦Tồnkhohiệntại:14💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793366394382",
       "time": "20:19 - 30/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -15911,17 +15922,6 @@
       "stockAfter": 13,
       "catKey": "grok",
       "msgKey": "⚡GROKPREMIUM+GROKBOT4X14DBH3D➕Thêm:10📦Tồnkhohiệntại:13💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1793347118511",
-      "time": "14:58 - 30/10/2026",
-      "name": "Slot Adobe All Apps 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 300000,
-      "costPrice": 270000,
-      "stockAfter": 1,
-      "catKey": "adobe",
-      "msgKey": "🎨SlotAdobeAllApps1ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:270.000đ"
     }
   ],
   "vidiq": {
