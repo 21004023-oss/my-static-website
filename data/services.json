@@ -7360,6 +7360,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793395529291",
+        "name": "Redeem ElevenLabs Creator 1 tháng",
+        "price": 160000,
+        "cost_price": 140000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "1 Tháng",
+        "detail": "-Nhận gói Elevanlabs Creator 121K Credits\n-Vào link redeem và nhận gói\n-Hạn gói: 1 tháng\n-Bảo hành: Active thành công = hoàn tất BH.\n-Không cần thẻ thanh toán.\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 8,
+            "cost_price": 140000,
+            "selling_price": 160000,
+            "updated": "04:25 31/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 140000,
+          "stock": 8
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -15156,6 +15182,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793395529291",
+      "time": "04:25 - 31/10/2026",
+      "name": "Redeem ElevenLabs Creator 1 tháng",
+      "bot": "piggyai99_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 8,
+      "catKey": "elevenlabs",
+      "msgKey": "🎙️RedeemElevenLabsCreator1tháng➕Thêm:5📦Tồnkhohiệntại:8💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793395518868",
       "time": "04:25 - 31/10/2026",
       "name": "Muse AI 31B Token KBH",
@@ -16243,17 +16280,6 @@
       "stockAfter": 7,
       "catKey": "netflix",
       "msgKey": "🎬SlotriêngtưNetflixPremium4K1TH(BHF)➕Thêm:5📦Tồnkhohiệntại:7💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793376472574",
-      "time": "23:07 - 30/10/2026",
-      "name": "Chatgpt Plus (Apple Pay) 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 103,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:20📦Tồnkhohiệntại:40💰Giá:220.000đ"
     }
   ],
   "vidiq": {
