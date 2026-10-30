@@ -6849,22 +6849,22 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 25,
+        "stock_text": "Còn 25",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 9,
+            "stock": 25,
             "cost_price": 150000,
             "selling_price": 170000,
-            "updated": "18:19 30/10/2026"
+            "updated": "18:20 30/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 9
+          "stock": 25
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -14746,6 +14746,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793359200805",
+      "time": "18:20 - 30/10/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 25,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:30📦Tồnkhohiệntại:25💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793359196102",
       "time": "18:19 - 30/10/2026",
       "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
@@ -15833,17 +15844,6 @@
       "stockAfter": 51,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥ChatgptPlusPayTiềnThật1thángBHF➕Thêm:1📦Tồnkhohiệntại:51💰Giá:200.000đ"
-    },
-    {
-      "id": "hist-1793340997165",
-      "time": "13:16 - 30/10/2026",
-      "name": "50M Credit API Claude 1 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 668,
-      "catKey": "claude",
-      "msgKey": "🧠50MCreditAPIClaude1Ngày-BHF➕Thêm:200📦Tồnkhohiệntại:668💰Giá:65.000đ"
     }
   ],
   "vidiq": {
