@@ -6765,16 +6765,16 @@
         "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
         "price": 170000,
         "cost_price": 120000,
-        "stock": 41,
-        "stock_text": "Còn 41",
+        "stock": 32,
+        "stock_text": "Còn 32",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000 credit 1 TH BH 1 ngày bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 25,
+            "stock": 16,
             "cost_price": 120000,
             "selling_price": 140000,
-            "updated": "18:20 30/10/2026"
+            "updated": "21:01 30/10/2026"
           },
           "piggyai99_bot": {
             "stock": 16,
@@ -6786,7 +6786,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 120000,
-          "stock": 25
+          "stock": 16
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -14824,6 +14824,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793368897915",
+      "time": "21:01 - 30/10/2026",
+      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 32,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:120k📦Tồnkho:16tàikhoản📊Đãbán:195tàikhoản✏"
+    },
+    {
       "id": "hist-1793368891862",
       "time": "21:01 - 30/10/2026",
       "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
@@ -15911,17 +15922,6 @@
       "stockAfter": 3,
       "catKey": "khac",
       "msgKey": "⭐OPENARTPRO1THÁNG-[BH1NGÀY]💰Giá:750k📦Tồnkho:3tàikhoản📊Đãbán:412tàikhoản✏️Vuilòng"
-    },
-    {
-      "id": "hist-1793352695101",
-      "time": "16:31 - 30/10/2026",
-      "name": "OPENART STARTER 1 THÁNG- [BH 1 NGÀY]",
-      "bot": "taphoathomap_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "msgKey": "⭐OPENARTSTARTER1THÁNG-[BH1NGÀY]➕Thêm:1📦Tồnkhohiệntại:2💰Giá:160.000đ"
     }
   ],
   "vidiq": {
