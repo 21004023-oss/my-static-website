@@ -14637,10 +14637,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793352797141",
+        "name": "OPENART PRO 1 THÁNG - [BH 1 NGÀY]",
+        "price": 850000,
+        "cost_price": 750000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "Gói OPENART PRO 1 THÁNG - [BH 1 NGÀY] bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 750000,
+            "selling_price": 850000,
+            "updated": "16:33 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 750000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793352797141",
+      "time": "16:33 - 30/10/2026",
+      "name": "OPENART PRO 1 THÁNG - [BH 1 NGÀY]",
+      "bot": "taphoathomap_bot",
+      "price": 850000,
+      "costPrice": 750000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "msgKey": "⭐OPENARTPRO1THÁNG-[BH1NGÀY]💰Giá:750k📦Tồnkho:3tàikhoản📊Đãbán:412tàikhoản✏️Vuilòng"
+    },
     {
       "id": "hist-1793352695101",
       "time": "16:31 - 30/10/2026",
@@ -15729,17 +15766,6 @@
       "stockAfter": 14,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793336994300",
-      "time": "12:09 - 30/10/2026",
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 18,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:30.000đ"
     }
   ],
   "vidiq": {
