@@ -2876,24 +2876,24 @@
         "id": "api-codex-10m-2d",
         "name": "10M Credit API Codex 2 Ngày BHF",
         "price": 859000,
-        "stock": 220,
-        "stock_text": "Còn 220",
+        "stock": 590,
+        "stock_text": "Còn 590",
         "duration": "1 Tháng",
         "source": "Teamsoclo",
         "detail": "Base URL : https://gpt.teamsoclo.site/v1\nModel : gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
-        "cost_price": 759000,
+        "cost_price": 429000,
         "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 759000,
-          "stock": 220
+          "cost_price": 429000,
+          "stock": 590
         },
         "sources": {
           "taphoathomap_bot": {
-            "stock": 220,
-            "cost_price": 759000,
-            "selling_price": 859000,
-            "updated": "12:42 30/10/2026"
+            "stock": 590,
+            "cost_price": 429000,
+            "selling_price": 479000,
+            "updated": "13:18 30/10/2026"
           }
         },
         "hidden": false,
@@ -14464,6 +14464,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793341102192",
+      "time": "13:18 - 30/10/2026",
+      "name": "500M Credit API Codex 1 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 479000,
+      "costPrice": 429000,
+      "stockAfter": 590,
+      "catKey": "chatgpt",
+      "msgKey": "⭐500MCreditAPICodex1Tháng-BHF➕Thêm:200📦Tồnkhohiệntại:590💰Giá:429.000đ"
+    },
+    {
       "id": "hist-1793341082273",
       "time": "13:18 - 30/10/2026",
       "name": "10M Credit API Claude 1 Ngày - BHF",
@@ -15551,17 +15562,6 @@
       "stockAfter": 198,
       "catKey": "kling",
       "msgKey": "🎬Kling65Credit1ThángBHF➕Thêm:100📦Tồnkhohiệntại:198💰Giá:4.000đ"
-    },
-    {
-      "id": "hist-1793320986371",
-      "time": "07:43 - 30/10/2026",
-      "name": "Express VPN Random 2-3 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 17000,
-      "costPrice": 7000,
-      "stockAfter": 5,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:2📦Tồnkhohiệntại:5💰Giá:7.000đ"
     }
   ],
   "vidiq": {
