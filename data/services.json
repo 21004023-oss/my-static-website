@@ -12478,10 +12478,10 @@
         "id": "p-1792128240242",
         "name": "Gmail Việt 2020-2024",
         "price": 55000,
-        "stock": 521,
-        "stock_text": "Còn 521",
+        "stock": 520,
+        "stock_text": "Còn 520",
         "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành\n✏️",
+        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "sources": {
           "taphoathomap_bot": {
             "stock": 520,
@@ -12490,10 +12490,10 @@
             "updated": "16:20 19/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 0,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "22:47 30/10/2026"
+            "updated": "22:57 30/10/2026"
           }
         },
         "hidden": false,
@@ -14986,6 +14986,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793375867179",
+      "time": "22:57 - 30/10/2026",
+      "name": "Gmail Việt 2020-2024",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 520,
+      "catKey": "gmail",
+      "msgKey": "📧GmailViệt2020-2024➕Thêm:2📦Tồnkhohiệntại:0💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793375628369",
       "time": "22:53 - 30/10/2026",
       "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
@@ -16073,17 +16084,6 @@
       "stockAfter": 17,
       "catKey": "seedance",
       "msgKey": "⭐seedance2.51thángBH5D➕Thêm:17📦Tồnkhohiệntại:17💰Giá:99.000đ"
-    },
-    {
-      "id": "hist-1793360703839",
-      "time": "18:45 - 30/10/2026",
-      "name": "Gmail random new",
-      "bot": "sieuthistore_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 53,
-      "catKey": "gmail",
-      "msgKey": "📧Gmailrandomnew➕Thêm:20📦Tồnkhohiệntại:42💰Giá:25.000đ"
     }
   ],
   "vidiq": {
