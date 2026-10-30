@@ -6030,6 +6030,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793338774107",
+        "name": "GROK  PREMIUM + GROK BOT 4X 14D BH 3D",
+        "price": 130000,
+        "cost_price": 110000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "3 Ngày",
+        "detail": "Mua hàng chỉ dùng - không thay đổi bất cứ gì - check có thay đổi không bảo hành\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 10,
+            "cost_price": 110000,
+            "selling_price": 130000,
+            "updated": "12:39 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 110000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14408,6 +14434,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793338774107",
+      "time": "12:39 - 30/10/2026",
+      "name": "GROK  PREMIUM + GROK BOT 4X 14D BH 3D",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 10,
+      "catKey": "grok",
+      "msgKey": "⚡GROKPREMIUM+GROKBOT4X14DBH3D➕Thêm:10📦Tồnkhohiệntại:10💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793338743085",
       "time": "12:39 - 30/10/2026",
       "name": "50M Credit API Codex 1 Tháng - BHF",
@@ -15495,17 +15532,6 @@
       "stockAfter": 14,
       "catKey": "grok",
       "msgKey": "⚡GrokPremium14NgàyBH1Ngày➕Thêm:3📦Tồnkhohiệntại:14💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1793306711599",
-      "time": "03:45 - 30/10/2026",
-      "name": "🔥 Link Gemini Pro 18 Tháng KBH",
-      "bot": "taphoathomap_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 0,
-      "catKey": "google-veo",
-      "msgKey": "☁️🔥LinkGeminiPro18ThángKBH➕Thêm:50📦Tồnkhohiệntại:0💰Giá:40.000đ"
     }
   ],
   "vidiq": {
