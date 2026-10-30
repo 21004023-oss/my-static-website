@@ -6722,22 +6722,22 @@
         "name": "Elevenlabs Creator 131k Credit 30D (BH 2D)",
         "price": 180000,
         "cost_price": 160000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
         "detail": "📝 Mô tả: ElevenLabs Creator gói 1 tháng. Có 131K credit chính hãng\nSử dụng code ElevenLabs tỉ lệ rớt gói là 0%\n📋 Định dạng: Mail|Pass|Pass Mail\n(Tài khoản đã được kiểm tra kĩ càng, khách tự bảo quản sau khi mua)\n📝 Đăng nhập vào là sử dụng được ngay!\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 2,
+            "stock": 3,
             "cost_price": 160000,
             "selling_price": 180000,
-            "updated": "09:30 30/10/2026"
+            "updated": "10:02 30/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 160000,
-          "stock": 2
+          "stock": 3
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -14244,6 +14244,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793329350407",
+      "time": "10:02 - 30/10/2026",
+      "name": "Elevenlabs Creator 131k Credit 30D (BH 2D)",
+      "bot": "piggyai99_bot",
+      "price": 180000,
+      "costPrice": 160000,
+      "stockAfter": 3,
+      "catKey": "elevenlabs",
+      "msgKey": "🎙️ElevenlabsCreator131kCredit30D(BH2D)➕Thêm:3📦Tồnkhohiệntại:3💰Giá:160.000đ"
+    },
+    {
       "id": "hist-1793329033540",
       "time": "09:57 - 30/10/2026",
       "name": "Kling Pro 3K-4K Credits 1 tháng BH 7 ngày",
@@ -15331,17 +15342,6 @@
       "stockAfter": 25,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:12📦Tồnkhohiệntại:25💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1793299534333",
-      "time": "01:45 - 30/10/2026",
-      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 15,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày💰Giá:150k📦Tồnkho:15tàikhoản📊Đãbán:142t"
     }
   ],
   "vidiq": {
