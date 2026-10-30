@@ -4227,24 +4227,26 @@
         "name": "20M Credit API Claude 1 Ngày - BHF",
         "price": 55000,
         "cost_price": 45000,
-        "stock": 274,
-        "stock_text": "Còn 274",
+        "stock": 636,
+        "stock_text": "Còn 636",
         "duration": "1 Ngày",
-        "detail": "Base URL : https://gpt.teamsoclo.site/\nModel : claude-fable-5, claude-fable-5-1, claude-haiku-4-5, claude-opus-4-6, claude-opus-4-7, claude-opus-4-8, claude-opus-5, claude-opus-5-5, claude-sonnet-4-6, claude-sonnet-5\nHDSD: https://docs.teamsoclo.site/\nVideo Codex Setup: https://tinyurl.com/teamsoclovid\nVideo Claude Setup:\nhttps://tinyurl.com/teamsoclovidclaudesetup\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng",
+        "detail": "Base URL : https://gpt.teamsoclo.site/\nModel : claude-fable-5, claude-fable-5-1, claude-haiku-4-5, claude-opus-4-6, claude-opus-4-7, claude-opus-4-8, claude-opus-5, claude-opus-5-5, claude-sonnet-4-6, claude-sonnet-5\nHDSD: https://docs.teamsoclo.site/\nVideo Codex Setup: https://tinyurl.com/teamsoclovid\nVideo Claude Setup:\nhttps://tinyurl.com/teamsoclovidclaudesetup\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 274,
+            "stock": 636,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "23:56 21/10/2026"
+            "updated": "12:43 30/10/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 45000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 45000,
+          "stock": 636
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792655590705",
@@ -14434,6 +14436,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793339037410",
+      "time": "12:43 - 30/10/2026",
+      "name": "20M Credit API Claude 1 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 636,
+      "catKey": "claude",
+      "msgKey": "🧠20MCreditAPIClaude1Ngày-BHF➕Thêm:200📦Tồnkhohiệntại:636💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793339031668",
       "time": "12:43 - 30/10/2026",
       "name": "Tài khoản Newtake ai Credits 19$ starter Plan 1 tháng ( BH 24H )",
@@ -15521,17 +15534,6 @@
       "stockAfter": 0,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:33📦Tồnkhohiệntại:0💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793307276284",
-      "time": "03:54 - 30/10/2026",
-      "name": "CapCut Pro Team 3 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 175000,
-      "costPrice": 155000,
-      "stockAfter": 12,
-      "catKey": "capcut",
-      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:8📦Tồnkhohiệntại:5💰Giá:155.000đ"
     }
   ],
   "vidiq": {
