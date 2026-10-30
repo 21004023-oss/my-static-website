@@ -6088,16 +6088,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 8,
+            "stock": 4,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "09:10 30/10/2026"
+            "updated": "17:55 30/10/2026"
           }
         },
         "hidden": false,
@@ -6105,7 +6105,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 8
+          "stock": 4
         },
         "needs_review": false
       },
@@ -14746,6 +14746,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793357753257",
+      "time": "17:55 - 30/10/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 4,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:5📦Tồnkhohiệntại:4💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793357581774",
       "time": "17:53 - 30/10/2026",
       "name": "Gmail random new",
@@ -15833,17 +15844,6 @@
       "stockAfter": 87,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsuhạn30ngàyBH24H➕Thêm:21📦Tồnkhohiệntại:44💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793339037410",
-      "time": "12:43 - 30/10/2026",
-      "name": "20M Credit API Claude 1 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 636,
-      "catKey": "claude",
-      "msgKey": "🧠20MCreditAPIClaude1Ngày-BHF➕Thêm:200📦Tồnkhohiệntại:636💰Giá:45.000đ"
     }
   ],
   "vidiq": {
