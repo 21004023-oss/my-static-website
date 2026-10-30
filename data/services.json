@@ -3794,6 +3794,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793346728202",
+        "name": "VIP 1.GPT CODEX  20M ASTRA 1 Ngày BHF",
+        "price": 50000,
+        "cost_price": 40000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "1 Ngày",
+        "detail": "🔑 API key GPT CODEX — dùng cho Claude Code & app tương thích OpenAI/Anthropic.\n💎 Một key dùng được mọi model đang bật trong group CLAUDE-FABLE, tính gộp input + output + cache.\n⚡️ Giao key tức thì kèm hướng dẫn cấu hình.\nInput + output + cache (cache read và cache write) tính chung một hạn mức.\n⚠️ Dung lượng token là ước tính; cache write tính cao hơn một chút nên thực nhận có thể thấp hơn. Key dừng khi hết hạn hoặc dùng hết token, tùy điều kiện nào đến trước.\n🔗 Hướng dẫn cài đặt và kích hoạt:\nhttps://daily.bddevlab.buzz/redeem.html\n🔗 Cách khắc phục lỗi :\nhttps://duc-dop-error-guide.pages.dev\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 10,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "14:52 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 40000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14512,6 +14538,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793346728202",
+      "time": "14:52 - 30/10/2026",
+      "name": "VIP 1.GPT CODEX  20M ASTRA 1 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 10,
+      "catKey": "chatgpt",
+      "msgKey": "🤖VIP1.GPTCODEX20MASTRA1NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1793345690375",
       "time": "14:34 - 30/10/2026",
       "name": "Tài khoản ChatGPT dùng chung 1 tháng BHF",
@@ -15599,17 +15636,6 @@
       "stockAfter": 3,
       "catKey": "elevenlabs",
       "msgKey": "🎙️ElevenlabsCreator131kCredit30D(BH2D)➕Thêm:3📦Tồnkhohiệntại:3💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1793329033540",
-      "time": "09:57 - 30/10/2026",
-      "name": "Kling Pro 3K-4K Credits 1 tháng BH 7 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 770000,
-      "costPrice": 670000,
-      "stockAfter": 2,
-      "catKey": "kling",
-      "msgKey": "🎬KlingPro3K-4KCredits1thángBH7ngày➕Thêm:7📦Tồnkhohiệntại:2💰Giá:670.000đ"
     }
   ],
   "vidiq": {
