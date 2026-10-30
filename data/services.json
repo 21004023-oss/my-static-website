@@ -3824,8 +3824,8 @@
       {
         "id": "p-1793346765058",
         "name": "VIP 1.GPT CODEX  20M ASTRA 2 Ngày BHF",
-        "price": 110000,
-        "cost_price": 100000,
+        "price": 190000,
+        "cost_price": 170000,
         "stock": 5,
         "stock_text": "Còn 5",
         "duration": "1 Tháng",
@@ -3833,14 +3833,14 @@
         "sources": {
           "taphoathomap_bot": {
             "stock": 5,
-            "cost_price": 100000,
-            "selling_price": 110000,
+            "cost_price": 170000,
+            "selling_price": 190000,
             "updated": "14:53 30/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 100000,
+          "cost_price": 170000,
           "stock": 5
         },
         "import_note": "Nhập: @taphoathomap_bot",
@@ -14564,6 +14564,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793346799108",
+      "time": "14:53 - 30/10/2026",
+      "name": "VIP 1.GPT CODEX  100M ASTRA 2 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 190000,
+      "costPrice": 170000,
+      "stockAfter": 5,
+      "catKey": "chatgpt",
+      "msgKey": "🤖VIP1.GPTCODEX100MASTRA2NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:170.000đ"
+    },
+    {
       "id": "hist-1793346793106",
       "time": "14:53 - 30/10/2026",
       "name": "VIP 1.GPT CODEX  50M ASTRA 2 Ngày BHF",
@@ -15651,17 +15662,6 @@
       "stockAfter": 103,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1ThángBHF➕Thêm:20📦Tồnkhohiệntại:24💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1793330750652",
-      "time": "10:25 - 30/10/2026",
-      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
-      "bot": "sieuthistore_bot",
-      "price": 56000,
-      "costPrice": 46000,
-      "stockAfter": 154,
-      "catKey": "youtube",
-      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:100📦Tồnkhohiệntại:154💰Giá:46.000đ"
     }
   ],
   "vidiq": {
