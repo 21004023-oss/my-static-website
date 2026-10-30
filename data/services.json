@@ -1636,24 +1636,27 @@
         "id": "p-1791909483397",
         "name": "ChatGPT Plus ( GG Pay) 1 Tháng BH 1 Ngày",
         "price": 270000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Tháng",
-        "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex",
+        "detail": "Không cần change 2fa . nếu change 2fa khi bị nhận otp bên mình sẽ không chịu trách nhiệm\nChỉ bảo hành gói và die acc . Không bh codex\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 8,
-            "cost_price": 240000,
-            "updated": "12:58 17/10/2026",
-            "selling_price": 270000
+            "stock": 30,
+            "cost_price": 180000,
+            "selling_price": 200000,
+            "updated": "10:15 30/10/2026"
           }
         },
-        "cost_price": 240000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "cost_price": 180000,
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 240000
-        }
+          "bot": "@sieuthistore_bot",
+          "cost_price": 180000,
+          "stock": 30
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1791913103284",
@@ -14244,6 +14247,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793330157368",
+      "time": "10:15 - 30/10/2026",
+      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 30,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:1📦Tồnkhohiệntại:30💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1793330039572",
       "time": "10:13 - 30/10/2026",
       "name": "Kling Pro 3K-4K Credits 1 tháng BH 7 ngày",
@@ -15331,17 +15345,6 @@
       "stockAfter": 10,
       "catKey": "khac",
       "msgKey": "⭐iLovePdfPremium1NămBH24H➕Thêm:10📦Tồnkhohiệntại:10💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793299584904",
-      "time": "01:46 - 30/10/2026",
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 13,
-      "catKey": "meitu",
-      "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:4📦Tồnkhohiệntại:10💰Giá:35.000đ"
     }
   ],
   "vidiq": {
