@@ -12342,8 +12342,8 @@
         "id": "p-1792128240242",
         "name": "Gmail Việt 2020-2024",
         "price": 55000,
-        "stock": 562,
-        "stock_text": "Còn 562",
+        "stock": 523,
+        "stock_text": "Còn 523",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành\n✏️",
         "sources": {
@@ -12354,10 +12354,10 @@
             "updated": "16:20 19/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 42,
+            "stock": 3,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "16:34 30/10/2026"
+            "updated": "19:13 30/10/2026"
           }
         },
         "hidden": false,
@@ -14772,6 +14772,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793362404188",
+      "time": "19:13 - 30/10/2026",
+      "name": "Gmail Việt 2020-2024",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 523,
+      "catKey": "gmail",
+      "msgKey": "📧GmailViệt2020-2024➕Thêm:2📦Tồnkhohiệntại:3💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793361422290",
       "time": "18:57 - 30/10/2026",
       "name": "CHAT GPT PLUS 1 tháng - BH 24H",
@@ -15859,17 +15870,6 @@
       "stockAfter": 1095,
       "catKey": "claude",
       "msgKey": "🧠API10MTokenClaude1NgàyBHF➕Thêm:500📦Tồnkhohiệntại:1095💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1793343193885",
-      "time": "13:53 - 30/10/2026",
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 4,
-      "catKey": "figma",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:1📦Tồnkhohiệntại:2💰Giá:110.000đ"
     }
   ],
   "vidiq": {
