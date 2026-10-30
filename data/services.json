@@ -3225,22 +3225,22 @@
         "name": "[CDK] THUÊ SỐ NHẬN OTP CODEX 24H KBH",
         "price": 20000,
         "cost_price": 10000,
-        "stock": 261,
-        "stock_text": "Còn 261",
+        "stock": 661,
+        "stock_text": "Còn 661",
         "duration": "1 Ngày",
         "detail": "• Tuỳ chọn sử dụng VN hoặc US\n• Tỉ lệ nhận mã (US) cao hơn (VN)\n• Tự động hóa 100%, nhận OTP trực tiếp ngay trên Web.\n1. Bấm Xác nhận mua hàng để nhận CDK và web CDK\n2. Nhập SĐT vào trang xác minh OpenAI Codex / ChatGPT.\n3. Mã OTP sẽ tự động hiển thị trên tin nhắn của Web ngay khi có tin nhắn về.\n• Nếu OpenAI/Codex từ chối SĐT (hoặc báo gửi qua WhatsApp), quý khách vui lòng bấm thuê số khác.\n• Số bị từ chối (không nhận OTP) sẽ được hệ thống tự động hoàn CDK sau 2 phút hoặc quý khách huỷ trên web\nWeb: https://sms.teamsoclo.site/\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 261,
+            "stock": 661,
             "cost_price": 10000,
             "selling_price": 20000,
-            "updated": "01:28 28/10/2026"
+            "updated": "12:17 30/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 10000,
-          "stock": 261
+          "stock": 661
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -14281,6 +14281,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793337475234",
+      "time": "12:17 - 30/10/2026",
+      "name": "[CDK] THUÊ SỐ NHẬN OTP CODEX 24H KBH",
+      "bot": "piggyai99_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 661,
+      "catKey": "chatgpt",
+      "msgKey": "🤖[CDK]THUÊSỐNHẬNOTPCODEX24HKBH➕Thêm:500📦Tồnkhohiệntại:661💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1793337470645",
       "time": "12:17 - 30/10/2026",
       "name": "[CDK] Số Codex 1 Ngày KBH",
@@ -15368,17 +15379,6 @@
       "stockAfter": 8,
       "catKey": "zoom",
       "msgKey": "⭐AcccấpZoomPro28NgàyBHF➕Thêm:5📦Tồnkhohiệntại:8💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793303919041",
-      "time": "02:58 - 30/10/2026",
-      "name": "Figma Pro Education 2 Năm BH 1 Năm",
-      "bot": "piggyai99_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 7,
-      "catKey": "figma",
-      "msgKey": "⭐FigmaProEducation2NămBH1Năm➕Thêm:5📦Tồnkhohiệntại:7💰Giá:180.000đ"
     }
   ],
   "vidiq": {
