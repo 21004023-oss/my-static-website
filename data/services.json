@@ -96,6 +96,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 60000
         }
+      },
+      {
+        "id": "p-1793325764475",
+        "name": "Slot riêng tư Netflix Premium 4K 1TH (BHF)",
+        "price": 75000,
+        "cost_price": 65000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản Netflix Premium 4K + HDR gói cao nhất cấp riêng tư - BHF\n⚠️ Không đổi mật khẩu, mã pin , dùng 1 thiết bị nếu vi phạm ko bảo hành\n⚠️ Khi đăng nhập lần đầu sẽ cần mã 4 số, Quý khách chọn Nhận trợ giúp nhập mật khẩu là được\n⚠️ Khi cần xác minh hộ gia đình hoặc mã xác minh khác nhắn trực tiếp cho Admin\n✅ Định dạng sản phẩm: Mail/Pass/Slot/Mã Pin\n✅ Bảo hành full 1 tháng trong thời gian sử dụng, gia hạn được\n✅ Thiết bị được hỗ trợ:\nTV, máy tính, điện thoại di động, máy tính bảng\n✅ Khi đăng nhập lần đầu sẽ cần mã 4 số, Quý khách chọn Nhận trợ giúp nhập mật khẩu là được\n✅ Lưu ý: Khách vui lòng dùng đúng Profile được cấp, không spam tài khoản nhiều lần\n✅ Dùng được global ko cần vpn\n📺 Lưu ý quan trọng\n- Vui lòng xem đúng Slot, không đổi tên, Pin, mật khẩu giúp em nha , chỉ vào và sử dụng xem  1 máy cùng lúc, không chia sẻ tài khoản với ai ( sẽ ảnh hưởng đến quý khách ).\n- Không spam đăng nhập tài khoản liên tục có thể bị khóa 24h\n- KHÔNG THAY ĐỔI THÔNG TIN THANH TOÁN, XEM ĐÚNG HỒ SƠ CHỈ ĐỊNH. Nếu cố tình đổi, shop xin từ chối bảo hành! Thời gian support: 7h sáng - 23h đêm, support có thể chậm chễ, nhưng chắc chắn sẽ phản hồi, a/c thông cảm giúp em nha. Chúc Quý Khách xem phim vui vẻ!)\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 10,
+            "cost_price": 65000,
+            "selling_price": 75000,
+            "updated": "09:02 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 65000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14127,6 +14153,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793325764475",
+      "time": "09:02 - 30/10/2026",
+      "name": "Slot riêng tư Netflix Premium 4K 1TH (BHF)",
+      "bot": "taphoathomap_bot",
+      "price": 75000,
+      "costPrice": 65000,
+      "stockAfter": 10,
+      "catKey": "netflix",
+      "msgKey": "🎬SlotriêngtưNetflixPremium4K1TH(BHF)➕Thêm:10📦Tồnkhohiệntại:10💰Giá:65.000đ"
+    },
+    {
       "id": "hist-1793325095234",
       "time": "08:51 - 30/10/2026",
       "name": "Slot Youtube Premium 6 Tháng BHF",
@@ -15214,17 +15251,6 @@
       "stockAfter": 29,
       "catKey": "google-veo",
       "msgKey": "☁️🔥LinkGeminiPro18ThángKBH➕Thêm:30📦Tồnkhohiệntại:29💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1793296629360",
-      "time": "00:57 - 30/10/2026",
-      "name": "Link Gemini Pro 18 Tháng",
-      "bot": "sieuthistore_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 29,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGeminiPro18Tháng💰Giá:60k📦Tồnkho:29tàikhoản📊Đãbán:12.574tàikhoản💎Môtả:📦Định"
     }
   ],
   "vidiq": {
