@@ -3907,18 +3907,29 @@
       {
         "id": "api-claude-200m-1d",
         "name": "API 200M Token Claude 1 Ngày BHF",
-        "price": 209000,
-        "stock": 34,
-        "stock_text": "Còn 34",
+        "price": 210000,
+        "stock": 500,
+        "stock_text": "Còn 500",
         "duration": "1 Ngày",
         "source": "API Key",
-        "detail": "- Full model Claude Opus, Sonet, Haiku trong 24 giờ.\n- Hoàn tiền theo lượng token chưa dùng.\n- Kênh thông báo: https://t.me/api_thongbao\n- Trang kiểm tra KEY: api.nghimmo.com/check",
-        "cost_price": 45000,
+        "detail": "--- Nhà cung cấp API Đầu Tiên và uy tín Hàng Đầu - ĐÃ CÓ ĐĂNG KÍ KINH DOANH ---\nKênh thông báo : https://t.me/api_thongbao\nHộp thư hỗ trợ  : https://api.nghimmo.com/support\nDanh sách model, và hướng dẫn : api.nghimmo.com/huongdan\nLink nạp thêm token cho key : https://api.nghimmo.com/redeem\nModel : Full model Claude Fable, Opus, Sonet, Haiku\nTrang kiểm tra KEY : api.nghimmo.com/check\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
+        "cost_price": 190000,
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
-          "cost_price": 45000
+          "cost_price": 190000,
+          "stock": 500
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "Nhập: @sieuthistore_bot",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 500,
+            "cost_price": 190000,
+            "selling_price": 210000,
+            "updated": "13:25 30/10/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "api-claude-100m-1m",
@@ -14464,6 +14475,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793341540676",
+      "time": "13:25 - 30/10/2026",
+      "name": "API 200M Token Claude 1 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 210000,
+      "costPrice": 190000,
+      "stockAfter": 500,
+      "catKey": "claude",
+      "msgKey": "🧠API200MTokenClaude1NgàyBHF➕Thêm:500📦Tồnkhohiệntại:500💰Giá:190.000đ"
+    },
+    {
       "id": "hist-1793341532723",
       "time": "13:25 - 30/10/2026",
       "name": "VIP 2.API 200M Token Claude 1 Ngày - BHF",
@@ -15551,17 +15573,6 @@
       "stockAfter": 56,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsu1thángBH1Ngày➕Thêm:24📦Tồnkhohiệntại:56💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793321517633",
-      "time": "07:51 - 30/10/2026",
-      "name": "Muse Ai 1B Token KBH",
-      "bot": "sieuthistore_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 926,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:10📦Tồnkhohiệntại:30💰Giá:15.000đ"
     }
   ],
   "vidiq": {
