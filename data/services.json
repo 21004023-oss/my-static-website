@@ -6244,8 +6244,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "stock": 17,
+        "stock_text": "Còn 17",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -6256,10 +6256,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 20,
+            "stock": 15,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "23:31 30/10/2026"
+            "updated": "04:23 31/10/2026"
           }
         },
         "hidden": false,
@@ -6268,7 +6268,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 20
+          "stock": 15
         }
       },
       {
@@ -15156,6 +15156,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793395404857",
+      "time": "04:23 - 31/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 17,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:9📦Tồnkhohiệntại:15💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793395388421",
       "time": "04:23 - 31/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -16243,17 +16254,6 @@
       "stockAfter": 40,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:20📦Tồnkhohiệntại:40💰Giá:200.000"
-    },
-    {
-      "id": "hist-1793376073178",
-      "time": "23:01 - 30/10/2026",
-      "name": "Microsoft 365 Admin Family 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 12,
-      "catKey": "microsoft",
-      "msgKey": "⭐Microsoft365AdminFamily1ThángBHF➕Thêm:9📦Tồnkhohiệntại:12💰Giá:30.000đ"
     }
   ],
   "vidiq": {
