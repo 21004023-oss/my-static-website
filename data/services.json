@@ -45,16 +45,16 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 115000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 6,
-            "cost_price": 150000,
-            "selling_price": 170000,
-            "updated": "09:11 29/10/2026"
+            "stock": 2,
+            "cost_price": 140000,
+            "selling_price": 160000,
+            "updated": "08:46 30/10/2026"
           },
           "piggyai99_bot": {
             "stock": 2,
@@ -14127,6 +14127,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793324777593",
+      "time": "08:46 - 30/10/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 4,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793324772580",
       "time": "08:46 - 30/10/2026",
       "name": "Netflix Premium Extra 30 Ngày BHF",
@@ -15214,17 +15225,6 @@
       "stockAfter": 29,
       "catKey": "google-veo",
       "msgKey": "☁️LINKGEMINIPRO+GOOGLEONE5TB18THÁNGBẢOHÀNHACTIVE➕Thêm:30📦Tồnkhohiệntại:29💰Giá:65"
-    },
-    {
-      "id": "hist-1793296533161",
-      "time": "00:55 - 30/10/2026",
-      "name": "TiktokVN LiveStudio 1KFL THẬT",
-      "bot": "taphoathomap_bot",
-      "price": 260000,
-      "costPrice": 230000,
-      "stockAfter": 3,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokVNLiveStudio1KFLTHẬT➕Thêm:1📦Tồnkhohiệntại:3💰Giá:230.000đ"
     }
   ],
   "vidiq": {
