@@ -10083,6 +10083,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793401570893",
+        "name": "Adobe All Apps 7 Ngày BHF",
+        "price": 125000,
+        "cost_price": 105000,
+        "stock": 30,
+        "stock_text": "Còn 30",
+        "duration": "7 Ngày",
+        "detail": "- Adobe All Apps 7D Add Teams sử dụng 2 thiết bị\n!!! VIP: KHÁCH HÀNG CÓ THỂ CHỦ ĐỘNG BẢO HÀNH !!!\n- Bảo hành trọn vòng đời sử dụng. HÀNG ĐẶT LÀM, ORDER XONG NHẮN TIN CHO ADMIN. DONE NHANH TRONG GIỜ HÀNH CHÍNH\n- Vui lòng không thay đổi thông tin tài khoản tránh bị dis khỏi Team\n- Tài khoản lỗi do team có vấn đề vui lòng truy cập đường dẫn phía dưới, nhập email đã đăng kí, sau đó chọn \"Press here to change to active organization\" -> đợi được add vào Team mới -> logout login lại sử dụng như bình thường:\nhttps://reseller.ado-besoft.com/status\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 30,
+            "cost_price": 105000,
+            "selling_price": 125000,
+            "updated": "06:06 31/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 105000,
+          "stock": 30
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -15317,6 +15343,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793401570893",
+      "time": "06:06 - 31/10/2026",
+      "name": "Adobe All Apps 7 Ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 125000,
+      "costPrice": 105000,
+      "stockAfter": 30,
+      "catKey": "adobe",
+      "msgKey": "🎨AdobeAllApps7NgàyBHF➕Thêm:20📦Tồnkhohiệntại:30💰Giá:105.000đ"
+    },
+    {
       "id": "hist-1793401401537",
       "time": "06:03 - 31/10/2026",
       "name": "Adobe All Apps 14 Ngày BHF",
@@ -16404,17 +16441,6 @@
       "stockAfter": 8,
       "catKey": "khac",
       "msgKey": "⭐OpenArt4Kcredit30DBH24H➕Thêm:7📦Tồnkhohiệntại:8💰Giá:145.000đ"
-    },
-    {
-      "id": "hist-1793383959540",
-      "time": "01:12 - 31/10/2026",
-      "name": "Open Art 4K Credit 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 8,
-      "catKey": "khac",
-      "msgKey": "⭐OpenArt4KCredit1ThángBH1Ngày➕Thêm:7📦Tồnkhohiệntại:8💰Giá:150.000đ"
     }
   ],
   "vidiq": {
