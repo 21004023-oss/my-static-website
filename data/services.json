@@ -10194,6 +10194,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793328202092",
+        "name": "Code Nord VPN 10 thiết bị 3 tháng BHF",
+        "price": 270000,
+        "cost_price": 240000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "3 Tháng",
+        "detail": "-Nord VPN 10 thiết bị\n-Hạn gói: 3 tháng\n-Bảo hành: 3 tháng.\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 5,
+            "cost_price": 240000,
+            "selling_price": 270000,
+            "updated": "09:43 30/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 240000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -14212,6 +14238,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793328202092",
+      "time": "09:43 - 30/10/2026",
+      "name": "Code Nord VPN 10 thiết bị 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 270000,
+      "costPrice": 240000,
+      "stockAfter": 5,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️CodeNordVPN10thiếtbị3thángBHF➕Thêm:4📦Tồnkhohiệntại:5💰Giá:240.000đ"
+    },
+    {
       "id": "hist-1793328196390",
       "time": "09:43 - 30/10/2026",
       "name": "Code NordVPN 10 thiết bị 3 tháng BHF",
@@ -15299,17 +15336,6 @@
       "stockAfter": 52,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:150k📦Tồnkho:25tàikhoản📊Đãbán:142tàikhoản✏"
-    },
-    {
-      "id": "hist-1793299316970",
-      "time": "01:41 - 30/10/2026",
-      "name": "Gmail Cổ Random 2010~2022",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 1095,
-      "catKey": "gmail",
-      "msgKey": "📧GmailCổRandom2010~2022➕Thêm:500📦Tồnkhohiệntại:414💰Giá:45.000đ"
     }
   ],
   "vidiq": {
