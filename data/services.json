@@ -7119,9 +7119,9 @@
         "id": "p-1793268147845",
         "name": "Elevenlabs Creator 131k Credit 30D (BH 2D)",
         "price": 180000,
-        "cost_price": 160000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "cost_price": 150000,
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
         "detail": "📝 Mô tả: ElevenLabs Creator gói 1 tháng. Có 131K credit chính hãng\nSử dụng code ElevenLabs tỉ lệ rớt gói là 0%\n📋 Định dạng: Mail|Pass|Pass Mail\n(Tài khoản đã được kiểm tra kĩ càng, khách tự bảo quản sau khi mua)\n📝 Đăng nhập vào là sử dụng được ngay!\n✏️",
         "sources": {
@@ -7130,14 +7130,20 @@
             "cost_price": 160000,
             "selling_price": 180000,
             "updated": "10:02 30/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 150000,
+            "selling_price": 170000,
+            "updated": "21:14 30/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 160000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 150000,
           "stock": 3
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -14824,6 +14830,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793369650052",
+      "time": "21:14 - 30/10/2026",
+      "name": "Elevenlabs Creator 131k Credit 30D (BH 2D)",
+      "bot": "taphoathomap_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 6,
+      "catKey": "elevenlabs",
+      "msgKey": "🎙️ElevenlabsCreator131kCredit30D(BH2D)➕Thêm:1📦Tồnkhohiệntại:3💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793369499986",
       "time": "21:11 - 30/10/2026",
       "name": "🔥Capcut Pro 6 Tháng - BHF",
@@ -15911,17 +15928,6 @@
       "stockAfter": 9,
       "catKey": "khac",
       "msgKey": "⭐ScribdPremium1ThángBHF➕Thêm:6📦Tồnkhohiệntại:9💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793352873182",
-      "time": "16:34 - 30/10/2026",
-      "name": "Gmail Việt 2020-2024",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 562,
-      "catKey": "gmail",
-      "msgKey": "📧GmailViệt2020-2024➕Thêm:1📦Tồnkhohiệntại:42💰Giá:45.000đ"
     }
   ],
   "vidiq": {
