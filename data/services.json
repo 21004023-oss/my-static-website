@@ -6140,16 +6140,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 4,
+            "stock": 14,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "17:55 30/10/2026"
+            "updated": "20:19 30/10/2026"
           }
         },
         "hidden": false,
@@ -6157,7 +6157,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 4
+          "stock": 14
         },
         "needs_review": false
       },
@@ -14824,6 +14824,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793366394382",
+      "time": "20:19 - 30/10/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 14,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:13📦Tồnkhohiệntại:14💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793366137298",
       "time": "20:15 - 30/10/2026",
       "name": "Proton VPN 14-28 Ngày BHF",
@@ -15911,17 +15922,6 @@
       "stockAfter": 1,
       "catKey": "adobe",
       "msgKey": "🎨SlotAdobeAllApps1ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:270.000đ"
-    },
-    {
-      "id": "hist-1793346897228",
-      "time": "14:54 - 30/10/2026",
-      "name": "EXPRESS VPN 3 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 19,
-      "catKey": "expressvpn",
-      "msgKey": "🚚EXPRESSVPN3NGÀYBHF💰Giá:15k📦Tồnkho:5tàikhoản📊Đãbán:853tàikhoản💎Môtả:Địnhdạng:ema"
     }
   ],
   "vidiq": {
