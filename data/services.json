@@ -10915,23 +10915,23 @@
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
         "cost_price": 7000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "3 Ngày",
         "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 4,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "07:43 30/10/2026"
+            "updated": "22:35 30/10/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 7000,
-          "stock": 5
+          "stock": 4
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -14934,6 +14934,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793374538846",
+      "time": "22:35 - 30/10/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 4,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:1📦Tồnkhohiệntại:4💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1793374091545",
       "time": "22:28 - 30/10/2026",
       "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
@@ -16021,17 +16032,6 @@
       "stockAfter": 50,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000credit1THBH1ngày➕Thêm:30📦Tồnkhohiệntại:25💰Giá:120.000đ"
-    },
-    {
-      "id": "hist-1793359206928",
-      "time": "18:20 - 30/10/2026",
-      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 50,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:120k📦Tồnkho:25tàikhoản📊Đãbán:172tàikhoản✏"
     }
   ],
   "vidiq": {
