@@ -2875,18 +2875,29 @@
       {
         "id": "api-codex-10m-2d",
         "name": "10M Credit API Codex 2 Ngày BHF",
-        "price": 45000,
-        "stock": 202,
-        "stock_text": "Còn 202",
-        "duration": "2 Ngày",
+        "price": 135000,
+        "stock": 548,
+        "stock_text": "Còn 548",
+        "duration": "1 Tháng",
         "source": "Teamsoclo",
-        "detail": "- Model: gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna.\n- Hoàn tiền theo lượng token chưa dùng.\n- Base URL: https://gpt.teamsoclo.site/v1\n- HDSD: https://docs.teamsoclo.site/\n- Video: https://tinyurl.com/teamsoclovid\n- Kiểm tra KEY: https://gpt.teamsoclo.site/check\n- Đổi CDK thành Key tại: https://redeem.teamsoclo.site/\n- Kênh thông báo: https://t.me/teamsoclo",
-        "cost_price": 35000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "detail": "Base URL : https://gpt.teamsoclo.site/v1\nModel : gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
+        "cost_price": 115000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 35000
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 115000,
+          "stock": 548
+        },
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 548,
+            "cost_price": 115000,
+            "selling_price": 135000,
+            "updated": "12:38 30/10/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "api-codex-20m-2d",
@@ -14397,6 +14408,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793338694046",
+      "time": "12:38 - 30/10/2026",
+      "name": "100M Credit API Codex 1 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 548,
+      "catKey": "chatgpt",
+      "msgKey": "⭐100MCreditAPICodex1Tháng-BHF➕Thêm:200📦Tồnkhohiệntại:548💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1793338306432",
       "time": "12:31 - 30/10/2026",
       "name": "[Astra] API 1000M Token Codex 5 Ngày - BHF",
@@ -15484,17 +15506,6 @@
       "stockAfter": 15,
       "catKey": "microsoft",
       "msgKey": "⭐KeyOffice2024ProPlusVĩnhviễnBH7ngày➕Thêm:15📦Tồnkhohiệntại:15💰Giá:79.000đ"
-    },
-    {
-      "id": "hist-1793306243859",
-      "time": "03:37 - 30/10/2026",
-      "name": "🔥 Link Gemini Pro 18 Tháng KBH",
-      "bot": "taphoathomap_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 0,
-      "catKey": "google-veo",
-      "msgKey": "☁️🔥LinkGeminiPro18ThángKBH➕Thêm:2📦Tồnkhohiệntại:0💰Giá:40.000đ"
     }
   ],
   "vidiq": {
