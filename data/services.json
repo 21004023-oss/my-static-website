@@ -6411,6 +6411,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793469804466",
+        "name": "Grok + Cursor Premium 14D BH 1D",
+        "price": 109000,
+        "cost_price": 99000,
+        "stock": 19,
+        "stock_text": "Còn 19",
+        "duration": "1 Ngày",
+        "detail": "• Grok Premium 14 ngày,\n• Hàng pay thẻ real không trùng, hold bill, có thể sử dụng thêm tối đa khoảng 24 ngày\n• Nếu dùng Cursor dùng trực tiếp trên grok\n• Định dạng: Mail|Pass\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 19,
+            "cost_price": 99000,
+            "selling_price": 109000,
+            "updated": "01:03 01/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 99000,
+          "stock": 19
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -16199,6 +16225,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793469804466",
+      "time": "01:03 - 01/11/2026",
+      "name": "Grok + Cursor Premium 14D BH 1D",
+      "bot": "taphoathomap_bot",
+      "price": 109000,
+      "costPrice": 99000,
+      "stockAfter": 19,
+      "catKey": "cursor",
+      "msgKey": "⚡Grok+CursorPremium14DBH1D➕Thêm:1📦Tồnkhohiệntại:19💰Giá:99.000đ"
+    },
+    {
       "id": "hist-1793469748150",
       "time": "01:02 - 01/11/2026",
       "name": "Admin Office 365 (Renew Auto) 12 tháng BHF",
@@ -17286,17 +17323,6 @@
       "stockAfter": 4,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProTeam6ThángBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:340.000đ"
-    },
-    {
-      "id": "hist-1793452518262",
-      "time": "20:15 - 31/10/2026",
-      "name": "🔥VIP . Chatgpt Plus 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 190000,
-      "costPrice": 170000,
-      "stockAfter": 145,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥VIP.ChatgptPlus1thángBHF➕Thêm:52📦Tồnkhohiệntại:52💰Giá:170.000đ"
     }
   ],
   "vidiq": {
