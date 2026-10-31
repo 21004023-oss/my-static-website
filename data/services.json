@@ -3741,11 +3741,11 @@
         "id": "p-1793337724374",
         "name": "[Astra] API 20M Token Codex 1 Ngày - BHF",
         "price": 130000,
-        "cost_price": 75000,
-        "stock": 635,
-        "stock_text": "Còn 635",
+        "cost_price": 70000,
+        "stock": 1192,
+        "stock_text": "Còn 1192",
         "duration": "1 Ngày",
-        "detail": "[Astra] API 20M Token Codex 1 Ngày - BHF\nBase URL : https://gpt.teamsoclo.site/v1\nModel : gpt-astra\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
+        "detail": "Gói 10M Credit Codex / 1 ngày Astra\nBase URL : https://gpt.teamsoclo.site/v1\nModel : gpt-astra\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
         "sources": {
           "taphoathomap_bot": {
             "stock": 610,
@@ -3754,18 +3754,18 @@
             "updated": "12:22 30/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 25,
-            "cost_price": 110000,
-            "selling_price": 130000,
-            "updated": "12:22 30/10/2026"
+            "stock": 582,
+            "cost_price": 70000,
+            "selling_price": 80000,
+            "updated": "07:32 31/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 75000,
-          "stock": 610
+          "bot": "@sieuthistore_bot",
+          "cost_price": 70000,
+          "stock": 582
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -15609,6 +15609,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793406754065",
+      "time": "07:32 - 31/10/2026",
+      "name": "[Astra] API 10M Token Codex 1 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 1192,
+      "catKey": "chatgpt",
+      "msgKey": "⭐[Astra]API10MTokenCodex1NgàyBHF➕Thêm:200📦Tồnkhohiệntại:582💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793406519519",
       "time": "07:28 - 31/10/2026",
       "name": "10M Credit API Codex 1 Ngày - BHF",
@@ -16696,17 +16707,6 @@
       "stockAfter": 19,
       "catKey": "wink",
       "msgKey": "⭐WinkVip30NgàyBHF➕Thêm:10📦Tồnkhohiệntại:9💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1793394455841",
-      "time": "04:07 - 31/10/2026",
-      "name": "Wink Vip 90D BHF",
-      "bot": "taphoathomap_bot",
-      "price": 220000,
-      "costPrice": 200000,
-      "stockAfter": 6,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVip90DBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:200.000đ"
     }
   ],
   "vidiq": {
