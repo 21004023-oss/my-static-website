@@ -7397,8 +7397,8 @@
         "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
         "price": 170000,
         "cost_price": 120000,
-        "stock": 76,
-        "stock_text": "Còn 76",
+        "stock": 90,
+        "stock_text": "Còn 90",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000 credit 1 TH BH 1 ngày bảo hành uy tín.",
         "sources": {
@@ -7409,7 +7409,7 @@
             "updated": "12:43 31/10/2026"
           },
           "piggyai99_bot": {
-            "stock": 36,
+            "stock": 50,
             "cost_price": 150000,
             "selling_price": 170000,
             "updated": "06:14 01/11/2026"
@@ -16317,6 +16317,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793488493274",
+      "time": "06:14 - 01/11/2026",
+      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
+      "bot": "piggyai99_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 90,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000credit1THBH1ngày➕Thêm:15📦Tồnkhohiệntại:50💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793488488250",
       "time": "06:14 - 01/11/2026",
       "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
@@ -17404,17 +17415,6 @@
       "stockAfter": 4,
       "catKey": "grok",
       "msgKey": "⚡GROKPREMIUM+GROKBOT4X14DBH10D➕Thêm:4📦Tồnkhohiệntại:4💰Giá:250.000đ"
-    },
-    {
-      "id": "hist-1793469080687",
-      "time": "00:51 - 01/11/2026",
-      "name": "GROK  PREMIUM + GROK BOT 4X 14D BH 3D",
-      "bot": "taphoathomap_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 8,
-      "catKey": "grok",
-      "msgKey": "⚡GROKPREMIUM+GROKBOT4X14DBH3D➕Thêm:6📦Tồnkhohiệntại:8💰Giá:100.000đ"
     }
   ],
   "vidiq": {
