@@ -7336,13 +7336,13 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 40,
+        "stock_text": "Còn 40",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 15,
+            "stock": 40,
             "cost_price": 150000,
             "selling_price": 170000,
             "updated": "12:43 31/10/2026"
@@ -7351,7 +7351,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 15
+          "stock": 40
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -15764,6 +15764,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793425425471",
+      "time": "12:43 - 31/10/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 40,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:40📦Tồnkhohiệntại:40💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793425420917",
       "time": "12:43 - 31/10/2026",
       "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
@@ -16851,17 +16862,6 @@
       "stockAfter": 1092,
       "catKey": "chatgpt",
       "msgKey": "⭐50MCreditAPICodex1Ngày-BHF➕Thêm:200📦Tồnkhohiệntại:546💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1793406146643",
-      "time": "07:22 - 31/10/2026",
-      "name": "50M Credit API Codex 1 Ngày - BHF",
-      "bot": "piggyai99_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 893,
-      "catKey": "chatgpt",
-      "msgKey": "⭐50MCreditAPICodex1Ngày-BHF➕Thêm:200📦Tồnkhohiệntại:546💰Giá:60.000đ"
     }
   ],
   "vidiq": {
