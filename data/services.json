@@ -7631,6 +7631,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793467956367",
+        "name": "Kling Stand 1k2 credit 1 tháng - BH 24h",
+        "price": 150000,
+        "cost_price": 130000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Tháng",
+        "detail": "Gói Kling Stand 1k2 credit 1 tháng - BH 24h bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 4,
+            "cost_price": 130000,
+            "selling_price": 150000,
+            "updated": "00:32 01/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 130000,
+          "stock": 4
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -16094,6 +16120,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793467956367",
+      "time": "00:32 - 01/11/2026",
+      "name": "Kling Stand 1k2 credit 1 tháng - BH 24h",
+      "bot": "taphoathomap_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 4,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStand1k2credit1tháng-BH24h➕Thêm:3📦Tồnkhohiệntại:4💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1793467951357",
       "time": "00:32 - 01/11/2026",
       "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
@@ -17181,17 +17218,6 @@
       "stockAfter": 10,
       "catKey": "google-veo",
       "msgKey": "☁️🔥LinkGeminiPro18ThángKBH➕Thêm:5📦Tồnkhohiệntại:10💰Giá:73.000đ"
-    },
-    {
-      "id": "hist-1793449309021",
-      "time": "19:21 - 31/10/2026",
-      "name": "[CDK] Thuê Số OTP Codex/GPT 30D BH 24H",
-      "bot": "piggyai99_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 85,
-      "catKey": "chatgpt",
-      "msgKey": "🤖[CDK]ThuêSốOTPCodex/GPT30DBH24H➕Thêm:2📦Tồnkhohiệntại:85💰Giá:10.000đ"
     }
   ],
   "vidiq": {
