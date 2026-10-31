@@ -10537,8 +10537,8 @@
         "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
         "price": 50000,
         "cost_price": 33000,
-        "stock": 13,
-        "stock_text": "Còn 13",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "Ko bảo hành quá thiết bị\nThay đổi pass vs mail = KBH\n✏️",
         "sources": {
@@ -10549,16 +10549,16 @@
             "updated": "02:35 01/11/2026"
           },
           "piggyai99_bot": {
-            "stock": 9,
+            "stock": 4,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "17:24 31/10/2026"
+            "updated": "02:35 01/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 33000,
-          "stock": 9
+          "stock": 4
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -16279,6 +16279,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793475344080",
+      "time": "02:35 - 01/11/2026",
+      "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
+      "bot": "piggyai99_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 8,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN1thBH30D➕Thêm:4📦Tồnkhohiệntại:4💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1793475339173",
       "time": "02:35 - 01/11/2026",
       "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
@@ -17366,17 +17377,6 @@
       "stockAfter": 6,
       "catKey": "grok",
       "msgKey": "⚡GROKPREMIUM+GROKBOT4X14DBH3D➕Thêm:6📦Tồnkhohiệntại:6💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1793457576375",
-      "time": "21:39 - 31/10/2026",
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 30,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:4📦Tồnkhohiệntại:3💰Giá:65.000đ"
     }
   ],
   "vidiq": {
