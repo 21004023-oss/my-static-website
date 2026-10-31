@@ -7605,6 +7605,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793467931846",
+        "name": "Kling Standard 1100-1300 Credit 1 Tháng BH 1 ngày",
+        "price": 180000,
+        "cost_price": 160000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Gói Kling Standard 1100-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 2,
+            "cost_price": 160000,
+            "selling_price": 180000,
+            "updated": "00:32 01/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 160000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -16068,6 +16094,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793467931846",
+      "time": "00:32 - 01/11/2026",
+      "name": "Kling Standard 1100-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 180000,
+      "costPrice": 160000,
+      "stockAfter": 2,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1100-1300Credit1ThángBH1ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:160.000đ"
+    },
+    {
       "id": "hist-1793467926977",
       "time": "00:32 - 01/11/2026",
       "name": "ChatGPT (Apple Pay) 1 Tháng BH 1 Ngày",
@@ -17155,17 +17192,6 @@
       "stockAfter": 33,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:1📦Tồnkhohiệntại:6💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793448449784",
-      "time": "19:07 - 31/10/2026",
-      "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 220000,
-      "costPrice": 200000,
-      "stockAfter": 99,
-      "catKey": "chatgpt",
-      "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:19📦Tồnkhohiệntại:99💰Giá:200.000"
     }
   ],
   "vidiq": {
