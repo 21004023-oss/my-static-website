@@ -6511,8 +6511,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 17,
-        "stock_text": "Còn 17",
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -6523,10 +6523,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 15,
+            "stock": 12,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "04:23 31/10/2026"
+            "updated": "11:23 31/10/2026"
           }
         },
         "hidden": false,
@@ -6535,7 +6535,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 15
+          "stock": 12
         }
       },
       {
@@ -15732,6 +15732,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793420592247",
+      "time": "11:23 - 31/10/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 14,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:4📦Tồnkhohiệntại:12💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793420586016",
       "time": "11:23 - 31/10/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -16819,17 +16830,6 @@
       "stockAfter": 623,
       "catKey": "chatgpt",
       "msgKey": "⭐[Astra]API100MTokenCodex5ngàyBHF➕Thêm:200📦Tồnkhohiệntại:596💰Giá:420.000đ"
-    },
-    {
-      "id": "hist-1793404779523",
-      "time": "06:59 - 31/10/2026",
-      "name": "[Astra] API 200M Token Codex 5 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 899000,
-      "costPrice": 799000,
-      "stockAfter": 526,
-      "catKey": "chatgpt",
-      "msgKey": "⭐[Astra]API200MTokenCodex5Ngày-BHF💰Giá:799k📦Tồnkho:27tàikhoản📊Đãbán:1tàikhoản💎Mô"
     }
   ],
   "vidiq": {
