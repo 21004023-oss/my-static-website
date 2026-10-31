@@ -160,8 +160,8 @@
         "id": "p-1792094916011",
         "name": "Tài khoản VieON VIP 3 Tháng BHF",
         "price": 140000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "3 Tháng",
         "detail": "Tài khoản đăng nhập 2 thiết bị và xem 1 thiết bị đồng thời\nXem tất cả phim VIP và phim PRO\nKhông đảm bảo sẽ xem được một số kênh truyền hình nước ngoài\nBảo hành toàn thời gian trường hợp không xem được phim, sai mật khẩu, quá thiết bị.\n✏️",
         "sources": {
@@ -172,10 +172,10 @@
             "updated": "14:31 31/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 1,
             "cost_price": 70000,
             "selling_price": 80000,
-            "updated": "22:11 28/10/2026"
+            "updated": "14:31 31/10/2026"
           }
         },
         "hidden": false,
@@ -184,7 +184,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 70000,
-          "stock": 2
+          "stock": 1
         },
         "needs_review": false
       },
@@ -15822,6 +15822,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793431907559",
+      "time": "14:31 - 31/10/2026",
+      "name": "Tài khoản VieON VIP PRO 3 tháng bhf",
+      "bot": "taphoathomap_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 2,
+      "catKey": "vieon",
+      "msgKey": "⭐TàikhoảnVieONVIPPRO3thángbhf➕Thêm:1📦Tồnkhohiệntại:1💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793431903253",
       "time": "14:31 - 31/10/2026",
       "name": "Tài khoản VieON VIP Pro 3 tháng BHF",
@@ -16909,17 +16920,6 @@
       "stockAfter": 14,
       "catKey": "meitu",
       "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:11💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793412245897",
-      "time": "09:04 - 31/10/2026",
-      "name": "[KEY] HMA Android PC 20 30 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 198,
-      "catKey": "hma-vpn",
-      "msgKey": "⭐[KEY]HMAAndroidPC2030NgàyBHF➕Thêm:66📦Tồnkhohiệntại:66💰Giá:15.000đ"
     }
   ],
   "vidiq": {
