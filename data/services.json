@@ -15571,9 +15571,9 @@
         "id": "p-1793215588683",
         "name": "Kahoot Plus Gold 7 Ngày BHF",
         "price": 55000,
-        "cost_price": 45000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "cost_price": 30000,
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "7 Ngày",
         "detail": "Kahoot Plus Gold 7 Ngày Trial BHF 200 thành viên\nĐịnh dạng: Email|Pass\n✏️",
         "sources": {
@@ -15582,14 +15582,20 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "updated": "04:28 01/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "04:28 01/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 45000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
           "stock": 5
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -16278,6 +16284,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793482117120",
+      "time": "04:28 - 01/11/2026",
+      "name": "Kahoot Plus Gold 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 10,
+      "catKey": "khac",
+      "msgKey": "⭐KahootPlusGold7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:30.000đ"
+    },
     {
       "id": "hist-1793482100091",
       "time": "04:28 - 01/11/2026",
@@ -17366,17 +17383,6 @@
       "stockAfter": 34,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF💰Giá:200k📦Tồnkho:34tàikhoản📊Đãbán:6.4"
-    },
-    {
-      "id": "hist-1793465366546",
-      "time": "23:49 - 31/10/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 171,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH24H➕Thêm:40📦Tồnkhohiệntại:41💰Giá:100.000đ"
     }
   ],
   "vidiq": {
