@@ -11790,9 +11790,9 @@
         "id": "p-1793412230857",
         "name": "[KEY] HMA Android PC 20 30 Ngày BHF",
         "price": 35000,
-        "cost_price": 20000,
-        "stock": 132,
-        "stock_text": "Còn 132",
+        "cost_price": 15000,
+        "stock": 198,
+        "stock_text": "Còn 198",
         "duration": "1 Tháng",
         "detail": "Key HMA sử dụng cho Android và PC, loại này dạng Key nên không sử dụng được cho IOS.\n✏️",
         "sources": {
@@ -11807,14 +11807,20 @@
             "cost_price": 20000,
             "selling_price": 30000,
             "updated": "09:04 31/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 66,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "09:04 31/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 20000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
           "stock": 66
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -15642,6 +15648,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793412245897",
+      "time": "09:04 - 31/10/2026",
+      "name": "[KEY] HMA Android PC 20 30 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 198,
+      "catKey": "hma-vpn",
+      "msgKey": "⭐[KEY]HMAAndroidPC2030NgàyBHF➕Thêm:66📦Tồnkhohiệntại:66💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793412240477",
       "time": "09:04 - 31/10/2026",
       "name": "[KEY] HMA Android PC 20 30 Ngày BHF",
@@ -16729,17 +16746,6 @@
       "stockAfter": 10562,
       "catKey": "elevenlabs",
       "msgKey": "🎙️🔥ElevenLabsRedeem131KCredit➕Thêm:5000📦Tồnkhohiệntại:5031💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793398067818",
-      "time": "05:07 - 31/10/2026",
-      "name": "ElevenLabs Redeem 131K Credit",
-      "bot": "sieuthistore_bot",
-      "price": 69000,
-      "costPrice": 59000,
-      "stockAfter": 5531,
-      "catKey": "elevenlabs",
-      "msgKey": "🎙️ElevenLabsRedeem131KCredit➕Thêm:5000📦Tồnkhohiệntại:5031💰Giá:59.000đ"
     }
   ],
   "vidiq": {
