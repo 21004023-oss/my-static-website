@@ -7559,22 +7559,22 @@
         "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
         "price": 260000,
         "cost_price": 230000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "TẤT CẢ ĐỀU ĐĂNG NHẬP BẰNG EMAIL NHÉ\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 3,
+            "stock": 4,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "15:10 31/10/2026"
+            "updated": "03:06 01/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 230000,
-          "stock": 3
+          "stock": 4
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -16279,6 +16279,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793477173041",
+      "time": "03:06 - 01/11/2026",
+      "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 4,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1100-1300Credits1thángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1793476965365",
       "time": "03:02 - 01/11/2026",
       "name": "(👑FLASH INSTANT🔥) Link Gemini 18 Tháng KBH",
@@ -17366,17 +17377,6 @@
       "stockAfter": 31,
       "catKey": "cursor",
       "msgKey": "🖱️APICursorPro6500Credits1thángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:309.000đ"
-    },
-    {
-      "id": "hist-1793461279804",
-      "time": "22:41 - 31/10/2026",
-      "name": "API Cursor Pro 6500 Credits 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 410000,
-      "costPrice": 360000,
-      "stockAfter": 30,
-      "catKey": "cursor",
-      "msgKey": "🖱️APICursorPro6500Credits1thángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:360.000đ"
     }
   ],
   "vidiq": {
