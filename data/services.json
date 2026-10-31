@@ -13319,10 +13319,10 @@
         "id": "p-1792128240242",
         "name": "Gmail Việt 2020-2024",
         "price": 55000,
-        "stock": 524,
-        "stock_text": "Còn 524",
+        "stock": 520,
+        "stock_text": "Còn 520",
         "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành\n✏️",
+        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "sources": {
           "taphoathomap_bot": {
             "stock": 520,
@@ -13331,10 +13331,10 @@
             "updated": "16:20 19/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 4,
+            "stock": 0,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "13:41 31/10/2026"
+            "updated": "18:32 31/10/2026"
           }
         },
         "hidden": false,
@@ -15973,6 +15973,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793446357544",
+      "time": "18:32 - 31/10/2026",
+      "name": "Gmail Việt 2020-2024",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 520,
+      "catKey": "gmail",
+      "msgKey": "📧GmailViệt2020-2024➕Thêm:1📦Tồnkhohiệntại:0💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793446177371",
       "time": "18:29 - 31/10/2026",
       "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
@@ -17060,17 +17071,6 @@
       "stockAfter": 524,
       "catKey": "gmail",
       "msgKey": "📧GmailViệt2020-2024➕Thêm:1📦Tồnkhohiệntại:4💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793428857364",
-      "time": "13:40 - 31/10/2026",
-      "name": "Muse AI 31B Token KBH",
-      "bot": "piggyai99_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 13,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAI31BTokenKBH💰Giá:80k📦Tồnkho:13tàikhoản📊Đãbán:238tàikhoản💎Môtả:-Token31B-Đị"
     }
   ],
   "vidiq": {
