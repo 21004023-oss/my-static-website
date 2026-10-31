@@ -45,16 +45,16 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 115000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 3,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "06:23 31/10/2026"
+            "updated": "10:31 31/10/2026"
           },
           "piggyai99_bot": {
             "stock": 1,
@@ -15732,6 +15732,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793417482416",
+      "time": "10:31 - 31/10/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 4,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793416813046",
       "time": "10:20 - 31/10/2026",
       "name": "GROK  PREMIUM + GROK BOT 4X 14D BH 3D",
@@ -16819,17 +16830,6 @@
       "stockAfter": 8,
       "catKey": "khac",
       "msgKey": "⭐OpenArt4Kcredit30DBH24H💰Giá:145k📦Tồnkho:8tàikhoản📊Đãbán:4tàikhoản💎Môtả:địnhdạng"
-    },
-    {
-      "id": "hist-1793402087208",
-      "time": "06:14 - 31/10/2026",
-      "name": "Open Art 4K credit 30D BH 24H",
-      "bot": "piggyai99_bot",
-      "price": 165000,
-      "costPrice": 145000,
-      "stockAfter": 8,
-      "catKey": "khac",
-      "msgKey": "⭐OpenArt4Kcredit30DBH24H➕Thêm:3📦Tồnkhohiệntại:8💰Giá:145.000đ"
     }
   ],
   "vidiq": {
