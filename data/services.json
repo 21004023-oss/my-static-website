@@ -4071,23 +4071,23 @@
         "id": "p-1793404248765",
         "name": "API 1B Credit Codex 14 Ngày BHF",
         "price": 980000,
-        "cost_price": 880000,
-        "stock": 298,
-        "stock_text": "Còn 298",
+        "cost_price": 540000,
+        "stock": 277,
+        "stock_text": "Còn 277",
         "duration": "1 Tháng",
         "detail": "Base URL : https://gpt.teamsoclo.site/v1\nModel : gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 298,
-            "cost_price": 880000,
-            "selling_price": 980000,
-            "updated": "06:50 31/10/2026"
+            "stock": 277,
+            "cost_price": 540000,
+            "selling_price": 640000,
+            "updated": "07:15 31/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
-          "cost_price": 880000,
-          "stock": 298
+          "cost_price": 540000,
+          "stock": 277
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -15583,6 +15583,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793405741479",
+      "time": "07:15 - 31/10/2026",
+      "name": "API 1B Credit Codex 2 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 640000,
+      "costPrice": 540000,
+      "stockAfter": 277,
+      "catKey": "chatgpt",
+      "msgKey": "⭐API1BCreditCodex2NgàyBHF➕Thêm:200📦Tồnkhohiệntại:277💰Giá:540.000đ"
+    },
+    {
       "id": "hist-1793405674073",
       "time": "07:14 - 31/10/2026",
       "name": "10M Credit API Codex 2 Ngày - BHF",
@@ -16670,17 +16681,6 @@
       "stockAfter": 5,
       "catKey": "meitu",
       "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793391443616",
-      "time": "03:17 - 31/10/2026",
-      "name": "Kling Standard 800 credit 1TH Bh 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 8,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard800credit1THBh1ngày➕Thêm:1📦Tồnkhohiệntại:8💰Giá:120.000đ"
     }
   ],
   "vidiq": {
