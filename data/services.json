@@ -6679,22 +6679,22 @@
         "name": "GROK  PREMIUM + GROK BOT 4X 14D BH 3D",
         "price": 130000,
         "cost_price": 100000,
-        "stock": 17,
-        "stock_text": "Còn 17",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "3 Ngày",
         "detail": "Mua hàng chỉ dùng - không thay đổi bất cứ gì - check có thay đổi không bảo hành\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 17,
+            "stock": 10,
             "cost_price": 100000,
             "selling_price": 110000,
-            "updated": "13:52 31/10/2026"
+            "updated": "14:22 31/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 100000,
-          "stock": 17
+          "stock": 10
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -15796,6 +15796,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793431339503",
+      "time": "14:22 - 31/10/2026",
+      "name": "GROK  PREMIUM + GROK BOT 4X 14D BH 3D",
+      "bot": "taphoathomap_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 10,
+      "catKey": "grok",
+      "msgKey": "⚡GROKPREMIUM+GROKBOT4X14DBH3D➕Thêm:10📦Tồnkhohiệntại:10💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1793431204835",
       "time": "14:20 - 31/10/2026",
       "name": "API Cursor Pro 6500 Credits 1 tháng BHF",
@@ -16883,17 +16894,6 @@
       "stockAfter": 100,
       "catKey": "capcut",
       "msgKey": "✂️CapcutPro500credit7DBH6D➕Thêm:100📦Tồnkhohiệntại:100💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1793411385453",
-      "time": "08:49 - 31/10/2026",
-      "name": "Surfshark VPN One 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 51,
-      "catKey": "surfshark",
-      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:18💰Giá:15.000đ"
     }
   ],
   "vidiq": {
