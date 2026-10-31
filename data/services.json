@@ -11693,25 +11693,27 @@
         "id": "p-1792394257372",
         "name": "Slot Nord VPN And/PC/IOS 3 tháng BHF",
         "price": 90000,
-        "cost_price": 68000,
-        "stock": 17,
-        "stock_text": "Còn 17",
+        "cost_price": 80000,
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "3 Tháng",
-        "detail": "- Nord Vpn dùng 2 thiết bị 3 tháng bảo hành full-time\nHướng dẫn đăng nhập:\n- Định dạng tk|mk|key1|key2 dùng được android ios pc .\n- Thiết bị 1: Đăng nhập tài khoản -> mật khẩu  -> See other options -> Chọn mã key 1 -> mã key 1 -> Hoàn thành\n- Thiết bị 2 làm  tương tự như thiết bị 1.\n-Ae hoàn toàn chủ động đăng nhập nhớ đọc kỹ hướng dẫn sau khi mua xong (không cấp full mail) .\n- Lưu ý không dùng hơn số thiết bị phát hiện kick không hoàn tiền\n- Cần nâng cấp chính chủ 10 thiết bị liên hệ với admin",
+        "detail": "- Nord Vpn dùng 2 thiết bị 3 tháng bảo hành full-time\nHướng dẫn đăng nhập:\n- Định dạng tk|mk|key1|key2 dùng được android ios pc .\n- Thiết bị 1: Đăng nhập tài khoản -> mật khẩu  -> See other options -> Chọn mã key 1 -> mã key 1 -> Hoàn thành\n- Thiết bị 2 làm  tương tự như thiết bị 1.\n-Ae hoàn toàn chủ động đăng nhập nhớ đọc kỹ hướng dẫn sau khi mua xong (không cấp full mail) .\n- Lưu ý không dùng hơn số thiết bị phát hiện kick không hoàn tiền\n- Cần nâng cấp chính chủ 10 thiết bị liên hệ với admin\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 17,
+            "stock": 16,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "14:17 19/10/2026"
+            "updated": "02:29 01/11/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 68000
+          "bot": "@sieuthistore_bot",
+          "cost_price": 80000,
+          "stock": 16
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @sieuthistore_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792394261988",
@@ -16277,6 +16279,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793474988650",
+      "time": "02:29 - 01/11/2026",
+      "name": "Slot Nord VPN And/PC/IOS 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 16,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️SlotNordVPNAnd/PC/IOS3thángBHF➕Thêm:16📦Tồnkhohiệntại:16💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1793474745043",
       "time": "02:25 - 01/11/2026",
       "name": "Grok Plus 30 ngày KBH",
@@ -17364,17 +17377,6 @@
       "stockAfter": 4,
       "catKey": "google-veo",
       "msgKey": "☁️(👑ĐỘCQUYỀN🔥)LinkGemini18ThángKBH➕Thêm:4📦Tồnkhohiệntại:4💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1793457191306",
-      "time": "21:33 - 31/10/2026",
-      "name": "Link Gemini Pro 18 Tháng",
-      "bot": "sieuthistore_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 11,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:10📦Tồnkhohiệntại:11💰Giá:90.000đ"
     }
   ],
   "vidiq": {
