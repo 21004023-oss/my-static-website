@@ -7533,22 +7533,22 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 35,
-        "stock_text": "Còn 35",
+        "stock": 50,
+        "stock_text": "Còn 50",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 35,
+            "stock": 50,
             "cost_price": 150000,
             "selling_price": 170000,
-            "updated": "06:09 01/11/2026"
+            "updated": "06:12 01/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 35
+          "stock": 50
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -16317,6 +16317,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793488369105",
+      "time": "06:12 - 01/11/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 50,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:15📦Tồnkhohiệntại:50💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793488198577",
       "time": "06:09 - 01/11/2026",
       "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
@@ -17404,17 +17415,6 @@
       "stockAfter": 49,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:17📦Tồnkhohiệntại:22💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793468530168",
-      "time": "00:42 - 01/11/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 10,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
     }
   ],
   "vidiq": {
