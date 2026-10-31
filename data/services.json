@@ -7689,22 +7689,22 @@
         "name": "Kling Stand 1k2 credit 1 tháng - BH 24h",
         "price": 150000,
         "cost_price": 130000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
-        "detail": "Gói Kling Stand 1k2 credit 1 tháng - BH 24h bảo hành uy tín.",
+        "detail": "- Định dạng: Mail | pass\n- Login qua email\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 1,
             "cost_price": 130000,
             "selling_price": 150000,
-            "updated": "00:32 01/11/2026"
+            "updated": "04:56 01/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 130000,
-          "stock": 4
+          "stock": 1
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -16317,6 +16317,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793483816551",
+      "time": "04:56 - 01/11/2026",
+      "name": "Kling Stand 1k2 credit 1 tháng - BH 24h",
+      "bot": "taphoathomap_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 1,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStand1k2credit1tháng-BH24h➕Thêm:4📦Tồnkhohiệntại:1💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1793483643798",
       "time": "04:54 - 01/11/2026",
       "name": "Gmail Việt 2020-2024",
@@ -17404,17 +17415,6 @@
       "stockAfter": 2,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1100-1300Credit1ThángBH1ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1793467926977",
-      "time": "00:32 - 01/11/2026",
-      "name": "ChatGPT (Apple Pay) 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 17,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPT(ApplePay)1ThángBH1Ngày➕Thêm:7📦Tồnkhohiệntại:17💰Giá:180.000đ"
     }
   ],
   "vidiq": {
