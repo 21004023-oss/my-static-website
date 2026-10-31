@@ -12643,9 +12643,9 @@
         "id": "p-1793426392437",
         "name": "Microsoft Copilot 1 Tháng BHF",
         "price": 100000,
-        "cost_price": 90000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "cost_price": 75000,
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Tháng",
         "detail": "- Microsoft Copilot Pro, không phải Github Copilot nên mọi người chú ý nhé, đôi khi trôi date vài ngày BH 25D\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com\n✏️",
         "sources": {
@@ -12654,14 +12654,20 @@
             "cost_price": 90000,
             "selling_price": 100000,
             "updated": "12:59 31/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 8,
+            "cost_price": 75000,
+            "selling_price": 85000,
+            "updated": "13:03 31/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 90000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 75000,
           "stock": 8
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -15790,6 +15796,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793426603540",
+      "time": "13:03 - 31/10/2026",
+      "name": "Microsoft Copilot 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 85000,
+      "costPrice": 75000,
+      "stockAfter": 16,
+      "catKey": "microsoft",
+      "msgKey": "⭐MicrosoftCopilot1ThángBHF➕Thêm:4📦Tồnkhohiệntại:8💰Giá:75.000đ"
+    },
+    {
       "id": "hist-1793426538975",
       "time": "13:02 - 31/10/2026",
       "name": "GROK  PREMIUM + GROK BOT 4X 14D BH 3D",
@@ -16877,17 +16894,6 @@
       "stockAfter": 13,
       "catKey": "capcut",
       "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:2📦Tồnkhohiệntại:6💰Giá:155.000đ"
-    },
-    {
-      "id": "hist-1793407761477",
-      "time": "07:49 - 31/10/2026",
-      "name": "CapCut Pro 3 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 205000,
-      "costPrice": 185000,
-      "stockAfter": 17,
-      "catKey": "capcut",
-      "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:2📦Tồnkhohiệntại:6💰Giá:185.000đ"
     }
   ],
   "vidiq": {
