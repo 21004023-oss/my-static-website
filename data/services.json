@@ -6681,9 +6681,9 @@
         "id": "p-1793296912282",
         "name": "Grok Premium 14 Ngày BH 1 Ngày",
         "price": 160000,
-        "cost_price": 140000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "cost_price": 125000,
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Ngày",
         "detail": "• Grok Premium 14 ngày,\n• Định dạng: Mail|Pass\n-Lưu ý: Sau khi mua hàng vui lòng Chage + đổi mật khẩu, shop chỉ hỗ trợ bảo hành nếu rớt gói, còn các vấn đề khác shop không hỗ trợ ạ. Hỗ trợ sai pass trong vòng 12H sau khi nhận hàng. Nếu quá shop xin phép không bảo hành\n✏️",
         "sources": {
@@ -6692,14 +6692,20 @@
             "cost_price": 140000,
             "selling_price": 160000,
             "updated": "18:28 31/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 1,
+            "cost_price": 125000,
+            "selling_price": 145000,
+            "updated": "18:28 31/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 140000,
+          "bot": "@piggyai99_bot",
+          "cost_price": 125000,
           "stock": 1
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -15967,6 +15973,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793446129641",
+      "time": "18:28 - 31/10/2026",
+      "name": "Grok Premium 14D BH 1D",
+      "bot": "piggyai99_bot",
+      "price": 145000,
+      "costPrice": 125000,
+      "stockAfter": 2,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPremium14DBH1D➕Thêm:1📦Tồnkhohiệntại:1💰Giá:125.000đ"
+    },
+    {
       "id": "hist-1793446121960",
       "time": "18:28 - 31/10/2026",
       "name": "Grok Premium 14 Ngày BH 1 Ngày",
@@ -17054,17 +17071,6 @@
       "stockAfter": 18,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAI31BTokenKBH➕Thêm:5📦Tồnkhohiệntại:18💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1793428232082",
-      "time": "13:30 - 31/10/2026",
-      "name": "Elevenlabs Creator 131k Credit 30D (BH 2D)",
-      "bot": "taphoathomap_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 7,
-      "catKey": "elevenlabs",
-      "msgKey": "🎙️ElevenlabsCreator131kCredit30D(BH2D)➕Thêm:2📦Tồnkhohiệntại:4💰Giá:150.000đ"
     }
   ],
   "vidiq": {
