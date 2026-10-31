@@ -7391,22 +7391,22 @@
         "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
         "price": 260000,
         "cost_price": 230000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
         "detail": "TẤT CẢ ĐỀU ĐĂNG NHẬP BẰNG EMAIL NHÉ\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 3,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "11:22 31/10/2026"
+            "updated": "15:10 31/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 230000,
-          "stock": 2
+          "stock": 3
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -15825,6 +15825,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793434212490",
+      "time": "15:10 - 31/10/2026",
+      "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 3,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1100-1300Credits1thángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1793434170625",
       "time": "15:09 - 31/10/2026",
       "name": "Muse AI 31B Token KBH",
@@ -16912,17 +16923,6 @@
       "stockAfter": 25,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:5📦Tồnkhohiệntại:5💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1793415781829",
-      "time": "10:03 - 31/10/2026",
-      "name": "MiniMax Redeem 100K Credit",
-      "bot": "taphoathomap_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 42,
-      "catKey": "khac",
-      "msgKey": "⭐MiniMaxRedeem100KCredit➕Thêm:20📦Tồnkhohiệntại:21💰Giá:40.000đ"
     }
   ],
   "vidiq": {
