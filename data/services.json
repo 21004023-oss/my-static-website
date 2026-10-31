@@ -15674,9 +15674,9 @@
         "id": "p-1793415774814",
         "name": "MiniMax Redeem 100K Credit",
         "price": 90000,
-        "cost_price": 80000,
-        "stock": 21,
-        "stock_text": "Còn 21",
+        "cost_price": 40000,
+        "stock": 42,
+        "stock_text": "Còn 42",
         "duration": "1 Tháng",
         "detail": "Tín dụng không giới hạn theo tháng\nKhông giới hạn thiết bị sử dụng\nCó thể chia sẻ nhiều người sử dụng\nChất lượng chuyển giọng nói cao hơn\nSử dụng Credit được thêm model ElevenLabs\nMiễn Phí Model CapCut\nRedeem Code Tại : https://genvoice.pro/\n✏️",
         "sources": {
@@ -15685,20 +15685,37 @@
             "cost_price": 80000,
             "selling_price": 90000,
             "updated": "10:02 31/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 21,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "10:03 31/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 80000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 40000,
           "stock": 21
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793415781829",
+      "time": "10:03 - 31/10/2026",
+      "name": "MiniMax Redeem 100K Credit",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 42,
+      "catKey": "khac",
+      "msgKey": "⭐MiniMaxRedeem100KCredit➕Thêm:20📦Tồnkhohiệntại:21💰Giá:40.000đ"
+    },
     {
       "id": "hist-1793415774815",
       "time": "10:02 - 31/10/2026",
@@ -16787,17 +16804,6 @@
       "stockAfter": 38,
       "catKey": "muse-ai",
       "msgKey": "⭐MUSE.AI-31TỶTOKEN(KBH)➕Thêm:10📦Tồnkhohiệntại:16💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1793400533803",
-      "time": "05:48 - 31/10/2026",
-      "name": "Higgsfield Genjutsu 1 tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 45,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsu1thángBH1Ngày➕Thêm:20📦Tồnkhohiệntại:45💰Giá:65.000đ"
     }
   ],
   "vidiq": {
