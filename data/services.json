@@ -4587,24 +4587,27 @@
         "id": "p-1792021557657",
         "name": "API Claude 50$ Token 1 tháng BH 30 ngày",
         "price": 160000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
-        "detail": "-API Claude 50$-Hàng lấy từ Kiro AWS\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng\n-File hướng dẫn sử dụng và thiết lập:\nhttps://drive.google.com/drive/folders/1cDpZB5Of3bk7cz_1qxMWgy3nvHomCkN5?usp=drive_link",
+        "detail": "-API Claude 50$-Hàng lấy từ Kiro AWS\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng\n-File hướng dẫn sử dụng và thiết lập:\nhttps://drive.google.com/drive/folders/1cDpZB5Of3bk7cz_1qxMWgy3nvHomCkN5?usp=drive_link\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 4,
+            "stock": 2,
             "cost_price": 140000,
-            "updated": "02:41 16/10/2026",
-            "selling_price": 160000
+            "selling_price": 160000,
+            "updated": "14:39 31/10/2026"
           }
         },
-        "cost_price": 45000,
+        "cost_price": 140000,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 45000
+          "bot": "@piggyai99_bot",
+          "cost_price": 140000,
+          "stock": 2
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1792022781261",
@@ -15822,6 +15825,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793432396921",
+      "time": "14:39 - 31/10/2026",
+      "name": "API Claude 50$ Token 1 tháng BH 30 ngày",
+      "bot": "piggyai99_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 2,
+      "catKey": "claude",
+      "msgKey": "🧠APIClaude50$Token1thángBH30ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793432376564",
       "time": "14:39 - 31/10/2026",
       "name": "Slot Youtube Premium 3 Tháng BHF",
@@ -16909,17 +16923,6 @@
       "stockAfter": 4,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProTeam12Tháng-BHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:550.000đ"
-    },
-    {
-      "id": "hist-1793414395405",
-      "time": "09:39 - 31/10/2026",
-      "name": "Capcut Pro Team 12 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 700000,
-      "costPrice": 600000,
-      "stockAfter": 3,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProTeam12ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:600.000đ"
     }
   ],
   "vidiq": {
