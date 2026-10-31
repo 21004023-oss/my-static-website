@@ -11926,23 +11926,23 @@
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
         "cost_price": 7000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "3 Ngày",
         "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 2,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "04:40 31/10/2026"
+            "updated": "02:45 01/11/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 7000,
-          "stock": 4
+          "stock": 2
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -16279,6 +16279,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793475936652",
+      "time": "02:45 - 01/11/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 2,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1793475816259",
       "time": "02:43 - 01/11/2026",
       "name": "Gmail Random 200X~2023 Có 2FA",
@@ -17366,17 +17377,6 @@
       "stockAfter": 11,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGemini18Tháng(BH3H)➕Thêm:12📦Tồnkhohiệntại:11💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1793460425309",
-      "time": "22:27 - 31/10/2026",
-      "name": "🔥SALE . Chatgpt Plus  1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 157,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥SALE.ChatgptPlus1thángBHF➕Thêm:59📦Tồnkhohiệntại:64💰Giá:160.000đ"
     }
   ],
   "vidiq": {
