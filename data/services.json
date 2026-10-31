@@ -11785,6 +11785,32 @@
           "stock": 8
         },
         "needs_review": false
+      },
+      {
+        "id": "p-1793412230857",
+        "name": "[KEY] HMA Android PC 20 30 Ngày BHF",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 66,
+        "stock_text": "Còn 66",
+        "duration": "1 Tháng",
+        "detail": "Key HMA sử dụng cho Android và PC, loại này dạng Key nên không sử dụng được cho IOS.\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 66,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "09:03 31/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 25000,
+          "stock": 66
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -15610,6 +15636,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793412230857",
+      "time": "09:03 - 31/10/2026",
+      "name": "[KEY] HMA Android PC 20 30 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 66,
+      "catKey": "hma-vpn",
+      "msgKey": "⭐[KEY]HMAAndroidPC2030NgàyBHF➕Thêm:66📦Tồnkhohiệntại:66💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793411867961",
       "time": "08:57 - 31/10/2026",
       "name": "Capcut Pro 500 credit 7D BH 6D",
@@ -16697,17 +16734,6 @@
       "stockAfter": 81,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:12📦Tồnkhohiệntại:54💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793397614626",
-      "time": "05:00 - 31/10/2026",
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 82,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:14📦Tồnkhohiệntại:55💰Giá:65.000đ"
     }
   ],
   "vidiq": {
