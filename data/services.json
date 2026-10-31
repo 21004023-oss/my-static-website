@@ -7200,16 +7200,16 @@
         "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
         "price": 170000,
         "cost_price": 120000,
-        "stock": 26,
-        "stock_text": "Còn 26",
+        "stock": 50,
+        "stock_text": "Còn 50",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000 credit 1 TH BH 1 ngày bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 16,
+            "stock": 40,
             "cost_price": 120000,
             "selling_price": 140000,
-            "updated": "21:01 30/10/2026"
+            "updated": "12:43 31/10/2026"
           },
           "piggyai99_bot": {
             "stock": 10,
@@ -7221,7 +7221,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 120000,
-          "stock": 16
+          "stock": 40
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -15764,6 +15764,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793425394499",
+      "time": "12:43 - 31/10/2026",
+      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 50,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:120k📦Tồnkho:40tàikhoản📊Đãbán:221tàikhoản✏"
+    },
+    {
       "id": "hist-1793424535900",
       "time": "12:28 - 31/10/2026",
       "name": "Gmail Việt 2020-2024",
@@ -16851,17 +16862,6 @@
       "stockAfter": 546,
       "catKey": "chatgpt",
       "msgKey": "⭐API50MTokenCodex1NgàyBHF➕Thêm:200📦Tồnkhohiệntại:546💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1793405989356",
-      "time": "07:19 - 31/10/2026",
-      "name": "100M Credit API Codex 1 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 905,
-      "catKey": "chatgpt",
-      "msgKey": "⭐100MCreditAPICodex1Ngày-BHF💰Giá:80k📦Tồnkho:347tàikhoản📊Đãbán:397tàikhoản💎Môtả:B"
     }
   ],
   "vidiq": {
