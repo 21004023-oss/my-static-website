@@ -3799,9 +3799,9 @@
         "id": "p-1793337898049",
         "name": "200M Credit API Codex 1 Ngày - BHF",
         "price": 219000,
-        "cost_price": 35000,
-        "stock": 1097,
-        "stock_text": "Còn 1097",
+        "cost_price": 25000,
+        "stock": 1077,
+        "stock_text": "Còn 1077",
         "duration": "1 Ngày",
         "detail": "Base URL : https://gpt.teamsoclo.site/v1\nModel : gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
         "sources": {
@@ -3812,16 +3812,16 @@
             "updated": "07:22 31/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 551,
-            "cost_price": 35000,
-            "selling_price": 45000,
-            "updated": "07:22 31/10/2026"
+            "stock": 531,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "07:28 31/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 35000,
-          "stock": 551
+          "cost_price": 25000,
+          "stock": 531
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -15609,6 +15609,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793406519519",
+      "time": "07:28 - 31/10/2026",
+      "name": "10M Credit API Codex 1 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 1077,
+      "catKey": "chatgpt",
+      "msgKey": "⭐10MCreditAPICodex1Ngày-BHF➕Thêm:200📦Tồnkhohiệntại:531💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793406503902",
       "time": "07:28 - 31/10/2026",
       "name": "API 10M Token Codex 1 Ngày BHF",
@@ -16696,17 +16707,6 @@
       "stockAfter": 6,
       "catKey": "wink",
       "msgKey": "⭐WinkVip90DBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:200.000đ"
-    },
-    {
-      "id": "hist-1793394419783",
-      "time": "04:06 - 31/10/2026",
-      "name": "Wink Vip 3 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 280000,
-      "costPrice": 250000,
-      "stockAfter": 5,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVip3ThángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:250.000đ"
     }
   ],
   "vidiq": {
