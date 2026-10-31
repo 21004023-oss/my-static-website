@@ -5654,16 +5654,16 @@
         "id": "p-1792256292426",
         "name": "Link Gemini Pro 18 Tháng",
         "price": 100000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "1 Tháng",
         "detail": "Mua về chỉ cần đăng nhập vào gmail cần nâng cấp rồi dán link vào web bất kì, ấn nhận gói là xong\nBảo hành giữ link trong 3 tiếng\nVUI LÒNG KHÔNG TÍCH TRỮ\nKhông bảo hành nếu offer bị kết thúc hoàn toàn bởi Jio\nKhông bảo hành sau khi đã kích hoạt và lên gói\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 11,
+            "stock": 9,
             "cost_price": 90000,
             "selling_price": 100000,
-            "updated": "20:13 31/10/2026"
+            "updated": "20:32 31/10/2026"
           }
         },
         "hidden": false,
@@ -5672,7 +5672,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 90000,
-          "stock": 11
+          "stock": 9
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -15979,6 +15979,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793453560059",
+      "time": "20:32 - 31/10/2026",
+      "name": "Link Gemini Pro 18 Tháng",
+      "bot": "sieuthistore_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 9,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:2📦Tồnkhohiệntại:9💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1793453499935",
       "time": "20:31 - 31/10/2026",
       "name": "Capcut Pro Cá Nhân 30D  BHF",
@@ -17066,17 +17077,6 @@
       "stockAfter": 50,
       "catKey": "capcut",
       "msgKey": "✂️CapcutPro280credit7DBH6D➕Thêm:50📦Tồnkhohiệntại:50💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1793438522506",
-      "time": "16:22 - 31/10/2026",
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
-      "bot": "ntnshopre_bot",
-      "price": 195000,
-      "costPrice": 175000,
-      "stockAfter": 91,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:30📦Tồnkhohiệntại:30💰Giá:175.000đ"
     }
   ],
   "vidiq": {
