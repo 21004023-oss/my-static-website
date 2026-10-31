@@ -11790,9 +11790,9 @@
         "id": "p-1793412230857",
         "name": "[KEY] HMA Android PC 20 30 Ngày BHF",
         "price": 35000,
-        "cost_price": 25000,
-        "stock": 66,
-        "stock_text": "Còn 66",
+        "cost_price": 20000,
+        "stock": 132,
+        "stock_text": "Còn 132",
         "duration": "1 Tháng",
         "detail": "Key HMA sử dụng cho Android và PC, loại này dạng Key nên không sử dụng được cho IOS.\n✏️",
         "sources": {
@@ -11801,14 +11801,20 @@
             "cost_price": 25000,
             "selling_price": 35000,
             "updated": "09:03 31/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 66,
+            "cost_price": 20000,
+            "selling_price": 30000,
+            "updated": "09:03 31/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 25000,
+          "bot": "@piggyai99_bot",
+          "cost_price": 20000,
           "stock": 66
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -15636,6 +15642,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793412235666",
+      "time": "09:03 - 31/10/2026",
+      "name": "[KEY] HMA Android PC 20 30 Ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 30000,
+      "costPrice": 20000,
+      "stockAfter": 132,
+      "catKey": "hma-vpn",
+      "msgKey": "⭐[KEY]HMAAndroidPC2030NgàyBHF➕Thêm:66📦Tồnkhohiệntại:66💰Giá:20.000đ"
+    },
+    {
       "id": "hist-1793412230857",
       "time": "09:03 - 31/10/2026",
       "name": "[KEY] HMA Android PC 20 30 Ngày BHF",
@@ -16723,17 +16740,6 @@
       "stockAfter": 7,
       "catKey": "elevenlabs",
       "msgKey": "🎙️ElevenlabsCreator131kCredit30D(BH2D)➕Thêm:2📦Tồnkhohiệntại:4💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1793397853097",
-      "time": "05:04 - 31/10/2026",
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 81,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:12📦Tồnkhohiệntại:54💰Giá:65.000đ"
     }
   ],
   "vidiq": {
