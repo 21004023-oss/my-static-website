@@ -8399,6 +8399,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793469546649",
+        "name": "Higgsfield 9k credit 1 tháng BH 1 ngày",
+        "price": 5100000,
+        "cost_price": 4500000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "1 Tháng",
+        "detail": "- Hàng không sẵn, order trả trong 3-5 tiếng\nLưu ý: Cân nhắc trước khi mua, đã mua là shop sẽ ghi nhận đơn hàng và bấm thanh toán. Sẽ không hoàn tiền sau khi mua\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 10,
+            "cost_price": 4500000,
+            "selling_price": 5100000,
+            "updated": "00:59 01/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 4500000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -16146,6 +16172,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793469546649",
+      "time": "00:59 - 01/11/2026",
+      "name": "Higgsfield 9k credit 1 tháng BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 5100000,
+      "costPrice": 4500000,
+      "stockAfter": 10,
+      "catKey": "higgsfield",
+      "msgKey": "🎬Higgsfield9kcredit1thángBH1ngày➕Thêm:10📦Tồnkhohiệntại:10💰Giá:4.500.000đ"
+    },
+    {
       "id": "hist-1793469534284",
       "time": "00:58 - 01/11/2026",
       "name": "Meitu SVip+ 7 Ngày BHF",
@@ -17233,17 +17270,6 @@
       "stockAfter": 11,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:2📦Tồnkhohiệntại:11💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1793452426193",
-      "time": "20:13 - 31/10/2026",
-      "name": "🔥 Link Gemini Pro 18 Tháng KBH",
-      "bot": "taphoathomap_bot",
-      "price": 83000,
-      "costPrice": 73000,
-      "stockAfter": 11,
-      "catKey": "google-veo",
-      "msgKey": "☁️🔥LinkGeminiPro18ThángKBH➕Thêm:2📦Tồnkhohiệntại:11💰Giá:73.000đ"
     }
   ],
   "vidiq": {
