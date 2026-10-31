@@ -8950,6 +8950,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 750000
         }
+      },
+      {
+        "id": "p-1793435625390",
+        "name": "Gamma Plus 1 Tháng (BH 20D)",
+        "price": 135000,
+        "cost_price": 115000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Tháng",
+        "detail": "Gamma Plus 1 Tháng (BH 25D)\n1.000 tín dụng hàng tháng\nTạo tối đa 100 số slide cho mỗi câu hỏi\nXóa nhãn hiệu Gamma\nMô hình hình ảnh AI tiên tiến\nđịnh dạng : tài khoản | pass | link đọc code\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 4,
+            "cost_price": 115000,
+            "selling_price": 135000,
+            "updated": "15:33 31/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 115000,
+          "stock": 4
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -15825,6 +15851,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793435625390",
+      "time": "15:33 - 31/10/2026",
+      "name": "Gamma Plus 1 Tháng (BH 20D)",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 4,
+      "catKey": "gamma",
+      "msgKey": "⭐GammaPlus1Tháng(BH20D)➕Thêm:4📦Tồnkhohiệntại:4💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1793435164889",
       "time": "15:26 - 31/10/2026",
       "name": "MUSE.AI -31 TỶ TOKEN (KBH)",
@@ -16912,17 +16949,6 @@
       "stockAfter": 166,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1tháng-BH24H💰Giá:100k📦Tồnkho:36tàikhoản📊Đãbán:721tàikhoản💎Môtả:🔐Tàik"
-    },
-    {
-      "id": "hist-1793415898344",
-      "time": "10:04 - 31/10/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 166,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH24H➕Thêm:36📦Tồnkhohiệntại:36💰Giá:100.000đ"
     }
   ],
   "vidiq": {
