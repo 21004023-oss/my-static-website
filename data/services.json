@@ -6162,23 +6162,23 @@
         "id": "p-1793460469446",
         "name": "Link Gemini 18 Tháng ( BH 3H )",
         "price": 80000,
-        "cost_price": 70000,
-        "stock": 60,
-        "stock_text": "Còn 60",
+        "cost_price": 50000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Gói Link Gemini 18 Tháng ( BH 3H ) bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 60,
-            "cost_price": 70000,
-            "selling_price": 80000,
-            "updated": "22:30 31/10/2026"
+            "stock": 0,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "04:25 01/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 70000,
-          "stock": 60
+          "cost_price": 50000,
+          "stock": 0
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -16279,6 +16279,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793481934424",
+      "time": "04:25 - 01/11/2026",
+      "name": "Link Gemini 18 Tháng ( BH 3H )",
+      "bot": "taphoathomap_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 0,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGemini18Tháng(BH3H)➕Thêm:30📦Tồnkhohiệntại:0💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1793481732733",
       "time": "04:22 - 01/11/2026",
       "name": "Zoom Pro 14 Ngày BHF",
@@ -17366,17 +17377,6 @@
       "stockAfter": 105,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:1📦Tồnkhohiệntại:57💰Giá:220.000đ"
-    },
-    {
-      "id": "hist-1793465230436",
-      "time": "23:47 - 31/10/2026",
-      "name": "Grammarly AI Pro 1 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 6,
-      "catKey": "grammarly",
-      "msgKey": "⭐GrammarlyAIPro1ThángBHF💰Giá:90k📦Tồnkho:2tàikhoản📊Đãbán:134tàikhoản💎Môtả:Grammar"
     }
   ],
   "vidiq": {
