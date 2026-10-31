@@ -10259,6 +10259,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793442263176",
+        "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
+        "price": 50000,
+        "cost_price": 40000,
+        "stock": 9,
+        "stock_text": "Còn 9",
+        "duration": "1 Tháng",
+        "detail": "Ko bảo hành quá thiết bị\nThay đổi pass vs mail = KBH\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 9,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "17:24 31/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 40000,
+          "stock": 9
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -15909,6 +15935,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793442263176",
+      "time": "17:24 - 31/10/2026",
+      "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 9,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN1thBH30D➕Thêm:9📦Tồnkhohiệntại:9💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1793442218824",
       "time": "17:23 - 31/10/2026",
       "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
@@ -16996,17 +17033,6 @@
       "stockAfter": 80,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:150k📦Tồnkho:40tàikhoản📊Đãbán:221tàikhoản✏"
-    },
-    {
-      "id": "hist-1793425425471",
-      "time": "12:43 - 31/10/2026",
-      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 40,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:40📦Tồnkhohiệntại:40💰Giá:150.000đ"
     }
   ],
   "vidiq": {
