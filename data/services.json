@@ -7330,22 +7330,22 @@
         "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
         "price": 260000,
         "cost_price": 230000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "TẤT CẢ ĐỀU ĐĂNG NHẬP BẰNG EMAIL NHÉ\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 6,
+            "stock": 2,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "02:20 30/10/2026"
+            "updated": "11:22 31/10/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 230000,
-          "stock": 6
+          "stock": 2
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -15732,6 +15732,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793420575273",
+      "time": "11:22 - 31/10/2026",
+      "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 2,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1100-1300Credits1thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1793419454694",
       "time": "11:04 - 31/10/2026",
       "name": "Heygen Creator 1 Tháng BH 3 Ngày",
@@ -16819,17 +16830,6 @@
       "stockAfter": 998,
       "catKey": "chatgpt",
       "msgKey": "⭐[Astra]API200MTokenCodex5Ngày-BHF➕Thêm:200📦Tồnkhohiệntại:499💰Giá:799.000đ"
-    },
-    {
-      "id": "hist-1793404769379",
-      "time": "06:59 - 31/10/2026",
-      "name": "[Astra] API 200M Token Codex 5 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 1020000,
-      "costPrice": 920000,
-      "stockAfter": 999,
-      "catKey": "chatgpt",
-      "msgKey": "⭐[Astra]API200MTokenCodex5NgàyBHF➕Thêm:200📦Tồnkhohiệntại:499💰Giá:920.000đ"
     }
   ],
   "vidiq": {
