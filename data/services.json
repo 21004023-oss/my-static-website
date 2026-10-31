@@ -11545,6 +11545,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793415763322",
+        "name": "KEY EXPRESS VPN 1 THÁNG BHF",
+        "price": 50000,
+        "cost_price": 40000,
+        "stock": 7,
+        "stock_text": "Còn 7",
+        "duration": "1 Tháng",
+        "detail": "Gói KEY EXPRESS VPN 1 THÁNG BHF bảo hành uy tín.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 7,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "10:02 31/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 40000,
+          "stock": 7
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -15648,6 +15674,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793415763322",
+      "time": "10:02 - 31/10/2026",
+      "name": "KEY EXPRESS VPN 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 7,
+      "catKey": "expressvpn",
+      "msgKey": "🚚KEYEXPRESSVPN1THÁNGBHF💰Giá:40k📦Tồnkho:7tàikhoản📊Đãbán:0tàikhoản✏️Vuilòngnhậpsốl"
+    },
+    {
       "id": "hist-1793414481879",
       "time": "09:41 - 31/10/2026",
       "name": "IPVanish VPN 7 Ngày BHF",
@@ -16735,17 +16772,6 @@
       "stockAfter": 337,
       "catKey": "gmail",
       "msgKey": "📧GMAILCỔDATE201X-2022➕Thêm:100📦Tồnkhohiệntại:110💰Giá:39.000đ"
-    },
-    {
-      "id": "hist-1793400456903",
-      "time": "05:47 - 31/10/2026",
-      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 102,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:21📦Tồnkhohiệntại:102💰Giá:180.000đ"
     }
   ],
   "vidiq": {
