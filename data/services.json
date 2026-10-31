@@ -16280,10 +16280,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793483260787",
+        "name": "Galaxy Play VIP 30 ngày BHF",
+        "price": 95000,
+        "cost_price": 85000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "1 Slot galaxy play Vip xem all phim\nĐăng nhập và xem trên 1 thiết bị\nKhông đổi pass, pin và tên profile\nBảo hành 30 ngày\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 1,
+            "cost_price": 85000,
+            "selling_price": 95000,
+            "updated": "04:47 01/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 85000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793483260787",
+      "time": "04:47 - 01/11/2026",
+      "name": "Galaxy Play VIP 30 ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 1,
+      "catKey": "khac",
+      "msgKey": "⭐GalaxyPlayVIP30ngàyBHF➕Thêm:2📦Tồnkhohiệntại:1💰Giá:85.000đ"
+    },
     {
       "id": "hist-1793482628599",
       "time": "04:37 - 01/11/2026",
@@ -17372,17 +17409,6 @@
       "stockAfter": 129,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPROTEAM7NGÀYBHF💰Giá:10k📦Tồnkho:47tàikhoản📊Đãbán:218tàikhoản💎Môtả:-Địnhdạ"
-    },
-    {
-      "id": "hist-1793467901635",
-      "time": "00:31 - 01/11/2026",
-      "name": "CAPCUT PRO TEAM 7 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 129,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPROTEAM7NGÀYBHF➕Thêm:20📦Tồnkhohiệntại:47💰Giá:10.000đ"
     }
   ],
   "vidiq": {
