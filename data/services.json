@@ -7533,13 +7533,13 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 35,
+        "stock_text": "Còn 35",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 8,
+            "stock": 35,
             "cost_price": 150000,
             "selling_price": 170000,
             "updated": "06:09 01/11/2026"
@@ -7548,7 +7548,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 8
+          "stock": 35
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -16317,6 +16317,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793488165976",
+      "time": "06:09 - 01/11/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 35,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:23📦Tồnkhohiệntại:35💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793488160743",
       "time": "06:09 - 01/11/2026",
       "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
@@ -17404,17 +17415,6 @@
       "stockAfter": 1,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldUltra3kCredit1tháng(KBH)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:1.400.000đ"
-    },
-    {
-      "id": "hist-1793468076253",
-      "time": "00:34 - 01/11/2026",
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
-      "bot": "ntnshopre_bot",
-      "price": 190000,
-      "costPrice": 170000,
-      "stockAfter": 204,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:15📦Tồnkhohiệntại:53💰Giá:170.000đ"
     }
   ],
   "vidiq": {
