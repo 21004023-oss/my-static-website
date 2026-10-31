@@ -6818,8 +6818,8 @@
         "name": "Grok Premium 14 Ngày BH 1 Ngày",
         "price": 160000,
         "cost_price": 125000,
-        "stock": 16,
-        "stock_text": "Còn 16",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Ngày",
         "detail": "• Grok Premium 14 ngày,\n• Định dạng: Mail|Pass\n-Lưu ý: Sau khi mua hàng vui lòng Chage + đổi mật khẩu, shop chỉ hỗ trợ bảo hành nếu rớt gói, còn các vấn đề khác shop không hỗ trợ ạ. Hỗ trợ sai pass trong vòng 12H sau khi nhận hàng. Nếu quá shop xin phép không bảo hành\n✏️",
         "sources": {
@@ -6830,16 +6830,16 @@
             "updated": "01:57 01/11/2026"
           },
           "piggyai99_bot": {
-            "stock": 1,
+            "stock": 15,
             "cost_price": 125000,
             "selling_price": 145000,
-            "updated": "19:04 31/10/2026"
+            "updated": "01:57 01/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 125000,
-          "stock": 1
+          "stock": 15
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -16251,6 +16251,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793473071582",
+      "time": "01:57 - 01/11/2026",
+      "name": "Grok Premium 14D BH 1D",
+      "bot": "piggyai99_bot",
+      "price": 145000,
+      "costPrice": 125000,
+      "stockAfter": 30,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPremium14DBH1D➕Thêm:5📦Tồnkhohiệntại:15💰Giá:125.000đ"
+    },
+    {
       "id": "hist-1793473066540",
       "time": "01:57 - 01/11/2026",
       "name": "Grok Premium 14 Ngày BH 1 Ngày",
@@ -17338,17 +17349,6 @@
       "stockAfter": 6,
       "catKey": "netflix",
       "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1793456524654",
-      "time": "21:22 - 31/10/2026",
-      "name": "Netflix Premium Extra 30 Ngày BHF",
-      "bot": "piggyai99_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 6,
-      "catKey": "netflix",
-      "msgKey": "🎬NetflixPremiumExtra30NgàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:115.000đ"
     }
   ],
   "vidiq": {
