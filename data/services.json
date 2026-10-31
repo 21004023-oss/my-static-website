@@ -8781,13 +8781,13 @@
         "name": "Muse AI 31B Token KBH",
         "price": 90000,
         "cost_price": 80000,
-        "stock": 18,
-        "stock_text": "Còn 18",
+        "stock": 13,
+        "stock_text": "Còn 13",
         "duration": "1 Tháng",
         "detail": "-Token 31B\n-Định dạng: Mail | Link đọc code mail\n-Bảo hành: Login check acc ok = hoàn tất BH.\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 18,
+            "stock": 13,
             "cost_price": 80000,
             "selling_price": 90000,
             "updated": "13:40 31/10/2026"
@@ -8796,7 +8796,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 80000,
-          "stock": 18
+          "stock": 13
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -15796,6 +15796,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793428857364",
+      "time": "13:40 - 31/10/2026",
+      "name": "Muse AI 31B Token KBH",
+      "bot": "piggyai99_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 13,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAI31BTokenKBH💰Giá:80k📦Tồnkho:13tàikhoản📊Đãbán:238tàikhoản💎Môtả:-Token31B-Đị"
+    },
+    {
       "id": "hist-1793428853591",
       "time": "13:40 - 31/10/2026",
       "name": "Muse AI 31B Token KBH",
@@ -16883,17 +16894,6 @@
       "stockAfter": 251,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:50📦Tồnkhohiệntại:76💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1793410556030",
-      "time": "08:35 - 31/10/2026",
-      "name": "Slot Youtube Premium 3 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 611,
-      "catKey": "youtube",
-      "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:611💰Giá:95.000đ"
     }
   ],
   "vidiq": {
