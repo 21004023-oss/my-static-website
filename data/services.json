@@ -8405,22 +8405,22 @@
         "name": "Higgsfield Ultra 3k Credit 1 tháng (KBH)",
         "price": 1600000,
         "cost_price": 1400000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
-        "detail": "Higgsfield Ultra 3k Credit (KBH) - Order không sẵn\n📦 Định dạng: Mail|Pass|Pass mail\n- Hàng hiếm, làm khó,\n_ Order : Làm từ chiều - đêm\n- Mua xong nên sử dụng|bào credit nhanh để tận dụng tối đa\n✏️",
+        "detail": "Higgsfield Ultra 3k Credit (KBH) - Order không sẵn\n📦 Hàng live tốt đã kiểm chứng\n📦 Định dạng: Mail|Pass|Pass mail\n- Hàng hiếm, làm khó,\n_ Order : Admin sẽ gửi khi có hàng",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 0,
             "cost_price": 1400000,
             "selling_price": 1600000,
-            "updated": "00:37 01/11/2026"
+            "updated": "01:16 01/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 1400000,
-          "stock": 1
+          "stock": 0
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -16225,6 +16225,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793470617194",
+      "time": "01:16 - 01/11/2026",
+      "name": "Higgsfield Ultra 3k Credit 1 tháng (KBH)",
+      "bot": "taphoathomap_bot",
+      "price": 1600000,
+      "costPrice": 1400000,
+      "stockAfter": 0,
+      "catKey": "higgsfield",
+      "msgKey": "🎬HiggsfieldUltra3kCredit1tháng(KBH)➕Thêm:1📦Tồnkhohiệntại:0💰Giá:1.400.000đ"
+    },
+    {
       "id": "hist-1793470420924",
       "time": "01:13 - 01/11/2026",
       "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
@@ -17312,17 +17323,6 @@
       "stockAfter": 4,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProTeam12Tháng-BHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:550.000đ"
-    },
-    {
-      "id": "hist-1793452626416",
-      "time": "20:17 - 31/10/2026",
-      "name": "Capcut Pro Team 12 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 700000,
-      "costPrice": 600000,
-      "stockAfter": 4,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProTeam12ThángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:600.000đ"
     }
   ],
   "vidiq": {
