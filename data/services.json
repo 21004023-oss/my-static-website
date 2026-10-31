@@ -2934,24 +2934,24 @@
         "id": "api-codex-10m-2d",
         "name": "10M Credit API Codex 2 Ngày BHF",
         "price": 999000,
-        "stock": 593,
-        "stock_text": "Còn 593",
+        "stock": 277,
+        "stock_text": "Còn 277",
         "duration": "1 Tháng",
         "source": "Teamsoclo",
         "detail": "Base URL : https://gpt.teamsoclo.site/v1\nModel : gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
-        "cost_price": 40000,
+        "cost_price": 499000,
         "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 40000,
-          "stock": 593
+          "cost_price": 499000,
+          "stock": 277
         },
         "sources": {
           "taphoathomap_bot": {
-            "stock": 593,
-            "cost_price": 40000,
-            "selling_price": 50000,
-            "updated": "07:14 31/10/2026"
+            "stock": 277,
+            "cost_price": 499000,
+            "selling_price": 549000,
+            "updated": "07:15 31/10/2026"
           }
         },
         "hidden": false,
@@ -15583,6 +15583,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793405753979",
+      "time": "07:15 - 31/10/2026",
+      "name": "1000M Credit API Codex 2 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 549000,
+      "costPrice": 499000,
+      "stockAfter": 277,
+      "catKey": "chatgpt",
+      "msgKey": "⭐1000MCreditAPICodex2Ngày-BHF➕Thêm:200📦Tồnkhohiệntại:277💰Giá:499.000đ"
+    },
+    {
       "id": "hist-1793405741479",
       "time": "07:15 - 31/10/2026",
       "name": "API 1B Credit Codex 2 Ngày BHF",
@@ -16670,17 +16681,6 @@
       "stockAfter": 133,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:1📦Tồnkhohiệntại:76💰Giá:220.000đ"
-    },
-    {
-      "id": "hist-1793391465721",
-      "time": "03:17 - 31/10/2026",
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 5,
-      "catKey": "meitu",
-      "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:35.000đ"
     }
   ],
   "vidiq": {
