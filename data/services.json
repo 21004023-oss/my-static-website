@@ -10537,8 +10537,8 @@
         "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
         "price": 50000,
         "cost_price": 33000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
         "detail": "Ko bảo hành quá thiết bị\nThay đổi pass vs mail = KBH\n✏️",
         "sources": {
@@ -10549,16 +10549,16 @@
             "updated": "02:35 01/11/2026"
           },
           "piggyai99_bot": {
-            "stock": 4,
+            "stock": 2,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "02:35 01/11/2026"
+            "updated": "04:16 01/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 33000,
-          "stock": 4
+          "stock": 2
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -16279,6 +16279,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793481415600",
+      "time": "04:16 - 01/11/2026",
+      "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
+      "bot": "piggyai99_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 6,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN1thBH30D➕Thêm:5📦Tồnkhohiệntại:2💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1793481201756",
       "time": "04:13 - 01/11/2026",
       "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
@@ -17366,17 +17377,6 @@
       "stockAfter": 8,
       "catKey": "grammarly",
       "msgKey": "⭐GrammarlyAIPro1ThángBHF💰Giá:80k📦Tồnkho:2tàikhoản📊Đãbán:134tàikhoản💎Môtả:Grammar"
-    },
-    {
-      "id": "hist-1793465208500",
-      "time": "23:46 - 31/10/2026",
-      "name": "Grammarly AI Pro 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 8,
-      "catKey": "grammarly",
-      "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:2💰Giá:80.000đ"
     }
   ],
   "vidiq": {
