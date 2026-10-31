@@ -6578,16 +6578,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 43,
-        "stock_text": "Còn 43",
+        "stock": 80,
+        "stock_text": "Còn 80",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 43,
+            "stock": 80,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "14:35 31/10/2026"
+            "updated": "15:22 31/10/2026"
           }
         },
         "hidden": false,
@@ -6595,7 +6595,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 43
+          "stock": 80
         },
         "needs_review": false
       },
@@ -15825,6 +15825,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793434973887",
+      "time": "15:22 - 31/10/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 80,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:39📦Tồnkhohiệntại:80💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793434212490",
       "time": "15:10 - 31/10/2026",
       "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
@@ -16912,17 +16923,6 @@
       "stockAfter": 5,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1ThángBHLogin➕Thêm:5📦Tồnkhohiệntại:5💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1793415843290",
-      "time": "10:04 - 31/10/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 25,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:5📦Tồnkhohiệntại:5💰Giá:70.000đ"
     }
   ],
   "vidiq": {
