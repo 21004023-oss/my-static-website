@@ -45,8 +45,8 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 115000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
         "sources": {
@@ -57,10 +57,10 @@
             "updated": "10:31 31/10/2026"
           },
           "piggyai99_bot": {
-            "stock": 1,
+            "stock": 3,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "06:23 31/10/2026"
+            "updated": "10:31 31/10/2026"
           }
         },
         "hidden": false,
@@ -69,7 +69,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 115000,
-          "stock": 1
+          "stock": 3
         }
       },
       {
@@ -15732,6 +15732,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793417487279",
+      "time": "10:31 - 31/10/2026",
+      "name": "Netflix Premium Extra 30 Ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 6,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra30NgàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1793417482416",
       "time": "10:31 - 31/10/2026",
       "name": "Netflix Premium Extra 1 Tháng BHF",
@@ -16819,17 +16830,6 @@
       "stockAfter": 507,
       "catKey": "claude",
       "msgKey": "🧠API1B(1tỉ)TokenClaude30Ngày-BH7D➕Thêm:500📦Tồnkhohiệntại:507💰Giá:1.080.000đ"
-    },
-    {
-      "id": "hist-1793402091557",
-      "time": "06:14 - 31/10/2026",
-      "name": "Open Art 4K credit 30D BH 24H",
-      "bot": "piggyai99_bot",
-      "price": 165000,
-      "costPrice": 145000,
-      "stockAfter": 8,
-      "catKey": "khac",
-      "msgKey": "⭐OpenArt4Kcredit30DBH24H💰Giá:145k📦Tồnkho:8tàikhoản📊Đãbán:4tàikhoản💎Môtả:địnhdạng"
     }
   ],
   "vidiq": {
