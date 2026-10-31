@@ -10264,9 +10264,9 @@
         "id": "p-1793442263176",
         "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
         "price": 50000,
-        "cost_price": 40000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "cost_price": 33000,
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "1 Tháng",
         "detail": "Ko bảo hành quá thiết bị\nThay đổi pass vs mail = KBH\n✏️",
         "sources": {
@@ -10275,14 +10275,20 @@
             "cost_price": 40000,
             "selling_price": 50000,
             "updated": "17:24 31/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 9,
+            "cost_price": 33000,
+            "selling_price": 43000,
+            "updated": "17:24 31/10/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 40000,
+          "bot": "@piggyai99_bot",
+          "cost_price": 33000,
           "stock": 9
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -15935,6 +15941,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793442268323",
+      "time": "17:24 - 31/10/2026",
+      "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
+      "bot": "piggyai99_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 18,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN1thBH30D➕Thêm:9📦Tồnkhohiệntại:9💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1793442263176",
       "time": "17:24 - 31/10/2026",
       "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
@@ -17022,17 +17039,6 @@
       "stockAfter": 80,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000credit1THBH1ngày➕Thêm:40📦Tồnkhohiệntại:40💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1793425455912",
-      "time": "12:44 - 31/10/2026",
-      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
-      "bot": "piggyai99_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 80,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:150k📦Tồnkho:40tàikhoản📊Đãbán:221tàikhoản✏"
     }
   ],
   "vidiq": {
