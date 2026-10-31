@@ -13004,6 +13004,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793469748150",
+        "name": "Admin Office 365 (Renew Auto) 12 tháng BHF",
+        "price": 450000,
+        "cost_price": 400000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "1 Năm",
+        "detail": "ướng dẫn: Office family trial 12 tháng, mỗi tháng renew 1 lần bên mình đã có tool tự động gia hạn. ae add khách nếu hiện ngày hết hạn sau 1 tháng thì có thể yên tâm sử dụng, đến hạn bên mình sẽ renew ngay lập tức hoàn toàn tự động cho anh em\nKhông đổi pass, cài 2Fa. tài khoản bảo đảm bán riêng tư ae giữ nguyên bên mình tiện renew nhé\nđọc kỹ trước khi mua hàng, tránh tranh chấp sau mua, cảm ơn ae\n- Web lấy mã otp về mail khôi phục ( thay đuôi @ ): ướng dẫn: Office family trial 12 tháng, mỗi tháng renew 1 lần bên mình đã có tool tự động gia hạn. ae add khách nếu hiện ngày hết hạn sau 1 tháng thì có thể yên tâm sử dụng, đến hạn bên mình sẽ renew ngay lập tức hoàn toàn tự động cho anh em\n- Web mail Domain mail khôi phục nếu ae cần lấy Code để đăng nhập ( thay mỗi đuôi @ đằng sau ): https://fviainboxes.com/\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 10,
+            "cost_price": 400000,
+            "selling_price": 450000,
+            "updated": "01:02 01/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 400000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -16173,6 +16199,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793469748150",
+      "time": "01:02 - 01/11/2026",
+      "name": "Admin Office 365 (Renew Auto) 12 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 450000,
+      "costPrice": 400000,
+      "stockAfter": 10,
+      "catKey": "microsoft",
+      "msgKey": "⭐AdminOffice365(RenewAuto)12thángBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:400.000đ"
+    },
+    {
       "id": "hist-1793469648725",
       "time": "01:00 - 01/11/2026",
       "name": "ADMIN MS365 PREMIUM 1TB 5 SLOT 1 NĂM BHF",
@@ -17260,17 +17297,6 @@
       "stockAfter": 145,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥VIP.ChatgptPlus1thángBHF➕Thêm:52📦Tồnkhohiệntại:52💰Giá:170.000đ"
-    },
-    {
-      "id": "hist-1793452435238",
-      "time": "20:13 - 31/10/2026",
-      "name": "Link Gemini Pro 18 Tháng",
-      "bot": "sieuthistore_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 11,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGeminiPro18Tháng💰Giá:90k📦Tồnkho:11tàikhoản📊Đãbán:12.628tàikhoản💎Môtả:Muavề"
     }
   ],
   "vidiq": {
