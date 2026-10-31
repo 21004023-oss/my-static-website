@@ -8373,6 +8373,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793468275244",
+        "name": "Higgsfield Ultra 3k Credit 1 tháng (KBH)",
+        "price": 1600000,
+        "cost_price": 1400000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Higgsfield Ultra 3k Credit (KBH) - Order không sẵn\n📦 Định dạng: Mail|Pass|Pass mail\n- Hàng hiếm, làm khó,\n_ Order : Làm từ chiều - đêm\n- Mua xong nên sử dụng|bào credit nhanh để tận dụng tối đa\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 1400000,
+            "selling_price": 1600000,
+            "updated": "00:37 01/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 1400000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -16120,6 +16146,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793468275244",
+      "time": "00:37 - 01/11/2026",
+      "name": "Higgsfield Ultra 3k Credit 1 tháng (KBH)",
+      "bot": "taphoathomap_bot",
+      "price": 1600000,
+      "costPrice": 1400000,
+      "stockAfter": 1,
+      "catKey": "higgsfield",
+      "msgKey": "🎬HiggsfieldUltra3kCredit1tháng(KBH)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:1.400.000đ"
+    },
+    {
       "id": "hist-1793468076253",
       "time": "00:34 - 01/11/2026",
       "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
@@ -17207,17 +17244,6 @@
       "stockAfter": 31,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+30DBHF➕Thêm:14📦Tồnkhohiệntại:13💰Giá:59.000đ"
-    },
-    {
-      "id": "hist-1793451364068",
-      "time": "19:56 - 31/10/2026",
-      "name": "Meitu Vip+ 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 40,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+1ThángBHF➕Thêm:14📦Tồnkhohiệntại:13💰Giá:70.000đ"
     }
   ],
   "vidiq": {
