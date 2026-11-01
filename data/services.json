@@ -7876,22 +7876,22 @@
         "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
         "price": 260000,
         "cost_price": 230000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 7,
+        "stock_text": "Còn 7",
         "duration": "1 Tháng",
         "detail": "TẤT CẢ ĐỀU ĐĂNG NHẬP BẰNG EMAIL NHÉ\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 4,
+            "stock": 7,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "03:06 01/11/2026"
+            "updated": "03:16 02/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 230000,
-          "stock": 4
+          "stock": 7
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -16960,6 +16960,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793564194131",
+      "time": "03:16 - 02/11/2026",
+      "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 7,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1100-1300Credits1thángBHF➕Thêm:6📦Tồnkhohiệntại:7💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1793563929111",
       "time": "03:12 - 02/11/2026",
       "name": "Zoom Pro 28 Ngày BHF",
@@ -18047,17 +18058,6 @@
       "stockAfter": 98,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:17📦Tồnkhohiệntại:98💰Giá:200.000"
-    },
-    {
-      "id": "hist-1793546655276",
-      "time": "22:24 - 01/11/2026",
-      "name": "Chatgpt Plus (Apple Pay) 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 146,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:17📦Tồnkhohiệntại:98💰Giá:220.000đ"
     }
   ],
   "vidiq": {
