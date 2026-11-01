@@ -6907,8 +6907,8 @@
         "id": "kling-65cre",
         "name": "Kling 65 Cre 1 Tháng BHF",
         "price": 28000,
-        "stock": 362,
-        "stock_text": "Còn 362",
+        "stock": 533,
+        "stock_text": "Còn 533",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
         "detail": "Acc free được tặng credit\n✏️",
@@ -6917,14 +6917,14 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 2000,
-          "stock": 198
+          "stock": 369
         },
         "sources": {
           "taphoathomap_bot": {
-            "stock": 198,
+            "stock": 369,
             "cost_price": 2000,
             "selling_price": 12000,
-            "updated": "07:45 30/10/2026"
+            "updated": "08:33 01/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 164,
@@ -16317,6 +16317,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793496793018",
+      "time": "08:33 - 01/11/2026",
+      "name": "Kling 65 Cre 1th BHF",
+      "bot": "taphoathomap_bot",
+      "price": 12000,
+      "costPrice": 2000,
+      "stockAfter": 533,
+      "catKey": "kling",
+      "msgKey": "🎬Kling65Cre1thBHF➕Thêm:200📦Tồnkhohiệntại:369💰Giá:2.000đ"
+    },
+    {
       "id": "hist-1793496788297",
       "time": "08:33 - 01/11/2026",
       "name": "Kling 65 Credit 1 Tháng BHF",
@@ -17404,17 +17415,6 @@
       "stockAfter": 19,
       "catKey": "cursor",
       "msgKey": "⚡Grok+CursorPremium14DBH1D➕Thêm:1📦Tồnkhohiệntại:19💰Giá:99.000đ"
-    },
-    {
-      "id": "hist-1793469748150",
-      "time": "01:02 - 01/11/2026",
-      "name": "Admin Office 365 (Renew Auto) 12 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 450000,
-      "costPrice": 400000,
-      "stockAfter": 10,
-      "catKey": "microsoft",
-      "msgKey": "⭐AdminOffice365(RenewAuto)12thángBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:400.000đ"
     }
   ],
   "vidiq": {
