@@ -5734,16 +5734,16 @@
         "id": "p-1792256292426",
         "name": "Link Gemini Pro 18 Tháng",
         "price": 100000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
-        "detail": "Mua về chỉ cần đăng nhập vào gmail cần nâng cấp rồi dán link vào web bất kì, ấn nhận gói là xong\nBảo hành giữ link trong 3 tiếng\nVUI LÒNG KHÔNG TÍCH TRỮ\nKhông bảo hành nếu offer bị kết thúc hoàn toàn bởi Jio\nKhông bảo hành sau khi đã kích hoạt và lên gói",
+        "detail": "- LINK WILL EXPIRE IN 15-30 MINUTES\nHolding warranty: 15 MINUTES\nHolding warranty: 15 MINUTES\nHolding warranty: 15 MINUTES\n+) Click on the link and confirm\n+) Do not need Card\n+) Can be used on any accounts\n+) Can invite 5 more members to family\n========\nLINK SẼ TỰ ĐỘNG HẾT HẠN TRONG 15-30 PHÚT\nBảo hành giữ link: 15 PHÚT\nBảo hành giữ link: 15 PHÚT\nBảo hành giữ link: 15 PHÚT\n+) Nhấn vô link và xác nhận là nâng thành công\n+) KHÔNG cần dùng thẻ thanh toán\n+) Dùng kích hoạt trên mọi account\n+) Có thể mời thêm 5 người vô family\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 5,
             "cost_price": 90000,
             "selling_price": 100000,
-            "updated": "04:50 01/11/2026"
+            "updated": "11:56 01/11/2026"
           }
         },
         "hidden": false,
@@ -5752,7 +5752,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 90000,
-          "stock": 0
+          "stock": 5
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -16403,6 +16403,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793508998726",
+      "time": "11:56 - 01/11/2026",
+      "name": "Link Gemini Pro 18 Tháng",
+      "bot": "sieuthistore_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 5,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:5📦Tồnkhohiệntại:5💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1793508189152",
       "time": "11:43 - 01/11/2026",
       "name": "Grok Premium 14 Ngày BH 1 Ngày",
@@ -17490,17 +17501,6 @@
       "stockAfter": 124,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:60📦Tồnkhohiệntại:124💰Giá:200.00"
-    },
-    {
-      "id": "hist-1793478600425",
-      "time": "03:30 - 01/11/2026",
-      "name": "Chatgpt Plus (Apple Pay) 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 172,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:60📦Tồnkhohiệntại:124💰Giá:220.000đ"
     }
   ],
   "vidiq": {
