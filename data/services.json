@@ -45,8 +45,8 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 115000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
         "sources": {
@@ -57,10 +57,10 @@
             "updated": "23:31 01/11/2026"
           },
           "piggyai99_bot": {
-            "stock": 3,
+            "stock": 2,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "21:22 31/10/2026"
+            "updated": "01:58 02/11/2026"
           }
         },
         "hidden": false,
@@ -69,7 +69,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 115000,
-          "stock": 3
+          "stock": 2
         }
       },
       {
@@ -16960,6 +16960,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793559521421",
+      "time": "01:58 - 02/11/2026",
+      "name": "Netflix Premium Extra 30 Ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 5,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra30NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1793559455343",
       "time": "01:57 - 02/11/2026",
       "name": "ChatGPT Plus 1 Tháng BH Login",
@@ -18047,17 +18058,6 @@
       "stockAfter": 10,
       "catKey": "google-veo",
       "msgKey": "☁️(👑FLASHINSTANT🔥)LinkGemini18ThángKBH➕Thêm:9📦Tồnkhohiệntại:10💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793540598002",
-      "time": "20:43 - 01/11/2026",
-      "name": "Link Gemini Pro 18 Tháng",
-      "bot": "sieuthistore_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 11,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:10📦Tồnkhohiệntại:11💰Giá:90.000đ"
     }
   ],
   "vidiq": {
