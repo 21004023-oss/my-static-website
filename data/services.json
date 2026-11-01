@@ -6736,8 +6736,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 69,
-        "stock_text": "Còn 69",
+        "stock": 64,
+        "stock_text": "Còn 64",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -6748,10 +6748,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 67,
+            "stock": 62,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "05:32 01/11/2026"
+            "updated": "13:25 01/11/2026"
           }
         },
         "hidden": false,
@@ -6760,7 +6760,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 67
+          "stock": 62
         }
       },
       {
@@ -16403,6 +16403,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793514340986",
+      "time": "13:25 - 01/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 64,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:62💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793514335963",
       "time": "13:25 - 01/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -17490,17 +17501,6 @@
       "stockAfter": 76,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:150k📦Tồnkho:36tàikhoản📊Đãbán:249tàikhoản✏"
-    },
-    {
-      "id": "hist-1793488369105",
-      "time": "06:12 - 01/11/2026",
-      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 50,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:15📦Tồnkhohiệntại:50💰Giá:150.000đ"
     }
   ],
   "vidiq": {
