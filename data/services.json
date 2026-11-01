@@ -8846,6 +8846,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793556617596",
+        "name": "HIGGFIELD 1800 cre 1 tháng ( BH 3 NGÀY )",
+        "price": 1900000,
+        "cost_price": 1700000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Gói HIGGFIELD 1800 cre 1 tháng ( BH 3 NGÀY ) bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 1,
+            "cost_price": 1700000,
+            "selling_price": 1900000,
+            "updated": "01:10 02/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 1700000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -16934,6 +16960,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793556617596",
+      "time": "01:10 - 02/11/2026",
+      "name": "HIGGFIELD 1800 cre 1 tháng ( BH 3 NGÀY )",
+      "bot": "piggyai99_bot",
+      "price": 1900000,
+      "costPrice": 1700000,
+      "stockAfter": 1,
+      "catKey": "higgsfield",
+      "msgKey": "🎬HIGGFIELD1800cre1tháng(BH3NGÀY)💰Giá:1700k📦Tồnkho:1tàikhoản📊Đãbán:27tàikhoản✏️Vu"
+    },
+    {
       "id": "hist-1793556033228",
       "time": "01:00 - 02/11/2026",
       "name": "Muse Ai  1B Token KBH",
@@ -18021,17 +18058,6 @@
       "stockAfter": 17,
       "catKey": "google-veo",
       "msgKey": "☁️(👑ĐỘCQUYỀN🔥)LinkGemini18ThángKBH➕Thêm:11📦Tồnkhohiệntại:17💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1793535523260",
-      "time": "19:18 - 01/11/2026",
-      "name": "Link Gemini Pro 18 Tháng",
-      "bot": "sieuthistore_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 7,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:2📦Tồnkhohiệntại:7💰Giá:90.000đ"
     }
   ],
   "vidiq": {
