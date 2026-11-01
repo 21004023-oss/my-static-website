@@ -7077,8 +7077,8 @@
         "name": "Grok Premium 14 Ngày BH 1 Ngày",
         "price": 160000,
         "cost_price": 90000,
-        "stock": 23,
-        "stock_text": "Còn 23",
+        "stock": 27,
+        "stock_text": "Còn 27",
         "duration": "1 Ngày",
         "detail": "• Grok Premium 14 ngày,\n• Định dạng: Mail|Pass\n-Lưu ý: Sau khi mua hàng vui lòng Chage + đổi mật khẩu, shop chỉ hỗ trợ bảo hành nếu rớt gói, còn các vấn đề khác shop không hỗ trợ ạ. Hỗ trợ sai pass trong vòng 12H sau khi nhận hàng. Nếu quá shop xin phép không bảo hành\n✏️",
         "sources": {
@@ -7095,16 +7095,16 @@
             "updated": "06:58 02/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 9,
             "cost_price": 90000,
             "selling_price": 100000,
-            "updated": "06:20 02/11/2026"
+            "updated": "06:59 02/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 90000,
-          "stock": 5
+          "stock": 9
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -16960,6 +16960,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793577564149",
+      "time": "06:59 - 02/11/2026",
+      "name": "Grok Premium 14D BH 1D",
+      "bot": "taphoathomap_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 27,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPremium14DBH1D➕Thêm:8📦Tồnkhohiệntại:9💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1793577488195",
       "time": "06:58 - 02/11/2026",
       "name": "Grok Premium 14D BH 1D",
@@ -18047,17 +18058,6 @@
       "stockAfter": 152,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:20📦Tồnkhohiệntại:104💰Giá:220.000đ"
-    },
-    {
-      "id": "hist-1793554638225",
-      "time": "00:37 - 02/11/2026",
-      "name": "Grok + Cursor Premium 14 ngày BH 1 ngày",
-      "bot": "piggyai99_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 54,
-      "catKey": "cursor",
-      "msgKey": "⚡Grok+CursorPremium14ngàyBH1ngày➕Thêm:1📦Tồnkhohiệntại:41💰Giá:115.000đ"
     }
   ],
   "vidiq": {
