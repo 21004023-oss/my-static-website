@@ -888,22 +888,22 @@
         "name": "Gmail Random ip 2010-2016 trial youtube",
         "price": 55000,
         "cost_price": 45000,
-        "stock": 27,
-        "stock_text": "Còn 27",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|mkp\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành\n✏️",
+        "detail": "Định dạng username|pass|mkp\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 27,
+            "stock": 0,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "10:25 29/10/2026"
+            "updated": "14:26 01/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 45000,
-          "stock": 27
+          "stock": 0
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -16647,6 +16647,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793517969335",
+      "time": "14:26 - 01/11/2026",
+      "name": "Gmail Random ip 2010-2016 trial youtube",
+      "bot": "taphoathomap_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 0,
+      "catKey": "youtube",
+      "msgKey": "📧GmailRandomip2010-2016trialyoutube➕Thêm:100📦Tồnkhohiệntại:0💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793517845495",
       "time": "14:24 - 01/11/2026",
       "name": "GROK  PREMIUM + GROK BOT 4X 14D BH 3D",
@@ -17734,17 +17745,6 @@
       "stockAfter": 10,
       "catKey": "tiktok",
       "msgKey": "🎵TiktokViệtngâmtrên1Năm➕Thêm:4📦Tồnkhohiệntại:5💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1793506400712",
-      "time": "11:13 - 01/11/2026",
-      "name": "Meitu Vip+ 30D BHF",
-      "bot": "taphoathomap_bot",
-      "price": 69000,
-      "costPrice": 59000,
-      "stockAfter": 30,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+30DBHF➕Thêm:15📦Tồnkhohiệntại:12💰Giá:59.000đ"
     }
   ],
   "vidiq": {
