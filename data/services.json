@@ -7714,13 +7714,13 @@
         "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
         "price": 170000,
         "cost_price": 120000,
-        "stock": 116,
-        "stock_text": "Còn 116",
+        "stock": 154,
+        "stock_text": "Còn 154",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000 credit 1 TH BH 1 ngày bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 35,
+            "stock": 73,
             "cost_price": 120000,
             "selling_price": 140000,
             "updated": "06:29 02/11/2026"
@@ -7735,7 +7735,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 120000,
-          "stock": 35
+          "stock": 73
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -16960,6 +16960,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793575784662",
+      "time": "06:29 - 02/11/2026",
+      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 154,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:120k📦Tồnkho:73tàikhoản📊Đãbán:278tàikhoản✏"
+    },
+    {
       "id": "hist-1793575772754",
       "time": "06:29 - 02/11/2026",
       "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
@@ -18047,17 +18058,6 @@
       "stockAfter": 28,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥ChatGPTPlus30D(BH20D)➕Thêm:5📦Tồnkhohiệntại:5💰Giá:200.000đ"
-    },
-    {
-      "id": "hist-1793552912372",
-      "time": "00:08 - 02/11/2026",
-      "name": "🔥VIP . Chatgpt Plus Apple 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 190000,
-      "costPrice": 170000,
-      "stockAfter": 25,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥VIP.ChatgptPlusApple1thángBHF➕Thêm:27📦Tồnkhohiệntại:25💰Giá:170.000đ"
     }
   ],
   "vidiq": {
