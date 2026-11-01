@@ -6415,22 +6415,22 @@
         "name": "Link Gemini 18 Tháng ( BH 3H )",
         "price": 80000,
         "cost_price": 50000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 28,
+        "stock_text": "Còn 28",
         "duration": "1 Tháng",
         "detail": "Gói Link Gemini 18 Tháng ( BH 3H ) bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 28,
             "cost_price": 50000,
             "selling_price": 60000,
-            "updated": "04:25 01/11/2026"
+            "updated": "19:01 01/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 50000,
-          "stock": 0
+          "stock": 28
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -16789,6 +16789,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793534504909",
+      "time": "19:01 - 01/11/2026",
+      "name": "Link Gemini 18 Tháng ( BH 3H )",
+      "bot": "taphoathomap_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 28,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGemini18Tháng(BH3H)➕Thêm:30📦Tồnkhohiệntại:28💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1793533888101",
       "time": "18:51 - 01/11/2026",
       "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
@@ -17876,17 +17887,6 @@
       "stockAfter": 15,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày💰Giá:180k📦Tồnkho:15tàikhoản📊Đãbán:4.488tàikhoản💎"
-    },
-    {
-      "id": "hist-1793516835055",
-      "time": "14:07 - 01/11/2026",
-      "name": "Chatgpt Pro 500$ 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 9999000,
-      "costPrice": 8999000,
-      "stockAfter": 46,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPro500$1thángBHF💰Giá:8999k📦Tồnkho:46tàikhoản📊Đãbán:0tàikhoản💎Môtả:Tàikho"
     }
   ],
   "vidiq": {
