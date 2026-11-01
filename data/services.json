@@ -275,24 +275,26 @@
         "name": "Tài khoản VieON VIP 10 ngày BHF",
         "price": 20000,
         "cost_price": 10000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
-        "detail": "Gói Tài khoản VieON VIP 10 ngày BHF bảo hành uy tín.",
+        "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 10000,
             "selling_price": 20000,
-            "updated": "14:54 22/10/2026"
+            "updated": "09:22 01/11/2026"
           }
         },
         "hidden": false,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 10000
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 10000,
+          "stock": 2
+        },
+        "needs_review": false
       },
       {
         "id": "p-1793179206155",
@@ -16343,6 +16345,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793499748783",
+      "time": "09:22 - 01/11/2026",
+      "name": "Tài khoản VieON VIP 10 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 2,
+      "catKey": "vieon",
+      "msgKey": "⭐TàikhoảnVieONVIP10ngàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1793499047610",
       "time": "09:10 - 01/11/2026",
       "name": "ChatGPT Go 1 Tháng (BH 28D)",
@@ -17430,17 +17443,6 @@
       "stockAfter": 7,
       "catKey": "zoom",
       "msgKey": "⭐AcccấpZoomPro28NgàyBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793472497129",
-      "time": "01:48 - 01/11/2026",
-      "name": "Zoom Pro 28 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 11,
-      "catKey": "zoom",
-      "msgKey": "⭐ZoomPro28NgàyBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:45.000đ"
     }
   ],
   "vidiq": {
