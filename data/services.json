@@ -4553,6 +4553,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793520975400",
+        "name": "50M Credit ZAPI Codex 1 Ngày - BHF",
+        "price": 60000,
+        "cost_price": 50000,
+        "stock": 100,
+        "stock_text": "Còn 100",
+        "duration": "1 Ngày",
+        "detail": "GÓI CODEX 50M CREDIT / 1 NGÀY\nDung lượng: 50M Credit\nThời hạn: 1 ngày\nTool cài đặt: https://github.com/k1n93r/ZendiKeySetup\nKiểm tra model sử dụng được ở: https://zendigikey.shop/pricing\nTrang kiểm tra KEY: https://zendigikey.shop/check\nĐổi CDK thành KEY: https://zendigikey.shop/check\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được : - Điều kiện : còn trong thời hạn bảo hành - Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 100,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "15:16 01/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 50000,
+          "stock": 100
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -16647,6 +16673,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793520975400",
+      "time": "15:16 - 01/11/2026",
+      "name": "50M Credit ZAPI Codex 1 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 100,
+      "catKey": "chatgpt",
+      "msgKey": "⭐50MCreditZAPICodex1Ngày-BHF➕Thêm:100📦Tồnkhohiệntại:100💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1793520885746",
       "time": "15:14 - 01/11/2026",
       "name": "MUSE.AI -31 TỶ TOKEN (KBH)",
@@ -17734,17 +17771,6 @@
       "stockAfter": 17,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAI31BTokenKBH💰Giá:80k📦Tồnkho:17tàikhoản📊Đãbán:284tàikhoản💎Môtả:-Token31B-Đị"
-    },
-    {
-      "id": "hist-1793508998726",
-      "time": "11:56 - 01/11/2026",
-      "name": "Link Gemini Pro 18 Tháng",
-      "bot": "sieuthistore_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 5,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:5📦Tồnkhohiệntại:5💰Giá:90.000đ"
     }
   ],
   "vidiq": {
