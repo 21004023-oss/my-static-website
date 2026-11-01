@@ -2896,26 +2896,28 @@
       {
         "id": "p-1792622925656",
         "name": "CHATGPT PRO 500$ 1 tháng - BH 3 Ngày",
-        "price": 3650000,
-        "cost_price": 3300000,
-        "stock": 30,
-        "stock_text": "Còn 30",
+        "price": 5100000,
+        "cost_price": 4500000,
+        "stock": 46,
+        "stock_text": "Còn 46",
         "duration": "1 Tháng",
         "detail": "Tài khoản Chatgpt Pro 500$ đăng kí chính hãng - siêu trâu - bền bỉ - chất lượng !! Thời hạn bảo hành 3 ngày ! NOTE: đây là tài khoản trả phí chính hãng - k phải tài khoản trial freee dùng thử nên độ bền là rất cao . Bảo hành gói mọi lỗi lầm từ acc cũng như từ nguồn , không bảo hành đối với các trường hợp khách lạm dụng bào , cắm tools bên thứ 3,.. vi phạm chính sách Openai dẫn đến lỗi !!\\ Thời gian done hàng có thể lâu hơn 1 chút vì đây là hàng làm , không có sẵn , mong quý khách hoan hỉ !",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 30,
-            "cost_price": 3300000,
-            "selling_price": 3650000,
-            "updated": "05:48 22/10/2026"
+            "stock": 46,
+            "cost_price": 4500000,
+            "selling_price": 5100000,
+            "updated": "14:02 01/11/2026"
           }
         },
         "hidden": false,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 3300000
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 4500000,
+          "stock": 46
+        },
+        "needs_review": false
       },
       {
         "id": "codex-plus-unified",
@@ -16565,6 +16567,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793516548917",
+      "time": "14:02 - 01/11/2026",
+      "name": "Chatgpt Pro 500$ 1 tháng BH 3D",
+      "bot": "taphoathomap_bot",
+      "price": 5100000,
+      "costPrice": 4500000,
+      "stockAfter": 46,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatgptPro500$1thángBH3D➕Thêm:46📦Tồnkhohiệntại:46💰Giá:4.500.000đ"
+    },
+    {
       "id": "hist-1793516532130",
       "time": "14:02 - 01/11/2026",
       "name": "Chatgpt Pro 100$ 1 tháng BH 7D",
@@ -17652,17 +17665,6 @@
       "stockAfter": 66,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:2📦Tồnkhohiệntại:39💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793498346102",
-      "time": "08:59 - 01/11/2026",
-      "name": "NordVPN 3 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 12,
-      "catKey": "nordvpn",
-      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:3📦Tồnkhohiệntại:6💰Giá:15.000đ"
     }
   ],
   "vidiq": {
