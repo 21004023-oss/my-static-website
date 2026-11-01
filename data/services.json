@@ -1427,17 +1427,17 @@
         "id": "gpt-go-3d",
         "name": "ChatGPT Go 1 Tháng (BH 3 Ngày)",
         "price": 105000,
-        "stock": 45,
-        "stock_text": "Còn 45",
+        "stock": 55,
+        "stock_text": "Còn 55",
         "duration": "1 Tháng",
         "source": "Cấp sẵn",
         "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 23,
+            "stock": 33,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "21:23 01/11/2026"
+            "updated": "21:27 01/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 22,
@@ -1453,7 +1453,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 80000,
-          "stock": 23
+          "stock": 33
         }
       },
       {
@@ -16796,6 +16796,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793543221112",
+      "time": "21:27 - 01/11/2026",
+      "name": "ChatGPT Go 1 Tháng (BH 3D)",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 55,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1Tháng(BH3D)➕Thêm:10📦Tồnkhohiệntại:33💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1793543195095",
       "time": "21:26 - 01/11/2026",
       "name": "ChatGPT Plus STUDENT 4 tháng BH 3 Ngày",
@@ -17883,17 +17894,6 @@
       "stockAfter": 62,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:30📦Tồnkhohiệntại:42💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1793521947544",
-      "time": "15:32 - 01/11/2026",
-      "name": "Grok Premium 14D BH 1D",
-      "bot": "taphoathomap_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 63,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPremium14DBH1D➕Thêm:5📦Tồnkhohiệntại:21💰Giá:90.000đ"
     }
   ],
   "vidiq": {
