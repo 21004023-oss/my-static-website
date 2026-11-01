@@ -16799,10 +16799,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793545896889",
+        "name": "Adguard VPN Random 5-7 Ngày BHF",
+        "price": 20000,
+        "cost_price": 10000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "7 Ngày",
+        "detail": "Định dạng: Email | Pass\nLấy OTP tại Mail.tm\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "22:11 01/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 10000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793545896889",
+      "time": "22:11 - 01/11/2026",
+      "name": "Adguard VPN Random 5-7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 1,
+      "catKey": "khac",
+      "msgKey": "⭐AdguardVPNRandom5-7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:10.000đ"
+    },
     {
       "id": "hist-1793544954043",
       "time": "21:55 - 01/11/2026",
@@ -17891,17 +17928,6 @@
       "stockAfter": 9,
       "catKey": "zoom",
       "msgKey": "⭐ZoomPro28NgàyBHF➕Thêm:2📦Tồnkhohiệntại:5💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793525440763",
-      "time": "16:30 - 01/11/2026",
-      "name": "Acc cấp Zoom Pro 28 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 5,
-      "catKey": "zoom",
-      "msgKey": "⭐AcccấpZoomPro28NgàyBHF➕Thêm:2📦Tồnkhohiệntại:5💰Giá:65.000đ"
     }
   ],
   "vidiq": {
