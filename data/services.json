@@ -6663,22 +6663,22 @@
         "name": "Grok + Cursor Premium 14D BH 1D",
         "price": 109000,
         "cost_price": 99000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 13,
+        "stock_text": "Còn 13",
         "duration": "1 Ngày",
         "detail": "• Grok Premium 14 ngày,\n• Hàng pay thẻ real không trùng, hold bill, có thể sử dụng thêm tối đa khoảng 24 ngày\n• Nếu dùng Cursor dùng trực tiếp trên grok\n• Định dạng: Mail|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 19,
+            "stock": 13,
             "cost_price": 99000,
             "selling_price": 109000,
-            "updated": "01:30 01/11/2026"
+            "updated": "15:11 01/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 99000,
-          "stock": 19
+          "stock": 13
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -16647,6 +16647,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793520715108",
+      "time": "15:11 - 01/11/2026",
+      "name": "Grok + Cursor Premium 14D BH 1D",
+      "bot": "taphoathomap_bot",
+      "price": 109000,
+      "costPrice": 99000,
+      "stockAfter": 13,
+      "catKey": "cursor",
+      "msgKey": "⚡Grok+CursorPremium14DBH1D➕Thêm:10📦Tồnkhohiệntại:13💰Giá:99.000đ"
+    },
+    {
       "id": "hist-1793520555137",
       "time": "15:09 - 01/11/2026",
       "name": "Higgsfield Genjutsu  hạn 1 tháng BH 1h",
@@ -17734,17 +17745,6 @@
       "stockAfter": 34,
       "catKey": "grok",
       "msgKey": "⚡GrokPremium14NgàyBH1Ngày➕Thêm:5📦Tồnkhohiệntại:17💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1793508179671",
-      "time": "11:42 - 01/11/2026",
-      "name": "Grok Premium 14D BH 1D",
-      "bot": "piggyai99_bot",
-      "price": 145000,
-      "costPrice": 125000,
-      "stockAfter": 32,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPremium14DBH1D➕Thêm:5📦Tồnkhohiệntại:17💰Giá:125.000đ"
     }
   ],
   "vidiq": {
