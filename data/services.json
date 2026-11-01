@@ -16340,10 +16340,47 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793500372250",
+        "name": "Norton VPN Ultimate 7 Ngày BHF",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "7 Ngày",
+        "detail": "Norton VPN Ultimate 7 Ngày BHF, log 5 thiết bị\nĐịnh dạng: Email|Pass|Web mail\n(Đăng nhập thì các bác nhập email trước xong chọn Use password và nhập pass bot gửi nhập vào là ok nha)\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 3,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "09:32 01/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 35000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793500372250",
+      "time": "09:32 - 01/11/2026",
+      "name": "Norton VPN Ultimate 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "msgKey": "⭐NortonVPNUltimate7NgàyBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:35.000đ"
+    },
     {
       "id": "hist-1793499896133",
       "time": "09:24 - 01/11/2026",
@@ -17432,17 +17469,6 @@
       "stockAfter": 30,
       "catKey": "grok",
       "msgKey": "⚡GrokPremium14DBH1D➕Thêm:5📦Tồnkhohiệntại:15💰Giá:125.000đ"
-    },
-    {
-      "id": "hist-1793473066540",
-      "time": "01:57 - 01/11/2026",
-      "name": "Grok Premium 14 Ngày BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 16,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPremium14NgàyBH1Ngày➕Thêm:5📦Tồnkhohiệntại:15💰Giá:140.000đ"
     }
   ],
   "vidiq": {
