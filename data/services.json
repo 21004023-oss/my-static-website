@@ -16903,10 +16903,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793555065148",
+        "name": "Quizlet Plus Unlimited 30 Ngày BHF",
+        "price": 40000,
+        "cost_price": 30000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "1 Tháng",
+        "detail": "Quizlet Plus Unlimited for teacher 30 Ngày BHF\nĐịnh dạng: Email|Pass\nWeb mail: https://get-opt.phh.info.vn/\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 10,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "00:44 02/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793555065148",
+      "time": "00:44 - 02/11/2026",
+      "name": "Quizlet Plus Unlimited 30 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 10,
+      "catKey": "khac",
+      "msgKey": "⭐QuizletPlusUnlimited30NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:30.000đ"
+    },
     {
       "id": "hist-1793554994058",
       "time": "00:43 - 02/11/2026",
@@ -17995,17 +18032,6 @@
       "stockAfter": 64,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:12📦Tồnkhohiệntại:37💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793533212227",
-      "time": "18:40 - 01/11/2026",
-      "name": "Capcut Pro Team 12 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 650000,
-      "costPrice": 550000,
-      "stockAfter": 10,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProTeam12Tháng-BHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:550.000đ"
     }
   ],
   "vidiq": {
