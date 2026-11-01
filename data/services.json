@@ -9947,6 +9947,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793524689291",
+        "name": "Suno Premier 30 ngày BH 1 ngày",
+        "price": 470000,
+        "cost_price": 420000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "1 Tháng",
+        "detail": "Mail | Pass | Mail khôi phục\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 8,
+            "cost_price": 420000,
+            "selling_price": 470000,
+            "updated": "16:18 01/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 420000,
+          "stock": 8
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -16731,6 +16757,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793524689291",
+      "time": "16:18 - 01/11/2026",
+      "name": "Suno Premier 30 ngày BH 1 ngày",
+      "bot": "piggyai99_bot",
+      "price": 470000,
+      "costPrice": 420000,
+      "stockAfter": 8,
+      "catKey": "suno",
+      "msgKey": "🎵SunoPremier30ngàyBH1ngày➕Thêm:7📦Tồnkhohiệntại:8💰Giá:420.000đ"
+    },
+    {
       "id": "hist-1793524549227",
       "time": "16:15 - 01/11/2026",
       "name": "Kling Standard 800 credit 1TH Bh 1 ngày",
@@ -17818,17 +17855,6 @@
       "stockAfter": 71,
       "catKey": "youtube",
       "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:1📦Tồnkhohiệntại:71💰Giá:46.000đ"
-    },
-    {
-      "id": "hist-1793510883015",
-      "time": "12:28 - 01/11/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 58,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:17📦Tồnkhohiệntại:38💰Giá:70.000đ"
     }
   ],
   "vidiq": {
