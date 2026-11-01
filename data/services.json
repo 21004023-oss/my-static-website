@@ -7850,22 +7850,22 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 81,
-        "stock_text": "Còn 81",
+        "stock": 135,
+        "stock_text": "Còn 135",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 81,
+            "stock": 135,
             "cost_price": 150000,
             "selling_price": 170000,
-            "updated": "06:29 02/11/2026"
+            "updated": "06:30 02/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 81
+          "stock": 135
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -16960,6 +16960,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793575815425",
+      "time": "06:30 - 02/11/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 135,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:54📦Tồnkhohiệntại:135💰Giá:150.000"
+    },
+    {
       "id": "hist-1793575806942",
       "time": "06:30 - 02/11/2026",
       "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
@@ -18047,17 +18058,6 @@
       "stockAfter": 9,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:10📦Tồnkhohiệntại:9💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1793553674175",
-      "time": "00:21 - 02/11/2026",
-      "name": "HEYGEN CREATOR 1 THÁNG ( BH 15 ngày)",
-      "bot": "taphoathomap_bot",
-      "price": 500000,
-      "costPrice": 450000,
-      "stockAfter": 53,
-      "catKey": "heygen",
-      "msgKey": "🎥HEYGENCREATOR1THÁNG(BH15ngày)➕Thêm:46📦Tồnkhohiệntại:53💰Giá:450.000đ"
     }
   ],
   "vidiq": {
