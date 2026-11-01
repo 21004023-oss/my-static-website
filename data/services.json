@@ -4419,6 +4419,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793516448167",
+        "name": "CHATGPT PRO X200 1 THÁNG (KBH)",
+        "price": 3050000,
+        "cost_price": 2700000,
+        "stock": 46,
+        "stock_text": "Còn 46",
+        "duration": "1 Tháng",
+        "detail": "Gói CHATGPT PRO X200 1 THÁNG (KBH) bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 46,
+            "cost_price": 2700000,
+            "selling_price": 3050000,
+            "updated": "14:00 01/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 2700000,
+          "stock": 46
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -16513,6 +16539,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793516448167",
+      "time": "14:00 - 01/11/2026",
+      "name": "CHATGPT PRO X200 1 THÁNG (KBH)",
+      "bot": "taphoathomap_bot",
+      "price": 3050000,
+      "costPrice": 2700000,
+      "stockAfter": 46,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPROX2001THÁNG(KBH)➕Thêm:46📦Tồnkhohiệntại:46💰Giá:2.700.000đ"
+    },
+    {
       "id": "hist-1793516397189",
       "time": "13:59 - 01/11/2026",
       "name": "Chatgpt Pro 100$ 1 tháng BH 14D",
@@ -17600,17 +17637,6 @@
       "stockAfter": 6,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793497072518",
-      "time": "08:37 - 01/11/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 13,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:35.000đ"
     }
   ],
   "vidiq": {
