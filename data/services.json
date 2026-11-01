@@ -13440,6 +13440,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793524269449",
+        "name": "Nâng chính chủ Admin Microsoft Office 365 Family 12 Tháng - BHF",
+        "price": 370000,
+        "cost_price": 320000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "1 Năm",
+        "detail": "Gửi tài khoản mật khẩu hotmail để kích hoạt",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 320000,
+            "selling_price": 370000,
+            "updated": "16:11 01/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 320000,
+          "stock": 6
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -16705,6 +16731,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793524269449",
+      "time": "16:11 - 01/11/2026",
+      "name": "Nâng chính chủ Admin Microsoft Office 365 Family 12 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 370000,
+      "costPrice": 320000,
+      "stockAfter": 6,
+      "catKey": "microsoft",
+      "msgKey": "⭐NângchínhchủAdminMicrosoftOffice365Family12Tháng-BHF➕Thêm:100📦Tồnkhohiệntại:6💰G"
+    },
+    {
       "id": "hist-1793524251044",
       "time": "16:10 - 01/11/2026",
       "name": "MUSE.AI -31 TỶ TOKEN (KBH)",
@@ -17792,17 +17829,6 @@
       "stockAfter": 150,
       "catKey": "chatgpt",
       "msgKey": "🤖💚HOT.ChatgptPlus1thángBHF➕Thêm:49📦Tồnkhohiệntại:49💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1793510637388",
-      "time": "12:23 - 01/11/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 24H",
-      "bot": "piggyai99_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 182,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH24H💰Giá:150k📦Tồnkho:39tàikhoản📊Đãbán:797tàikhoản💎Môtả:🔐TÀIK"
     }
   ],
   "vidiq": {
