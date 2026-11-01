@@ -3698,9 +3698,9 @@
         "id": "p-1793281738695",
         "name": "ChatGPT Pro 100$ - 1 tháng BH 3 Ngày",
         "price": 1300000,
-        "cost_price": 1100000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "cost_price": 890000,
+        "stock": 52,
+        "stock_text": "Còn 52",
         "duration": "1 Tháng",
         "detail": "Tài khoản Chatgpt Pro 100$ đăng kí chính hãng - siêu trâu - bền bỉ - chất lượng\n-Thời hạn bảo hành 3 ngày\n- NOTE: đây là tài khoản trả phí chính hãng - k phải tài khoản trial free dùng thử nên độ bền là rất cao . Bảo hành gói mọi lỗi lầm từ acc cũng như từ nguồn , không bảo hành đối với các trường hợp khách lạm dụng bào , cắm tools bên thứ 3,... vi phạm chính sách Openai dẫn đến lỗi\n- Thời gian done hàng có thể lâu hơn 1 chút vì đây là hàng làm , không có sẵn , mong quý khách hoan hỉ !\n✏️",
         "sources": {
@@ -3709,14 +3709,20 @@
             "cost_price": 1100000,
             "selling_price": 1300000,
             "updated": "20:48 29/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 46,
+            "cost_price": 890000,
+            "selling_price": 990000,
+            "updated": "13:57 01/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 1100000,
-          "stock": 6
+          "bot": "@taphoathomap_bot",
+          "cost_price": 890000,
+          "stock": 46
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -16455,6 +16461,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793516253789",
+      "time": "13:57 - 01/11/2026",
+      "name": "Chatgpt Pro 100$ 1 tháng BH 3D",
+      "bot": "taphoathomap_bot",
+      "price": 990000,
+      "costPrice": 890000,
+      "stockAfter": 52,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatgptPro100$1thángBH3D➕Thêm:46📦Tồnkhohiệntại:46💰Giá:890.000đ"
+    },
+    {
       "id": "hist-1793516040890",
       "time": "13:54 - 01/11/2026",
       "name": "Suno Pro 1TH BH 1 ngày",
@@ -17542,17 +17559,6 @@
       "stockAfter": 2,
       "catKey": "google-veo",
       "msgKey": "🚀SLOTVEO3(Antigravity)x20Ultra25KcreditSLOT1THBH30D➕Thêm:1📦Tồnkhohiệntại:2💰Giá:1"
-    },
-    {
-      "id": "hist-1793496873355",
-      "time": "08:34 - 01/11/2026",
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 22,
-      "catKey": "figma",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:9📦Tồnkhohiệntại:11💰Giá:110.000đ"
     }
   ],
   "vidiq": {
