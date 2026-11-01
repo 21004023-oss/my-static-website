@@ -14621,6 +14621,32 @@
           "cost_price": 50000,
           "stock": 9
         }
+      },
+      {
+        "id": "p-1793552725587",
+        "name": "Link  JetBrains Edu chính chủ 1 năm (BHF)",
+        "price": 70000,
+        "cost_price": 60000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Năm",
+        "detail": "Gói Link  JetBrains Edu chính chủ 1 năm (BHF) bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "00:05 02/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 60000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -16830,6 +16856,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793552725587",
+      "time": "00:05 - 02/11/2026",
+      "name": "Link  JetBrains Edu chính chủ 1 năm (BHF)",
+      "bot": "taphoathomap_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 1,
+      "catKey": "jetbrains",
+      "msgKey": "⭐LinkJetBrainsEduchínhchủ1năm(BHF)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1793552720674",
       "time": "00:05 - 02/11/2026",
       "name": "TV360 Standard 1 tháng BHF",
@@ -17917,17 +17954,6 @@
       "stockAfter": 31,
       "catKey": "surfshark",
       "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793530418349",
-      "time": "17:53 - 01/11/2026",
-      "name": "[CDK] Thuê Số OTP Codex/GPT 30D BH 24H",
-      "bot": "piggyai99_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 134,
-      "catKey": "chatgpt",
-      "msgKey": "🤖[CDK]ThuêSốOTPCodex/GPT30DBH24H➕Thêm:2📦Tồnkhohiệntại:134💰Giá:10.000đ"
     }
   ],
   "vidiq": {
