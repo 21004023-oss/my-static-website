@@ -16752,10 +16752,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793527098342",
+        "name": "Openart Starter 4k credit 1 tháng (BH 12H)",
+        "price": 180000,
+        "cost_price": 160000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Tháng",
+        "detail": "định dạng: mail|passmail|pass\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 4,
+            "cost_price": 160000,
+            "selling_price": 180000,
+            "updated": "16:58 01/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 160000,
+          "stock": 4
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793527098342",
+      "time": "16:58 - 01/11/2026",
+      "name": "Openart Starter 4k credit 1 tháng (BH 12H)",
+      "bot": "taphoathomap_bot",
+      "price": 180000,
+      "costPrice": 160000,
+      "stockAfter": 4,
+      "catKey": "khac",
+      "msgKey": "⭐OpenartStarter4kcredit1tháng(BH12H)➕Thêm:1📦Tồnkhohiệntại:4💰Giá:160.000đ"
+    },
     {
       "id": "hist-1793527038056",
       "time": "16:57 - 01/11/2026",
@@ -17844,17 +17881,6 @@
       "stockAfter": 62,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:62💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1793514319825",
-      "time": "13:25 - 01/11/2026",
-      "name": "TiktokVN LiveStudio 1KFL THẬT",
-      "bot": "taphoathomap_bot",
-      "price": 260000,
-      "costPrice": 230000,
-      "stockAfter": 5,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokVNLiveStudio1KFLTHẬT➕Thêm:1📦Tồnkhohiệntại:5💰Giá:230.000đ"
     }
   ],
   "vidiq": {
