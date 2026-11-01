@@ -1339,18 +1339,18 @@
         "id": "gpt-plus-20d-unified",
         "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
         "price": 330000,
-        "cost_price": 239999,
-        "stock": 33,
-        "stock_text": "Còn 33",
+        "cost_price": 210000,
+        "stock": 35,
+        "stock_text": "Còn 35",
         "duration": "1 Tháng",
         "detail": "👉Hàng Gpay 100% Gmail, update hàng ngày 👉Hàng pay địa chỉ tt Việt, mỗi acc 1 thẻ & không trùng IP\nSiêu bền 👉TK cấp sẵn theo định dạng Mail|Pass|2FA, lấy code log in tại https://2fa.live/ 👉 Sử dụng Codex nếu bị ver thì thuê tại https://viotp.com/ (Chọn dịch vụ Chatgpt + đầu số Vina) 👉 Đảm bảo 100% hàng rao đi đã check cẩn thận Pass&2FA, nên mình sẽ kbh các vấn đề như sai pass hoặc chưa cài 2FA. 👉 Các shop mua xong nên đổi pass 2fa để bảo quản tài khoản ( LƯU Ý : ĐỔI 2FA PHẢI THAO TÁC NHANH KHÔNG NÓ SẼ BẮT GỬI OTP VỀ TÀI KHOẢN MAIL ). TK được đăng ký bằng Gmail OTP nên shop ko hỗ trợ lấy lại pass hoặc 2fa ⚠️ Tránh tình trạng nhiều khách mua về đổi Pass&2FA nhằm gian lận lấy thêm tk bên shop không bảo hành khi đăng nhập sai\nSHOP ĐÃ CHECK KĨ KHI UP LÊN CHO KHÁCH HÀNG MUA\nTrong trường hợp die :\nHoàn tiền dựa trên số ngày chưa sử dụng : ( tổng tiền / 20 ) * ( 20- ngày đã dùng)\nAnh em cứ tin tưởng sử dụng nhé ❤️\nCần số lượng lớn liên hệ riêng cho em 🛍️👨‍💼\n✏️",
         "hidden": false,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 11,
-            "cost_price": 260000,
-            "selling_price": 290000,
-            "updated": "13:13 28/10/2026"
+            "stock": 13,
+            "cost_price": 210000,
+            "selling_price": 240000,
+            "updated": "18:29 01/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 10,
@@ -1366,11 +1366,11 @@
           }
         },
         "needs_review": false,
-        "import_note": "Nhập: @ntnshopre_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 239999,
-          "stock": 10
+          "bot": "@sieuthistore_bot",
+          "cost_price": 210000,
+          "stock": 13
         }
       },
       {
@@ -16783,6 +16783,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793532541273",
+      "time": "18:29 - 01/11/2026",
+      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 240000,
+      "costPrice": 210000,
+      "stockAfter": 35,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:10📦Tồnkhohiệntại:13💰Giá:210.000đ"
+    },
+    {
       "id": "hist-1793532314430",
       "time": "18:25 - 01/11/2026",
       "name": "API Claude 50M Token 1 ngày BHF",
@@ -17870,17 +17881,6 @@
       "stockAfter": 46,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatgptPro100$1thángBH14D💰Giá:2200k📦Tồnkho:46tàikhoản📊Đãbán:0tàikhoản💎Môtả:Tàik"
-    },
-    {
-      "id": "hist-1793516670228",
-      "time": "14:04 - 01/11/2026",
-      "name": "Chatgpt Pro 500$ 1 tháng BH 14D",
-      "bot": "taphoathomap_bot",
-      "price": 8499000,
-      "costPrice": 7499000,
-      "stockAfter": 46,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPro500$1thángBH14D➕Thêm:46📦Tồnkhohiệntại:46💰Giá:7.499.000đ"
     }
   ],
   "vidiq": {
