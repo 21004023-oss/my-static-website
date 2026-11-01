@@ -8852,13 +8852,13 @@
         "name": "HIGGFIELD 1800 cre 1 tháng ( BH 3 NGÀY )",
         "price": 1900000,
         "cost_price": 1700000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "Gói HIGGFIELD 1800 cre 1 tháng ( BH 3 NGÀY ) bảo hành uy tín.",
         "sources": {
           "piggyai99_bot": {
-            "stock": 1,
+            "stock": 4,
             "cost_price": 1700000,
             "selling_price": 1900000,
             "updated": "01:10 02/11/2026"
@@ -8867,7 +8867,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 1700000,
-          "stock": 1
+          "stock": 4
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -16960,6 +16960,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793556622982",
+      "time": "01:10 - 02/11/2026",
+      "name": "HIGGFIELD 1800 cre 1 tháng ( BH 3 NGÀY )",
+      "bot": "piggyai99_bot",
+      "price": 1900000,
+      "costPrice": 1700000,
+      "stockAfter": 4,
+      "catKey": "higgsfield",
+      "msgKey": "🎬HIGGFIELD1800cre1tháng(BH3NGÀY)➕Thêm:2📦Tồnkhohiệntại:4💰Giá:1.700.000đ"
+    },
+    {
       "id": "hist-1793556617596",
       "time": "01:10 - 02/11/2026",
       "name": "HIGGFIELD 1800 cre 1 tháng ( BH 3 NGÀY )",
@@ -18047,17 +18058,6 @@
       "stockAfter": 22,
       "catKey": "google-veo",
       "msgKey": "☁️(👑FLASHINSTANT🔥)LinkGemini18ThángKBH➕Thêm:18📦Tồnkhohiệntại:22💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793536007687",
-      "time": "19:26 - 01/11/2026",
-      "name": "(👑ĐỘC QUYỀN🔥) Link Gemini 18 Tháng KBH",
-      "bot": "taphoathomap_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 17,
-      "catKey": "google-veo",
-      "msgKey": "☁️(👑ĐỘCQUYỀN🔥)LinkGemini18ThángKBH➕Thêm:11📦Tồnkhohiệntại:17💰Giá:80.000đ"
     }
   ],
   "vidiq": {
