@@ -7102,22 +7102,22 @@
         "name": "GROK  PREMIUM + GROK BOT 4X 14D BH 3D",
         "price": 130000,
         "cost_price": 100000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 23,
+        "stock_text": "Còn 23",
         "duration": "3 Ngày",
         "detail": "Mua hàng chỉ dùng - không thay đổi bất cứ gì - check có thay đổi không bảo hành\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 23,
             "cost_price": 100000,
             "selling_price": 110000,
-            "updated": "14:54 01/11/2026"
+            "updated": "15:56 01/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 100000,
-          "stock": 4
+          "stock": 23
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -16705,6 +16705,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793523369334",
+      "time": "15:56 - 01/11/2026",
+      "name": "GROK  PREMIUM + GROK BOT 4X 14D BH 3D",
+      "bot": "taphoathomap_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 23,
+      "catKey": "grok",
+      "msgKey": "⚡GROKPREMIUM+GROKBOT4X14DBH3D➕Thêm:19📦Tồnkhohiệntại:23💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1793523269857",
       "time": "15:54 - 01/11/2026",
       "name": "ChatGPT Plus 1 Tháng BH Login",
@@ -17792,17 +17803,6 @@
       "stockAfter": 615,
       "catKey": "youtube",
       "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:615💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1793510011910",
-      "time": "12:13 - 01/11/2026",
-      "name": "TiktokVN LiveStudio 1KFL THẬT",
-      "bot": "taphoathomap_bot",
-      "price": 260000,
-      "costPrice": 230000,
-      "stockAfter": 5,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokVNLiveStudio1KFLTHẬT➕Thêm:1📦Tồnkhohiệntại:5💰Giá:230.000đ"
     }
   ],
   "vidiq": {
