@@ -75,10 +75,10 @@
       {
         "id": "p-1792508363624",
         "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
-        "price": 65000,
+        "price": 85000,
         "cost_price": 55000,
-        "stock": 35,
-        "stock_text": "Còn 35",
+        "stock": 70,
+        "stock_text": "Còn 70",
         "duration": "1 Tháng",
         "detail": "✅Netflix 4K Premium bảo hành full 1 tháng sử dụng.\n✅Có web riêng lấy code, xác minh hộ gia đình v.v...\n✅Định dạng mail|pass|Profile riêng, mã pin riêng\n---Lưu ý: Sau khi nhập mail xong chọn mục NHẬN TRỢ GIÚP để nhập pass\n✅ Bảo hành full trong suốt thời gian sử dụng\n✏️",
         "sources": {
@@ -86,6 +86,12 @@
             "stock": 35,
             "cost_price": 55000,
             "selling_price": 65000,
+            "updated": "18:51 01/11/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 35,
+            "cost_price": 75000,
+            "selling_price": 85000,
             "updated": "18:51 01/11/2026"
           }
         },
@@ -16783,6 +16789,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793533888101",
+      "time": "18:51 - 01/11/2026",
+      "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
+      "bot": "piggyai99_bot",
+      "price": 85000,
+      "costPrice": 75000,
+      "stockAfter": 70,
+      "catKey": "netflix",
+      "msgKey": "🎬[Slot]Netflix4KPremium1thángBảohànhfull➕Thêm:35📦Tồnkhohiệntại:35💰Giá:75.000đ"
+    },
+    {
       "id": "hist-1793533881254",
       "time": "18:51 - 01/11/2026",
       "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
@@ -17870,17 +17887,6 @@
       "stockAfter": 46,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatgptPro500$1thángBHF💰Giá:8999k📦Tồnkho:46tàikhoản📊Đãbán:0tàikhoản💎Môtả:Tàikho"
-    },
-    {
-      "id": "hist-1793516823379",
-      "time": "14:07 - 01/11/2026",
-      "name": "Chatgpt Pro 500$ 1 tháng BH 14D",
-      "bot": "taphoathomap_bot",
-      "price": 8499000,
-      "costPrice": 7499000,
-      "stockAfter": 46,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPro500$1thángBH14D💰Giá:7499k📦Tồnkho:46tàikhoản📊Đãbán:0tàikhoản💎Môtả:Tàik"
     }
   ],
   "vidiq": {
