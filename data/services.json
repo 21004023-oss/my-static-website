@@ -6950,6 +6950,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793515701716",
+        "name": "Grok Super 15X - 1 tháng BH 7 ngày",
+        "price": 1300000,
+        "cost_price": 1100000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "🛡️ CURSOR|GROK SUPER 2 in 1\n🔥Hàng inapp IOS cực tốt, đa số khách sử dụng đủ 30 ngày\nKhách gửi tài khoản: Mail| pass grok |2fa (nếu có)\nĐể đăng nhập thuận tiện. đăng nhập qua google thì log out ra  đặt lại pass grok. Cần tài khoản cấp thì note cho shop\n📦 Oder: 1 -2 h\n🛡️ Bảo hành: 7 ngày\n(Chỉ bảo hành gói dịch vụ, không bảo hành trường hợp sử dụng vi phạm chính sách)",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 3,
+            "cost_price": 1100000,
+            "selling_price": 1300000,
+            "updated": "13:48 01/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 1100000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -16429,6 +16455,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793515701716",
+      "time": "13:48 - 01/11/2026",
+      "name": "Grok Super 15X - 1 tháng BH 7 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 1300000,
+      "costPrice": 1100000,
+      "stockAfter": 3,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper15X-1thángBH7ngày➕Thêm:3📦Tồnkhohiệntại:3💰Giá:1.100.000đ"
+    },
+    {
       "id": "hist-1793515216057",
       "time": "13:40 - 01/11/2026",
       "name": "ChatGPT Plus 1 Tháng BH Login",
@@ -17516,17 +17553,6 @@
       "stockAfter": 533,
       "catKey": "kling",
       "msgKey": "🎬Kling65Cre1thBHF➕Thêm:200📦Tồnkhohiệntại:369💰Giá:2.000đ"
-    },
-    {
-      "id": "hist-1793496788297",
-      "time": "08:33 - 01/11/2026",
-      "name": "Kling 65 Credit 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 14000,
-      "costPrice": 4000,
-      "stockAfter": 369,
-      "catKey": "kling",
-      "msgKey": "🎬Kling65Credit1ThángBHF➕Thêm:200📦Tồnkhohiệntại:369💰Giá:4.000đ"
     }
   ],
   "vidiq": {
