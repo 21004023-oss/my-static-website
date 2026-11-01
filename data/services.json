@@ -7070,22 +7070,22 @@
         "name": "GROK  PREMIUM + GROK BOT 4X 14D BH 3D",
         "price": 130000,
         "cost_price": 100000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "3 Ngày",
         "detail": "Mua hàng chỉ dùng - không thay đổi bất cứ gì - check có thay đổi không bảo hành\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 8,
+            "stock": 5,
             "cost_price": 100000,
             "selling_price": 110000,
-            "updated": "00:51 01/11/2026"
+            "updated": "14:24 01/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 100000,
-          "stock": 8
+          "stock": 5
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -16647,6 +16647,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793517845495",
+      "time": "14:24 - 01/11/2026",
+      "name": "GROK  PREMIUM + GROK BOT 4X 14D BH 3D",
+      "bot": "taphoathomap_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 5,
+      "catKey": "grok",
+      "msgKey": "⚡GROKPREMIUM+GROKBOT4X14DBH3D➕Thêm:5📦Tồnkhohiệntại:5💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1793517636433",
       "time": "14:20 - 01/11/2026",
       "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
@@ -17734,17 +17745,6 @@
       "stockAfter": 30,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+30DBHF➕Thêm:15📦Tồnkhohiệntại:12💰Giá:59.000đ"
-    },
-    {
-      "id": "hist-1793506354511",
-      "time": "11:12 - 01/11/2026",
-      "name": "Meitu Vip+ 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 39,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+1ThángBHF➕Thêm:15📦Tồnkhohiệntại:12💰Giá:70.000đ"
     }
   ],
   "vidiq": {
