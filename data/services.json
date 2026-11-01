@@ -11908,16 +11908,16 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 6,
+            "stock": 5,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "08:59 01/11/2026"
+            "updated": "16:41 01/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 5,
@@ -11930,7 +11930,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 6
+          "stock": 5
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -16757,6 +16757,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793526084862",
+      "time": "16:41 - 01/11/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 10,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793526079310",
       "time": "16:41 - 01/11/2026",
       "name": "NordVPN 3 Ngày BHF",
@@ -17844,17 +17855,6 @@
       "stockAfter": 11,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:4📦Tồnkhohiệntại:11💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1793512586790",
-      "time": "12:56 - 01/11/2026",
-      "name": "ChatGPT Plus 1 Tháng BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 34,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBHLogin➕Thêm:1📦Tồnkhohiệntại:34💰Giá:100.000đ"
     }
   ],
   "vidiq": {
