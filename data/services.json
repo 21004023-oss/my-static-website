@@ -7193,16 +7193,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 23,
-        "stock_text": "Còn 23",
+        "stock": 21,
+        "stock_text": "Còn 21",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 23,
+            "stock": 21,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "03:56 03/11/2026"
+            "updated": "05:38 03/11/2026"
           }
         },
         "hidden": false,
@@ -7210,7 +7210,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 23
+          "stock": 21
         },
         "needs_review": false
       },
@@ -17882,6 +17882,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793659102577",
+      "time": "05:38 - 03/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 21,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:21💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793659084382",
       "time": "05:38 - 03/11/2026",
       "name": "Link Gemini Pro 18 Tháng",
@@ -18969,17 +18980,6 @@
       "stockAfter": 178,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:8📦Tồnkhohiệntại:178💰Giá:200.000"
-    },
-    {
-      "id": "hist-1793641513317",
-      "time": "00:45 - 03/11/2026",
-      "name": "Chatgpt Plus (Apple Pay) 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 226,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:8📦Tồnkhohiệntại:178💰Giá:220.000đ"
     }
   ],
   "vidiq": {
