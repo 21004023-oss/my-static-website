@@ -6519,23 +6519,23 @@
         "id": "p-1793598257537",
         "name": "VIP 1.API Gemini  100M–200M token 1 ngày BHF",
         "price": 219000,
-        "cost_price": 199000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "cost_price": 110000,
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Ngày",
-        "detail": "🤖 API key Gemini Hub — dùng cho Claude Code, Codex CLI và các ứng dụng tương thích OpenAI / Anthropic.\n💎 Quy đổi hạn mức theo model (100M–200M token):\n🤖 Gemini 4 Argon (gemini-4-argon): khoảng 100M token\n🤖 Gemini 3.8 Flash (gemini-3.8-flash): khoảng 200M token\n⏳ Hạn 1 ngày tính từ lúc cấp key.\n⚡️ Giao key tự động ngay sau khi thanh toán kèm hướng dẫn cấu hình.\n⚠️ Số token là ước tính theo input tươi; thực nhận thay đổi theo tỷ lệ output/cache. Key dừng khi hết hạn hoặc hết hạn mức, tùy điều kiện nào đến trước.\n🔗 Hướng dẫn cài đặt và kích hoạt:\nhttps://daily.bddevlab.buzz/redeem.html\n🔗 Cách khắc phục lỗi :\nhttps://duc-dop-error-guide.pages.dev\n✏️",
+        "detail": "🤖 API key Gemini Hub — dùng cho Claude Code, Codex CLI và các ứng dụng tương thích OpenAI / Anthropic.\n💎 Quy đổi hạn mức theo model (50M–100M token):\n🤖 Gemini 4 Argon (gemini-4-argon): khoảng 50M token\n🤖 Gemini 3.8 Flash (gemini-3.8-flash): khoảng 100M token\n⏳ Hạn 1 ngày tính từ lúc cấp key.\n⚡️ Giao key tự động ngay sau khi thanh toán kèm hướng dẫn cấu hình.\n⚠️ Số token là ước tính theo input tươi; thực nhận thay đổi theo tỷ lệ output/cache. Key dừng khi hết hạn hoặc hết hạn mức, tùy điều kiện nào đến trước.\n🔗 Hướng dẫn cài đặt và kích hoạt:\nhttps://daily.bddevlab.buzz/redeem.html\n🔗 Cách khắc phục lỗi :\nhttps://duc-dop-error-guide.pages.dev\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1,
-            "cost_price": 199000,
-            "selling_price": 219000,
-            "updated": "12:44 02/11/2026"
+            "stock": 3,
+            "cost_price": 110000,
+            "selling_price": 130000,
+            "updated": "12:47 02/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 199000,
-          "stock": 1
+          "cost_price": 110000,
+          "stock": 3
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -17206,6 +17206,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793598424107",
+      "time": "12:47 - 02/11/2026",
+      "name": "VIP 1.API Gemini  50M–100M token 1 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 3,
+      "catKey": "google-veo",
+      "msgKey": "☁️VIP1.APIGemini50M–100Mtoken1ngàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793598308325",
       "time": "12:45 - 02/11/2026",
       "name": "Surfshark VPN  Random 5-7 Ngày BHF",
@@ -18293,17 +18304,6 @@
       "stockAfter": 92,
       "catKey": "grok",
       "msgKey": "⚡GrokPremium14NgàyBH1Ngày➕Thêm:8📦Tồnkhohiệntại:36💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1793582226335",
-      "time": "08:17 - 02/11/2026",
-      "name": "TiktokVN 1kfl noshop nobuff live Studio",
-      "bot": "taphoathomap_bot",
-      "price": 179000,
-      "costPrice": 159000,
-      "stockAfter": 3,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokVN1kflnoshopnobuffliveStudio➕Thêm:1📦Tồnkhohiệntại:3💰Giá:159.000đ"
     }
   ],
   "vidiq": {
