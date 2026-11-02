@@ -15461,17 +15461,17 @@
       {
         "id": "p-1792183901751",
         "name": "Redeem Apple Music Individual 5 tháng BH 1 ngày",
-        "price": 55000,
-        "stock": 134,
-        "stock_text": "Còn 134",
+        "price": 65000,
+        "stock": 76,
+        "stock_text": "Còn 76",
         "duration": "1 Ngày",
-        "detail": "📋 Gói: Apple Music Cá nhân (Individual)\n-Thời hạn: 5 tháng\n-Hình thức: Kích hoạt trực tiếp trên tài khoản của bạn\n-Định dạng: Link kích hoạt chính thức\n-Không bảo hành sau khi đã kích hoạt thành công\n-Bảo hành link kích hoạt trong vòng 24 giờ\n-Cần sử dụng VPN Ấn Độ và thẻ để thanh toán\n-Sau khi thanh toán không hỗ trợ hoàn trả.",
+        "detail": "📋 Gói: Apple Music Cá nhân (Individual)\n-Thời hạn: 5 tháng\n-Hình thức: Kích hoạt trực tiếp trên tài khoản của bạn\n-Định dạng: Link kích hoạt chính thức\n-Không bảo hành sau khi đã kích hoạt thành công\n-Bảo hành link kích hoạt trong vòng 24 giờ\n-Cần sử dụng VPN Ấn Độ và thẻ để thanh toán\n-Sau khi thanh toán không hỗ trợ hoàn trả.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 67,
-            "cost_price": 45000,
-            "selling_price": 55000,
-            "updated": "07:24 22/10/2026"
+            "stock": 9,
+            "cost_price": 55000,
+            "selling_price": 65000,
+            "updated": "19:48 02/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 67,
@@ -15480,13 +15480,14 @@
             "updated": "07:24 22/10/2026"
           }
         },
-        "hidden": true,
+        "hidden": false,
         "cost_price": 40000,
-        "needs_review": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 40000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 40000,
+          "stock": 67
         }
       },
       {
@@ -17357,6 +17358,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793623687684",
+      "time": "19:48 - 02/11/2026",
+      "name": "Redeem Apple Music Individual 5 tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 76,
+      "catKey": "apple-services",
+      "msgKey": "⭐RedeemAppleMusicIndividual5thángBH1ngày➕Thêm:8📦Tồnkhohiệntại:9💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793623401737",
       "time": "19:43 - 02/11/2026",
       "name": "Capcut Pro Cá Nhân 30D  BHF",
@@ -18444,17 +18456,6 @@
       "stockAfter": 60,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:11📦Tồnkhohiệntại:21💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793609057931",
-      "time": "15:44 - 02/11/2026",
-      "name": "🔥Capcut Pro 6 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 320000,
-      "costPrice": 290000,
-      "stockAfter": 15,
-      "catKey": "capcut",
-      "msgKey": "✂️🔥CapcutPro6Tháng-BHF➕Thêm:2📦Tồnkhohiệntại:6💰Giá:290.000đ"
     }
   ],
   "vidiq": {
