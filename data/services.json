@@ -17804,6 +17804,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793656155763",
+      "time": "04:49 - 03/11/2026",
+      "name": "VIDIQ BOOST 2000 Credit 1Th BH 20D",
+      "bot": "taphoathomap_bot",
+      "price": 190000,
+      "costPrice": 170000,
+      "stockAfter": 3,
+      "catKey": "vidiq",
+      "msgKey": "▶️VIDIQBOOST2000Credit1ThBH20D➕Thêm:3📦Tồnkhohiệntại:3💰Giá:170.000đ"
+    },
+    {
       "id": "hist-1793655986439",
       "time": "04:46 - 03/11/2026",
       "name": "KEY HMA AND/PC 20-30 DAYS",
@@ -18891,17 +18902,6 @@
       "stockAfter": 27,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:27💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1793639708156",
-      "time": "00:15 - 03/11/2026",
-      "name": "GROK  PREMIUM 4X  14D BH 3D",
-      "bot": "piggyai99_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 13,
-      "catKey": "grok",
-      "msgKey": "⚡GROKPREMIUM4X14DBH3D➕Thêm:10📦Tồnkhohiệntại:9💰Giá:160.000đ"
     }
   ],
   "vidiq": {
@@ -18922,6 +18922,32 @@
             "cost_price": 170000,
             "selling_price": 190000,
             "updated": "21:24 29/10/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 170000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
+      },
+      {
+        "id": "p-1793656155763",
+        "name": "VIDIQ BOOST 2000 Credit 1Th BH 20D",
+        "price": 190000,
+        "cost_price": 170000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "Link hướng dẫn đăng nhập các tài khoản: https://www.youtube.com/playlist?list=PLnUweT-x0qNvstu8gyN8pdWoorvYZg7zb\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 170000,
+            "selling_price": 190000,
+            "updated": "04:49 03/11/2026"
           }
         },
         "cheapest_source": {
