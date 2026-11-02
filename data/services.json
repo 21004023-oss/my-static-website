@@ -16535,16 +16535,16 @@
         "name": "Scribd Premium 1 Tháng  BHF",
         "price": 55000,
         "cost_price": 30000,
-        "stock": 59,
-        "stock_text": "Còn 59",
+        "stock": 100,
+        "stock_text": "Còn 100",
         "duration": "1 Tháng",
         "detail": "• Định dạng nhận hàng: Email | Mật khẩu.\nQuyền lợi:\n• Truy cập thêm 4 triệu+ tài liệu thuộc danh mục Phong cách sống & Giải trí.\n• Tải xuống 2 tài liệu.\n• Tìm kiếm nội dung trong kho hơn 300 triệu tài liệu.\n• Lưu tài liệu yêu thích vào danh sách cá nhân.\n• Tóm tắt tài liệu và nhận câu trả lời nhanh bằng AI.\n• Sao chép văn bản, thêm ghi chú và đánh dấu những nội dung quan trọng.\n• Trải nghiệm không quảng cáo, hỗ trợ đọc ngoại tuyến.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 9,
-            "cost_price": 45000,
-            "selling_price": 55000,
-            "updated": "16:44 30/10/2026"
+            "stock": 50,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "20:53 02/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 50,
@@ -16554,11 +16554,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
+          "bot": "@sieuthistore_bot",
           "cost_price": 30000,
           "stock": 50
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -17421,6 +17421,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793627619494",
+      "time": "20:53 - 02/11/2026",
+      "name": "Scribd Premium 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 100,
+      "catKey": "khac",
+      "msgKey": "⭐ScribdPremium1ThángBHF➕Thêm:50📦Tồnkhohiệntại:50💰Giá:30.000đ"
+    },
     {
       "id": "hist-1793627615419",
       "time": "20:53 - 02/11/2026",
@@ -18509,17 +18520,6 @@
       "stockAfter": 126,
       "catKey": "chatgpt",
       "msgKey": "🤖💚HOT.ChatgptPlus1thángBHF➕Thêm:50📦Tồnkhohiệntại:50💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1793611504838",
-      "time": "16:25 - 02/11/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 54,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:16📦Tồnkhohiệntại:34💰Giá:70.000đ"
     }
   ],
   "vidiq": {
