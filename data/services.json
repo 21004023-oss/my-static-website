@@ -12993,16 +12993,16 @@
         "id": "p-1792043307697",
         "name": "KEY HMA AND/PC 20-30 DAYS",
         "price": 20000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 27,
+        "stock_text": "Còn 27",
         "duration": "1 Tháng",
         "detail": "Gói KEY HMA AND/PC 20-30 DAYS bảo hành uy tín.",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 15,
+            "stock": 27,
             "cost_price": 10000,
             "selling_price": 20000,
-            "updated": "14:34 02/11/2026"
+            "updated": "21:13 02/11/2026"
           }
         },
         "hidden": false,
@@ -13012,7 +13012,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 10000,
-          "stock": 15
+          "stock": 27
         }
       },
       {
@@ -17434,6 +17434,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793628811863",
+      "time": "21:13 - 02/11/2026",
+      "name": "KEY HMA AND/PC 20-30 DAYS",
+      "bot": "ntnshopre_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 27,
+      "catKey": "hma-vpn",
+      "msgKey": "⭐KEYHMAAND/PC20-30DAYS💰Giá:10k📦Tồnkho:27tàikhoản📊Đãbán:725tàikhoản✏️Vuilòngnhậps"
+    },
+    {
       "id": "hist-1793628636750",
       "time": "21:10 - 02/11/2026",
       "name": "CHAT GPT PLUS 1 tháng - BH 24H",
@@ -18521,17 +18532,6 @@
       "stockAfter": 2,
       "catKey": "khac",
       "msgKey": "⭐PitpitAI8k6cre1THBH3ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:750.000đ"
-    },
-    {
-      "id": "hist-1793613365734",
-      "time": "16:56 - 02/11/2026",
-      "name": "Galaxy Play Cao Cấp 30 ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "msgKey": "⭐GalaxyPlayCaoCấp30ngàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:25.000đ"
     }
   ],
   "vidiq": {
