@@ -13733,25 +13733,27 @@
         "id": "p-1792490625291",
         "name": "Microsoft Office 365 - 2 Năm BHF",
         "price": 60000,
-        "cost_price": 16800,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "cost_price": 50000,
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "2 Năm",
-        "detail": "Gói Microsoft Office 365 - 2 Năm BHF bảo hành uy tín.",
+        "detail": "Tài khoản cấp sẵn: Email | Pass\nCài đặt & sử dụng đồng thời trên tối đa 5 thiết bị (Windows, MacOS, iOS, iPadOS, Android)\nBao gồm đầy đủ ứng dụng: Word, Excel, PowerPoint, Outlook, OneNote, Microsoft Teams, Publisher, Access.\nLuôn được cập nhật miễn phí lên phiên bản Office mới nhất.\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 6,
             "cost_price": 50000,
             "selling_price": 60000,
-            "updated": "17:03 20/10/2026"
+            "updated": "21:33 02/11/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 16800
+          "bot": "@taphoathomap_bot",
+          "cost_price": 50000,
+          "stock": 6
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792359006626",
@@ -17440,6 +17442,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793630028890",
+      "time": "21:33 - 02/11/2026",
+      "name": "Microsoft Office 365 - 2 Năm BHF",
+      "bot": "taphoathomap_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 6,
+      "catKey": "microsoft",
+      "msgKey": "⭐MicrosoftOffice365-2NămBHF➕Thêm:1📦Tồnkhohiệntại:6💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1793629655665",
       "time": "21:27 - 02/11/2026",
       "name": "CHAT GPT PLUS 1 tháng - BH 6H",
@@ -18527,17 +18540,6 @@
       "stockAfter": 129,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:14📦Tồnkhohiệntại:51💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1793615453741",
-      "time": "17:30 - 02/11/2026",
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 118,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:14📦Tồnkhohiệntại:51💰Giá:65.000đ"
     }
   ],
   "vidiq": {
