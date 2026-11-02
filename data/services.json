@@ -4130,22 +4130,22 @@
         "name": "ChatGPT Go 1 Tháng (BH 28D)",
         "price": 105000,
         "cost_price": 95000,
-        "stock": 29,
-        "stock_text": "Còn 29",
+        "stock": 35,
+        "stock_text": "Còn 35",
         "duration": "1 Tháng",
         "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 29,
+            "stock": 35,
             "cost_price": 95000,
             "selling_price": 105000,
-            "updated": "03:37 02/11/2026"
+            "updated": "00:34 03/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 95000,
-          "stock": 29
+          "stock": 35
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -17708,6 +17708,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793640890232",
+      "time": "00:34 - 03/11/2026",
+      "name": "ChatGPT Go 1 Tháng (BH 28D)",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 35,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:35📦Tồnkhohiệntại:35💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1793640689818",
       "time": "00:31 - 03/11/2026",
       "name": "Express VPN Random 2-3 Ngày BHF",
@@ -18795,17 +18806,6 @@
       "stockAfter": 7,
       "catKey": "gmail",
       "msgKey": "📧GmailCổ2FA2023-2025➕Thêm:5📦Tồnkhohiệntại:7💰Giá:33.000đ"
-    },
-    {
-      "id": "hist-1793627619494",
-      "time": "20:53 - 02/11/2026",
-      "name": "Scribd Premium 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 100,
-      "catKey": "khac",
-      "msgKey": "⭐ScribdPremium1ThángBHF➕Thêm:50📦Tồnkhohiệntại:50💰Giá:30.000đ"
     }
   ],
   "vidiq": {
