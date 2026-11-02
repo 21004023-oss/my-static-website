@@ -14278,6 +14278,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793656752805",
+        "name": "Key Office 2021 Pro Plus Vĩnh viễn BH 7 ngày",
+        "price": 79000,
+        "cost_price": 69000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "7 Ngày",
+        "detail": "Định dạng Key: XXXXX-XXXXX-XXXXX-XXXXX\nLink tải: https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/en-US/ProPlus2021Retail.img\n(Quý khách có thể tải bộ cài từ trang chính thức của hãng hoặc nguồn uy tín. Chỉ cần chọn đúng phiên bản tương ứng với key là có thể kích hoạt được ạ)\nBảo hành: 7 ngày\nSử dụng vĩnh viễn\" nhưng nếu cài lại Windows thì có khoảng 10% khả Năng bị mất bản quyền.\nChỉ Active trên hệ điều hành Windows PC\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 69000,
+            "selling_price": 79000,
+            "updated": "04:59 03/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 69000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -17804,6 +17830,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793656752805",
+      "time": "04:59 - 03/11/2026",
+      "name": "Key Office 2021 Pro Plus Vĩnh viễn BH 7 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 79000,
+      "costPrice": 69000,
+      "stockAfter": 5,
+      "catKey": "microsoft",
+      "msgKey": "⭐KeyOffice2021ProPlusVĩnhviễnBH7ngày➕Thêm:5📦Tồnkhohiệntại:5💰Giá:69.000đ"
+    },
+    {
       "id": "hist-1793656155763",
       "time": "04:49 - 03/11/2026",
       "name": "VIDIQ BOOST 2000 Credit 1Th BH 20D",
@@ -18891,17 +18928,6 @@
       "stockAfter": 29,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:27💰Giá:109.000đ"
-    },
-    {
-      "id": "hist-1793640137164",
-      "time": "00:22 - 03/11/2026",
-      "name": "Grok Plus 30 ngày BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 27,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:27💰Giá:140.000đ"
     }
   ],
   "vidiq": {
