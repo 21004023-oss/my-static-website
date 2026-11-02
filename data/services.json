@@ -8058,22 +8058,22 @@
         "name": "Kling Standard 1100-1300 Credit 1 Tháng BH 1 ngày",
         "price": 180000,
         "cost_price": 160000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1100-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 3,
+            "stock": 4,
             "cost_price": 160000,
             "selling_price": 180000,
-            "updated": "09:55 02/11/2026"
+            "updated": "10:41 02/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 160000,
-          "stock": 3
+          "stock": 4
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -17128,6 +17128,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793590873085",
+      "time": "10:41 - 02/11/2026",
+      "name": "Kling Standard 1100-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 180000,
+      "costPrice": 160000,
+      "stockAfter": 4,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1100-1300Credit1ThángBH1ngày💰Giá:160k📦Tồnkho:4tàikhoản📊Đãbán:18tài"
+    },
+    {
       "id": "hist-1793590867319",
       "time": "10:41 - 02/11/2026",
       "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
@@ -18215,17 +18226,6 @@
       "stockAfter": 23,
       "catKey": "grok",
       "msgKey": "⚡GrokPremium14DBH1D➕Thêm:8📦Tồnkhohiệntại:9💰Giá:125.000đ"
-    },
-    {
-      "id": "hist-1793577482972",
-      "time": "06:58 - 02/11/2026",
-      "name": "Grok Premium 14 Ngày BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 19,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPremium14NgàyBH1Ngày➕Thêm:8📦Tồnkhohiệntại:9💰Giá:140.000đ"
     }
   ],
   "vidiq": {
