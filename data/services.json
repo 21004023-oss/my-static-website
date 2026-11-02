@@ -7271,22 +7271,22 @@
         "name": "Grok Super 1 ngày KBH",
         "price": 140000,
         "cost_price": 120000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Ngày",
         "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 2,
+            "stock": 5,
             "cost_price": 120000,
             "selling_price": 140000,
-            "updated": "08:33 02/11/2026"
+            "updated": "11:47 02/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 120000,
-          "stock": 2
+          "stock": 5
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -17180,6 +17180,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793594852497",
+      "time": "11:47 - 02/11/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "piggyai99_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 5,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:3📦Tồnkhohiệntại:5💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1793594661836",
       "time": "11:44 - 02/11/2026",
       "name": "Express VPN Random 2-3 Ngày BHF",
@@ -18267,17 +18278,6 @@
       "stockAfter": 48,
       "catKey": "cursor",
       "msgKey": "⚡Grok+CursorPremium14ngàyBH1ngày➕Thêm:1📦Tồnkhohiệntại:35💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1793580376660",
-      "time": "07:46 - 02/11/2026",
-      "name": "Grok Plus 30 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 129000,
-      "costPrice": 109000,
-      "stockAfter": 47,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:2📦Tồnkhohiệntại:45💰Giá:109.000đ"
     }
   ],
   "vidiq": {
