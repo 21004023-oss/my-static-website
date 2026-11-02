@@ -2070,16 +2070,16 @@
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
         "price": 330000,
-        "stock": 114,
-        "stock_text": "Còn 114",
+        "stock": 113,
+        "stock_text": "Còn 113",
         "duration": "1 Tháng",
         "detail": "- ChatGPT Plus 1 tháng BHF\n- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 30,
+            "stock": 29,
             "cost_price": 160000,
             "selling_price": 180000,
-            "updated": "21:57 02/11/2026"
+            "updated": "22:13 02/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 24,
@@ -2107,7 +2107,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 160000,
-          "stock": 30
+          "stock": 29
         }
       },
       {
@@ -17442,6 +17442,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793632401380",
+      "time": "22:13 - 02/11/2026",
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "price": 180000,
+      "costPrice": 160000,
+      "stockAfter": 113,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:1📦Tồnkhohiệntại:29💰Giá:160.000đ"
+    },
+    {
       "id": "hist-1793632199570",
       "time": "22:09 - 02/11/2026",
       "name": "Gmail Random ip 7-10 ngày 2FA",
@@ -18529,17 +18540,6 @@
       "stockAfter": 34,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày💰Giá:210k📦Tồnkho:12tàikhoản📊Đãbán:284tàikhoản💎Môtả:👉Hà"
-    },
-    {
-      "id": "hist-1793617794077",
-      "time": "18:09 - 02/11/2026",
-      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 240000,
-      "costPrice": 210000,
-      "stockAfter": 34,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:7📦Tồnkhohiệntại:12💰Giá:210.000đ"
     }
   ],
   "vidiq": {
