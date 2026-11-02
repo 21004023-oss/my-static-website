@@ -12537,16 +12537,16 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 4,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "16:41 01/11/2026"
+            "updated": "00:03 03/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 4,
@@ -12559,7 +12559,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 5
+          "stock": 4
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -17650,6 +17650,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793639029533",
+      "time": "00:03 - 03/11/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 8,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793639024364",
       "time": "00:03 - 03/11/2026",
       "name": "NordVPN 3 Ngày BHF",
@@ -18737,17 +18748,6 @@
       "stockAfter": 8,
       "catKey": "grok",
       "msgKey": "⚡⚡️GrokPlus30ngày-BH7Ngày➕Thêm:3📦Tồnkhohiệntại:8💰Giá:116.000đ"
-    },
-    {
-      "id": "hist-1793626308963",
-      "time": "20:31 - 02/11/2026",
-      "name": "GMAIL US RANDOM DATE 201X- 202X",
-      "bot": "sieuthistore_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 182,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILUSRANDOMDATE201X-202X➕Thêm:1📦Tồnkhohiệntại:86💰Giá:50.000đ"
     }
   ],
   "vidiq": {
