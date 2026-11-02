@@ -6011,16 +6011,16 @@
         "id": "p-1792256292426",
         "name": "Link Gemini Pro 18 Tháng",
         "price": 100000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
         "detail": "Holding warranty: 2HOURS\nHolding warranty: 2HOURS\nHolding warranty: 2HOURS\n+) Click on the link and confirm\n+) Do not need Card\n+) Can be used on any accounts\n+) Can invite 5 more members to family\n========\nBảo hành giữ link: 2TIẾNG\nBảo hành giữ link: 2TIẾNG\nBảo hành giữ link: 2TIẾNG\n+) Nhấn vô link và xác nhận là nâng thành công\n+) KHÔNG cần dùng thẻ thanh toán\n+) Dùng kích hoạt trên mọi account\n+) Có thể mời thêm 5 người vô family\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 10,
+            "stock": 12,
             "cost_price": 90000,
             "selling_price": 100000,
-            "updated": "10:42 02/11/2026"
+            "updated": "12:00 02/11/2026"
           }
         },
         "hidden": false,
@@ -6029,7 +6029,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 90000,
-          "stock": 10
+          "stock": 12
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -17180,6 +17180,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793595611371",
+      "time": "12:00 - 02/11/2026",
+      "name": "Link Gemini Pro 18 Tháng",
+      "bot": "sieuthistore_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 12,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGeminiPro18Tháng➕Thêm:10📦Tồnkhohiệntại:12💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1793595548409",
       "time": "11:59 - 02/11/2026",
       "name": "Grok + Cursor Premium 14 ngày BH 1 ngày",
@@ -18267,17 +18278,6 @@
       "stockAfter": 2,
       "catKey": "grok",
       "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:2📦Tồnkhohiệntại:2💰Giá:120.000đ"
-    },
-    {
-      "id": "hist-1793580761349",
-      "time": "07:52 - 02/11/2026",
-      "name": "Grok Premium 14D BH 1D",
-      "bot": "taphoathomap_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 75,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPremium14DBH1D➕Thêm:7📦Tồnkhohiệntại:25💰Giá:90.000đ"
     }
   ],
   "vidiq": {
