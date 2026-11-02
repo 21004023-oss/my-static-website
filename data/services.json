@@ -7071,8 +7071,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 47,
-        "stock_text": "Còn 47",
+        "stock": 40,
+        "stock_text": "Còn 40",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -7083,10 +7083,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 45,
+            "stock": 38,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "13:08 02/11/2026"
+            "updated": "18:10 02/11/2026"
           }
         },
         "hidden": false,
@@ -7095,7 +7095,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 45
+          "stock": 38
         }
       },
       {
@@ -17331,6 +17331,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793617804548",
+      "time": "18:10 - 02/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 40,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:5📦Tồnkhohiệntại:38💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793617798745",
       "time": "18:09 - 02/11/2026",
       "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
@@ -18418,17 +18429,6 @@
       "stockAfter": 79,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi1BTokenBH1H➕Thêm:40📦Tồnkhohiệntại:79💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793603787284",
-      "time": "14:16 - 02/11/2026",
-      "name": "Muse Ai 1B Token KBH",
-      "bot": "sieuthistore_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 1193,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:40📦Tồnkhohiệntại:79💰Giá:15.000đ"
     }
   ],
   "vidiq": {
