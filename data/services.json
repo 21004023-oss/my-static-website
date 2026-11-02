@@ -7161,8 +7161,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 29,
-        "stock_text": "Còn 29",
+        "stock": 25,
+        "stock_text": "Còn 25",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -7173,10 +7173,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 27,
+            "stock": 23,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "00:22 03/11/2026"
+            "updated": "03:56 03/11/2026"
           }
         },
         "hidden": false,
@@ -7185,7 +7185,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 27
+          "stock": 23
         }
       },
       {
@@ -17804,6 +17804,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793652983926",
+      "time": "03:56 - 03/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 25,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:4📦Tồnkhohiệntại:23💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793652978683",
       "time": "03:56 - 03/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -18891,17 +18902,6 @@
       "stockAfter": 10,
       "catKey": "google-veo",
       "msgKey": "🚀VIP1.APIGemini4Argon20M–40Mtoken1ngàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1793636915962",
-      "time": "23:28 - 02/11/2026",
-      "name": "Acc cấp Zoom Pro 28 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 4,
-      "catKey": "zoom",
-      "msgKey": "⭐AcccấpZoomPro28NgàyBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:65.000đ"
     }
   ],
   "vidiq": {
