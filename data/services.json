@@ -9554,25 +9554,31 @@
         "id": "p-1793184995614",
         "name": "Muse AI 31B Token KBH",
         "price": 90000,
-        "cost_price": 80000,
-        "stock": 18,
-        "stock_text": "Còn 18",
+        "cost_price": 40000,
+        "stock": 38,
+        "stock_text": "Còn 38",
         "duration": "1 Tháng",
-        "detail": "-Token 31B\n-Định dạng: Mail | Link đọc code mail\n-Bảo hành: Login check acc ok = hoàn tất BH.\n✏️",
+        "detail": "mail | pass | 2fa  ( 2fa.live )\nLogin check gói hết BH\nTài khoản bảo hành Login check gói trong vòng 1H\n✏️",
         "sources": {
           "piggyai99_bot": {
             "stock": 18,
             "cost_price": 80000,
             "selling_price": 90000,
             "updated": "17:02 01/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 20,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "08:58 02/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 80000,
-          "stock": 18
+          "bot": "@taphoathomap_bot",
+          "cost_price": 40000,
+          "stock": 20
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -17070,6 +17076,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793584682259",
+      "time": "08:58 - 02/11/2026",
+      "name": "Muse Ai 31B token KBH",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 38,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAi31BtokenKBH➕Thêm:20📦Tồnkhohiệntại:20💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1793584547749",
       "time": "08:55 - 02/11/2026",
       "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
@@ -18157,17 +18174,6 @@
       "stockAfter": 10,
       "catKey": "grammarly",
       "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1793561635892",
-      "time": "02:33 - 02/11/2026",
-      "name": "ChatGPT Plus 1 Tháng BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 14,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBHLogin💰Giá:100k📦Tồnkho:14tàikhoản📊Đãbán:856tàikhoản💎Môtả:🔐Tài"
     }
   ],
   "vidiq": {
