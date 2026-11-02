@@ -8550,6 +8550,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793632903221",
+        "name": "( Gói chính hãng ) ElevanLabs 131K Credit 3 Tháng -  BH 1  tháng",
+        "price": 290000,
+        "cost_price": 260000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "3 Tháng",
+        "detail": "Định dạng :\nEmail | pass 11 labs | pass hotmail | mail kp\n- Tài khoản đã đăng kí EVENLAB 3 tháng, sau khi mua hàng thay đổi all thông tin, shop chỉ bảo hành mất gói, không bảo hành sai tt trong thời gian sử dụng\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 260000,
+            "selling_price": 290000,
+            "updated": "22:21 02/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 260000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -17442,6 +17468,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793632903221",
+      "time": "22:21 - 02/11/2026",
+      "name": "( Gói chính hãng ) ElevanLabs 131K Credit 3 Tháng -  BH 1  tháng",
+      "bot": "taphoathomap_bot",
+      "price": 290000,
+      "costPrice": 260000,
+      "stockAfter": 5,
+      "catKey": "elevenlabs",
+      "msgKey": "🎙️(Góichínhhãng)ElevanLabs131KCredit3Tháng-BH1tháng➕Thêm:5📦Tồnkhohiệntại:5💰Giá:2"
+    },
+    {
       "id": "hist-1793632767380",
       "time": "22:19 - 02/11/2026",
       "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
@@ -18529,17 +18566,6 @@
       "stockAfter": 38,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:5📦Tồnkhohiệntại:38💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1793617804548",
-      "time": "18:10 - 02/11/2026",
-      "name": "Grok Plus 30 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 129000,
-      "costPrice": 109000,
-      "stockAfter": 40,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:5📦Tồnkhohiệntại:38💰Giá:109.000đ"
     }
   ],
   "vidiq": {
