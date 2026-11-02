@@ -12489,6 +12489,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793583349751",
+        "name": "Express VPN 10 thiết bị 3 ngày BHF",
+        "price": 25000,
+        "cost_price": 15000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "3 Ngày",
+        "detail": "Định dạng: email|pass , pass là activation key luôn\nLấy code tại: Cutemail.us\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "08:35 02/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
+          "stock": 6
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -17012,6 +17038,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793583349751",
+      "time": "08:35 - 02/11/2026",
+      "name": "Express VPN 10 thiết bị 3 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 6,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN10thiếtbị3ngàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793583188584",
       "time": "08:33 - 02/11/2026",
       "name": "Grok Super 1 ngày KBH",
@@ -18099,17 +18136,6 @@
       "stockAfter": 82,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:11📦Tồnkhohiệntại:55💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793561043518",
-      "time": "02:24 - 02/11/2026",
-      "name": "Capcut Pro 1 Tháng BH 30 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 9,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutPro1ThángBH30Ngày➕Thêm:7📦Tồnkhohiệntại:9💰Giá:60.000đ"
     }
   ],
   "vidiq": {
