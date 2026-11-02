@@ -9384,6 +9384,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793645549999",
+        "name": "Higgsfield Genjutsu 1 tháng BH 6H",
+        "price": 25000,
+        "cost_price": 15000,
+        "stock": 13,
+        "stock_text": "Còn 13",
+        "duration": "1 Tháng",
+        "detail": "🎬 HIGGSFIELD – MOTION GENJUTSU\n✅ Tạo 1 video bằng Motion Genjutsu\n🎥 Chất lượng: 720p | 30 giây/video\n⏳ Thời gian kết xuất: Khoảng 20 phút/video hoặc lâu hơn tùy chọn khung giờ và trạng thái máy chủ.\n🔐 Tài khoản dạng định dạng:\nTK Higgsfield | MK Higgsfield | Liên kết OTP\n✅ Video tạo web: https://higgsfield.ai/ai/video?model=genjutsu\n✅ HD login : điền tài khoản mật khẩu, nếu yêu cầu OTP thì click vào link OTP\n⚠️ Lưu ý : Đây là tài khoản free có ưu đãi tạo 1 video bằng Motion Genjutsu siêu ngon\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 13,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "01:52 03/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
+          "stock": 13
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -17714,6 +17740,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793645549999",
+      "time": "01:52 - 03/11/2026",
+      "name": "Higgsfield Genjutsu 1 tháng BH 6H",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 13,
+      "catKey": "higgsfield",
+      "msgKey": "🎬HiggsfieldGenjutsu1thángBH6H➕Thêm:13📦Tồnkhohiệntại:13💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793645513227",
       "time": "01:51 - 03/11/2026",
       "name": "Scribd Premium 1 Tháng  BHF",
@@ -18801,17 +18838,6 @@
       "stockAfter": 183,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1tháng-BH6H💰Giá:120k📦Tồnkho:81tàikhoản📊Đãbán:981tàikhoản💎Môtả:🔐Tàikh"
-    },
-    {
-      "id": "hist-1793630162050",
-      "time": "21:36 - 02/11/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
-      "bot": "piggyai99_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 183,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:1📦Tồnkhohiệntại:81💰Giá:120.000đ"
     }
   ],
   "vidiq": {
