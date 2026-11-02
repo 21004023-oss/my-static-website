@@ -12509,23 +12509,23 @@
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
         "cost_price": 7000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "3 Ngày",
         "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 4,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "02:34 02/11/2026"
+            "updated": "11:44 02/11/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 7000,
-          "stock": 2
+          "stock": 4
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -17180,6 +17180,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793594661836",
+      "time": "11:44 - 02/11/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 4,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:2📦Tồnkhohiệntại:4💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1793593998081",
       "time": "11:33 - 02/11/2026",
       "name": "⚡️Kling 1000-1200 Credit 1 tháng BH 5D",
@@ -18267,17 +18278,6 @@
       "stockAfter": 47,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:2📦Tồnkhohiệntại:45💰Giá:109.000đ"
-    },
-    {
-      "id": "hist-1793580347829",
-      "time": "07:45 - 02/11/2026",
-      "name": "Grok Plus 30 ngày BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 45,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:2📦Tồnkhohiệntại:45💰Giá:140.000đ"
     }
   ],
   "vidiq": {
