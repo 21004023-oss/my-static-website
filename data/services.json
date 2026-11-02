@@ -12309,10 +12309,10 @@
         "id": "p-1791917317024",
         "name": "Wink VIP+ 7 Ngày BHF",
         "price": 45000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "7 Ngày",
-        "detail": "Wink gói VIP+ 7 Ngày BHF 100 credits login 1 thiết bị,  nếu đăng nhập trên điện thoại lỗi thì có thể có thể dùng trên PC\n- Định dạng: (Email|Pass Hotmail|Pass Wink) Token\n- Pass Wink mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\nLink tải app Wink trên máy tính: https://wink.ai/vi\n-CÁCH ĐĂNG NHẬP NẾU KHÔNG HIỆN Ô EMAIL và PASS\nỞ màn hình đăng nhập nhấn vào More login methods, tiếp theo có 3 biểu tượng bên dưới thì nhấn vào biểu tượng tin nhắn dưới cùng bên phải, rồi nhấn tiếp vào Log in with password, để ý bên dưới có biểu tượng Email, nhấn vào là hiện ô nhập email và pass\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI",
+        "detail": "Wink gói VIP+ 7 Ngày BHF 100 credits login 1 thiết bị,  nếu đăng nhập trên điện thoại lỗi thì có thể có thể dùng trên PC\n- Định dạng: (Email|Pass Hotmail|Pass Wink) Token\n- Pass Wink mặc định: Admin123@\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\nLink tải app Wink trên máy tính: https://wink.ai/vi\n-CÁCH ĐĂNG NHẬP NẾU KHÔNG HIỆN Ô EMAIL và PASS\nỞ màn hình đăng nhập nhấn vào More login methods, tiếp theo có 3 biểu tượng bên dưới thì nhấn vào biểu tượng tin nhắn dưới cùng bên phải, rồi nhấn tiếp vào Log in with password, để ý bên dưới có biểu tượng Email, nhấn vào là hiện ô nhập email và pass\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI\n✏️",
         "sources": {
           "taphoathomap_bot": {
             "stock": 0,
@@ -12321,20 +12321,20 @@
             "updated": "22:44 02/11/2026"
           },
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 10,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "22:44 02/11/2026"
+            "updated": "01:41 03/11/2026"
           }
         },
-        "cost_price": 15000,
+        "cost_price": 35000,
         "hidden": false,
         "needs_review": false,
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 15000,
-          "stock": 0
+          "bot": "@sieuthistore_bot",
+          "cost_price": 35000,
+          "stock": 10
         }
       },
       {
@@ -17708,6 +17708,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793644891288",
+      "time": "01:41 - 03/11/2026",
+      "name": "Wink VIP+ 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 10,
+      "catKey": "wink",
+      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1793644660506",
       "time": "01:37 - 03/11/2026",
       "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
@@ -18795,17 +18806,6 @@
       "stockAfter": 54,
       "catKey": "hma-vpn",
       "msgKey": "⭐KEYHMAAND/PC20-30DAYS➕Thêm:13📦Tồnkhohiệntại:27💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793628845382",
-      "time": "21:14 - 02/11/2026",
-      "name": "KEY HMA AND/PC 20-30 DAYS",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 54,
-      "catKey": "hma-vpn",
-      "msgKey": "⭐KEYHMAAND/PC20-30DAYS💰Giá:15k📦Tồnkho:27tàikhoản📊Đãbán:725tàikhoản✏️Vuilòngnhậps"
     }
   ],
   "vidiq": {
