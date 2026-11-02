@@ -10333,6 +10333,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793581833810",
+        "name": "Admin 500 thành viên Canva Edu 3 năm BH 7 ngày",
+        "price": 90000,
+        "cost_price": 80000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "7 Ngày",
+        "detail": "-Admin 500 thành viên Canva Edu,hàng ổn dịnh,dùng lâu,muốn tăng thời hạn bảo hành liên hệ admin thêm phí\n-Bảo hành: Login check acc, BH 7 ngày= hoàn tất BH\n-Giao full thông tin,Khách hàng nhận tài khoản vui lòng tự bảo mật\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "08:10 02/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 80000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -16986,6 +17012,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793581833810",
+      "time": "08:10 - 02/11/2026",
+      "name": "Admin 500 thành viên Canva Edu 3 năm BH 7 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 1,
+      "catKey": "canva",
+      "msgKey": "🎨Admin500thànhviênCanvaEdu3nămBH7ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1793581515215",
       "time": "08:05 - 02/11/2026",
       "name": "Grok Premium 14D BH 1D",
@@ -18073,17 +18110,6 @@
       "stockAfter": 114,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:15📦Tồnkhohiệntại:66💰Giá:220.000đ"
-    },
-    {
-      "id": "hist-1793559525203",
-      "time": "01:58 - 02/11/2026",
-      "name": "Netflix Premium Extra 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 4,
-      "catKey": "netflix",
-      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:140.000đ"
     }
   ],
   "vidiq": {
