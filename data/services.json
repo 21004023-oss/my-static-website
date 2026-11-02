@@ -7155,8 +7155,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 31,
-        "stock_text": "Còn 31",
+        "stock": 29,
+        "stock_text": "Còn 29",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -7167,10 +7167,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 29,
+            "stock": 27,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "20:27 02/11/2026"
+            "updated": "00:22 03/11/2026"
           }
         },
         "hidden": false,
@@ -7179,7 +7179,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 29
+          "stock": 27
         }
       },
       {
@@ -17708,6 +17708,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793640153472",
+      "time": "00:22 - 03/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 29,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:27💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793640137164",
       "time": "00:22 - 03/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -18795,17 +18806,6 @@
       "stockAfter": 2,
       "catKey": "gmail",
       "msgKey": "📧GmailCổ2FA2023-2025➕Thêm:2📦Tồnkhohiệntại:2💰Giá:33.000đ"
-    },
-    {
-      "id": "hist-1793627239711",
-      "time": "20:47 - 02/11/2026",
-      "name": "Slot riêng tư Netflix Premium 4K 3TH (BHF)",
-      "bot": "taphoathomap_bot",
-      "price": 235000,
-      "costPrice": 205000,
-      "stockAfter": 28,
-      "catKey": "netflix",
-      "msgKey": "🎬SlotriêngtưNetflixPremium4K3TH(BHF)➕Thêm:28📦Tồnkhohiệntại:28💰Giá:205.000đ"
     }
   ],
   "vidiq": {
