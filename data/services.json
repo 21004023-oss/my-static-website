@@ -2076,16 +2076,16 @@
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
         "price": 330000,
-        "stock": 133,
-        "stock_text": "Còn 133",
+        "stock": 140,
+        "stock_text": "Còn 140",
         "duration": "1 Tháng",
         "detail": "- ChatGPT Plus 1 tháng BHF\n- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 48,
+            "stock": 55,
             "cost_price": 160000,
             "selling_price": 180000,
-            "updated": "00:46 03/11/2026"
+            "updated": "03:59 03/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 24,
@@ -2113,7 +2113,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 160000,
-          "stock": 48
+          "stock": 55
         }
       },
       {
@@ -17804,6 +17804,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793653144616",
+      "time": "03:59 - 03/11/2026",
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "price": 180000,
+      "costPrice": 160000,
+      "stockAfter": 140,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:11📦Tồnkhohiệntại:55💰Giá:160.000đ"
+    },
+    {
       "id": "hist-1793653056465",
       "time": "03:57 - 03/11/2026",
       "name": "NordVPN 3 Ngày BHF",
@@ -18891,17 +18902,6 @@
       "stockAfter": 8,
       "catKey": "zoom",
       "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793637197292",
-      "time": "23:33 - 02/11/2026",
-      "name": "Zoom Pro 14 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 10,
-      "catKey": "zoom",
-      "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:45.000đ"
     }
   ],
   "vidiq": {
