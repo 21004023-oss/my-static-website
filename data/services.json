@@ -6628,24 +6628,24 @@
       {
         "id": "p-1793637156936",
         "name": "VIP 1.API Gemini 4 Argon 20M–40M token 1 ngày BHF",
-        "price": 60000,
-        "cost_price": 50000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "price": 130000,
+        "cost_price": 110000,
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Ngày",
-        "detail": "🤖 API key Gemini Hub — dùng cho Claude Code, Codex CLI và các ứng dụng tương thích OpenAI / Anthropic.\n💎 Quy đổi hạn mức theo model (20M–40M token):\n🤖 Gemini 4 Argon (gemini-4-argon): khoảng 20M token\n🤖 Gemini 3.8 Flash (gemini-3.8-flash): khoảng 40M token\n⏳ Hạn 1 ngày tính từ lúc cấp key.\n⚡️ Giao key tự động ngay sau khi thanh toán kèm hướng dẫn cấu hình.\n⚠️ Số token là ước tính theo input tươi; thực nhận thay đổi theo tỷ lệ output/cache. Key dừng khi hết hạn hoặc hết hạn mức, tùy điều kiện nào đến trước.\n🔗 Hướng dẫn cài đặt và kích hoạt:\nhttps://daily.bddevlab.buzz/redeem.html\n🔗 Cách khắc phục lỗi :\nhttps://duc-dop-error-guide.pages.dev\n✏️",
+        "detail": "🤖 API key Gemini Hub — dùng cho Claude Code, Codex CLI và các ứng dụng tương thích OpenAI / Anthropic.\n💎 Quy đổi hạn mức theo model (50M–100M token):\n🤖 Gemini 4 Argon (gemini-4-argon): khoảng 50M token\n🤖 Gemini 3.8 Flash (gemini-3.8-flash): khoảng 100M token\n⏳ Hạn 1 ngày tính từ lúc cấp key.\n⚡️ Giao key tự động ngay sau khi thanh toán kèm hướng dẫn cấu hình.\n⚠️ Số token là ước tính theo input tươi; thực nhận thay đổi theo tỷ lệ output/cache. Key dừng khi hết hạn hoặc hết hạn mức, tùy điều kiện nào đến trước.\n🔗 Hướng dẫn cài đặt và kích hoạt:\nhttps://daily.bddevlab.buzz/redeem.html\n🔗 Cách khắc phục lỗi :\nhttps://duc-dop-error-guide.pages.dev\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 10,
-            "cost_price": 50000,
-            "selling_price": 60000,
-            "updated": "23:32 02/11/2026"
+            "stock": 5,
+            "cost_price": 110000,
+            "selling_price": 130000,
+            "updated": "23:33 02/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 50000,
-          "stock": 10
+          "cost_price": 110000,
+          "stock": 5
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -17572,6 +17572,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793637182137",
+      "time": "23:33 - 02/11/2026",
+      "name": "VIP 1.API Gemini 4 Argon 50M–100M token 1 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 5,
+      "catKey": "google-veo",
+      "msgKey": "🚀VIP1.APIGemini4Argon50M–100Mtoken1ngàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793637156936",
       "time": "23:32 - 02/11/2026",
       "name": "VIP 1.API Gemini 4 Argon 20M–40M token 1 ngày BHF",
@@ -18659,17 +18670,6 @@
       "stockAfter": 619,
       "catKey": "youtube",
       "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:619💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1793623971984",
-      "time": "19:52 - 02/11/2026",
-      "name": "Capcut Pro Cá Nhân 30D  BHF",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 53,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30DBHF➕Thêm:15📦Tồnkhohiệntại:52💰Giá:45.000đ"
     }
   ],
   "vidiq": {
