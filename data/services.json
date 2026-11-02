@@ -10608,6 +10608,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793652050800",
+        "name": "SUNO PREMIER 1 THÁNG (BH 3 NGÀY)",
+        "price": 460000,
+        "cost_price": 410000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói SUNO PREMIER 1 THÁNG (BH 3 NGÀY) bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 0,
+            "cost_price": 410000,
+            "selling_price": 460000,
+            "updated": "03:40 03/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 410000,
+          "stock": 0
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -17778,6 +17804,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793652050800",
+      "time": "03:40 - 03/11/2026",
+      "name": "SUNO PREMIER 1 THÁNG (BH 3 NGÀY)",
+      "bot": "taphoathomap_bot",
+      "price": 460000,
+      "costPrice": 410000,
+      "stockAfter": 0,
+      "catKey": "suno",
+      "msgKey": "🎵SUNOPREMIER1THÁNG(BH3NGÀY)➕Thêm:1📦Tồnkhohiệntại:0💰Giá:410.000đ"
+    },
+    {
       "id": "hist-1793651969483",
       "time": "03:39 - 03/11/2026",
       "name": "⚡️ Grok Plus 30 ngày -  BH 7 Ngày",
@@ -18865,17 +18902,6 @@
       "stockAfter": 26,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:26📦Tồnkhohiệntại:26💰Giá:200.000"
-    },
-    {
-      "id": "hist-1793636736854",
-      "time": "23:25 - 02/11/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
-      "bot": "piggyai99_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 150,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H💰Giá:120k📦Tồnkho:52tàikhoản📊Đãbán:1.075tàikhoản💎Môtả:🔐Tài"
     }
   ],
   "vidiq": {
