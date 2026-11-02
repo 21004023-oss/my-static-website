@@ -7213,6 +7213,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793580921487",
+        "name": "Grok Super 1 ngày KBH",
+        "price": 140000,
+        "cost_price": 120000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Ngày",
+        "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 2,
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "07:55 02/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 120000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -16960,6 +16986,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793580921487",
+      "time": "07:55 - 02/11/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "piggyai99_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 2,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:2📦Tồnkhohiệntại:2💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1793580761349",
       "time": "07:52 - 02/11/2026",
       "name": "Grok Premium 14D BH 1D",
@@ -18047,17 +18084,6 @@
       "stockAfter": 28,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+1ThángBHF➕Thêm:12📦Tồnkhohiệntại:1💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1793558387599",
-      "time": "01:39 - 02/11/2026",
-      "name": "(👑ĐỘC QUYỀN🔥) Link Gemini 18 Tháng KBH",
-      "bot": "taphoathomap_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 10,
-      "catKey": "google-veo",
-      "msgKey": "☁️(👑ĐỘCQUYỀN🔥)LinkGemini18ThángKBH➕Thêm:3📦Tồnkhohiệntại:10💰Giá:80.000đ"
     }
   ],
   "vidiq": {
