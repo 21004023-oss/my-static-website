@@ -17123,10 +17123,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793593356734",
+        "name": "Slot Add Family 12k5 Credit(antigravity 20x ) Flow 1TH BH 30D",
+        "price": 1300000,
+        "cost_price": 1100000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "khách hàng đặt hàng xong gửi mail, chờ add vào family , khách hàng check mail và ấn tham gia vào gia đình\nfamily có 25k credit chia đều cho 2 thành viên trong gia đình\nmỗi thành viễn sẽ được sở hữu 12k5 credit nếu khách hàng nào dùng quá 5k credit sẽ bị bot kick khỏi family, còn khách hàng nào chưa sử dụng đủ 5k credit sẽ được bù số credit còn thiếu hụt\n-LƯU Ý:\n1. check xem mail có nằm trong gia đình nào không : http://g.co/yourfamily\n2.đóng hồ sơ thanh toán được thì tốt nếu có hồ sơ thanh toán nước ngoài : https://payments.google.com/gp/w/home/settings\n3. Khách dùng antigravity nên login anti ở mail free trước xem dùng được không trước khi lên antigravity ultra\n4. tự bảo quản và bảo mật mail của mình , bên mình không thể can thiệp vào mail của bạn",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 1100000,
+            "selling_price": 1300000,
+            "updated": "11:22 02/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 1100000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793593356734",
+      "time": "11:22 - 02/11/2026",
+      "name": "Slot Add Family 12k5 Credit(antigravity 20x ) Flow 1TH BH 30D",
+      "bot": "taphoathomap_bot",
+      "price": 1300000,
+      "costPrice": 1100000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "msgKey": "🚀SlotAddFamily12k5Credit(antigravity20x)Flow1THBH30D➕Thêm:1📦Tồnkhohiệntại:2💰Giá:"
+    },
     {
       "id": "hist-1793593351916",
       "time": "11:22 - 02/11/2026",
@@ -18215,17 +18252,6 @@
       "stockAfter": 54,
       "catKey": "grok",
       "msgKey": "⚡GrokPremium14DBH1D➕Thêm:6📦Tồnkhohiệntại:18💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1793579654808",
-      "time": "07:34 - 02/11/2026",
-      "name": "Grok Premium 14D BH 1D",
-      "bot": "piggyai99_bot",
-      "price": 145000,
-      "costPrice": 125000,
-      "stockAfter": 53,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPremium14DBH1D💰Giá:125k📦Tồnkho:18tàikhoản📊Đãbán:194tàikhoản💎Môtả:•GrokPremi"
     }
   ],
   "vidiq": {
