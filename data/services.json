@@ -12303,16 +12303,16 @@
         "id": "p-1792089905786",
         "name": "NORD VPN 10 thiết bị 7 ngày BHF",
         "price": 45000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "7 Ngày",
         "detail": "- Nord Vpn dùng 10 thiết bị 7 ngày bhf\n- Định dạng tk|mk dùng được android ios pc\n- Lấy code tại wed https://mailtemp.vn/ hoặc cutemail.us\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 5,
             "cost_price": 20000,
             "selling_price": 30000,
-            "updated": "22:55 31/10/2026"
+            "updated": "16:12 02/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 10,
@@ -12326,7 +12326,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 20000,
-          "stock": 10
+          "stock": 5
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -17273,6 +17273,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793610726627",
+      "time": "16:12 - 02/11/2026",
+      "name": "NORD VPN 10 thiết bị 7 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 30000,
+      "costPrice": 20000,
+      "stockAfter": 15,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NORDVPN10thiếtbị7ngàyBHF➕Thêm:3📦Tồnkhohiệntại:5💰Giá:20.000đ"
+    },
+    {
       "id": "hist-1793610519427",
       "time": "16:08 - 02/11/2026",
       "name": "Gmail Cổ 2FA 2023-2025",
@@ -18360,17 +18371,6 @@
       "stockAfter": 39,
       "catKey": "expressvpn",
       "msgKey": "🚚🔥ExpressVPN1ThángBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793593312513",
-      "time": "11:21 - 02/11/2026",
-      "name": "Express VPN 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 38,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN1ThángBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:95.000đ"
     }
   ],
   "vidiq": {
