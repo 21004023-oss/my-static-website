@@ -6967,8 +6967,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 47,
-        "stock_text": "Còn 47",
+        "stock": 45,
+        "stock_text": "Còn 45",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -6979,10 +6979,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 45,
+            "stock": 43,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "07:46 02/11/2026"
+            "updated": "08:47 02/11/2026"
           }
         },
         "hidden": false,
@@ -6991,7 +6991,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 45
+          "stock": 43
         }
       },
       {
@@ -17070,6 +17070,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793584062200",
+      "time": "08:47 - 02/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 45,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:43💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793584055994",
       "time": "08:47 - 02/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -18157,17 +18168,6 @@
       "stockAfter": 4,
       "catKey": "grok",
       "msgKey": "⚡GROKPREMIUM14NGÀYBHF💰Giá:180k📦Tồnkho:4tàikhoản📊Đãbán:0tàikhoản💎Môtả:-GrokgóiPre"
-    },
-    {
-      "id": "hist-1793561608471",
-      "time": "02:33 - 02/11/2026",
-      "name": "GROK PREMIUM 14 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 4,
-      "catKey": "grok",
-      "msgKey": "⚡GROKPREMIUM14NGÀYBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:180.000đ"
     }
   ],
   "vidiq": {
