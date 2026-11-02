@@ -9736,11 +9736,11 @@
         "id": "p-1793184995614",
         "name": "Muse AI 31B Token KBH",
         "price": 90000,
-        "cost_price": 80000,
-        "stock": 18,
-        "stock_text": "Còn 18",
+        "cost_price": 40000,
+        "stock": 27,
+        "stock_text": "Còn 27",
         "duration": "1 Tháng",
-        "detail": "mail | pass | 2fa  ( 2fa.live )\nLogin check gói hết BH\nTài khoản bảo hành Login check gói trong vòng 1H",
+        "detail": "mail | pass | 2fa  ( 2fa.live ) | Link get code\nLogin check gói hết BH\nTài khoản bảo hành Login check gói trong vòng 1H\n✏️",
         "sources": {
           "piggyai99_bot": {
             "stock": 18,
@@ -9749,18 +9749,18 @@
             "updated": "17:02 01/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 9,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "17:40 02/11/2026"
+            "updated": "18:39 02/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 80000,
-          "stock": 18
+          "bot": "@taphoathomap_bot",
+          "cost_price": 40000,
+          "stock": 9
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -17331,6 +17331,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793619545110",
+      "time": "18:39 - 02/11/2026",
+      "name": "Muse Ai 31B token KBH",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 27,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAi31BtokenKBH➕Thêm:10📦Tồnkhohiệntại:9💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1793619187398",
       "time": "18:33 - 02/11/2026",
       "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
@@ -18418,17 +18429,6 @@
       "stockAfter": 157,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:41📦Tồnkhohiệntại:109💰Giá:220.000đ"
-    },
-    {
-      "id": "hist-1793604025015",
-      "time": "14:20 - 02/11/2026",
-      "name": "Link Gemini 18 Tháng ( BH 3H )",
-      "bot": "taphoathomap_bot",
-      "price": 52000,
-      "costPrice": 42000,
-      "stockAfter": 25,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGemini18Tháng(BH3H)➕Thêm:54📦Tồnkhohiệntại:25💰Giá:42.000đ"
     }
   ],
   "vidiq": {
