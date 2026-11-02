@@ -9736,11 +9736,11 @@
         "id": "p-1793184995614",
         "name": "Muse AI 31B Token KBH",
         "price": 90000,
-        "cost_price": 40000,
-        "stock": 43,
-        "stock_text": "Còn 43",
+        "cost_price": 80000,
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "1 Tháng",
-        "detail": "mail | pass | 2fa  ( 2fa.live )\nLogin check gói hết BH\nTài khoản bảo hành Login check gói trong vòng 1H\n✏️",
+        "detail": "mail | pass | 2fa  ( 2fa.live )\nLogin check gói hết BH\nTài khoản bảo hành Login check gói trong vòng 1H",
         "sources": {
           "piggyai99_bot": {
             "stock": 18,
@@ -9749,18 +9749,18 @@
             "updated": "17:02 01/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 25,
+            "stock": 0,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "17:23 02/11/2026"
+            "updated": "17:40 02/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 40000,
-          "stock": 25
+          "bot": "@piggyai99_bot",
+          "cost_price": 80000,
+          "stock": 18
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -17331,6 +17331,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793616049992",
+      "time": "17:40 - 02/11/2026",
+      "name": "Muse Ai 31B token KBH",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 18,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAi31BtokenKBH➕Thêm:5📦Tồnkhohiệntại:0💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1793615582509",
       "time": "17:33 - 02/11/2026",
       "name": "CAPCUT PRO CÁ NHÂN 30 Ngày BHF",
@@ -18418,17 +18429,6 @@
       "stockAfter": 61,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF💰Giá:200k📦Tồnkho:61tàikhoản📊Đãbán:6.7"
-    },
-    {
-      "id": "hist-1793601079434",
-      "time": "13:31 - 02/11/2026",
-      "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 220000,
-      "costPrice": 200000,
-      "stockAfter": 61,
-      "catKey": "chatgpt",
-      "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:7📦Tồnkhohiệntại:61💰Giá:200.000đ"
     }
   ],
   "vidiq": {
