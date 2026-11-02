@@ -7479,6 +7479,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793639698106",
+        "name": "Grok + Cusor Premium 14-24D BH 3D",
+        "price": 140000,
+        "cost_price": 120000,
+        "stock": 9,
+        "stock_text": "Còn 9",
+        "duration": "3 Ngày",
+        "detail": "• Grok Premium 14 ngày, bảo hành 3 ngày\n•Định dạng: Mail|Pass -Lưu ý: Sau khi mua hàng vui lòng Chage + đổi mật khẩu, shop chỉ hỗ trợ bảo hành nếu rớt gói, còn các vấn đề khác shop không hỗ trợ ạ\n• Hỗ trợ sai pass trong vòng 12H sau khi nhận hàng. Nếu quá shop xin phép không bảo hành\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 9,
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "00:14 03/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 120000,
+          "stock": 9
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -17676,6 +17702,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793639698106",
+      "time": "00:14 - 03/11/2026",
+      "name": "Grok + Cusor Premium 14-24D BH 3D",
+      "bot": "taphoathomap_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 9,
+      "catKey": "grok",
+      "msgKey": "⚡Grok+CusorPremium14-24DBH3D➕Thêm:10📦Tồnkhohiệntại:9💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1793639500249",
       "time": "00:11 - 03/11/2026",
       "name": "Express VPN Random 2-3 Ngày BHF",
@@ -18763,17 +18800,6 @@
       "stockAfter": 38,
       "catKey": "microsoft",
       "msgKey": "⭐Microsoft365cánhân1nămBH3tháng➕Thêm:10📦Tồnkhohiệntại:19💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1793626739950",
-      "time": "20:38 - 02/11/2026",
-      "name": "Microsoft 365 cá nhân 1 Năm BH 3 tháng",
-      "bot": "sieuthistore_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 39,
-      "catKey": "microsoft",
-      "msgKey": "⭐Microsoft365cánhân1NămBH3tháng➕Thêm:10📦Tồnkhohiệntại:19💰Giá:50.000đ"
     }
   ],
   "vidiq": {
