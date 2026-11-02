@@ -12627,16 +12627,16 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 8,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "00:03 03/11/2026"
+            "updated": "03:57 03/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 8,
@@ -12649,7 +12649,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 4
+          "stock": 8
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -17804,6 +17804,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793653056465",
+      "time": "03:57 - 03/11/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 16,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:8📦Tồnkhohiệntại:8💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793653030967",
       "time": "03:57 - 03/11/2026",
       "name": "NordVPN 3 Ngày BHF",
@@ -18891,17 +18902,6 @@
       "stockAfter": 10,
       "catKey": "zoom",
       "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793637191122",
-      "time": "23:33 - 02/11/2026",
-      "name": "VIP 1.API Gemini 4 Argon 100M–200M token 1 ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 219000,
-      "costPrice": 199000,
-      "stockAfter": 5,
-      "catKey": "google-veo",
-      "msgKey": "🚀VIP1.APIGemini4Argon100M–200Mtoken1ngàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:199.000đ"
     }
   ],
   "vidiq": {
