@@ -12917,23 +12917,23 @@
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
         "cost_price": 7000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "3 Ngày",
         "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 6,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "00:31 03/11/2026"
+            "updated": "00:39 03/11/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 7000,
-          "stock": 5
+          "stock": 6
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -17708,6 +17708,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793641186973",
+      "time": "00:39 - 03/11/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 6,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:1📦Tồnkhohiệntại:6💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1793641037296",
       "time": "00:37 - 03/11/2026",
       "name": "Surfshark VPN  Random 5-7 Ngày BHF",
@@ -18795,17 +18806,6 @@
       "stockAfter": 461,
       "catKey": "gmail",
       "msgKey": "📧GMAILCỔDATE201X-2022➕Thêm:150📦Tồnkhohiệntại:150💰Giá:39.000đ"
-    },
-    {
-      "id": "hist-1793627840492",
-      "time": "20:57 - 02/11/2026",
-      "name": "GMAIL CỔ DATE 201X- 2022",
-      "bot": "ntnshopre_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 472,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILCỔDATE201X-2022➕Thêm:150📦Tồnkhohiệntại:150💰Giá:35.000đ"
     }
   ],
   "vidiq": {
