@@ -8306,22 +8306,22 @@
         "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
         "price": 260000,
         "cost_price": 230000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "TẤT CẢ ĐỀU ĐĂNG NHẬP BẰNG EMAIL NHÉ\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 8,
+            "stock": 20,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "14:47 03/11/2026"
+            "updated": "21:58 03/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 230000,
-          "stock": 8
+          "stock": 20
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -18170,6 +18170,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793717937053",
+      "time": "21:58 - 03/11/2026",
+      "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 20,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1100-1300Credits1thángBHF➕Thêm:14📦Tồnkhohiệntại:20💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1793717859195",
       "time": "21:57 - 03/11/2026",
       "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
@@ -19257,17 +19268,6 @@
       "stockAfter": 34,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥ChatGPTPlus30D(BH20D)➕Thêm:10📦Tồnkhohiệntại:12💰Giá:190.000đ"
-    },
-    {
-      "id": "hist-1793704300033",
-      "time": "18:11 - 03/11/2026",
-      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 240000,
-      "costPrice": 210000,
-      "stockAfter": 36,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:10📦Tồnkhohiệntại:12💰Giá:210.000đ"
     }
   ],
   "vidiq": {
