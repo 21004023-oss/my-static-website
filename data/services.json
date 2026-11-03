@@ -18243,10 +18243,47 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793730530805",
+        "name": "Chung sức Liên Quân ( 3 Rương )",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 110,
+        "stock_text": "Còn 110",
+        "duration": "1 Tháng",
+        "detail": "Thanh toán đơn hàng thành công\nVui lòng gửi mã đúng để tiến hành nạp\nDone trong 1-2p\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 110,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "01:28 04/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 25000,
+          "stock": 110
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793730530805",
+      "time": "01:28 - 04/11/2026",
+      "name": "Chung sức Liên Quân ( 3 Rương )",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 110,
+      "catKey": "khac",
+      "msgKey": "ChungsứcLiênQuân(3Rương)💰Giá:25k📦Tồnkho:110tàikhoản📊Đãbán:0tàikhoản💎Môtả:Thanhto"
+    },
     {
       "id": "hist-1793730193966",
       "time": "01:23 - 04/11/2026",
@@ -19335,17 +19372,6 @@
       "stockAfter": 46,
       "catKey": "expressvpn",
       "msgKey": "🚚EXPRESSVPN1THÁNGBHF💰Giá:40k📦Tồnkho:16tàikhoản📊Đãbán:7tàikhoản✏️Vuilòngnhậpsốlượ"
-    },
-    {
-      "id": "hist-1793712122011",
-      "time": "20:22 - 03/11/2026",
-      "name": "Slot Youtube Premium 3 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 34717,
-      "catKey": "youtube",
-      "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:623💰Giá:95.000đ"
     }
   ],
   "vidiq": {
