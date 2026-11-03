@@ -17997,10 +17997,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793699666616",
+        "name": "Perplexity Pro 30 ngày BHF",
+        "price": 245000,
+        "cost_price": 215000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản cấp sẵn\nBảo hành full\nNhận tài khoản trong vòng 30 phút\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 4,
+            "cost_price": 215000,
+            "selling_price": 245000,
+            "updated": "16:54 03/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 215000,
+          "stock": 4
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793699666616",
+      "time": "16:54 - 03/11/2026",
+      "name": "Perplexity Pro 30 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 245000,
+      "costPrice": 215000,
+      "stockAfter": 4,
+      "catKey": "khac",
+      "msgKey": "❓PerplexityPro30ngàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:215.000đ"
+    },
     {
       "id": "hist-1793699619937",
       "time": "16:53 - 03/11/2026",
@@ -19089,17 +19126,6 @@
       "stockAfter": 2,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProTeam12Tháng-BHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:550.000đ"
-    },
-    {
-      "id": "hist-1793684237611",
-      "time": "12:37 - 03/11/2026",
-      "name": "Capcut Pro Team 12 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 700000,
-      "costPrice": 600000,
-      "stockAfter": 6,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProTeam12ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:600.000đ"
     }
   ],
   "vidiq": {
