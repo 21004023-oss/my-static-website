@@ -673,15 +673,25 @@
         "price": 100000,
         "cost_price": 45000,
         "duration": "1 Tháng",
-        "stock": 96,
-        "stock_text": "Còn 96",
+        "stock": 72,
+        "stock_text": "Còn 72",
         "hidden": false,
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 45000
+          "cost_price": 45000,
+          "stock": 72
         },
-        "import_note": "🛒 @ntnshopre_bot",
-        "detail": "- Định dạng: Mail | Pass | 2FA.\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho anh em seller.\n- Bảo hành full gói trong quá trình sử dụng.\n- KHÔNG bảo hành ACC vì tuỳ vào cách bảo quản của mỗi người."
+        "import_note": "Nhập: @ntnshopre_bot",
+        "detail": "- Định dạng: Mail | Pass | 2fa\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho ae seller\n- Bảo hành full gói trong quá trình sử dụng, KHÔNG bảo hành ACC vì tuỳ vào cách bảo quản của mỗi người sử dụng\n✏️",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 72,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "16:53 03/11/2026"
+          }
+        },
+        "needs_review": false
       },
       {
         "id": "yt-admin-3m",
@@ -17992,6 +18002,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793699606680",
+      "time": "16:53 - 03/11/2026",
+      "name": "ADMIN YTB PREMIUM  5 SLOT 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 72,
+      "catKey": "youtube",
+      "msgKey": "▶️ADMINYTBPREMIUM5SLOT1THÁNGBẢOHÀNHFULL💰Giá:45k📦Tồnkho:72tàikhoản📊Đãbán:40tàikho"
+    },
+    {
       "id": "hist-1793699492523",
       "time": "16:51 - 03/11/2026",
       "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
@@ -19079,17 +19100,6 @@
       "stockAfter": 9,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTTEAM6THÁNGBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:290.000đ"
-    },
-    {
-      "id": "hist-1793683969413",
-      "time": "12:32 - 03/11/2026",
-      "name": "Capcut Pro Team 6 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 390000,
-      "costPrice": 340000,
-      "stockAfter": 4,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProTeam6ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:340.000đ"
     }
   ],
   "vidiq": {
