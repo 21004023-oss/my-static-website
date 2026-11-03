@@ -10597,17 +10597,17 @@
         "id": "p-1793176775226",
         "name": "Suno Pro 1TH BH 1 ngày",
         "price": 180000,
-        "cost_price": 140000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "cost_price": 115000,
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "1 Tháng",
         "detail": "Mail | Pass | Mail khôi phục\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 10,
-            "cost_price": 160000,
-            "selling_price": 180000,
-            "updated": "11:02 03/11/2026"
+            "stock": 5,
+            "cost_price": 115000,
+            "selling_price": 135000,
+            "updated": "17:18 03/11/2026"
           },
           "piggyai99_bot": {
             "stock": 5,
@@ -10623,11 +10623,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 140000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 115000,
           "stock": 5
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -18034,6 +18034,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793701115416",
+      "time": "17:18 - 03/11/2026",
+      "name": "Suno Pro 1TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 15,
+      "catKey": "suno",
+      "msgKey": "🎵SunoPro1THBH1ngày➕Thêm:5📦Tồnkhohiệntại:5💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1793701106785",
       "time": "17:18 - 03/11/2026",
       "name": "Suno Pro 1 Tháng BH 1 ngày",
@@ -19121,17 +19132,6 @@
       "stockAfter": 5,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:3💰Giá:109.000đ"
-    },
-    {
-      "id": "hist-1793688139193",
-      "time": "13:42 - 03/11/2026",
-      "name": "Grok Plus 30 ngày BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 3,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:3💰Giá:140.000đ"
     }
   ],
   "vidiq": {
