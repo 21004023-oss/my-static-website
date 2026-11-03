@@ -10682,6 +10682,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793701559315",
+        "name": "Suno Pro 1 tháng BH 2 Ngày",
+        "price": 150000,
+        "cost_price": 130000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Mail - Pass - Mail khôi phục\nhttps://fviainboxes.com/\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 130000,
+            "selling_price": 150000,
+            "updated": "17:25 03/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 130000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -18034,6 +18060,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793701559315",
+      "time": "17:25 - 03/11/2026",
+      "name": "Suno Pro 1 tháng BH 2 Ngày",
+      "bot": "taphoathomap_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 1,
+      "catKey": "suno",
+      "msgKey": "🎵SunoPro1thángBH2Ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1793701516075",
       "time": "17:25 - 03/11/2026",
       "name": "Grok Plus 30 ngày KBH",
@@ -19121,17 +19158,6 @@
       "stockAfter": 57,
       "catKey": "cursor",
       "msgKey": "⚡Grok+CursorPremium14ngàyBH1ngày➕Thêm:34📦Tồnkhohiệntại:44💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1793688642633",
-      "time": "13:50 - 03/11/2026",
-      "name": "Link Gemini 18 Tháng ( BH 3H )",
-      "bot": "taphoathomap_bot",
-      "price": 72000,
-      "costPrice": 62000,
-      "stockAfter": 9,
-      "catKey": "google-veo",
-      "msgKey": "☁️LinkGemini18Tháng(BH3H)➕Thêm:10📦Tồnkhohiệntại:9💰Giá:62.000đ"
     }
   ],
   "vidiq": {
