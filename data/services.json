@@ -16653,8 +16653,8 @@
         "name": "PIA VPN 7 Ngày BHF",
         "price": 45000,
         "cost_price": 15000,
-        "stock": 13,
-        "stock_text": "Còn 13",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "7 Ngày",
         "detail": "Định dạng: Username|Pass\n✏️",
         "sources": {
@@ -16665,16 +16665,16 @@
             "updated": "10:47 03/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 3,
+            "stock": 10,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "02:48 03/11/2026"
+            "updated": "10:47 03/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 3
+          "stock": 10
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -17894,6 +17894,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793677638655",
+      "time": "10:47 - 03/11/2026",
+      "name": "PIA VPN 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 20,
+      "catKey": "khac",
+      "msgKey": "⭐PIAVPN7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793677632704",
       "time": "10:47 - 03/11/2026",
       "name": "PIA VPN 7 Ngày BHF",
@@ -18981,17 +18992,6 @@
       "stockAfter": 60,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF💰Giá:220k📦Tồnkho:12tàikhoản📊Đãbán:7.053tàikhoản💎M"
-    },
-    {
-      "id": "hist-1793661466874",
-      "time": "06:17 - 03/11/2026",
-      "name": "Chatgpt Plus (Apple Pay) 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 193,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:16📦Tồnkhohiệntại:145💰Giá:220.000đ"
     }
   ],
   "vidiq": {
