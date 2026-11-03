@@ -7419,8 +7419,8 @@
         "name": "Grok Super 1 ngày KBH",
         "price": 140000,
         "cost_price": 110000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Ngày",
         "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua\n✏️",
         "sources": {
@@ -7431,16 +7431,16 @@
             "updated": "13:08 02/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 2,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "09:48 03/11/2026"
+            "updated": "13:22 03/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 110000,
-          "stock": 4
+          "stock": 2
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -17926,6 +17926,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793686923666",
+      "time": "13:22 - 03/11/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 8,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:2📦Tồnkhohiệntại:2💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793686574556",
       "time": "13:16 - 03/11/2026",
       "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
@@ -19013,17 +19024,6 @@
       "stockAfter": 1026,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi1BTokenKBH💰Giá:15k📦Tồnkho:56tàikhoản📊Đãbán:1.032tàikhoản💎Môtả:IpVndùngđượ"
-    },
-    {
-      "id": "hist-1793668239143",
-      "time": "08:10 - 03/11/2026",
-      "name": "Muse Ai 1B Token KBH",
-      "bot": "sieuthistore_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 1026,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:2📦Tồnkhohiệntại:56💰Giá:15.000đ"
     }
   ],
   "vidiq": {
