@@ -18113,8 +18113,8 @@
         "name": "Perplexity Pro 30 ngày BHF",
         "price": 245000,
         "cost_price": 205000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "Tài khoản cấp sẵn\nBảo hành full\nCó sẵn 0 credit\nNhận tài khoản trong vòng 30 phút\n✏️",
         "sources": {
@@ -18125,16 +18125,16 @@
             "updated": "21:27 03/11/2026"
           },
           "piggyai99_bot": {
-            "stock": 4,
+            "stock": 5,
             "cost_price": 205000,
             "selling_price": 235000,
-            "updated": "16:54 03/11/2026"
+            "updated": "21:27 03/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 205000,
-          "stock": 4
+          "stock": 5
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -18143,6 +18143,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793716066025",
+      "time": "21:27 - 03/11/2026",
+      "name": "Perplexity Pro 30 ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 235000,
+      "costPrice": 205000,
+      "stockAfter": 10,
+      "catKey": "khac",
+      "msgKey": "❓PerplexityPro30ngàyBHF➕Thêm:1📦Tồnkhohiệntại:5💰Giá:205.000đ"
+    },
     {
       "id": "hist-1793716061134",
       "time": "21:27 - 03/11/2026",
@@ -19231,17 +19242,6 @@
       "stockAfter": 1,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:10📦Tồnkhohiệntại:1💰Giá:200.000đ"
-    },
-    {
-      "id": "hist-1793702497015",
-      "time": "17:41 - 03/11/2026",
-      "name": "Chatgpt Plus (Apple Pay) 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 49,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:10📦Tồnkhohiệntại:1💰Giá:220.000đ"
     }
   ],
   "vidiq": {
