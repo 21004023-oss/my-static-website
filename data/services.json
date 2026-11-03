@@ -15466,6 +15466,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793686462183",
+        "name": "Hotmail Trusted  - 12 tháng - KBH",
+        "price": 10100,
+        "cost_price": 100,
+        "stock": 300,
+        "stock_text": "Còn 300",
+        "duration": "1 Năm",
+        "detail": "Hàng đã qua sử dụng\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 300,
+            "cost_price": 100,
+            "selling_price": 10100,
+            "updated": "13:14 03/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 100,
+          "stock": 300
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -17900,6 +17926,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793686462183",
+      "time": "13:14 - 03/11/2026",
+      "name": "Hotmail Trusted  - 12 tháng - KBH",
+      "bot": "taphoathomap_bot",
+      "price": 10100,
+      "costPrice": 100,
+      "stockAfter": 300,
+      "catKey": "hotmail",
+      "msgKey": "⭐HotmailTrusted-12tháng-KBH➕Thêm:300📦Tồnkhohiệntại:300💰Giá:100đ"
+    },
+    {
       "id": "hist-1793686438792",
       "time": "13:13 - 03/11/2026",
       "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
@@ -18987,17 +19024,6 @@
       "stockAfter": 7,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:2📦Tồnkhohiệntại:7💰Giá:7.000đ"
-    },
-    {
-      "id": "hist-1793667981915",
-      "time": "08:06 - 03/11/2026",
-      "name": "CAPCUT PRO CÁ NHÂN 30 Ngày BHF",
-      "bot": "piggyai99_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 51,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:40.000đ"
     }
   ],
   "vidiq": {
