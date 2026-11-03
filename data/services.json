@@ -181,6 +181,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793720114579",
+        "name": "NETFLIX PREMIUM EXTRAA 30 Ngày BHF",
+        "price": 135000,
+        "cost_price": 115000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Form:Tk|MK .Tài khoản dùng riêng tư không bị xác minh hộ gia đình . Login thẳng dùng nhiều máy được không xem cùng lúc là được.Có Thể Gia Hạn Tiếp Quanh Năm.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 1,
+            "cost_price": 115000,
+            "selling_price": 135000,
+            "updated": "22:35 03/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 115000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -18170,6 +18196,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793720114579",
+      "time": "22:35 - 03/11/2026",
+      "name": "NETFLIX PREMIUM EXTRAA 30 Ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 1,
+      "catKey": "netflix",
+      "msgKey": "🎬NETFLIXPREMIUMEXTRAA30NgàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1793720108995",
       "time": "22:35 - 03/11/2026",
       "name": "Muse Ai 1B Token BH1H",
@@ -19257,17 +19294,6 @@
       "stockAfter": 46,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥ChatGPTPlus30D(BH20D)➕Thêm:6📦Tồnkhohiệntại:18💰Giá:190.000đ"
-    },
-    {
-      "id": "hist-1793705023133",
-      "time": "18:23 - 03/11/2026",
-      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 240000,
-      "costPrice": 210000,
-      "stockAfter": 40,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:6📦Tồnkhohiệntại:18💰Giá:210.000đ"
     }
   ],
   "vidiq": {
