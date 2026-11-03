@@ -7413,8 +7413,8 @@
         "name": "Grok Super 1 ngày KBH",
         "price": 140000,
         "cost_price": 110000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 11,
+        "stock_text": "Còn 11",
         "duration": "1 Ngày",
         "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua\n✏️",
         "sources": {
@@ -7425,16 +7425,16 @@
             "updated": "13:08 02/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 3,
+            "stock": 5,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "08:38 03/11/2026"
+            "updated": "08:59 03/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 110000,
-          "stock": 3
+          "stock": 5
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -17888,6 +17888,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793671167698",
+      "time": "08:59 - 03/11/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 11,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:5📦Tồnkhohiệntại:5💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793671012406",
       "time": "08:56 - 03/11/2026",
       "name": "MUSE.AI -31 TỶ TOKEN (KBH)",
@@ -18975,17 +18986,6 @@
       "stockAfter": 50,
       "catKey": "hma-vpn",
       "msgKey": "⭐KEYHMAAND/PC20-30DAYS💰Giá:15k📦Tồnkho:23tàikhoản📊Đãbán:729tàikhoản✏️Vuilòngnhậps"
-    },
-    {
-      "id": "hist-1793655775869",
-      "time": "04:42 - 03/11/2026",
-      "name": "CapCut Pro Team 3 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 175000,
-      "costPrice": 155000,
-      "stockAfter": 12,
-      "catKey": "capcut",
-      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:155.000đ"
     }
   ],
   "vidiq": {
