@@ -7203,8 +7203,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 13,
-        "stock_text": "Còn 13",
+        "stock": 22,
+        "stock_text": "Còn 22",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -7215,10 +7215,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 11,
+            "stock": 20,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "17:25 03/11/2026"
+            "updated": "17:37 03/11/2026"
           }
         },
         "hidden": false,
@@ -7227,7 +7227,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 11
+          "stock": 20
         }
       },
       {
@@ -18060,6 +18060,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793702255994",
+      "time": "17:37 - 03/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 22,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:9📦Tồnkhohiệntại:20💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793702250983",
       "time": "17:37 - 03/11/2026",
       "name": "Link Gemini 18 Tháng ( BH 3H )",
@@ -19147,17 +19158,6 @@
       "stockAfter": 14,
       "catKey": "notion",
       "msgKey": "⭐NotionPlus1năm(BHF)💰Giá:90k📦Tồnkho:7tàikhoản📊Đãbán:37tàikhoản💎Môtả:📚**NOTIONPLU"
-    },
-    {
-      "id": "hist-1793689551197",
-      "time": "14:05 - 03/11/2026",
-      "name": "Notion Plus 1 năm (BHF)",
-      "bot": "taphoathomap_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 14,
-      "catKey": "notion",
-      "msgKey": "⭐NotionPlus1năm(BHF)➕Thêm:3📦Tồnkhohiệntại:7💰Giá:90.000đ"
     }
   ],
   "vidiq": {
