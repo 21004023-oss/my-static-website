@@ -11571,9 +11571,9 @@
         "id": "p-1793442263176",
         "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
         "price": 50000,
-        "cost_price": 33000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "cost_price": 40000,
+        "stock": 13,
+        "stock_text": "Còn 13",
         "duration": "1 Tháng",
         "detail": "Ko bảo hành quá thiết bị\nThay đổi pass vs mail = KBH\n✏️",
         "sources": {
@@ -11584,18 +11584,18 @@
             "updated": "09:34 03/11/2026"
           },
           "piggyai99_bot": {
-            "stock": 2,
-            "cost_price": 33000,
-            "selling_price": 43000,
-            "updated": "04:16 01/11/2026"
+            "stock": 7,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "10:33 03/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 33000,
-          "stock": 2
+          "bot": "@taphoathomap_bot",
+          "cost_price": 40000,
+          "stock": 6
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -17894,6 +17894,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793676791575",
+      "time": "10:33 - 03/11/2026",
+      "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
+      "bot": "piggyai99_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 13,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN1thBH30D➕Thêm:6📦Tồnkhohiệntại:7💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1793676428324",
       "time": "10:27 - 03/11/2026",
       "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
@@ -18981,17 +18992,6 @@
       "stockAfter": 27,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:17📦Tồnkhohiệntại:0💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1793661150179",
-      "time": "06:12 - 03/11/2026",
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 27,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:17📦Tồnkhohiệntại:0💰Giá:65.000đ"
     }
   ],
   "vidiq": {
