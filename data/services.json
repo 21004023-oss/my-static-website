@@ -12819,16 +12819,16 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 16,
-        "stock_text": "Còn 16",
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 8,
+            "stock": 6,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "03:57 03/11/2026"
+            "updated": "20:47 03/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 8,
@@ -12841,7 +12841,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 8
+          "stock": 6
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -18138,6 +18138,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793713666900",
+      "time": "20:47 - 03/11/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 14,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793713431577",
       "time": "20:43 - 03/11/2026",
       "name": "Link Gemini 18 Tháng ( BH 3H )",
@@ -19225,17 +19236,6 @@
       "stockAfter": 8,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:8📦Tồnkhohiệntại:8💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1793701251095",
-      "time": "17:20 - 03/11/2026",
-      "name": "Grok Plus 30 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 129000,
-      "costPrice": 109000,
-      "stockAfter": 10,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:8📦Tồnkhohiệntại:8💰Giá:109.000đ"
     }
   ],
   "vidiq": {
