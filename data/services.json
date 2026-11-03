@@ -6600,22 +6600,22 @@
         "name": "Link Gemini 18 Tháng ( BH 3H )",
         "price": 80000,
         "cost_price": 62000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "Gói Link Gemini 18 Tháng ( BH 3H ) bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 20,
+            "stock": 8,
             "cost_price": 62000,
             "selling_price": 72000,
-            "updated": "17:37 03/11/2026"
+            "updated": "20:43 03/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 62000,
-          "stock": 20
+          "stock": 8
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -18138,6 +18138,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793713431577",
+      "time": "20:43 - 03/11/2026",
+      "name": "Link Gemini 18 Tháng ( BH 3H )",
+      "bot": "taphoathomap_bot",
+      "price": 72000,
+      "costPrice": 62000,
+      "stockAfter": 8,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGemini18Tháng(BH3H)➕Thêm:1📦Tồnkhohiệntại:8💰Giá:62.000đ"
+    },
+    {
       "id": "hist-1793713205018",
       "time": "20:40 - 03/11/2026",
       "name": "Gmail Cổ 2FA 2023-2025",
@@ -19225,17 +19236,6 @@
       "stockAfter": 10,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:8📦Tồnkhohiệntại:8💰Giá:109.000đ"
-    },
-    {
-      "id": "hist-1793701115416",
-      "time": "17:18 - 03/11/2026",
-      "name": "Suno Pro 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 15,
-      "catKey": "suno",
-      "msgKey": "🎵SunoPro1THBH1ngày➕Thêm:5📦Tồnkhohiệntại:5💰Giá:115.000đ"
     }
   ],
   "vidiq": {
