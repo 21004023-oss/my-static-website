@@ -14998,9 +14998,9 @@
         "id": "p-1792291938667",
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
-        "cost_price": 35000,
-        "stock": 94,
-        "stock_text": "Còn 94",
+        "cost_price": 45000,
+        "stock": 96,
+        "stock_text": "Còn 96",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.\n✏️",
         "sources": {
@@ -15011,10 +15011,10 @@
             "updated": "07:04 03/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 30,
-            "cost_price": 35000,
-            "selling_price": 45000,
-            "updated": "09:14 31/10/2026"
+            "stock": 32,
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "07:04 03/11/2026"
           },
           "piggyai99_bot": {
             "stock": 32,
@@ -15027,8 +15027,8 @@
         "needs_review": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 35000,
-          "stock": 30
+          "cost_price": 45000,
+          "stock": 32
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -17882,6 +17882,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793664272284",
+      "time": "07:04 - 03/11/2026",
+      "name": "Apple ID 2FA Gmail",
+      "bot": "taphoathomap_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 96,
+      "catKey": "gmail",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:31📦Tồnkhohiệntại:32💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793664246067",
       "time": "07:04 - 03/11/2026",
       "name": "Apple ID 2FA Gmail",
@@ -18969,17 +18980,6 @@
       "stockAfter": 0,
       "catKey": "grok",
       "msgKey": "⚡Grok+CusorPremium14-24DBH3D➕Thêm:7📦Tồnkhohiệntại:0💰Giá:120.000đ"
-    },
-    {
-      "id": "hist-1793646901216",
-      "time": "02:15 - 03/11/2026",
-      "name": "GROK  PREMIUM 4X  14D BH 3D",
-      "bot": "piggyai99_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 4,
-      "catKey": "grok",
-      "msgKey": "⚡GROKPREMIUM4X14DBH3D➕Thêm:7📦Tồnkhohiệntại:0💰Giá:160.000đ"
     }
   ],
   "vidiq": {
