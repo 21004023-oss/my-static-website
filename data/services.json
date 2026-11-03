@@ -8290,22 +8290,22 @@
         "name": "Kling Standard 1100-1300 Credit 1 Tháng BH 1 ngày",
         "price": 180000,
         "cost_price": 160000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1100-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 3,
             "cost_price": 160000,
             "selling_price": 180000,
-            "updated": "07:38 03/11/2026"
+            "updated": "08:04 03/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 160000,
-          "stock": 2
+          "stock": 3
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -17888,6 +17888,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793667853317",
+      "time": "08:04 - 03/11/2026",
+      "name": "Kling Standard 1100-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 180000,
+      "costPrice": 160000,
+      "stockAfter": 3,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1100-1300Credit1ThángBH1ngày➕Thêm:1📦Tồnkhohiệntại:3💰Giá:160.000đ"
+    },
+    {
       "id": "hist-1793667847796",
       "time": "08:04 - 03/11/2026",
       "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
@@ -18975,17 +18986,6 @@
       "stockAfter": 5,
       "catKey": "heygen",
       "msgKey": "🎥HEYGENCREATOR1THÁNG(BH3ngày)➕Thêm:1📦Tồnkhohiệntại:0💰Giá:410.000đ"
-    },
-    {
-      "id": "hist-1793651539378",
-      "time": "03:32 - 03/11/2026",
-      "name": "Express VPN 1 Năm BH 1 tháng",
-      "bot": "taphoathomap_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 5,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN1NămBH1tháng➕Thêm:6📦Tồnkhohiệntại:5💰Giá:130.000đ"
     }
   ],
   "vidiq": {
