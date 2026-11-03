@@ -13958,6 +13958,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 125000
         }
+      },
+      {
+        "id": "p-1793725032300",
+        "name": "Coursera Premium cấp sẵn 12 tháng BH  24H",
+        "price": 90000,
+        "cost_price": 80000,
+        "stock": 29,
+        "stock_text": "Còn 29",
+        "duration": "1 Năm",
+        "detail": "Tài Khoản Coursera Premium 12 tháng Bảo hành 24 giờ\n• Truy cập cao cấp Org+\n• Tất cả các khóa học & chứng chỉ\n• email | Mật khẩu | 2FA\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 29,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "23:57 03/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 80000,
+          "stock": 29
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -18196,6 +18222,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793725032300",
+      "time": "23:57 - 03/11/2026",
+      "name": "Coursera Premium cấp sẵn 12 tháng BH  24H",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 29,
+      "catKey": "coursera",
+      "msgKey": "⭐CourseraPremiumcấpsẵn12thángBH24H➕Thêm:29📦Tồnkhohiệntại:29💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1793724862078",
       "time": "23:54 - 03/11/2026",
       "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
@@ -19283,17 +19320,6 @@
       "stockAfter": 10,
       "catKey": "capcut",
       "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:155.000đ"
-    },
-    {
-      "id": "hist-1793708194533",
-      "time": "19:16 - 03/11/2026",
-      "name": "CapCut Pro 3 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 205000,
-      "costPrice": 185000,
-      "stockAfter": 16,
-      "catKey": "capcut",
-      "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:185.000đ"
     }
   ],
   "vidiq": {
