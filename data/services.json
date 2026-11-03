@@ -8160,13 +8160,13 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 118,
+        "stock_text": "Còn 118",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 15,
+            "stock": 118,
             "cost_price": 150000,
             "selling_price": 170000,
             "updated": "07:34 03/11/2026"
@@ -8175,7 +8175,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 15
+          "stock": 118
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -17888,6 +17888,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793666071797",
+      "time": "07:34 - 03/11/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 118,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:39📦Tồnkhohiệntại:118💰Giá:150.000"
+    },
+    {
       "id": "hist-1793666065944",
       "time": "07:34 - 03/11/2026",
       "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
@@ -18975,17 +18986,6 @@
       "stockAfter": 1,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1200credit1THBH1ngày💰Giá:140k📦Tồnkho:1tàikhoản📊Đãbán:22tàikhoản✏️V"
-    },
-    {
-      "id": "hist-1793648903906",
-      "time": "02:48 - 03/11/2026",
-      "name": "PIA VPN 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 6,
-      "catKey": "khac",
-      "msgKey": "⭐PIAVPN7NgàyBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:15.000đ"
     }
   ],
   "vidiq": {
