@@ -17590,16 +17590,16 @@
         "name": "TV360 Standard 3 tháng BHF",
         "price": 100000,
         "cost_price": 80000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "3 Tháng",
         "detail": "TV360 Standard xem C1, WC, VTV, VTVCab, phim bộ, phim độc quyền\nĐăng nhập và sử dụng trên 1 thiết bị\nBảo hành toàn thời gian\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 3,
+            "stock": 2,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "23:37 29/10/2026"
+            "updated": "12:07 04/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 2,
@@ -17611,7 +17611,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 80000,
-          "stock": 3
+          "stock": 2
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -18364,6 +18364,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793768838847",
+      "time": "12:07 - 04/11/2026",
+      "name": "TV360 Standard 3 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 4,
+      "catKey": "khac",
+      "msgKey": "⭐TV360Standard3thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:80.000đ"
+    },
     {
       "id": "hist-1793768833704",
       "time": "12:07 - 04/11/2026",
@@ -19452,17 +19463,6 @@
       "stockAfter": 6,
       "catKey": "jetbrains",
       "msgKey": "⭐JetBrainEdu1năm(BHF)➕Thêm:3📦Tồnkhohiệntại:3💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1793747100876",
-      "time": "06:05 - 04/11/2026",
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 14,
-      "catKey": "figma",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)💰Giá:110k📦Tồnkho:7tàikhoản📊Đãbán:161tàikhoản💎Môtả:🎨**FIGMAP"
     }
   ],
   "vidiq": {
