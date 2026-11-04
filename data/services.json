@@ -7616,16 +7616,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 18,
-        "stock_text": "Còn 18",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 18,
+            "stock": 16,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "22:10 04/11/2026"
+            "updated": "23:10 04/11/2026"
           }
         },
         "hidden": false,
@@ -7633,7 +7633,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 18
+          "stock": 16
         },
         "needs_review": false
       },
@@ -18836,6 +18836,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793808632204",
+      "time": "23:10 - 04/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 16,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:16💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793808127912",
       "time": "23:02 - 04/11/2026",
       "name": "Seedance 2.5 22k8 credit 1th BH 30D",
@@ -19923,17 +19934,6 @@
       "stockAfter": 19,
       "catKey": "wink",
       "msgKey": "⭐WinkVip30DBHF➕Thêm:8📦Tồnkhohiệntại:9💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1793795586569",
-      "time": "19:33 - 04/11/2026",
-      "name": "Wink Vip 3 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 280000,
-      "costPrice": 250000,
-      "stockAfter": 5,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVip3ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:250.000đ"
     }
   ],
   "vidiq": {
