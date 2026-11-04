@@ -14094,6 +14094,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 150000
         }
+      },
+      {
+        "id": "p-1793806077832",
+        "name": "KASPERSKY PLUS + VPN 1 NĂM (BH 300 ngày)",
+        "price": 135000,
+        "cost_price": 115000,
+        "stock": 15,
+        "stock_text": "Còn 15",
+        "duration": "1 Năm",
+        "detail": "Định dạng Key:XXXXX-XXXXX-XXXXX-XXXX\nBảo hành 300 ngày\nĐối với khách Global: Cần kết nối VPN Fake ip/Proxy sang Việt Nam để kích hoạt lần đầu tiên.\nSau khi kích hoạt thành công, các lần sử dụng sau không cần dùng VPN Fake ip.\nThời hạn sử dụng:⏳ 01 năm (có thể trôi hạn vài tuần tùy thời điểm kích hoạt của nhà cung cấp).\nSố lượng thiết bị:💻 01 PC Windows\nkaspersky.com.vn/downloads/plus\nLưu ý: Khi tải Kaspersky Plus, thì VPN  sẽ được cài kèm theo phiên bản Plus.\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 15,
+            "cost_price": 115000,
+            "selling_price": 135000,
+            "updated": "22:27 04/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 115000,
+          "stock": 15
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -18778,6 +18804,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793806077832",
+      "time": "22:27 - 04/11/2026",
+      "name": "KASPERSKY PLUS + VPN 1 NĂM (BH 300 ngày)",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 15,
+      "catKey": "kaspersky",
+      "msgKey": "⭐KASPERSKYPLUS+VPN1NĂM(BH300ngày)➕Thêm:15📦Tồnkhohiệntại:15💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1793805945752",
       "time": "22:25 - 04/11/2026",
       "name": "🔥VIP . Chatgpt Plus Apple 1 tháng BHF",
@@ -19865,17 +19902,6 @@
       "stockAfter": 95,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:50📦Tồnkhohiệntại:52💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1793794552008",
-      "time": "19:15 - 04/11/2026",
-      "name": "ADMIN CANVA PRO NONPROFIT 50 SLOT 1 NĂM BHF",
-      "bot": "ntnshopre_bot",
-      "price": 2650000,
-      "costPrice": 2300000,
-      "stockAfter": 14,
-      "catKey": "canva",
-      "msgKey": "🎨ADMINCANVAPRONONPROFIT50SLOT1NĂMBHF💰Giá:2300k📦Tồnkho:14tàikhoản📊Đãbán:1tàikhoản"
     }
   ],
   "vidiq": {
