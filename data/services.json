@@ -7559,8 +7559,8 @@
         "name": "Grok Super 1 ngày KBH",
         "price": 140000,
         "cost_price": 110000,
-        "stock": 17,
-        "stock_text": "Còn 17",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Ngày",
         "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua\n✏️",
         "sources": {
@@ -7571,16 +7571,16 @@
             "updated": "13:08 02/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 11,
+            "stock": 10,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "12:43 04/11/2026"
+            "updated": "14:11 04/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 110000,
-          "stock": 11
+          "stock": 10
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -18417,6 +18417,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793776271699",
+      "time": "14:11 - 04/11/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 16,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:1📦Tồnkhohiệntại:10💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793775891036",
       "time": "14:04 - 04/11/2026",
       "name": "Gmail (New) 2FA-Login All",
@@ -19504,17 +19515,6 @@
       "stockAfter": 3,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1k2Crd30D(KBH)➕Thêm:2📦Tồnkhohiệntại:3💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1793756461849",
-      "time": "08:41 - 04/11/2026",
-      "name": "ChatGPT (Apple Pay) 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 14,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPT(ApplePay)1ThángBH1Ngày➕Thêm:10📦Tồnkhohiệntại:14💰Giá:180.000đ"
     }
   ],
   "vidiq": {
