@@ -7265,6 +7265,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793794581813",
+        "name": "API Deepseek 30$ 1 tháng BHF",
+        "price": 95000,
+        "cost_price": 85000,
+        "stock": 159,
+        "stock_text": "Còn 159",
+        "duration": "1 Tháng",
+        "detail": "Gói API Deepseek 30$ 1 tháng BHF bảo hành uy tín.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 159,
+            "cost_price": 85000,
+            "selling_price": 95000,
+            "updated": "19:16 04/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 85000,
+          "stock": 159
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -18590,6 +18616,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793794581813",
+      "time": "19:16 - 04/11/2026",
+      "name": "API Deepseek 30$ 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 159,
+      "catKey": "deepseek",
+      "msgKey": "⭐APIDeepseek30$1thángBHF➕Thêm:100📦Tồnkhohiệntại:159💰Giá:85.000đ"
+    },
+    {
       "id": "hist-1793794577286",
       "time": "19:16 - 04/11/2026",
       "name": "API Deepseek 100$ 1 tháng BHF",
@@ -19677,17 +19714,6 @@
       "stockAfter": 38,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:19💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1793774678502",
-      "time": "13:44 - 04/11/2026",
-      "name": "Gmail (New) -Login All",
-      "bot": "taphoathomap_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 171,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)-LoginAll💰Giá:25k📦Tồnkho:57tàikhoản📊Đãbán:13.575tàikhoản💎Môtả:GMAILNe"
     }
   ],
   "vidiq": {
