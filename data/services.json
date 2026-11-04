@@ -77,16 +77,16 @@
         "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
         "price": 85000,
         "cost_price": 55000,
-        "stock": 69,
-        "stock_text": "Còn 69",
+        "stock": 105,
+        "stock_text": "Còn 105",
         "duration": "1 Tháng",
         "detail": "✅Netflix 4K Premium bảo hành full 1 tháng sử dụng.\n✅Có web riêng lấy code, xác minh hộ gia đình v.v...\n✅Định dạng mail|pass|Profile riêng, mã pin riêng\n---Lưu ý: Sau khi nhập mail xong chọn mục NHẬN TRỢ GIÚP để nhập pass\n✅ Bảo hành full trong suốt thời gian sử dụng\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 34,
+            "stock": 70,
             "cost_price": 55000,
             "selling_price": 65000,
-            "updated": "01:37 03/11/2026"
+            "updated": "11:34 04/11/2026"
           },
           "piggyai99_bot": {
             "stock": 35,
@@ -101,7 +101,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 55000,
-          "stock": 34
+          "stock": 70
         }
       },
       {
@@ -18359,6 +18359,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793766859321",
+      "time": "11:34 - 04/11/2026",
+      "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
+      "bot": "taphoathomap_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 105,
+      "catKey": "netflix",
+      "msgKey": "🎬[Slot]Netflix4KPremium1thángBảohànhfull➕Thêm:70📦Tồnkhohiệntại:70💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793766731236",
       "time": "11:32 - 04/11/2026",
       "name": "MUSE.AI -1 TỶ TOKEN (KBH)",
@@ -19446,17 +19457,6 @@
       "stockAfter": 7,
       "catKey": "figma",
       "msgKey": "⭐FigmaProEducation1nămBHF💰Giá:180k📦Tồnkho:7tàikhoản📊Đãbán:161tàikhoản💎Môtả:🎨**FI"
-    },
-    {
-      "id": "hist-1793745093705",
-      "time": "05:31 - 04/11/2026",
-      "name": "Figma Pro Education 1 năm BHF",
-      "bot": "sieuthistore_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 7,
-      "catKey": "figma",
-      "msgKey": "⭐FigmaProEducation1nămBHF➕Thêm:3📦Tồnkhohiệntại:7💰Giá:180.000đ"
     }
   ],
   "vidiq": {
