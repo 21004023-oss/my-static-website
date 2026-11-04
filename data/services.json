@@ -18386,10 +18386,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793770426537",
+        "name": "Tài Khoản X Cổ 2009-2024 US Trâu Bò-BH24H",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 20,
+        "stock_text": "Còn 20",
+        "duration": "1 Tháng",
+        "detail": "Đây là tài khoản X cổ US Trâu bò, các bạn muốn dùng tài khoản cho mục đích gì phù hợp có thể mua trước 1 vài acc để test\nĐổi thông tin coi như hết bảo hành.\nĐịnh dạng tài khoản login user | pass | 2fa\nBảo hành 24h kể từ khi mua ,login vào hết bảo hành,\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 20,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "12:33 04/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 35000,
+          "stock": 20
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793770426537",
+      "time": "12:33 - 04/11/2026",
+      "name": "Tài Khoản X Cổ 2009-2024 US Trâu Bò-BH24H",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 20,
+      "catKey": "khac",
+      "msgKey": "⭐TàiKhoảnXCổ2009-2024USTrâuBò-BH24H➕Thêm:16📦Tồnkhohiệntại:20💰Giá:35.000đ"
+    },
     {
       "id": "hist-1793770071226",
       "time": "12:27 - 04/11/2026",
@@ -19478,17 +19515,6 @@
       "stockAfter": 7,
       "catKey": "figma",
       "msgKey": "⭐FigmaProEducation1nămBHF💰Giá:180k📦Tồnkho:7tàikhoản📊Đãbán:161tàikhoản💎Môtả:🎨**FI"
-    },
-    {
-      "id": "hist-1793747146347",
-      "time": "06:05 - 04/11/2026",
-      "name": "Figma Pro Education 1 năm BHF",
-      "bot": "sieuthistore_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 7,
-      "catKey": "figma",
-      "msgKey": "⭐FigmaProEducation1nămBHF➕Thêm:3📦Tồnkhohiệntại:7💰Giá:180.000đ"
     }
   ],
   "vidiq": {
