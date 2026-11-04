@@ -7559,8 +7559,8 @@
         "name": "Grok Super 1 ngày KBH",
         "price": 140000,
         "cost_price": 110000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Ngày",
         "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua\n✏️",
         "sources": {
@@ -7571,16 +7571,16 @@
             "updated": "13:08 02/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 6,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "07:25 04/11/2026"
+            "updated": "08:31 04/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 110000,
-          "stock": 5
+          "stock": 6
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -18300,6 +18300,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793755881116",
+      "time": "08:31 - 04/11/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 12,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:1📦Tồnkhohiệntại:6💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793755494819",
       "time": "08:24 - 04/11/2026",
       "name": "ADMIN CANVA PRO NONPROFIT 50 SLOT 1 NĂM BHF",
@@ -19387,17 +19398,6 @@
       "stockAfter": 6,
       "catKey": "zoom",
       "msgKey": "⭐AcccấpZoomPro28NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793720386082",
-      "time": "22:39 - 03/11/2026",
-      "name": "⚡️ Grok Plus 30 ngày -  BH 7 Ngày",
-      "bot": "taphoathomap_bot",
-      "price": 136000,
-      "costPrice": 116000,
-      "stockAfter": 11,
-      "catKey": "grok",
-      "msgKey": "⚡⚡️GrokPlus30ngày-BH7Ngày➕Thêm:10📦Tồnkhohiệntại:11💰Giá:116.000đ"
     }
   ],
   "vidiq": {
