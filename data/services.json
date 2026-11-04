@@ -7339,16 +7339,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 36,
+        "stock_text": "Còn 36",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 10,
+            "stock": 36,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "12:43 04/11/2026"
+            "updated": "14:45 04/11/2026"
           }
         },
         "hidden": false,
@@ -7356,7 +7356,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 10
+          "stock": 36
         },
         "needs_review": false
       },
@@ -18417,6 +18417,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793778348568",
+      "time": "14:45 - 04/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 36,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:30📦Tồnkhohiệntại:36💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793778344284",
       "time": "14:45 - 04/11/2026",
       "name": "Grok Plus 30 ngày KBH",
@@ -19504,17 +19515,6 @@
       "stockAfter": 10,
       "catKey": "zoom",
       "msgKey": "⭐ZoomPro14NgàyBHF💰Giá:30k📦Tồnkho:5tàikhoản📊Đãbán:253tàikhoản💎Môtả:Tàikhoảncấpsẵn"
-    },
-    {
-      "id": "hist-1793758932012",
-      "time": "09:22 - 04/11/2026",
-      "name": "Zoom Pro 14 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 10,
-      "catKey": "zoom",
-      "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:3📦Tồnkhohiệntại:5💰Giá:30.000đ"
     }
   ],
   "vidiq": {
