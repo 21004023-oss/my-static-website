@@ -2118,16 +2118,16 @@
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
         "price": 1600000,
-        "stock": 95,
-        "stock_text": "Còn 95",
+        "stock": 105,
+        "stock_text": "Còn 105",
         "duration": "1 Tháng",
         "detail": "- ChatGPT Plus 1 tháng BHF\n- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 52,
+            "stock": 62,
             "cost_price": 160000,
             "selling_price": 180000,
-            "updated": "19:16 04/11/2026"
+            "updated": "21:48 04/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 1,
@@ -2155,7 +2155,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 160000,
-          "stock": 52
+          "stock": 62
         }
       },
       {
@@ -18752,6 +18752,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793803680898",
+      "time": "21:48 - 04/11/2026",
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "price": 180000,
+      "costPrice": 160000,
+      "stockAfter": 105,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:50📦Tồnkhohiệntại:62💰Giá:160.000đ"
+    },
+    {
       "id": "hist-1793803664762",
       "time": "21:47 - 04/11/2026",
       "name": "🔥 Chat GPT Plus 30D ( BH 20D )",
@@ -19839,17 +19850,6 @@
       "stockAfter": 1,
       "catKey": "suno",
       "msgKey": "🎵SunoPro1thángBH2Ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1793784472455",
-      "time": "16:27 - 04/11/2026",
-      "name": "API Claude 500$ 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 860000,
-      "costPrice": 760000,
-      "stockAfter": 113,
-      "catKey": "claude",
-      "msgKey": "🧠APIClaude500$1thángBHF➕Thêm:100📦Tồnkhohiệntại:113💰Giá:760.000đ"
     }
   ],
   "vidiq": {
