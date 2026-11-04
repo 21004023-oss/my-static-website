@@ -17641,8 +17641,8 @@
         "name": "PureVPN 7 Ngày BHF",
         "price": 45000,
         "cost_price": 15000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "7 Ngày",
         "detail": "Tài khoản PureVPN 7 Ngày gói Max BHF\nĐịnh dạng: Email|Pass\n✏️",
         "sources": {
@@ -17653,16 +17653,16 @@
             "updated": "00:48 05/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 10,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "02:57 03/11/2026"
+            "updated": "00:48 05/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 5
+          "stock": 10
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -18836,6 +18836,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793814522916",
+      "time": "00:48 - 05/11/2026",
+      "name": "PureVPN 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 20,
+      "catKey": "khac",
+      "msgKey": "⭐PureVPN7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793814516585",
       "time": "00:48 - 05/11/2026",
       "name": "PureVPN 7 Ngày BHF",
@@ -19923,17 +19934,6 @@
       "stockAfter": 9,
       "catKey": "claude",
       "msgKey": "🧠VIP1.API40MTokenClaude1Ngày-BHF💰Giá:70k📦Tồnkho:9tàikhoản📊Đãbán:230tàikhoản💎Môtả"
-    },
-    {
-      "id": "hist-1793797686095",
-      "time": "20:08 - 04/11/2026",
-      "name": "API Deepseek 10$ 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 257,
-      "catKey": "deepseek",
-      "msgKey": "⭐APIDeepseek10$1thángBHF💰Giá:65k📦Tồnkho:50tàikhoản📊Đãbán:163tàikhoản💎Môtả:APIDee"
     }
   ],
   "vidiq": {
