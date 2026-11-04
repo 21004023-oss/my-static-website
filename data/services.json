@@ -218,16 +218,16 @@
         "id": "p-1792094916011",
         "name": "Tài khoản VieON VIP 3 Tháng BHF",
         "price": 140000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "3 Tháng",
-        "detail": "Tài khoản đăng nhập 2 thiết bị và xem 1 thiết bị đồng thời\nXem tất cả phim VIP và phim PRO\nKhông đảm bảo sẽ xem được một số kênh truyền hình nước ngoài\nBảo hành toàn thời gian trường hợp không xem được phim, sai mật khẩu, quá thiết bị.\n✏️",
+        "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
-            "cost_price": 120000,
-            "selling_price": 140000,
-            "updated": "15:08 04/11/2026"
+            "stock": 1,
+            "cost_price": 90000,
+            "selling_price": 100000,
+            "updated": "22:20 04/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 2,
@@ -18778,6 +18778,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793805603230",
+      "time": "22:20 - 04/11/2026",
+      "name": "Tài khoản VieON VIP 3 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 3,
+      "catKey": "vieon",
+      "msgKey": "⭐TàikhoảnVieONVIP3ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1793805041072",
       "time": "22:10 - 04/11/2026",
       "name": "Grok Plus 30 ngày KBH",
@@ -19865,17 +19876,6 @@
       "stockAfter": 209,
       "catKey": "deepseek",
       "msgKey": "⭐APIDeepseek10$1thángBHF➕Thêm:100📦Tồnkhohiệntại:209💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793794525441",
-      "time": "19:15 - 04/11/2026",
-      "name": "[CDK] Thuê Số OTP Codex/GPT 30D BH 24H",
-      "bot": "piggyai99_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 152,
-      "catKey": "chatgpt",
-      "msgKey": "🤖[CDK]ThuêSốOTPCodex/GPT30DBH24H➕Thêm:2📦Tồnkhohiệntại:152💰Giá:10.000đ"
     }
   ],
   "vidiq": {
