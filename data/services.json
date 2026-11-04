@@ -18282,8 +18282,8 @@
         "name": "Perplexity Pro 30 ngày BHF",
         "price": 245000,
         "cost_price": 205000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "Tài khoản cấp sẵn\nBảo hành full\nCó sẵn 0 credit\nNhận tài khoản trong vòng 30 phút\n✏️",
         "sources": {
@@ -18294,16 +18294,16 @@
             "updated": "21:27 03/11/2026"
           },
           "piggyai99_bot": {
-            "stock": 5,
+            "stock": 3,
             "cost_price": 205000,
             "selling_price": 235000,
-            "updated": "21:27 03/11/2026"
+            "updated": "12:08 04/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 205000,
-          "stock": 5
+          "stock": 3
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -18364,6 +18364,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793768898752",
+      "time": "12:08 - 04/11/2026",
+      "name": "Perplexity Pro 30 ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 235000,
+      "costPrice": 205000,
+      "stockAfter": 8,
+      "catKey": "khac",
+      "msgKey": "❓PerplexityPro30ngàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:205.000đ"
+    },
     {
       "id": "hist-1793768838847",
       "time": "12:07 - 04/11/2026",
@@ -19452,17 +19463,6 @@
       "stockAfter": 6,
       "catKey": "jetbrains",
       "msgKey": "⭐JetBrainEdu1năm(BHF)💰Giá:70k📦Tồnkho:3tàikhoản📊Đãbán:50tàikhoản💎Môtả:💻JETBRAINSE"
-    },
-    {
-      "id": "hist-1793747104917",
-      "time": "06:05 - 04/11/2026",
-      "name": "JetBrain Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 6,
-      "catKey": "jetbrains",
-      "msgKey": "⭐JetBrainEdu1năm(BHF)➕Thêm:3📦Tồnkhohiệntại:3💰Giá:70.000đ"
     }
   ],
   "vidiq": {
