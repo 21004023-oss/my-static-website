@@ -5482,6 +5482,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793784440260",
+        "name": "API Claude 10$ 1 tháng BHF",
+        "price": 85000,
+        "cost_price": 75000,
+        "stock": 141,
+        "stock_text": "Còn 141",
+        "duration": "1 Tháng",
+        "detail": "API Claude — nổi bật với Claude Opus 5.5, cùng Opus 5, Opus 4.8/4.7/4.6, Opus 4.7 Max/4.6 Max, Sonnet 5/4.6, Fable 5.1/5 và Haiku 4.5.\nNgoài Claude, gói còn hỗ trợ GPT-6 Astra/Sol, GPT-5.6 Sol/Terra, GPT-5.5, Codex Auto Review, GPT Image 2/2.5 Sunburst/2.5 Flare, DeepSeek V4.1 Flash, Qwen 3.8 Flash và GLM 5.3 Flash. Một gói, linh hoạt lựa chọn model theo nhu cầu!\n🔑 Cách kích hoạt:\n1️⃣ Truy cập vibi.top, đăng ký hoặc đăng nhập.\n2️⃣ Nhấn vào ví → nhập mã đổi thưởng.\n3️⃣ Vào mục Khóa API → tạo khóa.\n📖 Hướng dẫn sử dụng: https://vibi.top/docs-setup/vi\nVIDEO HƯỚNG DẪN: https://docs.google.com/document/d/1N6REuLBxiXP6VvDVPLiSt6C40PXULDLXGkDP0I7PGUs/edit?usp=sharing\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 141,
+            "cost_price": 75000,
+            "selling_price": 85000,
+            "updated": "16:27 04/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 75000,
+          "stock": 141
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -18417,6 +18443,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793784440260",
+      "time": "16:27 - 04/11/2026",
+      "name": "API Claude 10$ 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 85000,
+      "costPrice": 75000,
+      "stockAfter": 141,
+      "catKey": "claude",
+      "msgKey": "🧠APIClaude10$1thángBHF➕Thêm:100📦Tồnkhohiệntại:141💰Giá:75.000đ"
+    },
+    {
       "id": "hist-1793783746503",
       "time": "16:15 - 04/11/2026",
       "name": "Figma Pro Edu 1 năm (BHF)",
@@ -19504,17 +19541,6 @@
       "stockAfter": 9,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:9📦Tồnkhohiệntại:9💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1793769190562",
-      "time": "12:13 - 04/11/2026",
-      "name": "ChatGPT Plus 1 Tháng (Codex Full ) BHF",
-      "bot": "sieuthistore_bot",
-      "price": 260000,
-      "costPrice": 230000,
-      "stockAfter": 14,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1Tháng(CodexFull)BHF➕Thêm:5📦Tồnkhohiệntại:14💰Giá:230.000đ"
     }
   ],
   "vidiq": {
