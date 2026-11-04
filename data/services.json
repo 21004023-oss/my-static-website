@@ -12113,16 +12113,16 @@
         "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
         "price": 50000,
         "cost_price": 40000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "Ko bảo hành quá thiết bị\nThay đổi pass vs mail = KBH\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 3,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "19:32 04/11/2026"
+            "updated": "21:00 04/11/2026"
           },
           "piggyai99_bot": {
             "stock": 2,
@@ -12134,7 +12134,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 40000,
-          "stock": 2
+          "stock": 3
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -18726,6 +18726,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793800840673",
+      "time": "21:00 - 04/11/2026",
+      "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 5,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN1thBH30D➕Thêm:3📦Tồnkhohiệntại:3💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1793800352098",
       "time": "20:52 - 04/11/2026",
       "name": "Grammarly AI Pro 1 Tháng BHF",
@@ -19813,17 +19824,6 @@
       "stockAfter": 32,
       "catKey": "microsoft",
       "msgKey": "⭐Microsoft365cánhân1NămBH3tháng➕Thêm:10📦Tồnkhohiệntại:13💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1793781593817",
-      "time": "15:39 - 04/11/2026",
-      "name": "Link Duolingo 1 năm KBH",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 5,
-      "catKey": "duolingo",
-      "msgKey": "⭐LinkDuolingo1nămKBH➕Thêm:5📦Tồnkhohiệntại:5💰Giá:45.000đ"
     }
   ],
   "vidiq": {
