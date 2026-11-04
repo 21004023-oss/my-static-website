@@ -7747,6 +7747,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793785929129",
+        "name": "GROK UTRAL 1 THÁNG (KBH)",
+        "price": 1900000,
+        "cost_price": 1700000,
+        "stock": 25,
+        "stock_text": "Còn 25",
+        "duration": "1 Tháng",
+        "detail": "🛡️ **CURSOR + GROK SUPER | COMBO 2 IN 1** 🔥 **Gói In-App iOS chất lượng cao**, độ ổn định tốt, phần lớn khách hàng có thể sử dụng trọn vẹn 30 ngày. 📦 **Thời gian xử lý:** 1–2 giờ.\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 25,
+            "cost_price": 1700000,
+            "selling_price": 1900000,
+            "updated": "16:52 04/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 1700000,
+          "stock": 25
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -18495,6 +18521,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793785929129",
+      "time": "16:52 - 04/11/2026",
+      "name": "GROK UTRAL 1 THÁNG (KBH)",
+      "bot": "taphoathomap_bot",
+      "price": 1900000,
+      "costPrice": 1700000,
+      "stockAfter": 25,
+      "catKey": "grok",
+      "msgKey": "⚡GROKUTRAL1THÁNG(KBH)➕Thêm:25📦Tồnkhohiệntại:25💰Giá:1.700.000đ"
+    },
+    {
       "id": "hist-1793785796032",
       "time": "16:49 - 04/11/2026",
       "name": "VIP 3.100M Credit API Claude 1 tháng - BHF",
@@ -19582,17 +19619,6 @@
       "stockAfter": 12,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:10💰Giá:109.000đ"
-    },
-    {
-      "id": "hist-1793771034567",
-      "time": "12:43 - 04/11/2026",
-      "name": "Grok Plus 30 ngày BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 10,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:10💰Giá:140.000đ"
     }
   ],
   "vidiq": {
