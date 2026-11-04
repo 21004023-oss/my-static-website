@@ -218,8 +218,8 @@
         "id": "p-1792094916011",
         "name": "Tài khoản VieON VIP 3 Tháng BHF",
         "price": 140000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "3 Tháng",
         "detail": "Tài khoản đăng nhập 2 thiết bị và xem 1 thiết bị đồng thời\nXem tất cả phim VIP và phim PRO\nKhông đảm bảo sẽ xem được một số kênh truyền hình nước ngoài\nBảo hành toàn thời gian trường hợp không xem được phim, sai mật khẩu, quá thiết bị.\n✏️",
         "sources": {
@@ -230,10 +230,10 @@
             "updated": "15:08 04/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 70000,
             "selling_price": 80000,
-            "updated": "00:54 02/11/2026"
+            "updated": "15:08 04/11/2026"
           }
         },
         "hidden": false,
@@ -242,7 +242,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 70000,
-          "stock": 1
+          "stock": 2
         },
         "needs_review": false
       },
@@ -18417,6 +18417,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793779724843",
+      "time": "15:08 - 04/11/2026",
+      "name": "Tài khoản VieON VIP PRO 3 tháng bhf",
+      "bot": "taphoathomap_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 4,
+      "catKey": "vieon",
+      "msgKey": "⭐TàikhoảnVieONVIPPRO3thángbhf➕Thêm:2📦Tồnkhohiệntại:2💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793779720094",
       "time": "15:08 - 04/11/2026",
       "name": "Tài khoản VieON VIP Pro 3 tháng BHF",
@@ -19504,17 +19515,6 @@
       "stockAfter": 6,
       "catKey": "khac",
       "msgKey": "⭐PitpitAI8k6cre1THBH3ngày💰Giá:750k📦Tồnkho:3tàikhoản📊Đãbán:10tàikhoản💎Môtả:Sửdụng"
-    },
-    {
-      "id": "hist-1793760820612",
-      "time": "09:53 - 04/11/2026",
-      "name": "Pitpit AI 8k6 cre 1TH BH 3 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 850000,
-      "costPrice": 750000,
-      "stockAfter": 6,
-      "catKey": "khac",
-      "msgKey": "⭐PitpitAI8k6cre1THBH3ngày➕Thêm:1📦Tồnkhohiệntại:3💰Giá:750.000đ"
     }
   ],
   "vidiq": {
