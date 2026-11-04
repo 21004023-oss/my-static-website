@@ -15364,17 +15364,17 @@
         "id": "p-1792402722954",
         "name": "Gmail (New) -Login phone",
         "price": 43000,
-        "cost_price": 15000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "cost_price": 33000,
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
-        "detail": "Bảo hành login 24H- Login thành công là hết BH\nGmail Login bằng Điện thoại ( Ngâm 1 thời gian có thể login đc pc bình thường )\n-Cách lượt quét QR : Đăng nhập bằng ứng dụng gmail sẽ hạ chế quét QR.\n- Định dạng : Gmail | Pass | mail khôi phục",
+        "detail": "Bảo hành login 24H- Login thành công là hết BH\nGmail Login bằng Điện thoại ( Ngâm 1 thời gian có thể login đc pc bình thường )\n-Cách lượt quét QR : Đăng nhập bằng ứng dụng gmail sẽ hạ chế quét QR.\n- Định dạng : Gmail | Pass | mail khôi phục\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 20,
             "cost_price": 33000,
             "selling_price": 43000,
-            "updated": "06:34 20/10/2026"
+            "updated": "11:14 04/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -15383,13 +15383,14 @@
             "updated": "06:35 20/10/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "bot": "@sieuthistore_bot",
+          "cost_price": 33000,
+          "stock": 20
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @sieuthistore_bot"
       },
       {
         "id": "p-1792404466054",
@@ -18332,6 +18333,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793765666493",
+      "time": "11:14 - 04/11/2026",
+      "name": "Gmail (New) -Login phone",
+      "bot": "sieuthistore_bot",
+      "price": 43000,
+      "costPrice": 33000,
+      "stockAfter": 20,
+      "catKey": "gmail",
+      "msgKey": "📧Gmail(New)-Loginphone➕Thêm:20📦Tồnkhohiệntại:20💰Giá:33.000đ"
+    },
+    {
       "id": "hist-1793765517712",
       "time": "11:11 - 04/11/2026",
       "name": "Scribd Premium 1 Tháng  BHF",
@@ -19419,17 +19431,6 @@
       "stockAfter": 52,
       "catKey": "expressvpn",
       "msgKey": "🚚EXPRESSVPN1THÁNGBHF💰Giá:40k📦Tồnkho:16tàikhoản📊Đãbán:7tàikhoản✏️Vuilòngnhậpsốlượ"
-    },
-    {
-      "id": "hist-1793745065691",
-      "time": "05:31 - 04/11/2026",
-      "name": "EXPRESS VPN 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 52,
-      "catKey": "expressvpn",
-      "msgKey": "🚚EXPRESSVPN1THÁNGBHF➕Thêm:16📦Tồnkhohiệntại:16💰Giá:40.000đ"
     }
   ],
   "vidiq": {
