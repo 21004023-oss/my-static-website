@@ -4796,6 +4796,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793806192497",
+        "name": "[BHF] Chatgpt Plus 1 Tháng Acc Cấp",
+        "price": 240000,
+        "cost_price": 210000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Tháng",
+        "detail": "Định dạng: Mail | Pass | 2FA\nBảo hành Full Gói 30 ngày\n- Acc Gmail trâu bò . Dùng Riêng tư\nCách đăng nhập,change sau mua : https://t.me/khommo_thongbao/53\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–4):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 4,
+            "cost_price": 210000,
+            "selling_price": 240000,
+            "updated": "22:29 04/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 210000,
+          "stock": 4
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -18804,6 +18830,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793806192497",
+      "time": "22:29 - 04/11/2026",
+      "name": "[BHF] Chatgpt Plus 1 Tháng Acc Cấp",
+      "bot": "khommo_market_bot",
+      "price": 240000,
+      "costPrice": 210000,
+      "stockAfter": 4,
+      "catKey": "chatgpt",
+      "msgKey": "🛍️[BHF]ChatgptPlus1ThángAccCấp💲Giá:210.000VND💚Tồnkho:4tàikhoản📊Đãbán:235tàikhoản"
+    },
+    {
       "id": "hist-1793806077832",
       "time": "22:27 - 04/11/2026",
       "name": "KASPERSKY PLUS + VPN 1 NĂM (BH 300 ngày)",
@@ -19891,17 +19928,6 @@
       "stockAfter": 95,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL💰Giá:160k📦Tồnkho:52tàikhoản📊Đãbán:621tàikhoản💎Môtả:"
-    },
-    {
-      "id": "hist-1793794557222",
-      "time": "19:15 - 04/11/2026",
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
-      "bot": "ntnshopre_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 95,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:50📦Tồnkhohiệntại:52💰Giá:160.000đ"
     }
   ],
   "vidiq": {
