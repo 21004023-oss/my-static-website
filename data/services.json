@@ -7307,8 +7307,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 38,
+        "stock_text": "Còn 38",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -7319,10 +7319,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 36,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "12:44 04/11/2026"
+            "updated": "14:45 04/11/2026"
           }
         },
         "hidden": false,
@@ -7331,7 +7331,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 10
+          "stock": 36
         }
       },
       {
@@ -18417,6 +18417,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793778344284",
+      "time": "14:45 - 04/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 38,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:30📦Tồnkhohiệntại:36💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793778087052",
       "time": "14:41 - 04/11/2026",
       "name": "Gmail Random 200X~2023 Có 2FA",
@@ -19504,17 +19515,6 @@
       "stockAfter": 10,
       "catKey": "zoom",
       "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:3📦Tồnkhohiệntại:5💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793758926775",
-      "time": "09:22 - 04/11/2026",
-      "name": "Zoom Pro 14 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 15,
-      "catKey": "zoom",
-      "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:3📦Tồnkhohiệntại:5💰Giá:45.000đ"
     }
   ],
   "vidiq": {
