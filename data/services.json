@@ -18611,8 +18611,8 @@
         "name": "Galaxy Play Cao Cấp 30 ngày BHF",
         "price": 55000,
         "cost_price": 25000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "Slot galaxy play cao cấp\nĐăng nhập 2 thiết bị xem 1 thiết bị đồng thời\nXem tất cả trừ phim thuê và anime\nBảo hành toàn thời gian\n✏️",
         "sources": {
@@ -18623,16 +18623,16 @@
             "updated": "23:30 04/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 4,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "22:54 04/11/2026"
+            "updated": "23:30 04/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 25000,
-          "stock": 1
+          "stock": 4
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -18835,6 +18835,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793809812651",
+      "time": "23:30 - 04/11/2026",
+      "name": "Galaxy Play Cao Cấp 30 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 8,
+      "catKey": "khac",
+      "msgKey": "⭐GalaxyPlayCaoCấp30ngàyBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:25.000đ"
+    },
     {
       "id": "hist-1793809806114",
       "time": "23:30 - 04/11/2026",
@@ -19923,17 +19934,6 @@
       "stockAfter": 1,
       "catKey": "gmail",
       "msgKey": "📧GmailCổ2FA2023-2025➕Thêm:1📦Tồnkhohiệntại:1💰Giá:33.000đ"
-    },
-    {
-      "id": "hist-1793795856276",
-      "time": "19:37 - 04/11/2026",
-      "name": "Chatgpt Plus (Apple Pay) 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 308,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:100📦Tồnkhohiệntại:260💰Giá:220.000đ"
     }
   ],
   "vidiq": {
