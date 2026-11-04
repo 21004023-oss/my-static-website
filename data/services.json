@@ -7307,8 +7307,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 25,
-        "stock_text": "Còn 25",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -7319,10 +7319,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 23,
+            "stock": 10,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "21:32 03/11/2026"
+            "updated": "12:44 04/11/2026"
           }
         },
         "hidden": false,
@@ -7331,7 +7331,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 23
+          "stock": 10
         }
       },
       {
@@ -18417,6 +18417,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793771043560",
+      "time": "12:44 - 04/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 12,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:10💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793771034567",
       "time": "12:43 - 04/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -19504,17 +19515,6 @@
       "stockAfter": 6,
       "catKey": "jetbrains",
       "msgKey": "⭐LinkJetBrainsEduchínhchủ1năm(BHF)➕Thêm:6📦Tồnkhohiệntại:6💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1793747165215",
-      "time": "06:06 - 04/11/2026",
-      "name": "JetBrain Edu 1 năm (BHF)",
-      "bot": "taphoathomap_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 6,
-      "catKey": "jetbrains",
-      "msgKey": "⭐JetBrainEdu1năm(BHF)💰Giá:50k📦Tồnkho:3tàikhoản📊Đãbán:50tàikhoản💎Môtả:💻JETBRAINSE"
     }
   ],
   "vidiq": {
