@@ -7559,8 +7559,8 @@
         "name": "Grok Super 1 ngày KBH",
         "price": 140000,
         "cost_price": 110000,
-        "stock": 21,
-        "stock_text": "Còn 21",
+        "stock": 17,
+        "stock_text": "Còn 17",
         "duration": "1 Ngày",
         "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua\n✏️",
         "sources": {
@@ -7571,16 +7571,16 @@
             "updated": "13:08 02/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 15,
+            "stock": 11,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "12:11 04/11/2026"
+            "updated": "12:43 04/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 110000,
-          "stock": 15
+          "stock": 11
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -18417,6 +18417,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793771015297",
+      "time": "12:43 - 04/11/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 17,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:7📦Tồnkhohiệntại:11💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793770426537",
       "time": "12:33 - 04/11/2026",
       "name": "Tài Khoản X Cổ 2009-2024 US Trâu Bò-BH24H",
@@ -19504,17 +19515,6 @@
       "stockAfter": 110,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:17📦Tồnkhohiệntại:110💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1793747150937",
-      "time": "06:05 - 04/11/2026",
-      "name": "Figma Pro Education 1 năm BHF",
-      "bot": "sieuthistore_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 7,
-      "catKey": "figma",
-      "msgKey": "⭐FigmaProEducation1nămBHF💰Giá:180k📦Tồnkho:7tàikhoản📊Đãbán:161tàikhoản💎Môtả:🎨**FI"
     }
   ],
   "vidiq": {
