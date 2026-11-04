@@ -5563,6 +5563,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": true,
         "needs_review": false
+      },
+      {
+        "id": "p-1793799304508",
+        "name": "API 50M Token Claude 1 Tháng - BH1D",
+        "price": 95000,
+        "cost_price": 85000,
+        "stock": 32,
+        "stock_text": "Còn 32",
+        "duration": "1 Tháng",
+        "detail": "--- Nhà cung cấp API Đầu Tiên và uy tín Hàng Đầu - ĐÃ CÓ ĐĂNG KÍ KINH DOANH ---\nKênh thông báo : https://t.me/api_thongbao\nHộp thư hỗ trợ  : https://api.nghimmo.com/support\nDanh sách model, và hướng dẫn : api.nghimmo.com/huongdan\nLink nạp thêm token cho key : https://api.nghimmo.com/redeem\nModel : Full model Claude Fable, Opus, Sonet, Haiku\nTrang kiểm tra KEY : api.nghimmo.com/check\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 32,
+            "cost_price": 85000,
+            "selling_price": 95000,
+            "updated": "20:35 04/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 85000,
+          "stock": 32
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -18700,6 +18726,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793799304508",
+      "time": "20:35 - 04/11/2026",
+      "name": "API 50M Token Claude 1 Tháng - BH1D",
+      "bot": "sieuthistore_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 32,
+      "catKey": "claude",
+      "msgKey": "🧠API50MTokenClaude1Tháng-BH1D💰Giá:85k📦Tồnkho:32tàikhoản📊Đãbán:1.422tàikhoản💎Môtả"
+    },
+    {
       "id": "hist-1793799213249",
       "time": "20:33 - 04/11/2026",
       "name": "Proton VPN 14-28 Ngày BHF",
@@ -19787,17 +19824,6 @@
       "stockAfter": 35,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:35💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1793781363696",
-      "time": "15:36 - 04/11/2026",
-      "name": "CapCut Pro 3 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 205000,
-      "costPrice": 185000,
-      "stockAfter": 17,
-      "catKey": "capcut",
-      "msgKey": "✂️CapCutPro3ThángBHF💰Giá:185k📦Tồnkho:4tàikhoản📊Đãbán:383tàikhoản💎Môtả:TàikhoảnCa"
     }
   ],
   "vidiq": {
