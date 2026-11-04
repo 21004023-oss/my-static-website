@@ -6626,22 +6626,22 @@
         "name": "Link Gemini 18 Tháng ( BH 3H )",
         "price": 80000,
         "cost_price": 62000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Tháng",
         "detail": "Gói Link Gemini 18 Tháng ( BH 3H ) bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 8,
+            "stock": 30,
             "cost_price": 62000,
             "selling_price": 72000,
-            "updated": "20:43 03/11/2026"
+            "updated": "09:15 04/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 62000,
-          "stock": 8
+          "stock": 30
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -18326,6 +18326,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793758530039",
+      "time": "09:15 - 04/11/2026",
+      "name": "Link Gemini 18 Tháng ( BH 3H )",
+      "bot": "taphoathomap_bot",
+      "price": 72000,
+      "costPrice": 62000,
+      "stockAfter": 30,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGemini18Tháng(BH3H)➕Thêm:30📦Tồnkhohiệntại:30💰Giá:62.000đ"
+    },
+    {
       "id": "hist-1793758465828",
       "time": "09:14 - 04/11/2026",
       "name": "ChatGPT (Apple Pay) 1 Tháng BH 1 Ngày",
@@ -19413,17 +19424,6 @@
       "stockAfter": 12,
       "catKey": "grammarly",
       "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1793723481513",
-      "time": "23:31 - 03/11/2026",
-      "name": "Grammarly AI Pro 1 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 12,
-      "catKey": "grammarly",
-      "msgKey": "⭐GrammarlyAIPro1ThángBHF💰Giá:90k📦Tồnkho:4tàikhoản📊Đãbán:139tàikhoản💎Môtả:Grammar"
     }
   ],
   "vidiq": {
