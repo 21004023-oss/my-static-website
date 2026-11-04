@@ -218,16 +218,16 @@
         "id": "p-1792094916011",
         "name": "Tài khoản VieON VIP 3 Tháng BHF",
         "price": 140000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "3 Tháng",
         "detail": "Tài khoản đăng nhập 2 thiết bị và xem 1 thiết bị đồng thời\nXem tất cả phim VIP và phim PRO\nKhông đảm bảo sẽ xem được một số kênh truyền hình nước ngoài\nBảo hành toàn thời gian trường hợp không xem được phim, sai mật khẩu, quá thiết bị.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 120000,
             "selling_price": 140000,
-            "updated": "00:54 02/11/2026"
+            "updated": "15:08 04/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 1,
@@ -18417,6 +18417,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793779720094",
+      "time": "15:08 - 04/11/2026",
+      "name": "Tài khoản VieON VIP Pro 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 3,
+      "catKey": "vieon",
+      "msgKey": "⭐TàikhoảnVieONVIPPro3thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1793779323704",
       "time": "15:02 - 04/11/2026",
       "name": "Grok + Cursor Premium 14 ngày BH 1 ngày",
@@ -19504,17 +19515,6 @@
       "stockAfter": 6,
       "catKey": "khac",
       "msgKey": "⭐PitpitAI8k6cre1THBH3ngày➕Thêm:1📦Tồnkhohiệntại:3💰Giá:750.000đ"
-    },
-    {
-      "id": "hist-1793760815840",
-      "time": "09:53 - 04/11/2026",
-      "name": "Pitpit AI 8k6 Credit 1 Tháng BH 3 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 890000,
-      "costPrice": 790000,
-      "stockAfter": 3,
-      "catKey": "khac",
-      "msgKey": "⭐PitpitAI8k6Credit1ThángBH3ngày➕Thêm:1📦Tồnkhohiệntại:3💰Giá:790.000đ"
     }
   ],
   "vidiq": {
