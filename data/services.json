@@ -15364,9 +15364,9 @@
         "id": "p-1792402722954",
         "name": "Gmail (New) -Login phone",
         "price": 43000,
-        "cost_price": 33000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "cost_price": 23000,
+        "stock": 40,
+        "stock_text": "Còn 40",
         "duration": "1 Tháng",
         "detail": "Bảo hành login 24H- Login thành công là hết BH\nGmail Login bằng Điện thoại ( Ngâm 1 thời gian có thể login đc pc bình thường )\n-Cách lượt quét QR : Đăng nhập bằng ứng dụng gmail sẽ hạ chế quét QR.\n- Định dạng : Gmail | Pass | mail khôi phục\n✏️",
         "sources": {
@@ -15377,20 +15377,20 @@
             "updated": "11:14 04/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 20,
             "cost_price": 23000,
             "selling_price": 33000,
-            "updated": "06:35 20/10/2026"
+            "updated": "11:14 04/11/2026"
           }
         },
         "hidden": false,
         "needs_review": false,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 33000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 23000,
           "stock": 20
         },
-        "import_note": "Nhập: @sieuthistore_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792404466054",
@@ -18333,6 +18333,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793765672366",
+      "time": "11:14 - 04/11/2026",
+      "name": "Gmail (New) -Login phone",
+      "bot": "taphoathomap_bot",
+      "price": 33000,
+      "costPrice": 23000,
+      "stockAfter": 40,
+      "catKey": "gmail",
+      "msgKey": "📧Gmail(New)-Loginphone➕Thêm:20📦Tồnkhohiệntại:20💰Giá:23.000đ"
+    },
+    {
       "id": "hist-1793765666493",
       "time": "11:14 - 04/11/2026",
       "name": "Gmail (New) -Login phone",
@@ -19420,17 +19431,6 @@
       "stockAfter": 180,
       "catKey": "gmail",
       "msgKey": "📧GMAILUSCỔDATE201X-202X2FA➕Thêm:40📦Tồnkhohiệntại:67💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793745071455",
-      "time": "05:31 - 04/11/2026",
-      "name": "EXPRESS VPN 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 52,
-      "catKey": "expressvpn",
-      "msgKey": "🚚EXPRESSVPN1THÁNGBHF💰Giá:40k📦Tồnkho:16tàikhoản📊Đãbán:7tàikhoản✏️Vuilòngnhậpsốlượ"
     }
   ],
   "vidiq": {
