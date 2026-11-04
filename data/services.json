@@ -7532,8 +7532,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 37,
-        "stock_text": "Còn 37",
+        "stock": 23,
+        "stock_text": "Còn 23",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -7544,10 +7544,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 35,
+            "stock": 21,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "15:36 04/11/2026"
+            "updated": "21:18 04/11/2026"
           }
         },
         "hidden": false,
@@ -7556,7 +7556,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 35
+          "stock": 21
         }
       },
       {
@@ -18752,6 +18752,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793801917136",
+      "time": "21:18 - 04/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 23,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:21💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793801910044",
       "time": "21:18 - 04/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -19839,17 +19850,6 @@
       "stockAfter": 36,
       "catKey": "microsoft",
       "msgKey": "⭐Microsoft365cánhân1NămBH3tháng➕Thêm:10📦Tồnkhohiệntại:23💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1793782844885",
-      "time": "16:00 - 04/11/2026",
-      "name": "⚡️ Grok Plus 30 ngày -  BH 7 Ngày",
-      "bot": "taphoathomap_bot",
-      "price": 136000,
-      "costPrice": 116000,
-      "stockAfter": 3,
-      "catKey": "grok",
-      "msgKey": "⚡⚡️GrokPlus30ngày-BH7Ngày➕Thêm:3📦Tồnkhohiệntại:3💰Giá:116.000đ"
     }
   ],
   "vidiq": {
