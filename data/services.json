@@ -218,8 +218,8 @@
         "id": "p-1792094916011",
         "name": "Tài khoản VieON VIP 3 Tháng BHF",
         "price": 140000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "3 Tháng",
         "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời\n✏️",
         "sources": {
@@ -230,19 +230,19 @@
             "updated": "22:20 04/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 2,
-            "cost_price": 70000,
-            "selling_price": 80000,
-            "updated": "15:08 04/11/2026"
+            "stock": 1,
+            "cost_price": 55000,
+            "selling_price": 65000,
+            "updated": "22:20 04/11/2026"
           }
         },
         "hidden": false,
-        "cost_price": 70000,
+        "cost_price": 55000,
         "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 70000,
-          "stock": 2
+          "cost_price": 55000,
+          "stock": 1
         },
         "needs_review": false
       },
@@ -18778,6 +18778,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793805609861",
+      "time": "22:20 - 04/11/2026",
+      "name": "Tài khoản VieON VIP 3 tháng bhf",
+      "bot": "taphoathomap_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 2,
+      "catKey": "vieon",
+      "msgKey": "⭐TàikhoảnVieONVIP3thángbhf➕Thêm:1📦Tồnkhohiệntại:1💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793805603230",
       "time": "22:20 - 04/11/2026",
       "name": "Tài khoản VieON VIP 3 Tháng BHF",
@@ -19865,17 +19876,6 @@
       "stockAfter": 143,
       "catKey": "deepseek",
       "msgKey": "⭐APIDeepseek100$1thángBHF➕Thêm:100📦Tồnkhohiệntại:143💰Giá:170.000đ"
-    },
-    {
-      "id": "hist-1793794530116",
-      "time": "19:15 - 04/11/2026",
-      "name": "API Deepseek 10$ 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 209,
-      "catKey": "deepseek",
-      "msgKey": "⭐APIDeepseek10$1thángBHF➕Thêm:100📦Tồnkhohiệntại:209💰Giá:60.000đ"
     }
   ],
   "vidiq": {
