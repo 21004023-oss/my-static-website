@@ -13606,23 +13606,23 @@
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
         "cost_price": 7000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "3 Ngày",
         "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 9,
+            "stock": 4,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "21:44 03/11/2026"
+            "updated": "21:49 04/11/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 7000,
-          "stock": 9
+          "stock": 4
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -18752,6 +18752,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793803751691",
+      "time": "21:49 - 04/11/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 4,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:1📦Tồnkhohiệntại:4💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1793803680898",
       "time": "21:48 - 04/11/2026",
       "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
@@ -19839,17 +19850,6 @@
       "stockAfter": 11,
       "catKey": "tiktok",
       "msgKey": "🎵TiktokViệtngâmtrên1Năm➕Thêm:5📦Tồnkhohiệntại:7💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1793785405994",
-      "time": "16:43 - 04/11/2026",
-      "name": "Suno Pro 1 tháng BH 2 Ngày",
-      "bot": "taphoathomap_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 1,
-      "catKey": "suno",
-      "msgKey": "🎵SunoPro1thángBH2Ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:130.000đ"
     }
   ],
   "vidiq": {
