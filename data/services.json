@@ -4178,22 +4178,22 @@
         "name": "ChatGPT Go 1 Tháng (BH 28D)",
         "price": 105000,
         "cost_price": 95000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 9,
+            "stock": 20,
             "cost_price": 95000,
             "selling_price": 105000,
-            "updated": "12:17 04/11/2026"
+            "updated": "23:34 04/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 95000,
-          "stock": 9
+          "stock": 20
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -18836,6 +18836,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793810049775",
+      "time": "23:34 - 04/11/2026",
+      "name": "ChatGPT Go 1 Tháng (BH 28D)",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 20,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:20📦Tồnkhohiệntại:20💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1793809812651",
       "time": "23:30 - 04/11/2026",
       "name": "Galaxy Play Cao Cấp 30 ngày BHF",
@@ -19923,17 +19934,6 @@
       "stockAfter": 6,
       "catKey": "kling",
       "msgKey": "🎬KlingStand1k2credit1tháng-BH24h➕Thêm:5📦Tồnkhohiệntại:6💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1793796040013",
-      "time": "19:40 - 04/11/2026",
-      "name": "Gmail Cổ 2FA 2023-2025",
-      "bot": "taphoathomap_bot",
-      "price": 43000,
-      "costPrice": 33000,
-      "stockAfter": 1,
-      "catKey": "gmail",
-      "msgKey": "📧GmailCổ2FA2023-2025➕Thêm:1📦Tồnkhohiệntại:1💰Giá:33.000đ"
     }
   ],
   "vidiq": {
