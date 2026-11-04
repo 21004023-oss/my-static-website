@@ -7564,16 +7564,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 35,
-        "stock_text": "Còn 35",
+        "stock": 21,
+        "stock_text": "Còn 21",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 35,
+            "stock": 21,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "15:36 04/11/2026"
+            "updated": "21:18 04/11/2026"
           }
         },
         "hidden": false,
@@ -7581,7 +7581,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 35
+          "stock": 21
         },
         "needs_review": false
       },
@@ -18752,6 +18752,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793801910044",
+      "time": "21:18 - 04/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 21,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:21💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793801768686",
       "time": "21:16 - 04/11/2026",
       "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
@@ -19839,17 +19850,6 @@
       "stockAfter": 3,
       "catKey": "grok",
       "msgKey": "⚡⚡️GrokPlus30ngày-BH7Ngày➕Thêm:3📦Tồnkhohiệntại:3💰Giá:116.000đ"
-    },
-    {
-      "id": "hist-1793782807880",
-      "time": "16:00 - 04/11/2026",
-      "name": "Key Microsoft office 2024 Pro Plus 10 năm BH 1 năm",
-      "bot": "taphoathomap_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 21,
-      "catKey": "microsoft",
-      "msgKey": "⭐KeyMicrosoftoffice2024ProPlus10nămBH1năm➕Thêm:10📦Tồnkhohiệntại:21💰Giá:60.000đ"
     }
   ],
   "vidiq": {
