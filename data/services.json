@@ -7339,16 +7339,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 36,
-        "stock_text": "Còn 36",
+        "stock": 35,
+        "stock_text": "Còn 35",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 36,
+            "stock": 35,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "14:45 04/11/2026"
+            "updated": "15:36 04/11/2026"
           }
         },
         "hidden": false,
@@ -7356,7 +7356,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 36
+          "stock": 35
         },
         "needs_review": false
       },
@@ -18417,6 +18417,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793781368799",
+      "time": "15:36 - 04/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 35,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:35💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793781363696",
       "time": "15:36 - 04/11/2026",
       "name": "CapCut Pro 3 Tháng BHF",
@@ -19504,17 +19515,6 @@
       "stockAfter": 14,
       "catKey": "grok",
       "msgKey": "⚡GrokPremium14NgàyBH1Ngày➕Thêm:10📦Tồnkhohiệntại:10💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1793764542045",
-      "time": "10:55 - 04/11/2026",
-      "name": "Proton VPN 14-28 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 65000,
-      "costPrice": 55000,
-      "stockAfter": 4,
-      "catKey": "protonvpn",
-      "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:55.000đ"
     }
   ],
   "vidiq": {
