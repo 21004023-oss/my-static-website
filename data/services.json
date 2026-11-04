@@ -7211,24 +7211,30 @@
         "id": "api-deepseek-100",
         "name": "API DeepSeek $100 1 Tháng BHF",
         "price": 190000,
-        "stock": 143,
-        "stock_text": "Còn 143",
+        "stock": 286,
+        "stock_text": "Còn 286",
         "duration": "1 Tháng",
         "source": "Vibi.top",
         "detail": "- API DeepSeek V4.1 Flash hạn 1 tháng.\n- Hỗ trợ Claude Opus 5.5, Sonnet 5, GPT-6 Astra/Sol, Qwen 3.8 Flash, tạo ảnh GPT Image 2.5 Flare.\n- Kích hoạt mã đổi thưởng tại vibi.top.",
-        "cost_price": 170000,
+        "cost_price": 160000,
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 170000,
+          "bot": "@sieuthistore_bot",
+          "cost_price": 160000,
           "stock": 143
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "sources": {
           "piggyai99_bot": {
             "stock": 143,
             "cost_price": 170000,
             "selling_price": 190000,
             "updated": "19:15 04/11/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 143,
+            "cost_price": 160000,
+            "selling_price": 180000,
+            "updated": "19:16 04/11/2026"
           }
         },
         "hidden": false,
@@ -18584,6 +18590,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793794577286",
+      "time": "19:16 - 04/11/2026",
+      "name": "API Deepseek 100$ 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 180000,
+      "costPrice": 160000,
+      "stockAfter": 286,
+      "catKey": "deepseek",
+      "msgKey": "⭐APIDeepseek100$1thángBHF➕Thêm:100📦Tồnkhohiệntại:143💰Giá:160.000đ"
+    },
+    {
       "id": "hist-1793794572121",
       "time": "19:16 - 04/11/2026",
       "name": "API Qwen 10$ 1 tháng BHF",
@@ -19671,17 +19688,6 @@
       "stockAfter": 171,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)-LoginAll💰Giá:25k📦Tồnkho:57tàikhoản📊Đãbán:13.575tàikhoản💎Môtả:GMAILNe"
-    },
-    {
-      "id": "hist-1793774672626",
-      "time": "13:44 - 04/11/2026",
-      "name": "Gmail (New) -Login All",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 168,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:30📦Tồnkhohiệntại:57💰Giá:35.000đ"
     }
   ],
   "vidiq": {
