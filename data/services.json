@@ -7210,18 +7210,29 @@
       {
         "id": "api-deepseek-100",
         "name": "API DeepSeek $100 1 Tháng BHF",
-        "price": 179000,
-        "stock": 26,
-        "stock_text": "Còn 26",
+        "price": 190000,
+        "stock": 143,
+        "stock_text": "Còn 143",
         "duration": "1 Tháng",
         "source": "Vibi.top",
         "detail": "- API DeepSeek V4.1 Flash hạn 1 tháng.\n- Hỗ trợ Claude Opus 5.5, Sonnet 5, GPT-6 Astra/Sol, Qwen 3.8 Flash, tạo ảnh GPT Image 2.5 Flare.\n- Kích hoạt mã đổi thưởng tại vibi.top.",
-        "cost_price": 129000,
+        "cost_price": 170000,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 129000
+          "bot": "@piggyai99_bot",
+          "cost_price": 170000,
+          "stock": 143
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "Nhập: @piggyai99_bot",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 143,
+            "cost_price": 170000,
+            "selling_price": 190000,
+            "updated": "19:15 04/11/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1793794530116",
@@ -18547,6 +18558,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793794535074",
+      "time": "19:15 - 04/11/2026",
+      "name": "API Deepseek 100$ 1 tháng BHF",
+      "bot": "piggyai99_bot",
+      "price": 190000,
+      "costPrice": 170000,
+      "stockAfter": 143,
+      "catKey": "deepseek",
+      "msgKey": "⭐APIDeepseek100$1thángBHF➕Thêm:100📦Tồnkhohiệntại:143💰Giá:170.000đ"
+    },
+    {
       "id": "hist-1793794530116",
       "time": "19:15 - 04/11/2026",
       "name": "API Deepseek 10$ 1 tháng BHF",
@@ -19634,17 +19656,6 @@
       "stockAfter": 9,
       "catKey": "khac",
       "msgKey": "⭐PitpitAI8k6cre1THBH3ngày➕Thêm:3📦Tồnkhohiệntại:6💰Giá:750.000đ"
-    },
-    {
-      "id": "hist-1793773547547",
-      "time": "13:25 - 04/11/2026",
-      "name": "Pitpit AI 8k6 Credit 1 Tháng BH 3 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 890000,
-      "costPrice": 790000,
-      "stockAfter": 6,
-      "catKey": "khac",
-      "msgKey": "⭐PitpitAI8k6Credit1ThángBH3ngày➕Thêm:3📦Tồnkhohiệntại:6💰Giá:790.000đ"
     }
   ],
   "vidiq": {
