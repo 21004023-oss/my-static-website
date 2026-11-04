@@ -7222,6 +7222,32 @@
           "cost_price": 129000
         },
         "import_note": "🛒 @sieuthistore_bot"
+      },
+      {
+        "id": "p-1793794530116",
+        "name": "API Deepseek 10$ 1 tháng BHF",
+        "price": 70000,
+        "cost_price": 60000,
+        "stock": 209,
+        "stock_text": "Còn 209",
+        "duration": "1 Tháng",
+        "detail": "Gói API Deepseek 10$ 1 tháng BHF bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 209,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "19:15 04/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 60000,
+          "stock": 209
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -18521,6 +18547,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793794530116",
+      "time": "19:15 - 04/11/2026",
+      "name": "API Deepseek 10$ 1 tháng BHF",
+      "bot": "piggyai99_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 209,
+      "catKey": "deepseek",
+      "msgKey": "⭐APIDeepseek10$1thángBHF➕Thêm:100📦Tồnkhohiệntại:209💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1793794525441",
       "time": "19:15 - 04/11/2026",
       "name": "[CDK] Thuê Số OTP Codex/GPT 30D BH 24H",
@@ -19608,17 +19645,6 @@
       "stockAfter": 6,
       "catKey": "khac",
       "msgKey": "⭐PitpitAI8k6Credit1ThángBH3ngày➕Thêm:3📦Tồnkhohiệntại:6💰Giá:790.000đ"
-    },
-    {
-      "id": "hist-1793773435897",
-      "time": "13:23 - 04/11/2026",
-      "name": "Kling Pro 3K-4K Credits 1 tháng BH 7 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 770000,
-      "costPrice": 670000,
-      "stockAfter": 6,
-      "catKey": "kling",
-      "msgKey": "🎬KlingPro3K-4KCredits1thángBH7ngày➕Thêm:5📦Tồnkhohiệntại:6💰Giá:670.000đ"
     }
   ],
   "vidiq": {
