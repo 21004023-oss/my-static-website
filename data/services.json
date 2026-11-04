@@ -4860,7 +4860,7 @@
             "updated": "20:32 04/11/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "needs_review": false
       },
       {
@@ -4958,7 +4958,8 @@
           "bot": "@sieuthistore_bot",
           "cost_price": 45000
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "🛒 @sieuthistore_bot",
+        "hidden": false
       },
       {
         "id": "api-claude-200m-7d",
@@ -5006,7 +5007,8 @@
           "bot": "@sieuthistore_bot",
           "cost_price": 45000
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "🛒 @sieuthistore_bot",
+        "hidden": true
       },
       {
         "id": "p-1791866509062",
@@ -5044,7 +5046,8 @@
           "bot": "@sieuthistore_bot",
           "cost_price": 45000
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "🛒 @sieuthistore_bot",
+        "hidden": false
       },
       {
         "id": "p-1791898418611",
@@ -5064,7 +5067,7 @@
         },
         "cost_price": 45000,
         "needs_review": false,
-        "hidden": false,
+        "hidden": true,
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 45000,
@@ -5294,7 +5297,7 @@
             "updated": "14:53 22/10/2026"
           }
         },
-        "hidden": false,
+        "hidden": true,
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 45000
@@ -5376,7 +5379,7 @@
           "stock": 500
         },
         "import_note": "Nhập: @taphoathomap_bot",
-        "hidden": false,
+        "hidden": true,
         "needs_review": false
       },
       {
@@ -5558,7 +5561,7 @@
           "stock": 536
         },
         "import_note": "Nhập: @taphoathomap_bot",
-        "hidden": false,
+        "hidden": true,
         "needs_review": false
       }
     ]
