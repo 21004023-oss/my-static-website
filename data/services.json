@@ -7752,8 +7752,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -7764,10 +7764,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 18,
+            "stock": 14,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "12:37 05/11/2026"
+            "updated": "13:55 05/11/2026"
           }
         },
         "hidden": false,
@@ -7776,7 +7776,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 18
+          "stock": 14
         }
       },
       {
@@ -19336,6 +19336,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793861712776",
+      "time": "13:55 - 05/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 16,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:4📦Tồnkhohiệntại:14💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793861706477",
       "time": "13:55 - 05/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -20423,17 +20434,6 @@
       "stockAfter": 105,
       "catKey": "gmail",
       "msgKey": "📧GMAILUSCỔDATE2022-20242FAĐÃQUASỬDỤNGGGULTRA➕Thêm:1📦Tồnkhohiệntại:105💰Giá:42.000"
-    },
-    {
-      "id": "hist-1793844166516",
-      "time": "09:02 - 05/11/2026",
-      "name": "ChatGPT Offer Trial Plus 1 tháng (Chưa Pay)",
-      "bot": "sieuthistore_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 304,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTOfferTrialPlus1tháng(ChưaPay)💰Giá:15k📦Tồnkho:304tàikhoản📊Đãbán:11.235tài"
     }
   ],
   "vidiq": {
