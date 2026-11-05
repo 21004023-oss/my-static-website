@@ -737,22 +737,22 @@
         "price": 100000,
         "cost_price": 45000,
         "duration": "1 Tháng",
-        "stock": 72,
-        "stock_text": "Còn 72",
+        "stock": 66,
+        "stock_text": "Còn 66",
         "hidden": false,
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 45000,
-          "stock": 72
+          "stock": 66
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "detail": "- Định dạng: Mail | Pass | 2fa\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho ae seller\n- Bảo hành full gói trong quá trình sử dụng, KHÔNG bảo hành ACC vì tuỳ vào cách bảo quản của mỗi người sử dụng\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 72,
+            "stock": 66,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "16:53 03/11/2026"
+            "updated": "14:45 05/11/2026"
           }
         },
         "needs_review": false
@@ -19368,6 +19368,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793864708115",
+      "time": "14:45 - 05/11/2026",
+      "name": "ADMIN YTB PREMIUM  5 SLOT 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 66,
+      "catKey": "youtube",
+      "msgKey": "▶️ADMINYTBPREMIUM5SLOT1THÁNGBẢOHÀNHFULL💰Giá:45k📦Tồnkho:66tàikhoản📊Đãbán:46tàikho"
+    },
+    {
       "id": "hist-1793864600441",
       "time": "14:43 - 05/11/2026",
       "name": "🔥VIP . Chatgpt Plus Apple 1 tháng BH 24H",
@@ -20455,17 +20466,6 @@
       "stockAfter": 127,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsu1thángBH1Ngày➕Thêm:60📦Tồnkhohiệntại:127💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793846685819",
-      "time": "09:44 - 05/11/2026",
-      "name": "Gmail Random 200X~2023 Có 2FA",
-      "bot": "piggyai99_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 84,
-      "catKey": "gmail",
-      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:11📦Tồnkhohiệntại:11💰Giá:35.000đ"
     }
   ],
   "vidiq": {
