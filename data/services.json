@@ -4990,6 +4990,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793909191772",
+        "name": "VIP 2.API 10M Token Codex 1 Ngày - BHF",
+        "price": 40000,
+        "cost_price": 30000,
+        "stock": 110,
+        "stock_text": "Còn 110",
+        "duration": "1 Ngày",
+        "detail": "--- Nhà cung cấp API Đầu Tiên và uy tín Hàng Đầu - ĐÃ CÓ ĐĂNG KÍ KINH DOANH ---\nKênh thông báo : https://t.me/api_thongbao\nHộp thư hỗ trợ  : https://api.nghimmo.com/support\nDanh sách model, và hướng dẫn : api.nghimmo.com/huongdan\nLink nạp thêm token cho key : https://api.nghimmo.com/redeem\nBase URL : https://api.nghimmo.com/v1\nModel : gpt-6.1, 6, 5.6, 5.5,...\nFull model, và hướng dẫn : api.nghimmo.com/huongdan\nTrang kiểm tra KEY : api.nghimmo.com/check\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 110,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "03:06 06/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
+          "stock": 110
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -19821,6 +19847,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793909191772",
+      "time": "03:06 - 06/11/2026",
+      "name": "VIP 2.API 10M Token Codex 1 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 110,
+      "catKey": "chatgpt",
+      "msgKey": "⭐VIP2.API10MTokenCodex1Ngày-BHF➕Thêm:110📦Tồnkhohiệntại:110💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793909138424",
       "time": "03:05 - 06/11/2026",
       "name": "VIP 2.API 200M Token Codex 7 Ngày - BHF",
@@ -20908,17 +20945,6 @@
       "stockAfter": 172,
       "catKey": "grok",
       "msgKey": "⚡GrokPremium14DBH1D💰Giá:125k📦Tồnkho:76tàikhoản📊Đãbán:425tàikhoản💎Môtả:•GrokPremi"
-    },
-    {
-      "id": "hist-1793894252155",
-      "time": "22:57 - 05/11/2026",
-      "name": "Grok Premium 14D BH 1D",
-      "bot": "taphoathomap_bot",
-      "price": 145000,
-      "costPrice": 125000,
-      "stockAfter": 188,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPremium14DBH1D➕Thêm:33📦Tồnkhohiệntại:92💰Giá:125.000đ"
     }
   ],
   "vidiq": {
