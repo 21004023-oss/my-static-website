@@ -11052,6 +11052,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793874294064",
+        "name": "Muse Ai 31 tỷ Token ( BH ACTIVE)",
+        "price": 40000,
+        "cost_price": 30000,
+        "stock": 29,
+        "stock_text": "Còn 29",
+        "duration": "1 Tháng",
+        "detail": "-Đăng nhập ngay sau khi mua\n-Token 31B\n-Định dạng: Email | Đường dẫn để đọc mã xác thực trong email\n-Bảo hành: Đăng nhập kiểm tra tài khoản thành công = hoàn tất bảo hành.\n-Login immediately after purchase\n-Token 31B\n-Format: Mail | Link to read mail code\n-Warranty: Login to check account ok = warranty completed.\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 29,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "17:24 05/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
+          "stock": 29
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -19408,6 +19434,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793874294064",
+      "time": "17:24 - 05/11/2026",
+      "name": "Muse Ai 31 tỷ Token ( BH ACTIVE)",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 29,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAi31tỷToken(BHACTIVE)➕Thêm:10📦Tồnkhohiệntại:29💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793874180092",
       "time": "17:23 - 05/11/2026",
       "name": "Kling Stand 1k2 credit 1 tháng - BH 24h",
@@ -20495,17 +20532,6 @@
       "stockAfter": 4,
       "catKey": "kling",
       "msgKey": "🎬KlingPro3K-4KCredits1thángBH7ngày➕Thêm:5📦Tồnkhohiệntại:4💰Giá:670.000đ"
-    },
-    {
-      "id": "hist-1793856642857",
-      "time": "12:30 - 05/11/2026",
-      "name": "[CDK] Thuê Số OTP Codex/GPT 30D BH 24H",
-      "bot": "piggyai99_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 154,
-      "catKey": "chatgpt",
-      "msgKey": "🤖[CDK]ThuêSốOTPCodex/GPT30DBH24H➕Thêm:2📦Tồnkhohiệntại:154💰Giá:10.000đ"
     }
   ],
   "vidiq": {
