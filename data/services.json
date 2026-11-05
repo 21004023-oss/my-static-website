@@ -14093,8 +14093,8 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 40000,
         "cost_price": 15000,
-        "stock": 17,
-        "stock_text": "Còn 17",
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "3 Ngày",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/\n✏️",
         "sources": {
@@ -14105,10 +14105,10 @@
             "updated": "19:40 05/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 7,
+            "stock": 5,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "22:37 04/11/2026"
+            "updated": "19:40 05/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 5,
@@ -14122,7 +14122,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 7
+          "stock": 5
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -19538,6 +19538,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793882408538",
+      "time": "19:40 - 05/11/2026",
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 15,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:4📦Tồnkhohiệntại:5💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793882402451",
       "time": "19:40 - 05/11/2026",
       "name": "Express VPN 3 Ngày BHF",
@@ -20625,17 +20636,6 @@
       "stockAfter": 58,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥VIP.ChatgptPlusApple1thángBHF➕Thêm:25📦Tồnkhohiệntại:58💰Giá:165.000đ"
-    },
-    {
-      "id": "hist-1793864933888",
-      "time": "14:48 - 05/11/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng - BH 24h",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 195,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:73📦Tồnkhohiệntại:80💰Giá:45.000đ"
     }
   ],
   "vidiq": {
