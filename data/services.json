@@ -13379,8 +13379,8 @@
         "id": "p-1792061006617",
         "name": "Wink VIP 30 ngày BHF",
         "price": 100000,
-        "stock": 13,
-        "stock_text": "Còn 13",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "Mở khóa full kho công cụ làm đẹp AI, tính năng làm nét video, xóa vật thể nâng cao, hiệu ứng chuyển cảnh VIP, xuất file chất lượng cao không logo\nLưu ý:\nTài khoản chỉ dành cho IOS\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.\n✏️",
         "sources": {
@@ -13391,10 +13391,10 @@
             "updated": "13:11 05/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 9,
+            "stock": 4,
             "cost_price": 70000,
             "selling_price": 80000,
-            "updated": "19:33 04/11/2026"
+            "updated": "13:11 05/11/2026"
           }
         },
         "hidden": false,
@@ -13403,7 +13403,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 70000,
-          "stock": 9
+          "stock": 4
         },
         "needs_review": false
       },
@@ -19336,6 +19336,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793859112616",
+      "time": "13:11 - 05/11/2026",
+      "name": "Wink Vip 30D BHF",
+      "bot": "taphoathomap_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 8,
+      "catKey": "wink",
+      "msgKey": "⭐WinkVip30DBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793859106786",
       "time": "13:11 - 05/11/2026",
       "name": "Wink Vip 30 Ngày BHF",
@@ -20423,17 +20434,6 @@
       "stockAfter": 2,
       "catKey": "muse-ai",
       "msgKey": "⭐GóiVIPPRO.APIMUSE-Tạo16660video-1thángBH15Ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:1.900"
-    },
-    {
-      "id": "hist-1793843491628",
-      "time": "08:51 - 05/11/2026",
-      "name": "Gói VIP PRO. API MUSE - Tạo 16660 video  - 1 tháng BH 15 Ngày",
-      "bot": "taphoathomap_bot",
-      "price": 1700000,
-      "costPrice": 1500000,
-      "stockAfter": 1,
-      "catKey": "muse-ai",
-      "msgKey": "⭐GóiVIPPRO.APIMUSE-Tạo16660video-1thángBH15Ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:1.500"
     }
   ],
   "vidiq": {
