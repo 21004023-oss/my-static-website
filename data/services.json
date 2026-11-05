@@ -8919,13 +8919,13 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 58,
+        "stock_text": "Còn 58",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 20,
+            "stock": 58,
             "cost_price": 150000,
             "selling_price": 170000,
             "updated": "23:03 05/11/2026"
@@ -8934,7 +8934,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 20
+          "stock": 58
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -19633,6 +19633,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793894597164",
+      "time": "23:03 - 05/11/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 58,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:34📦Tồnkhohiệntại:58💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1793894591622",
       "time": "23:03 - 05/11/2026",
       "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
@@ -20720,17 +20731,6 @@
       "stockAfter": 39,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:4📦Tồnkhohiệntại:22💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1793878710424",
-      "time": "18:38 - 05/11/2026",
-      "name": "Canva Pro 30 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 3,
-      "catKey": "canva",
-      "msgKey": "🎨CanvaPro30NgàyBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:35.000đ"
     }
   ],
   "vidiq": {
