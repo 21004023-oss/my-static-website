@@ -8004,8 +8004,8 @@
         "name": "Grok Super 1 ngày KBH",
         "price": 140000,
         "cost_price": 110000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 7,
+        "stock_text": "Còn 7",
         "duration": "1 Ngày",
         "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua\n✏️",
         "sources": {
@@ -8016,16 +8016,16 @@
             "updated": "13:08 02/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 1,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "14:04 05/11/2026"
+            "updated": "15:28 05/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 110000,
-          "stock": 2
+          "stock": 1
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -19374,6 +19374,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793867332562",
+      "time": "15:28 - 05/11/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 7,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:5📦Tồnkhohiệntại:1💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793867240816",
       "time": "15:27 - 05/11/2026",
       "name": "Meitu SVip+ 7 Ngày BHF",
@@ -20461,17 +20472,6 @@
       "stockAfter": 11,
       "catKey": "grok",
       "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:5📦Tồnkhohiệntại:5💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1793850935328",
-      "time": "10:55 - 05/11/2026",
-      "name": "Admin Office 365 (Renew Auto) 12 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 450000,
-      "costPrice": 400000,
-      "stockAfter": 10,
-      "catKey": "microsoft",
-      "msgKey": "⭐AdminOffice365(RenewAuto)12thángBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:400.000đ"
     }
   ],
   "vidiq": {
