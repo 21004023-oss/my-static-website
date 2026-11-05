@@ -14673,8 +14673,8 @@
         "name": "[KEY] HMA Android PC 20 30 Ngày BHF",
         "price": 35000,
         "cost_price": 15000,
-        "stock": 86,
-        "stock_text": "Còn 86",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Tháng",
         "detail": "Key HMA sử dụng cho Android và PC, loại này dạng Key nên không sử dụng được cho IOS.\n✏️",
         "sources": {
@@ -14691,16 +14691,16 @@
             "updated": "00:15 06/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 66,
+            "stock": 10,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "09:04 31/10/2026"
+            "updated": "00:15 06/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 66
+          "stock": 10
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -19717,6 +19717,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793898917740",
+      "time": "00:15 - 06/11/2026",
+      "name": "[KEY] HMA Android PC 20 30 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 30,
+      "catKey": "hma-vpn",
+      "msgKey": "⭐[KEY]HMAAndroidPC2030NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793898902361",
       "time": "00:15 - 06/11/2026",
       "name": "[KEY] HMA Android PC 20 30 Ngày BHF",
@@ -20804,17 +20815,6 @@
       "stockAfter": 49,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi31BtokenKBH➕Thêm:20📦Tồnkhohiệntại:19💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1793886239050",
-      "time": "20:43 - 05/11/2026",
-      "name": "TiktokVN 1kfl noshop nobuff live Studio",
-      "bot": "taphoathomap_bot",
-      "price": 179000,
-      "costPrice": 159000,
-      "stockAfter": 5,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokVN1kflnoshopnobuffliveStudio➕Thêm:1📦Tồnkhohiệntại:5💰Giá:159.000đ"
     }
   ],
   "vidiq": {
