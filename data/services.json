@@ -18917,10 +18917,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793840793773",
+        "name": "Xác nhận mua",
+        "price": 31875,
+        "cost_price": 21875,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Xác nhận mua bảo hành uy tín.",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 0,
+            "cost_price": 21875,
+            "selling_price": 31875,
+            "updated": "08:06 05/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 21875,
+          "stock": 0
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793840793773",
+      "time": "08:06 - 05/11/2026",
+      "name": "Xác nhận mua",
+      "bot": "khommo_market_bot",
+      "price": 31875,
+      "costPrice": 21875,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "✅XácnhậnmuaBạnđangchuẩnbịmuasảnphẩm:GmailNew2FA.Đơngiá:21.875VND.Khokhảdụng:528C"
+    },
     {
       "id": "hist-1793840735327",
       "time": "08:05 - 05/11/2026",
@@ -20009,17 +20046,6 @@
       "stockAfter": 4,
       "catKey": "chatgpt",
       "msgKey": "🛍️[BHF]ChatgptPlus1ThángAccCấp💲Giá:210.000VND💚Tồnkho:4tàikhoản📊Đãbán:235tàikhoản"
-    },
-    {
-      "id": "hist-1793806077832",
-      "time": "22:27 - 04/11/2026",
-      "name": "KASPERSKY PLUS + VPN 1 NĂM (BH 300 ngày)",
-      "bot": "taphoathomap_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 15,
-      "catKey": "kaspersky",
-      "msgKey": "⭐KASPERSKYPLUS+VPN1NĂM(BH300ngày)➕Thêm:15📦Tồnkhohiệntại:15💰Giá:115.000đ"
     }
   ],
   "vidiq": {
