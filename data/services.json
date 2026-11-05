@@ -12605,6 +12605,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793881865730",
+        "name": "Capcut 7D BH 5 ngày",
+        "price": 20000,
+        "cost_price": 10000,
+        "stock": 15,
+        "stock_text": "Còn 15",
+        "duration": "7 Ngày",
+        "detail": "Capcut Pro 1. Định dạng tài khoản: Email | Mật khẩu 2. Login bằng điện thoại: Mở app, chọn Sign in with Email. 3. Login bằng PC: Sau khi login vào điện thoại thì tiến hành quét mã QR để đăng nhập cho PC. - iOS: Ngay trong Capcut mục TÔI > Quét QR. - Android: Phải cập nhật Capcut lên bản mới nhất mới có tính năng quét QR trong app.\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 15,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "19:31 05/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 10000,
+          "stock": 15
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -19460,6 +19486,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793881865730",
+      "time": "19:31 - 05/11/2026",
+      "name": "Capcut 7D BH 5 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 15,
+      "catKey": "capcut",
+      "msgKey": "✂️Capcut7DBH5ngày➕Thêm:5📦Tồnkhohiệntại:15💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1793881714082",
       "time": "19:28 - 05/11/2026",
       "name": "Photoroom Max 7 Ngày BHF",
@@ -20547,17 +20584,6 @@
       "stockAfter": 56,
       "catKey": "gmail",
       "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:14📦Tồnkhohiệntại:8💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793864708115",
-      "time": "14:45 - 05/11/2026",
-      "name": "ADMIN YTB PREMIUM  5 SLOT 1 THÁNG BẢO HÀNH FULL",
-      "bot": "ntnshopre_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 66,
-      "catKey": "youtube",
-      "msgKey": "▶️ADMINYTBPREMIUM5SLOT1THÁNGBẢOHÀNHFULL💰Giá:45k📦Tồnkho:66tàikhoản📊Đãbán:46tàikho"
     }
   ],
   "vidiq": {
