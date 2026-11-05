@@ -4892,22 +4892,22 @@
         "name": "GPT GO 1 THÁNG ( BH 20 NGÀY )",
         "price": 130000,
         "cost_price": 110000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "Gói GPT GO 1 THÁNG ( BH 20 NGÀY ) bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 20,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "22:57 05/11/2026"
+            "updated": "01:16 06/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 110000,
-          "stock": 10
+          "stock": 20
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -19743,6 +19743,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793902619601",
+      "time": "01:16 - 06/11/2026",
+      "name": "GPT GO 1 THÁNG ( BH 20 NGÀY )",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 20,
+      "catKey": "chatgpt",
+      "msgKey": "🤖GPTGO1THÁNG(BH20NGÀY)💰Giá:110k📦Tồnkho:20tàikhoản📊Đãbán:400tàikhoản✏️Vuilòngnhập"
+    },
+    {
       "id": "hist-1793902127280",
       "time": "01:08 - 06/11/2026",
       "name": "Meitu SVip+ 7 Ngày BHF",
@@ -20830,17 +20841,6 @@
       "stockAfter": 197,
       "catKey": "youtube",
       "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:198📦Tồnkhohiệntại:197💰Giá:46.000đ"
-    },
-    {
-      "id": "hist-1793889184223",
-      "time": "21:33 - 05/11/2026",
-      "name": "ChatGPT Plus 1 Tháng (Codex Full ) BHF",
-      "bot": "sieuthistore_bot",
-      "price": 260000,
-      "costPrice": 230000,
-      "stockAfter": 9,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1Tháng(CodexFull)BHF➕Thêm:8📦Tồnkhohiệntại:9💰Giá:230.000đ"
     }
   ],
   "vidiq": {
