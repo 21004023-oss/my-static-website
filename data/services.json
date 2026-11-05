@@ -7784,16 +7784,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 18,
-        "stock_text": "Còn 18",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 18,
+            "stock": 30,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "16:25 05/11/2026"
+            "updated": "18:29 05/11/2026"
           }
         },
         "hidden": false,
@@ -7801,7 +7801,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 18
+          "stock": 30
         },
         "needs_review": false
       },
@@ -19460,6 +19460,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793878149692",
+      "time": "18:29 - 05/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 30,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:13📦Tồnkhohiệntại:30💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793878015439",
       "time": "18:26 - 05/11/2026",
       "name": "Grammarly AI Pro 1 Tháng BHF",
@@ -20547,17 +20558,6 @@
       "stockAfter": 107,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1thángKBH➕Thêm:6📦Tồnkhohiệntại:107💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1793860987437",
-      "time": "13:43 - 05/11/2026",
-      "name": "Kling 790-1k Credit 1 tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 1,
-      "catKey": "kling",
-      "msgKey": "🎬Kling790-1kCredit1thángBH1Ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:180.000đ"
     }
   ],
   "vidiq": {
