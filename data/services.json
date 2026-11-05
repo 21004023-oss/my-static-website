@@ -18190,10 +18190,10 @@
       {
         "id": "p-1793199967176",
         "name": "GALAXY PLAY SIÊU VIỆT 3 THÁNG BHF",
-        "price": 130000,
+        "price": 150000,
         "cost_price": 95000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "3 Tháng",
         "detail": "1 Slot galaxy play Siêu Việt xem phim bộ + phim thuê châu á\nĐăng nhập và xem trên 1 thiết bị\nKhông đổi pass, pin và tên profile\nBảo hành 90 ngày\n✏️",
         "sources": {
@@ -18208,6 +18208,12 @@
             "cost_price": 95000,
             "selling_price": 105000,
             "updated": "22:09 28/10/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 1,
+            "cost_price": 130000,
+            "selling_price": 150000,
+            "updated": "23:32 05/11/2026"
           }
         },
         "cheapest_source": {
@@ -19659,6 +19665,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793896325253",
+      "time": "23:32 - 05/11/2026",
+      "name": "Galaxy Play Siêu Việt 90 ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 5,
+      "catKey": "khac",
+      "msgKey": "⭐GalaxyPlaySiêuViệt90ngàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1793896121399",
       "time": "23:28 - 05/11/2026",
       "name": "⚡️ Grok Plus 7 ngày -  BH 1 Ngày",
@@ -20746,17 +20763,6 @@
       "stockAfter": 102,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:50📦Tồnkhohiệntại:59💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1793880600216",
-      "time": "19:10 - 05/11/2026",
-      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 240000,
-      "costPrice": 210000,
-      "stockAfter": 54,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:10📦Tồnkhohiệntại:22💰Giá:210.000đ"
     }
   ],
   "vidiq": {
