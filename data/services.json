@@ -7752,8 +7752,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 109000,
-        "stock": 16,
-        "stock_text": "Còn 16",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -7764,10 +7764,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 14,
+            "stock": 18,
             "cost_price": 109000,
             "selling_price": 129000,
-            "updated": "14:05 05/11/2026"
+            "updated": "15:33 05/11/2026"
           }
         },
         "hidden": false,
@@ -7776,7 +7776,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 109000,
-          "stock": 14
+          "stock": 18
         }
       },
       {
@@ -19374,6 +19374,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793867601273",
+      "time": "15:33 - 05/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 129000,
+      "costPrice": 109000,
+      "stockAfter": 20,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:5📦Tồnkhohiệntại:18💰Giá:109.000đ"
+    },
+    {
       "id": "hist-1793867596491",
       "time": "15:33 - 05/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -20461,17 +20472,6 @@
       "stockAfter": 100,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGemini18Tháng(BH3H)➕Thêm:100📦Tồnkhohiệntại:100💰Giá:42.000đ"
-    },
-    {
-      "id": "hist-1793851312472",
-      "time": "11:01 - 05/11/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 40,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:9📦Tồnkhohiệntại:20💰Giá:15.000đ"
     }
   ],
   "vidiq": {
