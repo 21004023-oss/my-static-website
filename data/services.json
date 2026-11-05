@@ -8004,8 +8004,8 @@
         "name": "Grok Super 1 ngày KBH",
         "price": 140000,
         "cost_price": 110000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Ngày",
         "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua\n✏️",
         "sources": {
@@ -8016,16 +8016,16 @@
             "updated": "13:08 02/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 9,
+            "stock": 2,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "11:23 05/11/2026"
+            "updated": "14:04 05/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 110000,
-          "stock": 9
+          "stock": 2
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -19336,6 +19336,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793862251466",
+      "time": "14:04 - 05/11/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 8,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:3📦Tồnkhohiệntại:2💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793862229475",
       "time": "14:03 - 05/11/2026",
       "name": "Muse Ai 31 tỷ Token ( BH 24h)",
@@ -20423,17 +20434,6 @@
       "stockAfter": 6,
       "catKey": "surfshark",
       "msgKey": "🦈SurfsharkVPNRandom5-7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:6💰Giá:12.222đ"
-    },
-    {
-      "id": "hist-1793844647576",
-      "time": "09:10 - 05/11/2026",
-      "name": "🔥VIP . Chatgpt Plus Apple 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 190000,
-      "costPrice": 170000,
-      "stockAfter": 22,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥VIP.ChatgptPlusApple1thángBHF➕Thêm:7📦Tồnkhohiệntại:22💰Giá:170.000đ"
     }
   ],
   "vidiq": {
