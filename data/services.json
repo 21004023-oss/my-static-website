@@ -6823,22 +6823,22 @@
         "name": "Link Gemini 18 Tháng ( BH 3H )",
         "price": 80000,
         "cost_price": 42000,
-        "stock": 26,
-        "stock_text": "Còn 26",
+        "stock": 100,
+        "stock_text": "Còn 100",
         "duration": "1 Tháng",
         "detail": "Gói Link Gemini 18 Tháng ( BH 3H ) bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 26,
+            "stock": 100,
             "cost_price": 42000,
             "selling_price": 52000,
-            "updated": "01:19 05/11/2026"
+            "updated": "11:07 05/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 42000,
-          "stock": 26
+          "stock": 100
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -19206,6 +19206,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793851634042",
+      "time": "11:07 - 05/11/2026",
+      "name": "Link Gemini 18 Tháng ( BH 3H )",
+      "bot": "taphoathomap_bot",
+      "price": 52000,
+      "costPrice": 42000,
+      "stockAfter": 100,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGemini18Tháng(BH3H)➕Thêm:100📦Tồnkhohiệntại:100💰Giá:42.000đ"
+    },
+    {
       "id": "hist-1793851312472",
       "time": "11:01 - 05/11/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -20293,17 +20304,6 @@
       "stockAfter": 26,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGemini18Tháng(BH3H)➕Thêm:24📦Tồnkhohiệntại:26💰Giá:42.000đ"
-    },
-    {
-      "id": "hist-1793816024719",
-      "time": "01:13 - 05/11/2026",
-      "name": "HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 750000,
-      "costPrice": 650000,
-      "stockAfter": 3,
-      "catKey": "khac",
-      "msgKey": "🎬HIGGPlus600-700CRE1ThángBH3ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:650.000đ"
     }
   ],
   "vidiq": {
