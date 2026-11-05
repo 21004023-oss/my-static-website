@@ -7862,8 +7862,8 @@
         "name": "Grok Super 1 ngày KBH",
         "price": 140000,
         "cost_price": 110000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 13,
+        "stock_text": "Còn 13",
         "duration": "1 Ngày",
         "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua\n✏️",
         "sources": {
@@ -7874,16 +7874,16 @@
             "updated": "13:08 02/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 7,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "08:05 05/11/2026"
+            "updated": "08:54 05/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 110000,
-          "stock": 5
+          "stock": 7
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -19032,6 +19032,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793843683731",
+      "time": "08:54 - 05/11/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 13,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:5📦Tồnkhohiệntại:7💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793843677196",
       "time": "08:54 - 05/11/2026",
       "name": "Gói VIP 3. API MUSE - Tạo 6250 video - 1 tháng BH 15 Ngày",
@@ -20119,17 +20130,6 @@
       "stockAfter": 2,
       "catKey": "khac",
       "msgKey": "⭐GalaxyPlayCaoCấp30ngàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1793807634125",
-      "time": "22:53 - 04/11/2026",
-      "name": "Galaxy Play VIP 30 ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "msgKey": "⭐GalaxyPlayVIP30ngàyBHF💰Giá:50k📦Tồnkho:1tàikhoản📊Đãbán:56tàikhoản💎Môtả:1Slotgala"
     }
   ],
   "vidiq": {
