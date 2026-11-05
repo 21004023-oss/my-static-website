@@ -10780,6 +10780,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793843677196",
+        "name": "Gói VIP 3. API MUSE - Tạo 6250 video - 1 tháng BH 15 Ngày",
+        "price": 910000,
+        "cost_price": 810000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "🎬 API MUSE VIP 3 – AI VIDEO GENERATOR\n💎 THÔNG TIN GÓI\n• 10s: 6250 video | 20s: 3125 video\n• 30s: 2083 video | 60s: 1041 video\n• Chất lượng 720p | Khung hình 16:9 & 9:16\n🚀 TÍNH NĂNG\n• Text-to-Video & Image-to-Video\n• Tạo tối đa 8 video đồng thời\n• Tùy chọn thời lượng 10s – 60s\n• Sử dụng trực tiếp trên website\n⚠️ LƯU Ý\n• Video dài tiêu hao nhiều lượt hơn\n• Video thành công mới trừ số dư\n• Không bảo hành số video chưa sử dụng khi gói hết hạn\n• Key lỗi: Hoàn tiền theo số dư chưa dùng (trong thời hạn gói)\n• Tốc độ xử lý phụ thuộc hệ thống\n🌐 https://muse.careflow-demo.online/playground\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 3,
+            "cost_price": 810000,
+            "selling_price": 910000,
+            "updated": "08:54 05/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 810000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -19006,6 +19032,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793843677196",
+      "time": "08:54 - 05/11/2026",
+      "name": "Gói VIP 3. API MUSE - Tạo 6250 video - 1 tháng BH 15 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 910000,
+      "costPrice": 810000,
+      "stockAfter": 3,
+      "catKey": "muse-ai",
+      "msgKey": "⭐GóiVIP3.APIMUSE-Tạo6250video-1thángBH15Ngày➕Thêm:3📦Tồnkhohiệntại:3💰Giá:810.000đ"
+    },
+    {
       "id": "hist-1793843559661",
       "time": "08:52 - 05/11/2026",
       "name": "VIP PRO – KEY Tạo Ảnh 2K + 16660 Video 720P - 1 Tháng  BH 15 Ngày",
@@ -20093,17 +20130,6 @@
       "stockAfter": 2,
       "catKey": "khac",
       "msgKey": "⭐GalaxyPlayVIP30ngàyBHF💰Giá:50k📦Tồnkho:1tàikhoản📊Đãbán:56tàikhoản💎Môtả:1Slotgala"
-    },
-    {
-      "id": "hist-1793807629418",
-      "time": "22:53 - 04/11/2026",
-      "name": "Galaxy Play VIP 30 ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "msgKey": "⭐GalaxyPlayVIP30ngàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:50.000đ"
     }
   ],
   "vidiq": {
