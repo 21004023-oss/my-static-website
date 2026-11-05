@@ -4886,6 +4886,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793857668050",
+        "name": "GPT GO 1 THÁNG ( BH 20 NGÀY )",
+        "price": 130000,
+        "cost_price": 110000,
+        "stock": 12,
+        "stock_text": "Còn 12",
+        "duration": "1 Tháng",
+        "detail": "Gói GPT GO 1 THÁNG ( BH 20 NGÀY ) bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 12,
+            "cost_price": 110000,
+            "selling_price": 130000,
+            "updated": "12:47 05/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 110000,
+          "stock": 12
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -19258,6 +19284,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793857668050",
+      "time": "12:47 - 05/11/2026",
+      "name": "GPT GO 1 THÁNG ( BH 20 NGÀY )",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 12,
+      "catKey": "chatgpt",
+      "msgKey": "🤖GPTGO1THÁNG(BH20NGÀY)💰Giá:110k📦Tồnkho:12tàikhoản📊Đãbán:385tàikhoản✏️Vuilòngnhập"
+    },
+    {
       "id": "hist-1793857561760",
       "time": "12:46 - 05/11/2026",
       "name": "Slot Veo3 Ultra Chung 10K Credits 1 tháng BHF",
@@ -20345,17 +20382,6 @@
       "stockAfter": 405,
       "catKey": "capcut",
       "msgKey": "✂️CapcutPro500credit7DBH6D➕Thêm:398📦Tồnkhohiệntại:398💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1793841635108",
-      "time": "08:20 - 05/11/2026",
-      "name": "CapCut Pro Team 3 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 175000,
-      "costPrice": 155000,
-      "stockAfter": 11,
-      "catKey": "capcut",
-      "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:1📦Tồnkhohiệntại:4💰Giá:155.000đ"
     }
   ],
   "vidiq": {
