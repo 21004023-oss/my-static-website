@@ -4912,6 +4912,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793892181448",
+        "name": "Chat GPT Plus dùng chung 30 ngày BHF",
+        "price": 105000,
+        "cost_price": 95000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản dùng chung với 3 khách khác\nChỉ dùng 1-2 thiết bị để ổn định hơn\nBảo hành full time\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 95000,
+            "selling_price": 105000,
+            "updated": "22:23 05/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 95000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -19602,6 +19628,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793892181448",
+      "time": "22:23 - 05/11/2026",
+      "name": "Chat GPT Plus dùng chung 30 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 2,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlusdùngchung30ngàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1793891896985",
       "time": "22:18 - 05/11/2026",
       "name": "Seedance 2.5 22k8 credit 1th BH 30D",
@@ -20689,17 +20726,6 @@
       "stockAfter": 6,
       "catKey": "khac",
       "msgKey": "⭐DreaminaUS8k6credit7ngàyBH3D➕Thêm:2📦Tồnkhohiệntại:6💰Giá:800.000đ"
-    },
-    {
-      "id": "hist-1793875126924",
-      "time": "17:38 - 05/11/2026",
-      "name": "Gmail USA new",
-      "bot": "piggyai99_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 98,
-      "catKey": "gmail",
-      "msgKey": "📧GmailUSAnew➕Thêm:30📦Tồnkhohiệntại:30💰Giá:25.000đ"
     }
   ],
   "vidiq": {
