@@ -16177,6 +16177,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793840735327",
+        "name": "Gmail New 2FA",
+        "price": 31875,
+        "cost_price": 21875,
+        "stock": 528,
+        "stock_text": "Còn 528",
+        "duration": "1 Tháng",
+        "detail": "Gmail New 2FA : nhập đoạn ký tự vào 2fa.live để lấy mã\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–528):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 528,
+            "cost_price": 21875,
+            "selling_price": 31875,
+            "updated": "08:05 05/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 21875,
+          "stock": 528
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -18896,6 +18922,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793840735327",
+      "time": "08:05 - 05/11/2026",
+      "name": "Gmail New 2FA",
+      "bot": "khommo_market_bot",
+      "price": 31875,
+      "costPrice": 21875,
+      "stockAfter": 528,
+      "catKey": "gmail",
+      "msgKey": "🛍️GmailNew2FA💲Giá:21.875VND💚Tồnkho:528tàikhoản📊Đãbán:2970tàikhoản💧Môtả:GmailNew2"
+    },
+    {
       "id": "hist-1793840730124",
       "time": "08:05 - 05/11/2026",
       "name": "Grok Super 1 ngày KBH",
@@ -19983,17 +20020,6 @@
       "stockAfter": 15,
       "catKey": "kaspersky",
       "msgKey": "⭐KASPERSKYPLUS+VPN1NĂM(BH300ngày)➕Thêm:15📦Tồnkhohiệntại:15💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1793805945752",
-      "time": "22:25 - 04/11/2026",
-      "name": "🔥VIP . Chatgpt Plus Apple 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 190000,
-      "costPrice": 170000,
-      "stockAfter": 117,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥VIP.ChatgptPlusApple1thángBHF➕Thêm:117📦Tồnkhohiệntại:117💰Giá:170.000đ"
     }
   ],
   "vidiq": {
