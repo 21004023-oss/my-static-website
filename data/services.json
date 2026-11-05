@@ -574,6 +574,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 50000
         }
+      },
+      {
+        "id": "p-1793846040636",
+        "name": "Youku Vip 30 ngày BHF",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản youku vip dùng 1 thiết bị (1 slot)\nKhách hàng được đăng nhập tối đa 2 thiết bị, và xem 1 thiết bị đồng thời\nBảo hành toàn thời gian đăng ký\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "09:34 05/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 25000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -19116,6 +19142,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793846040636",
+      "time": "09:34 - 05/11/2026",
+      "name": "Youku Vip 30 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 3,
+      "catKey": "youku",
+      "msgKey": "⭐YoukuVip30ngàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1793845947727",
       "time": "09:32 - 05/11/2026",
       "name": "🔥VIP . Chatgpt Plus Apple 1 tháng BHF",
@@ -20203,17 +20240,6 @@
       "stockAfter": 129,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:26📦Tồnkhohiệntại:129💰Giá:200.00"
-    },
-    {
-      "id": "hist-1793810853660",
-      "time": "23:47 - 04/11/2026",
-      "name": "KEY HMA AND/PC 20-30 DAYS",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 142,
-      "catKey": "hma-vpn",
-      "msgKey": "⭐KEYHMAAND/PC20-30DAYS➕Thêm:66📦Tồnkhohiệntại:71💰Giá:15.000đ"
     }
   ],
   "vidiq": {
