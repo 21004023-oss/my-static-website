@@ -13477,8 +13477,8 @@
         "id": "p-1792061006617",
         "name": "Wink VIP 30 ngày BHF",
         "price": 100000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "Mở khóa full kho công cụ làm đẹp AI, tính năng làm nét video, xóa vật thể nâng cao, hiệu ứng chuyển cảnh VIP, xuất file chất lượng cao không logo\nLưu ý:\nTài khoản chỉ dành cho IOS\nĐăng nhập trong ngày, qua ngày mới đăng nhập từ chối bảo hành\nDùng trên 1 thiết bị, không đăng xuất, không chia sẻ tài khoản. Vi phạm từ chối bảo hành.\n✏️",
         "sources": {
@@ -13489,10 +13489,10 @@
             "updated": "18:17 05/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 10,
             "cost_price": 70000,
             "selling_price": 80000,
-            "updated": "13:11 05/11/2026"
+            "updated": "18:17 05/11/2026"
           }
         },
         "hidden": false,
@@ -13501,7 +13501,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 70000,
-          "stock": 4
+          "stock": 10
         },
         "needs_review": false
       },
@@ -19460,6 +19460,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793877440841",
+      "time": "18:17 - 05/11/2026",
+      "name": "Wink Vip 30D BHF",
+      "bot": "taphoathomap_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 20,
+      "catKey": "wink",
+      "msgKey": "⭐WinkVip30DBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793877434377",
       "time": "18:17 - 05/11/2026",
       "name": "Wink Vip 30 Ngày BHF",
@@ -20547,17 +20558,6 @@
       "stockAfter": 20,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi31tỷToken(BH24h)💰Giá:30k📦Tồnkho:20tàikhoản📊Đãbán:5tàikhoản✏️Vuilòngnhậpsố"
-    },
-    {
-      "id": "hist-1793859112616",
-      "time": "13:11 - 05/11/2026",
-      "name": "Wink Vip 30D BHF",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 8,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVip30DBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:70.000đ"
     }
   ],
   "vidiq": {
