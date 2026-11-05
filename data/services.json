@@ -10443,25 +10443,33 @@
         "id": "p-1792229136900",
         "name": "Muse AI 31 Tỷ Token 1 tháng KBH",
         "price": 190000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 49,
+        "stock_text": "Còn 49",
         "duration": "1 Tháng",
-        "detail": "📋 Thông tin sản phẩm:\n- Sản phẩm: Muse AI 31 Tỷ Token\n- Chính sách: bảo hành 1h kể từ khi nhận hàng\n- Định dạng bàn giao: Email | Link đọc mail lấy OTP\n📖 HƯỚNG DẪN ĐĂNG NHẬP:\n1. Truy cập trang chủ: https://muse.ai\n2. Chọn \"Log in / Sign in\" -> Điền địa chỉ Email đã được cấp để nhận mã/link đăng nhập.\n3. Mở liên kết đọc mail đính kèm (nếu acc là định dạng hotmail/outlook thì hãy vào web https://dongvanfb.net/read_mail_box/ paste toàn bộ thông tin tài khoản rồi ấn đọc mail)\n4. Mở thư mới nhất từ Muse AI để lấy mã xác nhận (OTP) hoặc nhấn link đăng nhập là xong!",
+        "detail": "ĐỊNH DẠNG   : Mail | Link lấy OTP\nHƯỚNG DẪN ĐĂNG NHẬP MUSE AI:\n👉 Bước 1: Vào https://muse.ai/ nhập Mail được cấp sau đó bấm Tiếp tục\n👉 Bước 2: Dán Link Lấy OTP đi kèm mỗi tài khoản vào trình duyệt để lấy mã OTP\n👉 Bước 3: Nhập mã OTP vào Muse AI để hoàn tất đăng nhập\n✏️",
         "sources": {
           "sieuthistore_bot": {
             "stock": 10,
             "cost_price": 170000,
             "updated": "16:25 17/10/2026",
             "selling_price": 190000
+          },
+          "taphoathomap_bot": {
+            "stock": 39,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "16:18 05/11/2026"
           }
         },
         "hidden": false,
-        "cost_price": 11000,
+        "cost_price": 40000,
         "cheapest_source": {
-          "bot": "@KhoMMO_Market_bot",
-          "cost_price": 11000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 40000,
+          "stock": 39
         },
-        "import_note": "🛒 @KhoMMO_Market_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792230098849",
@@ -19374,6 +19382,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793870308177",
+      "time": "16:18 - 05/11/2026",
+      "name": "Muse Ai 31 tỷ Token ( KBH )",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 49,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAi31tỷToken(KBH)➕Thêm:40📦Tồnkhohiệntại:39💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1793870297363",
       "time": "16:18 - 05/11/2026",
       "name": "Muse Ai 31 tỷ Token ( BH 24h)",
@@ -20461,17 +20480,6 @@
       "stockAfter": 223,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:57📦Tồnkhohiệntại:175💰Giá:220.000đ"
-    },
-    {
-      "id": "hist-1793854877029",
-      "time": "12:01 - 05/11/2026",
-      "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 220000,
-      "costPrice": 200000,
-      "stockAfter": 175,
-      "catKey": "chatgpt",
-      "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:5📦Tồnkhohiệntại:175💰Giá:200.000"
     }
   ],
   "vidiq": {
