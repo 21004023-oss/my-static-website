@@ -8004,8 +8004,8 @@
         "name": "Grok Super 1 ngày KBH",
         "price": 140000,
         "cost_price": 110000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 13,
+        "stock_text": "Còn 13",
         "duration": "1 Ngày",
         "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua\n✏️",
         "sources": {
@@ -8016,16 +8016,16 @@
             "updated": "13:08 02/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 7,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "15:28 05/11/2026"
+            "updated": "15:36 05/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 110000,
-          "stock": 1
+          "stock": 7
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -19374,6 +19374,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793867778988",
+      "time": "15:36 - 05/11/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 13,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:6📦Tồnkhohiệntại:7💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1793867605987",
       "time": "15:33 - 05/11/2026",
       "name": "Grok Plus 30 ngày KBH",
@@ -20461,17 +20472,6 @@
       "stockAfter": 235,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:89📦Tồnkhohiệntại:89💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1793852264349",
-      "time": "11:17 - 05/11/2026",
-      "name": "Gmail (New) -Login All",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 209,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:89📦Tồnkhohiệntại:89💰Giá:35.000đ"
     }
   ],
   "vidiq": {
