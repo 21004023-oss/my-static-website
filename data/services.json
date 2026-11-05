@@ -11339,8 +11339,8 @@
         "id": "p-1791927829837",
         "name": "Redeem Notion Business 3 tháng BHF",
         "price": 240000,
-        "stock": 18,
-        "stock_text": "Còn 18",
+        "stock": 24,
+        "stock_text": "Còn 24",
         "duration": "3 Tháng",
         "detail": "-Code nhận gói Notion Business,không phải slot Team\n-Định dạng: Link nhận gói\n-Hạn gói: 3 tháng\n-Bảo hành: 3 tháng\n-Lưu Ý: Code chỉ áp dụng cho Work Space chưa nâng lần nào và gói chỉ áp dụng được cho 1 thành viên.\n✏️",
         "cost_price": 190000,
@@ -11352,10 +11352,10 @@
             "updated": "22:49 05/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 6,
+            "stock": 12,
             "cost_price": 190000,
             "selling_price": 210000,
-            "updated": "12:42 18/10/2026"
+            "updated": "22:49 05/11/2026"
           }
         },
         "needs_review": false,
@@ -11364,7 +11364,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 190000,
-          "stock": 6
+          "stock": 12
         }
       },
       {
@@ -19630,6 +19630,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793893785666",
+      "time": "22:49 - 05/11/2026",
+      "name": "Redeem Notion Business 3 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 210000,
+      "costPrice": 190000,
+      "stockAfter": 24,
+      "catKey": "notion",
+      "msgKey": "⭐RedeemNotionBusiness3thángBHF➕Thêm:10📦Tồnkhohiệntại:12💰Giá:190.000đ"
+    },
+    {
       "id": "hist-1793893779801",
       "time": "22:49 - 05/11/2026",
       "name": "Redeem Notion Business 3 tháng BHF",
@@ -20717,17 +20728,6 @@
       "stockAfter": 20,
       "catKey": "wink",
       "msgKey": "⭐WinkVip30NgàyBHF➕Thêm:3📦Tồnkhohiệntại:10💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1793877602172",
-      "time": "18:20 - 05/11/2026",
-      "name": "Wink Vip 30D BHF",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 20,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVip30DBHF➕Thêm:2📦Tồnkhohiệntại:10💰Giá:70.000đ"
     }
   ],
   "vidiq": {
