@@ -7784,16 +7784,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 18,
-        "stock_text": "Còn 18",
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 18,
+            "stock": 14,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "12:37 05/11/2026"
+            "updated": "13:55 05/11/2026"
           }
         },
         "hidden": false,
@@ -7801,7 +7801,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 18
+          "stock": 14
         },
         "needs_review": false
       },
@@ -19336,6 +19336,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793861706477",
+      "time": "13:55 - 05/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 14,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:4📦Tồnkhohiệntại:14💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793861368746",
       "time": "13:49 - 05/11/2026",
       "name": "API Cursor Pro 6500 Credits 1 tháng BHF",
@@ -20423,17 +20434,6 @@
       "stockAfter": 304,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTOfferTrialPlus1tháng(ChưaPay)💰Giá:15k📦Tồnkho:304tàikhoản📊Đãbán:11.235tài"
-    },
-    {
-      "id": "hist-1793844160998",
-      "time": "09:02 - 05/11/2026",
-      "name": "ChatGPT Offer Trial Plus 1 tháng (Chưa Pay)",
-      "bot": "sieuthistore_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 304,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTOfferTrialPlus1tháng(ChưaPay)➕Thêm:230📦Tồnkhohiệntại:304💰Giá:15.000đ"
     }
   ],
   "vidiq": {
