@@ -8354,16 +8354,16 @@
         "id": "p-1792171955948",
         "name": "Kling 790-1k Credit 1 tháng BH 1 Ngày",
         "price": 200000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "detail": "ACC KLING STAND RANDOM 700-750 CREDITS\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 1,
             "cost_price": 180000,
             "selling_price": 200000,
-            "updated": "04:22 30/10/2026"
+            "updated": "13:43 05/11/2026"
           }
         },
         "hidden": false,
@@ -8373,7 +8373,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 180000,
-          "stock": 2
+          "stock": 1
         }
       },
       {
@@ -19336,6 +19336,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793860987437",
+      "time": "13:43 - 05/11/2026",
+      "name": "Kling 790-1k Credit 1 tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 1,
+      "catKey": "kling",
+      "msgKey": "🎬Kling790-1kCredit1thángBH1Ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1793860797709",
       "time": "13:39 - 05/11/2026",
       "name": "🔥Link Gemini Pro 5TB 3 Tháng - BH 24h",
@@ -20423,17 +20434,6 @@
       "stockAfter": 12,
       "catKey": "muse-ai",
       "msgKey": "⭐GóiVIP3.APIMUSE-Tạo6250video-1thángBH15Ngày➕Thêm:3📦Tồnkhohiệntại:6💰Giá:810.000đ"
-    },
-    {
-      "id": "hist-1793844011454",
-      "time": "09:00 - 05/11/2026",
-      "name": "Gói VIP 3. API MUSE - Tạo 6250 video - 1 tháng BH 15 Ngày",
-      "bot": "taphoathomap_bot",
-      "price": 800000,
-      "costPrice": 700000,
-      "stockAfter": 9,
-      "catKey": "muse-ai",
-      "msgKey": "⭐GóiVIP3.APIMUSE-Tạo6250video-1thángBH15Ngày➕Thêm:3📦Tồnkhohiệntại:6💰Giá:700.000đ"
     }
   ],
   "vidiq": {
