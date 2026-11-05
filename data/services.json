@@ -14099,8 +14099,8 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 40000,
         "cost_price": 15000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "3 Ngày",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/\n✏️",
         "sources": {
@@ -14111,10 +14111,10 @@
             "updated": "21:37 05/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 2,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "19:40 05/11/2026"
+            "updated": "21:37 05/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 5,
@@ -14128,7 +14128,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 5
+          "stock": 2
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -19602,6 +19602,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793889475404",
+      "time": "21:37 - 05/11/2026",
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 9,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:5📦Tồnkhohiệntại:2💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793889468805",
       "time": "21:37 - 05/11/2026",
       "name": "Express VPN 3 Ngày BHF",
@@ -20689,17 +20700,6 @@
       "stockAfter": 150,
       "catKey": "chatgpt",
       "msgKey": "🤖[CDK]ThuêSốOTPCodex/GPT30DBH24H➕Thêm:2📦Tồnkhohiệntại:150💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1793873112686",
-      "time": "17:05 - 05/11/2026",
-      "name": "CAPCUT TEAM 6 THÁNG  BHF",
-      "bot": "taphoathomap_bot",
-      "price": 320000,
-      "costPrice": 290000,
-      "stockAfter": 8,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTTEAM6THÁNGBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:290.000đ"
     }
   ],
   "vidiq": {
