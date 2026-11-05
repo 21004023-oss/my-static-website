@@ -12493,10 +12493,10 @@
         "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
         "price": 50000,
         "cost_price": 40000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
-        "detail": "Ko bảo hành quá thiết bị\nThay đổi pass vs mail = KBH\n✏️",
+        "detail": "Ko bảo hành quá thiết bị\nThay đổi pass vs mail = KBH",
         "sources": {
           "taphoathomap_bot": {
             "stock": 5,
@@ -12505,10 +12505,10 @@
             "updated": "23:35 04/11/2026"
           },
           "piggyai99_bot": {
-            "stock": 5,
+            "stock": 0,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "21:08 04/11/2026"
+            "updated": "15:38 05/11/2026"
           }
         },
         "cheapest_source": {
@@ -19374,6 +19374,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793867920082",
+      "time": "15:38 - 05/11/2026",
+      "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
+      "bot": "piggyai99_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 5,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN1thBH30D➕Thêm:4📦Tồnkhohiệntại:0💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1793867778988",
       "time": "15:36 - 05/11/2026",
       "name": "Grok Super 1 ngày KBH",
@@ -20461,17 +20472,6 @@
       "stockAfter": 22,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥VIP.ChatgptPlusApple1thángBH24H➕Thêm:8📦Tồnkhohiệntại:22💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1793852270671",
-      "time": "11:17 - 05/11/2026",
-      "name": "Gmail (New) -Login All",
-      "bot": "taphoathomap_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 235,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:89📦Tồnkhohiệntại:89💰Giá:25.000đ"
     }
   ],
   "vidiq": {
