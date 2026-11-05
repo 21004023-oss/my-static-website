@@ -10954,6 +10954,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793858776668",
+        "name": "Muse Ai 31 tỷ Token ( BH 24h)",
+        "price": 40000,
+        "cost_price": 30000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Ngày",
+        "detail": "Gói Muse Ai 31 tỷ Token ( BH 24h) bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "13:06 05/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -19310,6 +19336,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793858776668",
+      "time": "13:06 - 05/11/2026",
+      "name": "Muse Ai 31 tỷ Token ( BH 24h)",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 5,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAi31tỷToken(BH24h)💰Giá:30k📦Tồnkho:5tàikhoản📊Đãbán:0tàikhoản✏️Vuilòngnhậpsốl"
+    },
+    {
       "id": "hist-1793858090490",
       "time": "12:54 - 05/11/2026",
       "name": "Coursera Premium cấp sẵn 12 tháng BH  1 Tháng",
@@ -20397,17 +20434,6 @@
       "stockAfter": 30,
       "catKey": "muse-ai",
       "msgKey": "⭐GóiVIP1.APIMUSE-Tạo333video-1thángBH15Ngày➕Thêm:10📦Tồnkhohiệntại:10💰Giá:100.000"
-    },
-    {
-      "id": "hist-1793842331813",
-      "time": "08:32 - 05/11/2026",
-      "name": "CapCut Pro 7 Ngày  BHF",
-      "bot": "sieuthistore_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 187,
-      "catKey": "capcut",
-      "msgKey": "✂️CapCutPro7NgàyBHF➕Thêm:40📦Tồnkhohiệntại:40💰Giá:15.000đ"
     }
   ],
   "vidiq": {
