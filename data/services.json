@@ -19492,7 +19492,7 @@
         "id": "p-1793840793773",
         "name": "Xác nhận mua",
         "price": 31875,
-        "cost_price": 21875,
+        "cost_price": 6400,
         "stock": 0,
         "stock_text": "Hết hàng",
         "duration": "1 Tháng",
@@ -19500,14 +19500,14 @@
         "sources": {
           "khommo_market_bot": {
             "stock": 0,
-            "cost_price": 21875,
-            "selling_price": 31875,
-            "updated": "08:06 05/11/2026"
+            "cost_price": 6400,
+            "selling_price": 16400,
+            "updated": "21:06 05/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@khommo_market_bot",
-          "cost_price": 21875,
+          "cost_price": 6400,
           "stock": 0
         },
         "import_note": "Nhập: @khommo_market_bot",
@@ -19595,6 +19595,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793887603859",
+      "time": "21:06 - 05/11/2026",
+      "name": "Xác nhận mua",
+      "bot": "khommo_market_bot",
+      "price": 16400,
+      "costPrice": 6400,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "✅XácnhậnmuaBạnđangchuẩnbịmuasảnphẩm:ExpressVPN3ngày.8thiếtbị.Đơngiá:6.400VND.Kho"
+    },
     {
       "id": "hist-1793887596205",
       "time": "21:06 - 05/11/2026",
@@ -20683,17 +20694,6 @@
       "stockAfter": 65,
       "catKey": "gmail",
       "msgKey": "📧GmailRandomip7-10ngày2FA➕Thêm:51📦Tồnkhohiệntại:51💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793870308177",
-      "time": "16:18 - 05/11/2026",
-      "name": "Muse Ai 31 tỷ Token ( KBH )",
-      "bot": "taphoathomap_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 49,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi31tỷToken(KBH)➕Thêm:40📦Tồnkhohiệntại:39💰Giá:40.000đ"
     }
   ],
   "vidiq": {
