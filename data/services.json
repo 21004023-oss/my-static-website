@@ -8067,9 +8067,9 @@
         "id": "p-1793620165899",
         "name": "⚡️ Grok Plus 30 ngày -  BH 7 Ngày",
         "price": 136000,
-        "cost_price": 116000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "cost_price": 105000,
+        "stock": 22,
+        "stock_text": "Còn 22",
         "duration": "1 Tháng",
         "detail": "Định dạng : Email | pass\n🤖 Đặc quyền AI: Grok Chat, Voice, Imagine (tạo ảnh), Build, hỗ trợ Grok API & Cursor.\n🔒 Riêng tư 100%: Tài khoản riêng, bảo mật toàn bộ prompt và dữ liệu.\n⚠️ Lưu ý quan trọng khi sử dụng:\n• CHỈ ĐƯỢC THAY ĐỔI MẬT KHẨU (Password).\n• Tất cả mọi thông tin khác PHẢI GIỮ NGUYÊN để tránh ảnh hưởng tới tài khoản (không đổi mail, username, phương thức liên kết...).\n• Khuyến nghị: Nên giữ nguyên mặc định mọi thứ để tài khoản hoạt động ổn định và tốt nhất.\n⚡️ Bàn giao: Kích hoạt nhanh, bảo hành 1 đổi 1 trọn thời gian 7 ngày\n✏️",
         "sources": {
@@ -8078,14 +8078,20 @@
             "cost_price": 116000,
             "selling_price": 136000,
             "updated": "14:36 05/11/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 11,
+            "cost_price": 105000,
+            "selling_price": 125000,
+            "updated": "14:36 05/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 116000,
+          "bot": "@piggyai99_bot",
+          "cost_price": 105000,
           "stock": 11
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -19362,6 +19368,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793864205236",
+      "time": "14:36 - 05/11/2026",
+      "name": "⚡️ Grok Plus 30 ngày -  BH 7 Ngày",
+      "bot": "piggyai99_bot",
+      "price": 125000,
+      "costPrice": 105000,
+      "stockAfter": 22,
+      "catKey": "grok",
+      "msgKey": "⚡⚡️GrokPlus30ngày-BH7Ngày➕Thêm:10📦Tồnkhohiệntại:11💰Giá:105.000đ"
+    },
+    {
       "id": "hist-1793864200293",
       "time": "14:36 - 05/11/2026",
       "name": "⚡️ Grok Plus 30 ngày -  BH 7 Ngày",
@@ -20449,17 +20466,6 @@
       "stockAfter": 9,
       "catKey": "youku",
       "msgKey": "⭐YoukuVip30ngàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793846045471",
-      "time": "09:34 - 05/11/2026",
-      "name": "Youku Vip 30 ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 6,
-      "catKey": "youku",
-      "msgKey": "⭐YoukuVip30ngàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:50.000đ"
     }
   ],
   "vidiq": {
