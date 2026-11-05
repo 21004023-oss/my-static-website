@@ -11307,10 +11307,10 @@
         "id": "p-1791865931335",
         "name": "Admin Notion Business 1 tháng BHF",
         "price": 160000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
-        "detail": "-Admin Notion Business (tài khoản cấp sẵn-riêng tư).\n-Định dạng: Mail | Pass | Mail Khôi Phục\n- Hàng trial - Không dùng được model\n-Có thể thêm nhiều thành viên cùng sử dụng ưu đãi (20-30 thành viên).\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng.\n-Lưu ý: Sử dụng để Code sẽ bị ban.",
+        "detail": "-Admin Notion Business (tài khoản cấp sẵn-riêng tư).\n-Định dạng: Mail | Pass | Mail Khôi Phục\n- Hàng trial - Không dùng được model\n-Có thể thêm nhiều thành viên cùng sử dụng ưu đãi (20-30 thành viên).\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng.\n-Lưu ý: Sử dụng để Code sẽ bị ban.\n✏️",
         "sources": {
           "sieuthistore_bot": {
             "stock": 1,
@@ -11319,19 +11319,20 @@
             "selling_price": 160000
           },
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 105000,
-            "updated": "04:41 18/10/2026",
-            "selling_price": 125000
+            "selling_price": 125000,
+            "updated": "22:46 05/11/2026"
           }
         },
-        "needs_review": true,
-        "cost_price": 140000,
-        "hidden": true,
-        "import_note": "🛒 @ntnshopre_bot",
+        "needs_review": false,
+        "cost_price": 105000,
+        "hidden": false,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 140000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 105000,
+          "stock": 2
         }
       },
       {
@@ -19628,6 +19629,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793893593604",
+      "time": "22:46 - 05/11/2026",
+      "name": "Admin Notion Business 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 125000,
+      "costPrice": 105000,
+      "stockAfter": 3,
+      "catKey": "notion",
+      "msgKey": "⭐AdminNotionBusiness1thángBHF➕Thêm:3📦Tồnkhohiệntại:2💰Giá:105.000đ"
+    },
+    {
       "id": "hist-1793893119364",
       "time": "22:38 - 05/11/2026",
       "name": "Seedance 2.5 22k8 credit 1th BH 30D",
@@ -20715,17 +20727,6 @@
       "stockAfter": 20,
       "catKey": "wink",
       "msgKey": "⭐WinkVip30NgàyBHF➕Thêm:2📦Tồnkhohiệntại:10💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1793877440841",
-      "time": "18:17 - 05/11/2026",
-      "name": "Wink Vip 30D BHF",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 20,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVip30DBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:70.000đ"
     }
   ],
   "vidiq": {
