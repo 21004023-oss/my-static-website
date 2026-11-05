@@ -8308,6 +8308,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793896831554",
+        "name": "Grok Super 7D BH  5D",
+        "price": 90000,
+        "cost_price": 80000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "7 Ngày",
+        "detail": "💎 Mô tả sản phẩm: • Grok gói Plus hạn sử dụng 7 ngày • Định dạng: Tài khoản | Pass Grok • Bảo hành: BH 5 ngày gói Plus - hàng đã kiểm tra kỹ gói, pass trước khi đưa lên bot - yêu cầu check tài khoản và check gói trong vòng 24h sau khi đơn hàng bán ra. ⚠️ VUI LÒNG ĐỌC KỸ MÔ TẢ TRƯỚC KHI MUA: • Mua về được đổi pass tự bảo quản, bảo mật • Không thay mail, thay = không bảo hành • Không link hoặc gỡ tài khoản khỏi X khỏi google. Link hoặc gỡ sẽ mất gói không bảo hành. • Tài khoản dùng vi phạm chính sách của X dẫn đến bị khóa, mất gói cũng không được bảo hành.\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "23:40 05/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 80000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -19691,6 +19717,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793896831554",
+      "time": "23:40 - 05/11/2026",
+      "name": "Grok Super 7D BH  5D",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 3,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper7DBH5D➕Thêm:3📦Tồnkhohiệntại:3💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1793896637166",
       "time": "23:37 - 05/11/2026",
       "name": "( Gói chính hãng ) ElevanLabs 131K Credit 3 Tháng -  BH 1  tháng",
@@ -20778,17 +20815,6 @@
       "stockAfter": 4,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProTeam6ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:340.000đ"
-    },
-    {
-      "id": "hist-1793882692973",
-      "time": "19:44 - 05/11/2026",
-      "name": "OPENART STARTER 1 THÁNG- [BH 1 NGÀY]",
-      "bot": "taphoathomap_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 8,
-      "catKey": "khac",
-      "msgKey": "⭐OPENARTSTARTER1THÁNG-[BH1NGÀY]➕Thêm:1📦Tồnkhohiệntại:8💰Giá:160.000đ"
     }
   ],
   "vidiq": {
