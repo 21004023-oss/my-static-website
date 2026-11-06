@@ -7597,6 +7597,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793934167200",
+        "name": "GROK ULTRA + Cursor ultra 1 THÁNG - BH 7D",
+        "price": 2000000,
+        "cost_price": 1800000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "- ĐỊNH DẠNG : MAIL|PASS\n- KHÔNG HỦY LIÊN KẾT X ( HỦY LIÊN KẾT = KBH )\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 1,
+            "cost_price": 1800000,
+            "selling_price": 2000000,
+            "updated": "10:02 06/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 1800000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -19951,6 +19977,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793934167200",
+      "time": "10:02 - 06/11/2026",
+      "name": "GROK ULTRA + Cursor ultra 1 THÁNG - BH 7D",
+      "bot": "piggyai99_bot",
+      "price": 2000000,
+      "costPrice": 1800000,
+      "stockAfter": 1,
+      "catKey": "cursor",
+      "msgKey": "⚡GROKULTRA+Cursorultra1THÁNG-BH7D➕Thêm:1📦Tồnkhohiệntại:1💰Giá:1.800.000đ"
+    },
+    {
       "id": "hist-1793934109412",
       "time": "10:01 - 06/11/2026",
       "name": "Zoom Pro 14 Ngày BHF",
@@ -21038,17 +21075,6 @@
       "stockAfter": 29,
       "catKey": "google-veo",
       "msgKey": "☁️🚀TOOLAUTOTẠOGEMINIPRO+5TB|GÓI1NĂMHOẶC2NĂM➕Thêm:29📦Tồnkhohiệntại:29💰Giá:2.000.0"
-    },
-    {
-      "id": "hist-1793903058250",
-      "time": "01:24 - 06/11/2026",
-      "name": "Chatgpt Plus (Apple Pay) 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 67,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF💰Giá:220k📦Tồnkho:19tàikhoản📊Đãbán:7.785tàikhoản💎M"
     }
   ],
   "vidiq": {
