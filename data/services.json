@@ -7426,18 +7426,18 @@
         "id": "api-cursor-400cre",
         "name": "API Cursor Pro 400 Credits/Ngày 1 Tháng BHF",
         "price": 410000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "source": "Key Cursor API",
-        "detail": "Api Cursor Pro hạn sử dụng 1 tháng.\n-Credit: 400 credit/ngày- 1 tháng có 12.000 credits\n-Hạn sử dụng: 1 tháng từ lúc active Key.\n-Bảo hành: 30 ngày.\n-File tài liệu chi tiết về cách sử dụng và setup sản phẩm: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1?usp=drive_link\n-Lưu ý: Sản phẩm là API,không phải tài khoản,không hỗ trợ hoàn trả nếu mua nhầm,không biết sử dụng.",
+        "detail": "Api Cursor Pro hạn sử dụng 1 tháng.\n-Credit: 400 credit/ngày- 1 tháng có 12.000 credits\n-Hạn sử dụng: 1 tháng từ lúc active Key.\n-Bảo hành: 30 ngày.\n-File tài liệu chi tiết về cách sử dụng và setup sản phẩm: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1?usp=drive_link\n-Lưu ý: Sản phẩm là API,không phải tài khoản,không hỗ trợ hoàn trả nếu mua nhầm,không biết sử dụng.\n✏️",
         "cost_price": 309000,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 360000,
             "selling_price": 410000,
-            "updated": "17:09 18/10/2026"
+            "updated": "11:50 06/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 1,
@@ -7452,13 +7452,14 @@
             "updated": "17:09 18/10/2026"
           }
         },
-        "needs_review": true,
-        "hidden": true,
+        "needs_review": false,
+        "hidden": false,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 410000
+          "bot": "@ntnshopre_bot",
+          "cost_price": 309000,
+          "stock": 1
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "Nhập: @ntnshopre_bot"
       },
       {
         "id": "api-cursor-6500cre",
@@ -20061,6 +20062,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793940631278",
+      "time": "11:50 - 06/11/2026",
+      "name": "API Cursor Pro 400 Credits/ngày 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 410000,
+      "costPrice": 360000,
+      "stockAfter": 4,
+      "catKey": "cursor",
+      "msgKey": "🖱️APICursorPro400Credits/ngày1thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:360.000đ"
+    },
+    {
       "id": "hist-1793940366601",
       "time": "11:46 - 06/11/2026",
       "name": "Microsoft 365 Admin Family 1 Tháng BHF",
@@ -21148,17 +21160,6 @@
       "stockAfter": 44,
       "catKey": "microsoft",
       "msgKey": "⭐Microsoft365cánhân1NămBH3tháng➕Thêm:10📦Tồnkhohiệntại:27💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1793919605321",
-      "time": "06:00 - 06/11/2026",
-      "name": "Key Window 10/11 Pro Byphone 20 năm BH 1 năm",
-      "bot": "taphoathomap_bot",
-      "price": 99000,
-      "costPrice": 89000,
-      "stockAfter": 40,
-      "catKey": "khac",
-      "msgKey": "⭐KeyWindow10/11ProByphone20nămBH1năm💰Giá:89k📦Tồnkho:20tàikhoản📊Đãbán:6.969tàikho"
     }
   ],
   "vidiq": {
