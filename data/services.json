@@ -14634,9 +14634,9 @@
         "id": "p-1793968609801",
         "name": "Express VPN 3 Tháng BHF",
         "price": 200000,
-        "cost_price": 180000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "cost_price": 140000,
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "3 Tháng",
         "detail": "- Định dạng: Email | Pass\n- Plan: Random Basic, Advanced, Pro\n- Đăng nhập và sử dụng qua App Express VPN\n✏️",
         "sources": {
@@ -14645,14 +14645,20 @@
             "cost_price": 180000,
             "selling_price": 200000,
             "updated": "19:36 06/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 140000,
+            "selling_price": 160000,
+            "updated": "19:37 06/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 180000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 140000,
           "stock": 5
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -20120,6 +20126,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793968670385",
+      "time": "19:37 - 06/11/2026",
+      "name": "🔥Express VPN 3 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 10,
+      "catKey": "expressvpn",
+      "msgKey": "🚚🔥ExpressVPN3ThángBHF➕Thêm:1📦Tồnkhohiệntại:5💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1793968609801",
       "time": "19:36 - 06/11/2026",
       "name": "Express VPN 3 Tháng BHF",
@@ -21207,17 +21224,6 @@
       "stockAfter": 1,
       "catKey": "capcut",
       "msgKey": "✂️CapcutPro1ThángBH30Ngày💰Giá:60k📦Tồnkho:1tàikhoản📊Đãbán:1.899tàikhoản✏️Vuilòngn"
-    },
-    {
-      "id": "hist-1793946983266",
-      "time": "13:36 - 06/11/2026",
-      "name": "GMAIL US RANDOM DATE 201X- 202X",
-      "bot": "sieuthistore_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 156,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILUSRANDOMDATE201X-202X➕Thêm:1📦Tồnkhohiệntại:60💰Giá:50.000đ"
     }
   ],
   "vidiq": {
