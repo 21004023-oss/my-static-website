@@ -20003,9 +20003,9 @@
         "id": "p-1793934384236",
         "name": "BrainFM 90D - BHF",
         "price": 99000,
-        "cost_price": 89000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "cost_price": 69000,
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "3 Tháng",
         "detail": "- Định dạng: Email | Pass\n- Truy cập link đăng nhập: https://my.brain.fm/signin\n- Mô tả: Brain.fm là nền tảng âm nhạc ứng dụng công nghệ AI kết hợp khoa học thần kinh, thiết kế âm thanh chuyên biệt giúp bạn dễ đi vào trạng thái tập trung sâu, hạn chế xao nhãng và làm việc hiệu quả hơn.\n✅ Hỗ trợ tập trung khi học tập, làm việc, lập trình.\n✅ Âm nhạc không lời, hạn chế gây phân tâm.\n✅ Có chế độ thư giãn, thiền và hỗ trợ giấc ngủ.\n✅ Cá nhân hóa trải nghiệm, tích hợp hẹn giờ Pomodoro.\n✅ Sử dụng trên máy tính và điện thoại.\n✏️",
         "sources": {
@@ -20014,20 +20014,37 @@
             "cost_price": 89000,
             "selling_price": 99000,
             "updated": "10:06 06/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 10,
+            "cost_price": 69000,
+            "selling_price": 79000,
+            "updated": "10:06 06/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 89000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 69000,
           "stock": 10
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793934388632",
+      "time": "10:06 - 06/11/2026",
+      "name": "BrainFM 90D - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 79000,
+      "costPrice": 69000,
+      "stockAfter": 20,
+      "catKey": "khac",
+      "msgKey": "⭐BrainFM90D-BHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:69.000đ"
+    },
     {
       "id": "hist-1793934384236",
       "time": "10:06 - 06/11/2026",
@@ -21116,17 +21133,6 @@
       "stockAfter": 40,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:10📦Tồnkhohiệntại:20💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1793903260161",
-      "time": "01:27 - 06/11/2026",
-      "name": "Scribd Premium 1 Tháng  BHF",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 59,
-      "catKey": "khac",
-      "msgKey": "⭐ScribdPremium1ThángBHF➕Thêm:6📦Tồnkhohiệntại:9💰Giá:45.000đ"
     }
   ],
   "vidiq": {
