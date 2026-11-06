@@ -15514,16 +15514,16 @@
         "id": "p-1792268569370",
         "name": "Admin Microsoft 365 Family 1 Tháng BHF",
         "price": 55000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 12,
+            "stock": 8,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "23:36 04/11/2026"
+            "updated": "11:45 06/11/2026"
           }
         },
         "hidden": false,
@@ -15531,7 +15531,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 45000,
-          "stock": 12
+          "stock": 8
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "needs_review": false
@@ -20061,6 +20061,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793940357388",
+      "time": "11:45 - 06/11/2026",
+      "name": "Admin Microsoft 365 Family 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 8,
+      "catKey": "microsoft",
+      "msgKey": "⭐AdminMicrosoft365Family1ThángBHF➕Thêm:7📦Tồnkhohiệntại:8💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793939998463",
       "time": "11:39 - 06/11/2026",
       "name": "Surfshark VPN One 7 Ngày BHF",
@@ -21148,17 +21159,6 @@
       "stockAfter": 25,
       "catKey": "khac",
       "msgKey": "⭐KeyWindow10/11ProByphone20nămBH1năm➕Thêm:15📦Tồnkhohiệntại:20💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1793919178075",
-      "time": "05:52 - 06/11/2026",
-      "name": "Microsoft 365 cá nhân 1 năm BH 3 tháng",
-      "bot": "taphoathomap_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 34,
-      "catKey": "microsoft",
-      "msgKey": "⭐Microsoft365cánhân1nămBH3tháng💰Giá:40k📦Tồnkho:17tàikhoản📊Đãbán:3.792tàikhoản💎Mô"
     }
   ],
   "vidiq": {
