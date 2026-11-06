@@ -5428,25 +5428,27 @@
         "id": "p-1792161713705",
         "name": "CLAUDE FREE cũ đã tạo hơn 1 tháng tuổi hạn 365 ngày KBH",
         "price": 40000,
-        "stock": 24,
-        "stock_text": "Còn 24",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Năm",
-        "detail": "Định dạng : hotmail|pass\nKHÔNG BẢO HÀNH\nKHÔNG PHẢI TÀI KHOẢN CLAUDE PRO\nKHÔNG PHẢI TÀI KHOẢN CLAUDE MAX\nĐÂY CHỈ LÀ TÀI KHOẢN FREE TẠO SẴN CLAUDE ĐÃ VER SỐ\nTài khoản trên 1 tháng tuổi, chuyên dùng để nâng cấp Claude Pro và Claude Max. Tài khoản có độ ổn định cao, giúp hạn chế tối đa nguy cơ bị khóa (die) sau khi nâng cấp các gói trả phí PRO, MAX",
+        "detail": "Định dạng : hotmail|pass\nKHÔNG BẢO HÀNH\nKHÔNG PHẢI TÀI KHOẢN CLAUDE PRO\nKHÔNG PHẢI TÀI KHOẢN CLAUDE MAX\nĐÂY CHỈ LÀ TÀI KHOẢN FREE TẠO SẴN CLAUDE ĐÃ VER SỐ\nTài khoản trên 1 tháng tuổi, chuyên dùng để nâng cấp Claude Pro và Claude Max. Tài khoản có độ ổn định cao, giúp hạn chế tối đa nguy cơ bị khóa (die) sau khi nâng cấp các gói trả phí PRO, MAX\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 24,
+            "stock": 5,
             "cost_price": 30000,
-            "updated": "21:41 16/10/2026",
-            "selling_price": 40000
+            "selling_price": 40000,
+            "updated": "22:03 06/11/2026"
           }
         },
         "hidden": false,
         "cost_price": 30000,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 45000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
+          "stock": 5
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "needs_review": false
       },
       {
         "id": "p-1792599676011",
@@ -20178,6 +20180,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793977417656",
+      "time": "22:03 - 06/11/2026",
+      "name": "CLAUDE FREE cũ đã tạo hơn 1 tháng tuổi hạn 365 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 5,
+      "catKey": "claude",
+      "msgKey": "🧠CLAUDEFREEcũđãtạohơn1thángtuổihạn365ngàyKBH➕Thêm:5📦Tồnkhohiệntại:5💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793977146243",
       "time": "21:59 - 06/11/2026",
       "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
@@ -21265,17 +21278,6 @@
       "stockAfter": 60,
       "catKey": "gmail",
       "msgKey": "⭐AppleID2FAGmail➕Thêm:13📦Tồnkhohiệntại:14💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1793954697812",
-      "time": "15:44 - 06/11/2026",
-      "name": "Apple ID 2FA Gmail",
-      "bot": "sieuthistore_bot",
-      "price": 59000,
-      "costPrice": 49000,
-      "stockAfter": 78,
-      "catKey": "gmail",
-      "msgKey": "⭐AppleID2FAGmail➕Thêm:13📦Tồnkhohiệntại:14💰Giá:49.000đ"
     }
   ],
   "vidiq": {
