@@ -333,16 +333,16 @@
         "name": "Tài khoản VieON VIP 10 ngày BHF",
         "price": 20000,
         "cost_price": 10000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 1,
             "cost_price": 10000,
             "selling_price": 20000,
-            "updated": "09:22 01/11/2026"
+            "updated": "16:10 06/11/2026"
           }
         },
         "hidden": false,
@@ -350,7 +350,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 10000,
-          "stock": 2
+          "stock": 1
         },
         "needs_review": false
       },
@@ -20094,6 +20094,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793956254351",
+      "time": "16:10 - 06/11/2026",
+      "name": "Tài khoản VieON VIP 10 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 1,
+      "catKey": "vieon",
+      "msgKey": "⭐TàikhoảnVieONVIP10ngàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1793956070661",
       "time": "16:07 - 06/11/2026",
       "name": "Slot Nord VPN And/PC/IOS 3 tháng BHF",
@@ -21181,17 +21192,6 @@
       "stockAfter": 8,
       "catKey": "microsoft",
       "msgKey": "⭐Microsoft365AdminFamily1ThángBHF➕Thêm:7📦Tồnkhohiệntại:8💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793940357388",
-      "time": "11:45 - 06/11/2026",
-      "name": "Admin Microsoft 365 Family 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 8,
-      "catKey": "microsoft",
-      "msgKey": "⭐AdminMicrosoft365Family1ThángBHF➕Thêm:7📦Tồnkhohiệntại:8💰Giá:45.000đ"
     }
   ],
   "vidiq": {
