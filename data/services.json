@@ -14107,16 +14107,16 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 18,
-        "stock_text": "Còn 18",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 8,
+            "stock": 10,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "19:09 05/11/2026"
+            "updated": "15:08 06/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 10,
@@ -14129,7 +14129,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 8
+          "stock": 10
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -20094,6 +20094,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793952500184",
+      "time": "15:08 - 06/11/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 20,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793952494182",
       "time": "15:08 - 06/11/2026",
       "name": "NordVPN 3 Ngày BHF",
@@ -21181,17 +21192,6 @@
       "stockAfter": 16,
       "catKey": "capcut",
       "msgKey": "✂️Capcut7DBH5ngày➕Thêm:6📦Tồnkhohiệntại:16💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1793939155581",
-      "time": "11:25 - 06/11/2026",
-      "name": "Proton VPN 14-28 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 65000,
-      "costPrice": 55000,
-      "stockAfter": 4,
-      "catKey": "protonvpn",
-      "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:55.000đ"
     }
   ],
   "vidiq": {
