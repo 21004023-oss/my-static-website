@@ -15684,16 +15684,16 @@
         "id": "p-1792268578812",
         "name": "Microsoft 365 Admin Family 1 Tháng BHF",
         "price": 40000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
         "detail": "Office 365 Admin Family 1 Tháng, có thể add thêm được 5 thành viên vào Family\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 8,
+            "stock": 12,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "11:46 06/11/2026"
+            "updated": "01:20 07/11/2026"
           }
         },
         "hidden": false,
@@ -15701,7 +15701,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 30000,
-          "stock": 8
+          "stock": 12
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -20232,6 +20232,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793989225662",
+      "time": "01:20 - 07/11/2026",
+      "name": "Microsoft 365 Admin Family 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 12,
+      "catKey": "microsoft",
+      "msgKey": "⭐Microsoft365AdminFamily1ThángBHF➕Thêm:6📦Tồnkhohiệntại:12💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793989126880",
       "time": "01:18 - 07/11/2026",
       "name": "Admin Microsoft 365 Family 1 Tháng BHF",
@@ -21319,17 +21330,6 @@
       "stockAfter": 53,
       "catKey": "gmail",
       "msgKey": "🛍️GmailNew2FA💲Giá:21.875VND💚Tồnkho:53tàikhoản📊Đãbán:3091tàikhoản💧Môtả:GmailNew2F"
-    },
-    {
-      "id": "hist-1793969084581",
-      "time": "19:44 - 06/11/2026",
-      "name": "🔥Express VPN 3 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 10,
-      "catKey": "expressvpn",
-      "msgKey": "🚚🔥ExpressVPN3ThángBHF➕Thêm:4📦Tồnkhohiệntại:5💰Giá:140.000đ"
     }
   ],
   "vidiq": {
