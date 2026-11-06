@@ -14417,8 +14417,8 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 40000,
         "cost_price": 15000,
-        "stock": 17,
-        "stock_text": "Còn 17",
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "3 Ngày",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/\n✏️",
         "sources": {
@@ -14429,10 +14429,10 @@
             "updated": "22:27 05/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 6,
+            "stock": 7,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "22:27 05/11/2026"
+            "updated": "17:13 06/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 5,
@@ -14446,7 +14446,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 6
+          "stock": 7
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -20094,6 +20094,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793960027560",
+      "time": "17:13 - 06/11/2026",
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 18,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1793959961278",
       "time": "17:12 - 06/11/2026",
       "name": "Muse Ai 31 tỷ Token ( BH ACTIVE)",
@@ -21181,17 +21192,6 @@
       "stockAfter": 79,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGemini18Tháng(BH3H)➕Thêm:2📦Tồnkhohiệntại:79💰Giá:42.000đ"
-    },
-    {
-      "id": "hist-1793942460934",
-      "time": "12:21 - 06/11/2026",
-      "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
-      "bot": "taphoathomap_bot",
-      "price": 65000,
-      "costPrice": 55000,
-      "stockAfter": 65,
-      "catKey": "netflix",
-      "msgKey": "🎬[Slot]Netflix4KPremium1thángBảohànhfull➕Thêm:35📦Tồnkhohiệntại:30💰Giá:55.000đ"
     }
   ],
   "vidiq": {
