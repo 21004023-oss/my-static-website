@@ -14756,6 +14756,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 15000
         }
+      },
+      {
+        "id": "p-1793950549818",
+        "name": "SurfShark VPN 10 thiết bị chính chủ 2 tháng BHF",
+        "price": 215000,
+        "cost_price": 195000,
+        "stock": 16,
+        "stock_text": "Còn 16",
+        "duration": "2 Tháng",
+        "detail": "📝 Mô tả:\n- Đăng nhập tối đa 10 thiết bị Androi/PC/IOS/Extention\n- Khách gửi Mail + Pass SurfShrak để nâng cấp\n- Áp dụng cho tài khoản chưa nâng cấp lần nào\n💎 Chế độ bảo hành\n- Surfshark Starter 2 tháng BHF gói đăng kí, không bảo hành khi dùng quá thiết bị hoặc vi phạm chính sách VPN làm khóa tài khoản\n📦 Các tính năng chính của Surfshark VPN Starter:\n- Đổi IP, ẩn IP thật\n- Mã hóa kết nối Internet\n- Kết nối không giới hạn thiết bị\n- Server tại nhiều quốc gia\n- Kill Switch chống lộ IP\n- Split Tunneling / Bypasser\n- MultiHop qua 2 server\n- Rotating IP tự đổi IP\n- CleanWeb chặn quảng cáo, tracker\n- Alternative ID tạo email/danh tính thay thế",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 16,
+            "cost_price": 195000,
+            "selling_price": 215000,
+            "updated": "14:35 06/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 195000,
+          "stock": 16
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -20062,6 +20088,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793950549818",
+      "time": "14:35 - 06/11/2026",
+      "name": "SurfShark VPN 10 thiết bị chính chủ 2 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 215000,
+      "costPrice": 195000,
+      "stockAfter": 16,
+      "catKey": "surfshark",
+      "msgKey": "🦈SurfSharkVPN10thiếtbịchínhchủ2thángBHF➕Thêm:16📦Tồnkhohiệntại:16💰Giá:195.000đ"
+    },
+    {
       "id": "hist-1793950069562",
       "time": "14:27 - 06/11/2026",
       "name": "Capcut Pro Cá Nhân 30D  BHF",
@@ -21149,17 +21186,6 @@
       "stockAfter": 14,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:6📦Tồnkhohiệntại:14💰Giá:200.000đ"
-    },
-    {
-      "id": "hist-1793936693977",
-      "time": "10:44 - 06/11/2026",
-      "name": "Chatgpt Plus (Apple Pay) 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 62,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:6📦Tồnkhohiệntại:14💰Giá:220.000đ"
     }
   ],
   "vidiq": {
