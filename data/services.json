@@ -17187,6 +17187,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793969380849",
+        "name": "Gmail New Random IP - Hàng Reg Tay, Bảo Hành log đầu 24H",
+        "price": 23750,
+        "cost_price": 13750,
+        "stock": 54,
+        "stock_text": "Còn 54",
+        "duration": "1 Ngày",
+        "detail": "Login bằng app gmail trên phone (tránh ver), nếu login bằng pc hãy tải app này để đăng nhập : https://apps.microsoft.com/detail/9nrx63209r7b?hl=vi-VN&amp;amp;gl=US, nếu log thẳng thì bạn dùng camera điện thoại quét dòng qrcode ( có đăng nhập youtube) sẽ vào được ngay ! Nếu login vào bên thứ 3 (login bằng google) hãy vào bên thứ 3 sau đó nhập tài khoản đăng nhập trực tiếp ở bên thứ 3.\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–54):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 54,
+            "cost_price": 13750,
+            "selling_price": 23750,
+            "updated": "19:49 06/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 13750,
+          "stock": 54
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -20152,6 +20178,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793969380849",
+      "time": "19:49 - 06/11/2026",
+      "name": "Gmail New Random IP - Hàng Reg Tay, Bảo Hành log đầu 24H",
+      "bot": "khommo_market_bot",
+      "price": 23750,
+      "costPrice": 13750,
+      "stockAfter": 54,
+      "catKey": "gmail",
+      "msgKey": "🛍️GmailNewRandomIP-HàngRegTay,BảoHànhlogđầu24H💲Giá:13.750VND💚Tồnkho:54tàikhoản📊Đ"
+    },
+    {
       "id": "hist-1793969363040",
       "time": "19:49 - 06/11/2026",
       "name": "Gmail 6 tháng ( không log được hộp thư) - 2FA - BH log đầu 24h",
@@ -21239,17 +21276,6 @@
       "stockAfter": 14,
       "catKey": "meitu",
       "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:11💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793947526134",
-      "time": "13:45 - 06/11/2026",
-      "name": "Muse Ai 31B token KBH",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 45,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi31BtokenKBH💰Giá:70k📦Tồnkho:15tàikhoản📊Đãbán:577tàikhoản💎Môtả:mail|pass|2f"
     }
   ],
   "vidiq": {
