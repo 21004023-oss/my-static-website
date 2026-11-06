@@ -17057,22 +17057,22 @@
         "name": "Gmail New 2FA",
         "price": 31875,
         "cost_price": 21875,
-        "stock": 528,
-        "stock_text": "Còn 528",
+        "stock": 53,
+        "stock_text": "Còn 53",
         "duration": "1 Tháng",
-        "detail": "Gmail New 2FA : nhập đoạn ký tự vào 2fa.live để lấy mã\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–528):",
+        "detail": "Gmail New 2FA : nhập đoạn ký tự vào 2fa.live để lấy mã\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–53):",
         "sources": {
           "khommo_market_bot": {
-            "stock": 528,
+            "stock": 53,
             "cost_price": 21875,
             "selling_price": 31875,
-            "updated": "08:05 05/11/2026"
+            "updated": "19:44 06/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@khommo_market_bot",
           "cost_price": 21875,
-          "stock": 528
+          "stock": 53
         },
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
@@ -20126,6 +20126,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793969091933",
+      "time": "19:44 - 06/11/2026",
+      "name": "Gmail New 2FA",
+      "bot": "khommo_market_bot",
+      "price": 31875,
+      "costPrice": 21875,
+      "stockAfter": 53,
+      "catKey": "gmail",
+      "msgKey": "🛍️GmailNew2FA💲Giá:21.875VND💚Tồnkho:53tàikhoản📊Đãbán:3091tàikhoản💧Môtả:GmailNew2F"
+    },
+    {
       "id": "hist-1793969084581",
       "time": "19:44 - 06/11/2026",
       "name": "🔥Express VPN 3 Tháng BHF",
@@ -21213,17 +21224,6 @@
       "stockAfter": 60,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:13📦Tồnkhohiệntại:60💰Giá:200.000"
-    },
-    {
-      "id": "hist-1793947379684",
-      "time": "13:42 - 06/11/2026",
-      "name": "Chatgpt Plus (Apple Pay) 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 108,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:13📦Tồnkhohiệntại:60💰Giá:220.000đ"
     }
   ],
   "vidiq": {
