@@ -5402,24 +5402,24 @@
         "id": "p-1792223545074",
         "name": "VIP 1.API 40M Token Claude 1 Ngày - BHF",
         "price": 80000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 22,
+        "stock_text": "Còn 22",
         "duration": "1 Ngày",
         "detail": "💎 API Claude VIP High Stable — model trích xuất từ Cursor Ultra, dùng cho Claude Code và app hỗ trợ OpenAI/Anthropic.\n⚡ Có Fable tốc độ cao, có opus-5.5 ( nếu hết dùng model khác )\n🤖 Token ước tính: Fable 5M · Opus 5 10M · Sonnet 5 20M · Haiku 4.5 33M\n💠 Hỗ trợ thêm: Kimi K3 · GLM 5.2 · Grok 4.6, quy đổi tương đương Sonnet 5\n🛡️ Độ ổn định cao, không gián đoạn như bản Standard\n⏳ Hạn dùng: 24 giờ từ khi kích hoạt Key\n🔗 Hướng dẫn cài đặt và kích hoạt:\nhttps://daily.bddevlab.buzz/redeem.html\n🔗 Cách khắc phục lỗi :\nhttps://duc-dop-error-guide.pages.dev\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 9,
+            "stock": 22,
             "cost_price": 70000,
             "selling_price": 80000,
-            "updated": "20:11 04/11/2026"
+            "updated": "00:53 07/11/2026"
           }
         },
-        "hidden": true,
+        "hidden": false,
         "cost_price": 70000,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 70000,
-          "stock": 9
+          "stock": 22
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -20232,6 +20232,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793987615783",
+      "time": "00:53 - 07/11/2026",
+      "name": "VIP 1.API 40M Token Claude 1 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 22,
+      "catKey": "claude",
+      "msgKey": "🧠VIP1.API40MTokenClaude1Ngày-BHF➕Thêm:20📦Tồnkhohiệntại:22💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1793987594042",
       "time": "00:53 - 07/11/2026",
       "name": "🔥VIP . Chatgpt Plus Apple 1 tháng BH 24H",
@@ -21319,17 +21330,6 @@
       "stockAfter": 10,
       "catKey": "expressvpn",
       "msgKey": "🚚🔥ExpressVPN3ThángBHF➕Thêm:1📦Tồnkhohiệntại:5💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1793968609801",
-      "time": "19:36 - 06/11/2026",
-      "name": "Express VPN 3 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 5,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN3ThángBHF➕Thêm:1📦Tồnkhohiệntại:5💰Giá:180.000đ"
     }
   ],
   "vidiq": {
