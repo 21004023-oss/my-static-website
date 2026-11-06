@@ -17299,8 +17299,8 @@
         "name": "Zoom Pro 14 Ngày BHF",
         "price": 55000,
         "cost_price": 30000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "Tài khoản cấp sẵn Zoom Pro 14 Ngày 100 members, bỏ giới hạn 40 phút, tối đa 30 giờ cho mỗi cuộc họp, không giới hạn số lượng cuộc họp, chỉ định người chủ trì và đồng chủ trì\nĐịnh dạng: Email|Pass|Web Mail\n✏️",
         "sources": {
@@ -17311,10 +17311,10 @@
             "updated": "10:01 06/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 4,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "21:29 05/11/2026"
+            "updated": "10:01 06/11/2026"
           }
         },
         "hidden": false,
@@ -17323,7 +17323,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 30000,
-          "stock": 2
+          "stock": 4
         }
       },
       {
@@ -19951,6 +19951,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793934109412",
+      "time": "10:01 - 06/11/2026",
+      "name": "Zoom Pro 14 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 8,
+      "catKey": "zoom",
+      "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1793934066489",
       "time": "10:01 - 06/11/2026",
       "name": "Zoom Pro 14 Ngày BHF",
@@ -21038,17 +21049,6 @@
       "stockAfter": 67,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF💰Giá:220k📦Tồnkho:19tàikhoản📊Đãbán:7.785tàikhoản💎M"
-    },
-    {
-      "id": "hist-1793903053928",
-      "time": "01:24 - 06/11/2026",
-      "name": "Chatgpt Plus (Apple Pay) 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 195,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:15📦Tồnkhohiệntại:147💰Giá:220.000đ"
     }
   ],
   "vidiq": {
