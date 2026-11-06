@@ -19842,10 +19842,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1793932115565",
+        "name": "BrainFM 30D - BHF",
+        "price": 40000,
+        "cost_price": 30000,
+        "stock": 17,
+        "stock_text": "Còn 17",
+        "duration": "1 Tháng",
+        "detail": "- Định dạng: Email | Pass\n- Truy cập link đăng nhập: https://my.brain.fm/signin\n- Mô tả: Brain.fm là nền tảng âm nhạc ứng dụng công nghệ AI kết hợp khoa học thần kinh, thiết kế âm thanh chuyên biệt giúp bạn dễ đi vào trạng thái tập trung sâu, hạn chế xao nhãng và làm việc hiệu quả hơn.\n✅ Hỗ trợ tập trung khi học tập, làm việc, lập trình.\n✅ Âm nhạc không lời, hạn chế gây phân tâm.\n✅ Có chế độ thư giãn, thiền và hỗ trợ giấc ngủ.\n✅ Cá nhân hóa trải nghiệm, tích hợp hẹn giờ Pomodoro.\n✅ Sử dụng trên máy tính và điện thoại.\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 17,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "09:28 06/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
+          "stock": 17
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1793932115565",
+      "time": "09:28 - 06/11/2026",
+      "name": "BrainFM 30D - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 17,
+      "catKey": "khac",
+      "msgKey": "⭐BrainFM30D-BHF➕Thêm:16📦Tồnkhohiệntại:17💰Giá:30.000đ"
+    },
     {
       "id": "hist-1793932086193",
       "time": "09:28 - 06/11/2026",
@@ -20934,17 +20971,6 @@
       "stockAfter": 27,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥VIP.ChatgptPlusApple1thángBH24H➕Thêm:20📦Tồnkhohiệntại:27💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1793901412791",
-      "time": "00:56 - 06/11/2026",
-      "name": "Express VPN Random 2-3 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 17000,
-      "costPrice": 7000,
-      "stockAfter": 2,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:7.000đ"
     }
   ],
   "vidiq": {
