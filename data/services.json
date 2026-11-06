@@ -5273,25 +5273,25 @@
         "id": "p-1791898418611",
         "name": "API Claude 50M Token 1 ngày BHF",
         "price": 65000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Ngày",
         "detail": "-API Claude 50M-Hàng anthropic\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Base Url : https://api.opusapi.store/\n-Link check Credit: https://kiroshop24hbot.vercel.app/\n-File hướng dẫn sử dụng và thiết lập:\n+ENGLISH: https://docs.google.com/document/d/1-r0i4qkHToW3exdkJfUAzin78s_bRbYb4nnvchhvtjg/edit?usp=sharing\n+VIETNAM: https://docs.google.com/document/d/1rBLXYdzTHL5mvm6c8d4QN2c7qWh8Cjj8sgEEf-_Wzug/edit?usp=sharing\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 5,
+            "stock": 10,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "18:25 01/11/2026"
+            "updated": "09:24 06/11/2026"
           }
         },
         "cost_price": 45000,
         "needs_review": false,
-        "hidden": true,
+        "hidden": false,
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 45000,
-          "stock": 5
+          "stock": 10
         },
         "import_note": "Nhập: @piggyai99_bot"
       },
@@ -19847,6 +19847,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793931850172",
+      "time": "09:24 - 06/11/2026",
+      "name": "API Claude 50M Token 1 ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 10,
+      "catKey": "claude",
+      "msgKey": "🧠APIClaude50MToken1ngàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1793931477654",
       "time": "09:17 - 06/11/2026",
       "name": "Capcut Pro Cá Nhân 30D  BHF",
@@ -20934,17 +20945,6 @@
       "stockAfter": 29,
       "catKey": "surfshark",
       "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1793900937591",
-      "time": "00:48 - 06/11/2026",
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 8,
-      "catKey": "figma",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)💰Giá:110k📦Tồnkho:4tàikhoản📊Đãbán:179tàikhoản💎Môtả:🎨**FIGMAP"
     }
   ],
   "vidiq": {
