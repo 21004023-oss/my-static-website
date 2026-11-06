@@ -519,6 +519,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 70000
         }
+      },
+      {
+        "id": "p-1793980447183",
+        "name": "🔥Amazon Prime Video 1 Tháng - BHF",
+        "price": 65000,
+        "cost_price": 55000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "🎬 AMAZON PRIME VIDEO – 1 THÁNG | TÀI KHOẢN RIÊNG | BH 25 NGÀY\n━━━━━━━━━━━━━━━━━━\n📌 THÔNG TIN SẢN PHẨM\n• Tài khoản riêng (Private Account).\n• Thời hạn sử dụng: 25–30 ngày.\n• Kiểm tra email tại: http://onetimething.lol\n━━━━━━━━━━━━━━━━━━\n⚠️ LƯU Ý QUAN TRỌNG\n• Không thay đổi khu vực (Region) hoặc chỉnh sửa phương thức thanh toán trong thời gian sử dụng Premium. Vi phạm sẽ mất bảo hành.\n• Amazon khá nhạy cảm với thao tác đăng nhập. Không thử đăng nhập liên tục nhiều lần trong thời gian ngắn.\n• Nếu sai mật khẩu hoặc đăng nhập thất bại, vui lòng chờ 5 phút, sau đó tải lại trang hoặc xóa tab/khởi động lại ứng dụng rồi thử lại.\n━━━━━━━━━━━━━━━━━━\n🛡️ CHÍNH SÁCH BẢO HÀNH\n• Bảo hành trong 25 ngày kể từ ngày mua.\n• Hết thời gian bảo hành, shop không hỗ trợ các lỗi phát sinh.\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 55000,
+            "selling_price": 65000,
+            "updated": "22:54 06/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 55000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -20206,6 +20232,17 @@
   },
   "_history": [
     {
+      "id": "hist-1793980447183",
+      "time": "22:54 - 06/11/2026",
+      "name": "🔥Amazon Prime Video 1 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 5,
+      "catKey": "amazon-prime",
+      "msgKey": "⭐🔥AmazonPrimeVideo1Tháng-BHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1793980373563",
       "time": "22:52 - 06/11/2026",
       "name": "Grok Premium 14D BH 1D",
@@ -21293,17 +21330,6 @@
       "stockAfter": 2,
       "catKey": "surfshark",
       "msgKey": "🦈SurfsharkVPNRandom5-7NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:12.222đ"
-    },
-    {
-      "id": "hist-1793959542435",
-      "time": "17:05 - 06/11/2026",
-      "name": "Muse Ai 31 tỷ Token ( BH ACTIVE)",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 55,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi31tỷToken(BHACTIVE)➕Thêm:20📦Tồnkhohiệntại:55💰Giá:30.000đ"
     }
   ],
   "vidiq": {
