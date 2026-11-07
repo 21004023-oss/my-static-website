@@ -20564,10 +20564,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794071861011",
+        "name": "GitHub Student Developer Pack Vĩnh viễn BH 3 ngày",
+        "price": 130000,
+        "cost_price": 110000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "3 Ngày",
+        "detail": "-Tài khoản GitHub Education đã được xác minh sinh viên, hỗ trợ nhận các ưu đãi dành cho lập trình viên như tên miền, 1Password, JetBrains, Termius, Notion và nhiều dịch vụ khác.\n-Bảo hành: 3 ngày\n-Danh sách ưu đãi: https://education.github.com/pack\n-Định dạng: Mail | Pass | 2Fa\n-Lưu ý:\n+Sản phẩm chủ yếu phục vụ nhu cầu nhận ưu đãi từ các đối tác bên thứ ba.\n+GitHub Copilot Pro hiện không còn được bao gồm trong gói tài khoản này.\n+DigitalOcean đã ngừng cung cấp ưu đãi thông qua GitHub Education kể từ ngày 01/08.\nCác ưu đãi có thể thay đổi tùy theo chính sách của GitHub và từng đối tác.\n+Không hỗ trợ hoàn tiền nếu khách hàng không đọc kỹ mô tả và lưu ý trước khi mua.\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 110000,
+            "selling_price": 130000,
+            "updated": "00:17 08/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 110000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1794071861011",
+      "time": "00:17 - 08/11/2026",
+      "name": "GitHub Student Developer Pack Vĩnh viễn BH 3 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "msgKey": "🐙GitHubStudentDeveloperPackVĩnhviễnBH3ngày➕Thêm:1📦Tồnkhohiệntại:2💰Giá:110.000đ"
+    },
     {
       "id": "hist-1794071302786",
       "time": "00:08 - 08/11/2026",
@@ -21656,17 +21693,6 @@
       "stockAfter": 41,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+1ThángBHF➕Thêm:19📦Tồnkhohiệntại:14💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1794051410816",
-      "time": "18:36 - 07/11/2026",
-      "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 220000,
-      "costPrice": 200000,
-      "stockAfter": 171,
-      "catKey": "chatgpt",
-      "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:2📦Tồnkhohiệntại:171💰Giá:200.000"
     }
   ],
   "vidiq": {
