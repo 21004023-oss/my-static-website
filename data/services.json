@@ -20590,10 +20590,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794073281990",
+        "name": "Iqiyi Cao Cấp 3 Tháng BHF",
+        "price": 90000,
+        "cost_price": 80000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "3 Tháng",
+        "detail": "Slot  iqiyi Premium cấp sẵn xem 1 thiết bị đồng thời\nbảo hành full gói\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 4,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "00:41 08/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 80000,
+          "stock": 4
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1794073281990",
+      "time": "00:41 - 08/11/2026",
+      "name": "Iqiyi Cao Cấp 3 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 4,
+      "catKey": "khac",
+      "msgKey": "⭐IqiyiCaoCấp3ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:80.000đ"
+    },
     {
       "id": "hist-1794073138066",
       "time": "00:38 - 08/11/2026",
@@ -21682,17 +21719,6 @@
       "stockAfter": 61,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:20📦Tồnkhohiệntại:59💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1794052677751",
-      "time": "18:57 - 07/11/2026",
-      "name": "Grok Plus 30 ngày BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 59,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:20📦Tồnkhohiệntại:59💰Giá:140.000đ"
     }
   ],
   "vidiq": {
