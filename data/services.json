@@ -12924,9 +12924,9 @@
         "id": "p-1793169019034",
         "name": "Capcut Pro 500 credit 7D BH 6D",
         "price": 25000,
-        "cost_price": 15000,
-        "stock": 339,
-        "stock_text": "Còn 339",
+        "cost_price": 10000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "7 Ngày",
         "detail": "Capcut Pro 6-7d. Định dạng tài khoản: Email | Mật khẩu 2. Login bằng điện thoại: Mở app, chọn Sign in with Email. 3. Login bằng PC: Sau khi login vào điện thoại thì tiến hành quét mã QR để đăng nhập cho PC. - iOS: Ngay trong Capcut mục TÔI > Quét QR. - Android: Phải cập nhật Capcut lên bản mới nhất mới có tính năng quét QR trong app. Không bảo hành đăng nhập quá thường xuyên.",
         "sources": {
@@ -12937,18 +12937,18 @@
             "updated": "13:48 07/11/2026"
           },
           "piggyai99_bot": {
-            "stock": 339,
+            "stock": 0,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "11:37 07/11/2026"
+            "updated": "13:48 07/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 15000,
-          "stock": 339
+          "bot": "@taphoathomap_bot",
+          "cost_price": 10000,
+          "stock": 0
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -20290,6 +20290,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794034127767",
+      "time": "13:48 - 07/11/2026",
+      "name": "Capcut Pro 500 credit 7D BH 6D",
+      "bot": "piggyai99_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 0,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutPro500credit7DBH6D➕Thêm:80📦Tồnkhohiệntại:0💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794034122864",
       "time": "13:48 - 07/11/2026",
       "name": "Capcut Pro 7 Ngày BH 6 Ngày",
@@ -21377,17 +21388,6 @@
       "stockAfter": 15,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày💰Giá:150k📦Tồnkho:15tàikhoản📊Đãbán:483t"
-    },
-    {
-      "id": "hist-1794014227288",
-      "time": "08:17 - 07/11/2026",
-      "name": "Kling Standard 800 credit 1TH Bh 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 4,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard800credit1THBh1ngày➕Thêm:4📦Tồnkhohiệntại:4💰Giá:120.000đ"
     }
   ],
   "vidiq": {
