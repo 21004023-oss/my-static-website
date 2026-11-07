@@ -8202,9 +8202,9 @@
         "id": "p-1792460560425",
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
-        "cost_price": 109000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "cost_price": 115000,
+        "stock": 62,
+        "stock_text": "Còn 62",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -8215,10 +8215,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 18,
-            "cost_price": 109000,
-            "selling_price": 129000,
-            "updated": "16:26 05/11/2026"
+            "stock": 60,
+            "cost_price": 115000,
+            "selling_price": 135000,
+            "updated": "18:45 07/11/2026"
           }
         },
         "hidden": false,
@@ -8226,8 +8226,8 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 109000,
-          "stock": 18
+          "cost_price": 115000,
+          "stock": 60
         }
       },
       {
@@ -20483,6 +20483,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794051939667",
+      "time": "18:45 - 07/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 62,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:7📦Tồnkhohiệntại:60💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1794051923351",
       "time": "18:45 - 07/11/2026",
       "name": "TV360 Standard 3 tháng BHF",
@@ -21570,17 +21581,6 @@
       "stockAfter": 42,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:14📦Tồnkhohiệntại:42💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1794031081512",
-      "time": "12:58 - 07/11/2026",
-      "name": "🔥VIP . Chatgpt Plus Apple 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 175000,
-      "costPrice": 155000,
-      "stockAfter": 30,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥VIP.ChatgptPlusApple1thángBHF➕Thêm:22📦Tồnkhohiệntại:30💰Giá:155.000đ"
     }
   ],
   "vidiq": {
