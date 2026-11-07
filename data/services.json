@@ -8125,16 +8125,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 21,
+        "stock_text": "Còn 21",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 20,
+            "stock": 21,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "07:35 07/11/2026"
+            "updated": "11:17 07/11/2026"
           }
         },
         "hidden": false,
@@ -8142,7 +8142,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 20
+          "stock": 21
         },
         "needs_review": false
       },
@@ -20232,6 +20232,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794025038587",
+      "time": "11:17 - 07/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 21,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:21💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794024892077",
       "time": "11:14 - 07/11/2026",
       "name": "🔥VIP . Chatgpt Plus Apple 1 tháng BH 24H",
@@ -21319,17 +21330,6 @@
       "stockAfter": 92,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:16📦Tồnkhohiệntại:92💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1793987615783",
-      "time": "00:53 - 07/11/2026",
-      "name": "VIP 1.API 40M Token Claude 1 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 22,
-      "catKey": "claude",
-      "msgKey": "🧠VIP1.API40MTokenClaude1Ngày-BHF➕Thêm:20📦Tồnkhohiệntại:22💰Giá:70.000đ"
     }
   ],
   "vidiq": {
