@@ -8235,16 +8235,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 59,
-        "stock_text": "Còn 59",
+        "stock": 27,
+        "stock_text": "Còn 27",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 59,
+            "stock": 27,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "18:57 07/11/2026"
+            "updated": "19:28 07/11/2026"
           }
         },
         "hidden": false,
@@ -8252,7 +8252,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 59
+          "stock": 27
         },
         "needs_review": false
       },
@@ -20483,6 +20483,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794054488427",
+      "time": "19:28 - 07/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 27,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin💰Giá:140k📦Tồnkho:27tàikhoản📊Đãbán:589tàikhoản💎Môtả:Mail|Pa"
+    },
+    {
       "id": "hist-1794054481594",
       "time": "19:28 - 07/11/2026",
       "name": "Galaxy Play Cao Cấp 30 ngày BHF",
@@ -21570,17 +21581,6 @@
       "stockAfter": 21,
       "catKey": "claude",
       "msgKey": "🧠VIP1.API15MTokenClaude1Ngày-BHF➕Thêm:1📦Tồnkhohiệntại:21💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794036441629",
-      "time": "14:27 - 07/11/2026",
-      "name": "PIA VPN 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 19,
-      "catKey": "khac",
-      "msgKey": "⭐PIAVPN7NgàyBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:35.000đ"
     }
   ],
   "vidiq": {
