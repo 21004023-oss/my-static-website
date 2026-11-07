@@ -14605,16 +14605,16 @@
         "name": "Express VPN 10 thiết bị 3 ngày BHF",
         "price": 45000,
         "cost_price": 15000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 17,
+        "stock_text": "Còn 17",
         "duration": "3 Ngày",
         "detail": "Định dạng: email|pass , pass là activation key luôn\nLấy code tại: Cutemail.us\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 7,
+            "stock": 10,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "16:03 03/11/2026"
+            "updated": "10:16 07/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 7,
@@ -14626,7 +14626,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 7
+          "stock": 10
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -20232,6 +20232,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794021403124",
+      "time": "10:16 - 07/11/2026",
+      "name": "Express VPN 10 thiết bị 3 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 17,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN10thiếtbị3ngàyBHF➕Thêm:6📦Tồnkhohiệntại:10💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794021372120",
       "time": "10:16 - 07/11/2026",
       "name": "NORD VPN 10 thiết bị 7 ngày BHF",
@@ -21319,17 +21330,6 @@
       "stockAfter": 97,
       "catKey": "gmail",
       "msgKey": "📧GmailUSAnew➕Thêm:30📦Tồnkhohiệntại:29💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1793984807409",
-      "time": "00:06 - 07/11/2026",
-      "name": "Gmail Random ip 7-10 ngày 2FA",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 50,
-      "catKey": "gmail",
-      "msgKey": "📧GmailRandomip7-10ngày2FA➕Thêm:32📦Tồnkhohiệntại:36💰Giá:35.000đ"
     }
   ],
   "vidiq": {
