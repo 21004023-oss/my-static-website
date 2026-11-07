@@ -1902,16 +1902,16 @@
         "id": "p-1791909483397",
         "name": "ChatGPT Plus ( GG Pay) 1 Tháng BH 1 Ngày",
         "price": 270000,
-        "stock": 40,
-        "stock_text": "Còn 40",
+        "stock": 80,
+        "stock_text": "Còn 80",
         "duration": "1 Tháng",
         "detail": "-ChatGPT Plus GGPay ổn định -Định dạng: Mail | Pass | 2Fa -Hạn gói: 1 tháng\n-Bảo hành: 24H\n-Tài khoản đã được check kĩ thông tin và change 2FA trước khi bán . quý khách có thể change 2FA nhưng bên mình không hỗ trợ change 2FA bị code về mail.Khách hàng nhận tài khoản tự bảo mật\n-Sử dụng Codex tự ver số, thuê số tại viotp chấm com -KBH Codex & 9routor, tools,..\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 40,
+            "stock": 80,
             "cost_price": 180000,
             "selling_price": 200000,
-            "updated": "19:47 07/11/2026"
+            "updated": "20:24 07/11/2026"
           }
         },
         "cost_price": 180000,
@@ -1919,7 +1919,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 180000,
-          "stock": 40
+          "stock": 80
         },
         "hidden": false,
         "needs_review": false
@@ -20543,6 +20543,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794057899166",
+      "time": "20:24 - 07/11/2026",
+      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 80,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:45📦Tồnkhohiệntại:80💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1794057546952",
       "time": "20:19 - 07/11/2026",
       "name": "Zoom Pro 28 Ngày BHF",
@@ -21630,17 +21641,6 @@
       "stockAfter": 71,
       "catKey": "zoom",
       "msgKey": "⭐ZoomProchínhchủ1năm(BHF)➕Thêm:71📦Tồnkhohiệntại:71💰Giá:650.000đ"
-    },
-    {
-      "id": "hist-1794041015918",
-      "time": "15:43 - 07/11/2026",
-      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 42,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:1📦Tồnkhohiệntại:42💰Giá:180.000đ"
     }
   ],
   "vidiq": {
