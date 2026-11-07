@@ -8235,16 +8235,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 36,
-        "stock_text": "Còn 36",
+        "stock": 60,
+        "stock_text": "Còn 60",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 36,
+            "stock": 60,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "16:31 07/11/2026"
+            "updated": "18:44 07/11/2026"
           }
         },
         "hidden": false,
@@ -8252,7 +8252,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 36
+          "stock": 60
         },
         "needs_review": false
       },
@@ -20483,6 +20483,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794051898633",
+      "time": "18:44 - 07/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 60,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:7📦Tồnkhohiệntại:60💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794051686171",
       "time": "18:41 - 07/11/2026",
       "name": "Meitu Vip+ 30D BHF",
@@ -21570,17 +21581,6 @@
       "stockAfter": 11,
       "catKey": "grok",
       "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:5📦Tồnkhohiệntại:5💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1794030761296",
-      "time": "12:52 - 07/11/2026",
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 10,
-      "catKey": "figma",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:3📦Tồnkhohiệntại:5💰Giá:110.000đ"
     }
   ],
   "vidiq": {
