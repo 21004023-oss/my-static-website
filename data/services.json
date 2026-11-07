@@ -13716,8 +13716,8 @@
         "id": "p-1792006811047",
         "name": "Photoroom Max 7 Ngày BHF",
         "price": 45000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "7 Ngày",
         "detail": "Photoroom 7 ngày gói Max\nĐịnh dạng: Email|Web mail\n✏️",
         "sources": {
@@ -13728,10 +13728,10 @@
             "updated": "19:28 05/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 10,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "19:28 05/11/2026"
+            "updated": "00:03 08/11/2026"
           }
         },
         "cost_price": 15000,
@@ -13741,7 +13741,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 5
+          "stock": 10
         }
       }
     ]
@@ -20569,6 +20569,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794070988248",
+      "time": "00:03 - 08/11/2026",
+      "name": "Photoroom Max 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 15,
+      "catKey": "photoroom",
+      "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794070964507",
       "time": "00:02 - 08/11/2026",
       "name": "TiktokVN LiveStudio 1KFL THẬT",
@@ -21656,17 +21667,6 @@
       "stockAfter": 141,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30DBHF➕Thêm:30📦Tồnkhohiệntại:140💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1794050256740",
-      "time": "18:17 - 07/11/2026",
-      "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
-      "bot": "taphoathomap_bot",
-      "price": 65000,
-      "costPrice": 55000,
-      "stockAfter": 74,
-      "catKey": "netflix",
-      "msgKey": "🎬[Slot]Netflix4KPremium1thángBảohànhfull➕Thêm:40📦Tồnkhohiệntại:39💰Giá:55.000đ"
     }
   ],
   "vidiq": {
