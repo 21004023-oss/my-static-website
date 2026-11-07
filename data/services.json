@@ -19248,16 +19248,16 @@
         "name": "TV360 Standard 3 tháng BHF",
         "price": 100000,
         "cost_price": 80000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "3 Tháng",
         "detail": "TV360 Standard xem C1, WC, VTV, VTVCab, phim bộ, phim độc quyền\nĐăng nhập và sử dụng trên 1 thiết bị\nBảo hành toàn thời gian\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 1,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "12:07 04/11/2026"
+            "updated": "16:34 07/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 1,
@@ -19269,7 +19269,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 80000,
-          "stock": 2
+          "stock": 1
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -20373,6 +20373,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794044073623",
+      "time": "16:34 - 07/11/2026",
+      "name": "TV360 Standard 3 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "msgKey": "⭐TV360Standard3thángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1794044068422",
       "time": "16:34 - 07/11/2026",
       "name": "TV360 Standard 3 tháng BHF",
@@ -21460,17 +21471,6 @@
       "stockAfter": 38,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+30DBHF➕Thêm:20📦Tồnkhohiệntại:20💰Giá:59.000đ"
-    },
-    {
-      "id": "hist-1794024454556",
-      "time": "11:07 - 07/11/2026",
-      "name": "Meitu Vip+ 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 47,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+1ThángBHF➕Thêm:20📦Tồnkhohiệntại:20💰Giá:70.000đ"
     }
   ],
   "vidiq": {
