@@ -5895,22 +5895,22 @@
         "name": "API 50M Token Claude 1 Tháng - BH1D",
         "price": 95000,
         "cost_price": 85000,
-        "stock": 32,
-        "stock_text": "Còn 32",
+        "stock": 929,
+        "stock_text": "Còn 929",
         "duration": "1 Tháng",
         "detail": "--- Nhà cung cấp API Đầu Tiên và uy tín Hàng Đầu - ĐÃ CÓ ĐĂNG KÍ KINH DOANH ---\nKênh thông báo : https://t.me/api_thongbao\nHộp thư hỗ trợ  : https://api.nghimmo.com/support\nDanh sách model, và hướng dẫn : api.nghimmo.com/huongdan\nLink nạp thêm token cho key : https://api.nghimmo.com/redeem\nModel : Full model Claude Fable, Opus, Sonet, Haiku\nTrang kiểm tra KEY : api.nghimmo.com/check\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 32,
+            "stock": 929,
             "cost_price": 85000,
             "selling_price": 95000,
-            "updated": "20:35 04/11/2026"
+            "updated": "04:36 08/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 85000,
-          "stock": 32
+          "stock": 929
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -20621,6 +20621,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794087386464",
+      "time": "04:36 - 08/11/2026",
+      "name": "API 50M Token Claude 1 Tháng - BH1D",
+      "bot": "sieuthistore_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 929,
+      "catKey": "claude",
+      "msgKey": "🧠API50MTokenClaude1Tháng-BH1D➕Thêm:500📦Tồnkhohiệntại:929💰Giá:85.000đ"
+    },
+    {
       "id": "hist-1794077851975",
       "time": "01:57 - 08/11/2026",
       "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
@@ -21708,17 +21719,6 @@
       "stockAfter": 17,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:8💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1794056822827",
-      "time": "20:07 - 07/11/2026",
-      "name": "ChatGPT Go 1 Tháng (BH 28D)",
-      "bot": "taphoathomap_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 0,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:21📦Tồnkhohiệntại:0💰Giá:95.000đ"
     }
   ],
   "vidiq": {
