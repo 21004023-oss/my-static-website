@@ -8183,16 +8183,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 21,
-        "stock_text": "Còn 21",
+        "stock": 34,
+        "stock_text": "Còn 34",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 21,
+            "stock": 34,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "11:26 07/11/2026"
+            "updated": "13:53 07/11/2026"
           }
         },
         "hidden": false,
@@ -8200,7 +8200,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 21
+          "stock": 34
         },
         "needs_review": false
       },
@@ -20290,6 +20290,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794034390868",
+      "time": "13:53 - 07/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 34,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:26📦Tồnkhohiệntại:34💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794034358169",
       "time": "13:52 - 07/11/2026",
       "name": "⚡️ Grok Plus 7 ngày -  BH 1 Ngày",
@@ -21377,17 +21388,6 @@
       "stockAfter": 208,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000credit1THBH1ngày➕Thêm:84📦Tồnkhohiệntại:120💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1794014341226",
-      "time": "08:19 - 07/11/2026",
-      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 120,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:84📦Tồnkhohiệntại:120💰Giá:150.000"
     }
   ],
   "vidiq": {
