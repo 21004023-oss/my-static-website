@@ -19800,8 +19800,8 @@
         "name": "Galaxy Play VIP 30 ngày BHF",
         "price": 95000,
         "cost_price": 50000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
         "detail": "1 Slot galaxy play Vip xem all phim\nĐăng nhập và xem trên 1 thiết bị\nKhông đổi pass, pin và tên profile\nBảo hành 30 ngày\n✏️",
         "sources": {
@@ -19812,16 +19812,16 @@
             "updated": "00:26 08/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 3,
             "cost_price": 50000,
             "selling_price": 60000,
-            "updated": "23:33 05/11/2026"
+            "updated": "00:26 08/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 50000,
-          "stock": 1
+          "stock": 3
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -20594,6 +20594,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1794072401369",
+      "time": "00:26 - 08/11/2026",
+      "name": "Galaxy Play VIP 30 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 6,
+      "catKey": "khac",
+      "msgKey": "⭐GalaxyPlayVIP30ngàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:50.000đ"
+    },
     {
       "id": "hist-1794072395023",
       "time": "00:26 - 08/11/2026",
@@ -21682,17 +21693,6 @@
       "stockAfter": 4,
       "catKey": "khac",
       "msgKey": "⭐TV360Standard3thángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1794051916955",
-      "time": "18:45 - 07/11/2026",
-      "name": "TV360 Standard 3 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 3,
-      "catKey": "khac",
-      "msgKey": "⭐TV360Standard3thángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:80.000đ"
     }
   ],
   "vidiq": {
