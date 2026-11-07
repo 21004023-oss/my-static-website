@@ -8255,8 +8255,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 115000,
-        "stock": 45,
-        "stock_text": "Còn 45",
+        "stock": 52,
+        "stock_text": "Còn 52",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -8267,10 +8267,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 43,
+            "stock": 50,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "20:48 07/11/2026"
+            "updated": "22:31 07/11/2026"
           }
         },
         "hidden": false,
@@ -8279,7 +8279,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 43
+          "stock": 50
         }
       },
       {
@@ -20569,6 +20569,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794065478111",
+      "time": "22:31 - 07/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 52,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:9📦Tồnkhohiệntại:50💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1794065401728",
       "time": "22:30 - 07/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -21656,17 +21667,6 @@
       "stockAfter": 19,
       "catKey": "figma",
       "msgKey": "⭐FigmaProEdu1năm(BHF)💰Giá:110k📦Tồnkho:11tàikhoản📊Đãbán:195tàikhoản💎Môtả:🎨**FIGMA"
-    },
-    {
-      "id": "hist-1794046165673",
-      "time": "17:09 - 07/11/2026",
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "piggyai99_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 19,
-      "catKey": "figma",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:3📦Tồnkhohiệntại:11💰Giá:110.000đ"
     }
   ],
   "vidiq": {
