@@ -8235,16 +8235,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 60,
-        "stock_text": "Còn 60",
+        "stock": 59,
+        "stock_text": "Còn 59",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 60,
+            "stock": 59,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "18:44 07/11/2026"
+            "updated": "18:57 07/11/2026"
           }
         },
         "hidden": false,
@@ -8252,7 +8252,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 60
+          "stock": 59
         },
         "needs_review": false
       },
@@ -20483,6 +20483,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794052677751",
+      "time": "18:57 - 07/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 59,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:20📦Tồnkhohiệntại:59💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794052529846",
       "time": "18:55 - 07/11/2026",
       "name": "Capcut 7D BH 5 ngày",
@@ -21570,17 +21581,6 @@
       "stockAfter": 37,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:17💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794033611659",
-      "time": "13:40 - 07/11/2026",
-      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
-      "bot": "ntnshopre_bot",
-      "price": 33000,
-      "costPrice": 23000,
-      "stockAfter": 279,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:150📦Tồnkhohiệntại:150💰Giá:23.000đ"
     }
   ],
   "vidiq": {
