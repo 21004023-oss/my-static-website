@@ -14651,23 +14651,23 @@
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
         "cost_price": 7000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "3 Ngày",
         "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 5,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "13:02 07/11/2026"
+            "updated": "17:57 07/11/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 7000,
-          "stock": 4
+          "stock": 5
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -20483,6 +20483,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794049046723",
+      "time": "17:57 - 07/11/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 5,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:1📦Tồnkhohiệntại:5💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1794047888293",
       "time": "17:38 - 07/11/2026",
       "name": "KING STAND 1000-1100 credit 1 TH - BH 1 ngày",
@@ -21570,17 +21581,6 @@
       "stockAfter": 24,
       "catKey": "cursor",
       "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)➕Thêm:18📦Tồnkhohiệntại:24💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1794028313198",
-      "time": "12:11 - 07/11/2026",
-      "name": "Tiktok Việt ngâm trên 1 Năm",
-      "bot": "taphoathomap_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 8,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokViệtngâmtrên1Năm➕Thêm:3📦Tồnkhohiệntại:4💰Giá:60.000đ"
     }
   ],
   "vidiq": {
