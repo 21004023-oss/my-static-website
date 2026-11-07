@@ -19306,16 +19306,16 @@
         "name": "TV360 Standard 3 tháng BHF",
         "price": 100000,
         "cost_price": 80000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "3 Tháng",
         "detail": "TV360 Standard xem C1, WC, VTV, VTVCab, phim bộ, phim độc quyền\nĐăng nhập và sử dụng trên 1 thiết bị\nBảo hành toàn thời gian\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "16:34 07/11/2026"
+            "updated": "18:45 07/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 1,
@@ -19327,7 +19327,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 80000,
-          "stock": 1
+          "stock": 2
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -20483,6 +20483,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794051916955",
+      "time": "18:45 - 07/11/2026",
+      "name": "TV360 Standard 3 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "msgKey": "⭐TV360Standard3thángBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1794051898633",
       "time": "18:44 - 07/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -21570,17 +21581,6 @@
       "stockAfter": 28,
       "catKey": "chatgpt",
       "msgKey": "🤖💚SALE.ChatgptPlusApple1thángBHF➕Thêm:28📦Tồnkhohiệntại:28💰Giá:145.000đ"
-    },
-    {
-      "id": "hist-1794030831306",
-      "time": "12:53 - 07/11/2026",
-      "name": "Grok Super 1 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 11,
-      "catKey": "grok",
-      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:5📦Tồnkhohiệntại:5💰Giá:110.000đ"
     }
   ],
   "vidiq": {
