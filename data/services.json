@@ -13041,16 +13041,16 @@
         "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
         "price": 50000,
         "cost_price": 40000,
-        "stock": 9,
-        "stock_text": "Còn 9",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
-        "detail": "Ko bảo hành quá thiết bị\nThay đổi pass vs mail = KBH\n✏️",
+        "detail": "Ko bảo hành quá thiết bị\nThay đổi pass vs mail = KBH",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 0,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "23:05 05/11/2026"
+            "updated": "12:27 07/11/2026"
           },
           "piggyai99_bot": {
             "stock": 5,
@@ -13060,11 +13060,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
+          "bot": "@piggyai99_bot",
           "cost_price": 40000,
-          "stock": 4
+          "stock": 5
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -20290,6 +20290,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794029257730",
+      "time": "12:27 - 07/11/2026",
+      "name": "CAPCUT PRO CÁ NHÂN 1th BH 30D",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 5,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN1thBH30D➕Thêm:1📦Tồnkhohiệntại:0💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1794029028245",
       "time": "12:23 - 07/11/2026",
       "name": "KING STAND 1000-1100 credit 1 TH - BH 1 ngày",
@@ -21377,17 +21388,6 @@
       "stockAfter": 6,
       "catKey": "protonvpn",
       "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:6💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1793997190736",
-      "time": "03:33 - 07/11/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 40,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:20💰Giá:15.000đ"
     }
   ],
   "vidiq": {
