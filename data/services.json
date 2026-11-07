@@ -8125,16 +8125,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 32,
-        "stock_text": "Còn 32",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 32,
+            "stock": 20,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "00:38 07/11/2026"
+            "updated": "07:35 07/11/2026"
           }
         },
         "hidden": false,
@@ -8142,7 +8142,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 32
+          "stock": 20
         },
         "needs_review": false
       },
@@ -20232,6 +20232,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794011717381",
+      "time": "07:35 - 07/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 20,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:3📦Tồnkhohiệntại:20💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794011696764",
       "time": "07:34 - 07/11/2026",
       "name": "Grok Super 1 ngày KBH",
@@ -21319,17 +21330,6 @@
       "stockAfter": 5,
       "catKey": "claude",
       "msgKey": "🧠CLAUDEFREEcũđãtạohơn1thángtuổihạn365ngàyKBH➕Thêm:5📦Tồnkhohiệntại:5💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1793977146243",
-      "time": "21:59 - 06/11/2026",
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 87,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:26📦Tồnkhohiệntại:48💰Giá:65.000đ"
     }
   ],
   "vidiq": {
