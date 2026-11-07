@@ -14471,8 +14471,8 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 40000,
         "cost_price": 15000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "3 Ngày",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/\n✏️",
         "sources": {
@@ -14483,10 +14483,10 @@
             "updated": "17:13 06/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 7,
+            "stock": 4,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "17:13 06/11/2026"
+            "updated": "11:00 07/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 5,
@@ -14500,7 +14500,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 7
+          "stock": 4
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -20232,6 +20232,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794024006674",
+      "time": "11:00 - 07/11/2026",
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 16,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794023765583",
       "time": "10:56 - 07/11/2026",
       "name": "Capcut 7D BH 5 ngày",
@@ -21319,17 +21330,6 @@
       "stockAfter": 119,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:10📦Tồnkhohiệntại:80💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1793985108370",
-      "time": "00:11 - 07/11/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 20,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:10💰Giá:15.000đ"
     }
   ],
   "vidiq": {
