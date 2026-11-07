@@ -20368,10 +20368,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794044815646",
+        "name": "API Web Panel Freepik - Magnific Premium 1 Tháng BHF",
+        "price": 95000,
+        "cost_price": 85000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "Gói API Web Panel Freepik - Magnific Premium 1 Tháng BHF bảo hành uy tín.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 5,
+            "cost_price": 85000,
+            "selling_price": 95000,
+            "updated": "16:46 07/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 85000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1794044815646",
+      "time": "16:46 - 07/11/2026",
+      "name": "API Web Panel Freepik - Magnific Premium 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 5,
+      "catKey": "khac",
+      "msgKey": "🖼️APIWebPanelFreepik-MagnificPremium1ThángBHF➕Thêm:1📦Tồnkhohiệntại:5💰Giá:85.000đ"
+    },
     {
       "id": "hist-1794044485644",
       "time": "16:41 - 07/11/2026",
@@ -21460,17 +21497,6 @@
       "stockAfter": 3,
       "catKey": "khac",
       "msgKey": "⭐Autodeskcánhân1năm(BHF)➕Thêm:3📦Tồnkhohiệntại:3💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1794025038587",
-      "time": "11:17 - 07/11/2026",
-      "name": "Grok Plus 30 ngày BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 21,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:21💰Giá:140.000đ"
     }
   ],
   "vidiq": {
