@@ -17548,25 +17548,33 @@
         "id": "p-1792141362411",
         "name": "JetBrain Edu 1 năm BHF",
         "price": 90000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Năm",
-        "detail": "💻 JETBRAINS EDUCATION\n✨ Gói JetBrains dành cho học tập, lập trình và phát triển phần mềm.\n✅ Sử dụng bộ IDE JetBrains\n✅ IntelliJ IDEA, PyCharm, WebStorm, CLion, Rider...\n✅ Đầy đủ tính năng phục vụ code chuyên nghiệp\n✅ Phù hợp sinh viên, giáo viên và người học lập trình\n✅ Hỗ trợ nhiều ngôn ngữ và nền tảng phát triển\n🚀 Tối ưu cho học tập, làm bài tập, đồ án và lập trình chuyên sâu.\n📦 **Định dạng:**\nMAIL | PASS | REFRESH TOKEN | CLIENT ID | PASSWORD JETBRAIN\n✅ Mua số lượng nhiều inbox admin giá tốt hơn",
+        "detail": "💻 JETBRAINS EDUCATION\n✨ Gói JetBrains dành cho học tập, lập trình và phát triển phần mềm.\n✅ Sử dụng bộ IDE JetBrains\n✅ IntelliJ IDEA, PyCharm, WebStorm, CLion, Rider...\n📦 *Định dạng link kích hoạt. Dán link vào trình duyệt log in lại để kích hoạt gói.\n✅ Mua số lượng nhiều inbox admin giá tốt hơn\n✏️",
         "sources": {
           "sieuthistore_bot": {
             "stock": 6,
             "cost_price": 80000,
             "updated": "16:02 16/10/2026",
             "selling_price": 90000
+          },
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "19:57 07/11/2026"
           }
         },
         "hidden": false,
-        "cost_price": 80000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "cost_price": 60000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 80000
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 60000,
+          "stock": 6
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792141367157",
@@ -20483,6 +20491,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794056221372",
+      "time": "19:57 - 07/11/2026",
+      "name": "JetBrain Edu chính chủ 1 năm (BHF)",
+      "bot": "taphoathomap_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 12,
+      "catKey": "jetbrains",
+      "msgKey": "⭐JetBrainEduchínhchủ1năm(BHF)➕Thêm:6📦Tồnkhohiệntại:6💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1794055645583",
       "time": "19:47 - 07/11/2026",
       "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
@@ -21570,17 +21589,6 @@
       "stockAfter": 152,
       "catKey": "chatgpt",
       "msgKey": "🤖🔱VIPULTRA·ChatGPTPlusPayTiềnThật1ThángBHF➕Thêm:150📦Tồnkhohiệntại:152💰Giá:170.00"
-    },
-    {
-      "id": "hist-1794038414625",
-      "time": "15:00 - 07/11/2026",
-      "name": "SLOT GEMINI PRO + ANTIGRAVITY 5TB THỜI HẠN 1 NĂM BHF",
-      "bot": "taphoathomap_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 171,
-      "catKey": "google-veo",
-      "msgKey": "☁️SLOTGEMINIPRO+ANTIGRAVITY5TBTHỜIHẠN1NĂMBHF➕Thêm:171📦Tồnkhohiệntại:171💰Giá:150."
     }
   ],
   "vidiq": {
