@@ -15850,15 +15850,15 @@
         "id": "p-1791865941592",
         "name": "Microsoft 365 cá nhân 1 năm BH 3 tháng",
         "price": 60000,
-        "stock": 59,
-        "stock_text": "Còn 59",
+        "stock": 64,
+        "stock_text": "Còn 64",
         "duration": "1 Năm",
         "detail": "🔥 Tài khoản cấp sẵn. Tự động cập nhật mật khẩu khi lần đầu đăng nhập. Microsoft 365 dùng  được 5 thiết bị - 1 năm. Tải và đăng nhập vào ứng dụng M365 để sử dụng.\n✏️",
         "cost_price": 40000,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 40000,
-          "stock": 27
+          "stock": 32
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "sources": {
@@ -15869,10 +15869,10 @@
             "updated": "05:59 08/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 27,
+            "stock": 32,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "06:00 06/11/2026"
+            "updated": "05:59 08/11/2026"
           }
         },
         "hidden": false,
@@ -20647,6 +20647,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794092398453",
+      "time": "05:59 - 08/11/2026",
+      "name": "Microsoft 365 cá nhân 1 năm BH 3 tháng",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 64,
+      "catKey": "microsoft",
+      "msgKey": "⭐Microsoft365cánhân1nămBH3tháng➕Thêm:20📦Tồnkhohiệntại:32💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1794092389520",
       "time": "05:59 - 08/11/2026",
       "name": "Microsoft 365 cá nhân 1 Năm BH 3 tháng",
@@ -21734,17 +21745,6 @@
       "stockAfter": 80,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:45📦Tồnkhohiệntại:80💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1794057546952",
-      "time": "20:19 - 07/11/2026",
-      "name": "Zoom Pro 28 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 14,
-      "catKey": "zoom",
-      "msgKey": "⭐ZoomPro28NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:45.000đ"
     }
   ],
   "vidiq": {
