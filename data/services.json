@@ -13413,22 +13413,22 @@
         "name": "Adobe Express Premium 12 tháng  KBH",
         "price": 55000,
         "cost_price": 45000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Năm",
         "detail": "• Link chỉ dành cho tài khoản chưa từng tạo Adobe\n• Không cần thêm phương thức thanh toán\n• Lưu ý đây là bản Adobe Express\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 12,
+            "stock": 10,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "11:29 31/10/2026"
+            "updated": "21:39 07/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 45000,
-          "stock": 12
+          "stock": 10
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -20543,6 +20543,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794062393557",
+      "time": "21:39 - 07/11/2026",
+      "name": "Adobe Express Premium 12 tháng  KBH",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 10,
+      "catKey": "adobe",
+      "msgKey": "🎨AdobeExpressPremium12thángKBH➕Thêm:5📦Tồnkhohiệntại:10💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1794062018004",
       "time": "21:33 - 07/11/2026",
       "name": "CAPCUT PRO CÁ NHÂN 30 Ngày BHF",
@@ -21630,17 +21641,6 @@
       "stockAfter": 2,
       "catKey": "khac",
       "msgKey": "⭐TV360Standard3thángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1794044068422",
-      "time": "16:34 - 07/11/2026",
-      "name": "TV360 Standard 3 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 3,
-      "catKey": "khac",
-      "msgKey": "⭐TV360Standard3thángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:90.000đ"
     }
   ],
   "vidiq": {
