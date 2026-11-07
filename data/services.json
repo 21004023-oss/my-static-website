@@ -8287,16 +8287,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 27,
-        "stock_text": "Còn 27",
+        "stock": 43,
+        "stock_text": "Còn 43",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 27,
+            "stock": 43,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "19:28 07/11/2026"
+            "updated": "20:48 07/11/2026"
           }
         },
         "hidden": false,
@@ -8304,7 +8304,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 27
+          "stock": 43
         },
         "needs_review": false
       },
@@ -20543,6 +20543,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794059296619",
+      "time": "20:48 - 07/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 43,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:7📦Tồnkhohiệntại:43💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794058902876",
       "time": "20:41 - 07/11/2026",
       "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
@@ -21630,17 +21641,6 @@
       "stockAfter": 7,
       "catKey": "youku",
       "msgKey": "⭐YoukuVip30ngàyBHF💰Giá:35k📦Tồnkho:2tàikhoản📊Đãbán:10tàikhoản💎Môtả:Tàikhoảnyoukuv"
-    },
-    {
-      "id": "hist-1794043140206",
-      "time": "16:19 - 07/11/2026",
-      "name": "Youku Vip 30 ngày BHF",
-      "bot": "piggyai99_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 7,
-      "catKey": "youku",
-      "msgKey": "⭐YoukuVip30ngàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:35.000đ"
     }
   ],
   "vidiq": {
