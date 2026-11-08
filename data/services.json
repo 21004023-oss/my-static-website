@@ -8333,8 +8333,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 115000,
-        "stock": 37,
-        "stock_text": "Còn 37",
+        "stock": 35,
+        "stock_text": "Còn 35",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -8345,10 +8345,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 35,
+            "stock": 33,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "08:07 08/11/2026"
+            "updated": "12:16 08/11/2026"
           }
         },
         "hidden": false,
@@ -8357,7 +8357,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 35
+          "stock": 33
         }
       },
       {
@@ -20725,6 +20725,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794114963797",
+      "time": "12:16 - 08/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 35,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:5📦Tồnkhohiệntại:33💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1794114934165",
       "time": "12:15 - 08/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -21812,17 +21823,6 @@
       "stockAfter": 101,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:47📦Tồnkhohiệntại:101💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1794068870116",
-      "time": "23:27 - 07/11/2026",
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 10,
-      "catKey": "meitu",
-      "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:35.000đ"
     }
   ],
   "vidiq": {
