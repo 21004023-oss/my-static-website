@@ -13341,22 +13341,22 @@
         "name": "Capcut 7D BH 5 ngày",
         "price": 20000,
         "cost_price": 10000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "7 Ngày",
-        "detail": "Capcut Pro 1. Định dạng tài khoản: Email | Mật khẩu 2. Login bằng điện thoại: Mở app, chọn Sign in with Email. 3. Login bằng PC: Sau khi login vào điện thoại thì tiến hành quét mã QR để đăng nhập cho PC. - iOS: Ngay trong Capcut mục TÔI > Quét QR. - Android: Phải cập nhật Capcut lên bản mới nhất mới có tính năng quét QR trong app.\n✏️",
+        "detail": "Capcut Pro 1. Định dạng tài khoản: Email | Mật khẩu 2. Login bằng điện thoại: Mở app, chọn Sign in with Email. 3. Login bằng PC: Sau khi login vào điện thoại thì tiến hành quét mã QR để đăng nhập cho PC. - iOS: Ngay trong Capcut mục TÔI > Quét QR. - Android: Phải cập nhật Capcut lên bản mới nhất mới có tính năng quét QR trong app.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 0,
             "cost_price": 10000,
             "selling_price": 20000,
-            "updated": "12:47 08/11/2026"
+            "updated": "14:49 08/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 10000,
-          "stock": 1
+          "stock": 0
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -20733,6 +20733,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794124197462",
+      "time": "14:49 - 08/11/2026",
+      "name": "Capcut 7D BH 5 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 0,
+      "catKey": "capcut",
+      "msgKey": "✂️Capcut7DBH5ngày➕Thêm:1📦Tồnkhohiệntại:0💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1794123966819",
       "time": "14:46 - 08/11/2026",
       "name": "Express VPN 3 Ngày BHF",
@@ -21820,17 +21831,6 @@
       "stockAfter": 929,
       "catKey": "claude",
       "msgKey": "🧠API50MTokenClaude1Tháng-BH1D➕Thêm:500📦Tồnkhohiệntại:929💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1794077851975",
-      "time": "01:57 - 08/11/2026",
-      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 103,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:65📦Tồnkhohiệntại:103💰Giá:180.000đ"
     }
   ],
   "vidiq": {
