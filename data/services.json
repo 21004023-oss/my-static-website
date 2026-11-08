@@ -14771,8 +14771,8 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 40000,
         "cost_price": 15000,
-        "stock": 24,
-        "stock_text": "Còn 24",
+        "stock": 27,
+        "stock_text": "Còn 27",
         "duration": "3 Ngày",
         "detail": "Định dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/\n✏️",
         "sources": {
@@ -14783,10 +14783,10 @@
             "updated": "14:46 08/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 8,
+            "stock": 11,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "20:11 07/11/2026"
+            "updated": "14:46 08/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 5,
@@ -14800,7 +14800,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 8
+          "stock": 11
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -20733,6 +20733,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794123966819",
+      "time": "14:46 - 08/11/2026",
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 27,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:10📦Tồnkhohiệntại:11💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794123960205",
       "time": "14:46 - 08/11/2026",
       "name": "Express VPN 3 Ngày BHF",
@@ -21820,17 +21831,6 @@
       "stockAfter": 103,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:65📦Tồnkhohiệntại:103💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1794077772490",
-      "time": "01:56 - 08/11/2026",
-      "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 220000,
-      "costPrice": 200000,
-      "stockAfter": 74,
-      "catKey": "chatgpt",
-      "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:4📦Tồnkhohiệntại:74💰Giá:200.000đ"
     }
   ],
   "vidiq": {
