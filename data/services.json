@@ -77,16 +77,16 @@
         "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
         "price": 85000,
         "cost_price": 55000,
-        "stock": 74,
-        "stock_text": "Còn 74",
+        "stock": 86,
+        "stock_text": "Còn 86",
         "duration": "1 Tháng",
         "detail": "✅Netflix 4K Premium bảo hành full 1 tháng sử dụng.\n✅Có web riêng lấy code, xác minh hộ gia đình v.v...\n✅Định dạng mail|pass|Profile riêng, mã pin riêng\n---Lưu ý: Sau khi nhập mail xong chọn mục NHẬN TRỢ GIÚP để nhập pass\n✅ Bảo hành full trong suốt thời gian sử dụng\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 39,
+            "stock": 51,
             "cost_price": 55000,
             "selling_price": 65000,
-            "updated": "18:17 07/11/2026"
+            "updated": "07:16 08/11/2026"
           },
           "piggyai99_bot": {
             "stock": 35,
@@ -101,7 +101,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 55000,
-          "stock": 39
+          "stock": 51
         }
       },
       {
@@ -20673,6 +20673,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794097015750",
+      "time": "07:16 - 08/11/2026",
+      "name": "[Slot] Netflix 4K Premium 1 tháng Bảo hành full",
+      "bot": "taphoathomap_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 86,
+      "catKey": "netflix",
+      "msgKey": "🎬[Slot]Netflix4KPremium1thángBảohànhfull➕Thêm:48📦Tồnkhohiệntại:51💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1794096135560",
       "time": "07:02 - 08/11/2026",
       "name": "HEYGEN CREATOR 1 THÁNG ( BH 2 ngày)",
@@ -21760,17 +21771,6 @@
       "stockAfter": 16,
       "catKey": "capcut",
       "msgKey": "✂️🔥CapcutPro6Tháng-BHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:290.000đ"
-    },
-    {
-      "id": "hist-1794059635359",
-      "time": "20:53 - 07/11/2026",
-      "name": "Tài Khoản Netflix Premium 2 ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 2,
-      "catKey": "netflix",
-      "msgKey": "🎬TàiKhoảnNetflixPremium2ngàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:35.000đ"
     }
   ],
   "vidiq": {
