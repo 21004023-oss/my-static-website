@@ -8842,9 +8842,9 @@
         "id": "p-1794132625374",
         "name": "Grok Plus 7 ngày BH 5 ngày",
         "price": 95000,
-        "cost_price": 85000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "cost_price": 80000,
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "7 Ngày",
         "detail": "💎 Mô tả sản phẩm: • Grok gói Plus hạn sử dụng 7 ngày • Định dạng: Tài khoản | Pass Grok • Bảo hành: BH 5 ngày gói Plus - hàng đã kiểm tra kỹ gói, pass trước khi đưa lên bot - yêu cầu check tài khoản và check gói trong vòng 24h sau khi đơn hàng bán ra. ⚠️ VUI LÒNG ĐỌC KỸ MÔ TẢ TRƯỚC KHI MUA: • Mua về được đổi pass tự bảo quản, bảo mật • Không thay mail, thay = không bảo hành • Không link hoặc gỡ tài khoản khỏi X khỏi google. Link hoặc gỡ sẽ mất gói không bảo hành. • Tài khoản dùng vi phạm chính sách của X dẫn đến bị khóa, mất gói cũng không được bảo hành.\n✏️",
         "sources": {
@@ -8853,14 +8853,20 @@
             "cost_price": 85000,
             "selling_price": 95000,
             "updated": "17:10 08/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 6,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "17:10 08/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 85000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 80000,
           "stock": 6
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -20785,6 +20791,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794132630419",
+      "time": "17:10 - 08/11/2026",
+      "name": "Grok Plus 7 ngày BH 5 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 12,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:2📦Tồnkhohiệntại:6💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1794132625374",
       "time": "17:10 - 08/11/2026",
       "name": "Grok Plus 7 ngày BH 5 ngày",
@@ -21872,17 +21889,6 @@
       "stockAfter": 5,
       "catKey": "khac",
       "msgKey": "⭐GalaxyPlayCaoCấp30ngàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1794107814132",
-      "time": "10:16 - 08/11/2026",
-      "name": "Tiktok Việt ngâm trên 1 Năm",
-      "bot": "taphoathomap_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 9,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokViệtngâmtrên1Năm➕Thêm:5📦Tồnkhohiệntại:5💰Giá:60.000đ"
     }
   ],
   "vidiq": {
