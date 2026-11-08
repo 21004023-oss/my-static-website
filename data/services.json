@@ -15209,16 +15209,16 @@
         "id": "p-1792261855714",
         "name": "Proton VPN 14-28 Ngày BHF",
         "price": 65000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "- Tài khoản Proton VPN 14 Ngày (iOS, Android, PC) 10 Thiết bị BHF 14 ngày\n- Định dạng: Email:Pass\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 8,
+            "stock": 5,
             "cost_price": 55000,
             "selling_price": 65000,
-            "updated": "10:21 08/11/2026"
+            "updated": "15:06 08/11/2026"
           }
         },
         "hidden": false,
@@ -15228,7 +15228,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 55000,
-          "stock": 8
+          "stock": 5
         }
       }
     ]
@@ -20733,6 +20733,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794125200695",
+      "time": "15:06 - 08/11/2026",
+      "name": "Proton VPN 14-28 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 5,
+      "catKey": "protonvpn",
+      "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:5💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1794124468409",
       "time": "14:54 - 08/11/2026",
       "name": "Adguard VPN Random 5-7 Ngày BHF",
@@ -21820,17 +21831,6 @@
       "stockAfter": 1129,
       "catKey": "claude",
       "msgKey": "🧠API50MTokenClaude1Tháng-BH1D➕Thêm:200📦Tồnkhohiệntại:1129💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1794087478688",
-      "time": "04:37 - 08/11/2026",
-      "name": "VIP 2.API 100M Token Claude 1 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 1472,
-      "catKey": "claude",
-      "msgKey": "🧠VIP2.API100MTokenClaude1Ngày-BHF➕Thêm:500📦Tồnkhohiệntại:1472💰Giá:120.000đ"
     }
   ],
   "vidiq": {
