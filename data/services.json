@@ -17115,16 +17115,16 @@
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
         "cost_price": 45000,
-        "stock": 50,
-        "stock_text": "Còn 50",
+        "stock": 65,
+        "stock_text": "Còn 65",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 14,
+            "stock": 29,
             "cost_price": 49000,
             "selling_price": 59000,
-            "updated": "15:44 06/11/2026"
+            "updated": "18:36 08/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 14,
@@ -20849,6 +20849,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794137807898",
+      "time": "18:36 - 08/11/2026",
+      "name": "Apple ID 2FA Gmail",
+      "bot": "sieuthistore_bot",
+      "price": 59000,
+      "costPrice": 49000,
+      "stockAfter": 65,
+      "catKey": "gmail",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:30📦Tồnkhohiệntại:29💰Giá:49.000đ"
+    },
+    {
       "id": "hist-1794137643836",
       "time": "18:34 - 08/11/2026",
       "name": "Capcut 7D BH 5 ngày",
@@ -21936,17 +21947,6 @@
       "stockAfter": 33,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:5📦Tồnkhohiệntại:33💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1794113941887",
-      "time": "11:59 - 08/11/2026",
-      "name": "Gmail Ngâm 6 tháng Có Trial YTB",
-      "bot": "piggyai99_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 23,
-      "catKey": "youtube",
-      "msgKey": "📧GmailNgâm6thángCóTrialYTB➕Thêm:23📦Tồnkhohiệntại:23💰Giá:30.000đ"
     }
   ],
   "vidiq": {
