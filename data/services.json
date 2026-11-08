@@ -12325,26 +12325,28 @@
       {
         "id": "p-1792163346491",
         "name": "Genspark Plus 1 tháng (BH 15D)",
-        "price": 430000,
-        "stock": 45,
-        "stock_text": "Còn 45",
+        "price": 450000,
+        "stock": 72,
+        "stock_text": "Còn 72",
         "duration": "1 Tháng",
-        "detail": "Gói Genspark Plus 1 tháng (BH 15D) bảo hành uy tín.",
+        "detail": "✔️ Hỗ trợ tìm kiếm và nghiên cứu bằng AI ✔️ Tạo nội dung, báo cáo và slide nhanh chóng Khách gửi tài khoản: Mail và pass genspark để đăng nhập thuận tiện. đăng nhập qua google thì log out ra sign up lại mail đó đặt lại pass genspark. Cần tài khoản cấp thì note cho shop 📦 Oder: 1 -2 h 🛡️ Bảo hành: 15 ngày (Chỉ bảo hành gói dịch vụ, không bảo hành trường hợp sử dụng vi phạm chính sách)\n- TK không sẵn mua xong mới kích hoạt trả hàng\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 45,
-            "cost_price": 380000,
-            "updated": "22:09 16/10/2026",
-            "selling_price": 430000
+            "stock": 72,
+            "cost_price": 400000,
+            "selling_price": 450000,
+            "updated": "13:59 08/11/2026"
           }
         },
         "hidden": false,
-        "cost_price": 380000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "cost_price": 400000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 380000
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 400000,
+          "stock": 72
+        },
+        "needs_review": false
       }
     ]
   },
@@ -20725,6 +20727,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794121166903",
+      "time": "13:59 - 08/11/2026",
+      "name": "Genspark Plus 1 tháng (BH 15D)",
+      "bot": "taphoathomap_bot",
+      "price": 450000,
+      "costPrice": 400000,
+      "stockAfter": 72,
+      "catKey": "genspark",
+      "msgKey": "⭐GensparkPlus1tháng(BH15D)➕Thêm:71📦Tồnkhohiệntại:72💰Giá:400.000đ"
+    },
+    {
       "id": "hist-1794120632338",
       "time": "13:50 - 08/11/2026",
       "name": "👑 VIP · ChatGPT Plus Apple 1 Tháng BHF",
@@ -21812,17 +21825,6 @@
       "stockAfter": 3,
       "catKey": "netflix",
       "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1794074064119",
-      "time": "00:54 - 08/11/2026",
-      "name": "Iqiyi Cao Cấp 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 48000,
-      "costPrice": 38000,
-      "stockAfter": 3,
-      "catKey": "khac",
-      "msgKey": "⭐IqiyiCaoCấp1ThángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:38.000đ"
     }
   ],
   "vidiq": {
