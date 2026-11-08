@@ -556,25 +556,27 @@
         "id": "p-1792218961522",
         "name": "Youku Vip 3 tháng BHF",
         "price": 95000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "3 Tháng",
-        "detail": "Tài khoản youku vip dùng 1 thiết bị (1 slot)\nKhách hàng được đăng nhập tối đa 2 thiết bị, và xem 1 thiết bị đồng thời\nBảo hành toàn thời gian đăng ký",
+        "detail": "Tài khoản youku vip dùng 1 thiết bị (1 slot)\nKhách hàng được đăng nhập tối đa 2 thiết bị, và xem 1 thiết bị đồng thời\nBảo hành toàn thời gian đăng ký\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 3,
             "cost_price": 85000,
-            "updated": "13:36 17/10/2026",
-            "selling_price": 95000
+            "selling_price": 95000,
+            "updated": "20:17 08/11/2026"
           }
         },
         "hidden": false,
         "cost_price": 85000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 85000
-        }
+          "bot": "@sieuthistore_bot",
+          "cost_price": 85000,
+          "stock": 3
+        },
+        "needs_review": false
       },
       {
         "id": "p-1792218966910",
@@ -20849,6 +20851,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794143843928",
+      "time": "20:17 - 08/11/2026",
+      "name": "Youku Vip 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 3,
+      "catKey": "youku",
+      "msgKey": "⭐YoukuVip3thángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:85.000đ"
+    },
+    {
       "id": "hist-1794143245222",
       "time": "20:07 - 08/11/2026",
       "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
@@ -21936,17 +21949,6 @@
       "stockAfter": 149,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:7📦Tồnkhohiệntại:61💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1794121400427",
-      "time": "14:03 - 08/11/2026",
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 143,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:7📦Tồnkhohiệntại:61💰Giá:65.000đ"
     }
   ],
   "vidiq": {
