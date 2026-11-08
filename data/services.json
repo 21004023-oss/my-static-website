@@ -17622,6 +17622,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794131410634",
+        "name": "Gmail Việt cổ có kênh cổ",
+        "price": 70000,
+        "cost_price": 60000,
+        "stock": 20,
+        "stock_text": "Còn 20",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|pass\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 20,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "16:50 08/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 60000,
+          "stock": 20
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -20733,6 +20759,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794131410635",
+      "time": "16:50 - 08/11/2026",
+      "name": "Gmail Việt cổ có kênh cổ",
+      "bot": "sieuthistore_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 20,
+      "catKey": "gmail",
+      "msgKey": "📧GmailViệtcổcókênhcổ➕Thêm:20📦Tồnkhohiệntại:20💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1794130870178",
       "time": "16:41 - 08/11/2026",
       "name": "Express VPN Random 2-3 Ngày BHF",
@@ -21820,17 +21857,6 @@
       "stockAfter": 912,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:20📦Tồnkhohiệntại:20💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1794102964327",
-      "time": "08:56 - 08/11/2026",
-      "name": "Capcut Pro 7 Ngày BH 6 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 335,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutPro7NgàyBH6Ngày➕Thêm:350📦Tồnkhohiệntại:335💰Giá:10.000đ"
     }
   ],
   "vidiq": {
