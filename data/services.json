@@ -1260,6 +1260,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794113941887",
+        "name": "Gmail Ngâm 6 tháng Có Trial YTB",
+        "price": 40000,
+        "cost_price": 30000,
+        "stock": 23,
+        "stock_text": "Còn 23",
+        "duration": "6 Tháng",
+        "detail": "Định Dạng : Gmail | Pass | 2FA\nBảo hành login 24h\n-Lưu ý: Gmail phù hợp làm Trial YTB, Nâng link gemini pro…vvv - Hòm thư gmail bị khoá - AE không dùng chức năng hòm thư thì có thể sử dụng Gmail này bình thường.\n-Gmail khá trâu bò\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 23,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "11:59 08/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 30000,
+          "stock": 23
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -20699,6 +20725,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794113941887",
+      "time": "11:59 - 08/11/2026",
+      "name": "Gmail Ngâm 6 tháng Có Trial YTB",
+      "bot": "piggyai99_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 23,
+      "catKey": "youtube",
+      "msgKey": "📧GmailNgâm6thángCóTrialYTB➕Thêm:23📦Tồnkhohiệntại:23💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1794113932318",
       "time": "11:58 - 08/11/2026",
       "name": "Gmail Ngâm 6T Có Trial YTB",
@@ -21786,17 +21823,6 @@
       "stockAfter": 1,
       "catKey": "capcut",
       "msgKey": "✂️Capcut7DBH5ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1794068636217",
-      "time": "23:23 - 07/11/2026",
-      "name": "Muse Ai 31 tỷ Token ( KBH )",
-      "bot": "taphoathomap_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 30,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi31tỷToken(KBH)➕Thêm:20📦Tồnkhohiệntại:20💰Giá:40.000đ"
     }
   ],
   "vidiq": {
