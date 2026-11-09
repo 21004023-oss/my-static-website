@@ -21460,10 +21460,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794233243389",
+        "name": "TEST API BOT",
+        "price": 10001,
+        "cost_price": 1,
+        "stock": 408,
+        "stock_text": "Còn 408",
+        "duration": "1 Tháng",
+        "detail": "Gói TEST API BOT bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 408,
+            "cost_price": 1,
+            "selling_price": 10001,
+            "updated": "21:07 09/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 1,
+          "stock": 408
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1794233243389",
+      "time": "21:07 - 09/11/2026",
+      "name": "TEST API BOT",
+      "bot": "taphoathomap_bot",
+      "price": 10001,
+      "costPrice": 1,
+      "stockAfter": 408,
+      "catKey": "khac",
+      "msgKey": "TESTAPIBOT➕Thêm:408📦Tồnkhohiệntại:408💰Giá:1đ"
+    },
     {
       "id": "hist-1794232114152",
       "time": "20:48 - 09/11/2026",
@@ -22552,17 +22589,6 @@
       "stockAfter": 18,
       "catKey": "chatgpt",
       "msgKey": "🤖💎VIPPRO·ChatGPTPlusApple1ThángBHF➕Thêm:18📦Tồnkhohiệntại:18💰Giá:155.000đ"
-    },
-    {
-      "id": "hist-1794217571353",
-      "time": "16:46 - 09/11/2026",
-      "name": "👑 VIP · ChatGPT Plus Apple 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 165000,
-      "costPrice": 145000,
-      "stockAfter": 23,
-      "catKey": "chatgpt",
-      "msgKey": "🤖👑VIP·ChatGPTPlusApple1ThángBHF➕Thêm:23📦Tồnkhohiệntại:23💰Giá:145.000đ"
     }
   ],
   "vidiq": {
