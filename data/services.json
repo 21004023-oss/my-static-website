@@ -5310,6 +5310,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794202530193",
+        "name": "GPT GO 1 THÁNG ( BH 28 NGÀY )",
+        "price": 145000,
+        "cost_price": 125000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "1 Tháng",
+        "detail": "Gói GPT GO 1 THÁNG ( BH 28 NGÀY ) bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 10,
+            "cost_price": 125000,
+            "selling_price": 145000,
+            "updated": "12:35 09/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 125000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -21114,6 +21140,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794202530193",
+      "time": "12:35 - 09/11/2026",
+      "name": "GPT GO 1 THÁNG ( BH 28 NGÀY )",
+      "bot": "piggyai99_bot",
+      "price": 145000,
+      "costPrice": 125000,
+      "stockAfter": 10,
+      "catKey": "chatgpt",
+      "msgKey": "🤖GPTGO1THÁNG(BH28NGÀY)💰Giá:125k📦Tồnkho:10tàikhoản📊Đãbán:440tàikhoản✏️Vuilòngnhập"
+    },
+    {
       "id": "hist-1794202486005",
       "time": "12:34 - 09/11/2026",
       "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
@@ -22201,17 +22238,6 @@
       "stockAfter": 56,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:26📦Tồnkhohiệntại:56💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1794140574888",
-      "time": "19:22 - 08/11/2026",
-      "name": "ChatGPT Go 1 Tháng (BH 28D)",
-      "bot": "taphoathomap_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 0,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:23📦Tồnkhohiệntại:0💰Giá:95.000đ"
     }
   ],
   "vidiq": {
