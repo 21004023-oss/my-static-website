@@ -12679,6 +12679,32 @@
           "stock": 72
         },
         "needs_review": false
+      },
+      {
+        "id": "p-1794210200174",
+        "name": "Genspark Plus 1 tháng (BH 2D)",
+        "price": 450000,
+        "cost_price": 400000,
+        "stock": 70,
+        "stock_text": "Còn 70",
+        "duration": "1 Tháng",
+        "detail": "Gói Genspark Plus 1 tháng (BH 2D) bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 70,
+            "cost_price": 400000,
+            "selling_price": 450000,
+            "updated": "14:43 09/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 400000,
+          "stock": 70
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -21146,6 +21172,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794210200174",
+      "time": "14:43 - 09/11/2026",
+      "name": "Genspark Plus 1 tháng (BH 2D)",
+      "bot": "taphoathomap_bot",
+      "price": 450000,
+      "costPrice": 400000,
+      "stockAfter": 70,
+      "catKey": "genspark",
+      "msgKey": "⭐GensparkPlus1tháng(BH2D)➕Thêm:1📦Tồnkhohiệntại:70💰Giá:400.000đ"
+    },
+    {
       "id": "hist-1794209826326",
       "time": "14:37 - 09/11/2026",
       "name": "ChatGPT Plus GGpay 30D BHF",
@@ -22233,17 +22270,6 @@
       "stockAfter": 2,
       "catKey": "capcut",
       "msgKey": "✂️Capcut7DBH5ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1794146590840",
-      "time": "21:03 - 08/11/2026",
-      "name": "⚡️ Grok Plus 7 ngày -  BH 1 Ngày",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 48,
-      "catKey": "grok",
-      "msgKey": "⚡⚡️GrokPlus7ngày-BH1Ngày➕Thêm:9📦Tồnkhohiệntại:48💰Giá:70.000đ"
     }
   ],
   "vidiq": {
