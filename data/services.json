@@ -17096,18 +17096,18 @@
         "id": "p-1791873309021",
         "name": "Gmail Random ip 2020-2024",
         "price": 55000,
-        "stock": 200,
-        "stock_text": "Còn 200",
+        "stock": 141,
+        "stock_text": "Còn 141",
         "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|MKP|2FA (nếu có)\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành",
+        "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành\n✏️",
         "price_verified": true,
-        "cost_price": 15000,
+        "cost_price": 35000,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 100,
-            "cost_price": 45000,
-            "selling_price": 55000,
-            "updated": "20:58 19/10/2026"
+            "stock": 41,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "05:42 10/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 100,
@@ -17116,13 +17116,14 @@
             "updated": "20:58 19/10/2026"
           }
         },
-        "needs_review": true,
-        "hidden": true,
+        "needs_review": false,
+        "hidden": false,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 15000
+          "bot": "@sieuthistore_bot",
+          "cost_price": 35000,
+          "stock": 41
         },
-        "import_note": "🛒 @taphoathomap_bot"
+        "import_note": "Nhập: @sieuthistore_bot"
       },
       {
         "id": "p-1791927012624",
@@ -21685,6 +21686,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794264140355",
+      "time": "05:42 - 10/11/2026",
+      "name": "Gmail Random ip 2020-2024",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 141,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandomip2020-2024➕Thêm:1📦Tồnkhohiệntại:41💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1794263842925",
       "time": "05:37 - 10/11/2026",
       "name": "CAPCUT PRO CÁ NHÂN 30 Ngày BHF",
@@ -22772,17 +22784,6 @@
       "stockAfter": 138,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:10📦Tồnkhohiệntại:138💰Giá:170.00"
-    },
-    {
-      "id": "hist-1794242243750",
-      "time": "23:37 - 09/11/2026",
-      "name": "ADMIN GEMINI PRO + GG 5TB 1 NĂM BẢO HÀNH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 4,
-      "catKey": "google-veo",
-      "msgKey": "☁️ADMINGEMINIPRO+GG5TB1NĂMBẢOHÀNH24H➕Thêm:4📦Tồnkhohiệntại:4💰Giá:130.000đ"
     }
   ],
   "vidiq": {
