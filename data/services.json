@@ -2378,16 +2378,16 @@
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
         "price": 1600000,
-        "stock": 70,
-        "stock_text": "Còn 70",
+        "stock": 75,
+        "stock_text": "Còn 75",
         "duration": "1 Tháng",
         "detail": "- ChatGPT Plus 1 tháng BHF\n- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ\n🎁 Khuyến mãi:\n- Mua từ 5 giá 145k\n- Mua từ 10 giá 140k\n- Mua từ 20 giá 130k\n- Mua từ 50 giá 125k\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 27,
+            "stock": 32,
             "cost_price": 150000,
             "selling_price": 170000,
-            "updated": "21:52 09/11/2026"
+            "updated": "00:35 10/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 1,
@@ -2415,7 +2415,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 150000,
-          "stock": 27
+          "stock": 32
         }
       },
       {
@@ -21633,6 +21633,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794245719502",
+      "time": "00:35 - 10/11/2026",
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 75,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:31📦Tồnkhohiệntại:32💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1794245708374",
       "time": "00:35 - 10/11/2026",
       "name": "Chatgpt Plus (Apple Pay) 1 tháng BHF",
@@ -22720,17 +22731,6 @@
       "stockAfter": 155,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:20📦Tồnkhohiệntại:155💰Giá:170.00"
-    },
-    {
-      "id": "hist-1794228084575",
-      "time": "19:41 - 09/11/2026",
-      "name": "Chatgpt Plus (Apple Pay) 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 203,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:20📦Tồnkhohiệntại:155💰Giá:220.000đ"
     }
   ],
   "vidiq": {
