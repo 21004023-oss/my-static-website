@@ -21602,10 +21602,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794244780804",
+        "name": "HIGG 3k cre  max plan 1 tháng BH 5 ngày",
+        "price": 3150000,
+        "cost_price": 2800000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "Gói HIGG 3k cre  max plan 1 tháng BH 5 ngày bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 2800000,
+            "selling_price": 3150000,
+            "updated": "00:19 10/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 2800000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1794244780804",
+      "time": "00:19 - 10/11/2026",
+      "name": "HIGG 3k cre  max plan 1 tháng BH 5 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 3150000,
+      "costPrice": 2800000,
+      "stockAfter": 5,
+      "catKey": "khac",
+      "msgKey": "🎬HIGG3kcremaxplan1thángBH5ngày💰Giá:2800k📦Tồnkho:5tàikhoản📊Đãbán:11tàikhoản✏️Vuil"
+    },
     {
       "id": "hist-1794244085153",
       "time": "00:08 - 10/11/2026",
@@ -22694,17 +22731,6 @@
       "stockAfter": 23,
       "catKey": "chatgpt",
       "msgKey": "🤖💎VIPPRO·ChatGPTPlusApple1ThángBHF➕Thêm:23📦Tồnkhohiệntại:23💰Giá:155.000đ"
-    },
-    {
-      "id": "hist-1794227637677",
-      "time": "19:33 - 09/11/2026",
-      "name": "👑 VIP · ChatGPT Plus Apple 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 165000,
-      "costPrice": 145000,
-      "stockAfter": 26,
-      "catKey": "chatgpt",
-      "msgKey": "🤖👑VIP·ChatGPTPlusApple1ThángBHF➕Thêm:26📦Tồnkhohiệntại:26💰Giá:145.000đ"
     }
   ],
   "vidiq": {
