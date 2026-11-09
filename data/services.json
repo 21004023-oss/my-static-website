@@ -8581,16 +8581,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 57,
-        "stock_text": "Còn 57",
+        "stock": 43,
+        "stock_text": "Còn 43",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 57,
+            "stock": 43,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "20:27 08/11/2026"
+            "updated": "13:20 09/11/2026"
           }
         },
         "hidden": false,
@@ -8598,7 +8598,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 57
+          "stock": 43
         },
         "needs_review": false
       },
@@ -21140,6 +21140,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794205227647",
+      "time": "13:20 - 09/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 43,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:43💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794204518201",
       "time": "13:08 - 09/11/2026",
       "name": "Gmail Random ip 7-10 ngày 2FA",
@@ -22227,17 +22238,6 @@
       "stockAfter": 3,
       "catKey": "youku",
       "msgKey": "⭐YoukuVip3thángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1794143245222",
-      "time": "20:07 - 08/11/2026",
-      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 129,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:84📦Tồnkhohiệntại:129💰Giá:180.000đ"
     }
   ],
   "vidiq": {
