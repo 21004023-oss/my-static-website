@@ -7711,6 +7711,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794200546731",
+        "name": "Link Gemini AI Plus 6 Tháng KBH",
+        "price": 65000,
+        "cost_price": 55000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "6 Tháng",
+        "detail": "Link nhận gói Gemini AI Plus hạn 6 tháng.\n• Không cần thêm thẻ thanh toán, không cần sử dụng VPN.\n• Mua về chỉ cần đăng nhập Gmail → dán link → kích hoạt gói.\n• Bảo hành link 12 giờ kể từ lúc mua. Không bảo hành trường hợp ngâm link quá 12 giờ.\n• Hướng dẫn sử dụng: Đăng nhập Gmail → mở link redeem → làm theo hướng dẫn để kích hoạt gói.\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 10,
+            "cost_price": 55000,
+            "selling_price": 65000,
+            "updated": "12:02 09/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 55000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -21030,6 +21056,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794200546732",
+      "time": "12:02 - 09/11/2026",
+      "name": "Link Gemini AI Plus 6 Tháng KBH",
+      "bot": "sieuthistore_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 10,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGeminiAIPlus6ThángKBH➕Thêm:10📦Tồnkhohiệntại:10💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1794199622614",
       "time": "11:47 - 09/11/2026",
       "name": "Gói VIP 1. API MUSE - Tạo 333 video - 1 tháng BH 15 Ngày",
@@ -22117,17 +22154,6 @@
       "stockAfter": 68,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+1ThángBHF➕Thêm:41📦Tồnkhohiệntại:41💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1794136276316",
-      "time": "18:11 - 08/11/2026",
-      "name": "SĐT US Very SMS Gmail  Live 90D",
-      "bot": "piggyai99_bot",
-      "price": 30000,
-      "costPrice": 20000,
-      "stockAfter": 106,
-      "catKey": "gmail",
-      "msgKey": "📧SĐTUSVerySMSGmailLive90D➕Thêm:1📦Tồnkhohiệntại:53💰Giá:20.000đ"
     }
   ],
   "vidiq": {
