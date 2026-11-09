@@ -10106,6 +10106,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794212591596",
+        "name": "Kling Stand 800 credit 1 tháng - BH 24 giờ",
+        "price": 125000,
+        "cost_price": 105000,
+        "stock": 9,
+        "stock_text": "Còn 9",
+        "duration": "1 Tháng",
+        "detail": "Gói Kling Stand 800 credit 1 tháng - BH 24 giờ bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 9,
+            "cost_price": 105000,
+            "selling_price": 125000,
+            "updated": "15:23 09/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 105000,
+          "stock": 9
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -21172,6 +21198,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794212591596",
+      "time": "15:23 - 09/11/2026",
+      "name": "Kling Stand 800 credit 1 tháng - BH 24 giờ",
+      "bot": "taphoathomap_bot",
+      "price": 125000,
+      "costPrice": 105000,
+      "stockAfter": 9,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStand800credit1tháng-BH24giờ💰Giá:105k📦Tồnkho:9tàikhoản📊Đãbán:25tàikhoản✏️V"
+    },
+    {
       "id": "hist-1794212299281",
       "time": "15:18 - 09/11/2026",
       "name": "[CDK] Thuê Số OTP Codex/GPT 30D BH 24H",
@@ -22259,17 +22296,6 @@
       "stockAfter": 369,
       "catKey": "canva",
       "msgKey": "🎨LINKJOINCANVAPRO1THÁNGBHF➕Thêm:100📦Tồnkhohiệntại:98💰Giá:5.000đ"
-    },
-    {
-      "id": "hist-1794195109870",
-      "time": "10:31 - 09/11/2026",
-      "name": "LINK JOIN CANVA PRO 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 15000,
-      "costPrice": 5000,
-      "stockAfter": 271,
-      "catKey": "canva",
-      "msgKey": "🎨LINKJOINCANVAPRO1THÁNGBHF➕Thêm:1082📦Tồnkhohiệntại:0💰Giá:5.000đ"
     }
   ],
   "vidiq": {
