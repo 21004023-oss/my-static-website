@@ -10192,10 +10192,10 @@
         "id": "p-1792097676939",
         "name": "Elevenlab Creator 1Th BH 3D",
         "price": 219000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "stock": 21,
+        "stock_text": "Còn 21",
         "duration": "1 Tháng",
-        "detail": "mail|pass mail|pas11lab",
+        "detail": "mail|pas11lab\nChỉ bảo hành gói creator và 131k credit, không bảo hành các lỗi vi phạm dịch vụ nền tảng\n✏️",
         "sources": {
           "piggyai99_bot": {
             "stock": 11,
@@ -10204,19 +10204,20 @@
             "selling_price": 200000
           },
           "taphoathomap_bot": {
-            "stock": 11,
-            "cost_price": 159000,
-            "updated": "20:18 17/10/2026",
-            "selling_price": 179000
+            "stock": 10,
+            "cost_price": 139000,
+            "selling_price": 159000,
+            "updated": "15:24 09/11/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
-        "cost_price": 180000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false,
+        "cost_price": 139000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 180000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 139000,
+          "stock": 10
         }
       },
       {
@@ -21198,6 +21199,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794212683387",
+      "time": "15:24 - 09/11/2026",
+      "name": "Elevenlab Creator 1Th BH 3D",
+      "bot": "taphoathomap_bot",
+      "price": 159000,
+      "costPrice": 139000,
+      "stockAfter": 21,
+      "catKey": "elevenlabs",
+      "msgKey": "🎙️ElevenlabCreator1ThBH3D➕Thêm:10📦Tồnkhohiệntại:10💰Giá:139.000đ"
+    },
+    {
       "id": "hist-1794212596721",
       "time": "15:23 - 09/11/2026",
       "name": "Kling Stand 800 credit 1 tháng - BH 24 giờ",
@@ -22285,17 +22297,6 @@
       "stockAfter": 180,
       "catKey": "youtube",
       "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:1📦Tồnkhohiệntại:180💰Giá:46.000đ"
-    },
-    {
-      "id": "hist-1794195120806",
-      "time": "10:32 - 09/11/2026",
-      "name": "Gmail 2020-2024 đã qua ads",
-      "bot": "sieuthistore_bot",
-      "price": 52000,
-      "costPrice": 42000,
-      "stockAfter": 4,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail2020-2024đãquaads➕Thêm:4📦Tồnkhohiệntại:4💰Giá:42.000đ"
     }
   ],
   "vidiq": {
