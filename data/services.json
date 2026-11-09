@@ -17815,16 +17815,27 @@
         "id": "p-1791898506865",
         "name": "Hotmail Trusted - 6 tháng - KBH",
         "price": 15000,
-        "stock": 2816,
-        "stock_text": "Còn 2816",
-        "duration": "6 tháng",
+        "stock": 1633,
+        "stock_text": "Còn 1633",
+        "duration": "6 Tháng",
         "detail": "Gói Hotmail Trusted - 6 tháng - KBH bảo hành uy tín.",
-        "cost_price": 5000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "cost_price": 500,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 5000
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 500,
+          "stock": 1633
+        },
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1633,
+            "cost_price": 500,
+            "selling_price": 10500,
+            "updated": "10:49 09/11/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1793205651253",
@@ -20915,6 +20926,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794196160332",
+      "time": "10:49 - 09/11/2026",
+      "name": "Hotmail Trusted - 6 tháng - KBH",
+      "bot": "taphoathomap_bot",
+      "price": 10500,
+      "costPrice": 500,
+      "stockAfter": 1633,
+      "catKey": "hotmail",
+      "msgKey": "⭐HotmailTrusted-6tháng-KBH➕Thêm:1000📦Tồnkhohiệntại:1633💰Giá:500đ"
+    },
+    {
       "id": "hist-1794195647849",
       "time": "10:40 - 09/11/2026",
       "name": "Capcut 7D BH 5 ngày",
@@ -22002,17 +22024,6 @@
       "stockAfter": 20,
       "catKey": "gmail",
       "msgKey": "📧GmailViệtcổcókênhcổ➕Thêm:20📦Tồnkhohiệntại:20💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1794130870178",
-      "time": "16:41 - 08/11/2026",
-      "name": "Express VPN Random 2-3 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 17000,
-      "costPrice": 7000,
-      "stockAfter": 5,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:1📦Tồnkhohiệntại:5💰Giá:7.000đ"
     }
   ],
   "vidiq": {
