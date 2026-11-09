@@ -18303,6 +18303,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794239592605",
+        "name": "[CDK] Thuê Số OTP Gmail 30D BHF",
+        "price": 25000,
+        "cost_price": 15000,
+        "stock": 22,
+        "stock_text": "Còn 22",
+        "duration": "1 Tháng",
+        "detail": "🎁 HD nhận mã:\n1. Mở dịch vụ cần xác minh đến bước nhập số điện thoại.\n2. Mở link → bấm \"Nhận\" → Copy số điện thoại.\n3. Dán số vào dịch vụ, bấm gửi mã.\n4. Giữ trang mở, mã sẽ tự hiện → Copy và nhập vào dịch vụ.\nMỗi link chỉ nhận 1 mã. Lỡ đóng trang thì mở lại link để xem lại mã.\nLưu ý: số chỉ thuê/dùng 1 lần\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 22,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "22:53 09/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 15000,
+          "stock": 22
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -21555,6 +21581,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794239592605",
+      "time": "22:53 - 09/11/2026",
+      "name": "[CDK] Thuê Số OTP Gmail 30D BHF",
+      "bot": "sieuthistore_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 22,
+      "catKey": "gmail",
+      "msgKey": "📧[CDK]ThuêSốOTPGmail30DBHF➕Thêm:2📦Tồnkhohiệntại:22💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794238990500",
       "time": "22:43 - 09/11/2026",
       "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
@@ -22642,17 +22679,6 @@
       "stockAfter": 143,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:5📦Tồnkhohiệntại:58💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1794221983425",
-      "time": "17:59 - 09/11/2026",
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 146,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:5📦Tồnkhohiệntại:58💰Giá:65.000đ"
     }
   ],
   "vidiq": {
