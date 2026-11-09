@@ -14453,8 +14453,8 @@
         "id": "p-1792006811047",
         "name": "Photoroom Max 7 Ngày BHF",
         "price": 45000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 17,
+        "stock_text": "Còn 17",
         "duration": "7 Ngày",
         "detail": "Photoroom 7 ngày gói Max\nĐịnh dạng: Email|Web mail\n✏️",
         "sources": {
@@ -14465,10 +14465,10 @@
             "updated": "00:03 08/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 7,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "00:03 08/11/2026"
+            "updated": "06:56 10/11/2026"
           }
         },
         "cost_price": 15000,
@@ -14478,7 +14478,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 10
+          "stock": 7
         }
       }
     ]
@@ -21712,6 +21712,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794268618686",
+      "time": "06:56 - 10/11/2026",
+      "name": "Photoroom Max 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 17,
+      "catKey": "photoroom",
+      "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:4📦Tồnkhohiệntại:7💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794268248638",
       "time": "06:50 - 10/11/2026",
       "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
@@ -22799,17 +22810,6 @@
       "stockAfter": 63,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusGGpay30DBHF➕Thêm:32📦Tồnkhohiệntại:63💰Giá:170.000đ"
-    },
-    {
-      "id": "hist-1794243519310",
-      "time": "23:58 - 09/11/2026",
-      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 39,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:39📦Tồnkhohiệntại:39💰Giá:110.000đ"
     }
   ],
   "vidiq": {
