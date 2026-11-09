@@ -14819,16 +14819,16 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 10,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "00:48 08/11/2026"
+            "updated": "15:05 09/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 10,
@@ -14841,7 +14841,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 5
+          "stock": 10
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -21172,6 +21172,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794211513115",
+      "time": "15:05 - 09/11/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 20,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794211504872",
       "time": "15:05 - 09/11/2026",
       "name": "NordVPN 3 Ngày BHF",
@@ -22259,17 +22270,6 @@
       "stockAfter": 9,
       "catKey": "chatgpt",
       "msgKey": "🤖(💕LoveV)ChatgptPlusApplePay1thángBH20D➕Thêm:2📦Tồnkhohiệntại:9💰Giá:155.000đ"
-    },
-    {
-      "id": "hist-1794195081567",
-      "time": "10:31 - 09/11/2026",
-      "name": "Higgsfield Max 1k8 Credit 1 tháng (BH 3 ngày)",
-      "bot": "piggyai99_bot",
-      "price": 1700000,
-      "costPrice": 1500000,
-      "stockAfter": 1,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldMax1k8Credit1tháng(BH3ngày)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:1.500.000đ"
     }
   ],
   "vidiq": {
