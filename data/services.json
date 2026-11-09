@@ -15226,23 +15226,23 @@
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
         "cost_price": 7000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "3 Ngày",
         "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 2,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "19:54 08/11/2026"
+            "updated": "16:25 09/11/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 7000,
-          "stock": 4
+          "stock": 2
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -21257,6 +21257,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794216357865",
+      "time": "16:25 - 09/11/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 2,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1794216261771",
       "time": "16:24 - 09/11/2026",
       "name": "Gmail Random 2020~2023 Có 2FA",
@@ -22344,17 +22355,6 @@
       "stockAfter": 25,
       "catKey": "chatgpt",
       "msgKey": "🤖👑VIP·ChatGPTPlusApple1ThángBHF➕Thêm:25📦Tồnkhohiệntại:25💰Giá:145.000đ"
-    },
-    {
-      "id": "hist-1794197363702",
-      "time": "11:09 - 09/11/2026",
-      "name": "Gmail Random 200X~2023 Có 2FA",
-      "bot": "taphoathomap_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 332,
-      "catKey": "gmail",
-      "msgKey": "📧GmailRandom200X~2023Có2FA💰Giá:35k📦Tồnkho:234tàikhoản📊Đãbán:5.636tàikhoản💎Môtả:Đ"
     }
   ],
   "vidiq": {
