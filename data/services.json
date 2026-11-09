@@ -8549,8 +8549,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 115000,
-        "stock": 59,
-        "stock_text": "Còn 59",
+        "stock": 45,
+        "stock_text": "Còn 45",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -8561,10 +8561,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 57,
+            "stock": 43,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "20:28 08/11/2026"
+            "updated": "13:21 09/11/2026"
           }
         },
         "hidden": false,
@@ -8573,7 +8573,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 57
+          "stock": 43
         }
       },
       {
@@ -21140,6 +21140,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794205262036",
+      "time": "13:21 - 09/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 45,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:43💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1794205227647",
       "time": "13:20 - 09/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -22227,17 +22238,6 @@
       "stockAfter": 6,
       "catKey": "youku",
       "msgKey": "⭐YoukuVip3thángbhf➕Thêm:3📦Tồnkhohiệntại:3💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1794143843928",
-      "time": "20:17 - 08/11/2026",
-      "name": "Youku Vip 3 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 95000,
-      "costPrice": 85000,
-      "stockAfter": 3,
-      "catKey": "youku",
-      "msgKey": "⭐YoukuVip3thángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:85.000đ"
     }
   ],
   "vidiq": {
