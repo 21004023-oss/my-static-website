@@ -10938,6 +10938,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794195081567",
+        "name": "Higgsfield Max 1k8 Credit 1 tháng (BH 3 ngày)",
+        "price": 1700000,
+        "cost_price": 1500000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Gói Higgsfield Max 1k8 Credit 1 tháng (BH 3 ngày) bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 1,
+            "cost_price": 1500000,
+            "selling_price": 1700000,
+            "updated": "10:31 09/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 1500000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -20863,6 +20889,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794195081567",
+      "time": "10:31 - 09/11/2026",
+      "name": "Higgsfield Max 1k8 Credit 1 tháng (BH 3 ngày)",
+      "bot": "piggyai99_bot",
+      "price": 1700000,
+      "costPrice": 1500000,
+      "stockAfter": 1,
+      "catKey": "higgsfield",
+      "msgKey": "🎬HiggsfieldMax1k8Credit1tháng(BH3ngày)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:1.500.000đ"
+    },
+    {
       "id": "hist-1794195076960",
       "time": "10:31 - 09/11/2026",
       "name": "Gmail USA new",
@@ -21950,17 +21987,6 @@
       "stockAfter": 8,
       "catKey": "khac",
       "msgKey": "⭐HotspotShieldVPN7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:7.777đ"
-    },
-    {
-      "id": "hist-1794126388470",
-      "time": "15:26 - 08/11/2026",
-      "name": "Express VPN Random 2-3 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 17000,
-      "costPrice": 7000,
-      "stockAfter": 4,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:1📦Tồnkhohiệntại:4💰Giá:7.000đ"
     }
   ],
   "vidiq": {
