@@ -463,6 +463,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794235493964",
+        "name": "Key Nạp VieOn Vip 6 Tháng BHF",
+        "price": 190000,
+        "cost_price": 170000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "6 Tháng",
+        "detail": "▸ Kích hoạt Key trực tiếp trên https://vieon.vn/ma-vieon\n▸ Login tài khoản trước khi nhập Key kích hoạt\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 6,
+            "cost_price": 170000,
+            "selling_price": 190000,
+            "updated": "21:44 09/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 170000,
+          "stock": 6
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -21491,6 +21517,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794235493964",
+      "time": "21:44 - 09/11/2026",
+      "name": "Key Nạp VieOn Vip 6 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 190000,
+      "costPrice": 170000,
+      "stockAfter": 6,
+      "catKey": "vieon",
+      "msgKey": "⭐KeyNạpVieOnVip6ThángBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:170.000đ"
+    },
+    {
       "id": "hist-1794234783523",
       "time": "21:33 - 09/11/2026",
       "name": "Gmail (New) -Login All",
@@ -22578,17 +22615,6 @@
       "stockAfter": 19,
       "catKey": "chatgpt",
       "msgKey": "🤖👑VIP·ChatGPTPlusApple1ThángBHF➕Thêm:10📦Tồnkhohiệntại:19💰Giá:145.000đ"
-    },
-    {
-      "id": "hist-1794218918354",
-      "time": "17:08 - 09/11/2026",
-      "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 190000,
-      "costPrice": 170000,
-      "stockAfter": 163,
-      "catKey": "chatgpt",
-      "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:10📦Tồnkhohiệntại:163💰Giá:170.00"
     }
   ],
   "vidiq": {
