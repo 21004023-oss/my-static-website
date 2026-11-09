@@ -1320,6 +1320,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794197139341",
+        "name": "CDK Youtube Pre+ Gemini pro 2 năm(KBH)",
+        "price": 60000,
+        "cost_price": 50000,
+        "stock": 22,
+        "stock_text": "Còn 22",
+        "duration": "2 Năm",
+        "detail": "Gói CDK Youtube Pre+ Gemini pro 2 năm(KBH) bảo hành uy tín.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 22,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "11:05 09/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 50000,
+          "stock": 22
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -20978,6 +21004,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794197139341",
+      "time": "11:05 - 09/11/2026",
+      "name": "CDK Youtube Pre+ Gemini pro 2 năm(KBH)",
+      "bot": "sieuthistore_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 22,
+      "catKey": "youtube",
+      "msgKey": "☁️CDKYoutubePre+Geminipro2năm(KBH)➕Thêm:22📦Tồnkhohiệntại:22💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1794197133442",
       "time": "11:05 - 09/11/2026",
       "name": "Nâng chính chủ Youtube Pre+ Gemini pro 2 năm - KBH",
@@ -22065,17 +22102,6 @@
       "stockAfter": 6,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:2📦Tồnkhohiệntại:6💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1794132512690",
-      "time": "17:08 - 08/11/2026",
-      "name": "Gmail Việt cổ có kênh cổ",
-      "bot": "sieuthistore_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 44,
-      "catKey": "gmail",
-      "msgKey": "📧GmailViệtcổcókênhcổ➕Thêm:24📦Tồnkhohiệntại:44💰Giá:60.000đ"
     }
   ],
   "vidiq": {
