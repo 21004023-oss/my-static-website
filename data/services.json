@@ -21408,10 +21408,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794231541309",
+        "name": "KREA AI - BASIC 1 THÁNG - BH 1 NGÀY",
+        "price": 130000,
+        "cost_price": 110000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "LOGIN BẰNG EMAIL\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 110000,
+            "selling_price": 130000,
+            "updated": "20:39 09/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 110000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1794231541309",
+      "time": "20:39 - 09/11/2026",
+      "name": "KREA AI - BASIC 1 THÁNG - BH 1 NGÀY",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "msgKey": "⭐KREAAI-BASIC1THÁNG-BH1NGÀY➕Thêm:2📦Tồnkhohiệntại:2💰Giá:110.000đ"
+    },
     {
       "id": "hist-1794231475066",
       "time": "20:37 - 09/11/2026",
@@ -22500,17 +22537,6 @@
       "stockAfter": 27,
       "catKey": "suno",
       "msgKey": "🎵SunoPro1thángBH1Ngày➕Thêm:5📦Tồnkhohiệntại:10💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1794216357865",
-      "time": "16:25 - 09/11/2026",
-      "name": "Express VPN Random 2-3 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 17000,
-      "costPrice": 7000,
-      "stockAfter": 2,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:7.000đ"
     }
   ],
   "vidiq": {
