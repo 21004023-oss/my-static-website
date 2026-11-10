@@ -6403,6 +6403,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794349845190",
+        "name": "Claude Pro Guest Pass 7 ngày - BHF",
+        "price": 160000,
+        "cost_price": 140000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "7 Ngày",
+        "detail": "Claude Pro Guest Pass là mã dùng thử miễn phí Claude Pro trong 7 ngày, bao gồm Claude Code và các tính năng AI nâng cao. Dành cho tài khoản chưa từng đăng ký gói Claude trả phí, giúp bạn trải nghiệm đầy đủ tính năng Pro mà không mất phí trong thời gian dùng thử. Tự add thẻ khi nhận offer.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 0,
+            "cost_price": 140000,
+            "selling_price": 160000,
+            "updated": "05:30 11/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 140000,
+          "stock": 0
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -22376,6 +22402,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794349845190",
+      "time": "05:30 - 11/11/2026",
+      "name": "Claude Pro Guest Pass 7 ngày - BHF",
+      "bot": "piggyai99_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 0,
+      "catKey": "claude",
+      "msgKey": "🧠ClaudeProGuestPass7ngày-BHF➕Thêm:1📦Tồnkhohiệntại:0💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794349576203",
       "time": "05:26 - 11/11/2026",
       "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
@@ -23463,17 +23500,6 @@
       "stockAfter": 21,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1794330877132",
-      "time": "00:14 - 11/11/2026",
-      "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 190000,
-      "costPrice": 170000,
-      "stockAfter": 75,
-      "catKey": "chatgpt",
-      "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:20📦Tồnkhohiệntại:75💰Giá:170.000"
     }
   ],
   "vidiq": {
