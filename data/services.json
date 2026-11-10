@@ -15466,23 +15466,23 @@
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
         "cost_price": 7000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "3 Ngày",
         "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 3,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "08:53 10/11/2026"
+            "updated": "09:06 10/11/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 7000,
-          "stock": 2
+          "stock": 3
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -21764,6 +21764,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794276367084",
+      "time": "09:06 - 10/11/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 3,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:1📦Tồnkhohiệntại:3💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1794275660077",
       "time": "08:54 - 10/11/2026",
       "name": "Zoom Pro 14 Ngày BHF",
@@ -22851,17 +22862,6 @@
       "stockAfter": 29,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi31tỷToken(KBH)➕Thêm:20📦Tồnkhohiệntại:19💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1794252812330",
-      "time": "02:33 - 10/11/2026",
-      "name": "HMA VPN Androi/PC/IOS 30 ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 21,
-      "catKey": "hma-vpn",
-      "msgKey": "⭐HMAVPNAndroi/PC/IOS30ngàyBHF➕Thêm:21📦Tồnkhohiệntại:21💰Giá:35.000đ"
     }
   ],
   "vidiq": {
