@@ -18628,6 +18628,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794321845776",
+        "name": "Gmail US  Random 2020~2026",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|pass|mkp|2FA Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "21:44 10/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 35000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -22114,6 +22140,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794321845776",
+      "time": "21:44 - 10/11/2026",
+      "name": "Gmail US  Random 2020~2026",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 1,
+      "catKey": "gmail",
+      "msgKey": "📧GmailUSRandom2020~2026➕Thêm:1📦Tồnkhohiệntại:1💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1794321796287",
       "time": "21:43 - 10/11/2026",
       "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
@@ -23201,17 +23238,6 @@
       "stockAfter": 50,
       "catKey": "chatgpt",
       "msgKey": "🤖💎VIPPRO·ChatGPTPlusApple1ThángBHF➕Thêm:50📦Tồnkhohiệntại:50💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1794302096459",
-      "time": "16:14 - 10/11/2026",
-      "name": "CAPCUT PRO CÁ NHÂN 30 Ngày BHF",
-      "bot": "piggyai99_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 145,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:5📦Tồnkhohiệntại:59💰Giá:40.000đ"
     }
   ],
   "vidiq": {
