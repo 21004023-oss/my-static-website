@@ -15654,23 +15654,23 @@
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
         "cost_price": 7000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "3 Ngày",
         "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 7,
+            "stock": 6,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "18:40 10/11/2026"
+            "updated": "22:05 10/11/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 7000,
-          "stock": 7
+          "stock": 6
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -22140,6 +22140,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794323121978",
+      "time": "22:05 - 10/11/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 6,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:1📦Tồnkhohiệntại:6💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1794322636646",
       "time": "21:57 - 10/11/2026",
       "name": "[CDK] Thuê Số OTP Codex/GPT 30D BH 24H",
@@ -23227,17 +23238,6 @@
       "stockAfter": 8,
       "catKey": "nordvpn",
       "msgKey": "🛡️NORDVPN10thiếtbị7ngàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1794303911724",
-      "time": "16:45 - 10/11/2026",
-      "name": "NORD VPN 10 thiết bị 7 ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 10,
-      "catKey": "nordvpn",
-      "msgKey": "🛡️NORDVPN10thiếtbị7ngàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:35.000đ"
     }
   ],
   "vidiq": {
