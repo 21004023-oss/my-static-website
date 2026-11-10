@@ -9415,6 +9415,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794327904515",
+        "name": "Grok Plus 1 Tháng BHF",
+        "price": 150000,
+        "cost_price": 130000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "Định Dạng TK|MK\nnếu tài khoản mật khẩu sai shop kèm hotmail cho khách trong ngoặc sang website này để lấy mã resert pass\nsmail1s.com\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 5,
+            "cost_price": 130000,
+            "selling_price": 150000,
+            "updated": "23:25 10/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 130000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -22167,6 +22193,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794327904515",
+      "time": "23:25 - 10/11/2026",
+      "name": "Grok Plus 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 5,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus1ThángBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1794327669963",
       "time": "23:21 - 10/11/2026",
       "name": "Grok Premium 7 Ngày BHF",
@@ -23254,17 +23291,6 @@
       "stockAfter": 11,
       "catKey": "elevenlabs",
       "msgKey": "🎙️(Góichínhhãng)OfferElevanLabs131KCredit3Tháng-BH1tháng➕Thêm:11📦Tồnkhohiệntại:1"
-    },
-    {
-      "id": "hist-1794308473101",
-      "time": "18:01 - 10/11/2026",
-      "name": "Proton VPN 14-28 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 65000,
-      "costPrice": 55000,
-      "stockAfter": 9,
-      "catKey": "protonvpn",
-      "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:7📦Tồnkhohiệntại:9💰Giá:55.000đ"
     }
   ],
   "vidiq": {
