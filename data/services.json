@@ -9331,6 +9331,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794296060731",
+        "name": "Grok Plus 30 ngày bh 24h",
+        "price": 130000,
+        "cost_price": 110000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Grok Plus 30 ngày bh24h\nMail | Pass Được change mail và pass Không hủy kết nối với X Login check gói hết bảo hành\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 110000,
+            "selling_price": 130000,
+            "updated": "14:34 10/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 110000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -21822,6 +21848,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794296060731",
+      "time": "14:34 - 10/11/2026",
+      "name": "Grok Plus 30 ngày bh 24h",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 2,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàybh24h➕Thêm:2📦Tồnkhohiệntại:2💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1794296042734",
       "time": "14:34 - 10/11/2026",
       "name": "GMAIL CỔ DATE 201X- 202X",
@@ -22909,17 +22946,6 @@
       "stockAfter": 1081,
       "catKey": "gmail",
       "msgKey": "📧GmailCổRandom2010~2022➕Thêm:10📦Tồnkhohiệntại:259💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794278632587",
-      "time": "09:43 - 10/11/2026",
-      "name": "Muse Ai 31 tỷ Token ( BH ACTIVE)",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 22,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi31tỷToken(BHACTIVE)💰Giá:30k📦Tồnkho:11tàikhoản📊Đãbán:173tàikhoản💎Môtả:-Đăn"
     }
   ],
   "vidiq": {
