@@ -9389,6 +9389,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794327669963",
+        "name": "Grok Premium 7 Ngày BHF",
+        "price": 100000,
+        "cost_price": 90000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "7 Ngày",
+        "detail": "- Mail | Pass\n- Không thay đổi thông tin\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 4,
+            "cost_price": 90000,
+            "selling_price": 100000,
+            "updated": "23:21 10/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 90000,
+          "stock": 4
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -22141,6 +22167,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794327669963",
+      "time": "23:21 - 10/11/2026",
+      "name": "Grok Premium 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 4,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPremium7NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1794327426810",
       "time": "23:17 - 10/11/2026",
       "name": "Clone Facebook Novery Name Việt KBH",
@@ -23228,17 +23265,6 @@
       "stockAfter": 9,
       "catKey": "protonvpn",
       "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:7📦Tồnkhohiệntại:9💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1794308463879",
-      "time": "18:01 - 10/11/2026",
-      "name": "TiktokVN 1kfl noshop nobuff live Studio",
-      "bot": "taphoathomap_bot",
-      "price": 179000,
-      "costPrice": 159000,
-      "stockAfter": 1,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokVN1kflnoshopnobuffliveStudio➕Thêm:1📦Tồnkhohiệntại:1💰Giá:159.000đ"
     }
   ],
   "vidiq": {
