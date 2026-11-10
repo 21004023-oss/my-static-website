@@ -17174,18 +17174,18 @@
         "id": "p-1791873309021",
         "name": "Gmail Random ip 2020-2024",
         "price": 55000,
-        "stock": 140,
-        "stock_text": "Còn 140",
+        "stock": 125,
+        "stock_text": "Còn 125",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành\n✏️",
         "price_verified": true,
         "cost_price": 35000,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 40,
+            "stock": 25,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "07:24 10/11/2026"
+            "updated": "17:51 10/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 100,
@@ -17199,7 +17199,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 35000,
-          "stock": 40
+          "stock": 25
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -21848,6 +21848,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794307891518",
+      "time": "17:51 - 10/11/2026",
+      "name": "Gmail Random ip 2020-2024",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 125,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandomip2020-2024➕Thêm:1📦Tồnkhohiệntại:25💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1794307576327",
       "time": "17:46 - 10/11/2026",
       "name": "Suno Pro 1 tháng BH 1 Ngày",
@@ -22935,17 +22946,6 @@
       "stockAfter": 33,
       "catKey": "muse-ai",
       "msgKey": "⭐MUSE.AI-31TỶTOKEN(KBH)➕Thêm:10📦Tồnkhohiệntại:10💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1794287632401",
-      "time": "12:13 - 10/11/2026",
-      "name": "Muse Ai 31B token KBH",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 50,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi31BtokenKBH➕Thêm:20📦Tồnkhohiệntại:20💰Giá:70.000đ"
     }
   ],
   "vidiq": {
