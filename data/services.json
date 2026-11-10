@@ -10052,22 +10052,22 @@
         "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
         "price": 260000,
         "cost_price": 230000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
         "detail": "TẤT CẢ ĐỀU ĐĂNG NHẬP BẰNG EMAIL NHÉ\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 6,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "19:47 09/11/2026"
+            "updated": "20:40 10/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 230000,
-          "stock": 2
+          "stock": 6
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -21984,6 +21984,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794318038579",
+      "time": "20:40 - 10/11/2026",
+      "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 6,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1100-1300Credits1thángBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1794317174487",
       "time": "20:26 - 10/11/2026",
       "name": "KING STAND 1000-1100 credit 1 TH - BH 1 ngày",
@@ -23071,17 +23082,6 @@
       "stockAfter": 200,
       "catKey": "gmail",
       "msgKey": "📧GMAILCỔDATE201X-202X💰Giá:39k📦Tồnkho:65tàikhoản📊Đãbán:6.284tàikhoản💎Môtả:-Địnhdạ"
-    },
-    {
-      "id": "hist-1794296270377",
-      "time": "14:37 - 10/11/2026",
-      "name": "GMAIL CỔ DATE 201X- 202X",
-      "bot": "taphoathomap_bot",
-      "price": 49000,
-      "costPrice": 39000,
-      "stockAfter": 200,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILCỔDATE201X-202X➕Thêm:46📦Tồnkhohiệntại:65💰Giá:39.000đ"
     }
   ],
   "vidiq": {
