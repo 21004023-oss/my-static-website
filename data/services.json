@@ -8885,16 +8885,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 50,
-        "stock_text": "Còn 50",
+        "stock": 49,
+        "stock_text": "Còn 49",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 50,
+            "stock": 49,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "02:51 11/11/2026"
+            "updated": "05:31 11/11/2026"
           }
         },
         "hidden": false,
@@ -8902,7 +8902,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 50
+          "stock": 49
         },
         "needs_review": false
       },
@@ -22402,6 +22402,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794349912931",
+      "time": "05:31 - 11/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 49,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:14📦Tồnkhohiệntại:49💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794349845190",
       "time": "05:30 - 11/11/2026",
       "name": "Claude Pro Guest Pass 7 ngày - BHF",
@@ -23489,17 +23500,6 @@
       "stockAfter": 13,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1794331139367",
-      "time": "00:18 - 11/11/2026",
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 21,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:30.000đ"
     }
   ],
   "vidiq": {
