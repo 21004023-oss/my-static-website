@@ -14358,22 +14358,22 @@
         "name": "Adobe Full App 1 tháng BH 30D",
         "price": 290000,
         "cost_price": 260000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
         "detail": "Định dạng:Mail|pass\nGói Team, có sẵn 4000 credit sử dụng tính năng Ai\nSử dụng 2 thiết bị\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 4,
+            "stock": 3,
             "cost_price": 260000,
             "selling_price": 290000,
-            "updated": "16:21 07/11/2026"
+            "updated": "15:02 10/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 260000,
-          "stock": 4
+          "stock": 3
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -21848,6 +21848,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794297735737",
+      "time": "15:02 - 10/11/2026",
+      "name": "Adobe Full App 1 tháng BH 30D",
+      "bot": "piggyai99_bot",
+      "price": 290000,
+      "costPrice": 260000,
+      "stockAfter": 3,
+      "catKey": "adobe",
+      "msgKey": "🎨AdobeFullApp1thángBH30D➕Thêm:3📦Tồnkhohiệntại:3💰Giá:260.000đ"
+    },
+    {
       "id": "hist-1794297145379",
       "time": "14:52 - 10/11/2026",
       "name": "Gmail Random 2020~2026",
@@ -22935,17 +22946,6 @@
       "stockAfter": 133,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:53💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1794280131728",
-      "time": "10:08 - 10/11/2026",
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 144,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:9📦Tồnkhohiệntại:53💰Giá:65.000đ"
     }
   ],
   "vidiq": {
