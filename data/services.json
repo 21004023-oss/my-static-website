@@ -15466,23 +15466,23 @@
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
         "cost_price": 7000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "3 Ngày",
         "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 3,
+            "stock": 5,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "09:06 10/11/2026"
+            "updated": "09:33 10/11/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 7000,
-          "stock": 3
+          "stock": 5
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -21764,6 +21764,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794278007865",
+      "time": "09:33 - 10/11/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 5,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:1📦Tồnkhohiệntại:5💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1794276806324",
       "time": "09:13 - 10/11/2026",
       "name": "Gmail Random 2010~2022-Có TRial",
@@ -22851,17 +22862,6 @@
       "stockAfter": 97,
       "catKey": "cursor",
       "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)➕Thêm:1📦Tồnkhohiệntại:47💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1794253162807",
-      "time": "02:39 - 10/11/2026",
-      "name": "Chatgpt Go 3 tháng BH 3 ngày",
-      "bot": "piggyai99_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 9,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptGo3thángBH3ngày➕Thêm:10📦Tồnkhohiệntại:9💰Giá:120.000đ"
     }
   ],
   "vidiq": {
