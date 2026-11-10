@@ -19249,6 +19249,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794354009253",
+        "name": "[CDK] Thuê Số OTP Linkedin 30D BH 24H",
+        "price": 20500,
+        "cost_price": 10500,
+        "stock": 18,
+        "stock_text": "Còn 18",
+        "duration": "1 Tháng",
+        "detail": "🎁 HD nhận mã:\n1. Mở dịch vụ cần xác minh đến bước nhập số điện thoại.\n2. Mở link → bấm \"Nhận\" → Copy số điện thoại.\n3. Dán số vào dịch vụ, bấm gửi mã.\n4. Giữ trang mở, mã sẽ tự hiện → Copy và nhập vào dịch vụ.\nMỗi link chỉ nhận 1 mã. Lỡ đóng trang thì mở lại link để xem lại mã.\nLưu ý: số chỉ thuê/dùng 1 lần\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 18,
+            "cost_price": 10500,
+            "selling_price": 20500,
+            "updated": "06:40 11/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 10500,
+          "stock": 18
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -22402,6 +22428,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794354009253",
+      "time": "06:40 - 11/11/2026",
+      "name": "[CDK] Thuê Số OTP Linkedin 30D BH 24H",
+      "bot": "sieuthistore_bot",
+      "price": 20500,
+      "costPrice": 10500,
+      "stockAfter": 18,
+      "catKey": "linkedin",
+      "msgKey": "⭐[CDK]ThuêSốOTPLinkedin30DBH24H➕Thêm:1📦Tồnkhohiệntại:18💰Giá:10.500đ"
+    },
+    {
       "id": "hist-1794353683262",
       "time": "06:34 - 11/11/2026",
       "name": "Tiktok Việt ngâm trên 1 Năm",
@@ -23489,17 +23526,6 @@
       "stockAfter": 105,
       "catKey": "khac",
       "msgKey": "🔥TOOLAUTODỊCH+LỒNGTIẾNG30DBHF➕Thêm:90📦Tồnkhohiệntại:105💰Giá:450.000đ"
-    },
-    {
-      "id": "hist-1794332836129",
-      "time": "00:47 - 11/11/2026",
-      "name": "DownMax Video Đa Nền Tảng 4K 1-Click 30D BHF",
-      "bot": "taphoathomap_bot",
-      "price": 249000,
-      "costPrice": 219000,
-      "stockAfter": 134,
-      "catKey": "khac",
-      "msgKey": "🔥DownMaxVideoĐaNềnTảng4K1-Click30DBHF➕Thêm:90📦Tồnkhohiệntại:134💰Giá:219.000đ"
     }
   ],
   "vidiq": {
