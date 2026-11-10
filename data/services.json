@@ -1430,6 +1430,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794329756137",
+        "name": "Admin Youtube Premium 1 Tháng BHF",
+        "price": 100000,
+        "cost_price": 90000,
+        "stock": 13,
+        "stock_text": "Còn 13",
+        "duration": "1 Tháng",
+        "detail": "- Định dạng: Mail | Pass | 2fa\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho ae seller\n- Bảo hành full gói trong quá trình sử dụng, KHÔNG bảo hành ACC vì tuỳ vào cách bảo quản của mỗi người sử dụng\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 13,
+            "cost_price": 90000,
+            "selling_price": 100000,
+            "updated": "23:55 10/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 90000,
+          "stock": 13
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -22297,6 +22323,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794329756137",
+      "time": "23:55 - 10/11/2026",
+      "name": "Admin Youtube Premium 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 13,
+      "catKey": "youtube",
+      "msgKey": "▶️AdminYoutubePremium1ThángBHF➕Thêm:13📦Tồnkhohiệntại:13💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1794329493904",
       "time": "23:51 - 10/11/2026",
       "name": "ChatGPT Plus GGpay 30D BHF",
@@ -23384,17 +23421,6 @@
       "stockAfter": 4,
       "catKey": "khac",
       "msgKey": "🎬KINGSTAND1000-1100credit1TH-BH1ngày➕Thêm:4📦Tồnkhohiệntại:4💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1794312023145",
-      "time": "19:00 - 10/11/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 10,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:15.000đ"
     }
   ],
   "vidiq": {
