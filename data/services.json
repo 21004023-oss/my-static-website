@@ -20176,17 +20176,17 @@
         "id": "p-1793127454404",
         "name": "HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày",
         "price": 8200000,
-        "cost_price": 650000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "cost_price": 7200000,
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "detail": "Gói HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 0,
             "cost_price": 650000,
             "selling_price": 750000,
-            "updated": "01:13 05/11/2026"
+            "updated": "06:06 11/11/2026"
           },
           "piggyai99_bot": {
             "stock": 1,
@@ -20196,11 +20196,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 650000,
-          "stock": 2
+          "bot": "@piggyai99_bot",
+          "cost_price": 7200000,
+          "stock": 1
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -22402,6 +22402,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794351980960",
+      "time": "06:06 - 11/11/2026",
+      "name": "HIGG Plus 600-700 CRE 1 Tháng BH 3 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 750000,
+      "costPrice": 650000,
+      "stockAfter": 1,
+      "catKey": "khac",
+      "msgKey": "🎬HIGGPlus600-700CRE1ThángBH3ngày➕Thêm:1📦Tồnkhohiệntại:0💰Giá:650.000đ"
+    },
+    {
       "id": "hist-1794351050306",
       "time": "05:50 - 11/11/2026",
       "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
@@ -23489,17 +23500,6 @@
       "stockAfter": 44,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusGGpay30DBHF➕Thêm:16📦Tồnkhohiệntại:44💰Giá:170.000đ"
-    },
-    {
-      "id": "hist-1794331721372",
-      "time": "00:28 - 11/11/2026",
-      "name": "ZOOM PRO 28 NGÀY BẢO HÀNH FULL",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 12,
-      "catKey": "zoom",
-      "msgKey": "⭐ZOOMPRO28NGÀYBẢOHÀNHFULL➕Thêm:3📦Tồnkhohiệntại:8💰Giá:45.000đ"
     }
   ],
   "vidiq": {
