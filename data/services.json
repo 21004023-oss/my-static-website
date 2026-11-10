@@ -10410,6 +10410,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794316722411",
+        "name": "Kling Stand 1k1 credit 1 tháng - BH 24h",
+        "price": 160000,
+        "cost_price": 140000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "- Định dạng: Mail | pass\n- Login qua email\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 140000,
+            "selling_price": 160000,
+            "updated": "20:18 10/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 140000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -21958,6 +21984,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794316722411",
+      "time": "20:18 - 10/11/2026",
+      "name": "Kling Stand 1k1 credit 1 tháng - BH 24h",
+      "bot": "taphoathomap_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 2,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStand1k1credit1tháng-BH24h➕Thêm:2📦Tồnkhohiệntại:2💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794316379299",
       "time": "20:12 - 10/11/2026",
       "name": "🛡️ BASIC · ChatGPT Plus 1 Tháng BH 24H",
@@ -23045,17 +23082,6 @@
       "stockAfter": 200,
       "catKey": "gmail",
       "msgKey": "📧GMAILCỔDATE201X-202X➕Thêm:46📦Tồnkhohiệntại:65💰Giá:48.000đ"
-    },
-    {
-      "id": "hist-1794296060731",
-      "time": "14:34 - 10/11/2026",
-      "name": "Grok Plus 30 ngày bh 24h",
-      "bot": "taphoathomap_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 2,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàybh24h➕Thêm:2📦Tồnkhohiệntại:2💰Giá:110.000đ"
     }
   ],
   "vidiq": {
