@@ -19536,6 +19536,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794319854723",
+        "name": "TIKTOK PHÁP",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 20,
+        "stock_text": "Còn 20",
+        "duration": "1 Tháng",
+        "detail": "Định dạng username|passtiktok|email|password|refresh_token|client_id|cookie  - Mail Live Đọc code qua OAuth2 - Bảo hành đăng nhập 1-1\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 20,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "21:10 10/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 25000,
+          "stock": 20
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -22010,6 +22036,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794319854723",
+      "time": "21:10 - 10/11/2026",
+      "name": "TIKTOK PHÁP",
+      "bot": "taphoathomap_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 20,
+      "catKey": "tiktok",
+      "msgKey": "🎵TIKTOKPHÁP➕Thêm:20📦Tồnkhohiệntại:20💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1794319819080",
       "time": "21:10 - 10/11/2026",
       "name": "TIKTOK VƯƠNG QUỐC ANH (UK)",
@@ -23097,17 +23134,6 @@
       "stockAfter": 3,
       "catKey": "protonvpn",
       "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:3💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1794299273916",
-      "time": "15:27 - 10/11/2026",
-      "name": "Nâng chính chủ GEMINI 2 NĂM + YOUTUBE 1TH  - KBH",
-      "bot": "taphoathomap_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 90,
-      "catKey": "youtube",
-      "msgKey": "▶️NângchínhchủGEMINI2NĂM+YOUTUBE1TH-KBH➕Thêm:30📦Tồnkhohiệntại:90💰Giá:100.000đ"
     }
   ],
   "vidiq": {
