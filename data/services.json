@@ -15720,8 +15720,8 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 40000,
         "cost_price": 15000,
-        "stock": 13,
-        "stock_text": "Còn 13",
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "3 Ngày",
         "detail": "Hỗ trợ điện thoại iOS, Android, PC\nĐịnh dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/\n✏️",
         "sources": {
@@ -15732,10 +15732,10 @@
             "updated": "00:18 11/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 9,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "00:19 11/11/2026"
+            "updated": "00:35 11/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 5,
@@ -15749,7 +15749,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 4
+          "stock": 9
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -22323,6 +22323,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794332108623",
+      "time": "00:35 - 11/11/2026",
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 18,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:5📦Tồnkhohiệntại:9💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794331991527",
       "time": "00:33 - 11/11/2026",
       "name": "ChatGPT Plus GGpay 30D BHF",
@@ -23410,17 +23421,6 @@
       "stockAfter": 188,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:10📦Tồnkhohiệntại:10💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1794314098440",
-      "time": "19:34 - 10/11/2026",
-      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 240000,
-      "costPrice": 210000,
-      "stockAfter": 47,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:1📦Tồnkhohiệntại:12💰Giá:210.000đ"
     }
   ],
   "vidiq": {
