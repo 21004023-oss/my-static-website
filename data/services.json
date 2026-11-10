@@ -797,22 +797,22 @@
         "price": 100000,
         "cost_price": 45000,
         "duration": "1 Tháng",
-        "stock": 66,
-        "stock_text": "Còn 66",
+        "stock": 13,
+        "stock_text": "Còn 13",
         "hidden": false,
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 45000,
-          "stock": 66
+          "stock": 13
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "detail": "- Định dạng: Mail | Pass | 2fa\n- Add được 5 slot trong quá trình sử dụng, phù hợp cho ae seller\n- Bảo hành full gói trong quá trình sử dụng, KHÔNG bảo hành ACC vì tuỳ vào cách bảo quản của mỗi người sử dụng\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 66,
+            "stock": 13,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "14:45 05/11/2026"
+            "updated": "23:04 10/11/2026"
           }
         },
         "needs_review": false
@@ -22140,6 +22140,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794326674095",
+      "time": "23:04 - 10/11/2026",
+      "name": "ADMIN YTB PREMIUM  5 SLOT 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 13,
+      "catKey": "youtube",
+      "msgKey": "▶️ADMINYTBPREMIUM5SLOT1THÁNGBẢOHÀNHFULL➕Thêm:13📦Tồnkhohiệntại:13💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1794326524424",
       "time": "23:02 - 10/11/2026",
       "name": "Gmail Ngâm 6T Có Trial YTB",
@@ -23227,17 +23238,6 @@
       "stockAfter": 3,
       "catKey": "protonvpn",
       "msgKey": "⭐ProtonVPN14-28NgàyBHF➕Thêm:4📦Tồnkhohiệntại:3💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1794306641008",
-      "time": "17:30 - 10/11/2026",
-      "name": "CAPCUT PRO CÁ NHÂN 30 Ngày BHF",
-      "bot": "piggyai99_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 149,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:16📦Tồnkhohiệntại:61💰Giá:40.000đ"
     }
   ],
   "vidiq": {
