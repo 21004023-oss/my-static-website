@@ -22188,10 +22188,47 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794328120975",
+        "name": "PERPLEXITY PRO HSD 31/8/2027 - 1 năm KBH",
+        "price": 550000,
+        "cost_price": 500000,
+        "stock": 22,
+        "stock_text": "Còn 22",
+        "duration": "1 Năm",
+        "detail": "TÀI KHOẢN PERPLEXITY PRO HSD 31/08/2027\ntài khoản đã qua 2 tháng rồi rất trâu nên ae yên tâm mua dùng nhé\nLƯU Ý SẢN PHẨM: KHÔNG BẢO HÀNH !\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 22,
+            "cost_price": 500000,
+            "selling_price": 550000,
+            "updated": "23:28 10/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 500000,
+          "stock": 22
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1794328120975",
+      "time": "23:28 - 10/11/2026",
+      "name": "PERPLEXITY PRO HSD 31/8/2027 - 1 năm KBH",
+      "bot": "taphoathomap_bot",
+      "price": 550000,
+      "costPrice": 500000,
+      "stockAfter": 22,
+      "catKey": "khac",
+      "msgKey": "❓PERPLEXITYPROHSD31/8/2027-1nămKBH➕Thêm:22📦Tồnkhohiệntại:22💰Giá:500.000đ"
+    },
     {
       "id": "hist-1794328113365",
       "time": "23:28 - 10/11/2026",
@@ -23280,17 +23317,6 @@
       "stockAfter": 6,
       "catKey": "tiktok",
       "msgKey": "🎵TiktokVN1kflnoshopnobuffliveStudio➕Thêm:1📦Tồnkhohiệntại:6💰Giá:159.000đ"
-    },
-    {
-      "id": "hist-1794309359336",
-      "time": "18:15 - 10/11/2026",
-      "name": "TiktokVN noshop CóLive(1KFLThật)",
-      "bot": "piggyai99_bot",
-      "price": 199000,
-      "costPrice": 179000,
-      "stockAfter": 6,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokVNnoshopCóLive(1KFLThật)➕Thêm:1📦Tồnkhohiệntại:6💰Giá:179.000đ"
     }
   ],
   "vidiq": {
