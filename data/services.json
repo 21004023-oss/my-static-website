@@ -489,6 +489,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794410585741",
+        "name": "Key nạp VieON VIP 12 tháng BHF",
+        "price": 400000,
+        "cost_price": 350000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Năm",
+        "detail": "▸ Key nạp kích hoạt gói VieON VIP 12 tháng\n▸ Bảo hành gói 12 tháng\n▸ Kích hoạt Key trực tiếp trên https://vieon.vn/ma-vieon\n▸ Login tài khoản trước khi nhập Key kích hoạt\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 4,
+            "cost_price": 350000,
+            "selling_price": 400000,
+            "updated": "22:23 11/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 350000,
+          "stock": 4
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -22909,6 +22935,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794410585741",
+      "time": "22:23 - 11/11/2026",
+      "name": "Key nạp VieON VIP 12 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 400000,
+      "costPrice": 350000,
+      "stockAfter": 4,
+      "catKey": "vieon",
+      "msgKey": "⭐KeynạpVieONVIP12thángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:350.000đ"
+    },
+    {
       "id": "hist-1794410168872",
       "time": "22:16 - 11/11/2026",
       "name": "KING STAND 1000-1100 credit 1 TH - BH 1 ngày",
@@ -23996,17 +24033,6 @@
       "stockAfter": 76,
       "catKey": "khac",
       "msgKey": "TàikhoảnNewtakeaiCredits19$starterPlan1tháng(BH24H)➕Thêm:76📦Tồnkhohiệntại:76💰Giá"
-    },
-    {
-      "id": "hist-1794392157321",
-      "time": "17:15 - 11/11/2026",
-      "name": "Gmail random new",
-      "bot": "piggyai99_bot",
-      "price": 32000,
-      "costPrice": 22000,
-      "stockAfter": 69,
-      "catKey": "gmail",
-      "msgKey": "📧Gmailrandomnew➕Thêm:29📦Tồnkhohiệntại:29💰Giá:22.000đ"
     }
   ],
   "vidiq": {
