@@ -9014,9 +9014,9 @@
         "id": "p-1792594889363",
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
-        "cost_price": 140000,
-        "stock": 31,
-        "stock_text": "Còn 31",
+        "cost_price": 130000,
+        "stock": 62,
+        "stock_text": "Còn 62",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -9025,13 +9025,19 @@
             "cost_price": 140000,
             "selling_price": 160000,
             "updated": "20:43 11/11/2026"
+          },
+          "ntnshopre_bot": {
+            "stock": 31,
+            "cost_price": 130000,
+            "selling_price": 150000,
+            "updated": "20:43 11/11/2026"
           }
         },
         "hidden": false,
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 140000,
+          "bot": "@ntnshopre_bot",
+          "cost_price": 130000,
           "stock": 31
         },
         "needs_review": false
@@ -22773,6 +22779,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794404602274",
+      "time": "20:43 - 11/11/2026",
+      "name": "GROK PLUS 1 THÁNG BẢO HÀNH LOGIN",
+      "bot": "ntnshopre_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 62,
+      "catKey": "grok",
+      "msgKey": "⚡GROKPLUS1THÁNGBẢOHÀNHLOGIN➕Thêm:1📦Tồnkhohiệntại:31💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1794404588494",
       "time": "20:43 - 11/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -23860,17 +23877,6 @@
       "stockAfter": 492,
       "catKey": "claude",
       "msgKey": "🧠VIP3.50MCreditAPIClaude1Tháng-BHF➕Thêm:100📦Tồnkhohiệntại:492💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1794388043209",
-      "time": "16:07 - 11/11/2026",
-      "name": "⚡️ Grok Plus 7 ngày -  BH 1 Ngày",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 31,
-      "catKey": "grok",
-      "msgKey": "⚡⚡️GrokPlus7ngày-BH1Ngày➕Thêm:6📦Tồnkhohiệntại:31💰Giá:70.000đ"
     }
   ],
   "vidiq": {
