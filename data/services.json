@@ -45,16 +45,16 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 115000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 3,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "00:58 08/11/2026"
+            "updated": "21:49 11/11/2026"
           },
           "piggyai99_bot": {
             "stock": 2,
@@ -22831,6 +22831,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794408592980",
+      "time": "21:49 - 11/11/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 5,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:3💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794408275646",
       "time": "21:44 - 11/11/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -23918,17 +23929,6 @@
       "stockAfter": 896,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi1BTokenKBH➕Thêm:500📦Tồnkhohiệntại:524💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1794390396980",
-      "time": "16:46 - 11/11/2026",
-      "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 145,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:10📦Tồnkhohiệntại:63💰Giá:65.000đ"
     }
   ],
   "vidiq": {
