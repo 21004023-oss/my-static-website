@@ -16118,23 +16118,23 @@
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
         "cost_price": 7000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "3 Ngày",
         "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 7,
+            "stock": 6,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "21:27 11/11/2026"
+            "updated": "06:27 12/11/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 7000,
-          "stock": 7
+          "stock": 6
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -22970,6 +22970,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794439653755",
+      "time": "06:27 - 12/11/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 6,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:2📦Tồnkhohiệntại:6💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1794439495156",
       "time": "06:24 - 12/11/2026",
       "name": "Hotspot Shield VPN Random 5-7 Ngày BHF",
@@ -24057,17 +24068,6 @@
       "stockAfter": 70,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:39💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1794417321977",
-      "time": "00:15 - 12/11/2026",
-      "name": "Capcut Pro Cá Nhân 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 131,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân1ThángBHF➕Thêm:1📦Tồnkhohiệntại:91💰Giá:65.000đ"
     }
   ],
   "vidiq": {
