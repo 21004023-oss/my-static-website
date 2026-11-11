@@ -22878,10 +22878,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794409866613",
+        "name": "Pipit Pro 17680 cre 1 tháng ( BH 5 ngày )",
+        "price": 1950000,
+        "cost_price": 1750000,
+        "stock": 13,
+        "stock_text": "Còn 13",
+        "duration": "1 Tháng",
+        "detail": "BH GÓI 7 NGÀY , KHÔNG BẢO HÀNH TRƯỜNG HỢP LOG NHIỀU THIẾT BỊ DẪN ĐẾN SPAM\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 13,
+            "cost_price": 1750000,
+            "selling_price": 1950000,
+            "updated": "22:11 11/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 1750000,
+          "stock": 13
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1794409866613",
+      "time": "22:11 - 11/11/2026",
+      "name": "Pipit Pro 17680 cre 1 tháng ( BH 5 ngày )",
+      "bot": "taphoathomap_bot",
+      "price": 1950000,
+      "costPrice": 1750000,
+      "stockAfter": 13,
+      "catKey": "khac",
+      "msgKey": "PipitPro17680cre1tháng(BH5ngày)➕Thêm:2📦Tồnkhohiệntại:13💰Giá:1.750.000đ"
+    },
     {
       "id": "hist-1794409758744",
       "time": "22:09 - 11/11/2026",
@@ -23970,17 +24007,6 @@
       "stockAfter": 236,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:69📦Tồnkhohiệntại:69💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1794392031556",
-      "time": "17:13 - 11/11/2026",
-      "name": "Gmail (New) -Login All",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 243,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:69📦Tồnkhohiệntại:69💰Giá:35.000đ"
     }
   ],
   "vidiq": {
