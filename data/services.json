@@ -14032,24 +14032,33 @@
         "id": "p-1791898468912",
         "name": "CapCut Pro Cá Nhân 1 Tháng BHF",
         "price": 75000,
-        "stock": 40,
-        "stock_text": "Còn 40",
+        "stock": 122,
+        "stock_text": "Còn 122",
         "duration": "1 Tháng",
-        "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
+        "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )\n✏️",
         "sources": {
           "taphoathomap_bot": {
             "stock": 40,
             "cost_price": 40000,
             "updated": "00:12 17/10/2026",
             "selling_price": 50000
+          },
+          "sieuthistore_bot": {
+            "stock": 82,
+            "cost_price": 65000,
+            "selling_price": 75000,
+            "updated": "23:19 11/11/2026"
           }
         },
-        "cost_price": 38800,
+        "cost_price": 40000,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 38800
+          "bot": "@taphoathomap_bot",
+          "cost_price": 40000,
+          "stock": 40
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1791919210876",
@@ -22935,6 +22944,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794413959788",
+      "time": "23:19 - 11/11/2026",
+      "name": "Capcut Pro Cá Nhân 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 75000,
+      "costPrice": 65000,
+      "stockAfter": 122,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutProCáNhân1ThángBHF➕Thêm:8📦Tồnkhohiệntại:82💰Giá:65.000đ"
+    },
+    {
       "id": "hist-1794413879715",
       "time": "23:17 - 11/11/2026",
       "name": "👑 VIP · ChatGPT Plus ApplePay 1 Tháng BHF",
@@ -24022,17 +24042,6 @@
       "stockAfter": 20,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+30DBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:59.000đ"
-    },
-    {
-      "id": "hist-1794395913243",
-      "time": "18:18 - 11/11/2026",
-      "name": "MEITU VIP+ 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 13,
-      "catKey": "meitu",
-      "msgKey": "✨MEITUVIP+1THÁNGBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:80.000đ"
     }
   ],
   "vidiq": {
