@@ -5660,6 +5660,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794405241383",
+        "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 2H",
+        "price": 98000,
+        "cost_price": 88000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Định dạng: Email | Pass | 2FA\nLoại tài khoản: Tài khoản cấp riêng tư (Dùng riêng)\n📌 Hướng dẫn đăng nhập\nĐăng nhập bằng Email và Mật khẩu được cung cấp.\nKhi hệ thống yêu cầu mã xác thực 2 bước (OTP):\nTruy cập: 2fa.live\nDán chuỗi mã 2FA vào ô trống rồi nhấn Get Code.\nLấy mã 6 số hiển thị để hoàn tất đăng nhập.\nDành cho khách dùng Codex: Cần tự liên kết/xác minh số điện thoại cá nhân để kích hoạt sử dụng (Mẹo thuê SMS giá rẻ: bom.so/lgnQix).\n⚠️ LƯU Ý & CHÍNH SÁCH BẢO HÀNH\nThời gian bảo hành: 2 giờ tính từ thời điểm tạo đơn hàng thành công.\nQuy định về 2FA: TUYỆT ĐỐI KHÔNG XÓA 2FA (chỉ hỗ trợ đổi sang mã 2FA cá nhân). Tài khoản bị xóa hoàn toàn 2FA sẽ từ chối bảo hành.\nKhuyến nghị sử dụng: Nên giữ nguyên mật khẩu và 2FA mặc định để tài khoản duy trì độ ổn định cao nhất, hạn chế tối đa nguy cơ bị hệ thống ChatGPT quét checkpoint/khóa.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 0,
+            "cost_price": 88000,
+            "selling_price": 98000,
+            "updated": "20:54 11/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 88000,
+          "stock": 0
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -22779,6 +22805,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794405241383",
+      "time": "20:54 - 11/11/2026",
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 2H",
+      "bot": "ntnshopre_bot",
+      "price": 98000,
+      "costPrice": 88000,
+      "stockAfter": 0,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH2H➕Thêm:10📦Tồnkhohiệntại:0💰Giá:88.000đ"
+    },
+    {
       "id": "hist-1794405032150",
       "time": "20:50 - 11/11/2026",
       "name": "ChatGPT Plus GGpay 30D BHF",
@@ -23866,17 +23903,6 @@
       "stockAfter": 585,
       "catKey": "claude",
       "msgKey": "🧠VIP3.10MCreditAPIClaude1Tháng-BHF➕Thêm:200📦Tồnkhohiệntại:585💰Giá:39.000đ"
-    },
-    {
-      "id": "hist-1794388593661",
-      "time": "16:16 - 11/11/2026",
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 125000,
-      "costPrice": 105000,
-      "stockAfter": 204,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH24H➕Thêm:1📦Tồnkhohiệntại:104💰Giá:105.000đ"
     }
   ],
   "vidiq": {
