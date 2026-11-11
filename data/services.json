@@ -9525,8 +9525,8 @@
         "name": "Grok Plus 7 ngày BH 5 ngày",
         "price": 95000,
         "cost_price": 80000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "7 Ngày",
         "detail": "💎 Mô tả sản phẩm: • Grok gói Plus hạn sử dụng 7 ngày • Định dạng: Tài khoản | Pass Grok • Bảo hành: BH 5 ngày gói Plus - hàng đã kiểm tra kỹ gói, pass trước khi đưa lên bot - yêu cầu check tài khoản và check gói trong vòng 24h sau khi đơn hàng bán ra. ⚠️ VUI LÒNG ĐỌC KỸ MÔ TẢ TRƯỚC KHI MUA: • Mua về được đổi pass tự bảo quản, bảo mật • Không thay mail, thay = không bảo hành • Không link hoặc gỡ tài khoản khỏi X khỏi google. Link hoặc gỡ sẽ mất gói không bảo hành. • Tài khoản dùng vi phạm chính sách của X dẫn đến bị khóa, mất gói cũng không được bảo hành.\n✏️",
         "sources": {
@@ -9537,16 +9537,16 @@
             "updated": "22:02 11/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 3,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "20:06 10/11/2026"
+            "updated": "22:02 11/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 80000,
-          "stock": 2
+          "stock": 3
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -22857,6 +22857,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794409359925",
+      "time": "22:02 - 11/11/2026",
+      "name": "Grok Plus 7 ngày BH 5 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 6,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:3📦Tồnkhohiệntại:3💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1794409353612",
       "time": "22:02 - 11/11/2026",
       "name": "Grok Plus 7 ngày BH 5 ngày",
@@ -23944,17 +23955,6 @@
       "stockAfter": 11,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTTEAM6THÁNGBHF💰Giá:290k📦Tồnkho:6tàikhoản📊Đãbán:547tàikhoản💎Môtả:CAPCUTPRO"
-    },
-    {
-      "id": "hist-1794391325213",
-      "time": "17:02 - 11/11/2026",
-      "name": "CAPCUT TEAM 6 THÁNG  BHF",
-      "bot": "taphoathomap_bot",
-      "price": 320000,
-      "costPrice": 290000,
-      "stockAfter": 11,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTTEAM6THÁNGBHF➕Thêm:4📦Tồnkhohiệntại:6💰Giá:290.000đ"
     }
   ],
   "vidiq": {
