@@ -8885,16 +8885,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 45,
-        "stock_text": "Còn 45",
+        "stock": 40,
+        "stock_text": "Còn 40",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 45,
+            "stock": 40,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "13:31 11/11/2026"
+            "updated": "15:18 11/11/2026"
           }
         },
         "hidden": false,
@@ -8902,7 +8902,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 45
+          "stock": 40
         },
         "needs_review": false
       },
@@ -22480,6 +22480,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794385129977",
+      "time": "15:18 - 11/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 40,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:40💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794384769481",
       "time": "15:12 - 11/11/2026",
       "name": "ADMIN GEMINI PRO + GOOGLE ONE 5TB 6 THÁNG BẢO HÀNH 24H",
@@ -23567,17 +23578,6 @@
       "stockAfter": 79,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:29📦Tồnkhohiệntại:79💰Giá:170.000"
-    },
-    {
-      "id": "hist-1794342515846",
-      "time": "03:28 - 11/11/2026",
-      "name": "Chatgpt Plus (Apple Pay) 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 127,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:29📦Tồnkhohiệntại:79💰Giá:220.000đ"
     }
   ],
   "vidiq": {
