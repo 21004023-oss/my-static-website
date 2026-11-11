@@ -7384,17 +7384,17 @@
         "id": "p-1793205775210",
         "name": "ADMIN GEMINI PRO + GOOGLE ONE 5TB 6 THÁNG BẢO HÀNH 24H",
         "price": 170000,
-        "cost_price": 150000,
-        "stock": 16,
-        "stock_text": "Còn 16",
+        "cost_price": 85000,
+        "stock": 11,
+        "stock_text": "Còn 11",
         "duration": "6 Tháng",
         "detail": "- Định dạng: Mail | Pass | 2fa\n- Add được 5 slot cùng hưởng Gemini Pro + GG 5TB trong 6 tháng\n- Bảo hành 24h, khách mua về tự thay đổi thông tin bảo quản tài khoản.\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 8,
-            "cost_price": 150000,
-            "selling_price": 170000,
-            "updated": "15:43 09/11/2026"
+            "stock": 3,
+            "cost_price": 85000,
+            "selling_price": 95000,
+            "updated": "15:12 11/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 8,
@@ -7405,8 +7405,8 @@
         },
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
-          "cost_price": 150000,
-          "stock": 8
+          "cost_price": 85000,
+          "stock": 3
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
@@ -22480,6 +22480,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794384769481",
+      "time": "15:12 - 11/11/2026",
+      "name": "ADMIN GEMINI PRO + GOOGLE ONE 5TB 6 THÁNG BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 11,
+      "catKey": "google-veo",
+      "msgKey": "☁️ADMINGEMINIPRO+GOOGLEONE5TB6THÁNGBẢOHÀNH24H➕Thêm:3📦Tồnkhohiệntại:3💰Giá:85.000đ"
+    },
+    {
       "id": "hist-1794384619354",
       "time": "15:10 - 11/11/2026",
       "name": "Gmail Cổ Random 2010~2022",
@@ -23567,17 +23578,6 @@
       "stockAfter": 127,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:29📦Tồnkhohiệntại:79💰Giá:220.000đ"
-    },
-    {
-      "id": "hist-1794341695621",
-      "time": "03:14 - 11/11/2026",
-      "name": "ChatGPT Plus GGpay 30D BHF",
-      "bot": "piggyai99_bot",
-      "price": 190000,
-      "costPrice": 170000,
-      "stockAfter": 108,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusGGpay30DBHF➕Thêm:23📦Tồnkhohiệntại:108💰Giá:170.000đ"
     }
   ],
   "vidiq": {
