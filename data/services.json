@@ -6435,22 +6435,22 @@
         "name": "Claude Pro Guest Pass 7 ngày - BHF",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "7 Ngày",
-        "detail": "Claude Pro Guest Pass là mã dùng thử miễn phí Claude Pro trong 7 ngày, bao gồm Claude Code và các tính năng AI nâng cao. Dành cho tài khoản chưa từng đăng ký gói Claude trả phí, giúp bạn trải nghiệm đầy đủ tính năng Pro mà không mất phí trong thời gian dùng thử. Tự add thẻ khi nhận offer.",
+        "detail": "Claude Pro Guest Pass là mã dùng thử miễn phí Claude Pro trong 7 ngày, bao gồm Claude Code và các tính năng AI nâng cao. Dành cho tài khoản chưa từng đăng ký gói Claude trả phí, giúp bạn trải nghiệm đầy đủ tính năng Pro mà không mất phí trong thời gian dùng thử. Tự add thẻ khi nhận offer.\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 0,
+            "stock": 1,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "05:30 11/11/2026"
+            "updated": "16:14 11/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 140000,
-          "stock": 0
+          "stock": 1
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -22591,6 +22591,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794388488112",
+      "time": "16:14 - 11/11/2026",
+      "name": "Claude Pro Guest Pass 7 ngày - BHF",
+      "bot": "piggyai99_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 1,
+      "catKey": "claude",
+      "msgKey": "🧠ClaudeProGuestPass7ngày-BHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794388343892",
       "time": "16:12 - 11/11/2026",
       "name": "VIP 3.20M Credit API Claude 1 Tháng - BHF",
@@ -23678,17 +23689,6 @@
       "stockAfter": 49,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:14📦Tồnkhohiệntại:49💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1794349845190",
-      "time": "05:30 - 11/11/2026",
-      "name": "Claude Pro Guest Pass 7 ngày - BHF",
-      "bot": "piggyai99_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 0,
-      "catKey": "claude",
-      "msgKey": "🧠ClaudeProGuestPass7ngày-BHF➕Thêm:1📦Tồnkhohiệntại:0💰Giá:140.000đ"
     }
   ],
   "vidiq": {
