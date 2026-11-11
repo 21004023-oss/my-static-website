@@ -12337,8 +12337,8 @@
         "id": "p-1792229136900",
         "name": "Muse AI 31 Tỷ Token 1 tháng KBH",
         "price": 190000,
-        "stock": 40,
-        "stock_text": "Còn 40",
+        "stock": 35,
+        "stock_text": "Còn 35",
         "duration": "1 Tháng",
         "detail": "ĐỊNH DẠNG   : Mail | Link lấy OTP\nHƯỚNG DẪN ĐĂNG NHẬP MUSE AI:\n👉 Bước 1: Vào https://muse.ai/ nhập Mail được cấp sau đó bấm Tiếp tục\n👉 Bước 2: Dán Link Lấy OTP đi kèm mỗi tài khoản vào trình duyệt để lấy mã OTP\n👉 Bước 3: Nhập mã OTP vào Muse AI để hoàn tất đăng nhập\n✏️",
         "sources": {
@@ -12349,10 +12349,10 @@
             "selling_price": 190000
           },
           "taphoathomap_bot": {
-            "stock": 30,
+            "stock": 25,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "00:40 12/11/2026"
+            "updated": "05:17 12/11/2026"
           }
         },
         "hidden": false,
@@ -12360,7 +12360,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 40000,
-          "stock": 30
+          "stock": 25
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -22970,6 +22970,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794435477080",
+      "time": "05:17 - 12/11/2026",
+      "name": "Muse Ai 31 tỷ Token ( KBH )",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 35,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAi31tỷToken(KBH)➕Thêm:30📦Tồnkhohiệntại:25💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1794434501109",
       "time": "05:01 - 12/11/2026",
       "name": "Capcut Pro Cá Nhân 1 Tháng BHF",
@@ -24057,17 +24068,6 @@
       "stockAfter": 259,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:50📦Tồnkhohiệntại:259💰Giá:170.00"
-    },
-    {
-      "id": "hist-1794413486306",
-      "time": "23:11 - 11/11/2026",
-      "name": "Chatgpt Plus (Apple Pay) 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 307,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:50📦Tồnkhohiệntại:259💰Giá:220.000đ"
     }
   ],
   "vidiq": {
