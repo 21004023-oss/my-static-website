@@ -19794,6 +19794,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 65000
         }
+      },
+      {
+        "id": "p-1794402950788",
+        "name": "🍎 Apple Music 5 tháng BH 1 tháng",
+        "price": 125000,
+        "cost_price": 105000,
+        "stock": 7,
+        "stock_text": "Còn 7",
+        "duration": "1 Tháng",
+        "detail": "⚡️ Bảo hành 1 tháng\n⚡️ Link kích hoạt Apple Music 5 tháng\n⚡️ Chỉ áp dụng cho tài khoản mới tại khu vực Ấn Độ; cần sử dụng VPN nếu bạn ở ngoài Ấn Độ\n⚡️ Cần có phương thức thanh toán hợp lệ như UPI hoặc thẻ để kích hoạt (người mua tự chịu trách nhiệm chuẩn bị)\nHướng dẫn nhận hàng / kích hoạt:\n✅ Nhấn vào link, tạo tài khoản với khu vực Ấn Độ và nhận 5 tháng Apple Music.\n✅ Nếu bạn ở ngoài Ấn Độ, hãy sử dụng VPN trên trình duyệt để kích hoạt. Chúng tôi không cung cấp thẻ hoặc UPI để thực hiện kích hoạt.\n✅ Link được giữ hiệu lực trong 24 giờ và sản phẩm được bảo hành cho đến khi kích hoạt thành công.\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 7,
+            "cost_price": 105000,
+            "selling_price": 125000,
+            "updated": "20:15 11/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 105000,
+          "stock": 7
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -22747,6 +22773,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794402950788",
+      "time": "20:15 - 11/11/2026",
+      "name": "🍎 Apple Music 5 tháng BH 1 tháng",
+      "bot": "taphoathomap_bot",
+      "price": 125000,
+      "costPrice": 105000,
+      "stockAfter": 7,
+      "catKey": "apple-services",
+      "msgKey": "⭐🍎AppleMusic5thángBH1tháng💰Giá:105k📦Tồnkho:7tàikhoản📊Đãbán:2tàikhoản💎Môtả:⚡️Bảoh"
+    },
+    {
       "id": "hist-1794402759809",
       "time": "20:12 - 11/11/2026",
       "name": "Redeem Apple Music Individual 5 tháng BH 1 ngày",
@@ -23834,17 +23871,6 @@
       "stockAfter": 115,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:44📦Tồnkhohiệntại:115💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1794387034905",
-      "time": "15:50 - 11/11/2026",
-      "name": "SURFSHARK VPN ONE 7 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "price": 28000,
-      "costPrice": 18000,
-      "stockAfter": 27,
-      "catKey": "surfshark",
-      "msgKey": "🦈SURFSHARKVPNONE7NGÀYBHF➕Thêm:10📦Tồnkhohiệntại:9💰Giá:18.000đ"
     }
   ],
   "vidiq": {
