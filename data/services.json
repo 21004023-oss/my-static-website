@@ -16606,6 +16606,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794407732240",
+        "name": "VPN HMA 11 tháng  bảo hành full",
+        "price": 220000,
+        "cost_price": 200000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "HMA 12T bảo hành full, shop chỉ bảo hành trường hợp mất gói , không bảo hành vấn đề khác\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 200000,
+            "selling_price": 220000,
+            "updated": "21:35 11/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 200000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -22805,6 +22831,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794407732240",
+      "time": "21:35 - 11/11/2026",
+      "name": "VPN HMA 11 tháng  bảo hành full",
+      "bot": "taphoathomap_bot",
+      "price": 220000,
+      "costPrice": 200000,
+      "stockAfter": 1,
+      "catKey": "hma-vpn",
+      "msgKey": "⭐VPNHMA11thángbảohànhfull➕Thêm:1📦Tồnkhohiệntại:1💰Giá:200.000đ"
+    },
+    {
       "id": "hist-1794407266134",
       "time": "21:27 - 11/11/2026",
       "name": "Express VPN Random 2-3 Ngày BHF",
@@ -23892,17 +23929,6 @@
       "stockAfter": 50,
       "catKey": "chatgpt",
       "msgKey": "🤖👑VIP·ChatGPTPlusApplePay1ThángBHF➕Thêm:50📦Tồnkhohiệntại:50💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1794389490518",
-      "time": "16:31 - 11/11/2026",
-      "name": "ACC ZOOM PRO 14 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 15,
-      "catKey": "zoom",
-      "msgKey": "⭐ACCZOOMPRO14NGÀYBHF➕Thêm:10📦Tồnkhohiệntại:15💰Giá:40.000đ"
     }
   ],
   "vidiq": {
