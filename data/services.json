@@ -4542,22 +4542,22 @@
         "name": "ChatGPT Go 1 Tháng (BH 28D)",
         "price": 105000,
         "cost_price": 95000,
-        "stock": 21,
-        "stock_text": "Còn 21",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 21,
+            "stock": 0,
             "cost_price": 95000,
             "selling_price": 105000,
-            "updated": "17:02 09/11/2026"
+            "updated": "02:27 12/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 95000,
-          "stock": 21
+          "stock": 0
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -22970,6 +22970,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794425250503",
+      "time": "02:27 - 12/11/2026",
+      "name": "ChatGPT Go 1 Tháng (BH 28D)",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 0,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:12📦Tồnkhohiệntại:0💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1794424899398",
       "time": "02:21 - 12/11/2026",
       "name": "Grok + Cursor Premium 14 ngày (BH 24h)",
@@ -24057,17 +24068,6 @@
       "stockAfter": 91,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusGGpay30DBHF➕Thêm:66📦Tồnkhohiệntại:91💰Giá:170.000đ"
-    },
-    {
-      "id": "hist-1794404758823",
-      "time": "20:45 - 11/11/2026",
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 125000,
-      "costPrice": 105000,
-      "stockAfter": 163,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH24H➕Thêm:26📦Tồnkhohiệntại:63💰Giá:105.000đ"
     }
   ],
   "vidiq": {
