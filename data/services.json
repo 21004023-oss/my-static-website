@@ -13368,6 +13368,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794392523844",
+        "name": "SUNO PREMIER 1 THÁNG BẢO HÀNH 24H",
+        "price": 470000,
+        "cost_price": 420000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Mail | Pass | Mail khôi phục",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 0,
+            "cost_price": 420000,
+            "selling_price": 470000,
+            "updated": "17:22 11/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 420000,
+          "stock": 0
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -22617,6 +22643,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794392523844",
+      "time": "17:22 - 11/11/2026",
+      "name": "SUNO PREMIER 1 THÁNG BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "price": 470000,
+      "costPrice": 420000,
+      "stockAfter": 0,
+      "catKey": "suno",
+      "msgKey": "🎵SUNOPREMIER1THÁNGBẢOHÀNH24H➕Thêm:1📦Tồnkhohiệntại:0💰Giá:420.000đ"
+    },
+    {
       "id": "hist-1794392516767",
       "time": "17:21 - 11/11/2026",
       "name": "Suno Premier 30 ngày BH 1 ngày",
@@ -23704,17 +23741,6 @@
       "stockAfter": 40,
       "catKey": "gmail",
       "msgKey": "📧GmailRandom200X~2023Có2FA💰Giá:35k📦Tồnkho:14tàikhoản📊Đãbán:6.310tàikhoản💎Môtả:Đị"
-    },
-    {
-      "id": "hist-1794376501370",
-      "time": "12:55 - 11/11/2026",
-      "name": "Gmail Random 200X~2023 Có 2FA",
-      "bot": "taphoathomap_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 40,
-      "catKey": "gmail",
-      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:20📦Tồnkhohiệntại:14💰Giá:35.000đ"
     }
   ],
   "vidiq": {
