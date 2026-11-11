@@ -13472,6 +13472,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794401608809",
+        "name": "SUNO PRO 1 THÁNG BẢO HÀNH 24H",
+        "price": 150000,
+        "cost_price": 130000,
+        "stock": 14,
+        "stock_text": "Còn 14",
+        "duration": "1 Tháng",
+        "detail": "Mail | Pass | Mail khôi phục\n✏️",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 14,
+            "cost_price": 130000,
+            "selling_price": 150000,
+            "updated": "19:53 11/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 130000,
+          "stock": 14
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -22721,6 +22747,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794401608809",
+      "time": "19:53 - 11/11/2026",
+      "name": "SUNO PRO 1 THÁNG BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 14,
+      "catKey": "suno",
+      "msgKey": "🎵SUNOPRO1THÁNGBẢOHÀNH24H➕Thêm:14📦Tồnkhohiệntại:14💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1794401570025",
       "time": "19:52 - 11/11/2026",
       "name": "Suno Pro 1TH BH 1 ngày",
@@ -23808,17 +23845,6 @@
       "stockAfter": 10,
       "catKey": "kling",
       "msgKey": "🎬KLINGSTAND800CREDITS1THÁNGBẢOHÀNH24H➕Thêm:10📦Tồnkhohiệntại:10💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1794386303809",
-      "time": "15:38 - 11/11/2026",
-      "name": "Kling Stand 800 credit 1 tháng - BH 24 giờ",
-      "bot": "taphoathomap_bot",
-      "price": 125000,
-      "costPrice": 105000,
-      "stockAfter": 10,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStand800credit1tháng-BH24giờ➕Thêm:10📦Tồnkhohiệntại:10💰Giá:105.000đ"
     }
   ],
   "vidiq": {
