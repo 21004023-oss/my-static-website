@@ -9015,16 +9015,16 @@
         "name": "Grok Plus 30 ngày Bh Login",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 40,
-        "stock_text": "Còn 40",
+        "stock": 31,
+        "stock_text": "Còn 31",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 40,
+            "stock": 31,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "15:18 11/11/2026"
+            "updated": "20:43 11/11/2026"
           }
         },
         "hidden": false,
@@ -9032,7 +9032,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 40
+          "stock": 31
         },
         "needs_review": false
       },
@@ -22773,6 +22773,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794404588494",
+      "time": "20:43 - 11/11/2026",
+      "name": "Grok Plus 30 ngày BH Login",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 31,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:31💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794403543582",
       "time": "20:25 - 11/11/2026",
       "name": "⚡️ Grok Plus 7 ngày -  BH 1 Ngày",
@@ -23860,17 +23871,6 @@
       "stockAfter": 31,
       "catKey": "grok",
       "msgKey": "⚡⚡️GrokPlus7ngày-BH1Ngày➕Thêm:6📦Tồnkhohiệntại:31💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1794387597231",
-      "time": "15:59 - 11/11/2026",
-      "name": "MEITU VIP+ 7 NGÀY BHF",
-      "bot": "ntnshopre_bot",
-      "price": 30000,
-      "costPrice": 20000,
-      "stockAfter": 9,
-      "catKey": "meitu",
-      "msgKey": "✨MEITUVIP+7NGÀYBHF➕Thêm:8📦Tồnkhohiệntại:8💰Giá:20.000đ"
     }
   ],
   "vidiq": {
