@@ -8983,8 +8983,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 115000,
-        "stock": 42,
-        "stock_text": "Còn 42",
+        "stock": 33,
+        "stock_text": "Còn 33",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -8995,10 +8995,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 40,
+            "stock": 31,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "15:19 11/11/2026"
+            "updated": "20:43 11/11/2026"
           }
         },
         "hidden": false,
@@ -9007,7 +9007,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 40
+          "stock": 31
         }
       },
       {
@@ -22779,6 +22779,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794404630385",
+      "time": "20:43 - 11/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 33,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:31💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1794404602274",
       "time": "20:43 - 11/11/2026",
       "name": "GROK PLUS 1 THÁNG BẢO HÀNH LOGIN",
@@ -23866,17 +23877,6 @@
       "stockAfter": 535,
       "catKey": "claude",
       "msgKey": "🧠VIP3.20MCreditAPIClaude1Tháng-BHF➕Thêm:100📦Tồnkhohiệntại:535💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1794388252408",
-      "time": "16:10 - 11/11/2026",
-      "name": "VIP 3.50M Credit API Claude 1 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 492,
-      "catKey": "claude",
-      "msgKey": "🧠VIP3.50MCreditAPIClaude1Tháng-BHF➕Thêm:100📦Tồnkhohiệntại:492💰Giá:95.000đ"
     }
   ],
   "vidiq": {
