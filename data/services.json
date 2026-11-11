@@ -10566,6 +10566,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794386310869",
+        "name": "KLING STAND 800 CREDITS 1 THÁNG BẢO HÀNH 24H",
+        "price": 135000,
+        "cost_price": 115000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "1 Tháng",
+        "detail": "Gói KLING STAND 800 CREDITS 1 THÁNG BẢO HÀNH 24H bảo hành uy tín.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 10,
+            "cost_price": 115000,
+            "selling_price": 135000,
+            "updated": "15:38 11/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 115000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -22532,6 +22558,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794386310869",
+      "time": "15:38 - 11/11/2026",
+      "name": "KLING STAND 800 CREDITS 1 THÁNG BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 10,
+      "catKey": "kling",
+      "msgKey": "🎬KLINGSTAND800CREDITS1THÁNGBẢOHÀNH24H➕Thêm:10📦Tồnkhohiệntại:10💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1794386303809",
       "time": "15:38 - 11/11/2026",
       "name": "Kling Stand 800 credit 1 tháng - BH 24 giờ",
@@ -23619,17 +23656,6 @@
       "stockAfter": 183,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30NgàyBHF➕Thêm:12📦Tồnkhohiệntại:76💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1794344973564",
-      "time": "04:09 - 11/11/2026",
-      "name": "ChatGPT Plus GGPay Gmail 1 Tháng BH 7 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 8,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusGGPayGmail1ThángBH7ngày➕Thêm:6📦Tồnkhohiệntại:8💰Giá:160.000đ"
     }
   ],
   "vidiq": {
