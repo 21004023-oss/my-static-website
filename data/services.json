@@ -18103,10 +18103,10 @@
         "id": "p-1792093859672",
         "name": "Gmail Random 200X~2023 Có 2FA",
         "price": 55000,
-        "stock": 104,
-        "stock_text": "Còn 104",
+        "stock": 58,
+        "stock_text": "Còn 58",
         "duration": "1 Tháng",
-        "detail": "Định dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H - Login thành công hết bảo hành\n- Gmail đã nuôi khá lâu rồi nên gmail khá khoẻ\n+ Lưu ý:\n- Hãy dùng proxy , và IP máy riêng để login Gmail , tránh tình trạng GG quét hàng loạt.\n-Sau 48H hãy thay đổi thông , đá thiết bị cũ, Để bảo mật tài sản của mình. ( Gmail cổ điều bảo mật thông tin là quan trọng nhất )\n-Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/\n✏️",
+        "detail": "Định dạng : Gmail | Pass | 2FA\nBẢO HÀNH LOGIN LẦN ĐẦU 24H - Login thành công hết bảo hành\n- Gmail đã nuôi khá lâu rồi nên gmail khá khoẻ\n+ Lưu ý:\n- Hãy dùng proxy , và IP máy riêng để login Gmail , tránh tình trạng GG quét hàng loạt.\n-Sau 48H hãy thay đổi thông , đá thiết bị cũ, Để bảo mật tài sản của mình. ( Gmail cổ điều bảo mật thông tin là quan trọng nhất )\n-Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/",
         "sources": {
           "sieuthistore_bot": {
             "stock": 46,
@@ -18115,10 +18115,10 @@
             "updated": "18:43 11/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 46,
+            "stock": 0,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "18:43 11/11/2026"
+            "updated": "05:23 12/11/2026"
           },
           "piggyai99_bot": {
             "stock": 12,
@@ -18131,11 +18131,11 @@
         "cost_price": 35000,
         "needs_review": false,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
+          "bot": "@piggyai99_bot",
           "cost_price": 35000,
-          "stock": 46
+          "stock": 12
         },
-        "import_note": "Nhập: @taphoathomap_bot"
+        "import_note": "Nhập: @piggyai99_bot"
       },
       {
         "id": "p-1792093865277",
@@ -22970,6 +22970,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794435796588",
+      "time": "05:23 - 12/11/2026",
+      "name": "Gmail Random 200X~2023 Có 2FA",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 58,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:20📦Tồnkhohiệntại:0💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1794435477080",
       "time": "05:17 - 12/11/2026",
       "name": "Muse Ai 31 tỷ Token ( KBH )",
@@ -24057,17 +24068,6 @@
       "stockAfter": 1,
       "catKey": "tiktok",
       "msgKey": "🎵TiktokVNLiveStudio1KFLTHẬT➕Thêm:1📦Tồnkhohiệntại:1💰Giá:230.000đ"
-    },
-    {
-      "id": "hist-1794413505264",
-      "time": "23:11 - 11/11/2026",
-      "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 190000,
-      "costPrice": 170000,
-      "stockAfter": 259,
-      "catKey": "chatgpt",
-      "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:50📦Tồnkhohiệntại:259💰Giá:170.00"
     }
   ],
   "vidiq": {
