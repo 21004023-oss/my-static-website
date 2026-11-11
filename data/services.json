@@ -6565,22 +6565,22 @@
         "name": "Claude Pro Guest Pass 7 ngày - BHF",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "7 Ngày",
-        "detail": "Claude Pro Guest Pass là mã dùng thử miễn phí Claude Pro trong 7 ngày, bao gồm Claude Code và các tính năng AI nâng cao. Dành cho tài khoản chưa từng đăng ký gói Claude trả phí, giúp bạn trải nghiệm đầy đủ tính năng Pro mà không mất phí trong thời gian dùng thử. Tự add thẻ khi nhận offer.\n✏️",
+        "detail": "Claude Pro Guest Pass là mã dùng thử miễn phí Claude Pro trong 7 ngày, bao gồm Claude Code và các tính năng AI nâng cao. Dành cho tài khoản chưa từng đăng ký gói Claude trả phí, giúp bạn trải nghiệm đầy đủ tính năng Pro mà không mất phí trong thời gian dùng thử. Tự add thẻ khi nhận offer.",
         "sources": {
           "piggyai99_bot": {
-            "stock": 1,
+            "stock": 0,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "16:14 11/11/2026"
+            "updated": "06:38 12/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 140000,
-          "stock": 1
+          "stock": 0
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -22970,6 +22970,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794440316158",
+      "time": "06:38 - 12/11/2026",
+      "name": "Claude Pro Guest Pass 7 ngày - BHF",
+      "bot": "piggyai99_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 0,
+      "catKey": "claude",
+      "msgKey": "🧠ClaudeProGuestPass7ngày-BHF➕Thêm:1📦Tồnkhohiệntại:0💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794440147099",
       "time": "06:35 - 12/11/2026",
       "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
@@ -24057,17 +24068,6 @@
       "stockAfter": 137,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân1ThángBHF➕Thêm:8📦Tồnkhohiệntại:97💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1794418453684",
-      "time": "00:34 - 12/11/2026",
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 13,
-      "catKey": "meitu",
-      "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:10💰Giá:35.000đ"
     }
   ],
   "vidiq": {
