@@ -5791,6 +5791,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794488221747",
+        "name": "ChatGPT PRO 500 - 1 tháng BH 1 Ngày",
+        "price": 4050000,
+        "cost_price": 3700000,
+        "stock": 116,
+        "stock_text": "Còn 116",
+        "duration": "1 Tháng",
+        "detail": "⚠️ THÔNG BÁO QUAN TRỌNG – ĐỌC KỸ TRƯỚC KHI MUA!\n📦 Hàng Order: Không có sẵn, thời gian trả đơn trong vòng 24 giờ.\n💰 Hoàn tiền: Nếu Shop không có hàng để giao, khách sẽ được hoàn tiền 100%.\n🚫 Không RF: Đơn hàng đã được xử lý/đặt hàng sẽ không hỗ trợ hoàn tiền hoặc hủy đơn.\n🛡️ Chính sách bảo hành:\n- ✅ Chỉ bảo hành trường hợp tụt gói.\n- ❌ Không bảo hành tài khoản bị DIE/khóa.\n📌 LƯU Ý: Vui lòng cân nhắc kỹ trước khi đặt mua. Khi đặt hàng đồng nghĩa với việc khách đã đọc và đồng ý với chính sách trên.\n🚨 ĐỌC KỸ TRƯỚC KHI MUA – TRÁNH TRANH CHẤP VỀ SAU!\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 116,
+            "cost_price": 3700000,
+            "selling_price": 4050000,
+            "updated": "19:57 12/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 3700000,
+          "stock": 116
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -23240,6 +23266,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794488221747",
+      "time": "19:57 - 12/11/2026",
+      "name": "ChatGPT PRO 500 - 1 tháng BH 1 Ngày",
+      "bot": "taphoathomap_bot",
+      "price": 4050000,
+      "costPrice": 3700000,
+      "stockAfter": 116,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPRO500-1thángBH1Ngày➕Thêm:116📦Tồnkhohiệntại:116💰Giá:3.700.000đ"
+    },
+    {
       "id": "hist-1794488169713",
       "time": "19:56 - 12/11/2026",
       "name": "ChatGPT PRO 200 - 1 tháng BH 1 Ngày",
@@ -24327,17 +24364,6 @@
       "stockAfter": 8,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:2📦Tồnkhohiệntại:8💰Giá:7.000đ"
-    },
-    {
-      "id": "hist-1794465953670",
-      "time": "13:45 - 12/11/2026",
-      "name": "VIP 3.500M Credit API Claude 30 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 549000,
-      "costPrice": 499000,
-      "stockAfter": 600,
-      "catKey": "claude",
-      "msgKey": "🧠VIP3.500MCreditAPIClaude30Ngày-BHF➕Thêm:100📦Tồnkhohiệntại:600💰Giá:499.000đ"
     }
   ],
   "vidiq": {
