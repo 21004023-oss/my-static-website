@@ -9798,22 +9798,22 @@
         "name": "Grok Plus 30 ngày bh 24h",
         "price": 130000,
         "cost_price": 110000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
-        "detail": "Grok Plus 30 ngày bh24h\nMail | Pass Được change mail và pass Không hủy kết nối với X Login check gói hết bảo hành\n✏️",
+        "detail": "Grok Plus 30 ngày bh24h\nMail | Pass Được change mail và pass Không hủy kết nối với X Login check gói hết bảo hành",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 0,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "20:40 12/11/2026"
+            "updated": "04:54 13/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 110000,
-          "stock": 2
+          "stock": 0
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -23501,6 +23501,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794520493047",
+      "time": "04:54 - 13/11/2026",
+      "name": "Grok Plus 30 ngày bh 24h",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 0,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàybh24h➕Thêm:3📦Tồnkhohiệntại:0💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1794520445670",
       "time": "04:54 - 13/11/2026",
       "name": "Muse Ai 31 tỷ Token ( KBH )",
@@ -24588,17 +24599,6 @@
       "stockAfter": 41,
       "catKey": "cursor",
       "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)➕Thêm:10📦Tồnkhohiệntại:10💰Giá:139.000đ"
-    },
-    {
-      "id": "hist-1794503344014",
-      "time": "00:09 - 13/11/2026",
-      "name": "Grok + Cursor Premium 14 ngày (BH 24h)",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 35,
-      "catKey": "cursor",
-      "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)➕Thêm:10📦Tồnkhohiệntại:10💰Giá:140.000đ"
     }
   ],
   "vidiq": {
