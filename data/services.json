@@ -136,22 +136,22 @@
         "name": "Tài Khoản Netflix Premium 2 ngày BHF",
         "price": 45000,
         "cost_price": 35000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
         "detail": "Gói Tài Khoản Netflix Premium 2 ngày BHF bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 3,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "14:45 12/11/2026"
+            "updated": "05:46 13/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 35000,
-          "stock": 2
+          "stock": 3
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -23533,6 +23533,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794523615197",
+      "time": "05:46 - 13/11/2026",
+      "name": "Tài Khoản Netflix Premium 2 ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 3,
+      "catKey": "netflix",
+      "msgKey": "🎬TàiKhoảnNetflixPremium2ngàyBHF💰Giá:35k📦Tồnkho:3tàikhoản📊Đãbán:60tàikhoản✏️Vuilò"
+    },
+    {
       "id": "hist-1794523286765",
       "time": "05:41 - 13/11/2026",
       "name": "⚡️ Grok Plus 7 ngày -  BH 1 Ngày",
@@ -24620,17 +24631,6 @@
       "stockAfter": 7,
       "catKey": "tiktok",
       "msgKey": "🎵TiktokVNnoshopCóLive(1KFLThật)➕Thêm:1📦Tồnkhohiệntại:7💰Giá:179.000đ"
-    },
-    {
-      "id": "hist-1794504911060",
-      "time": "00:35 - 13/11/2026",
-      "name": "TiktokVN 1kfl noshop nobuff live Studio",
-      "bot": "taphoathomap_bot",
-      "price": 179000,
-      "costPrice": 159000,
-      "stockAfter": 7,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokVN1kflnoshopnobuffliveStudio➕Thêm:1📦Tồnkhohiệntại:7💰Giá:159.000đ"
     }
   ],
   "vidiq": {
