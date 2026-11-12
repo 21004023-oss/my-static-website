@@ -12541,7 +12541,7 @@
         "id": "p-1794521360342",
         "name": "Seedance 1200- 1700 credit 1 Tháng KBH",
         "price": 55000,
-        "cost_price": 45000,
+        "cost_price": 35000,
         "stock": 0,
         "stock_text": "Hết hàng",
         "duration": "1 Tháng",
@@ -12552,14 +12552,20 @@
             "cost_price": 45000,
             "selling_price": 55000,
             "updated": "05:09 13/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 0,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "05:09 13/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 45000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 35000,
           "stock": 0
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -23527,6 +23533,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794521366393",
+      "time": "05:09 - 13/11/2026",
+      "name": "Seedance 1200- 1700 credit 1th kbh",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 0,
+      "catKey": "seedance",
+      "msgKey": "⭐Seedance1200-1700credit1thkbh➕Thêm:1📦Tồnkhohiệntại:0💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1794521360342",
       "time": "05:09 - 13/11/2026",
       "name": "Seedance 1200- 1700 credit 1 Tháng KBH",
@@ -24614,17 +24631,6 @@
       "stockAfter": 6,
       "catKey": "tiktok",
       "msgKey": "🎵TiktokVN1kflnoshopnobuffliveStudio💰Giá:159k📦Tồnkho:6tàikhoản📊Đãbán:34tàikhoản💎M"
-    },
-    {
-      "id": "hist-1794504096434",
-      "time": "00:21 - 13/11/2026",
-      "name": "TiktokVN 1kfl noshop nobuff live Studio",
-      "bot": "taphoathomap_bot",
-      "price": 179000,
-      "costPrice": 159000,
-      "stockAfter": 6,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokVN1kflnoshopnobuffliveStudio➕Thêm:1📦Tồnkhohiệntại:6💰Giá:159.000đ"
     }
   ],
   "vidiq": {
