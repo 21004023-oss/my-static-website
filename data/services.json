@@ -16240,23 +16240,23 @@
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
         "cost_price": 7000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "3 Ngày",
         "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 8,
+            "stock": 10,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "13:47 12/11/2026"
+            "updated": "15:03 12/11/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 7000,
-          "stock": 8
+          "stock": 10
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -23144,6 +23144,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794470596912",
+      "time": "15:03 - 12/11/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 10,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:2📦Tồnkhohiệntại:10💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1794470258983",
       "time": "14:57 - 12/11/2026",
       "name": "[CDK] Thuê Số OTP Codex/GPT 30D BH 24H",
@@ -24231,17 +24242,6 @@
       "stockAfter": 115,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:10📦Tồnkhohiệntại:115💰Giá:170.00"
-    },
-    {
-      "id": "hist-1794440126765",
-      "time": "06:35 - 12/11/2026",
-      "name": "Chatgpt Plus (Apple Pay) 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 250000,
-      "costPrice": 220000,
-      "stockAfter": 163,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:10📦Tồnkhohiệntại:115💰Giá:220.000đ"
     }
   ],
   "vidiq": {
