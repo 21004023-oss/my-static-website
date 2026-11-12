@@ -16202,8 +16202,8 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 40000,
         "cost_price": 15000,
-        "stock": 24,
-        "stock_text": "Còn 24",
+        "stock": 29,
+        "stock_text": "Còn 29",
         "duration": "3 Ngày",
         "detail": "Hỗ trợ điện thoại iOS, Android, PC\nĐịnh dạng: email|pass|activation key\nWeb mail: https://get-opt.phh.info.vn/\n✏️",
         "sources": {
@@ -16214,10 +16214,10 @@
             "updated": "14:48 12/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 7,
+            "stock": 12,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "11:37 12/11/2026"
+            "updated": "14:48 12/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 5,
@@ -16231,7 +16231,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 7
+          "stock": 12
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -23144,6 +23144,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794469698395",
+      "time": "14:48 - 12/11/2026",
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 29,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:11📦Tồnkhohiệntại:12💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794469685311",
       "time": "14:48 - 12/11/2026",
       "name": "Express VPN 3 Ngày BHF",
@@ -24231,17 +24242,6 @@
       "stockAfter": 6,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:2📦Tồnkhohiệntại:6💰Giá:7.000đ"
-    },
-    {
-      "id": "hist-1794439495156",
-      "time": "06:24 - 12/11/2026",
-      "name": "Hotspot Shield VPN Random 5-7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "msgKey": "⭐HotspotShieldVPNRandom5-7NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:15.000đ"
     }
   ],
   "vidiq": {
