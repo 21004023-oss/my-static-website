@@ -603,7 +603,7 @@
         "id": "p-1793980447183",
         "name": "🔥Amazon Prime Video 1 Tháng - BHF",
         "price": 65000,
-        "cost_price": 55000,
+        "cost_price": 45000,
         "stock": 2,
         "stock_text": "Còn 2",
         "duration": "1 Tháng",
@@ -611,14 +611,14 @@
         "sources": {
           "taphoathomap_bot": {
             "stock": 2,
-            "cost_price": 55000,
-            "selling_price": 65000,
-            "updated": "01:07 08/11/2026"
+            "cost_price": 45000,
+            "selling_price": 55000,
+            "updated": "02:31 13/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 55000,
+          "cost_price": 45000,
           "stock": 2
         },
         "import_note": "Nhập: @taphoathomap_bot",
@@ -23469,6 +23469,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794511908468",
+      "time": "02:31 - 13/11/2026",
+      "name": "🔥Amazon Prime Video 1 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 2,
+      "catKey": "amazon-prime",
+      "msgKey": "⭐🔥AmazonPrimeVideo1Tháng-BHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1794511895642",
       "time": "02:31 - 13/11/2026",
       "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
@@ -24556,17 +24567,6 @@
       "stockAfter": 1,
       "catKey": "elevenlabs",
       "msgKey": "🎙️ElevenlabCreator371Kcredit3ThBH2D➕Thêm:1📦Tồnkhohiệntại:1💰Giá:500.000đ"
-    },
-    {
-      "id": "hist-1794495724083",
-      "time": "22:02 - 12/11/2026",
-      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 94,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:50📦Tồnkhohiệntại:94💰Giá:110.000đ"
     }
   ],
   "vidiq": {
