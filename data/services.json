@@ -8687,22 +8687,22 @@
         "name": "Grok + Cursor Premium 14 ngày KBH",
         "price": 167000,
         "cost_price": 133000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nLogin check gói hết bảo hành\nKhách có 1h login check gói và báo lại nếu mất gói để được BH nếu báo muộn sẽ không bảo hành\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 0,
             "cost_price": 133000,
             "selling_price": 153000,
-            "updated": "22:55 12/11/2026"
+            "updated": "06:08 13/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 133000,
-          "stock": 2
+          "stock": 0
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -23559,6 +23559,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794524901799",
+      "time": "06:08 - 13/11/2026",
+      "name": "Grok + Cursor Premium 14 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 153000,
+      "costPrice": 133000,
+      "stockAfter": 0,
+      "catKey": "cursor",
+      "msgKey": "⚡Grok+CursorPremium14ngàyKBH➕Thêm:1📦Tồnkhohiệntại:0💰Giá:133.000đ"
+    },
+    {
       "id": "hist-1794524828838",
       "time": "06:07 - 13/11/2026",
       "name": "Gmail Random 200X~2023 Có 2FA",
@@ -24646,17 +24657,6 @@
       "stockAfter": 291,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:3📦Tồnkhohiệntại:113💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1794505910780",
-      "time": "00:51 - 13/11/2026",
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 27,
-      "catKey": "meitu",
-      "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:7📦Tồnkhohiệntại:24💰Giá:35.000đ"
     }
   ],
   "vidiq": {
