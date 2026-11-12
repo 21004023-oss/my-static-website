@@ -9224,8 +9224,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 115000,
-        "stock": 55,
-        "stock_text": "Còn 55",
+        "stock": 56,
+        "stock_text": "Còn 56",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -9236,10 +9236,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 53,
+            "stock": 54,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "16:27 12/11/2026"
+            "updated": "23:17 12/11/2026"
           }
         },
         "hidden": false,
@@ -9248,7 +9248,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 53
+          "stock": 54
         }
       },
       {
@@ -23443,6 +23443,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794500239880",
+      "time": "23:17 - 12/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 56,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:7📦Tồnkhohiệntại:54💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1794500198478",
       "time": "23:16 - 12/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -24530,17 +24541,6 @@
       "stockAfter": 35,
       "catKey": "cursor",
       "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)💰Giá:140k📦Tồnkho:7tàikhoản📊Đãbán:1.057tàikhoản💎M"
-    },
-    {
-      "id": "hist-1794483213035",
-      "time": "18:33 - 12/11/2026",
-      "name": "Grok + Cursor Premium 14 ngày (BH 24h)",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 35,
-      "catKey": "cursor",
-      "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)➕Thêm:7📦Tồnkhohiệntại:7💰Giá:140.000đ"
     }
   ],
   "vidiq": {
