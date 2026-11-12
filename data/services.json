@@ -10533,22 +10533,22 @@
         "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
         "price": 260000,
         "cost_price": 230000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "TẤT CẢ ĐỀU ĐĂNG NHẬP BẰNG EMAIL NHÉ\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 5,
+            "stock": 2,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "06:29 12/11/2026"
+            "updated": "04:11 13/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 230000,
-          "stock": 5
+          "stock": 2
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -23501,6 +23501,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794517907592",
+      "time": "04:11 - 13/11/2026",
+      "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 2,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1100-1300Credits1thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1794517714742",
       "time": "04:08 - 13/11/2026",
       "name": "Capcut Pro Cá Nhân 1 Tháng BHF",
@@ -24588,17 +24599,6 @@
       "stockAfter": 122,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân1ThángBHF➕Thêm:4📦Tồnkhohiệntại:82💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1794500740048",
-      "time": "23:25 - 12/11/2026",
-      "name": "API DEEPSEEK 10$ 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 49000,
-      "costPrice": 39000,
-      "stockAfter": 383,
-      "catKey": "deepseek",
-      "msgKey": "⭐APIDEEPSEEK10$1THÁNGBHF💰Giá:39k📦Tồnkho:126tàikhoản📊Đãbán:219tàikhoản💎Môtả:APIDe"
     }
   ],
   "vidiq": {
