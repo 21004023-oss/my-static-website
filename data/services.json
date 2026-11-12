@@ -9224,8 +9224,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 115000,
-        "stock": 56,
-        "stock_text": "Còn 56",
+        "stock": 43,
+        "stock_text": "Còn 43",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -9236,10 +9236,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 54,
+            "stock": 41,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "23:17 12/11/2026"
+            "updated": "06:29 13/11/2026"
           }
         },
         "hidden": false,
@@ -9248,7 +9248,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 54
+          "stock": 41
         }
       },
       {
@@ -23559,6 +23559,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794526181696",
+      "time": "06:29 - 13/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 43,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:14📦Tồnkhohiệntại:41💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1794526149367",
       "time": "06:29 - 13/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -24646,17 +24657,6 @@
       "stockAfter": 174,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:50📦Tồnkhohiệntại:126💰Giá:220.000đ"
-    },
-    {
-      "id": "hist-1794506671474",
-      "time": "01:04 - 13/11/2026",
-      "name": "ZOOM PRO 28 NGÀY BẢO HÀNH FULL",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 11,
-      "catKey": "zoom",
-      "msgKey": "⭐ZOOMPRO28NGÀYBẢOHÀNHFULL➕Thêm:3📦Tồnkhohiệntại:7💰Giá:45.000đ"
     }
   ],
   "vidiq": {
