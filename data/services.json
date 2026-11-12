@@ -8687,22 +8687,22 @@
         "name": "Grok + Cursor Premium 14 ngày KBH",
         "price": 167000,
         "cost_price": 133000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nLogin check gói hết bảo hành\nKhách có 1h login check gói và báo lại nếu mất gói để được BH nếu báo muộn sẽ không bảo hành\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 12,
+            "stock": 0,
             "cost_price": 133000,
             "selling_price": 153000,
-            "updated": "16:27 12/11/2026"
+            "updated": "21:57 12/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 133000,
-          "stock": 12
+          "stock": 0
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -23292,6 +23292,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794495451032",
+      "time": "21:57 - 12/11/2026",
+      "name": "Grok + Cursor Premium 14 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 153000,
+      "costPrice": 133000,
+      "stockAfter": 0,
+      "catKey": "cursor",
+      "msgKey": "⚡Grok+CursorPremium14ngàyKBH➕Thêm:1📦Tồnkhohiệntại:0💰Giá:133.000đ"
+    },
+    {
       "id": "hist-1794495444670",
       "time": "21:57 - 12/11/2026",
       "name": "GROK SUPER 15X 1 THÁNG (BH 2D)",
@@ -24379,17 +24390,6 @@
       "stockAfter": 32,
       "catKey": "chatgpt",
       "msgKey": "🤖👑VIP·ChatGPTPlusApplePay1ThángBHF➕Thêm:32📦Tồnkhohiệntại:32💰Giá:145.000đ"
-    },
-    {
-      "id": "hist-1794474424200",
-      "time": "16:07 - 12/11/2026",
-      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 259,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:68📦Tồnkhohiệntại:259💰Giá:110.000đ"
     }
   ],
   "vidiq": {
