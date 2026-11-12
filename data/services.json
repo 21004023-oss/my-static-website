@@ -9119,8 +9119,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 115000,
-        "stock": 39,
-        "stock_text": "Còn 39",
+        "stock": 55,
+        "stock_text": "Còn 55",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -9131,10 +9131,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 37,
+            "stock": 53,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "03:42 12/11/2026"
+            "updated": "16:27 12/11/2026"
           }
         },
         "hidden": false,
@@ -9143,7 +9143,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 37
+          "stock": 53
         }
       },
       {
@@ -23170,6 +23170,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794475635063",
+      "time": "16:27 - 12/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 55,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:16📦Tồnkhohiệntại:53💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1794475600297",
       "time": "16:26 - 12/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -24257,17 +24268,6 @@
       "stockAfter": 50,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:4📦Tồnkhohiệntại:15💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1794458246505",
-      "time": "11:37 - 12/11/2026",
-      "name": "Heygen Creator 1 Tháng BH 3 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 430000,
-      "costPrice": 380000,
-      "stockAfter": 7,
-      "catKey": "heygen",
-      "msgKey": "🎥HeygenCreator1ThángBH3Ngày💰Giá:380k📦Tồnkho:2tàikhoản📊Đãbán:16tàikhoản✏️Vuilòngn"
     }
   ],
   "vidiq": {
