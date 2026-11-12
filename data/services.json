@@ -693,16 +693,16 @@
         "name": "Youku Vip 30 ngày BHF",
         "price": 60000,
         "cost_price": 25000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 7,
+        "stock_text": "Còn 7",
         "duration": "1 Tháng",
         "detail": "Tài khoản youku vip dùng 1 thiết bị (1 slot)\nKhách hàng được đăng nhập tối đa 2 thiết bị, và xem 1 thiết bị đồng thời\nBảo hành toàn thời gian đăng ký\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 3,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "16:19 07/11/2026"
+            "updated": "22:46 12/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 2,
@@ -720,7 +720,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 25000,
-          "stock": 2
+          "stock": 3
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -23391,6 +23391,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794498396276",
+      "time": "22:46 - 12/11/2026",
+      "name": "Youku Vip 30 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 7,
+      "catKey": "youku",
+      "msgKey": "⭐YoukuVip30ngàyBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1794498297512",
       "time": "22:44 - 12/11/2026",
       "name": "Dreamina 4k5 credit 1 th bh 2d",
@@ -24478,17 +24489,6 @@
       "stockAfter": 132,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân1ThángBHF➕Thêm:13📦Tồnkhohiệntại:92💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1794477784610",
-      "time": "17:03 - 12/11/2026",
-      "name": "Capcut Pro Team 6 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 390000,
-      "costPrice": 340000,
-      "stockAfter": 2,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProTeam6ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:340.000đ"
     }
   ],
   "vidiq": {
