@@ -12783,11 +12783,11 @@
         "id": "p-1793184995614",
         "name": "Muse AI 31B Token KBH",
         "price": 90000,
-        "cost_price": 55000,
-        "stock": 50,
-        "stock_text": "Còn 50",
+        "cost_price": 19800,
+        "stock": 166,
+        "stock_text": "Còn 166",
         "duration": "1 Tháng",
-        "detail": "mail | pass | 2fa  ( 2fa.live ) | Link get code\nLogin check gói hết BH\nTài khoản bảo hành Login check gói trong vòng 1H\n✏️",
+        "detail": "Muse AI 31 Billion tokens - Ready to use accounts\n- WARRANTY: This product has no warranty at all. It's very very cheap - buy at your own risk.\n- Format: Email | Link to read mailbox\n- Log into muse.ai using the provided email!\nƯu đãi theo số lượng:\n• Mua từ 30 sản phẩm: 17.820đ/1 (giảm 10%)\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–116):",
         "sources": {
           "piggyai99_bot": {
             "stock": 30,
@@ -12800,14 +12800,20 @@
             "cost_price": 70000,
             "selling_price": 80000,
             "updated": "12:13 10/11/2026"
+          },
+          "khommo_market_bot": {
+            "stock": 116,
+            "cost_price": 19800,
+            "selling_price": 29800,
+            "updated": "13:39 12/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 55000,
-          "stock": 30
+          "bot": "@khommo_market_bot",
+          "cost_price": 19800,
+          "stock": 116
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -23086,6 +23092,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794465595009",
+      "time": "13:39 - 12/11/2026",
+      "name": "MUSE AI 31B TOKEN - KBH",
+      "bot": "khommo_market_bot",
+      "price": 29800,
+      "costPrice": 19800,
+      "stockAfter": 166,
+      "catKey": "muse-ai",
+      "msgKey": "🛍️MUSEAI31BTOKEN-KBH💲Giá:19.800VND💚Tồnkho:116tàikhoản📊Đãbán:327tàikhoản💧Môtả:Mus"
+    },
+    {
       "id": "hist-1794465451177",
       "time": "13:37 - 12/11/2026",
       "name": "Express VPN Random 2-3 Ngày BHF",
@@ -24173,17 +24190,6 @@
       "stockAfter": 119,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân1ThángBHF➕Thêm:11📦Tồnkhohiệntại:79💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1794434087255",
-      "time": "04:54 - 12/11/2026",
-      "name": "Kling Pro 3K-4K Credits 1 tháng BH 7 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 770000,
-      "costPrice": 670000,
-      "stockAfter": 3,
-      "catKey": "kling",
-      "msgKey": "🎬KlingPro3K-4KCredits1thángBH7ngày➕Thêm:5📦Tồnkhohiệntại:3💰Giá:670.000đ"
     }
   ],
   "vidiq": {
