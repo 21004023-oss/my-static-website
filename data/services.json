@@ -9377,8 +9377,8 @@
         "name": "Grok Super 1 ngày KBH",
         "price": 140000,
         "cost_price": 110000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 17,
+        "stock_text": "Còn 17",
         "duration": "1 Ngày",
         "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua\n✏️",
         "sources": {
@@ -9389,16 +9389,16 @@
             "updated": "13:08 02/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 11,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "15:32 12/11/2026"
+            "updated": "16:29 12/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 110000,
-          "stock": 2
+          "stock": 11
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -23170,6 +23170,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794475766497",
+      "time": "16:29 - 12/11/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 17,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:9📦Tồnkhohiệntại:11💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1794475676127",
       "time": "16:27 - 12/11/2026",
       "name": "Grok + Cursor Premium 14 ngày KBH",
@@ -24257,17 +24268,6 @@
       "stockAfter": 9,
       "catKey": "heygen",
       "msgKey": "🎥HeygenCreator1thBH3D➕Thêm:1📦Tồnkhohiệntại:2💰Giá:410.000đ"
-    },
-    {
-      "id": "hist-1794458274905",
-      "time": "11:37 - 12/11/2026",
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 15,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN3NgàyBHF💰Giá:15k📦Tồnkho:7tàikhoản📊Đãbán:962tàikhoản💎Môtả:Hỗtrợđiệntho"
     }
   ],
   "vidiq": {
