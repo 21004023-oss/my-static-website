@@ -23412,10 +23412,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794499987775",
+        "name": "Model Trung Quốc 50M Tokens 2 Ngày",
+        "price": 70000,
+        "cost_price": 60000,
+        "stock": 11,
+        "stock_text": "Còn 11",
+        "duration": "1 Tháng",
+        "detail": "- Model dùng được: kimi-k3, qwen3.8-max, hy3, deepseek-v4-pro, deepseek-v4-flash, glm-5.3-flash\n- Base URL: https://api.miraiapi.com/v1\n- Hướng Dẫn : https://miraiapi.com/usage\n- Khách hàng đọc hướng dẫn tự setup\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 11,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "23:13 12/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 60000,
+          "stock": 11
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1794499987775",
+      "time": "23:13 - 12/11/2026",
+      "name": "Model Trung Quốc 50M Tokens 2 Ngày",
+      "bot": "taphoathomap_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 11,
+      "catKey": "khac",
+      "msgKey": "⭐ModelTrungQuốc50MTokens2Ngày💰Giá:60k📦Tồnkho:11tàikhoản📊Đãbán:9tàikhoản💎Môtả:-Mo"
+    },
     {
       "id": "hist-1794499202689",
       "time": "23:00 - 12/11/2026",
@@ -24504,17 +24541,6 @@
       "stockAfter": 138,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân1ThángBHF➕Thêm:6📦Tồnkhohiệntại:98💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1794481715048",
-      "time": "18:08 - 12/11/2026",
-      "name": "Gmail Ngâm 6T Có Trial YTB",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 129,
-      "catKey": "youtube",
-      "msgKey": "📧GmailNgâm6TCóTrialYTB➕Thêm:132📦Tồnkhohiệntại:129💰Giá:30.000đ"
     }
   ],
   "vidiq": {
