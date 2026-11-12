@@ -5765,6 +5765,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794488169713",
+        "name": "ChatGPT PRO 200 - 1 tháng BH 1 Ngày",
+        "price": 2650000,
+        "cost_price": 2300000,
+        "stock": 116,
+        "stock_text": "Còn 116",
+        "duration": "1 Tháng",
+        "detail": "⚠️ THÔNG BÁO QUAN TRỌNG – ĐỌC KỸ TRƯỚC KHI MUA!\n📦 Hàng Order: Không có sẵn, thời gian trả đơn trong vòng 24 giờ.\n💰 Hoàn tiền: Nếu Shop không có hàng để giao, khách sẽ được hoàn tiền 100%.\n🚫 Không RF: Đơn hàng đã được xử lý/đặt hàng sẽ không hỗ trợ hoàn tiền hoặc hủy đơn.\n🛡️ Chính sách bảo hành:\n- ✅ Chỉ bảo hành trường hợp tụt gói.\n- ❌ Không bảo hành tài khoản bị DIE/khóa.\n📌 LƯU Ý: Vui lòng cân nhắc kỹ trước khi đặt mua. Khi đặt hàng đồng nghĩa với việc khách đã đọc và đồng ý với chính sách trên.\n🚨 ĐỌC KỸ TRƯỚC KHI MUA – TRÁNH TRANH CHẤP VỀ SAU!\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 116,
+            "cost_price": 2300000,
+            "selling_price": 2650000,
+            "updated": "19:56 12/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 2300000,
+          "stock": 116
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -23214,6 +23240,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794488169713",
+      "time": "19:56 - 12/11/2026",
+      "name": "ChatGPT PRO 200 - 1 tháng BH 1 Ngày",
+      "bot": "taphoathomap_bot",
+      "price": 2650000,
+      "costPrice": 2300000,
+      "stockAfter": 116,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPRO200-1thángBH1Ngày➕Thêm:116📦Tồnkhohiệntại:116💰Giá:2.300.000đ"
+    },
+    {
       "id": "hist-1794487548433",
       "time": "19:45 - 12/11/2026",
       "name": "TiktokVN 1kfl noshop nobuff live Studio",
@@ -24301,17 +24338,6 @@
       "stockAfter": 600,
       "catKey": "claude",
       "msgKey": "🧠VIP3.500MCreditAPIClaude30Ngày-BHF➕Thêm:100📦Tồnkhohiệntại:600💰Giá:499.000đ"
-    },
-    {
-      "id": "hist-1794465944323",
-      "time": "13:45 - 12/11/2026",
-      "name": "API 500M Token Claude 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 660000,
-      "costPrice": 560000,
-      "stockAfter": 600,
-      "catKey": "claude",
-      "msgKey": "🧠API500MTokenClaude1ThángBHF➕Thêm:100📦Tồnkhohiệntại:600💰Giá:560.000đ"
     }
   ],
   "vidiq": {
