@@ -14218,16 +14218,27 @@
         "id": "p-1791921267652",
         "name": "Capcut Pro Team 1 Tháng BHF",
         "price": 70000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
-        "detail": "Sản phẩm add team nên khách hàng vui lòng không change mail để tránh  văng team rớt PRO ( có thể trôi date )",
-        "cost_price": 38800,
+        "detail": "Tài khoản Capcut Pro dạng team hạn sử dụng 28 ngày. • Có thể nhận tới 2000 Credit AI • Định dạng: Email | Pass • Login 1-2 thiết bị hạn chế login nhiều thiết bị. • Bảo hành 28 ngày, không bảo hành lỗi đăng nhập quá thường xuyên. TK tự động gia hạn mỗi tuần lần đến khi đủ 1 tháng.\n✏️",
+        "cost_price": 40000,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 38800
+          "bot": "@piggyai99_bot",
+          "cost_price": 40000,
+          "stock": 12
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @piggyai99_bot",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 12,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "17:55 12/11/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1792024624956",
@@ -23170,6 +23181,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794480935869",
+      "time": "17:55 - 12/11/2026",
+      "name": "CAPCUT PRO TEAM 1 Tháng BHF",
+      "bot": "piggyai99_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 12,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROTEAM1ThángBHF➕Thêm:10📦Tồnkhohiệntại:12💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1794480801937",
       "time": "17:53 - 12/11/2026",
       "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
@@ -24257,17 +24279,6 @@
       "stockAfter": 367,
       "catKey": "gmail",
       "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA💰Giá:36k📦Tồnkho:84tàikhoản📊Đãbán:4.630tàikhoản💎Môtả:-Đ"
-    },
-    {
-      "id": "hist-1794460770389",
-      "time": "12:19 - 12/11/2026",
-      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
-      "bot": "sieuthistore_bot",
-      "price": 46000,
-      "costPrice": 36000,
-      "stockAfter": 367,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:14📦Tồnkhohiệntại:84💰Giá:36.000đ"
     }
   ],
   "vidiq": {
