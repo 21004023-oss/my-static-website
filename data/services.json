@@ -16473,16 +16473,16 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 11,
+        "stock_text": "Còn 11",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 6,
+            "stock": 5,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "23:27 13/11/2026"
+            "updated": "03:40 14/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 6,
@@ -16495,7 +16495,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 6
+          "stock": 5
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24070,6 +24070,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794602456735",
+      "time": "03:40 - 14/11/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 11,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:5💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794602204325",
       "time": "03:36 - 14/11/2026",
       "name": "Wink Vip 30D BHF",
@@ -25157,17 +25168,6 @@
       "stockAfter": 88,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân1ThángBHF➕Thêm:1📦Tồnkhohiệntại:48💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1794586027680",
-      "time": "23:07 - 13/11/2026",
-      "name": "Capcut Pro Cá Nhân 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 87,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân1ThángBHF➕Thêm:7📦Tồnkhohiệntại:47💰Giá:65.000đ"
     }
   ],
   "vidiq": {
