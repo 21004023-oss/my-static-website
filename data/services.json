@@ -9934,22 +9934,22 @@
         "name": "Grok Plus 30 ngày bh 24h",
         "price": 130000,
         "cost_price": 110000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 7,
+        "stock_text": "Còn 7",
         "duration": "1 Tháng",
-        "detail": "Grok Plus 30 ngày bh24h\nMail | Pass Được change mail và pass Không hủy kết nối với X Login check gói hết bảo hành",
+        "detail": "Grok Plus 30 ngày bh24h\nMail | Pass Được change mail và pass Không hủy kết nối với X Login check gói hết bảo hành\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 7,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "04:54 13/11/2026"
+            "updated": "10:19 13/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 110000,
-          "stock": 0
+          "stock": 7
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -23747,6 +23747,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794539977223",
+      "time": "10:19 - 13/11/2026",
+      "name": "Grok Plus 30 ngày bh 24h",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 7,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàybh24h➕Thêm:7📦Tồnkhohiệntại:7💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1794539802678",
       "time": "10:16 - 13/11/2026",
       "name": "Capcut Pro 7 Ngày BHF",
@@ -24834,17 +24845,6 @@
       "stockAfter": 100,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân1ThángBHF➕Thêm:10📦Tồnkhohiệntại:60💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1794517391597",
-      "time": "04:03 - 13/11/2026",
-      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 240000,
-      "costPrice": 210000,
-      "stockAfter": 48,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:5📦Tồnkhohiệntại:13💰Giá:210.000đ"
     }
   ],
   "vidiq": {
