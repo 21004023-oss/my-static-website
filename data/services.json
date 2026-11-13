@@ -8793,16 +8793,16 @@
         "id": "p-1791936211706",
         "name": "API Cursor Pro 2600 Credits 1 tháng BHF",
         "price": 310000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
-        "detail": "Api Cursor Pro 2600 credit hạn sử dụng 1 tháng.\n-Credit: 2600\n-Hạn sử dụng: 1 tháng từ lúc active Key.\n-Bảo hành: 30 ngày.\n-File tài liệu chi tiết về cách sử dụng và setup sản phẩm: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1?usp=drive_link\n-Lưu ý: Sản phẩm là API,không phải tài khoản,không hỗ trợ hoàn trả nếu mua nhầm,không biết sử dụng.",
+        "detail": "Api Cursor Pro 2600 credit hạn sử dụng 1 tháng.\n-Credit: 2600\n-Hạn sử dụng: 1 tháng từ lúc active Key.\n-Bảo hành: 30 ngày.\n-File tài liệu chi tiết về cách sử dụng và setup sản phẩm: https://drive.google.com/drive/folders/1LScY31qYmg3ujYd0EIflbKZ6bDumPBW1?usp=drive_link\n-Lưu ý: Sản phẩm là API,không phải tài khoản,không hỗ trợ hoàn trả nếu mua nhầm,không biết sử dụng.\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 1,
             "cost_price": 204000,
             "selling_price": 234000,
-            "updated": "18:30 19/10/2026"
+            "updated": "21:08 13/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 2,
@@ -8818,13 +8818,14 @@
           }
         },
         "cost_price": 204000,
-        "needs_review": true,
-        "hidden": true,
+        "needs_review": false,
+        "hidden": false,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 410000
+          "bot": "@taphoathomap_bot",
+          "cost_price": 204000,
+          "stock": 1
         },
-        "import_note": "🛒 @sieuthistore_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1792108522126",
@@ -23915,6 +23916,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794578889168",
+      "time": "21:08 - 13/11/2026",
+      "name": "API Cursor Pro 2600 Credits 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 234000,
+      "costPrice": 204000,
+      "stockAfter": 5,
+      "catKey": "cursor",
+      "msgKey": "🖱️APICursorPro2600Credits1thángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:204.000đ"
+    },
+    {
       "id": "hist-1794577960639",
       "time": "20:52 - 13/11/2026",
       "name": "Capcut Pro Cá Nhân 30D  BHF",
@@ -25002,17 +25014,6 @@
       "stockAfter": 18,
       "catKey": "cursor",
       "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)➕Thêm:8📦Tồnkhohiệntại:8💰Giá:139.000đ"
-    },
-    {
-      "id": "hist-1794555441201",
-      "time": "14:37 - 13/11/2026",
-      "name": "Grok + Cursor Premium 14 ngày (BH 24h)",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 10,
-      "catKey": "cursor",
-      "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)➕Thêm:8📦Tồnkhohiệntại:8💰Giá:140.000đ"
     }
   ],
   "vidiq": {
