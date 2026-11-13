@@ -13938,17 +13938,17 @@
         "id": "p-1793176775226",
         "name": "Suno Pro 1TH BH 1 ngày",
         "price": 180000,
-        "cost_price": 140000,
-        "stock": 25,
-        "stock_text": "Còn 25",
+        "cost_price": 130000,
+        "stock": 26,
+        "stock_text": "Còn 26",
         "duration": "1 Tháng",
-        "detail": "Mail - Pass - Mail khôi phục\nhttps://fviainboxes.com/",
+        "detail": "Mail - Pass - Mail khôi phục\nhttps://fviainboxes.com/\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 1,
             "cost_price": 130000,
             "selling_price": 150000,
-            "updated": "16:06 13/11/2026"
+            "updated": "16:31 13/11/2026"
           },
           "piggyai99_bot": {
             "stock": 14,
@@ -13964,11 +13964,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 140000,
-          "stock": 14
+          "bot": "@taphoathomap_bot",
+          "cost_price": 130000,
+          "stock": 1
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -23883,6 +23883,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794562295586",
+      "time": "16:31 - 13/11/2026",
+      "name": "Suno Pro 1 tháng BH 1 Ngày",
+      "bot": "taphoathomap_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 26,
+      "catKey": "suno",
+      "msgKey": "🎵SunoPro1thángBH1Ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1794561889639",
       "time": "16:24 - 13/11/2026",
       "name": "CAPCUT PRO TEAM 1 Tháng BHF",
@@ -24970,17 +24981,6 @@
       "stockAfter": 15,
       "catKey": "khac",
       "msgKey": "⭐PIAVPN7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794543993546",
-      "time": "11:26 - 13/11/2026",
-      "name": "Surfshark VPN One 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 63,
-      "catKey": "surfshark",
-      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF💰Giá:15k📦Tồnkho:27tàikhoản📊Đãbán:1.507tàikhoản💎Môtả:Surf"
     }
   ],
   "vidiq": {
