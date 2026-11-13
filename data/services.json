@@ -10120,8 +10120,8 @@
         "id": "kling-65cre",
         "name": "Kling 65 Cre 1 Tháng BHF",
         "price": 28000,
-        "stock": 338,
-        "stock_text": "Còn 338",
+        "stock": 333,
+        "stock_text": "Còn 333",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
         "detail": "Acc free được tặng credit\n✏️",
@@ -10130,14 +10130,14 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 2000,
-          "stock": 174
+          "stock": 169
         },
         "sources": {
           "taphoathomap_bot": {
-            "stock": 174,
+            "stock": 169,
             "cost_price": 2000,
             "selling_price": 12000,
-            "updated": "21:19 13/11/2026"
+            "updated": "05:33 14/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 164,
@@ -24148,6 +24148,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794609181830",
+      "time": "05:33 - 14/11/2026",
+      "name": "Kling 65 Cre 1th BHF",
+      "bot": "taphoathomap_bot",
+      "price": 12000,
+      "costPrice": 2000,
+      "stockAfter": 333,
+      "catKey": "kling",
+      "msgKey": "🎬Kling65Cre1thBHF➕Thêm:51📦Tồnkhohiệntại:169💰Giá:2.000đ"
+    },
+    {
       "id": "hist-1794609172477",
       "time": "05:32 - 14/11/2026",
       "name": "Kling 65 Credit 1 Tháng BHF",
@@ -25235,17 +25246,6 @@
       "stockAfter": 32,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794590613935",
-      "time": "00:23 - 14/11/2026",
-      "name": "Muse Ai 31B token KBH",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 220,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi31BtokenKBH➕Thêm:57📦Tồnkhohiệntại:85💰Giá:70.000đ"
     }
   ],
   "vidiq": {
