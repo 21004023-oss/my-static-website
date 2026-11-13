@@ -9565,11 +9565,11 @@
         "id": "p-1793580921487",
         "name": "Grok Super 1 ngày KBH",
         "price": 140000,
-        "cost_price": 120000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "cost_price": 110000,
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "1 Ngày",
-        "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua",
+        "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua\n✏️",
         "sources": {
           "piggyai99_bot": {
             "stock": 6,
@@ -9578,18 +9578,18 @@
             "updated": "13:08 02/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 3,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "03:22 13/11/2026"
+            "updated": "07:51 13/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 120000,
-          "stock": 6
+          "bot": "@taphoathomap_bot",
+          "cost_price": 110000,
+          "stock": 3
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -23643,6 +23643,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794531108027",
+      "time": "07:51 - 13/11/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 9,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:3📦Tồnkhohiệntại:3💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1794530471461",
       "time": "07:41 - 13/11/2026",
       "name": "VIP 3.50M Credit API Claude 1 Ngày - BHF",
@@ -24730,17 +24741,6 @@
       "stockAfter": 13,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1794510641896",
-      "time": "02:10 - 13/11/2026",
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 21,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:30.000đ"
     }
   ],
   "vidiq": {
