@@ -23656,22 +23656,22 @@
         "name": "Dreamina 22k900 credit 1 th bh 2d",
         "price": 1400000,
         "cost_price": 1200000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "detail": "Gói Dreamina 22k900 credit 1 th bh 2d bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 1,
             "cost_price": 1200000,
             "selling_price": 1400000,
-            "updated": "12:31 13/11/2026"
+            "updated": "17:28 13/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 1200000,
-          "stock": 0
+          "stock": 1
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -23888,6 +23888,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1794565692714",
+      "time": "17:28 - 13/11/2026",
+      "name": "Dreamina 22k900 credit 1 th bh 2d",
+      "bot": "taphoathomap_bot",
+      "price": 1400000,
+      "costPrice": 1200000,
+      "stockAfter": 1,
+      "catKey": "khac",
+      "msgKey": "⭐Dreamina22k900credit1thbh2d💰Giá:1200k📦Tồnkho:1tàikhoản📊Đãbán:40tàikhoản✏️Vuilòn"
+    },
     {
       "id": "hist-1794565481861",
       "time": "17:24 - 13/11/2026",
@@ -24976,17 +24987,6 @@
       "stockAfter": 29,
       "catKey": "capcut",
       "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:185.000đ"
-    },
-    {
-      "id": "hist-1794547269660",
-      "time": "12:21 - 13/11/2026",
-      "name": "Key Microsoft office 2024 Pro Plus 10 năm BH 1 năm",
-      "bot": "taphoathomap_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 10,
-      "catKey": "microsoft",
-      "msgKey": "⭐KeyMicrosoftoffice2024ProPlus10nămBH1năm➕Thêm:10📦Tồnkhohiệntại:10💰Giá:60.000đ"
     }
   ],
   "vidiq": {
