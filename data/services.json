@@ -6313,16 +6313,16 @@
         "id": "p-1792273003906",
         "name": "VIP 1.API 15M Token Claude 1 Ngày - BHF",
         "price": 45000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 35,
+        "stock_text": "Còn 35",
         "duration": "1 Ngày",
         "detail": "💎 API Claude VIP High Stable — model trích xuất từ Cursor Ultra, dùng cho Claude Code và app hỗ trợ OpenAI/Anthropic.\n⚡ Có Fable tốc độ cao, có opus-5.5 ( nếu hết dùng model khác )\n🤖 Token ước tính: Fable 5M · Opus 5 10M · Sonnet 5 20M · Haiku 4.5 33M\n💠 Hỗ trợ thêm: Kimi K3 · GLM 5.2 · Grok 4.6, quy đổi tương đương Sonnet 5\n🛡️ Độ ổn định cao, không gián đoạn như bản Standard\n⏳ Hạn dùng: 24 giờ từ khi kích hoạt Key\n🔗 Hướng dẫn cài đặt và kích hoạt:\nhttps://daily.bddevlab.buzz/redeem.html\n🔗 Cách khắc phục lỗi :\nhttps://duc-dop-error-guide.pages.dev\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 15,
+            "stock": 35,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "00:25 14/11/2026"
+            "updated": "00:34 14/11/2026"
           }
         },
         "hidden": false,
@@ -6330,7 +6330,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 35000,
-          "stock": 15
+          "stock": 35
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -23986,6 +23986,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794591274993",
+      "time": "00:34 - 14/11/2026",
+      "name": "VIP 1.API 15M Token Claude 1 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 35,
+      "catKey": "claude",
+      "msgKey": "🧠VIP1.API15MTokenClaude1Ngày-BHF➕Thêm:20📦Tồnkhohiệntại:35💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1794590951575",
       "time": "00:29 - 14/11/2026",
       "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
@@ -25073,17 +25084,6 @@
       "stockAfter": 2,
       "catKey": "surfshark",
       "msgKey": "🦈SurfsharkVPNRandom5-7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:12.222đ"
-    },
-    {
-      "id": "hist-1794571832933",
-      "time": "19:10 - 13/11/2026",
-      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 240000,
-      "costPrice": 210000,
-      "stockAfter": 56,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:18📦Tồnkhohiệntại:21💰Giá:210.000đ"
     }
   ],
   "vidiq": {
