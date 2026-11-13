@@ -10720,22 +10720,22 @@
         "name": "Kling 65 Credit 1 Tháng BHF",
         "price": 14000,
         "cost_price": 4000,
-        "stock": 174,
-        "stock_text": "Còn 174",
+        "stock": 169,
+        "stock_text": "Còn 169",
         "duration": "1 Tháng",
         "detail": "Tài Khoản sẽ mất credit sau một thời gian và nên sử dụng ngay\nLưu Ý Quan Trọng:\n❌  Bật tab ẩn danh hoặc Sài Proxy\n❌ Không bảo hành lỗi Busy\nHướng dẩn sử dụng\nĐịnh dạng: TK|MK phân cách bởi dấu \"|\"\n1. Trên máy tính :\nMỗi Profile là một acc Kling ai, làm Song Song nhiều video cùng lúc\n2. Trên điện thoại :\nLogin Tài khoản vào > Sử dụng hết Credit > Tắt bỏ tab đó >",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 174,
+            "stock": 169,
             "cost_price": 4000,
             "selling_price": 14000,
-            "updated": "21:19 13/11/2026"
+            "updated": "05:32 14/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 4000,
-          "stock": 174
+          "stock": 169
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -24148,6 +24148,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794609172477",
+      "time": "05:32 - 14/11/2026",
+      "name": "Kling 65 Credit 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 14000,
+      "costPrice": 4000,
+      "stockAfter": 169,
+      "catKey": "kling",
+      "msgKey": "🎬Kling65Credit1ThángBHF➕Thêm:51📦Tồnkhohiệntại:169💰Giá:4.000đ"
+    },
+    {
       "id": "hist-1794608879572",
       "time": "05:27 - 14/11/2026",
       "name": "Tài khoản VieON VIP 3 Tháng BHF",
@@ -25235,17 +25246,6 @@
       "stockAfter": 220,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi31BtokenKBH➕Thêm:57📦Tồnkhohiệntại:85💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1794590435421",
-      "time": "00:20 - 14/11/2026",
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "taphoathomap_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 16,
-      "catKey": "figma",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:3📦Tồnkhohiệntại:6💰Giá:100.000đ"
     }
   ],
   "vidiq": {
