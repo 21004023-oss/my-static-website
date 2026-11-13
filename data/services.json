@@ -9125,7 +9125,7 @@
         "id": "p-1794594954213",
         "name": "Lovable Lite 12 tháng - BH 2 Tháng",
         "price": 260000,
-        "cost_price": 230000,
+        "cost_price": 180000,
         "stock": 15,
         "stock_text": "Còn 15",
         "duration": "1 Năm",
@@ -9133,14 +9133,14 @@
         "sources": {
           "taphoathomap_bot": {
             "stock": 15,
-            "cost_price": 230000,
-            "selling_price": 260000,
-            "updated": "01:35 14/11/2026"
+            "cost_price": 180000,
+            "selling_price": 200000,
+            "updated": "01:36 14/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 230000,
+          "cost_price": 180000,
           "stock": 15
         },
         "import_note": "Nhập: @taphoathomap_bot",
@@ -24038,6 +24038,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794594965920",
+      "time": "01:36 - 14/11/2026",
+      "name": "Lovable Lite 12 tháng - BH 1 Tháng",
+      "bot": "taphoathomap_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 15,
+      "catKey": "lovable",
+      "msgKey": "⭐LovableLite12tháng-BH1Tháng➕Thêm:15📦Tồnkhohiệntại:15💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1794594954213",
       "time": "01:35 - 14/11/2026",
       "name": "Lovable Lite 12 tháng - BH 2 Tháng",
@@ -25125,17 +25136,6 @@
       "stockAfter": 9,
       "catKey": "meitu",
       "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794579580356",
-      "time": "21:19 - 13/11/2026",
-      "name": "Kling 65 Credit 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 14000,
-      "costPrice": 4000,
-      "stockAfter": 174,
-      "catKey": "kling",
-      "msgKey": "🎬Kling65Credit1ThángBHF➕Thêm:100📦Tồnkhohiệntại:174💰Giá:4.000đ"
     }
   ],
   "vidiq": {
