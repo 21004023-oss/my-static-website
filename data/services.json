@@ -19714,22 +19714,22 @@
         "name": "[CDK] Thuê Số OTP Gmail 30D BHF",
         "price": 25000,
         "cost_price": 15000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "stock": 52,
+        "stock_text": "Còn 52",
         "duration": "1 Tháng",
         "detail": "🎁 HD nhận mã:\n1. Mở dịch vụ cần xác minh đến bước nhập số điện thoại.\n2. Mở link → bấm \"Nhận\" → Copy số điện thoại.\n3. Dán số vào dịch vụ, bấm gửi mã.\n4. Giữ trang mở, mã sẽ tự hiện → Copy và nhập vào dịch vụ.\nMỗi link chỉ nhận 1 mã. Lỡ đóng trang thì mở lại link để xem lại mã.\nLưu ý: số chỉ thuê/dùng 1 lần\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 22,
+            "stock": 52,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "22:53 09/11/2026"
+            "updated": "14:42 13/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 15000,
-          "stock": 22
+          "stock": 52
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -23883,6 +23883,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794555763167",
+      "time": "14:42 - 13/11/2026",
+      "name": "[CDK] Thuê Số OTP Gmail 30D BHF",
+      "bot": "sieuthistore_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 52,
+      "catKey": "gmail",
+      "msgKey": "📧[CDK]ThuêSốOTPGmail30DBHF➕Thêm:50📦Tồnkhohiệntại:52💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794555756524",
       "time": "14:42 - 13/11/2026",
       "name": "[CDK] Thuê Số OTP Gmail 30D BH 24H",
@@ -24970,17 +24981,6 @@
       "stockAfter": 63,
       "catKey": "gmail",
       "msgKey": "📧Gmailrandomnew➕Thêm:4📦Tồnkhohiệntại:26💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1794537150992",
-      "time": "09:32 - 13/11/2026",
-      "name": "Gmail random new",
-      "bot": "piggyai99_bot",
-      "price": 32000,
-      "costPrice": 22000,
-      "stockAfter": 66,
-      "catKey": "gmail",
-      "msgKey": "📧Gmailrandomnew➕Thêm:4📦Tồnkhohiệntại:26💰Giá:22.000đ"
     }
   ],
   "vidiq": {
