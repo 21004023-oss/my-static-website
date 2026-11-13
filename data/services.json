@@ -23546,22 +23546,22 @@
         "name": "Dreamina 22k900 credit 1 th bh 2d",
         "price": 1400000,
         "cost_price": 1200000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Gói Dreamina 22k900 credit 1 th bh 2d bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 7,
+            "stock": 0,
             "cost_price": 1200000,
             "selling_price": 1400000,
-            "updated": "11:25 13/11/2026"
+            "updated": "12:31 13/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 1200000,
-          "stock": 7
+          "stock": 0
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -23778,6 +23778,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1794547893347",
+      "time": "12:31 - 13/11/2026",
+      "name": "Dreamina 22k900 credit 1 th bh 2d",
+      "bot": "taphoathomap_bot",
+      "price": 1400000,
+      "costPrice": 1200000,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "⭐Dreamina22k900credit1thbh2d➕Thêm:2📦Tồnkhohiệntại:0💰Giá:1.200.000đ"
+    },
     {
       "id": "hist-1794547671182",
       "time": "12:27 - 13/11/2026",
@@ -24866,17 +24877,6 @@
       "stockAfter": 72,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:14📦Tồnkhohiệntại:41💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1794525655780",
-      "time": "06:20 - 13/11/2026",
-      "name": "Capcut Pro Cá Nhân 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 93,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân1ThángBHF➕Thêm:3📦Tồnkhohiệntại:53💰Giá:65.000đ"
     }
   ],
   "vidiq": {
