@@ -5843,6 +5843,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794539105301",
+        "name": "VIP 3.1000M Credit API Codex 1 Tháng - BHF",
+        "price": 959000,
+        "cost_price": 859000,
+        "stock": 230,
+        "stock_text": "Còn 230",
+        "duration": "1 Tháng",
+        "detail": "Base URL : https://gpt.teamsoclo.site/v1\nModel : gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 230,
+            "cost_price": 859000,
+            "selling_price": 959000,
+            "updated": "10:05 13/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 859000,
+          "stock": 230
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -23721,6 +23747,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794539105302",
+      "time": "10:05 - 13/11/2026",
+      "name": "VIP 3.1000M Credit API Codex 1 Tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 959000,
+      "costPrice": 859000,
+      "stockAfter": 230,
+      "catKey": "chatgpt",
+      "msgKey": "⭐VIP3.1000MCreditAPICodex1Tháng-BHF➕Thêm:10📦Tồnkhohiệntại:230💰Giá:859.000đ"
+    },
+    {
       "id": "hist-1794538806458",
       "time": "10:00 - 13/11/2026",
       "name": "CAPCUT PRO TEAM 1 Tháng BHF",
@@ -24808,17 +24845,6 @@
       "stockAfter": 14,
       "catKey": "tiktok",
       "msgKey": "🎵TiktokViệtngâmtrên1Năm➕Thêm:11📦Tồnkhohiệntại:7💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1794516068320",
-      "time": "03:41 - 13/11/2026",
-      "name": "GMAIL CỔ DATE 201X- 202X",
-      "bot": "taphoathomap_bot",
-      "price": 49000,
-      "costPrice": 39000,
-      "stockAfter": 69,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILCỔDATE201X-202X➕Thêm:1📦Tồnkhohiệntại:2💰Giá:39.000đ"
     }
   ],
   "vidiq": {
