@@ -9124,10 +9124,10 @@
       {
         "id": "p-1794594954213",
         "name": "Lovable Lite 12 tháng - BH 2 Tháng",
-        "price": 260000,
+        "price": 270000,
         "cost_price": 180000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Năm",
         "detail": "Credit khởi tạo: Nhận ngay 300 credit (tín dụng) dùng một lần để bắt đầu xây dựng dự án.Credit hàng ngày: Cộng thêm 5 credit miễn phí mỗi ngày để duy trì việc chỉnh sửa và phát triển ứng dụng nhỏ.\n✏️",
         "sources": {
@@ -9135,6 +9135,12 @@
             "stock": 15,
             "cost_price": 180000,
             "selling_price": 200000,
+            "updated": "01:36 14/11/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 15,
+            "cost_price": 240000,
+            "selling_price": 270000,
             "updated": "01:36 14/11/2026"
           }
         },
@@ -24038,6 +24044,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794594979003",
+      "time": "01:36 - 14/11/2026",
+      "name": "Lovable Lite 12 tháng - BH 1 Tháng",
+      "bot": "sieuthistore_bot",
+      "price": 270000,
+      "costPrice": 240000,
+      "stockAfter": 30,
+      "catKey": "lovable",
+      "msgKey": "⭐LovableLite12tháng-BH1Tháng➕Thêm:15📦Tồnkhohiệntại:15💰Giá:240.000đ"
+    },
+    {
       "id": "hist-1794594965920",
       "time": "01:36 - 14/11/2026",
       "name": "Lovable Lite 12 tháng - BH 1 Tháng",
@@ -25125,17 +25142,6 @@
       "stockAfter": 82,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:40📦Tồnkhohiệntại:39💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1794579889491",
-      "time": "21:24 - 13/11/2026",
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 9,
-      "catKey": "meitu",
-      "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:35.000đ"
     }
   ],
   "vidiq": {
