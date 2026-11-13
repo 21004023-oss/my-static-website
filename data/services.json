@@ -6313,16 +6313,16 @@
         "id": "p-1792273003906",
         "name": "VIP 1.API 15M Token Claude 1 Ngày - BHF",
         "price": 45000,
-        "stock": 21,
-        "stock_text": "Còn 21",
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "1 Ngày",
         "detail": "💎 API Claude VIP High Stable — model trích xuất từ Cursor Ultra, dùng cho Claude Code và app hỗ trợ OpenAI/Anthropic.\n⚡ Có Fable tốc độ cao, có opus-5.5 ( nếu hết dùng model khác )\n🤖 Token ước tính: Fable 5M · Opus 5 10M · Sonnet 5 20M · Haiku 4.5 33M\n💠 Hỗ trợ thêm: Kimi K3 · GLM 5.2 · Grok 4.6, quy đổi tương đương Sonnet 5\n🛡️ Độ ổn định cao, không gián đoạn như bản Standard\n⏳ Hạn dùng: 24 giờ từ khi kích hoạt Key\n🔗 Hướng dẫn cài đặt và kích hoạt:\nhttps://daily.bddevlab.buzz/redeem.html\n🔗 Cách khắc phục lỗi :\nhttps://duc-dop-error-guide.pages.dev\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 21,
+            "stock": 15,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "14:30 07/11/2026"
+            "updated": "00:25 14/11/2026"
           }
         },
         "hidden": false,
@@ -6330,7 +6330,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 35000,
-          "stock": 21
+          "stock": 15
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -23986,6 +23986,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794590717540",
+      "time": "00:25 - 14/11/2026",
+      "name": "VIP 1.API 15M Token Claude 1 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 15,
+      "catKey": "claude",
+      "msgKey": "🧠VIP1.API15MTokenClaude1Ngày-BHF➕Thêm:15📦Tồnkhohiệntại:15💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1794590639077",
       "time": "00:23 - 14/11/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -25073,17 +25084,6 @@
       "stockAfter": 34,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+1ThángBHF➕Thêm:9📦Tồnkhohiệntại:7💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1794570986715",
-      "time": "18:56 - 13/11/2026",
-      "name": "Gmail Cổ Random 2010~2022 -2FA",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 850,
-      "catKey": "gmail",
-      "msgKey": "📧GmailCổRandom2010~2022-2FA➕Thêm:445📦Tồnkhohiệntại:425💰Giá:45.000đ"
     }
   ],
   "vidiq": {
