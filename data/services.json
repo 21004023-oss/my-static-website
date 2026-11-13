@@ -9164,18 +9164,18 @@
         "id": "api-deepseek-100",
         "name": "API DeepSeek $100 1 Tháng BHF",
         "price": 190000,
-        "stock": 286,
-        "stock_text": "Còn 286",
+        "stock": 297,
+        "stock_text": "Còn 297",
         "duration": "1 Tháng",
         "source": "Vibi.top",
-        "detail": "- API DeepSeek V4.1 Flash hạn 1 tháng.\n- Hỗ trợ Claude Opus 5.5, Sonnet 5, GPT-6 Astra/Sol, Qwen 3.8 Flash, tạo ảnh GPT Image 2.5 Flare.\n- Kích hoạt mã đổi thưởng tại vibi.top.",
-        "cost_price": 160000,
+        "detail": "API DeepSeek — nổi bật với DeepSeek V4.1 Flash, cùng nhiều lựa chọn model trong một gói, linh hoạt sử dụng theo nhu cầu!\nHỗ trợ thêm Claude Opus 5.5/5/4.8/4.7/4.6, Opus 4.7 Max/4.6 Max, Sonnet 5/4.6, Fable 5.1/5, Haiku 4.5; GPT-6 Astra/Sol, GPT-5.6 Sol/Terra, GPT-5.5, Codex Auto Review, Qwen 3.8 Flash và GLM 5.3 Flash. Có cả các model tạo ảnh GPT Image 2, GPT Image 2.5 Sunburst và GPT Image 2.5 Flare.\n💰 1$ tương đương khoảng 1–2 triệu token, tùy model và mức tiêu thụ thực tế.\n🔑 Cách kích hoạt:\n1️⃣ Truy cập vibi.top, đăng ký hoặc đăng nhập.\n2️⃣ Nhấn vào ví → nhập mã đổi thưởng.\n3️⃣ Vào mục Khóa API → tạo khóa.\n📖 Hướng dẫn sử dụng: https://vibi.top/docs-setup/vi\n✏️",
+        "cost_price": 159000,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 160000,
-          "stock": 143
+          "bot": "@ntnshopre_bot",
+          "cost_price": 159000,
+          "stock": 11
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @ntnshopre_bot",
         "sources": {
           "piggyai99_bot": {
             "stock": 143,
@@ -9188,6 +9188,12 @@
             "cost_price": 160000,
             "selling_price": 180000,
             "updated": "19:16 04/11/2026"
+          },
+          "ntnshopre_bot": {
+            "stock": 11,
+            "cost_price": 159000,
+            "selling_price": 179000,
+            "updated": "23:56 13/11/2026"
           }
         },
         "hidden": false,
@@ -23974,6 +23980,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794589008850",
+      "time": "23:56 - 13/11/2026",
+      "name": "API DEEPSEEK 100$ 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 179000,
+      "costPrice": 159000,
+      "stockAfter": 297,
+      "catKey": "deepseek",
+      "msgKey": "⭐APIDEEPSEEK100$1THÁNGBHF💰Giá:159k📦Tồnkho:11tàikhoản📊Đãbán:161tàikhoản💎Môtả:APID"
+    },
+    {
       "id": "hist-1794588643800",
       "time": "23:50 - 13/11/2026",
       "name": "Gmail (New) -Login All",
@@ -25061,17 +25078,6 @@
       "stockAfter": 1,
       "catKey": "tiktok",
       "msgKey": "🎵TiktokVN1kflnoshopnobuffliveStudio➕Thêm:1📦Tồnkhohiệntại:1💰Giá:159.000đ"
-    },
-    {
-      "id": "hist-1794568705031",
-      "time": "18:18 - 13/11/2026",
-      "name": "🔥Express VPN 3 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 16,
-      "catKey": "expressvpn",
-      "msgKey": "🚚🔥ExpressVPN3ThángBHF💰Giá:140k📦Tồnkho:8tàikhoản📊Đãbán:17tàikhoản💎Môtả:-Địnhdạng:"
     }
   ],
   "vidiq": {
