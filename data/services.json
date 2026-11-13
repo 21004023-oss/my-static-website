@@ -16725,8 +16725,8 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 40000,
         "cost_price": 15000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "stock": 19,
+        "stock_text": "Còn 19",
         "duration": "3 Ngày",
         "detail": "Hỗ trợ điện thoại iOS, Android, PC\nĐịnh dạng: email|pass|activation key\nWeb mail: https://tinyhost.shop\n✏️",
         "sources": {
@@ -16737,10 +16737,10 @@
             "updated": "01:02 14/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 7,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "10:52 13/11/2026"
+            "updated": "01:03 14/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 5,
@@ -16754,7 +16754,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 10
+          "stock": 7
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -24012,6 +24012,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794593001471",
+      "time": "01:03 - 14/11/2026",
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 19,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794592985785",
       "time": "01:03 - 14/11/2026",
       "name": "Key Office 2024 Pro Plus Vĩnh viễn BH 7 ngày",
@@ -25099,17 +25110,6 @@
       "stockAfter": 204,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusGGpay30DBHF➕Thêm:87📦Tồnkhohiệntại:204💰Giá:170.000đ"
-    },
-    {
-      "id": "hist-1794575359072",
-      "time": "20:09 - 13/11/2026",
-      "name": "Capcut Pro Cá Nhân 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 66,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân1ThángBHF➕Thêm:5📦Tồnkhohiệntại:26💰Giá:65.000đ"
     }
   ],
   "vidiq": {
