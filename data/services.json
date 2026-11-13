@@ -14114,6 +14114,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794580765520",
+        "name": "SUNO PREMIER 1 THÁNG (BH 7 NGÀY)",
+        "price": 510000,
+        "cost_price": 460000,
+        "stock": 56,
+        "stock_text": "Còn 56",
+        "duration": "1 Tháng",
+        "detail": "Gói SUNO PREMIER 1 THÁNG (BH 7 NGÀY) bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 56,
+            "cost_price": 460000,
+            "selling_price": 510000,
+            "updated": "21:39 13/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 460000,
+          "stock": 56
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -23916,6 +23942,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794580765520",
+      "time": "21:39 - 13/11/2026",
+      "name": "SUNO PREMIER 1 THÁNG (BH 7 NGÀY)",
+      "bot": "taphoathomap_bot",
+      "price": 510000,
+      "costPrice": 460000,
+      "stockAfter": 56,
+      "catKey": "suno",
+      "msgKey": "🎵SUNOPREMIER1THÁNG(BH7NGÀY)💰Giá:460k📦Tồnkho:56tàikhoản📊Đãbán:4tàikhoản✏️Vuilòngn"
+    },
+    {
       "id": "hist-1794580501329",
       "time": "21:35 - 13/11/2026",
       "name": "TiktokVN 1kfl noshop nobuff live Studio",
@@ -25003,17 +25040,6 @@
       "stockAfter": 3,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàybh24h➕Thêm:2📦Tồnkhohiệntại:3💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1794557044274",
-      "time": "15:04 - 13/11/2026",
-      "name": "Gmail Hàn Quốc 2009~2023 Có 2FA",
-      "bot": "taphoathomap_bot",
-      "price": 47000,
-      "costPrice": 37000,
-      "stockAfter": 90,
-      "catKey": "gmail",
-      "msgKey": "📧GmailHànQuốc2009~2023Có2FA➕Thêm:21📦Tồnkhohiệntại:45💰Giá:37.000đ"
     }
   ],
   "vidiq": {
