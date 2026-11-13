@@ -16907,13 +16907,13 @@
         "stock": 16,
         "stock_text": "Còn 16",
         "duration": "3 Tháng",
-        "detail": "- Định dạng: Email | Pass\n- Plan: Random Basic, Advanced, Pro\n- Đăng nhập và sử dụng qua App Express VPN\n✏️",
+        "detail": "- Định dạng: Email | Pass\n- Không hỗ trợ OTP, chỉ login trên PC\n- Plan: Random Basic, Advanced, Pro\n- Đăng nhập và sử dụng qua App Express VPN\n✏️",
         "sources": {
           "sieuthistore_bot": {
             "stock": 8,
             "cost_price": 180000,
             "selling_price": 200000,
-            "updated": "01:01 11/11/2026"
+            "updated": "18:18 13/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 8,
@@ -23889,6 +23889,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794568689160",
+      "time": "18:18 - 13/11/2026",
+      "name": "Express VPN 3 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 16,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN3ThángBHF➕Thêm:1📦Tồnkhohiệntại:8💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1794568400499",
       "time": "18:13 - 13/11/2026",
       "name": "Kling Standard 1400 credit 1TH Bh 1 ngày",
@@ -24976,17 +24987,6 @@
       "stockAfter": 333,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:104📦Tồnkhohiệntại:155💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1794548676135",
-      "time": "12:44 - 13/11/2026",
-      "name": "VIP 3.10M Credit API Codex 1 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 49000,
-      "costPrice": 39000,
-      "stockAfter": 508,
-      "catKey": "chatgpt",
-      "msgKey": "⭐VIP3.10MCreditAPICodex1Tháng-BHF➕Thêm:10📦Tồnkhohiệntại:508💰Giá:39.000đ"
     }
   ],
   "vidiq": {
