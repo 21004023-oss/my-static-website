@@ -19366,22 +19366,22 @@
         "name": "[CDK] Thuê Số OTP Gmail 30D BH 24H",
         "price": 20000,
         "cost_price": 10000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "stock": 52,
+        "stock_text": "Còn 52",
         "duration": "1 Tháng",
         "detail": "🎁 HD nhận mã:\n1. Mở dịch vụ cần xác minh đến bước nhập số điện thoại.\n2. Mở link → bấm \"Nhận\" → Copy số điện thoại.\n3. Dán số vào dịch vụ, bấm gửi mã.\n4. Giữ trang mở, mã sẽ tự hiện → Copy và nhập vào dịch vụ.\nMỗi link chỉ nhận 1 mã. Lỡ đóng trang thì mở lại link để xem lại mã.\nLưu ý: số chỉ thuê/dùng 1 lần\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 22,
+            "stock": 52,
             "cost_price": 10000,
             "selling_price": 20000,
-            "updated": "22:53 09/11/2026"
+            "updated": "14:42 13/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 10000,
-          "stock": 22
+          "stock": 52
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -23883,6 +23883,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794555756524",
+      "time": "14:42 - 13/11/2026",
+      "name": "[CDK] Thuê Số OTP Gmail 30D BH 24H",
+      "bot": "piggyai99_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 52,
+      "catKey": "gmail",
+      "msgKey": "📧[CDK]ThuêSốOTPGmail30DBH24H➕Thêm:50📦Tồnkhohiệntại:52💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1794555458975",
       "time": "14:37 - 13/11/2026",
       "name": "Grok + Cursor Premium 14 ngày (BH 24h)",
@@ -24970,17 +24981,6 @@
       "stockAfter": 66,
       "catKey": "gmail",
       "msgKey": "📧Gmailrandomnew➕Thêm:4📦Tồnkhohiệntại:26💰Giá:22.000đ"
-    },
-    {
-      "id": "hist-1794536999252",
-      "time": "09:29 - 13/11/2026",
-      "name": "Grok Super 1 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 9,
-      "catKey": "grok",
-      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:3📦Tồnkhohiệntại:3💰Giá:110.000đ"
     }
   ],
   "vidiq": {
