@@ -245,16 +245,16 @@
         "id": "p-1792094916011",
         "name": "Tài khoản VieON VIP 3 Tháng BHF",
         "price": 140000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "3 Tháng",
         "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
-            "cost_price": 120000,
-            "selling_price": 140000,
-            "updated": "22:29 13/11/2026"
+            "stock": 3,
+            "cost_price": 90000,
+            "selling_price": 100000,
+            "updated": "05:27 14/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 3,
@@ -24148,6 +24148,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794608872930",
+      "time": "05:27 - 14/11/2026",
+      "name": "Tài khoản VieON VIP 3 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 6,
+      "catKey": "vieon",
+      "msgKey": "⭐TàikhoảnVieONVIP3ThángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1794608866276",
       "time": "05:27 - 14/11/2026",
       "name": "Tài khoản VieON VIP 3 tháng bhf",
@@ -25235,17 +25246,6 @@
       "stockAfter": 6,
       "catKey": "figma",
       "msgKey": "⭐FigmaProEducation1nămBHF➕Thêm:3📦Tồnkhohiệntại:6💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1794589214737",
-      "time": "00:00 - 14/11/2026",
-      "name": "GMAIL CỔ DATE 201X- 202X",
-      "bot": "ntnshopre_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 167,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILCỔDATE201X-202X➕Thêm:100📦Tồnkhohiệntại:100💰Giá:30.000đ"
     }
   ],
   "vidiq": {
