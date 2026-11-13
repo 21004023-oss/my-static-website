@@ -10076,8 +10076,8 @@
         "id": "kling-65cre",
         "name": "Kling 65 Cre 1 Tháng BHF",
         "price": 28000,
-        "stock": 533,
-        "stock_text": "Còn 533",
+        "stock": 338,
+        "stock_text": "Còn 338",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
         "detail": "Acc free được tặng credit\n✏️",
@@ -10086,14 +10086,14 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 2000,
-          "stock": 369
+          "stock": 174
         },
         "sources": {
           "taphoathomap_bot": {
-            "stock": 369,
+            "stock": 174,
             "cost_price": 2000,
             "selling_price": 12000,
-            "updated": "08:33 01/11/2026"
+            "updated": "21:19 13/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 164,
@@ -23916,6 +23916,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794579571914",
+      "time": "21:19 - 13/11/2026",
+      "name": "Kling 65 Cre 1th BHF",
+      "bot": "taphoathomap_bot",
+      "price": 12000,
+      "costPrice": 2000,
+      "stockAfter": 338,
+      "catKey": "kling",
+      "msgKey": "🎬Kling65Cre1thBHF➕Thêm:100📦Tồnkhohiệntại:174💰Giá:2.000đ"
+    },
+    {
       "id": "hist-1794578974251",
       "time": "21:09 - 13/11/2026",
       "name": "Capcut Pro Cá Nhân 1 Tháng BHF",
@@ -25003,17 +25014,6 @@
       "stockAfter": 52,
       "catKey": "gmail",
       "msgKey": "📧[CDK]ThuêSốOTPGmail30DBH24H➕Thêm:50📦Tồnkhohiệntại:52💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1794555458975",
-      "time": "14:37 - 13/11/2026",
-      "name": "Grok + Cursor Premium 14 ngày (BH 24h)",
-      "bot": "piggyai99_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 24,
-      "catKey": "cursor",
-      "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)💰Giá:140k📦Tồnkho:8tàikhoản📊Đãbán:1.110tàikhoản💎M"
     }
   ],
   "vidiq": {
