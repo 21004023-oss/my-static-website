@@ -5869,6 +5869,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794552805055",
+        "name": "ChatGPT",
+        "price": 130000,
+        "cost_price": 110000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "Gói ChatGPT bảo hành uy tín.",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 3,
+            "cost_price": 110000,
+            "selling_price": 130000,
+            "updated": "13:53 13/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 110000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -23831,6 +23857,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794552805055",
+      "time": "13:53 - 13/11/2026",
+      "name": "ChatGPT",
+      "bot": "khommo_market_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 3,
+      "catKey": "chatgpt",
+      "msgKey": "📦ChatGPTChatgptPlus1ThángGGPayAccCấp-Bảohành24H💰Giá:110.000VND📦Tồnkhohiệntại:3Ch"
+    },
+    {
       "id": "hist-1794552775870",
       "time": "13:52 - 13/11/2026",
       "name": "Slot Netflix Premium 4K 1 Tháng  BHF",
@@ -24918,17 +24955,6 @@
       "stockAfter": 44,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:42💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1794532192843",
-      "time": "08:09 - 13/11/2026",
-      "name": "Grok Plus 30 ngày BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 73,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:42💰Giá:140.000đ"
     }
   ],
   "vidiq": {
