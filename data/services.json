@@ -23943,10 +23943,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794588471028",
+        "name": "Đã refund vào ví cho đơn ORDERB66T57KI2U.",
+        "price": 10001,
+        "cost_price": 1,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Đã refund vào ví cho đơn ORDERB66T57KI2U. bảo hành uy tín.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 0,
+            "cost_price": 1,
+            "selling_price": 10001,
+            "updated": "23:47 13/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 1,
+          "stock": 0
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1794588471029",
+      "time": "23:47 - 13/11/2026",
+      "name": "Đã refund vào ví cho đơn ORDERB66T57KI2U.",
+      "bot": "ntnshopre_bot",
+      "price": 10001,
+      "costPrice": 1,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "✅ĐãrefundvàovíchođơnORDERB66T57KI2U.🛍️Sảnphẩm:SLOTYOUTUBEPREMIUM12THÁNGBHF👤Tàikh"
+    },
     {
       "id": "hist-1794588293047",
       "time": "23:44 - 13/11/2026",
@@ -25035,17 +25072,6 @@
       "stockAfter": 16,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPN3ThángBHF➕Thêm:1📦Tồnkhohiệntại:8💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1794568400499",
-      "time": "18:13 - 13/11/2026",
-      "name": "Kling Standard 1400 credit 1TH Bh 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 165000,
-      "costPrice": 145000,
-      "stockAfter": 1,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1400credit1THBh1ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:145.000đ"
     }
   ],
   "vidiq": {
