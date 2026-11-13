@@ -248,13 +248,13 @@
         "stock": 2,
         "stock_text": "Còn 2",
         "duration": "3 Tháng",
-        "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời\n✏️",
+        "detail": "Tài khoản đăng nhập 2 thiết bị và xem 1 thiết bị đồng thời\nXem tất cả phim VIP và phim PRO\nKhông đảm bảo sẽ xem được một số kênh truyền hình nước ngoài\nBảo hành toàn thời gian trường hợp không xem được phim, sai mật khẩu, quá thiết bị.\n✏️",
         "sources": {
           "sieuthistore_bot": {
             "stock": 1,
-            "cost_price": 90000,
-            "selling_price": 100000,
-            "updated": "22:20 04/11/2026"
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "22:29 13/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 1,
@@ -23942,6 +23942,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794583797421",
+      "time": "22:29 - 13/11/2026",
+      "name": "Tài khoản VieON VIP Pro 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 2,
+      "catKey": "vieon",
+      "msgKey": "⭐TàikhoảnVieONVIPPro3thángBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1794583721417",
       "time": "22:28 - 13/11/2026",
       "name": "Dreamina US 8k6 credit 7 ngày BH 3D",
@@ -25029,17 +25040,6 @@
       "stockAfter": 46,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatgptGo3thángBH3ngày➕Thêm:5📦Tồnkhohiệntại:46💰Giá:120.000đ"
-    },
-    {
-      "id": "hist-1794560975141",
-      "time": "16:09 - 13/11/2026",
-      "name": "Grok + Cursor Premium 14 ngày (BH 24h)",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 26,
-      "catKey": "cursor",
-      "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)➕Thêm:3📦Tồnkhohiệntại:9💰Giá:140.000đ"
     }
   ],
   "vidiq": {
