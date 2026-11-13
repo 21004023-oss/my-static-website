@@ -5895,6 +5895,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794554065657",
+        "name": "VIP 3.1000M Credit API Codex 7 Ngày - BHF",
+        "price": 629000,
+        "cost_price": 529000,
+        "stock": 250,
+        "stock_text": "Còn 250",
+        "duration": "7 Ngày",
+        "detail": "Base URL : https://gpt.teamsoclo.site/v1\nModel : gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 250,
+            "cost_price": 529000,
+            "selling_price": 629000,
+            "updated": "14:14 13/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 529000,
+          "stock": 250
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -23857,6 +23883,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794554065657",
+      "time": "14:14 - 13/11/2026",
+      "name": "VIP 3.1000M Credit API Codex 7 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 629000,
+      "costPrice": 529000,
+      "stockAfter": 250,
+      "catKey": "chatgpt",
+      "msgKey": "⭐VIP3.1000MCreditAPICodex7Ngày-BHF➕Thêm:10📦Tồnkhohiệntại:250💰Giá:529.000đ"
+    },
+    {
       "id": "hist-1794553513467",
       "time": "14:05 - 13/11/2026",
       "name": "💎 VIP PRO · ChatGPT Plus Apple 1 Tháng BHF",
@@ -24944,17 +24981,6 @@
       "stockAfter": 125,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:25📦Tồnkhohiệntại:28💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1794535561121",
-      "time": "09:06 - 13/11/2026",
-      "name": "Gmail (New) -Login All",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 153,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:25📦Tồnkhohiệntại:28💰Giá:35.000đ"
     }
   ],
   "vidiq": {
