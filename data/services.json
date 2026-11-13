@@ -19824,6 +19824,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794552030373",
+        "name": "Gmail",
+        "price": 37500,
+        "cost_price": 27500,
+        "stock": 102,
+        "stock_text": "Còn 102",
+        "duration": "1 Tháng",
+        "detail": "Gói Gmail bảo hành uy tín.",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 102,
+            "cost_price": 27500,
+            "selling_price": 37500,
+            "updated": "13:40 13/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 27500,
+          "stock": 102
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -23805,6 +23831,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794552030373",
+      "time": "13:40 - 13/11/2026",
+      "name": "Gmail",
+      "bot": "khommo_market_bot",
+      "price": 37500,
+      "costPrice": 27500,
+      "stockAfter": 102,
+      "catKey": "gmail",
+      "msgKey": "📦GmailGmail6tháng(khônglogđượchộpthư)-2FA-BHlogđầu24h💰Giá:27.500VND📦Tồnkhohiệntạ"
+    },
+    {
       "id": "hist-1794551817948",
       "time": "13:36 - 13/11/2026",
       "name": "ChatGPT Plus GGPay Gmail 1 Tháng BH 7 ngày",
@@ -24892,17 +24929,6 @@
       "stockAfter": 124,
       "catKey": "claude",
       "msgKey": "🧠APIClaude30$1thángBHF➕Thêm:100📦Tồnkhohiệntại:124💰Giá:120.000đ"
-    },
-    {
-      "id": "hist-1794531223799",
-      "time": "07:53 - 13/11/2026",
-      "name": "VIP 3.20M Credit API Claude 1 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 562,
-      "catKey": "claude",
-      "msgKey": "🧠VIP3.20MCreditAPIClaude1Ngày-BHF➕Thêm:10📦Tồnkhohiệntại:562💰Giá:45.000đ"
     }
   ],
   "vidiq": {
