@@ -18833,8 +18833,8 @@
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
         "cost_price": 45000,
-        "stock": 56,
-        "stock_text": "Còn 56",
+        "stock": 75,
+        "stock_text": "Còn 75",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.\n✏️",
         "sources": {
@@ -18845,10 +18845,10 @@
             "updated": "07:10 13/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 6,
+            "stock": 25,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "03:29 13/11/2026"
+            "updated": "07:10 13/11/2026"
           },
           "piggyai99_bot": {
             "stock": 25,
@@ -18862,7 +18862,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 45000,
-          "stock": 6
+          "stock": 25
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -23559,6 +23559,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794528641567",
+      "time": "07:10 - 13/11/2026",
+      "name": "Apple ID 2FA Gmail",
+      "bot": "taphoathomap_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 75,
+      "catKey": "gmail",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:21📦Tồnkhohiệntại:25💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1794528629933",
       "time": "07:10 - 13/11/2026",
       "name": "Apple ID 2FA Gmail",
@@ -24646,17 +24657,6 @@
       "stockAfter": 31,
       "catKey": "cursor",
       "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)➕Thêm:3📦Tồnkhohiệntại:8💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1794507434856",
-      "time": "01:17 - 13/11/2026",
-      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
-      "bot": "piggyai99_bot",
-      "price": 43000,
-      "costPrice": 33000,
-      "stockAfter": 444,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA💰Giá:33k📦Tồnkho:120tàikhoản📊Đãbán:4.670tàikhoản💎Môtả:-"
     }
   ],
   "vidiq": {
