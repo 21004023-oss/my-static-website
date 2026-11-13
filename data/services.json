@@ -16403,16 +16403,16 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 9,
+            "stock": 6,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "17:32 12/11/2026"
+            "updated": "23:27 13/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 6,
@@ -16425,7 +16425,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 9
+          "stock": 6
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -23948,6 +23948,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794587249992",
+      "time": "23:27 - 13/11/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 12,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794587243253",
       "time": "23:27 - 13/11/2026",
       "name": "NordVPN 3 Ngày BHF",
@@ -25035,17 +25046,6 @@
       "stockAfter": 11,
       "catKey": "zoom",
       "msgKey": "⭐ZOOMPRO28NGÀYBẢOHÀNHFULL➕Thêm:3📦Tồnkhohiệntại:7💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1794565700090",
-      "time": "17:28 - 13/11/2026",
-      "name": "Dreamina 22k900 credit 1 th bh 2d",
-      "bot": "taphoathomap_bot",
-      "price": 1400000,
-      "costPrice": 1200000,
-      "stockAfter": 1,
-      "catKey": "khac",
-      "msgKey": "⭐Dreamina22k900credit1thbh2d➕Thêm:1📦Tồnkhohiệntại:1💰Giá:1.200.000đ"
     }
   ],
   "vidiq": {
