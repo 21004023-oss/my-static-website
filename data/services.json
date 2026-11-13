@@ -6805,23 +6805,23 @@
         "id": "p-1794529626670",
         "name": "VIP 3.100M Credit API Claude 1 Ngày - BHF",
         "price": 169000,
-        "cost_price": 149000,
-        "stock": 654,
-        "stock_text": "Còn 654",
+        "cost_price": 90000,
+        "stock": 580,
+        "stock_text": "Còn 580",
         "duration": "1 Ngày",
         "detail": "Base URL : https://gpt.teamsoclo.site/\nModel : claude-fable-5, claude-fable-5-1, claude-haiku-4-5, claude-opus-4-6, claude-opus-4-7, claude-opus-4-8, claude-opus-5, claude-opus-5-5, claude-sonnet-4-6, claude-sonnet-5\nHDSD: https://docs.teamsoclo.site/\nVideo Codex Setup: https://tinyurl.com/teamsoclovid\nVideo Claude Setup:\nhttps://tinyurl.com/teamsoclovidclaudesetup\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 654,
-            "cost_price": 149000,
-            "selling_price": 169000,
-            "updated": "07:27 13/11/2026"
+            "stock": 580,
+            "cost_price": 90000,
+            "selling_price": 100000,
+            "updated": "07:41 13/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 149000,
-          "stock": 654
+          "cost_price": 90000,
+          "stock": 580
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -23643,6 +23643,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794530471461",
+      "time": "07:41 - 13/11/2026",
+      "name": "VIP 3.50M Credit API Claude 1 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 580,
+      "catKey": "claude",
+      "msgKey": "🧠VIP3.50MCreditAPIClaude1Ngày-BHF➕Thêm:10📦Tồnkhohiệntại:580💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1794529626670",
       "time": "07:27 - 13/11/2026",
       "name": "VIP 3.100M Credit API Claude 1 Ngày - BHF",
@@ -24730,17 +24741,6 @@
       "stockAfter": 21,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1794510050594",
-      "time": "02:00 - 13/11/2026",
-      "name": "Zoom Pro 14 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 10,
-      "catKey": "zoom",
-      "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:45.000đ"
     }
   ],
   "vidiq": {
