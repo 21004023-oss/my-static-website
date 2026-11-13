@@ -1032,18 +1032,18 @@
         "id": "p-gmail-2010-2016-unified",
         "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
         "price": 56000,
-        "cost_price": 36000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "cost_price": 46000,
+        "stock": 200,
+        "stock_text": "Còn 200",
         "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|mkp|2FA\nKhông nên change gì trong 7 ngày tránh die acc\nBảo hành 24h login hết bảo hành",
+        "detail": "Định dạng username|pass|mkp|2FA\nKhông nên change gì trong 7 ngày tránh die acc\nBảo hành 24h login hết bảo hành\n✏️",
         "hidden": false,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 200,
             "cost_price": 46000,
             "selling_price": 56000,
-            "updated": "03:33 13/11/2026"
+            "updated": "08:42 13/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -1054,11 +1054,11 @@
         },
         "needs_review": false,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 36000,
-          "stock": 0
+          "bot": "@sieuthistore_bot",
+          "cost_price": 46000,
+          "stock": 200
         },
-        "import_note": "Nhập: @taphoathomap_bot"
+        "import_note": "Nhập: @sieuthistore_bot"
       },
       {
         "id": "gmail-new-ytb",
@@ -23669,6 +23669,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794534125468",
+      "time": "08:42 - 13/11/2026",
+      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
+      "bot": "sieuthistore_bot",
+      "price": 56000,
+      "costPrice": 46000,
+      "stockAfter": 200,
+      "catKey": "youtube",
+      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:200📦Tồnkhohiệntại:200💰Giá:46.000đ"
+    },
+    {
       "id": "hist-1794533799941",
       "time": "08:36 - 13/11/2026",
       "name": "Gmail Random ip 2020-2024",
@@ -24756,17 +24767,6 @@
       "stockAfter": 5,
       "catKey": "grok",
       "msgKey": "⚡⚡️GrokPlus7ngày-BH1Ngày➕Thêm:6📦Tồnkhohiệntại:5💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1794513339252",
-      "time": "02:55 - 13/11/2026",
-      "name": "Slot Netflix Premium 4K 1 Tháng  BHF",
-      "bot": "sieuthistore_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 46,
-      "catKey": "netflix",
-      "msgKey": "🎬SlotNetflixPremium4K1ThángBHF➕Thêm:25📦Tồnkhohiệntại:5💰Giá:120.000đ"
     }
   ],
   "vidiq": {
