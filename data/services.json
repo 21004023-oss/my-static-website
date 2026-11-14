@@ -15476,6 +15476,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794626002762",
+        "name": "Capcut Pro 7Day 500 credits",
+        "price": 19800,
+        "cost_price": 9800,
+        "stock": 244,
+        "stock_text": "Còn 244",
+        "duration": "1 Tháng",
+        "detail": "This product has full warranty for the subscription.\n- Duration: 6-7 Days\n- Credit: 500\n- Format: Mail | Password\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–244):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 244,
+            "cost_price": 9800,
+            "selling_price": 19800,
+            "updated": "10:13 14/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 9800,
+          "stock": 244
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -24316,6 +24342,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794626002762",
+      "time": "10:13 - 14/11/2026",
+      "name": "Capcut Pro 7Day 500 credits",
+      "bot": "khommo_market_bot",
+      "price": 19800,
+      "costPrice": 9800,
+      "stockAfter": 244,
+      "catKey": "capcut",
+      "msgKey": "🛍️CapcutPro7Day500credits💲Giá:9.800VND💚Tồnkho:244tàikhoản📊Đãbán:682tàikhoản💧Môtả"
+    },
+    {
       "id": "hist-1794625537572",
       "time": "10:05 - 14/11/2026",
       "name": "Suno Pro 1 tháng BH 1 Ngày",
@@ -25403,17 +25440,6 @@
       "stockAfter": 12,
       "catKey": "capcut",
       "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:155.000đ"
-    },
-    {
-      "id": "hist-1794611825685",
-      "time": "06:17 - 14/11/2026",
-      "name": "CapCut Pro 3 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 205000,
-      "costPrice": 185000,
-      "stockAfter": 28,
-      "catKey": "capcut",
-      "msgKey": "✂️CapCutPro3ThángBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:185.000đ"
     }
   ],
   "vidiq": {
