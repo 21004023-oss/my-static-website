@@ -1106,11 +1106,11 @@
         "id": "p-1793159660770",
         "name": "Gmail Random ip 2010-2016 trial youtube",
         "price": 65000,
-        "cost_price": 55000,
-        "stock": 53,
-        "stock_text": "Còn 53",
+        "cost_price": 45000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|mkp|2FA\nKhông nên change gì trong 7 ngày tránh die acc\nBảo hành 24h login hết bảo hành\n✏️",
+        "detail": "Định dạng username|pass|mkp|2FA\nKhông nên change gì trong 7 ngày tránh die acc\nBảo hành 24h login hết bảo hành",
         "sources": {
           "taphoathomap_bot": {
             "stock": 0,
@@ -1119,18 +1119,18 @@
             "updated": "08:41 02/11/2026"
           },
           "sieuthistore_bot": {
-            "stock": 53,
+            "stock": 0,
             "cost_price": 55000,
             "selling_price": 65000,
-            "updated": "17:13 14/11/2026"
+            "updated": "18:45 14/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 55000,
-          "stock": 53
+          "bot": "@taphoathomap_bot",
+          "cost_price": 45000,
+          "stock": 0
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -24536,6 +24536,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794656730855",
+      "time": "18:45 - 14/11/2026",
+      "name": "Gmail Random ip 2010-2016 trial youtube",
+      "bot": "sieuthistore_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 0,
+      "catKey": "youtube",
+      "msgKey": "📧GmailRandomip2010-2016trialyoutube➕Thêm:1📦Tồnkhohiệntại:0💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1794656608957",
       "time": "18:43 - 14/11/2026",
       "name": "Surfshark VPN  Random 5-7 Ngày BHF",
@@ -25623,17 +25634,6 @@
       "stockAfter": 37,
       "catKey": "cursor",
       "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)➕Thêm:3📦Tồnkhohiệntại:3💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1794635753760",
-      "time": "12:55 - 14/11/2026",
-      "name": "🔥Amazon Prime Video 1 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 3,
-      "catKey": "amazon-prime",
-      "msgKey": "⭐🔥AmazonPrimeVideo1Tháng-BHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:45.000đ"
     }
   ],
   "vidiq": {
