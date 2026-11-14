@@ -9657,8 +9657,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 115000,
-        "stock": 29,
-        "stock_text": "Còn 29",
+        "stock": 24,
+        "stock_text": "Còn 24",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -9669,10 +9669,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 27,
+            "stock": 22,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "11:08 14/11/2026"
+            "updated": "16:45 14/11/2026"
           }
         },
         "hidden": false,
@@ -9681,7 +9681,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 27
+          "stock": 22
         }
       },
       {
@@ -24530,6 +24530,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794649545786",
+      "time": "16:45 - 14/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 24,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:22💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1794649509461",
       "time": "16:45 - 14/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -25617,17 +25628,6 @@
       "stockAfter": 144,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)-LoginAll💰Giá:25k📦Tồnkho:58tàikhoản📊Đãbán:14.499tàikhoản💎Môtả:GMAILNe"
-    },
-    {
-      "id": "hist-1794630017028",
-      "time": "11:20 - 14/11/2026",
-      "name": "Gmail (New) -Login All",
-      "bot": "taphoathomap_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 144,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:58📦Tồnkhohiệntại:58💰Giá:25.000đ"
     }
   ],
   "vidiq": {
