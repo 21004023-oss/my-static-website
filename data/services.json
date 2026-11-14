@@ -20367,6 +20367,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794646136428",
+        "name": "Hotmail/Outlook",
+        "price": 10106,
+        "cost_price": 106,
+        "stock": 10235,
+        "stock_text": "Còn 10235",
+        "duration": "1 Tháng",
+        "detail": "Sản Phẩm Trước Khi Mua  )\n💰 Giá: 106 VND\n📦 Tồn kho hiện tại: 10235\nOutlook.com Phụ Ouath2 [Graph/Imap/Pop3]  Live 12-36 Month Zin 100%  Chỉ Sử Dụng Oauth2  ( Vui Lòng Đọc Mô Tả Sản Phẩm Trước Khi Mua  )\n💰 Giá: 77 VND\n📦 Tồn kho hiện tại: 10166",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 10235,
+            "cost_price": 106,
+            "selling_price": 10106,
+            "updated": "15:48 14/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 106,
+          "stock": 10235
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -24452,6 +24478,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794646136428",
+      "time": "15:48 - 14/11/2026",
+      "name": "Hotmail/Outlook",
+      "bot": "khommo_market_bot",
+      "price": 10106,
+      "costPrice": 106,
+      "stockAfter": 10235,
+      "catKey": "hotmail",
+      "msgKey": "📦Hotmail/OutlookOutlook.comPhụOuath2[Graph/Imap/Pop3]Live12-36MonthZin100%ChỉSửD"
+    },
+    {
       "id": "hist-1794645873548",
       "time": "15:44 - 14/11/2026",
       "name": "Gmail Random ip 2020-2024",
@@ -25539,17 +25576,6 @@
       "stockAfter": 13,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:4💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1794627580529",
-      "time": "10:39 - 14/11/2026",
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 13,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:4💰Giá:30.000đ"
     }
   ],
   "vidiq": {
