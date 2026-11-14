@@ -13095,16 +13095,16 @@
         "id": "p-1792229136900",
         "name": "Muse AI 31 Tỷ Token 1 tháng KBH",
         "price": 190000,
-        "stock": 84,
-        "stock_text": "Còn 84",
+        "stock": 56,
+        "stock_text": "Còn 56",
         "duration": "1 Tháng",
         "detail": "ĐỊNH DẠNG   : Mail | Link lấy OTP\nHƯỚNG DẪN ĐĂNG NHẬP MUSE AI:\n👉 Bước 1: Vào https://muse.ai/ nhập Mail được cấp sau đó bấm Tiếp tục\n👉 Bước 2: Dán Link Lấy OTP đi kèm mỗi tài khoản vào trình duyệt để lấy mã OTP\n👉 Bước 3: Nhập mã OTP vào Muse AI để hoàn tất đăng nhập\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 42,
+            "stock": 14,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "04:53 13/11/2026"
+            "updated": "10:23 14/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 42,
@@ -13118,7 +13118,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 40000,
-          "stock": 42
+          "stock": 14
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "needs_review": false
@@ -24342,6 +24342,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794626599235",
+      "time": "10:23 - 14/11/2026",
+      "name": "Muse Ai 31 tỷ Token KBH",
+      "bot": "sieuthistore_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 56,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAi31tỷTokenKBH➕Thêm:15📦Tồnkhohiệntại:14💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1794626265649",
       "time": "10:17 - 14/11/2026",
       "name": "Meitu SVip+ 7 Ngày BHF",
@@ -25429,17 +25440,6 @@
       "stockAfter": 202,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:89📦Tồnkhohiệntại:202💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1794612266691",
-      "time": "06:24 - 14/11/2026",
-      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 202,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:76📦Tồnkhohiệntại:202💰Giá:110.000đ"
     }
   ],
   "vidiq": {
