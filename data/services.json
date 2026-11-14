@@ -23206,9 +23206,9 @@
         "id": "p-1793498490543",
         "name": "Adguard VPN 7 Ngày BHF",
         "price": 45000,
-        "cost_price": 35000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "cost_price": 15000,
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "7 Ngày",
         "detail": "Tài khoản Adguard VPN 7 Ngày BHF\nĐịnh dạng: Email|Pass|Web otp\n✏️",
         "sources": {
@@ -23217,14 +23217,20 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "updated": "01:59 15/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 10,
+            "cost_price": 15000,
+            "selling_price": 25000,
+            "updated": "02:00 15/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 35000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
           "stock": 10
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -24658,6 +24664,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794682818354",
+      "time": "02:00 - 15/11/2026",
+      "name": "Adguard VPN 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 20,
+      "catKey": "khac",
+      "msgKey": "⭐AdguardVPN7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794682787267",
       "time": "01:59 - 15/11/2026",
       "name": "Adguard VPN 7 Ngày BHF",
@@ -25745,17 +25762,6 @@
       "stockAfter": 40,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+30DBHF➕Thêm:12📦Tồnkhohiệntại:22💰Giá:59.000đ"
-    },
-    {
-      "id": "hist-1794660317654",
-      "time": "19:45 - 14/11/2026",
-      "name": "Meitu Vip+ 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 49,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+1ThángBHF➕Thêm:12📦Tồnkhohiệntại:22💰Giá:70.000đ"
     }
   ],
   "vidiq": {
