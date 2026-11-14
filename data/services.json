@@ -9599,8 +9599,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 115000,
-        "stock": 49,
-        "stock_text": "Còn 49",
+        "stock": 29,
+        "stock_text": "Còn 29",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -9611,10 +9611,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 47,
+            "stock": 27,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "17:33 13/11/2026"
+            "updated": "11:08 14/11/2026"
           }
         },
         "hidden": false,
@@ -9623,7 +9623,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 47
+          "stock": 27
         }
       },
       {
@@ -24342,6 +24342,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794629318745",
+      "time": "11:08 - 14/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 29,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:27💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1794629259486",
       "time": "11:07 - 14/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -25429,17 +25440,6 @@
       "stockAfter": 1104,
       "catKey": "chatgpt",
       "msgKey": "⭐[Astra]API500MTokenCodex5NgàyBHF➕Thêm:10📦Tồnkhohiệntại:508💰Giá:1.650.000đ"
-    },
-    {
-      "id": "hist-1794618433393",
-      "time": "08:07 - 14/11/2026",
-      "name": "API 100M Token Codex 5 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 210000,
-      "costPrice": 190000,
-      "stockAfter": 566,
-      "catKey": "chatgpt",
-      "msgKey": "⭐API100MTokenCodex5NgàyBHF➕Thêm:10📦Tồnkhohiệntại:566💰Giá:190.000đ"
     }
   ],
   "vidiq": {
