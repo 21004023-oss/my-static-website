@@ -10173,16 +10173,16 @@
         "name": "Grok Plus 7 ngày BH 5 ngày",
         "price": 95000,
         "cost_price": 80000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 19,
+        "stock_text": "Còn 19",
         "duration": "7 Ngày",
         "detail": "Mail | Pass\nKhông đổi mail pass trong quá trình dùng\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 1,
-            "cost_price": 85000,
-            "selling_price": 95000,
-            "updated": "03:15 13/11/2026"
+            "stock": 5,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "17:35 14/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 14,
@@ -10192,11 +10192,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
+          "bot": "@piggyai99_bot",
           "cost_price": 80000,
-          "stock": 14
+          "stock": 5
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -24536,6 +24536,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794652504708",
+      "time": "17:35 - 14/11/2026",
+      "name": "Grok Plus 7 ngày BH 5 ngày",
+      "bot": "piggyai99_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 19,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:1📦Tồnkhohiệntại:5💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1794652131552",
       "time": "17:28 - 14/11/2026",
       "name": "⚡️ Grok Plus 7 ngày -  BH 1 Ngày",
@@ -25623,17 +25634,6 @@
       "stockAfter": 14,
       "catKey": "nordvpn",
       "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:9💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1794632232026",
-      "time": "11:57 - 14/11/2026",
-      "name": "Express VPN 10 thiết bị 3 ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 10,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN10thiếtbị3ngàyBHF💰Giá:15k📦Tồnkho:5tàikhoản📊Đãbán:158tàikhoản💎Môtả:Địn"
     }
   ],
   "vidiq": {
