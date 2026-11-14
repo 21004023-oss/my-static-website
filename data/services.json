@@ -10360,17 +10360,17 @@
         "id": "p-1794680967471",
         "name": "Grok API 200M Credit 1 tháng BHF",
         "price": 420000,
-        "cost_price": 40000,
-        "stock": 973,
-        "stock_text": "Còn 973",
+        "cost_price": 110000,
+        "stock": 1013,
+        "stock_text": "Còn 1013",
         "duration": "1 Tháng",
         "detail": "Base URL : https://gpt.teamsoclo.site/v1\nModel : grok-4.5, grok-4.6, grok-4.7\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 300,
-            "cost_price": 40000,
-            "selling_price": 50000,
-            "updated": "01:40 15/11/2026"
+            "stock": 340,
+            "cost_price": 159000,
+            "selling_price": 179000,
+            "updated": "01:45 15/11/2026"
           },
           "piggyai99_bot": {
             "stock": 333,
@@ -10386,11 +10386,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 40000,
-          "stock": 300
+          "bot": "@piggyai99_bot",
+          "cost_price": 110000,
+          "stock": 333
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -24626,6 +24626,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794681950256",
+      "time": "01:45 - 15/11/2026",
+      "name": "Grok API 100M Credit 5 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 179000,
+      "costPrice": 159000,
+      "stockAfter": 1013,
+      "catKey": "grok",
+      "msgKey": "⚡GrokAPI100MCredit5ngàyBHF➕Thêm:300📦Tồnkhohiệntại:340💰Giá:159.000đ"
+    },
+    {
       "id": "hist-1794681943714",
       "time": "01:45 - 15/11/2026",
       "name": "Grok API 100M Credit 5 ngày BHF",
@@ -25713,17 +25724,6 @@
       "stockAfter": 389,
       "catKey": "youtube",
       "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:255📦Tồnkhohiệntại:389💰Giá:46.000đ"
-    },
-    {
-      "id": "hist-1794658500564",
-      "time": "19:15 - 14/11/2026",
-      "name": "PERPLEXITY PRO HSD 31/8/2027 - 1 năm BHF",
-      "bot": "taphoathomap_bot",
-      "price": 1500000,
-      "costPrice": 1300000,
-      "stockAfter": 37,
-      "catKey": "khac",
-      "msgKey": "❓PERPLEXITYPROHSD31/8/2027-1nămBHF➕Thêm:37📦Tồnkhohiệntại:37💰Giá:1.300.000đ"
     }
   ],
   "vidiq": {
