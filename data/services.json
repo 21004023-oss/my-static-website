@@ -21595,6 +21595,32 @@
           "bot": "@ntnshopre_bot",
           "cost_price": 2000
         }
+      },
+      {
+        "id": "p-1794636996991",
+        "name": "Bot bán hàng tự động telegram - 1 năm BHF ( Bot USDT )",
+        "price": 5600000,
+        "cost_price": 5000000,
+        "stock": 53,
+        "stock_text": "Còn 53",
+        "duration": "1 Năm",
+        "detail": "🌍 **CƠ HỘI KINH DOANH ONLINE – XÂY DỰNG HỆ THỐNG BÁN HÀNG CỦA RIÊNG BẠN!**\n🚀 **TÍCH HỢP TOÀN BỘ SẢN PHẨM CỦA SHOP**\n- Sở hữu nguồn hàng đa dạng, sẵn sàng kinh doanh.\n- Không mất thời gian tìm kiếm và xây dựng nguồn cung.\n- Dễ dàng mở rộng danh mục, tiếp cận nhiều khách hàng.\n- Chủ động bán hàng, phát triển thương hiệu và gia tăng lợi nhuận.\n💎 **ĐẦU TƯ MỘT LẦN – KINH DOANH CẢ NĂM**\n- ✅ Bảo hành trọn 12 tháng.\n- ✅ Không phát sinh chi phí duy trì trong 1 năm.\n- ✅ Tận dụng toàn bộ hệ sinh thái sản phẩm của Shop.\n- ✅ Tiết kiệm thời gian, tối ưu chi phí, mở rộng cơ hội kinh doanh.\n🌐 **ĐIỀU KIỆN:** Chỉ dành cho khách hàng quốc tế, có địa chỉ ngoài Việt Nam.\n⚠️ **CHÍNH SÁCH QUAN TRỌNG**\n- Không hoàn tiền sau khi mua vì bất kỳ lý do gì, trừ trường hợp pháp luật có quy định khác.\n- Vui lòng đọc kỹ thông tin, điều kiện sử dụng và chính sách bảo hành trước khi thanh toán.\n- Hoàn tất thanh toán đồng nghĩa với việc khách hàng xác nhận đã đọc và đồng ý với các điều khoản được công bố.\n🔥 **Một hệ thống – Hàng loạt sản phẩm – Nhiều cơ hội tạo doanh thu!**\n💰 Thay vì bắt đầu từ con số 0, hãy tận dụng nguồn sản phẩm sẵn có để xây dựng công việc kinh doanh của riêng bạn!\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 53,
+            "cost_price": 5000000,
+            "selling_price": 5600000,
+            "updated": "13:16 14/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 5000000,
+          "stock": 53
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -24368,6 +24394,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794636996991",
+      "time": "13:16 - 14/11/2026",
+      "name": "Bot bán hàng tự động telegram - 1 năm BHF ( Bot USDT )",
+      "bot": "taphoathomap_bot",
+      "price": 5600000,
+      "costPrice": 5000000,
+      "stockAfter": 53,
+      "catKey": "bot-tele",
+      "msgKey": "💬Botbánhàngtựđộngtelegram-1nămBHF(BotUSDT)➕Thêm:53📦Tồnkhohiệntại:53💰Giá:5.000.00"
+    },
+    {
       "id": "hist-1794636874542",
       "time": "13:14 - 14/11/2026",
       "name": "Kling Standard 800 credit 1TH Bh 1 ngày",
@@ -25455,17 +25492,6 @@
       "stockAfter": 10,
       "catKey": "tiktok",
       "msgKey": "🎵TiktokViệtngâmtrên1Năm➕Thêm:4📦Tồnkhohiệntại:5💰Giá:85.000đ"
-    },
-    {
-      "id": "hist-1794621119611",
-      "time": "08:51 - 14/11/2026",
-      "name": "Tiktok Việt ngâm trên 1 Năm",
-      "bot": "taphoathomap_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 10,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokViệtngâmtrên1Năm➕Thêm:4📦Tồnkhohiệntại:5💰Giá:60.000đ"
     }
   ],
   "vidiq": {
