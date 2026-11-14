@@ -18823,18 +18823,18 @@
         "id": "p-1791873309021",
         "name": "Gmail Random ip 2020-2024",
         "price": 55000,
-        "stock": 223,
-        "stock_text": "Còn 223",
+        "stock": 221,
+        "stock_text": "Còn 221",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành\n✏️",
         "price_verified": true,
         "cost_price": 35000,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 123,
+            "stock": 121,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "19:26 14/11/2026"
+            "updated": "20:17 14/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 100,
@@ -18848,7 +18848,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 35000,
-          "stock": 123
+          "stock": 121
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -24536,6 +24536,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794662233034",
+      "time": "20:17 - 14/11/2026",
+      "name": "Gmail Random ip 2020-2024",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 221,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandomip2020-2024➕Thêm:10📦Tồnkhohiệntại:121💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1794661958630",
       "time": "20:12 - 14/11/2026",
       "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
@@ -25623,17 +25634,6 @@
       "stockAfter": 53,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:5📦Tồnkhohiệntại:18💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1794639271148",
-      "time": "13:54 - 14/11/2026",
-      "name": "Grok Plus 7 ngày BH 5  ngày",
-      "bot": "taphoathomap_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 15,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:1📦Tồnkhohiệntại:14💰Giá:80.000đ"
     }
   ],
   "vidiq": {
