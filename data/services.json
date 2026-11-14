@@ -4322,23 +4322,23 @@
         "id": "p-1793337892256",
         "name": "API 200M Token Codex 1 Ngày BHF",
         "price": 210000,
-        "cost_price": 80000,
-        "stock": 509,
-        "stock_text": "Còn 509",
+        "cost_price": 50000,
+        "stock": 508,
+        "stock_text": "Còn 508",
         "duration": "1 Ngày",
         "detail": "Base URL : https://gpt.teamsoclo.site/v1\nModel : gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 509,
-            "cost_price": 80000,
-            "selling_price": 90000,
-            "updated": "08:39 14/11/2026"
+            "stock": 508,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "08:42 14/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
-          "cost_price": 80000,
-          "stock": 509
+          "cost_price": 50000,
+          "stock": 508
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -24258,6 +24258,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794620550517",
+      "time": "08:42 - 14/11/2026",
+      "name": "API 20M Token Codex 1 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 508,
+      "catKey": "chatgpt",
+      "msgKey": "⭐API20MTokenCodex1NgàyBHF➕Thêm:10📦Tồnkhohiệntại:508💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1794620399323",
       "time": "08:39 - 14/11/2026",
       "name": "VIP 3.50M Credit API Codex 1 Ngày - BHF",
@@ -25345,17 +25356,6 @@
       "stockAfter": 25,
       "catKey": "suno",
       "msgKey": "🎵SunoPro1thángBH1Ngày➕Thêm:1📦Tồnkhohiệntại:0💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1794604467586",
-      "time": "04:14 - 14/11/2026",
-      "name": "Gmail Hàn Quốc 2009~2023 Có 2FA",
-      "bot": "sieuthistore_bot",
-      "price": 57000,
-      "costPrice": 47000,
-      "stockAfter": 643,
-      "catKey": "gmail",
-      "msgKey": "📧GmailHànQuốc2009~2023Có2FA💰Giá:47k📦Tồnkho:88tàikhoản📊Đãbán:2.551tàikhoản💎Môtả:Đ"
     }
   ],
   "vidiq": {
