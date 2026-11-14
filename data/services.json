@@ -23407,8 +23407,8 @@
         "name": "Galaxy Play Cao Cấp 30 ngày BHF",
         "price": 55000,
         "cost_price": 25000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
         "detail": "Slot galaxy play cao cấp\nĐăng nhập 2 thiết bị xem 1 thiết bị đồng thời\nXem tất cả trừ phim thuê và anime\nBảo hành toàn thời gian\n✏️",
         "sources": {
@@ -23419,16 +23419,16 @@
             "updated": "06:57 15/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 3,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "10:17 08/11/2026"
+            "updated": "06:57 15/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 25000,
-          "stock": 4
+          "stock": 3
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24690,6 +24690,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794700654394",
+      "time": "06:57 - 15/11/2026",
+      "name": "Galaxy Play Cao Cấp 30 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 6,
+      "catKey": "khac",
+      "msgKey": "⭐GalaxyPlayCaoCấp30ngàyBHF➕Thêm:4📦Tồnkhohiệntại:3💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1794700646485",
       "time": "06:57 - 15/11/2026",
       "name": "Galaxy Play Cao Cấp 30 ngày BHF",
@@ -25777,17 +25788,6 @@
       "stockAfter": 17,
       "catKey": "elevenlabs",
       "msgKey": "🎙️ElevenLabsRedeem100KCreditBHF➕Thêm:17📦Tồnkhohiệntại:17💰Giá:79.000đ"
-    },
-    {
-      "id": "hist-1794676371484",
-      "time": "00:12 - 15/11/2026",
-      "name": "Grok + Cursor Premium 14 ngày (BH 24h)",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 23,
-      "catKey": "cursor",
-      "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)➕Thêm:7📦Tồnkhohiệntại:8💰Giá:140.000đ"
     }
   ],
   "vidiq": {
