@@ -9721,8 +9721,8 @@
         "name": "Grok Super 1 ngày KBH",
         "price": 140000,
         "cost_price": 110000,
-        "stock": 16,
-        "stock_text": "Còn 16",
+        "stock": 36,
+        "stock_text": "Còn 36",
         "duration": "1 Ngày",
         "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua\n✏️",
         "sources": {
@@ -9733,16 +9733,16 @@
             "updated": "13:08 02/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 30,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "12:37 13/11/2026"
+            "updated": "08:05 14/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 110000,
-          "stock": 10
+          "stock": 30
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24148,6 +24148,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794618323845",
+      "time": "08:05 - 14/11/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 36,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:30📦Tồnkhohiệntại:30💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1794617637401",
       "time": "07:53 - 14/11/2026",
       "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
@@ -25235,17 +25246,6 @@
       "stockAfter": 36,
       "catKey": "surfshark",
       "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:16💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794598246462",
-      "time": "02:30 - 14/11/2026",
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 10,
-      "catKey": "meitu",
-      "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:7📦Tồnkhohiệntại:7💰Giá:35.000đ"
     }
   ],
   "vidiq": {
