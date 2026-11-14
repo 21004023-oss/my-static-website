@@ -6392,23 +6392,23 @@
         "id": "p-1792021557657",
         "name": "API Claude 50$ Token 1 tháng BH 30 ngày",
         "price": 160000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "-API Claude 50$-Hàng lấy từ Kiro AWS\n-Giá Token được tính theo giá chính hãng tại Claude Code\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng\n-File hướng dẫn sử dụng và thiết lập:\nhttps://drive.google.com/drive/folders/1cDpZB5Of3bk7cz_1qxMWgy3nvHomCkN5?usp=drive_link\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 5,
+            "stock": 4,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "15:30 02/11/2026"
+            "updated": "14:15 14/11/2026"
           }
         },
         "cost_price": 140000,
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 140000,
-          "stock": 5
+          "stock": 4
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -24394,6 +24394,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794640535005",
+      "time": "14:15 - 14/11/2026",
+      "name": "API Claude 50$ Token 1 tháng BH 30 ngày",
+      "bot": "piggyai99_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 4,
+      "catKey": "claude",
+      "msgKey": "🧠APIClaude50$Token1thángBH30ngày➕Thêm:1📦Tồnkhohiệntại:4💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794640481901",
       "time": "14:14 - 14/11/2026",
       "name": "⚡️ Grok Plus 7 ngày -  BH 1 Ngày",
@@ -25481,17 +25492,6 @@
       "stockAfter": 0,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:0💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794623339142",
-      "time": "09:28 - 14/11/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 9,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:0💰Giá:15.000đ"
     }
   ],
   "vidiq": {
