@@ -10141,10 +10141,10 @@
         "name": "Grok Plus 7 ngày BH 5 ngày",
         "price": 95000,
         "cost_price": 80000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "7 Ngày",
-        "detail": "💎 Mô tả sản phẩm: • Grok gói Plus hạn sử dụng 7 ngày • Định dạng: Tài khoản | Pass Grok • Bảo hành: BH 5 ngày gói Plus - hàng đã kiểm tra kỹ gói, pass trước khi đưa lên bot - yêu cầu check tài khoản và check gói trong vòng 24h sau khi đơn hàng bán ra. ⚠️ VUI LÒNG ĐỌC KỸ MÔ TẢ TRƯỚC KHI MUA: • Mua về được đổi pass tự bảo quản, bảo mật • Không thay mail, thay = không bảo hành • Không link hoặc gỡ tài khoản khỏi X khỏi google. Link hoặc gỡ sẽ mất gói không bảo hành. • Tài khoản dùng vi phạm chính sách của X dẫn đến bị khóa, mất gói cũng không được bảo hành.\n✏️",
+        "detail": "Mail | Pass\nKhông đổi mail pass trong quá trình dùng\n✏️",
         "sources": {
           "piggyai99_bot": {
             "stock": 1,
@@ -10153,16 +10153,16 @@
             "updated": "03:15 13/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 14,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "12:41 14/11/2026"
+            "updated": "13:54 14/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 80000,
-          "stock": 4
+          "stock": 14
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24394,6 +24394,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794639271148",
+      "time": "13:54 - 14/11/2026",
+      "name": "Grok Plus 7 ngày BH 5  ngày",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 15,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:1📦Tồnkhohiệntại:14💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1794639051643",
       "time": "13:50 - 14/11/2026",
       "name": "Kling Standard 1400 credit 1TH Bh 1 ngày",
@@ -25481,17 +25492,6 @@
       "stockAfter": 3,
       "catKey": "khac",
       "msgKey": "🐙🔥GitHubStudentDeveloperPack2Năm-BH3D➕Thêm:1📦Tồnkhohiệntại:3💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1794622692445",
-      "time": "09:18 - 14/11/2026",
-      "name": "Figma Pro Edu 1 năm (BHF)",
-      "bot": "taphoathomap_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 22,
-      "catKey": "figma",
-      "msgKey": "⭐FigmaProEdu1năm(BHF)➕Thêm:3📦Tồnkhohiệntại:12💰Giá:100.000đ"
     }
   ],
   "vidiq": {
