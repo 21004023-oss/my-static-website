@@ -17099,23 +17099,23 @@
         "name": "Express VPN Random 2-3 Ngày BHF",
         "price": 17000,
         "cost_price": 7000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "3 Ngày",
         "detail": "• Định dạng: Mail | Pass\n• B1: Truy cập https://byvn.net/bIvQ xong nhập email tài khoản được cấp\n• B2: Để lấy OTP hoặc Reset pass vào mail.tm\n• Nếu không thấy Key thì vào https://www.expressvpn.com/subscriptions để reset pass, lấy key\n• Lưu ý: Tài khoản Express VPN và tài khoản trang mail.tm giống nhau\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 1,
             "cost_price": 7000,
             "selling_price": 17000,
-            "updated": "15:03 12/11/2026"
+            "updated": "18:10 14/11/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 7000,
-          "stock": 10
+          "stock": 1
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "needs_review": false
@@ -24536,6 +24536,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794654657922",
+      "time": "18:10 - 14/11/2026",
+      "name": "Express VPN Random 2-3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 17000,
+      "costPrice": 7000,
+      "stockAfter": 1,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:7.000đ"
+    },
+    {
       "id": "hist-1794654170382",
       "time": "18:02 - 14/11/2026",
       "name": "Slot Youtube Premium 3 Tháng BHF",
@@ -25623,17 +25634,6 @@
       "stockAfter": 81,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân1ThángBHF➕Thêm:8📦Tồnkhohiệntại:41💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1794634080401",
-      "time": "12:28 - 14/11/2026",
-      "name": "Suno Pro 1 tháng BH 1 Ngày",
-      "bot": "taphoathomap_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 37,
-      "catKey": "suno",
-      "msgKey": "🎵SunoPro1thángBH1Ngày➕Thêm:9📦Tồnkhohiệntại:12💰Giá:130.000đ"
     }
   ],
   "vidiq": {
