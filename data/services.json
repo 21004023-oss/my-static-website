@@ -46,16 +46,16 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 115000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 7,
+        "stock_text": "Còn 7",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 3,
+            "stock": 5,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "21:49 11/11/2026"
+            "updated": "20:06 14/11/2026"
           },
           "piggyai99_bot": {
             "stock": 2,
@@ -24536,6 +24536,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794661606160",
+      "time": "20:06 - 14/11/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 7,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:4📦Tồnkhohiệntại:5💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794661597287",
       "time": "20:06 - 14/11/2026",
       "name": "Tài Khoản Netflix Premium 2 ngày BHF",
@@ -25623,17 +25634,6 @@
       "stockAfter": 2,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1400credit1THBh1ngày💰Giá:145k📦Tồnkho:2tàikhoản📊Đãbán:9tàikhoản✏️Vu"
-    },
-    {
-      "id": "hist-1794638671646",
-      "time": "13:44 - 14/11/2026",
-      "name": "Kling Standard 1600 credit 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 1,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1600credit1THBH1ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:160.000đ"
     }
   ],
   "vidiq": {
