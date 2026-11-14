@@ -17113,8 +17113,8 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 40000,
         "cost_price": 15000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 27,
+        "stock_text": "Còn 27",
         "duration": "3 Ngày",
         "detail": "Hỗ trợ điện thoại iOS, Android, PC\nĐịnh dạng: email|pass|activation key\nWeb mail: https://tinyhost.shop\n✏️",
         "sources": {
@@ -17125,10 +17125,10 @@
             "updated": "01:13 15/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 11,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "10:39 14/11/2026"
+            "updated": "01:13 15/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 5,
@@ -17142,7 +17142,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 4
+          "stock": 11
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -24588,6 +24588,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794680022077",
+      "time": "01:13 - 15/11/2026",
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 27,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:10📦Tồnkhohiệntại:11💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794680016359",
       "time": "01:13 - 15/11/2026",
       "name": "Express VPN 3 Ngày BHF",
@@ -25675,17 +25686,6 @@
       "stockAfter": 39,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:17📦Tồnkhohiệntại:37💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1794655060088",
-      "time": "18:17 - 14/11/2026",
-      "name": "Grok Plus 30 ngày BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 68,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:17📦Tồnkhohiệntại:37💰Giá:140.000đ"
     }
   ],
   "vidiq": {
