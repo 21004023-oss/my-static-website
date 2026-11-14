@@ -10360,17 +10360,17 @@
         "id": "p-1794680967471",
         "name": "Grok API 200M Credit 1 tháng BHF",
         "price": 420000,
-        "cost_price": 60000,
-        "stock": 663,
-        "stock_text": "Còn 663",
+        "cost_price": 40000,
+        "stock": 633,
+        "stock_text": "Còn 633",
         "duration": "1 Tháng",
         "detail": "Base URL : https://gpt.teamsoclo.site/v1\nModel : grok-4.5, grok-4.6, grok-4.7\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 330,
-            "cost_price": 60000,
-            "selling_price": 70000,
-            "updated": "01:37 15/11/2026"
+            "stock": 300,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "01:40 15/11/2026"
           },
           "piggyai99_bot": {
             "stock": 333,
@@ -10381,8 +10381,8 @@
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 60000,
-          "stock": 330
+          "cost_price": 40000,
+          "stock": 300
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24620,6 +24620,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794681617214",
+      "time": "01:40 - 15/11/2026",
+      "name": "Grok API 10M Credit 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 633,
+      "catKey": "grok",
+      "msgKey": "⚡GrokAPI10MCredit1thángBHF➕Thêm:300📦Tồnkhohiệntại:300💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1794681453617",
       "time": "01:37 - 15/11/2026",
       "name": "Grok API 30M Credit 1 tháng BHF",
@@ -25707,17 +25718,6 @@
       "stockAfter": 2,
       "catKey": "khac",
       "msgKey": "⭐Dreamina22k900credit1thbh2d➕Thêm:1📦Tồnkhohiệntại:2💰Giá:1.200.000đ"
-    },
-    {
-      "id": "hist-1794657724978",
-      "time": "19:02 - 14/11/2026",
-      "name": "Dreamina 22k900 credit 1 th bh 2d",
-      "bot": "taphoathomap_bot",
-      "price": 1400000,
-      "costPrice": 1200000,
-      "stockAfter": 2,
-      "catKey": "khac",
-      "msgKey": "⭐Dreamina22k900credit1thbh2d💰Giá:1200k📦Tồnkho:2tàikhoản📊Đãbán:42tàikhoản✏️Vuilòn"
     }
   ],
   "vidiq": {
