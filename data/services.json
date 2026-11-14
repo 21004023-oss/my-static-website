@@ -10115,10 +10115,10 @@
         "name": "Grok Plus 7 ngày BH 5 ngày",
         "price": 95000,
         "cost_price": 80000,
-        "stock": 21,
-        "stock_text": "Còn 21",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "7 Ngày",
-        "detail": "Mail | Pass\nKhông đổi mail pass trong quá trình dùng\n✏️",
+        "detail": "💎 Mô tả sản phẩm: • Grok gói Plus hạn sử dụng 7 ngày • Định dạng: Tài khoản | Pass Grok • Bảo hành: BH 5 ngày gói Plus - hàng đã kiểm tra kỹ gói, pass trước khi đưa lên bot - yêu cầu check tài khoản và check gói trong vòng 24h sau khi đơn hàng bán ra. ⚠️ VUI LÒNG ĐỌC KỸ MÔ TẢ TRƯỚC KHI MUA: • Mua về được đổi pass tự bảo quản, bảo mật • Không thay mail, thay = không bảo hành • Không link hoặc gỡ tài khoản khỏi X khỏi google. Link hoặc gỡ sẽ mất gói không bảo hành. • Tài khoản dùng vi phạm chính sách của X dẫn đến bị khóa, mất gói cũng không được bảo hành.\n✏️",
         "sources": {
           "piggyai99_bot": {
             "stock": 1,
@@ -10127,16 +10127,16 @@
             "updated": "03:15 13/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 20,
+            "stock": 4,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "07:42 14/11/2026"
+            "updated": "12:41 14/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 80000,
-          "stock": 20
+          "stock": 4
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24342,6 +24342,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794634912476",
+      "time": "12:41 - 14/11/2026",
+      "name": "Grok Plus 7 ngày BH 5 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 5,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:2📦Tồnkhohiệntại:4💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1794634660454",
       "time": "12:37 - 14/11/2026",
       "name": "Microsoft Copilot 1 Tháng BHF",
@@ -25429,17 +25440,6 @@
       "stockAfter": 537,
       "catKey": "chatgpt",
       "msgKey": "⭐API200MTokenCodex1NgàyBHF➕Thêm:10📦Tồnkhohiệntại:537💰Giá:190.000đ"
-    },
-    {
-      "id": "hist-1794619830784",
-      "time": "08:30 - 14/11/2026",
-      "name": "VIP 3.200M Credit API Codex 1 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 159000,
-      "costPrice": 139000,
-      "stockAfter": 380,
-      "catKey": "chatgpt",
-      "msgKey": "⭐VIP3.200MCreditAPICodex1Ngày-BHF💰Giá:139k📦Tồnkho:380tàikhoản📊Đãbán:326tàikhoản💎"
     }
   ],
   "vidiq": {
