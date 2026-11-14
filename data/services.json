@@ -21883,8 +21883,8 @@
         "name": "PIA VPN 7 Ngày BHF",
         "price": 45000,
         "cost_price": 15000,
-        "stock": 12,
-        "stock_text": "Còn 12",
+        "stock": 14,
+        "stock_text": "Còn 14",
         "duration": "7 Ngày",
         "detail": "Định dạng: Username|Pass\n✏️",
         "sources": {
@@ -21895,16 +21895,16 @@
             "updated": "11:51 14/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 7,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "11:34 13/11/2026"
+            "updated": "11:51 14/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 5
+          "stock": 7
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24342,6 +24342,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794631883057",
+      "time": "11:51 - 14/11/2026",
+      "name": "PIA VPN 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 14,
+      "catKey": "khac",
+      "msgKey": "⭐PIAVPN7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:7💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794631873577",
       "time": "11:51 - 14/11/2026",
       "name": "PIA VPN 7 Ngày BHF",
@@ -25429,17 +25440,6 @@
       "stockAfter": 559,
       "catKey": "chatgpt",
       "msgKey": "⭐API500MTokenCodex3NgàyBHF➕Thêm:10📦Tồnkhohiệntại:559💰Giá:380.000đ"
-    },
-    {
-      "id": "hist-1794619323822",
-      "time": "08:22 - 14/11/2026",
-      "name": "Gmail (New) 2FA-Login All",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 79,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)2FA-LoginAll➕Thêm:20📦Tồnkhohiệntại:20💰Giá:30.000đ"
     }
   ],
   "vidiq": {
