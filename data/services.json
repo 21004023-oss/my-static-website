@@ -18823,18 +18823,18 @@
         "id": "p-1791873309021",
         "name": "Gmail Random ip 2020-2024",
         "price": 55000,
-        "stock": 200,
-        "stock_text": "Còn 200",
+        "stock": 223,
+        "stock_text": "Còn 223",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành\n✏️",
         "price_verified": true,
         "cost_price": 35000,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 100,
+            "stock": 123,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "16:34 14/11/2026"
+            "updated": "19:26 14/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 100,
@@ -18848,7 +18848,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 35000,
-          "stock": 100
+          "stock": 123
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -24536,6 +24536,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794659171608",
+      "time": "19:26 - 14/11/2026",
+      "name": "Gmail Random ip 2020-2024",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 223,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandomip2020-2024➕Thêm:114📦Tồnkhohiệntại:123💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1794658819871",
       "time": "19:20 - 14/11/2026",
       "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
@@ -25623,17 +25634,6 @@
       "stockAfter": 40,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard800credit1THBh1ngày💰Giá:120k📦Tồnkho:40tàikhoản📊Đãbán:37tàikhoản✏️V"
-    },
-    {
-      "id": "hist-1794636716748",
-      "time": "13:11 - 14/11/2026",
-      "name": "Kling Standard 800 credit 1TH Bh 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 12,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard800credit1THBh1ngày➕Thêm:5📦Tồnkhohiệntại:12💰Giá:120.000đ"
     }
   ],
   "vidiq": {
