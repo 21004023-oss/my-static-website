@@ -1106,11 +1106,11 @@
         "id": "p-1793159660770",
         "name": "Gmail Random ip 2010-2016 trial youtube",
         "price": 65000,
-        "cost_price": 45000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "cost_price": 55000,
+        "stock": 366,
+        "stock_text": "Còn 366",
         "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|mkp|2FA\nKhông nên change gì trong 7 ngày tránh die acc\nBảo hành 24h login hết bảo hành",
+        "detail": "Định dạng username|pass|mkp|2FA\nKhông nên change gì trong 7 ngày tránh die acc\nBảo hành 24h login hết bảo hành\n✏️",
         "sources": {
           "taphoathomap_bot": {
             "stock": 0,
@@ -1119,18 +1119,18 @@
             "updated": "08:41 02/11/2026"
           },
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 366,
             "cost_price": 55000,
             "selling_price": 65000,
-            "updated": "18:45 14/11/2026"
+            "updated": "19:06 14/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 45000,
-          "stock": 0
+          "bot": "@sieuthistore_bot",
+          "cost_price": 55000,
+          "stock": 366
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -24536,6 +24536,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794658016689",
+      "time": "19:06 - 14/11/2026",
+      "name": "Gmail Random ip 2010-2016 trial youtube",
+      "bot": "sieuthistore_bot",
+      "price": 65000,
+      "costPrice": 55000,
+      "stockAfter": 366,
+      "catKey": "youtube",
+      "msgKey": "📧GmailRandomip2010-2016trialyoutube➕Thêm:386📦Tồnkhohiệntại:366💰Giá:55.000đ"
+    },
+    {
       "id": "hist-1794657731378",
       "time": "19:02 - 14/11/2026",
       "name": "Dreamina 22k900 credit 1 th bh 2d",
@@ -25623,17 +25634,6 @@
       "stockAfter": 8,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1200credit1THBH1ngày💰Giá:155k📦Tồnkho:8tàikhoản📊Đãbán:31tàikhoản✏️V"
-    },
-    {
-      "id": "hist-1794636580791",
-      "time": "13:09 - 14/11/2026",
-      "name": "Kling Standard 1100-1300 Credit 1 Tháng BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 8,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1100-1300Credit1ThángBH1ngày➕Thêm:6📦Tồnkhohiệntại:8💰Giá:160.000đ"
     }
   ],
   "vidiq": {
