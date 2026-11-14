@@ -19400,16 +19400,16 @@
         "name": "Gmail random new",
         "price": 35000,
         "cost_price": 22000,
-        "stock": 63,
-        "stock_text": "Còn 63",
+        "stock": 56,
+        "stock_text": "Còn 56",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 26,
+            "stock": 19,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "09:32 13/11/2026"
+            "updated": "08:42 14/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -24258,6 +24258,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794620560754",
+      "time": "08:42 - 14/11/2026",
+      "name": "Gmail random new",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 56,
+      "catKey": "gmail",
+      "msgKey": "📧Gmailrandomnew➕Thêm:54📦Tồnkhohiệntại:19💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1794620550517",
       "time": "08:42 - 14/11/2026",
       "name": "API 20M Token Codex 1 Ngày BHF",
@@ -25345,17 +25356,6 @@
       "stockAfter": 79,
       "catKey": "cursor",
       "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)➕Thêm:2📦Tồnkhohiệntại:33💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1794604506472",
-      "time": "04:15 - 14/11/2026",
-      "name": "Suno Pro 1 tháng BH 1 Ngày",
-      "bot": "taphoathomap_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 25,
-      "catKey": "suno",
-      "msgKey": "🎵SunoPro1thángBH1Ngày➕Thêm:1📦Tồnkhohiệntại:0💰Giá:130.000đ"
     }
   ],
   "vidiq": {
