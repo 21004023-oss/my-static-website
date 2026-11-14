@@ -9657,8 +9657,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 115000,
-        "stock": 39,
-        "stock_text": "Còn 39",
+        "stock": 38,
+        "stock_text": "Còn 38",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -9669,10 +9669,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 37,
+            "stock": 36,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "18:18 14/11/2026"
+            "updated": "20:41 14/11/2026"
           }
         },
         "hidden": false,
@@ -9681,7 +9681,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 37
+          "stock": 36
         }
       },
       {
@@ -24536,6 +24536,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794663665688",
+      "time": "20:41 - 14/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 38,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:3📦Tồnkhohiệntại:36💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1794663636937",
       "time": "20:40 - 14/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -25623,17 +25634,6 @@
       "stockAfter": 24,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:12💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794641988743",
-      "time": "14:39 - 14/11/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 17,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:12💰Giá:15.000đ"
     }
   ],
   "vidiq": {
