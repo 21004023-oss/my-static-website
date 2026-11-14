@@ -10582,12 +10582,12 @@
       {
         "id": "p-1792427096285",
         "name": "Kling Pro 3k3 Credit 1 Tháng BH 7 Ngày",
-        "price": 750000,
-        "cost_price": 600000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "price": 800000,
+        "cost_price": 650000,
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "1 Tháng",
-        "detail": "áp dụng bảo hành /7 ko phải /30\nKhách lưu ý\n✏️",
+        "detail": "Nếu tài khoản lỗi, rf trên số ngày còn bảo hành\nVí dụ bảo hành 7 ngày, dùng 5 ngày lỗi, thì lấy số tiền /7 *2\nKhách lưu ý\n✏️",
         "sources": {
           "sieuthistore_bot": {
             "stock": 4,
@@ -10596,18 +10596,18 @@
             "updated": "19:22 28/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 4,
-            "cost_price": 600000,
-            "selling_price": 700000,
-            "updated": "06:50 21/10/2026"
+            "stock": 5,
+            "cost_price": 700000,
+            "selling_price": 800000,
+            "updated": "18:58 14/11/2026"
           }
         },
         "hidden": false,
         "needs_review": false,
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 600000,
+          "bot": "@sieuthistore_bot",
+          "cost_price": 650000,
           "stock": 4
         }
       },
@@ -24536,6 +24536,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794657513330",
+      "time": "18:58 - 14/11/2026",
+      "name": "KLING PRO 3k3 credit 1th bh 7d",
+      "bot": "taphoathomap_bot",
+      "price": 800000,
+      "costPrice": 700000,
+      "stockAfter": 9,
+      "catKey": "kling",
+      "msgKey": "🎬KLINGPRO3k3credit1thbh7d➕Thêm:5📦Tồnkhohiệntại:5💰Giá:700.000đ"
+    },
+    {
       "id": "hist-1794657487583",
       "time": "18:58 - 14/11/2026",
       "name": "Kling Pro 3K-4K Credits 1 tháng BH 7 ngày",
@@ -25623,17 +25634,6 @@
       "stockAfter": 5,
       "catKey": "cursor",
       "msgKey": "🖱️APICursorPro400Credits/ngày1thángBHF💰Giá:309k📦Tồnkho:2tàikhoản📊Đãbán:527tàikho"
-    },
-    {
-      "id": "hist-1794636341762",
-      "time": "13:05 - 14/11/2026",
-      "name": "API Cursor Pro 400 Credits/ngày 1 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 359000,
-      "costPrice": 309000,
-      "stockAfter": 5,
-      "catKey": "cursor",
-      "msgKey": "🖱️APICursorPro400Credits/ngày1thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:309.000đ"
     }
   ],
   "vidiq": {
