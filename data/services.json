@@ -10399,8 +10399,8 @@
         "name": "Grok API 50M Credit 3 ngày BHF",
         "price": 130000,
         "cost_price": 55000,
-        "stock": 648,
-        "stock_text": "Còn 648",
+        "stock": 388,
+        "stock_text": "Còn 388",
         "duration": "3 Ngày",
         "detail": "Base URL : https://gpt.teamsoclo.site/v1\nModel : grok-4.5, grok-4.6, grok-4.7\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
         "sources": {
@@ -10411,7 +10411,7 @@
             "updated": "02:08 15/11/2026"
           },
           "sieuthistore_bot": {
-            "stock": 324,
+            "stock": 64,
             "cost_price": 75000,
             "selling_price": 85000,
             "updated": "02:08 15/11/2026"
@@ -24664,6 +24664,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794683313790",
+      "time": "02:08 - 15/11/2026",
+      "name": "Grok API 30M Credit 3 ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 85000,
+      "costPrice": 75000,
+      "stockAfter": 388,
+      "catKey": "grok",
+      "msgKey": "⚡GrokAPI30MCredit3ngàyBHF💰Giá:75k📦Tồnkho:64tàikhoản📊Đãbán:26tàikhoản💎Môtả:BaseUR"
+    },
+    {
       "id": "hist-1794683307937",
       "time": "02:08 - 15/11/2026",
       "name": "Grok API 30M Credit 3 ngày BHF",
@@ -25751,17 +25762,6 @@
       "stockAfter": 273,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:49📦Tồnkhohiệntại:77💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1794661309875",
-      "time": "20:01 - 14/11/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng - BH 24h",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 243,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:49📦Tồnkhohiệntại:77💰Giá:45.000đ"
     }
   ],
   "vidiq": {
