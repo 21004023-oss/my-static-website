@@ -10397,10 +10397,10 @@
       {
         "id": "p-1794681988836",
         "name": "Grok API 50M Credit 3 ngày BHF",
-        "price": 99000,
+        "price": 130000,
         "cost_price": 89000,
-        "stock": 340,
-        "stock_text": "Còn 340",
+        "stock": 680,
+        "stock_text": "Còn 680",
         "duration": "3 Ngày",
         "detail": "Base URL : https://gpt.teamsoclo.site/v1\nModel : grok-4.5, grok-4.6, grok-4.7\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
         "sources": {
@@ -10408,6 +10408,12 @@
             "stock": 340,
             "cost_price": 89000,
             "selling_price": 99000,
+            "updated": "01:46 15/11/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 340,
+            "cost_price": 110000,
+            "selling_price": 130000,
             "updated": "01:46 15/11/2026"
           }
         },
@@ -24652,6 +24658,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794681994845",
+      "time": "01:46 - 15/11/2026",
+      "name": "Grok API 50M Credit 3 ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 680,
+      "catKey": "grok",
+      "msgKey": "⚡GrokAPI50MCredit3ngàyBHF➕Thêm:300📦Tồnkhohiệntại:340💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1794681988836",
       "time": "01:46 - 15/11/2026",
       "name": "Grok API 50M Credit 3 ngày BHF",
@@ -25739,17 +25756,6 @@
       "stockAfter": 14,
       "catKey": "google-veo",
       "msgKey": "☁️LINK-GeminiAIPlus6Tháng(BH24H)💰Giá:59k📦Tồnkho:14tàikhoản📊Đãbán:70tàikhoản💎Môtả"
-    },
-    {
-      "id": "hist-1794659612414",
-      "time": "19:33 - 14/11/2026",
-      "name": "[Slot] Gemini Pro , GG 5TB Hạn 1 Năm, Bảo hành 3 tháng",
-      "bot": "khommo_market_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 449,
-      "catKey": "google-veo",
-      "msgKey": "🛍️[Slot]GeminiPro,GG5TBHạn1Năm,Bảohành3tháng💲Giá:70.000VND💚Tồnkho:449tàikhoản📊Đã"
     }
   ],
   "vidiq": {
