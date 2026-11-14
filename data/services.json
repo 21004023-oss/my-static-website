@@ -13832,6 +13832,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794646249414",
+        "name": "Buff Muse Ai 1B Token KBH slot",
+        "price": 20000,
+        "cost_price": 10000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "📌 HƯỚNG DẪN MUA GÓI BUFF MUSE\n1️⃣ Chọn đúng số lượng cần buff:\n🔹 Gói 1B\n🔹 Gói 3B\n🔹 Gói 5B\n2️⃣ Cách lấy mã mời Muse (nhanh gọn):\n- Vào tài khoản Muse, bấm chọn mục Mời.\n- Dùng tay kéo (cào) vào phần khung thẻ để làm hiển thị mã mời, sau đó bấm Sao chép.\n🎥 Video hướng dẫn chi tiết: https://www.youtube.com/watch?v=eGKZXSp-0q4\n3️⃣ Gửi thông tin kích hoạt\n👉 [Mã mời]\nVí dụ: 3QL991\nGửi đúng định dạng để bên mình lên đơn và kích hoạt ngay cho bạn nhé! 🚀✨\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 1,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "15:50 14/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 10000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -24478,6 +24504,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794646249414",
+      "time": "15:50 - 14/11/2026",
+      "name": "Buff Muse Ai 1B Token KBH slot",
+      "bot": "sieuthistore_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 1,
+      "catKey": "muse-ai",
+      "msgKey": "⭐BuffMuseAi1BTokenKBHslot➕Thêm:1📦Tồnkhohiệntại:1💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1794646136428",
       "time": "15:48 - 14/11/2026",
       "name": "Hotmail/Outlook",
@@ -25565,17 +25602,6 @@
       "stockAfter": 2,
       "catKey": "figma",
       "msgKey": "⭐FigmaProEdu2năm(BH2năm)➕Thêm:1📦Tồnkhohiệntại:2💰Giá:170.000đ"
-    },
-    {
-      "id": "hist-1794627586793",
-      "time": "10:39 - 14/11/2026",
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 13,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:4💰Giá:15.000đ"
     }
   ],
   "vidiq": {
