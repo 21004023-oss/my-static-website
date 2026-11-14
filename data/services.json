@@ -11474,6 +11474,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794645051895",
+        "name": "Kling Pro 3K Credit 1 Tháng (BH 1 NGÀY)",
+        "price": 650000,
+        "cost_price": 550000,
+        "stock": 1,
+        "stock_text": "Còn 1",
+        "duration": "1 Tháng",
+        "detail": "🔥 **KLING AI PRO – 3.000 CREDITS**\n🛡️ **BẢO HÀNH: 1 NGÀY**\n🛡️ Mail|pass kling\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 1,
+            "cost_price": 550000,
+            "selling_price": 650000,
+            "updated": "15:30 14/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 550000,
+          "stock": 1
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -24420,6 +24446,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794645051895",
+      "time": "15:30 - 14/11/2026",
+      "name": "Kling Pro 3K Credit 1 Tháng (BH 1 NGÀY)",
+      "bot": "taphoathomap_bot",
+      "price": 650000,
+      "costPrice": 550000,
+      "stockAfter": 1,
+      "catKey": "kling",
+      "msgKey": "🎬KlingPro3KCredit1Tháng(BH1NGÀY)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:550.000đ"
+    },
+    {
       "id": "hist-1794644903611",
       "time": "15:28 - 14/11/2026",
       "name": "Tài khoản ADMIN VEO3 Ultra x20 Random Credit Full model antigravity  – 25 Ngày BHF",
@@ -25507,17 +25544,6 @@
       "stockAfter": 90,
       "catKey": "netflix",
       "msgKey": "🎬SlotNetflixPremium4K1ThángBHF➕Thêm:1📦Tồnkhohiệntại:42💰Giá:120.000đ"
-    },
-    {
-      "id": "hist-1794626910400",
-      "time": "10:28 - 14/11/2026",
-      "name": "MUSE AI 31B TOKEN - KBH",
-      "bot": "khommo_market_bot",
-      "price": 39800,
-      "costPrice": 29800,
-      "stockAfter": 300,
-      "catKey": "muse-ai",
-      "msgKey": "MUSEAI31BTOKEN-KBH💰Giá:29.800VND➕Thêm:284📦Tồnkhohiệntại:209"
     }
   ],
   "vidiq": {
