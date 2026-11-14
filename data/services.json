@@ -18817,18 +18817,18 @@
         "id": "p-1791873309021",
         "name": "Gmail Random ip 2020-2024",
         "price": 55000,
-        "stock": 133,
-        "stock_text": "Còn 133",
+        "stock": 200,
+        "stock_text": "Còn 200",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành\n✏️",
         "price_verified": true,
         "cost_price": 35000,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 33,
+            "stock": 100,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "15:44 14/11/2026"
+            "updated": "16:34 14/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 100,
@@ -18842,7 +18842,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 35000,
-          "stock": 33
+          "stock": 100
         },
         "import_note": "Nhập: @sieuthistore_bot"
       },
@@ -24504,6 +24504,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794648849105",
+      "time": "16:34 - 14/11/2026",
+      "name": "Gmail Random ip 2020-2024",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 200,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandomip2020-2024➕Thêm:100📦Tồnkhohiệntại:100💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1794648840601",
       "time": "16:34 - 14/11/2026",
       "name": "Muse Ai 31 tỷ Token ( KBH )",
@@ -25591,17 +25602,6 @@
       "stockAfter": 29,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:27💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1794629259486",
-      "time": "11:07 - 14/11/2026",
-      "name": "Grok Plus 30 ngày BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 58,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:1📦Tồnkhohiệntại:27💰Giá:140.000đ"
     }
   ],
   "vidiq": {
