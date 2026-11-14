@@ -9657,8 +9657,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 115000,
-        "stock": 24,
-        "stock_text": "Còn 24",
+        "stock": 39,
+        "stock_text": "Còn 39",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -9669,10 +9669,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 22,
+            "stock": 37,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "16:45 14/11/2026"
+            "updated": "18:18 14/11/2026"
           }
         },
         "hidden": false,
@@ -9681,7 +9681,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 22
+          "stock": 37
         }
       },
       {
@@ -24536,6 +24536,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794655086472",
+      "time": "18:18 - 14/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 39,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:17📦Tồnkhohiệntại:37💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1794655060088",
       "time": "18:17 - 14/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -25623,17 +25634,6 @@
       "stockAfter": 15,
       "catKey": "microsoft",
       "msgKey": "⭐MicrosoftCopilot1ThángBHF➕Thêm:6📦Tồnkhohiệntại:10💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1794634620694",
-      "time": "12:37 - 14/11/2026",
-      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 240000,
-      "costPrice": 210000,
-      "stockAfter": 51,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:6📦Tồnkhohiệntại:16💰Giá:210.000đ"
     }
   ],
   "vidiq": {
