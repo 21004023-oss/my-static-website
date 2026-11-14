@@ -10141,8 +10141,8 @@
         "name": "Grok Plus 7 ngày BH 5 ngày",
         "price": 95000,
         "cost_price": 80000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "7 Ngày",
         "detail": "Mail | Pass\nKhông đổi mail pass trong quá trình dùng\n✏️",
         "sources": {
@@ -10153,16 +10153,16 @@
             "updated": "03:15 13/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 18,
+            "stock": 14,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "14:36 14/11/2026"
+            "updated": "15:04 14/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 80000,
-          "stock": 18
+          "stock": 14
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24394,6 +24394,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794643462729",
+      "time": "15:04 - 14/11/2026",
+      "name": "Grok Plus 7 ngày BH 5  ngày",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 15,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:1📦Tồnkhohiệntại:14💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1794643229372",
       "time": "15:00 - 14/11/2026",
       "name": "Surfshark VPN One 7 Ngày BHF",
@@ -25481,17 +25492,6 @@
       "stockAfter": 9,
       "catKey": "meitu",
       "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:6💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794626012616",
-      "time": "10:13 - 14/11/2026",
-      "name": "Capcut Pro 7Day 500 credits",
-      "bot": "khommo_market_bot",
-      "price": 19800,
-      "costPrice": 9800,
-      "stockAfter": 247,
-      "catKey": "capcut",
-      "msgKey": "CapcutPro7Day500credits💰Giá:9.800VND➕Thêm:247📦Tồnkhohiệntại:247"
     }
   ],
   "vidiq": {
