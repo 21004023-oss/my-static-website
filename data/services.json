@@ -16803,16 +16803,16 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 18,
-        "stock_text": "Còn 18",
+        "stock": 19,
+        "stock_text": "Còn 19",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 9,
+            "stock": 10,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "12:01 14/11/2026"
+            "updated": "00:39 15/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 9,
@@ -16825,7 +16825,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 9
+          "stock": 10
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24588,6 +24588,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794677974825",
+      "time": "00:39 - 15/11/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 19,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794677662221",
       "time": "00:34 - 15/11/2026",
       "name": "ElevenLabs Redeem 300K Credit",
@@ -25675,17 +25686,6 @@
       "stockAfter": 50,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusGGPayGmail1ThángBH7ngày➕Thêm:3📦Tồnkhohiệntại:50💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1794653854594",
-      "time": "17:57 - 14/11/2026",
-      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
-      "bot": "sieuthistore_bot",
-      "price": 56000,
-      "costPrice": 46000,
-      "stockAfter": 107,
-      "catKey": "youtube",
-      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:2📦Tồnkhohiệntại:107💰Giá:46.000đ"
     }
   ],
   "vidiq": {
