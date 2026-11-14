@@ -17113,16 +17113,16 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 40000,
         "cost_price": 15000,
-        "stock": 13,
-        "stock_text": "Còn 13",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "3 Ngày",
         "detail": "Hỗ trợ điện thoại iOS, Android, PC\nĐịnh dạng: email|pass|activation key\nWeb mail: https://tinyhost.shop\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 4,
+            "stock": 11,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "10:39 14/11/2026"
+            "updated": "01:13 15/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 4,
@@ -24588,6 +24588,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794680016359",
+      "time": "01:13 - 15/11/2026",
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 20,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:10📦Tồnkhohiệntại:11💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1794679320596",
       "time": "01:02 - 15/11/2026",
       "name": "Gói VIP 1. API MUSE - Tạo 333 video - 1 tháng BH 15 Ngày",
@@ -25675,17 +25686,6 @@
       "stockAfter": 68,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:17📦Tồnkhohiệntại:37💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1794654657922",
-      "time": "18:10 - 14/11/2026",
-      "name": "Express VPN Random 2-3 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 17000,
-      "costPrice": 7000,
-      "stockAfter": 1,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPNRandom2-3NgàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:7.000đ"
     }
   ],
   "vidiq": {
