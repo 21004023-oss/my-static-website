@@ -6057,6 +6057,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794636233616",
+        "name": "Chatgpt Go 3 tháng - BHF",
+        "price": 330000,
+        "cost_price": 300000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "3 Tháng",
+        "detail": "🔐 TÀI KHOẢN RIÊNG TƯ\n📂 Định dạng: Email | Pass | 2FA\n⚠️Nghiêm cấm sử dụng acc để gắn tool 9Router bào Codex, nếu phát hiện bên mình sẽ không bảo hành tất cả số acc đã mua\n🔄 Khách được phép thay đổi 2FA nhưng shop không hỗ trợ lỗi phát sinh trong quá trình thay đổi.\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 10,
+            "cost_price": 300000,
+            "selling_price": 330000,
+            "updated": "13:03 14/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 300000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -24342,6 +24368,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794636233616",
+      "time": "13:03 - 14/11/2026",
+      "name": "Chatgpt Go 3 tháng - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 330000,
+      "costPrice": 300000,
+      "stockAfter": 10,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatgptGo3tháng-BHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:300.000đ"
+    },
+    {
       "id": "hist-1794635790679",
       "time": "12:56 - 14/11/2026",
       "name": "Grok + Cursor Premium 14 ngày (BH 24h)",
@@ -25429,17 +25466,6 @@
       "stockAfter": 509,
       "catKey": "chatgpt",
       "msgKey": "⭐API50MTokenCodex1NgàyBHF➕Thêm:10📦Tồnkhohiệntại:509💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1794620184614",
-      "time": "08:36 - 14/11/2026",
-      "name": "API DEEPSEEK 50$ 1 THÁNG BHF",
-      "bot": "ntnshopre_bot",
-      "price": 129000,
-      "costPrice": 109000,
-      "stockAfter": 295,
-      "catKey": "deepseek",
-      "msgKey": "⭐APIDEEPSEEK50$1THÁNGBHF💰Giá:109k📦Tồnkho:23tàikhoản📊Đãbán:50tàikhoản💎Môtả:APIDee"
     }
   ],
   "vidiq": {
