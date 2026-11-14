@@ -10173,16 +10173,16 @@
         "name": "Grok Plus 7 ngày BH 5 ngày",
         "price": 95000,
         "cost_price": 80000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "7 Ngày",
         "detail": "Mail | Pass\nKhông đổi mail pass trong quá trình dùng\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 5,
+            "stock": 11,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "17:35 14/11/2026"
+            "updated": "23:12 14/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 5,
@@ -10194,7 +10194,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 80000,
-          "stock": 5
+          "stock": 11
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -24536,6 +24536,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794672735938",
+      "time": "23:12 - 14/11/2026",
+      "name": "Grok Plus 7 ngày BH 5 ngày",
+      "bot": "piggyai99_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 16,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:1📦Tồnkhohiệntại:11💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1794672094282",
       "time": "23:01 - 14/11/2026",
       "name": "CAPCUT PRO  30 Ngày BHF",
@@ -25623,17 +25634,6 @@
       "stockAfter": 1,
       "catKey": "khac",
       "msgKey": "⭐🔥ZedProStudent1Năm-KBH➕Thêm:1📦Tồnkhohiệntại:1💰Giá:199.000đ"
-    },
-    {
-      "id": "hist-1794647757231",
-      "time": "16:15 - 14/11/2026",
-      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
-      "bot": "sieuthistore_bot",
-      "price": 56000,
-      "costPrice": 46000,
-      "stockAfter": 144,
-      "catKey": "youtube",
-      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:110📦Tồnkhohiệntại:144💰Giá:46.000đ"
     }
   ],
   "vidiq": {
