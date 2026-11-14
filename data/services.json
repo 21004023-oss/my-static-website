@@ -4569,22 +4569,22 @@
         "name": "ChatGPT Go 1 Tháng (BH 28D)",
         "price": 105000,
         "cost_price": 95000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 0,
             "cost_price": 95000,
             "selling_price": 105000,
-            "updated": "18:26 13/11/2026"
+            "updated": "08:34 14/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 95000,
-          "stock": 10
+          "stock": 0
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24252,6 +24252,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794620074797",
+      "time": "08:34 - 14/11/2026",
+      "name": "ChatGPT Go 1 Tháng (BH 28D)",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 0,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:1📦Tồnkhohiệntại:0💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1794620065889",
       "time": "08:34 - 14/11/2026",
       "name": "100M Credit API Codex 1 Ngày - BHF",
@@ -25339,17 +25350,6 @@
       "stockAfter": 96,
       "catKey": "netflix",
       "msgKey": "🎬SlotNetflixPremium4K1ThángBHF➕Thêm:15📦Tồnkhohiệntại:44💰Giá:120.000đ"
-    },
-    {
-      "id": "hist-1794602463856",
-      "time": "03:41 - 14/11/2026",
-      "name": "NordVPN 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 10,
-      "catKey": "nordvpn",
-      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:6📦Tồnkhohiệntại:5💰Giá:25.000đ"
     }
   ],
   "vidiq": {
