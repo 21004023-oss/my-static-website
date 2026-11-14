@@ -18480,8 +18480,8 @@
         "name": "Microsoft Copilot 1 Tháng BHF",
         "price": 100000,
         "cost_price": 75000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "- Microsoft Copilot Pro, không phải Github Copilot nên mọi người chú ý nhé, đôi khi trôi date vài ngày BH 25D\n・ĐỊnh dạng: Email|Pass|Token|Email khôi phục\n・Web mail khôi phục: https://fviainboxes.com\n✏️",
         "sources": {
@@ -18492,16 +18492,16 @@
             "updated": "12:37 14/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 10,
             "cost_price": 75000,
             "selling_price": 85000,
-            "updated": "03:21 14/11/2026"
+            "updated": "12:37 14/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 75000,
-          "stock": 5
+          "stock": 10
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24342,6 +24342,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794634660454",
+      "time": "12:37 - 14/11/2026",
+      "name": "Microsoft Copilot 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 85000,
+      "costPrice": 75000,
+      "stockAfter": 20,
+      "catKey": "microsoft",
+      "msgKey": "⭐MicrosoftCopilot1ThángBHF➕Thêm:6📦Tồnkhohiệntại:10💰Giá:75.000đ"
+    },
+    {
       "id": "hist-1794634644622",
       "time": "12:37 - 14/11/2026",
       "name": "Microsoft Copilot 1 Tháng BHF",
@@ -25429,17 +25440,6 @@
       "stockAfter": 380,
       "catKey": "chatgpt",
       "msgKey": "⭐VIP3.200MCreditAPICodex1Ngày-BHF💰Giá:139k📦Tồnkho:380tàikhoản📊Đãbán:326tàikhoản💎"
-    },
-    {
-      "id": "hist-1794619819870",
-      "time": "08:30 - 14/11/2026",
-      "name": "200M Credit API Codex 1 Ngày - BHF",
-      "bot": "piggyai99_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 618,
-      "catKey": "chatgpt",
-      "msgKey": "⭐200MCreditAPICodex1Ngày-BHF💰Giá:110k📦Tồnkho:87tàikhoản📊Đãbán:326tàikhoản💎Môtả:B"
     }
   ],
   "vidiq": {
