@@ -4673,22 +4673,22 @@
         "name": "ChatGPT Go 1 Tháng (BH 28D)",
         "price": 105000,
         "cost_price": 95000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 15,
+            "stock": 0,
             "cost_price": 95000,
             "selling_price": 105000,
-            "updated": "21:14 15/11/2026"
+            "updated": "02:09 16/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 95000,
-          "stock": 15
+          "stock": 0
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -25206,6 +25206,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794769740013",
+      "time": "02:09 - 16/11/2026",
+      "name": "ChatGPT Go 1 Tháng (BH 28D)",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 0,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:15📦Tồnkhohiệntại:0💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1794769323229",
       "time": "02:02 - 16/11/2026",
       "name": "VPN HMA log IOS/android/PC 1 tháng",
@@ -26293,17 +26304,6 @@
       "stockAfter": 193,
       "catKey": "google-veo",
       "msgKey": "🚀TàikhoảnX20ULTRADùngVeo3Radomcredit-25NgàyBHF➕Thêm:1📦Tồnkhohiệntại:193💰Giá:250."
-    },
-    {
-      "id": "hist-1794747917739",
-      "time": "20:05 - 15/11/2026",
-      "name": "SurfShark VPN Androi/PC/IOS 7 ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 14,
-      "catKey": "surfshark",
-      "msgKey": "🦈SurfSharkVPNAndroi/PC/IOS7ngàyBHF➕Thêm:5📦Tồnkhohiệntại:7💰Giá:15.000đ"
     }
   ],
   "vidiq": {
