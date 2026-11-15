@@ -18228,6 +18228,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794769312435",
+        "name": "VPN HMA log IOS/android/PC 1 tháng",
+        "price": 40000,
+        "cost_price": 30000,
+        "stock": 21,
+        "stock_text": "Còn 21",
+        "duration": "1 Tháng",
+        "detail": "mail|pass|key\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 21,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "02:01 16/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
+          "stock": 21
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -25174,6 +25200,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794769312435",
+      "time": "02:01 - 16/11/2026",
+      "name": "VPN HMA log IOS/android/PC 1 tháng",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 21,
+      "catKey": "hma-vpn",
+      "msgKey": "⭐VPNHMAlogIOS/android/PC1tháng➕Thêm:20📦Tồnkhohiệntại:21💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1794768959600",
       "time": "01:55 - 16/11/2026",
       "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
@@ -26261,17 +26298,6 @@
       "stockAfter": 2,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1600credit1THBH1ngày➕Thêm:2📦Tồnkhohiệntại:2💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1794747485336",
-      "time": "19:58 - 15/11/2026",
-      "name": "Kling Standard 1600 credit 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 2,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1600credit1THBH1ngày💰Giá:160k📦Tồnkho:2tàikhoản📊Đãbán:4tàikhoản✏️Vu"
     }
   ],
   "vidiq": {
