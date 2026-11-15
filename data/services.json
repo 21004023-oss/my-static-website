@@ -14442,13 +14442,13 @@
         "name": "Suno Pro 1TH BH 1 ngày",
         "price": 180000,
         "cost_price": 115000,
-        "stock": 26,
-        "stock_text": "Còn 26",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Tháng",
         "detail": "Mail | Pass | Mail khôi phục\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 8,
             "cost_price": 115000,
             "selling_price": 135000,
             "updated": "13:17 15/11/2026"
@@ -14469,7 +14469,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 4
+          "stock": 8
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24806,6 +24806,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794723472016",
+      "time": "13:17 - 15/11/2026",
+      "name": "Suno Pro 1TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 30,
+      "catKey": "suno",
+      "msgKey": "🎵SunoPro1THBH1ngày➕Thêm:4📦Tồnkhohiệntại:8💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1794723454734",
       "time": "13:17 - 15/11/2026",
       "name": "Suno Pro 1 Tháng BH 1 ngày",
@@ -25893,17 +25904,6 @@
       "stockAfter": 161,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000credit1THBH1ngày➕Thêm:13📦Tồnkhohiệntại:35💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1794702612228",
-      "time": "07:30 - 15/11/2026",
-      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 161,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:140k📦Tồnkho:35tàikhoản📊Đãbán:688tàikhoản✏"
     }
   ],
   "vidiq": {
