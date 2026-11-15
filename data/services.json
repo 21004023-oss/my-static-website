@@ -11198,16 +11198,16 @@
         "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
         "price": 170000,
         "cost_price": 140000,
-        "stock": 226,
-        "stock_text": "Còn 226",
+        "stock": 221,
+        "stock_text": "Còn 221",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000 credit 1 TH BH 1 ngày bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 100,
+            "stock": 95,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "17:41 15/11/2026"
+            "updated": "03:10 16/11/2026"
           },
           "piggyai99_bot": {
             "stock": 126,
@@ -11219,7 +11219,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 140000,
-          "stock": 100
+          "stock": 95
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -25206,6 +25206,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794773419477",
+      "time": "03:10 - 16/11/2026",
+      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 221,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:140k📦Tồnkho:95tàikhoản📊Đãbán:703tàikhoản✏"
+    },
+    {
       "id": "hist-1794773411615",
       "time": "03:10 - 16/11/2026",
       "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
@@ -26293,17 +26304,6 @@
       "stockAfter": 2,
       "catKey": "kling",
       "msgKey": "🎬KLingPremier8900Credit1THBH72H➕Thêm:2📦Tồnkhohiệntại:2💰Giá:900.000đ"
-    },
-    {
-      "id": "hist-1794752056196",
-      "time": "21:14 - 15/11/2026",
-      "name": "ChatGPT Go 1 Tháng (BH 28D)",
-      "bot": "taphoathomap_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 15,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:10📦Tồnkhohiệntại:15💰Giá:95.000đ"
     }
   ],
   "vidiq": {
