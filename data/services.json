@@ -11062,22 +11062,22 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 23,
-        "stock_text": "Còn 23",
+        "stock": 35,
+        "stock_text": "Còn 35",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 23,
+            "stock": 35,
             "cost_price": 150000,
             "selling_price": 170000,
-            "updated": "07:28 15/11/2026"
+            "updated": "07:29 15/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 23
+          "stock": 35
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -24690,6 +24690,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794702542745",
+      "time": "07:29 - 15/11/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 35,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:13📦Tồnkhohiệntại:35💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1794702534280",
       "time": "07:28 - 15/11/2026",
       "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
@@ -25777,17 +25788,6 @@
       "stockAfter": 680,
       "catKey": "grok",
       "msgKey": "⚡GrokAPI100MCredit1thángBHF➕Thêm:300📦Tồnkhohiệntại:340💰Giá:165.000đ"
-    },
-    {
-      "id": "hist-1794681075967",
-      "time": "01:31 - 15/11/2026",
-      "name": "Grok API 100M Credit 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 686,
-      "catKey": "grok",
-      "msgKey": "⚡GrokAPI100MCredit1thángBHF➕Thêm:300📦Tồnkhohiệntại:340💰Giá:160.000đ"
     }
   ],
   "vidiq": {
