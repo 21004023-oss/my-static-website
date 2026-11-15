@@ -11334,22 +11334,22 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 100,
-        "stock_text": "Còn 100",
+        "stock": 23,
+        "stock_text": "Còn 23",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 100,
+            "stock": 23,
             "cost_price": 150000,
             "selling_price": 170000,
-            "updated": "17:40 15/11/2026"
+            "updated": "03:10 16/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 100
+          "stock": 23
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -25206,6 +25206,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794773401687",
+      "time": "03:10 - 16/11/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 23,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày💰Giá:150k📦Tồnkho:23tàikhoản📊Đãbán:703t"
+    },
+    {
       "id": "hist-1794773242545",
       "time": "03:07 - 16/11/2026",
       "name": "CapCut Pro Cá Nhân 7-14 Ngày - BHF",
@@ -26293,17 +26304,6 @@
       "stockAfter": 4,
       "catKey": "netflix",
       "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1794751421171",
-      "time": "21:03 - 15/11/2026",
-      "name": "MUSE AI 31B TOKEN - KBH",
-      "bot": "khommo_market_bot",
-      "price": 25800,
-      "costPrice": 15800,
-      "stockAfter": 1023,
-      "catKey": "muse-ai",
-      "msgKey": "MUSEAI31BTOKEN-KBH💰Giá:15.800VND➕Thêm:700📦Tồnkhohiệntại:936"
     }
   ],
   "vidiq": {
