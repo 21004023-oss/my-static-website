@@ -24177,22 +24177,22 @@
         "name": "Iqiyi Cao Cấp 3 Tháng BHF",
         "price": 90000,
         "cost_price": 80000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "3 Tháng",
         "detail": "Slot  iqiyi Premium cấp sẵn xem 1 thiết bị đồng thời\nbảo hành full gói\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 3,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "08:49 10/11/2026"
+            "updated": "15:37 15/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 80000,
-          "stock": 1
+          "stock": 3
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24857,6 +24857,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1794731873033",
+      "time": "15:37 - 15/11/2026",
+      "name": "Iqiyi Cao Cấp 3 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 3,
+      "catKey": "khac",
+      "msgKey": "⭐IqiyiCaoCấp3ThángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:80.000đ"
+    },
     {
       "id": "hist-1794731862067",
       "time": "15:37 - 15/11/2026",
@@ -25945,17 +25956,6 @@
       "stockAfter": 162,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUT7DBH7D➕Thêm:7📦Tồnkhohiệntại:54💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1794713148596",
-      "time": "10:25 - 15/11/2026",
-      "name": "CAPCUT 7D  BH 7D",
-      "bot": "piggyai99_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 162,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUT7DBH7D💰Giá:15k📦Tồnkho:54tàikhoản📊Đãbán:648tàikhoản💎Môtả:CapCutPro/Team7D"
     }
   ],
   "vidiq": {
