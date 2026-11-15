@@ -5621,8 +5621,8 @@
         "name": "GPT GO 1 THÁNG ( BH 28 NGÀY )",
         "price": 145000,
         "cost_price": 115000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 25,
+        "stock_text": "Còn 25",
         "duration": "1 Tháng",
         "detail": "📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
@@ -5633,16 +5633,16 @@
             "updated": "10:41 15/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 15,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "10:41 15/11/2026"
+            "updated": "16:21 15/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 10
+          "stock": 15
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24884,6 +24884,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794734495528",
+      "time": "16:21 - 15/11/2026",
+      "name": "GPT GO 1 THÁNG ( BH 28 NGÀY )",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 25,
+      "catKey": "chatgpt",
+      "msgKey": "🤖GPTGO1THÁNG(BH28NGÀY)➕Thêm:10📦Tồnkhohiệntại:15💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1794734004037",
       "time": "16:13 - 15/11/2026",
       "name": "Gmail Random 200X~2023 Có 2FA",
@@ -25971,17 +25982,6 @@
       "stockAfter": 573,
       "catKey": "muse-ai",
       "msgKey": "🛍️MUSEAI31BTOKEN-KBH💲Giá:15.800VND💚Tồnkho:486tàikhoản📊Đãbán:763tàikhoản💧Môtả:Mus"
-    },
-    {
-      "id": "hist-1794716061775",
-      "time": "11:14 - 15/11/2026",
-      "name": "Key Microsoft office 2024 Pro Plus 10 năm BH 1 năm",
-      "bot": "taphoathomap_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 14,
-      "catKey": "microsoft",
-      "msgKey": "⭐KeyMicrosoftoffice2024ProPlus10nămBH1năm➕Thêm:10📦Tồnkhohiệntại:14💰Giá:60.000đ"
     }
   ],
   "vidiq": {
