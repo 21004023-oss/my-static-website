@@ -46,16 +46,16 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 115000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 3,
+            "stock": 2,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "06:51 15/11/2026"
+            "updated": "14:57 15/11/2026"
           },
           "piggyai99_bot": {
             "stock": 2,
@@ -24832,6 +24832,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794729429855",
+      "time": "14:57 - 15/11/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 4,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794729038355",
       "time": "14:50 - 15/11/2026",
       "name": "Suno Pro 1 tháng BH 1 Ngày",
@@ -25919,17 +25930,6 @@
       "stockAfter": 115,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:14📦Tồnkhohiệntại:33💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1794708232153",
-      "time": "09:03 - 15/11/2026",
-      "name": "Grok Super 1 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 26,
-      "catKey": "grok",
-      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:8📦Tồnkhohiệntại:20💰Giá:110.000đ"
     }
   ],
   "vidiq": {
