@@ -14915,6 +14915,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794711670430",
+        "name": "Canva Pro Admin Business 100 Slots 1 Tháng BHF",
+        "price": 95000,
+        "cost_price": 85000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản Canva Pro Admin Business add 100 thành viên 1 Tháng (đôi khi có thể trôi date vài ngày nên BH 25 ngày )\n-Định dạng: Token Hotmail/Outlook\n・Hướng dẫn đăng nhập:\n-Đăng nhập Canva bằng email trực tiếp, nhập email xong nó đòi code thì dùng link token vào https://dongvanfb.net/read_mail_box/ dán code vào nhấn Đọc hòm thư để lấy code\nLưu ý: Nếu không add được members vì lỗi bảo mật thì các bác dùng link mời gửi cho khách để khách tự join nhé",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 0,
+            "cost_price": 85000,
+            "selling_price": 95000,
+            "updated": "10:01 15/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 85000,
+          "stock": 0
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -24696,6 +24722,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794711670430",
+      "time": "10:01 - 15/11/2026",
+      "name": "Canva Pro Admin Business 100 Slots 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 95000,
+      "costPrice": 85000,
+      "stockAfter": 0,
+      "catKey": "canva",
+      "msgKey": "🎨CanvaProAdminBusiness100Slots1ThángBHF➕Thêm:2📦Tồnkhohiệntại:0💰Giá:85.000đ"
+    },
+    {
       "id": "hist-1794711067535",
       "time": "09:51 - 15/11/2026",
       "name": "Grok Plus 7 ngày BH 5  ngày",
@@ -25783,17 +25820,6 @@
       "stockAfter": 82,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)-LoginAll➕Thêm:44📦Tồnkhohiệntại:27💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794690645507",
-      "time": "04:10 - 15/11/2026",
-      "name": "Gmail (New) -Login All",
-      "bot": "taphoathomap_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 113,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:44📦Tồnkhohiệntại:27💰Giá:25.000đ"
     }
   ],
   "vidiq": {
