@@ -23833,22 +23833,22 @@
         "name": "KING STAND 1000-1100 credit 1 TH - BH 1 ngày",
         "price": 150000,
         "cost_price": 130000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
-        "detail": "LOGIN BẰNG EMAIL",
+        "detail": "LOGIN BẰNG EMAIL\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 5,
             "cost_price": 130000,
             "selling_price": 150000,
-            "updated": "08:07 15/11/2026"
+            "updated": "16:01 15/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 130000,
-          "stock": 0
+          "stock": 5
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24883,6 +24883,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1794733316953",
+      "time": "16:01 - 15/11/2026",
+      "name": "KING STAND 1000-1100 credit 1 TH - BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 5,
+      "catKey": "khac",
+      "msgKey": "🎬KINGSTAND1000-1100credit1TH-BH1ngày➕Thêm:5📦Tồnkhohiệntại:5💰Giá:130.000đ"
+    },
     {
       "id": "hist-1794733008365",
       "time": "15:56 - 15/11/2026",
@@ -25971,17 +25982,6 @@
       "stockAfter": 20,
       "catKey": "chatgpt",
       "msgKey": "🤖GPTGO1THÁNG(BH28NGÀY)➕Thêm:10📦Tồnkhohiệntại:10💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1794713956359",
-      "time": "10:39 - 15/11/2026",
-      "name": "Spotify Premium 3 Tháng ( BH 1 Tuần)",
-      "bot": "khommo_market_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 10,
-      "catKey": "spotify",
-      "msgKey": "SpotifyPremium3Tháng(BH1Tuần)💰Giá:30.000VND➕Thêm:10📦Tồnkhohiệntại:10"
     }
   ],
   "vidiq": {
