@@ -11334,13 +11334,13 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 23,
-        "stock_text": "Còn 23",
+        "stock": 95,
+        "stock_text": "Còn 95",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 23,
+            "stock": 95,
             "cost_price": 150000,
             "selling_price": 170000,
             "updated": "03:10 16/11/2026"
@@ -11349,7 +11349,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 23
+          "stock": 95
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -25206,6 +25206,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794773411615",
+      "time": "03:10 - 16/11/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 95,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:1📦Tồnkhohiệntại:95💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1794773401687",
       "time": "03:10 - 16/11/2026",
       "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
@@ -26293,17 +26304,6 @@
       "stockAfter": 15,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:10📦Tồnkhohiệntại:15💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1794751557467",
-      "time": "21:05 - 15/11/2026",
-      "name": "Netflix Premium Extra 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 4,
-      "catKey": "netflix",
-      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:140.000đ"
     }
   ],
   "vidiq": {
