@@ -1903,6 +1903,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794764608364",
+        "name": "Spotify Premiumm 1 tháng BHF",
+        "price": 99000,
+        "cost_price": 89000,
+        "stock": 110,
+        "stock_text": "Còn 110",
+        "duration": "1 Tháng",
+        "detail": "- Gửi Email&Pass tài khoản Spotify đang cần nâng cấp.\n- Định dạng email:pass, mỗi dòng 1 tài khoản.\n- Ví dụ: bạn cần nâng cấp 2 tài khoản thì gửi thông tin tương ứng như sau:\n• User1@gmail.com:passspotify1\n• User2@gmail.com:passspotify2\n- Hình thức: Add family, gói Premium sẽ được kích hoạt trực tiếp trên tài khoản của bạn.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 110,
+            "cost_price": 89000,
+            "selling_price": 99000,
+            "updated": "00:43 16/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 89000,
+          "stock": 110
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -25148,6 +25174,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794764608364",
+      "time": "00:43 - 16/11/2026",
+      "name": "Spotify Premiumm 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 99000,
+      "costPrice": 89000,
+      "stockAfter": 110,
+      "catKey": "spotify",
+      "msgKey": "⭐SpotifyPremiumm1thángBHF➕Thêm:94📦Tồnkhohiệntại:110💰Giá:89.000đ"
+    },
+    {
       "id": "hist-1794764093167",
       "time": "00:34 - 16/11/2026",
       "name": "CAPCUT PRO CÁ NHÂN  30 Ngày BHF",
@@ -26235,17 +26272,6 @@
       "stockAfter": 50,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:30📦Tồnkhohiệntại:48💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1794740960394",
-      "time": "18:09 - 15/11/2026",
-      "name": "Grok Plus 30 ngày BH Login",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 79,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:30📦Tồnkhohiệntại:48💰Giá:140.000đ"
     }
   ],
   "vidiq": {
