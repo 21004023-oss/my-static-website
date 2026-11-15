@@ -1825,6 +1825,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794713930442",
+        "name": "Spotify Premium 3 Tháng ( BH 1 Tuần)",
+        "price": 40000,
+        "cost_price": 30000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "3 Tháng",
+        "detail": "Định  dạng : Mail | Pass ( Spotify)\n- Nhập mail chúng tôi cấp để đăng nhập, khi yêu cầu mã về mail thì chọn dùng mật khẩu đăng nhập vào nhập pass chúng tôi cấp\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–10):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 10,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "10:38 15/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 30000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -24722,6 +24748,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794713930442",
+      "time": "10:38 - 15/11/2026",
+      "name": "Spotify Premium 3 Tháng ( BH 1 Tuần)",
+      "bot": "khommo_market_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 10,
+      "catKey": "spotify",
+      "msgKey": "🛍️SpotifyPremium3Tháng(BH1Tuần)💲Giá:30.000VND💚Tồnkho:10tàikhoản📊Đãbán:15tàikhoản"
+    },
+    {
       "id": "hist-1794713632846",
       "time": "10:33 - 15/11/2026",
       "name": "KLing Premier 8900 Credit 1TH BH 72H",
@@ -25809,17 +25846,6 @@
       "stockAfter": 8,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTTEAM6THÁNGBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:350.000đ"
-    },
-    {
-      "id": "hist-1794694547779",
-      "time": "05:15 - 15/11/2026",
-      "name": "Capcut Pro Team 6 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 390000,
-      "costPrice": 340000,
-      "stockAfter": 3,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProTeam6ThángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:340.000đ"
     }
   ],
   "vidiq": {
