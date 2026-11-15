@@ -17071,8 +17071,8 @@
         "id": "p-1791917317024",
         "name": "Wink VIP+ 7 Ngày BHF",
         "price": 45000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "7 Ngày",
         "detail": "Wink gói VIP+ 7 Ngày BHF 100 credits login 1 thiết bị,  nếu đăng nhập trên điện thoại lỗi thì có thể có thể dùng trên PC\n- Định dạng: (Email|Pass Hotmail|Web mail)\n- Có đính kèm token đọc hotmail nhanh, web đọc token: https://dongvanfb.net/read_mail_box\nLink tải app Wink trên máy tính: https://wink.ai/vi\n-CÁCH ĐĂNG NHẬP NẾU KHÔNG HIỆN Ô EMAIL và PASS\nỞ màn hình đăng nhập nhấn vào More login methods, tiếp theo có 3 biểu tượng bên dưới thì nhấn vào biểu tượng tin nhắn dưới cùng bên phải, rồi nhấn tiếp vào Log in with password, để ý bên dưới có biểu tượng Email, nhấn vào là hiện ô nhập email và pass\nLưu ý: Không bảo hành lỗi login quá nhiều thiết bị\nCÁC MÁY ĐÃ DÙNG TRIAL 7 NGÀY RỒI ĐĂNG NHẬP CÓ THỂ LỖI KHÔNG CÓ GÓI NÊN CÂN NHẮC TRƯỚC KHI MUA, KHÔNG HOÀN TIỀN NẾU SHOP CHECK TÀI KHOẢN VẪN CÒN GÓI",
         "sources": {
@@ -17083,20 +17083,20 @@
             "updated": "01:35 16/11/2026"
           },
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 0,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "00:17 16/11/2026"
+            "updated": "01:35 16/11/2026"
           }
         },
-        "cost_price": 35000,
+        "cost_price": 15000,
         "hidden": false,
         "needs_review": false,
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 35000,
-          "stock": 1
+          "bot": "@taphoathomap_bot",
+          "cost_price": 15000,
+          "stock": 0
         }
       },
       {
@@ -25174,6 +25174,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794767712319",
+      "time": "01:35 - 16/11/2026",
+      "name": "Wink VIP+ 7 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 0,
+      "catKey": "wink",
+      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:0💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1794767705419",
       "time": "01:35 - 16/11/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -26261,17 +26272,6 @@
       "stockAfter": 2,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1400credit1THBh1ngày➕Thêm:1📦Tồnkhohiệntại:2💰Giá:145.000đ"
-    },
-    {
-      "id": "hist-1794746973728",
-      "time": "19:49 - 15/11/2026",
-      "name": "Kling Standard 1400 credit 1TH Bh 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 165000,
-      "costPrice": 145000,
-      "stockAfter": 2,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1400credit1THBh1ngày💰Giá:145k📦Tồnkho:2tàikhoản📊Đãbán:11tàikhoản✏️V"
     }
   ],
   "vidiq": {
