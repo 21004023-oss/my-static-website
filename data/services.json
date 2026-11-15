@@ -10309,16 +10309,16 @@
         "name": "Grok Plus 7 ngày BH 5 ngày",
         "price": 95000,
         "cost_price": 80000,
-        "stock": 30,
-        "stock_text": "Còn 30",
+        "stock": 32,
+        "stock_text": "Còn 32",
         "duration": "7 Ngày",
         "detail": "Mail | Pass\nKhông đổi mail pass trong quá trình dùng\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 14,
+            "stock": 16,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "13:58 15/11/2026"
+            "updated": "15:10 15/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 16,
@@ -10330,7 +10330,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 80000,
-          "stock": 14
+          "stock": 16
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -24832,6 +24832,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794730253325",
+      "time": "15:10 - 15/11/2026",
+      "name": "Grok Plus 7 ngày BH 5 ngày",
+      "bot": "piggyai99_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 32,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus7ngàyBH5ngày💰Giá:80k📦Tồnkho:16tàikhoản📊Đãbán:40tàikhoản💎Môtả:Mail|PassK"
+    },
+    {
       "id": "hist-1794729429855",
       "time": "14:57 - 15/11/2026",
       "name": "Netflix Premium Extra 1 Tháng BHF",
@@ -25919,17 +25930,6 @@
       "stockAfter": 99,
       "catKey": "capcut",
       "msgKey": "✂️CapcutPro7NgàyBHF➕Thêm:9📦Tồnkhohiệntại:41💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1794708949137",
-      "time": "09:15 - 15/11/2026",
-      "name": "CAPCUT PRO CÁ NHÂN  30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 75000,
-      "costPrice": 65000,
-      "stockAfter": 115,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:14📦Tồnkhohiệntại:33💰Giá:65.000đ"
     }
   ],
   "vidiq": {
