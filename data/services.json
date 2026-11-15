@@ -6173,6 +6173,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794724039974",
+        "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 12H",
+        "price": 100000,
+        "cost_price": 90000,
+        "stock": 20,
+        "stock_text": "Còn 20",
+        "duration": "1 Tháng",
+        "detail": "- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ\n✏️",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 20,
+            "cost_price": 90000,
+            "selling_price": 100000,
+            "updated": "13:27 15/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 90000,
+          "stock": 20
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -24806,6 +24832,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794724039974",
+      "time": "13:27 - 15/11/2026",
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH 12H",
+      "bot": "ntnshopre_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 20,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH12H➕Thêm:20📦Tồnkhohiệntại:20💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1794723472016",
       "time": "13:17 - 15/11/2026",
       "name": "Suno Pro 1TH BH 1 ngày",
@@ -25893,17 +25930,6 @@
       "stockAfter": 31,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard800credit1THBh1ngày💰Giá:120k📦Tồnkho:31tàikhoản📊Đãbán:46tàikhoản✏️V"
-    },
-    {
-      "id": "hist-1794702622391",
-      "time": "07:30 - 15/11/2026",
-      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 161,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1000credit1THBH1ngày➕Thêm:13📦Tồnkhohiệntại:35💰Giá:140.000đ"
     }
   ],
   "vidiq": {
