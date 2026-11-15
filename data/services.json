@@ -10283,16 +10283,16 @@
         "name": "Grok Plus 7 ngày BH 5 ngày",
         "price": 95000,
         "cost_price": 80000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "7 Ngày",
         "detail": "Mail | Pass\nKhông đổi mail pass trong quá trình dùng\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 12,
+            "stock": 1,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "23:17 14/11/2026"
+            "updated": "12:43 15/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 3,
@@ -10304,7 +10304,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 80000,
-          "stock": 12
+          "stock": 1
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -24806,6 +24806,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794721397191",
+      "time": "12:43 - 15/11/2026",
+      "name": "Grok Plus 7 ngày BH 5 ngày",
+      "bot": "piggyai99_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 4,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1794720480573",
       "time": "12:28 - 15/11/2026",
       "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
@@ -25893,17 +25904,6 @@
       "stockAfter": 0,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:0💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1794701058852",
-      "time": "07:04 - 15/11/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 1,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:0💰Giá:35.000đ"
     }
   ],
   "vidiq": {
