@@ -9096,22 +9096,22 @@
         "name": "Grok + Cursor Premium 14 ngày KBH",
         "price": 167000,
         "cost_price": 147000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nLogin check gói hết bảo hành\nKhách có 1h login check gói và báo lại nếu mất gói để được BH nếu báo muộn sẽ không bảo hành\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 0,
             "cost_price": 147000,
             "selling_price": 167000,
-            "updated": "09:03 14/11/2026"
+            "updated": "07:06 15/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 147000,
-          "stock": 1
+          "stock": 0
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24690,6 +24690,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794701189173",
+      "time": "07:06 - 15/11/2026",
+      "name": "Grok + Cursor Premium 14 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 167000,
+      "costPrice": 147000,
+      "stockAfter": 0,
+      "catKey": "cursor",
+      "msgKey": "⚡Grok+CursorPremium14ngàyKBH➕Thêm:4📦Tồnkhohiệntại:0💰Giá:147.000đ"
+    },
+    {
       "id": "hist-1794701110749",
       "time": "07:05 - 15/11/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -25777,17 +25788,6 @@
       "stockAfter": 53,
       "catKey": "muse-ai",
       "msgKey": "⭐GóiVIP1.APIMUSE-Tạo333video-1thángBH15Ngày➕Thêm:30📦Tồnkhohiệntại:32💰Giá:100.000"
-    },
-    {
-      "id": "hist-1794677980401",
-      "time": "00:39 - 15/11/2026",
-      "name": "NordVPN 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 20,
-      "catKey": "nordvpn",
-      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:25.000đ"
     }
   ],
   "vidiq": {
