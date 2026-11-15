@@ -10413,8 +10413,8 @@
         "name": "Grok Plus 7 ngày BH 5 ngày",
         "price": 95000,
         "cost_price": 80000,
-        "stock": 37,
-        "stock_text": "Còn 37",
+        "stock": 56,
+        "stock_text": "Còn 56",
         "duration": "7 Ngày",
         "detail": "Mail | Pass\nKhông đổi mail pass trong quá trình dùng\n✏️",
         "sources": {
@@ -10429,6 +10429,12 @@
             "cost_price": 80000,
             "selling_price": 90000,
             "updated": "19:01 15/11/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 19,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "21:00 15/11/2026"
           }
         },
         "cheapest_source": {
@@ -25064,6 +25070,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794751240992",
+      "time": "21:00 - 15/11/2026",
+      "name": "Grok Plus 7 ngày BH 5 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 56,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:2📦Tồnkhohiệntại:19💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1794751235084",
       "time": "21:00 - 15/11/2026",
       "name": "Grok Plus 7 ngày BH 5 ngày",
@@ -26151,17 +26168,6 @@
       "stockAfter": 238,
       "catKey": "gmail",
       "msgKey": "📧GmailRandomip2020-2024➕Thêm:112📦Tồnkhohiệntại:138💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794731829536",
-      "time": "15:37 - 15/11/2026",
-      "name": "Gmail Random 200X~2023 Có 2FA",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 110,
-      "catKey": "gmail",
-      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:49📦Tồnkhohiệntại:49💰Giá:45.000đ"
     }
   ],
   "vidiq": {
