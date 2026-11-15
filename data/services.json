@@ -9028,13 +9028,13 @@
         "name": "SLOT GEMINI PRO + ANTIGRAVITY 5TB - 1  THÁNG BHF",
         "price": 40000,
         "cost_price": 30000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "1 Tháng",
         "detail": "🛒 CÁCH ĐẶT HÀNG\n✅ Trước khi gửi Gmail:\n- Đóng hồ sơ thanh toán: https://payments.google.com/gp/w/home/settings\n- Kiểm tra Family: http://g.co/yourfamily\n❗ Gmail không được nằm trong Family khác.\n📩 BOT báo thành công → gửi Gmail cho Admin → vào link Family và bấm “Tham gia”.\n⚠️ Nếu đã tham gia fam, đổi mail mất 50% giá trị đơn hàng\nXem hướng dẫn tham gia : https://drive.google.com/drive/folders/1KLpqDMJpHfEwD4146EaJaCBlNTMmuQO9?usp=drive_link\n⏱️ Xử lý tối đa 24h từ lúc mua hàng , nếu đồng ý thì mua hàng, vì lượng đơn hàng lớn. Xin đừng hối thúc shop. Xin cảm ơn !",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 15,
+            "stock": 18,
             "cost_price": 30000,
             "selling_price": 40000,
             "updated": "16:55 15/11/2026"
@@ -9043,7 +9043,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 30000,
-          "stock": 15
+          "stock": 18
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24942,6 +24942,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794736530672",
+      "time": "16:55 - 15/11/2026",
+      "name": "SLOT GEMINI PRO  + ANTIGRAVITY 5TB - 1 THÁNG BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 18,
+      "catKey": "google-veo",
+      "msgKey": "☁️SLOTGEMINIPRO+ANTIGRAVITY5TB-1THÁNGBHF➕Thêm:18📦Tồnkhohiệntại:18💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1794736515765",
       "time": "16:55 - 15/11/2026",
       "name": "SLOT GEMINI PRO + ANTIGRAVITY 5TB - 1  THÁNG BHF",
@@ -26029,17 +26040,6 @@
       "stockAfter": 384,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:49📦Tồnkhohiệntại:336💰Giá:220.000đ"
-    },
-    {
-      "id": "hist-1794718417682",
-      "time": "11:53 - 15/11/2026",
-      "name": "ChatGPT Plus GGpay 30D BHF",
-      "bot": "piggyai99_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 326,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusGGpay30DBHF➕Thêm:23📦Tồnkhohiệntại:192💰Giá:160.000đ"
     }
   ],
   "vidiq": {
