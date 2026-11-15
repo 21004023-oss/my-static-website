@@ -19593,9 +19593,9 @@
         "id": "p-1792402722954",
         "name": "Gmail (New) -Login phone",
         "price": 43000,
-        "cost_price": 23000,
-        "stock": 40,
-        "stock_text": "Còn 40",
+        "cost_price": 33000,
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "Bảo hành login 24H- Login thành công là hết BH\nGmail Login bằng Điện thoại ( Ngâm 1 thời gian có thể login đc pc bình thường )\n-Cách lượt quét QR : Đăng nhập bằng ứng dụng gmail sẽ hạ chế quét QR.\n- Định dạng : Gmail | Pass | mail khôi phục\n✏️",
         "sources": {
@@ -19606,20 +19606,20 @@
             "updated": "11:14 04/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 20,
+            "stock": 0,
             "cost_price": 23000,
             "selling_price": 33000,
-            "updated": "11:14 04/11/2026"
+            "updated": "08:38 15/11/2026"
           }
         },
         "hidden": false,
         "needs_review": false,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 23000,
+          "bot": "@sieuthistore_bot",
+          "cost_price": 33000,
           "stock": 20
         },
-        "import_note": "Nhập: @taphoathomap_bot"
+        "import_note": "Nhập: @sieuthistore_bot"
       },
       {
         "id": "p-1792404466054",
@@ -24696,6 +24696,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794706693043",
+      "time": "08:38 - 15/11/2026",
+      "name": "Gmail (New) -Login phone",
+      "bot": "taphoathomap_bot",
+      "price": 33000,
+      "costPrice": 23000,
+      "stockAfter": 20,
+      "catKey": "gmail",
+      "msgKey": "📧Gmail(New)-Loginphone➕Thêm:44📦Tồnkhohiệntại:0💰Giá:23.000đ"
+    },
+    {
       "id": "hist-1794706456446",
       "time": "08:34 - 15/11/2026",
       "name": "⚡️ Grok Plus 7 ngày -  BH 1 Ngày",
@@ -25783,17 +25794,6 @@
       "stockAfter": 2,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1794685504457",
-      "time": "02:45 - 15/11/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 13,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:35.000đ"
     }
   ],
   "vidiq": {
