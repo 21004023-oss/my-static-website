@@ -15758,24 +15758,30 @@
         "name": "Capcut Pro 7 Ngày BH 6 Ngày",
         "price": 23000,
         "cost_price": 10000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "7 Ngày",
-        "detail": "Capcut Pro 6-7d. Định dạng tài khoản: Email | Mật khẩu 2. Login bằng điện thoại: Mở app, chọn Sign in with Email. 3. Login bằng PC: Sau khi login vào điện thoại thì tiến hành quét mã QR để đăng nhập cho PC. - iOS: Ngay trong Capcut mục TÔI > Quét QR. - Android: Phải cập nhật Capcut lên bản mới nhất mới có tính năng quét QR trong app. Không bảo hành đăng nhập quá thường xuyên.",
+        "detail": "Capcut Pro 1. Định dạng tài khoản: Email | Mật khẩu 2. Login bằng điện thoại: Mở app, chọn Sign in with Email. 3. Login bằng PC: Sau khi login vào điện thoại thì tiến hành quét mã QR để đăng nhập cho PC. - iOS: Ngay trong Capcut mục TÔI > Quét QR. - Android: Phải cập nhật Capcut lên bản mới nhất mới có tính năng quét QR trong app.\n✏️",
         "sources": {
           "sieuthistore_bot": {
             "stock": 0,
             "cost_price": 10000,
             "selling_price": 20000,
             "updated": "19:24 11/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 30,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "20:27 15/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
+          "bot": "@taphoathomap_bot",
           "cost_price": 10000,
-          "stock": 0
+          "stock": 30
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -25032,6 +25038,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794749272528",
+      "time": "20:27 - 15/11/2026",
+      "name": "Capcut Pro 7 Ngày BH 6D",
+      "bot": "taphoathomap_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 30,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutPro7NgàyBH6D➕Thêm:30📦Tồnkhohiệntại:30💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1794749233236",
       "time": "20:27 - 15/11/2026",
       "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
@@ -26119,17 +26136,6 @@
       "stockAfter": 10,
       "catKey": "tiktok",
       "msgKey": "🎵TiktokViệtngâmtrên1Năm💰Giá:85k📦Tồnkho:5tàikhoản📊Đãbán:219tàikhoản💎Môtả:TIKTOKVI"
-    },
-    {
-      "id": "hist-1794730253325",
-      "time": "15:10 - 15/11/2026",
-      "name": "Grok Plus 7 ngày BH 5 ngày",
-      "bot": "piggyai99_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 32,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus7ngàyBH5ngày💰Giá:80k📦Tồnkho:16tàikhoản📊Đãbán:40tàikhoản💎Môtả:Mail|PassK"
     }
   ],
   "vidiq": {
