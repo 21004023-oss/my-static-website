@@ -16124,22 +16124,22 @@
         "name": "Adobe Express Premium 12 tháng  KBH",
         "price": 55000,
         "cost_price": 45000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Năm",
         "detail": "• Link chỉ dành cho tài khoản chưa từng tạo Adobe\n• Không cần thêm phương thức thanh toán\n• Lưu ý đây là bản Adobe Express\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 10,
+            "stock": 30,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "21:39 07/11/2026"
+            "updated": "16:51 15/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 45000,
-          "stock": 10
+          "stock": 30
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -24916,6 +24916,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794736290916",
+      "time": "16:51 - 15/11/2026",
+      "name": "Adobe Express Premium 12 tháng  KBH",
+      "bot": "sieuthistore_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 30,
+      "catKey": "adobe",
+      "msgKey": "🎨AdobeExpressPremium12thángKBH➕Thêm:30📦Tồnkhohiệntại:30💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1794736101020",
       "time": "16:48 - 15/11/2026",
       "name": "KING STAND 700-850 credit 1 TH - BH 1 ngày",
@@ -26003,17 +26014,6 @@
       "stockAfter": 270,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h💰Giá:20k📦Tồnkho:67tàikhoản📊Đãbán:986tàikhoản💎M"
-    },
-    {
-      "id": "hist-1794718215948",
-      "time": "11:50 - 15/11/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng - BH 24h",
-      "bot": "taphoathomap_bot",
-      "price": 30000,
-      "costPrice": 20000,
-      "stockAfter": 270,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:22📦Tồnkhohiệntại:67💰Giá:20.000đ"
     }
   ],
   "vidiq": {
