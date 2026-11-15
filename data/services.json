@@ -12396,9 +12396,9 @@
         "id": "p-1794096077070",
         "name": "HEYGEN CREATOR 1 THÁNG ( BH 2 ngày)",
         "price": 510000,
-        "cost_price": 460000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "cost_price": 400000,
+        "stock": 61,
+        "stock_text": "Còn 61",
         "duration": "1 Tháng",
         "detail": "Heygen Creator chính chủ\n🔥 600 credit chính chủ\n🔥Hàng inapp IOS cực tốt, đa số khách sử dụng đủ 30 ngày\n📦 Oder: 1 -2 h\n🛡️ Bảo hành: 2 ngày\nKhách gửi tài khoản: Mail và pass heygen để đăng nhập thuận tiện. đăng nhập qua google thì log out ra sign up lại mail đó đặt lại pass heygen. Cần tài khoản cấp thì note cho shop\n✏️",
         "sources": {
@@ -12407,14 +12407,20 @@
             "cost_price": 460000,
             "selling_price": 510000,
             "updated": "19:29 08/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 54,
+            "cost_price": 400000,
+            "selling_price": 450000,
+            "updated": "16:39 15/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 460000,
-          "stock": 7
+          "bot": "@taphoathomap_bot",
+          "cost_price": 400000,
+          "stock": 54
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -24884,6 +24890,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794735551465",
+      "time": "16:39 - 15/11/2026",
+      "name": "HEYGEN CREATOR 1 THÁNG ( BH 2 ngày)",
+      "bot": "taphoathomap_bot",
+      "price": 450000,
+      "costPrice": 400000,
+      "stockAfter": 61,
+      "catKey": "heygen",
+      "msgKey": "🎥HEYGENCREATOR1THÁNG(BH2ngày)💰Giá:400k📦Tồnkho:54tàikhoản📊Đãbán:0tàikhoản✏️Vuilòn"
+    },
+    {
       "id": "hist-1794735153435",
       "time": "16:32 - 15/11/2026",
       "name": "Capcut Pro Cá Nhân 30D  BHF",
@@ -25971,17 +25988,6 @@
       "stockAfter": 122,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:5📦Tồnkhohiệntại:40💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1794717061598",
-      "time": "11:31 - 15/11/2026",
-      "name": "VIDIQ MAX 6000 credit 15D BH  15D",
-      "bot": "taphoathomap_bot",
-      "price": 450000,
-      "costPrice": 400000,
-      "stockAfter": 2,
-      "catKey": "vidiq",
-      "msgKey": "▶️VIDIQMAX6000credit15DBH15D➕Thêm:2📦Tồnkhohiệntại:2💰Giá:400.000đ"
     }
   ],
   "vidiq": {
