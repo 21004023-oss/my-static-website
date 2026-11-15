@@ -10309,13 +10309,13 @@
         "name": "Grok Plus 7 ngày BH 5 ngày",
         "price": 95000,
         "cost_price": 80000,
-        "stock": 30,
-        "stock_text": "Còn 30",
+        "stock": 32,
+        "stock_text": "Còn 32",
         "duration": "7 Ngày",
         "detail": "Mail | Pass\nKhông đổi mail pass trong quá trình dùng\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 14,
+            "stock": 16,
             "cost_price": 80000,
             "selling_price": 90000,
             "updated": "15:36 15/11/2026"
@@ -10330,7 +10330,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 80000,
-          "stock": 14
+          "stock": 16
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -24832,6 +24832,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794731813779",
+      "time": "15:36 - 15/11/2026",
+      "name": "Grok Plus 7 ngày BH 5 ngày",
+      "bot": "piggyai99_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 32,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:3📦Tồnkhohiệntại:16💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1794731807968",
       "time": "15:36 - 15/11/2026",
       "name": "Grok Plus 7 ngày BH 5 ngày",
@@ -25919,17 +25930,6 @@
       "stockAfter": 0,
       "catKey": "grok",
       "msgKey": "⚡⚡️GrokPlus7ngày-BH1Ngày➕Thêm:3📦Tồnkhohiệntại:0💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1794711670430",
-      "time": "10:01 - 15/11/2026",
-      "name": "Canva Pro Admin Business 100 Slots 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 95000,
-      "costPrice": 85000,
-      "stockAfter": 0,
-      "catKey": "canva",
-      "msgKey": "🎨CanvaProAdminBusiness100Slots1ThángBHF➕Thêm:2📦Tồnkhohiệntại:0💰Giá:85.000đ"
     }
   ],
   "vidiq": {
