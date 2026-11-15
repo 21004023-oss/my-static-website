@@ -9185,11 +9185,11 @@
         "id": "p-1793980368534",
         "name": "Grok + Cursor Premium 14 ngày (BH 24h)",
         "price": 160000,
-        "cost_price": 139000,
-        "stock": 23,
-        "stock_text": "Còn 23",
+        "cost_price": 140000,
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "1 Ngày",
-        "detail": "• Grok Premium 14 ngày,\n• Định dạng: Mail|Pass\n• Tài khoản đã check 100% không sai mật khẩu ,\n-Lưu ý: Sau khi mua hàng vui lòng Chage + đổi mật khẩu, shop chỉ hỗ trợ bảo hành nếu rớt gói, còn các vấn đề khác shop không hỗ trợ ạ.\n✏️",
+        "detail": "• Grok Premium 14 ngày,\n• Định dạng: Mail|Pass\n• Tài khoản đã check 100% không sai mật khẩu ,\n-Lưu ý: Sau khi mua hàng vui lòng Chage + đổi mật khẩu, shop chỉ hỗ trợ bảo hành nếu rớt gói, còn các vấn đề khác shop không hỗ trợ ạ.",
         "sources": {
           "sieuthistore_bot": {
             "stock": 8,
@@ -9198,10 +9198,10 @@
             "updated": "00:12 15/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 8,
+            "stock": 0,
             "cost_price": 139000,
             "selling_price": 159000,
-            "updated": "00:12 15/11/2026"
+            "updated": "07:53 15/11/2026"
           },
           "piggyai99_bot": {
             "stock": 7,
@@ -9211,11 +9211,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 139000,
+          "bot": "@sieuthistore_bot",
+          "cost_price": 140000,
           "stock": 8
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -24696,6 +24696,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794704026656",
+      "time": "07:53 - 15/11/2026",
+      "name": "Grok + Cursor Premium 14 ngày (BH 24h)",
+      "bot": "taphoathomap_bot",
+      "price": 159000,
+      "costPrice": 139000,
+      "stockAfter": 15,
+      "catKey": "cursor",
+      "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)➕Thêm:5📦Tồnkhohiệntại:0💰Giá:139.000đ"
+    },
+    {
       "id": "hist-1794703796963",
       "time": "07:49 - 15/11/2026",
       "name": "Suno Pro 1 tháng BH 1 Ngày",
@@ -25783,17 +25794,6 @@
       "stockAfter": 20,
       "catKey": "khac",
       "msgKey": "⭐AdguardVPN7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1794682787267",
-      "time": "01:59 - 15/11/2026",
-      "name": "Adguard VPN 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 10,
-      "catKey": "khac",
-      "msgKey": "⭐AdguardVPN7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:35.000đ"
     }
   ],
   "vidiq": {
