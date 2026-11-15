@@ -15798,6 +15798,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794715563727",
+        "name": "Capcut Pro Team 7 Ngày (650 Credit)",
+        "price": 19500,
+        "cost_price": 9500,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "7 Ngày",
+        "detail": "Định dạng: Email | Pass\n- Bảo hành nếu bị truy cập quá thường xuyên, Đăng nhập quá thiết bị\n- Sử dụng 1-2 thiết bị\n- Bảo hành Full gói\n- Hướng dẫn sử dụng : https://docs.google.com/document/d/16_0BFciY4CrVq7ODowBN5OybWE1Csbt9tF8i8b1JETY/edit?tab=t.0\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–10):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 10,
+            "cost_price": 9500,
+            "selling_price": 19500,
+            "updated": "11:06 15/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 9500,
+          "stock": 10
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -24748,6 +24774,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794715563727",
+      "time": "11:06 - 15/11/2026",
+      "name": "Capcut Pro Team 7 Ngày (650 Credit)",
+      "bot": "khommo_market_bot",
+      "price": 19500,
+      "costPrice": 9500,
+      "stockAfter": 10,
+      "catKey": "capcut",
+      "msgKey": "🛍️CapcutProTeam7Ngày(650Credit)💲Giá:9.500VND💚Tồnkho:10tàikhoản📊Đãbán:745tàikhoản"
+    },
+    {
       "id": "hist-1794714821890",
       "time": "10:53 - 15/11/2026",
       "name": "Capcut Pro 7Day 500 credits",
@@ -25835,17 +25872,6 @@
       "stockAfter": 13,
       "catKey": "hma-vpn",
       "msgKey": "⭐HMAVPNAndroi/PC/IOS30ngàyBHF➕Thêm:12📦Tồnkhohiệntại:13💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794696027160",
-      "time": "05:40 - 15/11/2026",
-      "name": "Surfshark VPN  Random 5-7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 22222,
-      "costPrice": 12222,
-      "stockAfter": 4,
-      "catKey": "surfshark",
-      "msgKey": "🦈SurfsharkVPNRandom5-7NgàyBHF➕Thêm:2📦Tồnkhohiệntại:4💰Giá:12.222đ"
     }
   ],
   "vidiq": {
