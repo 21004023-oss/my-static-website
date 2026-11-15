@@ -9973,8 +9973,8 @@
         "name": "Grok Super 1 ngày KBH",
         "price": 140000,
         "cost_price": 110000,
-        "stock": 36,
-        "stock_text": "Còn 36",
+        "stock": 26,
+        "stock_text": "Còn 26",
         "duration": "1 Ngày",
         "detail": "GROK 1 DAY\n🛡️ Hướng dẫn sử dụng:\nYêu cầu: GROK SUPER 1 DAY\nMua về log luôn, không thay đổi gì hết\nThời hạn gói: 1 ngày\nSản lượng tham khảo:\n🎬 Khoảng 100 video 6 giây\n🎬 Khoảng 50–70 video 10 giây\nSản lượng thực tế có thể thay đổi tùy tình trạng hệ thống và giới hạn của Grok tại từng thời điểm.\n🛡️ CHÍNH SÁCH BẢO HÀNH\nGói Grok Super được bảo hành đến 11h đêm kể từ thời điểm mua\n✏️",
         "sources": {
@@ -9985,16 +9985,16 @@
             "updated": "13:08 02/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 30,
+            "stock": 20,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "08:05 14/11/2026"
+            "updated": "09:03 15/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 110000,
-          "stock": 30
+          "stock": 20
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -24696,6 +24696,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794708232153",
+      "time": "09:03 - 15/11/2026",
+      "name": "Grok Super 1 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 26,
+      "catKey": "grok",
+      "msgKey": "⚡GrokSuper1ngàyKBH➕Thêm:8📦Tồnkhohiệntại:20💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1794708007565",
       "time": "09:00 - 15/11/2026",
       "name": "Suno Pro 1 tháng BH 1 Ngày",
@@ -25783,17 +25794,6 @@
       "stockAfter": 15,
       "catKey": "wink",
       "msgKey": "⭐WinkVip30NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1794687952025",
-      "time": "03:25 - 15/11/2026",
-      "name": "ChatGPT Plus GGpay 30D BHF",
-      "bot": "piggyai99_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 336,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusGGpay30DBHF➕Thêm:1📦Tồnkhohiệntại:202💰Giá:160.000đ"
     }
   ],
   "vidiq": {
