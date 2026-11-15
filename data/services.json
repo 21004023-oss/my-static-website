@@ -12449,6 +12449,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794735566110",
+        "name": "HEYGEN CREATOR 1 THÁNG ( BH 5 ngày)",
+        "price": 500000,
+        "cost_price": 450000,
+        "stock": 54,
+        "stock_text": "Còn 54",
+        "duration": "1 Tháng",
+        "detail": "Gói HEYGEN CREATOR 1 THÁNG ( BH 5 ngày) bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 54,
+            "cost_price": 450000,
+            "selling_price": 500000,
+            "updated": "16:39 15/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 450000,
+          "stock": 54
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -24890,6 +24916,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794735566110",
+      "time": "16:39 - 15/11/2026",
+      "name": "HEYGEN CREATOR 1 THÁNG ( BH 5 ngày)",
+      "bot": "taphoathomap_bot",
+      "price": 500000,
+      "costPrice": 450000,
+      "stockAfter": 54,
+      "catKey": "heygen",
+      "msgKey": "🎥HEYGENCREATOR1THÁNG(BH5ngày)💰Giá:450k📦Tồnkho:54tàikhoản📊Đãbán:0tàikhoản✏️Vuilòn"
+    },
+    {
       "id": "hist-1794735558325",
       "time": "16:39 - 15/11/2026",
       "name": "HEYGEN CREATOR 1 THÁNG ( BH 2 ngày)",
@@ -25977,17 +26014,6 @@
       "stockAfter": 10,
       "catKey": "netflix",
       "msgKey": "NetflixPremium1Day💰Giá:2.000VND➕Thêm:10📦Tồnkhohiệntại:10"
-    },
-    {
-      "id": "hist-1794717083108",
-      "time": "11:31 - 15/11/2026",
-      "name": "Netflix Premium 1 Day",
-      "bot": "khommo_market_bot",
-      "price": 12000,
-      "costPrice": 2000,
-      "stockAfter": 10,
-      "catKey": "netflix",
-      "msgKey": "🛍️NetflixPremium1Day💲Giá:2.000VND💚Tồnkho:10tàikhoản📊Đãbán:32tàikhoản💧Môtả:Chấtlư"
     }
   ],
   "vidiq": {
