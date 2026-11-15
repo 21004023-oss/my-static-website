@@ -15134,9 +15134,9 @@
         "id": "p-1794740810994",
         "name": "Slot Canva Pro 1 Tháng BHF",
         "price": 45000,
-        "cost_price": 35000,
-        "stock": 25,
-        "stock_text": "Còn 25",
+        "cost_price": 10000,
+        "stock": 50,
+        "stock_text": "Còn 50",
         "duration": "1 Tháng",
         "detail": "- Dán link lên web để join - Mỗi link chỉ sử dụng được 1 lần\n✏️",
         "sources": {
@@ -15145,14 +15145,20 @@
             "cost_price": 35000,
             "selling_price": 45000,
             "updated": "18:06 15/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 25,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "18:06 15/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 35000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 10000,
           "stock": 25
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -24968,6 +24974,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794740817539",
+      "time": "18:06 - 15/11/2026",
+      "name": "SLOT CANVA PRO 1 THÁNG BHF",
+      "bot": "taphoathomap_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 50,
+      "catKey": "canva",
+      "msgKey": "🎨SLOTCANVAPRO1THÁNGBHF➕Thêm:25📦Tồnkhohiệntại:25💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1794740810994",
       "time": "18:06 - 15/11/2026",
       "name": "Slot Canva Pro 1 Tháng BHF",
@@ -26055,17 +26072,6 @@
       "stockAfter": 44,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+1ThángBHF➕Thêm:17📦Tồnkhohiệntại:17💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1794722578058",
-      "time": "13:02 - 15/11/2026",
-      "name": "Gmail Ngâm 6T Có Trial YTB",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 127,
-      "catKey": "youtube",
-      "msgKey": "📧GmailNgâm6TCóTrialYTB➕Thêm:127📦Tồnkhohiệntại:127💰Giá:30.000đ"
     }
   ],
   "vidiq": {
