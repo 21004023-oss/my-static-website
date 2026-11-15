@@ -24774,6 +24774,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794717051339",
+      "time": "11:30 - 15/11/2026",
+      "name": "VIDIQ MAX 6000 credit 15D BH  15D",
+      "bot": "taphoathomap_bot",
+      "price": 450000,
+      "costPrice": 400000,
+      "stockAfter": 2,
+      "catKey": "vidiq",
+      "msgKey": "▶️VIDIQMAX6000credit15DBH15D💰Giá:400k📦Tồnkho:2tàikhoản📊Đãbán:3tàikhoản✏️Vuilòngn"
+    },
+    {
       "id": "hist-1794716339792",
       "time": "11:18 - 15/11/2026",
       "name": "MUSE AI 31B TOKEN - KBH",
@@ -25861,17 +25872,6 @@
       "stockAfter": 260,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:38📦Tồnkhohiệntại:62💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1794697356653",
-      "time": "06:02 - 15/11/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng - BH 24h",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 334,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:38📦Tồnkhohiệntại:62💰Giá:45.000đ"
     }
   ],
   "vidiq": {
@@ -25924,6 +25924,32 @@
           "bot": "@taphoathomap_bot",
           "cost_price": 170000,
           "stock": 3
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
+      },
+      {
+        "id": "p-1794717051339",
+        "name": "VIDIQ MAX 6000 credit 15D BH  15D",
+        "price": 450000,
+        "cost_price": 400000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Gói VIDIQ MAX 6000 credit 15D BH  15D bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 400000,
+            "selling_price": 450000,
+            "updated": "11:30 15/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 400000,
+          "stock": 2
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
