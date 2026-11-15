@@ -14673,11 +14673,11 @@
         "id": "p-1793524689291",
         "name": "Suno Premier 30 ngày BH 1 ngày",
         "price": 480000,
-        "cost_price": 420000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "cost_price": 400000,
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
-        "detail": "Mail | Pass | Mail khôi phục",
+        "detail": "Mail - Pass - Mail khôi phục\nhttps://fviainboxes.com/\n✏️",
         "sources": {
           "piggyai99_bot": {
             "stock": 0,
@@ -14686,18 +14686,18 @@
             "updated": "17:21 11/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 0,
-            "cost_price": 430000,
-            "selling_price": 480000,
-            "updated": "17:22 11/11/2026"
+            "stock": 1,
+            "cost_price": 400000,
+            "selling_price": 450000,
+            "updated": "21:40 15/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 420000,
-          "stock": 0
+          "bot": "@taphoathomap_bot",
+          "cost_price": 400000,
+          "stock": 1
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -25070,6 +25070,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794753631931",
+      "time": "21:40 - 15/11/2026",
+      "name": "Suno Premier 1 tháng BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 450000,
+      "costPrice": 400000,
+      "stockAfter": 1,
+      "catKey": "suno",
+      "msgKey": "🎵SunoPremier1thángBH1ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:400.000đ"
+    },
+    {
       "id": "hist-1794753368161",
       "time": "21:36 - 15/11/2026",
       "name": "Netflix Premium Extra 1 Tháng BHF",
@@ -26157,17 +26168,6 @@
       "stockAfter": 5,
       "catKey": "khac",
       "msgKey": "🎬KINGSTAND1000-1100credit1TH-BH1ngày➕Thêm:5📦Tồnkhohiệntại:5💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1794733008365",
-      "time": "15:56 - 15/11/2026",
-      "name": "Gmail  Random 2020~2026 - Có trial YTB",
-      "bot": "taphoathomap_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 14,
-      "catKey": "youtube",
-      "msgKey": "📧GmailRandom2020~2026-CótrialYTB➕Thêm:14📦Tồnkhohiệntại:14💰Giá:35.000đ"
     }
   ],
   "vidiq": {
