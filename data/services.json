@@ -46,16 +46,16 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 115000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 3,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "21:05 15/11/2026"
+            "updated": "21:36 15/11/2026"
           },
           "piggyai99_bot": {
             "stock": 2,
@@ -25070,6 +25070,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794753368161",
+      "time": "21:36 - 15/11/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 5,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794752953032",
       "time": "21:29 - 15/11/2026",
       "name": "CAPCUT PRO CÁ NHÂN  30 Ngày BHF",
@@ -26157,17 +26168,6 @@
       "stockAfter": 14,
       "catKey": "youtube",
       "msgKey": "📧GmailRandom2020~2026-CótrialYTB➕Thêm:14📦Tồnkhohiệntại:14💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794732439113",
-      "time": "15:47 - 15/11/2026",
-      "name": "⚡️ Grok Plus 7 ngày -  BH 1 Ngày",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 17,
-      "catKey": "grok",
-      "msgKey": "⚡⚡️GrokPlus7ngày-BH1Ngày➕Thêm:17📦Tồnkhohiệntại:17💰Giá:70.000đ"
     }
   ],
   "vidiq": {
