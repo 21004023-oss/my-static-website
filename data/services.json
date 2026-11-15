@@ -234,6 +234,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794717083107",
+        "name": "Netflix Premium 1 Day",
+        "price": 12000,
+        "cost_price": 2000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "1 Tháng",
+        "detail": "Chất lượng: Gói Premium Ultra HD 4K\nHình thức đăng nhập: Nhận link login nhanh tự động siêu tốc qua web, không cần tài khoản và mật khẩu.\nThiết bị hỗ trợ tốt nhất: Máy tính (PC/Laptop) và Smart TV. (Lưu ý: Không đảm bảo tương thích trên iOS và ứng dụng điện thoại - Mobile App, lúc được lúc không).\n👉 Cách nhận & sử dụng tài khoản:\nSau khi thanh toán, truy cập: 🌐 vuanetflix.shop\nNhập Key vào trang web để lấy link đăng nhập dùng ngay\nNếu gặp báo lỗi Thanh toán hoặc bị giới hạn màn hình, bạn chỉ cần đổi lại lần nữa trên web cho tới khi vào được tài khoản xem bình thường.\n⚠️ LƯU Ý QUAN TRỌN...\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–10):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 10,
+            "cost_price": 2000,
+            "selling_price": 12000,
+            "updated": "11:31 15/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 2000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -24774,6 +24800,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794717083108",
+      "time": "11:31 - 15/11/2026",
+      "name": "Netflix Premium 1 Day",
+      "bot": "khommo_market_bot",
+      "price": 12000,
+      "costPrice": 2000,
+      "stockAfter": 10,
+      "catKey": "netflix",
+      "msgKey": "🛍️NetflixPremium1Day💲Giá:2.000VND💚Tồnkho:10tàikhoản📊Đãbán:32tàikhoản💧Môtả:Chấtlư"
+    },
+    {
       "id": "hist-1794717071668",
       "time": "11:31 - 15/11/2026",
       "name": "CAPCUT PRO CÁ NHÂN  30 Ngày BHF",
@@ -25861,17 +25898,6 @@
       "stockAfter": 286,
       "catKey": "youtube",
       "msgKey": "📧GmailRandomip2010-2016trialyoutube➕Thêm:954📦Tồnkhohiệntại:286💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1794697782404",
-      "time": "06:09 - 15/11/2026",
-      "name": "Gmail Random ip 2020-2023 trial youtube",
-      "bot": "sieuthistore_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 34,
-      "catKey": "youtube",
-      "msgKey": "📧GmailRandomip2020-2023trialyoutube➕Thêm:100📦Tồnkhohiệntại:0💰Giá:50.000đ"
     }
   ],
   "vidiq": {
