@@ -17008,6 +17008,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794762445715",
+        "name": "Meitu SVIP 5 thiết bị  1 Tháng BHF",
+        "price": 320000,
+        "cost_price": 290000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "1 Tháng",
+        "detail": "⚠️ LƯU Ý QUAN TRỌNG\n📱 Dùng được cho cả iPhone/iOS và Android, tối đa 05 thiết bị\n🔐 Quy định sử dụng:\nMỗi lần đăng nhập thành công được tính là 01 thiết bị.\nKhông đăng xuất tài khoản sau khi đăng nhập.\nKhông chia sẻ tài khoản, không đổi mật khẩu/thông tin tài khoản.\nKhông đăng nhập quá 05 thiết bị. Khi shop kiểm tra thấy vượt quá số thiết bị cho phép, tài khoản sẽ KHÔNG được bảo hành.\n➡️ Vi phạm bất kỳ quy định nào sẽ không được bảo hành.\n📲 Hướng dẫn đăng nhập (iOS & Android):\nThông thường không cần mã xác nhận. Chọn +852 hoặc +86, nhập SĐT + mật khẩu rồi đăng nhập.\n👆 Xem ảnh hướng dẫn đăng nhập phía trên.\n🛠 Nếu bị lỗi: chụp màn hình tình trạng lỗi ngay sau khi đăng nhập và gửi cho shop để được hỗ trợ.\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 3,
+            "cost_price": 290000,
+            "selling_price": 320000,
+            "updated": "00:07 16/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 290000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -25122,6 +25148,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794762445715",
+      "time": "00:07 - 16/11/2026",
+      "name": "Meitu SVIP 5 thiết bị  1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 320000,
+      "costPrice": 290000,
+      "stockAfter": 3,
+      "catKey": "meitu",
+      "msgKey": "✨MeituSVIP5thiếtbị1ThángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:290.000đ"
+    },
+    {
       "id": "hist-1794762348571",
       "time": "00:05 - 16/11/2026",
       "name": "CAPCUT PRO CÁ NHÂN  30 Ngày BHF",
@@ -26209,17 +26246,6 @@
       "stockAfter": 100,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:74📦Tồnkhohiệntại:100💰Giá:150.000"
-    },
-    {
-      "id": "hist-1794739232354",
-      "time": "17:40 - 15/11/2026",
-      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 23,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày💰Giá:150k📦Tồnkho:23tàikhoản📊Đãbán:698t"
     }
   ],
   "vidiq": {
