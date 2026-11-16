@@ -2333,16 +2333,16 @@
         "id": "p-1791909483397",
         "name": "ChatGPT Plus ( GG Pay) 1 Tháng BH 1 Ngày",
         "price": 270000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
-        "detail": "Tài khoản ADMIN cấp sẵn, định dạng Mail|Pass|2FA. Bảo hành 1 ngày.",
+        "detail": "Tài khoản ADMIN cấp sẵn, định dạng Mail|Pass|2FA. Bảo hành 1 ngày.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 5,
             "cost_price": 120000,
             "selling_price": 140000,
-            "updated": "02:11 17/11/2026"
+            "updated": "06:53 17/11/2026"
           }
         },
         "cost_price": 120000,
@@ -2350,7 +2350,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 120000,
-          "stock": 0
+          "stock": 5
         },
         "hidden": false,
         "needs_review": false
@@ -25847,6 +25847,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794873200868",
+      "time": "06:53 - 17/11/2026",
+      "name": "ChatGPT Plus ( GG Pay ) 1 Tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 5,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:5📦Tồnkhohiệntại:5💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1794872776960",
       "time": "06:46 - 17/11/2026",
       "name": "Surfshark VPN One 7 Ngày BHF",
@@ -26934,17 +26945,6 @@
       "stockAfter": 14,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:11📦Tồnkhohiệntại:11💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794856514550",
-      "time": "02:15 - 17/11/2026",
-      "name": "🔥 Chat GPT Plus 1 Tháng ( BH 20D )",
-      "bot": "piggyai99_bot",
-      "price": 165000,
-      "costPrice": 145000,
-      "stockAfter": 96,
-      "catKey": "chatgpt",
-      "msgKey": "🤖🔥ChatGPTPlus1Tháng(BH20D)➕Thêm:8📦Tồnkhohiệntại:43💰Giá:145.000đ"
     }
   ],
   "vidiq": {
