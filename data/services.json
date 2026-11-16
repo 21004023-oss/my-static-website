@@ -14521,16 +14521,27 @@
         "id": "p-1791898423543",
         "name": "gamma 10k credit bonus 10k 10 năm BH 3 tháng",
         "price": 140000,
-        "stock": 2,
-        "stock_text": "Còn 2",
-        "duration": "10 năm",
-        "detail": "Gói gamma 10k credit bonus 10k 10 năm BH 3 tháng bảo hành uy tín.",
+        "stock": 50,
+        "stock_text": "Còn 50",
+        "duration": "3 Tháng",
+        "detail": "cấp acc gồm mail | mk | ô trống\nmỗi acc gồm 5 không gian làm việc mỗi không gian có 2k creadits để tạo slide thuyết trình (hỗ trợ nâng full lại trong vòng 1 tháng đầu - 1 lần)\nchú ý:\nđổi mk ngay sau khi nhận acc không bảo hành đối với TH quên mật khẩu\nmuốn nâng full lại cần cung cấp mật khẩu (bên mình sẽ nâng trong vòng 3D)\nhết hạn nâng sẽ không được quyền nâng nữa nhé\nkhông được tự ý rời các không gian làm việc (tự rời = mất quyền lợi)\n✏️",
         "cost_price": 120000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 120000
-        }
+          "bot": "@piggyai99_bot",
+          "cost_price": 120000,
+          "stock": 50
+        },
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 50,
+            "cost_price": 120000,
+            "selling_price": 140000,
+            "updated": "21:26 16/11/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1791998517782",
@@ -25581,6 +25592,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794839199310",
+      "time": "21:26 - 16/11/2026",
+      "name": "gamma 10k credit bonus 10k 10 năm BH 3 tháng",
+      "bot": "piggyai99_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 50,
+      "catKey": "gamma",
+      "msgKey": "⭐gamma10kcreditbonus10k10nămBH3tháng➕Thêm:2📦Tồnkhohiệntại:50💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1794838908955",
       "time": "21:21 - 16/11/2026",
       "name": "ChatGPT Plus GGpay 30D BHF",
@@ -26668,17 +26690,6 @@
       "stockAfter": 41,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPROTEAM1ThángBHF➕Thêm:20📦Tồnkhohiệntại:22💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1794820924159",
-      "time": "16:22 - 16/11/2026",
-      "name": "CapCut Pro 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 101,
-      "catKey": "capcut",
-      "msgKey": "✂️CapCutPro1ThángBHF➕Thêm:20📦Tồnkhohiệntại:22💰Giá:50.000đ"
     }
   ],
   "vidiq": {
