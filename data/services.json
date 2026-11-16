@@ -4679,16 +4679,16 @@
         "name": "ChatGPT Go 1 Tháng (BH 28D)",
         "price": 110000,
         "cost_price": 95000,
-        "stock": 26,
-        "stock_text": "Còn 26",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
         "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 20,
+            "stock": 6,
             "cost_price": 95000,
             "selling_price": 105000,
-            "updated": "12:42 16/11/2026"
+            "updated": "17:24 16/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 6,
@@ -4700,7 +4700,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 95000,
-          "stock": 20
+          "stock": 6
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -25366,6 +25366,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794824667669",
+      "time": "17:24 - 16/11/2026",
+      "name": "ChatGPT Go 1 Tháng (BH 28D)",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 12,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:1📦Tồnkhohiệntại:6💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1794824661685",
       "time": "17:24 - 16/11/2026",
       "name": "ChatGPT Go 1 Tháng BH 28 Ngày",
@@ -26453,17 +26464,6 @@
       "stockAfter": 6,
       "catKey": "google-veo",
       "msgKey": "🛍️TàikhoảnGeminiPro12Tháng,5TBEdu-Bảohànhloginđầu💲Giá:100.000VND💚Tồnkho:6tàikhoả"
-    },
-    {
-      "id": "hist-1794805358692",
-      "time": "12:02 - 16/11/2026",
-      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 0,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:95📦Tồnkhohiệntại:0💰Giá:110.000đ"
     }
   ],
   "vidiq": {
