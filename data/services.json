@@ -9268,6 +9268,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794841626974",
+        "name": "Thanh toán GEMINI STUDENT 1 NĂM - KBH",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "1 Năm",
+        "detail": "- Dịch vụ thanh toán thuê tài khoản Google đã xác minh ưu đãi 1 NĂM STUDENT\n- Dịch vụ thanh toán thuê tài khoản Google đã xác minh ưu đãi 1 NĂM STUDENT\n- Dịch vụ thanh toán thuê tài khoản Google đã xác minh ưu đãi 1 NĂM STUDENT\n- ĐỌC KĨ TRƯỚC KHI MUA Ạ",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 8,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "22:07 16/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 25000,
+          "stock": 8
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -25656,6 +25682,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794841626974",
+      "time": "22:07 - 16/11/2026",
+      "name": "Thanh toán GEMINI STUDENT 1 NĂM - KBH",
+      "bot": "taphoathomap_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 8,
+      "catKey": "google-veo",
+      "msgKey": "☁️ThanhtoánGEMINISTUDENT1NĂM-KBH➕Thêm:8📦Tồnkhohiệntại:8💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1794841465814",
       "time": "22:04 - 16/11/2026",
       "name": "Meitu SVip+ 7 Ngày BHF",
@@ -26743,17 +26780,6 @@
       "stockAfter": 3,
       "catKey": "khac",
       "msgKey": "⭐LinkCrunchyRollFanPremium1ThángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794823277724",
-      "time": "17:01 - 16/11/2026",
-      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
-      "bot": "sieuthistore_bot",
-      "price": 46000,
-      "costPrice": 36000,
-      "stockAfter": 576,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:20📦Tồnkhohiệntại:147💰Giá:36.000đ"
     }
   ],
   "vidiq": {
