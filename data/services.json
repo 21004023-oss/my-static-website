@@ -18081,8 +18081,8 @@
         "name": "Express VPN 3 Ngày BHF",
         "price": 40000,
         "cost_price": 15000,
-        "stock": 13,
-        "stock_text": "Còn 13",
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "3 Ngày",
         "detail": "Hỗ trợ điện thoại iOS, Android, PC\nĐịnh dạng: email|pass|activation key\nWeb mail: https://tinyhost.shop\n✏️",
         "sources": {
@@ -18093,10 +18093,10 @@
             "updated": "01:36 17/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 6,
+            "stock": 2,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "09:54 16/11/2026"
+            "updated": "01:38 17/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 5,
@@ -18110,7 +18110,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 6
+          "stock": 2
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -25763,6 +25763,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794854292780",
+      "time": "01:38 - 17/11/2026",
+      "name": "Express VPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 9,
+      "catKey": "expressvpn",
+      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:7📦Tồnkhohiệntại:2💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794854193447",
       "time": "01:36 - 17/11/2026",
       "name": "Express VPN 3 Ngày BHF",
@@ -26850,17 +26861,6 @@
       "stockAfter": 24,
       "catKey": "notion",
       "msgKey": "⭐RedeemNotionBusiness3thángBHF➕Thêm:8📦Tồnkhohiệntại:12💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1794837582833",
-      "time": "20:59 - 16/11/2026",
-      "name": "Redeem Notion Business 3 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 210000,
-      "costPrice": 190000,
-      "stockAfter": 23,
-      "catKey": "notion",
-      "msgKey": "⭐RedeemNotionBusiness3thángBHF➕Thêm:8📦Tồnkhohiệntại:12💰Giá:190.000đ"
     }
   ],
   "vidiq": {
