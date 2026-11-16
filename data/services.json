@@ -4673,22 +4673,22 @@
         "name": "ChatGPT Go 1 Tháng (BH 28D)",
         "price": 105000,
         "cost_price": 95000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 20,
             "cost_price": 95000,
             "selling_price": 105000,
-            "updated": "02:09 16/11/2026"
+            "updated": "12:42 16/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 95000,
-          "stock": 0
+          "stock": 20
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -25290,6 +25290,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794807734370",
+      "time": "12:42 - 16/11/2026",
+      "name": "ChatGPT Go 1 Tháng (BH 28D)",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 20,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:20📦Tồnkhohiệntại:20💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1794807700273",
       "time": "12:41 - 16/11/2026",
       "name": "Capcut Pro",
@@ -26377,17 +26388,6 @@
       "stockAfter": 0,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:4📦Tồnkhohiệntại:0💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794774120451",
-      "time": "03:22 - 16/11/2026",
-      "name": "(💕LoveV)  Chatgpt Plus Apple Pay 1 tháng BH 20D",
-      "bot": "piggyai99_bot",
-      "price": 165000,
-      "costPrice": 145000,
-      "stockAfter": 5,
-      "catKey": "chatgpt",
-      "msgKey": "🤖(💕LoveV)ChatgptPlusApplePay1thángBH20D➕Thêm:5📦Tồnkhohiệntại:5💰Giá:145.000đ"
     }
   ],
   "vidiq": {
