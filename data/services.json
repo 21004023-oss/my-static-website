@@ -14588,9 +14588,9 @@
         "id": "p-1794839207572",
         "name": "gamma 20k credit bonus 20k 10 năm BH 3 tháng",
         "price": 190000,
-        "cost_price": 170000,
-        "stock": 17,
-        "stock_text": "Còn 17",
+        "cost_price": 140000,
+        "stock": 34,
+        "stock_text": "Còn 34",
         "duration": "3 Tháng",
         "detail": "cấp acc gồm mail | mk | ô trống\nmỗi acc gồm 10 không gian làm việc mỗi không gian có 2k creadits để tạo slide thuyết trình (hỗ trợ nâng full lại trong vòng 1 tháng đầu - 1 lần)\nchú ý:\nđổi mk ngay sau khi nhận acc không bảo hành đối với TH quên mật khẩu\nmuốn nâng full lại cần cung cấp mật khẩu (bên mình sẽ nâng trong vòng 3D)\nhết hạn nâng sẽ không được quyền nâng nữa nhé\nkhông được tự ý rời các không gian làm việc (tự rời = mất quyền lợi\n✏️",
         "sources": {
@@ -14599,14 +14599,20 @@
             "cost_price": 170000,
             "selling_price": 190000,
             "updated": "21:26 16/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 17,
+            "cost_price": 140000,
+            "selling_price": 160000,
+            "updated": "21:30 16/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 170000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 140000,
           "stock": 17
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -25644,6 +25650,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794839402445",
+      "time": "21:30 - 16/11/2026",
+      "name": "gamma 20k credit bonus 20k 10 năm BH 3 tháng",
+      "bot": "taphoathomap_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 34,
+      "catKey": "gamma",
+      "msgKey": "⭐gamma20kcreditbonus20k10nămBH3tháng➕Thêm:2📦Tồnkhohiệntại:17💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794839217515",
       "time": "21:26 - 16/11/2026",
       "name": "gamma 40k credit bonus 40k 10 năm BH 3 tháng",
@@ -26731,17 +26748,6 @@
       "stockAfter": 31,
       "catKey": "cursor",
       "msgKey": "🖱️APICursorPro6500Credits1thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:309.000đ"
-    },
-    {
-      "id": "hist-1794821462491",
-      "time": "16:31 - 16/11/2026",
-      "name": "API Cursor Pro 6500 Credits 1 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 410000,
-      "costPrice": 360000,
-      "stockAfter": 31,
-      "catKey": "cursor",
-      "msgKey": "🖱️APICursorPro6500Credits1thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:360.000đ"
     }
   ],
   "vidiq": {
