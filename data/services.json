@@ -22900,23 +22900,23 @@
         "id": "p-1793200599424",
         "name": "CHỌN PHƯƠNG THỨC THANH TOÁN",
         "price": 24800,
-        "cost_price": 14800,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "cost_price": 9900,
+        "stock": 25,
+        "stock_text": "Còn 25",
         "duration": "1 Tháng",
         "detail": "Gói CHỌN PHƯƠNG THỨC THANH TOÁN bảo hành uy tín.",
         "sources": {
           "shopxoainon_bot": {
-            "stock": 5,
-            "cost_price": 14800,
-            "selling_price": 24800,
-            "updated": "22:16 28/10/2026"
+            "stock": 25,
+            "cost_price": 9900,
+            "selling_price": 19900,
+            "updated": "13:19 16/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@shopxoainon_bot",
-          "cost_price": 14800,
-          "stock": 5
+          "cost_price": 9900,
+          "stock": 25
         },
         "import_note": "Nhập: @shopxoainon_bot",
         "hidden": false,
@@ -25296,6 +25296,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794809940084",
+      "time": "13:19 - 16/11/2026",
+      "name": "CHỌN PHƯƠNG THỨC THANH TOÁN",
+      "bot": "shopxoainon_bot",
+      "price": 19900,
+      "costPrice": 9900,
+      "stockAfter": 25,
+      "catKey": "khac",
+      "msgKey": "💳CHỌNPHƯƠNGTHỨCTHANHTOÁN━━━━━━━━━━━━━━━━🌐TàikhoảnMUSEAI31TỶTOKENKBH📊Sốlượng:1💵Đơ"
+    },
+    {
       "id": "hist-1794809426778",
       "time": "13:10 - 16/11/2026",
       "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
@@ -26383,17 +26394,6 @@
       "stockAfter": 8,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30DBHF➕Thêm:5📦Tồnkhohiệntại:7💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1794790134587",
-      "time": "07:48 - 16/11/2026",
-      "name": "I Love PDF Premium 1 Năm BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 8,
-      "catKey": "khac",
-      "msgKey": "⭐ILovePDFPremium1NămBH1Ngày➕Thêm:8📦Tồnkhohiệntại:8💰Giá:100.000đ"
     }
   ],
   "vidiq": {
