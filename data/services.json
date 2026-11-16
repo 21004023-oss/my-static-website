@@ -17736,16 +17736,16 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 18,
+        "stock_text": "Còn 18",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 6,
+            "stock": 9,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "09:55 16/11/2026"
+            "updated": "23:26 16/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 9,
@@ -17758,7 +17758,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 6
+          "stock": 9
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -25760,6 +25760,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794846411349",
+      "time": "23:26 - 16/11/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 18,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1794846404038",
       "time": "23:26 - 16/11/2026",
       "name": "NordVPN 3 Ngày BHF",
@@ -26847,17 +26858,6 @@
       "stockAfter": 136,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:31📦Tồnkhohiệntại:136💰Giá:170.00"
-    },
-    {
-      "id": "hist-1794828335880",
-      "time": "18:25 - 16/11/2026",
-      "name": "ChatGPT Business 1 tháng BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 190000,
-      "costPrice": 170000,
-      "stockAfter": 13,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTBusiness1thángBH1ngày➕Thêm:6📦Tồnkhohiệntại:13💰Giá:170.000đ"
     }
   ],
   "vidiq": {
