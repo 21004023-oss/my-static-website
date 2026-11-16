@@ -18333,9 +18333,9 @@
         "id": "p-1794838024290",
         "name": "SurfShark VPN 10 thiết bị cấp sẵn 2 tháng BHF",
         "price": 215000,
-        "cost_price": 195000,
-        "stock": 36,
-        "stock_text": "Còn 36",
+        "cost_price": 169000,
+        "stock": 72,
+        "stock_text": "Còn 72",
         "duration": "2 Tháng",
         "detail": "📝 Mô tả:\n- Đăng nhập tối đa 10 thiết bị Androi/PC/IOS/Extention\n💎 Chế độ bảo hành\n- Surfshark Starter 2 tháng BHF gói đăng kí, không bảo hành khi dùng quá thiết bị hoặc vi phạm chính sách VPN làm khóa tài khoản\n📦 Các tính năng chính của Surfshark VPN Starter:\n- Đổi IP, ẩn IP thật\n- Mã hóa kết nối Internet\n- Kết nối không giới hạn thiết bị\n- Server tại nhiều quốc gia\n- Kill Switch chống lộ IP\n- Split Tunneling / Bypasser\n- MultiHop qua 2 server\n- Rotating IP tự đổi IP\n- CleanWeb chặn quảng cáo, tracker\n- Alternative ID tạo email/danh tính thay thế\n✏️",
         "sources": {
@@ -18344,14 +18344,20 @@
             "cost_price": 195000,
             "selling_price": 215000,
             "updated": "21:07 16/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 36,
+            "cost_price": 169000,
+            "selling_price": 189000,
+            "updated": "21:08 16/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 195000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 169000,
           "stock": 36
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -25575,6 +25581,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794838092160",
+      "time": "21:08 - 16/11/2026",
+      "name": "SurfShark VPN 10 thiết bị cấp sẵn 2 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 189000,
+      "costPrice": 169000,
+      "stockAfter": 72,
+      "catKey": "surfshark",
+      "msgKey": "🦈SurfSharkVPN10thiếtbịcấpsẵn2thángBHF➕Thêm:36📦Tồnkhohiệntại:36💰Giá:169.000đ"
+    },
+    {
       "id": "hist-1794838059658",
       "time": "21:07 - 16/11/2026",
       "name": "GROK  PREMIUM + GROK BOT 4X- 14 Ngày BH 10 Ngày",
@@ -26662,17 +26679,6 @@
       "stockAfter": 29,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+30DBHF➕Thêm:15📦Tồnkhohiệntại:11💰Giá:59.000đ"
-    },
-    {
-      "id": "hist-1794820077005",
-      "time": "16:07 - 16/11/2026",
-      "name": "Meitu Vip+ 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 38,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+1ThángBHF➕Thêm:15📦Tồnkhohiệntại:11💰Giá:70.000đ"
     }
   ],
   "vidiq": {
