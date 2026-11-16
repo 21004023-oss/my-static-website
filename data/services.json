@@ -4782,23 +4782,23 @@
         "id": "p-1793404592113",
         "name": "API 100M Token Codex 5 Ngày BHF",
         "price": 210000,
-        "cost_price": 60000,
-        "stock": 598,
-        "stock_text": "Còn 598",
+        "cost_price": 100000,
+        "stock": 1094,
+        "stock_text": "Còn 1094",
         "duration": "1 Tháng",
         "detail": "Base URL : https://gpt.teamsoclo.site/v1\nModel : gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 598,
-            "cost_price": 60000,
-            "selling_price": 70000,
-            "updated": "08:28 14/11/2026"
+            "stock": 1094,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "13:26 16/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
-          "cost_price": 60000,
-          "stock": 598
+          "cost_price": 100000,
+          "stock": 1094
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -25296,6 +25296,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794810405791",
+      "time": "13:26 - 16/11/2026",
+      "name": "API 50M Token Codex 2 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 1094,
+      "catKey": "chatgpt",
+      "msgKey": "⭐API50MTokenCodex2NgàyBHF➕Thêm:500📦Tồnkhohiệntại:1094💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1794810212386",
       "time": "13:23 - 16/11/2026",
       "name": "VIP 3.100M Credit API Codex 1 Ngày - BHF",
@@ -26383,17 +26394,6 @@
       "stockAfter": 67,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus7ngàyBH5ngày💰Giá:80k📦Tồnkho:24tàikhoản📊Đãbán:50tàikhoản💎Môtả:Mail|PassK"
-    },
-    {
-      "id": "hist-1794792777773",
-      "time": "08:32 - 16/11/2026",
-      "name": "Grok Plus 7 ngày BH 5 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 48,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:5📦Tồnkhohiệntại:24💰Giá:80.000đ"
     }
   ],
   "vidiq": {
