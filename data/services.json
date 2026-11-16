@@ -10465,16 +10465,16 @@
         "name": "Grok Plus 7 ngày BH 5 ngày",
         "price": 95000,
         "cost_price": 80000,
-        "stock": 67,
-        "stock_text": "Còn 67",
+        "stock": 68,
+        "stock_text": "Còn 68",
         "duration": "7 Ngày",
         "detail": "Mail | Pass\nKhông đổi mail pass trong quá trình dùng\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 19,
+            "stock": 20,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "21:00 15/11/2026"
+            "updated": "10:20 16/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 24,
@@ -10492,7 +10492,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 80000,
-          "stock": 19
+          "stock": 20
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -25212,6 +25212,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794799254983",
+      "time": "10:20 - 16/11/2026",
+      "name": "Grok Plus 7 ngày BH 5 ngày",
+      "bot": "piggyai99_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 68,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus7ngàyBH5ngày💰Giá:80k📦Tồnkho:20tàikhoản📊Đãbán:54tàikhoản💎Môtả:Mail|PassK"
+    },
+    {
       "id": "hist-1794799238728",
       "time": "10:20 - 16/11/2026",
       "name": "Grok Plus 7 ngày BH 5 ngày",
@@ -26299,17 +26310,6 @@
       "stockAfter": 0,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:0💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794767705419",
-      "time": "01:35 - 16/11/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 1,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:0💰Giá:15.000đ"
     }
   ],
   "vidiq": {
