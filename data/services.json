@@ -3929,8 +3929,8 @@
         "name": "[CDK] THUÊ SỐ NHẬN OTP CODEX 24H KBH",
         "price": 20000,
         "cost_price": 10000,
-        "stock": 661,
-        "stock_text": "Còn 661",
+        "stock": 1595,
+        "stock_text": "Còn 1595",
         "duration": "1 Ngày",
         "detail": "• Tuỳ chọn sử dụng VN hoặc US\n• Tỉ lệ nhận mã (US) cao hơn (VN)\n• Tự động hóa 100%, nhận OTP trực tiếp ngay trên Web.\n1. Bấm Xác nhận mua hàng để nhận CDK và web CDK\n2. Nhập SĐT vào trang xác minh OpenAI Codex / ChatGPT.\n3. Mã OTP sẽ tự động hiển thị trên tin nhắn của Web ngay khi có tin nhắn về.\n• Nếu OpenAI/Codex từ chối SĐT (hoặc báo gửi qua WhatsApp), quý khách vui lòng bấm thuê số khác.\n• Số bị từ chối (không nhận OTP) sẽ được hệ thống tự động hoàn CDK sau 2 phút hoặc quý khách huỷ trên web\nWeb: https://sms.teamsoclo.site/\n✏️",
         "sources": {
@@ -3939,6 +3939,12 @@
             "cost_price": 10000,
             "selling_price": 20000,
             "updated": "12:17 30/10/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 934,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "13:05 16/11/2026"
           }
         },
         "cheapest_source": {
@@ -25290,6 +25296,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794809110203",
+      "time": "13:05 - 16/11/2026",
+      "name": "[CDK] THUÊ SỐ NHẬN OTP CODEX 24H KBH",
+      "bot": "taphoathomap_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 1595,
+      "catKey": "chatgpt",
+      "msgKey": "🤖[CDK]THUÊSỐNHẬNOTPCODEX24HKBH➕Thêm:500📦Tồnkhohiệntại:934💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1794808889845",
       "time": "13:01 - 16/11/2026",
       "name": "CAPCUT PRO CÁ NHÂN  30 Ngày BHF",
@@ -26377,17 +26394,6 @@
       "stockAfter": 3,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProCáNhân30DBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1794788753082",
-      "time": "07:25 - 16/11/2026",
-      "name": "Capcut Pro 500 credit 7D BH 6D",
-      "bot": "taphoathomap_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 700,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutPro500credit7DBH6D➕Thêm:700📦Tồnkhohiệntại:700💰Giá:10.000đ"
     }
   ],
   "vidiq": {
