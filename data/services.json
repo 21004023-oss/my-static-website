@@ -46,16 +46,16 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 115000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 3,
+            "stock": 2,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "21:36 15/11/2026"
+            "updated": "10:16 16/11/2026"
           },
           "piggyai99_bot": {
             "stock": 2,
@@ -25212,6 +25212,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794798989015",
+      "time": "10:16 - 16/11/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 4,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794798962555",
       "time": "10:16 - 16/11/2026",
       "name": "Gmail",
@@ -26299,17 +26310,6 @@
       "stockAfter": 12,
       "catKey": "grok",
       "msgKey": "⚡⚡️GrokPlus7ngày-BH1Ngày➕Thêm:9📦Tồnkhohiệntại:12💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1794767564573",
-      "time": "01:32 - 16/11/2026",
-      "name": "KING STAND 1000-1100 credit 1 TH - BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 8,
-      "catKey": "khac",
-      "msgKey": "🎬KINGSTAND1000-1100credit1TH-BH1ngày➕Thêm:6📦Tồnkhohiệntại:8💰Giá:130.000đ"
     }
   ],
   "vidiq": {
