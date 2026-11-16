@@ -4434,23 +4434,23 @@
         "id": "p-1793337892256",
         "name": "API 200M Token Codex 1 Ngày BHF",
         "price": 210000,
-        "cost_price": 130000,
-        "stock": 1025,
-        "stock_text": "Còn 1025",
+        "cost_price": 190000,
+        "stock": 1028,
+        "stock_text": "Còn 1028",
         "duration": "1 Ngày",
         "detail": "Base URL : https://gpt.teamsoclo.site/v1\nModel : gpt-5.6-sol, gpt-6-sol, gpt-6.1-sol, gpt-6-luna\nHDSD: https://docs.teamsoclo.site/\nVideo: https://tinyurl.com/teamsoclovid\nTrang kiểm tra KEY : https://gpt.teamsoclo.site/check\nĐổi CDK thành Key tại: https://redeem.teamsoclo.site/\nKênh thông báo: https://t.me/teamsoclo\nChế độ bảo hành hoàn tiền trong trường hợp lỗi key ko sài được :\n- Điều kiện : còn trong thời hạn bảo hành\n- Hình thức : Hoàn tiền theo số lượng token khách chưa sử dụng\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1025,
-            "cost_price": 130000,
-            "selling_price": 150000,
-            "updated": "13:23 16/11/2026"
+            "stock": 1028,
+            "cost_price": 190000,
+            "selling_price": 210000,
+            "updated": "06:10 17/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
-          "cost_price": 130000,
-          "stock": 1025
+          "cost_price": 190000,
+          "stock": 1028
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -25847,6 +25847,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794870640078",
+      "time": "06:10 - 17/11/2026",
+      "name": "API 200M Token Codex 1 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 210000,
+      "costPrice": 190000,
+      "stockAfter": 1028,
+      "catKey": "chatgpt",
+      "msgKey": "⭐API200MTokenCodex1NgàyBHF➕Thêm:500📦Tồnkhohiệntại:1028💰Giá:190.000đ"
+    },
+    {
       "id": "hist-1794870633245",
       "time": "06:10 - 17/11/2026",
       "name": "200M Credit API Codex 1 Ngày - BHF",
@@ -26934,17 +26945,6 @@
       "stockAfter": 9,
       "catKey": "expressvpn",
       "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:7📦Tồnkhohiệntại:2💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1794854193447",
-      "time": "01:36 - 17/11/2026",
-      "name": "Express VPN 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 13,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN3NgàyBHF➕Thêm:7📦Tồnkhohiệntại:2💰Giá:30.000đ"
     }
   ],
   "vidiq": {
