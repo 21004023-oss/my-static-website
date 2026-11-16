@@ -18613,16 +18613,17 @@
             "stock": 9,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "10:28 22/10/2026"
+            "updated": "18:59 16/11/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cost_price": 40000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 40000
+          "bot": "@piggyai99_bot",
+          "cost_price": 40000,
+          "stock": 9
         }
       },
       {
@@ -25444,6 +25445,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794830341024",
+      "time": "18:59 - 16/11/2026",
+      "name": "Link Get Offer Duolingo Super 1 năm BH 24 giờ",
+      "bot": "piggyai99_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 9,
+      "catKey": "duolingo",
+      "msgKey": "⭐LinkGetOfferDuolingoSuper1nămBH24giờ➕Thêm:9📦Tồnkhohiệntại:9💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1794829426833",
       "time": "18:43 - 16/11/2026",
       "name": "ChatGPT Plus ( GG Pay ) 1 Tháng BH 1 Ngày",
@@ -26531,17 +26543,6 @@
       "stockAfter": 934,
       "catKey": "chatgpt",
       "msgKey": "🤖[CDK]SốCodex1NgàyKBH➕Thêm:500📦Tồnkhohiệntại:934💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1794809110203",
-      "time": "13:05 - 16/11/2026",
-      "name": "[CDK] THUÊ SỐ NHẬN OTP CODEX 24H KBH",
-      "bot": "taphoathomap_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 1595,
-      "catKey": "chatgpt",
-      "msgKey": "🤖[CDK]THUÊSỐNHẬNOTPCODEX24HKBH➕Thêm:500📦Tồnkhohiệntại:934💰Giá:10.000đ"
     }
   ],
   "vidiq": {
