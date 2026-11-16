@@ -4677,10 +4677,10 @@
       {
         "id": "p-1793384731056",
         "name": "ChatGPT Go 1 Tháng (BH 28D)",
-        "price": 105000,
+        "price": 110000,
         "cost_price": 95000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 26,
+        "stock_text": "Còn 26",
         "duration": "1 Tháng",
         "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
@@ -4689,6 +4689,12 @@
             "cost_price": 95000,
             "selling_price": 105000,
             "updated": "12:42 16/11/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 6,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "17:24 16/11/2026"
           }
         },
         "cheapest_source": {
@@ -25360,6 +25366,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794824661685",
+      "time": "17:24 - 16/11/2026",
+      "name": "ChatGPT Go 1 Tháng BH 28 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 26,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1ThángBH28Ngày➕Thêm:1📦Tồnkhohiệntại:6💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1794824364446",
       "time": "17:19 - 16/11/2026",
       "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
@@ -26447,17 +26464,6 @@
       "stockAfter": 0,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:95📦Tồnkhohiệntại:0💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1794805037692",
-      "time": "11:57 - 16/11/2026",
-      "name": "Adobe All Apps 14 Ngày BHF",
-      "bot": "piggyai99_bot",
-      "price": 185000,
-      "costPrice": 165000,
-      "stockAfter": 30,
-      "catKey": "adobe",
-      "msgKey": "🎨AdobeAllApps14NgàyBHF➕Thêm:8📦Tồnkhohiệntại:30💰Giá:165.000đ"
     }
   ],
   "vidiq": {
