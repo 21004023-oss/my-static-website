@@ -9126,6 +9126,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794805498413",
+        "name": "Tài khoản Gemini Pro 12 Tháng ,5TB Edu - Bảo hành login đầu",
+        "price": 110000,
+        "cost_price": 100000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "1 Năm",
+        "detail": "Định dạng: Gmail | Pass | 2FA | Mail khôi phục\n- Tài khoản cấp .\n- Là Admin Family . Có thể tùy chọn add tối đa 5 người nữa\n- Bảo hành : Đăng nhập lần đầu\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–6):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 6,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "12:04 16/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 100000,
+          "stock": 6
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -25238,6 +25264,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794805498414",
+      "time": "12:04 - 16/11/2026",
+      "name": "Tài khoản Gemini Pro 12 Tháng ,5TB Edu - Bảo hành login đầu",
+      "bot": "khommo_market_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 6,
+      "catKey": "google-veo",
+      "msgKey": "🛍️TàikhoảnGeminiPro12Tháng,5TBEdu-Bảohànhloginđầu💲Giá:100.000VND💚Tồnkho:6tàikhoả"
+    },
+    {
       "id": "hist-1794805358692",
       "time": "12:02 - 16/11/2026",
       "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
@@ -26325,17 +26362,6 @@
       "stockAfter": 7,
       "catKey": "khac",
       "msgKey": "🎬KINGSTAND1000-1100credit1TH-BH1ngày➕Thêm:8📦Tồnkhohiệntại:7💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1794772033922",
-      "time": "02:47 - 16/11/2026",
-      "name": "Grok Plus 7 ngày BH 5 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 46,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:1📦Tồnkhohiệntại:5💰Giá:80.000đ"
     }
   ],
   "vidiq": {
