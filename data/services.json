@@ -20887,22 +20887,22 @@
         "name": "Gmail",
         "price": 37500,
         "cost_price": 27500,
-        "stock": 102,
-        "stock_text": "Còn 102",
+        "stock": 252,
+        "stock_text": "Còn 252",
         "duration": "1 Tháng",
         "detail": "Gói Gmail bảo hành uy tín.",
         "sources": {
           "khommo_market_bot": {
-            "stock": 102,
+            "stock": 252,
             "cost_price": 27500,
             "selling_price": 37500,
-            "updated": "13:40 13/11/2026"
+            "updated": "10:16 16/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@khommo_market_bot",
           "cost_price": 27500,
-          "stock": 102
+          "stock": 252
         },
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
@@ -25212,6 +25212,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794798962555",
+      "time": "10:16 - 16/11/2026",
+      "name": "Gmail",
+      "bot": "khommo_market_bot",
+      "price": 37500,
+      "costPrice": 27500,
+      "stockAfter": 252,
+      "catKey": "gmail",
+      "msgKey": "📦GmailGmail6tháng(khônglogđượchộpthư)-2FA-BHlogđầu24h💰Giá:27.500VND📦Tồnkhohiệntạ"
+    },
+    {
       "id": "hist-1794798729526",
       "time": "10:12 - 16/11/2026",
       "name": "Capcut Pro Cá Nhân 30D  BHF",
@@ -26299,17 +26310,6 @@
       "stockAfter": 8,
       "catKey": "khac",
       "msgKey": "🎬KINGSTAND1000-1100credit1TH-BH1ngày➕Thêm:6📦Tồnkhohiệntại:8💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1794767118643",
-      "time": "01:25 - 16/11/2026",
-      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 27,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:40📦Tồnkhohiệntại:27💰Giá:110.000đ"
     }
   ],
   "vidiq": {
