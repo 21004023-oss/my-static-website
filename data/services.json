@@ -2333,16 +2333,16 @@
         "id": "p-1791909483397",
         "name": "ChatGPT Plus ( GG Pay) 1 Tháng BH 1 Ngày",
         "price": 270000,
-        "stock": 129,
-        "stock_text": "Còn 129",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
-        "detail": "-ChatGPT Plus GGPay ổn định -Định dạng: Mail | Pass | 2Fa -Hạn gói: 1 tháng\n-Bảo hành: 24H\n-Tài khoản đã được check kĩ thông tin và change 2FA trước khi bán . quý khách có thể change 2FA nhưng bên mình không hỗ trợ change 2FA bị code về mail.Khách hàng nhận tài khoản tự bảo mật\n-Khách login dính thiết bị vui lòng sử dụng tab ẩn danh + proxy (bên mình sẽ không hỗ trợ những khách hàng ấn hủy gói khi bị tình trạng này )\n-Sử dụng Codex tự ver số, thuê số tại viotp chấm com -KBH Codex & 9routor, tools,..\n✏️",
+        "detail": "-ChatGPT Plus GGPay ổn định -Định dạng: Mail | Pass | 2Fa -Hạn gói: 1 tháng\n-Bảo hành: 24H\n-Tài khoản đã được check kĩ thông tin và change 2FA trước khi bán . quý khách có thể change 2FA nhưng bên mình không hỗ trợ change 2FA bị code về mail.Khách hàng nhận tài khoản tự bảo mật\n-Khách login dính thiết bị vui lòng sử dụng tab ẩn danh + proxy (bên mình sẽ không hỗ trợ những khách hàng ấn hủy gói khi bị tình trạng này )\n-Sử dụng Codex tự ver số, thuê số tại viotp chấm com -KBH Codex & 9routor, tools,..",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 129,
+            "stock": 0,
             "cost_price": 110000,
             "selling_price": 130000,
-            "updated": "11:17 16/11/2026"
+            "updated": "12:02 16/11/2026"
           }
         },
         "cost_price": 110000,
@@ -2350,7 +2350,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 110000,
-          "stock": 129
+          "stock": 0
         },
         "hidden": false,
         "needs_review": false
@@ -25238,6 +25238,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794805358692",
+      "time": "12:02 - 16/11/2026",
+      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 130000,
+      "costPrice": 110000,
+      "stockAfter": 0,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:95📦Tồnkhohiệntại:0💰Giá:110.000đ"
+    },
+    {
       "id": "hist-1794805037692",
       "time": "11:57 - 16/11/2026",
       "name": "Adobe All Apps 14 Ngày BHF",
@@ -26325,17 +26336,6 @@
       "stockAfter": 46,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:1📦Tồnkhohiệntại:5💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1794771825407",
-      "time": "02:43 - 16/11/2026",
-      "name": "ChatGPT Plus 1 tháng (GG Pay) BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 130000,
-      "costPrice": 110000,
-      "stockAfter": 88,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1tháng(GGPay)BH1ngày➕Thêm:87📦Tồnkhohiệntại:88💰Giá:110.000đ"
     }
   ],
   "vidiq": {
