@@ -13611,16 +13611,16 @@
         "id": "p-1792229136900",
         "name": "Muse AI 31 Tỷ Token 1 tháng KBH",
         "price": 190000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Tháng",
-        "detail": "ĐỊNH DẠNG   : Mail | Link lấy OTP\nHƯỚNG DẪN ĐĂNG NHẬP MUSE AI:\n👉 Bước 1: Vào https://muse.ai/ nhập Mail được cấp sau đó bấm Tiếp tục\n👉 Bước 2: Dán Link Lấy OTP đi kèm mỗi tài khoản vào trình duyệt để lấy mã OTP\n👉 Bước 3: Nhập mã OTP vào Muse AI để hoàn tất đăng nhập",
+        "detail": "ĐỊNH DẠNG   : Mail | Link lấy OTP\nHƯỚNG DẪN ĐĂNG NHẬP MUSE AI:\n👉 Bước 1: Vào https://muse.ai/ nhập Mail được cấp sau đó bấm Tiếp tục\n👉 Bước 2: Dán Link Lấy OTP đi kèm mỗi tài khoản vào trình duyệt để lấy mã OTP\n👉 Bước 3: Nhập mã OTP vào Muse AI để hoàn tất đăng nhập\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 30,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "03:41 16/11/2026"
+            "updated": "10:50 16/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -13634,7 +13634,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 40000,
-          "stock": 0
+          "stock": 30
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "needs_review": false
@@ -25212,6 +25212,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794801034025",
+      "time": "10:50 - 16/11/2026",
+      "name": "Muse Ai 31 tỷ Token KBH",
+      "bot": "sieuthistore_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 30,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAi31tỷTokenKBH➕Thêm:30📦Tồnkhohiệntại:30💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1794800667471",
       "time": "10:44 - 16/11/2026",
       "name": "Capcut Pro Cá Nhân 30D  BHF",
@@ -26299,17 +26310,6 @@
       "stockAfter": 176,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatgptPlus(ApplePay)1thángBHF➕Thêm:5📦Tồnkhohiệntại:128💰Giá:220.000đ"
-    },
-    {
-      "id": "hist-1794768855079",
-      "time": "01:54 - 16/11/2026",
-      "name": "🔥Amazon Prime Video 1 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 5,
-      "catKey": "amazon-prime",
-      "msgKey": "⭐🔥AmazonPrimeVideo1Tháng-BHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:45.000đ"
     }
   ],
   "vidiq": {
