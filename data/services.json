@@ -2333,16 +2333,16 @@
         "id": "p-1791909483397",
         "name": "ChatGPT Plus ( GG Pay) 1 Tháng BH 1 Ngày",
         "price": 270000,
-        "stock": 34,
-        "stock_text": "Còn 34",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
-        "detail": "Tài khoản ADMIN cấp sẵn, định dạng Mail|Pass|2FA. Bảo hành 1 ngày.\n✏️",
+        "detail": "Tài khoản ADMIN cấp sẵn, định dạng Mail|Pass|2FA. Bảo hành 1 ngày.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 34,
+            "stock": 0,
             "cost_price": 120000,
             "selling_price": 140000,
-            "updated": "18:43 16/11/2026"
+            "updated": "02:11 17/11/2026"
           }
         },
         "cost_price": 120000,
@@ -2350,7 +2350,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 120000,
-          "stock": 34
+          "stock": 0
         },
         "hidden": false,
         "needs_review": false
@@ -25763,6 +25763,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794856306238",
+      "time": "02:11 - 17/11/2026",
+      "name": "ChatGPT Plus ( GG Pay ) 1 Tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 0,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:5📦Tồnkhohiệntại:0💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1794856267366",
       "time": "02:11 - 17/11/2026",
       "name": "ChatGPT Business 1 tháng BH 1 ngày",
@@ -26850,17 +26861,6 @@
       "stockAfter": 50,
       "catKey": "gamma",
       "msgKey": "⭐gamma10kcreditbonus10k10nămBH3tháng➕Thêm:2📦Tồnkhohiệntại:50💰Giá:120.000đ"
-    },
-    {
-      "id": "hist-1794838908955",
-      "time": "21:21 - 16/11/2026",
-      "name": "ChatGPT Plus GGpay 30D BHF",
-      "bot": "piggyai99_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 72,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusGGpay30DBHF➕Thêm:46📦Tồnkhohiệntại:46💰Giá:160.000đ"
     }
   ],
   "vidiq": {
