@@ -6263,6 +6263,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794825617404",
+        "name": "ChatGPT Business 1 tháng BH 1 ngày",
+        "price": 190000,
+        "cost_price": 170000,
+        "stock": 13,
+        "stock_text": "Còn 13",
+        "duration": "1 Tháng",
+        "detail": "-ChatGPT Business acc sẵn,dùng riêng\n-Định dạng: Mail | Pass | 2Fa\n-Hạn gói: 1 tháng\n-Bảo hành: 1 ngày\n-Lấy mã 2Fa tại: https://2fa.live/\n-Tài khoản đã được check kĩ trước khi bán,khách nhận tự bảo quản.\n-Không được mời thêm thành viên vào Workspace.Vi phạm auto kích và KBH.\n-Hướng dẫn đổi 2Fa: https://drive.google.com/drive/folders/1AoAEP4WAFFf09icIOs705ukVsXhzoH-r?usp=drive_link\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 13,
+            "cost_price": 170000,
+            "selling_price": 190000,
+            "updated": "17:40 16/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 170000,
+          "stock": 13
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -25392,6 +25418,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794825617404",
+      "time": "17:40 - 16/11/2026",
+      "name": "ChatGPT Business 1 tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 190000,
+      "costPrice": 170000,
+      "stockAfter": 13,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTBusiness1thángBH1ngày➕Thêm:10📦Tồnkhohiệntại:13💰Giá:170.000đ"
+    },
+    {
       "id": "hist-1794825555974",
       "time": "17:39 - 16/11/2026",
       "name": "ADMIN GEMINI PRO + ANTIGRAVITY 5TB - 1 NĂM BH 24H",
@@ -26479,17 +26516,6 @@
       "stockAfter": 65,
       "catKey": "chatgpt",
       "msgKey": "🤖💎VIPPRO·ChatGPTPlusApple1ThángBHF➕Thêm:31📦Tồnkhohiệntại:65💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1794807567863",
-      "time": "12:39 - 16/11/2026",
-      "name": "👑 VIP · ChatGPT Plus GGPay 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 274,
-      "catKey": "chatgpt",
-      "msgKey": "🤖👑VIP·ChatGPTPlusGGPay1ThángBHF➕Thêm:45📦Tồnkhohiệntại:76💰Giá:130.000đ"
     }
   ],
   "vidiq": {
