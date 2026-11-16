@@ -16204,6 +16204,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794807700273",
+        "name": "Capcut Pro",
+        "price": 330000,
+        "cost_price": 300000,
+        "stock": 25,
+        "stock_text": "Còn 25",
+        "duration": "1 Tháng",
+        "detail": "Gói Capcut Pro bảo hành uy tín.",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 25,
+            "cost_price": 300000,
+            "selling_price": 330000,
+            "updated": "12:41 16/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 300000,
+          "stock": 25
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -25264,6 +25290,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794807700273",
+      "time": "12:41 - 16/11/2026",
+      "name": "Capcut Pro",
+      "bot": "khommo_market_bot",
+      "price": 330000,
+      "costPrice": 300000,
+      "stockAfter": 25,
+      "catKey": "capcut",
+      "msgKey": "📦CapcutProCapcutPro6Tháng(BảoHànhFull)💰Giá:300.000VND📦Tồnkhohiệntại:25CapcutPro7"
+    },
+    {
       "id": "hist-1794807574546",
       "time": "12:39 - 16/11/2026",
       "name": "💎 VIP PRO · ChatGPT Plus Apple 1 Tháng BHF",
@@ -26351,17 +26388,6 @@
       "stockAfter": 5,
       "catKey": "chatgpt",
       "msgKey": "🤖(💕LoveV)ChatgptPlusApplePay1thángBH20D➕Thêm:5📦Tồnkhohiệntại:5💰Giá:145.000đ"
-    },
-    {
-      "id": "hist-1794773425689",
-      "time": "03:10 - 16/11/2026",
-      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 221,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1000credit1THBH1ngày➕Thêm:1📦Tồnkhohiệntại:95💰Giá:140.000đ"
     }
   ],
   "vidiq": {
