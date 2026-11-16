@@ -12148,6 +12148,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794864228356",
+        "name": "Kling Standard 1800-1900 credit 1Th Bh 1 ngày",
+        "price": 250000,
+        "cost_price": 220000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Kling Standard 1800-1900 credit 1Th Bh 1 ngày bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 0,
+            "cost_price": 220000,
+            "selling_price": 250000,
+            "updated": "04:23 17/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 220000,
+          "stock": 0
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -25789,6 +25815,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794864228357",
+      "time": "04:23 - 17/11/2026",
+      "name": "Kling Standard 1800-1900 credit 1Th Bh 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 250000,
+      "costPrice": 220000,
+      "stockAfter": 0,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1800-1900credit1ThBh1ngày➕Thêm:1📦Tồnkhohiệntại:0💰Giá:220.000đ"
+    },
+    {
       "id": "hist-1794864150559",
       "time": "04:22 - 17/11/2026",
       "name": "SLOT CANVA PRO 1 THÁNG BHF",
@@ -26876,17 +26913,6 @@
       "stockAfter": 7,
       "catKey": "heygen",
       "msgKey": "🎥HeygenCreator1thBH3D➕Thêm:1📦Tồnkhohiệntại:1💰Giá:410.000đ"
-    },
-    {
-      "id": "hist-1794846750167",
-      "time": "23:32 - 16/11/2026",
-      "name": "Heygen Creator 1 Tháng BH 3 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 430000,
-      "costPrice": 380000,
-      "stockAfter": 8,
-      "catKey": "heygen",
-      "msgKey": "🎥HeygenCreator1ThángBH3Ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:380.000đ"
     }
   ],
   "vidiq": {
