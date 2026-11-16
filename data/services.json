@@ -11634,22 +11634,22 @@
         "name": "Kling Standard 1400 credit 1TH Bh 1 ngày",
         "price": 165000,
         "cost_price": 145000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1400 credit 1TH Bh 1 ngày bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 0,
             "cost_price": 145000,
             "selling_price": 165000,
-            "updated": "23:09 16/11/2026"
+            "updated": "03:39 17/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 145000,
-          "stock": 1
+          "stock": 0
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -25763,6 +25763,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794861585708",
+      "time": "03:39 - 17/11/2026",
+      "name": "Kling Standard 1400 credit 1TH Bh 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 165000,
+      "costPrice": 145000,
+      "stockAfter": 0,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1400credit1THBh1ngày➕Thêm:2📦Tồnkhohiệntại:0💰Giá:145.000đ"
+    },
+    {
       "id": "hist-1794861085769",
       "time": "03:31 - 17/11/2026",
       "name": "Grammarly AI Pro 1 Tháng BHF",
@@ -26850,17 +26861,6 @@
       "stockAfter": 116,
       "catKey": "kling",
       "msgKey": "🎬KLINGPREMIER8.000CREDITS1THÁNG(BH7D)➕Thêm:116📦Tồnkhohiệntại:116💰Giá:1.350.000đ"
-    },
-    {
-      "id": "hist-1794843446682",
-      "time": "22:37 - 16/11/2026",
-      "name": "Gmail Hàn Quốc 2009~2023 Có 2FA",
-      "bot": "taphoathomap_bot",
-      "price": 47000,
-      "costPrice": 37000,
-      "stockAfter": 1022,
-      "catKey": "gmail",
-      "msgKey": "📧GmailHànQuốc2009~2023Có2FA💰Giá:37k📦Tồnkho:511tàikhoản📊Đãbán:3.274tàikhoản💎Môtả:"
     }
   ],
   "vidiq": {
