@@ -26140,10 +26140,47 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794928047220",
+        "name": "Spotiy Premium Family chính chủ Slot 6 tháng BHF",
+        "price": 259000,
+        "cost_price": 229000,
+        "stock": 24,
+        "stock_text": "Còn 24",
+        "duration": "6 Tháng",
+        "detail": "✅ Quý khách gửi Mail + Mật khẩu để nâng cấp Spotify Premium\n✅Bảo hành full gói sử dụng\n✅ Tính năng nổi bật của Spotify Premium:\n- Nghe nhạc không quảng cáo\n- Tải nhạc để nghe ngoại tuyến\n- Chọn và phát bài hát tùy ý\n- Chất lượng âm thanh cao\n- Sắp xếp danh sách chờ phát\n- Nghe nhạc cùng bạn bè theo thời gian thực",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 24,
+            "cost_price": 229000,
+            "selling_price": 259000,
+            "updated": "22:07 17/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 229000,
+          "stock": 24
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1794928047220",
+      "time": "22:07 - 17/11/2026",
+      "name": "Spotiy Premium Family chính chủ Slot 6 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 259000,
+      "costPrice": 229000,
+      "stockAfter": 24,
+      "catKey": "khac",
+      "msgKey": "⭐SpotiyPremiumFamilychínhchủSlot6thángBHF➕Thêm:24📦Tồnkhohiệntại:24💰Giá:229.000đ"
+    },
     {
       "id": "hist-1794927831327",
       "time": "22:03 - 17/11/2026",
@@ -27232,17 +27269,6 @@
       "stockAfter": 30,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+30DBHF➕Thêm:8📦Tồnkhohiệntại:12💰Giá:59.000đ"
-    },
-    {
-      "id": "hist-1794910150550",
-      "time": "17:09 - 17/11/2026",
-      "name": "Meitu Vip+ 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 39,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+1ThángBHF➕Thêm:8📦Tồnkhohiệntại:12💰Giá:70.000đ"
     }
   ],
   "vidiq": {
