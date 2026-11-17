@@ -6328,6 +6328,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794885412823",
+        "name": "ChatGPT Trial Plus @gmail - cs_live ( Plan Free )",
+        "price": 16000,
+        "cost_price": 6000,
+        "stock": 39,
+        "stock_text": "Còn 39",
+        "duration": "1 Tháng",
+        "detail": "Acc Plan Free , đuôi @Gmail . Có Trial Free 1 tháng\nĐịnh dạng : Gmail | Pass | 2FA\n- Mạng dạng OTP 1 lần. Về tự bảo quản acc . Change acc + Add Passkey tránh tranh chấp sau này.\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–39):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 39,
+            "cost_price": 6000,
+            "selling_price": 16000,
+            "updated": "10:16 17/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 6000,
+          "stock": 39
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -25890,6 +25916,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794885412823",
+      "time": "10:16 - 17/11/2026",
+      "name": "ChatGPT Trial Plus @gmail - cs_live ( Plan Free )",
+      "bot": "khommo_market_bot",
+      "price": 16000,
+      "costPrice": 6000,
+      "stockAfter": 39,
+      "catKey": "chatgpt",
+      "msgKey": "🛍️ChatGPTTrialPlus@gmail-cs_live(PlanFree)💲Giá:6.000VND💚Tồnkho:39tàikhoản📊Đãbán:"
+    },
+    {
       "id": "hist-1794885043517",
       "time": "10:10 - 17/11/2026",
       "name": "Muse Ai 31B token KBH",
@@ -26977,17 +27014,6 @@
       "stockAfter": 1065,
       "catKey": "chatgpt",
       "msgKey": "⭐API100MTokenCodex5NgàyBHF➕Thêm:500📦Tồnkhohiệntại:1065💰Giá:190.000đ"
-    },
-    {
-      "id": "hist-1794869871893",
-      "time": "05:57 - 17/11/2026",
-      "name": "VIP 3.200M Credit API Codex 5 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 179000,
-      "costPrice": 159000,
-      "stockAfter": 1041,
-      "catKey": "chatgpt",
-      "msgKey": "⭐VIP3.200MCreditAPICodex5Ngày-BHF➕Thêm:500📦Tồnkhohiệntại:1041💰Giá:159.000đ"
     }
   ],
   "vidiq": {
