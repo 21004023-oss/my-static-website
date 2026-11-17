@@ -9795,16 +9795,16 @@
         "name": "Grok + Cursor Premium 14 ngày (BH 24h)",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 16,
-        "stock_text": "Còn 16",
+        "stock": 42,
+        "stock_text": "Còn 42",
         "duration": "1 Ngày",
         "detail": "• Grok Premium 14 ngày,\n• Định dạng: Mail|Pass\n• Tài khoản đã check 100% không sai mật khẩu ,\n-Lưu ý: Sau khi mua hàng vui lòng Chage + đổi mật khẩu, shop chỉ hỗ trợ bảo hành nếu rớt gói, còn các vấn đề khác shop không hỗ trợ ạ.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 16,
+            "stock": 42,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "04:24 17/11/2026"
+            "updated": "14:09 17/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -9822,7 +9822,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 16
+          "stock": 42
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -26006,6 +26006,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794899344434",
+      "time": "14:09 - 17/11/2026",
+      "name": "Grok + Cursor Premium 14 ngày (BH 24h)",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 42,
+      "catKey": "cursor",
+      "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)➕Thêm:42📦Tồnkhohiệntại:42💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794898706428",
       "time": "13:58 - 17/11/2026",
       "name": "Capcut Pro Cá Nhân 30D  BHF",
@@ -27093,17 +27104,6 @@
       "stockAfter": 340,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:40📦Tồnkhohiệntại:100💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1794881613557",
-      "time": "09:13 - 17/11/2026",
-      "name": "Gmail (New) -Login All Có trial Youtube",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 100,
-      "catKey": "youtube",
-      "msgKey": "📧Gmail(New)-LoginAllCótrialYoutube➕Thêm:100📦Tồnkhohiệntại:100💰Giá:15.000đ"
     }
   ],
   "vidiq": {
