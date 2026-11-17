@@ -238,8 +238,8 @@
       {
         "id": "p-1794717083107",
         "name": "Netflix Premium 1 Day",
-        "price": 12000,
-        "cost_price": 2000,
+        "price": 20000,
+        "cost_price": 10000,
         "stock": 10,
         "stock_text": "Còn 10",
         "duration": "1 Tháng",
@@ -247,14 +247,14 @@
         "sources": {
           "khommo_market_bot": {
             "stock": 10,
-            "cost_price": 2000,
-            "selling_price": 12000,
-            "updated": "11:31 15/11/2026"
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "11:21 17/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@khommo_market_bot",
-          "cost_price": 2000,
+          "cost_price": 10000,
           "stock": 10
         },
         "import_note": "Nhập: @khommo_market_bot",
@@ -25968,6 +25968,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794889282390",
+      "time": "11:21 - 17/11/2026",
+      "name": "Netflix Premium 5 Days",
+      "bot": "khommo_market_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 10,
+      "catKey": "netflix",
+      "msgKey": "NetflixPremium5Days💲Giá:10.000VND(~$0.3876)➕Thêm:10📦Tồnkhohiệntại:10"
+    },
+    {
       "id": "hist-1794889142416",
       "time": "11:19 - 17/11/2026",
       "name": "Muse Ai 31 tỷ Token ( KBH )",
@@ -27055,17 +27066,6 @@
       "stockAfter": 9,
       "catKey": "zoom",
       "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1794870670388",
-      "time": "06:11 - 17/11/2026",
-      "name": "Capcut Pro Cá Nhân 30D  BHF",
-      "bot": "taphoathomap_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 111,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutProCáNhân30DBHF➕Thêm:32📦Tồnkhohiệntại:110💰Giá:40.000đ"
     }
   ],
   "vidiq": {
