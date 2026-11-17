@@ -21240,22 +21240,22 @@
         "name": "[CDK] Thuê Số OTP Gmail 30D BH 24H",
         "price": 20000,
         "cost_price": 10000,
-        "stock": 52,
-        "stock_text": "Còn 52",
+        "stock": 64,
+        "stock_text": "Còn 64",
         "duration": "1 Tháng",
         "detail": "🎁 HD nhận mã:\n1. Mở dịch vụ cần xác minh đến bước nhập số điện thoại.\n2. Mở link → bấm \"Nhận\" → Copy số điện thoại.\n3. Dán số vào dịch vụ, bấm gửi mã.\n4. Giữ trang mở, mã sẽ tự hiện → Copy và nhập vào dịch vụ.\nMỗi link chỉ nhận 1 mã. Lỡ đóng trang thì mở lại link để xem lại mã.\nLưu ý: số chỉ thuê/dùng 1 lần\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 52,
+            "stock": 64,
             "cost_price": 10000,
             "selling_price": 20000,
-            "updated": "14:42 13/11/2026"
+            "updated": "22:21 17/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 10000,
-          "stock": 52
+          "stock": 64
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -26249,6 +26249,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794928901627",
+      "time": "22:21 - 17/11/2026",
+      "name": "[CDK] Thuê Số OTP Gmail 30D BH 24H",
+      "bot": "piggyai99_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 64,
+      "catKey": "gmail",
+      "msgKey": "📧[CDK]ThuêSốOTPGmail30DBH24H➕Thêm:20📦Tồnkhohiệntại:64💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1794928880091",
       "time": "22:21 - 17/11/2026",
       "name": "[CDK] Thuê Số OTP Gmail 30D BHF",
@@ -27336,17 +27347,6 @@
       "stockAfter": 7,
       "catKey": "chatgpt",
       "msgKey": "🤖TàikhoảnChatGPTdùngchung1thángBHF➕Thêm:1📦Tồnkhohiệntại:7💰Giá:119.000đ"
-    },
-    {
-      "id": "hist-1794911224272",
-      "time": "17:27 - 17/11/2026",
-      "name": "Tài khoản ChatGPT Business dùng chung 1TH BHF",
-      "bot": "piggyai99_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 7,
-      "catKey": "chatgpt",
-      "msgKey": "🤖TàikhoảnChatGPTBusinessdùngchung1THBHF➕Thêm:1📦Tồnkhohiệntại:7💰Giá:130.000đ"
     }
   ],
   "vidiq": {
