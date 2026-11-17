@@ -11729,22 +11729,22 @@
         "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
         "price": 260000,
         "cost_price": 230000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "TẤT CẢ ĐỀU ĐĂNG NHẬP BẰNG EMAIL NHÉ\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 4,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "19:16 16/11/2026"
+            "updated": "11:49 17/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 230000,
-          "stock": 2
+          "stock": 4
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -25968,6 +25968,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794890951503",
+      "time": "11:49 - 17/11/2026",
+      "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 4,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1100-1300Credits1thángBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1794890876358",
       "time": "11:47 - 17/11/2026",
       "name": "KEY KLING AI 50K – TẠO ~250 KLING 4.0/5s 1TH BHF",
@@ -27055,17 +27066,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "🔐CHITIẾTĐƠNHÀNG━━━━━━━━━━━━━━━━🧾Mãđơn:LTS47HQCXH🛒Sảnphẩm:🌐TàikhoảnMUSEAI31TỶTOKE"
-    },
-    {
-      "id": "hist-1794873249043",
-      "time": "06:54 - 17/11/2026",
-      "name": "MUSE AI 31B TOKEN - KBH",
-      "bot": "khommo_market_bot",
-      "price": 23000,
-      "costPrice": 13000,
-      "stockAfter": 328,
-      "catKey": "muse-ai",
-      "msgKey": "🛍️MUSEAI31BTOKEN-KBH💲Giá:13.000VND💚Tồnkho:254tàikhoản📊Đãbán:786tàikhoản💧Môtả:Mus"
     }
   ],
   "vidiq": {
