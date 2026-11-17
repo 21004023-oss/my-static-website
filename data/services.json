@@ -14580,25 +14580,31 @@
         "id": "p-1793395849575",
         "name": "Muse Ai 1B Token BH1H",
         "price": 45000,
-        "cost_price": 35000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "cost_price": 11000,
+        "stock": 33,
+        "stock_text": "Còn 33",
         "duration": "1 Tháng",
-        "detail": "Ip Vn dùng được nhưng ae muốn có thể chuyển Ip sang Mỹ ( us) khi dùng Muse AI . Máy tính thì có nhiều extension vpn như : urban vpn, hola vpn, north vpn,.. trên điện thoại thì 1.1.1.1 hay kiwi vpn\n1. Đăng nhập IP sạch\n2. Không thay đổi thông tin khi mua về và không kết nối fb\n3. Thắc mắc gì ib hỏi shop trc khi thao tác vs acc\n*Lưu ý chỉ bảo hành login 1 tiếng (đăng nhập được vô acc là hết bảo hành)\n✏️",
+        "detail": "━━━ 📝 Thông tin sản phẩm ━━━\n- Định dạng: email | pass (hãy log bằng pass nếu ko log qua mail được)\n- Định dạng: email | pass (hãy log bằng pass nếu ko log qua mail được)\n- Định dạng: email | pass (hãy log bằng pass nếu ko log qua mail được)\n- Đăng nhập bằng OTP ( k cần mật khẩu ) nhập tên tài khoản rồi lấy OTP tại link\n👉 Bước 1: Vào https://muse.ai/\n+ Nhập Mail hệ thông cấp sau đó bấm Tiếp Tục\n👉 Bước 2: Mở 1 tab mới Dán link Lấy OTP vào trình duyệt để lấy OTP\n👉 Bước 3: Nhập OTP xác nhận\n*Lưu ý chỉ bảo hành login 1 tiếng (đăng nhập được vô acc là hết bảo hành)\n✏️",
         "sources": {
           "piggyai99_bot": {
             "stock": 3,
             "cost_price": 35000,
             "selling_price": 45000,
             "updated": "08:07 04/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 30,
+            "cost_price": 11000,
+            "selling_price": 21000,
+            "updated": "16:47 17/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 35000,
-          "stock": 3
+          "bot": "@taphoathomap_bot",
+          "cost_price": 11000,
+          "stock": 30
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -26023,6 +26029,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794908823783",
+      "time": "16:47 - 17/11/2026",
+      "name": "Muse Ai 1B Token BH1H",
+      "bot": "taphoathomap_bot",
+      "price": 21000,
+      "costPrice": 11000,
+      "stockAfter": 33,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAi1BTokenBH1H➕Thêm:30📦Tồnkhohiệntại:30💰Giá:11.000đ"
+    },
+    {
       "id": "hist-1794908814532",
       "time": "16:46 - 17/11/2026",
       "name": "Grok Plus 7 ngày BH 5 ngày",
@@ -27110,17 +27127,6 @@
       "stockAfter": 206,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:140k📦Tồnkho:80tàikhoản📊Đãbán:728tàikhoản✏"
-    },
-    {
-      "id": "hist-1794889766416",
-      "time": "11:29 - 17/11/2026",
-      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 80,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:10📦Tồnkhohiệntại:80💰Giá:150.000đ"
     }
   ],
   "vidiq": {
