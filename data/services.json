@@ -9559,6 +9559,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794929120292",
+        "name": "Acc Gemini Ultra, 30TB, 25K Credit Flow, Carbon 4 ( Antigravity) Hạn 1 Năm - KBH",
+        "price": 150000,
+        "cost_price": 130000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Năm",
+        "detail": "Định dạng : Gmail | Pass | 2fa | MKP\n- Tài khoản của shop cấp. Là chủ Family có thể tùy chọn add thêm tối đa 5 người\n- Gmail bị hạn chế không đọc được thư .\n- Có 25K Credit Flow GG, Carbon4  trong Antigravity\n- Bảo hành : Không\n- Full ưu đãi của gói Ultra 30TB\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–5):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 5,
+            "cost_price": 130000,
+            "selling_price": 150000,
+            "updated": "22:25 17/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 130000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -26249,6 +26275,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794929120292",
+      "time": "22:25 - 17/11/2026",
+      "name": "Acc Gemini Ultra, 30TB, 25K Credit Flow, Carbon 4 ( Antigravity) Hạn 1 Năm - KBH",
+      "bot": "khommo_market_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 5,
+      "catKey": "google-veo",
+      "msgKey": "🛍️AccGeminiUltra,30TB,25KCreditFlow,Carbon4(Antigravity)Hạn1Năm-KBH💲Giá:130.000V"
+    },
+    {
       "id": "hist-1794929099158",
       "time": "22:24 - 17/11/2026",
       "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
@@ -27336,17 +27373,6 @@
       "stockAfter": 64,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus(ApplePay)1ThángBHF➕Thêm:6📦Tồnkhohiệntại:16💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1794912318343",
-      "time": "17:45 - 17/11/2026",
-      "name": "Suno Pro 1 tháng BH 1 Ngày",
-      "bot": "taphoathomap_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 26,
-      "catKey": "suno",
-      "msgKey": "🎵SunoPro1thángBH1Ngày➕Thêm:1📦Tồnkhohiệntại:4💰Giá:130.000đ"
     }
   ],
   "vidiq": {
