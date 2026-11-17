@@ -10846,16 +10846,16 @@
         "name": "Grok Plus 7 ngày BH 5 ngày",
         "price": 95000,
         "cost_price": 80000,
-        "stock": 65,
-        "stock_text": "Còn 65",
+        "stock": 69,
+        "stock_text": "Còn 69",
         "duration": "7 Ngày",
         "detail": "Mail | Pass\nKhông đổi mail pass trong quá trình dùng\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 27,
+            "stock": 31,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "12:13 17/11/2026"
+            "updated": "16:46 17/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -10873,7 +10873,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 80000,
-          "stock": 27
+          "stock": 31
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -26023,6 +26023,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794908806592",
+      "time": "16:46 - 17/11/2026",
+      "name": "Grok Plus 7 ngày BH 5 ngày",
+      "bot": "piggyai99_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 69,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:8📦Tồnkhohiệntại:31💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1794908462288",
       "time": "16:41 - 17/11/2026",
       "name": "LINK - Gemini AI Plus 6 Tháng (BH 24H)",
@@ -27110,17 +27121,6 @@
       "stockAfter": 27,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày💰Giá:150k📦Tồnkho:27tàikhoản📊Đãbán:728t"
-    },
-    {
-      "id": "hist-1794889681750",
-      "time": "11:28 - 17/11/2026",
-      "name": "Tài khoản Newtake ai Credits 19$ starter Plan 1 tháng ( BH 24H )",
-      "bot": "taphoathomap_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 62,
-      "catKey": "khac",
-      "msgKey": "TàikhoảnNewtakeaiCredits19$starterPlan1tháng(BH24H)➕Thêm:4📦Tồnkhohiệntại:62💰Giá:"
     }
   ],
   "vidiq": {
