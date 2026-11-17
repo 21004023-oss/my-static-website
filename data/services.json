@@ -6380,6 +6380,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794886952450",
+        "name": "ChatGPT Trial Plus @googlemail - cs_live ( Plan Free )",
+        "price": 15000,
+        "cost_price": 5000,
+        "stock": 36,
+        "stock_text": "Còn 36",
+        "duration": "1 Tháng",
+        "detail": "Acc Plan Free , đuôi @googlemail . Có Trial Free 1 tháng\nĐịnh dạng : Gmail | Pass | 2FA\n- Mạng dạng OTP 1 lần. Về tự bảo quản acc . Change acc + Add Passkey tránh tranh chấp sau này.\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–36):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 36,
+            "cost_price": 5000,
+            "selling_price": 15000,
+            "updated": "10:42 17/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 5000,
+          "stock": 36
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -25942,6 +25968,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794886952450",
+      "time": "10:42 - 17/11/2026",
+      "name": "ChatGPT Trial Plus @googlemail - cs_live ( Plan Free )",
+      "bot": "khommo_market_bot",
+      "price": 15000,
+      "costPrice": 5000,
+      "stockAfter": 36,
+      "catKey": "chatgpt",
+      "msgKey": "🛍️ChatGPTTrialPlus@googlemail-cs_live(PlanFree)💲Giá:5.000VND💚Tồnkho:36tàikhoản📊Đ"
+    },
+    {
       "id": "hist-1794886581845",
       "time": "10:36 - 17/11/2026",
       "name": "Gmail Ngâm 6T Có Trial YTB",
@@ -27029,17 +27066,6 @@
       "stockAfter": 1059,
       "catKey": "chatgpt",
       "msgKey": "⭐VIP3.500MCreditAPICodex3Ngày-BHF➕Thêm:500📦Tồnkhohiệntại:1059💰Giá:369.000đ"
-    },
-    {
-      "id": "hist-1794870197595",
-      "time": "06:03 - 17/11/2026",
-      "name": "API 500M Token Codex 3 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 430000,
-      "costPrice": 380000,
-      "stockAfter": 1059,
-      "catKey": "chatgpt",
-      "msgKey": "⭐API500MTokenCodex3NgàyBHF➕Thêm:500📦Tồnkhohiệntại:1059💰Giá:380.000đ"
     }
   ],
   "vidiq": {
