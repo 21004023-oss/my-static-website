@@ -16297,17 +16297,17 @@
         "id": "p-1793169013116",
         "name": "Capcut Pro 7 Ngày BH 6 Ngày",
         "price": 23000,
-        "cost_price": 10000,
-        "stock": 30,
-        "stock_text": "Còn 30",
+        "cost_price": 6500,
+        "stock": 80,
+        "stock_text": "Còn 80",
         "duration": "7 Ngày",
         "detail": "Capcut Pro 1. Định dạng tài khoản: Email | Mật khẩu 2. Login bằng điện thoại: Mở app, chọn Sign in with Email. 3. Login bằng PC: Sau khi login vào điện thoại thì tiến hành quét mã QR để đăng nhập cho PC. - iOS: Ngay trong Capcut mục TÔI > Quét QR. - Android: Phải cập nhật Capcut lên bản mới nhất mới có tính năng quét QR trong app.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 0,
-            "cost_price": 10000,
-            "selling_price": 20000,
-            "updated": "19:24 11/11/2026"
+            "stock": 50,
+            "cost_price": 6500,
+            "selling_price": 16500,
+            "updated": "09:22 17/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 30,
@@ -16317,11 +16317,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 10000,
-          "stock": 30
+          "bot": "@sieuthistore_bot",
+          "cost_price": 6500,
+          "stock": 50
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -25864,6 +25864,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794882136117",
+      "time": "09:22 - 17/11/2026",
+      "name": "Capcut Pro 7 Ngày BH 6 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 16500,
+      "costPrice": 6500,
+      "stockAfter": 80,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutPro7NgàyBH6Ngày➕Thêm:50📦Tồnkhohiệntại:50💰Giá:6.500đ"
+    },
+    {
       "id": "hist-1794882083035",
       "time": "09:21 - 17/11/2026",
       "name": "Higgsfield Genjutsu  hạn 1 tháng BH 48h",
@@ -26951,17 +26962,6 @@
       "stockAfter": 8,
       "catKey": "nordvpn",
       "msgKey": "🛡️NORDVPN10thiếtbị7ngàyBHF➕Thêm:7📦Tồnkhohiệntại:4💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1794864267899",
-      "time": "04:24 - 17/11/2026",
-      "name": "Grok + Cursor Premium 14 ngày (BH 24h)",
-      "bot": "sieuthistore_bot",
-      "price": 160000,
-      "costPrice": 140000,
-      "stockAfter": 16,
-      "catKey": "cursor",
-      "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)➕Thêm:44📦Tồnkhohiệntại:16💰Giá:140.000đ"
     }
   ],
   "vidiq": {
