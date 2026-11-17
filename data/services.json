@@ -46,16 +46,16 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 115000,
-        "stock": 6,
-        "stock_text": "Còn 6",
+        "stock": 15,
+        "stock_text": "Còn 15",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 4,
+            "stock": 13,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "09:27 17/11/2026"
+            "updated": "14:48 17/11/2026"
           },
           "piggyai99_bot": {
             "stock": 2,
@@ -26006,6 +26006,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794901688985",
+      "time": "14:48 - 17/11/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 15,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:9📦Tồnkhohiệntại:13💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794901636961",
       "time": "14:47 - 17/11/2026",
       "name": "🔥CapCut Pro Team 3 Tháng - BHF",
@@ -27093,17 +27104,6 @@
       "stockAfter": 23,
       "catKey": "capcut",
       "msgKey": "CapcutProTeam7Ngày(650Credit)💲Giá:9.500VND(~$0.3682)➕Thêm:19📦Tồnkhohiệntại:23"
-    },
-    {
-      "id": "hist-1794882966974",
-      "time": "09:36 - 17/11/2026",
-      "name": "Capcut Pro Team 7 Ngày (650 Credit)",
-      "bot": "khommo_market_bot",
-      "price": 19500,
-      "costPrice": 9500,
-      "stockAfter": 22,
-      "catKey": "capcut",
-      "msgKey": "🛍️CapcutProTeam7Ngày(650Credit)💲Giá:9.500VND💚Tồnkho:22tàikhoản📊Đãbán:746tàikhoản"
     }
   ],
   "vidiq": {
