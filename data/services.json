@@ -11923,22 +11923,22 @@
         "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
         "price": 260000,
         "cost_price": 230000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "TẤT CẢ ĐỀU ĐĂNG NHẬP BẰNG EMAIL NHÉ\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 4,
+            "stock": 5,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "11:49 17/11/2026"
+            "updated": "23:45 17/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 230000,
-          "stock": 4
+          "stock": 5
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -26353,6 +26353,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794933916416",
+      "time": "23:45 - 17/11/2026",
+      "name": "Kling Standard 1100-1300 Credits 1 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 5,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1100-1300Credits1thángBHF➕Thêm:3📦Tồnkhohiệntại:5💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1794933713155",
       "time": "23:41 - 17/11/2026",
       "name": "👑 VIP · ChatGPT Plus GGPay 1 Tháng BHF",
@@ -27440,17 +27451,6 @@
       "stockAfter": 28,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+30DBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:59.000đ"
-    },
-    {
-      "id": "hist-1794922776163",
-      "time": "20:39 - 17/11/2026",
-      "name": "Meitu Vip+ 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 37,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+1ThángBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:70.000đ"
     }
   ],
   "vidiq": {
