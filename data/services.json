@@ -9469,6 +9469,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794891603727",
+        "name": "Tài khoản Gemini Pro, 5TB, Argon 4, Opus 5.5 (Antigravity) Hạn 3 Tháng - BH 1 Tuần",
+        "price": 109000,
+        "cost_price": 99000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "3 Tháng",
+        "detail": "Định dạng : Gmail | Pass | 2fa | MKP\n- Tài khoản của shop cấp. Là chủ Family có thể tùy chọn add thêm tối đa 5 người\n- Gmail bị hạn chế không đọc được thư .\n- Có thể dùng Argon 4, Opus 5.5 , Sonet 5.5, Hydrogen trong Antigravity\n- Bảo hành : 1 Tuần\n- Full ưu đãi của gói Pro\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–10):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 10,
+            "cost_price": 99000,
+            "selling_price": 109000,
+            "updated": "12:00 17/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 99000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -25968,6 +25994,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794891603727",
+      "time": "12:00 - 17/11/2026",
+      "name": "Tài khoản Gemini Pro, 5TB, Argon 4, Opus 5.5 (Antigravity) Hạn 3 Tháng - BH 1 Tuần",
+      "bot": "khommo_market_bot",
+      "price": 109000,
+      "costPrice": 99000,
+      "stockAfter": 10,
+      "catKey": "google-veo",
+      "msgKey": "🛍️TàikhoảnGeminiPro,5TB,Argon4,Opus5.5(Antigravity)Hạn3Tháng-BH1Tuần💲Giá:99.000V"
+    },
+    {
       "id": "hist-1794891592908",
       "time": "11:59 - 17/11/2026",
       "name": "Grok Plus 7 ngày BH 5 ngày",
@@ -27055,17 +27092,6 @@
       "stockAfter": 86,
       "catKey": "gmail",
       "msgKey": "📧GmailRandom200X~2023Có2FA💰Giá:35k📦Tồnkho:37tàikhoản📊Đãbán:7.712tàikhoản💎Môtả:Đị"
-    },
-    {
-      "id": "hist-1794873479810",
-      "time": "06:57 - 17/11/2026",
-      "name": "Gmail Random 200X~2023 Có 2FA",
-      "bot": "taphoathomap_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 86,
-      "catKey": "gmail",
-      "msgKey": "📧GmailRandom200X~2023Có2FA➕Thêm:56📦Tồnkhohiệntại:37💰Giá:35.000đ"
     }
   ],
   "vidiq": {
