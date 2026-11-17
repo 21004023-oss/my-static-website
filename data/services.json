@@ -21029,22 +21029,22 @@
         "name": "Gmail New 2FA",
         "price": 31875,
         "cost_price": 21875,
-        "stock": 53,
-        "stock_text": "Còn 53",
+        "stock": 2427,
+        "stock_text": "Còn 2427",
         "duration": "1 Tháng",
-        "detail": "Gmail New 2FA : nhập đoạn ký tự vào 2fa.live để lấy mã\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–53):",
+        "detail": "Gmail New 2FA : nhập đoạn ký tự vào 2fa.live để lấy mã\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–2427):",
         "sources": {
           "khommo_market_bot": {
-            "stock": 53,
+            "stock": 2427,
             "cost_price": 21875,
             "selling_price": 31875,
-            "updated": "19:44 06/11/2026"
+            "updated": "09:51 17/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@khommo_market_bot",
           "cost_price": 21875,
-          "stock": 53
+          "stock": 2427
         },
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
@@ -25864,6 +25864,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794883883607",
+      "time": "09:51 - 17/11/2026",
+      "name": "Gmail New 2FA",
+      "bot": "khommo_market_bot",
+      "price": 31875,
+      "costPrice": 21875,
+      "stockAfter": 2427,
+      "catKey": "gmail",
+      "msgKey": "🛍️GmailNew2FA💲Giá:21.875VND💚Tồnkho:2427tàikhoản📊Đãbán:4930tàikhoản💧Môtả:GmailNew"
+    },
+    {
       "id": "hist-1794883556325",
       "time": "09:45 - 17/11/2026",
       "name": "Gmail Random 200X~2023 Có 2FA",
@@ -26951,17 +26962,6 @@
       "stockAfter": 1046,
       "catKey": "claude",
       "msgKey": "🧠VIP3.20MCreditAPIClaude1Ngày-BHF➕Thêm:500📦Tồnkhohiệntại:1046💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1794867091739",
-      "time": "05:11 - 17/11/2026",
-      "name": "VIP 3.50M Credit API Claude 1 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 1057,
-      "catKey": "claude",
-      "msgKey": "🧠VIP3.50MCreditAPIClaude1Ngày-BHF➕Thêm:500📦Tồnkhohiệntại:1057💰Giá:90.000đ"
     }
   ],
   "vidiq": {
