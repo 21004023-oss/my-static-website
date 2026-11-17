@@ -9142,9 +9142,9 @@
         "id": "p-1794459368134",
         "name": "LINK - Gemini AI Plus 6 Tháng (BH 24H)",
         "price": 69000,
-        "cost_price": 59000,
-        "stock": 30,
-        "stock_text": "Còn 30",
+        "cost_price": 40000,
+        "stock": 64,
+        "stock_text": "Còn 64",
         "duration": "6 Tháng",
         "detail": "⚡ GEMINI AI Plus — LINK NÂNG CHÍNH CHỦ 6 THÁNG 🛡️ CHÍNH SÁCH BẢO HÀNH Bảo hành Active: 1 giờ đầu kể từ thời điểm mua. Bảo hành gói: 24 giờ đầu kể từ thời điểm mua. Khách mua số lượng ít vui lòng kích hoạt và sử dụng ngay để đảm bảo quyền lợi bảo hành. ✨ THÔNG TIN SẢN PHẨM - Link nâng chính chủ Gemini AI Pro lên đến 18 tháng. - Kích hoạt trực tiếp trên tài khoản Gmail của bạn. - Không cần liên kết thẻ thanh toán. -Thao tác đơn giản, kích hoạt nhanh chóng. - Có thể mời thêm tối đa 5 thành viên vào Family. 📌 CÁCH KÍCH HOẠT - Đăng nhập vào tài khoản Gmail cần nâng cấp. - Truy cập Link nâng Gemini AI Plus được cung cấp. - Nhấn xác nhận và hoàn tất kích hoạt. - Kiểm tra lại gói Gemini AI Plus trên tài khoản. ⚠️ LƯU Ý Vui lòng kích hoạt ngay sau khi mua. Shop chỉ hỗ trợ bảo hành theo đúng thời gian quy định ở trên.\n✏️",
         "sources": {
@@ -9153,14 +9153,20 @@
             "cost_price": 59000,
             "selling_price": 69000,
             "updated": "15:37 15/11/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 34,
+            "cost_price": 40000,
+            "selling_price": 50000,
+            "updated": "16:40 17/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 59000,
-          "stock": 30
+          "bot": "@piggyai99_bot",
+          "cost_price": 40000,
+          "stock": 34
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -26017,6 +26023,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794908455467",
+      "time": "16:40 - 17/11/2026",
+      "name": "LINK - Gemini AI Plus 6 Tháng (BH 24H)",
+      "bot": "piggyai99_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 64,
+      "catKey": "google-veo",
+      "msgKey": "☁️LINK-GeminiAIPlus6Tháng(BH24H)➕Thêm:20📦Tồnkhohiệntại:34💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1794908448644",
       "time": "16:40 - 17/11/2026",
       "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
@@ -27104,17 +27121,6 @@
       "stockAfter": 31,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+30DBHF➕Thêm:16📦Tồnkhohiệntại:13💰Giá:59.000đ"
-    },
-    {
-      "id": "hist-1794889322477",
-      "time": "11:22 - 17/11/2026",
-      "name": "Meitu Vip+ 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 40,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+1ThángBHF➕Thêm:16📦Tồnkhohiệntại:13💰Giá:70.000đ"
     }
   ],
   "vidiq": {
