@@ -14581,8 +14581,8 @@
         "name": "Muse Ai 1B Token BH1H",
         "price": 45000,
         "cost_price": 11000,
-        "stock": 46,
-        "stock_text": "Còn 46",
+        "stock": 55,
+        "stock_text": "Còn 55",
         "duration": "1 Tháng",
         "detail": "━━━ 📝 Thông tin sản phẩm ━━━\n- Định dạng: email | pass (hãy log bằng pass nếu ko log qua mail được)\n- Định dạng: email | pass (hãy log bằng pass nếu ko log qua mail được)\n- Định dạng: email | pass (hãy log bằng pass nếu ko log qua mail được)\n- Đăng nhập bằng OTP ( k cần mật khẩu ) nhập tên tài khoản rồi lấy OTP tại link\n👉 Bước 1: Vào https://muse.ai/\n+ Nhập Mail hệ thông cấp sau đó bấm Tiếp Tục\n👉 Bước 2: Mở 1 tab mới Dán link Lấy OTP vào trình duyệt để lấy OTP\n👉 Bước 3: Nhập OTP xác nhận\n*Lưu ý chỉ bảo hành login 1 tiếng (đăng nhập được vô acc là hết bảo hành)\n✏️",
         "sources": {
@@ -14593,16 +14593,16 @@
             "updated": "08:07 04/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 43,
+            "stock": 52,
             "cost_price": 11000,
             "selling_price": 21000,
-            "updated": "17:37 17/11/2026"
+            "updated": "17:47 17/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 11000,
-          "stock": 43
+          "stock": 52
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -26061,6 +26061,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794912474688",
+      "time": "17:47 - 17/11/2026",
+      "name": "Muse Ai 1B Token BH1H",
+      "bot": "taphoathomap_bot",
+      "price": 21000,
+      "costPrice": 11000,
+      "stockAfter": 55,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAi1BTokenBH1H➕Thêm:18📦Tồnkhohiệntại:52💰Giá:11.000đ"
+    },
+    {
       "id": "hist-1794912371677",
       "time": "17:46 - 17/11/2026",
       "name": "ChatGPT Plus ( Apple Pay ) 1 Tháng BHF",
@@ -27148,17 +27159,6 @@
       "stockAfter": 65,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus7ngàyBH5ngày💰Giá:80k📦Tồnkho:27tàikhoản📊Đãbán:86tàikhoản💎Môtả:Mail|PassK"
-    },
-    {
-      "id": "hist-1794892387328",
-      "time": "12:13 - 17/11/2026",
-      "name": "Grok Plus 7 ngày BH 5 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 58,
-      "catKey": "grok",
-      "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:1📦Tồnkhohiệntại:27💰Giá:80.000đ"
     }
   ],
   "vidiq": {
