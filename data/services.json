@@ -11002,16 +11002,16 @@
         "name": "Grok Plus 7 ngày BH 5 ngày",
         "price": 95000,
         "cost_price": 80000,
-        "stock": 60,
-        "stock_text": "Còn 60",
+        "stock": 74,
+        "stock_text": "Còn 74",
         "duration": "7 Ngày",
         "detail": "Mail | Pass\nKhông đổi mail pass trong quá trình dùng\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 18,
+            "stock": 32,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "20:32 17/11/2026"
+            "updated": "23:11 17/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 11,
@@ -11029,7 +11029,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 80000,
-          "stock": 18
+          "stock": 32
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -26353,6 +26353,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794931868270",
+      "time": "23:11 - 17/11/2026",
+      "name": "Grok Plus 7 ngày BH 5 ngày",
+      "bot": "piggyai99_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 74,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:2📦Tồnkhohiệntại:32💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1794931811698",
       "time": "23:10 - 17/11/2026",
       "name": "Seedance 1200- 1700 credit 1th kbh",
@@ -27440,17 +27451,6 @@
       "stockAfter": 357,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi31BtokenKBH➕Thêm:35📦Tồnkhohiệntại:35💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1794920094961",
-      "time": "19:54 - 17/11/2026",
-      "name": "Slot Nord VPN And/PC/IOS 3 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 10,
-      "catKey": "nordvpn",
-      "msgKey": "🛡️SlotNordVPNAnd/PC/IOS3thángBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:80.000đ"
     }
   ],
   "vidiq": {
