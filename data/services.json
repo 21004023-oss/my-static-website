@@ -13782,6 +13782,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1794917548738",
+        "name": "Higgsfield 9k credit 1 tháng BH 2 ngày",
+        "price": 4150000,
+        "cost_price": 3800000,
+        "stock": 15,
+        "stock_text": "Còn 15",
+        "duration": "1 Tháng",
+        "detail": "- Hàng không sẵn, order trả trong 3-5 tiếng\nLưu ý: Cân nhắc trước khi mua, đã mua là shop sẽ ghi nhận đơn hàng và bấm thanh toán. Sẽ không hoàn tiền sau khi mua\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 15,
+            "cost_price": 3800000,
+            "selling_price": 4150000,
+            "updated": "19:12 17/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 3800000,
+          "stock": 15
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -26061,6 +26087,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794917548738",
+      "time": "19:12 - 17/11/2026",
+      "name": "Higgsfield 9k credit 1 tháng BH 2 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 4150000,
+      "costPrice": 3800000,
+      "stockAfter": 15,
+      "catKey": "higgsfield",
+      "msgKey": "🎬Higgsfield9kcredit1thángBH2ngày➕Thêm:5📦Tồnkhohiệntại:15💰Giá:3.800.000đ"
+    },
+    {
       "id": "hist-1794917333617",
       "time": "19:08 - 17/11/2026",
       "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
@@ -27148,17 +27185,6 @@
       "stockAfter": 69,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus(ApplePay)1ThángBHF➕Thêm:20📦Tồnkhohiệntại:21💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1794895158836",
-      "time": "12:59 - 17/11/2026",
-      "name": "ChatGPT Go 1 Tháng BH 28 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 28,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTGo1ThángBH28Ngày💰Giá:100k📦Tồnkho:14tàikhoản📊Đãbán:1.699tàikhoản💎Môtả:Địn"
     }
   ],
   "vidiq": {
