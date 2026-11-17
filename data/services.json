@@ -46,16 +46,16 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 115000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 6,
+        "stock_text": "Còn 6",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 4,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "10:16 16/11/2026"
+            "updated": "09:27 17/11/2026"
           },
           "piggyai99_bot": {
             "stock": 2,
@@ -25864,6 +25864,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794882454878",
+      "time": "09:27 - 17/11/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 6,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1794882141589",
       "time": "09:22 - 17/11/2026",
       "name": "Capcut Pro 7 Ngày BHF",
@@ -26951,17 +26962,6 @@
       "stockAfter": 14,
       "catKey": "hma-vpn",
       "msgKey": "⭐HMAVPNAndroi/PC/IOS30ngàyBHF➕Thêm:11📦Tồnkhohiệntại:14💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1794864754592",
-      "time": "04:32 - 17/11/2026",
-      "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 190000,
-      "costPrice": 170000,
-      "stockAfter": 127,
-      "catKey": "chatgpt",
-      "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:20📦Tồnkhohiệntại:127💰Giá:170.00"
     }
   ],
   "vidiq": {
