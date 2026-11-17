@@ -15011,17 +15011,28 @@
       {
         "id": "p-1791865366115",
         "name": "Mã Giảm Giá - Coffee Highlands",
-        "price": 15000,
-        "stock": 17,
-        "stock_text": "Còn 17",
+        "price": 20000,
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
-        "detail": "Gói Mã Giảm Giá - Coffee Highlands bảo hành uy tín.",
-        "cost_price": 5000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "detail": "☕️ CUỐI TUẦN RỒI – COFFEE THÔI\n+ Chọn mã mình thích → Đổi mã tại các cửa hàng trực tiếp → đưa mã cho nhân viên tại quầy quét là xong\n⚠️ Lưu ý nhỏ : Một số ít chi nhánh Highlands có thể không áp dụng được mã ưu đãi,  nhớ kiểm tra trước khi sử dụng nha.\n✏️",
+        "cost_price": 10000,
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 5000
-        }
+          "bot": "@taphoathomap_bot",
+          "cost_price": 10000,
+          "stock": 20
+        },
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 20,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "16:17 17/11/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1791865931335",
@@ -26006,6 +26017,17 @@
   },
   "_history": [
     {
+      "id": "hist-1794907040635",
+      "time": "16:17 - 17/11/2026",
+      "name": "Mã Giảm Giá - Coffee Highlands",
+      "bot": "taphoathomap_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 20,
+      "catKey": "notion",
+      "msgKey": "💬MãGiảmGiá-CoffeeHighlands➕Thêm:18📦Tồnkhohiệntại:20💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1794906860850",
       "time": "16:14 - 17/11/2026",
       "name": "OpenArt Essential 14$ -4k credit 1Th BH 1 ngày",
@@ -27093,17 +27115,6 @@
       "stockAfter": 18,
       "catKey": "chatgpt",
       "msgKey": "🤖GPTGO1THÁNG(BH28NGÀY)➕Thêm:10📦Tồnkhohiệntại:9💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1794889049584",
-      "time": "11:17 - 17/11/2026",
-      "name": "GPT GO 1 THÁNG ( BH 28 NGÀY )",
-      "bot": "piggyai99_bot",
-      "price": 145000,
-      "costPrice": 125000,
-      "stockAfter": 24,
-      "catKey": "chatgpt",
-      "msgKey": "🤖GPTGO1THÁNG(BH28NGÀY)➕Thêm:10📦Tồnkhohiệntại:9💰Giá:125.000đ"
     }
   ],
   "vidiq": {
