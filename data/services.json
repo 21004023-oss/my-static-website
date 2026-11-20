@@ -2370,16 +2370,16 @@
         "id": "p-1791909483397",
         "name": "ChatGPT Plus ( GG Pay) 1 Tháng BH 1 Ngày",
         "price": 270000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "Tài khoản ADMIN cấp sẵn, định dạng Mail|Pass|2FA. Bảo hành 1 ngày.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 11,
+            "stock": 8,
             "cost_price": 120000,
             "selling_price": 140000,
-            "updated": "15:44 17/11/2026"
+            "updated": "19:33 20/11/2026"
           }
         },
         "cost_price": 120000,
@@ -2387,7 +2387,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 120000,
-          "stock": 11
+          "stock": 8
         },
         "hidden": false,
         "needs_review": false
@@ -26541,6 +26541,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795178006341",
+      "time": "19:33 - 20/11/2026",
+      "name": "ChatGPT Plus ( GG Pay ) 1 Tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 8,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:8📦Tồnkhohiệntại:8💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1795177727841",
       "time": "19:28 - 20/11/2026",
       "name": "ChatGPT Plus GGPay 30D BH 24H",
@@ -27628,17 +27639,6 @@
       "stockAfter": 50,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥ChatGPTPlus1Tháng(BH20D)➕Thêm:2📦Tồnkhohiệntại:20💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1794937994431",
-      "time": "00:53 - 18/11/2026",
-      "name": "Muse Ai 1B Token KBH <3",
-      "bot": "taphoathomap_bot",
-      "price": 18000,
-      "costPrice": 8000,
-      "stockAfter": 246,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH<3➕Thêm:100📦Tồnkhohiệntại:123💰Giá:8.000đ"
     }
   ],
   "vidiq": {
