@@ -4692,8 +4692,8 @@
         "name": "ChatGPT Go 1 Tháng (BH 28D)",
         "price": 110000,
         "cost_price": 95000,
-        "stock": 24,
-        "stock_text": "Còn 24",
+        "stock": 34,
+        "stock_text": "Còn 34",
         "duration": "1 Tháng",
         "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
@@ -4704,7 +4704,7 @@
             "updated": "12:59 17/11/2026"
           },
           "sieuthistore_bot": {
-            "stock": 10,
+            "stock": 20,
             "cost_price": 100000,
             "selling_price": 110000,
             "updated": "19:07 20/11/2026"
@@ -26405,6 +26405,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795176476587",
+      "time": "19:07 - 20/11/2026",
+      "name": "ChatGPT Go 1 Tháng BH 28 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 34,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1ThángBH28Ngày➕Thêm:10📦Tồnkhohiệntại:20💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1795176467076",
       "time": "19:07 - 20/11/2026",
       "name": "ChatGPT Go 1 Tháng BH 28 Ngày",
@@ -27492,17 +27503,6 @@
       "stockAfter": 406,
       "catKey": "gmail",
       "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:91📦Tồnkhohiệntại:84💰Giá:33.000đ"
-    },
-    {
-      "id": "hist-1794935063228",
-      "time": "00:04 - 18/11/2026",
-      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
-      "bot": "sieuthistore_bot",
-      "price": 46000,
-      "costPrice": 36000,
-      "stockAfter": 331,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:91📦Tồnkhohiệntại:84💰Giá:36.000đ"
     }
   ],
   "vidiq": {
