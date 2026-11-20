@@ -22236,22 +22236,22 @@
         "name": "Gmail USA new login phone",
         "price": 45000,
         "cost_price": 35000,
-        "stock": 30,
-        "stock_text": "Còn 30",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
-        "detail": "Định dạng: Gmail | Pass - Gmail này cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone -Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll ) -Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/\n- BH 24h, log thành công hết BH\n✏️",
+        "detail": "Định dạng: Gmail | Pass - Gmail này cần dùng proxy ,ip máy riêng để login, tránh tình trạng, login xong GG quét very phone -Gmail sll rất lớn nhưng cần chú ý đến cách login, nếu ko biết cách login để hạn chế bị xác minh thì không nên mua (mua ít test trước khi mua sll ) -Login GPM + proxy bên mình đang login thấy an toàn sống khỏe MN tham khảo https://www.smartproxy.vn/user/residential/product/\n- BH 24h, log thành công hết BH",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 30,
+            "stock": 0,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "14:53 17/11/2026"
+            "updated": "06:52 21/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 35000,
-          "stock": 30
+          "stock": 0
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -26871,6 +26871,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795218777942",
+      "time": "06:52 - 21/11/2026",
+      "name": "Gmail USA new login phone",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 0,
+      "catKey": "gmail",
+      "msgKey": "📧GmailUSAnewloginphone➕Thêm:30📦Tồnkhohiệntại:0💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1795218278528",
       "time": "06:44 - 21/11/2026",
       "name": "🔥 CapCut Pro VIP 3 Tháng - BHF",
@@ -27958,17 +27969,6 @@
       "stockAfter": 74,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:61📦Tồnkhohiệntại:74💰Giá:125.000đ"
-    },
-    {
-      "id": "hist-1795195080935",
-      "time": "00:18 - 21/11/2026",
-      "name": "🔥 Gmail Reg Tay Ngâm Trên 3 Tháng SIêu Trâu",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 82,
-      "catKey": "gmail",
-      "msgKey": "📧🔥GmailRegTayNgâmTrên3ThángSIêuTrâu💰Giá:30k📦Tồnkho:41tàikhoản📊Đãbán:73tàikhoản💎M"
     }
   ],
   "vidiq": {
