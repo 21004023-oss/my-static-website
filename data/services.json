@@ -4718,8 +4718,8 @@
         "name": "ChatGPT Go 1 Tháng (BH 28D)",
         "price": 110000,
         "cost_price": 95000,
-        "stock": 40,
-        "stock_text": "Còn 40",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Tháng",
         "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
@@ -4730,10 +4730,10 @@
             "updated": "19:08 20/11/2026"
           },
           "sieuthistore_bot": {
-            "stock": 20,
+            "stock": 10,
             "cost_price": 100000,
             "selling_price": 110000,
-            "updated": "19:07 20/11/2026"
+            "updated": "00:14 21/11/2026"
           }
         },
         "cheapest_source": {
@@ -26761,6 +26761,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795194865258",
+      "time": "00:14 - 21/11/2026",
+      "name": "ChatGPT Go 1 Tháng BH 28 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 30,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1ThángBH28Ngày➕Thêm:1📦Tồnkhohiệntại:10💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1795194066632",
       "time": "00:01 - 21/11/2026",
       "name": "ChatGPT Plus GGpay 30D BHF",
@@ -27848,17 +27859,6 @@
       "stockAfter": 283,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:29📦Tồnkhohiệntại:76💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1795177261432",
-      "time": "19:21 - 20/11/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng - BH 24h",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 354,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:29📦Tồnkhohiệntại:76💰Giá:45.000đ"
     }
   ],
   "vidiq": {
