@@ -24519,9 +24519,9 @@
         "id": "p-1793293594944",
         "name": "TV360 Standard 1 tháng BHF",
         "price": 50000,
-        "cost_price": 40000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "cost_price": 30000,
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "TV360 Standard xem C1, WC, VTV, VTVCab, phim bộ, phim độc quyền\nĐăng nhập và sử dụng trên 1 thiết bị\nBảo hành toàn thời gian\n✏️",
         "sources": {
@@ -24530,14 +24530,20 @@
             "cost_price": 40000,
             "selling_price": 50000,
             "updated": "20:32 20/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "20:33 20/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 40000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
           "stock": 2
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -26567,6 +26573,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795181585932",
+      "time": "20:33 - 20/11/2026",
+      "name": "TV360 Standard 1 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 4,
+      "catKey": "khac",
+      "msgKey": "⭐TV360Standard1thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1795181578606",
       "time": "20:32 - 20/11/2026",
       "name": "TV360 Standard 1 tháng BHF",
@@ -27654,17 +27671,6 @@
       "stockAfter": 2,
       "catKey": "zoom",
       "msgKey": "⭐AcccấpZoomPro28NgàyBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1794940515176",
-      "time": "01:35 - 18/11/2026",
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 8,
-      "catKey": "meitu",
-      "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
     }
   ],
   "vidiq": {
