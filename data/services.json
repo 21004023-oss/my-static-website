@@ -24050,8 +24050,8 @@
         "name": "PIA VPN 7 Ngày BHF",
         "price": 45000,
         "cost_price": 15000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "7 Ngày",
         "detail": "Định dạng: Username|Pass\n✏️",
         "sources": {
@@ -24062,16 +24062,16 @@
             "updated": "02:19 21/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 11,
+            "stock": 8,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "03:04 17/11/2026"
+            "updated": "02:19 21/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 11
+          "stock": 8
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -26761,6 +26761,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795202350891",
+      "time": "02:19 - 21/11/2026",
+      "name": "PIA VPN 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 16,
+      "catKey": "khac",
+      "msgKey": "⭐PIAVPN7NgàyBHF➕Thêm:8📦Tồnkhohiệntại:8💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1795202342713",
       "time": "02:19 - 21/11/2026",
       "name": "PIA VPN 7 Ngày BHF",
@@ -27848,17 +27859,6 @@
       "stockAfter": 298,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi1BTokenKBH<3💰Giá:8k📦Tồnkho:149tàikhoản📊Đãbán:1.219tàikhoản💎Môtả:MuseAI1Bi"
-    },
-    {
-      "id": "hist-1795183465424",
-      "time": "21:04 - 20/11/2026",
-      "name": "Muse Ai 1B Token KBH <3",
-      "bot": "taphoathomap_bot",
-      "price": 18000,
-      "costPrice": 8000,
-      "stockAfter": 298,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH<3➕Thêm:150📦Tồnkhohiệntại:149💰Giá:8.000đ"
     }
   ],
   "vidiq": {
