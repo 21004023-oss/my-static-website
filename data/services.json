@@ -12157,22 +12157,22 @@
         "name": "Kling Standard 1100-1300 Credit 1 Tháng BH 1 ngày",
         "price": 180000,
         "cost_price": 160000,
-        "stock": 7,
-        "stock_text": "Còn 7",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1100-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 7,
+            "stock": 3,
             "cost_price": 160000,
             "selling_price": 180000,
-            "updated": "07:39 15/11/2026"
+            "updated": "23:13 20/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 160000,
-          "stock": 7
+          "stock": 3
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -26735,6 +26735,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795191190636",
+      "time": "23:13 - 20/11/2026",
+      "name": "Kling Standard 1100-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 180000,
+      "costPrice": 160000,
+      "stockAfter": 3,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1100-1300Credit1ThángBH1ngày💰Giá:160k📦Tồnkho:3tàikhoản📊Đãbán:50tài"
+    },
+    {
       "id": "hist-1795191145713",
       "time": "23:12 - 20/11/2026",
       "name": "💎 VIP PRO · ChatGPT Plus Apple 1 Tháng BHF",
@@ -27822,17 +27833,6 @@
       "stockAfter": 20,
       "catKey": "netflix",
       "msgKey": "NetflixPremium5Ngày[BHFULL]💲Giá:10.000VND(~$0.3876)➕Thêm:20📦Tồnkhohiệntại:20"
-    },
-    {
-      "id": "hist-1795176521084",
-      "time": "19:08 - 20/11/2026",
-      "name": "Netflix Premium 1 Tháng [ BH Full ]",
-      "bot": "khommo_market_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 20,
-      "catKey": "netflix",
-      "msgKey": "🛍️NetflixPremium1Tháng[BHFull]💲Giá:25.000VND💚Tồnkho:20tàikhoản📊Đãbán:1249tàikhoả"
     }
   ],
   "vidiq": {
