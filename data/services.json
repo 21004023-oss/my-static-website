@@ -24093,23 +24093,23 @@
         "id": "p-1793200599424",
         "name": "CHỌN PHƯƠNG THỨC THANH TOÁN",
         "price": 24800,
-        "cost_price": 9900,
-        "stock": 46,
-        "stock_text": "Còn 46",
+        "cost_price": 3400,
+        "stock": 743,
+        "stock_text": "Còn 743",
         "duration": "1 Tháng",
         "detail": "Gói CHỌN PHƯƠNG THỨC THANH TOÁN bảo hành uy tín.",
         "sources": {
           "shopxoainon_bot": {
-            "stock": 46,
-            "cost_price": 9900,
-            "selling_price": 19900,
-            "updated": "07:00 17/11/2026"
+            "stock": 743,
+            "cost_price": 3400,
+            "selling_price": 13400,
+            "updated": "21:49 20/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@shopxoainon_bot",
-          "cost_price": 9900,
-          "stock": 46
+          "cost_price": 3400,
+          "stock": 743
         },
         "import_note": "Nhập: @shopxoainon_bot",
         "hidden": false,
@@ -26683,6 +26683,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795186176121",
+      "time": "21:49 - 20/11/2026",
+      "name": "CHỌN PHƯƠNG THỨC THANH TOÁN",
+      "bot": "shopxoainon_bot",
+      "price": 13400,
+      "costPrice": 3400,
+      "stockAfter": 743,
+      "catKey": "khac",
+      "msgKey": "💳CHỌNPHƯƠNGTHỨCTHANHTOÁN━━━━━━━━━━━━━━━━🌐TàikhoảnMUSEAI2TỶTOKENKBH📊Sốlượng:1💵Đơn"
+    },
+    {
       "id": "hist-1795185943009",
       "time": "21:45 - 20/11/2026",
       "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
@@ -27770,17 +27781,6 @@
       "stockAfter": 22,
       "catKey": "wink",
       "msgKey": "⭐WinkVip30DBHF➕Thêm:11📦Tồnkhohiệntại:11💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1794949812019",
-      "time": "04:10 - 18/11/2026",
-      "name": "Wink Vip 30 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 25,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVip30NgàyBHF➕Thêm:11📦Tồnkhohiệntại:11💰Giá:90.000đ"
     }
   ],
   "vidiq": {
