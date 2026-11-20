@@ -10564,8 +10564,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 115000,
-        "stock": 36,
-        "stock_text": "Còn 36",
+        "stock": 56,
+        "stock_text": "Còn 56",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\n✏️",
         "sources": {
@@ -10576,10 +10576,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 34,
+            "stock": 54,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "19:55 16/11/2026"
+            "updated": "20:09 20/11/2026"
           }
         },
         "hidden": false,
@@ -10588,7 +10588,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 34
+          "stock": 54
         }
       },
       {
@@ -26541,6 +26541,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795180176597",
+      "time": "20:09 - 20/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 56,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:1📦Tồnkhohiệntại:54💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1795180137698",
       "time": "20:08 - 20/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -27628,17 +27639,6 @@
       "stockAfter": 50,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTGo3thángBH3ngày➕Thêm:1📦Tồnkhohiệntại:25💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1794939582250",
-      "time": "01:19 - 18/11/2026",
-      "name": "Surfshark VPN One 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 26,
-      "catKey": "surfshark",
-      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:8💰Giá:35.000đ"
     }
   ],
   "vidiq": {
