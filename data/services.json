@@ -1920,22 +1920,22 @@
         "name": "Spotify Premium 3 Tháng ( BH 1 Tuần)",
         "price": 40000,
         "cost_price": 30000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "3 Tháng",
         "detail": "Định  dạng : Mail | Pass ( Spotify)\n- Nhập mail chúng tôi cấp để đăng nhập, khi yêu cầu mã về mail thì chọn dùng mật khẩu đăng nhập vào nhập pass chúng tôi cấp\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–11):",
         "sources": {
           "khommo_market_bot": {
-            "stock": 11,
+            "stock": 10,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "16:04 17/11/2026"
+            "updated": "19:08 20/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@khommo_market_bot",
           "cost_price": 30000,
-          "stock": 11
+          "stock": 10
         },
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
@@ -26457,6 +26457,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795176539159",
+      "time": "19:08 - 20/11/2026",
+      "name": "Spotify Premium 3 Tháng ( BH 1 Tuần)",
+      "bot": "khommo_market_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 10,
+      "catKey": "spotify",
+      "msgKey": "SpotifyPremium3Tháng(BH1Tuần)💲Giá:30.000VND(~$1.1628)➕Thêm:10📦Tồnkhohiệntại:10"
+    },
+    {
       "id": "hist-1795176533841",
       "time": "19:08 - 20/11/2026",
       "name": "Chatgpt Plus 1 Tháng GG Pay  Acc Cấp - Bảo hành 24H",
@@ -27544,17 +27555,6 @@
       "stockAfter": 15,
       "catKey": "google-veo",
       "msgKey": "AccGeminiUltra,30TB,25KCreditFlow,Carbon4(Antigravity)Hạn1Năm-KBH💲Giá:130.000VND"
-    },
-    {
-      "id": "hist-1794935970457",
-      "time": "00:19 - 18/11/2026",
-      "name": "Acc Gemini Ultra, 30TB, 25K Credit Flow, Carbon 4 ( Antigravity) Hạn 1 Năm - KBH",
-      "bot": "khommo_market_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 12,
-      "catKey": "google-veo",
-      "msgKey": "🛍️AccGeminiUltra,30TB,25KCreditFlow,Carbon4(Antigravity)Hạn1Năm-KBH💲Giá:130.000V"
     }
   ],
   "vidiq": {
