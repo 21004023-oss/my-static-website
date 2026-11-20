@@ -12027,13 +12027,13 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 17,
-        "stock_text": "Còn 17",
+        "stock": 93,
+        "stock_text": "Còn 93",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 17,
+            "stock": 93,
             "cost_price": 150000,
             "selling_price": 170000,
             "updated": "00:26 21/11/2026"
@@ -12042,7 +12042,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 17
+          "stock": 93
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -26761,6 +26761,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795195607730",
+      "time": "00:26 - 21/11/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 93,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:93📦Tồnkhohiệntại:93💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1795195601651",
       "time": "00:26 - 21/11/2026",
       "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
@@ -27848,17 +27859,6 @@
       "stockAfter": 65,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:59📦Tồnkhohiệntại:65💰Giá:175.000"
-    },
-    {
-      "id": "hist-1795178105598",
-      "time": "19:35 - 20/11/2026",
-      "name": "ElevenLabs Redeem 100K Credit BHF",
-      "bot": "sieuthistore_bot",
-      "price": 89000,
-      "costPrice": 79000,
-      "stockAfter": 20,
-      "catKey": "elevenlabs",
-      "msgKey": "🎙️ElevenLabsRedeem100KCreditBHF➕Thêm:20📦Tồnkhohiệntại:20💰Giá:79.000đ"
     }
   ],
   "vidiq": {
