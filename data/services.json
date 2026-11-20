@@ -12619,6 +12619,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795191337982",
+        "name": "Kling Standard 660 credit 25-30 ngày BHF",
+        "price": 150000,
+        "cost_price": 130000,
+        "stock": 36,
+        "stock_text": "Còn 36",
+        "duration": "1 Tháng",
+        "detail": "Gói Kling Standard 660 credit 25-30 ngày BHF bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 36,
+            "cost_price": 130000,
+            "selling_price": 150000,
+            "updated": "23:15 20/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 130000,
+          "stock": 36
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -26735,6 +26761,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795191337982",
+      "time": "23:15 - 20/11/2026",
+      "name": "Kling Standard 660 credit 25-30 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 36,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard660credit25-30ngàyBHF➕Thêm:36📦Tồnkhohiệntại:36💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1795191207950",
       "time": "23:13 - 20/11/2026",
       "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
@@ -27822,17 +27859,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "📜LỊCHSỬMUAHÀNG━━━━━━━━━━━━━━━━Trang:1/1•Tổngđơn:4Tổngtiềntrangnày:50.720đ━━━━━━━"
-    },
-    {
-      "id": "hist-1795176726081",
-      "time": "19:12 - 20/11/2026",
-      "name": "Slot Adobe All Apps 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 300000,
-      "costPrice": 270000,
-      "stockAfter": 110,
-      "catKey": "adobe",
-      "msgKey": "🎨SlotAdobeAllApps1ThángBHF➕Thêm:104📦Tồnkhohiệntại:110💰Giá:270.000đ"
     }
   ],
   "vidiq": {
