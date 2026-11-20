@@ -19246,6 +19246,32 @@
           "cost_price": 55000,
           "stock": 5
         }
+      },
+      {
+        "id": "p-1795186755244",
+        "name": "Proton VPN Unlimited 25 - 28 Ngày BHF",
+        "price": 85000,
+        "cost_price": 75000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "1 Tháng",
+        "detail": "🔐 PROTON VPN UNLIMITED – 25-28 NGÀY | 10 THIẾT BỊ | BHF\n✨ Quyền truy cập gói Proton cao cấp:\n• Proton VPN\n• Proton Pass\n• Proton Mail\n• Proton Calendar\n• Proton Drive\n📦 HÌNH THỨC\n• Hàng Order\n• Sau khi đặt hàng, nhắn mã đơn cho Admin để nhận tài khoản + mật khẩu đăng nhập\n🛡️ BẢO HÀNH\n• Bảo hành 25 ngày\n• Hỗ trợ khi gặp lỗi tài khoản\n⚠️ LƯU Ý\n• Sử dụng tối đa 10 thiết bị\n• Vui lòng kiểm tra tài khoản ngay sau khi nhận hàng\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 10,
+            "cost_price": 75000,
+            "selling_price": 85000,
+            "updated": "21:59 20/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 75000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -26683,6 +26709,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795186755244",
+      "time": "21:59 - 20/11/2026",
+      "name": "Proton VPN Unlimited 25 - 28 Ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 85000,
+      "costPrice": 75000,
+      "stockAfter": 10,
+      "catKey": "protonvpn",
+      "msgKey": "⭐ProtonVPNUnlimited25-28NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:75.000đ"
+    },
+    {
       "id": "hist-1795186561874",
       "time": "21:56 - 20/11/2026",
       "name": "VPN HMA log IOS/android/PC 1 tháng",
@@ -27770,17 +27807,6 @@
       "stockAfter": 59,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+1ThángBHF➕Thêm:2📦Tồnkhohiệntại:32💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1794950778253",
-      "time": "04:26 - 18/11/2026",
-      "name": "TikTok < 900FL Có Giỏ Hàng - LiveStudio",
-      "bot": "taphoathomap_bot",
-      "price": 280000,
-      "costPrice": 250000,
-      "stockAfter": 8,
-      "catKey": "tiktok",
-      "msgKey": "🎵TikTok<900FLCóGiỏHàng-LiveStudio➕Thêm:1📦Tồnkhohiệntại:8💰Giá:250.000đ"
     }
   ],
   "vidiq": {
