@@ -2624,13 +2624,13 @@
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
         "price": 1600000,
-        "stock": 237,
-        "stock_text": "Còn 237",
+        "stock": 342,
+        "stock_text": "Còn 342",
         "duration": "1 Tháng",
         "detail": "- ChatGPT Plus 1 tháng BHF\n- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 59,
+            "stock": 164,
             "cost_price": 145000,
             "selling_price": 165000,
             "updated": "19:07 20/11/2026"
@@ -2661,7 +2661,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 145000,
-          "stock": 59
+          "stock": 164
         }
       },
       {
@@ -26405,6 +26405,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795176435436",
+      "time": "19:07 - 20/11/2026",
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "price": 165000,
+      "costPrice": 145000,
+      "stockAfter": 342,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:105📦Tồnkhohiệntại:164💰Giá:145.000đ"
+    },
+    {
       "id": "hist-1795176429163",
       "time": "19:07 - 20/11/2026",
       "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
@@ -27492,17 +27503,6 @@
       "stockAfter": 47,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)-Loginphone➕Thêm:27📦Tồnkhohiệntại:27💰Giá:23.000đ"
-    },
-    {
-      "id": "hist-1794934170552",
-      "time": "23:49 - 17/11/2026",
-      "name": "Muse Ai 1B Token KBH <3",
-      "bot": "taphoathomap_bot",
-      "price": 18000,
-      "costPrice": 8000,
-      "stockAfter": 254,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MuseAi1BTokenKBH<3💰Giá:8k📦Tồnkho:127tàikhoản📊Đãbán:811tàikhoản💎Môtả:MuseAI1Bill"
     }
   ],
   "vidiq": {
