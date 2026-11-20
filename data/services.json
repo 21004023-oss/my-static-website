@@ -12027,13 +12027,13 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 17,
-        "stock_text": "Còn 17",
+        "stock": 92,
+        "stock_text": "Còn 92",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 17,
+            "stock": 92,
             "cost_price": 150000,
             "selling_price": 170000,
             "updated": "01:06 21/11/2026"
@@ -12042,7 +12042,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 17
+          "stock": 92
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -26761,6 +26761,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795198008909",
+      "time": "01:06 - 21/11/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 92,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:93📦Tồnkhohiệntại:92💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1795198003659",
       "time": "01:06 - 21/11/2026",
       "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
@@ -27848,17 +27859,6 @@
       "stockAfter": 3,
       "catKey": "khac",
       "msgKey": "⭐PippitStarter17600Credit30DBH2D💰Giá:1280k📦Tồnkho:3tàikhoản📊Đãbán:0tàikhoản✏️Vui"
-    },
-    {
-      "id": "hist-1795180898645",
-      "time": "20:21 - 20/11/2026",
-      "name": "ChatGPT Plus GGpay 30D BHF",
-      "bot": "piggyai99_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 183,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusGGpay30DBHF➕Thêm:58📦Tồnkhohiệntại:87💰Giá:160.000đ"
     }
   ],
   "vidiq": {
