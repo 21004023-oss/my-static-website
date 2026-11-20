@@ -4718,16 +4718,16 @@
         "name": "ChatGPT Go 1 Tháng (BH 28D)",
         "price": 110000,
         "cost_price": 95000,
-        "stock": 30,
-        "stock_text": "Còn 30",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 20,
+            "stock": 10,
             "cost_price": 95000,
             "selling_price": 105000,
-            "updated": "19:08 20/11/2026"
+            "updated": "00:14 21/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 10,
@@ -4739,7 +4739,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 95000,
-          "stock": 20
+          "stock": 10
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -26761,6 +26761,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795194874767",
+      "time": "00:14 - 21/11/2026",
+      "name": "ChatGPT Go 1 Tháng (BH 28D)",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 20,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:1📦Tồnkhohiệntại:10💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1795194865258",
       "time": "00:14 - 21/11/2026",
       "name": "ChatGPT Go 1 Tháng BH 28 Ngày",
@@ -27848,17 +27859,6 @@
       "stockAfter": 283,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h💰Giá:20k📦Tồnkho:76tàikhoản📊Đãbán:1.316tàikhoản"
-    },
-    {
-      "id": "hist-1795177268631",
-      "time": "19:21 - 20/11/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng - BH 24h",
-      "bot": "taphoathomap_bot",
-      "price": 30000,
-      "costPrice": 20000,
-      "stockAfter": 283,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:29📦Tồnkhohiệntại:76💰Giá:20.000đ"
     }
   ],
   "vidiq": {
