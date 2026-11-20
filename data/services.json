@@ -5697,9 +5697,9 @@
         "id": "p-1794202530193",
         "name": "GPT GO 1 THÁNG ( BH 28 NGÀY )",
         "price": 145000,
-        "cost_price": 115000,
-        "stock": 18,
-        "stock_text": "Còn 18",
+        "cost_price": 125000,
+        "stock": 9,
+        "stock_text": "Còn 9",
         "duration": "1 Tháng",
         "detail": "📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
@@ -5710,18 +5710,18 @@
             "updated": "11:17 17/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 9,
+            "stock": 0,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "11:17 17/11/2026"
+            "updated": "04:36 21/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 115000,
+          "bot": "@piggyai99_bot",
+          "cost_price": 125000,
           "stock": 9
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -26871,6 +26871,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795210585400",
+      "time": "04:36 - 21/11/2026",
+      "name": "GPT GO 1 THÁNG ( BH 28 NGÀY )",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 9,
+      "catKey": "chatgpt",
+      "msgKey": "🤖GPTGO1THÁNG(BH28NGÀY)➕Thêm:20📦Tồnkhohiệntại:0💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1795210312452",
       "time": "04:31 - 21/11/2026",
       "name": "Tài Khoản Onlyfan 100$ KBH",
@@ -27958,17 +27969,6 @@
       "stockAfter": 98,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus(ApplePay)1ThángBHF➕Thêm:39📦Tồnkhohiệntại:50💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1795188432361",
-      "time": "22:27 - 20/11/2026",
-      "name": "LINK GEMINI PLUS 6 THÁNG BẢO HÀNH 24H",
-      "bot": "ntnshopre_bot",
-      "price": 46000,
-      "costPrice": 36000,
-      "stockAfter": 6,
-      "catKey": "google-veo",
-      "msgKey": "☁️LINKGEMINIPLUS6THÁNGBẢOHÀNH24H💰Giá:36k📦Tồnkho:6tàikhoản📊Đãbán:36tàikhoản💎Môtả:"
     }
   ],
   "vidiq": {
