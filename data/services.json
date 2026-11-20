@@ -260,6 +260,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795176521084",
+        "name": "Netflix Premium 1 Tháng [ BH Full ]",
+        "price": 35000,
+        "cost_price": 25000,
+        "stock": 20,
+        "stock_text": "Còn 20",
+        "duration": "1 Tháng",
+        "detail": "Chất lượng: Gói Premium Ultra HD 4K\nHình thức đăng nhập: Nhận link login nhanh tự động siêu tốc qua web, không cần tài khoản và mật khẩu.\nThiết bị hỗ trợ tốt nhất: Máy tính (PC/Laptop) và Smart TV. (Lưu ý: Không đảm bảo tương thích trên iOS và ứng dụng điện thoại - Mobile App, lúc được lúc không).\n👉 Cách nhận & sử dụng tài khoản:\nSau khi thanh toán, truy cập: 🌐 vuanetflix.shop\nNhập Key vào trang web để lấy link đăng nhập dùng ngay\nNếu gặp báo lỗi Thanh toán hoặc bị giới hạn màn hình, bạn chỉ cần đổi lại lần nữa trên web cho tới khi vào được tài khoản xem bình thường.\n⚠️ LƯU Ý QUAN TRỌNG TRƯỚC KHI MUA:\nĐặc thù tài khoản dùng chung giá rẻ: Đôi lúc sẽ gặp tình trạng giới hạn màn hình. Hệ thống hỗ trợ đổi link trực tiếp trên web tối đa 5 lần/ngày (tránh spam).\nChế độ bảo hành: Bảo hành toàn bộ thời gian sử dụng.\nChính sách hoàn tiền: Chỉ hỗ trợ đổi Key khi lỗi. KHÔNG hoàn tiền với lý do đổi ý hoặc mua về dùng trên iOS/App điện thoại không tương thích. Vui lòng cân nhắc kỹ trước khi thanh toán!\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–20):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 20,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "19:08 20/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 25000,
+          "stock": 20
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -26431,6 +26457,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795176521084",
+      "time": "19:08 - 20/11/2026",
+      "name": "Netflix Premium 1 Tháng [ BH Full ]",
+      "bot": "khommo_market_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 20,
+      "catKey": "netflix",
+      "msgKey": "🛍️NetflixPremium1Tháng[BHFull]💲Giá:25.000VND💚Tồnkho:20tàikhoản📊Đãbán:1249tàikhoả"
+    },
+    {
       "id": "hist-1795176512497",
       "time": "19:08 - 20/11/2026",
       "name": "Open Art 12K credit 30D BH 24H",
@@ -27518,17 +27555,6 @@
       "stockAfter": 6,
       "catKey": "tiktok",
       "msgKey": "🎵TiktokViệtngâmtrên1Năm💰Giá:60k📦Tồnkho:3tàikhoản📊Đãbán:223tàikhoản💎Môtả:TIKTOKVI"
-    },
-    {
-      "id": "hist-1794935105359",
-      "time": "00:05 - 18/11/2026",
-      "name": "Tiktok Việt ngâm trên 1 Năm",
-      "bot": "piggyai99_bot",
-      "price": 95000,
-      "costPrice": 85000,
-      "stockAfter": 6,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokViệtngâmtrên1Năm💰Giá:85k📦Tồnkho:3tàikhoản📊Đãbán:223tàikhoản💎Môtả:TIKTOKVI"
     }
   ],
   "vidiq": {
