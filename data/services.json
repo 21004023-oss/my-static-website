@@ -26400,10 +26400,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795176512497",
+        "name": "Open Art 12K credit 30D BH 24H",
+        "price": 330000,
+        "cost_price": 300000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "Gói Open Art 12K credit 30D BH 24H bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 5,
+            "cost_price": 300000,
+            "selling_price": 330000,
+            "updated": "19:08 20/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 300000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1795176512497",
+      "time": "19:08 - 20/11/2026",
+      "name": "Open Art 12K credit 30D BH 24H",
+      "bot": "taphoathomap_bot",
+      "price": 330000,
+      "costPrice": 300000,
+      "stockAfter": 5,
+      "catKey": "khac",
+      "msgKey": "⭐OpenArt12Kcredit30DBH24H➕Thêm:5📦Tồnkhohiệntại:5💰Giá:300.000đ"
+    },
     {
       "id": "hist-1795176505207",
       "time": "19:08 - 20/11/2026",
@@ -27492,17 +27529,6 @@
       "stockAfter": 6,
       "catKey": "tiktok",
       "msgKey": "🎵TiktokViệtngâmtrên1Năm💰Giá:85k📦Tồnkho:3tàikhoản📊Đãbán:223tàikhoản💎Môtả:TIKTOKVI"
-    },
-    {
-      "id": "hist-1794935099962",
-      "time": "00:04 - 18/11/2026",
-      "name": "Tiktok Việt ngâm trên 1 Năm",
-      "bot": "piggyai99_bot",
-      "price": 95000,
-      "costPrice": 85000,
-      "stockAfter": 6,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokViệtngâmtrên1Năm➕Thêm:2📦Tồnkhohiệntại:3💰Giá:85.000đ"
     }
   ],
   "vidiq": {
