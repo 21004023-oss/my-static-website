@@ -2273,8 +2273,8 @@
         "id": "p-1791879689407",
         "name": "VIP. Chatgpt Plus Apple Pay 1 tháng BHF",
         "price": 280000,
-        "stock": 59,
-        "stock_text": "Còn 59",
+        "stock": 98,
+        "stock_text": "Còn 98",
         "duration": "1 Tháng",
         "detail": "📌 QUÝ KHÁCH VUI LÒNG ĐỌC KỸ MÔ TẢ TRƯỚC KHI MUA HÀNG!\n👉Hàng apple pay 100% Gmail, update hàng ngày\n👉Đảm bảo 100% hàng treo bot đã Check & Change 2FA, nên các shop cứ yên tâm mua về là sử dụng không cần change gì hết\n👉Hàng pay địa chỉ tt Việt, mỗi acc 1 thẻ & không trùng IP => Siêu bền\n👉TK cấp sẵn theo định dạng Mail|Pass|2FA, lấy code log in tại https://2fa.live/\n👉Sử dụng Codex nếu bị ver thì thuê tại https://viotp.com/ (Chọn dịch vụ Chatgpt + đầu số Vina)\n👉TK được đăng ký bằng Gmail OTP nên shop ko hỗ trợ lấy lại pass hoặc 2FA. Nếu đổi 2FA thì nên đổi ngay sau khi log in lần đầu để tránh bị code về mail gốc\n⚠️ Nếu đăng nhập xuất hiện thông báo đạt giới hạn tài khoản trên 1 thiết bị, TUYỆT ĐỐI KHÔNG NHẤN \"CANCEL SUBSCRIPTION\" vì sẽ làm mất gói Plus. Shop không bảo hành trường hợp này.\n⚠️ Shop sẽ không bảo hành các VẤN ĐỀ VỀ BẢO MẬT nếu khách hàng thay đổi thông tin đăng nhập như: Change Password, 2FA, Change Email dẫn đến bị xác minh code về mail và không truy cập được tài khoản nữa.\n✅ Bên em cam kết không bao giờ back acc. Chỉ BH tài khoản khi có thể log in được để check gói.\n✏️",
         "sources": {
@@ -2285,10 +2285,10 @@
             "updated": "11:56 31/10/2026"
           },
           "sieuthistore_bot": {
-            "stock": 11,
+            "stock": 50,
             "cost_price": 160000,
             "selling_price": 180000,
-            "updated": "22:19 20/11/2026"
+            "updated": "22:36 20/11/2026"
           }
         },
         "cost_price": 160000,
@@ -2298,7 +2298,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 160000,
-          "stock": 11
+          "stock": 50
         }
       },
       {
@@ -26735,6 +26735,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795188964247",
+      "time": "22:36 - 20/11/2026",
+      "name": "ChatGPT Plus ( Apple Pay ) 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 180000,
+      "costPrice": 160000,
+      "stockAfter": 98,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus(ApplePay)1ThángBHF➕Thêm:39📦Tồnkhohiệntại:50💰Giá:160.000đ"
+    },
+    {
       "id": "hist-1795188432361",
       "time": "22:27 - 20/11/2026",
       "name": "LINK GEMINI PLUS 6 THÁNG BẢO HÀNH 24H",
@@ -27822,17 +27833,6 @@
       "stockAfter": 237,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:18📦Tồnkhohiệntại:59💰Giá:145.000đ"
-    },
-    {
-      "id": "hist-1795176422530",
-      "time": "19:07 - 20/11/2026",
-      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
-      "bot": "ntnshopre_bot",
-      "price": 33000,
-      "costPrice": 23000,
-      "stockAfter": 417,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:2📦Tồnkhohiệntại:102💰Giá:23.000đ"
     }
   ],
   "vidiq": {
