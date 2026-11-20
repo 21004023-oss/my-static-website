@@ -265,7 +265,7 @@
         "id": "p-1795176521084",
         "name": "Netflix Premium 1 Tháng [ BH Full ]",
         "price": 35000,
-        "cost_price": 25000,
+        "cost_price": 10000,
         "stock": 20,
         "stock_text": "Còn 20",
         "duration": "1 Tháng",
@@ -273,14 +273,14 @@
         "sources": {
           "khommo_market_bot": {
             "stock": 20,
-            "cost_price": 25000,
-            "selling_price": 35000,
+            "cost_price": 10000,
+            "selling_price": 20000,
             "updated": "19:08 20/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@khommo_market_bot",
-          "cost_price": 25000,
+          "cost_price": 10000,
           "stock": 20
         },
         "import_note": "Nhập: @khommo_market_bot",
@@ -26457,6 +26457,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795176527512",
+      "time": "19:08 - 20/11/2026",
+      "name": "Netflix Premium 5 Ngày [BH FULL]",
+      "bot": "khommo_market_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 20,
+      "catKey": "netflix",
+      "msgKey": "NetflixPremium5Ngày[BHFULL]💲Giá:10.000VND(~$0.3876)➕Thêm:20📦Tồnkhohiệntại:20"
+    },
+    {
       "id": "hist-1795176521084",
       "time": "19:08 - 20/11/2026",
       "name": "Netflix Premium 1 Tháng [ BH Full ]",
@@ -27544,17 +27555,6 @@
       "stockAfter": 9,
       "catKey": "capcut",
       "msgKey": "✂️CapCutProTeam3Tháng-BHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:155.000đ"
-    },
-    {
-      "id": "hist-1794935111323",
-      "time": "00:05 - 18/11/2026",
-      "name": "Tiktok Việt ngâm trên 1 Năm",
-      "bot": "taphoathomap_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 6,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokViệtngâmtrên1Năm💰Giá:60k📦Tồnkho:3tàikhoản📊Đãbán:223tàikhoản💎Môtả:TIKTOKVI"
     }
   ],
   "vidiq": {
