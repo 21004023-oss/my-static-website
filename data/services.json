@@ -2370,16 +2370,16 @@
         "id": "p-1791909483397",
         "name": "ChatGPT Plus ( GG Pay) 1 Tháng BH 1 Ngày",
         "price": 270000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Tháng",
         "detail": "Tài khoản ADMIN cấp sẵn, định dạng Mail|Pass|2FA. Bảo hành 1 ngày.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 8,
+            "stock": 30,
             "cost_price": 120000,
             "selling_price": 140000,
-            "updated": "20:34 20/11/2026"
+            "updated": "01:20 21/11/2026"
           }
         },
         "cost_price": 120000,
@@ -2387,7 +2387,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 120000,
-          "stock": 8
+          "stock": 30
         },
         "hidden": false,
         "needs_review": false
@@ -26761,6 +26761,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795198835870",
+      "time": "01:20 - 21/11/2026",
+      "name": "ChatGPT Plus ( GG Pay ) 1 Tháng BH 1 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 140000,
+      "costPrice": 120000,
+      "stockAfter": 30,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:23📦Tồnkhohiệntại:30💰Giá:120.000đ"
+    },
+    {
       "id": "hist-1795198171086",
       "time": "01:09 - 21/11/2026",
       "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
@@ -27848,17 +27859,6 @@
       "stockAfter": 2,
       "catKey": "khac",
       "msgKey": "⭐TV360Standard1thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1795181541989",
-      "time": "20:32 - 20/11/2026",
-      "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 195000,
-      "costPrice": 175000,
-      "stockAfter": 102,
-      "catKey": "chatgpt",
-      "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:10📦Tồnkhohiệntại:102💰Giá:175.00"
     }
   ],
   "vidiq": {
