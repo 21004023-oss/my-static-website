@@ -1920,22 +1920,22 @@
         "name": "Spotify Premium 3 Tháng ( BH 1 Tuần)",
         "price": 40000,
         "cost_price": 30000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 13,
+        "stock_text": "Còn 13",
         "duration": "3 Tháng",
-        "detail": "Định  dạng : Mail | Pass ( Spotify)\n- Nhập mail chúng tôi cấp để đăng nhập, khi yêu cầu mã về mail thì chọn dùng mật khẩu đăng nhập vào nhập pass chúng tôi cấp\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–11):",
+        "detail": "Định  dạng : Mail | Pass ( Spotify)\n- Nhập mail chúng tôi cấp để đăng nhập, khi yêu cầu mã về mail thì chọn dùng mật khẩu đăng nhập vào nhập pass chúng tôi cấp\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–13):",
         "sources": {
           "khommo_market_bot": {
-            "stock": 10,
+            "stock": 13,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "19:08 20/11/2026"
+            "updated": "15:43 21/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@khommo_market_bot",
           "cost_price": 30000,
-          "stock": 10
+          "stock": 13
         },
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
@@ -27198,6 +27198,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795250638951",
+      "time": "15:43 - 21/11/2026",
+      "name": "Spotify Premium 3 Tháng ( BH 1 Tuần)",
+      "bot": "khommo_market_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 13,
+      "catKey": "spotify",
+      "msgKey": "SpotifyPremium3Tháng(BH1Tuần)💲Giá:30.000VND(~$1.1628)➕Thêm:10📦Tồnkhohiệntại:13"
+    },
+    {
       "id": "hist-1795250400467",
       "time": "15:40 - 21/11/2026",
       "name": "Open Art 12K credit 30D BH 24H",
@@ -28285,17 +28296,6 @@
       "stockAfter": 20,
       "catKey": "chatgpt",
       "msgKey": "🤖GPTGO1THÁNG(BH28NGÀY)➕Thêm:10📦Tồnkhohiệntại:10💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1795232344758",
-      "time": "10:39 - 21/11/2026",
-      "name": "GPT GO 1 THÁNG ( BH 28 NGÀY )",
-      "bot": "piggyai99_bot",
-      "price": 145000,
-      "costPrice": 125000,
-      "stockAfter": 10,
-      "catKey": "chatgpt",
-      "msgKey": "🤖GPTGO1THÁNG(BH28NGÀY)➕Thêm:10📦Tồnkhohiệntại:10💰Giá:125.000đ"
     }
   ],
   "vidiq": {
