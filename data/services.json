@@ -11526,6 +11526,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795266981982",
+        "name": "Grok Premium 14D - 24D BH 3D",
+        "price": 190000,
+        "cost_price": 170000,
+        "stock": 20,
+        "stock_text": "Còn 20",
+        "duration": "3 Ngày",
+        "detail": "Grok Premium\nLưu Ý :\nMua về vui lòng đổi pass\nChỉ Bảo hành gói 3 ngày sử dụng\nSử dụng Cusor trên Grok\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 20,
+            "cost_price": 170000,
+            "selling_price": 190000,
+            "updated": "20:16 21/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 170000,
+          "stock": 20
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -27250,6 +27276,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795266981982",
+      "time": "20:16 - 21/11/2026",
+      "name": "Grok Premium 14D - 24D BH 3D",
+      "bot": "taphoathomap_bot",
+      "price": 190000,
+      "costPrice": 170000,
+      "stockAfter": 20,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPremium14D-24DBH3D➕Thêm:20📦Tồnkhohiệntại:20💰Giá:170.000đ"
+    },
+    {
       "id": "hist-1795266892900",
       "time": "20:14 - 21/11/2026",
       "name": "Hotspot Shield VPN 7 Ngày BHF",
@@ -28337,17 +28374,6 @@
       "stockAfter": 38,
       "catKey": "figma",
       "msgKey": "⭐FigmaProEdu1năm(BH30D)➕Thêm:3📦Tồnkhohiệntại:19💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1795241936601",
-      "time": "13:18 - 21/11/2026",
-      "name": "Figma Pro Edu 1 năm (BH 30D)",
-      "bot": "sieuthistore_bot",
-      "price": 200000,
-      "costPrice": 180000,
-      "stockAfter": 35,
-      "catKey": "figma",
-      "msgKey": "⭐FigmaProEdu1năm(BH30D)➕Thêm:3📦Tồnkhohiệntại:19💰Giá:180.000đ"
     }
   ],
   "vidiq": {
