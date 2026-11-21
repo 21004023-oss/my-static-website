@@ -18760,16 +18760,16 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 9,
+            "stock": 5,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "23:26 16/11/2026"
+            "updated": "17:48 21/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 5,
@@ -18782,7 +18782,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 9
+          "stock": 5
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -27224,6 +27224,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795258092236",
+      "time": "17:48 - 21/11/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 10,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1795258086842",
       "time": "17:48 - 21/11/2026",
       "name": "NordVPN 3 Ngày BHF",
@@ -28311,17 +28322,6 @@
       "stockAfter": 15,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+90DBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:165.000đ"
-    },
-    {
-      "id": "hist-1795236189204",
-      "time": "11:43 - 21/11/2026",
-      "name": "ADMIN GEMINI PRO + ANTIGRAVITY 5TB - 1 NĂM BH 24H",
-      "bot": "taphoathomap_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 2,
-      "catKey": "google-veo",
-      "msgKey": "☁️ADMINGEMINIPRO+ANTIGRAVITY5TB-1NĂMBH24H➕Thêm:1📦Tồnkhohiệntại:2💰Giá:150.000đ"
     }
   ],
   "vidiq": {
