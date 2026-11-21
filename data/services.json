@@ -4744,16 +4744,16 @@
         "name": "ChatGPT Go 1 Tháng (BH 28D)",
         "price": 110000,
         "cost_price": 95000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 40,
+        "stock_text": "Còn 40",
         "duration": "1 Tháng",
         "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 30,
             "cost_price": 95000,
             "selling_price": 105000,
-            "updated": "00:14 21/11/2026"
+            "updated": "18:46 21/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 10,
@@ -4765,7 +4765,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 95000,
-          "stock": 10
+          "stock": 30
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -27250,6 +27250,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795261616011",
+      "time": "18:46 - 21/11/2026",
+      "name": "ChatGPT Go 1 Tháng (BH 28D)",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 40,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:30📦Tồnkhohiệntại:30💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1795261592543",
       "time": "18:46 - 21/11/2026",
       "name": "⚡️ Grok Plus 7 ngày -  BH 1 Ngày",
@@ -28337,17 +28348,6 @@
       "stockAfter": 30,
       "catKey": "suno",
       "msgKey": "🎵SunoPro1ThángBH1ngày➕Thêm:8📦Tồnkhohiệntại:8💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1795237518499",
-      "time": "12:05 - 21/11/2026",
-      "name": "Suno Pro 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 135000,
-      "costPrice": 115000,
-      "stockAfter": 30,
-      "catKey": "suno",
-      "msgKey": "🎵SunoPro1THBH1ngày➕Thêm:8📦Tồnkhohiệntại:8💰Giá:115.000đ"
     }
   ],
   "vidiq": {
