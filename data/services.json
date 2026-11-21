@@ -15319,6 +15319,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795237873837",
+        "name": "Muse AI 1B Token - Gmail [ Bảo hành 24H]",
+        "price": 16000,
+        "cost_price": 6000,
+        "stock": 2417,
+        "stock_text": "Còn 2417",
+        "duration": "1 Ngày",
+        "detail": "Định dạng: Gmail | Pass | 2FA\nBảo hành: 24H\nKhông bảo hành nếu tự ý đổi mật khẩu, email, tắt 2FA\n- Hàng gmail nên độ ổn định cao . Trâu bò nhé cả nhà\nHướng dẫn đăng nhập : https://youtu.be/3YaZz95GUFo\nƯu đãi theo số lượng:\n• Mua từ 50 sản phẩm: 4.980đ/1 (giảm 17%)\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–1714):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 2417,
+            "cost_price": 6000,
+            "selling_price": 16000,
+            "updated": "12:11 21/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 6000,
+          "stock": 2417
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -26987,6 +27013,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795237873837",
+      "time": "12:11 - 21/11/2026",
+      "name": "Muse AI 1B Token - Gmail [ Bảo hành 24H]",
+      "bot": "khommo_market_bot",
+      "price": 16000,
+      "costPrice": 6000,
+      "stockAfter": 2417,
+      "catKey": "muse-ai",
+      "msgKey": "MuseAI1BToken-Gmail[Bảohành24H]💲Giá:6.000VND(~$0.2326)Ưuđãitheosốlượng:•Muatừ50s"
+    },
+    {
       "id": "hist-1795237670957",
       "time": "12:07 - 21/11/2026",
       "name": "Meitu SVIP 5 thiết bị  1 Tháng BHF",
@@ -28074,17 +28111,6 @@
       "stockAfter": 0,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:0💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1795220385078",
-      "time": "07:19 - 21/11/2026",
-      "name": "Capcut Pro 500 credit 7D BH 6D",
-      "bot": "taphoathomap_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 0,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutPro500credit7DBH6D➕Thêm:127📦Tồnkhohiệntại:0💰Giá:10.000đ"
     }
   ],
   "vidiq": {
