@@ -20883,9 +20883,9 @@
         "id": "p-1795241531813",
         "name": "Office 365 100GB 5 thiết bị Vĩnh viễn BH 2 năm",
         "price": 150000,
-        "cost_price": 130000,
-        "stock": 274,
-        "stock_text": "Còn 274",
+        "cost_price": 60000,
+        "stock": 548,
+        "stock_text": "Còn 548",
         "duration": "2 Năm",
         "detail": "Bảo hành gói: 2 Năm\nQuên mật khẩu không bảo hành\nSử dụng được 5 thiết bị\nWindows, macOS, Android, iOS, iPad, tablet.\nKhông khuyến nghị sử dụng OneDrive 100GB do thường xuyên phát sinh lỗi quốc gia.\nWord, Excel,PowerPoint,...\n✏️",
         "sources": {
@@ -20894,14 +20894,20 @@
             "cost_price": 130000,
             "selling_price": 150000,
             "updated": "13:12 21/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 274,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "13:12 21/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 130000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 60000,
           "stock": 274
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -27082,6 +27088,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795241537950",
+      "time": "13:12 - 21/11/2026",
+      "name": "Office 365 100GB 5 thiết bị Vĩnh viễn BH 2 năm",
+      "bot": "taphoathomap_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 548,
+      "catKey": "microsoft",
+      "msgKey": "⭐Office365100GB5thiếtbịVĩnhviễnBH2năm➕Thêm:200📦Tồnkhohiệntại:274💰Giá:60.000đ"
+    },
+    {
       "id": "hist-1795241531813",
       "time": "13:12 - 21/11/2026",
       "name": "Office 365 100GB 5 thiết bị Vĩnh viễn BH 2 năm",
@@ -28169,17 +28186,6 @@
       "stockAfter": 15,
       "catKey": "zoom",
       "msgKey": "⭐ZOOMPRO14NGÀYBẢOHÀNHFULL➕Thêm:2📦Tồnkhohiệntại:11💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1795224513809",
-      "time": "08:28 - 21/11/2026",
-      "name": "Capcut Pro 7D BH 5D",
-      "bot": "taphoathomap_bot",
-      "price": 19000,
-      "costPrice": 9000,
-      "stockAfter": 135,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutPro7DBH5D➕Thêm:100📦Tồnkhohiệntại:135💰Giá:9.000đ"
     }
   ],
   "vidiq": {
