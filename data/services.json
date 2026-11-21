@@ -22311,22 +22311,22 @@
         "name": "Gmail Random 2020~2026",
         "price": 35000,
         "cost_price": 25000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|mkp|2FA Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 2,
+            "stock": 30,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "11:10 21/11/2026"
+            "updated": "14:51 21/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 25000,
-          "stock": 2
+          "stock": 30
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -27172,6 +27172,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795247517789",
+      "time": "14:51 - 21/11/2026",
+      "name": "Gmail  Random 2020~2026",
+      "bot": "taphoathomap_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 30,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandom2020~2026➕Thêm:30📦Tồnkhohiệntại:30💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1795247226273",
       "time": "14:47 - 21/11/2026",
       "name": "🔥Link CrunchyRoll Fan Premium 1 Tháng - BHF",
@@ -28259,17 +28270,6 @@
       "stockAfter": 115,
       "catKey": "netflix",
       "msgKey": "🎬SLOTNetflixPremium4K1TH(BHF)➕Thêm:10📦Tồnkhohiệntại:60💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1795228735936",
-      "time": "09:38 - 21/11/2026",
-      "name": "ADMIN Netflix Premium 4K 1TH (BHF)",
-      "bot": "taphoathomap_bot",
-      "price": 265000,
-      "costPrice": 235000,
-      "stockAfter": 58,
-      "catKey": "netflix",
-      "msgKey": "🎬ADMINNetflixPremium4K1TH(BHF)➕Thêm:58📦Tồnkhohiệntại:58💰Giá:235.000đ"
     }
   ],
   "vidiq": {
