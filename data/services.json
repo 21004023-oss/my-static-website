@@ -15808,17 +15808,17 @@
         "id": "p-1793176775226",
         "name": "Suno Pro 1TH BH 1 ngày",
         "price": 180000,
-        "cost_price": 140000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "cost_price": 130000,
+        "stock": 23,
+        "stock_text": "Còn 23",
         "duration": "1 Tháng",
-        "detail": "Mail - Pass - Mail khôi phục\nhttps://fviainboxes.com/\nĐăng nhập bằng Microsoft\nNếu mn không thấy mã gửi về thì kiên nhẫn chờ chút xíu là thấy mã ạ",
+        "detail": "Mail - Pass - Mail khôi phục\nhttps://fviainboxes.com/\nĐăng nhập bằng Microsoft\nNếu mn không thấy mã gửi về thì kiên nhẫn chờ chút xíu là thấy mã ạ\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 1,
             "cost_price": 130000,
             "selling_price": 150000,
-            "updated": "09:31 21/11/2026"
+            "updated": "09:33 21/11/2026"
           },
           "piggyai99_bot": {
             "stock": 14,
@@ -15834,11 +15834,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 140000,
-          "stock": 14
+          "bot": "@taphoathomap_bot",
+          "cost_price": 130000,
+          "stock": 1
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -26929,6 +26929,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795228434314",
+      "time": "09:33 - 21/11/2026",
+      "name": "Suno Pro 1 tháng BH 1 Ngày",
+      "bot": "taphoathomap_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 23,
+      "catKey": "suno",
+      "msgKey": "🎵SunoPro1thángBH1Ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1795228286249",
       "time": "09:31 - 21/11/2026",
       "name": "Suno Pro 1 tháng BH 1 Ngày",
@@ -28016,17 +28027,6 @@
       "stockAfter": 238,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusGGpay30DBHF➕Thêm:26📦Tồnkhohiệntại:141💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1795206432936",
-      "time": "03:27 - 21/11/2026",
-      "name": "Suno Pro 1 tháng BH 1 Ngày",
-      "bot": "taphoathomap_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 22,
-      "catKey": "suno",
-      "msgKey": "🎵SunoPro1thángBH1Ngày➕Thêm:2📦Tồnkhohiệntại:0💰Giá:130.000đ"
     }
   ],
   "vidiq": {
