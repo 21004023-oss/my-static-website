@@ -20878,6 +20878,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795241531813",
+        "name": "Office 365 100GB 5 thiết bị Vĩnh viễn BH 2 năm",
+        "price": 150000,
+        "cost_price": 130000,
+        "stock": 274,
+        "stock_text": "Còn 274",
+        "duration": "2 Năm",
+        "detail": "Bảo hành gói: 2 Năm\nQuên mật khẩu không bảo hành\nSử dụng được 5 thiết bị\nWindows, macOS, Android, iOS, iPad, tablet.\nKhông khuyến nghị sử dụng OneDrive 100GB do thường xuyên phát sinh lỗi quốc gia.\nWord, Excel,PowerPoint,...\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 274,
+            "cost_price": 130000,
+            "selling_price": 150000,
+            "updated": "13:12 21/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 130000,
+          "stock": 274
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -27056,6 +27082,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795241531813",
+      "time": "13:12 - 21/11/2026",
+      "name": "Office 365 100GB 5 thiết bị Vĩnh viễn BH 2 năm",
+      "bot": "sieuthistore_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 274,
+      "catKey": "microsoft",
+      "msgKey": "⭐Office365100GB5thiếtbịVĩnhviễnBH2năm➕Thêm:200📦Tồnkhohiệntại:274💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1795241278001",
       "time": "13:07 - 21/11/2026",
       "name": "Figma Pro Edu 1 năm (BH 30D)",
@@ -28143,17 +28180,6 @@
       "stockAfter": 135,
       "catKey": "capcut",
       "msgKey": "✂️CapcutPro7DBH5D➕Thêm:100📦Tồnkhohiệntại:135💰Giá:9.000đ"
-    },
-    {
-      "id": "hist-1795224146058",
-      "time": "08:22 - 21/11/2026",
-      "name": "Gmail (New) -Login All",
-      "bot": "taphoathomap_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 180,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)-LoginAll💰Giá:25k📦Tồnkho:76tàikhoản📊Đãbán:15.158tàikhoản💎Môtả:GMAILNe"
     }
   ],
   "vidiq": {
