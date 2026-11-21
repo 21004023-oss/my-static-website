@@ -9897,6 +9897,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795260267680",
+        "name": "Tài khoản Gemini Pro, 5TB, Argon, Neon 4, Opus 5.5 (Antigravity) Hạn 3 Tháng - BH 24H",
+        "price": 90000,
+        "cost_price": 80000,
+        "stock": 7,
+        "stock_text": "Còn 7",
+        "duration": "3 Tháng",
+        "detail": "Định dạng : Gmail | Pass | 2fa | MKP\n- Tài khoản của shop cấp. Là chủ Family có thể tùy chọn add thêm tối đa 5 người\n- Có thể dùng Argon 4, Opus 5.5 , Sonet 5.5, Hydrogen trong Antigravity\n- Bảo hành : 24 Giờ ( Không bảo hành đóng hồ sơ thanh toán- mất gói)\n- Full ưu đãi của gói Pro\nƯu đãi theo số lượng:\n• Mua từ 5 sản phẩm: 68K/1 (giảm 15%)\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–7):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 7,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "18:24 21/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 80000,
+          "stock": 7
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -27224,6 +27250,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795260267680",
+      "time": "18:24 - 21/11/2026",
+      "name": "Tài khoản Gemini Pro, 5TB, Argon, Neon 4, Opus 5.5 (Antigravity) Hạn 3 Tháng - BH 24H",
+      "bot": "khommo_market_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 7,
+      "catKey": "google-veo",
+      "msgKey": "🛍️TàikhoảnGeminiPro,5TB,Argon,Neon4,Opus5.5(Antigravity)Hạn3Tháng-BH24H💲Giá:80.0"
+    },
+    {
       "id": "hist-1795259368553",
       "time": "18:09 - 21/11/2026",
       "name": "Meitu Vip+ 30D BHF",
@@ -28311,17 +28348,6 @@
       "stockAfter": 88,
       "catKey": "capcut",
       "msgKey": "✂️🔥CapCutProVIP6Tháng-BHF➕Thêm:3📦Tồnkhohiệntại:6💰Giá:250.000đ"
-    },
-    {
-      "id": "hist-1795237130972",
-      "time": "11:58 - 21/11/2026",
-      "name": "🔥 CapCut Pro VIP 6 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 279000,
-      "costPrice": 249000,
-      "stockAfter": 85,
-      "catKey": "capcut",
-      "msgKey": "✂️🔥CapCutProVIP6Tháng-BHF➕Thêm:3📦Tồnkhohiệntại:6💰Giá:249.000đ"
     }
   ],
   "vidiq": {
