@@ -15449,6 +15449,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795292251606",
+        "name": "Muse Ai 31 tỷ Token ( BH LOGIN)",
+        "price": 40000,
+        "cost_price": 30000,
+        "stock": 30,
+        "stock_text": "Còn 30",
+        "duration": "1 Tháng",
+        "detail": "-Đăng nhập ngay sau khi mua\n-Token 31B\n-Định dạng: Email | Đường dẫn để đọc mã xác thực trong email\n-Bảo hành: Đăng nhập kiểm tra tài khoản thành công = hoàn tất bảo hành.\n-Login immediately after purchase\n-Token 31B\n-Format: Mail | Link to read mail code\n-Warranty: Login to check account ok = warranty completed.\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 30,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "03:17 22/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 30000,
+          "stock": 30
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -27302,6 +27328,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795292251606",
+      "time": "03:17 - 22/11/2026",
+      "name": "Muse Ai 31 tỷ Token ( BH LOGIN)",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 30,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAi31tỷToken(BHLOGIN)➕Thêm:30📦Tồnkhohiệntại:30💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1795291362390",
       "time": "03:02 - 22/11/2026",
       "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
@@ -28389,17 +28426,6 @@
       "stockAfter": 20,
       "catKey": "wink",
       "msgKey": "⭐WinkVip30NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1795268266635",
-      "time": "20:37 - 21/11/2026",
-      "name": "Wink Vip 30D BHF",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 18,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVip30DBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:70.000đ"
     }
   ],
   "vidiq": {
