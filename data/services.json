@@ -22120,22 +22120,22 @@
         "name": "Gmail Random 2020~2026",
         "price": 35000,
         "cost_price": 25000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|mkp|2FA Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 25000,
             "selling_price": 35000,
-            "updated": "14:52 10/11/2026"
+            "updated": "11:10 21/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 25000,
-          "stock": 1
+          "stock": 2
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -26929,6 +26929,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795234219733",
+      "time": "11:10 - 21/11/2026",
+      "name": "Gmail  Random 2020~2026",
+      "bot": "taphoathomap_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 2,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandom2020~2026➕Thêm:2📦Tồnkhohiệntại:2💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1795234013048",
       "time": "11:06 - 21/11/2026",
       "name": "Wink Vip 90D BHF",
@@ -28016,17 +28027,6 @@
       "stockAfter": 52,
       "catKey": "google-veo",
       "msgKey": "☁️LINK-GeminiAIPlus6Tháng(BH24H)💰Giá:40k📦Tồnkho:26tàikhoản📊Đãbán:268tàikhoản💎Môt"
-    },
-    {
-      "id": "hist-1795214583900",
-      "time": "05:43 - 21/11/2026",
-      "name": "LINK - Gemini AI Plus 6 Tháng (BH 24H)",
-      "bot": "piggyai99_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 52,
-      "catKey": "google-veo",
-      "msgKey": "☁️LINK-GeminiAIPlus6Tháng(BH24H)➕Thêm:20📦Tồnkhohiệntại:26💰Giá:40.000đ"
     }
   ],
   "vidiq": {
