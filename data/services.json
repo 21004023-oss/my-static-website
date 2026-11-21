@@ -4744,8 +4744,8 @@
         "name": "ChatGPT Go 1 Tháng (BH 28D)",
         "price": 110000,
         "cost_price": 95000,
-        "stock": 40,
-        "stock_text": "Còn 40",
+        "stock": 60,
+        "stock_text": "Còn 60",
         "duration": "1 Tháng",
         "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
@@ -4756,10 +4756,10 @@
             "updated": "18:46 21/11/2026"
           },
           "sieuthistore_bot": {
-            "stock": 10,
+            "stock": 30,
             "cost_price": 100000,
             "selling_price": 110000,
-            "updated": "00:14 21/11/2026"
+            "updated": "18:47 21/11/2026"
           }
         },
         "cheapest_source": {
@@ -27250,6 +27250,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795261628852",
+      "time": "18:47 - 21/11/2026",
+      "name": "ChatGPT Go 1 Tháng BH 28 Ngày",
+      "bot": "sieuthistore_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 60,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1ThángBH28Ngày➕Thêm:30📦Tồnkhohiệntại:30💰Giá:100.000đ"
+    },
+    {
       "id": "hist-1795261616011",
       "time": "18:46 - 21/11/2026",
       "name": "ChatGPT Go 1 Tháng (BH 28D)",
@@ -28337,17 +28348,6 @@
       "stockAfter": 8,
       "catKey": "meitu",
       "msgKey": "✨MeituSVIP5thiếtbị1ThángBHF➕Thêm:8📦Tồnkhohiệntại:8💰Giá:290.000đ"
-    },
-    {
-      "id": "hist-1795237525403",
-      "time": "12:05 - 21/11/2026",
-      "name": "Suno Pro 1 Tháng BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 30,
-      "catKey": "suno",
-      "msgKey": "🎵SunoPro1ThángBH1ngày➕Thêm:8📦Tồnkhohiệntại:8💰Giá:150.000đ"
     }
   ],
   "vidiq": {
