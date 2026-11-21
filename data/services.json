@@ -27271,10 +27271,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795280282869",
+        "name": "Proxyscrape Residential Non-Expiry  100Y BHF",
+        "price": 70000,
+        "cost_price": 60000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "ProxyScrape 1GB – Proxy dân cư, xoay IP,  hơn 200 quốc gia. Phù hợp cho scraping, SEO, automation và bảo mật tài khoản. Gửi thông tin quốc gia cần lấy để mình gửi proxy qua.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 2,
+            "cost_price": 60000,
+            "selling_price": 70000,
+            "updated": "23:58 21/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 60000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1795280282869",
+      "time": "23:58 - 21/11/2026",
+      "name": "Proxyscrape Residential Non-Expiry  100Y BHF",
+      "bot": "taphoathomap_bot",
+      "price": 70000,
+      "costPrice": 60000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "msgKey": "⭐ProxyscrapeResidentialNon-Expiry100YBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:60.000đ"
+    },
     {
       "id": "hist-1795280070084",
       "time": "23:54 - 21/11/2026",
@@ -28363,17 +28400,6 @@
       "stockAfter": 34899,
       "catKey": "youtube",
       "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:805💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1795255756505",
-      "time": "17:09 - 21/11/2026",
-      "name": "Muse AI 1B Token - Gmail [ Bảo hành 24H]",
-      "bot": "khommo_market_bot",
-      "price": 16000,
-      "costPrice": 6000,
-      "stockAfter": 1873,
-      "catKey": "muse-ai",
-      "msgKey": "MuseAI1BToken-Gmail[Bảohành24H]💲Giá:6.000VND(~$0.2326)Ưuđãitheosốlượng:•Muatừ50s"
     }
   ],
   "vidiq": {
