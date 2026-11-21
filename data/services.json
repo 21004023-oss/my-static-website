@@ -5697,17 +5697,17 @@
         "id": "p-1794202530193",
         "name": "GPT GO 1 THÁNG ( BH 28 NGÀY )",
         "price": 145000,
-        "cost_price": 115000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "cost_price": 125000,
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
           "piggyai99_bot": {
-            "stock": 0,
+            "stock": 10,
             "cost_price": 125000,
             "selling_price": 145000,
-            "updated": "06:07 21/11/2026"
+            "updated": "10:39 21/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -5717,11 +5717,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 115000,
-          "stock": 0
+          "bot": "@piggyai99_bot",
+          "cost_price": 125000,
+          "stock": 10
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -26929,6 +26929,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795232344758",
+      "time": "10:39 - 21/11/2026",
+      "name": "GPT GO 1 THÁNG ( BH 28 NGÀY )",
+      "bot": "piggyai99_bot",
+      "price": 145000,
+      "costPrice": 125000,
+      "stockAfter": 10,
+      "catKey": "chatgpt",
+      "msgKey": "🤖GPTGO1THÁNG(BH28NGÀY)➕Thêm:10📦Tồnkhohiệntại:10💰Giá:125.000đ"
+    },
+    {
       "id": "hist-1795232026956",
       "time": "10:33 - 21/11/2026",
       "name": "Grok Plus 7 ngày BH 5 ngày",
@@ -28016,17 +28027,6 @@
       "stockAfter": 9,
       "catKey": "nordvpn",
       "msgKey": "🛡️SlotNordVPNAnd/PC/IOS3thángBHF➕Thêm:15📦Tồnkhohiệntại:9💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1795210116480",
-      "time": "04:28 - 21/11/2026",
-      "name": "ChatGPT Plus ( GG Pay ) 1 Tháng BH 1 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 30,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus(GGPay)1ThángBH1Ngày➕Thêm:4📦Tồnkhohiệntại:30💰Giá:120.000đ"
     }
   ],
   "vidiq": {
