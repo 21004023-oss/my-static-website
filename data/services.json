@@ -20308,16 +20308,16 @@
         "id": "p-1792088127430",
         "name": "Grammarly AI Pro 1 Tháng BHF",
         "price": 100000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "1 Tháng",
         "detail": "Grammarly Pro có AI 1 Tháng BHF\nĐịnh dạng: Email|Pass\n・　Viết lại toàn bộ câu chỉ với một cú nhấp chuột\n・　Dễ dàng điều chỉnh văn phong và giọng điệu bài viết\n・　Viết tiếng Anh trôi chảy và tự nhiên hơn\n・　Gợi ý cá nhân hóa không giới hạn\n・　Phát hiện đạo văn và nội dung do AI tạo ra\n・　Tạo nội dung với 2.000 lượt prompt AI\n-Chú ý: Không thay đổi thêm thắt bất kỳ cái gì vào tài khoản, nếu vi phạm sẽ không được bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 4,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "04:57 21/11/2026"
+            "updated": "01:44 22/11/2026"
           },
           "piggyai99_bot": {
             "stock": 4,
@@ -20334,11 +20334,11 @@
         },
         "hidden": false,
         "needs_review": false,
-        "cost_price": 90000,
-        "import_note": "Nhập: @piggyai99_bot",
+        "cost_price": 80000,
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 90000,
+          "bot": "@sieuthistore_bot",
+          "cost_price": 80000,
           "stock": 4
         }
       },
@@ -27302,6 +27302,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795286661118",
+      "time": "01:44 - 22/11/2026",
+      "name": "Grammarly AI Pro 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 8,
+      "catKey": "grammarly",
+      "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1795286654835",
       "time": "01:44 - 22/11/2026",
       "name": "Grammarly AI Pro 1 Tháng BHF",
@@ -28389,17 +28400,6 @@
       "stockAfter": 88,
       "catKey": "gmail",
       "msgKey": "📧🔥GmailRegTayNgâmTrên3ThángSIêuTrâu➕Thêm:8📦Tồnkhohiệntại:40💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1795263442332",
-      "time": "19:17 - 21/11/2026",
-      "name": "Slot Youtube Premium 3 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 34901,
-      "catKey": "youtube",
-      "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:807💰Giá:95.000đ"
     }
   ],
   "vidiq": {
