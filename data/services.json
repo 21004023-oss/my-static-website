@@ -17651,22 +17651,22 @@
         "name": "Adobe Full App 1 tháng BH 30D",
         "price": 290000,
         "cost_price": 260000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "Định dạng:Mail|pass\nGói Team, có sẵn 4000 credit sử dụng tính năng Ai\nSử dụng 2 thiết bị\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 3,
+            "stock": 4,
             "cost_price": 260000,
             "selling_price": 290000,
-            "updated": "15:02 10/11/2026"
+            "updated": "11:00 21/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 260000,
-          "stock": 3
+          "stock": 4
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -26929,6 +26929,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795233658174",
+      "time": "11:00 - 21/11/2026",
+      "name": "Adobe Full App 1 tháng BH 30D",
+      "bot": "piggyai99_bot",
+      "price": 290000,
+      "costPrice": 260000,
+      "stockAfter": 4,
+      "catKey": "adobe",
+      "msgKey": "🎨AdobeFullApp1thángBH30D➕Thêm:4📦Tồnkhohiệntại:4💰Giá:260.000đ"
+    },
+    {
       "id": "hist-1795233356506",
       "time": "10:55 - 21/11/2026",
       "name": "Meitu Vip+ 30D BHF",
@@ -28016,17 +28027,6 @@
       "stockAfter": 12,
       "catKey": "grammarly",
       "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:0💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1795211785019",
-      "time": "04:56 - 21/11/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng BH 48h",
-      "bot": "piggyai99_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 96,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1thángBH48h➕Thêm:15📦Tồnkhohiệntại:48💰Giá:40.000đ"
     }
   ],
   "vidiq": {
