@@ -7,8 +7,8 @@
         "id": "p-1792123650725",
         "name": "SLOT NETFLIX PREMIUM 4K 1 THÁNG BHF",
         "price": 175000,
-        "stock": 105,
-        "stock_text": "Còn 105",
+        "stock": 115,
+        "stock_text": "Còn 115",
         "duration": "1 Tháng",
         "detail": "📌 LƯU Ý QUAN TRỌNG TRƯỚC KHI MUA\n⏳ Thời hạn: Ngẫu nhiên từ 25–30 ngày. Khách mua muộn có thể nhận tài khoản còn ít ngày hơn, mong mọi người thông cảm.\n🌍 Không cần Fake IP/VPN – Quốc gia nào cũng xem được.\n📱 Hỗ trợ: Điện thoại, máy tính và TV.\n🔐 Định dạng tài khoản:\nEmail Netflix| Hồ sơ | Mã PIN | Link lấy OTP\nHướng dẫn đăng nhập :\nB1 . Nhập Email\nB2. Nhấp link OTP lấy mã đăng nhập\nB3. Chọn hồ sơ được cấp + mã PIN\nDone\n✏️",
         "sources": {
@@ -25,10 +25,10 @@
             "updated": "00:59 21/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 50,
+            "stock": 60,
             "cost_price": 50000,
             "selling_price": 60000,
-            "updated": "00:43 21/11/2026"
+            "updated": "09:39 21/11/2026"
           }
         },
         "hidden": false,
@@ -38,7 +38,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 50000,
-          "stock": 50
+          "stock": 60
         }
       },
       {
@@ -26929,6 +26929,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795228790052",
+      "time": "09:39 - 21/11/2026",
+      "name": "SLOT Netflix Premium 4K 1TH (BHF)",
+      "bot": "taphoathomap_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 115,
+      "catKey": "netflix",
+      "msgKey": "🎬SLOTNetflixPremium4K1TH(BHF)➕Thêm:10📦Tồnkhohiệntại:60💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1795228735936",
       "time": "09:38 - 21/11/2026",
       "name": "ADMIN Netflix Premium 4K 1TH (BHF)",
@@ -28016,17 +28027,6 @@
       "stockAfter": 2,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1200credit1THBH1ngày➕Thêm:1📦Tồnkhohiệntại:2💰Giá:155.000đ"
-    },
-    {
-      "id": "hist-1795207112978",
-      "time": "03:38 - 21/11/2026",
-      "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 175000,
-      "costPrice": 155000,
-      "stockAfter": 2,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard1200credit1THBH1ngày💰Giá:155k📦Tồnkho:2tàikhoản📊Đãbán:51tàikhoản✏️V"
     }
   ],
   "vidiq": {
