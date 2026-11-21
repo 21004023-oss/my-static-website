@@ -20308,10 +20308,10 @@
         "id": "p-1792088127430",
         "name": "Grammarly AI Pro 1 Tháng BHF",
         "price": 100000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
-        "detail": "Grammarly Pro có AI 1 Tháng BHF\nĐịnh dạng: Email|Pass\n・　Viết lại toàn bộ câu chỉ với một cú nhấp chuột\n・　Dễ dàng điều chỉnh văn phong và giọng điệu bài viết\n・　Viết tiếng Anh trôi chảy và tự nhiên hơn\n・　Gợi ý cá nhân hóa không giới hạn\n・　Phát hiện đạo văn và nội dung do AI tạo ra\n・　Tạo nội dung với 2.000 lượt prompt AI\n-Chú ý: Không thay đổi thêm thắt bất kỳ cái gì vào tài khoản, nếu vi phạm sẽ không được bảo hành",
+        "detail": "Grammarly Pro có AI 1 Tháng BHF\nĐịnh dạng: Email|Pass\n・　Viết lại toàn bộ câu chỉ với một cú nhấp chuột\n・　Dễ dàng điều chỉnh văn phong và giọng điệu bài viết\n・　Viết tiếng Anh trôi chảy và tự nhiên hơn\n・　Gợi ý cá nhân hóa không giới hạn\n・　Phát hiện đạo văn và nội dung do AI tạo ra\n・　Tạo nội dung với 2.000 lượt prompt AI\n-Chú ý: Không thay đổi thêm thắt bất kỳ cái gì vào tài khoản, nếu vi phạm sẽ không được bảo hành\n✏️",
         "sources": {
           "sieuthistore_bot": {
             "stock": 0,
@@ -20320,10 +20320,10 @@
             "updated": "04:57 21/11/2026"
           },
           "piggyai99_bot": {
-            "stock": 0,
+            "stock": 4,
             "cost_price": 90000,
             "selling_price": 100000,
-            "updated": "04:58 21/11/2026"
+            "updated": "01:44 22/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -20334,12 +20334,12 @@
         },
         "hidden": false,
         "needs_review": false,
-        "cost_price": 70000,
-        "import_note": "Nhập: @taphoathomap_bot",
+        "cost_price": 90000,
+        "import_note": "Nhập: @piggyai99_bot",
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 70000,
-          "stock": 0
+          "bot": "@piggyai99_bot",
+          "cost_price": 90000,
+          "stock": 4
         }
       },
       {
@@ -27302,6 +27302,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795286654835",
+      "time": "01:44 - 22/11/2026",
+      "name": "Grammarly AI Pro 1 Tháng BHF",
+      "bot": "piggyai99_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 4,
+      "catKey": "grammarly",
+      "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1795286371130",
       "time": "01:39 - 22/11/2026",
       "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
@@ -28389,17 +28400,6 @@
       "stockAfter": 34901,
       "catKey": "youtube",
       "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:807💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1795263380511",
-      "time": "19:16 - 21/11/2026",
-      "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 175000,
-      "costPrice": 155000,
-      "stockAfter": 253,
-      "catKey": "chatgpt",
-      "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:20📦Tồnkhohiệntại:253💰Giá:155.00"
     }
   ],
   "vidiq": {
