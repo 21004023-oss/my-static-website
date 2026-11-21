@@ -6516,6 +6516,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795226154926",
+        "name": "Cuối tuần Sale ChatGPT Plus 1 thánh BHF 135k/1 ( 5.1$/1 )",
+        "price": 145000,
+        "cost_price": 125000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
+        "duration": "1 Tháng",
+        "detail": "Gói Cuối tuần Sale ChatGPT Plus 1 thánh BHF 135k/1 ( 5.1$/1 ) bảo hành uy tín.",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 0,
+            "cost_price": 125000,
+            "selling_price": 145000,
+            "updated": "08:55 21/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 125000,
+          "stock": 0
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -26897,6 +26923,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795226154926",
+      "time": "08:55 - 21/11/2026",
+      "name": "Cuối tuần Sale ChatGPT Plus 1 thánh BHF 135k/1 ( 5.1$/1 )",
+      "bot": "ntnshopre_bot",
+      "price": 145000,
+      "costPrice": 125000,
+      "stockAfter": 0,
+      "catKey": "chatgpt",
+      "msgKey": "📣ThôngbáotừAdmin:CuốituầnSaleChatGPTPlus1thánhBHF135k/1(5.1$/1)Khuyếnmãi:-Muatừ3"
+    },
+    {
       "id": "hist-1795225769271",
       "time": "08:49 - 21/11/2026",
       "name": "Microsoft Copilot 1 Tháng BHF",
@@ -27984,17 +28021,6 @@
       "stockAfter": 24,
       "catKey": "grok",
       "msgKey": "⚡⚡️GrokPlus7ngày-BH1Ngày➕Thêm:11📦Tồnkhohiệntại:24💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1795202350891",
-      "time": "02:19 - 21/11/2026",
-      "name": "PIA VPN 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 16,
-      "catKey": "khac",
-      "msgKey": "⭐PIAVPN7NgàyBHF➕Thêm:8📦Tồnkhohiệntại:8💰Giá:15.000đ"
     }
   ],
   "vidiq": {
