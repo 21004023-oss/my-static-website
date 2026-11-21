@@ -5697,9 +5697,9 @@
         "id": "p-1794202530193",
         "name": "GPT GO 1 THÁNG ( BH 28 NGÀY )",
         "price": 145000,
-        "cost_price": 125000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "cost_price": 115000,
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "1 Tháng",
         "detail": "📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
@@ -5710,18 +5710,18 @@
             "updated": "10:39 21/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 10,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "06:06 21/11/2026"
+            "updated": "10:39 21/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 125000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 115000,
           "stock": 10
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -26929,6 +26929,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795232350427",
+      "time": "10:39 - 21/11/2026",
+      "name": "GPT GO 1 THÁNG ( BH 28 NGÀY )",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 20,
+      "catKey": "chatgpt",
+      "msgKey": "🤖GPTGO1THÁNG(BH28NGÀY)➕Thêm:10📦Tồnkhohiệntại:10💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1795232344758",
       "time": "10:39 - 21/11/2026",
       "name": "GPT GO 1 THÁNG ( BH 28 NGÀY )",
@@ -28016,17 +28027,6 @@
       "stockAfter": 4,
       "catKey": "khac",
       "msgKey": "TàiKhoảnOnlyfan100$KBH➕Thêm:4📦Tồnkhohiệntại:4💰Giá:500.000đ"
-    },
-    {
-      "id": "hist-1795210131988",
-      "time": "04:28 - 21/11/2026",
-      "name": "Slot Nord VPN And/PC/IOS 3 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 90000,
-      "costPrice": 80000,
-      "stockAfter": 9,
-      "catKey": "nordvpn",
-      "msgKey": "🛡️SlotNordVPNAnd/PC/IOS3thángBHF➕Thêm:15📦Tồnkhohiệntại:9💰Giá:80.000đ"
     }
   ],
   "vidiq": {
