@@ -16488,17 +16488,28 @@
         "id": "capcut-12m",
         "name": "CapCut Pro 12 Tháng BHF",
         "price": 750000,
-        "stock": 4,
-        "stock_text": "Còn 4",
-        "duration": "12 Tháng",
+        "stock": 12,
+        "stock_text": "Còn 12",
+        "duration": "1 Năm",
         "source": "Cấp TK/MK",
-        "detail": "- Định dạng: Email | Pass.\n- Đăng nhập 1 Mobile + 1 PC, Credit random, tài khoản cá nhân.\n- Bảo hành đầy đủ toàn thời gian, lỗi 1 đổi 1.\n- Vi phạm các điều trên -> Mất bảo hành.",
-        "cost_price": 650000,
-        "import_note": "🛒 @ntnshopre_bot",
+        "detail": "🎬 CAPCUT PRO 12 THÁNG – TÀI KHOẢN CÁ NHÂN\n━━━━━━━━━━━━━━━━━━\n📌 THÔNG TIN SẢN PHẨM\n• Tài khoản đã kích hoạt CapCut Pro. Sau khi đặt hàng, bạn nhận email và mật khẩu, đăng nhập là dùng ngay.\n- AE đăng nhập bằng EMAIL + PASS vào điện thoại có thể sử dụng trên cả thoại và Pc - Chỉ bảo hành mất gói Pro - Để sử dụng ổn định ae nên đăng nhập chỉ 1 thiết bị (ĐT- PC) . Nếu ae cố tình đăng nhập từ 3 bị dẫn đến tài khoản không đăng nhập được hay bị lỗi truy cập thường xuyên thì sẽ hỏng tài khoản. ( KO BẢO HÀNH )  Nền tảng đã thay đổi , quý khách hàng chú ý ĐỌC KỸ\n• Thỏa sức dựng TikTok, Reels và video bán hàng với kho mẫu, hiệu ứng và công cụ chỉnh sửa Pro.\n• Shop hỗ trợ kiểm tra nếu bạn gặp lỗi đăng nhập hoặc chưa thấy quyền Pro.\nTRONG TRƯỜNG HỢP KHÁCH K LÀM THEO MÔ TẢ VÀ VẪN LOG 2 THIẾT BỊ THÌ SẼ KHÔNG BẢO HÀNH (vì log 2 tbi sẽ bị vô hiệu hoá tài khoản)\n✏️",
+        "cost_price": 470000,
+        "import_note": "Nhập: @sieuthistore_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 650000
-        }
+          "bot": "@sieuthistore_bot",
+          "cost_price": 470000,
+          "stock": 12
+        },
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 12,
+            "cost_price": 470000,
+            "selling_price": 520000,
+            "updated": "12:40 21/11/2026"
+          }
+        },
+        "hidden": false,
+        "needs_review": false
       },
       {
         "id": "p-1791858786489",
@@ -27013,6 +27024,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795239637112",
+      "time": "12:40 - 21/11/2026",
+      "name": "Capcut Pro 12 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 520000,
+      "costPrice": 470000,
+      "stockAfter": 12,
+      "catKey": "capcut",
+      "msgKey": "✂️CapcutPro12ThángBHF➕Thêm:10📦Tồnkhohiệntại:12💰Giá:470.000đ"
+    },
+    {
       "id": "hist-1795239169076",
       "time": "12:32 - 21/11/2026",
       "name": "ChatGPT Plus ( GG Pay ) 1 Tháng BH 1 Ngày",
@@ -28100,17 +28122,6 @@
       "stockAfter": 0,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:1📦Tồnkhohiệntại:0💰Giá:125.000đ"
-    },
-    {
-      "id": "hist-1795221643803",
-      "time": "07:40 - 21/11/2026",
-      "name": "🔥 CapCut Pro VIP 6 Tháng - BHF",
-      "bot": "piggyai99_bot",
-      "price": 280000,
-      "costPrice": 250000,
-      "stockAfter": 78,
-      "catKey": "capcut",
-      "msgKey": "✂️🔥CapCutProVIP6Tháng-BHF➕Thêm:8📦Tồnkhohiệntại:1💰Giá:250.000đ"
     }
   ],
   "vidiq": {
