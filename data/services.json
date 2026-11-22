@@ -21722,8 +21722,8 @@
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
         "cost_price": 45000,
-        "stock": 85,
-        "stock_text": "Còn 85",
+        "stock": 84,
+        "stock_text": "Còn 84",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.\n✏️",
         "sources": {
@@ -21734,10 +21734,10 @@
             "updated": "07:59 22/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 29,
+            "stock": 28,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "21:55 21/11/2026"
+            "updated": "08:00 22/11/2026"
           },
           "piggyai99_bot": {
             "stock": 28,
@@ -21751,7 +21751,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 45000,
-          "stock": 29
+          "stock": 28
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -27328,6 +27328,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795309233118",
+      "time": "08:00 - 22/11/2026",
+      "name": "Apple ID 2FA Gmail",
+      "bot": "taphoathomap_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 84,
+      "catKey": "gmail",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:14📦Tồnkhohiệntại:28💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1795309205751",
       "time": "08:00 - 22/11/2026",
       "name": "Apple ID 2FA Gmail",
@@ -28415,17 +28426,6 @@
       "stockAfter": 98,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus7ngàyBH5ngày➕Thêm:1📦Tồnkhohiệntại:29💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1795269668904",
-      "time": "21:01 - 21/11/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng - BH 24h",
-      "bot": "taphoathomap_bot",
-      "price": 30000,
-      "costPrice": 20000,
-      "stockAfter": 357,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:58📦Tồnkhohiệntại:113💰Giá:20.000đ"
     }
   ],
   "vidiq": {
