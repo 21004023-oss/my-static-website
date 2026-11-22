@@ -18948,16 +18948,16 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 17,
-        "stock_text": "Còn 17",
+        "stock": 23,
+        "stock_text": "Còn 23",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 11,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "17:48 21/11/2026"
+            "updated": "16:43 22/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 12,
@@ -18970,7 +18970,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 5
+          "stock": 11
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -27509,6 +27509,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795340599668",
+      "time": "16:43 - 22/11/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 23,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:10📦Tồnkhohiệntại:11💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1795340101537",
       "time": "16:35 - 22/11/2026",
       "name": "Adobe All Apps ổn định 1 tháng  (BH 30D)",
@@ -28596,17 +28607,6 @@
       "stockAfter": 0,
       "catKey": "khac",
       "msgKey": "⭐Dreamina22k900credit1thbh2d➕Thêm:3📦Tồnkhohiệntại:0💰Giá:1.200.000đ"
-    },
-    {
-      "id": "hist-1795318941673",
-      "time": "10:42 - 22/11/2026",
-      "name": "Dreamina 22k900 credit 1 th bh 2d",
-      "bot": "taphoathomap_bot",
-      "price": 1400000,
-      "costPrice": 1200000,
-      "stockAfter": 4,
-      "catKey": "khac",
-      "msgKey": "⭐Dreamina22k900credit1thbh2d➕Thêm:4📦Tồnkhohiệntại:4💰Giá:1.200.000đ"
     }
   ],
   "vidiq": {
