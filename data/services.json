@@ -12273,13 +12273,13 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 61,
+        "stock_text": "Còn 61",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 20,
+            "stock": 61,
             "cost_price": 150000,
             "selling_price": 170000,
             "updated": "11:58 22/11/2026"
@@ -12288,7 +12288,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 20
+          "stock": 61
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -27419,6 +27419,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795323532844",
+      "time": "11:58 - 22/11/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 61,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:38📦Tồnkhohiệntại:61💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1795323526329",
       "time": "11:58 - 22/11/2026",
       "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
@@ -28506,17 +28517,6 @@
       "stockAfter": 10,
       "catKey": "photoroom",
       "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1795282686338",
-      "time": "00:38 - 22/11/2026",
-      "name": "ZOOM PRO 28 NGÀY BẢO HÀNH FULL",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 14,
-      "catKey": "zoom",
-      "msgKey": "⭐ZOOMPRO28NGÀYBẢOHÀNHFULL💰Giá:45k📦Tồnkho:7tàikhoản📊Đãbán:255tàikhoản💎Môtả:SAOKHI"
     }
   ],
   "vidiq": {
