@@ -286,6 +286,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795314938470",
+        "name": "Netflix",
+        "price": 30000,
+        "cost_price": 20000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "1 Tháng",
+        "detail": "Gói Netflix bảo hành uy tín.",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 10,
+            "cost_price": 20000,
+            "selling_price": 30000,
+            "updated": "09:35 22/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 20000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -27328,6 +27354,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795314938470",
+      "time": "09:35 - 22/11/2026",
+      "name": "Netflix",
+      "bot": "khommo_market_bot",
+      "price": 30000,
+      "costPrice": 20000,
+      "stockAfter": 10,
+      "catKey": "netflix",
+      "msgKey": "📦NetflixNetflixPremium15Này[BHFull]💲Giá:20.000VND(~$0.7547)📦Tồnkhohiệntại:10Netf"
+    },
+    {
       "id": "hist-1795314574514",
       "time": "09:29 - 22/11/2026",
       "name": "HEYGEN CREATOR FLASH SALE 1 THÁNG (BH 24H)",
@@ -28415,17 +28452,6 @@
       "stockAfter": 127,
       "catKey": "google-veo",
       "msgKey": "☁️LINK-GeminiAIPlus6Tháng(BH24H)➕Thêm:100📦Tồnkhohiệntại:101💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1795275560767",
-      "time": "22:39 - 21/11/2026",
-      "name": "Surfshark VPN One 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 33,
-      "catKey": "surfshark",
-      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:15.000đ"
     }
   ],
   "vidiq": {
