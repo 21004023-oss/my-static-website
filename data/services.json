@@ -438,16 +438,16 @@
         "name": "Tài khoản VieON VIP 10 ngày BHF",
         "price": 35000,
         "cost_price": 10000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 3,
+        "stock_text": "Còn 3",
         "duration": "1 Tháng",
         "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 2,
             "cost_price": 10000,
             "selling_price": 20000,
-            "updated": "19:24 22/11/2026"
+            "updated": "00:20 23/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 1,
@@ -461,7 +461,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 10000,
-          "stock": 1
+          "stock": 2
         },
         "needs_review": false
       },
@@ -27625,6 +27625,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795368016890",
+      "time": "00:20 - 23/11/2026",
+      "name": "Tài khoản VieON VIP 10 ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 3,
+      "catKey": "vieon",
+      "msgKey": "⭐TàikhoảnVieONVIP10ngàyBHF➕Thêm:1📦Tồnkhohiệntại:2💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1795367873134",
       "time": "00:17 - 23/11/2026",
       "name": "💎 NÂNG CHÍNH CHỦ ADMIN VEO3 ULTRA X20 – 1 THÁNG KBH",
@@ -28712,17 +28723,6 @@
       "stockAfter": 18,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:9💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1795343227975",
-      "time": "17:27 - 22/11/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 9,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:9💰Giá:15.000đ"
     }
   ],
   "vidiq": {
