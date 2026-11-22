@@ -27451,9 +27451,9 @@
         "id": "p-1795329298125",
         "name": "Xingtu Vip 1 Tháng BHF",
         "price": 85000,
-        "cost_price": 75000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "cost_price": 70000,
+        "stock": 28,
+        "stock_text": "Còn 28",
         "duration": "1 Tháng",
         "detail": "Mở khóa full tính năng VIP, kho bộ lọc (filter) độc quyền, công cụ chỉnh dáng AI, xóa vật thể nâng cao, kho template chỉnh ảnh hot trend và xuất ảnh chất lượng cao không logo.\n✏️",
         "sources": {
@@ -27462,20 +27462,37 @@
             "cost_price": 75000,
             "selling_price": 85000,
             "updated": "13:34 22/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 14,
+            "cost_price": 70000,
+            "selling_price": 80000,
+            "updated": "13:35 22/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 75000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 70000,
           "stock": 14
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1795329307342",
+      "time": "13:35 - 22/11/2026",
+      "name": "Xingtu Vip 30D  BHF",
+      "bot": "taphoathomap_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 28,
+      "catKey": "khac",
+      "msgKey": "⭐XingtuVip30DBHF➕Thêm:13📦Tồnkhohiệntại:14💰Giá:70.000đ"
+    },
     {
       "id": "hist-1795329298125",
       "time": "13:34 - 22/11/2026",
@@ -28564,17 +28581,6 @@
       "stockAfter": 494,
       "catKey": "capcut",
       "msgKey": "🛍️CapcutPro7Day500credits💲Giá:5.998VND💚Tồnkho:494tàikhoản📊Đãbán:727tàikhoản💧Môtả"
-    },
-    {
-      "id": "hist-1795310915591",
-      "time": "08:28 - 22/11/2026",
-      "name": "Capcut Pro 1 Tháng (BH FULL)",
-      "bot": "khommo_market_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 411,
-      "catKey": "capcut",
-      "msgKey": "CapcutPro1Tháng(BHFULL)💲Giá:45.000VND(~$1.7442)➕Thêm:300📦Tồnkhohiệntại:312"
     }
   ],
   "vidiq": {
