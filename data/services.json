@@ -19005,26 +19005,33 @@
         "id": "p-1792394261988",
         "name": "NORD VPN ANDROI/PC/IOS SLOT 3 THÁNG BHF",
         "price": 110000,
-        "cost_price": 68000,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "cost_price": 80000,
+        "stock": 17,
+        "stock_text": "Còn 17",
         "duration": "3 Tháng",
-        "detail": "- Nord Vpn dùng 2 thiết bị 3 tháng bảo hành full-time\nHướng dẫn đăng nhập:\n- Định dạng tk|mk|key1|key2 dùng được android ios pc .\n- Thiết bị 1: Đăng nhập tài khoản -> mật khẩu  -> See other options -> Chọn mã key 1 -> mã key 1 -> Hoàn thành\n- Thiết bị 2 làm  tương tự như thiết bị 1.\n-Ae hoàn toàn chủ động đăng nhập nhớ đọc kỹ hướng dẫn sau khi mua xong (không cấp full mail) .\n- Lưu ý không dùng hơn số thiết bị phát hiện kick không hoàn tiền\n- Cần nâng cấp chính chủ 10 thiết bị liên hệ với admin",
+        "detail": "- Nord Vpn dùng 2 thiết bị 3 tháng bảo hành full-time\nHướng dẫn đăng nhập:\n- Định dạng tk|mk|key1|key2 dùng được android ios pc .\n- Thiết bị 1: Đăng nhập tài khoản -> mật khẩu  -> See other options -> Chọn mã key 1 -> mã key 1 -> Hoàn thành\n- Thiết bị 2 làm  tương tự như thiết bị 1.\n-Ae hoàn toàn chủ động đăng nhập nhớ đọc kỹ hướng dẫn sau khi mua xong (không cấp full mail) .\n- Lưu ý không dùng hơn số thiết bị phát hiện kick không hoàn tiền\n- Cần nâng cấp chính chủ 10 thiết bị liên hệ với admin\n✏️",
         "sources": {
           "ntnshopre_bot": {
             "stock": 14,
             "cost_price": 100000,
             "selling_price": 110000,
             "updated": "14:17 19/10/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 3,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "09:51 22/11/2026"
           }
         },
-        "hidden": true,
-        "needs_review": true,
+        "hidden": false,
+        "needs_review": false,
         "cheapest_source": {
-          "bot": "@shopxoainon_bot",
-          "cost_price": 68000
+          "bot": "@piggyai99_bot",
+          "cost_price": 80000,
+          "stock": 3
         },
-        "import_note": "🛒 @shopxoainon_bot"
+        "import_note": "Nhập: @piggyai99_bot"
       },
       {
         "id": "p-1793328196390",
@@ -27354,6 +27361,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795315874252",
+      "time": "09:51 - 22/11/2026",
+      "name": "NORD VPN Androi/PC/IOS Slot 3 tháng BHF",
+      "bot": "piggyai99_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 17,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NORDVPNAndroi/PC/IOSSlot3thángBHF➕Thêm:1📦Tồnkhohiệntại:3💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1795315835174",
       "time": "09:50 - 22/11/2026",
       "name": "Slot Nord VPN And/PC/IOS 3 tháng BHF",
@@ -28441,17 +28459,6 @@
       "stockAfter": 17,
       "catKey": "nordvpn",
       "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:12📦Tồnkhohiệntại:12💰Giá:25.000đ"
-    },
-    {
-      "id": "hist-1795277006852",
-      "time": "23:03 - 21/11/2026",
-      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
-      "bot": "ntnshopre_bot",
-      "price": 33000,
-      "costPrice": 23000,
-      "stockAfter": 304,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:109📦Tồnkhohiệntại:126💰Giá:23.000đ"
     }
   ],
   "vidiq": {
