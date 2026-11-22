@@ -22563,22 +22563,22 @@
         "name": "Gmail",
         "price": 37500,
         "cost_price": 27500,
-        "stock": 345,
-        "stock_text": "Còn 345",
+        "stock": 286,
+        "stock_text": "Còn 286",
         "duration": "1 Tháng",
         "detail": "Gói Gmail bảo hành uy tín.",
         "sources": {
           "khommo_market_bot": {
-            "stock": 345,
+            "stock": 286,
             "cost_price": 27500,
             "selling_price": 37500,
-            "updated": "13:23 21/11/2026"
+            "updated": "09:09 22/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@khommo_market_bot",
           "cost_price": 27500,
-          "stock": 345
+          "stock": 286
         },
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
@@ -27328,6 +27328,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795313385947",
+      "time": "09:09 - 22/11/2026",
+      "name": "Gmail",
+      "bot": "khommo_market_bot",
+      "price": 37500,
+      "costPrice": 27500,
+      "stockAfter": 286,
+      "catKey": "gmail",
+      "msgKey": "📦GmailGmail6tháng(khônglogđượchộpthư)-2FA-BHlogđầu24h💲Giá:27.500VND(~$1.0377)📦Tồ"
+    },
+    {
       "id": "hist-1795313308588",
       "time": "09:08 - 22/11/2026",
       "name": "Higgsfield Genjutsu hạn 30 ngày BH 24H",
@@ -28415,17 +28426,6 @@
       "stockAfter": 6,
       "catKey": "microsoft",
       "msgKey": "⭐Microsoft365AdminPremium1ThángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1795274910768",
-      "time": "22:28 - 21/11/2026",
-      "name": "Microsoft 365 Admin Premium 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 18,
-      "catKey": "microsoft",
-      "msgKey": "⭐Microsoft365AdminPremium1ThángBHF➕Thêm:3📦Tồnkhohiệntại:3💰Giá:35.000đ"
     }
   ],
   "vidiq": {
