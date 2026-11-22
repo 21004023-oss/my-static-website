@@ -22911,9 +22911,9 @@
         "id": "p-1795358692621",
         "name": "🔥 GMAIL EDU LIVE 24H (xxx.us) login gmail",
         "price": 25900,
-        "cost_price": 15900,
-        "stock": 14,
-        "stock_text": "Còn 14",
+        "cost_price": 12000,
+        "stock": 28,
+        "stock_text": "Còn 28",
         "duration": "1 Ngày",
         "detail": "Định dạng bàn giao: Mail | Pass. Tài khoản Gmail EDU, đăng nhập trực tiếp bằng Gmail. Hàng LIVE, hoạt động ổn định🔥\n✏️",
         "sources": {
@@ -22922,14 +22922,20 @@
             "cost_price": 15900,
             "selling_price": 25900,
             "updated": "21:44 22/11/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 14,
+            "cost_price": 12000,
+            "selling_price": 22000,
+            "updated": "21:44 22/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 15900,
+          "bot": "@sieuthistore_bot",
+          "cost_price": 12000,
           "stock": 14
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -27567,6 +27573,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795358698727",
+      "time": "21:44 - 22/11/2026",
+      "name": "GMAIL EDU LIVE 24H (xxx.us) login gmail",
+      "bot": "sieuthistore_bot",
+      "price": 22000,
+      "costPrice": 12000,
+      "stockAfter": 28,
+      "catKey": "gmail",
+      "msgKey": "📧GMAILEDULIVE24H(xxx.us)logingmail➕Thêm:10📦Tồnkhohiệntại:14💰Giá:12.000đ"
+    },
+    {
       "id": "hist-1795358692621",
       "time": "21:44 - 22/11/2026",
       "name": "🔥 GMAIL EDU LIVE 24H (xxx.us) login gmail",
@@ -28654,17 +28671,6 @@
       "stockAfter": 27,
       "catKey": "surfshark",
       "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:9💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1795334184155",
-      "time": "14:56 - 22/11/2026",
-      "name": "Surfshark VPN One 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 23,
-      "catKey": "surfshark",
-      "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:9💰Giá:35.000đ"
     }
   ],
   "vidiq": {
