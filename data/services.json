@@ -436,10 +436,10 @@
       {
         "id": "p-1792655671150",
         "name": "Tài khoản VieON VIP 10 ngày BHF",
-        "price": 20000,
+        "price": 35000,
         "cost_price": 10000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "Tài khoản VieON VIP cấp sẵn, đăng nhập 2 thiết bị, xem 1 thiết bị đồng thời\n✏️",
         "sources": {
@@ -447,6 +447,12 @@
             "stock": 1,
             "cost_price": 10000,
             "selling_price": 20000,
+            "updated": "19:24 22/11/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 1,
+            "cost_price": 25000,
+            "selling_price": 35000,
             "updated": "19:24 22/11/2026"
           }
         },
@@ -27509,6 +27515,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795350260304",
+      "time": "19:24 - 22/11/2026",
+      "name": "Tài khoản VieON VIP 10 ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 2,
+      "catKey": "vieon",
+      "msgKey": "⭐TàikhoảnVieONVIP10ngàyBHF➕Thêm:1📦Tồnkhohiệntại:1💰Giá:25.000đ"
+    },
+    {
       "id": "hist-1795350252914",
       "time": "19:24 - 22/11/2026",
       "name": "Tài khoản VieON VIP 10 ngày BHF",
@@ -28596,17 +28613,6 @@
       "stockAfter": 104,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus(ApplePay)1ThángBHF➕Thêm:9📦Tồnkhohiệntại:56💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1795326833886",
-      "time": "12:53 - 22/11/2026",
-      "name": "Slot Netflix Premium 4K 1 Tháng  BHF",
-      "bot": "sieuthistore_bot",
-      "price": 140000,
-      "costPrice": 120000,
-      "stockAfter": 93,
-      "catKey": "netflix",
-      "msgKey": "🎬SlotNetflixPremium4K1ThángBHF➕Thêm:1📦Tồnkhohiệntại:44💰Giá:120.000đ"
     }
   ],
   "vidiq": {
