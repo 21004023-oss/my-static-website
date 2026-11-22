@@ -12845,22 +12845,22 @@
         "name": "Kling Standard 1800-1900 credit 1Th Bh 1 ngày",
         "price": 250000,
         "cost_price": 220000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1800-1900 credit 1Th Bh 1 ngày bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 1,
             "cost_price": 220000,
             "selling_price": 250000,
-            "updated": "04:23 17/11/2026"
+            "updated": "12:37 22/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 220000,
-          "stock": 0
+          "stock": 1
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -27419,6 +27419,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795325874497",
+      "time": "12:37 - 22/11/2026",
+      "name": "Kling Standard 1800-1900 credit 1Th Bh 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 250000,
+      "costPrice": 220000,
+      "stockAfter": 1,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1800-1900credit1ThBh1ngày💰Giá:220k📦Tồnkho:1tàikhoản📊Đãbán:4tàikhoả"
+    },
+    {
       "id": "hist-1795325609739",
       "time": "12:33 - 22/11/2026",
       "name": "ChatGPT Go 1 Tháng (BH 28D)",
@@ -28506,17 +28517,6 @@
       "stockAfter": 258,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:16📦Tồnkhohiệntại:258💰Giá:155.00"
-    },
-    {
-      "id": "hist-1795285325700",
-      "time": "01:22 - 22/11/2026",
-      "name": "Microsoft 365 Admin Premium 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 0,
-      "catKey": "microsoft",
-      "msgKey": "⭐Microsoft365AdminPremium1ThángBHF➕Thêm:3📦Tồnkhohiệntại:0💰Giá:35.000đ"
     }
   ],
   "vidiq": {
