@@ -27446,10 +27446,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795329298125",
+        "name": "Xingtu Vip 1 Tháng BHF",
+        "price": 85000,
+        "cost_price": 75000,
+        "stock": 14,
+        "stock_text": "Còn 14",
+        "duration": "1 Tháng",
+        "detail": "Mở khóa full tính năng VIP, kho bộ lọc (filter) độc quyền, công cụ chỉnh dáng AI, xóa vật thể nâng cao, kho template chỉnh ảnh hot trend và xuất ảnh chất lượng cao không logo.\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 14,
+            "cost_price": 75000,
+            "selling_price": 85000,
+            "updated": "13:34 22/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 75000,
+          "stock": 14
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1795329298125",
+      "time": "13:34 - 22/11/2026",
+      "name": "Xingtu Vip 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 85000,
+      "costPrice": 75000,
+      "stockAfter": 14,
+      "catKey": "khac",
+      "msgKey": "⭐XingtuVip1ThángBHF➕Thêm:13📦Tồnkhohiệntại:14💰Giá:75.000đ"
+    },
     {
       "id": "hist-1795329281062",
       "time": "13:34 - 22/11/2026",
@@ -28538,17 +28575,6 @@
       "stockAfter": 411,
       "catKey": "capcut",
       "msgKey": "CapcutPro1Tháng(BHFULL)💲Giá:45.000VND(~$1.7442)➕Thêm:300📦Tồnkhohiệntại:312"
-    },
-    {
-      "id": "hist-1795309578949",
-      "time": "08:06 - 22/11/2026",
-      "name": "Capcut Pro 500 credit 7D BH 6D",
-      "bot": "taphoathomap_bot",
-      "price": 20000,
-      "costPrice": 10000,
-      "stockAfter": 859,
-      "catKey": "capcut",
-      "msgKey": "✂️CapcutPro500credit7DBH6D➕Thêm:735📦Tồnkhohiệntại:859💰Giá:10.000đ"
     }
   ],
   "vidiq": {
