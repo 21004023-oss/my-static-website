@@ -9981,13 +9981,13 @@
         "name": "SLOT GEMINI PRO + GOOGLE ONE 5 TB 3 THÁNG BẢO HÀNH 24H",
         "price": 40000,
         "cost_price": 30000,
-        "stock": -1,
-        "stock_text": "Vô cực (∞)",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "3 Tháng",
         "detail": "Gói SLOT GEMINI PRO + GOOGLE ONE 5 TB 3 THÁNG BẢO HÀNH 24H bảo hành uy tín.",
         "sources": {
           "ntnshopre_bot": {
-            "stock": -1,
+            "stock": 5,
             "cost_price": 30000,
             "selling_price": 40000,
             "updated": "09:55 22/11/2026"
@@ -9996,7 +9996,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 30000,
-          "stock": -1
+          "stock": 5
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
@@ -27413,6 +27413,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795316157070",
+      "time": "09:55 - 22/11/2026",
+      "name": "SLOT GEMINI PRO + GOOGLE ONE 5 TB 3 THÁNG BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 5,
+      "catKey": "google-veo",
+      "msgKey": "☁️SLOTGEMINIPRO+GOOGLEONE5TB3THÁNGBẢOHÀNH24H➕Thêm:1📦Tồnkhohiệntại:5💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1795316150843",
       "time": "09:55 - 22/11/2026",
       "name": "SLOT GEMINI PRO + GOOGLE ONE 5 TB 3 THÁNG BẢO HÀNH 24H",
@@ -28500,17 +28511,6 @@
       "stockAfter": 317,
       "catKey": "gmail",
       "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:16📦Tồnkhohiệntại:90💰Giá:36.000đ"
-    },
-    {
-      "id": "hist-1795277839699",
-      "time": "23:17 - 21/11/2026",
-      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
-      "bot": "ntnshopre_bot",
-      "price": 33000,
-      "costPrice": 23000,
-      "stockAfter": 317,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:16📦Tồnkhohiệntại:90💰Giá:23.000đ"
     }
   ],
   "vidiq": {
