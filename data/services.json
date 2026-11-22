@@ -1422,13 +1422,19 @@
         "name": "Gmail Ngâm 6T Có Trial YTB",
         "price": 40000,
         "cost_price": 30000,
-        "stock": 129,
-        "stock_text": "Còn 129",
+        "stock": 248,
+        "stock_text": "Còn 248",
         "duration": "1 Tháng",
         "detail": "Định Dạng : Gmail | Pass | 2FA\nBảo hành login 24h\n-Lưu ý: Gmail phù hợp làm Trial YTB, Nâng link gemini pro…vvv - Hòm thư gmail bị khoá - AE không dùng chức năng hòm thư thì có thể sử dụng Gmail này bình thường.\n-Gmail khá trâu bò\n✏️",
         "sources": {
           "taphoathomap_bot": {
             "stock": 129,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "09:56 22/11/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 119,
             "cost_price": 30000,
             "selling_price": 40000,
             "updated": "09:56 22/11/2026"
@@ -27413,6 +27419,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795316176034",
+      "time": "09:56 - 22/11/2026",
+      "name": "Gmail Ngâm 6T Có Trial YTB",
+      "bot": "sieuthistore_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 248,
+      "catKey": "youtube",
+      "msgKey": "📧GmailNgâm6TCóTrialYTB💰Giá:30k📦Tồnkho:119tàikhoản📊Đãbán:5.071tàikhoản💎Môtả:ĐịnhD"
+    },
+    {
       "id": "hist-1795316168012",
       "time": "09:56 - 22/11/2026",
       "name": "Gmail Ngâm 6T Có Trial YTB",
@@ -28500,17 +28517,6 @@
       "stockAfter": 360,
       "catKey": "gmail",
       "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA💰Giá:33k📦Tồnkho:90tàikhoản📊Đãbán:5.258tàikhoản💎Môtả:-Đ"
-    },
-    {
-      "id": "hist-1795277965515",
-      "time": "23:19 - 21/11/2026",
-      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
-      "bot": "taphoathomap_bot",
-      "price": 43000,
-      "costPrice": 33000,
-      "stockAfter": 360,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:16📦Tồnkhohiệntại:90💰Giá:33.000đ"
     }
   ],
   "vidiq": {
