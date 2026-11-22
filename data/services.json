@@ -27420,10 +27420,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795329281062",
+        "name": "Xingtu Svip 30D  BHF",
+        "price": 105000,
+        "cost_price": 95000,
+        "stock": 13,
+        "stock_text": "Còn 13",
+        "duration": "1 Tháng",
+        "detail": "Gói Xingtu Svip 30D  BHF bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 13,
+            "cost_price": 95000,
+            "selling_price": 105000,
+            "updated": "13:34 22/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 95000,
+          "stock": 13
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1795329281062",
+      "time": "13:34 - 22/11/2026",
+      "name": "Xingtu Svip 30D  BHF",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 13,
+      "catKey": "khac",
+      "msgKey": "⭐XingtuSvip30DBHF➕Thêm:13📦Tồnkhohiệntại:13💰Giá:95.000đ"
+    },
     {
       "id": "hist-1795329251183",
       "time": "13:34 - 22/11/2026",
@@ -28512,17 +28549,6 @@
       "stockAfter": 859,
       "catKey": "capcut",
       "msgKey": "✂️CapcutPro500credit7DBH6D➕Thêm:735📦Tồnkhohiệntại:859💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1795309233118",
-      "time": "08:00 - 22/11/2026",
-      "name": "Apple ID 2FA Gmail",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 84,
-      "catKey": "gmail",
-      "msgKey": "⭐AppleID2FAGmail➕Thêm:14📦Tồnkhohiệntại:28💰Giá:45.000đ"
     }
   ],
   "vidiq": {
