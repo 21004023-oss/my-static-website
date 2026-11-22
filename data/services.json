@@ -2067,11 +2067,11 @@
         "id": "gpt-plus-24h-unified",
         "name": "ChatGPT Plus 30 Ngày (BH 24H)",
         "price": 240000,
-        "cost_price": 100000,
-        "stock": 237,
-        "stock_text": "Còn 237",
+        "cost_price": 88000,
+        "stock": 120,
+        "stock_text": "Còn 120",
         "duration": "1 Tháng",
-        "detail": "-ChatGPT Plus GGPay ổn định -Định dạng: Mail | Pass | 2Fa -Hạn gói: 1 tháng\n-Bảo hành: 24H\n-Tài khoản đã được check kĩ thông tin và change 2FA trước khi bán . quý khách có thể change 2FA nhưng bên mình không hỗ trợ change 2FA bị code về mail.Khách hàng nhận tài khoản tự bảo mật\n-Khách login dính thiết bị vui lòng sử dụng tab ẩn danh + proxy (bên mình sẽ không hỗ trợ những khách hàng ấn hủy gói khi bị tình trạng này )\n-Sử dụng Codex tự ver số, thuê số tại viotp chấm com -KBH Codex & 9routor, tools,..\n✏️",
+        "detail": "- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ\n✏️",
         "hidden": false,
         "sources": {
           "taphoathomap_bot": {
@@ -2093,18 +2093,18 @@
             "updated": "21:10 02/11/2026"
           },
           "ntnshopre_bot": {
-            "stock": 137,
-            "cost_price": 105000,
-            "selling_price": 125000,
-            "updated": "21:55 11/11/2026"
+            "stock": 20,
+            "cost_price": 88000,
+            "selling_price": 98000,
+            "updated": "09:40 22/11/2026"
           }
         },
         "needs_review": false,
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @ntnshopre_bot",
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 100000,
-          "stock": 28
+          "bot": "@ntnshopre_bot",
+          "cost_price": 88000,
+          "stock": 20
         }
       },
       {
@@ -27354,6 +27354,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795315226628",
+      "time": "09:40 - 22/11/2026",
+      "name": "CHATGPT PLUS 1 THÁNG BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "price": 98000,
+      "costPrice": 88000,
+      "stockAfter": 120,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNH24H➕Thêm:20📦Tồnkhohiệntại:20💰Giá:88.000đ"
+    },
+    {
       "id": "hist-1795314972234",
       "time": "09:36 - 22/11/2026",
       "name": "Netflix Premium 1 Tháng [ BH Full ]",
@@ -28441,17 +28452,6 @@
       "stockAfter": 53,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTGo3thángBH3ngày➕Thêm:20📦Tồnkhohiệntại:29💰Giá:110.000đ"
-    },
-    {
-      "id": "hist-1795275619722",
-      "time": "22:40 - 21/11/2026",
-      "name": "LINK - Gemini AI Plus 6 Tháng (BH 24H)",
-      "bot": "taphoathomap_bot",
-      "price": 49000,
-      "costPrice": 39000,
-      "stockAfter": 202,
-      "catKey": "google-veo",
-      "msgKey": "☁️LINK-GeminiAIPlus6Tháng(BH24H)➕Thêm:100📦Tồnkhohiệntại:101💰Giá:39.000đ"
     }
   ],
   "vidiq": {
