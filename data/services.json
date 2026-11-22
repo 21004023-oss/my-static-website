@@ -265,23 +265,23 @@
         "id": "p-1795176521084",
         "name": "Netflix Premium 1 Tháng [ BH Full ]",
         "price": 35000,
-        "cost_price": 10000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "cost_price": 25000,
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
-        "detail": "Chất lượng: Gói Premium Ultra HD 4K\nHình thức đăng nhập: Nhận link login nhanh tự động siêu tốc qua web, không cần tài khoản và mật khẩu.\nThiết bị hỗ trợ tốt nhất: Máy tính (PC/Laptop) và Smart TV. (Lưu ý: Không đảm bảo tương thích trên iOS và ứng dụng điện thoại - Mobile App, lúc được lúc không).\n👉 Cách nhận & sử dụng tài khoản:\nSau khi thanh toán, truy cập: 🌐 vuanetflix.shop\nNhập Key vào trang web để lấy link đăng nhập dùng ngay\nNếu gặp báo lỗi Thanh toán hoặc bị giới hạn màn hình, bạn chỉ cần đổi lại lần nữa trên web cho tới khi vào được tài khoản xem bình thường.\n⚠️ LƯU Ý QUAN TRỌNG TRƯỚC KHI MUA:\nĐặc thù tài khoản dùng chung giá rẻ: Đôi lúc sẽ gặp tình trạng giới hạn màn hình. Hệ thống hỗ trợ đổi link trực tiếp trên web tối đa 5 lần/ngày (tránh spam).\nChế độ bảo hành: Bảo hành toàn bộ thời gian sử dụng.\nChính sách hoàn tiền: Chỉ hỗ trợ đổi Key khi lỗi. KHÔNG hoàn tiền với lý do đổi ý hoặc mua về dùng trên iOS/App điện thoại không tương thích. Vui lòng cân nhắc kỹ trước khi thanh toán!\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–20):",
+        "detail": "Chất lượng: Gói Premium Ultra HD 4K\nHình thức đăng nhập: Nhận link login nhanh tự động siêu tốc qua web, không cần tài khoản và mật khẩu.\nThiết bị hỗ trợ tốt nhất: Máy tính (PC/Laptop) và Smart TV. (Lưu ý: Không đảm bảo tương thích trên iOS và ứng dụng điện thoại - Mobile App, lúc được lúc không).\n👉 Cách nhận & sử dụng tài khoản:\nSau khi thanh toán, truy cập: 🌐 vuanetflix.shop\nNhập Key vào trang web để lấy link đăng nhập dùng ngay\nNếu gặp báo lỗi Thanh toán hoặc bị giới hạn màn hình, bạn chỉ cần đổi lại lần nữa trên web cho tới khi vào được tài khoản xem bình thường.\n⚠️ LƯU Ý QUAN TRỌNG TRƯỚC KHI MUA:\nĐặc thù tài khoản dùng chung giá rẻ: Đôi lúc sẽ gặp tình trạng giới hạn màn hình. Hệ thống hỗ trợ đổi link trực tiếp trên web tối đa 5 lần/ngày (tránh spam).\nChế độ bảo hành: Bảo hành toàn bộ thời gian sử dụng.\nChính sách hoàn tiền: Chỉ hỗ trợ đổi Key khi lỗi. KHÔNG hoàn tiền với lý do đổi ý hoặc mua về dùng trên iOS/App điện thoại không tương thích. Vui lòng cân nhắc kỹ trước khi thanh toán!\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–5):",
         "sources": {
           "khommo_market_bot": {
-            "stock": 20,
-            "cost_price": 10000,
-            "selling_price": 20000,
-            "updated": "19:08 20/11/2026"
+            "stock": 5,
+            "cost_price": 25000,
+            "selling_price": 35000,
+            "updated": "09:36 22/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@khommo_market_bot",
-          "cost_price": 10000,
-          "stock": 20
+          "cost_price": 25000,
+          "stock": 5
         },
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
@@ -27354,6 +27354,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795314972234",
+      "time": "09:36 - 22/11/2026",
+      "name": "Netflix Premium 1 Tháng [ BH Full ]",
+      "bot": "khommo_market_bot",
+      "price": 35000,
+      "costPrice": 25000,
+      "stockAfter": 5,
+      "catKey": "netflix",
+      "msgKey": "🛍️NetflixPremium1Tháng[BHFull]💲Giá:25.000VND💚Tồnkho:5tàikhoản📊Đãbán:1264tàikhoản"
+    },
+    {
       "id": "hist-1795314938470",
       "time": "09:35 - 22/11/2026",
       "name": "Netflix",
@@ -28441,17 +28452,6 @@
       "stockAfter": 202,
       "catKey": "google-veo",
       "msgKey": "☁️LINK-GeminiAIPlus6Tháng(BH24H)➕Thêm:100📦Tồnkhohiệntại:101💰Giá:39.000đ"
-    },
-    {
-      "id": "hist-1795275608674",
-      "time": "22:40 - 21/11/2026",
-      "name": "LINK - Gemini AI Plus 6 Tháng (BH 24H)",
-      "bot": "piggyai99_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 127,
-      "catKey": "google-veo",
-      "msgKey": "☁️LINK-GeminiAIPlus6Tháng(BH24H)➕Thêm:100📦Tồnkhohiệntại:101💰Giá:40.000đ"
     }
   ],
   "vidiq": {
