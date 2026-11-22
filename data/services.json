@@ -5756,8 +5756,8 @@
         "name": "GPT GO 1 THÁNG ( BH 28 NGÀY )",
         "price": 145000,
         "cost_price": 115000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 26,
+        "stock_text": "Còn 26",
         "duration": "1 Tháng",
         "detail": "📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
@@ -5768,16 +5768,16 @@
             "updated": "10:39 21/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 16,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "10:39 21/11/2026"
+            "updated": "11:24 22/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 10
+          "stock": 16
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -27419,6 +27419,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795321447784",
+      "time": "11:24 - 22/11/2026",
+      "name": "GPT GO 1 THÁNG ( BH 28 NGÀY )",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 26,
+      "catKey": "chatgpt",
+      "msgKey": "🤖GPTGO1THÁNG(BH28NGÀY)➕Thêm:10📦Tồnkhohiệntại:16💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1795321129226",
       "time": "11:18 - 22/11/2026",
       "name": "Capcut Pro TEAM 30D BH 30 ngày",
@@ -28506,17 +28517,6 @@
       "stockAfter": 29,
       "catKey": "capcut",
       "msgKey": "✂️CapcutProTEAM30DBH30ngày➕Thêm:7📦Tồnkhohiệntại:29💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1795281420485",
-      "time": "00:17 - 22/11/2026",
-      "name": "ChatGPT Plus GGPay 30D BH 24H",
-      "bot": "piggyai99_bot",
-      "price": 145000,
-      "costPrice": 125000,
-      "stockAfter": 121,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:127📦Tồnkhohiệntại:121💰Giá:125.000đ"
     }
   ],
   "vidiq": {
