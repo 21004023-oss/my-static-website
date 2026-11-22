@@ -12403,22 +12403,22 @@
         "name": "Kling Standard 1100-1300 Credit 1 Tháng BH 1 ngày",
         "price": 180000,
         "cost_price": 160000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 1,
+        "stock_text": "Còn 1",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1100-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 2,
+            "stock": 1,
             "cost_price": 160000,
             "selling_price": 180000,
-            "updated": "03:38 21/11/2026"
+            "updated": "12:39 22/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 160000,
-          "stock": 2
+          "stock": 1
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -27419,6 +27419,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795325962928",
+      "time": "12:39 - 22/11/2026",
+      "name": "Kling Standard 1100-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 180000,
+      "costPrice": 160000,
+      "stockAfter": 1,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1100-1300Credit1ThángBH1ngày➕Thêm:1📦Tồnkhohiệntại:1💰Giá:160.000đ"
+    },
+    {
       "id": "hist-1795325956973",
       "time": "12:39 - 22/11/2026",
       "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
@@ -28506,17 +28517,6 @@
       "stockAfter": 16,
       "catKey": "grammarly",
       "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:8💰Giá:80.000đ"
-    },
-    {
-      "id": "hist-1795286707466",
-      "time": "01:45 - 22/11/2026",
-      "name": "Grammarly AI Pro 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 12,
-      "catKey": "grammarly",
-      "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:70.000đ"
     }
   ],
   "vidiq": {
