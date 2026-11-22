@@ -26784,13 +26784,13 @@
         "name": "Dreamina 22k900 credit 1 th bh 2d",
         "price": 1400000,
         "cost_price": 1200000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Gói Dreamina 22k900 credit 1 th bh 2d bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 4,
+            "stock": 0,
             "cost_price": 1200000,
             "selling_price": 1400000,
             "updated": "10:42 22/11/2026"
@@ -26799,7 +26799,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 1200000,
-          "stock": 4
+          "stock": 0
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -27418,6 +27418,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1795318962034",
+      "time": "10:42 - 22/11/2026",
+      "name": "Dreamina 22k900 credit 1 th bh 2d",
+      "bot": "taphoathomap_bot",
+      "price": 1400000,
+      "costPrice": 1200000,
+      "stockAfter": 0,
+      "catKey": "khac",
+      "msgKey": "⭐Dreamina22k900credit1thbh2d➕Thêm:3📦Tồnkhohiệntại:0💰Giá:1.200.000đ"
+    },
     {
       "id": "hist-1795318941673",
       "time": "10:42 - 22/11/2026",
@@ -28506,17 +28517,6 @@
       "stockAfter": 483,
       "catKey": "gmail",
       "msgKey": "📧GMAILCỔDATE201X-202X➕Thêm:1📦Tồnkhohiệntại:161💰Giá:39.000đ"
-    },
-    {
-      "id": "hist-1795279597200",
-      "time": "23:46 - 21/11/2026",
-      "name": "GMAIL CỔ DATE 201X- 202X",
-      "bot": "sieuthistore_bot",
-      "price": 48000,
-      "costPrice": 38000,
-      "stockAfter": 503,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILCỔDATE201X-202X➕Thêm:1📦Tồnkhohiệntại:161💰Giá:38.000đ"
     }
   ],
   "vidiq": {
