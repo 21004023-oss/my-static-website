@@ -18495,8 +18495,8 @@
         "id": "p-1792006811047",
         "name": "Photoroom Max 7 Ngày BHF",
         "price": 45000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 20,
+        "stock_text": "Còn 20",
         "duration": "7 Ngày",
         "detail": "Photoroom 7 ngày gói Max\nĐịnh dạng: Email|Web mail\n✏️",
         "sources": {
@@ -18507,10 +18507,10 @@
             "updated": "01:07 24/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 10,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "00:38 22/11/2026"
+            "updated": "01:07 24/11/2026"
           }
         },
         "cost_price": 15000,
@@ -18520,7 +18520,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 5
+          "stock": 10
         }
       }
     ]
@@ -27865,6 +27865,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795457245743",
+      "time": "01:07 - 24/11/2026",
+      "name": "Photoroom Max 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 20,
+      "catKey": "photoroom",
+      "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1795457236585",
       "time": "01:07 - 24/11/2026",
       "name": "Photoroom Max 7 Ngày BHF",
@@ -28952,17 +28963,6 @@
       "stockAfter": 10,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥ChatGPTPlus1Tháng(BH20D)➕Thêm:9📦Tồnkhohiệntại:0💰Giá:134.000đ"
-    },
-    {
-      "id": "hist-1795374353800",
-      "time": "02:05 - 23/11/2026",
-      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 14,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:9📦Tồnkhohiệntại:0💰Giá:150.000đ"
     }
   ],
   "vidiq": {
