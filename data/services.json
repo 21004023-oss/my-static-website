@@ -7725,6 +7725,32 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795462604960",
+        "name": "Nâng Cấp Claude Pro Chính Chủ Không Bảo Hành",
+        "price": 380000,
+        "cost_price": 330000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Claude Pro chính chủ\nThời gian hoàn thành : trong 24h\nBảo hành: 30 ngày\nGửi tài khoản | pass | 2fa cho admin để nâng cấp\n-Khách tự xác thực KYC khi nâng cấp, không hỗ trợ xác thực, Nếu khách verify chậm quá 48 giờ sẽ không lên gói và bên mình không chịu trách nhiệm\n-Nâng trực tiếp trên tài khoản của bạn qua phương thức google pay/card",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 2,
+            "cost_price": 330000,
+            "selling_price": 380000,
+            "updated": "02:36 24/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 330000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -27865,6 +27891,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795462604960",
+      "time": "02:36 - 24/11/2026",
+      "name": "Nâng Cấp Claude Pro Chính Chủ Không Bảo Hành",
+      "bot": "piggyai99_bot",
+      "price": 380000,
+      "costPrice": 330000,
+      "stockAfter": 2,
+      "catKey": "claude",
+      "msgKey": "🧠NângCấpClaudeProChínhChủKhôngBảoHành➕Thêm:2📦Tồnkhohiệntại:2💰Giá:330.000đ"
+    },
+    {
       "id": "hist-1795462341840",
       "time": "02:32 - 24/11/2026",
       "name": "Meitu Vip+ 3 Tháng BHF",
@@ -28952,17 +28989,6 @@
       "stockAfter": 72,
       "catKey": "chatgpt",
       "msgKey": "🤖(🎀Hot)ChatGPTPlusApplePayGmail30D-BH1D➕Thêm:22📦Tồnkhohiệntại:72💰Giá:125.000đ"
-    },
-    {
-      "id": "hist-1795379164295",
-      "time": "03:26 - 23/11/2026",
-      "name": "HEYGEN CREATOR 1 THÁNG ( BH 3 ngày)",
-      "bot": "sieuthistore_bot",
-      "price": 460000,
-      "costPrice": 410000,
-      "stockAfter": 7,
-      "catKey": "heygen",
-      "msgKey": "🎥HEYGENCREATOR1THÁNG(BH3ngày)➕Thêm:1📦Tồnkhohiệntại:1💰Giá:410.000đ"
     }
   ],
   "vidiq": {
