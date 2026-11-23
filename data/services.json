@@ -2714,16 +2714,16 @@
         "id": "p-1791967221993",
         "name": "CHAT GPT PLUS 1 THÁNG BHF",
         "price": 1600000,
-        "stock": 273,
-        "stock_text": "Còn 273",
+        "stock": 202,
+        "stock_text": "Còn 202",
         "duration": "1 Tháng",
         "detail": "- ChatGPT Plus 1 tháng BHF\n- Định dạng: Email| Pass | 2fa\n- Lấy OTP tại 2fa.live\n- Tài khoản đã được đổi 2fa và bảo quản đầy đủ trước khi gửi\n- Không bảo hành với trường hợp đã đổi 2fa hay đnhap cần mã OTP gửi về Email\n- VUI LÒNG ĐỌC KĨ MÔ TẢ\n🎁 Khuyến mãi:\n- Mua từ 30 giá 125k\n- Mua từ 50 giá 120k\n✏️",
         "sources": {
           "ntnshopre_bot": {
-            "stock": 95,
+            "stock": 24,
             "cost_price": 130000,
             "selling_price": 150000,
-            "updated": "23:06 22/11/2026"
+            "updated": "22:06 23/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 1,
@@ -2751,7 +2751,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 130000,
-          "stock": 95
+          "stock": 24
         }
       },
       {
@@ -27683,6 +27683,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795446372882",
+      "time": "22:06 - 23/11/2026",
+      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
+      "bot": "ntnshopre_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 202,
+      "catKey": "chatgpt",
+      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:14📦Tồnkhohiệntại:24💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1795446366299",
       "time": "22:06 - 23/11/2026",
       "name": "LINK JOIN CANVA PRO 1 THÁNG BHF",
@@ -28770,17 +28781,6 @@
       "stockAfter": 42,
       "catKey": "grok",
       "msgKey": "⚡GrokPlus30ngàyBHLogin➕Thêm:4📦Tồnkhohiệntại:11💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1795358703667",
-      "time": "21:45 - 22/11/2026",
-      "name": "GMAIL EDU LIVE 24H (xxx.us) login gmail",
-      "bot": "sieuthistore_bot",
-      "price": 22000,
-      "costPrice": 12000,
-      "stockAfter": 28,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILEDULIVE24H(xxx.us)logingmail💰Giá:12k📦Tồnkho:14tàikhoản📊Đãbán:10tàikhoản💎Mô"
     }
   ],
   "vidiq": {
