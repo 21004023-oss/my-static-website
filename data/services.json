@@ -13682,6 +13682,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795456388595",
+        "name": "Elevens Labs Creator 3 tháng - KBH",
+        "price": 255000,
+        "cost_price": 225000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "3 Tháng",
+        "detail": "- Địng dạng: Mail | Pass 11labs | Link get code\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 10,
+            "cost_price": 225000,
+            "selling_price": 255000,
+            "updated": "00:53 24/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 225000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -27839,6 +27865,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795456388595",
+      "time": "00:53 - 24/11/2026",
+      "name": "Elevens Labs Creator 3 tháng - KBH",
+      "bot": "piggyai99_bot",
+      "price": 255000,
+      "costPrice": 225000,
+      "stockAfter": 10,
+      "catKey": "elevenlabs",
+      "msgKey": "🎙️ElevensLabsCreator3tháng-KBH➕Thêm:10📦Tồnkhohiệntại:10💰Giá:225.000đ"
+    },
+    {
       "id": "hist-1795456324172",
       "time": "00:52 - 24/11/2026",
       "name": "Meitu SVip+ 7 Ngày BHF",
@@ -28926,17 +28963,6 @@
       "stockAfter": 46,
       "catKey": "chatgpt",
       "msgKey": "🤖🔥ChatGPTPlus1Tháng(BH20D)➕Thêm:1📦Tồnkhohiệntại:4💰Giá:134.000đ"
-    },
-    {
-      "id": "hist-1795373672455",
-      "time": "01:54 - 23/11/2026",
-      "name": "ChatGPT Plus ( Apple Pay ) 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 146,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus(ApplePay)1ThángBHF➕Thêm:37📦Tồnkhohiệntại:98💰Giá:160.000đ"
     }
   ],
   "vidiq": {
