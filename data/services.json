@@ -13760,6 +13760,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795470842076",
+        "name": "🔥ElevenLabs Redeem 1M Credit",
+        "price": 299000,
+        "cost_price": 269000,
+        "stock": 849,
+        "stock_text": "Còn 849",
+        "duration": "1 Tháng",
+        "detail": "Gói 🔥ElevenLabs Redeem 1M Credit bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 849,
+            "cost_price": 269000,
+            "selling_price": 299000,
+            "updated": "04:54 24/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 269000,
+          "stock": 849
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -27917,6 +27943,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795470842076",
+      "time": "04:54 - 24/11/2026",
+      "name": "🔥ElevenLabs Redeem 1M Credit",
+      "bot": "taphoathomap_bot",
+      "price": 299000,
+      "costPrice": 269000,
+      "stockAfter": 849,
+      "catKey": "elevenlabs",
+      "msgKey": "🎙️🔥ElevenLabsRedeem1MCredit➕Thêm:200📦Tồnkhohiệntại:849💰Giá:269.000đ"
+    },
+    {
       "id": "hist-1795470836028",
       "time": "04:53 - 24/11/2026",
       "name": "ElevenLabs Redeem1M Credit 1 tháng BHF",
@@ -29004,17 +29041,6 @@
       "stockAfter": 202,
       "catKey": "google-veo",
       "msgKey": "☁️LINK-GeminiAIPlus6Tháng(BH24H)➕Thêm:101📦Tồnkhohiệntại:101💰Giá:39.000đ"
-    },
-    {
-      "id": "hist-1795446433548",
-      "time": "22:07 - 23/11/2026",
-      "name": "Meitu Vip+ 30D BHF",
-      "bot": "taphoathomap_bot",
-      "price": 69000,
-      "costPrice": 59000,
-      "stockAfter": 30,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+30DBHF➕Thêm:13📦Tồnkhohiệntại:12💰Giá:59.000đ"
     }
   ],
   "vidiq": {
