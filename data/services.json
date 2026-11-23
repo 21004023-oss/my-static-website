@@ -22918,18 +22918,24 @@
       {
         "id": "p-1794278286231",
         "name": "Gmail Random 2020~2026",
-        "price": 35000,
+        "price": 45000,
         "cost_price": 25000,
         "stock": 1,
         "stock_text": "Còn 1",
         "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|mkp|2FA Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành\n✏️",
+        "detail": "Định dạng username|pass|mkp|2FA Khách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết Bảo hành 24h login hết bảo hành",
         "sources": {
           "taphoathomap_bot": {
             "stock": 1,
             "cost_price": 25000,
             "selling_price": 35000,
             "updated": "23:07 23/11/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 0,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "05:51 24/11/2026"
           }
         },
         "cheapest_source": {
@@ -27981,6 +27987,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795474294434",
+      "time": "05:51 - 24/11/2026",
+      "name": "Gmail  Random 2020~2026",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 1,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandom2020~2026➕Thêm:1📦Tồnkhohiệntại:0💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1795473017550",
       "time": "05:30 - 24/11/2026",
       "name": "Gmail random new",
@@ -29068,17 +29085,6 @@
       "stockAfter": 228,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:14📦Tồnkhohiệntại:50💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1795447929728",
-      "time": "22:32 - 23/11/2026",
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
-      "bot": "ntnshopre_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 214,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:19📦Tồnkhohiệntại:36💰Giá:130.000đ"
     }
   ],
   "vidiq": {
