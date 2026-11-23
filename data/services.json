@@ -1958,22 +1958,22 @@
         "name": "Spotify Premium 3 Tháng ( BH 1 Tuần)",
         "price": 40000,
         "cost_price": 30000,
-        "stock": 13,
-        "stock_text": "Còn 13",
+        "stock": 8,
+        "stock_text": "Còn 8",
         "duration": "3 Tháng",
         "detail": "Định  dạng : Mail | Pass ( Spotify)\n- Nhập mail chúng tôi cấp để đăng nhập, khi yêu cầu mã về mail thì chọn dùng mật khẩu đăng nhập vào nhập pass chúng tôi cấp\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–13):",
         "sources": {
           "khommo_market_bot": {
-            "stock": 13,
+            "stock": 8,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "15:43 21/11/2026"
+            "updated": "22:07 23/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@khommo_market_bot",
           "cost_price": 30000,
-          "stock": 13
+          "stock": 8
         },
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
@@ -27709,6 +27709,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795446468002",
+      "time": "22:07 - 23/11/2026",
+      "name": "Spotify Premium 3 Tháng ( BH 1 Tuần)",
+      "bot": "khommo_market_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 8,
+      "catKey": "spotify",
+      "msgKey": "SpotifyPremium3Tháng(BH1Tuần)💲Giá:30.000VND(~$1.1538)➕Thêm:6📦Tồnkhohiệntại:8"
+    },
+    {
       "id": "hist-1795446462317",
       "time": "22:07 - 23/11/2026",
       "name": "TikTok Affiliate Có Giỏ Hàng",
@@ -28796,17 +28807,6 @@
       "stockAfter": 30,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+30DBHF➕Thêm:17📦Tồnkhohiệntại:12💰Giá:59.000đ"
-    },
-    {
-      "id": "hist-1795362930398",
-      "time": "22:55 - 22/11/2026",
-      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
-      "bot": "sieuthistore_bot",
-      "price": 56000,
-      "costPrice": 46000,
-      "stockAfter": 141,
-      "catKey": "youtube",
-      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:100📦Tồnkhohiệntại:141💰Giá:46.000đ"
     }
   ],
   "vidiq": {
