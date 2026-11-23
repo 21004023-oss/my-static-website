@@ -17410,10 +17410,10 @@
         "id": "p-1792119807992",
         "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
         "price": 75000,
-        "stock": 110,
-        "stock_text": "Còn 110",
+        "stock": 93,
+        "stock_text": "Còn 93",
         "duration": "1 Tháng",
-        "detail": "CAPCUT PRO  CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )\n✏️",
+        "detail": "CAPCUT PRO  CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "sieuthistore_bot": {
             "stock": 38,
@@ -17422,10 +17422,10 @@
             "updated": "13:01 16/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 17,
+            "stock": 0,
             "cost_price": 40000,
             "selling_price": 50000,
-            "updated": "02:27 24/11/2026"
+            "updated": "06:01 24/11/2026"
           },
           "piggyai99_bot": {
             "stock": 55,
@@ -17438,11 +17438,11 @@
         "needs_review": false,
         "cost_price": 40000,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
+          "bot": "@piggyai99_bot",
           "cost_price": 40000,
-          "stock": 17
+          "stock": 55
         },
-        "import_note": "Nhập: @taphoathomap_bot"
+        "import_note": "Nhập: @piggyai99_bot"
       },
       {
         "id": "p-1792125293833",
@@ -27987,6 +27987,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795474893694",
+      "time": "06:01 - 24/11/2026",
+      "name": "CAPCUT PRO CÁ NHÂN  30 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 50000,
+      "costPrice": 40000,
+      "stockAfter": 93,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:4📦Tồnkhohiệntại:0💰Giá:40.000đ"
+    },
+    {
       "id": "hist-1795474596938",
       "time": "05:56 - 24/11/2026",
       "name": "TiktokVN LiveStudio 1KFL THẬT",
@@ -29074,17 +29085,6 @@
       "stockAfter": 7,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1795448477368",
-      "time": "22:41 - 23/11/2026",
-      "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
-      "bot": "ntnshopre_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 254,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1THÁNGBẢOHÀNHFULL➕Thêm:26📦Tồnkhohiệntại:76💰Giá:130.000đ"
     }
   ],
   "vidiq": {
