@@ -24372,6 +24372,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795446462317",
+        "name": "TikTok Affiliate Có Giỏ Hàng",
+        "price": 148700,
+        "cost_price": 128700,
+        "stock": 28,
+        "stock_text": "Còn 28",
+        "duration": "1 Tháng",
+        "detail": "Gói TikTok Affiliate Có Giỏ Hàng bảo hành uy tín.",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 28,
+            "cost_price": 128700,
+            "selling_price": 148700,
+            "updated": "22:07 23/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 128700,
+          "stock": 28
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -27683,6 +27709,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795446462317",
+      "time": "22:07 - 23/11/2026",
+      "name": "TikTok Affiliate Có Giỏ Hàng",
+      "bot": "khommo_market_bot",
+      "price": 148700,
+      "costPrice": 128700,
+      "stockAfter": 28,
+      "catKey": "tiktok",
+      "msgKey": "📦TikTokAffiliateCóGiỏHàngTIKTOKVIỆT1000FollowCóLiveĐiệnThoạiCóClip-TimNgẫuNhiên,"
+    },
+    {
       "id": "hist-1795446455087",
       "time": "22:07 - 23/11/2026",
       "name": "Gmail",
@@ -28770,17 +28807,6 @@
       "stockAfter": 141,
       "catKey": "youtube",
       "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:100📦Tồnkhohiệntại:141💰Giá:46.000đ"
-    },
-    {
-      "id": "hist-1795362911857",
-      "time": "22:55 - 22/11/2026",
-      "name": "Gmail Random ip 2020-2024",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 221,
-      "catKey": "gmail",
-      "msgKey": "📧GmailRandomip2020-2024➕Thêm:100📦Tồnkhohiệntại:121💰Giá:35.000đ"
     }
   ],
   "vidiq": {
