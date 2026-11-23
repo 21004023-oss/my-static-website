@@ -11772,6 +11772,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795451632748",
+        "name": "Grok Premium 14-24 ngày ( BH 24H )",
+        "price": 160000,
+        "cost_price": 140000,
+        "stock": 20,
+        "stock_text": "Còn 20",
+        "duration": "1 Ngày",
+        "detail": "Gói Grok Premium 14-24 ngày ( BH 24H ) bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 20,
+            "cost_price": 140000,
+            "selling_price": 160000,
+            "updated": "23:33 23/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 140000,
+          "stock": 20
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -27787,6 +27813,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795451632748",
+      "time": "23:33 - 23/11/2026",
+      "name": "Grok Premium 14-24 ngày ( BH 24H )",
+      "bot": "taphoathomap_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 20,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPremium14-24ngày(BH24H)💰Giá:140k📦Tồnkho:20tàikhoản📊Đãbán:89tàikhoản✏️Vuilòn"
+    },
+    {
       "id": "hist-1795451503506",
       "time": "23:31 - 23/11/2026",
       "name": "Slot Youtube Premium 1 Năm BHF",
@@ -28874,17 +28911,6 @@
       "stockAfter": 10,
       "catKey": "google-veo",
       "msgKey": "🚀💎NÂNGCHÍNHCHỦADMINVEO3ULTRAX20–1THÁNGKBH➕Thêm:10📦Tồnkhohiệntại:10💰Giá:1.100.000"
-    },
-    {
-      "id": "hist-1795367596147",
-      "time": "00:13 - 23/11/2026",
-      "name": "Nâng chính chủ Capcut Pro 30 Ngày Bh 28 Ngày",
-      "bot": "taphoathomap_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 8,
-      "catKey": "capcut",
-      "msgKey": "✂️NângchínhchủCapcutPro30NgàyBh28Ngày➕Thêm:1📦Tồnkhohiệntại:8💰Giá:50.000đ"
     }
   ],
   "vidiq": {
