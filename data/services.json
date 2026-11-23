@@ -22822,22 +22822,22 @@
         "name": "Gmail",
         "price": 37500,
         "cost_price": 27500,
-        "stock": 286,
-        "stock_text": "Còn 286",
+        "stock": 97,
+        "stock_text": "Còn 97",
         "duration": "1 Tháng",
         "detail": "Gói Gmail bảo hành uy tín.",
         "sources": {
           "khommo_market_bot": {
-            "stock": 286,
+            "stock": 97,
             "cost_price": 27500,
             "selling_price": 37500,
-            "updated": "09:09 22/11/2026"
+            "updated": "22:07 23/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@khommo_market_bot",
           "cost_price": 27500,
-          "stock": 286
+          "stock": 97
         },
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
@@ -27683,6 +27683,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795446455087",
+      "time": "22:07 - 23/11/2026",
+      "name": "Gmail",
+      "bot": "khommo_market_bot",
+      "price": 37500,
+      "costPrice": 27500,
+      "stockAfter": 97,
+      "catKey": "gmail",
+      "msgKey": "📦GmailGmail6tháng-2FA(khônglogđượchộpthư)-BHlogđầu24h💲Giá:27.500VND(~$1.0377)📦Tồ"
+    },
+    {
       "id": "hist-1795446448423",
       "time": "22:07 - 23/11/2026",
       "name": "CAPCUT PRO CÁ NHÂN  30 Ngày BHF",
@@ -28770,17 +28781,6 @@
       "stockAfter": 221,
       "catKey": "gmail",
       "msgKey": "📧GmailRandomip2020-2024➕Thêm:100📦Tồnkhohiệntại:121💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1795362891735",
-      "time": "22:54 - 22/11/2026",
-      "name": "Meitu Vip+ 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 39,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+1ThángBHF➕Thêm:17📦Tồnkhohiệntại:12💰Giá:70.000đ"
     }
   ],
   "vidiq": {
