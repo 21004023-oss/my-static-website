@@ -13583,9 +13583,9 @@
         "id": "p-1794312968347",
         "name": "ElevenLabs Redeem 300K Credit",
         "price": 160000,
-        "cost_price": 140000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "cost_price": 119000,
+        "stock": 1020,
+        "stock_text": "Còn 1020",
         "duration": "1 Tháng",
         "detail": "Tín dụng không giới hạn theo tháng\nKhông giới hạn thiết bị sử dụng\nCó thể chia sẻ nhiều người sử dụng\nChất lượng chuyển giọng nói cao hơn\nSử dụng Credit được thêm model Minimax\nMiễn Phí Model CapCut\nRedeem Code Tại : https://genvoice.pro/\n✏️",
         "sources": {
@@ -13594,14 +13594,20 @@
             "cost_price": 140000,
             "selling_price": 160000,
             "updated": "23:55 16/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 1015,
+            "cost_price": 119000,
+            "selling_price": 139000,
+            "updated": "05:05 24/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 140000,
-          "stock": 5
+          "bot": "@taphoathomap_bot",
+          "cost_price": 119000,
+          "stock": 1015
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -27975,6 +27981,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795471534934",
+      "time": "05:05 - 24/11/2026",
+      "name": "🔥ElevenLabs Redeem 300K Credit",
+      "bot": "taphoathomap_bot",
+      "price": 139000,
+      "costPrice": 119000,
+      "stockAfter": 1020,
+      "catKey": "elevenlabs",
+      "msgKey": "🎙️🔥ElevenLabsRedeem300KCredit➕Thêm:1000📦Tồnkhohiệntại:1015💰Giá:119.000đ"
+    },
+    {
       "id": "hist-1795471529324",
       "time": "05:05 - 24/11/2026",
       "name": "ElevenLabs Redeem 300K Credit 1 tháng BHF",
@@ -29062,17 +29079,6 @@
       "stockAfter": 8,
       "catKey": "spotify",
       "msgKey": "SpotifyPremium3Tháng(BH1Tuần)💲Giá:30.000VND(~$1.1538)➕Thêm:6📦Tồnkhohiệntại:8"
-    },
-    {
-      "id": "hist-1795446462317",
-      "time": "22:07 - 23/11/2026",
-      "name": "TikTok Affiliate Có Giỏ Hàng",
-      "bot": "khommo_market_bot",
-      "price": 148700,
-      "costPrice": 128700,
-      "stockAfter": 28,
-      "catKey": "tiktok",
-      "msgKey": "📦TikTokAffiliateCóGiỏHàngTIKTOKVIỆT1000FollowCóLiveĐiệnThoạiCóClip-TimNgẫuNhiên,"
     }
   ],
   "vidiq": {
