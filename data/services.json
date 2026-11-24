@@ -11835,24 +11835,24 @@
         "id": "kling-65cre",
         "name": "Kling 65 Cre 1 Tháng BHF",
         "price": 28000,
-        "stock": 333,
-        "stock_text": "Còn 333",
+        "stock": 327,
+        "stock_text": "Còn 327",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
-        "detail": "Acc free được tặng credit\n✏️",
-        "cost_price": 2000,
+        "detail": "Tài Khoản sẽ mất credit sau một thời gian và nên sử dụng ngay\nLưu Ý Quan Trọng:\n❌  Bật tab ẩn danh hoặc Sài Proxy\n❌ Không bảo hành lỗi Busy\nHướng dẩn sử dụng\nĐịnh dạng: TK|MK phân cách bởi dấu \"|\"\n1. Trên máy tính :\nMỗi Profile là một acc Kling ai, làm Song Song nhiều video cùng lúc\n2. Trên điện thoại :\nLogin Tài khoản vào > Sử dụng hết Credit > Tắt bỏ tab đó >",
+        "cost_price": 2500,
         "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
-          "cost_price": 2000,
-          "stock": 169
+          "cost_price": 2500,
+          "stock": 163
         },
         "sources": {
           "taphoathomap_bot": {
-            "stock": 169,
-            "cost_price": 2000,
-            "selling_price": 12000,
-            "updated": "05:33 14/11/2026"
+            "stock": 163,
+            "cost_price": 2500,
+            "selling_price": 12500,
+            "updated": "07:59 24/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 164,
@@ -27987,6 +27987,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795481970166",
+      "time": "07:59 - 24/11/2026",
+      "name": "Kling 65 Cre 1th BHF",
+      "bot": "taphoathomap_bot",
+      "price": 12500,
+      "costPrice": 2500,
+      "stockAfter": 327,
+      "catKey": "kling",
+      "msgKey": "🎬Kling65Cre1thBHF➕Thêm:50📦Tồnkhohiệntại:163💰Giá:2.500đ"
+    },
+    {
       "id": "hist-1795481963970",
       "time": "07:59 - 24/11/2026",
       "name": "Kling 65 Credit 1 Tháng BHF",
@@ -29074,17 +29085,6 @@
       "stockAfter": 4,
       "catKey": "google-veo",
       "msgKey": "☁️ADMINGEMINIPRO+GG5TB1NĂM-BH24H➕Thêm:1📦Tồnkhohiệntại:4💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1795453123282",
-      "time": "23:58 - 23/11/2026",
-      "name": "ChatGPT Plus ( Apple Pay ) 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 156,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus(ApplePay)1ThángBHF➕Thêm:31📦Tồnkhohiệntại:108💰Giá:160.000đ"
     }
   ],
   "vidiq": {
