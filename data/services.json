@@ -19608,23 +19608,23 @@
         "name": "Slot Nord VPN And/PC/IOS 3 tháng BHF",
         "price": 90000,
         "cost_price": 80000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "3 Tháng",
-        "detail": "- Nord Vpn dùng 2 thiết bị 3 tháng bảo hành full-time\nHướng dẫn đăng nhập:\n- Định dạng tk|mk|key1|key2 dùng được android ios pc .\n- Thiết bị 1: Đăng nhập tài khoản -> mật khẩu  -> See other options -> Chọn mã key 1 -> mã key 1 -> Hoàn thành\n- Thiết bị 2 làm  tương tự như thiết bị 1.\n-Ae hoàn toàn chủ động đăng nhập nhớ đọc kỹ hướng dẫn sau khi mua xong (không cấp full mail) .\n- Lưu ý không dùng hơn số thiết bị phát hiện kick không hoàn tiền\n- Cần nâng cấp chính chủ 10 thiết bị liên hệ với admin\n✏️",
+        "detail": "- Nord Vpn dùng 2 thiết bị 3 tháng bảo hành full-time\nHướng dẫn đăng nhập:\n- Định dạng tk|mk|mã 2FA dùng được and roid ios pc .\n- Đăng nhập Mail + Pass, Để lấy mã vào trang https://2fa.live/ nhập mã 2FA được cấp cùng tài khoản=> Submit=> 6 số cuối ở bảng dưới là mã cần nhập\n- Thiết bị 2 làm  tương tự như thiết bị 1.\n-Ae hoàn toàn chủ động đăng nhập nhớ đọc kỹ hướng dẫn sau khi mua xong (không cấp full mail) .\n- Lưu ý không dùng hơn số 2 thiết bị phát hiện kick không hoàn tiền\n- Cần nâng cấp chính chủ 10 thiết bị liên hệ với admin\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 3,
+            "stock": 10,
             "cost_price": 80000,
             "selling_price": 90000,
-            "updated": "09:50 22/11/2026"
+            "updated": "15:51 24/11/2026"
           }
         },
         "hidden": false,
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 80000,
-          "stock": 3
+          "stock": 10
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "needs_review": false
@@ -28265,6 +28265,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795510282141",
+      "time": "15:51 - 24/11/2026",
+      "name": "Slot Nord VPN And/PC/IOS 3 tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 10,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️SlotNordVPNAnd/PC/IOS3thángBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:80.000đ"
+    },
+    {
       "id": "hist-1795509901728",
       "time": "15:45 - 24/11/2026",
       "name": "Slot Youtube Premium 3 Tháng BHF",
@@ -29352,17 +29363,6 @@
       "stockAfter": 1049,
       "catKey": "gmail",
       "msgKey": "📧GmailCổRandom2010~2022➕Thêm:263📦Tồnkhohiệntại:255💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1795491451532",
-      "time": "10:37 - 24/11/2026",
-      "name": "Wink Vip 30D BHF",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 20,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVip30DBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:70.000đ"
     }
   ],
   "vidiq": {
