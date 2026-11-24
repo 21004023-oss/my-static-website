@@ -1116,18 +1116,18 @@
         "id": "p-gmail-2010-2016-unified",
         "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
         "price": 56000,
-        "cost_price": 46000,
-        "stock": 1,
-        "stock_text": "Còn 1",
+        "cost_price": 36000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
-        "detail": "Định dạng username|pass|mkp|2FA\nKhông nên change gì trong 7 ngày tránh die acc\nBảo hành 24h login hết bảo hành\n✏️",
+        "detail": "Định dạng username|pass|mkp|2FA\nKhông nên change gì trong 7 ngày tránh die acc\nBảo hành 24h login hết bảo hành",
         "hidden": false,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 1,
+            "stock": 0,
             "cost_price": 46000,
             "selling_price": 56000,
-            "updated": "09:14 24/11/2026"
+            "updated": "18:43 24/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -1138,11 +1138,11 @@
         },
         "needs_review": false,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 46000,
-          "stock": 1
+          "bot": "@taphoathomap_bot",
+          "cost_price": 36000,
+          "stock": 0
         },
-        "import_note": "Nhập: @sieuthistore_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "gmail-new-ytb",
@@ -28387,6 +28387,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795520580865",
+      "time": "18:43 - 24/11/2026",
+      "name": "Gmail Random ip 2010-2016 đã qua trial ytb",
+      "bot": "sieuthistore_bot",
+      "price": 56000,
+      "costPrice": 46000,
+      "stockAfter": 0,
+      "catKey": "youtube",
+      "msgKey": "📧GmailRandomip2010-2016đãquatrialytb➕Thêm:3📦Tồnkhohiệntại:0💰Giá:46.000đ"
+    },
+    {
       "id": "hist-1795520458480",
       "time": "18:40 - 24/11/2026",
       "name": "Scribd Premium 1 Tháng  BHF",
@@ -29474,17 +29485,6 @@
       "stockAfter": 70,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlus(ApplePay)1ThángBHF➕Thêm:15📦Tồnkhohiệntại:22💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1795503301997",
-      "time": "13:55 - 24/11/2026",
-      "name": "ChatGPT Trial Plus @gmail - oaics ( Plan Free)",
-      "bot": "khommo_market_bot",
-      "price": 15000,
-      "costPrice": 5000,
-      "stockAfter": 3240,
-      "catKey": "chatgpt",
-      "msgKey": "ChatGPTTrialPlus@gmail-oaics(PlanFree)💲Giá:5.000VND(~$0.1923)Ưuđãitheosốlượng:•M"
     }
   ],
   "vidiq": {
