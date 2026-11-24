@@ -11180,8 +11180,8 @@
         "name": "Grok Plus 30 ngày KBH",
         "price": 200000,
         "cost_price": 115000,
-        "stock": 33,
-        "stock_text": "Còn 33",
+        "stock": 52,
+        "stock_text": "Còn 52",
         "duration": "1 Tháng",
         "detail": "Mail | Pass\nĐược change mail và pass\nKhông hủy kết nối với X\nLogin check gói hết bảo hành\nNếu giao diện không hiển thị chỗ tạo video thì các bác vào link này tạo video vì grok nó đang update nên giao diện không hiển thị:\nhttps://grok.com/imagine/saved\ntạo luôn tại mục chat\n✏️",
         "sources": {
@@ -11192,10 +11192,10 @@
             "updated": "11:46 20/10/2026"
           },
           "taphoathomap_bot": {
-            "stock": 31,
+            "stock": 50,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "13:59 24/11/2026"
+            "updated": "16:01 24/11/2026"
           }
         },
         "hidden": false,
@@ -11204,7 +11204,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 31
+          "stock": 50
         }
       },
       {
@@ -28265,6 +28265,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795510909171",
+      "time": "16:01 - 24/11/2026",
+      "name": "Grok Plus 30 ngày KBH",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 52,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPlus30ngàyKBH➕Thêm:20📦Tồnkhohiệntại:50💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1795510854809",
       "time": "16:00 - 24/11/2026",
       "name": "Grok Plus 30 ngày BH Login",
@@ -29352,17 +29363,6 @@
       "stockAfter": 201,
       "catKey": "gmail",
       "msgKey": "📧GmailRandom200X~2025Có2FA➕Thêm:58📦Tồnkhohiệntại:129💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1795492834280",
-      "time": "11:00 - 24/11/2026",
-      "name": "Gmail Cổ Random 2010~2022",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 725,
-      "catKey": "gmail",
-      "msgKey": "📧GmailCổRandom2010~2022➕Thêm:3📦Tồnkhohiệntại:235💰Giá:45.000đ"
     }
   ],
   "vidiq": {
