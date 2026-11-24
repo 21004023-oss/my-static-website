@@ -22479,16 +22479,16 @@
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
         "cost_price": 45000,
-        "stock": 30,
-        "stock_text": "Còn 30",
+        "stock": 51,
+        "stock_text": "Còn 51",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 10,
+            "stock": 31,
             "cost_price": 49000,
             "selling_price": 59000,
-            "updated": "18:10 24/11/2026"
+            "updated": "18:15 24/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 10,
@@ -28335,6 +28335,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795518943670",
+      "time": "18:15 - 24/11/2026",
+      "name": "Apple ID 2FA Gmail",
+      "bot": "sieuthistore_bot",
+      "price": 59000,
+      "costPrice": 49000,
+      "stockAfter": 51,
+      "catKey": "gmail",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:21📦Tồnkhohiệntại:31💰Giá:49.000đ"
+    },
+    {
       "id": "hist-1795518660488",
       "time": "18:11 - 24/11/2026",
       "name": "Apple ID 2FA Gmail",
@@ -29422,17 +29433,6 @@
       "stockAfter": 200,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:15📦Tồnkhohiệntại:8💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1795500653225",
-      "time": "13:10 - 24/11/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng - BH 24h",
-      "bot": "taphoathomap_bot",
-      "price": 30000,
-      "costPrice": 20000,
-      "stockAfter": 322,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:15📦Tồnkhohiệntại:8💰Giá:20.000đ"
     }
   ],
   "vidiq": {
