@@ -12506,17 +12506,17 @@
         "id": "p-1793196196276",
         "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
         "price": 170000,
-        "cost_price": 140000,
-        "stock": 187,
-        "stock_text": "Còn 187",
+        "cost_price": 150000,
+        "stock": 126,
+        "stock_text": "Còn 126",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000 credit 1 TH BH 1 ngày bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 61,
+            "stock": 0,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "11:59 22/11/2026"
+            "updated": "17:34 24/11/2026"
           },
           "piggyai99_bot": {
             "stock": 126,
@@ -12526,11 +12526,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 140000,
-          "stock": 61
+          "bot": "@piggyai99_bot",
+          "cost_price": 150000,
+          "stock": 126
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -28271,6 +28271,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795516467642",
+      "time": "17:34 - 24/11/2026",
+      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 126,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000credit1THBH1ngày➕Thêm:2📦Tồnkhohiệntại:0💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1795516307542",
       "time": "17:31 - 24/11/2026",
       "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
@@ -29358,17 +29369,6 @@
       "stockAfter": 13,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+90DBHF➕Thêm:2📦Tồnkhohiệntại:3💰Giá:165.000đ"
-    },
-    {
-      "id": "hist-1795497557216",
-      "time": "12:19 - 24/11/2026",
-      "name": "Grok + Cursor Premium 14 ngày KBH",
-      "bot": "piggyai99_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 88,
-      "catKey": "cursor",
-      "msgKey": "⚡Grok+CursorPremium14ngàyKBH➕Thêm:1📦Tồnkhohiệntại:44💰Giá:150.000đ"
     }
   ],
   "vidiq": {
