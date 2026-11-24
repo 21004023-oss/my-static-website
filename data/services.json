@@ -7815,22 +7815,22 @@
         "name": "Nâng Cấp Claude Pro Chính Chủ Không Bảo Hành",
         "price": 380000,
         "cost_price": 330000,
-        "stock": 2,
-        "stock_text": "Còn 2",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "Claude Pro chính chủ\nThời gian hoàn thành : trong 24h\nBảo hành: 30 ngày\nGửi tài khoản | pass | 2fa cho admin để nâng cấp\n-Khách tự xác thực KYC khi nâng cấp, không hỗ trợ xác thực, Nếu khách verify chậm quá 48 giờ sẽ không lên gói và bên mình không chịu trách nhiệm\n-Nâng trực tiếp trên tài khoản của bạn qua phương thức google pay/card",
         "sources": {
           "piggyai99_bot": {
-            "stock": 2,
+            "stock": 4,
             "cost_price": 330000,
             "selling_price": 380000,
-            "updated": "02:36 24/11/2026"
+            "updated": "20:43 24/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 330000,
-          "stock": 2
+          "stock": 4
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -28445,6 +28445,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795527794795",
+      "time": "20:43 - 24/11/2026",
+      "name": "Nâng Cấp Claude Pro Chính Chủ 1 tháng Không Bảo Hành",
+      "bot": "piggyai99_bot",
+      "price": 380000,
+      "costPrice": 330000,
+      "stockAfter": 4,
+      "catKey": "claude",
+      "msgKey": "🧠NângCấpClaudeProChínhChủ1thángKhôngBảoHành➕Thêm:2📦Tồnkhohiệntại:4💰Giá:330.000đ"
+    },
+    {
       "id": "hist-1795527769067",
       "time": "20:42 - 24/11/2026",
       "name": "ADMIN VEO3 X20  1 THÁNG ( BH 3 NGÀY )",
@@ -29532,17 +29543,6 @@
       "stockAfter": 220,
       "catKey": "google-veo",
       "msgKey": "🚀ADMINFULLFAMVEO3x20Credit1ThángBHF➕Thêm:220📦Tồnkhohiệntại:220💰Giá:1.800.000đ"
-    },
-    {
-      "id": "hist-1795512773045",
-      "time": "16:32 - 24/11/2026",
-      "name": "Slot] Ultra 5x ( Veo3, Antigravity,20TB) | 0 Credit | Bảo Hành Full | Hạn 1 Tháng",
-      "bot": "khommo_market_bot",
-      "price": 110000,
-      "costPrice": 100000,
-      "stockAfter": 4,
-      "catKey": "google-veo",
-      "msgKey": "[Slot]Ultra5x(Veo3,Antigravity,20TB)|0Credit|BảoHànhFull|Hạn1Tháng💲Giá:100.000VN"
     }
   ],
   "vidiq": {
