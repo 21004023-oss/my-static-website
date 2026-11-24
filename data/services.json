@@ -10253,13 +10253,13 @@
         "name": "Slot] Ultra 5x ( Veo3, Antigravity,20TB) | 0 Credit | Bảo Hành Full | Hạn 1 Tháng",
         "price": 110000,
         "cost_price": 100000,
-        "stock": 3,
-        "stock_text": "Còn 3",
+        "stock": 4,
+        "stock_text": "Còn 4",
         "duration": "1 Tháng",
         "detail": "- Sau khi mua sẽ có link cho khách nhập mail vào nâng chính chủ .\n- Không dùng Credit trong Flow, Antigravity. Nếu vi phạm :  ( Lần 1: cảnh cáo, Lần 2: kick khỏi family)\n-  Lưu trữ: 20 TB cho Photos, Drive và Gmail dùng chung.\n- Chỉ hoàn tiền khi Shop không bảo hành được gói Ultra cho khách\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–3):",
         "sources": {
           "khommo_market_bot": {
-            "stock": 3,
+            "stock": 4,
             "cost_price": 100000,
             "selling_price": 110000,
             "updated": "16:32 24/11/2026"
@@ -10268,7 +10268,7 @@
         "cheapest_source": {
           "bot": "@khommo_market_bot",
           "cost_price": 100000,
-          "stock": 3
+          "stock": 4
         },
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
@@ -28265,6 +28265,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795512773045",
+      "time": "16:32 - 24/11/2026",
+      "name": "Slot] Ultra 5x ( Veo3, Antigravity,20TB) | 0 Credit | Bảo Hành Full | Hạn 1 Tháng",
+      "bot": "khommo_market_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 4,
+      "catKey": "google-veo",
+      "msgKey": "[Slot]Ultra5x(Veo3,Antigravity,20TB)|0Credit|BảoHànhFull|Hạn1Tháng💲Giá:100.000VN"
+    },
+    {
       "id": "hist-1795512767578",
       "time": "16:32 - 24/11/2026",
       "name": "Slot Youtube Premium 1 Năm BHF",
@@ -29352,17 +29363,6 @@
       "stockAfter": 150,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPRO30DBHF➕Thêm:8📦Tồnkhohiệntại:15💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1795495620224",
-      "time": "11:47 - 24/11/2026",
-      "name": "Meitu SVip+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 8,
-      "catKey": "meitu",
-      "msgKey": "✨MeituSVip+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
     }
   ],
   "vidiq": {
