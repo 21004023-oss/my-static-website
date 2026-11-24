@@ -12643,22 +12643,22 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 61,
-        "stock_text": "Còn 61",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 61,
+            "stock": 0,
             "cost_price": 150000,
             "selling_price": 170000,
-            "updated": "11:58 22/11/2026"
+            "updated": "17:31 24/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 61
+          "stock": 0
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -28271,6 +28271,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795516307542",
+      "time": "17:31 - 24/11/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 0,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:2📦Tồnkhohiệntại:0💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1795516094050",
       "time": "17:28 - 24/11/2026",
       "name": "Muse Ai 1B Token BH1H",
@@ -29358,17 +29369,6 @@
       "stockAfter": 88,
       "catKey": "cursor",
       "msgKey": "⚡Grok+CursorPremium14ngàyKBH➕Thêm:1📦Tồnkhohiệntại:44💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1795497549204",
-      "time": "12:19 - 24/11/2026",
-      "name": "Grok + Cursor Premium 14 ngày KBH",
-      "bot": "taphoathomap_bot",
-      "price": 159000,
-      "costPrice": 139000,
-      "stockAfter": 90,
-      "catKey": "cursor",
-      "msgKey": "⚡Grok+CursorPremium14ngàyKBH➕Thêm:1📦Tồnkhohiệntại:44💰Giá:139.000đ"
     }
   ],
   "vidiq": {
