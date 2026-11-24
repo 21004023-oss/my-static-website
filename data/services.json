@@ -26011,9 +26011,9 @@
         "id": "p-1793383964576",
         "name": "Open Art 4K credit 30D BH 24H",
         "price": 165000,
-        "cost_price": 140000,
-        "stock": 8,
-        "stock_text": "Còn 8",
+        "cost_price": 130000,
+        "stock": 16,
+        "stock_text": "Còn 16",
         "duration": "1 Tháng",
         "detail": "định dạng: mail|pass\n✏️",
         "sources": {
@@ -26022,14 +26022,20 @@
             "cost_price": 140000,
             "selling_price": 160000,
             "updated": "08:15 24/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 8,
+            "cost_price": 130000,
+            "selling_price": 150000,
+            "updated": "08:15 24/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 140000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 130000,
           "stock": 8
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -27987,6 +27993,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795482935608",
+      "time": "08:15 - 24/11/2026",
+      "name": "Open Art 4K credit 30D BH 24H",
+      "bot": "taphoathomap_bot",
+      "price": 150000,
+      "costPrice": 130000,
+      "stockAfter": 16,
+      "catKey": "khac",
+      "msgKey": "⭐OpenArt4Kcredit30DBH24H➕Thêm:5📦Tồnkhohiệntại:8💰Giá:130.000đ"
+    },
+    {
       "id": "hist-1795482929466",
       "time": "08:15 - 24/11/2026",
       "name": "Open Art 4K credit 30D BH 24H",
@@ -29074,17 +29091,6 @@
       "stockAfter": 115,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:8📦Tồnkhohiệntại:22💰Giá:40.000đ"
-    },
-    {
-      "id": "hist-1795453806966",
-      "time": "00:10 - 24/11/2026",
-      "name": "💎 VIP PRO · ChatGPT Plus Apple 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 165000,
-      "costPrice": 145000,
-      "stockAfter": 38,
-      "catKey": "chatgpt",
-      "msgKey": "🤖💎VIPPRO·ChatGPTPlusApple1ThángBHF➕Thêm:25📦Tồnkhohiệntại:38💰Giá:145.000đ"
     }
   ],
   "vidiq": {
