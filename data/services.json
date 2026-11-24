@@ -17772,10 +17772,10 @@
         "id": "p-1792119807992",
         "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
         "price": 75000,
-        "stock": 53,
-        "stock_text": "Còn 53",
+        "stock": 38,
+        "stock_text": "Còn 38",
         "duration": "1 Tháng",
-        "detail": "CAPCUT PRO  CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )\n✏️",
+        "detail": "CAPCUT PRO  CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )",
         "sources": {
           "sieuthistore_bot": {
             "stock": 38,
@@ -17790,21 +17790,21 @@
             "updated": "08:40 24/11/2026"
           },
           "piggyai99_bot": {
-            "stock": 15,
+            "stock": 0,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "04:22 25/11/2026"
+            "updated": "05:45 25/11/2026"
           }
         },
         "hidden": false,
         "needs_review": false,
-        "cost_price": 45000,
+        "cost_price": 65000,
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 45000,
-          "stock": 15
+          "bot": "@sieuthistore_bot",
+          "cost_price": 65000,
+          "stock": 38
         },
-        "import_note": "Nhập: @piggyai99_bot"
+        "import_note": "Nhập: @sieuthistore_bot"
       },
       {
         "id": "p-1792125293833",
@@ -28683,6 +28683,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795560346275",
+      "time": "05:45 - 25/11/2026",
+      "name": "CAPCUT PRO CÁ NHÂN  30 Ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 38,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:12📦Tồnkhohiệntại:0💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1795559418978",
       "time": "05:30 - 25/11/2026",
       "name": "Meitu Vip+ 30D BHF",
@@ -29770,17 +29781,6 @@
       "stockAfter": 73,
       "catKey": "cursor",
       "msgKey": "⚡Grok+CursorPremium14ngàyKBH➕Thêm:13📦Tồnkhohiệntại:36💰Giá:139.000đ"
-    },
-    {
-      "id": "hist-1795538677265",
-      "time": "23:44 - 24/11/2026",
-      "name": "Apple ID 2FA Gmail",
-      "bot": "taphoathomap_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 210,
-      "catKey": "gmail",
-      "msgKey": "⭐AppleID2FAGmail➕Thêm:62📦Tồnkhohiệntại:70💰Giá:45.000đ"
     }
   ],
   "vidiq": {
