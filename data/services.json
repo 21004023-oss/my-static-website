@@ -12753,22 +12753,22 @@
         "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
         "price": 170000,
         "cost_price": 150000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 5,
             "cost_price": 150000,
             "selling_price": 170000,
-            "updated": "17:31 24/11/2026"
+            "updated": "01:53 25/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 150000,
-          "stock": 0
+          "stock": 5
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -28587,6 +28587,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795546422169",
+      "time": "01:53 - 25/11/2026",
+      "name": "Kling Standard 1000-1300 Credit 1 Tháng BH 1 ngày",
+      "bot": "sieuthistore_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 5,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300Credit1ThángBH1ngày➕Thêm:6📦Tồnkhohiệntại:5💰Giá:150.000đ"
+    },
+    {
       "id": "hist-1795546416315",
       "time": "01:53 - 25/11/2026",
       "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
@@ -29674,17 +29685,6 @@
       "stockAfter": 154,
       "catKey": "youtube",
       "msgKey": "📧GmailNgâm6TCóTrialYTB➕Thêm:45📦Tồnkhohiệntại:45💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1795526691191",
-      "time": "20:24 - 24/11/2026",
-      "name": "ChatGPT Plus 1 Tháng BH 20 Ngày",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 95,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus1ThángBH20Ngày➕Thêm:9📦Tồnkhohiệntại:85💰Giá:150.000đ"
     }
   ],
   "vidiq": {
