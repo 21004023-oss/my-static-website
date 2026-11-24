@@ -10247,6 +10247,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795498562444",
+        "name": "Slot] Ultra 5x ( Veo3, Antigravity,20TB) | 5K Credit | Bảo Hành Full | Hạn 1 Tháng",
+        "price": 170000,
+        "cost_price": 150000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "- Sau khi mua sẽ có link cho khách nhập mail vào nâng chính chủ .\n- Chỉ dùng đúng 5K Credit trong Flow, Antigravity . Nếu vi phạm :  ( Lần 1: cảnh cáo, Lần 2: kick khỏi family)\n-  Lưu trữ: 20 TB cho Photos, Drive và Gmail dùng chung.\n- Chỉ hoàn tiền khi Shop không bảo hành được gói Ultra cho khách\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–4):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 5,
+            "cost_price": 150000,
+            "selling_price": 170000,
+            "updated": "12:36 24/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 150000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -28129,6 +28155,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795498562444",
+      "time": "12:36 - 24/11/2026",
+      "name": "Slot] Ultra 5x ( Veo3, Antigravity,20TB) | 5K Credit | Bảo Hành Full | Hạn 1 Tháng",
+      "bot": "khommo_market_bot",
+      "price": 170000,
+      "costPrice": 150000,
+      "stockAfter": 5,
+      "catKey": "google-veo",
+      "msgKey": "[Slot]Ultra5x(Veo3,Antigravity,20TB)|5KCredit|BảoHànhFull|Hạn1Tháng💲Giá:150.000V"
+    },
+    {
       "id": "hist-1795498465356",
       "time": "12:34 - 24/11/2026",
       "name": "Meitu Vip+ 30D BHF",
@@ -29216,17 +29253,6 @@
       "stockAfter": 499,
       "catKey": "capcut",
       "msgKey": "✂️CapcutPro500credit7DBH6D➕Thêm:1000📦Tồnkhohiệntại:499💰Giá:10.000đ"
-    },
-    {
-      "id": "hist-1795480283134",
-      "time": "07:31 - 24/11/2026",
-      "name": "TiktokVN LiveStudio 1KFL THẬT",
-      "bot": "taphoathomap_bot",
-      "price": 260000,
-      "costPrice": 230000,
-      "stockAfter": 11,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokVNLiveStudio1KFLTHẬT➕Thêm:1📦Tồnkhohiệntại:11💰Giá:230.000đ"
     }
   ],
   "vidiq": {
