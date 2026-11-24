@@ -20388,8 +20388,8 @@
         "name": "VPN HMA log IOS/android/PC 1 tháng",
         "price": 45000,
         "cost_price": 30000,
-        "stock": 50,
-        "stock_text": "Còn 50",
+        "stock": 60,
+        "stock_text": "Còn 60",
         "duration": "1 Tháng",
         "detail": "mail|pass|key\n✏️",
         "sources": {
@@ -20400,10 +20400,10 @@
             "updated": "12:15 24/11/2026"
           },
           "sieuthistore_bot": {
-            "stock": 20,
+            "stock": 30,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "20:43 21/11/2026"
+            "updated": "12:15 24/11/2026"
           }
         },
         "cheapest_source": {
@@ -28103,6 +28103,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795497327574",
+      "time": "12:15 - 24/11/2026",
+      "name": "VPN HMA log IOS/android/PC 1 tháng",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 60,
+      "catKey": "hma-vpn",
+      "msgKey": "⭐VPNHMAlogIOS/android/PC1tháng➕Thêm:30📦Tồnkhohiệntại:30💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1795497321678",
       "time": "12:15 - 24/11/2026",
       "name": "VPN HMA log IOS/android/PC 1 tháng",
@@ -29190,17 +29201,6 @@
       "stockAfter": 10,
       "catKey": "khac",
       "msgKey": "⭐PureVPN7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:5💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1795476403133",
-      "time": "06:26 - 24/11/2026",
-      "name": "PureVPN 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 7,
-      "catKey": "khac",
-      "msgKey": "⭐PureVPN7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:5💰Giá:15.000đ"
     }
   ],
   "vidiq": {
