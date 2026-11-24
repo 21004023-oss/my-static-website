@@ -4840,16 +4840,16 @@
         "name": "ChatGPT Go 1 Tháng (BH 28D)",
         "price": 110000,
         "cost_price": 95000,
-        "stock": 61,
-        "stock_text": "Còn 61",
+        "stock": 72,
+        "stock_text": "Còn 72",
         "duration": "1 Tháng",
         "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 25,
+            "stock": 36,
             "cost_price": 95000,
             "selling_price": 105000,
-            "updated": "13:10 24/11/2026"
+            "updated": "01:17 25/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 36,
@@ -4861,7 +4861,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 95000,
-          "stock": 25
+          "stock": 36
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -28587,6 +28587,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795544246876",
+      "time": "01:17 - 25/11/2026",
+      "name": "ChatGPT Go 1 Tháng (BH 28D)",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 72,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:2📦Tồnkhohiệntại:36💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1795544241451",
       "time": "01:17 - 25/11/2026",
       "name": "ChatGPT Go 1 Tháng BH 28 Ngày",
@@ -29674,17 +29685,6 @@
       "stockAfter": 779,
       "catKey": "gmail",
       "msgKey": "📧GmailCổRandom2010~2022➕Thêm:243📦Tồnkhohiệntại:289💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1795525646418",
-      "time": "20:07 - 24/11/2026",
-      "name": "CAPCUT PRO 30D BHF",
-      "bot": "piggyai99_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 139,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPRO30DBHF➕Thêm:5📦Tồnkhohiệntại:4💰Giá:40.000đ"
     }
   ],
   "vidiq": {
