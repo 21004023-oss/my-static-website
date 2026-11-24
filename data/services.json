@@ -22479,8 +22479,8 @@
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
         "cost_price": 45000,
-        "stock": 49,
-        "stock_text": "Còn 49",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.\n✏️",
         "sources": {
@@ -22491,10 +22491,10 @@
             "updated": "18:10 24/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 29,
+            "stock": 10,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "16:54 24/11/2026"
+            "updated": "18:11 24/11/2026"
           },
           "piggyai99_bot": {
             "stock": 10,
@@ -22508,7 +22508,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 45000,
-          "stock": 29
+          "stock": 10
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -28335,6 +28335,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795518660488",
+      "time": "18:11 - 24/11/2026",
+      "name": "Apple ID 2FA Gmail",
+      "bot": "taphoathomap_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 30,
+      "catKey": "gmail",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:10📦Tồnkhohiệntại:10💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1795518649597",
       "time": "18:10 - 24/11/2026",
       "name": "Apple ID 2FA Gmail",
@@ -29422,17 +29433,6 @@
       "stockAfter": 322,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:15📦Tồnkhohiệntại:8💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1795500642194",
-      "time": "13:10 - 24/11/2026",
-      "name": "ChatGPT Go 1 Tháng (BH 28D)",
-      "bot": "taphoathomap_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 50,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:25📦Tồnkhohiệntại:25💰Giá:95.000đ"
     }
   ],
   "vidiq": {
