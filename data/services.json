@@ -20388,16 +20388,16 @@
         "name": "VPN HMA log IOS/android/PC 1 tháng",
         "price": 45000,
         "cost_price": 30000,
-        "stock": 40,
-        "stock_text": "Còn 40",
+        "stock": 50,
+        "stock_text": "Còn 50",
         "duration": "1 Tháng",
         "detail": "mail|pass|key\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 20,
+            "stock": 30,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "20:43 21/11/2026"
+            "updated": "12:15 24/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 20,
@@ -20409,7 +20409,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 30000,
-          "stock": 20
+          "stock": 30
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -28103,6 +28103,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795497321678",
+      "time": "12:15 - 24/11/2026",
+      "name": "VPN HMA log IOS/android/PC 1 tháng",
+      "bot": "taphoathomap_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 50,
+      "catKey": "hma-vpn",
+      "msgKey": "⭐VPNHMAlogIOS/android/PC1tháng➕Thêm:30📦Tồnkhohiệntại:30💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1795497128137",
       "time": "12:12 - 24/11/2026",
       "name": "ChatGPT Plus GGpay 30D BHF",
@@ -29190,17 +29201,6 @@
       "stockAfter": 7,
       "catKey": "khac",
       "msgKey": "⭐PureVPN7NgàyBHF➕Thêm:6📦Tồnkhohiệntại:5💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1795475711631",
-      "time": "06:15 - 24/11/2026",
-      "name": "Gmail Random ip 7-10 ngày 2FA",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 24,
-      "catKey": "gmail",
-      "msgKey": "📧GmailRandomip7-10ngày2FA➕Thêm:10📦Tồnkhohiệntại:10💰Giá:35.000đ"
     }
   ],
   "vidiq": {
