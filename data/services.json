@@ -10221,6 +10221,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795497773988",
+        "name": "Slot] Ultra 5x ( Veo3, Antigravity,20TB) | 0 Credit | Bảo Hành Full | Hạn 3 Tháng",
+        "price": 280000,
+        "cost_price": 250000,
+        "stock": 6,
+        "stock_text": "Còn 6",
+        "duration": "3 Tháng",
+        "detail": "- Sau khi mua sẽ có link cho khách nhập mail vào nâng chính chủ .\n- Không dùng Credit trong Flow, Antigravity ( Lần 1: cảnh cáo, Lần 2: kick khỏi family)\n-  Lưu trữ: 20 TB cho Photos, Drive và Gmail dùng chung.\n- Chỉ hoàn tiền khi Shop không bảo hành được gói Ultra cho khách\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–6):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 6,
+            "cost_price": 250000,
+            "selling_price": 280000,
+            "updated": "12:22 24/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 250000,
+          "stock": 6
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -28103,6 +28129,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795497773988",
+      "time": "12:22 - 24/11/2026",
+      "name": "Slot] Ultra 5x ( Veo3, Antigravity,20TB) | 0 Credit | Bảo Hành Full | Hạn 3 Tháng",
+      "bot": "khommo_market_bot",
+      "price": 280000,
+      "costPrice": 250000,
+      "stockAfter": 6,
+      "catKey": "google-veo",
+      "msgKey": "[Slot]Ultra5x(Veo3,Antigravity,20TB)|0Credit|BảoHànhFull|Hạn3Tháng💲Giá:250.000VN"
+    },
+    {
       "id": "hist-1795497710623",
       "time": "12:21 - 24/11/2026",
       "name": "Meitu Vip+ 3 Tháng BHF",
@@ -29190,17 +29227,6 @@
       "stockAfter": 1590,
       "catKey": "gmail",
       "msgKey": "📧GmailRandom2010~2022-CóTRial➕Thêm:544📦Tồnkhohiệntại:743💰Giá:36.000đ"
-    },
-    {
-      "id": "hist-1795477840629",
-      "time": "06:50 - 24/11/2026",
-      "name": "Gmail Hàn Quốc 2009~2023 Có 2FA",
-      "bot": "sieuthistore_bot",
-      "price": 57000,
-      "costPrice": 47000,
-      "stockAfter": 722,
-      "catKey": "gmail",
-      "msgKey": "📧GmailHànQuốc2009~2023Có2FA💰Giá:47k📦Tồnkho:67tàikhoản📊Đãbán:4.824tàikhoản💎Môtả:Đ"
     }
   ],
   "vidiq": {
