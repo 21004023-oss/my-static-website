@@ -17388,10 +17388,10 @@
         "id": "p-1791898468912",
         "name": "CapCut Pro Cá Nhân 1 Tháng BHF",
         "price": 75000,
-        "stock": 81,
-        "stock_text": "Còn 81",
+        "stock": 88,
+        "stock_text": "Còn 88",
         "duration": "1 Tháng",
-        "detail": "CAPCUT PRO CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )\n✏️",
+        "detail": "CAPCUT PRO  CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )\n✏️",
         "sources": {
           "taphoathomap_bot": {
             "stock": 40,
@@ -17404,15 +17404,21 @@
             "cost_price": 65000,
             "selling_price": 75000,
             "updated": "12:31 14/11/2026"
+          },
+          "ntnshopre_bot": {
+            "stock": 7,
+            "cost_price": 38000,
+            "selling_price": 48000,
+            "updated": "17:43 24/11/2026"
           }
         },
-        "cost_price": 40000,
+        "cost_price": 38000,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 40000,
-          "stock": 40
+          "bot": "@ntnshopre_bot",
+          "cost_price": 38000,
+          "stock": 7
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -28323,6 +28329,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795517006126",
+      "time": "17:43 - 24/11/2026",
+      "name": "CAPCUT PRO CÁ NHÂN  1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 48000,
+      "costPrice": 38000,
+      "stockAfter": 88,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN1THÁNGBHF➕Thêm:10📦Tồnkhohiệntại:7💰Giá:38.000đ"
+    },
+    {
       "id": "hist-1795516848719",
       "time": "17:40 - 24/11/2026",
       "name": "(💕LoveV) Capcut Pro cá nhân 3 tháng BHF",
@@ -29410,17 +29427,6 @@
       "stockAfter": 14,
       "catKey": "google-veo",
       "msgKey": "🚀NÂNGCHÍNHCHỦADMINVEO3ULTRAX20–1THÁNGKBH➕Thêm:4📦Tồnkhohiệntại:14💰Giá:850.000đ"
-    },
-    {
-      "id": "hist-1795498283894",
-      "time": "12:31 - 24/11/2026",
-      "name": "NÂNG CHÍNH CHỦ ADMIN VEO3 ULTRA X5 – 1 THÁNG KBH",
-      "bot": "taphoathomap_bot",
-      "price": 500000,
-      "costPrice": 450000,
-      "stockAfter": 12,
-      "catKey": "google-veo",
-      "msgKey": "🚀NÂNGCHÍNHCHỦADMINVEO3ULTRAX5–1THÁNGKBH➕Thêm:4📦Tồnkhohiệntại:12💰Giá:450.000đ"
     }
   ],
   "vidiq": {
