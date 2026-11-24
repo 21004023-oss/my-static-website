@@ -10651,16 +10651,16 @@
         "name": "Grok + Cursor Premium 14 ngày (BH 24h)",
         "price": 160000,
         "cost_price": 140000,
-        "stock": 17,
-        "stock_text": "Còn 17",
+        "stock": 50,
+        "stock_text": "Còn 50",
         "duration": "1 Ngày",
         "detail": "• Grok Premium 14 ngày,\n• Định dạng: Mail|Pass\n• Tài khoản đã check 100% không sai mật khẩu ,\n-Lưu ý: Sau khi mua hàng vui lòng Chage + đổi mật khẩu, shop chỉ hỗ trợ bảo hành nếu rớt gói, còn các vấn đề khác shop không hỗ trợ ạ.\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 17,
+            "stock": 50,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "22:06 23/11/2026"
+            "updated": "14:30 24/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 0,
@@ -10678,7 +10678,7 @@
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 140000,
-          "stock": 17
+          "stock": 50
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -28239,6 +28239,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795505437528",
+      "time": "14:30 - 24/11/2026",
+      "name": "Grok + Cursor Premium 14 ngày (BH 24h)",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 50,
+      "catKey": "cursor",
+      "msgKey": "⚡Grok+CursorPremium14ngày(BH24h)➕Thêm:50📦Tồnkhohiệntại:50💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1795505210726",
       "time": "14:26 - 24/11/2026",
       "name": "Slot Youtube Premium 6 Tháng BHF",
@@ -29326,17 +29337,6 @@
       "stockAfter": 372,
       "catKey": "gmail",
       "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA💰Giá:36k📦Tồnkho:79tàikhoản📊Đãbán:5.625tàikhoản💎Môtả:-Đ"
-    },
-    {
-      "id": "hist-1795487566944",
-      "time": "09:32 - 24/11/2026",
-      "name": "GMAIL TRIAL  DATE  6 THÁNG CÓ 2FA",
-      "bot": "sieuthistore_bot",
-      "price": 46000,
-      "costPrice": 36000,
-      "stockAfter": 417,
-      "catKey": "gmail",
-      "msgKey": "📧GMAILTRIALDATE6THÁNGCÓ2FA➕Thêm:1📦Tồnkhohiệntại:124💰Giá:36.000đ"
     }
   ],
   "vidiq": {
