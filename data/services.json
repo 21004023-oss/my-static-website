@@ -12616,17 +12616,17 @@
         "id": "p-1793196196276",
         "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
         "price": 170000,
-        "cost_price": 150000,
-        "stock": 126,
-        "stock_text": "Còn 126",
+        "cost_price": 140000,
+        "stock": 131,
+        "stock_text": "Còn 131",
         "duration": "1 Tháng",
         "detail": "Gói Kling Standard 1000 credit 1 TH BH 1 ngày bảo hành uy tín.",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 5,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "17:34 24/11/2026"
+            "updated": "01:53 25/11/2026"
           },
           "piggyai99_bot": {
             "stock": 126,
@@ -12636,11 +12636,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 150000,
-          "stock": 126
+          "bot": "@taphoathomap_bot",
+          "cost_price": 140000,
+          "stock": 5
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -28587,6 +28587,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795546410753",
+      "time": "01:53 - 25/11/2026",
+      "name": "Kling Standard 1000 credit 1 TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 131,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000credit1THBH1ngày💰Giá:140k📦Tồnkho:5tàikhoản📊Đãbán:944tàikhoản✏️"
+    },
+    {
       "id": "hist-1795546194328",
       "time": "01:49 - 25/11/2026",
       "name": "Kling Standard 1200 credit 1TH BH 1 ngày",
@@ -29674,17 +29685,6 @@
       "stockAfter": 12,
       "catKey": "gmail",
       "msgKey": "📧GmailRegTayNgâmTrên3ThángSIêuTrâu💰Giá:35k📦Tồnkho:1tàikhoản📊Đãbán:146tàikhoản💎Mô"
-    },
-    {
-      "id": "hist-1795526610187",
-      "time": "20:23 - 24/11/2026",
-      "name": "Gmail Reg Tay Ngâm Trên 3 Tháng SIêu Trâu",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 12,
-      "catKey": "gmail",
-      "msgKey": "📧GmailRegTayNgâmTrên3ThángSIêuTrâu➕Thêm:1📦Tồnkhohiệntại:1💰Giá:35.000đ"
     }
   ],
   "vidiq": {
