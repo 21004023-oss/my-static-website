@@ -10409,6 +10409,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795527769067",
+        "name": "ADMIN VEO3 X20  1 THÁNG ( BH 3 NGÀY )",
+        "price": 1550000,
+        "cost_price": 1350000,
+        "stock": 45,
+        "stock_text": "Còn 45",
+        "duration": "1 Tháng",
+        "detail": "- Admin Veo3 Ultra Family 20x, add dc 5 slot Nhớ log điện thoại trước rồi log máy tính sau, đá thiết bị cũ ra rồi change 2fa rồi gắn sdt vào nhé\n- Chỉ bảo hành gói đăng kí, không bảo hành lỗi gmail. TH tài khoản die, hoàn tiền dựa theo ngày bảo hành.\n- Tài khoản không có sẵn, nhắn ADMIN mã đơn nhận hàng\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 45,
+            "cost_price": 1350000,
+            "selling_price": 1550000,
+            "updated": "20:42 24/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 1350000,
+          "stock": 45
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -28419,6 +28445,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795527769067",
+      "time": "20:42 - 24/11/2026",
+      "name": "ADMIN VEO3 X20  1 THÁNG ( BH 3 NGÀY )",
+      "bot": "taphoathomap_bot",
+      "price": 1550000,
+      "costPrice": 1350000,
+      "stockAfter": 45,
+      "catKey": "google-veo",
+      "msgKey": "🚀ADMINVEO3X201THÁNG(BH3NGÀY)➕Thêm:45📦Tồnkhohiệntại:45💰Giá:1.350.000đ"
+    },
+    {
       "id": "hist-1795527602876",
       "time": "20:40 - 24/11/2026",
       "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
@@ -29506,17 +29543,6 @@
       "stockAfter": 4,
       "catKey": "google-veo",
       "msgKey": "[Slot]Ultra5x(Veo3,Antigravity,20TB)|0Credit|BảoHànhFull|Hạn1Tháng💲Giá:100.000VN"
-    },
-    {
-      "id": "hist-1795512767578",
-      "time": "16:32 - 24/11/2026",
-      "name": "Slot Youtube Premium 1 Năm BHF",
-      "bot": "piggyai99_bot",
-      "price": 310000,
-      "costPrice": 280000,
-      "stockAfter": 628,
-      "catKey": "youtube",
-      "msgKey": "▶️SlotYoutubePremium1NămBHF➕Thêm:2📦Tồnkhohiệntại:628💰Giá:280.000đ"
     }
   ],
   "vidiq": {
