@@ -14930,6 +14930,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795519157940",
+        "name": "HIGGSFIELD GENJUTSU 1 THÁNG BẢO HÀNH 24H",
+        "price": 30000,
+        "cost_price": 20000,
+        "stock": 37,
+        "stock_text": "Còn 37",
+        "duration": "1 Tháng",
+        "detail": "💎 Mô tả:\n🎬 HIGGSFIELD – GENJUTSU\n✅ Gói Free Tạo 1 video bằng Motion,Swap Genjutsu\n🎥 Chất lượng:  480p or 720p| 30 giây/video\n⏳ Thời gian kết xuất: Khoảng 20 phút/video hoặc lâu hơn tùy chọn khung giờ và trạng thái máy chủ Higg.\nMua về nên Gen video luôn ko để lâu, không tắt đi bật lại nhiều lần khi đang Gen dễ bị mất slot\n🔐 Tài khoản dạng định dạng:\nTK Higgsfield | MK Higgsfield | Liên kết OTP\n✅ Video tạo web: https://higgsfield.ai/ai/video?model=genjutsu\n✅ HD login : điền tài khoản mật khẩu, nếu yêu cầu OTP thì click vào link OTP\nhttps://smail1s.com/\n⚠️ Lưu ý : Vui lòng chờ đợi trong quá trình render video.\nNếu lâu chưa Gen có thể load lại trang\n✏️",
+        "sources": {
+          "ntnshopre_bot": {
+            "stock": 37,
+            "cost_price": 20000,
+            "selling_price": 30000,
+            "updated": "18:19 24/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@ntnshopre_bot",
+          "cost_price": 20000,
+          "stock": 37
+        },
+        "import_note": "Nhập: @ntnshopre_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -28335,6 +28361,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795519157940",
+      "time": "18:19 - 24/11/2026",
+      "name": "HIGGSFIELD GENJUTSU 1 THÁNG BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "price": 30000,
+      "costPrice": 20000,
+      "stockAfter": 37,
+      "catKey": "higgsfield",
+      "msgKey": "🎬HIGGSFIELDGENJUTSU1THÁNGBẢOHÀNH24H➕Thêm:21📦Tồnkhohiệntại:37💰Giá:20.000đ"
+    },
+    {
       "id": "hist-1795519149506",
       "time": "18:19 - 24/11/2026",
       "name": "Higgsfield Genjutsu  hạn 1 tháng - BH 24h",
@@ -29422,17 +29459,6 @@
       "stockAfter": 14,
       "catKey": "zoom",
       "msgKey": "⭐ZOOMPRO28NGÀYBẢOHÀNHFULL➕Thêm:3📦Tồnkhohiệntại:8💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1795501299286",
-      "time": "13:21 - 24/11/2026",
-      "name": "ExpressVPN 25-30 Ngày - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 70000,
-      "costPrice": 60000,
-      "stockAfter": 10,
-      "catKey": "expressvpn",
-      "msgKey": "🚚ExpressVPN25-30Ngày-BHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:60.000đ"
     }
   ],
   "vidiq": {
