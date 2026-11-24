@@ -23720,22 +23720,22 @@
         "name": "Gmail Hàn bị ver sđt",
         "price": 15000,
         "cost_price": 5000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 43,
+        "stock_text": "Còn 43",
         "duration": "1 Tháng",
         "detail": "Tk bị yêu cầu xác minh số điện thoại, mua dùng add số là ngon\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 43,
             "cost_price": 5000,
             "selling_price": 15000,
-            "updated": "22:07 24/11/2026"
+            "updated": "22:22 24/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 5000,
-          "stock": 10
+          "stock": 43
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -28523,6 +28523,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795533773535",
+      "time": "22:22 - 24/11/2026",
+      "name": "Gmail Hàn bị ver sđt",
+      "bot": "taphoathomap_bot",
+      "price": 15000,
+      "costPrice": 5000,
+      "stockAfter": 43,
+      "catKey": "gmail",
+      "msgKey": "📧GmailHànbịversđt➕Thêm:34📦Tồnkhohiệntại:43💰Giá:5.000đ"
+    },
+    {
       "id": "hist-1795533723409",
       "time": "22:22 - 24/11/2026",
       "name": "Figma Pro Edu 2 năm (BH 30D)",
@@ -29610,17 +29621,6 @@
       "stockAfter": 49,
       "catKey": "gmail",
       "msgKey": "⭐AppleID2FAGmail💰Giá:50k📦Tồnkho:10tàikhoản📊Đãbán:1.106tàikhoản💎Môtả:-Tàikhoảnchư"
-    },
-    {
-      "id": "hist-1795518643833",
-      "time": "18:10 - 24/11/2026",
-      "name": "Apple ID 2FA Gmail",
-      "bot": "piggyai99_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 49,
-      "catKey": "gmail",
-      "msgKey": "⭐AppleID2FAGmail➕Thêm:10📦Tồnkhohiệntại:10💰Giá:50.000đ"
     }
   ],
   "vidiq": {
