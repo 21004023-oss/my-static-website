@@ -10273,6 +10273,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795499347453",
+        "name": "Slot] Ultra 5x ( Veo3, Antigravity,20TB) | 5K Credit | Bảo Hành Full | Hạn 3 Tháng",
+        "price": 400000,
+        "cost_price": 350000,
+        "stock": 3,
+        "stock_text": "Còn 3",
+        "duration": "3 Tháng",
+        "detail": "- Sau khi mua sẽ có link cho khách nhập mail vào nâng chính chủ .\n- Chỉ dùng đúng 5K Credit trong Flow, Antigravity . Nếu vi phạm :  ( Lần 1: cảnh cáo, Lần 2: kick khỏi family)\n-  Lưu trữ: 20 TB cho Photos, Drive và Gmail dùng chung.\n- Chỉ hoàn tiền khi Shop không bảo hành được gói Ultra cho khách\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–3):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 3,
+            "cost_price": 350000,
+            "selling_price": 400000,
+            "updated": "12:49 24/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 350000,
+          "stock": 3
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -28161,6 +28187,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795499347453",
+      "time": "12:49 - 24/11/2026",
+      "name": "Slot] Ultra 5x ( Veo3, Antigravity,20TB) | 5K Credit | Bảo Hành Full | Hạn 3 Tháng",
+      "bot": "khommo_market_bot",
+      "price": 400000,
+      "costPrice": 350000,
+      "stockAfter": 3,
+      "catKey": "google-veo",
+      "msgKey": "[Slot]Ultra5x(Veo3,Antigravity,20TB)|5KCredit|BảoHànhFull|Hạn3Tháng💲Giá:350.000V"
+    },
+    {
       "id": "hist-1795498919570",
       "time": "12:41 - 24/11/2026",
       "name": "ZOOM PRO 14 NGÀY BHF",
@@ -29248,17 +29285,6 @@
       "stockAfter": 163,
       "catKey": "kling",
       "msgKey": "🎬Kling65Credit1ThángBHF➕Thêm:50📦Tồnkhohiệntại:163💰Giá:4.000đ"
-    },
-    {
-      "id": "hist-1795481648416",
-      "time": "07:54 - 24/11/2026",
-      "name": "ChatGPT Plus ( Apple Pay ) 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 176,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlus(ApplePay)1ThángBHF➕Thêm:40📦Tồnkhohiệntại:128💰Giá:160.000đ"
     }
   ],
   "vidiq": {
