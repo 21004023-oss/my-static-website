@@ -2030,6 +2030,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795500137013",
+        "name": "Spotify Premium 3 Tháng ( BH 15 Ngày)",
+        "price": 40000,
+        "cost_price": 30000,
+        "stock": 11,
+        "stock_text": "Còn 11",
+        "duration": "3 Tháng",
+        "detail": "Định  dạng : Mail | Pass ( Spotify)\n- Nhập mail chúng tôi cấp để đăng nhập, khi yêu cầu mã về mail thì chọn dùng mật khẩu đăng nhập vào nhập pass chúng tôi cấp\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–11):",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 11,
+            "cost_price": 30000,
+            "selling_price": 40000,
+            "updated": "13:02 24/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 30000,
+          "stock": 11
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -28187,6 +28213,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795500137013",
+      "time": "13:02 - 24/11/2026",
+      "name": "Spotify Premium 3 Tháng ( BH 15 Ngày)",
+      "bot": "khommo_market_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 11,
+      "catKey": "spotify",
+      "msgKey": "SpotifyPremium3Tháng(BH15Ngày)💲Giá:30.000VND(~$1.1538)📦Tồnkhohiệntại:11"
+    },
+    {
       "id": "hist-1795499920048",
       "time": "12:58 - 24/11/2026",
       "name": "🔥 Gmail Reg Tay Ngâm Trên 3 Tháng SIêu Trâu",
@@ -29274,17 +29311,6 @@
       "stockAfter": 8,
       "catKey": "khac",
       "msgKey": "⭐OpenArt4Kcredit30DBH24H➕Thêm:5📦Tồnkhohiệntại:8💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1795482787665",
-      "time": "08:13 - 24/11/2026",
-      "name": "CAPCUT PRO 30D BHF",
-      "bot": "piggyai99_bot",
-      "price": 50000,
-      "costPrice": 40000,
-      "stockAfter": 211,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPRO30DBHF➕Thêm:5📦Tồnkhohiệntại:76💰Giá:40.000đ"
     }
   ],
   "vidiq": {
