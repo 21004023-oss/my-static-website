@@ -23610,22 +23610,22 @@
         "name": "Gmail",
         "price": 37500,
         "cost_price": 27500,
-        "stock": 97,
-        "stock_text": "Còn 97",
+        "stock": 342,
+        "stock_text": "Còn 342",
         "duration": "1 Tháng",
         "detail": "Gói Gmail bảo hành uy tín.",
         "sources": {
           "khommo_market_bot": {
-            "stock": 97,
+            "stock": 342,
             "cost_price": 27500,
             "selling_price": 37500,
-            "updated": "22:07 23/11/2026"
+            "updated": "23:41 27/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@khommo_market_bot",
           "cost_price": 27500,
-          "stock": 97
+          "stock": 342
         },
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
@@ -28793,6 +28793,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795797712952",
+      "time": "23:41 - 27/11/2026",
+      "name": "Gmail",
+      "bot": "khommo_market_bot",
+      "price": 37500,
+      "costPrice": 27500,
+      "stockAfter": 342,
+      "catKey": "gmail",
+      "msgKey": "📦GmailGmail6tháng-2FA(khônglogđượchộpthư)-BHlogđầu24h💲Giá:27.500VND(~$1.0577)📦Tồ"
+    },
+    {
       "id": "hist-1795797706620",
       "time": "23:41 - 27/11/2026",
       "name": "Netflix Premium 5 Ngày [BH FULL]",
@@ -29880,17 +29891,6 @@
       "stockAfter": 2,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard1200credit1THBH1ngày💰Giá:155k📦Tồnkho:2tàikhoản📊Đãbán:57tàikhoản✏️V"
-    },
-    {
-      "id": "hist-1795545989877",
-      "time": "01:46 - 25/11/2026",
-      "name": "Zoom Pro 14 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 27,
-      "catKey": "zoom",
-      "msgKey": "⭐ZoomPro14NgàyBHF➕Thêm:1📦Tồnkhohiệntại:3💰Giá:45.000đ"
     }
   ],
   "vidiq": {
