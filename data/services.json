@@ -22853,8 +22853,8 @@
         "name": "Apple ID 2FA Gmail",
         "price": 60000,
         "cost_price": 45000,
-        "stock": 233,
-        "stock_text": "Còn 233",
+        "stock": 273,
+        "stock_text": "Còn 273",
         "duration": "1 Tháng",
         "detail": "- Tài khoản chưa qua dịch vụ\n- Khu vực mặc định là United States.\n- Tất cả sử dụng emai là Gmail.\n- Tất cả đã check live và ngâm kĩ trước.\n- Bảo hành 24h, login hết bảo hành.\n- ID 2FA đảm bảo tất cả sẽ nhận được mã OTP code với công nghệ riêng, thời gian sử dụng được lâu.\n✏️",
         "sources": {
@@ -22865,10 +22865,10 @@
             "updated": "00:46 28/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 51,
+            "stock": 91,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "04:47 25/11/2026"
+            "updated": "00:46 28/11/2026"
           },
           "piggyai99_bot": {
             "stock": 91,
@@ -22882,7 +22882,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 45000,
-          "stock": 51
+          "stock": 91
         },
         "import_note": "Nhập: @taphoathomap_bot"
       },
@@ -28961,6 +28961,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795801609905",
+      "time": "00:46 - 28/11/2026",
+      "name": "Apple ID 2FA Gmail",
+      "bot": "taphoathomap_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 273,
+      "catKey": "gmail",
+      "msgKey": "⭐AppleID2FAGmail➕Thêm:13📦Tồnkhohiệntại:91💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1795801598231",
       "time": "00:46 - 28/11/2026",
       "name": "CHAT GPT PLUS 1 THÁNG BẢO HÀNH FULL",
@@ -30048,17 +30059,6 @@
       "stockAfter": 140,
       "catKey": "gmail",
       "msgKey": "📧🔥GmailRegTayNgâmTrên1ThángSIêuTrâu➕Thêm:50📦Tồnkhohiệntại:58💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1795553533508",
-      "time": "03:52 - 25/11/2026",
-      "name": "🔥 Gmail Reg Tay Ngâm Trên 1 Tháng SIêu Trâu",
-      "bot": "taphoathomap_bot",
-      "price": 38000,
-      "costPrice": 28000,
-      "stockAfter": 106,
-      "catKey": "gmail",
-      "msgKey": "📧🔥GmailRegTayNgâmTrên1ThángSIêuTrâu➕Thêm:50📦Tồnkhohiệntại:58💰Giá:28.000đ"
     }
   ],
   "vidiq": {
