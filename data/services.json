@@ -1454,8 +1454,8 @@
         "name": "Gmail Ngâm 6T Có Trial YTB",
         "price": 42000,
         "cost_price": 30000,
-        "stock": 50,
-        "stock_text": "Còn 50",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Tháng",
         "detail": "Định Dạng : Gmail | Pass | 2FA\nBảo hành login 24h\n-Lưu ý: Gmail phù hợp làm Trial YTB, Nâng link gemini pro…vvv - Hòm thư gmail bị khoá - AE không dùng chức năng hòm thư thì có thể sử dụng Gmail này bình thường.\n-Gmail khá trâu bò\n✏️",
         "sources": {
@@ -1466,16 +1466,16 @@
             "updated": "04:56 28/11/2026"
           },
           "sieuthistore_bot": {
-            "stock": 45,
+            "stock": 5,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "20:27 24/11/2026"
+            "updated": "04:56 28/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 30000,
-          "stock": 45
+          "stock": 5
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -29147,6 +29147,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795816597765",
+      "time": "04:56 - 28/11/2026",
+      "name": "Gmail Ngâm 6T Có Trial YTB",
+      "bot": "sieuthistore_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 10,
+      "catKey": "youtube",
+      "msgKey": "📧GmailNgâm6TCóTrialYTB➕Thêm:197📦Tồnkhohiệntại:5💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1795816592118",
       "time": "04:56 - 28/11/2026",
       "name": "Gmail Ngâm 6T Có Trial YTB",
@@ -30234,17 +30245,6 @@
       "stockAfter": 21,
       "catKey": "suno",
       "msgKey": "🎵SunoPro1THBH1ngày➕Thêm:10📦Tồnkhohiệntại:10💰Giá:140.000đ"
-    },
-    {
-      "id": "hist-1795802323158",
-      "time": "00:58 - 28/11/2026",
-      "name": "Suno Pro 1 Tháng BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 25,
-      "catKey": "suno",
-      "msgKey": "🎵SunoPro1ThángBH1ngày➕Thêm:10📦Tồnkhohiệntại:10💰Giá:150.000đ"
     }
   ],
   "vidiq": {
