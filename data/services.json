@@ -6826,13 +6826,13 @@
         "name": "SLOT CHAT GPT BUSINESS X2 QUOTA BẢO HÀNH 24H",
         "price": 200000,
         "cost_price": 180000,
-        "stock": -1,
-        "stock_text": "Vô cực (∞)",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "1 Ngày",
         "detail": "Gói SLOT CHAT GPT BUSINESS X2 QUOTA BẢO HÀNH 24H bảo hành uy tín.",
         "sources": {
           "ntnshopre_bot": {
-            "stock": -1,
+            "stock": 10,
             "cost_price": 180000,
             "selling_price": 200000,
             "updated": "23:45 27/11/2026"
@@ -6841,7 +6841,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 180000,
-          "stock": -1
+          "stock": 10
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
@@ -28845,6 +28845,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795797907672",
+      "time": "23:45 - 27/11/2026",
+      "name": "SLOT CHAT GPT BUSINESS X2 QUOTA BẢO HÀNH 24H",
+      "bot": "ntnshopre_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 10,
+      "catKey": "chatgpt",
+      "msgKey": "🤖SLOTCHATGPTBUSINESSX2QUOTABẢOHÀNH24H➕Thêm:10📦Tồnkhohiệntại:10💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1795797901868",
       "time": "23:45 - 27/11/2026",
       "name": "SLOT CHAT GPT BUSINESS X2 QUOTA BẢO HÀNH 24H",
@@ -29932,17 +29943,6 @@
       "stockAfter": 32,
       "catKey": "kling",
       "msgKey": "🎬KlingStandard800credit1THBh1ngày➕Thêm:8📦Tồnkhohiệntại:6💰Giá:130.000đ"
-    },
-    {
-      "id": "hist-1795546461583",
-      "time": "01:54 - 25/11/2026",
-      "name": "Kling Standard 800 credit 1TH Bh 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 150000,
-      "costPrice": 130000,
-      "stockAfter": 32,
-      "catKey": "kling",
-      "msgKey": "🎬KlingStandard800credit1THBh1ngày💰Giá:130k📦Tồnkho:6tàikhoản📊Đãbán:125tàikhoản✏️V"
     }
   ],
   "vidiq": {
