@@ -12011,25 +12011,31 @@
         "id": "p-1794296060731",
         "name": "Grok Plus 30 ngày bh 24h",
         "price": 130000,
-        "cost_price": 110000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "cost_price": 95000,
+        "stock": 21,
+        "stock_text": "Còn 21",
         "duration": "1 Tháng",
-        "detail": "Grok Plus 30 ngày bh24h\nMail | Pass Được change mail và pass Không hủy kết nối với X Login check gói hết bảo hành\n✏️",
+        "detail": "Định dạng: Email | pass\nDATE ĐỦ 25-30 NGÀY\n🤖 Đặc quyền AI: Grok Chat, Voice, Imagine (tạo ảnh), Build, hỗ trợ Grok ...\n🔒 Riêng tư 100%: Tài khoản riêng, bảo mật toàn bộ prompt và dữ liệu.\n⚡️ Bàn giao: Kích hoạt nhanh, bảo hành 1 đổi 1 trọn thời gian 24h (Lưu ý: Không bảo hành login Cursor).\n⚠️ Lưu ý quan trọng khi sử dụng:\n• CHỈ ĐƯỢC THAY ĐỔI MẬT KHẨU (Password).\n• Tất cả mọi thông tin khác PHẢI GIỮ NGUYÊN (không đổi mail, username, liên kết X...) để tránh ảnh hưởng tới tài khoản.\n• Khuyến nghị: Nên giữ nguyên mặc định mọi thứ để tài khoản hoạt động ổn định và tốt nhất.\n• Hỗ trợ xử lý nếu gặp lỗi tạo ảnh, video phong cảnh (nhắn tin trực tiếp Admin).\n✏️",
         "sources": {
           "taphoathomap_bot": {
             "stock": 4,
             "cost_price": 110000,
             "selling_price": 130000,
             "updated": "16:28 16/11/2026"
+          },
+          "piggyai99_bot": {
+            "stock": 17,
+            "cost_price": 95000,
+            "selling_price": 105000,
+            "updated": "01:18 28/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 110000,
-          "stock": 4
+          "bot": "@piggyai99_bot",
+          "cost_price": 95000,
+          "stock": 17
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -29109,6 +29115,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795803491322",
+      "time": "01:18 - 28/11/2026",
+      "name": "⚡️ Grok Plus 1 tháng - BH 24H",
+      "bot": "piggyai99_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 21,
+      "catKey": "grok",
+      "msgKey": "⚡⚡️GrokPlus1tháng-BH24H➕Thêm:4📦Tồnkhohiệntại:17💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1795803358837",
       "time": "01:15 - 28/11/2026",
       "name": "💎 VIP PRO · ChatGPT Plus Apple 1 Tháng BHF",
@@ -30196,17 +30213,6 @@
       "stockAfter": 16,
       "catKey": "suno",
       "msgKey": "🎵SunoPro1THBH1ngày➕Thêm:2📦Tồnkhohiệntại:1💰Giá:115.000đ"
-    },
-    {
-      "id": "hist-1795557244377",
-      "time": "04:54 - 25/11/2026",
-      "name": "Suno Pro 1 Tháng BH 1 ngày",
-      "bot": "sieuthistore_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 19,
-      "catKey": "suno",
-      "msgKey": "🎵SunoPro1ThángBH1ngày➕Thêm:2📦Tồnkhohiệntại:1💰Giá:150.000đ"
     }
   ],
   "vidiq": {
