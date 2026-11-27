@@ -16917,16 +16917,16 @@
         "name": "Suno Pro 1TH BH 1 ngày",
         "price": 180000,
         "cost_price": 115000,
-        "stock": 21,
-        "stock_text": "Còn 21",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Tháng",
         "detail": "Mail|Pass hoặc Mail | Pass | Mail khôi phục\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 1,
+            "stock": 10,
             "cost_price": 115000,
             "selling_price": 135000,
-            "updated": "04:54 25/11/2026"
+            "updated": "00:58 28/11/2026"
           },
           "piggyai99_bot": {
             "stock": 10,
@@ -16944,7 +16944,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 115000,
-          "stock": 1
+          "stock": 10
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -29013,6 +29013,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795802335900",
+      "time": "00:58 - 28/11/2026",
+      "name": "Suno Pro 1TH BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 135000,
+      "costPrice": 115000,
+      "stockAfter": 30,
+      "catKey": "suno",
+      "msgKey": "🎵SunoPro1THBH1ngày➕Thêm:10📦Tồnkhohiệntại:10💰Giá:115.000đ"
+    },
+    {
       "id": "hist-1795802329359",
       "time": "00:58 - 28/11/2026",
       "name": "Suno Pro 1TH BH 1 ngày",
@@ -30100,17 +30111,6 @@
       "stockAfter": 18,
       "catKey": "zoom",
       "msgKey": "⭐ZOOMPRO28NGÀYBẢOHÀNHFULL➕Thêm:7📦Tồnkhohiệntại:7💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1795553885103",
-      "time": "03:58 - 25/11/2026",
-      "name": "ZOOM PRO 14 NGÀY BẢO HÀNH FULL",
-      "bot": "taphoathomap_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 22,
-      "catKey": "zoom",
-      "msgKey": "⭐ZOOMPRO14NGÀYBẢOHÀNHFULL💰Giá:25k📦Tồnkho:11tàikhoản📊Đãbán:153tàikhoản💎Môtả:Đểbên"
     }
   ],
   "vidiq": {
