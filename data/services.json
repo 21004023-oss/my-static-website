@@ -17601,11 +17601,11 @@
         "id": "capcut-1m",
         "name": "CapCut Pro 1 Tháng BHF",
         "price": 75000,
-        "stock": 132,
-        "stock_text": "Còn 132",
+        "stock": 152,
+        "stock_text": "Còn 152",
         "duration": "1 Tháng",
         "source": "Cấp TK/MK",
-        "detail": "CAPCUT PRO 30DAYS - BẢO HÀNH FULL\n-ĐỊNH DANG : TK|MK\nKBH LỖI TRUY CẬP THƯỜNG XUYÊN\nLOGIN 2 THIẾT BỊ ( ĐT - PC )\n✏️",
+        "detail": "🎬 CAPCUT PRO – 30 DAYS\n✅ Thời hạn sử dụng: 30 ngày\n🛡️ Bảo hành 25- 30 ngày\n📦 Định dạng: TK|MK\n⚠️ LƯU Ý KHI SỬ DỤNG:\n- Chỉ được đăng nhập trên 1 điện thoại + 1 PC.\n- Không đăng nhập đồng thời trên 2 điện thoại hoặc 2 PC.\n- Vi phạm sẽ dẫn đến lỗi \"Đăng nhập quá thường xuyên\".\n🚫 SHOP KHÔNG BẢO HÀNH nếu khách hàng vi phạm quy định đăng nhập trên.\n✏️",
         "sources": {
           "ntnshopre_bot": {
             "stock": 79,
@@ -17630,17 +17630,23 @@
             "cost_price": 40000,
             "selling_price": 50000,
             "updated": "23:28 24/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 20,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "01:07 28/11/2026"
           }
         },
-        "cost_price": 38000,
+        "cost_price": 35000,
         "needs_review": false,
         "hidden": false,
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 38000,
-          "stock": 79
+          "bot": "@taphoathomap_bot",
+          "cost_price": 35000,
+          "stock": 20
         },
-        "import_note": "Nhập: @ntnshopre_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "capcut-12m",
@@ -29077,6 +29083,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795802853149",
+      "time": "01:07 - 28/11/2026",
+      "name": "💎 SALE · Capcut Pro 30 Ngày - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 152,
+      "catKey": "capcut",
+      "msgKey": "✂️💎SALE·CapcutPro30Ngày-BHF➕Thêm:20📦Tồnkhohiệntại:20💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1795802716518",
       "time": "01:05 - 28/11/2026",
       "name": "🔥GMAIL SẴN TRIAL GPT,YTB PRE,CAPCUT",
@@ -30164,17 +30181,6 @@
       "stockAfter": 36,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:35📦Tồnkhohiệntại:0💰Giá:95.000đ"
-    },
-    {
-      "id": "hist-1795556133759",
-      "time": "04:35 - 25/11/2026",
-      "name": "Gmail Cổ Random 2010~2022-2 FA",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 0,
-      "catKey": "gmail",
-      "msgKey": "📧GmailCổRandom2010~2022-2FA➕Thêm:8📦Tồnkhohiệntại:0💰Giá:45.000đ"
     }
   ],
   "vidiq": {
