@@ -312,6 +312,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795797656332",
+        "name": "Link Netflix Premium 4K riêng tư 30 ngày BHF",
+        "price": 80000,
+        "cost_price": 70000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "1 Tháng",
+        "detail": "Gói Link Netflix Premium 4K riêng tư 30 ngày BHF bảo hành uy tín.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 10,
+            "cost_price": 70000,
+            "selling_price": 80000,
+            "updated": "23:40 27/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 70000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -28767,6 +28793,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795797656332",
+      "time": "23:40 - 27/11/2026",
+      "name": "Link Netflix Premium 4K riêng tư 30 ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 80000,
+      "costPrice": 70000,
+      "stockAfter": 10,
+      "catKey": "netflix",
+      "msgKey": "🎬LinkNetflixPremium4Kriêngtư30ngàyBHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:70.000đ"
+    },
+    {
       "id": "hist-1795797650176",
       "time": "23:40 - 27/11/2026",
       "name": "Express VPN 3 Ngày BHF",
@@ -29854,17 +29891,6 @@
       "stockAfter": 61,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTGo1ThángBH28Ngày➕Thêm:2📦Tồnkhohiệntại:36💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1795543788174",
-      "time": "01:09 - 25/11/2026",
-      "name": "Key Office 2024 Pro Plus Vĩnh viễn BH 7 ngày",
-      "bot": "taphoathomap_bot",
-      "price": 89000,
-      "costPrice": 79000,
-      "stockAfter": 8,
-      "catKey": "microsoft",
-      "msgKey": "⭐KeyOffice2024ProPlusVĩnhviễnBH7ngày➕Thêm:5📦Tồnkhohiệntại:8💰Giá:79.000đ"
     }
   ],
   "vidiq": {
