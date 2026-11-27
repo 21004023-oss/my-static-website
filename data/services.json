@@ -16523,6 +16523,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795818216960",
+        "name": "MUSE.AI -2 TỶ TOKEN (KBH)",
+        "price": 22000,
+        "cost_price": 12000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Tháng",
+        "detail": "-Có thể tạo ảnh- tạo video\nĐỊNH DẠNG : TÀI KHOẢN | PASS\n- Lưu ý bảo hành🆘\nShop chỉ bảo hành 1H  login Check token đủ là hết bảo hành\n✏️",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 4,
+            "cost_price": 12000,
+            "selling_price": 22000,
+            "updated": "05:23 28/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 12000,
+          "stock": 4
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -29173,6 +29199,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795818216960",
+      "time": "05:23 - 28/11/2026",
+      "name": "MUSE.AI -2 TỶ TOKEN (KBH)",
+      "bot": "taphoathomap_bot",
+      "price": 22000,
+      "costPrice": 12000,
+      "stockAfter": 4,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MUSE.AI-2TỶTOKEN(KBH)➕Thêm:20📦Tồnkhohiệntại:4💰Giá:12.000đ"
+    },
+    {
       "id": "hist-1795818048864",
       "time": "05:20 - 28/11/2026",
       "name": "Gmail Hàn Quốc 2009~2023 Có 2FA",
@@ -30260,17 +30297,6 @@
       "stockAfter": 76,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF💰Giá:150k📦Tồnkho:76tàikhoản📊Đãbán:14."
-    },
-    {
-      "id": "hist-1795802859029",
-      "time": "01:07 - 28/11/2026",
-      "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 280,
-      "catKey": "chatgpt",
-      "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:39📦Tồnkhohiệntại:280💰Giá:150.00"
     }
   ],
   "vidiq": {
