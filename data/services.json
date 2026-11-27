@@ -1452,18 +1452,18 @@
       {
         "id": "p-1793602763852",
         "name": "Gmail Ngâm 6T Có Trial YTB",
-        "price": 40000,
+        "price": 42000,
         "cost_price": 30000,
-        "stock": 154,
-        "stock_text": "Còn 154",
+        "stock": 50,
+        "stock_text": "Còn 50",
         "duration": "1 Tháng",
         "detail": "Định Dạng : Gmail | Pass | 2FA\nBảo hành login 24h\n-Lưu ý: Gmail phù hợp làm Trial YTB, Nâng link gemini pro…vvv - Hòm thư gmail bị khoá - AE không dùng chức năng hòm thư thì có thể sử dụng Gmail này bình thường.\n-Gmail khá trâu bò\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 109,
-            "cost_price": 30000,
-            "selling_price": 40000,
-            "updated": "14:30 24/11/2026"
+            "stock": 5,
+            "cost_price": 32000,
+            "selling_price": 42000,
+            "updated": "04:56 28/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 45,
@@ -1473,11 +1473,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
+          "bot": "@sieuthistore_bot",
           "cost_price": 30000,
-          "stock": 109
+          "stock": 45
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -29147,6 +29147,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795816592118",
+      "time": "04:56 - 28/11/2026",
+      "name": "Gmail Ngâm 6T Có Trial YTB",
+      "bot": "taphoathomap_bot",
+      "price": 42000,
+      "costPrice": 32000,
+      "stockAfter": 50,
+      "catKey": "youtube",
+      "msgKey": "📧GmailNgâm6TCóTrialYTB➕Thêm:197📦Tồnkhohiệntại:5💰Giá:32.000đ"
+    },
+    {
       "id": "hist-1795816392805",
       "time": "04:53 - 28/11/2026",
       "name": "(🌍Best) Chat GPT Plus ApplePay 1 tháng BH 20D",
@@ -30234,17 +30245,6 @@
       "stockAfter": 25,
       "catKey": "suno",
       "msgKey": "🎵SunoPro1ThángBH1ngày➕Thêm:10📦Tồnkhohiệntại:10💰Giá:150.000đ"
-    },
-    {
-      "id": "hist-1795801841484",
-      "time": "00:50 - 28/11/2026",
-      "name": "(💕LoveV) Capcut Pro cá nhân 12 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 408868,
-      "costPrice": 358868,
-      "stockAfter": 10,
-      "catKey": "capcut",
-      "msgKey": "✂️(💕LoveV)CapcutProcánhân12thángBHF➕Thêm:7📦Tồnkhohiệntại:10💰Giá:358.868đ"
     }
   ],
   "vidiq": {
