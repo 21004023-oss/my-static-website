@@ -136,22 +136,22 @@
         "name": "Tài Khoản Netflix Premium 2 ngày BHF",
         "price": 45000,
         "cost_price": 35000,
-        "stock": 4,
-        "stock_text": "Còn 4",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "Gói Tài Khoản Netflix Premium 2 ngày BHF bảo hành uy tín.",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 4,
+            "stock": 5,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "23:03 17/11/2026"
+            "updated": "22:01 28/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@sieuthistore_bot",
           "cost_price": 35000,
-          "stock": 4
+          "stock": 5
         },
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
@@ -29581,6 +29581,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878084197",
+      "time": "22:01 - 28/11/2026",
+      "name": "Tài Khoản Netflix Premium 2 ngày BHF",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 5,
+      "catKey": "netflix",
+      "msgKey": "🎬TàiKhoảnNetflixPremium2ngàyBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1795878077540",
       "time": "22:01 - 28/11/2026",
       "name": "Dreamina Basic 4k7 credit 1th BH 3D",
@@ -30668,17 +30679,6 @@
       "stockAfter": 50,
       "catKey": "chatgpt",
       "msgKey": "⭐VIP2.API500MTokenCodex30Ngày-BH7D➕Thêm:50📦Tồnkhohiệntại:50💰Giá:449.000đ"
-    },
-    {
-      "id": "hist-1795877441065",
-      "time": "21:50 - 28/11/2026",
-      "name": "ChatGPT GGpay Plus 1 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 165000,
-      "costPrice": 145000,
-      "stockAfter": 30,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTGGpayPlus1ThángBHF💰Giá:145k📦Tồnkho:30tàikhoản📊Đãbán:888tàikhoản💎Môtả:Cha"
     }
   ],
   "vidiq": {
