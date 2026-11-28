@@ -17660,17 +17660,17 @@
         "id": "canva-link-1m",
         "name": "Link Join Canva Pro 1 Tháng BHF",
         "price": 45000,
-        "stock": 399,
-        "stock_text": "Còn 399",
+        "stock": 334,
+        "stock_text": "Còn 334",
         "duration": "1 Tháng",
         "detail": "- Dán link lên web để join\n- Mỗi link chỉ sử dụng được 1 lần\n✏️",
         "hidden": false,
         "sources": {
           "taphoathomap_bot": {
-            "stock": 165,
-            "cost_price": 5000,
-            "updated": "00:42 17/10/2026",
-            "selling_price": 15000
+            "stock": 100,
+            "cost_price": 10000,
+            "selling_price": 20000,
+            "updated": "22:07 28/11/2026"
           },
           "ntnshopre_bot": {
             "stock": 117,
@@ -17687,11 +17687,11 @@
         },
         "cost_price": 5000,
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
+          "bot": "@ntnshopre_bot",
           "cost_price": 5000,
-          "stock": 165
+          "stock": 117
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @ntnshopre_bot",
         "needs_review": false
       },
       {
@@ -29651,6 +29651,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878434368",
+      "time": "22:07 - 28/11/2026",
+      "name": "LINK JOIN CANVA PRO 1 THÁNG  BHF",
+      "bot": "taphoathomap_bot",
+      "price": 20000,
+      "costPrice": 10000,
+      "stockAfter": 334,
+      "catKey": "canva",
+      "msgKey": "🎨LINKJOINCANVAPRO1THÁNGBHF➕Thêm:100📦Tồnkhohiệntại:100💰Giá:10.000đ"
+    },
+    {
       "id": "hist-1795878427603",
       "time": "22:07 - 28/11/2026",
       "name": "Link Gemini Plus 400GB 1 Năm BH 1 Ngày",
@@ -30738,17 +30749,6 @@
       "stockAfter": 2817,
       "catKey": "muse-ai",
       "msgKey": "⭐MuseAi1BTokenKBH<3➕Thêm:899📦Tồnkhohiệntại:899💰Giá:8.000đ"
-    },
-    {
-      "id": "hist-1795877782806",
-      "time": "21:56 - 28/11/2026",
-      "name": "👑 VIP · ChatGPT Plus GGPay 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 145000,
-      "costPrice": 125000,
-      "stockAfter": 258,
-      "catKey": "chatgpt",
-      "msgKey": "🤖👑VIP·ChatGPTPlusGGPay1ThángBHF➕Thêm:50📦Tồnkhohiệntại:50💰Giá:125.000đ"
     }
   ],
   "vidiq": {
