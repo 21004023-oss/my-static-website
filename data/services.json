@@ -21350,6 +21350,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795878786579",
+        "name": "Proton VPN 10 Thiết Bị 25 - 28 Ngày - BHF",
+        "price": 85000,
+        "cost_price": 75000,
+        "stock": 5,
+        "stock_text": "Còn 5",
+        "duration": "1 Tháng",
+        "detail": "Gói Proton VPN 10 Thiết Bị 25 - 28 Ngày - BHF bảo hành uy tín.",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 5,
+            "cost_price": 75000,
+            "selling_price": 85000,
+            "updated": "22:13 28/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 75000,
+          "stock": 5
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -29885,6 +29911,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878786579",
+      "time": "22:13 - 28/11/2026",
+      "name": "Proton VPN 10 Thiết Bị 25 - 28 Ngày - BHF",
+      "bot": "sieuthistore_bot",
+      "price": 85000,
+      "costPrice": 75000,
+      "stockAfter": 5,
+      "catKey": "protonvpn",
+      "msgKey": "⭐ProtonVPN10ThiếtBị25-28Ngày-BHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:75.000đ"
+    },
+    {
       "id": "hist-1795878780546",
       "time": "22:13 - 28/11/2026",
       "name": "Gmail Hàn Quốc 2009~2023 Có 2FA",
@@ -30972,17 +31009,6 @@
       "stockAfter": 38,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:27📦Tồnkhohiệntại:0💰Giá:45.000đ"
-    },
-    {
-      "id": "hist-1795878135137",
-      "time": "22:02 - 28/11/2026",
-      "name": "MUSE.AI -2 TỶ TOKEN (KBH)",
-      "bot": "taphoathomap_bot",
-      "price": 22000,
-      "costPrice": 12000,
-      "stockAfter": 24,
-      "catKey": "muse-ai",
-      "msgKey": "⭐MUSE.AI-2TỶTOKEN(KBH)➕Thêm:24📦Tồnkhohiệntại:24💰Giá:12.000đ"
     }
   ],
   "vidiq": {
