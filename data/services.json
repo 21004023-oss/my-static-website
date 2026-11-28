@@ -1453,9 +1453,9 @@
         "id": "p-1793602763852",
         "name": "Gmail Ngâm 6T Có Trial YTB",
         "price": 42000,
-        "cost_price": 30000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "cost_price": 32000,
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "1 Tháng",
         "detail": "Định Dạng : Gmail | Pass | 2FA\nBảo hành login 24h\n-Lưu ý: Gmail phù hợp làm Trial YTB, Nâng link gemini pro…vvv - Hòm thư gmail bị khoá - AE không dùng chức năng hòm thư thì có thể sử dụng Gmail này bình thường.\n-Gmail khá trâu bò\n✏️",
         "sources": {
@@ -1466,18 +1466,18 @@
             "updated": "04:56 28/11/2026"
           },
           "sieuthistore_bot": {
-            "stock": 5,
+            "stock": 0,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "04:56 28/11/2026"
+            "updated": "21:57 28/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 30000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 32000,
           "stock": 5
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -29497,6 +29497,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795877856236",
+      "time": "21:57 - 28/11/2026",
+      "name": "Gmail Ngâm 6T Có Trial YTB",
+      "bot": "sieuthistore_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 5,
+      "catKey": "youtube",
+      "msgKey": "📧GmailNgâm6TCóTrialYTB➕Thêm:124📦Tồnkhohiệntại:0💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1795877850167",
       "time": "21:57 - 28/11/2026",
       "name": "⚡️ Grok Plus 1 tháng - BH 24H",
@@ -30584,17 +30595,6 @@
       "stockAfter": 1247,
       "catKey": "gmail",
       "msgKey": "📧GmailCổRandom2010~2022-2FA➕Thêm:76📦Tồnkhohiệntại:617💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1795822018873",
-      "time": "06:26 - 28/11/2026",
-      "name": "Gmail (New) 2FA-Login All",
-      "bot": "taphoathomap_bot",
-      "price": 40000,
-      "costPrice": 30000,
-      "stockAfter": 125,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)2FA-LoginAll➕Thêm:50📦Tồnkhohiệntại:66💰Giá:30.000đ"
     }
   ],
   "vidiq": {
