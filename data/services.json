@@ -17660,8 +17660,8 @@
         "id": "canva-link-1m",
         "name": "Link Join Canva Pro 1 Tháng BHF",
         "price": 45000,
-        "stock": 317,
-        "stock_text": "Còn 317",
+        "stock": 300,
+        "stock_text": "Còn 300",
         "duration": "1 Tháng",
         "detail": "- Dán link lên web để join\n- Mỗi link chỉ sử dụng được 1 lần\n✏️",
         "hidden": false,
@@ -17673,10 +17673,10 @@
             "updated": "22:07 28/11/2026"
           },
           "ntnshopre_bot": {
-            "stock": 117,
+            "stock": 100,
             "cost_price": 5000,
             "selling_price": 15000,
-            "updated": "22:06 23/11/2026"
+            "updated": "22:08 28/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 100,
@@ -17689,7 +17689,7 @@
         "cheapest_source": {
           "bot": "@ntnshopre_bot",
           "cost_price": 5000,
-          "stock": 117
+          "stock": 100
         },
         "import_note": "Nhập: @ntnshopre_bot",
         "needs_review": false
@@ -29651,6 +29651,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878526670",
+      "time": "22:08 - 28/11/2026",
+      "name": "LINK JOIN CANVA PRO 1 THÁNG BHF",
+      "bot": "ntnshopre_bot",
+      "price": 15000,
+      "costPrice": 5000,
+      "stockAfter": 300,
+      "catKey": "canva",
+      "msgKey": "🎨LINKJOINCANVAPRO1THÁNGBHF➕Thêm:100📦Tồnkhohiệntại:100💰Giá:5.000đ"
+    },
+    {
       "id": "hist-1795878520511",
       "time": "22:08 - 28/11/2026",
       "name": "Key Window 10/11 Pro Byphone 20 năm BH 1 năm",
@@ -30738,17 +30749,6 @@
       "stockAfter": 73,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:10📦Tồnkhohiệntại:35💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1795877874013",
-      "time": "21:57 - 28/11/2026",
-      "name": "Gmail random new",
-      "bot": "sieuthistore_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 37,
-      "catKey": "gmail",
-      "msgKey": "📧Gmailrandomnew➕Thêm:7📦Tồnkhohiệntại:7💰Giá:25.000đ"
     }
   ],
   "vidiq": {
