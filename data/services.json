@@ -11308,9 +11308,9 @@
         "id": "p-1795877817631",
         "name": "Lovable pro 1 Tháng BHF",
         "price": 375000,
-        "cost_price": 325000,
-        "stock": 19,
-        "stock_text": "Còn 19",
+        "cost_price": 230000,
+        "stock": 38,
+        "stock_text": "Còn 38",
         "duration": "1 Tháng",
         "detail": "Gói Lovable pro 1 Tháng BHF bảo hành uy tín.",
         "sources": {
@@ -11319,14 +11319,20 @@
             "cost_price": 325000,
             "selling_price": 375000,
             "updated": "22:03 28/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 19,
+            "cost_price": 230000,
+            "selling_price": 260000,
+            "updated": "22:04 28/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 325000,
+          "bot": "@taphoathomap_bot",
+          "cost_price": 230000,
           "stock": 19
         },
-        "import_note": "Nhập: @piggyai99_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       }
@@ -29581,6 +29587,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878240600",
+      "time": "22:04 - 28/11/2026",
+      "name": "Lovable pro 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 38,
+      "catKey": "lovable",
+      "msgKey": "⭐Lovablepro1ThángBHF➕Thêm:19📦Tồnkhohiệntại:19💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1795878234955",
       "time": "22:03 - 28/11/2026",
       "name": "Capcut Pro 6 Tháng (Bảo Hành Full)",
@@ -30668,17 +30685,6 @@
       "stockAfter": 4,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTGo1ThángBH28Ngày➕Thêm:3📦Tồnkhohiệntại:2💰Giá:100.000đ"
-    },
-    {
-      "id": "hist-1795877591727",
-      "time": "21:53 - 28/11/2026",
-      "name": "ChatGPT Go 1 Tháng (BH 28D)",
-      "bot": "taphoathomap_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 2,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:3📦Tồnkhohiệntại:2💰Giá:95.000đ"
     }
   ],
   "vidiq": {
