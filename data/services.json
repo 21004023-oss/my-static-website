@@ -6904,6 +6904,32 @@
         "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795877411026",
+        "name": "ChatGPT GGpay Plus 1 Tháng BHF",
+        "price": 165000,
+        "cost_price": 145000,
+        "stock": 32,
+        "stock_text": "Còn 32",
+        "duration": "1 Tháng",
+        "detail": "ChatGPT Plus | Payment GGPay | Bảo hành 30 ngày\nChất lượng sản phẩm:\n- Tất cả tài khoản đều được kiểm tra kỹ trước khi đưa lên bot\n- Đảm bảo hoạt động ổn định ngay khi nhận.\nChính sách bảo hành:\n- Bảo hành gói Plus và trường hợp die acc trong 30 ngày\n- Die/lỗi → cấp acc mới hoặc hoàn tiền theo thời gian chưa sử dụng\n- Không áp dụng bảo hành cho Codex\nLưu ý: Vui lòng không thay đổi 2FA. Mọi vấn đề về OTP sau khi khách tự đổi 2FA, shop không chịu trách nhiệm. Mọi người đọc mô tả trước khi mua sản phẩm. Shop xin chân thành cảm ơn\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 32,
+            "cost_price": 145000,
+            "selling_price": 165000,
+            "updated": "21:50 28/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 145000,
+          "stock": 32
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -29257,6 +29283,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795877411026",
+      "time": "21:50 - 28/11/2026",
+      "name": "ChatGPT GGpay Plus 1 Tháng BHF",
+      "bot": "piggyai99_bot",
+      "price": 165000,
+      "costPrice": 145000,
+      "stockAfter": 32,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGGpayPlus1ThángBHF➕Thêm:3📦Tồnkhohiệntại:32💰Giá:145.000đ"
+    },
+    {
       "id": "hist-1795877405750",
       "time": "21:50 - 28/11/2026",
       "name": "CAPCUT PRO 30D BHF",
@@ -30344,17 +30381,6 @@
       "stockAfter": 45,
       "catKey": "capcut",
       "msgKey": "✂️🔥CapcutProVIP12Tháng-BHF➕Thêm:12📦Tồnkhohiệntại:15💰Giá:310.000đ"
-    },
-    {
-      "id": "hist-1795808022844",
-      "time": "02:33 - 28/11/2026",
-      "name": "🔥 Capcut Pro VIP 12 Tháng - BHF",
-      "bot": "taphoathomap_bot",
-      "price": 450000,
-      "costPrice": 400000,
-      "stockAfter": 30,
-      "catKey": "capcut",
-      "msgKey": "✂️🔥CapcutProVIP12Tháng-BHF💰Giá:400k📦Tồnkho:15tàikhoản📊Đãbán:94tàikhoản💎Môtả:🎬CAP"
     }
   ],
   "vidiq": {
