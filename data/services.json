@@ -1453,17 +1453,17 @@
         "id": "p-1793602763852",
         "name": "Gmail Ngâm 6T Có Trial YTB",
         "price": 42000,
-        "cost_price": 32000,
-        "stock": 5,
-        "stock_text": "Còn 5",
+        "cost_price": 30000,
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "1 Tháng",
         "detail": "Định Dạng : Gmail | Pass | 2FA\nBảo hành login 24h\n-Lưu ý: Gmail phù hợp làm Trial YTB, Nâng link gemini pro…vvv - Hòm thư gmail bị khoá - AE không dùng chức năng hòm thư thì có thể sử dụng Gmail này bình thường.\n-Gmail khá trâu bò\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 5,
+            "stock": 0,
             "cost_price": 32000,
             "selling_price": 42000,
-            "updated": "04:56 28/11/2026"
+            "updated": "21:59 28/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 0,
@@ -1473,11 +1473,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 32000,
-          "stock": 5
+          "bot": "@sieuthistore_bot",
+          "cost_price": 30000,
+          "stock": 0
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -29523,6 +29523,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795877949779",
+      "time": "21:59 - 28/11/2026",
+      "name": "Gmail Ngâm 6T Có Trial YTB",
+      "bot": "taphoathomap_bot",
+      "price": 42000,
+      "costPrice": 32000,
+      "stockAfter": 0,
+      "catKey": "youtube",
+      "msgKey": "📧GmailNgâm6TCóTrialYTB➕Thêm:124📦Tồnkhohiệntại:0💰Giá:32.000đ"
+    },
+    {
       "id": "hist-1795877943470",
       "time": "21:59 - 28/11/2026",
       "name": "Slot Youtube Premium 1 Năm BHF",
@@ -30610,17 +30621,6 @@
       "stockAfter": 10,
       "catKey": "photoroom",
       "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:7📦Tồnkhohiệntại:5💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1795825633222",
-      "time": "07:27 - 28/11/2026",
-      "name": "Photoroom Max 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 15,
-      "catKey": "photoroom",
-      "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:7📦Tồnkhohiệntại:5💰Giá:35.000đ"
     }
   ],
   "vidiq": {
