@@ -20556,16 +20556,16 @@
         "id": "p-1792003618063",
         "name": "NordVPN 3 Ngày BHF",
         "price": 35000,
-        "stock": 22,
-        "stock_text": "Còn 22",
+        "stock": 17,
+        "stock_text": "Còn 17",
         "duration": "3 Ngày",
         "detail": "Định dạng: Email|Pass\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 11,
+            "stock": 6,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "02:24 25/11/2026"
+            "updated": "22:15 28/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 11,
@@ -20578,7 +20578,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 11
+          "stock": 6
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -30067,6 +30067,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878919633",
+      "time": "22:15 - 28/11/2026",
+      "name": "NordVPN 3 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 17,
+      "catKey": "nordvpn",
+      "msgKey": "🛡️NordVPN3NgàyBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1795878913592",
       "time": "22:15 - 28/11/2026",
       "name": "CAPCUT PRO CÁ NHÂN  30 Ngày BHF",
@@ -31154,17 +31165,6 @@
       "stockAfter": 15,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+3ThángBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:210.000đ"
-    },
-    {
-      "id": "hist-1795878271600",
-      "time": "22:04 - 28/11/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 108,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:50📦Tồnkhohiệntại:53💰Giá:70.000đ"
     }
   ],
   "vidiq": {
