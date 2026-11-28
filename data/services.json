@@ -46,16 +46,16 @@
         "name": "Netflix Premium Extra 1 Tháng BHF",
         "price": 170000,
         "cost_price": 115000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 12,
+        "stock_text": "Còn 12",
         "duration": "1 Tháng",
         "detail": "Đây là tài khoản netflix extra sử dụng riêng\nkhông bị xác nhận hộ gia đình\nmột mình một tài khoản\nxem được 1 thiết bị đồng thời\nbảo hành full 1 tháng\nCó thế gia hạn được quanh năm\n✏️",
         "sources": {
           "sieuthistore_bot": {
-            "stock": 13,
+            "stock": 10,
             "cost_price": 140000,
             "selling_price": 160000,
-            "updated": "14:48 17/11/2026"
+            "updated": "23:48 28/11/2026"
           },
           "piggyai99_bot": {
             "stock": 2,
@@ -30235,6 +30235,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795884514981",
+      "time": "23:48 - 28/11/2026",
+      "name": "Netflix Premium Extra 1 Tháng BHF",
+      "bot": "sieuthistore_bot",
+      "price": 160000,
+      "costPrice": 140000,
+      "stockAfter": 12,
+      "catKey": "netflix",
+      "msgKey": "🎬NetflixPremiumExtra1ThángBHF➕Thêm:1📦Tồnkhohiệntại:10💰Giá:140.000đ"
+    },
+    {
       "id": "hist-1795884199408",
       "time": "23:43 - 28/11/2026",
       "name": "Tài Khoản Netflix Premium 2 ngày BHF",
@@ -31322,17 +31333,6 @@
       "stockAfter": 12,
       "catKey": "wink",
       "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1795878724486",
-      "time": "22:12 - 28/11/2026",
-      "name": "TikTok Turkey (TR) - Aged Over 10 Months - Live Mail OAuth2 (Dec 2025)",
-      "bot": "sieuthistore_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 100,
-      "catKey": "tiktok",
-      "msgKey": "🎵TikTokTurkey(TR)-AgedOver10Months-LiveMailOAuth2(Dec2025)➕Thêm:100📦Tồnkhohiệntạ"
     }
   ],
   "vidiq": {
