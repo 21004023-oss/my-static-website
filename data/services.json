@@ -22518,18 +22518,18 @@
         "id": "p-1791873309021",
         "name": "Gmail Random ip 2020-2024",
         "price": 55000,
-        "stock": 114,
-        "stock_text": "Còn 114",
+        "stock": 100,
+        "stock_text": "Còn 100",
         "duration": "1 Tháng",
         "detail": "Định dạng username|pass|2FA\nKhách lấy mail về vui lòng tự bảo mật tài khoản của mình để tránh những phát sinh không cần thiết\nBảo hành 24h login hết bảo hành\n✏️",
         "price_verified": true,
         "cost_price": 35000,
         "sources": {
           "sieuthistore_bot": {
-            "stock": 14,
+            "stock": 0,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "15:20 24/11/2026"
+            "updated": "21:51 28/11/2026"
           },
           "taphoathomap_bot": {
             "stock": 100,
@@ -22541,11 +22541,11 @@
         "needs_review": false,
         "hidden": false,
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
+          "bot": "@taphoathomap_bot",
           "cost_price": 35000,
-          "stock": 14
+          "stock": 100
         },
-        "import_note": "Nhập: @sieuthistore_bot"
+        "import_note": "Nhập: @taphoathomap_bot"
       },
       {
         "id": "p-1791927012624",
@@ -29315,6 +29315,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795877464639",
+      "time": "21:51 - 28/11/2026",
+      "name": "Gmail Random ip 2020-2024",
+      "bot": "sieuthistore_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 100,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandomip2020-2024➕Thêm:8📦Tồnkhohiệntại:0💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1795877458474",
       "time": "21:50 - 28/11/2026",
       "name": "CAPCUT PRO CÁ NHÂN  30 Ngày BHF",
@@ -30402,17 +30413,6 @@
       "stockAfter": 18,
       "catKey": "grammarly",
       "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:6💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1795808904252",
-      "time": "02:48 - 28/11/2026",
-      "name": "Grammarly AI Pro 1 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 100000,
-      "costPrice": 90000,
-      "stockAfter": 18,
-      "catKey": "grammarly",
-      "msgKey": "⭐GrammarlyAIPro1ThángBHF➕Thêm:4📦Tồnkhohiệntại:6💰Giá:90.000đ"
     }
   ],
   "vidiq": {
