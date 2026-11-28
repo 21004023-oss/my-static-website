@@ -16705,6 +16705,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795877892982",
+        "name": "Muse Ai 1 tỷ Token ( BH LOGIN)",
+        "price": 18000,
+        "cost_price": 8000,
+        "stock": 50,
+        "stock_text": "Còn 50",
+        "duration": "1 Tháng",
+        "detail": "Gói Muse Ai 1 tỷ Token ( BH LOGIN) bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 50,
+            "cost_price": 8000,
+            "selling_price": 18000,
+            "updated": "21:58 28/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 8000,
+          "stock": 50
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -29497,6 +29523,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795877892982",
+      "time": "21:58 - 28/11/2026",
+      "name": "Muse Ai 1 tỷ Token ( BH LOGIN)",
+      "bot": "taphoathomap_bot",
+      "price": 18000,
+      "costPrice": 8000,
+      "stockAfter": 50,
+      "catKey": "muse-ai",
+      "msgKey": "⭐MuseAi1tỷToken(BHLOGIN)➕Thêm:50📦Tồnkhohiệntại:50💰Giá:8.000đ"
+    },
+    {
       "id": "hist-1795877887073",
       "time": "21:58 - 28/11/2026",
       "name": "(🌍Best) Chat GPT Plus ApplePay 1 tháng BH 20D",
@@ -30584,17 +30621,6 @@
       "stockAfter": 175,
       "catKey": "gmail",
       "msgKey": "📧Gmail(New)2FA-LoginAll➕Thêm:50📦Tồnkhohiệntại:116💰Giá:30.000đ"
-    },
-    {
-      "id": "hist-1795822679466",
-      "time": "06:37 - 28/11/2026",
-      "name": "Gmail (New) -Login All",
-      "bot": "taphoathomap_bot",
-      "price": 35000,
-      "costPrice": 25000,
-      "stockAfter": 96,
-      "catKey": "gmail",
-      "msgKey": "📧Gmail(New)-LoginAll➕Thêm:16📦Tồnkhohiệntại:34💰Giá:25.000đ"
     }
   ],
   "vidiq": {
