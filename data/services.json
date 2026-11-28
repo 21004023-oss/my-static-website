@@ -1479,17 +1479,17 @@
         "id": "p-1793602763852",
         "name": "Gmail Ngâm 6T Có Trial YTB",
         "price": 42000,
-        "cost_price": 30000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "cost_price": 32000,
+        "stock": 220,
+        "stock_text": "Còn 220",
         "duration": "1 Tháng",
         "detail": "Định Dạng : Gmail | Pass | 2FA\nBảo hành login 24h\n-Lưu ý: Gmail phù hợp làm Trial YTB, Nâng link gemini pro…vvv - Hòm thư gmail bị khoá - AE không dùng chức năng hòm thư thì có thể sử dụng Gmail này bình thường.\n-Gmail khá trâu bò\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 220,
             "cost_price": 32000,
             "selling_price": 42000,
-            "updated": "21:59 28/11/2026"
+            "updated": "22:14 28/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 0,
@@ -1499,11 +1499,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@sieuthistore_bot",
-          "cost_price": 30000,
-          "stock": 0
+          "bot": "@taphoathomap_bot",
+          "cost_price": 32000,
+          "stock": 220
         },
-        "import_note": "Nhập: @sieuthistore_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -29989,6 +29989,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878863452",
+      "time": "22:14 - 28/11/2026",
+      "name": "Gmail Ngâm 6T Có Trial YTB",
+      "bot": "taphoathomap_bot",
+      "price": 42000,
+      "costPrice": 32000,
+      "stockAfter": 220,
+      "catKey": "youtube",
+      "msgKey": "📧GmailNgâm6TCóTrialYTB➕Thêm:220📦Tồnkhohiệntại:220💰Giá:32.000đ"
+    },
+    {
       "id": "hist-1795878856516",
       "time": "22:14 - 28/11/2026",
       "name": "Surfshark VPN One 7 Ngày BHF",
@@ -31076,17 +31087,6 @@
       "stockAfter": 138,
       "catKey": "chatgpt",
       "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:1📦Tồnkhohiệntại:83💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1795878216796",
-      "time": "22:03 - 28/11/2026",
-      "name": "Lovable pro 1 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 375000,
-      "costPrice": 325000,
-      "stockAfter": 19,
-      "catKey": "lovable",
-      "msgKey": "⭐Lovablepro1ThángBHF➕Thêm:19📦Tồnkhohiệntại:19💰Giá:325.000đ"
     }
   ],
   "vidiq": {
