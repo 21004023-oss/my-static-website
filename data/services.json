@@ -19449,8 +19449,8 @@
         "id": "p-1792006811047",
         "name": "Photoroom Max 7 Ngày BHF",
         "price": 45000,
-        "stock": 15,
-        "stock_text": "Còn 15",
+        "stock": 10,
+        "stock_text": "Còn 10",
         "duration": "7 Ngày",
         "detail": "Photoroom 7 ngày gói Max\nĐịnh dạng: Email|Web mail\n✏️",
         "sources": {
@@ -19461,10 +19461,10 @@
             "updated": "07:27 28/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 10,
+            "stock": 5,
             "cost_price": 15000,
             "selling_price": 25000,
-            "updated": "01:07 24/11/2026"
+            "updated": "07:27 28/11/2026"
           }
         },
         "cost_price": 15000,
@@ -19474,7 +19474,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 15000,
-          "stock": 10
+          "stock": 5
         }
       }
     ]
@@ -29199,6 +29199,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795825639378",
+      "time": "07:27 - 28/11/2026",
+      "name": "Photoroom Max 7 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 25000,
+      "costPrice": 15000,
+      "stockAfter": 10,
+      "catKey": "photoroom",
+      "msgKey": "⭐PhotoroomMax7NgàyBHF➕Thêm:7📦Tồnkhohiệntại:5💰Giá:15.000đ"
+    },
+    {
       "id": "hist-1795825633222",
       "time": "07:27 - 28/11/2026",
       "name": "Photoroom Max 7 Ngày BHF",
@@ -30286,17 +30297,6 @@
       "stockAfter": 921,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:710📦Tồnkhohiệntại:921💰Giá:125.000đ"
-    },
-    {
-      "id": "hist-1795805478200",
-      "time": "01:51 - 28/11/2026",
-      "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 271,
-      "catKey": "chatgpt",
-      "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:39📦Tồnkhohiệntại:271💰Giá:150.00"
     }
   ],
   "vidiq": {
