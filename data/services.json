@@ -13881,6 +13881,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795878901654",
+        "name": "Kling Standard 700-1000 credit 30 Ngày BHF",
+        "price": 219000,
+        "cost_price": 199000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Tháng",
+        "detail": "Gói Kling Standard 700-1000 credit 30 Ngày BHF bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 4,
+            "cost_price": 199000,
+            "selling_price": 219000,
+            "updated": "22:15 28/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 199000,
+          "stock": 4
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -30041,6 +30067,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878901654",
+      "time": "22:15 - 28/11/2026",
+      "name": "Kling Standard 700-1000 credit 30 Ngày BHF",
+      "bot": "taphoathomap_bot",
+      "price": 219000,
+      "costPrice": 199000,
+      "stockAfter": 4,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard700-1000credit30NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:199.000đ"
+    },
+    {
       "id": "hist-1795878895640",
       "time": "22:14 - 28/11/2026",
       "name": "Slot Antigravity Ultra x20 + Gemini Ultra 1 tháng KBH",
@@ -31128,17 +31165,6 @@
       "stockAfter": 50,
       "catKey": "lovable",
       "msgKey": "⭐LovablePro30DBH10D➕Thêm:21📦Tồnkhohiệntại:21💰Giá:180.000đ"
-    },
-    {
-      "id": "hist-1795878253305",
-      "time": "22:04 - 28/11/2026",
-      "name": "Kahoot Plus Gold 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 13,
-      "catKey": "khac",
-      "msgKey": "⭐KahootPlusGold7NgàyBHF➕Thêm:4📦Tồnkhohiệntại:6💰Giá:45.000đ"
     }
   ],
   "vidiq": {
