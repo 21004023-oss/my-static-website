@@ -29414,10 +29414,47 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795877765650",
+        "name": "Slot] Ultra 20x | 5K Credit | 1 Tháng | KBH",
+        "price": 110000,
+        "cost_price": 100000,
+        "stock": 10,
+        "stock_text": "Còn 10",
+        "duration": "1 Tháng",
+        "detail": "Gói Slot] Ultra 20x | 5K Credit | 1 Tháng | KBH bảo hành uy tín.",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 10,
+            "cost_price": 100000,
+            "selling_price": 110000,
+            "updated": "21:56 28/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 100000,
+          "stock": 10
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1795877765650",
+      "time": "21:56 - 28/11/2026",
+      "name": "Slot] Ultra 20x | 5K Credit | 1 Tháng | KBH",
+      "bot": "khommo_market_bot",
+      "price": 110000,
+      "costPrice": 100000,
+      "stockAfter": 10,
+      "catKey": "khac",
+      "msgKey": "[Slot]Ultra20x|5KCredit|1Tháng|KBH💲Giá:100.000VND(~$3.8462)➕Thêm:10📦Tồnkhohiệntạ"
+    },
     {
       "id": "hist-1795877757959",
       "time": "21:55 - 28/11/2026",
@@ -30506,17 +30543,6 @@
       "stockAfter": 1291,
       "catKey": "chatgpt",
       "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:70📦Tồnkhohiệntại:1291💰Giá:125.000đ"
-    },
-    {
-      "id": "hist-1795817365737",
-      "time": "05:09 - 28/11/2026",
-      "name": "CAPCUT PRO TEAM 1 THÁNG  BHF",
-      "bot": "taphoathomap_bot",
-      "price": 60000,
-      "costPrice": 50000,
-      "stockAfter": 94,
-      "catKey": "capcut",
-      "msgKey": "✂️CAPCUTPROTEAM1THÁNGBHF➕Thêm:9📦Tồnkhohiệntại:0💰Giá:50.000đ"
     }
   ],
   "vidiq": {
