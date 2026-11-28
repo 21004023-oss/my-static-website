@@ -4924,16 +4924,16 @@
         "name": "ChatGPT Go 1 Tháng (BH 28D)",
         "price": 110000,
         "cost_price": 95000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 2,
+        "stock_text": "Còn 2",
         "duration": "1 Tháng",
         "detail": "Định dạng :  Email|Mật khẩu|2FA\n📌 Hướng dẫn lấy mã OTP 2FA\n1️⃣ Truy cập website: 2FA.LIVE\n2️⃣ Copy đoạn 2FA Secret được cung cấp trong file sản phẩm.\n3️⃣ Dán vào ô tạo mã trên website.\n4️⃣ Copy mã OTP hiển thị để hoàn tất đăng nhập.\n⏳ Mã OTP sẽ tự động thay đổi liên tục theo thời gian.\nNếu mã hết hạn, chỉ cần",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 2,
             "cost_price": 95000,
             "selling_price": 105000,
-            "updated": "04:36 25/11/2026"
+            "updated": "21:53 28/11/2026"
           },
           "sieuthistore_bot": {
             "stock": 0,
@@ -4945,7 +4945,7 @@
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 95000,
-          "stock": 0
+          "stock": 2
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -29367,6 +29367,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795877591727",
+      "time": "21:53 - 28/11/2026",
+      "name": "ChatGPT Go 1 Tháng (BH 28D)",
+      "bot": "taphoathomap_bot",
+      "price": 105000,
+      "costPrice": 95000,
+      "stockAfter": 2,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGo1Tháng(BH28D)➕Thêm:3📦Tồnkhohiệntại:2💰Giá:95.000đ"
+    },
+    {
       "id": "hist-1795877585877",
       "time": "21:53 - 28/11/2026",
       "name": "Zoom Pro 14 Ngày BHF",
@@ -30454,17 +30465,6 @@
       "stockAfter": 266,
       "catKey": "chatgpt",
       "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:98📦Tồnkhohiệntại:266💰Giá:150.00"
-    },
-    {
-      "id": "hist-1795812353163",
-      "time": "03:45 - 28/11/2026",
-      "name": "(💕LoveV) Capcut Pro cá nhân 3 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 180000,
-      "costPrice": 160000,
-      "stockAfter": 12,
-      "catKey": "capcut",
-      "msgKey": "✂️(💕LoveV)CapcutProcánhân3thángBHF💰Giá:160k📦Tồnkho:6tàikhoản📊Đãbán:36tàikhoản💎Mô"
     }
   ],
   "vidiq": {
