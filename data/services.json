@@ -1479,9 +1479,9 @@
         "id": "p-1793602763852",
         "name": "Gmail Ngâm 6T Có Trial YTB",
         "price": 42000,
-        "cost_price": 32000,
-        "stock": 220,
-        "stock_text": "Còn 220",
+        "cost_price": 30000,
+        "stock": 440,
+        "stock_text": "Còn 440",
         "duration": "1 Tháng",
         "detail": "Định Dạng : Gmail | Pass | 2FA\nBảo hành login 24h\n-Lưu ý: Gmail phù hợp làm Trial YTB, Nâng link gemini pro…vvv - Hòm thư gmail bị khoá - AE không dùng chức năng hòm thư thì có thể sử dụng Gmail này bình thường.\n-Gmail khá trâu bò\n✏️",
         "sources": {
@@ -1492,18 +1492,18 @@
             "updated": "22:14 28/11/2026"
           },
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 220,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "21:57 28/11/2026"
+            "updated": "22:15 28/11/2026"
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 32000,
+          "bot": "@sieuthistore_bot",
+          "cost_price": 30000,
           "stock": 220
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -30067,6 +30067,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878925711",
+      "time": "22:15 - 28/11/2026",
+      "name": "Gmail Ngâm 6T Có Trial YTB",
+      "bot": "sieuthistore_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 440,
+      "catKey": "youtube",
+      "msgKey": "📧GmailNgâm6TCóTrialYTB➕Thêm:220📦Tồnkhohiệntại:220💰Giá:30.000đ"
+    },
+    {
       "id": "hist-1795878919633",
       "time": "22:15 - 28/11/2026",
       "name": "NordVPN 3 Ngày BHF",
@@ -31154,17 +31165,6 @@
       "stockAfter": 17,
       "catKey": "surfshark",
       "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:9📦Tồnkhohiệntại:1💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1795878278087",
-      "time": "22:04 - 28/11/2026",
-      "name": "Meitu Vip+ 3 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 240000,
-      "costPrice": 210000,
-      "stockAfter": 15,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+3ThángBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:210.000đ"
     }
   ],
   "vidiq": {
