@@ -29592,10 +29592,10 @@
       {
         "id": "p-1795877765650",
         "name": "Slot] Ultra 20x | 5K Credit | 1 Tháng | KBH",
-        "price": 110000,
+        "price": 200000,
         "cost_price": 100000,
-        "stock": 10,
-        "stock_text": "Còn 10",
+        "stock": 11,
+        "stock_text": "Còn 11",
         "duration": "1 Tháng",
         "detail": "Gói Slot] Ultra 20x | 5K Credit | 1 Tháng | KBH bảo hành uy tín.",
         "sources": {
@@ -29604,6 +29604,12 @@
             "cost_price": 100000,
             "selling_price": 110000,
             "updated": "21:56 28/11/2026"
+          },
+          "sieuthistore_bot": {
+            "stock": 1,
+            "cost_price": 180000,
+            "selling_price": 200000,
+            "updated": "22:06 28/11/2026"
           }
         },
         "cheapest_source": {
@@ -29644,6 +29650,17 @@
     ]
   },
   "_history": [
+    {
+      "id": "hist-1795878378808",
+      "time": "22:06 - 28/11/2026",
+      "name": "Slot Ultra 20x 5K Credit 1 Tháng KBH",
+      "bot": "sieuthistore_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 11,
+      "catKey": "khac",
+      "msgKey": "🚀SlotUltra20x5KCredit1ThángKBH➕Thêm:1📦Tồnkhohiệntại:1💰Giá:180.000đ"
+    },
     {
       "id": "hist-1795878373321",
       "time": "22:06 - 28/11/2026",
@@ -30732,17 +30749,6 @@
       "stockAfter": 162,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:1📦Tồnkhohiệntại:10💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1795877739241",
-      "time": "21:55 - 28/11/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "sieuthistore_bot",
-      "price": 45000,
-      "costPrice": 35000,
-      "stockAfter": 12,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:1📦Tồnkhohiệntại:6💰Giá:35.000đ"
     }
   ],
   "vidiq": {
