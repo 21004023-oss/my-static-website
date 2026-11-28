@@ -16575,6 +16575,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795877506981",
+        "name": "Buff Muse 1-30B Token",
+        "price": 13000,
+        "cost_price": 3000,
+        "stock": -1,
+        "stock_text": "Vô cực (∞)",
+        "duration": "1 Tháng",
+        "detail": "Gói Buff Muse 1-30B Token bảo hành uy tín.",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": -1,
+            "cost_price": 3000,
+            "selling_price": 13000,
+            "updated": "21:51 28/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 3000,
+          "stock": -1
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -29315,6 +29341,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795877506981",
+      "time": "21:51 - 28/11/2026",
+      "name": "Buff Muse 1-30B Token",
+      "bot": "khommo_market_bot",
+      "price": 13000,
+      "costPrice": 3000,
+      "stockAfter": -1,
+      "catKey": "muse-ai",
+      "msgKey": "BuffMuse1-30BToken💲Giá:3.000VND(~$0.1154)📦Tồnkhohiệntại:∞"
+    },
+    {
       "id": "hist-1795877500929",
       "time": "21:51 - 28/11/2026",
       "name": "Higgsfield Genjutsu  hạn 1 tháng - BH 24h",
@@ -30402,17 +30439,6 @@
       "stockAfter": 253,
       "catKey": "gmail",
       "msgKey": "⭐AppleID2FAGmail➕Thêm:13📦Tồnkhohiệntại:81💰Giá:50.000đ"
-    },
-    {
-      "id": "hist-1795811033696",
-      "time": "03:23 - 28/11/2026",
-      "name": "Apple ID 2FA Gmail",
-      "bot": "sieuthistore_bot",
-      "price": 59000,
-      "costPrice": 49000,
-      "stockAfter": 263,
-      "catKey": "gmail",
-      "msgKey": "⭐AppleID2FAGmail➕Thêm:13📦Tồnkhohiệntại:81💰Giá:49.000đ"
     }
   ],
   "vidiq": {
