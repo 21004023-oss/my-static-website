@@ -11211,11 +11211,11 @@
       {
         "id": "p-lovable-1793122767",
         "name": "Lovable Pro 20 Ngày (Bảo Hành 10 Ngày)",
-        "price": 180000,
+        "price": 200000,
         "original_price": 600000,
-        "cost_price": 70000,
-        "stock": 46,
-        "stock_text": "Còn 46",
+        "cost_price": 100000,
+        "stock": 50,
+        "stock_text": "Còn 50",
         "duration": "1 Tháng",
         "detail": "Radom date 25 - 30 day\nLovable Pro có 110 credit, mỗi ngày cộng thêm 5 credit\n✏️",
         "sources": {
@@ -11225,10 +11225,10 @@
             "stock": 12
           },
           "taphoathomap_bot": {
-            "stock": 17,
-            "cost_price": 70000,
-            "selling_price": 80000,
-            "updated": "10:25 29/10/2026"
+            "stock": 21,
+            "cost_price": 180000,
+            "selling_price": 200000,
+            "updated": "22:04 28/11/2026"
           },
           "piggyai99_bot": {
             "stock": 17,
@@ -11238,11 +11238,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 70000,
-          "stock": 17
+          "bot": "@ntnshopre_bot",
+          "cost_price": 100000,
+          "stock": 12
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @ntnshopre_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -29587,6 +29587,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878259267",
+      "time": "22:04 - 28/11/2026",
+      "name": "Lovable Pro 30D BH 10D",
+      "bot": "taphoathomap_bot",
+      "price": 200000,
+      "costPrice": 180000,
+      "stockAfter": 50,
+      "catKey": "lovable",
+      "msgKey": "⭐LovablePro30DBH10D➕Thêm:21📦Tồnkhohiệntại:21💰Giá:180.000đ"
+    },
+    {
       "id": "hist-1795878253305",
       "time": "22:04 - 28/11/2026",
       "name": "Kahoot Plus Gold 7 Ngày BHF",
@@ -30674,17 +30685,6 @@
       "stockAfter": 153,
       "catKey": "capcut",
       "msgKey": "✂️CAPCUTPRO30DBHF➕Thêm:9📦Tồnkhohiệntại:9💰Giá:65.000đ"
-    },
-    {
-      "id": "hist-1795877612038",
-      "time": "21:53 - 28/11/2026",
-      "name": "Slot Youtube Premium 3 Tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 34961,
-      "catKey": "youtube",
-      "msgKey": "▶️SlotYoutubePremium3ThángBHF➕Thêm:2📦Tồnkhohiệntại:867💰Giá:95.000đ"
     }
   ],
   "vidiq": {
