@@ -2140,6 +2140,32 @@
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795877580533",
+        "name": "Spotify Premium cấp sẵn 3 tháng BHF",
+        "price": 100000,
+        "cost_price": 90000,
+        "stock": 8,
+        "stock_text": "Còn 8",
+        "duration": "3 Tháng",
+        "detail": "Gói Spotify Premium cấp sẵn 3 tháng BHF bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 8,
+            "cost_price": 90000,
+            "selling_price": 100000,
+            "updated": "21:53 28/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 90000,
+          "stock": 8
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -29341,6 +29367,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795877580533",
+      "time": "21:53 - 28/11/2026",
+      "name": "Spotify Premium cấp sẵn 3 tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 100000,
+      "costPrice": 90000,
+      "stockAfter": 8,
+      "catKey": "spotify",
+      "msgKey": "⭐SpotifyPremiumcấpsẵn3thángBHF➕Thêm:8📦Tồnkhohiệntại:8💰Giá:90.000đ"
+    },
+    {
       "id": "hist-1795877569438",
       "time": "21:52 - 28/11/2026",
       "name": "OpenArt Plus 34$ - 12k credit 1TH BH 1  ngày",
@@ -30428,17 +30465,6 @@
       "stockAfter": 12,
       "catKey": "capcut",
       "msgKey": "✂️(💕LoveV)CapcutProcánhân3thángBHF➕Thêm:3📦Tồnkhohiệntại:6💰Giá:160.000đ"
-    },
-    {
-      "id": "hist-1795812341027",
-      "time": "03:45 - 28/11/2026",
-      "name": "(💕LoveV) Capcut Pro cá nhân 3 tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 177868,
-      "costPrice": 157868,
-      "stockAfter": 12,
-      "catKey": "capcut",
-      "msgKey": "✂️(💕LoveV)CapcutProcánhân3thángBHF➕Thêm:3📦Tồnkhohiệntại:6💰Giá:157.868đ"
     }
   ],
   "vidiq": {
