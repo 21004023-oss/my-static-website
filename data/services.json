@@ -2339,22 +2339,28 @@
         "duration": "1 Tháng",
         "source": "Workspace Dùng Chung",
         "detail": "👉 Fam ổn định, có thể gia hạn hàng tháng không mất dữ liệu\n👉 Các bạn nên note lại nhớ lịch gia hạn gói, nên gia hạn trước 1 hôm để tránh hệ thống lọc tự động (shop sẽ không nhắc gia hạn)\n👉 Mua xong có thể gửi gmail qua cho Ad để xử lý đơn hàng nhanh hơn nha (Thời gian từ 5'-30')",
-        "cost_price": 420000,
+        "cost_price": 300000,
         "sources": {
           "ntnshopre_bot": {
             "stock": -1,
             "cost_price": 420000,
             "selling_price": 470000,
             "updated": "22:30 04/11/2026"
+          },
+          "taphoathomap_bot": {
+            "stock": 7,
+            "cost_price": 300000,
+            "selling_price": 330000,
+            "updated": "22:15 28/11/2026"
           }
         },
         "needs_review": false,
         "hidden": false,
-        "import_note": "Nhập: @ntnshopre_bot",
+        "import_note": "Nhập: @taphoathomap_bot",
         "cheapest_source": {
-          "bot": "@ntnshopre_bot",
-          "cost_price": 420000,
-          "stock": -1
+          "bot": "@taphoathomap_bot",
+          "cost_price": 300000,
+          "stock": 7
         }
       },
       {
@@ -30067,6 +30073,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878945750",
+      "time": "22:15 - 28/11/2026",
+      "name": "Chatgpt Business Slot (Chính Chủ) 1 THÁNG - BHF",
+      "bot": "taphoathomap_bot",
+      "price": 330000,
+      "costPrice": 300000,
+      "stockAfter": -1,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatgptBusinessSlot(ChínhChủ)1THÁNG-BHF➕Thêm:1📦Tồnkhohiệntại:7💰Giá:300.000đ"
+    },
+    {
       "id": "hist-1795878938988",
       "time": "22:15 - 28/11/2026",
       "name": "Express VPN 3 Ngày BHF",
@@ -31154,17 +31171,6 @@
       "stockAfter": 11,
       "catKey": "surfshark",
       "msgKey": "🦈SurfsharkVPNOne7NgàyBHF➕Thêm:9📦Tồnkhohiệntại:1💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1795878296592",
-      "time": "22:04 - 28/11/2026",
-      "name": "CHAT GPT PLUS 1 tháng - BH 6H",
-      "bot": "taphoathomap_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 310,
-      "catKey": "chatgpt",
-      "msgKey": "🤖CHATGPTPLUS1tháng-BH6H➕Thêm:172📦Tồnkhohiệntại:255💰Giá:70.000đ"
     }
   ],
   "vidiq": {
