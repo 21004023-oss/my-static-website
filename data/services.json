@@ -26108,6 +26108,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795878334818",
+        "name": "Tele",
+        "price": 109000,
+        "cost_price": 99000,
+        "stock": 12,
+        "stock_text": "Còn 12",
+        "duration": "1 Tháng",
+        "detail": "Gói Tele bảo hành uy tín.",
+        "sources": {
+          "khommo_market_bot": {
+            "stock": 12,
+            "cost_price": 99000,
+            "selling_price": 109000,
+            "updated": "22:05 28/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@khommo_market_bot",
+          "cost_price": 99000,
+          "stock": 12
+        },
+        "import_note": "Nhập: @khommo_market_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -29593,6 +29619,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878334818",
+      "time": "22:05 - 28/11/2026",
+      "name": "Tele",
+      "bot": "khommo_market_bot",
+      "price": 109000,
+      "costPrice": 99000,
+      "stockAfter": 12,
+      "catKey": "bot-tele",
+      "msgKey": "📦Tele[BHF]AutoSpamPro1Tháng💲Giá:99.000VND(~$3.8077)📦Tồnkhohiệntại:12[BHF]AutoSpa"
+    },
+    {
       "id": "hist-1795878328484",
       "time": "22:05 - 28/11/2026",
       "name": "CHATGPT PLUS GGPAY 1 THÁNG BẢO HÀNH 24H",
@@ -30680,17 +30717,6 @@
       "stockAfter": 0,
       "catKey": "google-veo",
       "msgKey": "☁️LinkGeminiPlusNONEEDCARD6THKBH➕Thêm:2📦Tồnkhohiệntại:0💰Giá:60.000đ"
-    },
-    {
-      "id": "hist-1795877693474",
-      "time": "21:54 - 28/11/2026",
-      "name": "⚡️ Grok Plus 1 tháng - BH 24H",
-      "bot": "piggyai99_bot",
-      "price": 105000,
-      "costPrice": 95000,
-      "stockAfter": 15,
-      "catKey": "grok",
-      "msgKey": "⚡⚡️GrokPlus1tháng-BH24H➕Thêm:11📦Tồnkhohiệntại:11💰Giá:95.000đ"
     }
   ],
   "vidiq": {
