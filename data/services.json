@@ -10733,6 +10733,32 @@
         "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795878023868",
+        "name": "Link Gemini Plus 12 tháng ( BH 24h )",
+        "price": 45000,
+        "cost_price": 35000,
+        "stock": 28,
+        "stock_text": "Còn 28",
+        "duration": "1 Năm",
+        "detail": "Gói Link Gemini Plus 12 tháng ( BH 24h ) bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 28,
+            "cost_price": 35000,
+            "selling_price": 45000,
+            "updated": "22:00 28/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 35000,
+          "stock": 28
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -29523,6 +29549,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878023868",
+      "time": "22:00 - 28/11/2026",
+      "name": "Link Gemini Plus 12 tháng ( BH 24h )",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 28,
+      "catKey": "google-veo",
+      "msgKey": "☁️LinkGeminiPlus12tháng(BH24h)➕Thêm:30📦Tồnkhohiệntại:28💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1795878015066",
       "time": "22:00 - 28/11/2026",
       "name": "ChatGPT GGpay Plus 1 Tháng BHF",
@@ -30610,17 +30647,6 @@
       "stockAfter": 4,
       "catKey": "khac",
       "msgKey": "🚀PRE-SLOTULTRAX20Radom25KCRE30DBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:450.000đ"
-    },
-    {
-      "id": "hist-1795877387001",
-      "time": "21:49 - 28/11/2026",
-      "name": "NORD VPN Androi/PC/IOS Slot 12 tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 210000,
-      "costPrice": 190000,
-      "stockAfter": 8,
-      "catKey": "nordvpn",
-      "msgKey": "🛡️NORDVPNAndroi/PC/IOSSlot12thángBHF💰Giá:190k📦Tồnkho:8tàikhoản📊Đãbán:14tàikhoản💎"
     }
   ],
   "vidiq": {
