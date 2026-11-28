@@ -24558,8 +24558,8 @@
         "name": "Gmail Random 200X~2025 Có 2FA",
         "price": 55000,
         "cost_price": 35000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "stock": 502,
+        "stock_text": "Còn 502",
         "duration": "1 Tháng",
         "detail": "Code ip việt dán ra pay là dùng bảo hành active code 24h\nChỉ bảo hành active code, không bảo hành pay\n✏️",
         "sources": {
@@ -24570,16 +24570,16 @@
             "updated": "21:54 28/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 0,
+            "stock": 502,
             "cost_price": 35000,
             "selling_price": 45000,
-            "updated": "21:54 28/11/2026"
+            "updated": "22:15 28/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 35000,
-          "stock": 0
+          "stock": 502
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -30073,6 +30073,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878959587",
+      "time": "22:15 - 28/11/2026",
+      "name": "Gmail Random 200X~2025 Có 2FA",
+      "bot": "taphoathomap_bot",
+      "price": 45000,
+      "costPrice": 35000,
+      "stockAfter": 502,
+      "catKey": "gmail",
+      "msgKey": "📧GmailRandom200X~2025Có2FA➕Thêm:505📦Tồnkhohiệntại:502💰Giá:35.000đ"
+    },
+    {
       "id": "hist-1795878952953",
       "time": "22:15 - 28/11/2026",
       "name": "NordVPN 3 Ngày BHF",
@@ -31160,17 +31171,6 @@
       "stockAfter": 15,
       "catKey": "khac",
       "msgKey": "⭐PIAVPN7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:15.000đ"
-    },
-    {
-      "id": "hist-1795878309469",
-      "time": "22:05 - 28/11/2026",
-      "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 102,
-      "catKey": "chatgpt",
-      "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:57📦Tồnkhohiệntại:102💰Giá:150.00"
     }
   ],
   "vidiq": {
