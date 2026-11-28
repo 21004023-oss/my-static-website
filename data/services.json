@@ -30068,10 +30068,47 @@
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795878985903",
+        "name": "Krea Basic 5100 credit 1Th BH 1 ngày",
+        "price": 90000,
+        "cost_price": 80000,
+        "stock": 26,
+        "stock_text": "Còn 26",
+        "duration": "1 Tháng",
+        "detail": "Gói Krea Basic 5100 credit 1Th BH 1 ngày bảo hành uy tín.",
+        "sources": {
+          "taphoathomap_bot": {
+            "stock": 26,
+            "cost_price": 80000,
+            "selling_price": 90000,
+            "updated": "22:16 28/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@taphoathomap_bot",
+          "cost_price": 80000,
+          "stock": 26
+        },
+        "import_note": "Nhập: @taphoathomap_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1795878985903",
+      "time": "22:16 - 28/11/2026",
+      "name": "Krea Basic 5100 credit 1Th BH 1 ngày",
+      "bot": "taphoathomap_bot",
+      "price": 90000,
+      "costPrice": 80000,
+      "stockAfter": 26,
+      "catKey": "khac",
+      "msgKey": "⭐KreaBasic5100credit1ThBH1ngày➕Thêm:9📦Tồnkhohiệntại:26💰Giá:80.000đ"
+    },
     {
       "id": "hist-1795878980365",
       "time": "22:16 - 28/11/2026",
@@ -31160,17 +31197,6 @@
       "stockAfter": 16,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+90DBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:165.000đ"
-    },
-    {
-      "id": "hist-1795878334818",
-      "time": "22:05 - 28/11/2026",
-      "name": "Tele",
-      "bot": "khommo_market_bot",
-      "price": 109000,
-      "costPrice": 99000,
-      "stockAfter": 12,
-      "catKey": "bot-tele",
-      "msgKey": "📦Tele[BHF]AutoSpamPro1Tháng💲Giá:99.000VND(~$3.8077)📦Tồnkhohiệntại:12[BHF]AutoSpa"
     }
   ],
   "vidiq": {
