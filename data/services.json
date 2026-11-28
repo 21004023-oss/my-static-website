@@ -24151,9 +24151,9 @@
         "id": "p-1794514088583",
         "name": "Gmail Hàn Quốc 2009~2023 Có 2FA",
         "price": 57000,
-        "cost_price": 37000,
-        "stock": 0,
-        "stock_text": "Hết hàng",
+        "cost_price": 47000,
+        "stock": 156,
+        "stock_text": "Còn 156",
         "duration": "1 Tháng",
         "detail": "-ChatGPT Plus Apple Pay ổn định\n-Định dạng: Mail | Pass | 2Fa\n-Hạn gói: 1 tháng\n-Bảo hành: 1 tháng\n-Tài khoản đã được check kĩ thông tin trước khi bán\n-Khách hàng nhận tài khoản tự bảo mật\n-Sử dụng Codex tự ver số, thuê số tại viotp chấm com\n-KBH Codex & 9routor, tools,.. love you 💚\n✏️",
         "sources": {
@@ -24164,10 +24164,10 @@
             "updated": "22:00 28/11/2026"
           },
           "sieuthistore_bot": {
-            "stock": 0,
+            "stock": 156,
             "cost_price": 47000,
             "selling_price": 57000,
-            "updated": "21:59 28/11/2026"
+            "updated": "22:09 28/11/2026"
           },
           "piggyai99_bot": {
             "stock": 0,
@@ -24177,11 +24177,11 @@
           }
         },
         "cheapest_source": {
-          "bot": "@taphoathomap_bot",
-          "cost_price": 37000,
-          "stock": 0
+          "bot": "@sieuthistore_bot",
+          "cost_price": 47000,
+          "stock": 156
         },
-        "import_note": "Nhập: @taphoathomap_bot",
+        "import_note": "Nhập: @sieuthistore_bot",
         "hidden": false,
         "needs_review": false
       },
@@ -29651,6 +29651,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878581708",
+      "time": "22:09 - 28/11/2026",
+      "name": "Gmail Hàn Quốc 2009~2023 Có 2FA",
+      "bot": "sieuthistore_bot",
+      "price": 57000,
+      "costPrice": 47000,
+      "stockAfter": 156,
+      "catKey": "gmail",
+      "msgKey": "📧GmailHànQuốc2009~2023Có2FA➕Thêm:15📦Tồnkhohiệntại:156💰Giá:47.000đ"
+    },
+    {
       "id": "hist-1795878575801",
       "time": "22:09 - 28/11/2026",
       "name": "Link Gemini Plus 400GB 1 Năm BH 1 Ngày",
@@ -30738,17 +30749,6 @@
       "stockAfter": 10,
       "catKey": "microsoft",
       "msgKey": "⭐Microsoft365AdminPremium1ThángBHF➕Thêm:3📦Tồnkhohiệntại:5💰Giá:55.000đ"
-    },
-    {
-      "id": "hist-1795877931894",
-      "time": "21:58 - 28/11/2026",
-      "name": "ChatGPT Plus GGPay 30D BH 24H",
-      "bot": "piggyai99_bot",
-      "price": 145000,
-      "costPrice": 125000,
-      "stockAfter": 431,
-      "catKey": "chatgpt",
-      "msgKey": "🤖ChatGPTPlusGGPay30DBH24H➕Thêm:144📦Tồnkhohiệntại:431💰Giá:125.000đ"
     }
   ],
   "vidiq": {
