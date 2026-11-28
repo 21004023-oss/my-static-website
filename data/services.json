@@ -6910,13 +6910,13 @@
         "name": "ChatGPT GGpay Plus 1 Tháng BHF",
         "price": 165000,
         "cost_price": 145000,
-        "stock": 36,
-        "stock_text": "Còn 36",
+        "stock": 30,
+        "stock_text": "Còn 30",
         "duration": "1 Tháng",
         "detail": "ChatGPT Plus | Payment GGPay | Bảo hành 30 ngày\nChất lượng sản phẩm:\n- Tất cả tài khoản đều được kiểm tra kỹ trước khi đưa lên bot\n- Đảm bảo hoạt động ổn định ngay khi nhận.\nChính sách bảo hành:\n- Bảo hành gói Plus và trường hợp die acc trong 30 ngày\n- Die/lỗi → cấp acc mới hoặc hoàn tiền theo thời gian chưa sử dụng\n- Không áp dụng bảo hành cho Codex\nLưu ý: Vui lòng không thay đổi 2FA. Mọi vấn đề về OTP sau khi khách tự đổi 2FA, shop không chịu trách nhiệm. Mọi người đọc mô tả trước khi mua sản phẩm. Shop xin chân thành cảm ơn\n✏️",
         "sources": {
           "piggyai99_bot": {
-            "stock": 36,
+            "stock": 30,
             "cost_price": 145000,
             "selling_price": 165000,
             "updated": "21:50 28/11/2026"
@@ -6925,7 +6925,7 @@
         "cheapest_source": {
           "bot": "@piggyai99_bot",
           "cost_price": 145000,
-          "stock": 36
+          "stock": 30
         },
         "import_note": "Nhập: @piggyai99_bot",
         "hidden": false,
@@ -29289,6 +29289,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795877441065",
+      "time": "21:50 - 28/11/2026",
+      "name": "ChatGPT GGpay Plus 1 Tháng BHF",
+      "bot": "piggyai99_bot",
+      "price": 165000,
+      "costPrice": 145000,
+      "stockAfter": 30,
+      "catKey": "chatgpt",
+      "msgKey": "🤖ChatGPTGGpayPlus1ThángBHF💰Giá:145k📦Tồnkho:30tàikhoản📊Đãbán:888tàikhoản💎Môtả:Cha"
+    },
+    {
       "id": "hist-1795877434750",
       "time": "21:50 - 28/11/2026",
       "name": "ChatGPT GGpay Plus 1 Tháng BHF",
@@ -30376,17 +30387,6 @@
       "stockAfter": 31,
       "catKey": "capcut",
       "msgKey": "✂️🔥CapCutProVIP3Tháng-BHF➕Thêm:10📦Tồnkhohiệntại:10💰Giá:158.868đ"
-    },
-    {
-      "id": "hist-1795808678278",
-      "time": "02:44 - 28/11/2026",
-      "name": "Wink VIP+ 7 Ngày BHF",
-      "bot": "taphoathomap_bot",
-      "price": 25000,
-      "costPrice": 15000,
-      "stockAfter": 24,
-      "catKey": "wink",
-      "msgKey": "⭐WinkVIP+7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:12💰Giá:15.000đ"
     }
   ],
   "vidiq": {
