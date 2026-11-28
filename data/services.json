@@ -12502,22 +12502,22 @@
         "name": "Grok Premium 14D - 24D BH 3D",
         "price": 190000,
         "cost_price": 170000,
-        "stock": 20,
-        "stock_text": "Còn 20",
+        "stock": 0,
+        "stock_text": "Hết hàng",
         "duration": "3 Ngày",
         "detail": "Grok Premium\nLưu Ý :\nMua về vui lòng đổi pass\nChỉ Bảo hành gói 3 ngày sử dụng\nSử dụng Cusor trên Grok\n✏️",
         "sources": {
           "taphoathomap_bot": {
-            "stock": 20,
+            "stock": 0,
             "cost_price": 170000,
             "selling_price": 190000,
-            "updated": "20:16 21/11/2026"
+            "updated": "22:18 28/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 170000,
-          "stock": 20
+          "stock": 0
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -30151,6 +30151,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795879090752",
+      "time": "22:18 - 28/11/2026",
+      "name": "Grok Premium 14D - 24D BH 3D",
+      "bot": "taphoathomap_bot",
+      "price": 190000,
+      "costPrice": 170000,
+      "stockAfter": 0,
+      "catKey": "grok",
+      "msgKey": "⚡GrokPremium14D-24DBH3D➕Thêm:20📦Tồnkhohiệntại:0💰Giá:170.000đ"
+    },
+    {
       "id": "hist-1795879084407",
       "time": "22:18 - 28/11/2026",
       "name": "Gmail Random 200X~2025 Có 2FA",
@@ -31238,17 +31249,6 @@
       "stockAfter": 68,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+1ThángBHF➕Thêm:40📦Tồnkhohiệntại:41💰Giá:70.000đ"
-    },
-    {
-      "id": "hist-1795878446955",
-      "time": "22:07 - 28/11/2026",
-      "name": "Meitu Vip+ 1 Tháng BHF",
-      "bot": "sieuthistore_bot",
-      "price": 80000,
-      "costPrice": 70000,
-      "stockAfter": 68,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+1ThángBHF➕Thêm:1📦Tồnkhohiệntại:41💰Giá:70.000đ"
     }
   ],
   "vidiq": {
