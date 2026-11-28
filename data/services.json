@@ -11315,8 +11315,8 @@
         "name": "Lovable pro 1 Tháng BHF",
         "price": 375000,
         "cost_price": 230000,
-        "stock": 38,
-        "stock_text": "Còn 38",
+        "stock": 48,
+        "stock_text": "Còn 48",
         "duration": "1 Tháng",
         "detail": "Gói Lovable pro 1 Tháng BHF bảo hành uy tín.",
         "sources": {
@@ -11327,16 +11327,16 @@
             "updated": "22:03 28/11/2026"
           },
           "taphoathomap_bot": {
-            "stock": 19,
+            "stock": 29,
             "cost_price": 230000,
             "selling_price": 260000,
-            "updated": "22:04 28/11/2026"
+            "updated": "22:09 28/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@taphoathomap_bot",
           "cost_price": 230000,
-          "stock": 19
+          "stock": 29
         },
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
@@ -29651,6 +29651,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878556995",
+      "time": "22:09 - 28/11/2026",
+      "name": "Lovable pro 1 Tháng BHF",
+      "bot": "taphoathomap_bot",
+      "price": 260000,
+      "costPrice": 230000,
+      "stockAfter": 48,
+      "catKey": "lovable",
+      "msgKey": "⭐Lovablepro1ThángBHF➕Thêm:10📦Tồnkhohiệntại:29💰Giá:230.000đ"
+    },
+    {
       "id": "hist-1795878550882",
       "time": "22:09 - 28/11/2026",
       "name": "Meitu Vip+ 30D BHF",
@@ -30738,17 +30749,6 @@
       "stockAfter": 10,
       "catKey": "microsoft",
       "msgKey": "⭐MicrosoftCopilot1ThángBHF➕Thêm:5📦Tồnkhohiệntại:5💰Giá:90.000đ"
-    },
-    {
-      "id": "hist-1795877905564",
-      "time": "21:58 - 28/11/2026",
-      "name": "(💚So Beautiful) Chatgpt Plus Apple Pay 1 tháng BHF",
-      "bot": "piggyai99_bot",
-      "price": 170000,
-      "costPrice": 150000,
-      "stockAfter": 196,
-      "catKey": "chatgpt",
-      "msgKey": "🤖(💚SoBeautiful)ChatgptPlusApplePay1thángBHF➕Thêm:42📦Tồnkhohiệntại:196💰Giá:150.00"
     }
   ],
   "vidiq": {
