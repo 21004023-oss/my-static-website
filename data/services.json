@@ -13965,6 +13965,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795883753312",
+        "name": "Kling Standard 1000-1300 credit 30 Ngày BHF",
+        "price": 290000,
+        "cost_price": 260000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Tháng",
+        "detail": "Tài khoản cấp sẵn, bảo hành tới khi hết credit hoặc 1 tháng\nNhận tài khoản trong vòng 30 phút sau khi đặt hàng\n✏️",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 4,
+            "cost_price": 260000,
+            "selling_price": 290000,
+            "updated": "23:35 28/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 260000,
+          "stock": 4
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -30203,6 +30229,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795883753312",
+      "time": "23:35 - 28/11/2026",
+      "name": "Kling Standard 1000-1300 credit 30 Ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 290000,
+      "costPrice": 260000,
+      "stockAfter": 4,
+      "catKey": "kling",
+      "msgKey": "🎬KlingStandard1000-1300credit30NgàyBHF➕Thêm:4📦Tồnkhohiệntại:4💰Giá:260.000đ"
+    },
+    {
       "id": "hist-1795882830240",
       "time": "23:20 - 28/11/2026",
       "name": "ChatGPT Plus GGPay 30D BH 24H",
@@ -31290,17 +31327,6 @@
       "stockAfter": 206,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:33📦Tồnkhohiệntại:34💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1795878701218",
-      "time": "22:11 - 28/11/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng - BH 24h",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 206,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:33📦Tồnkhohiệntại:34💰Giá:45.000đ"
     }
   ],
   "vidiq": {
