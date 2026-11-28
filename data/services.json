@@ -11245,6 +11245,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795877817631",
+        "name": "Lovable pro 1 Tháng BHF",
+        "price": 375000,
+        "cost_price": 325000,
+        "stock": 29,
+        "stock_text": "Còn 29",
+        "duration": "1 Tháng",
+        "detail": "Gói Lovable pro 1 Tháng BHF bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 29,
+            "cost_price": 325000,
+            "selling_price": 375000,
+            "updated": "21:56 28/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 325000,
+          "stock": 29
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -29445,6 +29471,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795877817631",
+      "time": "21:56 - 28/11/2026",
+      "name": "Lovable pro 1 Tháng BHF",
+      "bot": "piggyai99_bot",
+      "price": 375000,
+      "costPrice": 325000,
+      "stockAfter": 29,
+      "catKey": "lovable",
+      "msgKey": "⭐Lovablepro1ThángBHF➕Thêm:10📦Tồnkhohiệntại:29💰Giá:325.000đ"
+    },
+    {
       "id": "hist-1795877812178",
       "time": "21:56 - 28/11/2026",
       "name": "ChatGPT Plus GGPay 30D BH 24H",
@@ -30532,17 +30569,6 @@
       "stockAfter": 5,
       "catKey": "nordvpn",
       "msgKey": "🛡️NORDVPN10thiếtbị7ngàyBHF➕Thêm:7📦Tồnkhohiệntại:1💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1795819578831",
-      "time": "05:46 - 28/11/2026",
-      "name": "TiktokVN 1kfl noshop nobuff live Studio",
-      "bot": "taphoathomap_bot",
-      "price": 179000,
-      "costPrice": 159000,
-      "stockAfter": 13,
-      "catKey": "tiktok",
-      "msgKey": "🎵TiktokVN1kflnoshopnobuffliveStudio➕Thêm:1📦Tồnkhohiệntại:13💰Giá:159.000đ"
     }
   ],
   "vidiq": {
