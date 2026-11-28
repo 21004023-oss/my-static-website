@@ -2146,22 +2146,22 @@
         "name": "Spotify Premium 3 Tháng ( BH 15 Ngày)",
         "price": 40000,
         "cost_price": 30000,
-        "stock": 11,
-        "stock_text": "Còn 11",
+        "stock": 5,
+        "stock_text": "Còn 5",
         "duration": "3 Tháng",
         "detail": "Định  dạng : Mail | Pass ( Spotify)\n- Nhập mail chúng tôi cấp để đăng nhập, khi yêu cầu mã về mail thì chọn dùng mật khẩu đăng nhập vào nhập pass chúng tôi cấp\nSupport : @khommovn\n✏️ Nhập số lượng muốn mua (1–11):",
         "sources": {
           "khommo_market_bot": {
-            "stock": 11,
+            "stock": 5,
             "cost_price": 30000,
             "selling_price": 40000,
-            "updated": "13:02 24/11/2026"
+            "updated": "22:08 28/11/2026"
           }
         },
         "cheapest_source": {
           "bot": "@khommo_market_bot",
           "cost_price": 30000,
-          "stock": 11
+          "stock": 5
         },
         "import_note": "Nhập: @khommo_market_bot",
         "hidden": false,
@@ -29651,6 +29651,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878514175",
+      "time": "22:08 - 28/11/2026",
+      "name": "Spotify Premium 3 Tháng ( BH 15 Ngày)",
+      "bot": "khommo_market_bot",
+      "price": 40000,
+      "costPrice": 30000,
+      "stockAfter": 5,
+      "catKey": "spotify",
+      "msgKey": "SpotifyPremium3Tháng(BH15Ngày)💲Giá:30.000VND(~$1.1538)➕Thêm:5📦Tồnkhohiệntại:5"
+    },
+    {
       "id": "hist-1795878508936",
       "time": "22:08 - 28/11/2026",
       "name": "Express VPN 3 Ngày BHF",
@@ -30738,17 +30749,6 @@
       "stockAfter": 14,
       "catKey": "meitu",
       "msgKey": "✨MeituVip+90DBHF➕Thêm:1📦Tồnkhohiệntại:3💰Giá:165.000đ"
-    },
-    {
-      "id": "hist-1795877862737",
-      "time": "21:57 - 28/11/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng - BH 24h",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 208,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:50📦Tồnkhohiệntại:60💰Giá:45.000đ"
     }
   ],
   "vidiq": {
