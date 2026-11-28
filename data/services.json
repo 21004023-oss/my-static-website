@@ -18308,8 +18308,8 @@
         "id": "p-1792119807992",
         "name": "Capcut Pro Cá Nhân 30 Ngày BHF",
         "price": 75000,
-        "stock": 43,
-        "stock_text": "Còn 43",
+        "stock": 38,
+        "stock_text": "Còn 38",
         "duration": "1 Tháng",
         "detail": "CAPCUT PRO  CÁ NHÂN 30DAYS - BẢO HÀNH FULL -ĐỊNH DANG : TK|MK KBH LỖI TRUY CẬP THƯỜNG XUYÊN LOGIN 2 THIẾT BỊ ( ĐT - PC )\n✏️",
         "sources": {
@@ -18326,21 +18326,21 @@
             "updated": "21:50 28/11/2026"
           },
           "piggyai99_bot": {
-            "stock": 5,
+            "stock": 0,
             "cost_price": 45000,
             "selling_price": 55000,
-            "updated": "22:01 28/11/2026"
+            "updated": "22:02 28/11/2026"
           }
         },
         "hidden": false,
         "needs_review": false,
-        "cost_price": 45000,
+        "cost_price": 65000,
         "cheapest_source": {
-          "bot": "@piggyai99_bot",
-          "cost_price": 45000,
-          "stock": 5
+          "bot": "@sieuthistore_bot",
+          "cost_price": 65000,
+          "stock": 38
         },
-        "import_note": "Nhập: @piggyai99_bot"
+        "import_note": "Nhập: @sieuthistore_bot"
       },
       {
         "id": "p-1792125293833",
@@ -29581,6 +29581,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795878141062",
+      "time": "22:02 - 28/11/2026",
+      "name": "CAPCUT PRO CÁ NHÂN  30 Ngày BHF",
+      "bot": "piggyai99_bot",
+      "price": 55000,
+      "costPrice": 45000,
+      "stockAfter": 38,
+      "catKey": "capcut",
+      "msgKey": "✂️CAPCUTPROCÁNHÂN30NgàyBHF➕Thêm:27📦Tồnkhohiệntại:0💰Giá:45.000đ"
+    },
+    {
       "id": "hist-1795878135137",
       "time": "22:02 - 28/11/2026",
       "name": "MUSE.AI -2 TỶ TOKEN (KBH)",
@@ -30668,17 +30679,6 @@
       "stockAfter": 166,
       "catKey": "higgsfield",
       "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:14📦Tồnkhohiệntại:14💰Giá:20.000đ"
-    },
-    {
-      "id": "hist-1795877494622",
-      "time": "21:51 - 28/11/2026",
-      "name": "Higgsfield Genjutsu  hạn 1 tháng - BH 24h",
-      "bot": "sieuthistore_bot",
-      "price": 55000,
-      "costPrice": 45000,
-      "stockAfter": 290,
-      "catKey": "higgsfield",
-      "msgKey": "🎬HiggsfieldGenjutsuhạn1tháng-BH24h➕Thêm:14📦Tồnkhohiệntại:14💰Giá:45.000đ"
     }
   ],
   "vidiq": {
