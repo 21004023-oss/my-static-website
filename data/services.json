@@ -760,6 +760,32 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795879216343",
+        "name": "Amazon Prime Video 1 Tháng - BH 25d",
+        "price": 60000,
+        "cost_price": 50000,
+        "stock": 4,
+        "stock_text": "Còn 4",
+        "duration": "1 Tháng",
+        "detail": "💎 Mô tả:\n🎬 AMAZON PRIME VIDEO – 1 THÁNG | TÀI KHOẢN RIÊNG | BH 25 NGÀY\n━━━━━━━━━━━━━━━━━━\n📌 THÔNG TIN SẢN PHẨM\n• Tài khoản riêng (Private Account).\n• Thời hạn sử dụng: 25–30 ngày.\n• Kiểm tra email tại: http://onetimething.lol\n━━━━━━━━━━━━━━━━━━\n⚠️ LƯU Ý QUAN TRỌNG\n• Thời hạn có thể trôi date vài ngày tùy tài khoản, mong anh em hoan hỉ nhé!\n• Không thay đổi khu vực (Region) hoặc chỉnh sửa phương thức thanh toán trong thời gian sử dụng Premium. Vi phạm sẽ mất bảo hành.\n• Amazon khá nhạy cảm với thao tác đăng nhập. Không đăng nhập liên tục nhiều lần trong thời gian ngắn.\n• Nếu sai mật khẩu hoặc đăng nhập thất bại, vui lòng chờ 5 phút, tải lại trang hoặc khởi động lại ứng dụng rồi thử lại.\n━━━━━━━━━━━━━━━━━━\n🛡️ CHÍNH SÁCH BẢO HÀNH\n• Bảo hành 25 ngày kể từ ngày mua.\n• Hết thời gian bảo hành, Shop không hỗ trợ các lỗi phát sinh.\n✏️",
+        "sources": {
+          "sieuthistore_bot": {
+            "stock": 4,
+            "cost_price": 50000,
+            "selling_price": 60000,
+            "updated": "22:20 28/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@sieuthistore_bot",
+          "cost_price": 50000,
+          "stock": 4
+        },
+        "import_note": "Nhập: @sieuthistore_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
@@ -30151,6 +30177,17 @@
   },
   "_history": [
     {
+      "id": "hist-1795879216344",
+      "time": "22:20 - 28/11/2026",
+      "name": "Amazon Prime Video 1 Tháng - BH 25d",
+      "bot": "sieuthistore_bot",
+      "price": 60000,
+      "costPrice": 50000,
+      "stockAfter": 4,
+      "catKey": "amazon-prime",
+      "msgKey": "⭐AmazonPrimeVideo1Tháng-BH25d➕Thêm:4📦Tồnkhohiệntại:4💰Giá:50.000đ"
+    },
+    {
       "id": "hist-1795879210550",
       "time": "22:20 - 28/11/2026",
       "name": "Wink VIP+ 7 Ngày BHF",
@@ -31238,17 +31275,6 @@
       "stockAfter": 23,
       "catKey": "khac",
       "msgKey": "⭐OpenArtPlus34$-12kcredit1THBH1ngày➕Thêm:5📦Tồnkhohiệntại:23💰Giá:280.000đ"
-    },
-    {
-      "id": "hist-1795878556995",
-      "time": "22:09 - 28/11/2026",
-      "name": "Lovable pro 1 Tháng BHF",
-      "bot": "taphoathomap_bot",
-      "price": 260000,
-      "costPrice": 230000,
-      "stockAfter": 48,
-      "catKey": "lovable",
-      "msgKey": "⭐Lovablepro1ThángBHF➕Thêm:10📦Tồnkhohiệntại:29💰Giá:230.000đ"
     }
   ],
   "vidiq": {
