@@ -30094,10 +30094,47 @@
         "import_note": "Nhập: @taphoathomap_bot",
         "hidden": false,
         "needs_review": false
+      },
+      {
+        "id": "p-1795878992089",
+        "name": "Slot Antigravity dùng đủ 25k Credit 1 tháng BHF",
+        "price": 1350000,
+        "cost_price": 1150000,
+        "stock": 2,
+        "stock_text": "Còn 2",
+        "duration": "1 Tháng",
+        "detail": "Gói Slot Antigravity dùng đủ 25k Credit 1 tháng BHF bảo hành uy tín.",
+        "sources": {
+          "piggyai99_bot": {
+            "stock": 2,
+            "cost_price": 1150000,
+            "selling_price": 1350000,
+            "updated": "22:16 28/11/2026"
+          }
+        },
+        "cheapest_source": {
+          "bot": "@piggyai99_bot",
+          "cost_price": 1150000,
+          "stock": 2
+        },
+        "import_note": "Nhập: @piggyai99_bot",
+        "hidden": false,
+        "needs_review": false
       }
     ]
   },
   "_history": [
+    {
+      "id": "hist-1795878992089",
+      "time": "22:16 - 28/11/2026",
+      "name": "Slot Antigravity dùng đủ 25k Credit 1 tháng BHF",
+      "bot": "piggyai99_bot",
+      "price": 1350000,
+      "costPrice": 1150000,
+      "stockAfter": 2,
+      "catKey": "khac",
+      "msgKey": "🚀SlotAntigravitydùngđủ25kCredit1thángBHF➕Thêm:2📦Tồnkhohiệntại:2💰Giá:1.150.000đ"
+    },
     {
       "id": "hist-1795878985903",
       "time": "22:16 - 28/11/2026",
@@ -31186,17 +31223,6 @@
       "stockAfter": 12,
       "catKey": "khac",
       "msgKey": "⭐PIAVPN7NgàyBHF➕Thêm:5📦Tồnkhohiệntại:6💰Giá:35.000đ"
-    },
-    {
-      "id": "hist-1795878341707",
-      "time": "22:05 - 28/11/2026",
-      "name": "Meitu Vip+ 90D BHF",
-      "bot": "taphoathomap_bot",
-      "price": 185000,
-      "costPrice": 165000,
-      "stockAfter": 16,
-      "catKey": "meitu",
-      "msgKey": "✨MeituVip+90DBHF➕Thêm:3📦Tồnkhohiệntại:4💰Giá:165.000đ"
     }
   ],
   "vidiq": {
